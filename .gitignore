@@ -12,3 +12,23 @@ crash-reports/
 screenshots/
 dynamic-resource-pack-cache/
 .minecraft/
+
+# Minecraft runtime junk
+.mixin.out/
+backups/
+local/
+usercache.json
+command_history.txt
+
+# Temporary/config backup files
+*.bak
+*.tmp
+
+# Crash Assistant runtime data
+local/crash_assistant/
+
+# FTB/local runtime state
+local/ftbchunks/
+
+# User-specific client settings/state
+options.txt
