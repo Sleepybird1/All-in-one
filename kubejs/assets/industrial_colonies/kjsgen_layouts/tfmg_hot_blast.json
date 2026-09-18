@@ -1,0 +1,23 @@
+{
+  "id": "industrial_colonies:tfmg_hot_blast",
+  "mod": "tfmg",
+  "icon": "tfmg:blast_furnace_hatch",
+  "width": 150,
+  "height": 72,
+  "slots": [
+    { "key": "input1", "role": "INPUT", "x": 0, "y": 9, "required": true, "fluid": true },
+    { "key": "input2", "role": "INPUT", "x": 18, "y": 9, "required": true, "fluid": true },
+    { "key": "output1", "role": "OUTPUT", "x": 96, "y": 0, "required": true, "fluid": true },
+    { "key": "output2", "role": "OUTPUT", "x": 96, "y": 18, "required": true, "fluid": true }
+  ],
+  "decorations": [
+    { "type": "ARROW", "x": 55, "y": 9 },
+    { "type": "TEXT", "x": 0, "y": 46, "text": "2 fluids -> 2 fluids" }
+  ],
+  "parameters": [
+    { "key": "processingTime", "type": "INT", "default": "160" },
+    { "key": "__template", "type": "STRING", "default": "event.recipes.tfmg.hot_blast([{inputs}], [{outputs}], {param:processingTime})" }
+  ],
+  "codegen": "kjsgen:template",
+  "requiresMod": "tfmg"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "industrial_colonies:tfmg_industrial_blasting",
+  "mod": "tfmg",
+  "icon": "tfmg:blast_furnace_output",
+  "width": 150,
+  "height": 72,
+  "slots": [
+    { "key": "input1", "role": "INPUT", "x": 0, "y": 18, "required": true, "item": true, "tag": true, "count": true },
+    { "key": "input2", "role": "INPUT", "x": 18, "y": 18, "required": false, "item": true, "tag": true, "count": true },
+    { "key": "output1", "role": "OUTPUT", "x": 96, "y": 0, "required": true, "fluid": true },
+    { "key": "output2", "role": "OUTPUT", "x": 96, "y": 18, "required": true, "fluid": true },
+    { "key": "output3", "role": "OUTPUT", "x": 96, "y": 36, "required": false, "fluid": true }
+  ],
+  "decorations": [
+    { "type": "ARROW", "x": 55, "y": 18 },
+    { "type": "TEXT", "x": 0, "y": 55, "text": "1-2 items -> 2-3 fluids" }
+  ],
+  "parameters": [
+    { "key": "processingTime", "type": "INT", "default": "200" },
+    { "key": "hotAirUsage", "type": "INT", "default": "20" },
+    { "key": "__template", "type": "STRING", "default": "event.recipes.tfmg.industrial_blasting([{inputs}], [{outputs}], {param:processingTime}).hotAirUsage({param:hotAirUsage})" }
+  ],
+  "codegen": "kjsgen:template",
+  "requiresMod": "tfmg"
+}

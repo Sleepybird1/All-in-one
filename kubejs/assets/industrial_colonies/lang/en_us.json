@@ -4,5 +4,16 @@
   "item.industrial_colonies.patterned_silicon_wafer": "Finely Patterned Silicon Wafer",
   "item.industrial_colonies.annealed_silicon_wafer": "Annealed High-Density Wafer",
   "item.industrial_colonies.copper_contact_frame": "Copper Contact Frame",
-  "item.industrial_colonies.gold_bonding_wire": "Fine Gold Bonding Wire"
+  "item.industrial_colonies.gold_bonding_wire": "Fine Gold Bonding Wire",
+  "kjsgen.recipe_type.industrial_colonies.tfmg_industrial_blasting": "TFMG: Industrial Blasting",
+  "kjsgen.recipe_type.industrial_colonies.tfmg_hot_blast": "TFMG: Hot Blast",
+  "kjsgen.recipe_type.industrial_colonies.tfmg_chemical_vat": "TFMG: Chemical Vat",
+  "kjsgen.recipe_type.industrial_colonies.tfmg_chemical_vat_machine": "TFMG: Chemical Vat + Machine",
+  "kjsgen.recipe_type.industrial_colonies.create_fan_smelting": "Create: Encased Fan Smelting",
+  "kjsgen.param.processingTime": "Processing Time (ticks)",
+  "kjsgen.param.hotAirUsage": "Hot Air Usage",
+  "kjsgen.param.machineSetup": "Vat Machine Setup",
+  "kjsgen.param.heat": "Heat Requirement",
+  "kjsgen.param.heatLevel": "Vat Heat Level",
+  "kjsgen.param.minSize": "Minimum Vat Size"
 }

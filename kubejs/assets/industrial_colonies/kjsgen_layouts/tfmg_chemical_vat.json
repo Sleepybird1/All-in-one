@@ -1,0 +1,30 @@
+{
+  "id": "industrial_colonies:tfmg_chemical_vat",
+  "mod": "tfmg",
+  "icon": "tfmg:chemical_vat",
+  "width": 180,
+  "height": 108,
+  "slots": [
+    { "key": "input1", "role": "INPUT", "x": 0, "y": 0, "required": false, "item": true, "fluid": true, "tag": true, "count": true },
+    { "key": "input2", "role": "INPUT", "x": 18, "y": 0, "required": false, "item": true, "fluid": true, "tag": true, "count": true },
+    { "key": "input3", "role": "INPUT", "x": 0, "y": 18, "required": false, "item": true, "fluid": true, "tag": true, "count": true },
+    { "key": "input4", "role": "INPUT", "x": 18, "y": 18, "required": false, "item": true, "fluid": true, "tag": true, "count": true },
+    { "key": "output1", "role": "OUTPUT", "x": 126, "y": 0, "required": false, "item": true, "fluid": true, "count": true },
+    { "key": "output2", "role": "OUTPUT", "x": 144, "y": 0, "required": false, "item": true, "fluid": true, "count": true },
+    { "key": "output3", "role": "OUTPUT", "x": 126, "y": 18, "required": false, "item": true, "fluid": true, "count": true },
+    { "key": "output4", "role": "OUTPUT", "x": 144, "y": 18, "required": false, "item": true, "fluid": true, "count": true }
+  ],
+  "decorations": [
+    { "type": "ARROW", "x": 72, "y": 9 },
+    { "type": "TEXT", "x": 0, "y": 48, "text": "Base vat - items and/or fluids" }
+  ],
+  "parameters": [
+    { "key": "processingTime", "type": "INT", "default": "100" },
+    { "key": "heat", "type": "ENUM", "default": "none", "options": ["none", "heated", "superheated"] },
+    { "key": "heatLevel", "type": "INT", "default": "0" },
+    { "key": "minSize", "type": "INT", "default": "1" },
+    { "key": "__template", "type": "STRING", "default": "event.recipes.tfmg.vat_machine_recipe([{inputs}], [{outputs}]).processingTime({param:processingTime}){opt_call:heat}.minSize({param:minSize}).heatLevel({param:heatLevel})" }
+  ],
+  "codegen": "kjsgen:template",
+  "requiresMod": "tfmg"
+}
