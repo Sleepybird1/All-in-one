@@ -9,7 +9,6 @@
   "kjsgen.recipe_type.industrial_colonies.tfmg_hot_blast": "TFMG: Hot Blast",
   "kjsgen.recipe_type.industrial_colonies.tfmg_chemical_vat": "TFMG: Chemical Vat",
   "kjsgen.recipe_type.industrial_colonies.tfmg_chemical_vat_machine": "TFMG: Chemical Vat + Machine",
-  "kjsgen.recipe_type.industrial_colonies.create_fan_smelting": "Create: Encased Fan Smelting",
   "kjsgen.recipe_type.industrial_colonies.fan_fluid_processing": "Create: Fan Fluid Processing",
   "kjsgen.param.processingTime": "Processing Time (ticks)",
   "kjsgen.param.hotAirUsage": "Hot Air Usage",
