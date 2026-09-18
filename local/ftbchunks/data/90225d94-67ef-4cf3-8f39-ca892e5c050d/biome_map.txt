@@ -1,0 +1,2 @@
+#11D regions_unexplored:pine_taiga
+#7EA regions_unexplored:sparse_redwoods

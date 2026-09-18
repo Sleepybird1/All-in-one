@@ -42095,42 +42095,6 @@
       }
     },
     {
-      "uid": "0e8ec3d9-0d8d-52dd-b217-eadc3ae80f40",
-      "type": "kjsgen:create_compacting",
-      "recipeId": "industrial_colonies:steelworks/fireproof_bricks",
-      "comment": "[Weathered Iron] Structural forming for the first industrial plant.",
-      "replaceRecipe": false,
-      "slots": {
-        "__machine_process_compacting": {
-          "kind": "ITEM",
-          "id": "createcasing:weathered_iron_press"
-        },
-        "in0": {
-          "kind": "ITEM",
-          "id": "tfmg:fireproof_brick"
-        },
-        "in1": {
-          "kind": "ITEM",
-          "id": "tfmg:fireproof_brick"
-        },
-        "in2": {
-          "kind": "ITEM",
-          "id": "tfmg:fireproof_brick"
-        },
-        "in3": {
-          "kind": "ITEM",
-          "id": "tfmg:fireproof_brick"
-        },
-        "output": {
-          "kind": "ITEM",
-          "id": "tfmg:fireproof_bricks"
-        }
-      },
-      "params": {
-        "heat": "none"
-      }
-    },
-    {
       "uid": "627e6a6e-3814-58ef-b53a-4dd7839d27a7",
       "type": "kjsgen:create_mechanical_crafting",
       "recipeId": "industrial_colonies:tfmg_heavy_electrical/centrifuge",
@@ -49256,6 +49220,42 @@
         "seq0": "cutting",
         "__seqLen": "2",
         "seq1": "filling"
+      }
+    },
+    {
+      "uid": "0e8ec3d9-0d8d-52dd-b217-eadc3ae80f40",
+      "type": "kjsgen:create_compacting",
+      "recipeId": "industrial_colonies:steelworks/fireproof_bricks",
+      "comment": "[Weathered Iron] Structural forming for the first industrial plant.",
+      "replaceRecipe": false,
+      "slots": {
+        "in0": {
+          "kind": "ITEM",
+          "id": "tfmg:fireproof_brick"
+        },
+        "in1": {
+          "kind": "ITEM",
+          "id": "tfmg:fireproof_brick"
+        },
+        "in2": {
+          "kind": "ITEM",
+          "id": "tfmg:fireproof_brick"
+        },
+        "in3": {
+          "kind": "ITEM",
+          "id": "tfmg:fireproof_brick"
+        },
+        "output": {
+          "kind": "ITEM",
+          "id": "tfmg:fireproof_bricks"
+        },
+        "__machine_process_compacting": {
+          "kind": "ITEM",
+          "id": "create:mechanical_press"
+        }
+      },
+      "params": {
+        "heat": "none"
       }
     }
   ],

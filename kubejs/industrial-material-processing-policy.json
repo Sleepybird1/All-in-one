@@ -169,11 +169,6 @@
 		"reason": "Assigned machine-family ownership"
 	},
 	{
-		"id": "mekmm:processing/silver/slurry/dirty/from_ore",
-		"action": "remove",
-		"reason": "Raw feedstock must enter its owned processing chain"
-	},
-	{
 		"id": "mekanism:crushing/dewax/oxidized_copper_bulb",
 		"action": "remove",
 		"reason": "Assigned machine-family ownership"
@@ -255,11 +250,6 @@
 		"id": "mekanism:crushing/blackstone/chiseled_bricks_to_bricks",
 		"action": "remove",
 		"reason": "Assigned machine-family ownership"
-	},
-	{
-		"id": "mekmm:enriching/enriched/carbon",
-		"action": "remove",
-		"reason": "Raw feedstock must enter its owned processing chain"
 	},
 	{
 		"id": "modernfoundry:smeltery/melting/metal/steel/rod",
@@ -1066,11 +1056,6 @@
 		"reason": "Raw feedstock must enter its owned processing chain"
 	},
 	{
-		"id": "mekmm:processing/silver/dust/from_ingot",
-		"action": "remove",
-		"reason": "Assigned machine-family ownership"
-	},
-	{
 		"id": "mekanism:crushing/stone/to_cobblestone",
 		"action": "remove",
 		"reason": "Assigned machine-family ownership"
@@ -1368,11 +1353,6 @@
 	},
 	{
 		"id": "immersiveengineering:crafting/raw_block_lead_to_raw_lead",
-		"action": "remove",
-		"reason": "Raw feedstock must enter its owned processing chain"
-	},
-	{
-		"id": "mekmm:processing/silver/shard/from_raw_ore",
 		"action": "remove",
 		"reason": "Raw feedstock must enter its owned processing chain"
 	},
@@ -1692,11 +1672,6 @@
 	},
 	{
 		"id": "mekanism:processing/iron/dust/from_raw_ore",
-		"action": "remove",
-		"reason": "Raw feedstock must enter its owned processing chain"
-	},
-	{
-		"id": "mekmm:processing/silver/dust/from_raw_ore",
 		"action": "remove",
 		"reason": "Raw feedstock must enter its owned processing chain"
 	},
@@ -2242,11 +2217,6 @@
 		"reason": "Raw feedstock must enter its owned processing chain"
 	},
 	{
-		"id": "mekmm:processing/silver/clump/from_ore",
-		"action": "remove",
-		"reason": "Raw feedstock must enter its owned processing chain"
-	},
-	{
 		"id": "nuclearcraft:platinum_ingot_from_nugget",
 		"action": "remove",
 		"reason": "Nugget crafting violates fixed mB values; use Foundry"
@@ -2333,11 +2303,6 @@
 		"id": "immersiveengineering:crusher/cobblestone",
 		"action": "remove",
 		"reason": "Assigned machine-family ownership"
-	},
-	{
-		"id": "mekmm:processing/silver/shard/from_ore",
-		"action": "remove",
-		"reason": "Raw feedstock must enter its owned processing chain"
 	},
 	{
 		"id": "mekanism:crushing/andesite/stairs_from_polished_stairs",
@@ -2592,11 +2557,6 @@
 		"reason": "Assigned machine-family ownership"
 	},
 	{
-		"id": "mekmm:processing/silver/clump/from_raw_ore",
-		"action": "remove",
-		"reason": "Raw feedstock must enter its owned processing chain"
-	},
-	{
 		"id": "modernfoundry:smeltery/melting/metal/bronze/plate",
 		"action": "remove",
 		"reason": "Unverified scrap remelting under fixed metal values"
@@ -2674,11 +2634,6 @@
 		"id": "nuclearcraft:manufactory/beryllium",
 		"action": "remove",
 		"reason": "Owned processing intermediate acquisition"
-	},
-	{
-		"id": "eternal_starlight:alloy/gold_from_raw_materials",
-		"action": "remove",
-		"reason": "Raw feedstock must enter its owned processing chain"
 	},
 	{
 		"id": "deeperdarker:compatibility/create/crushing/sculk_stone_gold_ore",
@@ -3039,11 +2994,6 @@
 		"reason": "Raw feedstock must enter its owned processing chain"
 	},
 	{
-		"id": "mekmm:processing/silver/dust/from_dirty_dust",
-		"action": "remove",
-		"reason": "Raw feedstock must enter its owned processing chain"
-	},
-	{
 		"id": "modernfoundry:smeltery/casting/metal/cobalt/ingot_sand_cast",
 		"action": "normalize-metal-fluid"
 	},
@@ -3059,11 +3009,6 @@
 	},
 	{
 		"id": "mekanism:crushing/dewax/weathered_copper_bulb",
-		"action": "remove",
-		"reason": "Assigned machine-family ownership"
-	},
-	{
-		"id": "mekmm:processing/silver/slurry/clean",
 		"action": "remove",
 		"reason": "Assigned machine-family ownership"
 	},
@@ -3150,11 +3095,6 @@
 		"reason": "Assigned machine-family ownership"
 	},
 	{
-		"id": "mekmm:processing/silver/ingot/from_ore_blasting",
-		"action": "remove",
-		"reason": "Raw feedstock must enter its owned processing chain"
-	},
-	{
 		"id": "nuclearcraft:blasting/tin_dust",
 		"action": "remove",
 		"reason": "Raw feedstock must enter its owned processing chain"
@@ -3197,11 +3137,6 @@
 		"action": "normalize-metal-fluid"
 	},
 	{
-		"id": "eternal_starlight:alloy/gold_from_ores",
-		"action": "remove",
-		"reason": "Raw feedstock must enter its owned processing chain"
-	},
-	{
 		"id": "modernfoundry:smeltery/casts/gold/small_blade",
 		"action": "normalize-metal-fluid"
 	},
@@ -3240,11 +3175,6 @@
 	},
 	{
 		"id": "immersiveengineering:smelting/ingot_lead",
-		"action": "remove",
-		"reason": "Raw feedstock must enter its owned processing chain"
-	},
-	{
-		"id": "mekmm:processing/silver/slurry/dirty/from_raw_ore",
 		"action": "remove",
 		"reason": "Raw feedstock must enter its owned processing chain"
 	},
@@ -3459,11 +3389,6 @@
 		"reason": "Raw feedstock must enter its owned processing chain"
 	},
 	{
-		"id": "eternal_starlight:alloy/iron_from_ores",
-		"action": "remove",
-		"reason": "Raw feedstock must enter its owned processing chain"
-	},
-	{
 		"id": "createmetallurgy:grinding/exposed_copper_bulb",
 		"action": "remove",
 		"reason": "Assigned machine-family ownership"
@@ -3591,11 +3516,6 @@
 		"id": "immersiveengineering:crafting/nugget_silver_to_ingot_silver",
 		"action": "remove",
 		"reason": "Nugget crafting violates fixed mB values; use Foundry"
-	},
-	{
-		"id": "mekmm:processing/silver/dust/from_raw_block",
-		"action": "remove",
-		"reason": "Raw feedstock must enter its owned processing chain"
 	},
 	{
 		"id": "nuclearcraft:manufactory/lithium_raw",
@@ -3940,11 +3860,6 @@
 		"reason": "Assigned machine-family ownership"
 	},
 	{
-		"id": "eternal_starlight:alloy/copper_from_raw_materials",
-		"action": "remove",
-		"reason": "Raw feedstock must enter its owned processing chain"
-	},
-	{
 		"id": "createmetallurgy:melting/steel/nugget",
 		"action": "remove",
 		"reason": "Assigned machine-family ownership"
@@ -4201,11 +4116,6 @@
 		"reason": "Assigned machine-family ownership"
 	},
 	{
-		"id": "mekmm:processing/silver/shard/from_crystal",
-		"action": "remove",
-		"reason": "Raw feedstock must enter its owned processing chain"
-	},
-	{
 		"id": "mekanism:crushing/biofuel/mushrooms",
 		"action": "remove",
 		"reason": "Assigned machine-family ownership"
@@ -4446,11 +4356,6 @@
 		"reason": "Raw feedstock must enter its owned processing chain"
 	},
 	{
-		"id": "mekmm:processing/silver/clump/from_raw_block",
-		"action": "remove",
-		"reason": "Raw feedstock must enter its owned processing chain"
-	},
-	{
 		"id": "modernfoundry:smeltery/melting/metal/osmium/raw",
 		"action": "remove",
 		"reason": "Raw feedstock must enter its owned processing chain"
@@ -4563,11 +4468,6 @@
 	},
 	{
 		"id": "mekanism:processing/gold/slurry/dirty/from_ore",
-		"action": "remove",
-		"reason": "Raw feedstock must enter its owned processing chain"
-	},
-	{
-		"id": "mekmm:processing/silver/ingot/from_ore_smelting",
 		"action": "remove",
 		"reason": "Raw feedstock must enter its owned processing chain"
 	},
@@ -5386,11 +5286,6 @@
 		"reason": "Assigned machine-family ownership"
 	},
 	{
-		"id": "eternal_starlight:alloy/iron_from_raw_materials",
-		"action": "remove",
-		"reason": "Raw feedstock must enter its owned processing chain"
-	},
-	{
 		"id": "nuclearcraft:manufactory/uranium_raw",
 		"action": "remove",
 		"reason": "Owned processing intermediate acquisition"
@@ -5873,11 +5768,6 @@
 		"reason": "Assigned machine-family ownership"
 	},
 	{
-		"id": "mekmm:processing/silver/dirty_dust/from_clump",
-		"action": "remove",
-		"reason": "Assigned machine-family ownership"
-	},
-	{
 		"id": "rocketnautics:smelting/titanium_ingot_from_raw_ore",
 		"action": "remove",
 		"reason": "Raw feedstock must enter its owned processing chain"
@@ -6306,11 +6196,6 @@
 		"reason": "Raw feedstock must enter its owned processing chain"
 	},
 	{
-		"id": "mekmm:processing/silver/slurry/dirty/from_raw_block",
-		"action": "remove",
-		"reason": "Raw feedstock must enter its owned processing chain"
-	},
-	{
 		"id": "modernfoundry:smeltery/alloys/molten_electrum",
 		"action": "remove",
 		"reason": "Assigned machine-family ownership"
@@ -6354,11 +6239,6 @@
 		"id": "createmetallurgy:alloying/netherite",
 		"action": "remove",
 		"reason": "Assigned machine-family ownership"
-	},
-	{
-		"id": "eternal_starlight:alloy/copper_from_ores",
-		"action": "remove",
-		"reason": "Raw feedstock must enter its owned processing chain"
 	},
 	{
 		"id": "mekanism:processing/copper/clump/from_ore",
@@ -6612,11 +6492,6 @@
 		"id": "nuclearcraft:smelting/cobalt_dust",
 		"action": "remove",
 		"reason": "Raw feedstock must enter its owned processing chain"
-	},
-	{
-		"id": "createmetallurgy:melting/silver/dirty_dust",
-		"action": "remove",
-		"reason": "Assigned machine-family ownership"
 	},
 	{
 		"id": "createmetallurgy:grinding/waxed_oxidized_copper_door",
@@ -7184,11 +7059,6 @@
 	{
 		"id": "modernfoundry:compat/refined_glowstone_ingot",
 		"action": "normalize-metal-fluid"
-	},
-	{
-		"id": "mekmm:processing/silver/shard/from_raw_block",
-		"action": "remove",
-		"reason": "Raw feedstock must enter its owned processing chain"
 	},
 	{
 		"id": "mekanism:processing/lead/clump/from_shard",
@@ -7924,11 +7794,6 @@
 		"reason": "Assigned machine-family ownership"
 	},
 	{
-		"id": "mekmm:processing/silver/clump/from_shard",
-		"action": "remove",
-		"reason": "Raw feedstock must enter its owned processing chain"
-	},
-	{
 		"id": "createmetallurgy:melting/constantan/plate",
 		"action": "remove",
 		"reason": "Assigned machine-family ownership"
@@ -8134,11 +7999,6 @@
 	{
 		"id": "nuclearcraft:chemical_reactor/tin_silver_molten",
 		"action": "normalize-metal-fluid"
-	},
-	{
-		"id": "mekmm:processing/silver/dust/from_ore",
-		"action": "remove",
-		"reason": "Raw feedstock must enter its owned processing chain"
 	},
 	{
 		"id": "mekanism:processing/lead/shard/from_raw_ore",

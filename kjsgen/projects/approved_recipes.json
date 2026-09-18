@@ -10129,42 +10129,6 @@
       }
     },
     {
-      "uid": "c062c82a-04dc-581f-9868-87179678bba4",
-      "type": "kjsgen:create_compacting",
-      "recipeId": "industrial_colonies:space_coverage/rover_wheel_pair",
-      "comment": "[Planetary Industry] Mold two rover wheels around geared steel hubs with layered TFMG rubber and magnetic traction reinforcement",
-      "replaceRecipe": false,
-      "slots": {
-        "__machine_process_compacting": {
-          "kind": "ITEM",
-          "id": "createcasing:railway_press"
-        },
-        "in0": {
-          "kind": "ITEM",
-          "id": "tfmg:steel_cogwheel",
-          "count": 2
-        },
-        "in1": {
-          "kind": "ITEM",
-          "id": "tfmg:rubber_sheet",
-          "count": 8
-        },
-        "in2": {
-          "kind": "ITEM",
-          "id": "tfmg:magnetic_alloy_sheet",
-          "count": 2
-        },
-        "output": {
-          "kind": "ITEM",
-          "id": "ad_astra:wheel",
-          "count": 2
-        }
-      },
-      "params": {
-        "heat": "none"
-      }
-    },
-    {
       "uid": "20260765-db44-5ecb-b3b4-92df99246c36",
       "type": "kjsgen:create_sequenced_assembly",
       "recipeId": "industrial_colonies:space_hardware/etrionic_capacitor",
@@ -29002,6 +28966,82 @@
         "in3": {
           "kind": "ITEM",
           "id": "minecraft:fire_charge"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "9cae5c3e-65de-4598-9d14-b3743df86a48",
+      "type": "kjsgen:create_sequenced_assembly",
+      "slots": {
+        "output0": {
+          "kind": "ITEM",
+          "id": "tfmg:cast_iron_frame"
+        },
+        "input": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:sheetmetal_iron"
+        },
+        "transitional": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:sheetmetal_iron"
+        },
+        "seqItem1": {
+          "kind": "ITEM",
+          "id": "tfmg:cast_iron_sheet"
+        },
+        "seqItem2": {
+          "kind": "ITEM",
+          "id": "createbigcannons:cast_iron_ingot"
+        },
+        "seqItem4": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:stick_iron"
+        },
+        "seqItem6": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:stick_iron"
+        }
+      },
+      "params": {
+        "__seqLen": "8",
+        "seq0": "cutting",
+        "seq1": "deploying",
+        "seq2": "deploying",
+        "seq3": "cutting",
+        "seq4": "deploying",
+        "seq5": "pressing",
+        "seq6": "deploying",
+        "seq7": "pressing"
+      }
+    },
+    {
+      "uid": "850adbbb-b976-42dd-b764-f37d37836dc0",
+      "type": "kjsgen:create_mixing",
+      "slots": {
+        "__machine_process_mixing": {
+          "kind": "ITEM",
+          "id": "create:mechanical_mixer"
+        },
+        "in0": {
+          "kind": "ITEM",
+          "id": "minecraft:fire_charge"
+        },
+        "in1": {
+          "kind": "ITEM",
+          "id": "mekanism:dust_coal"
+        },
+        "in2": {
+          "kind": "ITEM",
+          "id": "create:crushed_raw_iron"
+        },
+        "in3": {
+          "kind": "ITEM",
+          "id": "minecraft:flint"
+        },
+        "output": {
+          "kind": "ITEM",
+          "id": "mekanism:dirty_dust_iron"
         }
       },
       "params": {}

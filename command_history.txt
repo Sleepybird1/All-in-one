@@ -1,5 +1,3 @@
-/weather clear
-/weather clear 1000000d
 /time set day
 /gamerule doDaylightCycle false
 /clear
@@ -47,3 +45,6 @@
 /structureessentials getStructuresNearby
 /clear
 /exportinventoryicons
+/give_me_kit
+/give_me_kit www
+/gamemode creative

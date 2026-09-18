@@ -1,0 +1,13 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"mekanism:dirty_dust_iron"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"modernfoundry:materials_and_you"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"mekanism:creative_chemical_tank","components":"{\"mekanism:chemicals\":{chemical_tanks:[{amount:9223372036854775807L,id:\"mekanism:dirty_iron\"}]}}"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"tfmg:cast_iron_block"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"createbigcannons:unbored_cast_iron_cannon_chamber"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"tfmg:cast_iron_ingot"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"tfmg:cast_iron_nugget"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"immersiveengineering:stick_iron"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"modernfoundry:tool_handle","components":"{\"minecraft:custom_data\":{Material:\"modernfoundry:iron\"}}"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"modernfoundry:hand_axe","components":"{\"minecraft:custom_data\":{tic_materials:[\"modernfoundry:iron\",\"modernfoundry:iron\",\"modernfoundry:iron\"],tic_modifiers:[{level:3,name:\"modernfoundry:magnetic\"},{level:1,name:\"modernfoundry:stripping\"}],tic_persistent:{},tic_stats:{\"modernfoundry:attack_damage\":8.0f,\"modernfoundry:attack_speed\":0.9f,\"modernfoundry:durability\":275.0f,\"modernfoundry:harvest_tier\":\"minecraft:iron\",\"modernfoundry:mining_speed\":6.0f},tic_volatile_data:{abilities:1,\"modernfoundry:magnet\":3,upgrades:3}}}"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]
