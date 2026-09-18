@@ -11,21 +11,31 @@ global.IndustrialFanProcessing = global.IndustrialFanProcessing || {
   definitions: [],
 
   register(definition) {
-    if (!definition || !definition.input || !definition.fluid || !definition.outputs) {
+    if (!definition || !definition.fan || !definition.input || !definition.fluid || !definition.outputs) {
       console.error('[Industrial Colonies] Invalid Fan Fluid Processing definition: ' + JSON.stringify(definition))
       return
     }
 
-    const mode = String(definition.mode || 'heat').toLowerCase()
-    const validModes = ['heat', 'wash', 'cool', 'reactive']
+    const processingType = String(definition.processingType || 'fluid').toLowerCase()
+    const validProcessingTypes = ['fluid', 'heat']
 
-    if (!validModes.includes(mode)) {
-      console.error('[Industrial Colonies] Invalid Fan Fluid Processing mode "' + mode + '".')
+    if (!validProcessingTypes.includes(processingType)) {
+      console.error('[Industrial Colonies] Invalid fan processing type "' + processingType + '".')
       return
     }
 
-    definition.mode = mode
+    definition.processingType = processingType
     definition.consumeFluid = definition.consumeFluid === true
+
+    // Heat-processing recipes are intended to use fluids in
+    // #industrial_colonies:fan_hot_fluids. The KJSGen fluid browser currently
+    // cannot filter its search results by an arbitrary tag, so the editor still
+    // permits any fluid to be selected. The backend bridge should enforce this
+    // tag when processingType === 'heat'.
+    definition.hotFluidTag = processingType === 'heat'
+      ? 'industrial_colonies:fan_hot_fluids'
+      : null
+
     this.definitions.push(definition)
   }
 }
