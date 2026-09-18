@@ -1,0 +1,7 @@
+{
+	"shown_reasons": {
+		"MissingUnsupportedDependencies": true,
+		"AzureLibAddons": true,
+		"MixinApply": true
+	}
+}

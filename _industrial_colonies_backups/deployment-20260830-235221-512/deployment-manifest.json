@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "completed_at": "2026-08-30T23:52:21.6872690-04:00",
+  "project_root": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies",
+  "live_pack_root": "C:\\Users\\GodPC\\curseforge\\minecraft\\Instances\\All in one",
+  "project_jar_sha256": "55CEEED402990679143CFC2A6FD66AFBE80E512039D759357746397D7887EBF7",
+  "owned_server_scripts": 41,
+  "owned_client_scripts": 8,
+  "owned_ftbquests_files": 4,
+  "recipe_stage_mappings": 0,
+  "changes": [
+    {
+      "Action": "Industrial Colonies mod JAR",
+      "Source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\build\\libs\\industrial_colonies-0.4.0.jar",
+      "Destination": "C:\\Users\\GodPC\\curseforge\\minecraft\\Instances\\All in one\\mods\\industrial_colonies-0.4.0.jar",
+      "Sha256": "55CEEED402990679143CFC2A6FD66AFBE80E512039D759357746397D7887EBF7"
+    },
+    {
+      "Action": "KubeJS server script",
+      "Source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\pack-scripts\\server_scripts\\industrial_primitive_tool_progression.js",
+      "Destination": "C:\\Users\\GodPC\\curseforge\\minecraft\\Instances\\All in one\\kubejs\\server_scripts\\industrial_primitive_tool_progression.js",
+      "Sha256": "B12F195877DB4A50E11BD8CE67130859B98644C633AE07CE74A6A33DE0C8E9A3"
+    }
+  ]
+}

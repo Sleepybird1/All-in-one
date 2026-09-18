@@ -1,0 +1,232 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "rsquare"
+	filename: "electrical_manufacturing"
+	group: ""
+	id: "66B4C51A8A428007"
+	images: [ ]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["0DBF619FB292F51B"]
+			disable_toast: true
+			icon: {
+				id: "tfmg:generator"
+			}
+			id: "4B2C38F6A6067EFC"
+			tags: [
+				"industrial_colonies:physical_guidance"
+				"industrial_colonies:physical_guidance/phase/electrical_manufacturing"
+				"industrial_colonies:physical_guidance/electromechanical_conversion"
+			]
+			tasks: [
+				{
+					id: "799FCCC7111F3D77"
+					item: { count: 1, id: "tfmg:generator" }
+					type: "item"
+				}
+				{
+					id: "7DCCDFF92E60C28B"
+					item: { count: 1, id: "tfmg:electric_motor" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4B2C38F6A6067EFC"]
+			disable_toast: true
+			icon: {
+				id: "tfmg:winding_machine"
+			}
+			id: "63A0F1E445367DFF"
+			tags: [
+				"industrial_colonies:physical_guidance"
+				"industrial_colonies:physical_guidance/phase/electrical_manufacturing"
+				"industrial_colonies:physical_guidance/electronics_workshop"
+			]
+			tasks: [
+				{
+					id: "05FB0AAAA20218C8"
+					item: { count: 1, id: "tfmg:winding_machine" }
+					type: "item"
+				}
+				{
+					id: "23DCB3E75FC86A56"
+					item: { count: 1, id: "tfmg:voltmeter" }
+					type: "item"
+				}
+				{
+					id: "358EF6B7F72B04D8"
+					item: { count: 1, id: "tfmg:polarizer" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4B2C38F6A6067EFC"]
+			disable_toast: true
+			icon: {
+				id: "tfmg:cable_connector"
+			}
+			id: "5B5F230617D7F2F6"
+			tags: [
+				"industrial_colonies:physical_guidance"
+				"industrial_colonies:physical_guidance/phase/electrical_manufacturing"
+				"industrial_colonies:physical_guidance/local_power_network"
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "4355E3AD2D2140C9"
+					item: { count: 1, id: "tfmg:cable_connector" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "02D3B97933A018FC"
+					item: { count: 1, id: "tfmg:copper_cable_hub" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["63A0F1E445367DFF"]
+			disable_toast: true
+			icon: {
+				id: "tfmg:capacitor_item"
+			}
+			id: "72079119200F4E33"
+			tags: [
+				"industrial_colonies:physical_guidance"
+				"industrial_colonies:physical_guidance/phase/electrical_manufacturing"
+				"industrial_colonies:physical_guidance/industrial_circuit_line"
+			]
+			tasks: [
+				{
+					count: 8L
+					id: "649DF8B490A98401"
+					item: { count: 1, id: "tfmg:capacitor_item" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "3AF2837CF3EA4CC8"
+					item: { count: 1, id: "tfmg:transistor_item" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "398F8D21D6B3A20D"
+					item: { count: 1, id: "tfmg:circuit_board" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"63A0F1E445367DFF"
+				"5B5F230617D7F2F6"
+			]
+			disable_toast: true
+			icon: {
+				id: "tfmg:steel_chemical_vat"
+			}
+			id: "45E416C00E24B6A6"
+			tags: [
+				"industrial_colonies:physical_guidance"
+				"industrial_colonies:physical_guidance/phase/electrical_manufacturing"
+				"industrial_colonies:physical_guidance/chemical_power_services"
+			]
+			tasks: [
+				{
+					id: "643EBD79BCD9AFE2"
+					item: { count: 1, id: "tfmg:steel_chemical_vat" }
+					type: "item"
+				}
+				{
+					id: "43B3DE24EBDCCEDA"
+					item: { count: 1, id: "tfmg:accumulator" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"5B5F230617D7F2F6"
+				"45E416C00E24B6A6"
+			]
+			disable_toast: true
+			icon: {
+				id: "electroenergetics:copper_wire_spool"
+			}
+			id: "5AB1E00E8E1C2241"
+			tags: [
+				"industrial_colonies:physical_guidance"
+				"industrial_colonies:physical_guidance/phase/electrical_manufacturing"
+				"industrial_colonies:physical_guidance/utility_grid_plant"
+			]
+			tasks: [
+				{
+					count: 2L
+					id: "129284B50957291D"
+					item: { count: 1, id: "electroenergetics:copper_wire_spool" }
+					type: "item"
+				}
+				{
+					id: "7F3EFBAF90439049"
+					item: { count: 1, id: "electroenergetics:alternator_rotor" }
+					type: "item"
+				}
+				{
+					id: "41E9035BE0DFA602"
+					item: { count: 1, id: "electroenergetics:alternator_brushes" }
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"72079119200F4E33"
+				"5AB1E00E8E1C2241"
+			]
+			disable_toast: true
+			icon: {
+				id: "electroenergetics:accumulator"
+			}
+			id: "5CE1866C695CC2E0"
+			tags: [
+				"industrial_colonies:physical_guidance"
+				"industrial_colonies:physical_guidance/phase/electrical_manufacturing"
+				"industrial_colonies:physical_guidance/grid_storage_and_control"
+			]
+			tasks: [
+				{
+					id: "46AB94CD557823C5"
+					item: { count: 1, id: "electroenergetics:accumulator" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "16F36EC3F209D66F"
+					item: { count: 1, id: "electroenergetics:resistor" }
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 0.0d
+		}
+	]
+}

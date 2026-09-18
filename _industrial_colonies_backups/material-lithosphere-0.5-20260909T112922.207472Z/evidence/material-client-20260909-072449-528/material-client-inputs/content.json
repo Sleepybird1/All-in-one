@@ -1,0 +1,402 @@
+{
+  "items": {
+    "reduced_iron_fraction": {
+      "name": "Reduced Iron Fraction (75 mB)",
+      "texture": "minecraft:item/iron_nugget"
+    },
+    "iron_bearing_dust": {
+      "name": "Iron Bearing Dust",
+      "texture": "minecraft:item/gunpowder"
+    },
+    "crushed_chalcopyrite": {
+      "name": "Crushed Chalcopyrite",
+      "texture": "create:item/crushed_raw_copper"
+    },
+    "crushed_cassiterite": {
+      "name": "Crushed Cassiterite",
+      "texture": "minecraft:item/gunpowder"
+    },
+    "heavy_cassiterite_concentrate": {
+      "name": "Heavy Cassiterite Concentrate",
+      "texture": "minecraft:item/gunpowder"
+    },
+    "roasted_cinnabar": {
+      "name": "Roasted Cinnabar",
+      "texture": "minecraft:item/redstone"
+    },
+    "cinnabar_dust": {
+      "name": "Cinnabar Dust",
+      "texture": "minecraft:item/redstone"
+    },
+    "trace_mercury_residue": {
+      "name": "Trace Mercury Residue",
+      "texture": "minecraft:item/iron_nugget"
+    },
+    "platinum_trace_fragment": {
+      "name": "Platinum Trace Fragment",
+      "texture": "minecraft:item/iron_nugget"
+    },
+    "iridium_trace_fragment": {
+      "name": "Iridium Trace Fragment",
+      "texture": "minecraft:item/iron_nugget"
+    },
+    "sphalerite_dust": {
+      "name": "Sphalerite Dust",
+      "texture": "minecraft:item/gunpowder"
+    },
+    "zinc_precipitate": {
+      "name": "Zinc Precipitate",
+      "texture": "minecraft:item/gunpowder"
+    },
+    "galena_dust": {
+      "name": "Galena Dust",
+      "texture": "minecraft:item/gunpowder"
+    },
+    "roasted_galena": {
+      "name": "Roasted Galena / Lead Oxide Fraction",
+      "texture": "minecraft:item/gunpowder"
+    },
+    "crude_lead_granules": {
+      "name": "Crude Lead Granules",
+      "texture": "minecraft:item/gunpowder"
+    },
+    "high_purity_lead": {
+      "name": "High Purity Lead",
+      "texture": "minecraft:item/gunpowder"
+    },
+    "pentlandite_dust": {
+      "name": "Pentlandite Dust",
+      "texture": "minecraft:item/gunpowder"
+    },
+    "nickel_precipitate": {
+      "name": "Nickel Precipitate",
+      "texture": "minecraft:item/gunpowder"
+    },
+    "cobalt_precipitate": {
+      "name": "Cobalt Precipitate",
+      "texture": "minecraft:item/gunpowder"
+    },
+    "nickel_only_concentrate": {
+      "name": "Nickel Concentrate (No Cobalt)",
+      "texture": "minecraft:item/gunpowder"
+    },
+    "cobalt_rich_concentrate": {
+      "name": "Cobalt Rich Concentrate",
+      "texture": "minecraft:item/gunpowder"
+    },
+    "nickel_oxide": {
+      "name": "Nickel Oxide",
+      "texture": "minecraft:item/gunpowder"
+    },
+    "cobalt_oxide": {
+      "name": "Cobalt Oxide",
+      "texture": "minecraft:item/gunpowder"
+    },
+    "alumina": {
+      "name": "Alumina",
+      "texture": "minecraft:item/gunpowder"
+    },
+    "electrolytic_aluminum_granules": {
+      "name": "Electrolytic Aluminum Granules",
+      "texture": "minecraft:item/gunpowder"
+    },
+    "dolomite_dust": {
+      "name": "Dolomite Dust",
+      "texture": "minecraft:item/gunpowder"
+    },
+    "calcined_dolomite": {
+      "name": "Calcined Dolomite",
+      "texture": "minecraft:item/gunpowder"
+    },
+    "ilmenite_dust": {
+      "name": "Ilmenite Dust",
+      "texture": "minecraft:item/gunpowder"
+    },
+    "titanium_rich_concentrate": {
+      "name": "Titanium Rich Concentrate",
+      "texture": "minecraft:item/gunpowder"
+    },
+    "titanium_sponge": {
+      "name": "Titanium Sponge",
+      "texture": "minecraft:item/gunpowder"
+    },
+    "wolframite_dust": {
+      "name": "Wolframite Dust",
+      "texture": "minecraft:item/gunpowder"
+    },
+    "tungstate_precipitate": {
+      "name": "Tungstate Precipitate",
+      "texture": "minecraft:item/gunpowder"
+    },
+    "tungsten_oxide": {
+      "name": "Tungsten Oxide",
+      "texture": "minecraft:item/gunpowder"
+    },
+    "chromite_dust": {
+      "name": "Chromite Dust",
+      "texture": "minecraft:item/gunpowder"
+    },
+    "alkaline_roasted_chromite": {
+      "name": "Alkaline Roasted Chromite",
+      "texture": "minecraft:item/gunpowder"
+    },
+    "chromium_bearing_fraction": {
+      "name": "Chromium Bearing Fraction",
+      "texture": "minecraft:item/gunpowder"
+    },
+    "chromium_precipitate": {
+      "name": "Chromium Precipitate",
+      "texture": "minecraft:item/gunpowder"
+    },
+    "spodumene_dust": {
+      "name": "Spodumene Dust",
+      "texture": "minecraft:item/gunpowder"
+    },
+    "activated_spodumene": {
+      "name": "Activated Spodumene",
+      "texture": "minecraft:item/gunpowder"
+    },
+    "lithium_precipitate": {
+      "name": "Lithium Precipitate",
+      "texture": "minecraft:item/gunpowder"
+    },
+    "argentite_dust": {
+      "name": "Argentite Dust",
+      "texture": "minecraft:item/gunpowder"
+    },
+    "roasted_argentite": {
+      "name": "Roasted Argentite",
+      "texture": "minecraft:item/gunpowder"
+    },
+    "phosphate_dust": {
+      "name": "Phosphate Dust",
+      "texture": "minecraft:item/gunpowder"
+    },
+    "conditioned_phosphate": {
+      "name": "Conditioned Phosphate",
+      "texture": "minecraft:item/gunpowder"
+    },
+    "purified_phosphate_compound": {
+      "name": "Purified Phosphate Compound",
+      "texture": "minecraft:item/gunpowder"
+    },
+    "elemental_phosphorus": {
+      "name": "Elemental Phosphorus",
+      "texture": "minecraft:item/gunpowder"
+    },
+    "graphite_concentrate": {
+      "name": "Graphite Concentrate",
+      "texture": "minecraft:item/gunpowder"
+    },
+    "high_purity_graphite": {
+      "name": "High Purity Graphite",
+      "texture": "minecraft:item/gunpowder"
+    },
+    "bertrandite_dust": {
+      "name": "Bertrandite Dust",
+      "texture": "minecraft:item/gunpowder"
+    },
+    "beryllium_precipitate": {
+      "name": "Beryllium Precipitate",
+      "texture": "minecraft:item/gunpowder"
+    },
+    "beryllium_oxide": {
+      "name": "Beryllium Oxide",
+      "texture": "minecraft:item/gunpowder"
+    },
+    "boron_oxide": {
+      "name": "Boron Oxide",
+      "texture": "minecraft:item/gunpowder"
+    },
+    "uranium_bearing_dust": {
+      "name": "Uranium Bearing Dust",
+      "texture": "minecraft:item/gunpowder"
+    },
+    "uranium_concentrate": {
+      "name": "Uranium Concentrate",
+      "texture": "minecraft:item/gunpowder"
+    },
+    "refined_uranium_compound": {
+      "name": "Refined Uranium Compound",
+      "texture": "minecraft:item/gunpowder"
+    },
+    "thorium_bearing_dust": {
+      "name": "Thorium Bearing Dust",
+      "texture": "minecraft:item/gunpowder"
+    },
+    "thorium_concentrate": {
+      "name": "Thorium Concentrate",
+      "texture": "minecraft:item/gunpowder"
+    },
+    "refined_thorium_compound": {
+      "name": "Refined Thorium Compound",
+      "texture": "minecraft:item/gunpowder"
+    },
+    "ultramafic_dust": {
+      "name": "Ultramafic Dust",
+      "texture": "minecraft:item/gunpowder"
+    },
+    "iridium_bearing_refractory_residue": {
+      "name": "Iridium Bearing Refractory Residue",
+      "texture": "minecraft:item/gunpowder"
+    },
+    "osmium_bearing_fraction": {
+      "name": "Osmium Bearing Fraction",
+      "texture": "minecraft:item/gunpowder"
+    },
+    "platinum_bearing_fraction": {
+      "name": "Platinum Bearing Fraction",
+      "texture": "minecraft:item/gunpowder"
+    },
+    "purified_iridium_fraction": {
+      "name": "Purified Iridium Fraction",
+      "texture": "minecraft:item/gunpowder"
+    },
+    "rich_osmium_concentrate": {
+      "name": "Rich Osmium Concentrate",
+      "texture": "minecraft:item/gunpowder"
+    },
+    "rich_platinum_concentrate": {
+      "name": "Rich Platinum Concentrate",
+      "texture": "minecraft:item/gunpowder"
+    },
+    "rich_iridium_concentrate": {
+      "name": "Rich Iridium Concentrate",
+      "texture": "minecraft:item/gunpowder"
+    },
+    "fine_silica_dust": {
+      "name": "Fine Silica Dust",
+      "texture": "minecraft:item/quartz"
+    },
+    "high_purity_silicon": {
+      "name": "High Purity Silicon",
+      "texture": "tfmg:item/silicon_ingot"
+    },
+    "purified_silicon_precursor": {
+      "name": "Purified Silicon Precursor",
+      "texture": "minecraft:item/quartz"
+    },
+    "high_purity_refractory_lattice": {
+      "name": "High Purity Refractory Lattice",
+      "texture": "minecraft:item/netherite_ingot"
+    },
+    "rare_pgm_matrix": {
+      "name": "Rare Pgm Matrix",
+      "texture": "minecraft:item/iron_ingot"
+    },
+    "radiant_silicon_substrate": {
+      "name": "Radiant Silicon Substrate",
+      "texture": "tfmg:item/p_semiconductor"
+    },
+    "radiant_precursor": {
+      "name": "Radiant Precursor",
+      "texture": "create:item/chromatic_compound_0"
+    },
+    "pressure_conditioned_radiant_composite": {
+      "name": "Pressure Conditioned Radiant Composite",
+      "texture": "create:item/chromatic_compound_0"
+    }
+  },
+  "fluids": {
+    "molten_titanium": {
+      "name": "Molten Titanium",
+      "color": 4292727744
+    },
+    "molten_iridium": {
+      "name": "Molten Iridium",
+      "color": 4292727744
+    },
+    "spent_leach_liquor": {
+      "name": "Spent Leach Liquor",
+      "color": 4285032016
+    },
+    "zinc_bearing_solution": {
+      "name": "Zinc Bearing Solution",
+      "color": 4288987072
+    },
+    "mixed_nickel_cobalt_solution": {
+      "name": "Mixed Nickel Cobalt Solution",
+      "color": 4284577635
+    },
+    "clarified_nickel_cobalt_solution": {
+      "name": "Clarified Nickel Cobalt Solution",
+      "color": 4286682990
+    },
+    "cobalt_bearing_mother_liquor": {
+      "name": "Cobalt Bearing Mother Liquor",
+      "color": 4284777375
+    },
+    "nickel_only_solution": {
+      "name": "Nickel Only Solution",
+      "color": 4287865705
+    },
+    "alumina_rich_slurry": {
+      "name": "Alumina Rich Slurry",
+      "color": 4291541416
+    },
+    "clarified_aluminate_solution": {
+      "name": "Clarified Aluminate Solution",
+      "color": 4293450179
+    },
+    "magnesium_bearing_solution": {
+      "name": "Magnesium Bearing Solution",
+      "color": 4290624168
+    },
+    "magnesium_chloride": {
+      "name": "Purified Magnesium Chloride",
+      "color": 4292796617
+    },
+    "crude_titanium_tetrachloride": {
+      "name": "Crude Titanium Tetrachloride",
+      "color": 4289043320
+    },
+    "purified_titanium_tetrachloride": {
+      "name": "Purified Titanium Tetrachloride",
+      "color": 4291810773
+    },
+    "tungstate_solution": {
+      "name": "Tungstate Solution",
+      "color": 4286747030
+    },
+    "lithium_bearing_solution": {
+      "name": "Lithium Bearing Solution",
+      "color": 4291079886
+    },
+    "silver_bearing_solution": {
+      "name": "Silver Bearing Solution",
+      "color": 4290167505
+    },
+    "phosphoric_acid": {
+      "name": "Phosphoric Acid",
+      "color": 4291675032
+    },
+    "beryllium_bearing_solution": {
+      "name": "Beryllium Bearing Solution",
+      "color": 4290567353
+    },
+    "purified_borate_solution": {
+      "name": "Purified Borate Solution",
+      "color": 4292337856
+    },
+    "mixed_pgm_solution": {
+      "name": "Mixed Pgm Solution",
+      "color": 4284508792
+    },
+    "platinum_iridium_mother_liquor": {
+      "name": "Platinum Iridium Mother Liquor",
+      "color": 4285952136
+    },
+    "desulfurized_heavy_oil": {
+      "name": "Desulfurized Heavy Oil",
+      "color": 4281676579
+    },
+    "captured_refinery_sulfide": {
+      "name": "Captured Refinery Sulfide",
+      "color": 4290495353
+    },
+    "coal_tar": {
+      "name": "Coal Tar",
+      "color": 4280623127
+    }
+  }
+}

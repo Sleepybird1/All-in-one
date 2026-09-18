@@ -1,0 +1,1463 @@
+{
+  "stage": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\material-client-20260909-072449-528",
+  "waitingStartedUtc": "2026-09-09T11:26:22.913968100Z",
+  "initialScreenWait": {
+    "elapsedMilliseconds": 31812,
+    "limitMilliseconds": 180000,
+    "screenClass": "net.minecraft.client.gui.screens.TitleScreen",
+    "overlayClass": "net.neoforged.neoforge.client.loading.NeoForgeLoadingOverlay",
+    "screenDismissed": false
+  },
+  "titleReadyAfterMilliseconds": 33813,
+  "initialOptionsSeed": {
+    "file": "options.txt",
+    "content": "onboardAccessibility:false\n",
+    "sha256": "FBEC202E13E01A12E7D56027F1245C9FC941CF176681640D56EBBB47CBA4963B",
+    "purpose": "Skip only native first-launch accessibility orientation in this new disposable profile",
+    "otherOptions": "Unspecified; native defaults. No live options copied and no authentication/privacy preferences changed.",
+    "verifiedMinecraftSha256": "BC811B3368CA4E056672AB7425682247A68AB72210F14B0BA68B91EEAE040CE3"
+  },
+  "startedUtc": "2026-09-09T11:26:57.511322Z",
+  "scope": "Real full-client stitched sprites, baked models, GPU item/fluid sheet renders and transformed Radiance redirect; no connection, world, player operation or survival certification",
+  "graphicsBackend": "LWJGL version 3.3.3+5",
+  "graphicsApi": "NVIDIA GeForce RTX 4090/PCIe/SSE2 GL version 4.6.0 NVIDIA 610.88, NVIDIA Corporation",
+  "physicalInputJars": 241,
+  "loadedModIds": 338,
+  "candidateSha256": "8DF80E5C7E4B447F651696A9383A1487B26F557A67D6263DEAFA3805BC675D91",
+  "contentSha256": "2F56C071A584FAFAE4EE59F6ED8AE87CEAFBD851E0EE9F87F4E89D30942A693B",
+  "catalogSha256": "31F344D33295A70F4CC19C1F38B56C604DD13965C7E77E7EC701BC3EFAD4AD45",
+  "catalogRecipes": 299,
+  "geologyModels": [
+    {
+      "id": "sphalerite",
+      "blockQuads": 6,
+      "sprites": {
+        "industrial_colonies:block/geology/sphalerite": [
+          16,
+          16
+        ]
+      }
+    },
+    {
+      "id": "rich_sphalerite",
+      "blockQuads": 6,
+      "sprites": {
+        "industrial_colonies:block/geology/rich_sphalerite": [
+          16,
+          16
+        ]
+      }
+    },
+    {
+      "id": "rich_copper_ore",
+      "blockQuads": 6,
+      "sprites": {
+        "industrial_colonies:block/geology/rich_copper_ore": [
+          16,
+          16
+        ]
+      }
+    },
+    {
+      "id": "chalcopyrite",
+      "blockQuads": 6,
+      "sprites": {
+        "industrial_colonies:block/geology/chalcopyrite": [
+          16,
+          16
+        ]
+      }
+    },
+    {
+      "id": "hematite",
+      "blockQuads": 6,
+      "sprites": {
+        "industrial_colonies:block/geology/hematite": [
+          16,
+          16
+        ]
+      }
+    },
+    {
+      "id": "magnetite",
+      "blockQuads": 6,
+      "sprites": {
+        "industrial_colonies:block/geology/magnetite": [
+          16,
+          16
+        ]
+      }
+    },
+    {
+      "id": "bauxite",
+      "blockQuads": 6,
+      "sprites": {
+        "industrial_colonies:block/geology/bauxite": [
+          16,
+          16
+        ]
+      }
+    },
+    {
+      "id": "cinnabar",
+      "blockQuads": 6,
+      "sprites": {
+        "industrial_colonies:block/geology/cinnabar": [
+          16,
+          16
+        ]
+      }
+    },
+    {
+      "id": "spodumene_rock",
+      "blockQuads": 6,
+      "sprites": {
+        "industrial_colonies:block/geology/spodumene_rock_bottom": [
+          16,
+          16
+        ],
+        "industrial_colonies:block/geology/spodumene_rock_top": [
+          16,
+          16
+        ],
+        "industrial_colonies:block/geology/spodumene_rock_side": [
+          16,
+          16
+        ]
+      }
+    },
+    {
+      "id": "spodumene_ore",
+      "blockQuads": 6,
+      "sprites": {
+        "industrial_colonies:block/geology/spodumene_ore": [
+          16,
+          16
+        ]
+      }
+    },
+    {
+      "id": "argentite",
+      "blockQuads": 6,
+      "sprites": {
+        "industrial_colonies:block/geology/argentite": [
+          16,
+          16
+        ]
+      }
+    },
+    {
+      "id": "rich_silver_ore",
+      "blockQuads": 6,
+      "sprites": {
+        "industrial_colonies:block/geology/rich_silver_ore": [
+          16,
+          16
+        ]
+      }
+    },
+    {
+      "id": "wolframite_rock",
+      "blockQuads": 6,
+      "sprites": {
+        "industrial_colonies:block/geology/wolframite_rock": [
+          16,
+          16
+        ]
+      }
+    },
+    {
+      "id": "rich_wolframite_ore",
+      "blockQuads": 6,
+      "sprites": {
+        "industrial_colonies:block/geology/rich_wolframite_ore": [
+          16,
+          16
+        ]
+      }
+    },
+    {
+      "id": "rich_bauxite",
+      "blockQuads": 6,
+      "sprites": {
+        "industrial_colonies:block/geology/rich_bauxite": [
+          16,
+          16
+        ]
+      }
+    },
+    {
+      "id": "pentlandite",
+      "blockQuads": 6,
+      "sprites": {
+        "industrial_colonies:block/geology/pentlandite": [
+          16,
+          16
+        ]
+      }
+    },
+    {
+      "id": "rich_nickel_ore",
+      "blockQuads": 6,
+      "sprites": {
+        "industrial_colonies:block/geology/rich_nickel_ore": [
+          16,
+          16
+        ]
+      }
+    },
+    {
+      "id": "rich_hematite",
+      "blockQuads": 6,
+      "sprites": {
+        "industrial_colonies:block/geology/rich_hematite": [
+          16,
+          16
+        ]
+      }
+    },
+    {
+      "id": "rich_magnetite",
+      "blockQuads": 6,
+      "sprites": {
+        "industrial_colonies:block/geology/rich_magnetite": [
+          16,
+          16
+        ]
+      }
+    },
+    {
+      "id": "galena",
+      "blockQuads": 6,
+      "sprites": {
+        "industrial_colonies:block/geology/galena": [
+          16,
+          16
+        ]
+      }
+    },
+    {
+      "id": "rich_galena_ore",
+      "blockQuads": 6,
+      "sprites": {
+        "industrial_colonies:block/geology/rich_galena_ore": [
+          16,
+          16
+        ]
+      }
+    },
+    {
+      "id": "dolomite",
+      "blockQuads": 6,
+      "sprites": {
+        "industrial_colonies:block/geology/dolomite": [
+          16,
+          16
+        ]
+      }
+    },
+    {
+      "id": "graphite_rock",
+      "blockQuads": 6,
+      "sprites": {
+        "industrial_colonies:block/geology/graphite_rock": [
+          16,
+          16
+        ]
+      }
+    },
+    {
+      "id": "phosphate_rock",
+      "blockQuads": 6,
+      "sprites": {
+        "industrial_colonies:block/geology/phosphate_rock": [
+          16,
+          16
+        ]
+      }
+    },
+    {
+      "id": "diamond_ore",
+      "blockQuads": 6,
+      "sprites": {
+        "industrial_colonies:block/geology/diamond_ore": [
+          16,
+          16
+        ]
+      }
+    },
+    {
+      "id": "cobalt_ore",
+      "blockQuads": 6,
+      "sprites": {
+        "industrial_colonies:block/geology/cobalt_ore": [
+          16,
+          16
+        ]
+      }
+    },
+    {
+      "id": "uraninite",
+      "blockQuads": 6,
+      "sprites": {
+        "industrial_colonies:block/geology/uraninite": [
+          16,
+          16
+        ]
+      }
+    },
+    {
+      "id": "thorium_ore",
+      "blockQuads": 6,
+      "sprites": {
+        "industrial_colonies:block/geology/thorium_ore": [
+          16,
+          16
+        ]
+      }
+    },
+    {
+      "id": "ultramafic_rock",
+      "blockQuads": 6,
+      "sprites": {
+        "industrial_colonies:block/geology/ultramafic_rock": [
+          16,
+          16
+        ]
+      }
+    },
+    {
+      "id": "rich_osmium_ore",
+      "blockQuads": 6,
+      "sprites": {
+        "industrial_colonies:block/geology/rich_osmium_ore": [
+          16,
+          16
+        ]
+      }
+    },
+    {
+      "id": "rich_iridium_ore",
+      "blockQuads": 6,
+      "sprites": {
+        "industrial_colonies:block/geology/rich_iridium_ore": [
+          16,
+          16
+        ]
+      }
+    },
+    {
+      "id": "rich_platinum_ore",
+      "blockQuads": 6,
+      "sprites": {
+        "industrial_colonies:block/geology/rich_platinum_ore": [
+          16,
+          16
+        ]
+      }
+    },
+    {
+      "id": "ilmenite",
+      "blockQuads": 6,
+      "sprites": {
+        "industrial_colonies:block/geology/ilmenite": [
+          16,
+          16
+        ]
+      }
+    },
+    {
+      "id": "rich_ilmenite_ore",
+      "blockQuads": 6,
+      "sprites": {
+        "industrial_colonies:block/geology/rich_ilmenite_ore": [
+          16,
+          16
+        ]
+      }
+    },
+    {
+      "id": "bertrandite",
+      "blockQuads": 6,
+      "sprites": {
+        "industrial_colonies:block/geology/bertrandite": [
+          1254,
+          1254
+        ]
+      }
+    },
+    {
+      "id": "borax_rock",
+      "blockQuads": 6,
+      "sprites": {
+        "industrial_colonies:block/geology/borax_rock": [
+          16,
+          16
+        ]
+      }
+    },
+    {
+      "id": "cassiterite",
+      "blockQuads": 6,
+      "sprites": {
+        "industrial_colonies:block/geology/cassiterite": [
+          16,
+          16
+        ]
+      }
+    },
+    {
+      "id": "chromite",
+      "blockQuads": 6,
+      "sprites": {
+        "industrial_colonies:block/geology/chromite": [
+          16,
+          16
+        ]
+      }
+    },
+    {
+      "id": "rich_tin_ore",
+      "blockQuads": 6,
+      "sprites": {
+        "industrial_colonies:block/geology/rich_tin_ore": [
+          16,
+          16
+        ]
+      }
+    },
+    {
+      "id": "rich_chromium_ore",
+      "blockQuads": 6,
+      "sprites": {
+        "industrial_colonies:block/geology/rich_chromium_ore": [
+          16,
+          16
+        ]
+      }
+    },
+    {
+      "id": "gold_flakes",
+      "blockQuads": 18,
+      "sprites": {
+        "minecraft:block/gold_block": [
+          16,
+          16
+        ]
+      }
+    }
+  ],
+  "geologyQuads": 258,
+  "materialItemModels": [
+    {
+      "id": "industrial_colonies:reduced_iron_fraction",
+      "quads": 14,
+      "expectedTexture": "minecraft:item/iron_nugget",
+      "sprites": [
+        "minecraft:item/iron_nugget"
+      ]
+    },
+    {
+      "id": "industrial_colonies:iron_bearing_dust",
+      "quads": 24,
+      "expectedTexture": "minecraft:item/gunpowder",
+      "sprites": [
+        "minecraft:item/gunpowder"
+      ]
+    },
+    {
+      "id": "industrial_colonies:crushed_chalcopyrite",
+      "quads": 22,
+      "expectedTexture": "create:item/crushed_raw_copper",
+      "sprites": [
+        "create:item/crushed_raw_copper"
+      ]
+    },
+    {
+      "id": "industrial_colonies:crushed_cassiterite",
+      "quads": 24,
+      "expectedTexture": "minecraft:item/gunpowder",
+      "sprites": [
+        "minecraft:item/gunpowder"
+      ]
+    },
+    {
+      "id": "industrial_colonies:heavy_cassiterite_concentrate",
+      "quads": 24,
+      "expectedTexture": "minecraft:item/gunpowder",
+      "sprites": [
+        "minecraft:item/gunpowder"
+      ]
+    },
+    {
+      "id": "industrial_colonies:roasted_cinnabar",
+      "quads": 24,
+      "expectedTexture": "minecraft:item/redstone",
+      "sprites": [
+        "minecraft:item/redstone"
+      ]
+    },
+    {
+      "id": "industrial_colonies:cinnabar_dust",
+      "quads": 24,
+      "expectedTexture": "minecraft:item/redstone",
+      "sprites": [
+        "minecraft:item/redstone"
+      ]
+    },
+    {
+      "id": "industrial_colonies:trace_mercury_residue",
+      "quads": 14,
+      "expectedTexture": "minecraft:item/iron_nugget",
+      "sprites": [
+        "minecraft:item/iron_nugget"
+      ]
+    },
+    {
+      "id": "industrial_colonies:platinum_trace_fragment",
+      "quads": 14,
+      "expectedTexture": "minecraft:item/iron_nugget",
+      "sprites": [
+        "minecraft:item/iron_nugget"
+      ]
+    },
+    {
+      "id": "industrial_colonies:iridium_trace_fragment",
+      "quads": 14,
+      "expectedTexture": "minecraft:item/iron_nugget",
+      "sprites": [
+        "minecraft:item/iron_nugget"
+      ]
+    },
+    {
+      "id": "industrial_colonies:sphalerite_dust",
+      "quads": 24,
+      "expectedTexture": "minecraft:item/gunpowder",
+      "sprites": [
+        "minecraft:item/gunpowder"
+      ]
+    },
+    {
+      "id": "industrial_colonies:zinc_precipitate",
+      "quads": 24,
+      "expectedTexture": "minecraft:item/gunpowder",
+      "sprites": [
+        "minecraft:item/gunpowder"
+      ]
+    },
+    {
+      "id": "industrial_colonies:galena_dust",
+      "quads": 24,
+      "expectedTexture": "minecraft:item/gunpowder",
+      "sprites": [
+        "minecraft:item/gunpowder"
+      ]
+    },
+    {
+      "id": "industrial_colonies:roasted_galena",
+      "quads": 24,
+      "expectedTexture": "minecraft:item/gunpowder",
+      "sprites": [
+        "minecraft:item/gunpowder"
+      ]
+    },
+    {
+      "id": "industrial_colonies:crude_lead_granules",
+      "quads": 24,
+      "expectedTexture": "minecraft:item/gunpowder",
+      "sprites": [
+        "minecraft:item/gunpowder"
+      ]
+    },
+    {
+      "id": "industrial_colonies:high_purity_lead",
+      "quads": 24,
+      "expectedTexture": "minecraft:item/gunpowder",
+      "sprites": [
+        "minecraft:item/gunpowder"
+      ]
+    },
+    {
+      "id": "industrial_colonies:pentlandite_dust",
+      "quads": 24,
+      "expectedTexture": "minecraft:item/gunpowder",
+      "sprites": [
+        "minecraft:item/gunpowder"
+      ]
+    },
+    {
+      "id": "industrial_colonies:nickel_precipitate",
+      "quads": 24,
+      "expectedTexture": "minecraft:item/gunpowder",
+      "sprites": [
+        "minecraft:item/gunpowder"
+      ]
+    },
+    {
+      "id": "industrial_colonies:cobalt_precipitate",
+      "quads": 24,
+      "expectedTexture": "minecraft:item/gunpowder",
+      "sprites": [
+        "minecraft:item/gunpowder"
+      ]
+    },
+    {
+      "id": "industrial_colonies:nickel_only_concentrate",
+      "quads": 24,
+      "expectedTexture": "minecraft:item/gunpowder",
+      "sprites": [
+        "minecraft:item/gunpowder"
+      ]
+    },
+    {
+      "id": "industrial_colonies:cobalt_rich_concentrate",
+      "quads": 24,
+      "expectedTexture": "minecraft:item/gunpowder",
+      "sprites": [
+        "minecraft:item/gunpowder"
+      ]
+    },
+    {
+      "id": "industrial_colonies:nickel_oxide",
+      "quads": 24,
+      "expectedTexture": "minecraft:item/gunpowder",
+      "sprites": [
+        "minecraft:item/gunpowder"
+      ]
+    },
+    {
+      "id": "industrial_colonies:cobalt_oxide",
+      "quads": 24,
+      "expectedTexture": "minecraft:item/gunpowder",
+      "sprites": [
+        "minecraft:item/gunpowder"
+      ]
+    },
+    {
+      "id": "industrial_colonies:alumina",
+      "quads": 24,
+      "expectedTexture": "minecraft:item/gunpowder",
+      "sprites": [
+        "minecraft:item/gunpowder"
+      ]
+    },
+    {
+      "id": "industrial_colonies:electrolytic_aluminum_granules",
+      "quads": 24,
+      "expectedTexture": "minecraft:item/gunpowder",
+      "sprites": [
+        "minecraft:item/gunpowder"
+      ]
+    },
+    {
+      "id": "industrial_colonies:dolomite_dust",
+      "quads": 24,
+      "expectedTexture": "minecraft:item/gunpowder",
+      "sprites": [
+        "minecraft:item/gunpowder"
+      ]
+    },
+    {
+      "id": "industrial_colonies:calcined_dolomite",
+      "quads": 24,
+      "expectedTexture": "minecraft:item/gunpowder",
+      "sprites": [
+        "minecraft:item/gunpowder"
+      ]
+    },
+    {
+      "id": "industrial_colonies:ilmenite_dust",
+      "quads": 24,
+      "expectedTexture": "minecraft:item/gunpowder",
+      "sprites": [
+        "minecraft:item/gunpowder"
+      ]
+    },
+    {
+      "id": "industrial_colonies:titanium_rich_concentrate",
+      "quads": 24,
+      "expectedTexture": "minecraft:item/gunpowder",
+      "sprites": [
+        "minecraft:item/gunpowder"
+      ]
+    },
+    {
+      "id": "industrial_colonies:titanium_sponge",
+      "quads": 24,
+      "expectedTexture": "minecraft:item/gunpowder",
+      "sprites": [
+        "minecraft:item/gunpowder"
+      ]
+    },
+    {
+      "id": "industrial_colonies:wolframite_dust",
+      "quads": 24,
+      "expectedTexture": "minecraft:item/gunpowder",
+      "sprites": [
+        "minecraft:item/gunpowder"
+      ]
+    },
+    {
+      "id": "industrial_colonies:tungstate_precipitate",
+      "quads": 24,
+      "expectedTexture": "minecraft:item/gunpowder",
+      "sprites": [
+        "minecraft:item/gunpowder"
+      ]
+    },
+    {
+      "id": "industrial_colonies:tungsten_oxide",
+      "quads": 24,
+      "expectedTexture": "minecraft:item/gunpowder",
+      "sprites": [
+        "minecraft:item/gunpowder"
+      ]
+    },
+    {
+      "id": "industrial_colonies:chromite_dust",
+      "quads": 24,
+      "expectedTexture": "minecraft:item/gunpowder",
+      "sprites": [
+        "minecraft:item/gunpowder"
+      ]
+    },
+    {
+      "id": "industrial_colonies:alkaline_roasted_chromite",
+      "quads": 24,
+      "expectedTexture": "minecraft:item/gunpowder",
+      "sprites": [
+        "minecraft:item/gunpowder"
+      ]
+    },
+    {
+      "id": "industrial_colonies:chromium_bearing_fraction",
+      "quads": 24,
+      "expectedTexture": "minecraft:item/gunpowder",
+      "sprites": [
+        "minecraft:item/gunpowder"
+      ]
+    },
+    {
+      "id": "industrial_colonies:chromium_precipitate",
+      "quads": 24,
+      "expectedTexture": "minecraft:item/gunpowder",
+      "sprites": [
+        "minecraft:item/gunpowder"
+      ]
+    },
+    {
+      "id": "industrial_colonies:spodumene_dust",
+      "quads": 24,
+      "expectedTexture": "minecraft:item/gunpowder",
+      "sprites": [
+        "minecraft:item/gunpowder"
+      ]
+    },
+    {
+      "id": "industrial_colonies:activated_spodumene",
+      "quads": 24,
+      "expectedTexture": "minecraft:item/gunpowder",
+      "sprites": [
+        "minecraft:item/gunpowder"
+      ]
+    },
+    {
+      "id": "industrial_colonies:lithium_precipitate",
+      "quads": 24,
+      "expectedTexture": "minecraft:item/gunpowder",
+      "sprites": [
+        "minecraft:item/gunpowder"
+      ]
+    },
+    {
+      "id": "industrial_colonies:argentite_dust",
+      "quads": 24,
+      "expectedTexture": "minecraft:item/gunpowder",
+      "sprites": [
+        "minecraft:item/gunpowder"
+      ]
+    },
+    {
+      "id": "industrial_colonies:roasted_argentite",
+      "quads": 24,
+      "expectedTexture": "minecraft:item/gunpowder",
+      "sprites": [
+        "minecraft:item/gunpowder"
+      ]
+    },
+    {
+      "id": "industrial_colonies:phosphate_dust",
+      "quads": 24,
+      "expectedTexture": "minecraft:item/gunpowder",
+      "sprites": [
+        "minecraft:item/gunpowder"
+      ]
+    },
+    {
+      "id": "industrial_colonies:conditioned_phosphate",
+      "quads": 24,
+      "expectedTexture": "minecraft:item/gunpowder",
+      "sprites": [
+        "minecraft:item/gunpowder"
+      ]
+    },
+    {
+      "id": "industrial_colonies:purified_phosphate_compound",
+      "quads": 24,
+      "expectedTexture": "minecraft:item/gunpowder",
+      "sprites": [
+        "minecraft:item/gunpowder"
+      ]
+    },
+    {
+      "id": "industrial_colonies:elemental_phosphorus",
+      "quads": 24,
+      "expectedTexture": "minecraft:item/gunpowder",
+      "sprites": [
+        "minecraft:item/gunpowder"
+      ]
+    },
+    {
+      "id": "industrial_colonies:graphite_concentrate",
+      "quads": 24,
+      "expectedTexture": "minecraft:item/gunpowder",
+      "sprites": [
+        "minecraft:item/gunpowder"
+      ]
+    },
+    {
+      "id": "industrial_colonies:high_purity_graphite",
+      "quads": 24,
+      "expectedTexture": "minecraft:item/gunpowder",
+      "sprites": [
+        "minecraft:item/gunpowder"
+      ]
+    },
+    {
+      "id": "industrial_colonies:bertrandite_dust",
+      "quads": 24,
+      "expectedTexture": "minecraft:item/gunpowder",
+      "sprites": [
+        "minecraft:item/gunpowder"
+      ]
+    },
+    {
+      "id": "industrial_colonies:beryllium_precipitate",
+      "quads": 24,
+      "expectedTexture": "minecraft:item/gunpowder",
+      "sprites": [
+        "minecraft:item/gunpowder"
+      ]
+    },
+    {
+      "id": "industrial_colonies:beryllium_oxide",
+      "quads": 24,
+      "expectedTexture": "minecraft:item/gunpowder",
+      "sprites": [
+        "minecraft:item/gunpowder"
+      ]
+    },
+    {
+      "id": "industrial_colonies:boron_oxide",
+      "quads": 24,
+      "expectedTexture": "minecraft:item/gunpowder",
+      "sprites": [
+        "minecraft:item/gunpowder"
+      ]
+    },
+    {
+      "id": "industrial_colonies:uranium_bearing_dust",
+      "quads": 24,
+      "expectedTexture": "minecraft:item/gunpowder",
+      "sprites": [
+        "minecraft:item/gunpowder"
+      ]
+    },
+    {
+      "id": "industrial_colonies:uranium_concentrate",
+      "quads": 24,
+      "expectedTexture": "minecraft:item/gunpowder",
+      "sprites": [
+        "minecraft:item/gunpowder"
+      ]
+    },
+    {
+      "id": "industrial_colonies:refined_uranium_compound",
+      "quads": 24,
+      "expectedTexture": "minecraft:item/gunpowder",
+      "sprites": [
+        "minecraft:item/gunpowder"
+      ]
+    },
+    {
+      "id": "industrial_colonies:thorium_bearing_dust",
+      "quads": 24,
+      "expectedTexture": "minecraft:item/gunpowder",
+      "sprites": [
+        "minecraft:item/gunpowder"
+      ]
+    },
+    {
+      "id": "industrial_colonies:thorium_concentrate",
+      "quads": 24,
+      "expectedTexture": "minecraft:item/gunpowder",
+      "sprites": [
+        "minecraft:item/gunpowder"
+      ]
+    },
+    {
+      "id": "industrial_colonies:refined_thorium_compound",
+      "quads": 24,
+      "expectedTexture": "minecraft:item/gunpowder",
+      "sprites": [
+        "minecraft:item/gunpowder"
+      ]
+    },
+    {
+      "id": "industrial_colonies:ultramafic_dust",
+      "quads": 24,
+      "expectedTexture": "minecraft:item/gunpowder",
+      "sprites": [
+        "minecraft:item/gunpowder"
+      ]
+    },
+    {
+      "id": "industrial_colonies:iridium_bearing_refractory_residue",
+      "quads": 24,
+      "expectedTexture": "minecraft:item/gunpowder",
+      "sprites": [
+        "minecraft:item/gunpowder"
+      ]
+    },
+    {
+      "id": "industrial_colonies:osmium_bearing_fraction",
+      "quads": 24,
+      "expectedTexture": "minecraft:item/gunpowder",
+      "sprites": [
+        "minecraft:item/gunpowder"
+      ]
+    },
+    {
+      "id": "industrial_colonies:platinum_bearing_fraction",
+      "quads": 24,
+      "expectedTexture": "minecraft:item/gunpowder",
+      "sprites": [
+        "minecraft:item/gunpowder"
+      ]
+    },
+    {
+      "id": "industrial_colonies:purified_iridium_fraction",
+      "quads": 24,
+      "expectedTexture": "minecraft:item/gunpowder",
+      "sprites": [
+        "minecraft:item/gunpowder"
+      ]
+    },
+    {
+      "id": "industrial_colonies:rich_osmium_concentrate",
+      "quads": 24,
+      "expectedTexture": "minecraft:item/gunpowder",
+      "sprites": [
+        "minecraft:item/gunpowder"
+      ]
+    },
+    {
+      "id": "industrial_colonies:rich_platinum_concentrate",
+      "quads": 24,
+      "expectedTexture": "minecraft:item/gunpowder",
+      "sprites": [
+        "minecraft:item/gunpowder"
+      ]
+    },
+    {
+      "id": "industrial_colonies:rich_iridium_concentrate",
+      "quads": 24,
+      "expectedTexture": "minecraft:item/gunpowder",
+      "sprites": [
+        "minecraft:item/gunpowder"
+      ]
+    },
+    {
+      "id": "industrial_colonies:fine_silica_dust",
+      "quads": 32,
+      "expectedTexture": "minecraft:item/quartz",
+      "sprites": [
+        "minecraft:item/quartz"
+      ]
+    },
+    {
+      "id": "industrial_colonies:high_purity_silicon",
+      "quads": 20,
+      "expectedTexture": "tfmg:item/silicon_ingot",
+      "sprites": [
+        "tfmg:item/silicon_ingot"
+      ]
+    },
+    {
+      "id": "industrial_colonies:purified_silicon_precursor",
+      "quads": 32,
+      "expectedTexture": "minecraft:item/quartz",
+      "sprites": [
+        "minecraft:item/quartz"
+      ]
+    },
+    {
+      "id": "industrial_colonies:high_purity_refractory_lattice",
+      "quads": 26,
+      "expectedTexture": "minecraft:item/netherite_ingot",
+      "sprites": [
+        "minecraft:item/netherite_ingot"
+      ]
+    },
+    {
+      "id": "industrial_colonies:rare_pgm_matrix",
+      "quads": 26,
+      "expectedTexture": "minecraft:item/iron_ingot",
+      "sprites": [
+        "minecraft:item/iron_ingot"
+      ]
+    },
+    {
+      "id": "industrial_colonies:radiant_silicon_substrate",
+      "quads": 20,
+      "expectedTexture": "tfmg:item/p_semiconductor",
+      "sprites": [
+        "tfmg:item/p_semiconductor"
+      ]
+    },
+    {
+      "id": "industrial_colonies:radiant_precursor",
+      "quads": 22,
+      "expectedTexture": "create:item/chromatic_compound_0",
+      "sprites": [
+        "create:item/chromatic_compound_0"
+      ]
+    },
+    {
+      "id": "industrial_colonies:pressure_conditioned_radiant_composite",
+      "quads": 22,
+      "expectedTexture": "create:item/chromatic_compound_0",
+      "sprites": [
+        "create:item/chromatic_compound_0"
+      ]
+    }
+  ],
+  "tankFluidSprites": [
+    {
+      "id": "industrial_colonies:molten_titanium",
+      "flowingId": "industrial_colonies:flowing_molten_titanium",
+      "argb": "FFDDD3C0",
+      "still": "minecraft:block/water_still",
+      "flow": "minecraft:block/water_flow",
+      "stillDimensions": [
+        16,
+        16
+      ],
+      "flowDimensions": [
+        32,
+        32
+      ]
+    },
+    {
+      "id": "industrial_colonies:molten_iridium",
+      "flowingId": "industrial_colonies:flowing_molten_iridium",
+      "argb": "FFDDD3C0",
+      "still": "minecraft:block/water_still",
+      "flow": "minecraft:block/water_flow",
+      "stillDimensions": [
+        16,
+        16
+      ],
+      "flowDimensions": [
+        32,
+        32
+      ]
+    },
+    {
+      "id": "industrial_colonies:spent_leach_liquor",
+      "flowingId": "industrial_colonies:flowing_spent_leach_liquor",
+      "argb": "FF686650",
+      "still": "minecraft:block/water_still",
+      "flow": "minecraft:block/water_flow",
+      "stillDimensions": [
+        16,
+        16
+      ],
+      "flowDimensions": [
+        32,
+        32
+      ]
+    },
+    {
+      "id": "industrial_colonies:zinc_bearing_solution",
+      "flowingId": "industrial_colonies:flowing_zinc_bearing_solution",
+      "argb": "FFA4BFC0",
+      "still": "minecraft:block/water_still",
+      "flow": "minecraft:block/water_flow",
+      "stillDimensions": [
+        16,
+        16
+      ],
+      "flowDimensions": [
+        32,
+        32
+      ]
+    },
+    {
+      "id": "industrial_colonies:mixed_nickel_cobalt_solution",
+      "flowingId": "industrial_colonies:flowing_mixed_nickel_cobalt_solution",
+      "argb": "FF617763",
+      "still": "minecraft:block/water_still",
+      "flow": "minecraft:block/water_flow",
+      "stillDimensions": [
+        16,
+        16
+      ],
+      "flowDimensions": [
+        32,
+        32
+      ]
+    },
+    {
+      "id": "industrial_colonies:clarified_nickel_cobalt_solution",
+      "flowingId": "industrial_colonies:flowing_clarified_nickel_cobalt_solution",
+      "argb": "FF81976E",
+      "still": "minecraft:block/water_still",
+      "flow": "minecraft:block/water_flow",
+      "stillDimensions": [
+        16,
+        16
+      ],
+      "flowDimensions": [
+        32,
+        32
+      ]
+    },
+    {
+      "id": "industrial_colonies:cobalt_bearing_mother_liquor",
+      "flowingId": "industrial_colonies:flowing_cobalt_bearing_mother_liquor",
+      "argb": "FF64839F",
+      "still": "minecraft:block/water_still",
+      "flow": "minecraft:block/water_flow",
+      "stillDimensions": [
+        16,
+        16
+      ],
+      "flowDimensions": [
+        32,
+        32
+      ]
+    },
+    {
+      "id": "industrial_colonies:nickel_only_solution",
+      "flowingId": "industrial_colonies:flowing_nickel_only_solution",
+      "argb": "FF93A369",
+      "still": "minecraft:block/water_still",
+      "flow": "minecraft:block/water_flow",
+      "stillDimensions": [
+        16,
+        16
+      ],
+      "flowDimensions": [
+        32,
+        32
+      ]
+    },
+    {
+      "id": "industrial_colonies:alumina_rich_slurry",
+      "flowingId": "industrial_colonies:flowing_alumina_rich_slurry",
+      "argb": "FFCBB9A8",
+      "still": "minecraft:block/water_still",
+      "flow": "minecraft:block/water_flow",
+      "stillDimensions": [
+        16,
+        16
+      ],
+      "flowDimensions": [
+        32,
+        32
+      ]
+    },
+    {
+      "id": "industrial_colonies:clarified_aluminate_solution",
+      "flowingId": "industrial_colonies:flowing_clarified_aluminate_solution",
+      "argb": "FFE8D9C3",
+      "still": "minecraft:block/water_still",
+      "flow": "minecraft:block/water_flow",
+      "stillDimensions": [
+        16,
+        16
+      ],
+      "flowDimensions": [
+        32,
+        32
+      ]
+    },
+    {
+      "id": "industrial_colonies:magnesium_bearing_solution",
+      "flowingId": "industrial_colonies:flowing_magnesium_bearing_solution",
+      "argb": "FFBDBAA8",
+      "still": "minecraft:block/water_still",
+      "flow": "minecraft:block/water_flow",
+      "stillDimensions": [
+        16,
+        16
+      ],
+      "flowDimensions": [
+        32,
+        32
+      ]
+    },
+    {
+      "id": "industrial_colonies:magnesium_chloride",
+      "flowingId": "industrial_colonies:flowing_magnesium_chloride",
+      "argb": "FFDEE0C9",
+      "still": "minecraft:block/water_still",
+      "flow": "minecraft:block/water_flow",
+      "stillDimensions": [
+        16,
+        16
+      ],
+      "flowDimensions": [
+        32,
+        32
+      ]
+    },
+    {
+      "id": "industrial_colonies:crude_titanium_tetrachloride",
+      "flowingId": "industrial_colonies:flowing_crude_titanium_tetrachloride",
+      "argb": "FFA59B78",
+      "still": "minecraft:block/water_still",
+      "flow": "minecraft:block/water_flow",
+      "stillDimensions": [
+        16,
+        16
+      ],
+      "flowDimensions": [
+        32,
+        32
+      ]
+    },
+    {
+      "id": "industrial_colonies:purified_titanium_tetrachloride",
+      "flowingId": "industrial_colonies:flowing_purified_titanium_tetrachloride",
+      "argb": "FFCFD5D5",
+      "still": "minecraft:block/water_still",
+      "flow": "minecraft:block/water_flow",
+      "stillDimensions": [
+        16,
+        16
+      ],
+      "flowDimensions": [
+        32,
+        32
+      ]
+    },
+    {
+      "id": "industrial_colonies:tungstate_solution",
+      "flowingId": "industrial_colonies:flowing_tungstate_solution",
+      "argb": "FF829196",
+      "still": "minecraft:block/water_still",
+      "flow": "minecraft:block/water_flow",
+      "stillDimensions": [
+        16,
+        16
+      ],
+      "flowDimensions": [
+        32,
+        32
+      ]
+    },
+    {
+      "id": "industrial_colonies:lithium_bearing_solution",
+      "flowingId": "industrial_colonies:flowing_lithium_bearing_solution",
+      "argb": "FFC4AECE",
+      "still": "minecraft:block/water_still",
+      "flow": "minecraft:block/water_flow",
+      "stillDimensions": [
+        16,
+        16
+      ],
+      "flowDimensions": [
+        32,
+        32
+      ]
+    },
+    {
+      "id": "industrial_colonies:silver_bearing_solution",
+      "flowingId": "industrial_colonies:flowing_silver_bearing_solution",
+      "argb": "FFB6C2D1",
+      "still": "minecraft:block/water_still",
+      "flow": "minecraft:block/water_flow",
+      "stillDimensions": [
+        16,
+        16
+      ],
+      "flowDimensions": [
+        32,
+        32
+      ]
+    },
+    {
+      "id": "industrial_colonies:phosphoric_acid",
+      "flowingId": "industrial_colonies:flowing_phosphoric_acid",
+      "argb": "FFCDC398",
+      "still": "minecraft:block/water_still",
+      "flow": "minecraft:block/water_flow",
+      "stillDimensions": [
+        16,
+        16
+      ],
+      "flowDimensions": [
+        32,
+        32
+      ]
+    },
+    {
+      "id": "industrial_colonies:beryllium_bearing_solution",
+      "flowingId": "industrial_colonies:flowing_beryllium_bearing_solution",
+      "argb": "FFBCDCB9",
+      "still": "minecraft:block/water_still",
+      "flow": "minecraft:block/water_flow",
+      "stillDimensions": [
+        16,
+        16
+      ],
+      "flowDimensions": [
+        32,
+        32
+      ]
+    },
+    {
+      "id": "industrial_colonies:purified_borate_solution",
+      "flowingId": "industrial_colonies:flowing_purified_borate_solution",
+      "argb": "FFD7E0C0",
+      "still": "minecraft:block/water_still",
+      "flow": "minecraft:block/water_flow",
+      "stillDimensions": [
+        16,
+        16
+      ],
+      "flowDimensions": [
+        32,
+        32
+      ]
+    },
+    {
+      "id": "industrial_colonies:mixed_pgm_solution",
+      "flowingId": "industrial_colonies:flowing_mixed_pgm_solution",
+      "argb": "FF606A78",
+      "still": "minecraft:block/water_still",
+      "flow": "minecraft:block/water_flow",
+      "stillDimensions": [
+        16,
+        16
+      ],
+      "flowDimensions": [
+        32,
+        32
+      ]
+    },
+    {
+      "id": "industrial_colonies:platinum_iridium_mother_liquor",
+      "flowingId": "industrial_colonies:flowing_platinum_iridium_mother_liquor",
+      "argb": "FF767088",
+      "still": "minecraft:block/water_still",
+      "flow": "minecraft:block/water_flow",
+      "stillDimensions": [
+        16,
+        16
+      ],
+      "flowDimensions": [
+        32,
+        32
+      ]
+    },
+    {
+      "id": "industrial_colonies:desulfurized_heavy_oil",
+      "flowingId": "industrial_colonies:flowing_desulfurized_heavy_oil",
+      "argb": "FF353323",
+      "still": "minecraft:block/water_still",
+      "flow": "minecraft:block/water_flow",
+      "stillDimensions": [
+        16,
+        16
+      ],
+      "flowDimensions": [
+        32,
+        32
+      ]
+    },
+    {
+      "id": "industrial_colonies:captured_refinery_sulfide",
+      "flowingId": "industrial_colonies:flowing_captured_refinery_sulfide",
+      "argb": "FFBBC379",
+      "still": "minecraft:block/water_still",
+      "flow": "minecraft:block/water_flow",
+      "stillDimensions": [
+        16,
+        16
+      ],
+      "flowDimensions": [
+        32,
+        32
+      ]
+    },
+    {
+      "id": "industrial_colonies:coal_tar",
+      "flowingId": "industrial_colonies:flowing_coal_tar",
+      "argb": "FF252017",
+      "still": "minecraft:block/water_still",
+      "flow": "minecraft:block/water_flow",
+      "stillDimensions": [
+        16,
+        16
+      ],
+      "flowDimensions": [
+        32,
+        32
+      ]
+    }
+  ],
+  "fluidSpriteChecks": 50,
+  "radianceRuntimeApplicability": {
+    "nativeClass": "com.simibubi.create.content.legacy.ChromaticCompoundItem",
+    "mergedHandler": "redirect$lja000$industrial_colonies$industrialColonies$engineeredRadianceOnly",
+    "refinedRadianceBranchReturnsFalse": true,
+    "scope": "Strict production mixin applied during native class loading; merged Refined Radiance branch invoked. No thrown entity/world or Shadow Steel config mutation."
+  },
+  "renderedFrames": 480,
+  "status": "PASS",
+  "completedUtc": "2026-09-09T11:27:06.577010Z",
+  "assertions": 7773,
+  "screenshots": [
+    {
+      "width": 1280,
+      "height": 720,
+      "path": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\material-client-20260909-072449-528\\material-client-screenshots\\01-geology-blocks.png",
+      "sha256": "2baeb3cda1bbac90b9d791cf5def7ca830260da80878a3d87441362aae713875",
+      "frames": 120
+    },
+    {
+      "width": 1280,
+      "height": 720,
+      "path": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\material-client-20260909-072449-528\\material-client-screenshots\\02-material-items-a.png",
+      "sha256": "4014ca0ce174b976145344134dacd0a0fd36876e0a927cf6f5f64d2150fb5969",
+      "frames": 120
+    },
+    {
+      "width": 1280,
+      "height": 720,
+      "path": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\material-client-20260909-072449-528\\material-client-screenshots\\03-material-items-b.png",
+      "sha256": "f28807814703ad4eb6ceafd5b44c59de49bed074d5b60df801c4a4a78a8e4d45",
+      "frames": 120
+    },
+    {
+      "width": 1280,
+      "height": 720,
+      "path": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\material-client-20260909-072449-528\\material-client-screenshots\\04-tank-fluids.png",
+      "sha256": "dea7ee741a2db2f996de5b1b1c7573b52f3d9723692d8868ab02576b7725768a",
+      "frames": 120
+    }
+  ]
+}

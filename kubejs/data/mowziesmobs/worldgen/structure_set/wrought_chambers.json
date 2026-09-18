@@ -1,0 +1,16 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 23217347,
+    "separation": 5,
+    "spacing": 15,
+    "spread_type": "triangular",
+    "frequency": 0.0
+  },
+  "structures": [
+    {
+      "structure": "mowziesmobs:wrought_chamber",
+      "weight": 1
+    }
+  ]
+}

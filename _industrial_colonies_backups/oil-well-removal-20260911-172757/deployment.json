@@ -1,0 +1,17 @@
+{
+  "status": "APPLIED",
+  "sourceJar": "adastra-1.21.1-1.16.22-neoforge.jar",
+  "savesTouched": false,
+  "files": {
+    "kubejs/data/ad_astra/worldgen/structure_set/oil_well.json": {
+      "before": null,
+      "after": "417474012c15e5f53ba180496f64bcc37b5f94139781ac5309c2e6c988446272"
+    },
+    "kubejs/data/ad_astra/tags/worldgen/biome/has_structure/oil_well.json": {
+      "before": null,
+      "after": "bef4d172fc1bfb34d342e79090726c4a0c272dd404783c3ea022b992e0e0415e"
+    }
+  },
+  "appliedAt": "2026-09-11T17:27:57.813608-04:00",
+  "backup": "C:\\Users\\GodPC\\curseforge\\minecraft\\Instances\\All in one\\_industrial_colonies_backups\\oil-well-removal-20260911-172757"
+}

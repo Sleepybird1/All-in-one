@@ -1,0 +1,31 @@
+{
+  "schema": 1,
+  "completed_at": "2026-09-04T17:11:56.0398127-04:00",
+  "project_root": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies",
+  "live_pack_root": "C:\\Users\\GodPC\\curseforge\\minecraft\\Instances\\All in one",
+  "project_jar_sha256": "DB5C9263A86EB2A54A048A9E243287A53A2116DB9B0011D858F56390DFAED685",
+  "owned_server_scripts": 43,
+  "owned_client_scripts": 8,
+  "owned_ftbquests_files": 13,
+  "recipe_stage_mappings": 0,
+  "changes": [
+    {
+      "Action": "Industrial Colonies mod JAR",
+      "Source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\build\\libs\\industrial_colonies-0.4.0.jar",
+      "Destination": "C:\\Users\\GodPC\\curseforge\\minecraft\\Instances\\All in one\\mods\\industrial_colonies-0.4.0.jar",
+      "Sha256": "DB5C9263A86EB2A54A048A9E243287A53A2116DB9B0011D858F56390DFAED685"
+    },
+    {
+      "Action": "Merged KJSGen default project",
+      "Source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\build\\generated\\kjsgen\\default.json",
+      "Destination": "C:\\Users\\GodPC\\curseforge\\minecraft\\Instances\\All in one\\kjsgen\\projects\\default.json",
+      "Sha256": "7B1A60D9A103975145042938F655BD9A6FEA5EB641D5C6FABAF7BEC702EC6443"
+    },
+    {
+      "Action": "KJSGen managed-project merge baseline",
+      "Source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\build\\generated\\kjsgen\\default.managed.baseline.json",
+      "Destination": "C:\\Users\\GodPC\\curseforge\\minecraft\\Instances\\All in one\\kjsgen\\industrial_colonies_sync\\default.managed.baseline.json",
+      "Sha256": "AFE3C19E44BE863E8D7E59CCFA363B2E29509938AB95FD2B116EF63FB47C362B"
+    }
+  ]
+}

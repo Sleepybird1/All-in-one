@@ -1,0 +1,6 @@
+#CD50CF industrial_colonies:chalcopyrite
+#DE242D minecraft:coal_ore
+#76C819 industrial_colonies:hematite
+#A4FC4B minecraft:mossy_cobblestone
+#872D76 minecraft:snow
+#12E6C4 minecraft:snow_block

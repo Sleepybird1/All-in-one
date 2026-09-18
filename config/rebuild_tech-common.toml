@@ -1,0 +1,4 @@
+#The radius to join the vent.
+# Default: 0.5
+# Range: 0.5 ~ 2.147483647E9
+ventInRadius = 0.5

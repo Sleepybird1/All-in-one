@@ -1,0 +1,98 @@
+{
+  "mode": "stage_only",
+  "candidate": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\build\\libs\\industrial_colonies-0.5.0.jar",
+  "candidateSha256": "8DF80E5C7E4B447F651696A9383A1487B26F557A67D6263DEAFA3805BC675D91",
+  "installedJarCount": 241,
+  "copiedInstalledJars": 240,
+  "excludedInstalledOwnedJars": [
+    "C:\\Users\\GodPC\\curseforge\\minecraft\\Instances\\All in one\\mods\\industrial_colonies-0.4.0.jar"
+  ],
+  "stagedJarCount": 241,
+  "modBytes": 1082043635.0,
+  "inputFolders": [
+    "config",
+    "defaultconfigs",
+    "kubejs",
+    "kjsgen",
+    "data",
+    "datapacks",
+    "moonlight-global-datapacks"
+  ],
+  "destination": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754",
+  "noSavesCopied": true,
+  "noLinksCreated": true,
+  "noLaunch": true,
+  "noEulaWritten": true,
+  "localAssets": {
+    "root": "C:\\Users\\GodPC\\curseforge\\minecraft\\Install\\assets",
+    "index": "17",
+    "indexSha1": "5E6ACEC58D4651330C757FF77F105FD0076339A0",
+    "objectsPresentWithExpectedSize": 3911,
+    "objectHashesRecomputed": false,
+    "downloadAssetsDisabled": true,
+    "liveAssetsReadOnly": true
+  },
+  "localRunTemplates": {
+    "userdevJar": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\gradle-user-home\\caches\\modules-2\\files-2.1\\net.neoforged\\neoforge\\21.1.248\\dab61062b17c39eb246328576ae1bcbd59ee780b\\neoforge-21.1.248-userdev.jar",
+    "sha1": "DAB61062B17C39EB246328576AE1BCBD59EE780B",
+    "archiveEntry": "config.json",
+    "metadataModified": false,
+    "standaloneModdevConfigNotRequired": true
+  },
+  "localDevLaunch": {
+    "sourceDirectory": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-001051-895\\offline-maven\\net\\neoforged\\DevLaunch\\1.0.2",
+    "artifacts": [
+      {
+        "name": "DevLaunch-1.0.2.jar",
+        "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-001051-895\\offline-maven\\net\\neoforged\\DevLaunch\\1.0.2\\DevLaunch-1.0.2.jar",
+        "sha256": "366ADC4E95AB9B32C8E33B9F449529C8937C6FC021EE0C6B25419EA2BB703740",
+        "bytes": 3352
+      },
+      {
+        "name": "DevLaunch-1.0.2.pom",
+        "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-001051-895\\offline-maven\\net\\neoforged\\DevLaunch\\1.0.2\\DevLaunch-1.0.2.pom",
+        "sha256": "49BA05392F1BF4A513DA8CE72377230EEC261B6E13A019B6DF526DD22D2CBC30",
+        "bytes": 753
+      },
+      {
+        "name": "DevLaunch-1.0.2.module",
+        "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-001051-895\\offline-maven\\net\\neoforged\\DevLaunch\\1.0.2\\DevLaunch-1.0.2.module",
+        "sha256": "30A811979EC04FCCBD1F78D4B1C387913ACD08C52EBD0C97F87DB08B0E61FDDC",
+        "bytes": 2662
+      }
+    ],
+    "remoteChecksumSidecarsVerified": true,
+    "automaticNetwork": false
+  },
+  "networkRequirement": "Run later only with enforced outbound-network denial; Gradle --offline alone does not block mod traffic.",
+  "offlineEpollRepository": {
+    "repository": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\offline-maven",
+    "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\gradle-user-home\\caches\\neoformruntime\\artifacts\\minecraft_1.21.1_server.jar",
+    "sourceSha256": "E3BC55693E93CDA0188F2E60AEA28113FC647C5E85A15FA3D1B347349231B4BB",
+    "artifacts": [
+      {
+        "classifier": "linux-x86_64",
+        "sourceEntry": "META-INF/libraries/io/netty/netty-transport-native-epoll/4.1.97.Final/netty-transport-native-epoll-4.1.97.Final-linux-x86_64.jar",
+        "sha1": "54188f271e388e7f313aea995e82f58ce2cdb809",
+        "bytes": 38954,
+        "target": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\offline-maven\\io\\netty\\netty-transport-native-epoll\\4.1.97.Final\\netty-transport-native-epoll-4.1.97.Final-linux-x86_64.jar"
+      },
+      {
+        "classifier": "linux-aarch_64",
+        "sourceEntry": "META-INF/libraries/io/netty/netty-transport-native-epoll/4.1.97.Final/netty-transport-native-epoll-4.1.97.Final-linux-aarch_64.jar",
+        "sha1": "5514744c588190ffda076b35a9b8c9f24946a960",
+        "bytes": 40427,
+        "target": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\offline-maven\\io\\netty\\netty-transport-native-epoll\\4.1.97.Final\\netty-transport-native-epoll-4.1.97.Final-linux-aarch_64.jar"
+      }
+    ],
+    "pom": "Exact embedded upstream POM, not synthetic metadata",
+    "noRuntimeClassesDropped": true,
+    "noLaunch": true
+  },
+  "initScript": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\geology-smoke.init.gradle",
+  "commands": [
+    ".\\gradlew.bat --offline --no-configuration-cache --console=plain -I \"C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\geology-smoke.init.gradle\" runGameTestServer --dry-run",
+    ".\\gradlew.bat --offline --no-configuration-cache --console=plain -I \"C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\geology-smoke.init.gradle\" runGameTestServer"
+  ],
+  "stagedInputs": "Physical copies only. No saves, account/launcher files, options, logs, resourcepacks or natives. External config/industrial_colonies/worldgen overrides excluded so candidate defaults are tested."
+}

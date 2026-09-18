@@ -1,0 +1,92 @@
+{
+  "status": "PASS",
+  "checkedUtc": "2026-09-09T11:13:29.4037421Z",
+  "wrapperAssertions": 37,
+  "stage": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754",
+  "revision": "r1",
+  "candidate": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\industrial_colonies-0.5.0.jar",
+  "candidateSha256": "8DF80E5C7E4B447F651696A9383A1487B26F557A67D6263DEAFA3805BC675D91",
+  "sourceCandidate": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\build\\libs\\industrial_colonies-0.5.0.jar",
+  "sourceCandidateSha256": "8DF80E5C7E4B447F651696A9383A1487B26F557A67D6263DEAFA3805BC675D91",
+  "preparationSha256": "5E0054ADDBC58BB662B81B184A6C6309C627B74BE1D8EAE056E99FD80A7A5B8B",
+  "basePreparationSha256": "C27CF5F702A78CFE9AE1F8E84513CACCA555560818486B5F779EF91EAA3EE3AD",
+  "expectedTerrainMod": "mr_lithosphere",
+  "minimumBuildHeight": -64,
+  "maximumBuildHeight": 512,
+  "noiseSettingsSha256": "E78449FBA92C289267BDDB3E315B670F860B3B183FD0208541BE8BAE8676805E",
+  "reports": [
+    {
+      "order": "a",
+      "terrainReport": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\terrain-report-a-lithosphere-r1.json",
+      "terrainReportSha256": "BF31A161E05409ACD1157EB6C155A7DB837BB5983A645B6DF6FFE9FB4C90E24C",
+      "compatibilityReport": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\compatibility-report-a-lithosphere-r1.json",
+      "compatibilityReportSha256": "5DA04C602E8AC67E5E155D0B159E1B64DD8DE16C9EC9CFCC49DAA78BF6853D8D",
+      "noiseSettingsSha256": "e78449fba92c289267bddb3e315b670f860b3b183fd0208541be8bae8676805e",
+      "overworldBiomesInspected": 129
+    },
+    {
+      "order": "b",
+      "terrainReport": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\terrain-report-b-lithosphere-r1.json",
+      "terrainReportSha256": "C5DE9A45D175CA81FB8598AA099E38131EAC3201857C2DE217C3BA0EBB83F244",
+      "compatibilityReport": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\compatibility-report-b-lithosphere-r1.json",
+      "compatibilityReportSha256": "5DA04C602E8AC67E5E155D0B159E1B64DD8DE16C9EC9CFCC49DAA78BF6853D8D",
+      "noiseSettingsSha256": "e78449fba92c289267bddb3e315b670f860b3b183fd0208541be8bae8676805e",
+      "overworldBiomesInspected": 129
+    }
+  ],
+  "nativeABComparison": {
+    "status": "PASS",
+    "checkedUtc": "2026-09-09T11:13:29.3822145Z",
+    "seed": 0,
+    "requestedChunksPerWorld": 12,
+    "selectedFamilies": 3,
+    "exactReverseOrder": true,
+    "allShapeStatesAndCountsIdentical": true,
+    "noiseSettingsSourcePack": "mod/mr_lithosphere",
+    "regionsUnexploredActualObserved": true,
+    "formations": [
+      {
+        "id": "galena",
+        "intended": 1222,
+        "actualHostBeforeRich": 1205,
+        "finalGeologyCounts": {
+          "industrial_colonies:galena": 1177,
+          "industrial_colonies:rich_galena_ore": 28
+        },
+        "nonemptyChunks": 4,
+        "retainedCrossChunkNeighborBonds": 201,
+        "shapeStateSha256": "651a5c3f913360f94804e5e3fab311660d6e0f1abb32145e6a88de9c500bd0d2",
+        "retainedGeologySha256": "7059ec291e17b9ab9bc30de311540e7c7e3ea2378b7daccb18036b816a618629"
+      },
+      {
+        "id": "sphalerite",
+        "intended": 1210,
+        "actualHostBeforeRich": 1126,
+        "finalGeologyCounts": {
+          "industrial_colonies:rich_sphalerite": 27,
+          "industrial_colonies:sphalerite": 1099
+        },
+        "nonemptyChunks": 4,
+        "retainedCrossChunkNeighborBonds": 154,
+        "shapeStateSha256": "7bf5c7ae1f706e4ffee83564d22b9a9320ef5a8aa44eb436de61c0a7f82a403c",
+        "retainedGeologySha256": "21e380be72c2d85e6d3eda615a7202086f6dc1184140615bc73ffcfa1f6ddee6"
+      },
+      {
+        "id": "magnetite",
+        "intended": 4933,
+        "actualHostBeforeRich": 4830,
+        "finalGeologyCounts": {
+          "industrial_colonies:magnetite": 4348,
+          "industrial_colonies:rich_magnetite": 482
+        },
+        "nonemptyChunks": 4,
+        "retainedCrossChunkNeighborBonds": 301,
+        "shapeStateSha256": "ed3e4631093a1a2391a1084bfd72383646739d9565c62fc1b96f42e1c2762b38",
+        "retainedGeologySha256": "c427d0a503c64bd55d28ca2a81a0d84d0218a22ebc4b641b58ce85e15515e6b5"
+      }
+    ],
+    "limits": "Three bounded selected formations and one seed; not whole-world distribution, client rendering, oil or survival-economy acceptance. Minecraft dependency-halo generation order is not fully controlled."
+  },
+  "identityScope": "Current source/staged bytes agree with launch-guard preparation; terrain reports do not embed a candidate hash. Preserve matching launch logs and preparation provenance.",
+  "limits": "Three bounded formations, reversed direct requests, native WWOO compatibility; not world-wide frequencies, manual processing, powered factories, full-client rendering or completed placer selection."
+}

@@ -1,0 +1,12 @@
+{
+  "type": "mowziesmobs:umvuthana_grove",
+  "biomes": {
+    "type": "neoforge:and",
+    "values": [
+      "#mowziesmobs:has_structure/has_mowzie_structure",
+      "#minecraft:is_overworld"
+    ]
+  },
+  "spawn_overrides": {},
+  "step": "surface_structures"
+}

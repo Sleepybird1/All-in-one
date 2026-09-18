@@ -1,0 +1,816 @@
+{
+  "format": 1,
+  "name": "default",
+  "defaultTargetFile": "kjsgen_recipes",
+  "exportComments": true,
+  "reloadOnExport": true,
+  "recipes": [
+    {
+      "uid": "5f2584b1-19d4-49f9-a3d6-265659ea0c01",
+      "type": "kjsgen:create_compacting",
+      "recipeId": "industrial_colonies:electronics/empty_circuit_board",
+      "comment": "Copper Press: laminate a TFMG circuit-board substrate",
+      "ifModLoaded": "industrial_colonies",
+      "replaceRecipe": false,
+      "slots": {
+        "__machine_process_compacting": {
+          "kind": "ITEM",
+          "id": "createcasing:copper_press"
+        },
+        "in0": {
+          "kind": "ITEM",
+          "id": "tfmg:plastic_sheet",
+          "count": 3
+        },
+        "in1": {
+          "kind": "ITEM",
+          "id": "minecraft:green_dye"
+        },
+        "output": {
+          "kind": "ITEM",
+          "id": "tfmg:empty_circuit_board"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "5f2584b1-19d4-49f9-a3d6-265659ea0c02",
+      "type": "kjsgen:create_deploying",
+      "recipeId": "industrial_colonies:electronics/printed_silicon",
+      "comment": "Brass Deployer: stamp silicon with the reusable AE2 press",
+      "ifModLoaded": "industrial_colonies",
+      "replaceRecipe": false,
+      "slots": {
+        "__machine_process_deploying": {
+          "kind": "ITEM",
+          "id": "createcasing:brass_deployer"
+        },
+        "input": {
+          "kind": "ITEM_TAG",
+          "id": "c:silicon"
+        },
+        "held": {
+          "kind": "ITEM",
+          "id": "ae2:silicon_press"
+        },
+        "output": {
+          "kind": "ITEM",
+          "id": "ae2:printed_silicon"
+        }
+      },
+      "params": {
+        "keepHeldItem": "true"
+      }
+    },
+    {
+      "uid": "5f2584b1-19d4-49f9-a3d6-265659ea0c03",
+      "type": "kjsgen:shaped",
+      "recipeId": "industrial_colonies:manufacturing/copper_deployer",
+      "comment": "Copper electronics-line Deployer",
+      "replaceRecipe": false,
+      "slots": {
+        "in0": {
+          "kind": "ITEM",
+          "id": "create:copper_sheet"
+        },
+        "in1": {
+          "kind": "ITEM",
+          "id": "create:electron_tube"
+        },
+        "in2": {
+          "kind": "ITEM",
+          "id": "create:copper_sheet"
+        },
+        "in3": {
+          "kind": "ITEM",
+          "id": "create:andesite_alloy"
+        },
+        "in4": {
+          "kind": "ITEM",
+          "id": "create:deployer"
+        },
+        "in5": {
+          "kind": "ITEM",
+          "id": "create:andesite_alloy"
+        },
+        "in6": {
+          "kind": "ITEM",
+          "id": "create:shaft"
+        },
+        "in7": {
+          "kind": "ITEM",
+          "id": "create:copper_casing"
+        },
+        "in8": {
+          "kind": "ITEM",
+          "id": "create:shaft"
+        },
+        "output": {
+          "kind": "ITEM",
+          "id": "createcasing:copper_deployer"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "5f2584b1-19d4-49f9-a3d6-265659ea0c04",
+      "type": "kjsgen:shaped",
+      "recipeId": "industrial_colonies:manufacturing/copper_press",
+      "comment": "Copper electronics-line Press",
+      "replaceRecipe": false,
+      "slots": {
+        "in0": {
+          "kind": "ITEM",
+          "id": "create:copper_sheet"
+        },
+        "in1": {
+          "kind": "ITEM",
+          "id": "create:shaft"
+        },
+        "in2": {
+          "kind": "ITEM",
+          "id": "create:copper_sheet"
+        },
+        "in3": {
+          "kind": "ITEM",
+          "id": "create:andesite_alloy"
+        },
+        "in4": {
+          "kind": "ITEM",
+          "id": "create:mechanical_press"
+        },
+        "in5": {
+          "kind": "ITEM",
+          "id": "create:andesite_alloy"
+        },
+        "in6": {
+          "kind": "ITEM",
+          "id": "create:cogwheel"
+        },
+        "in7": {
+          "kind": "ITEM",
+          "id": "create:copper_casing"
+        },
+        "in8": {
+          "kind": "ITEM",
+          "id": "create:cogwheel"
+        },
+        "output": {
+          "kind": "ITEM",
+          "id": "createcasing:copper_press"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "aa191c30-b26b-4b61-8422-549fd385b673",
+      "type": "kjsgen:shaped",
+      "slots": {
+        "in4": {
+          "kind": "ITEM",
+          "id": "mekanism:ingot_osmium"
+        },
+        "in6": {
+          "kind": "ITEM",
+          "id": "minecraft:iron_ingot"
+        },
+        "in8": {
+          "kind": "ITEM",
+          "id": "minecraft:iron_ingot"
+        },
+        "output": {
+          "kind": "ITEM",
+          "id": "mekanism:metallurgic_infuser"
+        },
+        "in0": {
+          "kind": "ITEM",
+          "id": "tfmg:capacitor_item"
+        },
+        "in2": {
+          "kind": "ITEM",
+          "id": "tfmg:capacitor_item"
+        },
+        "in1": {
+          "kind": "ITEM",
+          "id": "tfmg:transistor_item"
+        },
+        "in3": {
+          "kind": "ITEM",
+          "id": "tfmg:cast_iron_frame"
+        },
+        "in5": {
+          "kind": "ITEM",
+          "id": "tfmg:cast_iron_frame"
+        },
+        "in7": {
+          "kind": "ITEM",
+          "id": "tfmg:empty_circuit_board"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "43916c6c-b706-40c8-a244-997803cfc380",
+      "type": "kjsgen:create_sequenced_assembly",
+      "slots": {},
+      "params": {}
+    },
+    {
+      "uid": "87390809-ec0a-4d0a-983f-28fb86fd1d29",
+      "type": "kjsgen:shaped",
+      "slots": {
+        "in3": {
+          "kind": "ITEM",
+          "id": "mekanism:basic_chemical_tank"
+        },
+        "in5": {
+          "kind": "ITEM",
+          "id": "mekanism:basic_fluid_tank"
+        },
+        "output": {
+          "kind": "ITEM",
+          "id": "mekanism:rotary_condensentrator"
+        },
+        "in1": {
+          "kind": "ITEM",
+          "id": "tfmg:transistor_item"
+        },
+        "in2": {
+          "kind": "ITEM",
+          "id": "tfmg:capacitor_item"
+        },
+        "in0": {
+          "kind": "ITEM",
+          "id": "tfmg:capacitor_item"
+        },
+        "in4": {
+          "kind": "ITEM",
+          "id": "mekanism:energy_tablet"
+        },
+        "in8": {
+          "kind": "ITEM",
+          "id": "tfmg:p_semiconductor"
+        },
+        "in6": {
+          "kind": "ITEM",
+          "id": "tfmg:n_semiconductor"
+        },
+        "in7": {
+          "kind": "ITEM",
+          "id": "tfmg:etched_circuit_board"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "e76c511e-4c66-4827-9b12-bca704dcbb08",
+      "type": "kjsgen:shaped",
+      "slots": {},
+      "params": {}
+    },
+    {
+      "uid": "fca2a1b5-d507-42fc-850b-bfb3fc5c64e1",
+      "type": "kjsgen:shaped",
+      "slots": {
+        "in3": {
+          "kind": "ITEM",
+          "id": "mekanism:alloy_infused"
+        },
+        "in4": {
+          "kind": "ITEM",
+          "id": "minecraft:gold_ingot"
+        },
+        "in5": {
+          "kind": "ITEM",
+          "id": "mekanism:alloy_infused"
+        },
+        "output": {
+          "kind": "ITEM",
+          "id": "mekanism:energy_tablet"
+        },
+        "in0": {
+          "kind": "ITEM",
+          "id": "tfmg:capacitor_item"
+        },
+        "in2": {
+          "kind": "ITEM",
+          "id": "tfmg:capacitor_item"
+        },
+        "in1": {
+          "kind": "ITEM",
+          "id": "tfmg:transistor_item"
+        },
+        "in7": {
+          "kind": "ITEM",
+          "id": "ae2:logic_processor"
+        },
+        "in6": {
+          "kind": "ITEM",
+          "id": "tfmg:n_semiconductor"
+        },
+        "in8": {
+          "kind": "ITEM",
+          "id": "tfmg:p_semiconductor"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "30eb9fff-0dfe-4c01-8f9d-a24f8cc2071a",
+      "type": "kjsgen:shaped",
+      "slots": {
+        "in3": {
+          "kind": "ITEM",
+          "id": "mekanism:alloy_infused"
+        },
+        "in4": {
+          "kind": "ITEM",
+          "id": "minecraft:gold_ingot"
+        },
+        "in5": {
+          "kind": "ITEM",
+          "id": "mekanism:alloy_infused"
+        },
+        "output": {
+          "kind": "ITEM",
+          "id": "mekanism:energy_tablet"
+        },
+        "in0": {
+          "kind": "ITEM",
+          "id": "tfmg:capacitor_item"
+        },
+        "in2": {
+          "kind": "ITEM",
+          "id": "tfmg:capacitor_item"
+        },
+        "in1": {
+          "kind": "ITEM",
+          "id": "tfmg:transistor_item"
+        },
+        "in7": {
+          "kind": "ITEM",
+          "id": "ae2:logic_processor"
+        },
+        "in6": {
+          "kind": "ITEM",
+          "id": "tfmg:n_semiconductor"
+        },
+        "in8": {
+          "kind": "ITEM",
+          "id": "tfmg:p_semiconductor"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "a192fd47-79a4-45ac-9b29-3cd6a1a2f426",
+      "type": "kjsgen:create_sequenced_assembly",
+      "slots": {},
+      "params": {}
+    },
+    {
+      "uid": "37b5587b-3f08-48aa-b694-9a2737a48b06",
+      "type": "kjsgen:create_deploying",
+      "recipeId": "industrial_colonies:electronics/coated_circuit_board",
+      "comment": "Copper Deployer: gold-coat a blank TFMG board",
+      "ifModLoaded": "industrial_colonies",
+      "replaceRecipe": false,
+      "slots": {
+        "__machine_process_deploying": {
+          "kind": "ITEM",
+          "id": "createcasing:copper_deployer"
+        },
+        "input": {
+          "kind": "ITEM",
+          "id": "tfmg:empty_circuit_board"
+        },
+        "held": {
+          "kind": "ITEM_TAG",
+          "id": "c:plates/gold"
+        },
+        "output": {
+          "kind": "ITEM",
+          "id": "tfmg:coated_circuit_board"
+        }
+      },
+      "params": {
+        "keepHeldItem": "false"
+      }
+    },
+    {
+      "uid": "c97772a7-9c68-40dd-b22b-7b55028a8878",
+      "type": "kjsgen:create_sequenced_assembly",
+      "recipeId": "industrial_colonies:electronics/capacitor",
+      "comment": "Copper Deployer line: layered TFMG capacitors",
+      "ifModLoaded": "industrial_colonies",
+      "replaceRecipe": false,
+      "slots": {
+        "input": {
+          "kind": "ITEM_TAG",
+          "id": "c:plates/steel"
+        },
+        "transitional": {
+          "kind": "ITEM",
+          "id": "tfmg:unfinished_capacitor"
+        },
+        "output0": {
+          "kind": "ITEM",
+          "id": "tfmg:capacitor_item",
+          "count": 4
+        },
+        "seqItem0": {
+          "kind": "ITEM_TAG",
+          "id": "c:plates/copper"
+        },
+        "seqItem1": {
+          "kind": "ITEM",
+          "id": "minecraft:paper"
+        },
+        "seqItem2": {
+          "kind": "ITEM_TAG",
+          "id": "c:plates/copper"
+        },
+        "__machine_step_0_deploying": {
+          "kind": "ITEM",
+          "id": "createcasing:copper_deployer"
+        },
+        "__machine_step_1_deploying": {
+          "kind": "ITEM",
+          "id": "createcasing:copper_deployer"
+        },
+        "__machine_step_2_deploying": {
+          "kind": "ITEM",
+          "id": "createcasing:copper_deployer"
+        }
+      },
+      "params": {
+        "loops": "1",
+        "__seqLen": "3",
+        "seq0": "deploying",
+        "seq1": "deploying",
+        "seq2": "deploying"
+      }
+    },
+    {
+      "uid": "d4762377-acde-460d-a9d3-882acdf4b8a1",
+      "type": "kjsgen:create_sequenced_assembly",
+      "recipeId": "industrial_colonies:electronics/transistor",
+      "comment": "Copper Deployer line: N-P-N TFMG transistors",
+      "ifModLoaded": "industrial_colonies",
+      "replaceRecipe": false,
+      "slots": {
+        "input": {
+          "kind": "ITEM",
+          "id": "tfmg:plastic_sheet"
+        },
+        "transitional": {
+          "kind": "ITEM",
+          "id": "tfmg:unfinished_transistor"
+        },
+        "output0": {
+          "kind": "ITEM",
+          "id": "tfmg:transistor_item",
+          "count": 4
+        },
+        "seqItem0": {
+          "kind": "ITEM",
+          "id": "tfmg:copper_wire"
+        },
+        "seqItem1": {
+          "kind": "ITEM",
+          "id": "tfmg:n_semiconductor"
+        },
+        "seqItem2": {
+          "kind": "ITEM",
+          "id": "tfmg:p_semiconductor"
+        },
+        "seqItem3": {
+          "kind": "ITEM",
+          "id": "tfmg:n_semiconductor"
+        },
+        "__machine_step_0_deploying": {
+          "kind": "ITEM",
+          "id": "createcasing:copper_deployer"
+        },
+        "__machine_step_1_deploying": {
+          "kind": "ITEM",
+          "id": "createcasing:copper_deployer"
+        },
+        "__machine_step_2_deploying": {
+          "kind": "ITEM",
+          "id": "createcasing:copper_deployer"
+        },
+        "__machine_step_3_deploying": {
+          "kind": "ITEM",
+          "id": "createcasing:copper_deployer"
+        }
+      },
+      "params": {
+        "loops": "1",
+        "__seqLen": "4",
+        "seq0": "deploying",
+        "seq1": "deploying",
+        "seq2": "deploying",
+        "seq3": "deploying"
+      }
+    },
+    {
+      "uid": "d56b2248-eab3-4511-9e27-5637ab974d39",
+      "type": "kjsgen:create_sequenced_assembly",
+      "recipeId": "industrial_colonies:electronics/circuit_board",
+      "comment": "Copper Deployer line: populate an etched TFMG circuit board",
+      "ifModLoaded": "industrial_colonies",
+      "replaceRecipe": false,
+      "slots": {
+        "input": {
+          "kind": "ITEM",
+          "id": "tfmg:etched_circuit_board"
+        },
+        "transitional": {
+          "kind": "ITEM",
+          "id": "tfmg:unfinished_circuit_board"
+        },
+        "output0": {
+          "kind": "ITEM",
+          "id": "tfmg:circuit_board"
+        },
+        "seqItem0": {
+          "kind": "ITEM",
+          "id": "tfmg:capacitor_item"
+        },
+        "seqItem1": {
+          "kind": "ITEM",
+          "id": "tfmg:resistor"
+        },
+        "seqItem2": {
+          "kind": "ITEM",
+          "id": "tfmg:transistor_item"
+        },
+        "seqItem3": {
+          "kind": "ITEM",
+          "id": "tfmg:resistor"
+        },
+        "__machine_step_0_deploying": {
+          "kind": "ITEM",
+          "id": "createcasing:copper_deployer"
+        },
+        "__machine_step_1_deploying": {
+          "kind": "ITEM",
+          "id": "createcasing:copper_deployer"
+        },
+        "__machine_step_2_deploying": {
+          "kind": "ITEM",
+          "id": "createcasing:copper_deployer"
+        },
+        "__machine_step_3_deploying": {
+          "kind": "ITEM",
+          "id": "createcasing:copper_deployer"
+        }
+      },
+      "params": {
+        "loops": "2",
+        "__seqLen": "4",
+        "seq0": "deploying",
+        "seq1": "deploying",
+        "seq2": "deploying",
+        "seq3": "deploying"
+      }
+    },
+    {
+      "uid": "746178d7-9b47-4a90-9d50-b3f7b98aaec8",
+      "type": "kjsgen:shaped",
+      "recipeId": "industrial_colonies:electronics/voltmeter",
+      "comment": "Reachable TFMG voltmeter without the magnet-polarizer cycle",
+      "replaceRecipe": false,
+      "slots": {
+        "in0": {
+          "kind": "ITEM",
+          "id": "create:copper_sheet"
+        },
+        "in1": {
+          "kind": "ITEM",
+          "id": "minecraft:glass_pane"
+        },
+        "in2": {
+          "kind": "ITEM",
+          "id": "create:copper_sheet"
+        },
+        "in3": {
+          "kind": "ITEM",
+          "id": "minecraft:redstone"
+        },
+        "in4": {
+          "kind": "ITEM",
+          "id": "minecraft:compass"
+        },
+        "in5": {
+          "kind": "ITEM",
+          "id": "minecraft:redstone"
+        },
+        "in6": {
+          "kind": "ITEM_TAG",
+          "id": "c:ingots/zinc"
+        },
+        "in7": {
+          "kind": "ITEM",
+          "id": "tfmg:copper_wire"
+        },
+        "in8": {
+          "kind": "ITEM_TAG",
+          "id": "c:ingots/zinc"
+        },
+        "output": {
+          "kind": "ITEM",
+          "id": "tfmg:voltmeter"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "f25791bc-f894-4ec0-b527-b258fab7ce19",
+      "type": "kjsgen:shaped",
+      "recipeId": "industrial_colonies:manufacturing/brass_press",
+      "comment": "Upgrade the Copper Press into a precision Brass Press",
+      "replaceRecipe": false,
+      "slots": {
+        "in0": {
+          "kind": "ITEM",
+          "id": "create:brass_sheet"
+        },
+        "in1": {
+          "kind": "ITEM",
+          "id": "create:precision_mechanism"
+        },
+        "in2": {
+          "kind": "ITEM",
+          "id": "create:brass_sheet"
+        },
+        "in3": {
+          "kind": "ITEM",
+          "id": "create:electron_tube"
+        },
+        "in4": {
+          "kind": "ITEM",
+          "id": "createcasing:copper_press"
+        },
+        "in5": {
+          "kind": "ITEM",
+          "id": "create:electron_tube"
+        },
+        "in6": {
+          "kind": "ITEM",
+          "id": "create:cogwheel"
+        },
+        "in7": {
+          "kind": "ITEM",
+          "id": "create:brass_casing"
+        },
+        "in8": {
+          "kind": "ITEM",
+          "id": "create:cogwheel"
+        },
+        "output": {
+          "kind": "ITEM",
+          "id": "createcasing:brass_press"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "947d25ed-df35-4395-93d6-58ca8e72b9fe",
+      "type": "kjsgen:shaped",
+      "recipeId": "industrial_colonies:manufacturing/brass_deployer",
+      "comment": "Upgrade the Copper Deployer into a precision Brass Deployer",
+      "replaceRecipe": false,
+      "slots": {
+        "in0": {
+          "kind": "ITEM",
+          "id": "create:brass_sheet"
+        },
+        "in1": {
+          "kind": "ITEM",
+          "id": "create:electron_tube"
+        },
+        "in2": {
+          "kind": "ITEM",
+          "id": "create:brass_sheet"
+        },
+        "in3": {
+          "kind": "ITEM",
+          "id": "create:precision_mechanism"
+        },
+        "in4": {
+          "kind": "ITEM",
+          "id": "createcasing:copper_deployer"
+        },
+        "in5": {
+          "kind": "ITEM",
+          "id": "create:precision_mechanism"
+        },
+        "in6": {
+          "kind": "ITEM",
+          "id": "create:cogwheel"
+        },
+        "in7": {
+          "kind": "ITEM",
+          "id": "create:brass_casing"
+        },
+        "in8": {
+          "kind": "ITEM",
+          "id": "create:cogwheel"
+        },
+        "output": {
+          "kind": "ITEM",
+          "id": "createcasing:brass_deployer"
+        }
+      },
+      "params": {}
+    }
+  ],
+  "removals": [
+    {
+      "uid": "3c59e41a-4be2-40c1-9f18-c31cc13a6483",
+      "output": "ae2:printed_silicon",
+      "input": "ae2:silicon",
+      "mod": "Applied Energistics",
+      "recipeId": ""
+    },
+    {
+      "uid": "9df40d82-4c60-4cf0-8172-2c17473ae801",
+      "output": "",
+      "input": "",
+      "mod": "",
+      "recipeId": "tfmg:crafting/materials/empty_circuit_board"
+    },
+    {
+      "uid": "9df40d82-4c60-4cf0-8172-2c17473ae802",
+      "output": "",
+      "input": "",
+      "mod": "",
+      "recipeId": "ae2:inscriber/silicon_print"
+    },
+    {
+      "uid": "9df40d82-4c60-4cf0-8172-2c17473ae803",
+      "output": "",
+      "input": "",
+      "mod": "",
+      "recipeId": "createcasing:crafting/deployer/copper"
+    },
+    {
+      "uid": "9df40d82-4c60-4cf0-8172-2c17473ae804",
+      "output": "",
+      "input": "",
+      "mod": "",
+      "recipeId": "createcasing:crafting/press/copper"
+    },
+    {
+      "uid": "9df40d82-4c60-4cf0-8172-2c17473ae805",
+      "output": "",
+      "input": "",
+      "mod": "",
+      "recipeId": "tfmg:deploying/coated_circuit_board"
+    },
+    {
+      "uid": "9df40d82-4c60-4cf0-8172-2c17473ae806",
+      "output": "",
+      "input": "",
+      "mod": "",
+      "recipeId": "tfmg:sequenced_assembly/capacitor"
+    },
+    {
+      "uid": "9df40d82-4c60-4cf0-8172-2c17473ae807",
+      "output": "",
+      "input": "",
+      "mod": "",
+      "recipeId": "tfmg:sequenced_assembly/transistor"
+    },
+    {
+      "uid": "9df40d82-4c60-4cf0-8172-2c17473ae808",
+      "output": "",
+      "input": "",
+      "mod": "",
+      "recipeId": "tfmg:sequenced_assembly/unfinished_circuit_board"
+    },
+    {
+      "uid": "9df40d82-4c60-4cf0-8172-2c17473ae809",
+      "output": "",
+      "input": "",
+      "mod": "",
+      "recipeId": "tfmg:crafting/materials/voltmeter"
+    },
+    {
+      "uid": "9df40d82-4c60-4cf0-8172-2c17473ae810",
+      "output": "",
+      "input": "",
+      "mod": "",
+      "recipeId": "createcasing:crafting/press/brass"
+    },
+    {
+      "uid": "9df40d82-4c60-4cf0-8172-2c17473ae811",
+      "output": "",
+      "input": "",
+      "mod": "",
+      "recipeId": "createcasing:crafting/deployer/brass"
+    }
+  ]
+}

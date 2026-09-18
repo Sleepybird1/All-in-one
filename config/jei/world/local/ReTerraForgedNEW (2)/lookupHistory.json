@@ -1,0 +1,4 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"modernfoundry:modifier_worktable","components":"{\"minecraft:custom_data\":{texture:\"minecraft:stone\"}}"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

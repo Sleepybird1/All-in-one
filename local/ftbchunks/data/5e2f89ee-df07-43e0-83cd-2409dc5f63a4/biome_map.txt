@@ -1,0 +1,7 @@
+#2A7 regions_unexplored:ancient_delta
+#2DC minecraft:deep_dark
+#4CA minecraft:dripstone_caves
+#286 minecraft:grove
+#51E minecraft:jagged_peaks
+#524 minecraft:snowy_slopes
+#79C regions_unexplored:tundra

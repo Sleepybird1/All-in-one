@@ -1,0 +1,22 @@
+{
+  "structures": [
+    {
+      "structure": "minecolonies:ship",
+      "weight": 2
+    },
+    {
+      "structure": "block_factorys_bosses:kraken_ship",
+      "weight": 3
+    },
+    {
+      "structure": "irons_spellbooks:impaled_icebreaker",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 128,
+    "separation": 64,
+    "salt": 19610911
+  }
+}

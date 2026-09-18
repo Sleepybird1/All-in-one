@@ -1,0 +1,16 @@
+#427 regions_unexplored:cold_river
+#4CA minecraft:dripstone_caves
+#6C5 regions_unexplored:fen
+#508 minecraft:frozen_peaks
+#286 minecraft:grove
+#51E minecraft:jagged_peaks
+#2D6 minecraft:meadow
+#73A minecraft:old_growth_pine_taiga
+#60C minecraft:old_growth_spruce_taiga
+#10D regions_unexplored:pine_slopes
+#11D regions_unexplored:pine_taiga
+#4AB regions_unexplored:redwoods
+#5FF minecraft:river
+#7EA regions_unexplored:sparse_redwoods
+#169 minecraft:taiga
+#482 regions_unexplored:wisteria_grove

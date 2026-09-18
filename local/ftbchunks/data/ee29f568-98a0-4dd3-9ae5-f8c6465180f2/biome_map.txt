@@ -1,0 +1,4 @@
+#2DC minecraft:deep_dark
+#4CA minecraft:dripstone_caves
+#4AB regions_unexplored:redwoods
+#7EA regions_unexplored:sparse_redwoods

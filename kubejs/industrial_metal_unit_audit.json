@@ -1,0 +1,2570 @@
+[
+	{
+		"id": "nuclearcraft:fluid_infuser/uranium_leu_235_za",
+		"action": "normalize"
+	},
+	{
+		"id": "nuclearcraft:beryllium_ingot_from_block",
+		"action": "ten-ingot-breakdown"
+	},
+	{
+		"id": "nuclearcraft:beryllium_ingot_from_block",
+		"action": "normalize"
+	},
+	{
+		"id": "modernfoundry:smeltery/casting/metal/netherite/plate_sand_cast",
+		"action": "normalize"
+	},
+	{
+		"id": "modernfoundry:smeltery/melting/metal/electrum/dust",
+		"action": "normalize"
+	},
+	{
+		"id": "nuclearcraft:melter/manganese_dust",
+		"action": "normalize"
+	},
+	{
+		"id": "nuclearcraft:fluid_infuser/plutonium_238_za",
+		"action": "normalize"
+	},
+	{
+		"id": "modernfoundry:smeltery/casting/metal/amethyst_bronze/ingot_gold_cast",
+		"action": "normalize"
+	},
+	{
+		"id": "modernfoundry:smeltery/melting/metal/molten_debris/ore",
+		"action": "normalize"
+	},
+	{
+		"id": "immersiveengineering:crafting/ingot_steel_to_storage_steel",
+		"action": "ten-ingot-block"
+	},
+	{
+		"id": "tfmg:crafting/materials/lead_ingot_from_decompacting",
+		"action": "ten-ingot-breakdown"
+	},
+	{
+		"id": "tfmg:crafting/materials/lead_ingot_from_decompacting",
+		"action": "normalize"
+	},
+	{
+		"id": "tfmg:crafting/materials/lead_nugget_from_decompacting",
+		"action": "normalize"
+	},
+	{
+		"id": "modernfoundry:tools/materials/melting/electrum",
+		"action": "normalize"
+	},
+	{
+		"id": "nuclearcraft:melter/lithium_manganese_dioxide_ingot",
+		"action": "normalize"
+	},
+	{
+		"id": "modernfoundry:common/materials/slimesteel_nugget_from_ingot",
+		"action": "normalize"
+	},
+	{
+		"id": "modernfoundry:smeltery/melting/metal/hepatizon/block",
+		"action": "normalize"
+	},
+	{
+		"id": "immersiveengineering:crafting/ingot_lead_to_nugget_lead",
+		"action": "normalize"
+	},
+	{
+		"id": "mekanism:nuggets/refined_glowstone",
+		"action": "normalize"
+	},
+	{
+		"id": "modernfoundry:smeltery/casting/metal/netherite/ancient_repair_kit_gold_cast",
+		"action": "normalize"
+	},
+	{
+		"id": "aquaculture:neptunium_nugget",
+		"action": "normalize"
+	},
+	{
+		"id": "modernfoundry:tools/materials/melting/constantan",
+		"action": "normalize"
+	},
+	{
+		"id": "modernfoundry:tools/materials/casting/amethyst_bronze",
+		"action": "normalize"
+	},
+	{
+		"id": "tfmg:crafting/materials/steel_block_from_compacting",
+		"action": "ten-ingot-block"
+	},
+	{
+		"id": "nuclearcraft:ingot_former/manganese",
+		"action": "normalize"
+	},
+	{
+		"id": "nuclearcraft:graphite_block",
+		"action": "ten-ingot-block"
+	},
+	{
+		"id": "modernfoundry:smeltery/melting/metal/cinderslime/block",
+		"action": "normalize"
+	},
+	{
+		"id": "rocketnautics:crafting/materials/titanium_ingot_from_decompacting",
+		"action": "ten-ingot-breakdown"
+	},
+	{
+		"id": "rocketnautics:crafting/materials/titanium_ingot_from_decompacting",
+		"action": "normalize"
+	},
+	{
+		"id": "modernfoundry:smeltery/casting/metal/electrum/plate_gold_cast",
+		"action": "normalize"
+	},
+	{
+		"id": "modernfoundry:common/materials/amethyst_bronze_ingot_from_nuggets",
+		"action": "ten-nugget-consolidation"
+	},
+	{
+		"id": "modernfoundry:common/materials/slimesteel_block_from_ingots",
+		"action": "ten-ingot-block"
+	},
+	{
+		"id": "modernfoundry:common/materials/knightmetal_block_from_ingots",
+		"action": "ten-ingot-block"
+	},
+	{
+		"id": "modernfoundry:smeltery/melting/metal/netherite/plate",
+		"action": "normalize"
+	},
+	{
+		"id": "modernfoundry:common/materials/knightslime_ingot_from_nuggets",
+		"action": "ten-nugget-consolidation"
+	},
+	{
+		"id": "minecraft:copper_ingot",
+		"action": "ten-ingot-breakdown"
+	},
+	{
+		"id": "minecraft:copper_ingot",
+		"action": "normalize"
+	},
+	{
+		"id": "stellaris:misc/heavy_metal_plate",
+		"action": "ten-ingot-block"
+	},
+	{
+		"id": "immersiveengineering:crafting/ingot_silver_to_storage_silver",
+		"action": "ten-ingot-block"
+	},
+	{
+		"id": "modernfoundry:smeltery/melting/metal/constantan/sheetmetal",
+		"action": "normalize"
+	},
+	{
+		"id": "modernfoundry:common/materials/amethyst_bronze_ingot_from_block",
+		"action": "ten-ingot-breakdown"
+	},
+	{
+		"id": "modernfoundry:common/materials/amethyst_bronze_ingot_from_block",
+		"action": "normalize"
+	},
+	{
+		"id": "immersiveengineering:crafting/storage_lead_to_ingot_lead",
+		"action": "ten-ingot-breakdown"
+	},
+	{
+		"id": "immersiveengineering:crafting/storage_lead_to_ingot_lead",
+		"action": "normalize"
+	},
+	{
+		"id": "nuclearcraft:zirconium_ingot_from_nugget",
+		"action": "ten-nugget-consolidation"
+	},
+	{
+		"id": "nuclearcraft:fluid_infuser/thorium_230_za",
+		"action": "normalize"
+	},
+	{
+		"id": "modernfoundry:smeltery/casting/metal/refined_obsidian/block",
+		"action": "normalize"
+	},
+	{
+		"id": "nuclearcraft:fluid_infuser/uranium_heu_235_za",
+		"action": "normalize"
+	},
+	{
+		"id": "modernfoundry:common/materials/copper_nugget_from_ingot",
+		"action": "normalize"
+	},
+	{
+		"id": "nuclearcraft:fluid_infuser/plutonium_lep_239_za",
+		"action": "normalize"
+	},
+	{
+		"id": "nuclearcraft:ingot_former/zircaloy",
+		"action": "normalize"
+	},
+	{
+		"id": "mekanism:storage_blocks/refined_obsidian",
+		"action": "ten-ingot-block"
+	},
+	{
+		"id": "mekanism:processing/tin/ingot/from_block",
+		"action": "ten-ingot-breakdown"
+	},
+	{
+		"id": "mekanism:processing/tin/ingot/from_block",
+		"action": "normalize"
+	},
+	{
+		"id": "modernfoundry:smeltery/casting/metal/refined_obsidian/ingot_gold_cast",
+		"action": "normalize"
+	},
+	{
+		"id": "modernfoundry:common/materials/rose_gold_ingot_from_block",
+		"action": "ten-ingot-breakdown"
+	},
+	{
+		"id": "modernfoundry:common/materials/rose_gold_ingot_from_block",
+		"action": "normalize"
+	},
+	{
+		"id": "modernfoundry:smeltery/casting/metal/refined_glowstone/ingot_sand_cast",
+		"action": "normalize"
+	},
+	{
+		"id": "nuclearcraft:platinum_nugget_from_ingot",
+		"action": "normalize"
+	},
+	{
+		"id": "modernfoundry:smeltery/casting/metal/netherite/ingot_gold_cast",
+		"action": "normalize"
+	},
+	{
+		"id": "nuclearcraft:beryllium_nugget_from_ingot",
+		"action": "normalize"
+	},
+	{
+		"id": "modernfoundry:smeltery/casting/metal/constantan/plate_sand_cast",
+		"action": "normalize"
+	},
+	{
+		"id": "modernfoundry:common/materials/manyullyn_nugget_from_ingot",
+		"action": "normalize"
+	},
+	{
+		"id": "nuclearcraft:fluid_infuser/californium_251_za",
+		"action": "normalize"
+	},
+	{
+		"id": "nuclearcraft:fluid_infuser/thorium_tbu_za",
+		"action": "normalize"
+	},
+	{
+		"id": "rocketnautics:crafting/materials/titanium_alloy_nugget_from_decompacting",
+		"action": "normalize"
+	},
+	{
+		"id": "nuclearcraft:cobalt_ingot_from_block",
+		"action": "ten-ingot-breakdown"
+	},
+	{
+		"id": "nuclearcraft:cobalt_ingot_from_block",
+		"action": "normalize"
+	},
+	{
+		"id": "modernfoundry:smeltery/melting/metal/pig_iron/block",
+		"action": "normalize"
+	},
+	{
+		"id": "nuclearcraft:melter/zirconium_ingot",
+		"action": "normalize"
+	},
+	{
+		"id": "tfmg:crafting/materials/steel_nugget_from_decompacting",
+		"action": "normalize"
+	},
+	{
+		"id": "bigreactors:crafting/yellorium_storage_to_component",
+		"action": "ten-ingot-breakdown"
+	},
+	{
+		"id": "bigreactors:crafting/yellorium_storage_to_component",
+		"action": "normalize"
+	},
+	{
+		"id": "modernfoundry:smeltery/melting/metal/refined_obsidian/ingot",
+		"action": "normalize"
+	},
+	{
+		"id": "modernfoundry:smeltery/casting/metal/constantan/block",
+		"action": "normalize"
+	},
+	{
+		"id": "nuclearcraft:melter/zircaloy_ingot",
+		"action": "normalize"
+	},
+	{
+		"id": "nuclearcraft:bronze_nugget_from_ingot",
+		"action": "normalize"
+	},
+	{
+		"id": "modernfoundry:common/materials/queens_slime_ingot_from_block",
+		"action": "ten-ingot-breakdown"
+	},
+	{
+		"id": "modernfoundry:common/materials/queens_slime_ingot_from_block",
+		"action": "normalize"
+	},
+	{
+		"id": "nuclearcraft:melter/hsla_steel_dust",
+		"action": "normalize"
+	},
+	{
+		"id": "nuclearcraft:melter/manganese_ingot",
+		"action": "normalize"
+	},
+	{
+		"id": "modernfoundry:common/materials/queens_slime_nugget_from_ingot",
+		"action": "normalize"
+	},
+	{
+		"id": "modernfoundry:smeltery/melting/metal/rose_gold/block",
+		"action": "normalize"
+	},
+	{
+		"id": "modernfoundry:common/materials/knightmetal_nugget_from_ingot",
+		"action": "normalize"
+	},
+	{
+		"id": "modernfoundry:smeltery/melting/metal/manyullyn/ingot",
+		"action": "normalize"
+	},
+	{
+		"id": "nuclearcraft:fluid_infuser/uranium_leu_233_za",
+		"action": "normalize"
+	},
+	{
+		"id": "nuclearcraft:melter/uranium_dust",
+		"action": "normalize"
+	},
+	{
+		"id": "nuclearcraft:fluid_infuser/plutonium_hep_239_za",
+		"action": "normalize"
+	},
+	{
+		"id": "tfmg:crafting/materials/lithium_nugget_from_decompacting",
+		"action": "normalize"
+	},
+	{
+		"id": "modernfoundry:smeltery/casting/metal/queens_slime/block",
+		"action": "normalize"
+	},
+	{
+		"id": "create:crafting/materials/andesite_alloy_block",
+		"action": "ten-ingot-block"
+	},
+	{
+		"id": "modernfoundry:smeltery/casting/metal/netherite/block",
+		"action": "normalize"
+	},
+	{
+		"id": "modernfoundry:smeltery/melting/metal/queens_slime/ingot",
+		"action": "normalize"
+	},
+	{
+		"id": "modernfoundry:smeltery/casting/metal/knightmetal/ingot_sand_cast",
+		"action": "normalize"
+	},
+	{
+		"id": "modernfoundry:smeltery/casting/metal/slimesteel/ingot_sand_cast",
+		"action": "normalize"
+	},
+	{
+		"id": "create:crafting/materials/andesite_alloy_from_block",
+		"action": "ten-ingot-breakdown"
+	},
+	{
+		"id": "create:crafting/materials/andesite_alloy_from_block",
+		"action": "normalize"
+	},
+	{
+		"id": "nuclearcraft:zinc_nugget_from_ingot",
+		"action": "normalize"
+	},
+	{
+		"id": "nuclearcraft:fluid_infuser/uranium_235_za",
+		"action": "normalize"
+	},
+	{
+		"id": "modernfoundry:smeltery/casting/metal/constantan/ingot_gold_cast",
+		"action": "normalize"
+	},
+	{
+		"id": "nuclearcraft:fluid_infuser/californium_lecf_251_za",
+		"action": "normalize"
+	},
+	{
+		"id": "modernfoundry:smeltery/casting/metal/electrum/ingot_sand_cast",
+		"action": "normalize"
+	},
+	{
+		"id": "nuclearcraft:chemical_reactor/thermoconducting_molten",
+		"action": "normalize"
+	},
+	{
+		"id": "nuclearcraft:ingot_former/thorium",
+		"action": "normalize"
+	},
+	{
+		"id": "nuclearcraft:fluid_infuser/curium_243_za",
+		"action": "normalize"
+	},
+	{
+		"id": "modernfoundry:common/materials/slimesteel_ingot_from_block",
+		"action": "ten-ingot-breakdown"
+	},
+	{
+		"id": "modernfoundry:common/materials/slimesteel_ingot_from_block",
+		"action": "normalize"
+	},
+	{
+		"id": "nuclearcraft:melter/lead_platinum_dust",
+		"action": "normalize"
+	},
+	{
+		"id": "nuclearcraft:uranium_ingot_from_block",
+		"action": "ten-ingot-breakdown"
+	},
+	{
+		"id": "nuclearcraft:uranium_ingot_from_block",
+		"action": "normalize"
+	},
+	{
+		"id": "nuclearcraft:melter/silicon_carbide_dust",
+		"action": "normalize"
+	},
+	{
+		"id": "nuclearcraft:melter/thermoconducting_ingot",
+		"action": "normalize"
+	},
+	{
+		"id": "nuclearcraft:melter/shibuichi_ingot",
+		"action": "normalize"
+	},
+	{
+		"id": "nuclearcraft:platinum_ingot_from_block",
+		"action": "ten-ingot-breakdown"
+	},
+	{
+		"id": "nuclearcraft:platinum_ingot_from_block",
+		"action": "normalize"
+	},
+	{
+		"id": "modernfoundry:smeltery/casting/metal/netherite/scrap_sand_cast",
+		"action": "normalize"
+	},
+	{
+		"id": "modernfoundry:smeltery/casting/metal/queens_slime/ingot_gold_cast",
+		"action": "normalize"
+	},
+	{
+		"id": "create:crafting/materials/zinc_block_from_compacting",
+		"action": "ten-ingot-block"
+	},
+	{
+		"id": "modernfoundry:smeltery/melting/metal/refined_glowstone/ingot",
+		"action": "normalize"
+	},
+	{
+		"id": "stellaris:misc/steel_block",
+		"action": "ten-ingot-block"
+	},
+	{
+		"id": "minecraft:netherite_block",
+		"action": "ten-ingot-block"
+	},
+	{
+		"id": "modernfoundry:smeltery/casting/metal/manyullyn/ingot_gold_cast",
+		"action": "normalize"
+	},
+	{
+		"id": "rocketnautics:crafting/materials/titanium_block_from_compacting",
+		"action": "ten-ingot-block"
+	},
+	{
+		"id": "tfmg:crafting/materials/nickel_ingot_from_decompacting",
+		"action": "ten-ingot-breakdown"
+	},
+	{
+		"id": "tfmg:crafting/materials/nickel_ingot_from_decompacting",
+		"action": "normalize"
+	},
+	{
+		"id": "nuclearcraft:fluid_infuser/curium_lecm_243_za",
+		"action": "normalize"
+	},
+	{
+		"id": "nuclearcraft:fluid_infuser/uranium_heu_233_za",
+		"action": "normalize"
+	},
+	{
+		"id": "nuclearcraft:fluid_infuser/americium_242_za",
+		"action": "normalize"
+	},
+	{
+		"id": "modernfoundry:smeltery/melting/metal/electrum/ingot",
+		"action": "normalize"
+	},
+	{
+		"id": "nuclearcraft:fluid_infuser/thorium_232_za",
+		"action": "normalize"
+	},
+	{
+		"id": "stellaris:misc/heavy_metal_ingot_from_nugget",
+		"action": "ten-nugget-consolidation"
+	},
+	{
+		"id": "createbigcannons:melting/melt_cast_iron_block",
+		"action": "normalize"
+	},
+	{
+		"id": "tfmg:crafting/materials/steel_ingot_from_decompacting",
+		"action": "ten-ingot-breakdown"
+	},
+	{
+		"id": "tfmg:crafting/materials/steel_ingot_from_decompacting",
+		"action": "normalize"
+	},
+	{
+		"id": "modernfoundry:smeltery/casting/metal/electrum/wire_sand_cast",
+		"action": "normalize"
+	},
+	{
+		"id": "nuclearcraft:melter/lead_platinum_ingot",
+		"action": "normalize"
+	},
+	{
+		"id": "modernfoundry:smeltery/melting/metal/rose_gold/silky_cloth",
+		"action": "normalize"
+	},
+	{
+		"id": "mekanism:processing/tin/nugget/from_ingot",
+		"action": "normalize"
+	},
+	{
+		"id": "nuclearcraft:melter/electrum_dust",
+		"action": "normalize"
+	},
+	{
+		"id": "modernfoundry:smeltery/melting/metal/netherite/lodestone",
+		"action": "normalize"
+	},
+	{
+		"id": "nuclearcraft:fluid_infuser/curium_245_za",
+		"action": "normalize"
+	},
+	{
+		"id": "modernfoundry:tools/materials/casting/queens_slime",
+		"action": "normalize"
+	},
+	{
+		"id": "bigreactors:crafting/magentite_component_to_storage",
+		"action": "ten-ingot-block"
+	},
+	{
+		"id": "tfmg:crafting/materials/lithium_block_from_compacting",
+		"action": "ten-ingot-block"
+	},
+	{
+		"id": "modernfoundry:smeltery/melting/metal/knightmetal/fluid_cannon",
+		"action": "normalize"
+	},
+	{
+		"id": "modernfoundry:common/materials/cinderslime_nugget_from_ingot",
+		"action": "normalize"
+	},
+	{
+		"id": "nuclearcraft:ingot_former/zirconium_molybdenum",
+		"action": "normalize"
+	},
+	{
+		"id": "nuclearcraft:fluid_infuser/californium_lecf_249_za",
+		"action": "normalize"
+	},
+	{
+		"id": "modernfoundry:common/materials/pig_iron_nugget_from_ingot",
+		"action": "normalize"
+	},
+	{
+		"id": "megacells:crafting/sky_bronze_ingot_from_sky_bronze_block",
+		"action": "ten-ingot-breakdown"
+	},
+	{
+		"id": "megacells:crafting/sky_bronze_ingot_from_sky_bronze_block",
+		"action": "normalize"
+	},
+	{
+		"id": "nuclearcraft:melter/uranium_ore",
+		"action": "normalize"
+	},
+	{
+		"id": "modernfoundry:tools/materials/casting/electrum",
+		"action": "normalize"
+	},
+	{
+		"id": "modernfoundry:smeltery/casting/metal/pig_iron/ingot_gold_cast",
+		"action": "normalize"
+	},
+	{
+		"id": "create:crafting/materials/brass_block_from_compacting",
+		"action": "ten-ingot-block"
+	},
+	{
+		"id": "modernfoundry:tools/materials/melting/knightmetal",
+		"action": "normalize"
+	},
+	{
+		"id": "createmetallurgy:crafting/materials/tungsten_block",
+		"action": "ten-ingot-block"
+	},
+	{
+		"id": "nuclearcraft:melter/baratol_ingot",
+		"action": "normalize"
+	},
+	{
+		"id": "nuclearcraft:thorium_ingot_from_nugget",
+		"action": "ten-nugget-consolidation"
+	},
+	{
+		"id": "nuclearcraft:melter/uranium_raw",
+		"action": "normalize"
+	},
+	{
+		"id": "nuclearcraft:beryllium_block",
+		"action": "ten-ingot-block"
+	},
+	{
+		"id": "tfmg:crafting/materials/cast_iron_block_from_compacting",
+		"action": "ten-ingot-block"
+	},
+	{
+		"id": "stellaris:misc/plutonium_nugget",
+		"action": "normalize"
+	},
+	{
+		"id": "nuclearcraft:melter/manganese_dioxide_ingot",
+		"action": "normalize"
+	},
+	{
+		"id": "nuclearcraft:boron_nugget_from_ingot",
+		"action": "normalize"
+	},
+	{
+		"id": "bigreactors:crafting/yellorium_component_to_storage",
+		"action": "ten-ingot-block"
+	},
+	{
+		"id": "modernfoundry:tools/materials/melting/hepatizon",
+		"action": "normalize"
+	},
+	{
+		"id": "modernfoundry:smeltery/casting/metal/rose_gold/ingot_gold_cast",
+		"action": "normalize"
+	},
+	{
+		"id": "modernfoundry:smeltery/casting/metal/knightslime/ingot_gold_cast",
+		"action": "normalize"
+	},
+	{
+		"id": "modernfoundry:smeltery/casting/metal/netherite/scrap_gold_cast",
+		"action": "normalize"
+	},
+	{
+		"id": "modernfoundry:common/materials/cinderslime_ingot_from_nuggets",
+		"action": "ten-nugget-consolidation"
+	},
+	{
+		"id": "createmetallurgy:crafting/materials/obdurium_block",
+		"action": "ten-ingot-block"
+	},
+	{
+		"id": "modernfoundry:common/materials/queens_slime_block_from_ingots",
+		"action": "ten-ingot-block"
+	},
+	{
+		"id": "modernfoundry:smeltery/melting/metal/knightslime/block",
+		"action": "normalize"
+	},
+	{
+		"id": "nuclearcraft:melter/zirconium_dust",
+		"action": "normalize"
+	},
+	{
+		"id": "createaddition:crafting/electrum_nugget",
+		"action": "normalize"
+	},
+	{
+		"id": "modernfoundry:common/materials/cobalt_block_from_ingots",
+		"action": "ten-ingot-block"
+	},
+	{
+		"id": "modernfoundry:common/materials/rose_gold_nugget_from_ingot",
+		"action": "normalize"
+	},
+	{
+		"id": "tfmg:crafting/materials/constantan_ingot_from_decompacting",
+		"action": "ten-ingot-breakdown"
+	},
+	{
+		"id": "tfmg:crafting/materials/constantan_ingot_from_decompacting",
+		"action": "normalize"
+	},
+	{
+		"id": "nuclearcraft:melter/thorium_ore",
+		"action": "normalize"
+	},
+	{
+		"id": "modernfoundry:common/materials/knightmetal_ingot_from_nuggets",
+		"action": "ten-nugget-consolidation"
+	},
+	{
+		"id": "modernfoundry:smeltery/melting/metal/netherite/dust",
+		"action": "normalize"
+	},
+	{
+		"id": "nuclearcraft:melter/carbon_manganese_dust",
+		"action": "normalize"
+	},
+	{
+		"id": "modernfoundry:common/materials/manyullyn_ingot_from_nuggets",
+		"action": "ten-nugget-consolidation"
+	},
+	{
+		"id": "nuclearcraft:boron_block",
+		"action": "ten-ingot-block"
+	},
+	{
+		"id": "nuclearcraft:fluid_infuser/californium_hecf_251_za",
+		"action": "normalize"
+	},
+	{
+		"id": "modernfoundry:smeltery/melting/metal/knightmetal/cluster",
+		"action": "normalize"
+	},
+	{
+		"id": "nuclearcraft:melter/zirconium_molybdenum_dust",
+		"action": "normalize"
+	},
+	{
+		"id": "tfmg:crafting/materials/lithium_ingot_from_decompacting",
+		"action": "ten-ingot-breakdown"
+	},
+	{
+		"id": "tfmg:crafting/materials/lithium_ingot_from_decompacting",
+		"action": "normalize"
+	},
+	{
+		"id": "nuclearcraft:melter/thorium_raw",
+		"action": "normalize"
+	},
+	{
+		"id": "nuclearcraft:melter/hard_carbon_dust",
+		"action": "normalize"
+	},
+	{
+		"id": "nuclearcraft:fluid_infuser/mixed_mix_239_za",
+		"action": "normalize"
+	},
+	{
+		"id": "modernfoundry:tools/materials/casting/knightmetal",
+		"action": "normalize"
+	},
+	{
+		"id": "modernfoundry:smeltery/casting/metal/refined_glowstone/block",
+		"action": "normalize"
+	},
+	{
+		"id": "createbigcannons:bronze_ingot_from_block",
+		"action": "ten-ingot-breakdown"
+	},
+	{
+		"id": "createbigcannons:bronze_ingot_from_block",
+		"action": "normalize"
+	},
+	{
+		"id": "nuclearcraft:chemical_reactor/zirconium_molybdenum_molten",
+		"action": "normalize"
+	},
+	{
+		"id": "modernfoundry:tools/materials/melting/ancient_hide",
+		"action": "normalize"
+	},
+	{
+		"id": "nuclearcraft:thorium_ingot_from_block",
+		"action": "ten-ingot-breakdown"
+	},
+	{
+		"id": "nuclearcraft:thorium_ingot_from_block",
+		"action": "normalize"
+	},
+	{
+		"id": "modernfoundry:smeltery/casting/metal/manyullyn/block",
+		"action": "normalize"
+	},
+	{
+		"id": "createbigcannons:compacting/forge_nethersteel_block",
+		"action": "normalize"
+	},
+	{
+		"id": "modernfoundry:smeltery/melting/metal/netherite/chestplate",
+		"action": "normalize"
+	},
+	{
+		"id": "modernfoundry:smeltery/casting/metal/knightmetal/block",
+		"action": "normalize"
+	},
+	{
+		"id": "tfmg:crafting/materials/plastic_sheet",
+		"action": "ten-ingot-breakdown"
+	},
+	{
+		"id": "tfmg:crafting/materials/plastic_sheet",
+		"action": "normalize"
+	},
+	{
+		"id": "nuclearcraft:ingot_former/sic_sic_cmc",
+		"action": "normalize"
+	},
+	{
+		"id": "nuclearcraft:zirconium_block",
+		"action": "ten-ingot-block"
+	},
+	{
+		"id": "modernfoundry:common/materials/slimesteel_ingot_from_nuggets",
+		"action": "ten-nugget-consolidation"
+	},
+	{
+		"id": "modernfoundry:smeltery/casting/metal/pig_iron/block",
+		"action": "normalize"
+	},
+	{
+		"id": "immersiveengineering:crafting/ingot_uranium_to_nugget_uranium",
+		"action": "normalize"
+	},
+	{
+		"id": "nuclearcraft:melter/sic_sic_cmc_ingot",
+		"action": "normalize"
+	},
+	{
+		"id": "nuclearcraft:fluid_infuser/berkelium_heb_248_za",
+		"action": "normalize"
+	},
+	{
+		"id": "nuclearcraft:cobalt_block",
+		"action": "ten-ingot-block"
+	},
+	{
+		"id": "minecraft:gold_ingot_from_gold_block",
+		"action": "ten-ingot-breakdown"
+	},
+	{
+		"id": "minecraft:gold_ingot_from_gold_block",
+		"action": "normalize"
+	},
+	{
+		"id": "modernfoundry:common/materials/manyullyn_ingot_from_block",
+		"action": "ten-ingot-breakdown"
+	},
+	{
+		"id": "modernfoundry:common/materials/manyullyn_ingot_from_block",
+		"action": "normalize"
+	},
+	{
+		"id": "modernfoundry:smeltery/melting/metal/netherite/block",
+		"action": "normalize"
+	},
+	{
+		"id": "bigreactors:crafting/magentite_storage_to_component",
+		"action": "ten-ingot-breakdown"
+	},
+	{
+		"id": "bigreactors:crafting/magentite_storage_to_component",
+		"action": "normalize"
+	},
+	{
+		"id": "createbigcannons:melting/melt_nethersteel_ingot",
+		"action": "normalize"
+	},
+	{
+		"id": "mekanism:processing/tin/storage_blocks/from_ingots",
+		"action": "ten-ingot-block"
+	},
+	{
+		"id": "nuclearcraft:magnesium_ingot_from_block",
+		"action": "ten-ingot-breakdown"
+	},
+	{
+		"id": "nuclearcraft:magnesium_ingot_from_block",
+		"action": "normalize"
+	},
+	{
+		"id": "nuclearcraft:fluid_infuser/curium_247_za",
+		"action": "normalize"
+	},
+	{
+		"id": "modernfoundry:common/materials/pig_iron_ingot_from_block",
+		"action": "ten-ingot-breakdown"
+	},
+	{
+		"id": "modernfoundry:common/materials/pig_iron_ingot_from_block",
+		"action": "normalize"
+	},
+	{
+		"id": "modernfoundry:common/materials/debris_nugget_from_ingot",
+		"action": "normalize"
+	},
+	{
+		"id": "nuclearcraft:fluid_infuser/neptunium_236_za",
+		"action": "normalize"
+	},
+	{
+		"id": "ad_astra:calorite_ingot_from_calorite_block",
+		"action": "ten-ingot-breakdown"
+	},
+	{
+		"id": "ad_astra:calorite_ingot_from_calorite_block",
+		"action": "normalize"
+	},
+	{
+		"id": "rocketnautics:crafting/materials/titanium_alloy_block_from_compacting",
+		"action": "ten-ingot-block"
+	},
+	{
+		"id": "createbigcannons:nethersteel_block",
+		"action": "ten-ingot-block"
+	},
+	{
+		"id": "ad_astra:steel_nugget",
+		"action": "normalize"
+	},
+	{
+		"id": "ad_astra:desh_ingot_from_desh_block",
+		"action": "ten-ingot-breakdown"
+	},
+	{
+		"id": "ad_astra:desh_ingot_from_desh_block",
+		"action": "normalize"
+	},
+	{
+		"id": "modernfoundry:smeltery/melting/metal/knightmetal/block",
+		"action": "normalize"
+	},
+	{
+		"id": "modernfoundry:smeltery/casting/metal/rose_gold/ingot_sand_cast",
+		"action": "normalize"
+	},
+	{
+		"id": "nuclearcraft:fluid_infuser/boron_11_za",
+		"action": "normalize"
+	},
+	{
+		"id": "nuclearcraft:melter/carbon_manganese_ingot",
+		"action": "normalize"
+	},
+	{
+		"id": "rocketnautics:crafting/materials/titanium_alloy_from_compacting",
+		"action": "ten-nugget-consolidation"
+	},
+	{
+		"id": "bigreactors:crafting/cyanite_component_to_storage",
+		"action": "ten-ingot-block"
+	},
+	{
+		"id": "nuclearcraft:aluminum_block",
+		"action": "ten-ingot-block"
+	},
+	{
+		"id": "modernfoundry:smeltery/melting/metal/amethyst_bronze/ingot",
+		"action": "normalize"
+	},
+	{
+		"id": "nuclearcraft:tin_block",
+		"action": "ten-ingot-block"
+	},
+	{
+		"id": "modernfoundry:common/materials/rose_gold_ingot_from_nuggets",
+		"action": "ten-nugget-consolidation"
+	},
+	{
+		"id": "nuclearcraft:melter/uranium_ingot",
+		"action": "normalize"
+	},
+	{
+		"id": "createbigcannons:melting/melt_nethersteel_nugget",
+		"action": "normalize"
+	},
+	{
+		"id": "nuclearcraft:fluid_infuser/plutonium_241_za",
+		"action": "normalize"
+	},
+	{
+		"id": "nuclearcraft:fluid_infuser/berkelium_247_za",
+		"action": "normalize"
+	},
+	{
+		"id": "modernfoundry:common/materials/hepatizon_block_from_ingots",
+		"action": "ten-ingot-block"
+	},
+	{
+		"id": "nuclearcraft:fluid_infuser/lithium_6_za",
+		"action": "normalize"
+	},
+	{
+		"id": "modernfoundry:smeltery/casting/metal/knightslime/ingot_sand_cast",
+		"action": "normalize"
+	},
+	{
+		"id": "megacells:crafting/sky_bronze_block",
+		"action": "ten-ingot-block"
+	},
+	{
+		"id": "nuclearcraft:ingot_former/ferroboron",
+		"action": "normalize"
+	},
+	{
+		"id": "nuclearcraft:thorium_block",
+		"action": "ten-ingot-block"
+	},
+	{
+		"id": "minecraft:netherite_ingot_from_netherite_block",
+		"action": "ten-ingot-breakdown"
+	},
+	{
+		"id": "minecraft:netherite_ingot_from_netherite_block",
+		"action": "normalize"
+	},
+	{
+		"id": "mekanism:processing/osmium/ingot/from_block",
+		"action": "ten-ingot-breakdown"
+	},
+	{
+		"id": "mekanism:processing/osmium/ingot/from_block",
+		"action": "normalize"
+	},
+	{
+		"id": "modernfoundry:smeltery/melting/metal/slimesteel/ingot",
+		"action": "normalize"
+	},
+	{
+		"id": "immersiveengineering:crafting/ingot_steel_to_nugget_steel",
+		"action": "normalize"
+	},
+	{
+		"id": "nuclearcraft:melter/magnesium_diboride_ingot",
+		"action": "normalize"
+	},
+	{
+		"id": "nuclearcraft:melter/electrum_ingot",
+		"action": "normalize"
+	},
+	{
+		"id": "nuclearcraft:ingot_former/hsla_steel",
+		"action": "normalize"
+	},
+	{
+		"id": "modernfoundry:smeltery/melting/metal/cinderslime/ingot",
+		"action": "normalize"
+	},
+	{
+		"id": "nuclearcraft:ingot_former/tough_alloy",
+		"action": "normalize"
+	},
+	{
+		"id": "nuclearcraft:ingot_former/palladium",
+		"action": "normalize"
+	},
+	{
+		"id": "nuclearcraft:bronze_block",
+		"action": "ten-ingot-block"
+	},
+	{
+		"id": "modernfoundry:smeltery/melting/metal/electrum/wire",
+		"action": "normalize"
+	},
+	{
+		"id": "nuclearcraft:steel_ingot_from_block",
+		"action": "ten-ingot-breakdown"
+	},
+	{
+		"id": "nuclearcraft:steel_ingot_from_block",
+		"action": "normalize"
+	},
+	{
+		"id": "modernfoundry:tools/materials/casting/manyullyn",
+		"action": "normalize"
+	},
+	{
+		"id": "nuclearcraft:melter/manganese_oxide_dust",
+		"action": "normalize"
+	},
+	{
+		"id": "minecraft:copper_block",
+		"action": "ten-ingot-block"
+	},
+	{
+		"id": "modernfoundry:tools/materials/melting/amethyst_bronze",
+		"action": "normalize"
+	},
+	{
+		"id": "bigreactors:crafting/graphite_storage_to_component",
+		"action": "ten-ingot-breakdown"
+	},
+	{
+		"id": "bigreactors:crafting/graphite_storage_to_component",
+		"action": "normalize"
+	},
+	{
+		"id": "tfmg:crafting/materials/lead_block_from_compacting",
+		"action": "ten-ingot-block"
+	},
+	{
+		"id": "modernfoundry:tools/materials/melting/rose_gold",
+		"action": "normalize"
+	},
+	{
+		"id": "mekanism:processing/osmium/nugget/from_ingot",
+		"action": "normalize"
+	},
+	{
+		"id": "modernfoundry:smeltery/casting/metal/netherite/plate_gold_cast",
+		"action": "normalize"
+	},
+	{
+		"id": "rocketnautics:crafting/materials/titanium_alloy_from_decompacting",
+		"action": "ten-ingot-breakdown"
+	},
+	{
+		"id": "rocketnautics:crafting/materials/titanium_alloy_from_decompacting",
+		"action": "normalize"
+	},
+	{
+		"id": "nuclearcraft:aluminum_nugget_from_ingot",
+		"action": "normalize"
+	},
+	{
+		"id": "nuclearcraft:melter/thermoconducting_dust",
+		"action": "normalize"
+	},
+	{
+		"id": "modernfoundry:smeltery/melting/metal/electrum/sheetmetal",
+		"action": "normalize"
+	},
+	{
+		"id": "nuclearcraft:ingot_former/silicon_carbide",
+		"action": "normalize"
+	},
+	{
+		"id": "nuclearcraft:fluid_infuser/plutonium_239_za",
+		"action": "normalize"
+	},
+	{
+		"id": "stellaris:misc/desh_block",
+		"action": "ten-ingot-block"
+	},
+	{
+		"id": "minecraft:iron_block",
+		"action": "ten-ingot-block"
+	},
+	{
+		"id": "createbigcannons:nethersteel_nugget",
+		"action": "normalize"
+	},
+	{
+		"id": "modernfoundry:tools/materials/casting/rose_gold",
+		"action": "normalize"
+	},
+	{
+		"id": "nuclearcraft:ingot_former/thermoconducting",
+		"action": "normalize"
+	},
+	{
+		"id": "nuclearcraft:melter/palladium_ingot",
+		"action": "normalize"
+	},
+	{
+		"id": "nuclearcraft:fluid_infuser/americium_lea_242_za",
+		"action": "normalize"
+	},
+	{
+		"id": "nuclearcraft:fluid_infuser/americium_243_za",
+		"action": "normalize"
+	},
+	{
+		"id": "stellaris:misc/plutonium_ingot",
+		"action": "ten-ingot-breakdown"
+	},
+	{
+		"id": "stellaris:misc/plutonium_ingot",
+		"action": "normalize"
+	},
+	{
+		"id": "immersiveengineering:crafting/storage_steel_to_ingot_steel",
+		"action": "ten-ingot-breakdown"
+	},
+	{
+		"id": "immersiveengineering:crafting/storage_steel_to_ingot_steel",
+		"action": "normalize"
+	},
+	{
+		"id": "nuclearcraft:melter/thorium_dust",
+		"action": "normalize"
+	},
+	{
+		"id": "nuclearcraft:fluid_infuser/californium_252_za",
+		"action": "normalize"
+	},
+	{
+		"id": "mekanism:processing/refined_glowstone/ingot/from_block",
+		"action": "ten-ingot-breakdown"
+	},
+	{
+		"id": "mekanism:processing/refined_glowstone/ingot/from_block",
+		"action": "normalize"
+	},
+	{
+		"id": "mekanism:processing/uranium/nugget/from_ingot",
+		"action": "normalize"
+	},
+	{
+		"id": "tfmg:crafting/materials/cast_iron_nugget_from_decompacting",
+		"action": "normalize"
+	},
+	{
+		"id": "nuclearcraft:lithium_block",
+		"action": "ten-ingot-block"
+	},
+	{
+		"id": "nuclearcraft:melter/tin_silver_dust",
+		"action": "normalize"
+	},
+	{
+		"id": "nuclearcraft:zinc_ingot_from_block",
+		"action": "ten-ingot-breakdown"
+	},
+	{
+		"id": "nuclearcraft:zinc_ingot_from_block",
+		"action": "normalize"
+	},
+	{
+		"id": "megacells:crafting/sky_steel_ingot_from_sky_steel_block",
+		"action": "ten-ingot-breakdown"
+	},
+	{
+		"id": "megacells:crafting/sky_steel_ingot_from_sky_steel_block",
+		"action": "normalize"
+	},
+	{
+		"id": "modernfoundry:smeltery/casting/metal/amethyst_bronze/ingot_sand_cast",
+		"action": "normalize"
+	},
+	{
+		"id": "aquaculture:neptunium_ingot_from_nuggets",
+		"action": "ten-nugget-consolidation"
+	},
+	{
+		"id": "bigreactors:crafting/cyanite_storage_to_component",
+		"action": "ten-ingot-breakdown"
+	},
+	{
+		"id": "bigreactors:crafting/cyanite_storage_to_component",
+		"action": "normalize"
+	},
+	{
+		"id": "immersiveengineering:crafting/ingot_nickel_to_storage_nickel",
+		"action": "ten-ingot-block"
+	},
+	{
+		"id": "nuclearcraft:magnesium_block",
+		"action": "ten-ingot-block"
+	},
+	{
+		"id": "stellaris:misc/steel_nugget",
+		"action": "normalize"
+	},
+	{
+		"id": "nuclearcraft:melter/ferroboron_dust",
+		"action": "normalize"
+	},
+	{
+		"id": "modernfoundry:smeltery/casting/metal/netherite/ancient_repair_kit_sand_cast",
+		"action": "normalize"
+	},
+	{
+		"id": "nuclearcraft:melter/lithium_manganese_dioxide_dust",
+		"action": "normalize"
+	},
+	{
+		"id": "immersiveengineering:crafting/ingot_uranium_to_storage_uranium",
+		"action": "ten-ingot-block"
+	},
+	{
+		"id": "nuclearcraft:fluid_infuser/uranium_238_za",
+		"action": "normalize"
+	},
+	{
+		"id": "nuclearcraft:fluid_infuser/californium_250_za",
+		"action": "normalize"
+	},
+	{
+		"id": "stellaris:misc/uranium_block",
+		"action": "ten-ingot-block"
+	},
+	{
+		"id": "nuclearcraft:fluid_infuser/californium_249_za",
+		"action": "normalize"
+	},
+	{
+		"id": "modernfoundry:smeltery/melting/metal/pig_iron/ingot",
+		"action": "normalize"
+	},
+	{
+		"id": "createmetallurgy:crafting/materials/tungsten_ingot_from_block",
+		"action": "ten-ingot-breakdown"
+	},
+	{
+		"id": "createmetallurgy:crafting/materials/tungsten_ingot_from_block",
+		"action": "normalize"
+	},
+	{
+		"id": "immersiveengineering:crafting/storage_uranium_to_ingot_uranium",
+		"action": "ten-ingot-breakdown"
+	},
+	{
+		"id": "immersiveengineering:crafting/storage_uranium_to_ingot_uranium",
+		"action": "normalize"
+	},
+	{
+		"id": "modernfoundry:smeltery/casting/metal/constantan/ingot_sand_cast",
+		"action": "normalize"
+	},
+	{
+		"id": "modernfoundry:common/materials/hepatizon_nugget_from_ingot",
+		"action": "normalize"
+	},
+	{
+		"id": "nuclearcraft:ingot_former/lead_platinum",
+		"action": "normalize"
+	},
+	{
+		"id": "nuclearcraft:thorium_nugget_from_ingot",
+		"action": "normalize"
+	},
+	{
+		"id": "createmetallurgy:crafting/materials/obdurium_ingot_from_block",
+		"action": "ten-ingot-breakdown"
+	},
+	{
+		"id": "createmetallurgy:crafting/materials/obdurium_ingot_from_block",
+		"action": "normalize"
+	},
+	{
+		"id": "modernfoundry:smeltery/melting/metal/refined_obsidian/block",
+		"action": "normalize"
+	},
+	{
+		"id": "nuclearcraft:melter/shibuichi_dust",
+		"action": "normalize"
+	},
+	{
+		"id": "nuclearcraft:uranium_ingot_from_nugget",
+		"action": "ten-nugget-consolidation"
+	},
+	{
+		"id": "nuclearcraft:melter/tough_alloy_ingot",
+		"action": "normalize"
+	},
+	{
+		"id": "nuclearcraft:fluid_infuser/americium_hea_242_za",
+		"action": "normalize"
+	},
+	{
+		"id": "modernfoundry:smeltery/casting/metal/slimesteel/block",
+		"action": "normalize"
+	},
+	{
+		"id": "modernfoundry:smeltery/casting/metal/knightmetal/ingot_gold_cast",
+		"action": "normalize"
+	},
+	{
+		"id": "modernfoundry:smeltery/casting/metal/electrum/ingot_gold_cast",
+		"action": "normalize"
+	},
+	{
+		"id": "createmetallurgy:crafting/materials/tungsten_nugget",
+		"action": "normalize"
+	},
+	{
+		"id": "tfmg:crafting/materials/plastic_block",
+		"action": "ten-ingot-block"
+	},
+	{
+		"id": "nuclearcraft:fluid_infuser/plutonium_lep_241_za",
+		"action": "normalize"
+	},
+	{
+		"id": "nuclearcraft:melter/zircaloy_dust",
+		"action": "normalize"
+	},
+	{
+		"id": "modernfoundry:smeltery/casting/metal/cinderslime/block",
+		"action": "normalize"
+	},
+	{
+		"id": "minecraft:gold_nugget",
+		"action": "normalize"
+	},
+	{
+		"id": "modernfoundry:smeltery/casting/metal/amethyst_bronze/block",
+		"action": "normalize"
+	},
+	{
+		"id": "nuclearcraft:zirconium_ingot_from_block",
+		"action": "ten-ingot-breakdown"
+	},
+	{
+		"id": "nuclearcraft:zirconium_ingot_from_block",
+		"action": "normalize"
+	},
+	{
+		"id": "nuclearcraft:fluid_infuser/berkelium_leb_248_za",
+		"action": "normalize"
+	},
+	{
+		"id": "nuclearcraft:fluid_infuser/curium_hecm_243_za",
+		"action": "normalize"
+	},
+	{
+		"id": "modernfoundry:tools/materials/composite/rose_gold",
+		"action": "normalize"
+	},
+	{
+		"id": "ad_astra:ostrum_ingot_from_ostrum_block",
+		"action": "ten-ingot-breakdown"
+	},
+	{
+		"id": "ad_astra:ostrum_ingot_from_ostrum_block",
+		"action": "normalize"
+	},
+	{
+		"id": "modernfoundry:smeltery/melting/metal/constantan/ingot",
+		"action": "normalize"
+	},
+	{
+		"id": "modernfoundry:tools/modifiers/silky_cloth",
+		"action": "normalize"
+	},
+	{
+		"id": "modernfoundry:smeltery/casting/metal/electrum/block",
+		"action": "normalize"
+	},
+	{
+		"id": "modernfoundry:smeltery/melting/metal/netherite/leggings",
+		"action": "normalize"
+	},
+	{
+		"id": "modernfoundry:smeltery/casting/metal/manyullyn/ingot_sand_cast",
+		"action": "normalize"
+	},
+	{
+		"id": "modernfoundry:smeltery/melting/metal/netherite/shovel",
+		"action": "normalize"
+	},
+	{
+		"id": "ad_astra:calorite_nugget",
+		"action": "normalize"
+	},
+	{
+		"id": "modernfoundry:smeltery/melting/metal/netherite/axes",
+		"action": "normalize"
+	},
+	{
+		"id": "stellaris:misc/heavy_metal_nugget",
+		"action": "normalize"
+	},
+	{
+		"id": "nuclearcraft:zinc_block",
+		"action": "ten-ingot-block"
+	},
+	{
+		"id": "modernfoundry:smeltery/casting/metal/refined_glowstone/ingot_gold_cast",
+		"action": "normalize"
+	},
+	{
+		"id": "nuclearcraft:melter/manganese_oxide_ingot",
+		"action": "normalize"
+	},
+	{
+		"id": "modernfoundry:common/materials/pig_iron_ingot_from_nuggets",
+		"action": "ten-nugget-consolidation"
+	},
+	{
+		"id": "nuclearcraft:melter/thorium_ingot",
+		"action": "normalize"
+	},
+	{
+		"id": "modernfoundry:smeltery/casting/metal/knightslime/block",
+		"action": "normalize"
+	},
+	{
+		"id": "modernfoundry:smeltery/melting/metal/refined_glowstone/block",
+		"action": "normalize"
+	},
+	{
+		"id": "createbigcannons:melting/melt_cast_iron_nugget",
+		"action": "normalize"
+	},
+	{
+		"id": "modernfoundry:smeltery/melting/metal/netherite/helmet",
+		"action": "normalize"
+	},
+	{
+		"id": "immersiveengineering:crafting/ingot_constantan_to_nugget_constantan",
+		"action": "normalize"
+	},
+	{
+		"id": "minecraft:gold_block",
+		"action": "ten-ingot-block"
+	},
+	{
+		"id": "minecraft:iron_nugget",
+		"action": "normalize"
+	},
+	{
+		"id": "tfmg:crafting/materials/constantan_ingot_from_compacting",
+		"action": "ten-nugget-consolidation"
+	},
+	{
+		"id": "nuclearcraft:ingot_former/extreme",
+		"action": "normalize"
+	},
+	{
+		"id": "modernfoundry:smeltery/melting/metal/netherite/sword",
+		"action": "normalize"
+	},
+	{
+		"id": "stellaris:misc/heavy_metal_ingot",
+		"action": "ten-ingot-breakdown"
+	},
+	{
+		"id": "stellaris:misc/heavy_metal_ingot",
+		"action": "normalize"
+	},
+	{
+		"id": "modernfoundry:tools/materials/melting/cinderslime",
+		"action": "normalize"
+	},
+	{
+		"id": "createbigcannons:compacting/forge_nethersteel_nugget",
+		"action": "normalize"
+	},
+	{
+		"id": "stellaris:misc/steel_ingot",
+		"action": "ten-ingot-breakdown"
+	},
+	{
+		"id": "stellaris:misc/steel_ingot",
+		"action": "normalize"
+	},
+	{
+		"id": "modernfoundry:smeltery/casting/metal/slimesteel/ingot_gold_cast",
+		"action": "normalize"
+	},
+	{
+		"id": "nuclearcraft:fluid_infuser/neptunium_len_236_za",
+		"action": "normalize"
+	},
+	{
+		"id": "nuclearcraft:melter/silicon_carbide_ingot",
+		"action": "normalize"
+	},
+	{
+		"id": "ad_astra:desh_nugget",
+		"action": "normalize"
+	},
+	{
+		"id": "aquaculture:neptunium_ingot_from_neptunium_block",
+		"action": "ten-ingot-breakdown"
+	},
+	{
+		"id": "aquaculture:neptunium_ingot_from_neptunium_block",
+		"action": "normalize"
+	},
+	{
+		"id": "createbigcannons:melting/melt_cast_iron_ingot",
+		"action": "normalize"
+	},
+	{
+		"id": "nuclearcraft:fluid_infuser/uranium_234_za",
+		"action": "normalize"
+	},
+	{
+		"id": "nuclearcraft:uranium_block",
+		"action": "ten-ingot-block"
+	},
+	{
+		"id": "modernfoundry:smeltery/melting/metal/electrum/block",
+		"action": "normalize"
+	},
+	{
+		"id": "immersiveengineering:crafting/ingot_aluminum_to_storage_aluminum",
+		"action": "ten-ingot-block"
+	},
+	{
+		"id": "modernfoundry:smeltery/melting/metal/electrum/raw_block",
+		"action": "normalize"
+	},
+	{
+		"id": "create:crafting/materials/brass_nugget_from_decompacting",
+		"action": "normalize"
+	},
+	{
+		"id": "modernfoundry:common/materials/amethyst_bronze_nugget_from_ingot",
+		"action": "normalize"
+	},
+	{
+		"id": "modernfoundry:smeltery/melting/metal/queens_slime/block",
+		"action": "normalize"
+	},
+	{
+		"id": "nuclearcraft:fluid_infuser/americium_241_za",
+		"action": "normalize"
+	},
+	{
+		"id": "modernfoundry:tools/materials/casting/constantan",
+		"action": "normalize"
+	},
+	{
+		"id": "nuclearcraft:melter/thorium_deepslate_ore",
+		"action": "normalize"
+	},
+	{
+		"id": "modernfoundry:common/materials/cinderslime_ingot_from_block",
+		"action": "ten-ingot-breakdown"
+	},
+	{
+		"id": "modernfoundry:common/materials/cinderslime_ingot_from_block",
+		"action": "normalize"
+	},
+	{
+		"id": "stellaris:misc/plutonium_ingot_from_nugget",
+		"action": "ten-nugget-consolidation"
+	},
+	{
+		"id": "immersiveengineering:crafting/nugget_netherite_to_netherite_ingot",
+		"action": "ten-nugget-consolidation"
+	},
+	{
+		"id": "modernfoundry:smeltery/casting/metal/constantan/plate_gold_cast",
+		"action": "normalize"
+	},
+	{
+		"id": "modernfoundry:common/materials/netherite_ingot_from_nuggets",
+		"action": "ten-nugget-consolidation"
+	},
+	{
+		"id": "nuclearcraft:lead_ingot_from_block",
+		"action": "ten-ingot-breakdown"
+	},
+	{
+		"id": "nuclearcraft:lead_ingot_from_block",
+		"action": "normalize"
+	},
+	{
+		"id": "nuclearcraft:ingot_former/shibuichi",
+		"action": "normalize"
+	},
+	{
+		"id": "createbigcannons:nethersteel_ingot_from_block",
+		"action": "ten-ingot-breakdown"
+	},
+	{
+		"id": "createbigcannons:nethersteel_ingot_from_block",
+		"action": "normalize"
+	},
+	{
+		"id": "megacells:crafting/sky_osmium_block",
+		"action": "ten-ingot-block"
+	},
+	{
+		"id": "modernfoundry:common/materials/knightslime_block_from_ingots",
+		"action": "ten-ingot-block"
+	},
+	{
+		"id": "nuclearcraft:fluid_infuser/plutonium_hep_241_za",
+		"action": "normalize"
+	},
+	{
+		"id": "tfmg:crafting/materials/cast_iron_ingot_from_decompacting",
+		"action": "ten-ingot-breakdown"
+	},
+	{
+		"id": "tfmg:crafting/materials/cast_iron_ingot_from_decompacting",
+		"action": "normalize"
+	},
+	{
+		"id": "modernfoundry:smeltery/casting/metal/electrum/plate_sand_cast",
+		"action": "normalize"
+	},
+	{
+		"id": "modernfoundry:smeltery/casting/metal/hepatizon/ingot_sand_cast",
+		"action": "normalize"
+	},
+	{
+		"id": "nuclearcraft:fluid_infuser/neptunium_hen_236_za",
+		"action": "normalize"
+	},
+	{
+		"id": "modernfoundry:smeltery/melting/metal/hepatizon/ingot",
+		"action": "normalize"
+	},
+	{
+		"id": "ad_astra:ostrum_nugget",
+		"action": "normalize"
+	},
+	{
+		"id": "immersiveengineering:crafting/ingot_constantan_to_storage_constantan",
+		"action": "ten-ingot-block"
+	},
+	{
+		"id": "nuclearcraft:ingot_former/carbon_manganese",
+		"action": "normalize"
+	},
+	{
+		"id": "modernfoundry:smeltery/melting/metal/rose_gold/ingot",
+		"action": "normalize"
+	},
+	{
+		"id": "nuclearcraft:steel_block",
+		"action": "ten-ingot-block"
+	},
+	{
+		"id": "mekanism:processing/uranium/ingot/from_block",
+		"action": "ten-ingot-breakdown"
+	},
+	{
+		"id": "mekanism:processing/uranium/ingot/from_block",
+		"action": "normalize"
+	},
+	{
+		"id": "modernfoundry:smeltery/casting/metal/refined_obsidian/ingot_sand_cast",
+		"action": "normalize"
+	},
+	{
+		"id": "nuclearcraft:fluid_infuser/copernicium_291_za",
+		"action": "normalize"
+	},
+	{
+		"id": "nuclearcraft:chemical_reactor/extreme_molten",
+		"action": "normalize"
+	},
+	{
+		"id": "modernfoundry:common/materials/pig_iron_block_from_ingots",
+		"action": "ten-ingot-block"
+	},
+	{
+		"id": "nuclearcraft:ingot_former/lithium_manganese_dioxide",
+		"action": "normalize"
+	},
+	{
+		"id": "minecraft:iron_ingot_from_iron_block",
+		"action": "ten-ingot-breakdown"
+	},
+	{
+		"id": "minecraft:iron_ingot_from_iron_block",
+		"action": "normalize"
+	},
+	{
+		"id": "rocketnautics:crafting/materials/titanium_nugget_from_decompacting",
+		"action": "normalize"
+	},
+	{
+		"id": "nuclearcraft:ingot_former/hard_carbon",
+		"action": "normalize"
+	},
+	{
+		"id": "modernfoundry:common/materials/cobalt_nugget_from_ingot",
+		"action": "normalize"
+	},
+	{
+		"id": "modernfoundry:smeltery/melting/metal/electrum/plate",
+		"action": "normalize"
+	},
+	{
+		"id": "nuclearcraft:melter/uranium_deepslate_ore",
+		"action": "normalize"
+	},
+	{
+		"id": "nuclearcraft:fluid_infuser/californium_hecf_249_za",
+		"action": "normalize"
+	},
+	{
+		"id": "modernfoundry:common/materials/cobalt_ingot_from_block",
+		"action": "ten-ingot-breakdown"
+	},
+	{
+		"id": "modernfoundry:common/materials/cobalt_ingot_from_block",
+		"action": "normalize"
+	},
+	{
+		"id": "createbigcannons:nethersteel_ingot_from_nuggets",
+		"action": "ten-nugget-consolidation"
+	},
+	{
+		"id": "modernfoundry:smeltery/casting/metal/cinderslime/ingot_sand_cast",
+		"action": "normalize"
+	},
+	{
+		"id": "modernfoundry:tools/materials/casting/cinderslime",
+		"action": "normalize"
+	},
+	{
+		"id": "ad_astra:steel_ingot_from_steel_block",
+		"action": "ten-ingot-breakdown"
+	},
+	{
+		"id": "ad_astra:steel_ingot_from_steel_block",
+		"action": "normalize"
+	},
+	{
+		"id": "modernfoundry:smeltery/melting/metal/constantan/dust",
+		"action": "normalize"
+	},
+	{
+		"id": "nuclearcraft:fluid_infuser/mixed_mix_241_za",
+		"action": "normalize"
+	},
+	{
+		"id": "modernfoundry:smeltery/casting/metal/electrum/wire_gold_cast",
+		"action": "normalize"
+	},
+	{
+		"id": "modernfoundry:smeltery/melting/metal/netherite/boots",
+		"action": "normalize"
+	},
+	{
+		"id": "modernfoundry:tools/materials/casting/hepatizon",
+		"action": "normalize"
+	},
+	{
+		"id": "nuclearcraft:lead_nugget_from_ingot",
+		"action": "normalize"
+	},
+	{
+		"id": "nuclearcraft:ingot_former/uranium",
+		"action": "normalize"
+	},
+	{
+		"id": "immersiveengineering:crafting/ingot_silver_to_nugget_silver",
+		"action": "normalize"
+	},
+	{
+		"id": "modernfoundry:smeltery/casting/metal/cinderslime/ingot_gold_cast",
+		"action": "normalize"
+	},
+	{
+		"id": "modernfoundry:common/materials/hepatizon_ingot_from_block",
+		"action": "ten-ingot-breakdown"
+	},
+	{
+		"id": "modernfoundry:common/materials/hepatizon_ingot_from_block",
+		"action": "normalize"
+	},
+	{
+		"id": "nuclearcraft:ingot_former/manganese_dioxide",
+		"action": "normalize"
+	},
+	{
+		"id": "modernfoundry:smeltery/casting/metal/hepatizon/block",
+		"action": "normalize"
+	},
+	{
+		"id": "modernfoundry:tools/materials/melting/pig_iron",
+		"action": "normalize"
+	},
+	{
+		"id": "nuclearcraft:fluid_infuser/curium_lecm_247_za",
+		"action": "normalize"
+	},
+	{
+		"id": "nuclearcraft:fluid_infuser/curium_hecm_247_za",
+		"action": "normalize"
+	},
+	{
+		"id": "nuclearcraft:melter/manganese_dioxide_dust",
+		"action": "normalize"
+	},
+	{
+		"id": "nuclearcraft:magnesium_nugget_from_ingot",
+		"action": "normalize"
+	},
+	{
+		"id": "nuclearcraft:uranium_nugget_from_ingot",
+		"action": "normalize"
+	},
+	{
+		"id": "nuclearcraft:cobalt_nugget_from_ingot",
+		"action": "normalize"
+	},
+	{
+		"id": "nuclearcraft:chemical_reactor/manganese_reduction",
+		"action": "normalize"
+	},
+	{
+		"id": "modernfoundry:tools/materials/melting/knightslime",
+		"action": "normalize"
+	},
+	{
+		"id": "modernfoundry:common/materials/netherite_nugget_from_ingot",
+		"action": "normalize"
+	},
+	{
+		"id": "modernfoundry:smeltery/casting/metal/pig_iron/ingot_sand_cast",
+		"action": "normalize"
+	},
+	{
+		"id": "modernfoundry:common/materials/cinderslime_block_from_ingots",
+		"action": "ten-ingot-block"
+	},
+	{
+		"id": "modernfoundry:smeltery/casting/metal/hepatizon/ingot_gold_cast",
+		"action": "normalize"
+	},
+	{
+		"id": "modernfoundry:common/materials/knightslime_nugget_from_ingot",
+		"action": "normalize"
+	},
+	{
+		"id": "nuclearcraft:ingot_former/electrum",
+		"action": "normalize"
+	},
+	{
+		"id": "megacells:crafting/sky_steel_block",
+		"action": "ten-ingot-block"
+	},
+	{
+		"id": "nuclearcraft:melter/hard_carbon_ingot",
+		"action": "normalize"
+	},
+	{
+		"id": "nuclearcraft:zirconium_nugget_from_ingot",
+		"action": "normalize"
+	},
+	{
+		"id": "mekanism:storage_blocks/refined_glowstone",
+		"action": "ten-ingot-block"
+	},
+	{
+		"id": "createaddition:crafting/electrum_block",
+		"action": "ten-ingot-block"
+	},
+	{
+		"id": "createbigcannons:compacting/forge_nethersteel_ingot",
+		"action": "normalize"
+	},
+	{
+		"id": "nuclearcraft:melter/tin_silver_ingot",
+		"action": "normalize"
+	},
+	{
+		"id": "modernfoundry:common/materials/netherite_scrap_from_nuggets",
+		"action": "ten-nugget-consolidation"
+	},
+	{
+		"id": "nuclearcraft:fluid_infuser/curium_lecm_245_za",
+		"action": "normalize"
+	},
+	{
+		"id": "nuclearcraft:ingot_former/tin_silver",
+		"action": "normalize"
+	},
+	{
+		"id": "nuclearcraft:electrum_ingot_from_nugget",
+		"action": "ten-nugget-consolidation"
+	},
+	{
+		"id": "nuclearcraft:fluid_infuser/curium_246_za",
+		"action": "normalize"
+	},
+	{
+		"id": "createbigcannons:bronze_block",
+		"action": "ten-ingot-block"
+	},
+	{
+		"id": "createaddition:crafting/electrum_ingot_from_nugget",
+		"action": "ten-nugget-consolidation"
+	},
+	{
+		"id": "modernfoundry:common/materials/amethyst_bronze_block_from_ingots",
+		"action": "ten-ingot-block"
+	},
+	{
+		"id": "modernfoundry:tools/materials/melting/ancient",
+		"action": "normalize"
+	},
+	{
+		"id": "modernfoundry:smeltery/melting/metal/knightmetal/raw_nugget",
+		"action": "normalize"
+	},
+	{
+		"id": "immersiveengineering:crafting/storage_silver_to_ingot_silver",
+		"action": "ten-ingot-breakdown"
+	},
+	{
+		"id": "immersiveengineering:crafting/storage_silver_to_ingot_silver",
+		"action": "normalize"
+	},
+	{
+		"id": "modernfoundry:tools/modifiers/slimesteel_reinforcement",
+		"action": "normalize"
+	},
+	{
+		"id": "modernfoundry:common/materials/knightslime_ingot_from_block",
+		"action": "ten-ingot-breakdown"
+	},
+	{
+		"id": "modernfoundry:common/materials/knightslime_ingot_from_block",
+		"action": "normalize"
+	},
+	{
+		"id": "nuclearcraft:fluid_infuser/boron_10_za",
+		"action": "normalize"
+	},
+	{
+		"id": "nuclearcraft:silver_block",
+		"action": "ten-ingot-block"
+	},
+	{
+		"id": "mekanism:processing/refined_obsidian/ingot/from_block",
+		"action": "ten-ingot-breakdown"
+	},
+	{
+		"id": "mekanism:processing/refined_obsidian/ingot/from_block",
+		"action": "normalize"
+	},
+	{
+		"id": "nuclearcraft:steel_nugget_from_ingot",
+		"action": "normalize"
+	},
+	{
+		"id": "nuclearcraft:fluid_infuser/uranium_233_za",
+		"action": "normalize"
+	},
+	{
+		"id": "nuclearcraft:lithium_ingot_from_block",
+		"action": "ten-ingot-breakdown"
+	},
+	{
+		"id": "nuclearcraft:lithium_ingot_from_block",
+		"action": "normalize"
+	},
+	{
+		"id": "modernfoundry:smeltery/melting/metal/manyullyn/block",
+		"action": "normalize"
+	},
+	{
+		"id": "modernfoundry:smeltery/casting/metal/queens_slime/ingot_sand_cast",
+		"action": "normalize"
+	},
+	{
+		"id": "tfmg:crafting/materials/cast_iron_ingot_from_compacting",
+		"action": "ten-nugget-consolidation"
+	},
+	{
+		"id": "nuclearcraft:ingot_former/magnesium_diboride",
+		"action": "normalize"
+	},
+	{
+		"id": "modernfoundry:smeltery/melting/metal/slimesteel/reinforcement",
+		"action": "normalize"
+	},
+	{
+		"id": "modernfoundry:common/materials/knightmetal_ingot_from_block",
+		"action": "ten-ingot-breakdown"
+	},
+	{
+		"id": "modernfoundry:common/materials/knightmetal_ingot_from_block",
+		"action": "normalize"
+	},
+	{
+		"id": "nuclearcraft:boron_ingot_from_block",
+		"action": "ten-ingot-breakdown"
+	},
+	{
+		"id": "nuclearcraft:boron_ingot_from_block",
+		"action": "normalize"
+	},
+	{
+		"id": "modernfoundry:tools/materials/casting/slimesteel",
+		"action": "normalize"
+	},
+	{
+		"id": "mekanism:processing/refined_obsidian/ingot/from_nuggets",
+		"action": "ten-nugget-consolidation"
+	},
+	{
+		"id": "stellaris:misc/uranium_ingot",
+		"action": "ten-ingot-breakdown"
+	},
+	{
+		"id": "stellaris:misc/uranium_ingot",
+		"action": "normalize"
+	},
+	{
+		"id": "nuclearcraft:fluid_enricher/baratol",
+		"action": "normalize"
+	},
+	{
+		"id": "modernfoundry:smeltery/melting/metal/knightmetal/ingot",
+		"action": "normalize"
+	},
+	{
+		"id": "modernfoundry:smeltery/melting/metal/amethyst_bronze/block",
+		"action": "normalize"
+	},
+	{
+		"id": "modernfoundry:smeltery/melting/metal/electrum/raw",
+		"action": "normalize"
+	},
+	{
+		"id": "modernfoundry:smeltery/melting/metal/knightslime/ingot",
+		"action": "normalize"
+	},
+	{
+		"id": "nuclearcraft:lead_block",
+		"action": "ten-ingot-block"
+	},
+	{
+		"id": "nuclearcraft:melter/extreme_dust",
+		"action": "normalize"
+	},
+	{
+		"id": "immersiveengineering:crafting/ingot_lead_to_storage_lead",
+		"action": "ten-ingot-block"
+	},
+	{
+		"id": "nuclearcraft:melter/palladium_dust",
+		"action": "normalize"
+	},
+	{
+		"id": "nuclearcraft:fluid_infuser/curium_hecm_245_za",
+		"action": "normalize"
+	},
+	{
+		"id": "nuclearcraft:fluid_infuser/plutonium_242_za",
+		"action": "normalize"
+	},
+	{
+		"id": "nuclearcraft:ingot_former/baratol",
+		"action": "normalize"
+	},
+	{
+		"id": "nuclearcraft:ingot_former/manganese_oxide",
+		"action": "normalize"
+	},
+	{
+		"id": "createaddition:crafting/electrum_ingot_from_electrum_block",
+		"action": "ten-ingot-breakdown"
+	},
+	{
+		"id": "createaddition:crafting/electrum_ingot_from_electrum_block",
+		"action": "normalize"
+	},
+	{
+		"id": "nuclearcraft:melter/tough_alloy_dust",
+		"action": "normalize"
+	},
+	{
+		"id": "modernfoundry:common/materials/queens_slime_ingot_from_nuggets",
+		"action": "ten-nugget-consolidation"
+	},
+	{
+		"id": "nuclearcraft:fluid_infuser/berkelium_248_za",
+		"action": "normalize"
+	},
+	{
+		"id": "immersiveengineering:crafting/nugget_uranium_to_ingot_uranium",
+		"action": "ten-nugget-consolidation"
+	},
+	{
+		"id": "modernfoundry:tools/materials/melting/manyullyn",
+		"action": "normalize"
+	},
+	{
+		"id": "modernfoundry:smeltery/casting/metal/rose_gold/block",
+		"action": "normalize"
+	},
+	{
+		"id": "create:crafting/materials/brass_ingot_from_decompacting",
+		"action": "ten-ingot-breakdown"
+	},
+	{
+		"id": "create:crafting/materials/brass_ingot_from_decompacting",
+		"action": "normalize"
+	},
+	{
+		"id": "nuclearcraft:ingot_former/zirconium",
+		"action": "normalize"
+	},
+	{
+		"id": "mekanism:processing/osmium/storage_blocks/from_ingots",
+		"action": "ten-ingot-block"
+	},
+	{
+		"id": "megacells:crafting/sky_osmium_ingot_from_sky_osmium_block",
+		"action": "ten-ingot-breakdown"
+	},
+	{
+		"id": "megacells:crafting/sky_osmium_ingot_from_sky_osmium_block",
+		"action": "normalize"
+	},
+	{
+		"id": "modernfoundry:smeltery/melting/metal/constantan/block",
+		"action": "normalize"
+	},
+	{
+		"id": "modernfoundry:tools/materials/melting/queens_slime",
+		"action": "normalize"
+	},
+	{
+		"id": "modernfoundry:tools/materials/melting/slimesteel",
+		"action": "normalize"
+	},
+	{
+		"id": "modernfoundry:smeltery/melting/metal/constantan/plate",
+		"action": "normalize"
+	},
+	{
+		"id": "modernfoundry:tools/materials/casting/knightslime",
+		"action": "normalize"
+	},
+	{
+		"id": "nuclearcraft:melter/baratol_dust",
+		"action": "normalize"
+	},
+	{
+		"id": "bigreactors:crafting/graphite_component_to_storage",
+		"action": "ten-ingot-block"
+	},
+	{
+		"id": "mekanism:processing/refined_glowstone/ingot/from_nuggets",
+		"action": "ten-nugget-consolidation"
+	},
+	{
+		"id": "modernfoundry:tools/materials/casting/pig_iron",
+		"action": "normalize"
+	},
+	{
+		"id": "modernfoundry:common/materials/rose_gold_block_from_ingots",
+		"action": "ten-ingot-block"
+	},
+	{
+		"id": "modernfoundry:smeltery/melting/metal/slimesteel/block",
+		"action": "normalize"
+	},
+	{
+		"id": "modernfoundry:smeltery/melting/metal/netherite/ingot",
+		"action": "normalize"
+	},
+	{
+		"id": "mekanism:nuggets/refined_obsidian",
+		"action": "normalize"
+	},
+	{
+		"id": "createbigcannons:melting/melt_nethersteel_block",
+		"action": "normalize"
+	},
+	{
+		"id": "nuclearcraft:melter/hsla_steel_ingot",
+		"action": "normalize"
+	},
+	{
+		"id": "nuclearcraft:melter/sic_sic_cmc_dust",
+		"action": "normalize"
+	},
+	{
+		"id": "stellaris:misc/desh_ingot",
+		"action": "ten-ingot-breakdown"
+	},
+	{
+		"id": "stellaris:misc/desh_ingot",
+		"action": "normalize"
+	},
+	{
+		"id": "modernfoundry:common/materials/manyullyn_block_from_ingots",
+		"action": "ten-ingot-block"
+	},
+	{
+		"id": "immersiveengineering:crafting/ingot_nickel_to_nugget_nickel",
+		"action": "normalize"
+	},
+	{
+		"id": "modernfoundry:smeltery/casting/metal/netherite/ingot_sand_cast",
+		"action": "normalize"
+	},
+	{
+		"id": "nuclearcraft:melter/extreme_ingot",
+		"action": "normalize"
+	},
+	{
+		"id": "nuclearcraft:aluminum_ingot_from_block",
+		"action": "ten-ingot-breakdown"
+	},
+	{
+		"id": "nuclearcraft:aluminum_ingot_from_block",
+		"action": "normalize"
+	},
+	{
+		"id": "nuclearcraft:melter/ferroboron_ingot",
+		"action": "normalize"
+	},
+	{
+		"id": "stellaris:misc/plutonium_block",
+		"action": "ten-ingot-block"
+	},
+	{
+		"id": "nuclearcraft:melter/zirconium_molybdenum_ingot",
+		"action": "normalize"
+	},
+	{
+		"id": "nuclearcraft:lithium_nugget_from_ingot",
+		"action": "normalize"
+	},
+	{
+		"id": "modernfoundry:common/materials/hepatizon_ingot_from_nuggets",
+		"action": "ten-nugget-consolidation"
+	},
+	{
+		"id": "nuclearcraft:platinum_block",
+		"action": "ten-ingot-block"
+	},
+	{
+		"id": "nuclearcraft:electrum_block",
+		"action": "ten-ingot-block"
+	},
+	{
+		"id": "aquaculture:neptunium_block",
+		"action": "ten-ingot-block"
+	},
+	{
+		"id": "modernfoundry:smeltery/melting/metal/molten_debris/scrap",
+		"action": "normalize"
+	},
+	{
+		"id": "nuclearcraft:fluid_infuser/lithium_7_za",
+		"action": "normalize"
+	},
+	{
+		"id": "nuclearcraft:fluid_infuser/neptunium_237_za",
+		"action": "normalize"
+	},
+	{
+		"id": "industrial_colonies:currency/allthemodium/nuggets_from_ingot",
+		"action": "normalize"
+	},
+	{
+		"id": "industrial_colonies:currency/allthemodium/ingot_from_nuggets",
+		"action": "ten-nugget-consolidation"
+	},
+	{
+		"id": "industrial_colonies:currency/allthemodium/block_from_ingots",
+		"action": "ten-ingot-block"
+	},
+	{
+		"id": "industrial_colonies:currency/allthemodium/ingots_from_block",
+		"action": "ten-ingot-breakdown"
+	},
+	{
+		"id": "industrial_colonies:currency/allthemodium/ingots_from_block",
+		"action": "normalize"
+	},
+	{
+		"id": "industrial_colonies:currency/vibranium/nuggets_from_ingot",
+		"action": "normalize"
+	},
+	{
+		"id": "industrial_colonies:currency/vibranium/ingot_from_nuggets",
+		"action": "ten-nugget-consolidation"
+	},
+	{
+		"id": "industrial_colonies:currency/vibranium/block_from_ingots",
+		"action": "ten-ingot-block"
+	},
+	{
+		"id": "industrial_colonies:currency/vibranium/ingots_from_block",
+		"action": "ten-ingot-breakdown"
+	},
+	{
+		"id": "industrial_colonies:currency/vibranium/ingots_from_block",
+		"action": "normalize"
+	},
+	{
+		"id": "industrial_colonies:currency/unobtainium/nuggets_from_ingot",
+		"action": "normalize"
+	},
+	{
+		"id": "industrial_colonies:currency/unobtainium/ingot_from_nuggets",
+		"action": "ten-nugget-consolidation"
+	},
+	{
+		"id": "industrial_colonies:currency/unobtainium/block_from_ingots",
+		"action": "ten-ingot-block"
+	},
+	{
+		"id": "industrial_colonies:currency/unobtainium/ingots_from_block",
+		"action": "ten-ingot-breakdown"
+	},
+	{
+		"id": "industrial_colonies:currency/unobtainium/ingots_from_block",
+		"action": "normalize"
+	},
+	{
+		"id": "industrial_colonies:currency/vibranium_allthemodium_alloy/block_from_ingots",
+		"action": "ten-ingot-block"
+	},
+	{
+		"id": "industrial_colonies:currency/vibranium_allthemodium_alloy/ingots_from_block",
+		"action": "ten-ingot-breakdown"
+	},
+	{
+		"id": "industrial_colonies:currency/vibranium_allthemodium_alloy/ingots_from_block",
+		"action": "normalize"
+	},
+	{
+		"id": "industrial_colonies:currency/unobtainium_allthemodium_alloy/block_from_ingots",
+		"action": "ten-ingot-block"
+	},
+	{
+		"id": "industrial_colonies:currency/unobtainium_allthemodium_alloy/ingots_from_block",
+		"action": "ten-ingot-breakdown"
+	},
+	{
+		"id": "industrial_colonies:currency/unobtainium_allthemodium_alloy/ingots_from_block",
+		"action": "normalize"
+	},
+	{
+		"id": "industrial_colonies:currency/unobtainium_vibranium_alloy/block_from_ingots",
+		"action": "ten-ingot-block"
+	},
+	{
+		"id": "industrial_colonies:currency/unobtainium_vibranium_alloy/ingots_from_block",
+		"action": "ten-ingot-breakdown"
+	},
+	{
+		"id": "industrial_colonies:currency/unobtainium_vibranium_alloy/ingots_from_block",
+		"action": "normalize"
+	},
+	{
+		"id": "industrial_colonies:cast_iron/from_cbc_molten_block",
+		"action": "normalize"
+	},
+	{
+		"id": "industrial_colonies:cast_iron/from_cbc_molten_ingot",
+		"action": "normalize"
+	},
+	{
+		"id": "industrial_colonies:cast_iron/from_cbc_molten_nugget",
+		"action": "normalize"
+	},
+	{
+		"id": "industrial_colonies:cast_iron/migrate_createbigcannons_cast_iron_block",
+		"action": "ten-ingot-breakdown"
+	},
+	{
+		"id": "industrial_colonies:cast_iron/migrate_createbigcannons_cast_iron_block",
+		"action": "normalize"
+	},
+	{
+		"id": "industrial_colonies:lead/migrate_mekanism_block_lead",
+		"action": "ten-ingot-breakdown"
+	},
+	{
+		"id": "industrial_colonies:lead/migrate_mekanism_block_lead",
+		"action": "normalize"
+	},
+	{
+		"id": "industrial_colonies:steel/migrate_mekanism_block_steel",
+		"action": "ten-ingot-breakdown"
+	},
+	{
+		"id": "industrial_colonies:steel/migrate_mekanism_block_steel",
+		"action": "normalize"
+	},
+	{
+		"id": "industrial_colonies:steel/migrate_createmetallurgy_steel_block",
+		"action": "ten-ingot-breakdown"
+	},
+	{
+		"id": "industrial_colonies:steel/migrate_createmetallurgy_steel_block",
+		"action": "normalize"
+	},
+	{
+		"id": "industrial_colonies:steel/migrate_modernfoundry_steel_block",
+		"action": "ten-ingot-breakdown"
+	},
+	{
+		"id": "industrial_colonies:steel/migrate_modernfoundry_steel_block",
+		"action": "normalize"
+	},
+	{
+		"id": "industrial_colonies:steel/migrate_createbigcannons_steel_block",
+		"action": "ten-ingot-breakdown"
+	},
+	{
+		"id": "industrial_colonies:steel/migrate_createbigcannons_steel_block",
+		"action": "normalize"
+	},
+	{
+		"id": "mekanism:processing/uranium/storage_blocks/from_ingots",
+		"action": "ten-ingot-block"
+	},
+	{
+		"id": "nuclearcraft:chemical_reactor/zircaloy_molten",
+		"action": "normalize"
+	},
+	{
+		"id": "nuclearcraft:chemical_reactor/magnesium_diboride_molten",
+		"action": "normalize"
+	},
+	{
+		"id": "nuclearcraft:chemical_reactor/ferroboron_molten",
+		"action": "normalize"
+	},
+	{
+		"id": "nuclearcraft:chemical_reactor/hsla_steel_molten",
+		"action": "normalize"
+	},
+	{
+		"id": "nuclearcraft:chemical_reactor/tough_alloy_molten",
+		"action": "normalize"
+	},
+	{
+		"id": "nuclearcraft:chemical_reactor/shibuichi_molten",
+		"action": "normalize"
+	},
+	{
+		"id": "nuclearcraft:chemical_reactor/electrum_molten",
+		"action": "normalize"
+	},
+	{
+		"id": "nuclearcraft:chemical_reactor/lead_platinum_molten",
+		"action": "normalize"
+	},
+	{
+		"id": "nuclearcraft:chemical_reactor/tin_silver_molten",
+		"action": "normalize"
+	},
+	{
+		"id": "nuclearcraft:chemical_reactor/lithium_manganese_dioxide_molten",
+		"action": "normalize"
+	}
+]

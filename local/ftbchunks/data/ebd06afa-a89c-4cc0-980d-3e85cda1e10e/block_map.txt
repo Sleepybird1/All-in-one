@@ -1,0 +1,10 @@
+#FA75A8 minecraft:andesite
+#CD50CF industrial_colonies:chalcopyrite
+#DE242D minecraft:coal_ore
+#060B35 minecraft:granite
+#88BAFA minecraft:gravel
+#EA439B minecraft:lapis_ore
+#9812BA quark:limestone
+#8A7583 minecraft:moss_block
+#A4FC4B minecraft:mossy_cobblestone
+#DC3458 minecraft:stone

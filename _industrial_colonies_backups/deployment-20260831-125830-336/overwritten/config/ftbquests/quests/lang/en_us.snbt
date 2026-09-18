@@ -1,0 +1,29 @@
+{
+  "file.0000000000000001.title": "Industrial Endgame",
+  "chapter.5EAE8C019077D7EF.title": "Industrial Endgame",
+  "chapter.5EAE8C019077D7EF.chapter_subtitle": [
+    "Three non-gating factory objectives for the physical recipe progression.",
+    "Build mass, prove sustained chemical throughput, then combine both achievements into the Industrial Star."
+  ],
+  "quest.4B66DE417E679AE6.title": "Black Hole",
+  "quest.4B66DE417E679AE6.quest_subtitle": "Collapse nine maximum-density renewable material streams.",
+  "quest.4B66DE417E679AE6.quest_desc": [
+    "Produce the nine 9x-compressed renewable materials and craft the Black Hole.",
+    "The recipe represents 3,486,784,401 base blocks across cobblestone, stone, gravel, dirt, basalt, blackstone, oak logs, sand, and oak planks.",
+    "This quest only observes the finished item; it does not unlock or grant anything."
+  ],
+  "quest.3373AEB6F841A026.title": "Industrial Reserve Core",
+  "quest.3373AEB6F841A026.quest_subtitle": "Prove sustained fuel, acid, polymer, and actinide throughput.",
+  "quest.3373AEB6F841A026.quest_desc": [
+    "Run the 512-loop Sequenced Assembly that manufactures one Industrial Reserve Core.",
+    "The completed core consumes 4,096 HDPE Pellets, 512 Plutonium Pellets, 1,024,000 mB TFMG Sulfuric Acid, and 5,120,000 mB TFMG Diesel.",
+    "This quest is guidance only; the physical recipe and its inputs are the progression gate."
+  ],
+  "quest.00C5B9DFDCC5F502.title": "Industrial Star",
+  "quest.00C5B9DFDCC5F502.quest_subtitle": "Complete the base pack's ultimate factory artifact.",
+  "quest.00C5B9DFDCC5F502.quest_desc": [
+    "Mechanically craft the Black Hole, Industrial Reserve Core, Ultimate control circuits, and all three manufactured Allthemodium alloy families in a 5x5 grid.",
+    "The Industrial Star is the base-pack capstone and the future handoff into orbital and space-travel expansions.",
+    "No quest reward or stage is emitted; possession of the crafted Star completes the objective."
+  ]
+}

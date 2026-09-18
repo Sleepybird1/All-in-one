@@ -1,0 +1,15 @@
+{
+  "structures": [
+    {
+      "structure": "stellaris:earth_satellite",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 1690701129,
+    "spacing": 80,
+    "separation": 50,
+    "frequency": 0.0
+  }
+}

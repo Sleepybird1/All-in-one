@@ -1,0 +1,123 @@
+{
+  "schemaVersion": 1,
+  "createdAt": "2026-09-02T19:12:02.9712889Z",
+  "livePack": "C:\\Users\\GodPC\\curseforge\\minecraft\\Instances\\All in one",
+  "stagedDirectory": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\build\\staging-steel-frame-migration-20260902-v2",
+  "builtFullJar": {
+    "path": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\build\\libs\\industrial_colonies-0.4.0.jar",
+    "sha256": "0933212025DE0EDEA0FB686A6C80807AE84BAAA476C150D7DCBED2E0313A9557"
+  },
+  "protectedFiles": [
+    {
+      "path": "C:\\Users\\GodPC\\curseforge\\minecraft\\Instances\\All in one\\mods\\industrial_colonies-0.4.0.jar",
+      "existed": true,
+      "sha256": "3D2980B079B14B6882216DCCA3A6B2C836BB7C5727F3ED50A6E62A1EAA59B793",
+      "backup": "C:\\Users\\GodPC\\curseforge\\minecraft\\Instances\\All in one\\_industrial_colonies_backups\\review-migration-20260902-151202-819\\snapshot\\mods\\industrial_colonies-0.4.0.jar"
+    },
+    {
+      "path": "C:\\Users\\GodPC\\curseforge\\minecraft\\Instances\\All in one\\kjsgen\\industrial_colonies_sync\\default.recipe_reviews.json",
+      "existed": true,
+      "sha256": "507DC6D3963552B6C8EEEDB2DB01AB2AAFCF3ADB5D9B7352A493E57E74E83734",
+      "backup": "C:\\Users\\GodPC\\curseforge\\minecraft\\Instances\\All in one\\_industrial_colonies_backups\\review-migration-20260902-151202-819\\snapshot\\kjsgen\\industrial_colonies_sync\\default.recipe_reviews.json"
+    },
+    {
+      "path": "C:\\Users\\GodPC\\curseforge\\minecraft\\Instances\\All in one\\kjsgen\\projects\\default.json",
+      "existed": true,
+      "sha256": "1C2E78912C18824262C832428B0FE7155498B895181E6224DB59D291278AB57C",
+      "backup": "C:\\Users\\GodPC\\curseforge\\minecraft\\Instances\\All in one\\_industrial_colonies_backups\\review-migration-20260902-151202-819\\snapshot\\kjsgen\\projects\\default.json"
+    },
+    {
+      "path": "C:\\Users\\GodPC\\curseforge\\minecraft\\Instances\\All in one\\kjsgen\\projects\\approved_recipes.json",
+      "existed": true,
+      "sha256": "23D4AEF6FCCC852AB2FF00B2C443088D1A560592D38A09E2E52D46B7A89A54A4",
+      "backup": "C:\\Users\\GodPC\\curseforge\\minecraft\\Instances\\All in one\\_industrial_colonies_backups\\review-migration-20260902-151202-819\\snapshot\\kjsgen\\projects\\approved_recipes.json"
+    },
+    {
+      "path": "C:\\Users\\GodPC\\curseforge\\minecraft\\Instances\\All in one\\kjsgen\\projects\\rejected_recipes.json",
+      "existed": true,
+      "sha256": "9BF4B50DEE9598677646D95D847621D5829A78441A3F00EAAB5E6040C2ED09F5",
+      "backup": "C:\\Users\\GodPC\\curseforge\\minecraft\\Instances\\All in one\\_industrial_colonies_backups\\review-migration-20260902-151202-819\\snapshot\\kjsgen\\projects\\rejected_recipes.json"
+    },
+    {
+      "path": "C:\\Users\\GodPC\\curseforge\\minecraft\\Instances\\All in one\\kjsgen\\projects\\disabled_recipes.json",
+      "existed": true,
+      "sha256": "53D5DB142F7C2BBD1A8C90F2C55B7F840C7160FD330FC0E2AEC60AD8E64B7243",
+      "backup": "C:\\Users\\GodPC\\curseforge\\minecraft\\Instances\\All in one\\_industrial_colonies_backups\\review-migration-20260902-151202-819\\snapshot\\kjsgen\\projects\\disabled_recipes.json"
+    },
+    {
+      "path": "C:\\Users\\GodPC\\curseforge\\minecraft\\Instances\\All in one\\kjsgen\\projects\\maybe_recipes.json",
+      "existed": true,
+      "sha256": "27D782FBCF2E164593E946543E8C13695E1C1B7273780C92E9EEB4F51C6C9363",
+      "backup": "C:\\Users\\GodPC\\curseforge\\minecraft\\Instances\\All in one\\_industrial_colonies_backups\\review-migration-20260902-151202-819\\snapshot\\kjsgen\\projects\\maybe_recipes.json"
+    },
+    {
+      "path": "C:\\Users\\GodPC\\curseforge\\minecraft\\Instances\\All in one\\kjsgen\\projects\\Deferred.json",
+      "existed": false,
+      "sha256": null,
+      "backup": null
+    },
+    {
+      "path": "C:\\Users\\GodPC\\curseforge\\minecraft\\Instances\\All in one\\kubejs\\server_scripts\\kjsgen_recipes.js",
+      "existed": true,
+      "sha256": "75308FE73C9E5FA33CB65F595047B597B238581B67EA83615991D41FED361DB4",
+      "backup": "C:\\Users\\GodPC\\curseforge\\minecraft\\Instances\\All in one\\_industrial_colonies_backups\\review-migration-20260902-151202-819\\snapshot\\kubejs\\server_scripts\\kjsgen_recipes.js"
+    },
+    {
+      "path": "C:\\Users\\GodPC\\curseforge\\minecraft\\Instances\\All in one\\config\\ftbquests\\quests\\chapters\\mekanized_industry.snbt",
+      "existed": true,
+      "sha256": "8222C2D76F80A8B8138D43A93E859E9195202FB1388F6E73A7B643C82B533CE5",
+      "backup": "C:\\Users\\GodPC\\curseforge\\minecraft\\Instances\\All in one\\_industrial_colonies_backups\\review-migration-20260902-151202-819\\snapshot\\config\\ftbquests\\quests\\chapters\\mekanized_industry.snbt"
+    }
+  ],
+  "plannedInstalls": [
+    {
+      "label": "review artifact ledger",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\build\\staging-steel-frame-migration-20260902-v2\\default.recipe_reviews.json",
+      "sourceSha256": "DDEB4D9BD35BE35645049AA97E0475A3D2B0065E1803BD13F8BB59403A3C944C",
+      "destination": "C:\\Users\\GodPC\\curseforge\\minecraft\\Instances\\All in one\\kjsgen\\industrial_colonies_sync\\default.recipe_reviews.json"
+    },
+    {
+      "label": "review artifact default",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\build\\staging-steel-frame-migration-20260902-v2\\default.json",
+      "sourceSha256": "5EE7104804AF3DAA28EFAECFE6396A511798A20E8CE2A45BEFC227C0B7EAE579",
+      "destination": "C:\\Users\\GodPC\\curseforge\\minecraft\\Instances\\All in one\\kjsgen\\projects\\default.json"
+    },
+    {
+      "label": "review artifact approved",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\build\\staging-steel-frame-migration-20260902-v2\\approved_recipes.json",
+      "sourceSha256": "A2535BA22EFFC1E087341F68CFC015CD627853BB2944F5ED9C2426D1D04285D2",
+      "destination": "C:\\Users\\GodPC\\curseforge\\minecraft\\Instances\\All in one\\kjsgen\\projects\\approved_recipes.json"
+    },
+    {
+      "label": "review artifact rejected",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\build\\staging-steel-frame-migration-20260902-v2\\rejected_recipes.json",
+      "sourceSha256": "4AE16FB9CBDA340773B0C8A5CE55494E2CF70D5AD3D742B8CD7DF309A142FB1F",
+      "destination": "C:\\Users\\GodPC\\curseforge\\minecraft\\Instances\\All in one\\kjsgen\\projects\\rejected_recipes.json"
+    },
+    {
+      "label": "review artifact deferred",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\build\\staging-steel-frame-migration-20260902-v2\\Deferred.json",
+      "sourceSha256": "CDC6775D3DE1DA910754D7C95CE498BF3DDE80293D73F59430D9D3521F162211",
+      "destination": "C:\\Users\\GodPC\\curseforge\\minecraft\\Instances\\All in one\\kjsgen\\projects\\Deferred.json"
+    },
+    {
+      "label": "review artifact disabled",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\build\\staging-steel-frame-migration-20260902-v2\\disabled_recipes.json",
+      "sourceSha256": "2448CB887E1ECEA4865100196C296C41096A18D46A6605384E290C1E9A320D82",
+      "destination": "C:\\Users\\GodPC\\curseforge\\minecraft\\Instances\\All in one\\kjsgen\\projects\\disabled_recipes.json"
+    },
+    {
+      "label": "full Industrial Colonies JAR",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\build\\libs\\industrial_colonies-0.4.0.jar",
+      "sourceSha256": "0933212025DE0EDEA0FB686A6C80807AE84BAAA476C150D7DCBED2E0313A9557",
+      "destination": "C:\\Users\\GodPC\\curseforge\\minecraft\\Instances\\All in one\\mods\\industrial_colonies-0.4.0.jar"
+    },
+    {
+      "label": "policy ftbquest artifact",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\build\\staging-steel-frame-migration-20260902-v2\\mekanized_industry.snbt",
+      "sourceSha256": "BE959BF6C90D9F90B5AE6D26574544DC58E8CBAAB5857B0C0CB86D4709CEFC12",
+      "destination": "C:\\Users\\GodPC\\curseforge\\minecraft\\Instances\\All in one\\config\\ftbquests\\quests\\chapters\\mekanized_industry.snbt"
+    }
+  ],
+  "retireLegacyMaybe": true
+}

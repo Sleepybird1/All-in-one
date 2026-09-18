@@ -1,0 +1,528 @@
+{
+  "format": 1,
+  "name": "maybe recipes",
+  "defaultTargetFile": "kjsgen_recipes",
+  "exportComments": true,
+  "reloadOnExport": false,
+  "recipes": [
+    {
+      "uid": "03ffc205-bded-50dc-9aec-8946a3bad252",
+      "type": "kjsgen:create_mechanical_crafting",
+      "recipeId": "industrial_colonies:fluid_infrastructure/fireproof_chemical_vat",
+      "comment": "[Pre-semiconductor ownership] Mechanical components precede final factory assembly.",
+      "replaceRecipe": false,
+      "slots": {
+        "cell_0_0": {
+          "kind": "ITEM",
+          "id": "tfmg:steel_frame"
+        },
+        "cell_0_1": {
+          "kind": "ITEM",
+          "id": "tfmg:screw"
+        },
+        "cell_0_3": {
+          "kind": "ITEM",
+          "id": "tfmg:screw"
+        },
+        "cell_0_4": {
+          "kind": "ITEM",
+          "id": "tfmg:steel_frame"
+        },
+        "cell_1_0": {
+          "kind": "ITEM",
+          "id": "tfmg:heavy_plate"
+        },
+        "cell_1_2": {
+          "kind": "ITEM",
+          "id": "tfmg:steel_mechanism"
+        },
+        "cell_1_4": {
+          "kind": "ITEM",
+          "id": "tfmg:heavy_plate"
+        },
+        "cell_2_0": {
+          "kind": "ITEM",
+          "id": "tfmg:screw"
+        },
+        "cell_2_2": {
+          "kind": "ITEM",
+          "id": "tfmg:steel_chemical_vat"
+        },
+        "cell_2_4": {
+          "kind": "ITEM",
+          "id": "tfmg:screw"
+        },
+        "cell_3_0": {
+          "kind": "ITEM",
+          "id": "tfmg:heavy_plate"
+        },
+        "cell_3_2": {
+          "kind": "ITEM",
+          "id": "tfmg:fireproof_bricks"
+        },
+        "cell_3_4": {
+          "kind": "ITEM",
+          "id": "tfmg:heavy_plate"
+        },
+        "cell_4_0": {
+          "kind": "ITEM",
+          "id": "tfmg:steel_frame"
+        },
+        "cell_4_1": {
+          "kind": "ITEM",
+          "id": "tfmg:heavy_plate"
+        },
+        "cell_4_2": {
+          "kind": "ITEM",
+          "id": "tfmg:steel_pipe"
+        },
+        "cell_4_3": {
+          "kind": "ITEM",
+          "id": "tfmg:heavy_plate"
+        },
+        "cell_4_4": {
+          "kind": "ITEM",
+          "id": "tfmg:steel_frame"
+        },
+        "output": {
+          "kind": "ITEM",
+          "id": "tfmg:fireproof_chemical_vat"
+        }
+      },
+      "params": {
+        "gridW": "5",
+        "gridH": "5"
+      }
+    },
+    {
+      "uid": "95e3a596-ed4c-55ca-9ab3-cda2d9756296",
+      "type": "kjsgen:create_compacting",
+      "recipeId": "industrial_colonies:fluid_infrastructure/industrial_pipe",
+      "comment": "[Weathered Iron] Structural forming for the first industrial plant.",
+      "replaceRecipe": false,
+      "slots": {
+        "__machine_process_compacting": {
+          "kind": "ITEM",
+          "id": "createcasing:weathered_iron_press"
+        },
+        "output": {
+          "kind": "ITEM",
+          "id": "tfmg:industrial_pipe",
+          "count": 8
+        },
+        "in0": {
+          "kind": "ITEM",
+          "id": "tfmg:steel_pipe"
+        },
+        "in1": {
+          "kind": "ITEM",
+          "id": "tfmg:steel_pipe"
+        },
+        "in2": {
+          "kind": "ITEM",
+          "id": "tfmg:heavy_plate"
+        },
+        "in3": {
+          "kind": "ITEM",
+          "id": "tfmg:heavy_plate"
+        },
+        "in4": {
+          "kind": "ITEM_TAG",
+          "id": "c:ingots/steel"
+        },
+        "in5": {
+          "kind": "ITEM",
+          "id": "tfmg:steel_mechanism"
+        },
+        "in6": {
+          "kind": "ITEM_TAG",
+          "id": "c:ingots/steel"
+        }
+      },
+      "params": {
+        "heat": "none"
+      }
+    },
+    {
+      "uid": "f7cb1779-e59d-5319-a78a-826a048bdda3",
+      "type": "kjsgen:create_mechanical_crafting",
+      "recipeId": "industrial_colonies:fluid_infrastructure/steel_chemical_vat",
+      "comment": "[Pre-semiconductor ownership] Mechanical components precede final factory assembly.",
+      "replaceRecipe": false,
+      "slots": {
+        "cell_0_0": {
+          "kind": "ITEM",
+          "id": "tfmg:steel_frame"
+        },
+        "cell_0_4": {
+          "kind": "ITEM",
+          "id": "tfmg:steel_frame"
+        },
+        "cell_1_0": {
+          "kind": "ITEM",
+          "id": "tfmg:heavy_plate"
+        },
+        "cell_1_2": {
+          "kind": "ITEM",
+          "id": "tfmg:steel_mechanism"
+        },
+        "cell_1_4": {
+          "kind": "ITEM",
+          "id": "tfmg:heavy_plate"
+        },
+        "cell_2_0": {
+          "kind": "ITEM",
+          "id": "tfmg:screw"
+        },
+        "cell_2_2": {
+          "kind": "ITEM",
+          "id": "tfmg:cast_iron_chemical_vat"
+        },
+        "cell_3_0": {
+          "kind": "ITEM",
+          "id": "tfmg:heavy_plate"
+        },
+        "cell_3_2": {
+          "kind": "ITEM",
+          "id": "tfmg:nickel_sheet"
+        },
+        "cell_3_4": {
+          "kind": "ITEM",
+          "id": "tfmg:heavy_plate"
+        },
+        "cell_4_0": {
+          "kind": "ITEM",
+          "id": "tfmg:steel_frame"
+        },
+        "cell_4_1": {
+          "kind": "ITEM",
+          "id": "tfmg:heavy_plate"
+        },
+        "cell_4_3": {
+          "kind": "ITEM",
+          "id": "tfmg:heavy_plate"
+        },
+        "cell_4_4": {
+          "kind": "ITEM",
+          "id": "tfmg:steel_frame"
+        },
+        "output": {
+          "kind": "ITEM",
+          "id": "tfmg:steel_chemical_vat"
+        },
+        "cell_4_2": {
+          "kind": "ITEM",
+          "id": "tfmg:steel_pipe"
+        },
+        "cell_0_2": {
+          "kind": "ITEM",
+          "id": "tfmg:steel_pipe"
+        },
+        "cell_0_1": {
+          "kind": "ITEM",
+          "id": "tfmg:screw"
+        },
+        "cell_0_3": {
+          "kind": "ITEM",
+          "id": "tfmg:screw"
+        },
+        "cell_2_4": {
+          "kind": "ITEM",
+          "id": "tfmg:screw"
+        }
+      },
+      "params": {
+        "gridW": "5",
+        "gridH": "5"
+      }
+    },
+    {
+      "uid": "7475b89e-3bf3-5551-9105-2cc8453640b6",
+      "type": "kjsgen:create_compacting",
+      "recipeId": "industrial_colonies:foundry_routes/modern_scorched_drain",
+      "comment": "[Digital Logistics] Review correction: retain the scorched refractory construction and form it on the Weathered Iron press, as requested.",
+      "replaceRecipe": false,
+      "slots": {
+        "__machine_process_compacting": {
+          "kind": "ITEM",
+          "id": "createcasing:weathered_iron_press"
+        },
+        "in0": {
+          "kind": "ITEM",
+          "id": "modernfoundry:scorched_brick",
+          "count": 4
+        },
+        "in1": {
+          "kind": "ITEM",
+          "id": "modernfoundry:obsidian_pane",
+          "count": 2
+        },
+        "in2": {
+          "kind": "ITEM",
+          "id": "tfmg:steel_pipe",
+          "count": 2
+        },
+        "in3": {
+          "kind": "ITEM",
+          "id": "tfmg:steel_fluid_tank"
+        },
+        "in4": {
+          "kind": "ITEM",
+          "id": "tfmg:screw"
+        },
+        "output": {
+          "kind": "ITEM",
+          "id": "modernfoundry:scorched_drain"
+        }
+      },
+      "params": {
+        "heat": "none"
+      }
+    },
+    {
+      "uid": "3f2a5be7-d45d-5f11-ab98-ea26f7fe8537",
+      "type": "kjsgen:create_compacting",
+      "recipeId": "industrial_colonies:foundry_routes/modern_scorched_table",
+      "comment": "[Digital Logistics] Review correction: retain the scorched refractory construction and form it on the Weathered Iron press, as requested.",
+      "replaceRecipe": false,
+      "slots": {
+        "__machine_process_compacting": {
+          "kind": "ITEM",
+          "id": "createcasing:weathered_iron_press"
+        },
+        "in0": {
+          "kind": "ITEM",
+          "id": "createmetallurgy:casting_table"
+        },
+        "in1": {
+          "kind": "ITEM",
+          "id": "modernfoundry:scorched_brick",
+          "count": 4
+        },
+        "in2": {
+          "kind": "ITEM",
+          "id": "modernfoundry:gold_bars"
+        },
+        "in3": {
+          "kind": "ITEM",
+          "id": "tfmg:heavy_plate"
+        },
+        "in4": {
+          "kind": "ITEM",
+          "id": "tfmg:screw"
+        },
+        "output": {
+          "kind": "ITEM",
+          "id": "modernfoundry:scorched_table"
+        }
+      },
+      "params": {
+        "heat": "none"
+      }
+    },
+    {
+      "uid": "9f50de24-7dd6-53f5-8232-7dc1e2313a4e",
+      "type": "kjsgen:create_mechanical_crafting",
+      "recipeId": "industrial_colonies:grid/alternator_brushes",
+      "comment": "[Digital Logistics] Review correction: functional hardware now uses Mechanical Crafting. The working parts, connections and structural support are assembled in the shown layout; the former sequenced assembly is replaced, not added as an alternative.",
+      "replaceRecipe": false,
+      "slots": {
+        "cell_0_1": {
+          "kind": "ITEM",
+          "id": "electroenergetics:connector"
+        },
+        "cell_1_0": {
+          "kind": "ITEM",
+          "id": "tfmg:cast_iron_sheet"
+        },
+        "cell_1_1": {
+          "kind": "ITEM",
+          "id": "create:shaft"
+        },
+        "cell_1_2": {
+          "kind": "ITEM",
+          "id": "tfmg:cast_iron_sheet"
+        },
+        "cell_2_0": {
+          "kind": "ITEM",
+          "id": "tfmg:copper_cable_hub"
+        },
+        "cell_2_1": {
+          "kind": "ITEM",
+          "id": "create:brass_casing"
+        },
+        "cell_2_2": {
+          "kind": "ITEM",
+          "id": "tfmg:copper_cable_hub"
+        },
+        "output": {
+          "kind": "ITEM",
+          "id": "electroenergetics:alternator_brushes"
+        }
+      },
+      "params": {
+        "gridW": "3",
+        "gridH": "3"
+      }
+    },
+    {
+      "uid": "4664ab9e-73f4-5288-bf62-3e668ee71079",
+      "type": "kjsgen:create_mechanical_crafting",
+      "recipeId": "industrial_colonies:grid/alternator_rotor",
+      "comment": "[Digital Logistics] Review correction: a laminated magnetic rotor and reinforced shaft enclosed in real windings, rather than paying for unrelated processors.",
+      "replaceRecipe": false,
+      "slots": {
+        "cell_0_1": {
+          "kind": "ITEM",
+          "id": "tfmg:copper_spool"
+        },
+        "cell_0_2": {
+          "kind": "ITEM",
+          "id": "tfmg:copper_spool"
+        },
+        "cell_1_0": {
+          "kind": "ITEM",
+          "id": "tfmg:copper_spool"
+        },
+        "cell_1_1": {
+          "kind": "ITEM",
+          "id": "tfmg:laminated_magnetic_alloy_block"
+        },
+        "cell_1_2": {
+          "kind": "ITEM",
+          "id": "create:shaft"
+        },
+        "cell_1_3": {
+          "kind": "ITEM",
+          "id": "tfmg:copper_spool"
+        },
+        "cell_2_0": {
+          "kind": "ITEM",
+          "id": "tfmg:copper_spool"
+        },
+        "cell_2_1": {
+          "kind": "ITEM",
+          "id": "tfmg:steel_mechanism"
+        },
+        "cell_2_2": {
+          "kind": "ITEM",
+          "id": "create:shaft"
+        },
+        "cell_2_3": {
+          "kind": "ITEM",
+          "id": "tfmg:copper_spool"
+        },
+        "cell_3_1": {
+          "kind": "ITEM",
+          "id": "tfmg:copper_spool"
+        },
+        "cell_3_2": {
+          "kind": "ITEM",
+          "id": "tfmg:copper_spool"
+        },
+        "output": {
+          "kind": "ITEM",
+          "id": "electroenergetics:alternator_rotor"
+        }
+      },
+      "params": {
+        "gridW": "4",
+        "gridH": "4"
+      }
+    },
+    {
+      "uid": "2adabefb-d5a0-5b94-a12c-ea08f0615d58",
+      "type": "kjsgen:create_mechanical_crafting",
+      "recipeId": "industrial_colonies:heavy_industry/industrial_mixer",
+      "comment": "[Pre-semiconductor ownership] Mechanical components precede final factory assembly.",
+      "replaceRecipe": false,
+      "slots": {
+        "cell_0_0": {
+          "kind": "ITEM",
+          "id": "tfmg:steel_frame"
+        },
+        "cell_0_3": {
+          "kind": "ITEM",
+          "id": "tfmg:screw"
+        },
+        "cell_0_4": {
+          "kind": "ITEM",
+          "id": "tfmg:steel_frame"
+        },
+        "cell_1_0": {
+          "kind": "ITEM",
+          "id": "tfmg:heavy_plate"
+        },
+        "cell_1_2": {
+          "kind": "ITEM",
+          "id": "tfmg:steel_mechanism"
+        },
+        "cell_1_4": {
+          "kind": "ITEM",
+          "id": "tfmg:heavy_plate"
+        },
+        "cell_2_0": {
+          "kind": "ITEM",
+          "id": "tfmg:screw"
+        },
+        "cell_2_4": {
+          "kind": "ITEM",
+          "id": "tfmg:screw"
+        },
+        "cell_3_0": {
+          "kind": "ITEM",
+          "id": "tfmg:heavy_plate"
+        },
+        "cell_3_2": {
+          "kind": "ITEM",
+          "id": "tfmg:mixer_blade"
+        },
+        "cell_3_4": {
+          "kind": "ITEM",
+          "id": "tfmg:heavy_plate"
+        },
+        "cell_4_0": {
+          "kind": "ITEM",
+          "id": "tfmg:steel_frame"
+        },
+        "cell_4_1": {
+          "kind": "ITEM",
+          "id": "tfmg:heavy_plate"
+        },
+        "cell_4_2": {
+          "kind": "ITEM",
+          "id": "tfmg:steel_pipe"
+        },
+        "cell_4_3": {
+          "kind": "ITEM",
+          "id": "tfmg:heavy_plate"
+        },
+        "cell_4_4": {
+          "kind": "ITEM",
+          "id": "tfmg:steel_frame"
+        },
+        "output": {
+          "kind": "ITEM",
+          "id": "tfmg:industrial_mixer"
+        },
+        "cell_0_1": {
+          "kind": "ITEM",
+          "id": "tfmg:screw"
+        },
+        "cell_0_2": {
+          "kind": "ITEM",
+          "id": "tfmg:heavy_machinery_casing"
+        },
+        "cell_2_2": {
+          "kind": "ITEM",
+          "id": "tfmg:steel_casing"
+        }
+      },
+      "params": {
+        "gridW": "5",
+        "gridH": "5"
+      }
+    }
+  ],
+  "removals": []
+}

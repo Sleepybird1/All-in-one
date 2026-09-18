@@ -1,0 +1,37 @@
+#Whether to log the dirt block on common setup
+logDirtBlock = true
+#FE consumed by a single Warp Drive activation
+# Default: 8000000
+# Range: 0 ~ 2147483647
+warpCostFE = 8000000
+#Ticks between pressing Warp and the actual jump (hyperspace charge-up). 20 ticks = 1 second
+# Default: 60
+# Range: 0 ~ 24000
+warpChargeTicks = 60
+#Number of converging particles spawned around the ship per tick while charging
+# Default: 32
+# Range: 0 ~ 256
+warpParticleCount = 32
+#FE consumed by a single Test Drive activation
+# Default: 8000000
+# Range: 0 ~ 2147483647
+testDriveCostFE = 8000000
+#What the Warp Drive's console screen shows
+#Allowed Values: FE, COUNTDOWN, COORDINATES, POINT_NAME
+warpDriveDisplayMode = "FE"
+#Minimum ship speed (blocks/tick) required, while armed, for a redstone pulse to trigger a Test Drive warp
+# Default: 0.5
+# Range: 0.0 ~ 100.0
+testDriveMinSpeed = 0.5
+#Max number of warp points a Memory Card can hold
+# Default: 5
+# Range: 1 ~ 10
+memoryCardCapacity = 5
+#A magic number
+# Default: 42
+# Range: > 0
+magicNumber = 42
+#What you want the introduction message to be for the magic number
+magicNumberIntroduction = "The magic number is... "
+#A list of items to log on common setup.
+items = ["minecraft:iron_ingot"]

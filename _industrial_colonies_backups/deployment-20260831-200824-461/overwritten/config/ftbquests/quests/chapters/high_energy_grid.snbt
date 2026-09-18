@@ -1,0 +1,371 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "rsquare"
+	filename: "high_energy_grid"
+	group: ""
+	id: "3000276E891E618B"
+	images: [ ]
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"5887BC446874E157"
+				"5CE1866C695CC2E0"
+			]
+			disable_toast: true
+			icon: {
+				id: "mekanism:elite_control_circuit"
+			}
+			id: "64A4A4BE10B71DD2"
+			tags: [
+				"industrial_colonies:physical_guidance"
+				"industrial_colonies:physical_guidance/phase/high_energy_grid"
+				"industrial_colonies:physical_guidance/precision_control_stack"
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "3490C97E58C4D001"
+					item: { count: 1, id: "mekanism:elite_control_circuit" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "09B31877A4617B2D"
+					item: { count: 1, id: "ae2:engineering_processor" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "2EE19474347397B2"
+					item: { count: 1, id: "mekanism:ultimate_control_circuit" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"64A4A4BE10B71DD2"
+				"226A04656BFB827E"
+			]
+			disable_toast: true
+			icon: {
+				id: "ae2:controller"
+			}
+			id: "491B1001F9341B90"
+			tags: [
+				"industrial_colonies:physical_guidance"
+				"industrial_colonies:physical_guidance/phase/high_energy_grid"
+				"industrial_colonies:physical_guidance/controller_class_me"
+			]
+			tasks: [
+				{
+					id: "4925859ACC0D418E"
+					item: { count: 1, id: "ae2:controller" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "1B91ADB55F0E08C8"
+					item: { count: 1, id: "ae2:fluix_smart_dense_cable" }
+					type: "item"
+				}
+				{
+					id: "254C77A1DA088D52"
+					item: { count: 1, id: "ae2:item_storage_cell_64k" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["491B1001F9341B90"]
+			disable_toast: true
+			icon: {
+				id: "ae2:me_p2p_tunnel"
+			}
+			id: "219EEA0B4817C32A"
+			tags: [
+				"industrial_colonies:physical_guidance"
+				"industrial_colonies:physical_guidance/phase/high_energy_grid"
+				"industrial_colonies:physical_guidance/remote_kinetic_p2p"
+			]
+			tasks: [
+				{
+					count: 2L
+					id: "5F2EE61D4C8204CE"
+					item: { count: 1, id: "ae2:me_p2p_tunnel" }
+					type: "item"
+				}
+				{
+					id: "629E90D9ED840D36"
+					item: { count: 1, id: "appliedcreate:kinetic_energy_acceptor" }
+					type: "item"
+				}
+				{
+					id: "29CEB42CE17CCC27"
+					item: { count: 1, id: "appliedcreate:me_gearbox" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"219EEA0B4817C32A"
+				"031A13099A48BFAF"
+			]
+			disable_toast: true
+			icon: {
+				id: "extendedae:machine_frame"
+			}
+			id: "054D724C340A94CA"
+			tags: [
+				"industrial_colonies:physical_guidance"
+				"industrial_colonies:physical_guidance/phase/high_energy_grid"
+				"industrial_colonies:physical_guidance/extended_digital_manufacturing"
+			]
+			tasks: [
+				{
+					count: 2L
+					id: "014C390E226B79A1"
+					item: { count: 1, id: "extendedae:machine_frame" }
+					type: "item"
+				}
+				{
+					id: "0064BB257F9A53C2"
+					item: { count: 1, id: "extendedae:crystal_assembler" }
+					type: "item"
+				}
+				{
+					id: "61F837B2DD33F8EB"
+					item: { count: 1, id: "advanced_ae:reaction_chamber" }
+					type: "item"
+				}
+				{
+					id: "3949511CF7CB83FA"
+					item: { count: 1, id: "megacells:cell_component_1m" }
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"5887BC446874E157"
+				"5CE1866C695CC2E0"
+			]
+			disable_toast: true
+			icon: {
+				id: "electroenergetics:transformer"
+			}
+			id: "3B11A60D688779E6"
+			tags: [
+				"industrial_colonies:physical_guidance"
+				"industrial_colonies:physical_guidance/phase/high_energy_grid"
+				"industrial_colonies:physical_guidance/high_voltage_substation"
+			]
+			tasks: [
+				{
+					id: "4D68B06C00EC23EB"
+					item: { count: 1, id: "electroenergetics:transformer" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "35C39E856DD8DC43"
+					item: { count: 1, id: "electroenergetics:miniature_circuit_breaker" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "52BC3975CC631684"
+					item: { count: 1, id: "electroenergetics:insulated_wire" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3B11A60D688779E6"]
+			disable_toast: true
+			icon: {
+				id: "electroenergetics:heavily_insulated_wire_spool"
+			}
+			id: "2713862CE1DBDFA7"
+			tags: [
+				"industrial_colonies:physical_guidance"
+				"industrial_colonies:physical_guidance/phase/high_energy_grid"
+				"industrial_colonies:physical_guidance/extreme_transmission_yard"
+			]
+			tasks: [
+				{
+					id: "0CC8D6083A02FF5D"
+					item: { count: 1, id: "electroenergetics:heavily_insulated_wire_spool" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "44D23E1E487EE34F"
+					item: { count: 1, id: "electroenergetics:hanging_glass_insulator" }
+					type: "item"
+				}
+				{
+					id: "70C8535BB9DFFDE2"
+					item: { count: 1, id: "electroenergetics:sulfur_hexafluoride_breaker" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"64A4A4BE10B71DD2"
+				"2713862CE1DBDFA7"
+			]
+			disable_toast: true
+			icon: {
+				id: "mekanism:basic_energy_cube"
+			}
+			id: "18055D536AD07A5F"
+			tags: [
+				"industrial_colonies:physical_guidance"
+				"industrial_colonies:physical_guidance/phase/high_energy_grid"
+				"industrial_colonies:physical_guidance/energy_cube_ladder"
+			]
+			tasks: [
+				{
+					id: "34F01C69CC3A4AD6"
+					item: { count: 1, id: "mekanism:basic_energy_cube" }
+					type: "item"
+				}
+				{
+					id: "256B8BFDE496C0E9"
+					item: { count: 1, id: "mekanism:advanced_energy_cube" }
+					type: "item"
+				}
+				{
+					id: "63997A5585DAA6E8"
+					item: { count: 1, id: "mekanism:elite_energy_cube" }
+					type: "item"
+				}
+				{
+					id: "334F16FBB3BCB1F1"
+					item: { count: 1, id: "mekanism:ultimate_energy_cube" }
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"64A4A4BE10B71DD2"
+				"0D141D97AAAB427E"
+			]
+			disable_toast: true
+			icon: {
+				id: "mekanism:ultimate_logistical_transporter"
+			}
+			id: "573938DA3F1F3095"
+			tags: [
+				"industrial_colonies:physical_guidance"
+				"industrial_colonies:physical_guidance/phase/high_energy_grid"
+				"industrial_colonies:physical_guidance/physical_network_upgrade"
+			]
+			tasks: [{
+				count: 8L
+				id: "3969E783FB06DA08"
+				item: { count: 1, id: "mekanism:ultimate_logistical_transporter" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"18055D536AD07A5F"
+				"573938DA3F1F3095"
+			]
+			disable_toast: true
+			icon: {
+				id: "mekanism:induction_casing"
+			}
+			id: "205F1E5DF1C94912"
+			tags: [
+				"industrial_colonies:physical_guidance"
+				"industrial_colonies:physical_guidance/phase/high_energy_grid"
+				"industrial_colonies:physical_guidance/induction_matrix_hardware"
+			]
+			tasks: [
+				{
+					count: 8L
+					id: "3D63F8C3E9583714"
+					item: { count: 1, id: "mekanism:induction_casing" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "640882FF2206B51F"
+					item: { count: 1, id: "mekanism:induction_port" }
+					type: "item"
+				}
+				{
+					id: "245D3366373B5534"
+					item: { count: 1, id: "mekanism:ultimate_induction_cell" }
+					type: "item"
+				}
+				{
+					id: "351A92E73CCE3D52"
+					item: { count: 1, id: "mekanism:ultimate_induction_provider" }
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"491B1001F9341B90"
+				"205F1E5DF1C94912"
+			]
+			disable_toast: true
+			icon: {
+				id: "ae2:spatial_anchor"
+			}
+			id: "2BD4AB3795C7A1CA"
+			tags: [
+				"industrial_colonies:physical_guidance"
+				"industrial_colonies:physical_guidance/phase/high_energy_grid"
+				"industrial_colonies:physical_guidance/persistent_remote_factory"
+			]
+			tasks: [
+				{
+					id: "596A77884A4F2027"
+					item: { count: 1, id: "ae2:spatial_anchor" }
+					type: "item"
+				}
+				{
+					id: "676532B3B3606116"
+					item: { count: 1, id: "advancedperipherals:chunk_controller" }
+					type: "item"
+				}
+				{
+					id: "23310AF6567494D1"
+					item: { count: 1, id: "mekanism:dimensional_stabilizer" }
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: -2.0d
+		}
+	]
+}

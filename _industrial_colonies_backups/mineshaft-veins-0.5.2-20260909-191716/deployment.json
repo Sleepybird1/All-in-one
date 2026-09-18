@@ -1,0 +1,11 @@
+{
+  "status": "APPLIED",
+  "version": "0.5.2",
+  "sha256": "D1A60CE6F8869B7C1197EAE9D0D2879B8599A38BC34C064D878475E8594EFA2E",
+  "installed": "C:\\Users\\GodPC\\curseforge\\minecraft\\Instances\\All in one\\mods\\industrial_colonies-0.5.2.jar",
+  "backup": "C:\\Users\\GodPC\\curseforge\\minecraft\\Instances\\All in one\\_industrial_colonies_backups\\mineshaft-veins-0.5.2-20260909-191716\\industrial_colonies-0.5.1.jar",
+  "previousSha256": "7219C29073CF45918E4BD8A64127E4D83147CC277120E334BE10242882078749",
+  "appliedAt": "2026-09-09T19:17:16.8336938-04:00",
+  "savesTouched": false,
+  "recipesTouched": false
+}

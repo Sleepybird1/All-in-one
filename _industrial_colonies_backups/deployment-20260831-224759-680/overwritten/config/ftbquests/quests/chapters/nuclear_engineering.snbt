@@ -1,0 +1,298 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "rsquare"
+	filename: "nuclear_engineering"
+	group: ""
+	id: "5DC8D0E2A78157AD"
+	images: [ ]
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"64A4A4BE10B71DD2"
+				"30A64C03E787CFC4"
+			]
+			disable_toast: true
+			icon: {
+				id: "bigreactors:yellorium_ingot"
+			}
+			id: "4A28B688EF7200CE"
+			tags: [
+				"industrial_colonies:physical_guidance"
+				"industrial_colonies:physical_guidance/phase/nuclear_engineering"
+				"industrial_colonies:physical_guidance/yellorium_refinement"
+			]
+			tasks: [
+				{
+					count: 8L
+					id: "0447F65321B9B3DC"
+					item: { count: 1, id: "bigreactors:yellorium_ingot" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "254528E90E2BB696"
+					item: { count: 1, id: "industrial_colonies:yellorium_compound" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4A28B688EF7200CE"]
+			disable_toast: true
+			icon: {
+				id: "mekanism:raw_uranium"
+			}
+			id: "6E09F970F09B572C"
+			tags: [
+				"industrial_colonies:physical_guidance"
+				"industrial_colonies:physical_guidance/phase/nuclear_engineering"
+				"industrial_colonies:physical_guidance/uranium_feedstock"
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "513044E69E6A4DDA"
+					item: { count: 1, id: "mekanism:raw_uranium" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "1FB8AFC159EDC235"
+					item: { count: 1, id: "mekanism:ingot_uranium" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"4A28B688EF7200CE"
+				"64A4A4BE10B71DD2"
+			]
+			disable_toast: true
+			icon: {
+				id: "create:refined_radiance_casing"
+			}
+			id: "7D4642CE108040CE"
+			tags: [
+				"industrial_colonies:physical_guidance"
+				"industrial_colonies:physical_guidance/phase/nuclear_engineering"
+				"industrial_colonies:physical_guidance/refined_radiance_line"
+			]
+			tasks: [{
+				count: 4L
+				id: "78C7B4012230BD01"
+				item: { count: 1, id: "create:refined_radiance_casing" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"6E09F970F09B572C"
+				"7D4642CE108040CE"
+				"031A13099A48BFAF"
+			]
+			disable_toast: true
+			icon: {
+				id: "mekanism:isotopic_centrifuge"
+			}
+			id: "359A724E01323967"
+			tags: [
+				"industrial_colonies:physical_guidance"
+				"industrial_colonies:physical_guidance/phase/nuclear_engineering"
+				"industrial_colonies:physical_guidance/isotope_fuel_campaign"
+			]
+			tasks: [
+				{
+					id: "798399CAE341E804"
+					item: { count: 1, id: "mekanism:isotopic_centrifuge" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "26D03E7438B8AB14"
+					item: { count: 1, id: "industrial_colonies:enriched_uranium_fuel_pellet" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"7D4642CE108040CE"
+				"359A724E01323967"
+			]
+			disable_toast: true
+			icon: {
+				id: "bigreactors:basic_reactorcasing"
+			}
+			id: "517B4705E4DB0689"
+			tags: [
+				"industrial_colonies:physical_guidance"
+				"industrial_colonies:physical_guidance/phase/nuclear_engineering"
+				"industrial_colonies:physical_guidance/reactor_core_construction"
+			]
+			tasks: [
+				{
+					count: 16L
+					id: "3F865198D043E16E"
+					item: { count: 1, id: "bigreactors:basic_reactorcasing" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "186124C2D4BDF406"
+					item: { count: 1, id: "bigreactors:basic_reactorfuelrod" }
+					type: "item"
+				}
+				{
+					id: "2FF2F9729F6AE1D2"
+					item: { count: 1, id: "bigreactors:basic_reactorcontrolrod" }
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"517B4705E4DB0689"
+				"4A5F56050103C954"
+				"64A4A4BE10B71DD2"
+			]
+			disable_toast: true
+			icon: {
+				id: "bigreactors:basic_reactorcontroller"
+			}
+			id: "56B1899F9AA38E31"
+			tags: [
+				"industrial_colonies:physical_guidance"
+				"industrial_colonies:physical_guidance/phase/nuclear_engineering"
+				"industrial_colonies:physical_guidance/reactor_instrumentation"
+			]
+			tasks: [
+				{
+					id: "4AA0FDB5CA19DD81"
+					item: { count: 1, id: "bigreactors:basic_reactorcontroller" }
+					type: "item"
+				}
+				{
+					id: "196A599369CA8891"
+					item: { count: 1, id: "bigreactors:basic_reactorredstoneport" }
+					type: "item"
+				}
+				{
+					id: "2E3D5BD65EBF3E63"
+					item: { count: 1, id: "bigreactors:basic_reactorpowertapfe_passive" }
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"359A724E01323967"
+				"517B4705E4DB0689"
+				"56B1899F9AA38E31"
+			]
+			disable_toast: true
+			icon: {
+				id: "bigreactors:cyanite_ingot"
+			}
+			id: "0D04C77F2B95DB5F"
+			tags: [
+				"industrial_colonies:physical_guidance"
+				"industrial_colonies:physical_guidance/phase/nuclear_engineering"
+				"industrial_colonies:physical_guidance/first_criticality"
+			]
+			tasks: [{
+				id: "19FD0AD2F9AD2874"
+				item: { count: 1, id: "bigreactors:cyanite_ingot" }
+				type: "item"
+			}]
+			x: 15.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"0D04C77F2B95DB5F"
+				"205F1E5DF1C94912"
+				"031A13099A48BFAF"
+			]
+			disable_toast: true
+			icon: {
+				id: "mekanism:radioactive_waste_barrel"
+			}
+			id: "5F36F87CA3676532"
+			tags: [
+				"industrial_colonies:physical_guidance"
+				"industrial_colonies:physical_guidance/phase/nuclear_engineering"
+				"industrial_colonies:physical_guidance/actinide_recovery"
+			]
+			tasks: [
+				{
+					id: "6C6D241B13E38075"
+					item: { count: 1, id: "mekanism:radioactive_waste_barrel" }
+					type: "item"
+				}
+				{
+					id: "7BA1C41DE7B69B30"
+					item: { count: 1, id: "mekanism:solar_neutron_activator" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "7253DE7E81612603"
+					item: { count: 1, id: "mekanism:pellet_plutonium" }
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"0D04C77F2B95DB5F"
+				"5F36F87CA3676532"
+			]
+			disable_toast: true
+			icon: {
+				id: "bigreactors:reprocessorcontroller"
+			}
+			id: "51566C9CE720D8CB"
+			tags: [
+				"industrial_colonies:physical_guidance"
+				"industrial_colonies:physical_guidance/phase/nuclear_engineering"
+				"industrial_colonies:physical_guidance/reinforced_nuclear_platform"
+			]
+			tasks: [
+				{
+					id: "1CA6B83898D45874"
+					item: { count: 1, id: "bigreactors:reprocessorcontroller" }
+					type: "item"
+				}
+				{
+					id: "570660D162289DC0"
+					item: { count: 1, id: "bigreactors:reinforced_reactorcontroller" }
+					type: "item"
+				}
+				{
+					id: "61000EE7BCD12B0C"
+					item: { count: 1, id: "bigreactors:reinforced_reactorcomputerport" }
+					type: "item"
+				}
+			]
+			x: 15.0d
+			y: 1.0d
+		}
+	]
+}

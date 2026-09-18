@@ -1,0 +1,1327 @@
+{
+  "deposits": [
+    {
+      "id": "hematite",
+      "spacingFamily": "iron",
+      "hostRock": "industrial_colonies:hematite",
+      "primaryMaterials": [
+        "iron"
+      ],
+      "richOres": [
+        {
+          "block": "industrial_colonies:rich_hematite",
+          "weight": 1
+        }
+      ],
+      "baseWeight": 5,
+      "sameFamilyMinSpacing": 1500,
+      "normalSizeMin": 3000,
+      "normalSizeMax": 5000,
+      "biomeWeights": {
+        "mountain_highland": 2,
+        "arid_badlands": 1.75,
+        "sedimentary_plains": 1,
+        "ordinary_plains": 0.75,
+        "ordinary_forest": 0.75,
+        "tropical_humid": 0.4,
+        "wetland": 0.25,
+        "coastal_oceanic": 0.25,
+        "volcanic_ashen": 1,
+        "cold_high_altitude": 1.25
+      },
+      "depthWeights": [
+        1.5,
+        2,
+        1
+      ],
+      "normalRichOrePercent": 0.08,
+      "associated": [],
+      "micro": {
+        "enabled": true,
+        "chance": 0.003,
+        "min": 1,
+        "max": 2
+      },
+      "hardBiomeExclusions": [],
+      "hardTerrainExclusions": [],
+      "provisionalFields": [
+        "baseWeight",
+        "micro.chance"
+      ]
+    },
+    {
+      "id": "magnetite",
+      "spacingFamily": "iron",
+      "hostRock": "industrial_colonies:magnetite",
+      "primaryMaterials": [
+        "iron"
+      ],
+      "richOres": [
+        {
+          "block": "industrial_colonies:rich_magnetite",
+          "weight": 1
+        }
+      ],
+      "baseWeight": 5,
+      "sameFamilyMinSpacing": 1500,
+      "normalSizeMin": 3000,
+      "normalSizeMax": 6000,
+      "biomeWeights": {
+        "mountain_highland": 2.25,
+        "cold_high_altitude": 2,
+        "volcanic_ashen": 1.5,
+        "arid_badlands": 1.25,
+        "ordinary_forest": 0.5,
+        "ordinary_plains": 0.5,
+        "sedimentary_plains": 0.4,
+        "tropical_humid": 0.25,
+        "wetland": 0.15,
+        "coastal_oceanic": 0.15
+      },
+      "depthWeights": [
+        0.5,
+        1.5,
+        2.25
+      ],
+      "normalRichOrePercent": 0.1,
+      "associated": [],
+      "micro": {
+        "enabled": true,
+        "chance": 0.003,
+        "min": 1,
+        "max": 2
+      },
+      "hardBiomeExclusions": [],
+      "hardTerrainExclusions": [],
+      "provisionalFields": [
+        "baseWeight",
+        "micro.chance"
+      ]
+    },
+    {
+      "id": "chalcopyrite",
+      "spacingFamily": "copper",
+      "hostRock": "industrial_colonies:chalcopyrite",
+      "primaryMaterials": [
+        "copper"
+      ],
+      "richOres": [
+        {
+          "block": "industrial_colonies:rich_copper_ore",
+          "weight": 1
+        }
+      ],
+      "baseWeight": 5,
+      "sameFamilyMinSpacing": 1500,
+      "normalSizeMin": 2500,
+      "normalSizeMax": 5000,
+      "biomeWeights": {
+        "mountain_highland": 2,
+        "volcanic_ashen": 2,
+        "arid_badlands": 1.5,
+        "cold_high_altitude": 1,
+        "ordinary_forest": 0.6,
+        "ordinary_plains": 0.5,
+        "sedimentary_plains": 0.5,
+        "tropical_humid": 0.35,
+        "wetland": 0.2,
+        "coastal_oceanic": 0.25
+      },
+      "depthWeights": [
+        1,
+        2,
+        1.5
+      ],
+      "normalRichOrePercent": 0.07,
+      "associated": [],
+      "micro": {
+        "enabled": true,
+        "chance": 0.003,
+        "min": 1,
+        "max": 2
+      },
+      "hardBiomeExclusions": [],
+      "hardTerrainExclusions": [],
+      "provisionalFields": [
+        "baseWeight",
+        "micro.chance"
+      ]
+    },
+    {
+      "id": "sphalerite",
+      "spacingFamily": "zinc",
+      "hostRock": "industrial_colonies:sphalerite",
+      "primaryMaterials": [
+        "zinc"
+      ],
+      "richOres": [
+        {
+          "block": "industrial_colonies:rich_sphalerite",
+          "weight": 1
+        }
+      ],
+      "baseWeight": 3,
+      "sameFamilyMinSpacing": 1875,
+      "normalSizeMin": 1500,
+      "normalSizeMax": 3000,
+      "biomeWeights": {
+        "mountain_highland": 1.75,
+        "sedimentary_plains": 1.4,
+        "cold_high_altitude": 1,
+        "arid_badlands": 1,
+        "ordinary_plains": 0.75,
+        "ordinary_forest": 0.6,
+        "volcanic_ashen": 0.75,
+        "tropical_humid": 0.3,
+        "wetland": 0.25,
+        "coastal_oceanic": 0.2
+      },
+      "depthWeights": [
+        0.5,
+        2,
+        1.5
+      ],
+      "normalRichOrePercent": 0.06,
+      "associated": [],
+      "micro": {
+        "enabled": true,
+        "chance": 0.003,
+        "min": 1,
+        "max": 2
+      },
+      "hardBiomeExclusions": [],
+      "hardTerrainExclusions": [],
+      "provisionalFields": [
+        "baseWeight",
+        "micro.chance"
+      ]
+    },
+    {
+      "id": "galena",
+      "spacingFamily": "lead",
+      "hostRock": "industrial_colonies:galena",
+      "primaryMaterials": [
+        "lead"
+      ],
+      "richOres": [
+        {
+          "block": "industrial_colonies:rich_galena_ore",
+          "weight": 1
+        }
+      ],
+      "baseWeight": 3,
+      "sameFamilyMinSpacing": 1875,
+      "normalSizeMin": 1500,
+      "normalSizeMax": 3000,
+      "biomeWeights": {
+        "mountain_highland": 1.75,
+        "sedimentary_plains": 1.5,
+        "arid_badlands": 1,
+        "ordinary_plains": 0.75,
+        "cold_high_altitude": 0.9,
+        "ordinary_forest": 0.5,
+        "volcanic_ashen": 0.6,
+        "tropical_humid": 0.3,
+        "wetland": 0.2,
+        "coastal_oceanic": 0.2
+      },
+      "depthWeights": [
+        0.5,
+        2,
+        1.5
+      ],
+      "normalRichOrePercent": 0.06,
+      "associated": [],
+      "micro": {
+        "enabled": true,
+        "chance": 0.003,
+        "min": 1,
+        "max": 2
+      },
+      "hardBiomeExclusions": [],
+      "hardTerrainExclusions": [],
+      "provisionalFields": [
+        "baseWeight",
+        "micro.chance"
+      ]
+    },
+    {
+      "id": "pentlandite",
+      "spacingFamily": "nickel",
+      "hostRock": "industrial_colonies:pentlandite",
+      "primaryMaterials": [
+        "nickel"
+      ],
+      "richOres": [
+        {
+          "block": "industrial_colonies:rich_nickel_ore",
+          "weight": 1
+        }
+      ],
+      "baseWeight": 3,
+      "sameFamilyMinSpacing": 1875,
+      "normalSizeMin": 1500,
+      "normalSizeMax": 3000,
+      "biomeWeights": {
+        "mountain_highland": 2,
+        "volcanic_ashen": 2,
+        "cold_high_altitude": 1.4,
+        "arid_badlands": 1.3,
+        "ordinary_forest": 0.4,
+        "ordinary_plains": 0.3,
+        "sedimentary_plains": 0.25,
+        "tropical_humid": 0.2,
+        "wetland": 0.1,
+        "coastal_oceanic": 0.2
+      },
+      "depthWeights": [
+        0.25,
+        1,
+        2.25
+      ],
+      "normalRichOrePercent": 0.05,
+      "associated": [
+        {
+          "type": "percentage",
+          "block": "industrial_colonies:cobalt_ore",
+          "byQuality": [
+            [
+              0,
+              0.0025
+            ],
+            [
+              0,
+              0.005
+            ],
+            [
+              0.0075,
+              0.01
+            ],
+            [
+              0.015,
+              0.02
+            ]
+          ],
+          "chanceByQuality": [
+            0.5,
+            0.75,
+            1,
+            1
+          ],
+          "depthBands": [],
+          "clusterMin": 1,
+          "clusterMax": 3,
+          "guaranteeWhenPositive": true
+        }
+      ],
+      "micro": {
+        "enabled": true,
+        "chance": 0.003,
+        "min": 1,
+        "max": 2
+      },
+      "hardBiomeExclusions": [],
+      "hardTerrainExclusions": [],
+      "provisionalFields": [
+        "baseWeight",
+        "micro.chance",
+        "associated[0].chanceByQuality[0..1]",
+        "associated[0].clusterMin",
+        "associated[0].clusterMax"
+      ]
+    },
+    {
+      "id": "bauxite",
+      "spacingFamily": "aluminum",
+      "hostRock": "industrial_colonies:bauxite",
+      "primaryMaterials": [
+        "aluminum"
+      ],
+      "richOres": [
+        {
+          "block": "industrial_colonies:rich_bauxite",
+          "weight": 1
+        }
+      ],
+      "baseWeight": 5,
+      "sameFamilyMinSpacing": 2000,
+      "normalSizeMin": 3000,
+      "normalSizeMax": 6000,
+      "biomeWeights": {
+        "tropical_humid": 2.5,
+        "ordinary_forest": 1.5,
+        "ordinary_plains": 1,
+        "sedimentary_plains": 1,
+        "arid_badlands": 0.8,
+        "wetland": 0.75,
+        "coastal_oceanic": 0.75,
+        "mountain_highland": 0.3,
+        "cold_high_altitude": 0.1,
+        "volcanic_ashen": 0.25
+      },
+      "depthWeights": [
+        2.25,
+        1,
+        0.25
+      ],
+      "normalRichOrePercent": 0.05,
+      "associated": [],
+      "micro": {
+        "enabled": true,
+        "chance": 0.003,
+        "min": 1,
+        "max": 2
+      },
+      "hardBiomeExclusions": [],
+      "hardTerrainExclusions": [],
+      "provisionalFields": [
+        "baseWeight",
+        "micro.chance",
+        "sameFamilyMinSpacing"
+      ]
+    },
+    {
+      "id": "spodumene_rock",
+      "spacingFamily": "lithium",
+      "hostRock": "industrial_colonies:spodumene_rock",
+      "primaryMaterials": [
+        "lithium"
+      ],
+      "richOres": [
+        {
+          "block": "industrial_colonies:spodumene_ore",
+          "weight": 1
+        }
+      ],
+      "baseWeight": 1,
+      "sameFamilyMinSpacing": 2250,
+      "normalSizeMin": 1000,
+      "normalSizeMax": 2500,
+      "biomeWeights": {
+        "mountain_highland": 2,
+        "cold_high_altitude": 1.25,
+        "arid_badlands": 1.2,
+        "volcanic_ashen": 1,
+        "ordinary_forest": 0.5,
+        "ordinary_plains": 0.4,
+        "sedimentary_plains": 0.4,
+        "tropical_humid": 0.25,
+        "wetland": 0.15,
+        "coastal_oceanic": 0.2
+      },
+      "depthWeights": [
+        0.5,
+        2,
+        1
+      ],
+      "normalRichOrePercent": 0.04,
+      "associated": [],
+      "micro": {
+        "enabled": true,
+        "chance": 0.001,
+        "min": 1,
+        "max": 2
+      },
+      "hardBiomeExclusions": [],
+      "hardTerrainExclusions": [],
+      "provisionalFields": [
+        "baseWeight",
+        "micro.chance"
+      ]
+    },
+    {
+      "id": "argentite",
+      "spacingFamily": "silver",
+      "hostRock": "industrial_colonies:argentite",
+      "primaryMaterials": [
+        "silver"
+      ],
+      "richOres": [
+        {
+          "block": "industrial_colonies:rich_silver_ore",
+          "weight": 1
+        }
+      ],
+      "baseWeight": 0.6,
+      "sameFamilyMinSpacing": 2500,
+      "normalSizeMin": 750,
+      "normalSizeMax": 1500,
+      "biomeWeights": {
+        "mountain_highland": 2,
+        "arid_badlands": 1.5,
+        "volcanic_ashen": 1.25,
+        "cold_high_altitude": 1,
+        "ordinary_forest": 0.5,
+        "ordinary_plains": 0.4,
+        "sedimentary_plains": 0.4,
+        "tropical_humid": 0.2,
+        "wetland": 0.15,
+        "coastal_oceanic": 0.2
+      },
+      "depthWeights": [
+        0.5,
+        1.5,
+        1.5
+      ],
+      "normalRichOrePercent": 0.03,
+      "associated": [],
+      "micro": {
+        "enabled": true,
+        "chance": 0.001,
+        "min": 1,
+        "max": 2
+      },
+      "hardBiomeExclusions": [],
+      "hardTerrainExclusions": [],
+      "provisionalFields": [
+        "baseWeight",
+        "micro.chance"
+      ]
+    },
+    {
+      "id": "wolframite_rock",
+      "spacingFamily": "tungsten",
+      "hostRock": "industrial_colonies:wolframite_rock",
+      "primaryMaterials": [
+        "tungsten"
+      ],
+      "richOres": [
+        {
+          "block": "industrial_colonies:rich_wolframite_ore",
+          "weight": 1
+        }
+      ],
+      "baseWeight": 1,
+      "sameFamilyMinSpacing": 2250,
+      "normalSizeMin": 750,
+      "normalSizeMax": 1500,
+      "biomeWeights": {
+        "mountain_highland": 2.25,
+        "cold_high_altitude": 1.75,
+        "volcanic_ashen": 1.5,
+        "arid_badlands": 1.25,
+        "ordinary_forest": 0.35,
+        "ordinary_plains": 0.25,
+        "sedimentary_plains": 0.2,
+        "tropical_humid": 0.15,
+        "wetland": 0.1,
+        "coastal_oceanic": 0.15
+      },
+      "depthWeights": [
+        0.25,
+        1,
+        2.25
+      ],
+      "normalRichOrePercent": 0.03,
+      "associated": [],
+      "micro": {
+        "enabled": true,
+        "chance": 0.001,
+        "min": 1,
+        "max": 2
+      },
+      "hardBiomeExclusions": [],
+      "hardTerrainExclusions": [],
+      "provisionalFields": [
+        "baseWeight",
+        "micro.chance"
+      ]
+    },
+    {
+      "id": "dolomite",
+      "spacingFamily": "magnesium",
+      "hostRock": "industrial_colonies:dolomite",
+      "primaryMaterials": [
+        "magnesium"
+      ],
+      "richOres": [],
+      "baseWeight": 3,
+      "sameFamilyMinSpacing": 2000,
+      "normalSizeMin": 3000,
+      "normalSizeMax": 6000,
+      "biomeWeights": {
+        "sedimentary_plains": 2,
+        "ordinary_plains": 1.5,
+        "arid_badlands": 1.25,
+        "ordinary_forest": 1,
+        "coastal_oceanic": 1,
+        "wetland": 0.75,
+        "mountain_highland": 0.5,
+        "cold_high_altitude": 0.4,
+        "tropical_humid": 0.6,
+        "volcanic_ashen": 0.1
+      },
+      "depthWeights": [
+        1.5,
+        1.5,
+        1
+      ],
+      "normalRichOrePercent": 0,
+      "associated": [],
+      "micro": {
+        "enabled": false,
+        "chance": 0,
+        "min": 1,
+        "max": 2
+      },
+      "hardBiomeExclusions": [],
+      "hardTerrainExclusions": [],
+      "provisionalFields": [
+        "baseWeight",
+        "sameFamilyMinSpacing"
+      ]
+    },
+    {
+      "id": "graphite_rock",
+      "spacingFamily": "graphite",
+      "hostRock": "industrial_colonies:graphite_rock",
+      "primaryMaterials": [
+        "carbon"
+      ],
+      "richOres": [],
+      "baseWeight": 2,
+      "sameFamilyMinSpacing": 2250,
+      "normalSizeMin": 1500,
+      "normalSizeMax": 3000,
+      "biomeWeights": {
+        "sedimentary_plains": 1.75,
+        "mountain_highland": 1.4,
+        "ordinary_forest": 1,
+        "ordinary_plains": 0.9,
+        "cold_high_altitude": 1,
+        "arid_badlands": 0.6,
+        "tropical_humid": 0.5,
+        "wetland": 0.4,
+        "coastal_oceanic": 0.3,
+        "volcanic_ashen": 0.5
+      },
+      "depthWeights": [
+        0.75,
+        1.5,
+        1.5
+      ],
+      "normalRichOrePercent": 0,
+      "associated": [
+        {
+          "type": "depth_percentage",
+          "block": "industrial_colonies:diamond_ore",
+          "byQuality": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          "chanceByQuality": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "depthBands": [
+            {
+              "minY": -40,
+              "maxY": -20,
+              "byQuality": [
+                0,
+                0.0001,
+                0.00025,
+                0.0005
+              ]
+            },
+            {
+              "minY": -55,
+              "maxY": -41,
+              "byQuality": [
+                0.0001,
+                0.00025,
+                0.0005,
+                0.001
+              ]
+            },
+            {
+              "minY": -64,
+              "maxY": -56,
+              "byQuality": [
+                0.00025,
+                0.0005,
+                0.001,
+                0.002
+              ]
+            }
+          ],
+          "clusterMin": 1,
+          "clusterMax": 2,
+          "jackpotMax": 3,
+          "jackpotChance": 0.02,
+          "guaranteeWhenPositive": false
+        }
+      ],
+      "micro": {
+        "enabled": false,
+        "chance": 0,
+        "min": 1,
+        "max": 2
+      },
+      "hardBiomeExclusions": [],
+      "hardTerrainExclusions": [],
+      "provisionalFields": [
+        "baseWeight",
+        "sameFamilyMinSpacing",
+        "associated[0].jackpotChance"
+      ]
+    },
+    {
+      "id": "phosphate_rock",
+      "spacingFamily": "phosphorus",
+      "hostRock": "industrial_colonies:phosphate_rock",
+      "primaryMaterials": [
+        "phosphorus"
+      ],
+      "richOres": [],
+      "baseWeight": 2,
+      "sameFamilyMinSpacing": 2000,
+      "normalSizeMin": 3000,
+      "normalSizeMax": 6000,
+      "biomeWeights": {
+        "sedimentary_plains": 2,
+        "ordinary_plains": 1.5,
+        "arid_badlands": 1.25,
+        "desert_basin": 1.5,
+        "ordinary_forest": 0.75,
+        "coastal_oceanic": 0.75,
+        "tropical_humid": 0.75,
+        "wetland": 0.5,
+        "mountain_highland": 0.3,
+        "cold_high_altitude": 0.2,
+        "volcanic_ashen": 0.1
+      },
+      "depthWeights": [
+        1.5,
+        1.5,
+        0.5
+      ],
+      "normalRichOrePercent": 0,
+      "associated": [],
+      "micro": {
+        "enabled": false,
+        "chance": 0,
+        "min": 1,
+        "max": 2
+      },
+      "hardBiomeExclusions": [],
+      "hardTerrainExclusions": [],
+      "provisionalFields": [
+        "baseWeight",
+        "sameFamilyMinSpacing"
+      ]
+    },
+    {
+      "id": "ultramafic_rock",
+      "spacingFamily": "pgm",
+      "hostRock": "industrial_colonies:ultramafic_rock",
+      "primaryMaterials": [
+        "osmium",
+        "platinum",
+        "iridium"
+      ],
+      "richOres": [
+        {
+          "block": "industrial_colonies:rich_osmium_ore",
+          "weight": 0.7
+        },
+        {
+          "block": "industrial_colonies:rich_platinum_ore",
+          "weight": 0.25
+        },
+        {
+          "block": "industrial_colonies:rich_iridium_ore",
+          "weight": 0.05
+        }
+      ],
+      "baseWeight": 0.4,
+      "sameFamilyMinSpacing": 3500,
+      "normalSizeMin": 1500,
+      "normalSizeMax": 3000,
+      "biomeWeights": {
+        "mountain_highland": 2.25,
+        "volcanic_ashen": 2.25,
+        "cold_high_altitude": 1.25,
+        "arid_badlands": 1.25,
+        "ordinary_forest": 0.35,
+        "ordinary_plains": 0.2,
+        "sedimentary_plains": 0.15,
+        "tropical_humid": 0.15,
+        "wetland": 0.05,
+        "coastal_oceanic": 0.15
+      },
+      "depthWeights": [
+        0.25,
+        1,
+        2.25
+      ],
+      "normalRichOrePercent": 0.04,
+      "associated": [],
+      "micro": {
+        "enabled": false,
+        "chance": 0,
+        "min": 1,
+        "max": 2
+      },
+      "hardBiomeExclusions": [],
+      "hardTerrainExclusions": [],
+      "provisionalFields": [
+        "baseWeight"
+      ]
+    },
+    {
+      "id": "ilmenite",
+      "spacingFamily": "titanium",
+      "hostRock": "industrial_colonies:ilmenite",
+      "primaryMaterials": [
+        "titanium"
+      ],
+      "richOres": [
+        {
+          "block": "industrial_colonies:rich_ilmenite_ore",
+          "weight": 1
+        }
+      ],
+      "baseWeight": 2,
+      "sameFamilyMinSpacing": 2250,
+      "normalSizeMin": 2000,
+      "normalSizeMax": 4000,
+      "biomeWeights": {
+        "coastal_oceanic": 2.5,
+        "mountain_highland": 1.25,
+        "volcanic_ashen": 1.25,
+        "arid_badlands": 0.75,
+        "sedimentary_plains": 0.75,
+        "ordinary_plains": 0.6,
+        "ordinary_forest": 0.4,
+        "tropical_humid": 0.3,
+        "wetland": 0.15,
+        "cold_high_altitude": 0.75
+      },
+      "depthWeights": [
+        1.75,
+        1,
+        0.5
+      ],
+      "normalRichOrePercent": 0.04,
+      "associated": [],
+      "micro": {
+        "enabled": true,
+        "chance": 0.002,
+        "min": 1,
+        "max": 2
+      },
+      "hardBiomeExclusions": [],
+      "hardTerrainExclusions": [],
+      "provisionalFields": [
+        "baseWeight",
+        "micro.chance"
+      ]
+    },
+    {
+      "id": "bertrandite",
+      "spacingFamily": "beryllium",
+      "hostRock": "industrial_colonies:bertrandite",
+      "primaryMaterials": [
+        "beryllium"
+      ],
+      "richOres": [],
+      "baseWeight": 1,
+      "sameFamilyMinSpacing": 2500,
+      "normalSizeMin": 750,
+      "normalSizeMax": 1500,
+      "biomeWeights": {
+        "arid_badlands": 2,
+        "mountain_highland": 1.75,
+        "volcanic_ashen": 1.5,
+        "desert_basin": 1.25,
+        "ordinary_plains": 0.4,
+        "ordinary_forest": 0.35,
+        "sedimentary_plains": 0.4,
+        "cold_high_altitude": 0.6,
+        "tropical_humid": 0.15,
+        "wetland": 0.1,
+        "coastal_oceanic": 0.15
+      },
+      "depthWeights": [
+        0.5,
+        1.5,
+        1
+      ],
+      "normalRichOrePercent": 0,
+      "associated": [],
+      "micro": {
+        "enabled": false,
+        "chance": 0,
+        "min": 1,
+        "max": 2
+      },
+      "hardBiomeExclusions": [],
+      "hardTerrainExclusions": [],
+      "provisionalFields": [
+        "baseWeight",
+        "sameFamilyMinSpacing"
+      ]
+    },
+    {
+      "id": "borax_rock",
+      "spacingFamily": "boron",
+      "hostRock": "industrial_colonies:borax_rock",
+      "primaryMaterials": [
+        "boron"
+      ],
+      "richOres": [],
+      "baseWeight": 1,
+      "sameFamilyMinSpacing": 2250,
+      "normalSizeMin": 1500,
+      "normalSizeMax": 3500,
+      "biomeWeights": {
+        "desert_basin": 2.5,
+        "arid_badlands": 2.25,
+        "ordinary_plains": 0.5,
+        "sedimentary_plains": 1.25,
+        "mountain_highland": 0.25,
+        "ordinary_forest": 0.15,
+        "cold_high_altitude": 0.1,
+        "coastal_oceanic": 0.25,
+        "tropical_humid": 0,
+        "wetland": 0,
+        "volcanic_ashen": 0.25
+      },
+      "depthWeights": [
+        2.25,
+        1,
+        0.25
+      ],
+      "normalRichOrePercent": 0,
+      "associated": [],
+      "micro": {
+        "enabled": false,
+        "chance": 0,
+        "min": 1,
+        "max": 2
+      },
+      "hardBiomeExclusions": [
+        "tropical_humid",
+        "wetland"
+      ],
+      "hardTerrainExclusions": [],
+      "provisionalFields": [
+        "baseWeight",
+        "sameFamilyMinSpacing"
+      ]
+    },
+    {
+      "id": "cassiterite",
+      "spacingFamily": "tin",
+      "hostRock": "industrial_colonies:cassiterite",
+      "primaryMaterials": [
+        "tin"
+      ],
+      "richOres": [
+        {
+          "block": "industrial_colonies:rich_tin_ore",
+          "weight": 1
+        }
+      ],
+      "baseWeight": 2,
+      "sameFamilyMinSpacing": 1875,
+      "normalSizeMin": 1000,
+      "normalSizeMax": 2000,
+      "biomeWeights": {
+        "mountain_highland": 2,
+        "arid_badlands": 1.25,
+        "cold_high_altitude": 1,
+        "volcanic_ashen": 1,
+        "sedimentary_plains": 0.5,
+        "ordinary_forest": 0.5,
+        "ordinary_plains": 0.4,
+        "coastal_oceanic": 0.5,
+        "tropical_humid": 0.25,
+        "wetland": 0.15
+      },
+      "depthWeights": [
+        0.5,
+        1.5,
+        1.5
+      ],
+      "normalRichOrePercent": 0.04,
+      "associated": [],
+      "micro": {
+        "enabled": true,
+        "chance": 0.003,
+        "min": 1,
+        "max": 2
+      },
+      "hardBiomeExclusions": [],
+      "hardTerrainExclusions": [],
+      "provisionalFields": [
+        "baseWeight",
+        "micro.chance"
+      ]
+    },
+    {
+      "id": "chromite",
+      "spacingFamily": "chromium",
+      "hostRock": "industrial_colonies:chromite",
+      "primaryMaterials": [
+        "chromium"
+      ],
+      "richOres": [
+        {
+          "block": "industrial_colonies:rich_chromium_ore",
+          "weight": 1
+        }
+      ],
+      "baseWeight": 2,
+      "sameFamilyMinSpacing": 2250,
+      "normalSizeMin": 1500,
+      "normalSizeMax": 3000,
+      "biomeWeights": {
+        "mountain_highland": 2.25,
+        "volcanic_ashen": 2.25,
+        "arid_badlands": 1.5,
+        "cold_high_altitude": 1.25,
+        "ordinary_forest": 0.25,
+        "ordinary_plains": 0.2,
+        "sedimentary_plains": 0.15,
+        "tropical_humid": 0.1,
+        "wetland": 0.05,
+        "coastal_oceanic": 0.15
+      },
+      "depthWeights": [
+        0.25,
+        1,
+        2.25
+      ],
+      "normalRichOrePercent": 0.04,
+      "associated": [],
+      "micro": {
+        "enabled": true,
+        "chance": 0.002,
+        "min": 1,
+        "max": 2
+      },
+      "hardBiomeExclusions": [],
+      "hardTerrainExclusions": [],
+      "provisionalFields": [
+        "baseWeight",
+        "micro.chance"
+      ]
+    },
+    {
+      "id": "cinnabar",
+      "spacingFamily": "redstone",
+      "hostRock": "industrial_colonies:cinnabar",
+      "primaryMaterials": [
+        "redstone"
+      ],
+      "richOres": [],
+      "baseWeight": 2,
+      "sameFamilyMinSpacing": 2000,
+      "normalSizeMin": 2000,
+      "normalSizeMax": 4000,
+      "biomeWeights": {
+        "mountain_highland": 2,
+        "volcanic_ashen": 2.25,
+        "arid_badlands": 1.5,
+        "cold_high_altitude": 0.75,
+        "ordinary_forest": 0.5,
+        "ordinary_plains": 0.4,
+        "sedimentary_plains": 0.5,
+        "tropical_humid": 0.3,
+        "wetland": 0.2,
+        "coastal_oceanic": 0.2
+      },
+      "depthWeights": [
+        1,
+        2,
+        1
+      ],
+      "normalRichOrePercent": 0,
+      "associated": [],
+      "micro": {
+        "enabled": false,
+        "chance": 0,
+        "min": 1,
+        "max": 2
+      },
+      "hardBiomeExclusions": [],
+      "hardTerrainExclusions": [],
+      "provisionalFields": [
+        "baseWeight",
+        "sameFamilyMinSpacing"
+      ]
+    },
+    {
+      "id": "uranium",
+      "spacingFamily": "uranium",
+      "hostRock": "industrial_colonies:uraninite",
+      "primaryMaterials": [
+        "uranium"
+      ],
+      "richOres": [],
+      "baseWeight": 1,
+      "sameFamilyMinSpacing": 3000,
+      "normalSizeMin": 1000,
+      "normalSizeMax": 2000,
+      "biomeWeights": {
+        "mountain_highland": 1.5,
+        "arid_badlands": 1.5,
+        "sedimentary_plains": 1.25,
+        "volcanic_ashen": 1,
+        "ordinary_plains": 0.6,
+        "ordinary_forest": 0.5,
+        "cold_high_altitude": 0.75,
+        "tropical_humid": 0.25,
+        "wetland": 0.15,
+        "coastal_oceanic": 0.25
+      },
+      "depthWeights": [
+        0.25,
+        1.5,
+        2.25
+      ],
+      "normalRichOrePercent": 0,
+      "associated": [
+        {
+          "type": "percentage",
+          "block": "industrial_colonies:thorium_ore",
+          "byQuality": [
+            [
+              0.005,
+              0.005
+            ],
+            [
+              0.01,
+              0.01
+            ],
+            [
+              0.02,
+              0.02
+            ],
+            [
+              0.03,
+              0.03
+            ]
+          ],
+          "chanceByQuality": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "depthBands": [],
+          "clusterMin": 1,
+          "clusterMax": 3,
+          "guaranteeWhenPositive": true
+        }
+      ],
+      "micro": {
+        "enabled": true,
+        "chance": 0.0005,
+        "min": 1,
+        "max": 1
+      },
+      "hardBiomeExclusions": [],
+      "hardTerrainExclusions": [],
+      "provisionalFields": [
+        "baseWeight",
+        "micro.chance",
+        "associated[0].clusterMin",
+        "associated[0].clusterMax"
+      ]
+    },
+    {
+      "id": "thorium",
+      "spacingFamily": "thorium",
+      "hostRock": "industrial_colonies:thorium_ore",
+      "primaryMaterials": [
+        "thorium"
+      ],
+      "richOres": [],
+      "baseWeight": 1,
+      "sameFamilyMinSpacing": 3000,
+      "normalSizeMin": 1000,
+      "normalSizeMax": 2000,
+      "biomeWeights": {
+        "mountain_highland": 1.6,
+        "arid_badlands": 1.25,
+        "volcanic_ashen": 1.1,
+        "sedimentary_plains": 0.9,
+        "cold_high_altitude": 0.9,
+        "ordinary_plains": 0.5,
+        "ordinary_forest": 0.5,
+        "coastal_oceanic": 0.4,
+        "tropical_humid": 0.25,
+        "wetland": 0.15
+      },
+      "depthWeights": [
+        0.25,
+        1.5,
+        2
+      ],
+      "normalRichOrePercent": 0,
+      "associated": [
+        {
+          "type": "percentage",
+          "block": "industrial_colonies:uraninite",
+          "byQuality": [
+            [
+              0.0025,
+              0.005
+            ],
+            [
+              0.005,
+              0.01
+            ],
+            [
+              0.0075,
+              0.015
+            ],
+            [
+              0.01,
+              0.02
+            ]
+          ],
+          "chanceByQuality": [
+            0.05,
+            0.1,
+            0.2,
+            0.35
+          ],
+          "depthBands": [],
+          "clusterMin": 1,
+          "clusterMax": 3,
+          "guaranteeWhenPositive": true
+        }
+      ],
+      "micro": {
+        "enabled": true,
+        "chance": 0.0005,
+        "min": 1,
+        "max": 1
+      },
+      "hardBiomeExclusions": [],
+      "hardTerrainExclusions": [],
+      "provisionalFields": [
+        "baseWeight",
+        "micro.chance",
+        "associated[0].byQuality",
+        "associated[0].clusterMin",
+        "associated[0].clusterMax"
+      ]
+    },
+    {
+      "id": "coal",
+      "spacingFamily": "coal",
+      "hostRock": "minecraft:coal_ore",
+      "primaryMaterials": [
+        "coal"
+      ],
+      "richOres": [],
+      "baseWeight": 6,
+      "sameFamilyMinSpacing": 1125,
+      "normalSizeMin": 3000,
+      "normalSizeMax": 8000,
+      "biomeWeights": {
+        "sedimentary_plains": 2,
+        "mountain_highland": 1.6,
+        "ordinary_plains": 1.5,
+        "ordinary_forest": 1.5,
+        "arid_badlands": 0.9,
+        "tropical_humid": 1,
+        "wetland": 0.8,
+        "cold_high_altitude": 1,
+        "coastal_oceanic": 0.5,
+        "volcanic_ashen": 0.25
+      },
+      "depthWeights": [
+        2.25,
+        1.5,
+        0.5
+      ],
+      "normalRichOrePercent": 0,
+      "associated": [],
+      "micro": {
+        "enabled": false,
+        "chance": 0,
+        "min": 1,
+        "max": 2
+      },
+      "hardBiomeExclusions": [],
+      "hardTerrainExclusions": [],
+      "provisionalFields": [
+        "baseWeight"
+      ]
+    },
+    {
+      "id": "gold",
+      "spacingFamily": "gold",
+      "hostRock": "minecraft:gold_ore",
+      "primaryMaterials": [
+        "gold"
+      ],
+      "richOres": [],
+      "baseWeight": 0.6,
+      "sameFamilyMinSpacing": 2750,
+      "normalSizeMin": 750,
+      "normalSizeMax": 1500,
+      "biomeWeights": {
+        "mountain_highland": 1.5,
+        "arid_badlands": 2,
+        "sedimentary_plains": 1,
+        "ordinary_plains": 0.5,
+        "ordinary_forest": 0.5,
+        "tropical_humid": 0.25,
+        "wetland": 0.2,
+        "coastal_oceanic": 0.25,
+        "volcanic_ashen": 1.25,
+        "cold_high_altitude": 1,
+        "desert_basin": 1.5
+      },
+      "depthWeights": [
+        0.5,
+        1.5,
+        2
+      ],
+      "normalRichOrePercent": 0,
+      "associated": [],
+      "micro": {
+        "enabled": true,
+        "chance": 0.001,
+        "min": 1,
+        "max": 2,
+        "jackpotChance": 0.02,
+        "jackpotMax": 3
+      },
+      "hardBiomeExclusions": [],
+      "hardTerrainExclusions": [],
+      "provisionalFields": [
+        "baseWeight",
+        "normalSizeMin",
+        "normalSizeMax",
+        "biomeWeights",
+        "depthWeights",
+        "micro.chance",
+        "micro.jackpotChance"
+      ]
+    }
+  ]
+}

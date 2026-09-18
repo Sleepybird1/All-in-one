@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "completedAt": "2026-09-02T19:12:03.2533377Z",
+  "livePack": "C:\\Users\\GodPC\\curseforge\\minecraft\\Instances\\All in one",
+  "backup": "C:\\Users\\GodPC\\curseforge\\minecraft\\Instances\\All in one\\_industrial_colonies_backups\\review-migration-20260902-151202-819",
+  "installed": [
+    {
+      "label": "review artifact ledger",
+      "destination": "C:\\Users\\GodPC\\curseforge\\minecraft\\Instances\\All in one\\kjsgen\\industrial_colonies_sync\\default.recipe_reviews.json",
+      "sha256": "DDEB4D9BD35BE35645049AA97E0475A3D2B0065E1803BD13F8BB59403A3C944C"
+    },
+    {
+      "label": "review artifact default",
+      "destination": "C:\\Users\\GodPC\\curseforge\\minecraft\\Instances\\All in one\\kjsgen\\projects\\default.json",
+      "sha256": "5EE7104804AF3DAA28EFAECFE6396A511798A20E8CE2A45BEFC227C0B7EAE579"
+    },
+    {
+      "label": "review artifact approved",
+      "destination": "C:\\Users\\GodPC\\curseforge\\minecraft\\Instances\\All in one\\kjsgen\\projects\\approved_recipes.json",
+      "sha256": "A2535BA22EFFC1E087341F68CFC015CD627853BB2944F5ED9C2426D1D04285D2"
+    },
+    {
+      "label": "review artifact rejected",
+      "destination": "C:\\Users\\GodPC\\curseforge\\minecraft\\Instances\\All in one\\kjsgen\\projects\\rejected_recipes.json",
+      "sha256": "4AE16FB9CBDA340773B0C8A5CE55494E2CF70D5AD3D742B8CD7DF309A142FB1F"
+    },
+    {
+      "label": "review artifact deferred",
+      "destination": "C:\\Users\\GodPC\\curseforge\\minecraft\\Instances\\All in one\\kjsgen\\projects\\Deferred.json",
+      "sha256": "CDC6775D3DE1DA910754D7C95CE498BF3DDE80293D73F59430D9D3521F162211"
+    },
+    {
+      "label": "review artifact disabled",
+      "destination": "C:\\Users\\GodPC\\curseforge\\minecraft\\Instances\\All in one\\kjsgen\\projects\\disabled_recipes.json",
+      "sha256": "2448CB887E1ECEA4865100196C296C41096A18D46A6605384E290C1E9A320D82"
+    },
+    {
+      "label": "full Industrial Colonies JAR",
+      "destination": "C:\\Users\\GodPC\\curseforge\\minecraft\\Instances\\All in one\\mods\\industrial_colonies-0.4.0.jar",
+      "sha256": "0933212025DE0EDEA0FB686A6C80807AE84BAAA476C150D7DCBED2E0313A9557"
+    },
+    {
+      "label": "policy ftbquest artifact",
+      "destination": "C:\\Users\\GodPC\\curseforge\\minecraft\\Instances\\All in one\\config\\ftbquests\\quests\\chapters\\mekanized_industry.snbt",
+      "sha256": "BE959BF6C90D9F90B5AE6D26574544DC58E8CBAAB5857B0C0CB86D4709CEFC12"
+    }
+  ],
+  "retiredLegacyMaybe": {
+    "from": "C:\\Users\\GodPC\\curseforge\\minecraft\\Instances\\All in one\\kjsgen\\projects\\maybe_recipes.json",
+    "to": "C:\\Users\\GodPC\\curseforge\\minecraft\\Instances\\All in one\\_industrial_colonies_backups\\review-migration-20260902-151202-819\\retired\\kjsgen\\projects\\maybe_recipes.json",
+    "sha256": "27D782FBCF2E164593E946543E8C13695E1C1B7273780C92E9EEB4F51C6C9363"
+  }
+}

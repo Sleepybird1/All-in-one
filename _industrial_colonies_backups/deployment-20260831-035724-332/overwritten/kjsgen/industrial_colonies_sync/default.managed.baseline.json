@@ -1,0 +1,197 @@
+{
+  "schema": 1,
+  "project": "default",
+  "recipes": [
+    {
+      "uid": "5f2584b1-19d4-49f9-a3d6-265659ea0c01",
+      "type": "kjsgen:create_compacting",
+      "comment": "tfmg:empty_circuit_board",
+      "ifModLoaded": "industrial_colonies",
+      "slots": {
+        "__machine_process_compacting": {
+          "kind": "ITEM",
+          "id": "createcasing:copper_press"
+        },
+        "in0": {
+          "kind": "ITEM",
+          "id": "ae2:printed_silicon"
+        },
+        "in1": {
+          "kind": "ITEM",
+          "id": "create:copper_sheet"
+        },
+        "in2": {
+          "kind": "ITEM",
+          "id": "tfmg:plastic_sheet"
+        },
+        "output": {
+          "kind": "ITEM",
+          "id": "tfmg:empty_circuit_board"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "5f2584b1-19d4-49f9-a3d6-265659ea0c02",
+      "type": "kjsgen:create_compacting",
+      "comment": "ae2:printed_silicon",
+      "ifModLoaded": "industrial_colonies",
+      "slots": {
+        "__machine_process_compacting": {
+          "kind": "ITEM",
+          "id": "createcasing:copper_press"
+        },
+        "in0": {
+          "kind": "ITEM",
+          "id": "tfmg:silicon_ingot"
+        },
+        "in1": {
+          "kind": "ITEM",
+          "id": "ae2:silicon_press"
+        },
+        "output": {
+          "kind": "ITEM",
+          "id": "ae2:printed_silicon"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "5f2584b1-19d4-49f9-a3d6-265659ea0c03",
+      "type": "kjsgen:shaped",
+      "comment": "createcasing:copper_deployer",
+      "slots": {
+        "in0": {
+          "kind": "ITEM",
+          "id": "create:transmitter"
+        },
+        "in1": {
+          "kind": "ITEM",
+          "id": "create:electron_tube"
+        },
+        "in2": {
+          "kind": "ITEM",
+          "id": "create:transmitter"
+        },
+        "in3": {
+          "kind": "ITEM",
+          "id": "createaddition:capacitor"
+        },
+        "in4": {
+          "kind": "ITEM",
+          "id": "create:copper_casing"
+        },
+        "in5": {
+          "kind": "ITEM",
+          "id": "createaddition:capacitor"
+        },
+        "in6": {
+          "kind": "ITEM",
+          "id": "tfmg:capacitor_item"
+        },
+        "in7": {
+          "kind": "ITEM",
+          "id": "create:brass_hand"
+        },
+        "in8": {
+          "kind": "ITEM",
+          "id": "tfmg:capacitor_item"
+        },
+        "output": {
+          "kind": "ITEM",
+          "id": "createcasing:copper_deployer"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "5f2584b1-19d4-49f9-a3d6-265659ea0c04",
+      "type": "kjsgen:shaped",
+      "comment": "createcasing:copper_press",
+      "slots": {
+        "in0": {
+          "kind": "ITEM",
+          "id": "create:transmitter"
+        },
+        "in1": {
+          "kind": "ITEM",
+          "id": "create:electron_tube"
+        },
+        "in2": {
+          "kind": "ITEM",
+          "id": "create:transmitter"
+        },
+        "in3": {
+          "kind": "ITEM",
+          "id": "createaddition:capacitor"
+        },
+        "in4": {
+          "kind": "ITEM",
+          "id": "create:copper_casing"
+        },
+        "in5": {
+          "kind": "ITEM",
+          "id": "createaddition:capacitor"
+        },
+        "in6": {
+          "kind": "ITEM",
+          "id": "tfmg:capacitor_item"
+        },
+        "in7": {
+          "kind": "ITEM",
+          "id": "minecraft:iron_block"
+        },
+        "in8": {
+          "kind": "ITEM",
+          "id": "tfmg:capacitor_item"
+        },
+        "output": {
+          "kind": "ITEM",
+          "id": "createcasing:copper_press"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "5f2584b1-19d4-49f9-a3d6-265659ea0c05",
+      "type": "industrial_colonies:copper_sequenced_assembly",
+      "comment": "tfmg:transistor_item",
+      "ifModLoaded": "industrial_colonies",
+      "replaceRecipe": false,
+      "slots": {
+        "input": {
+          "kind": "ITEM",
+          "id": "tfmg:plastic_sheet"
+        },
+        "transitional": {
+          "kind": "ITEM",
+          "id": "tfmg:copper_wire"
+        },
+        "output0": {
+          "kind": "ITEM",
+          "id": "tfmg:transistor_item"
+        },
+        "seqItem0": {
+          "kind": "ITEM",
+          "id": "tfmg:n_semiconductor"
+        },
+        "seqItem1": {
+          "kind": "ITEM",
+          "id": "tfmg:p_semiconductor"
+        },
+        "seqItem2": {
+          "kind": "ITEM",
+          "id": "tfmg:n_semiconductor"
+        }
+      },
+      "params": {
+        "loops": "1",
+        "__seqLen": "3",
+        "seq0": "deploying",
+        "seq1": "deploying",
+        "seq2": "deploying"
+      }
+    }
+  ],
+  "removals": []
+}

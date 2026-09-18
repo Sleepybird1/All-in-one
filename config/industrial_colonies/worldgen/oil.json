@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "enabled": true,
+  "debug_logging": false,
+  "reservoir_y": -64,
+  "weight_normalizer": 2.5,
+  "unclassified_weight": 0.0,
+  "biome_weights": {
+    "desert_basin": 2.5,
+    "arid_badlands": 2.5,
+    "coastal_oceanic": 2.5,
+    "sedimentary_plains": 1.25,
+    "ordinary_plains": 1.25,
+    "ordinary_forest": 0.5,
+    "wetland": 0.5,
+    "tropical_humid": 0.5,
+    "mountain_highland": 0.0,
+    "volcanic_ashen": 0.0,
+    "cold_high_altitude": 0.0
+  },
+  "hard_biome_exclusions": ["mountain_highland", "volcanic_ashen", "cold_high_altitude"],
+  "hard_terrain_exclusions": {
+    "maximum_surface_y": 100,
+    "maximum_local_relief": 32,
+    "sample_radius_blocks": 32
+  },
+  "regional_fields": {
+    "seed_salt": 4896878702299041,
+    "region_size_blocks": 1024,
+    "center_margin_blocks": 192,
+    "field_chance_at_max_weight": 0.65,
+    "radius_min_blocks": 32,
+    "radius_max_blocks": 80,
+    "native_wells_min": 3,
+    "native_wells_max": 7
+  },
+  "notes": [
+    "Relative biome weights scale the regional candidate chance; they are not direct spawn percentages.",
+    "Any prohibited family vetoes overlapping positive families. Unknown biomes are closed by default.",
+    "Surface elevation and local relief veto Tectonic highlands even when their biome name is plains or forest.",
+    "TFMG owns native deposit columns, crude oil, reservoir amounts, scanners and extraction. Processing and depletion are unchanged.",
+    "Native TFMG placeDeposit is called once for each deterministic, eligible, chunk-owned well, not its unsafe random-walking whole-field place method.",
+    "Offshore fields currently share onshore size rules; larger offshore reserves/pressure/extraction balancing remains a future phase.",
+    "Y=-64 is the installed TFMG scanner contract. Do not change reservoir_y without a matching scanner change."
+  ]
+}

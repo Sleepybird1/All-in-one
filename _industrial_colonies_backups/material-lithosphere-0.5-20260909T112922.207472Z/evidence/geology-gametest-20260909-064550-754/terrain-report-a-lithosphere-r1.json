@@ -1,0 +1,416 @@
+{
+  "phase": "complete",
+  "formatVersion": 1,
+  "status": "PASS",
+  "worldSeed": 0,
+  "reverseRequests": false,
+  "generator": "net.minecraft.world.level.levelgen.NoiseBasedChunkGenerator",
+  "noiseSettingsKey": "minecraft:overworld",
+  "noiseSettingsSourcePack": "mod/mr_lithosphere",
+  "expectedTerrainMod": "mr_lithosphere",
+  "noiseSettingsSha256": "e78449fba92c289267bddb3e315b670f860b3b183fd0208541be8bae8676805e",
+  "minimumBuildHeight": -64,
+  "maximumBuildHeight": 512,
+  "regionSize": 512,
+  "maxRegions": 289,
+  "maxRequestedChunksPerPlan": 25,
+  "maxRequestedChunksTotal": 60,
+  "wallTimeoutMillis": 480000,
+  "limitations": "Requested-chunk cap excludes Minecraft\u0027s implicit status/dependency halo. Wall guard cannot interrupt a synchronous chunk call. Final shape-state counts may expose later feature overwrites. Only three selected formations are tested; default frequencies and spacing remain unchanged.",
+  "skipped": [
+    {
+      "family": "gold",
+      "reason": "requires custom low-yield host plus approved rich pool",
+      "regionX": 0,
+      "regionZ": 1
+    },
+    {
+      "family": "spodumene_rock",
+      "reason": "seeded indicator gate could confound pre-rich-host counting",
+      "regionX": 2,
+      "regionZ": 2
+    },
+    {
+      "family": "coal",
+      "reason": "requires custom low-yield host plus approved rich pool",
+      "regionX": 0,
+      "regionZ": -3
+    }
+  ],
+  "plans": [
+    {
+      "id": "galena",
+      "spacingFamily": "lead",
+      "regionX": -2,
+      "regionZ": -2,
+      "x": -874,
+      "y": 23,
+      "z": -624,
+      "biome": "minecraft:forest",
+      "terrain": "normal",
+      "actualCenterBiome": "minecraft:forest",
+      "actualSurfaceBiome": "minecraft:forest",
+      "actualSurfaceY": 100,
+      "surfaceY": 90,
+      "quality": 0,
+      "normalSize": 2036,
+      "intendedSize": 1222,
+      "richFraction": 0.024,
+      "chunks": [
+        {
+          "x": -56,
+          "z": -40,
+          "intendedPositions": 36,
+          "actualHostBeforeRich": 36,
+          "richTarget": 1,
+          "richPlaced": 1,
+          "finalGeologyCounts": {
+            "industrial_colonies:galena": 35,
+            "industrial_colonies:rich_galena_ore": 1
+          },
+          "associationRolls": {}
+        },
+        {
+          "x": -55,
+          "z": -40,
+          "intendedPositions": 496,
+          "actualHostBeforeRich": 479,
+          "richTarget": 11,
+          "richPlaced": 11,
+          "finalGeologyCounts": {
+            "industrial_colonies:galena": 468,
+            "industrial_colonies:rich_galena_ore": 11
+          },
+          "associationRolls": {}
+        },
+        {
+          "x": -56,
+          "z": -39,
+          "intendedPositions": 36,
+          "actualHostBeforeRich": 36,
+          "richTarget": 1,
+          "richPlaced": 1,
+          "finalGeologyCounts": {
+            "industrial_colonies:galena": 35,
+            "industrial_colonies:rich_galena_ore": 1
+          },
+          "associationRolls": {}
+        },
+        {
+          "x": -55,
+          "z": -39,
+          "intendedPositions": 654,
+          "actualHostBeforeRich": 654,
+          "richTarget": 15,
+          "richPlaced": 15,
+          "finalGeologyCounts": {
+            "industrial_colonies:galena": 639,
+            "industrial_colonies:rich_galena_ore": 15
+          },
+          "associationRolls": {}
+        }
+      ],
+      "actualHostBeforeRich": 1205,
+      "nonemptyChunks": 4,
+      "finalGeologyCounts": {
+        "industrial_colonies:galena": 1177,
+        "industrial_colonies:rich_galena_ore": 28
+      },
+      "shapeStateSha256": "651a5c3f913360f94804e5e3fab311660d6e0f1abb32145e6a88de9c500bd0d2",
+      "retainedGeologySha256": "7059ec291e17b9ab9bc30de311540e7c7e3ea2378b7daccb18036b816a618629",
+      "retainedCrossChunkNeighborBonds": 201,
+      "status": "PASS"
+    },
+    {
+      "id": "sphalerite",
+      "spacingFamily": "zinc",
+      "regionX": -4,
+      "regionZ": -4,
+      "x": -1948,
+      "y": -16,
+      "z": -1603,
+      "biome": "regions_unexplored:prairie",
+      "terrain": "normal",
+      "actualCenterBiome": "regions_unexplored:prairie",
+      "actualSurfaceBiome": "regions_unexplored:prairie",
+      "actualSurfaceY": 66,
+      "surfaceY": 66,
+      "quality": 0,
+      "normalSize": 2016,
+      "intendedSize": 1210,
+      "richFraction": 0.024,
+      "chunks": [
+        {
+          "x": -123,
+          "z": -101,
+          "intendedPositions": 90,
+          "actualHostBeforeRich": 90,
+          "richTarget": 2,
+          "richPlaced": 2,
+          "finalGeologyCounts": {
+            "industrial_colonies:rich_sphalerite": 2,
+            "industrial_colonies:sphalerite": 88
+          },
+          "associationRolls": {}
+        },
+        {
+          "x": -122,
+          "z": -101,
+          "intendedPositions": 841,
+          "actualHostBeforeRich": 800,
+          "richTarget": 19,
+          "richPlaced": 19,
+          "finalGeologyCounts": {
+            "industrial_colonies:rich_sphalerite": 19,
+            "industrial_colonies:sphalerite": 781
+          },
+          "associationRolls": {}
+        },
+        {
+          "x": -123,
+          "z": -100,
+          "intendedPositions": 15,
+          "actualHostBeforeRich": 15,
+          "richTarget": 1,
+          "richPlaced": 1,
+          "finalGeologyCounts": {
+            "industrial_colonies:rich_sphalerite": 1,
+            "industrial_colonies:sphalerite": 14
+          },
+          "associationRolls": {}
+        },
+        {
+          "x": -122,
+          "z": -100,
+          "intendedPositions": 264,
+          "actualHostBeforeRich": 221,
+          "richTarget": 5,
+          "richPlaced": 5,
+          "finalGeologyCounts": {
+            "industrial_colonies:rich_sphalerite": 5,
+            "industrial_colonies:sphalerite": 216
+          },
+          "associationRolls": {}
+        }
+      ],
+      "actualHostBeforeRich": 1126,
+      "nonemptyChunks": 4,
+      "finalGeologyCounts": {
+        "industrial_colonies:rich_sphalerite": 27,
+        "industrial_colonies:sphalerite": 1099
+      },
+      "shapeStateSha256": "7bf5c7ae1f706e4ffee83564d22b9a9320ef5a8aa44eb436de61c0a7f82a403c",
+      "retainedGeologySha256": "21e380be72c2d85e6d3eda615a7202086f6dc1184140615bc73ffcfa1f6ddee6",
+      "retainedCrossChunkNeighborBonds": 154,
+      "status": "PASS"
+    },
+    {
+      "id": "magnetite",
+      "spacingFamily": "iron",
+      "regionX": -4,
+      "regionZ": 0,
+      "x": -1650,
+      "y": 20,
+      "z": 152,
+      "biome": "regions_unexplored:clover_plains",
+      "terrain": "normal",
+      "actualCenterBiome": "regions_unexplored:clover_plains",
+      "actualSurfaceBiome": "regions_unexplored:clover_plains",
+      "actualSurfaceY": 101,
+      "surfaceY": 101,
+      "quality": 1,
+      "normalSize": 4933,
+      "intendedSize": 4933,
+      "richFraction": 0.1,
+      "chunks": [
+        {
+          "x": -105,
+          "z": 9,
+          "intendedPositions": 51,
+          "actualHostBeforeRich": 51,
+          "richTarget": 5,
+          "richPlaced": 5,
+          "finalGeologyCounts": {
+            "industrial_colonies:magnetite": 46,
+            "industrial_colonies:rich_magnetite": 5
+          },
+          "associationRolls": {}
+        },
+        {
+          "x": -104,
+          "z": 9,
+          "intendedPositions": 2813,
+          "actualHostBeforeRich": 2803,
+          "richTarget": 280,
+          "richPlaced": 280,
+          "finalGeologyCounts": {
+            "industrial_colonies:magnetite": 2523,
+            "industrial_colonies:rich_magnetite": 280
+          },
+          "associationRolls": {}
+        },
+        {
+          "x": -103,
+          "z": 9,
+          "intendedPositions": 2023,
+          "actualHostBeforeRich": 1935,
+          "richTarget": 193,
+          "richPlaced": 193,
+          "finalGeologyCounts": {
+            "industrial_colonies:magnetite": 1742,
+            "industrial_colonies:rich_magnetite": 193
+          },
+          "associationRolls": {}
+        },
+        {
+          "x": -104,
+          "z": 10,
+          "intendedPositions": 46,
+          "actualHostBeforeRich": 41,
+          "richTarget": 4,
+          "richPlaced": 4,
+          "finalGeologyCounts": {
+            "industrial_colonies:magnetite": 37,
+            "industrial_colonies:rich_magnetite": 4
+          },
+          "associationRolls": {}
+        }
+      ],
+      "actualHostBeforeRich": 4830,
+      "nonemptyChunks": 4,
+      "finalGeologyCounts": {
+        "industrial_colonies:magnetite": 4348,
+        "industrial_colonies:rich_magnetite": 482
+      },
+      "shapeStateSha256": "ed3e4631093a1a2391a1084bfd72383646739d9565c62fc1b96f42e1c2762b38",
+      "retainedGeologySha256": "c427d0a503c64bd55d28ca2a81a0d84d0218a22ebc4b641b58ce85e15515e6b5",
+      "retainedCrossChunkNeighborBonds": 301,
+      "status": "PASS"
+    }
+  ],
+  "requestOrder": [
+    {
+      "x": -123,
+      "z": -101,
+      "elapsedMillis": 1624
+    },
+    {
+      "x": -123,
+      "z": -100,
+      "elapsedMillis": 363
+    },
+    {
+      "x": -122,
+      "z": -101,
+      "elapsedMillis": 400
+    },
+    {
+      "x": -122,
+      "z": -100,
+      "elapsedMillis": 166
+    },
+    {
+      "x": -105,
+      "z": 9,
+      "elapsedMillis": 1746
+    },
+    {
+      "x": -104,
+      "z": 9,
+      "elapsedMillis": 367
+    },
+    {
+      "x": -104,
+      "z": 10,
+      "elapsedMillis": 350
+    },
+    {
+      "x": -103,
+      "z": 9,
+      "elapsedMillis": 358
+    },
+    {
+      "x": -56,
+      "z": -40,
+      "elapsedMillis": 2166
+    },
+    {
+      "x": -56,
+      "z": -39,
+      "elapsedMillis": 572
+    },
+    {
+      "x": -55,
+      "z": -40,
+      "elapsedMillis": 549
+    },
+    {
+      "x": -55,
+      "z": -39,
+      "elapsedMillis": 244
+    }
+  ],
+  "configSha256": {
+    "settings": "44e99a5d5905a482252cef21c04bedff56b993fa9527024d6309c27d51473bfd",
+    "biomes": "d27d25f83f942f3d4cbe903573409b4ce0bbf9a9aea82d1fae01cb12c9f2408c",
+    "deposits": "0bdad969b46df4e68e3cd56c72b233a308895e185c1400808964cb7ace300a1a"
+  },
+  "elapsedMillis": 10544,
+  "observedNoiseBiomes": [
+    "minecraft:forest",
+    "minecraft:grove",
+    "minecraft:lukewarm_ocean",
+    "minecraft:plains",
+    "minecraft:savanna",
+    "minecraft:sparse_jungle",
+    "minecraft:stony_peaks",
+    "minecraft:sunflower_plains",
+    "regions_unexplored:clover_plains",
+    "regions_unexplored:dry_bushland",
+    "regions_unexplored:flower_fields",
+    "regions_unexplored:grassland",
+    "regions_unexplored:maple_forest",
+    "regions_unexplored:muddy_river",
+    "regions_unexplored:old_growth_forest",
+    "regions_unexplored:pine_slopes",
+    "regions_unexplored:prairie"
+  ],
+  "observedActualBiomes": [
+    "minecraft:forest",
+    "regions_unexplored:clover_plains",
+    "regions_unexplored:prairie"
+  ],
+  "regionsUnexploredNoiseObserved": true,
+  "regionsUnexploredActualObserved": true,
+  "regionsUnexploredEvidence": "RU biome observed in generated chunks",
+  "regionsInspected": 54,
+  "selectedFamilies": 3,
+  "selectedRequestedChunks": 12,
+  "selectedPlans": [
+    {
+      "id": "galena",
+      "x": -874,
+      "y": 23,
+      "z": -624,
+      "intendedSize": 1222,
+      "footprintChunks": 4
+    },
+    {
+      "id": "sphalerite",
+      "x": -1948,
+      "y": -16,
+      "z": -1603,
+      "intendedSize": 1210,
+      "footprintChunks": 4
+    },
+    {
+      "id": "magnetite",
+      "x": -1650,
+      "y": 20,
+      "z": 152,
+      "intendedSize": 4933,
+      "footprintChunks": 4
+    }
+  ],
+  "footprintChunksAlreadyLoaded": 0
+}

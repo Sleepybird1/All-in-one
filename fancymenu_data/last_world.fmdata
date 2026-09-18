@@ -1,0 +1,7 @@
+type = last_world
+
+last_world {
+  is_server = false
+  world = C:/Users/GodPC/curseforge/minecraft/Instances/All in one/saves/TEMP
+}
+

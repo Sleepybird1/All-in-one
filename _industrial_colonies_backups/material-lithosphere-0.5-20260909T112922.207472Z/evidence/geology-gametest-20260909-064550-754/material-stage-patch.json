@@ -1,0 +1,38 @@
+{
+  "stage": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754",
+  "liveWrites": false,
+  "oldProjectSha256": "f2ac4d50a62da9926dc02da67c3c34d9b77032d3b1c4d11b9ea3d8ea4596a79c",
+  "newProjectSha256": "0aacb7b7bc2e0ba0a0aa8c4211a115146fdc521141a1cceb400ed71532ff5da9",
+  "scriptSha256": "1e44f7bc42718aaf3218c48526f2f534db31679bc2e18127a37cac5158a2ec78",
+  "catalogSha256": "31f344d33295a70f4cc19c1f38b56c604dd13965c7e77e7ec701bc3efad4ad45",
+  "replacedMachineCards": [
+    "industrial_colonies:manufacturing/industrial_iron/deployer",
+    "industrial_colonies:manufacturing/industrial_iron/mixer",
+    "industrial_colonies:manufacturing/industrial_iron/press",
+    "industrial_colonies:manufacturing/industrial_iron/saw",
+    "industrial_colonies:mekanism/thermal_evaporation/block_batch",
+    "industrial_colonies:mekanism/thermal_evaporation/controller",
+    "industrial_colonies:mekanism/thermal_evaporation/valve",
+    "industrial_colonies:mekanism_components/basic_chemical_tank",
+    "industrial_colonies:mekanism_components/electrolytic_core",
+    "industrial_colonies:mekanism_pre_nuclear/electrolytic_separator",
+    "industrial_colonies:fluid_infrastructure/fireproof_chemical_vat",
+    "industrial_colonies:heavy_industry/industrial_mixer",
+    "industrial_colonies:manufacturing/industrial_iron/fan",
+    "industrial_colonies:tfmg_heavy_electrical/electrode_holder",
+    "industrial_colonies:mekanism_pre_nuclear/chemical_infuser",
+    "industrial_colonies:mekanism_pre_nuclear/chemical_oxidizer"
+  ],
+  "addedMachineCards": [
+    "industrial_colonies:manufacturing/industrial_iron/roller",
+    "industrial_colonies:material_bootstrap/metallurgic_infuser",
+    "industrial_colonies:material_bootstrap/rotary_condensentrator"
+  ],
+  "removedCapstoneCards": [
+    "industrial_colonies:nuclear/refined_radiance"
+  ],
+  "unrelatedCardsPreserved": 653,
+  "note": "Dedicated server must export this merged KJSGen project BEFORE server scripts load.",
+  "lastRefresh": "before-a3",
+  "priorInputBackup": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\material-input-backups\\before-a3"
+}

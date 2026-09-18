@@ -1,0 +1,760 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "rsquare"
+	filename: "planetary_industry"
+	group: ""
+	id: "39D9D81E433A3293"
+	images: [ ]
+	order_index: 9
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["0A7C17FCC821EE93"]
+			disable_toast: true
+			icon: {
+				id: "ad_astra:moon_globe"
+			}
+			id: "63DFC03E22C8E3E1"
+			tags: [
+				"industrial_colonies:planetary_guidance"
+				"industrial_colonies:planetary_guidance/phase/lunar_survey"
+				"industrial_colonies:planetary_guidance/moon_arrival"
+			]
+			tasks: [{
+				advancement: "industrial_colonies:planetary/moon_arrival"
+				criterion: ""
+				id: "217A257BC0ED78B1"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["63DFC03E22C8E3E1"]
+			disable_toast: true
+			icon: {
+				id: "ad_astra:raw_desh"
+			}
+			id: "16B2D5BF72CEE3CB"
+			tags: [
+				"industrial_colonies:planetary_guidance"
+				"industrial_colonies:planetary_guidance/phase/lunar_freight"
+				"industrial_colonies:planetary_guidance/desh_freight"
+			]
+			tasks: [{
+				count: 64L
+				id: "602364F0C40A780B"
+				item: { count: 1, id: "ad_astra:raw_desh" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["16B2D5BF72CEE3CB"]
+			disable_toast: true
+			icon: {
+				id: "ad_astra:desh_plate"
+			}
+			id: "1DC41A9F3C30669F"
+			tags: [
+				"industrial_colonies:planetary_guidance"
+				"industrial_colonies:planetary_guidance/phase/lunar_refining"
+				"industrial_colonies:planetary_guidance/desh_metallurgy"
+			]
+			tasks: [
+				{
+					id: "551BE61819A8153D"
+					item: { count: 1, id: "industrial_colonies:desh_grit" }
+					type: "item"
+				}
+				{
+					id: "39260305BA72E904"
+					item: { count: 1, id: "industrial_colonies:desh_concentrate" }
+					type: "item"
+				}
+				{
+					id: "17A7553D2D187D83"
+					item: { count: 1, id: "industrial_colonies:desh_leached_compound" }
+					type: "item"
+				}
+				{
+					id: "269ABEC6E63FDD88"
+					item: { count: 1, id: "ad_astra:desh_ingot" }
+					type: "item"
+				}
+				{
+					id: "35BF8C2AC9002832"
+					item: { count: 1, id: "ad_astra:desh_plate" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1DC41A9F3C30669F"]
+			disable_toast: true
+			icon: {
+				id: "industrial_colonies:mars_navigation_computer"
+			}
+			id: "7F72273BF968B727"
+			tags: [
+				"industrial_colonies:planetary_guidance"
+				"industrial_colonies:planetary_guidance/phase/mars_navigation"
+				"industrial_colonies:planetary_guidance/mars_navigation_computer"
+			]
+			tasks: [{
+				id: "448A1971DC4D8F9B"
+				item: { count: 1, id: "industrial_colonies:mars_navigation_computer" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7F72273BF968B727"]
+			disable_toast: true
+			icon: {
+				id: "ad_astra:mars_globe"
+			}
+			id: "6ED5A40D809C1E0D"
+			tags: [
+				"industrial_colonies:planetary_guidance"
+				"industrial_colonies:planetary_guidance/phase/martian_survey"
+				"industrial_colonies:planetary_guidance/mars_arrival"
+			]
+			tasks: [{
+				advancement: "industrial_colonies:planetary/mars_arrival"
+				criterion: ""
+				id: "66D49E11AD70EFA9"
+				type: "advancement"
+			}]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6ED5A40D809C1E0D"]
+			disable_toast: true
+			icon: {
+				id: "ad_astra:raw_ostrum"
+			}
+			id: "38C0491A3A911430"
+			tags: [
+				"industrial_colonies:planetary_guidance"
+				"industrial_colonies:planetary_guidance/phase/martian_freight"
+				"industrial_colonies:planetary_guidance/ostrum_freight"
+			]
+			tasks: [{
+				count: 64L
+				id: "204B00A87138BFC1"
+				item: { count: 1, id: "ad_astra:raw_ostrum" }
+				type: "item"
+			}]
+			x: 15.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["38C0491A3A911430"]
+			disable_toast: true
+			icon: {
+				id: "ad_astra:ostrum_plate"
+			}
+			id: "05DC8B54EF0AC892"
+			tags: [
+				"industrial_colonies:planetary_guidance"
+				"industrial_colonies:planetary_guidance/phase/martian_refining"
+				"industrial_colonies:planetary_guidance/ostrum_metallurgy"
+			]
+			tasks: [
+				{
+					id: "258E5CEC78AEAF71"
+					item: { count: 1, id: "industrial_colonies:ostrum_grit" }
+					type: "item"
+				}
+				{
+					id: "4979906774B5F890"
+					item: { count: 1, id: "industrial_colonies:ostrum_concentrate" }
+					type: "item"
+				}
+				{
+					id: "72951F603785607B"
+					item: { count: 1, id: "industrial_colonies:ostrum_leached_compound" }
+					type: "item"
+				}
+				{
+					id: "3599FFA08AB15FD1"
+					item: { count: 1, id: "ad_astra:ostrum_ingot" }
+					type: "item"
+				}
+				{
+					id: "4B43B48668164EDF"
+					item: { count: 1, id: "ad_astra:ostrum_plate" }
+					type: "item"
+				}
+			]
+			x: 18.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1DC41A9F3C30669F"]
+			disable_toast: true
+			icon: {
+				id: "ad_astra:solar_panel"
+			}
+			id: "77EF8AA721BADCB4"
+			tags: [
+				"industrial_colonies:planetary_guidance"
+				"industrial_colonies:planetary_guidance/phase/lunar_utilities"
+				"industrial_colonies:planetary_guidance/lunar_utility_array"
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "29E2DFB68D9468B5"
+					item: { count: 1, id: "ad_astra:solar_panel" }
+					type: "item"
+				}
+				{
+					id: "04E82ED9DA6C0960"
+					item: { count: 1, id: "ad_astra:water_pump" }
+					type: "item"
+				}
+				{
+					id: "0A2C052BD44FFF47"
+					item: { count: 1, id: "ad_astra:gravity_normalizer" }
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"05DC8B54EF0AC892"
+				"77EF8AA721BADCB4"
+			]
+			disable_toast: true
+			icon: {
+				id: "ad_astra:energizer"
+			}
+			id: "6DA3B532C3647383"
+			tags: [
+				"industrial_colonies:planetary_guidance"
+				"industrial_colonies:planetary_guidance/phase/martian_services"
+				"industrial_colonies:planetary_guidance/martian_service_reserve"
+			]
+			tasks: [
+				{
+					id: "02A1F4102D1B961C"
+					item: { count: 1, id: "ad_astra:energizer" }
+					type: "item"
+				}
+				{
+					id: "05271312DEE51ABA"
+					item: { count: 1, id: "mekanism:ultimate_energy_cube" }
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "0FE0FBD0AC0F8ADA"
+					item: { count: 1, id: "mekanism:ultimate_universal_cable" }
+					type: "item"
+				}
+			]
+			x: 21.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6DA3B532C3647383"]
+			disable_toast: true
+			icon: {
+				id: "mekanism:nutritional_liquifier"
+			}
+			id: "752A4197B8FBEFBC"
+			tags: [
+				"industrial_colonies:planetary_guidance"
+				"industrial_colonies:planetary_guidance/phase/closed_loop_rations"
+				"industrial_colonies:planetary_guidance/closed_loop_rations"
+			]
+			tasks: [
+				{
+					id: "34053CB4FE150A93"
+					item: { count: 1, id: "mekanism:nutritional_liquifier" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "1744464B2C88BB58"
+					item: { count: 1, id: "mekanism:canteen" }
+					type: "item"
+				}
+				{
+					advancement: "mekanism:full_canteen"
+					criterion: ""
+					id: "3D3AF5BB46BB5CE7"
+					type: "advancement"
+				}
+			]
+			x: 24.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["752A4197B8FBEFBC"]
+			disable_toast: true
+			icon: {
+				id: "industrial_colonies:venus_navigation_computer"
+			}
+			id: "1D767C5DB37CC1E6"
+			tags: [
+				"industrial_colonies:planetary_guidance"
+				"industrial_colonies:planetary_guidance/phase/venus_expedition"
+				"industrial_colonies:planetary_guidance/venus_expedition_package"
+			]
+			tasks: [
+				{
+					id: "16E9DAB284984734"
+					item: { count: 1, id: "industrial_colonies:venus_navigation_computer" }
+					type: "item"
+				}
+				{
+					id: "2BCEC4D74DC6417C"
+					item: { count: 1, id: "ad_astra:netherite_space_helmet" }
+					type: "item"
+				}
+				{
+					id: "4B43F1EE2096A098"
+					item: { count: 1, id: "ad_astra:netherite_space_suit" }
+					type: "item"
+				}
+				{
+					id: "054F2B8643959835"
+					item: { count: 1, id: "ad_astra:netherite_space_pants" }
+					type: "item"
+				}
+				{
+					id: "1746812E90C6EFF6"
+					item: { count: 1, id: "ad_astra:netherite_space_boots" }
+					type: "item"
+				}
+			]
+			x: 27.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1D767C5DB37CC1E6"]
+			disable_toast: true
+			icon: {
+				id: "ad_astra:venus_globe"
+			}
+			id: "626E594E7C77FEEA"
+			tags: [
+				"industrial_colonies:planetary_guidance"
+				"industrial_colonies:planetary_guidance/phase/venus_survey"
+				"industrial_colonies:planetary_guidance/venus_arrival"
+			]
+			tasks: [{
+				advancement: "industrial_colonies:planetary/venus_arrival"
+				criterion: ""
+				id: "1ED4BC8ADF75BE60"
+				type: "advancement"
+			}]
+			x: 30.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["626E594E7C77FEEA"]
+			disable_toast: true
+			icon: {
+				id: "ad_astra:raw_calorite"
+			}
+			id: "5890A05275D1FD2F"
+			tags: [
+				"industrial_colonies:planetary_guidance"
+				"industrial_colonies:planetary_guidance/phase/venusian_freight"
+				"industrial_colonies:planetary_guidance/calorite_freight"
+			]
+			tasks: [{
+				count: 64L
+				id: "5CE75606A292C531"
+				item: { count: 1, id: "ad_astra:raw_calorite" }
+				type: "item"
+			}]
+			x: 33.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5890A05275D1FD2F"]
+			disable_toast: true
+			icon: {
+				id: "ad_astra:calorite_plate"
+			}
+			id: "65156EB38AEC4E49"
+			tags: [
+				"industrial_colonies:planetary_guidance"
+				"industrial_colonies:planetary_guidance/phase/venusian_refining"
+				"industrial_colonies:planetary_guidance/calorite_metallurgy"
+			]
+			tasks: [
+				{
+					id: "7939245F2CD9A7EE"
+					item: { count: 1, id: "industrial_colonies:calorite_grit" }
+					type: "item"
+				}
+				{
+					id: "15F8E2F6C7D30D05"
+					item: { count: 1, id: "industrial_colonies:calorite_concentrate" }
+					type: "item"
+				}
+				{
+					id: "6B0D42AAE93CF8A0"
+					item: { count: 1, id: "industrial_colonies:calorite_leached_compound" }
+					type: "item"
+				}
+				{
+					id: "7F713F6BB950FF34"
+					item: { count: 1, id: "ad_astra:calorite_ingot" }
+					type: "item"
+				}
+				{
+					id: "50E415A0F30B663D"
+					item: { count: 1, id: "ad_astra:calorite_plate" }
+					type: "item"
+				}
+			]
+			x: 36.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["65156EB38AEC4E49"]
+			disable_toast: true
+			icon: {
+				id: "industrial_colonies:mercury_navigation_computer"
+			}
+			id: "302693BACE769303"
+			tags: [
+				"industrial_colonies:planetary_guidance"
+				"industrial_colonies:planetary_guidance/phase/mercury_survey"
+				"industrial_colonies:planetary_guidance/mercury_arrival"
+			]
+			tasks: [{
+				advancement: "industrial_colonies:planetary/mercury_arrival"
+				criterion: ""
+				id: "1B09D7376DD8B09F"
+				type: "advancement"
+			}]
+			x: 39.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["302693BACE769303"]
+			disable_toast: true
+			icon: {
+				id: "ad_astra:mercury_iron_ore"
+			}
+			id: "32172048B4DE8DF6"
+			tags: [
+				"industrial_colonies:planetary_guidance"
+				"industrial_colonies:planetary_guidance/phase/mercury_freight"
+				"industrial_colonies:planetary_guidance/mercury_iron_sample"
+			]
+			tasks: [{
+				id: "2AAFDACAA4E3F195"
+				item: { count: 1, id: "ad_astra:mercury_iron_ore" }
+				type: "item"
+			}]
+			x: 42.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["32172048B4DE8DF6"]
+			disable_toast: true
+			icon: {
+				id: "rocketnautics:titanium_ore"
+			}
+			id: "570B3031CA2A7709"
+			tags: [
+				"industrial_colonies:planetary_guidance"
+				"industrial_colonies:planetary_guidance/phase/asteroid_prospecting"
+				"industrial_colonies:planetary_guidance/asteroid_titanium"
+			]
+			tasks: [{
+				id: "10590536ED597926"
+				item: { count: 1, id: "rocketnautics:titanium_ore" }
+				type: "item"
+			}]
+			x: 45.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["570B3031CA2A7709"]
+			disable_toast: true
+			icon: {
+				id: "rocketnautics:titanium_ore"
+			}
+			id: "771666A5CB129292"
+			tags: [
+				"industrial_colonies:planetary_guidance"
+				"industrial_colonies:planetary_guidance/phase/asteroid_freight"
+				"industrial_colonies:planetary_guidance/asteroid_bulk_freight"
+			]
+			tasks: [
+				{
+					count: 64L
+					id: "51CAF73514D86088"
+					item: { count: 1, id: "minecraft:coal_ore" }
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "37102138DFDAEF64"
+					item: { count: 1, id: "minecraft:iron_ore" }
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "439D974DCFB06D8B"
+					item: { count: 1, id: "minecraft:copper_ore" }
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "19896C7EA097E309"
+					item: { count: 1, id: "minecraft:gold_ore" }
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "74EBE99F8A559737"
+					item: { count: 1, id: "rocketnautics:titanium_ore" }
+					type: "item"
+				}
+			]
+			x: 48.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["771666A5CB129292"]
+			disable_toast: true
+			icon: {
+				id: "industrial_colonies:station_services_controller"
+			}
+			id: "415187ACFE68FD42"
+			tags: [
+				"industrial_colonies:planetary_guidance"
+				"industrial_colonies:planetary_guidance/phase/station_commissioning"
+				"industrial_colonies:planetary_guidance/outer_station_services"
+			]
+			tasks: [{
+				id: "0581A0DE815999B2"
+				item: { count: 1, id: "industrial_colonies:station_services_controller" }
+				type: "item"
+			}]
+			x: 51.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["415187ACFE68FD42"]
+			disable_toast: true
+			icon: {
+				id: "industrial_colonies:atmospheric_scoop"
+			}
+			id: "1FAD7FA149EAE3ED"
+			tags: [
+				"industrial_colonies:planetary_guidance"
+				"industrial_colonies:planetary_guidance/phase/gas_giant_extraction"
+				"industrial_colonies:planetary_guidance/gas_giant_extraction"
+			]
+			tasks: [{
+				id: "480DFEF06FCD6E51"
+				item: { count: 1, id: "industrial_colonies:atmospheric_scoop" }
+				type: "item"
+			}]
+			x: 54.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1FAD7FA149EAE3ED"]
+			disable_toast: true
+			icon: {
+				id: "industrial_colonies:gas_giant_condensate_bucket"
+			}
+			id: "2DCAE859D80F0710"
+			tags: [
+				"industrial_colonies:planetary_guidance"
+				"industrial_colonies:planetary_guidance/phase/physical_condensate_return"
+				"industrial_colonies:planetary_guidance/gas_giant_condensate_return"
+			]
+			tasks: [{
+				count: 8L
+				id: "3C84C4B395ED0213"
+				item: { count: 1, id: "industrial_colonies:gas_giant_condensate_bucket" }
+				type: "item"
+			}]
+			x: 57.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2DCAE859D80F0710"]
+			disable_toast: true
+			icon: {
+				id: "industrial_colonies:warp_charge_precursor"
+			}
+			id: "3296118F54F6D14D"
+			tags: [
+				"industrial_colonies:planetary_guidance"
+				"industrial_colonies:planetary_guidance/phase/interstellar_preparation"
+				"industrial_colonies:planetary_guidance/warp_charge_precursor"
+			]
+			tasks: [{
+				id: "5883596510F8246D"
+				item: { count: 1, id: "industrial_colonies:warp_charge_precursor" }
+				type: "item"
+			}]
+			x: 60.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3296118F54F6D14D"]
+			disable_toast: true
+			icon: {
+				id: "cosmowarp:moon_crystal"
+			}
+			id: "5A20D956586D084C"
+			tags: [
+				"industrial_colonies:planetary_guidance"
+				"industrial_colonies:planetary_guidance/phase/interstellar_materials"
+				"industrial_colonies:planetary_guidance/moon_crystal_stockpile"
+			]
+			tasks: [{
+				count: 8L
+				id: "5097C068C5C78806"
+				item: { count: 1, id: "cosmowarp:moon_crystal" }
+				type: "item"
+			}]
+			x: 63.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5A20D956586D084C"]
+			disable_toast: true
+			icon: {
+				id: "industrial_colonies:interstellar_navigation_computer"
+			}
+			id: "7F343A19CA0F7D0F"
+			tags: [
+				"industrial_colonies:planetary_guidance"
+				"industrial_colonies:planetary_guidance/phase/interstellar_navigation"
+				"industrial_colonies:planetary_guidance/interstellar_navigation"
+			]
+			tasks: [{
+				id: "51A2667238E1A0FE"
+				item: { count: 1, id: "industrial_colonies:interstellar_navigation_computer" }
+				type: "item"
+			}]
+			x: 66.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7F343A19CA0F7D0F"]
+			disable_toast: true
+			icon: {
+				id: "cosmowarp:warp_crystal"
+			}
+			id: "22EED3587C45B99C"
+			tags: [
+				"industrial_colonies:planetary_guidance"
+				"industrial_colonies:planetary_guidance/phase/interstellar_navigation"
+				"industrial_colonies:planetary_guidance/signed_route_crystal"
+			]
+			tasks: [{
+				id: "02EBB4B5B3C37DD7"
+				item: { count: 1, id: "cosmowarp:warp_crystal" }
+				type: "item"
+			}]
+			x: 69.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["22EED3587C45B99C"]
+			disable_toast: true
+			icon: {
+				id: "cosmowarp:warp_drive"
+			}
+			id: "58E1E15C513AB5E2"
+			tags: [
+				"industrial_colonies:planetary_guidance"
+				"industrial_colonies:planetary_guidance/phase/interstellar_propulsion"
+				"industrial_colonies:planetary_guidance/warp_drive_core"
+			]
+			tasks: [{
+				id: "02FD66CA23C5B3ED"
+				item: { count: 1, id: "cosmowarp:warp_drive" }
+				type: "item"
+			}]
+			x: 72.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["58E1E15C513AB5E2"]
+			disable_toast: true
+			icon: {
+				id: "industrial_colonies:interstellar_warp_charge"
+			}
+			id: "0D19C8883588B8E3"
+			tags: [
+				"industrial_colonies:planetary_guidance"
+				"industrial_colonies:planetary_guidance/phase/interstellar_propulsion"
+				"industrial_colonies:planetary_guidance/interstellar_warp_charge"
+			]
+			tasks: [{
+				id: "6BB22E0D80607FE8"
+				item: { count: 1, id: "industrial_colonies:interstellar_warp_charge" }
+				type: "item"
+			}]
+			x: 75.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0D19C8883588B8E3"]
+			disable_toast: true
+			icon: {
+				id: "ad_astra:glacio_globe"
+			}
+			id: "0FABE65FFACB1AD8"
+			tags: [
+				"industrial_colonies:planetary_guidance"
+				"industrial_colonies:planetary_guidance/phase/beyond_sol"
+				"industrial_colonies:planetary_guidance/glacio_arrival"
+			]
+			tasks: [{
+				advancement: "industrial_colonies:planetary/glacio_arrival"
+				criterion: ""
+				id: "7C0F76A27B868A68"
+				type: "advancement"
+			}]
+			x: 78.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0FABE65FFACB1AD8"]
+			disable_toast: true
+			icon: {
+				id: "ad_astra:glacio_ice_shard_ore"
+			}
+			id: "7B0B71BC10C43F7A"
+			tags: [
+				"industrial_colonies:planetary_guidance"
+				"industrial_colonies:planetary_guidance/phase/beyond_sol"
+				"industrial_colonies:planetary_guidance/escaped_sol"
+			]
+			tasks: [{
+				id: "38880055D73F264B"
+				item: { count: 1, id: "ad_astra:glacio_ice_shard_ore" }
+				type: "item"
+			}]
+			x: 81.0d
+			y: 1.5d
+		}
+	]
+}

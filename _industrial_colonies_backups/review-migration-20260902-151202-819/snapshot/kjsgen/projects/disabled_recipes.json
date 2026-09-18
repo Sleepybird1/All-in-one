@@ -1,0 +1,877 @@
+{
+  "format": 1,
+  "name": "disabled recipes",
+  "defaultTargetFile": "kjsgen_recipes",
+  "exportComments": true,
+  "reloadOnExport": false,
+  "recipes": [
+    {
+      "uid": "16716968-0b50-5b94-b1df-ebf647493d19",
+      "type": "kjsgen:create_sequenced_assembly",
+      "recipeId": "industrial_colonies:v3_ae2/inscriber",
+      "comment": "[Digital Logistics] Assemble the Inscriber as a Brass precision stamping station; whole processors remain exclusive to the encased assembly line",
+      "replaceRecipe": false,
+      "slots": {
+        "input": {
+          "kind": "ITEM",
+          "id": "minecraft:piston"
+        },
+        "transitional": {
+          "kind": "ITEM",
+          "id": "minecraft:piston"
+        },
+        "output0": {
+          "kind": "ITEM",
+          "id": "ae2:inscriber"
+        },
+        "seqItem0": {
+          "kind": "ITEM",
+          "id": "create:brass_casing"
+        },
+        "__machine_step_0_deploying": {
+          "kind": "ITEM",
+          "id": "createcasing:brass_deployer"
+        },
+        "seqItem1": {
+          "kind": "ITEM",
+          "id": "create:precision_mechanism"
+        },
+        "__machine_step_1_deploying": {
+          "kind": "ITEM",
+          "id": "createcasing:brass_deployer"
+        },
+        "seqItem2": {
+          "kind": "ITEM",
+          "id": "tfmg:circuit_board"
+        },
+        "__machine_step_2_deploying": {
+          "kind": "ITEM",
+          "id": "createcasing:brass_deployer"
+        },
+        "seqItem3": {
+          "kind": "ITEM",
+          "id": "tfmg:electric_motor"
+        },
+        "__machine_step_3_deploying": {
+          "kind": "ITEM",
+          "id": "createcasing:brass_deployer"
+        },
+        "seqItem4": {
+          "kind": "ITEM",
+          "id": "ae2:quartz_glass"
+        },
+        "__machine_step_4_deploying": {
+          "kind": "ITEM",
+          "id": "createcasing:brass_deployer"
+        },
+        "__machine_step_5_pressing": {
+          "kind": "ITEM",
+          "id": "createcasing:brass_press"
+        }
+      },
+      "params": {
+        "loops": "1",
+        "__seqLen": "6",
+        "seq0": "deploying",
+        "seq1": "deploying",
+        "seq2": "deploying",
+        "seq3": "deploying",
+        "seq4": "deploying",
+        "seq5": "pressing"
+      }
+    },
+    {
+      "uid": "50211c9d-1d89-579c-b4ca-4a21e0f68e3b",
+      "type": "kjsgen:create_mechanical_crafting",
+      "recipeId": "industrial_colonies:mekanism/electric_pump",
+      "comment": "[High-Energy Grid] Build a vertical powered pump from a real Create pump and TFMG valve, motor, steel body, controller, and osmium foot.",
+      "replaceRecipe": false,
+      "slots": {
+        "cell_0_1": {
+          "kind": "ITEM",
+          "id": "minecraft:bucket"
+        },
+        "cell_1_0": {
+          "kind": "ITEM",
+          "id": "tfmg:steel_fluid_valve"
+        },
+        "cell_1_1": {
+          "kind": "ITEM",
+          "id": "create:mechanical_pump"
+        },
+        "cell_1_2": {
+          "kind": "ITEM",
+          "id": "tfmg:steel_fluid_valve"
+        },
+        "cell_2_0": {
+          "kind": "ITEM",
+          "id": "tfmg:electric_motor"
+        },
+        "cell_2_1": {
+          "kind": "ITEM",
+          "id": "mekanism:steel_casing"
+        },
+        "cell_2_2": {
+          "kind": "ITEM",
+          "id": "mekanism:basic_control_circuit"
+        },
+        "cell_3_0": {
+          "kind": "ITEM",
+          "id": "mekanism:ingot_osmium"
+        },
+        "cell_3_1": {
+          "kind": "ITEM",
+          "id": "mekanism:ingot_osmium"
+        },
+        "cell_3_2": {
+          "kind": "ITEM",
+          "id": "mekanism:ingot_osmium"
+        },
+        "output": {
+          "kind": "ITEM",
+          "id": "mekanism:electric_pump"
+        }
+      },
+      "params": {
+        "gridW": "3",
+        "gridH": "4"
+      }
+    },
+    {
+      "uid": "fa133e75-8ad8-5842-bb7c-9becae3886f7",
+      "type": "kjsgen:create_compacting",
+      "recipeId": "industrial_colonies:mekanism/transmission/elite_universal_cable",
+      "comment": "[High-Energy Grid] Rebuild the Advanced FE run around reinforced control, TFMG aluminum conductor, glass standoffs, and steel termination hubs.",
+      "replaceRecipe": false,
+      "slots": {
+        "__machine_process_compacting": {
+          "kind": "ITEM",
+          "id": "createcasing:industrial_iron_press"
+        },
+        "in0": {
+          "kind": "ITEM",
+          "id": "mekanism:advanced_universal_cable",
+          "count": 8
+        },
+        "in1": {
+          "kind": "ITEM",
+          "id": "mekanism:alloy_reinforced",
+          "count": 4
+        },
+        "in2": {
+          "kind": "ITEM",
+          "id": "mekanism:elite_control_circuit",
+          "count": 2
+        },
+        "in3": {
+          "kind": "ITEM",
+          "id": "tfmg:aluminum_wire",
+          "count": 4
+        },
+        "in4": {
+          "kind": "ITEM",
+          "id": "tfmg:glass_cable_insulator",
+          "count": 2
+        },
+        "in5": {
+          "kind": "ITEM",
+          "id": "tfmg:steel_cable_hub",
+          "count": 2
+        },
+        "output": {
+          "kind": "ITEM",
+          "id": "mekanism:elite_universal_cable",
+          "count": 8
+        }
+      },
+      "params": {
+        "heat": "none"
+      }
+    },
+    {
+      "uid": "39f9403c-c36c-581e-9f8e-400ea580a08f",
+      "type": "kjsgen:create_compacting",
+      "recipeId": "industrial_colonies:mekanism/transmission/ultimate_universal_cable",
+      "comment": "[High-Energy Grid] Converge the Elite local run, TFMG conductor hardware, protected Electro Energetics wire, and the completed SF6 breaker into Ultimate FE distribution.",
+      "replaceRecipe": false,
+      "slots": {
+        "__machine_process_compacting": {
+          "kind": "ITEM",
+          "id": "createcasing:industrial_iron_press"
+        },
+        "in0": {
+          "kind": "ITEM",
+          "id": "mekanism:elite_universal_cable",
+          "count": 8
+        },
+        "in1": {
+          "kind": "ITEM",
+          "id": "mekanism:alloy_atomic",
+          "count": 4
+        },
+        "in2": {
+          "kind": "ITEM",
+          "id": "mekanism:ultimate_control_circuit",
+          "count": 2
+        },
+        "in3": {
+          "kind": "ITEM",
+          "id": "tfmg:aluminum_wire",
+          "count": 4
+        },
+        "in4": {
+          "kind": "ITEM",
+          "id": "tfmg:glass_cable_insulator",
+          "count": 2
+        },
+        "in5": {
+          "kind": "ITEM",
+          "id": "tfmg:steel_cable_hub",
+          "count": 2
+        },
+        "in6": {
+          "kind": "ITEM",
+          "id": "electroenergetics:heavily_insulated_wire",
+          "count": 4
+        },
+        "in7": {
+          "kind": "ITEM",
+          "id": "electroenergetics:sulfur_hexafluoride_breaker"
+        },
+        "output": {
+          "kind": "ITEM",
+          "id": "mekanism:ultimate_universal_cable",
+          "count": 8
+        }
+      },
+      "params": {
+        "heat": "none"
+      }
+    },
+    {
+      "uid": "dc6eede0-fad2-52c4-9035-9d61a0e75f9c",
+      "type": "kjsgen:create_sequenced_assembly",
+      "recipeId": "industrial_colonies:mekanism_pre_nuclear/crusher",
+      "comment": "[High-Energy Grid] Mount a matched pair of Create crushing wheels around a powered TFMG drive, then align and close the heavy industrial shell.",
+      "replaceRecipe": false,
+      "slots": {
+        "input": {
+          "kind": "ITEM",
+          "id": "mekanism:steel_casing"
+        },
+        "transitional": {
+          "kind": "ITEM",
+          "id": "mekanism:steel_casing"
+        },
+        "output0": {
+          "kind": "ITEM",
+          "id": "mekanism:crusher"
+        },
+        "seqItem0": {
+          "kind": "ITEM",
+          "id": "create:crushing_wheel"
+        },
+        "__machine_step_0_deploying": {
+          "kind": "ITEM",
+          "id": "createcasing:industrial_iron_deployer"
+        },
+        "seqItem1": {
+          "kind": "ITEM",
+          "id": "create:crushing_wheel"
+        },
+        "__machine_step_1_deploying": {
+          "kind": "ITEM",
+          "id": "createcasing:industrial_iron_deployer"
+        },
+        "seqItem2": {
+          "kind": "ITEM",
+          "id": "tfmg:electric_motor"
+        },
+        "__machine_step_2_deploying": {
+          "kind": "ITEM",
+          "id": "createcasing:industrial_iron_deployer"
+        },
+        "seqItem3": {
+          "kind": "ITEM",
+          "id": "tfmg:steel_mechanism"
+        },
+        "__machine_step_3_deploying": {
+          "kind": "ITEM",
+          "id": "createcasing:industrial_iron_deployer"
+        },
+        "seqItem4": {
+          "kind": "ITEM",
+          "id": "mekanism:basic_control_circuit"
+        },
+        "__machine_step_4_deploying": {
+          "kind": "ITEM",
+          "id": "createcasing:industrial_iron_deployer"
+        },
+        "seqItem5": {
+          "kind": "ITEM",
+          "id": "tfmg:circuit_board"
+        },
+        "__machine_step_5_deploying": {
+          "kind": "ITEM",
+          "id": "createcasing:industrial_iron_deployer"
+        },
+        "seqItem6": {
+          "kind": "ITEM",
+          "id": "mekanism:alloy_infused",
+          "count": 2
+        },
+        "__machine_step_6_deploying": {
+          "kind": "ITEM",
+          "id": "createcasing:industrial_iron_deployer"
+        },
+        "seqItem7": {
+          "kind": "ITEM",
+          "id": "tfmg:heavy_plate",
+          "count": 2
+        },
+        "__machine_step_7_deploying": {
+          "kind": "ITEM",
+          "id": "createcasing:industrial_iron_deployer"
+        },
+        "__machine_step_8_pressing": {
+          "kind": "ITEM",
+          "id": "createcasing:industrial_iron_press"
+        }
+      },
+      "params": {
+        "loops": "1",
+        "__seqLen": "9",
+        "seq0": "deploying",
+        "seq1": "deploying",
+        "seq2": "deploying",
+        "seq3": "deploying",
+        "seq4": "deploying",
+        "seq5": "deploying",
+        "seq6": "deploying",
+        "seq7": "deploying",
+        "seq8": "pressing"
+      }
+    },
+    {
+      "uid": "c9511373-ffbd-5bec-957e-764a02e0e476",
+      "type": "kjsgen:create_sequenced_assembly",
+      "recipeId": "industrial_colonies:mekanism_pre_nuclear/energized_smelter",
+      "comment": "[High-Energy Grid] Construct an electrically heated furnace from a TFMG coil, transformer, forced-air fan, refractory burner core, and buffered control package.",
+      "replaceRecipe": false,
+      "slots": {
+        "input": {
+          "kind": "ITEM",
+          "id": "mekanism:steel_casing"
+        },
+        "transitional": {
+          "kind": "ITEM",
+          "id": "mekanism:steel_casing"
+        },
+        "output0": {
+          "kind": "ITEM",
+          "id": "mekanism:energized_smelter"
+        },
+        "seqItem0": {
+          "kind": "ITEM",
+          "id": "tfmg:large_coil"
+        },
+        "__machine_step_0_deploying": {
+          "kind": "ITEM",
+          "id": "createcasing:industrial_iron_deployer"
+        },
+        "seqItem1": {
+          "kind": "ITEM",
+          "id": "tfmg:transformer"
+        },
+        "__machine_step_1_deploying": {
+          "kind": "ITEM",
+          "id": "createcasing:industrial_iron_deployer"
+        },
+        "seqItem2": {
+          "kind": "ITEM",
+          "id": "create:encased_fan"
+        },
+        "__machine_step_2_deploying": {
+          "kind": "ITEM",
+          "id": "createcasing:industrial_iron_deployer"
+        },
+        "seqItem3": {
+          "kind": "ITEM",
+          "id": "create:blaze_burner"
+        },
+        "__machine_step_3_deploying": {
+          "kind": "ITEM",
+          "id": "createcasing:industrial_iron_deployer"
+        },
+        "seqItem4": {
+          "kind": "ITEM",
+          "id": "tfmg:capacitor_item"
+        },
+        "__machine_step_4_deploying": {
+          "kind": "ITEM",
+          "id": "createcasing:industrial_iron_deployer"
+        },
+        "seqItem5": {
+          "kind": "ITEM",
+          "id": "mekanism:basic_control_circuit"
+        },
+        "__machine_step_5_deploying": {
+          "kind": "ITEM",
+          "id": "createcasing:industrial_iron_deployer"
+        },
+        "seqItem6": {
+          "kind": "ITEM",
+          "id": "tfmg:circuit_board"
+        },
+        "__machine_step_6_deploying": {
+          "kind": "ITEM",
+          "id": "createcasing:industrial_iron_deployer"
+        },
+        "seqItem7": {
+          "kind": "ITEM",
+          "id": "tfmg:heavy_plate",
+          "count": 2
+        },
+        "__machine_step_7_deploying": {
+          "kind": "ITEM",
+          "id": "createcasing:industrial_iron_deployer"
+        },
+        "__machine_step_8_pressing": {
+          "kind": "ITEM",
+          "id": "createcasing:industrial_iron_press"
+        }
+      },
+      "params": {
+        "loops": "1",
+        "__seqLen": "9",
+        "seq0": "deploying",
+        "seq1": "deploying",
+        "seq2": "deploying",
+        "seq3": "deploying",
+        "seq4": "deploying",
+        "seq5": "deploying",
+        "seq6": "deploying",
+        "seq7": "deploying",
+        "seq8": "pressing"
+      }
+    },
+    {
+      "uid": "b6d69e8a-d794-5582-acd5-129de1963252",
+      "type": "kjsgen:create_sequenced_assembly",
+      "recipeId": "industrial_colonies:mekanism_pre_nuclear/formulaic_assemblicator",
+      "comment": "[High-Energy Grid] Turn a steel machine body into a formula-driven assembly cell with a Mechanical Crafter, encoded formula socket, precision feeder, and logic.",
+      "replaceRecipe": false,
+      "slots": {
+        "input": {
+          "kind": "ITEM",
+          "id": "mekanism:steel_casing"
+        },
+        "transitional": {
+          "kind": "ITEM",
+          "id": "mekanism:steel_casing"
+        },
+        "output0": {
+          "kind": "ITEM",
+          "id": "mekanism:formulaic_assemblicator"
+        },
+        "seqItem0": {
+          "kind": "ITEM",
+          "id": "create:mechanical_crafter"
+        },
+        "__machine_step_0_deploying": {
+          "kind": "ITEM",
+          "id": "createcasing:industrial_iron_deployer"
+        },
+        "seqItem1": {
+          "kind": "ITEM",
+          "id": "mekanism:crafting_formula"
+        },
+        "__machine_step_1_deploying": {
+          "kind": "ITEM",
+          "id": "createcasing:industrial_iron_deployer"
+        },
+        "seqItem2": {
+          "kind": "ITEM",
+          "id": "create:precision_mechanism"
+        },
+        "__machine_step_2_deploying": {
+          "kind": "ITEM",
+          "id": "createcasing:industrial_iron_deployer"
+        },
+        "seqItem3": {
+          "kind": "ITEM",
+          "id": "create:brass_funnel"
+        },
+        "__machine_step_3_deploying": {
+          "kind": "ITEM",
+          "id": "createcasing:industrial_iron_deployer"
+        },
+        "seqItem4": {
+          "kind": "ITEM",
+          "id": "ae2:logic_processor"
+        },
+        "__machine_step_4_deploying": {
+          "kind": "ITEM",
+          "id": "createcasing:industrial_iron_deployer"
+        },
+        "seqItem5": {
+          "kind": "ITEM",
+          "id": "mekanism:basic_control_circuit"
+        },
+        "__machine_step_5_deploying": {
+          "kind": "ITEM",
+          "id": "createcasing:industrial_iron_deployer"
+        },
+        "seqItem6": {
+          "kind": "ITEM",
+          "id": "tfmg:etched_circuit_board"
+        },
+        "__machine_step_6_deploying": {
+          "kind": "ITEM",
+          "id": "createcasing:industrial_iron_deployer"
+        },
+        "seqItem7": {
+          "kind": "ITEM",
+          "id": "tfmg:steel_frame"
+        },
+        "__machine_step_7_deploying": {
+          "kind": "ITEM",
+          "id": "createcasing:industrial_iron_deployer"
+        },
+        "__machine_step_8_pressing": {
+          "kind": "ITEM",
+          "id": "createcasing:industrial_iron_press"
+        }
+      },
+      "params": {
+        "loops": "1",
+        "__seqLen": "9",
+        "seq0": "deploying",
+        "seq1": "deploying",
+        "seq2": "deploying",
+        "seq3": "deploying",
+        "seq4": "deploying",
+        "seq5": "deploying",
+        "seq6": "deploying",
+        "seq7": "deploying",
+        "seq8": "pressing"
+      }
+    },
+    {
+      "uid": "9bc6d146-6fc8-5deb-be38-7c1a728c393d",
+      "type": "kjsgen:create_sequenced_assembly",
+      "recipeId": "industrial_colonies:mekanism_pre_nuclear/precision_sawmill",
+      "comment": "[High-Energy Grid] Align a powered saw carriage, precision feed mechanism, and guarded steel drive before the Industrial Iron press squares the enclosure.",
+      "replaceRecipe": false,
+      "slots": {
+        "input": {
+          "kind": "ITEM",
+          "id": "mekanism:steel_casing"
+        },
+        "transitional": {
+          "kind": "ITEM",
+          "id": "mekanism:steel_casing"
+        },
+        "output0": {
+          "kind": "ITEM",
+          "id": "mekanism:precision_sawmill"
+        },
+        "seqItem0": {
+          "kind": "ITEM",
+          "id": "create:mechanical_saw"
+        },
+        "__machine_step_0_deploying": {
+          "kind": "ITEM",
+          "id": "createcasing:industrial_iron_deployer"
+        },
+        "seqItem1": {
+          "kind": "ITEM",
+          "id": "tfmg:electric_motor"
+        },
+        "__machine_step_1_deploying": {
+          "kind": "ITEM",
+          "id": "createcasing:industrial_iron_deployer"
+        },
+        "seqItem2": {
+          "kind": "ITEM",
+          "id": "create:precision_mechanism"
+        },
+        "__machine_step_2_deploying": {
+          "kind": "ITEM",
+          "id": "createcasing:industrial_iron_deployer"
+        },
+        "seqItem3": {
+          "kind": "ITEM",
+          "id": "tfmg:steel_mechanism"
+        },
+        "__machine_step_3_deploying": {
+          "kind": "ITEM",
+          "id": "createcasing:industrial_iron_deployer"
+        },
+        "seqItem4": {
+          "kind": "ITEM",
+          "id": "mekanism:basic_control_circuit"
+        },
+        "__machine_step_4_deploying": {
+          "kind": "ITEM",
+          "id": "createcasing:industrial_iron_deployer"
+        },
+        "seqItem5": {
+          "kind": "ITEM",
+          "id": "tfmg:circuit_board"
+        },
+        "__machine_step_5_deploying": {
+          "kind": "ITEM",
+          "id": "createcasing:industrial_iron_deployer"
+        },
+        "seqItem6": {
+          "kind": "ITEM",
+          "id": "mekanism:alloy_infused"
+        },
+        "__machine_step_6_deploying": {
+          "kind": "ITEM",
+          "id": "createcasing:industrial_iron_deployer"
+        },
+        "seqItem7": {
+          "kind": "ITEM",
+          "id": "tfmg:heavy_plate",
+          "count": 2
+        },
+        "__machine_step_7_deploying": {
+          "kind": "ITEM",
+          "id": "createcasing:industrial_iron_deployer"
+        },
+        "__machine_step_8_pressing": {
+          "kind": "ITEM",
+          "id": "createcasing:industrial_iron_press"
+        }
+      },
+      "params": {
+        "loops": "1",
+        "__seqLen": "9",
+        "seq0": "deploying",
+        "seq1": "deploying",
+        "seq2": "deploying",
+        "seq3": "deploying",
+        "seq4": "deploying",
+        "seq5": "deploying",
+        "seq6": "deploying",
+        "seq7": "deploying",
+        "seq8": "pressing"
+      }
+    },
+    {
+      "uid": "f5e837f2-7f0e-5991-aafb-ac0ec0d07749",
+      "type": "kjsgen:create_sequenced_assembly",
+      "recipeId": "industrial_colonies:mekanism_pre_nuclear/digital_miner",
+      "comment": "[High-Energy Grid] Convert the surveyed seismic platform into a remote extraction machine with a laser head, item sorter, teleportation core, engineering logic, atomic buswork, and ultimate control.",
+      "replaceRecipe": false,
+      "slots": {
+        "input": {
+          "kind": "ITEM",
+          "id": "mekanism:seismic_vibrator"
+        },
+        "transitional": {
+          "kind": "ITEM",
+          "id": "mekanism:seismic_vibrator"
+        },
+        "output0": {
+          "kind": "ITEM",
+          "id": "mekanism:digital_miner"
+        },
+        "seqItem0": {
+          "kind": "ITEM",
+          "id": "mekanism:steel_casing"
+        },
+        "__machine_step_0_deploying": {
+          "kind": "ITEM",
+          "id": "createcasing:industrial_iron_deployer"
+        },
+        "seqItem1": {
+          "kind": "ITEM",
+          "id": "mekanism:laser"
+        },
+        "__machine_step_1_deploying": {
+          "kind": "ITEM",
+          "id": "createcasing:industrial_iron_deployer"
+        },
+        "seqItem2": {
+          "kind": "ITEM",
+          "id": "mekanism:logistical_sorter"
+        },
+        "__machine_step_2_deploying": {
+          "kind": "ITEM",
+          "id": "createcasing:industrial_iron_deployer"
+        },
+        "seqItem3": {
+          "kind": "ITEM",
+          "id": "mekanism:teleportation_core"
+        },
+        "__machine_step_3_deploying": {
+          "kind": "ITEM",
+          "id": "createcasing:industrial_iron_deployer"
+        },
+        "seqItem4": {
+          "kind": "ITEM",
+          "id": "ae2:engineering_processor"
+        },
+        "__machine_step_4_deploying": {
+          "kind": "ITEM",
+          "id": "createcasing:industrial_iron_deployer"
+        },
+        "seqItem5": {
+          "kind": "ITEM",
+          "id": "mekanism:ultimate_control_circuit"
+        },
+        "__machine_step_5_deploying": {
+          "kind": "ITEM",
+          "id": "createcasing:industrial_iron_deployer"
+        },
+        "seqItem6": {
+          "kind": "ITEM",
+          "id": "mekanism:alloy_atomic",
+          "count": 2
+        },
+        "__machine_step_6_deploying": {
+          "kind": "ITEM",
+          "id": "createcasing:industrial_iron_deployer"
+        },
+        "seqItem7": {
+          "kind": "ITEM",
+          "id": "mekanism:ingot_refined_obsidian"
+        },
+        "__machine_step_7_deploying": {
+          "kind": "ITEM",
+          "id": "createcasing:industrial_iron_deployer"
+        },
+        "seqItem8": {
+          "kind": "ITEM",
+          "id": "tfmg:heavy_plate",
+          "count": 2
+        },
+        "__machine_step_8_deploying": {
+          "kind": "ITEM",
+          "id": "createcasing:industrial_iron_deployer"
+        },
+        "__machine_step_9_pressing": {
+          "kind": "ITEM",
+          "id": "createcasing:industrial_iron_press"
+        }
+      },
+      "params": {
+        "loops": "1",
+        "__seqLen": "10",
+        "seq0": "deploying",
+        "seq1": "deploying",
+        "seq2": "deploying",
+        "seq3": "deploying",
+        "seq4": "deploying",
+        "seq5": "deploying",
+        "seq6": "deploying",
+        "seq7": "deploying",
+        "seq8": "deploying",
+        "seq9": "pressing"
+      }
+    },
+    {
+      "uid": "af4eb6df-0afd-5440-bbf6-c8789c82b5e2",
+      "type": "kjsgen:shaped",
+      "recipeId": "industrial_colonies:simulated/portable_engine",
+      "comment": "[High-Energy Grid] Package the completed engine assembly with a cast-iron fuel tank, throttle linkage, ventilation, and Railway service shell",
+      "replaceRecipe": false,
+      "slots": {
+        "in0": {
+          "kind": "ITEM",
+          "id": "create:iron_sheet"
+        },
+        "in1": {
+          "kind": "ITEM",
+          "id": "tfmg:cast_iron_fluid_tank"
+        },
+        "in2": {
+          "kind": "ITEM",
+          "id": "create:iron_sheet"
+        },
+        "in3": {
+          "kind": "ITEM",
+          "id": "simulated:throttle_lever"
+        },
+        "in4": {
+          "kind": "ITEM",
+          "id": "simulated:engine_assembly"
+        },
+        "in5": {
+          "kind": "ITEM",
+          "id": "create:encased_fan"
+        },
+        "in6": {
+          "kind": "ITEM",
+          "id": "create:railway_casing"
+        },
+        "in7": {
+          "kind": "ITEM",
+          "id": "tfmg:steel_mechanism"
+        },
+        "in8": {
+          "kind": "ITEM",
+          "id": "create:railway_casing"
+        },
+        "output": {
+          "kind": "ITEM",
+          "id": "simulated:red_portable_engine"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "100c1191-a398-51a3-b3a4-b270f9235dc0",
+      "type": "kjsgen:create_mechanical_crafting",
+      "recipeId": "industrial_colonies:space_coverage/cosmonautics_jetpack",
+      "comment": "[Orbital Engineering] Build an EVA propulsion harness around a Netherite backtank, oxygen regulator, paired titanium nozzles, and flexible restraints",
+      "replaceRecipe": false,
+      "slots": {
+        "cell_0_1": {
+          "kind": "ITEM",
+          "id": "mekanism:advanced_control_circuit"
+        },
+        "cell_1_1": {
+          "kind": "ITEM",
+          "id": "ad_astra:oxygen_gear"
+        },
+        "cell_2_0": {
+          "kind": "ITEM",
+          "id": "tfmg:rubber_sheet"
+        },
+        "cell_2_1": {
+          "kind": "ITEM",
+          "id": "create:netherite_backtank"
+        },
+        "cell_2_2": {
+          "kind": "ITEM",
+          "id": "tfmg:rubber_sheet"
+        },
+        "cell_3_0": {
+          "kind": "ITEM",
+          "id": "rocketnautics:titanium_nozzle"
+        },
+        "cell_3_2": {
+          "kind": "ITEM",
+          "id": "rocketnautics:titanium_nozzle"
+        },
+        "cell_4_1": {
+          "kind": "ITEM",
+          "id": "rocketnautics:titanium_alloy_sheet"
+        },
+        "output": {
+          "kind": "ITEM",
+          "id": "rocketnautics:jetpack"
+        }
+      },
+      "params": {
+        "gridW": "3",
+        "gridH": "5"
+      }
+    }
+  ],
+  "removals": []
+}

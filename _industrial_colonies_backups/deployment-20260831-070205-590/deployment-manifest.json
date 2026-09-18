@@ -1,0 +1,217 @@
+{
+  "schema": 1,
+  "completed_at": "2026-08-31T07:02:06.5053443-04:00",
+  "project_root": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies",
+  "live_pack_root": "C:\\Users\\GodPC\\curseforge\\minecraft\\Instances\\All in one",
+  "project_jar_sha256": "19EF05139A877A4291661BE898AE982A1D84B636D70B1B733F0C69EFE9CDF3C5",
+  "owned_server_scripts": 41,
+  "owned_client_scripts": 8,
+  "owned_ftbquests_files": 4,
+  "recipe_stage_mappings": 0,
+  "changes": [
+    {
+      "Action": "Industrial Colonies mod JAR",
+      "Source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\build\\libs\\industrial_colonies-0.4.0.jar",
+      "Destination": "C:\\Users\\GodPC\\curseforge\\minecraft\\Instances\\All in one\\mods\\industrial_colonies-0.4.0.jar",
+      "Sha256": "19EF05139A877A4291661BE898AE982A1D84B636D70B1B733F0C69EFE9CDF3C5"
+    },
+    {
+      "Action": "Merged KJSGen default project",
+      "Source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\build\\generated\\kjsgen\\default.json",
+      "Destination": "C:\\Users\\GodPC\\curseforge\\minecraft\\Instances\\All in one\\kjsgen\\projects\\default.json",
+      "Sha256": "DD5F1594C7C261C143918291805EAB1602E5E3B185324DF0BC786FD3BD8E46A0"
+    },
+    {
+      "Action": "KJSGen managed-project merge baseline",
+      "Source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\build\\generated\\kjsgen\\default.managed.baseline.json",
+      "Destination": "C:\\Users\\GodPC\\curseforge\\minecraft\\Instances\\All in one\\kjsgen\\industrial_colonies_sync\\default.managed.baseline.json",
+      "Sha256": "D9701956090D5CEA9F7EA5C1C6C6908B54A12FC33E049A92142B8E1EFA3678D4"
+    },
+    {
+      "Action": "KubeJS server script",
+      "Source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\pack-scripts\\server_scripts\\industrial_ae2_me_basics.js",
+      "Destination": "C:\\Users\\GodPC\\curseforge\\minecraft\\Instances\\All in one\\kubejs\\server_scripts\\industrial_ae2_me_basics.js",
+      "Sha256": "8BB0382CCAD650BFF4087B3753D10D35A18DB6A2C62A8AB28C0C775A334B06ED"
+    },
+    {
+      "Action": "KubeJS server script",
+      "Source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\pack-scripts\\server_scripts\\industrial_ae2_processor_construction.js",
+      "Destination": "C:\\Users\\GodPC\\curseforge\\minecraft\\Instances\\All in one\\kubejs\\server_scripts\\industrial_ae2_processor_construction.js",
+      "Sha256": "14F1F544685261B9C6250C7DE93616A736CD195B165FCCAAB21B1EF3D6AF2429"
+    },
+    {
+      "Action": "KubeJS server script",
+      "Source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\pack-scripts\\server_scripts\\industrial_computercraft_hardware.js",
+      "Destination": "C:\\Users\\GodPC\\curseforge\\minecraft\\Instances\\All in one\\kubejs\\server_scripts\\industrial_computercraft_hardware.js",
+      "Sha256": "1710E36A873BB8E989A9D268AFBB1AFF92BA1EECAC589D6D49AC3C947953A3DC"
+    },
+    {
+      "Action": "KubeJS server script",
+      "Source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\pack-scripts\\server_scripts\\industrial_early_electricity_construction.js",
+      "Destination": "C:\\Users\\GodPC\\curseforge\\minecraft\\Instances\\All in one\\kubejs\\server_scripts\\industrial_early_electricity_construction.js",
+      "Sha256": "3392B2E80379245DDDD028F788C3E921B04723D9A19D1A53DCBB5E8F558A2D52"
+    },
+    {
+      "Action": "KubeJS server script",
+      "Source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\pack-scripts\\server_scripts\\industrial_electronics_progression.js",
+      "Destination": "C:\\Users\\GodPC\\curseforge\\minecraft\\Instances\\All in one\\kubejs\\server_scripts\\industrial_electronics_progression.js",
+      "Sha256": "100377230EF69E77C461587969689CDBAC24915A208EAFB918497C50A7A10C0A"
+    },
+    {
+      "Action": "KubeJS server script",
+      "Source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\pack-scripts\\server_scripts\\industrial_factory_installer_progression.js",
+      "Destination": "C:\\Users\\GodPC\\curseforge\\minecraft\\Instances\\All in one\\kubejs\\server_scripts\\industrial_factory_installer_progression.js",
+      "Sha256": "A3227DD794EACE58A81147263701B0BC9B5FB816D3F7BA366440718CF0130B91"
+    },
+    {
+      "Action": "KubeJS server script",
+      "Source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\pack-scripts\\server_scripts\\industrial_grid_engineering_construction.js",
+      "Destination": "C:\\Users\\GodPC\\curseforge\\minecraft\\Instances\\All in one\\kubejs\\server_scripts\\industrial_grid_engineering_construction.js",
+      "Sha256": "D9BBBFAAEBBEBBC072099C68A0C59260568D6419F632F2FC4683DCEF92CD62AD"
+    },
+    {
+      "Action": "KubeJS server script",
+      "Source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\pack-scripts\\server_scripts\\industrial_machine_construction_01.js",
+      "Destination": "C:\\Users\\GodPC\\curseforge\\minecraft\\Instances\\All in one\\kubejs\\server_scripts\\industrial_machine_construction_01.js",
+      "Sha256": "B98725717D5BF2ED7B92618970C2DFA2B34FB06BE2A80DB604B3A56953DEABF0"
+    },
+    {
+      "Action": "KubeJS server script",
+      "Source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\pack-scripts\\server_scripts\\industrial_machine_construction_02.js",
+      "Destination": "C:\\Users\\GodPC\\curseforge\\minecraft\\Instances\\All in one\\kubejs\\server_scripts\\industrial_machine_construction_02.js",
+      "Sha256": "7A2DCA4E958C3E3F72D3174749E25BCDB7078F18E0AAF2F3882C14665A5E42D6"
+    },
+    {
+      "Action": "KubeJS server script",
+      "Source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\pack-scripts\\server_scripts\\industrial_machine_construction_03.js",
+      "Destination": "C:\\Users\\GodPC\\curseforge\\minecraft\\Instances\\All in one\\kubejs\\server_scripts\\industrial_machine_construction_03.js",
+      "Sha256": "53BB438DA8F23F5F76F5A6C031521DF49D3BDCAC518A5ED471EA2C57738044B0"
+    },
+    {
+      "Action": "KubeJS server script",
+      "Source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\pack-scripts\\server_scripts\\industrial_machine_construction_04.js",
+      "Destination": "C:\\Users\\GodPC\\curseforge\\minecraft\\Instances\\All in one\\kubejs\\server_scripts\\industrial_machine_construction_04.js",
+      "Sha256": "CFEA4BFEDBC34BA3C0223561118530A3384A8BC615B880327C4C5CC60F3ED881"
+    },
+    {
+      "Action": "KubeJS server script",
+      "Source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\pack-scripts\\server_scripts\\industrial_machine_construction_05.js",
+      "Destination": "C:\\Users\\GodPC\\curseforge\\minecraft\\Instances\\All in one\\kubejs\\server_scripts\\industrial_machine_construction_05.js",
+      "Sha256": "899A4290D1605109B30E99D3B8FCCBEBCA33AEC5886AF487B511D6D442182073"
+    },
+    {
+      "Action": "KubeJS server script",
+      "Source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\pack-scripts\\server_scripts\\industrial_machine_construction_06.js",
+      "Destination": "C:\\Users\\GodPC\\curseforge\\minecraft\\Instances\\All in one\\kubejs\\server_scripts\\industrial_machine_construction_06.js",
+      "Sha256": "C238AEF64D2617F632C67BC12C235B38C984E16CC88760B4C0FFC41147866931"
+    },
+    {
+      "Action": "KubeJS server script",
+      "Source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\pack-scripts\\server_scripts\\industrial_machine_retirement_01.js",
+      "Destination": "C:\\Users\\GodPC\\curseforge\\minecraft\\Instances\\All in one\\kubejs\\server_scripts\\industrial_machine_retirement_01.js",
+      "Sha256": "8A53E038D2D1B18BC900D51A09F68E759F9E25020872A0ED185397C69B65818C"
+    },
+    {
+      "Action": "KubeJS server script",
+      "Source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\pack-scripts\\server_scripts\\industrial_mekanism_physical_progression.js",
+      "Destination": "C:\\Users\\GodPC\\curseforge\\minecraft\\Instances\\All in one\\kubejs\\server_scripts\\industrial_mekanism_physical_progression.js",
+      "Sha256": "4791C3FEB9A26C1515856A2748C4556AEA7F7902777F6B55A4B9DE3DAF1FE630"
+    },
+    {
+      "Action": "KubeJS server script",
+      "Source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\pack-scripts\\server_scripts\\industrial_nuclear_actinides_01.js",
+      "Destination": "C:\\Users\\GodPC\\curseforge\\minecraft\\Instances\\All in one\\kubejs\\server_scripts\\industrial_nuclear_actinides_01.js",
+      "Sha256": "DB2256A556D90FD0CD76781643EB9CAE4C14167DB61F4E9D2B6A3487AA0C0705"
+    },
+    {
+      "Action": "KubeJS server script",
+      "Source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\pack-scripts\\server_scripts\\industrial_nuclear_advanced_fuel_01.js",
+      "Destination": "C:\\Users\\GodPC\\curseforge\\minecraft\\Instances\\All in one\\kubejs\\server_scripts\\industrial_nuclear_advanced_fuel_01.js",
+      "Sha256": "D2FD86D6329DC16456431FA41908D5671F1743EF24380C32B4B9C10542F848F6"
+    },
+    {
+      "Action": "KubeJS server script",
+      "Source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\pack-scripts\\server_scripts\\industrial_nuclear_construction_01.js",
+      "Destination": "C:\\Users\\GodPC\\curseforge\\minecraft\\Instances\\All in one\\kubejs\\server_scripts\\industrial_nuclear_construction_01.js",
+      "Sha256": "0157FA58C63E49F670F8C085461690151C9E4387EF04F1A7B4A02A04EC932245"
+    },
+    {
+      "Action": "KubeJS server script",
+      "Source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\pack-scripts\\server_scripts\\industrial_nuclear_construction_02.js",
+      "Destination": "C:\\Users\\GodPC\\curseforge\\minecraft\\Instances\\All in one\\kubejs\\server_scripts\\industrial_nuclear_construction_02.js",
+      "Sha256": "DD3A551E38FE1377F7BE2911C2DE23221C0649122EE441AA9A8219FC6BFAADB0"
+    },
+    {
+      "Action": "KubeJS server script",
+      "Source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\pack-scripts\\server_scripts\\industrial_nuclear_construction_03.js",
+      "Destination": "C:\\Users\\GodPC\\curseforge\\minecraft\\Instances\\All in one\\kubejs\\server_scripts\\industrial_nuclear_construction_03.js",
+      "Sha256": "031C1244329C0CE95A98C4F0839EA54BCB3C51026328825AFD2136173E0C2C7B"
+    },
+    {
+      "Action": "KubeJS server script",
+      "Source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\pack-scripts\\server_scripts\\industrial_nuclear_construction_04.js",
+      "Destination": "C:\\Users\\GodPC\\curseforge\\minecraft\\Instances\\All in one\\kubejs\\server_scripts\\industrial_nuclear_construction_04.js",
+      "Sha256": "0D4AC37D829FE8D54AE48C84FDC5A766493FE9667D7B1C67D892B2B2B535CAF0"
+    },
+    {
+      "Action": "KubeJS server script",
+      "Source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\pack-scripts\\server_scripts\\industrial_nuclear_plutonium_01.js",
+      "Destination": "C:\\Users\\GodPC\\curseforge\\minecraft\\Instances\\All in one\\kubejs\\server_scripts\\industrial_nuclear_plutonium_01.js",
+      "Sha256": "ED78DF628F44292042B77606A8AE23F7FE821439CEAED30008AE451537AC2DEF"
+    },
+    {
+      "Action": "KubeJS server script",
+      "Source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\pack-scripts\\server_scripts\\industrial_nuclear_reprocessing_01.js",
+      "Destination": "C:\\Users\\GodPC\\curseforge\\minecraft\\Instances\\All in one\\kubejs\\server_scripts\\industrial_nuclear_reprocessing_01.js",
+      "Sha256": "DE2715E06C22896A2D58EC3816F44F69318050559E1A2113E64685B5EED84E9A"
+    },
+    {
+      "Action": "KubeJS server script",
+      "Source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\pack-scripts\\server_scripts\\industrial_oil_field_construction.js",
+      "Destination": "C:\\Users\\GodPC\\curseforge\\minecraft\\Instances\\All in one\\kubejs\\server_scripts\\industrial_oil_field_construction.js",
+      "Sha256": "ADC1ED3EA31F857D4B83C77F240A01C52A0130E729C2EDF409B3F7D970199BE2"
+    },
+    {
+      "Action": "KubeJS server script",
+      "Source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\pack-scripts\\server_scripts\\industrial_tier_installer_construction.js",
+      "Destination": "C:\\Users\\GodPC\\curseforge\\minecraft\\Instances\\All in one\\kubejs\\server_scripts\\industrial_tier_installer_construction.js",
+      "Sha256": "DC0FEB1F3E7A2A345EB995781D3C05010B3B42458F4E2204DA88F6679C7BC23A"
+    },
+    {
+      "Action": "KubeJS server script",
+      "Source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\pack-scripts\\server_scripts\\industrial_uranium_yellorium_separation.js",
+      "Destination": "C:\\Users\\GodPC\\curseforge\\minecraft\\Instances\\All in one\\kubejs\\server_scripts\\industrial_uranium_yellorium_separation.js",
+      "Sha256": "6805C3E3F216C269105C26B1BF91E9C2799497ABBEBE844EAF46A3A09A1BF7AC"
+    },
+    {
+      "Action": "KubeJS client script",
+      "Source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\pack-scripts\\client_scripts\\industrial_machine_retirement_viewer_cleanup.js",
+      "Destination": "C:\\Users\\GodPC\\curseforge\\minecraft\\Instances\\All in one\\kubejs\\client_scripts\\industrial_machine_retirement_viewer_cleanup.js",
+      "Sha256": "9C0DD1F56AC606CD0250C903D56AE86ED7C8DC1740271F9E5FFBDB6BD5638346"
+    },
+    {
+      "Action": "Create Applied Kinetics Inscriber compatibility config",
+      "Source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\pack-config-overrides\\createappliedkinetics-common.toml",
+      "Destination": "C:\\Users\\GodPC\\curseforge\\minecraft\\Instances\\All in one\\config\\createappliedkinetics-common.toml",
+      "Sha256": "6384423BC35409DDBA14C5B3477E5B66DD6DDBDFB0F1DEC33A867A2ECAA4518B"
+    },
+    {
+      "Action": "FTB Quests capstone data",
+      "Source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\pack-config-overrides\\ftbquests\\quests\\chapter_groups.snbt",
+      "Destination": "C:\\Users\\GodPC\\curseforge\\minecraft\\Instances\\All in one\\config\\ftbquests\\quests\\chapter_groups.snbt",
+      "Sha256": "DCEFA23F7441409DB799365BAC250DC2418800A7B7468B15984C2C866F0CB4CD"
+    },
+    {
+      "Action": "FTB Quests capstone data",
+      "Source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\pack-config-overrides\\ftbquests\\quests\\chapters\\industrial_progression.snbt",
+      "Destination": "C:\\Users\\GodPC\\curseforge\\minecraft\\Instances\\All in one\\config\\ftbquests\\quests\\chapters\\industrial_progression.snbt",
+      "Sha256": "DB8A8AE0D8003C1ECEEBDEA686161C83001EA32D918819FDF1B5AB6679028FF3"
+    },
+    {
+      "Action": "FTB Quests capstone data",
+      "Source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\pack-config-overrides\\ftbquests\\quests\\data.snbt",
+      "Destination": "C:\\Users\\GodPC\\curseforge\\minecraft\\Instances\\All in one\\config\\ftbquests\\quests\\data.snbt",
+      "Sha256": "18C6F7059B8365F4365A26FB13E5ADD54F19DDDD65B34BAEB90F02D025C6DD19"
+    }
+  ]
+}

@@ -1,0 +1,279 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "rsquare"
+	filename: "mekanized_industry"
+	group: ""
+	id: "76B4195A87E371E1"
+	images: [ ]
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"72079119200F4E33"
+				"0E5BD2CFD14A633A"
+			]
+			disable_toast: true
+			icon: {
+				id: "mekanism:metallurgic_infuser"
+			}
+			id: "3113B64B7B30EA66"
+			tags: [
+				"industrial_colonies:physical_guidance"
+				"industrial_colonies:physical_guidance/phase/mekanized_industry"
+				"industrial_colonies:physical_guidance/infusion_gateway"
+			]
+			tasks: [
+				{
+					id: "3B1C013BBC581ED2"
+					item: { count: 1, id: "mekanism:metallurgic_infuser" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "7B8124BFB2301B04"
+					item: { count: 1, id: "mekanism:basic_control_circuit" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3113B64B7B30EA66"]
+			disable_toast: true
+			icon: {
+				id: "tfmg:steel_frame"
+			}
+			id: "3885F77B7EE24658"
+			tags: [
+				"industrial_colonies:physical_guidance"
+				"industrial_colonies:physical_guidance/phase/mekanized_industry"
+				"industrial_colonies:physical_guidance/modular_chassis"
+			]
+			tasks: [
+				{
+					count: 2L
+					id: "2DC81741BE7A7EFF"
+					item: { count: 1, id: "tfmg:steel_frame" }
+					type: "item"
+				}
+				{
+					id: "07CEE9ED7F5F973E"
+					item: { count: 1, id: "mekanism:basic_tier_installer" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3885F77B7EE24658"]
+			disable_toast: true
+			icon: {
+				id: "mekanism:enrichment_chamber"
+			}
+			id: "30A64C03E787CFC4"
+			tags: [
+				"industrial_colonies:physical_guidance"
+				"industrial_colonies:physical_guidance/phase/mekanized_industry"
+				"industrial_colonies:physical_guidance/base_processing_cluster"
+			]
+			tasks: [
+				{
+					id: "7A25992F3C5892A7"
+					item: { count: 1, id: "mekanism:enrichment_chamber" }
+					type: "item"
+				}
+				{
+					id: "2D70F00B89F0AF27"
+					item: { count: 1, id: "mekanism:osmium_compressor" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["30A64C03E787CFC4"]
+			disable_toast: true
+			icon: {
+				id: "mekanism:basic_enriching_factory"
+			}
+			id: "23C1566E5ACD3D87"
+			tags: [
+				"industrial_colonies:physical_guidance"
+				"industrial_colonies:physical_guidance/phase/mekanized_industry"
+				"industrial_colonies:physical_guidance/first_basic_factory"
+			]
+			tasks: [
+				{
+					id: "5B459229AFDE9610"
+					item: { count: 1, id: "mekanism:basic_enriching_factory" }
+					type: "item"
+				}
+				{
+					id: "17B5D913439C1F73"
+					item: { count: 1, id: "mekanism:enrichment_chamber" }
+					type: "item"
+				}
+				{
+					id: "037C824EEBD2C819"
+					item: { count: 1, id: "mekanism:basic_tier_installer" }
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["3885F77B7EE24658"]
+			disable_toast: true
+			icon: {
+				id: "mekanism:basic_universal_cable"
+			}
+			id: "0D141D97AAAB427E"
+			tags: [
+				"industrial_colonies:physical_guidance"
+				"industrial_colonies:physical_guidance/phase/mekanized_industry"
+				"industrial_colonies:physical_guidance/basic_transmitter_suite"
+			]
+			tasks: [
+				{
+					count: 8L
+					id: "35E5C6A7623F8CDB"
+					item: { count: 1, id: "mekanism:basic_universal_cable" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "7F1986684C4EA0E0"
+					item: { count: 1, id: "mekanism:basic_logistical_transporter" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "0688DCF5642A690A"
+					item: { count: 1, id: "mekanism:basic_pressurized_tube" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "3896A12C89B91A2C"
+					item: { count: 1, id: "mekanism:basic_thermodynamic_conductor" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"3113B64B7B30EA66"
+				"61A18A651CB4E6B3"
+			]
+			disable_toast: true
+			icon: {
+				id: "mekanism:advanced_control_circuit"
+			}
+			id: "5887BC446874E157"
+			tags: [
+				"industrial_colonies:physical_guidance"
+				"industrial_colonies:physical_guidance/phase/mekanized_industry"
+				"industrial_colonies:physical_guidance/reinforced_controls"
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "703313B27B47471F"
+					item: { count: 1, id: "mekanism:advanced_control_circuit" }
+					type: "item"
+				}
+				{
+					id: "739F9B7C5566B529"
+					item: { count: 1, id: "mekanism:advanced_tier_installer" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "5D4791CB7DD8DF55"
+					item: { count: 1, id: "ae2:calculation_processor" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"30A64C03E787CFC4"
+				"5887BC446874E157"
+			]
+			disable_toast: true
+			icon: {
+				id: "mekanism:electrolytic_separator"
+			}
+			id: "031A13099A48BFAF"
+			tags: [
+				"industrial_colonies:physical_guidance"
+				"industrial_colonies:physical_guidance/phase/mekanized_industry"
+				"industrial_colonies:physical_guidance/electrochemical_services"
+			]
+			tasks: [
+				{
+					id: "3E244A1F23A9B4FB"
+					item: { count: 1, id: "mekanism:electrolytic_separator" }
+					type: "item"
+				}
+				{
+					id: "23A65B19F233682F"
+					item: { count: 1, id: "mekanism:pressurized_reaction_chamber" }
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "4B9193706B42EB3A"
+					item: { count: 1, id: "mekanism:hdpe_pellet" }
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"5887BC446874E157"
+				"6D8FEEBB98B4136F"
+			]
+			disable_toast: true
+			icon: {
+				id: "ae2:pattern_encoding_terminal"
+			}
+			id: "0A35292A559B2318"
+			tags: [
+				"industrial_colonies:physical_guidance"
+				"industrial_colonies:physical_guidance/phase/mekanized_industry"
+				"industrial_colonies:physical_guidance/pattern_automation"
+			]
+			tasks: [
+				{
+					id: "1B5DCC9F9790348F"
+					item: { count: 1, id: "ae2:pattern_encoding_terminal" }
+					type: "item"
+				}
+				{
+					id: "74591DECBD868E5E"
+					item: { count: 1, id: "ae2:pattern_provider" }
+					type: "item"
+				}
+				{
+					id: "367C5F6C8F641596"
+					item: { count: 1, id: "ae2:16k_crafting_storage" }
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: 2.0d
+		}
+	]
+}

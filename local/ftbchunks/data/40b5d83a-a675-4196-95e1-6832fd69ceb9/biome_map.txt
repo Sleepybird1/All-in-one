@@ -1,0 +1,9 @@
+#008 minecraft:desert
+#4CA minecraft:dripstone_caves
+#053 regions_unexplored:flower_fields
+#744 regions_unexplored:joshua_desert
+#28D minecraft:mangrove_swamp
+#769 regions_unexplored:marsh
+#5FF minecraft:river
+#108 regions_unexplored:saguaro_desert
+#5F8 regions_unexplored:willow_forest

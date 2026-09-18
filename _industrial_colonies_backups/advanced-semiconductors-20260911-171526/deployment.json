@@ -1,0 +1,162 @@
+{
+  "status": "APPLIED",
+  "revision": "r3",
+  "files": {
+    "kjsgen/projects/default.json": {
+      "before": "f65f4534c4a8fe34a602547bcd1a9a02ac0b06fa02c130faa7c9f04017e34038",
+      "after": "4f4639a055d7a2527237d3e9f6313453f4a38a88b47314f6a7808307b76ca78e"
+    },
+    "kubejs/server_scripts/kjsgen_recipes.js": {
+      "before": "23bcdd1197e814e8a51600f64a6f5037ff6514b2b916d24910fc6337ce5472f0",
+      "after": "8156d3d19d2b90b12815acb6ae24c48b93fd062a8743cc384240ef478e570aae"
+    },
+    "kubejs/server_scripts/zzzz_industrial_semiconductors.js": {
+      "before": "8e78ad35ef094916a56ac5fdffbb9a92b01f604c7580ccd0b248b55cd7432bf6",
+      "after": "78405be50cb6f7159f99e50c4504cfa21685202fbed757a6757a89957fdca42d"
+    },
+    "kubejs/assets/industrial_colonies/lang/en_us.json": {
+      "before": "e39f6671726d52c661a2dfa47a6aba9ce419db5070261fe38264cc6ddb9ac236",
+      "after": "1497dcd2d6b20b49dfc04371c50795c9f97393cce195663dda1eb31bb7108e86"
+    },
+    "kubejs/assets/tfmg/lang/en_us.json": {
+      "before": null,
+      "after": "f9d13dbec22f36e6064e4203d4594326b8c8feeca267e8d73d9eb919dbe1674c"
+    },
+    "kubejs/data/modernfoundry/worldgen/structure_set/overworld_ocean_island.json": {
+      "before": null,
+      "after": "82be9bef00c8b78beb802742624900ce7b40ff37bf8ba8beaf72c94354599407"
+    },
+    "kubejs/data/modernfoundry/worldgen/structure_set/overworld_sky_island.json": {
+      "before": null,
+      "after": "a5107c7ea27284eadb884e1028cf56b5cf071b991790ac48b0f0a0849b8760b0"
+    },
+    "kubejs/data/minecolonies/worldgen/structure_set/ship.json": {
+      "before": null,
+      "after": "39d296d36c93f35b3c9bda8e41b9ed7c924c329d83754c161f3b5a405ea78128"
+    },
+    "kubejs/data/block_factorys_bosses/worldgen/structure_set/kraken_ship.json": {
+      "before": null,
+      "after": "682b69269384fe06e278519d403963eee7fb3480bc5d6cc57693245d5d55c85e"
+    },
+    "kubejs/data/irons_spellbooks/worldgen/structure_set/impaled_icebreaker.json": {
+      "before": null,
+      "after": "da6e04a4f7aa78e16d46346a64365ee48702ca0a2c020c5135c8e2faa007a27e"
+    },
+    "kubejs/data/industrial_colonies/worldgen/structure_set/rare_maritime_sites.json": {
+      "before": null,
+      "after": "66eb993878ed6418d85a17a325e102e8628c0b1e093571dc8742d6fd418b9750"
+    },
+    "kubejs/data/block_factorys_bosses/tags/worldgen/biome/dragon_tower.json": {
+      "before": null,
+      "after": "29ce007197f1de89c4f519bd5796f473c07915c2fba8f4da46acc792cec2b9a8"
+    },
+    "kubejs/data/industrial_colonies/tags/worldgen/biome/disabled_jungle_villages.json": {
+      "before": null,
+      "after": "da190105bc91c8d1370b26d87d4f0cb2ec06a05355fdcd05590b56766c908589"
+    },
+    "kubejs/data/ctov/worldgen/structure/small/village_jungle.json": {
+      "before": null,
+      "after": "827dc2752d0d6d036cab6d0b4ee8e1628ad11f3afc342c817c3c418657b963c3"
+    },
+    "kubejs/data/ctov/worldgen/structure/small/village_jungle_tree.json": {
+      "before": null,
+      "after": "c39f939a5cc618cf2ae23fbd0fbe503f14083b0c8b65c2a25458e35853696768"
+    },
+    "kubejs/data/ctov/worldgen/structure/medium/village_jungle.json": {
+      "before": null,
+      "after": "db2ed0c5eff5fa22580742496518b9f77c49beb62edc8f7617209c9192985580"
+    },
+    "kubejs/data/ctov/worldgen/structure/medium/village_jungle_tree.json": {
+      "before": null,
+      "after": "ae066f8eeaed7b4d4505ff2e3e6a2a576bf1057651c0fbdd74afc752d593e41e"
+    },
+    "kubejs/data/ctov/worldgen/structure/large/village_jungle.json": {
+      "before": null,
+      "after": "e41d1e39e4cb1b6627445b07feb15f6ea87b162839c1721a2400a07addcda8e9"
+    },
+    "kubejs/data/ctov/worldgen/structure/large/village_jungle_tree.json": {
+      "before": null,
+      "after": "9dc1722b55f5c00c4621f2683885149fd3a1141526be88a9f74798f1b5a6f056"
+    },
+    "kubejs/data/ad_astra/tags/entity_type/can_survive_in_space.json": {
+      "before": null,
+      "after": "6bf921ca01059a8116841d648f163e83163553c4b2bb847fa26d0a7c91d7cfeb"
+    },
+    "kubejs/data/ad_astra/tags/entity_type/can_survive_extreme_heat.json": {
+      "before": null,
+      "after": "6bf921ca01059a8116841d648f163e83163553c4b2bb847fa26d0a7c91d7cfeb"
+    },
+    "kubejs/data/ad_astra/tags/entity_type/can_survive_in_acid_rain.json": {
+      "before": null,
+      "after": "6bf921ca01059a8116841d648f163e83163553c4b2bb847fa26d0a7c91d7cfeb"
+    },
+    "kubejs/data/ad_astra/tags/entity_type/lives_without_oxygen.json": {
+      "before": null,
+      "after": "6bf921ca01059a8116841d648f163e83163553c4b2bb847fa26d0a7c91d7cfeb"
+    },
+    "kubejs/data/stellaris/tags/entity_type/no_oxygen_needed.json": {
+      "before": null,
+      "after": "6bf921ca01059a8116841d648f163e83163553c4b2bb847fa26d0a7c91d7cfeb"
+    },
+    "kubejs/data/block_factorys_bosses/loot_table/chests/dragon_tower_common.json": {
+      "before": null,
+      "after": "7c0c4d5c012bce020185bee4f47f88add069974fd5459dd2f037840f8551e12e"
+    },
+    "kubejs/data/block_factorys_bosses/loot_table/chests/dragon_tower.json": {
+      "before": null,
+      "after": "9f4a00bdf82e37006c568f703d60931e00416eb22130893b860fcfe944cf1229"
+    },
+    "kubejs/data/block_factorys_bosses/loot_table/entities/infernal_dragon.json": {
+      "before": null,
+      "after": "bf0b5a82001a488cae2080db5abf0796604a0a0c293ad07187d06828c0843c64"
+    },
+    "config/ctov-common.toml": {
+      "before": "83e175ed1b88c7cd35d0892e4fcef07efc99105c0c512cb7bdce7154e9f73d78",
+      "after": "2c0654454a476aacf2f9ccfe5dfbea063e7538f105dfade02249e5edad061e68"
+    },
+    "mods/industrial_colonies-0.5.2.jar": {
+      "before": "d1a60ce6f8869b7c1197eae9d0d2879b8599a38bc34c064d878475e8594efa2e",
+      "after": null
+    },
+    "mods/industrial_colonies-0.5.3.jar": {
+      "before": null,
+      "after": "742db6d9890b17c47b6d2c0c029ec93cb66e15477e9436f48605df23c2991f17"
+    }
+  },
+  "savesTouched": false,
+  "restartRequired": true,
+  "backup": "C:\\Users\\GodPC\\curseforge\\minecraft\\Instances\\All in one\\_industrial_colonies_backups\\advanced-semiconductors-20260911-171526",
+  "written": [
+    "kjsgen/projects/default.json",
+    "kubejs/server_scripts/kjsgen_recipes.js",
+    "kubejs/server_scripts/zzzz_industrial_semiconductors.js",
+    "kubejs/assets/industrial_colonies/lang/en_us.json",
+    "kubejs/assets/tfmg/lang/en_us.json",
+    "kubejs/data/modernfoundry/worldgen/structure_set/overworld_ocean_island.json",
+    "kubejs/data/modernfoundry/worldgen/structure_set/overworld_sky_island.json",
+    "kubejs/data/minecolonies/worldgen/structure_set/ship.json",
+    "kubejs/data/block_factorys_bosses/worldgen/structure_set/kraken_ship.json",
+    "kubejs/data/irons_spellbooks/worldgen/structure_set/impaled_icebreaker.json",
+    "kubejs/data/industrial_colonies/worldgen/structure_set/rare_maritime_sites.json",
+    "kubejs/data/block_factorys_bosses/tags/worldgen/biome/dragon_tower.json",
+    "kubejs/data/industrial_colonies/tags/worldgen/biome/disabled_jungle_villages.json",
+    "kubejs/data/ctov/worldgen/structure/small/village_jungle.json",
+    "kubejs/data/ctov/worldgen/structure/small/village_jungle_tree.json",
+    "kubejs/data/ctov/worldgen/structure/medium/village_jungle.json",
+    "kubejs/data/ctov/worldgen/structure/medium/village_jungle_tree.json",
+    "kubejs/data/ctov/worldgen/structure/large/village_jungle.json",
+    "kubejs/data/ctov/worldgen/structure/large/village_jungle_tree.json",
+    "kubejs/data/ad_astra/tags/entity_type/can_survive_in_space.json",
+    "kubejs/data/ad_astra/tags/entity_type/can_survive_extreme_heat.json",
+    "kubejs/data/ad_astra/tags/entity_type/can_survive_in_acid_rain.json",
+    "kubejs/data/ad_astra/tags/entity_type/lives_without_oxygen.json",
+    "kubejs/data/stellaris/tags/entity_type/no_oxygen_needed.json",
+    "kubejs/data/block_factorys_bosses/loot_table/chests/dragon_tower_common.json",
+    "kubejs/data/block_factorys_bosses/loot_table/chests/dragon_tower.json",
+    "kubejs/data/block_factorys_bosses/loot_table/entities/infernal_dragon.json",
+    "config/ctov-common.toml",
+    "mods/industrial_colonies-0.5.2.jar",
+    "mods/industrial_colonies-0.5.3.jar"
+  ],
+  "appliedAt": "2026-09-11T17:15:27.381369-04:00"
+}

@@ -1,0 +1,1612 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "rsquare"
+	filename: "industrial_progression"
+	group: ""
+	id: "5EAE8C019077D7EF"
+	images: [ ]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			disable_toast: true
+			icon: {
+				id: "create:andesite_alloy"
+			}
+			id: "625D16A6F0BE5454"
+			tags: [
+				"industrial_colonies:minecolonies_mirror"
+				"industrial_colonies:mechanical_foundations/cr01_we_dont_read_manuals"
+			]
+			tasks: [{
+				id: "11BAAB4113A0D226"
+				stage: "industrial_colonies:mechanical_foundations/cr01_we_dont_read_manuals"
+				team_stage: true
+				type: "gamestage"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["625D16A6F0BE5454"]
+			disable_toast: true
+			icon: {
+				id: "create:water_wheel"
+			}
+			id: "1783E3A41FAB7218"
+			tags: [
+				"industrial_colonies:minecolonies_mirror"
+				"industrial_colonies:mechanical_foundations/the_andesite_age"
+			]
+			tasks: [{
+				id: "5C992BA67A88779E"
+				stage: "industrial_colonies:mechanical_foundations/the_andesite_age"
+				team_stage: true
+				type: "gamestage"
+			}]
+			x: 3.725d
+			y: 0.0d
+		}
+		{
+			dependencies: ["66FEF2337907F6EF"]
+			disable_toast: true
+			icon: {
+				id: "create:fluid_pipe"
+			}
+			id: "37C052361C9A2CDD"
+			tags: [
+				"industrial_colonies:minecolonies_mirror"
+				"industrial_colonies:mechanical_foundations/cr01_liquid_tech"
+			]
+			tasks: [{
+				id: "732D47A985FDC792"
+				stage: "industrial_colonies:mechanical_foundations/cr01_liquid_tech"
+				team_stage: true
+				type: "gamestage"
+			}]
+			x: 7.483333d
+			y: -1.008333d
+		}
+		{
+			dependencies: ["1783E3A41FAB7218"]
+			disable_toast: true
+			icon: {
+				id: "create:brass_ingot"
+			}
+			id: "66FEF2337907F6EF"
+			tags: [
+				"industrial_colonies:minecolonies_mirror"
+				"industrial_colonies:mechanical_foundations/the_brass_age"
+			]
+			tasks: [{
+				id: "103A82B11DE1CE3B"
+				stage: "industrial_colonies:mechanical_foundations/the_brass_age"
+				team_stage: true
+				type: "gamestage"
+			}]
+			x: 7.483333d
+			y: 0.0d
+		}
+		{
+			dependencies: ["66FEF2337907F6EF"]
+			disable_toast: true
+			icon: {
+				id: "create:millstone"
+			}
+			id: "7B34F0831EFFABEB"
+			tags: [
+				"industrial_colonies:minecolonies_mirror"
+				"industrial_colonies:mechanical_foundations/cr01_mechanical_technology"
+			]
+			tasks: [{
+				id: "45FAD48BF8DEEBB5"
+				stage: "industrial_colonies:mechanical_foundations/cr01_mechanical_technology"
+				team_stage: true
+				type: "gamestage"
+			}]
+			x: 7.483333d
+			y: 1.016667d
+		}
+		{
+			dependencies: ["7B34F0831EFFABEB"]
+			disable_toast: true
+			icon: {
+				id: "create:content_observer"
+			}
+			id: "5B1FBF8FB77CAA80"
+			tags: [
+				"industrial_colonies:minecolonies_mirror"
+				"industrial_colonies:mechanical_foundations/cr01_advanced_redstone"
+			]
+			tasks: [{
+				id: "521AC12C0D021062"
+				stage: "industrial_colonies:mechanical_foundations/cr01_advanced_redstone"
+				team_stage: true
+				type: "gamestage"
+			}]
+			x: 7.483333d
+			y: 2.033333d
+		}
+		{
+			dependencies: ["3F73DB5CE5F7ABFB"]
+			disable_toast: true
+			icon: {
+				id: "create:item_vault"
+			}
+			id: "2FF29E2214451BCE"
+			tags: [
+				"industrial_colonies:minecolonies_mirror"
+				"industrial_colonies:mechanical_foundations/cr01_advanced_storage_technology"
+			]
+			tasks: [{
+				id: "24251A4E8163554B"
+				stage: "industrial_colonies:mechanical_foundations/cr01_advanced_storage_technology"
+				team_stage: true
+				type: "gamestage"
+			}]
+			x: 10.958333d
+			y: -2.891667d
+		}
+		{
+			dependencies: ["37C052361C9A2CDD"]
+			disable_toast: true
+			icon: {
+				id: "create:depot"
+			}
+			id: "3F73DB5CE5F7ABFB"
+			tags: [
+				"industrial_colonies:minecolonies_mirror"
+				"industrial_colonies:mechanical_foundations/cr01_storage_technology"
+			]
+			tasks: [{
+				id: "364BB142588957D2"
+				stage: "industrial_colonies:mechanical_foundations/cr01_storage_technology"
+				team_stage: true
+				type: "gamestage"
+			}]
+			x: 10.958333d
+			y: -1.008333d
+		}
+		{
+			dependencies: ["7B34F0831EFFABEB"]
+			disable_toast: true
+			icon: {
+				id: "create:deployer"
+			}
+			id: "09CB56BDF35C0DA7"
+			tags: [
+				"industrial_colonies:minecolonies_mirror"
+				"industrial_colonies:mechanical_foundations/cr01_advanced_mechanical_technology"
+			]
+			tasks: [{
+				id: "75313BF59998C682"
+				stage: "industrial_colonies:mechanical_foundations/cr01_advanced_mechanical_technology"
+				team_stage: true
+				type: "gamestage"
+			}]
+			x: 10.958333d
+			y: 1.016667d
+		}
+		{
+			dependencies: ["648464C64D9BF279"]
+			disable_toast: true
+			icon: {
+				id: "create:cart_assembler"
+			}
+			id: "60DA1AFE63555598"
+			tags: [
+				"industrial_colonies:minecolonies_mirror"
+				"industrial_colonies:steam_and_rail/cr01_cart_technology"
+			]
+			tasks: [{
+				id: "314AFB9B206BF22E"
+				stage: "industrial_colonies:steam_and_rail/cr01_cart_technology"
+				team_stage: true
+				type: "gamestage"
+			}]
+			x: 14.433333d
+			y: -2.891667d
+		}
+		{
+			dependencies: ["11E94AB48D2B6DEF"]
+			disable_toast: true
+			icon: {
+				id: "create:track"
+			}
+			id: "648464C64D9BF279"
+			tags: [
+				"industrial_colonies:minecolonies_mirror"
+				"industrial_colonies:steam_and_rail/cr01_train_power"
+			]
+			tasks: [{
+				id: "327AC2E5E6EF8014"
+				stage: "industrial_colonies:steam_and_rail/cr01_train_power"
+				team_stage: true
+				type: "gamestage"
+			}]
+			x: 14.433333d
+			y: -1.95d
+		}
+		{
+			dependencies: ["3F73DB5CE5F7ABFB"]
+			disable_toast: true
+			icon: {
+				id: "create:steam_engine"
+			}
+			id: "11E94AB48D2B6DEF"
+			tags: [
+				"industrial_colonies:minecolonies_mirror"
+				"industrial_colonies:steam_and_rail/cr01_steam_power"
+			]
+			tasks: [{
+				id: "4DD0950CA0C9A483"
+				stage: "industrial_colonies:steam_and_rail/cr01_steam_power"
+				team_stage: true
+				type: "gamestage"
+			}]
+			x: 14.433333d
+			y: -1.008333d
+		}
+		{
+			dependencies: ["09CB56BDF35C0DA7"]
+			disable_toast: true
+			icon: {
+				id: "create:crushing_wheel"
+			}
+			id: "713F37D5458555F0"
+			tags: [
+				"industrial_colonies:minecolonies_mirror"
+				"industrial_colonies:mechanical_foundations/cr01_early_crushing_technology"
+			]
+			tasks: [{
+				id: "6C792AE4723D9294"
+				stage: "industrial_colonies:mechanical_foundations/cr01_early_crushing_technology"
+				team_stage: true
+				type: "gamestage"
+			}]
+			x: 14.433333d
+			y: 1.016667d
+		}
+		{
+			dependencies: ["0D757F4ABB32A3EC"]
+			disable_toast: true
+			icon: {
+				id: "tfmg:surface_scanner"
+			}
+			id: "34B9BE4F0C66094C"
+			tags: [
+				"industrial_colonies:minecolonies_mirror"
+				"industrial_colonies:petroleum_and_engines/cr01_oil_processing"
+			]
+			tasks: [{
+				id: "7F45A5D94D799C90"
+				stage: "industrial_colonies:petroleum_and_engines/cr01_oil_processing"
+				team_stage: true
+				type: "gamestage"
+			}]
+			x: 17.908333d
+			y: -0.908333d
+		}
+		{
+			dependencies: [
+				"11E94AB48D2B6DEF"
+				"1959ED6A5EC7FEC0"
+				"66FEF2337907F6EF"
+			]
+			disable_toast: true
+			icon: {
+				id: "tfmg:cast_iron_ingot"
+			}
+			id: "0D757F4ABB32A3EC"
+			tags: [
+				"industrial_colonies:minecolonies_mirror"
+				"industrial_colonies:steel_and_metallurgy/cr01_the_steel_age"
+			]
+			tasks: [{
+				id: "1D032436A49234F6"
+				stage: "industrial_colonies:steel_and_metallurgy/cr01_the_steel_age"
+				team_stage: true
+				type: "gamestage"
+			}]
+			x: 17.908333d
+			y: -0.008333d
+		}
+		{
+			dependencies: ["5B1FBF8FB77CAA80"]
+			disable_toast: true
+			icon: {
+				id: "tfmg:generator"
+			}
+			id: "1959ED6A5EC7FEC0"
+			tags: [
+				"industrial_colonies:minecolonies_mirror"
+				"industrial_colonies:industrial_electronics/cr01_early_electricity_technology"
+			]
+			tasks: [{
+				id: "74F868CB0F84B994"
+				stage: "industrial_colonies:industrial_electronics/cr01_early_electricity_technology"
+				team_stage: true
+				type: "gamestage"
+			}]
+			x: 17.908333d
+			y: 2.041667d
+		}
+		{
+			dependencies: ["1959ED6A5EC7FEC0"]
+			disable_toast: true
+			icon: {
+				id: "tfmg:winding_machine"
+			}
+			id: "48527818390B92B0"
+			tags: [
+				"industrial_colonies:minecolonies_mirror"
+				"industrial_colonies:industrial_electronics/cr01_electronics_manufacturing"
+			]
+			tasks: [{
+				id: "224CC5ED0BCBAE27"
+				stage: "industrial_colonies:industrial_electronics/cr01_electronics_manufacturing"
+				team_stage: true
+				type: "gamestage"
+			}]
+			x: 17.908333d
+			y: 2.958333d
+		}
+		{
+			dependencies: [
+				"0D757F4ABB32A3EC"
+				"1959ED6A5EC7FEC0"
+			]
+			disable_toast: true
+			icon: {
+				id: "tfmg:cable_connector"
+			}
+			id: "52FB09FB8F49B97B"
+			tags: [
+				"industrial_colonies:minecolonies_mirror"
+				"industrial_colonies:electrical_grid/cr01_early_power_cables"
+			]
+			tasks: [{
+				id: "1A2C1CA9F0B1D822"
+				stage: "industrial_colonies:electrical_grid/cr01_early_power_cables"
+				team_stage: true
+				type: "gamestage"
+			}]
+			x: 21.316667d
+			y: 2.041667d
+		}
+		{
+			dependencies: ["48527818390B92B0"]
+			disable_toast: true
+			icon: {
+				id: "tfmg:resistor"
+			}
+			id: "174180E1C2E6F025"
+			tags: [
+				"industrial_colonies:minecolonies_mirror"
+				"industrial_colonies:industrial_electronics/cr01_early_circuitry"
+			]
+			tasks: [{
+				id: "64E7DFADE583795C"
+				stage: "industrial_colonies:industrial_electronics/cr01_early_circuitry"
+				team_stage: true
+				type: "gamestage"
+			}]
+			x: 21.316667d
+			y: 2.958333d
+		}
+		{
+			dependencies: ["174180E1C2E6F025"]
+			disable_toast: true
+			icon: {
+				id: "tfmg:etched_circuit_board"
+			}
+			id: "615D5AC4D5F8FEF1"
+			tags: [
+				"industrial_colonies:minecolonies_mirror"
+				"industrial_colonies:industrial_electronics/cr01_advanced_electronics_manufacturing"
+			]
+			tasks: [{
+				id: "0FFD434D64B240DF"
+				stage: "industrial_colonies:industrial_electronics/cr01_advanced_electronics_manufacturing"
+				team_stage: true
+				type: "gamestage"
+			}]
+			x: 21.316667d
+			y: 8.158333d
+		}
+		{
+			dependencies: ["0D757F4ABB32A3EC"]
+			disable_toast: true
+			icon: {
+				id: "tfmg:blast_stove"
+			}
+			id: "12830D3E5B733F0E"
+			tags: [
+				"industrial_colonies:minecolonies_mirror"
+				"industrial_colonies:steel_and_metallurgy/cr01_blast_furnace"
+			]
+			tasks: [{
+				id: "55962719538BA4A3"
+				stage: "industrial_colonies:steel_and_metallurgy/cr01_blast_furnace"
+				team_stage: true
+				type: "gamestage"
+			}]
+			x: 23.341667d
+			y: -0.008333d
+		}
+		{
+			dependencies: [
+				"37BCE26C4A322B63"
+				"52FB09FB8F49B97B"
+			]
+			disable_toast: true
+			icon: {
+				id: "electroenergetics:empty_spool"
+			}
+			id: "7BEA47C7A96D5994"
+			tags: [
+				"industrial_colonies:minecolonies_mirror"
+				"industrial_colonies:electrical_grid/cr01_grid_engineering"
+			]
+			tasks: [{
+				id: "5219CDEC63CA179A"
+				stage: "industrial_colonies:electrical_grid/cr01_grid_engineering"
+				team_stage: true
+				type: "gamestage"
+			}]
+			x: 24.45d
+			y: 2.958333d
+		}
+		{
+			dependencies: ["615D5AC4D5F8FEF1"]
+			disable_toast: true
+			icon: {
+				id: "ae2:charger"
+			}
+			id: "5E30AC9CE32B78E7"
+			tags: [
+				"industrial_colonies:minecolonies_mirror"
+				"industrial_colonies:industrial_electronics/cr01_advanced_circuitry"
+			]
+			tasks: [{
+				id: "7D9736A0462D4608"
+				stage: "industrial_colonies:industrial_electronics/cr01_advanced_circuitry"
+				team_stage: true
+				type: "gamestage"
+			}]
+			x: 24.733333d
+			y: 8.158333d
+		}
+		{
+			dependencies: [
+				"174180E1C2E6F025"
+				"7BEA47C7A96D5994"
+			]
+			disable_toast: true
+			icon: {
+				id: "createaddition:digital_adapter"
+			}
+			id: "5DEE13BE5D7F8593"
+			tags: [
+				"industrial_colonies:minecolonies_mirror"
+				"industrial_colonies:factory_engineering/cr01_early_electronics"
+			]
+			tasks: [{
+				id: "137F64442CA51175"
+				stage: "industrial_colonies:factory_engineering/cr01_early_electronics"
+				team_stage: true
+				type: "gamestage"
+			}]
+			x: 24.766667d
+			y: 7.108333d
+		}
+		{
+			dependencies: ["5DEE13BE5D7F8593"]
+			disable_toast: true
+			icon: {
+				id: "tfmg:voltage_observer"
+			}
+			id: "10D10B4B92F75F72"
+			tags: [
+				"industrial_colonies:minecolonies_mirror"
+				"industrial_colonies:factory_engineering/cr01_control_electronics"
+			]
+			tasks: [{
+				id: "03F6E9ACE32805F6"
+				stage: "industrial_colonies:factory_engineering/cr01_control_electronics"
+				team_stage: true
+				type: "gamestage"
+			}]
+			x: 26.266667d
+			y: 6.166667d
+		}
+		{
+			dependencies: ["34B9BE4F0C66094C"]
+			disable_toast: true
+			icon: {
+				id: "tfmg:engine_cylinder"
+			}
+			id: "3859371443533A35"
+			tags: [
+				"industrial_colonies:minecolonies_mirror"
+				"industrial_colonies:petroleum_and_engines/cr01_early_combusion_engines"
+			]
+			tasks: [{
+				id: "4EA89D9E72ECFB8B"
+				stage: "industrial_colonies:petroleum_and_engines/cr01_early_combusion_engines"
+				team_stage: true
+				type: "gamestage"
+			}]
+			x: 26.933333d
+			y: -0.908333d
+		}
+		{
+			dependencies: [
+				"12830D3E5B733F0E"
+				"3859371443533A35"
+			]
+			disable_toast: true
+			icon: {
+				id: "tfmg:cast_iron_chemical_vat"
+			}
+			id: "37BCE26C4A322B63"
+			tags: [
+				"industrial_colonies:minecolonies_mirror"
+				"industrial_colonies:steel_and_metallurgy/cr01_chemical_processing"
+			]
+			tasks: [{
+				id: "70ECBB31B2B30C54"
+				stage: "industrial_colonies:steel_and_metallurgy/cr01_chemical_processing"
+				team_stage: true
+				type: "gamestage"
+			}]
+			x: 26.933333d
+			y: -0.008333d
+		}
+		{
+			dependencies: ["37BCE26C4A322B63"]
+			disable_toast: true
+			icon: {
+				id: "createmetallurgy:industrial_crucible"
+			}
+			id: "141CA1E7CCB51745"
+			tags: [
+				"industrial_colonies:minecolonies_mirror"
+				"industrial_colonies:steel_and_metallurgy/cr01_advanced_alloy_mixing"
+			]
+			tasks: [{
+				id: "0A33A1F0AE31F2DB"
+				stage: "industrial_colonies:steel_and_metallurgy/cr01_advanced_alloy_mixing"
+				team_stage: true
+				type: "gamestage"
+			}]
+			x: 26.933333d
+			y: 2.108333d
+		}
+		{
+			dependencies: ["5E30AC9CE32B78E7"]
+			disable_toast: true
+			icon: {
+				id: "ae2:logic_processor"
+			}
+			id: "12CE52A3227E5171"
+			tags: [
+				"industrial_colonies:minecolonies_mirror"
+				"industrial_colonies:industrial_electronics/cr01_early_chips"
+			]
+			tasks: [{
+				id: "7F3C7FA061D4C750"
+				stage: "industrial_colonies:industrial_electronics/cr01_early_chips"
+				team_stage: true
+				type: "gamestage"
+			}]
+			x: 28.141667d
+			y: 8.158333d
+		}
+		{
+			dependencies: ["12CE52A3227E5171"]
+			disable_toast: true
+			icon: {
+				id: "ae2:energy_acceptor"
+			}
+			id: "4BA62FF9F1437FBC"
+			tags: [
+				"industrial_colonies:minecolonies_mirror"
+				"industrial_colonies:digital_computing/cr01_me_system_basics"
+			]
+			tasks: [{
+				id: "533FB69735888810"
+				stage: "industrial_colonies:digital_computing/cr01_me_system_basics"
+				team_stage: true
+				type: "gamestage"
+			}]
+			x: 28.141667d
+			y: 9.141667d
+		}
+		{
+			dependencies: ["10D10B4B92F75F72"]
+			disable_toast: true
+			icon: {
+				id: "mekanism:metallurgic_infuser"
+			}
+			id: "54267DB17A497AA4"
+			tags: [
+				"industrial_colonies:minecolonies_mirror"
+				"industrial_colonies:factory_engineering/cr01_infusion_technology"
+			]
+			tasks: [{
+				id: "20FE3E4FC4D23D31"
+				stage: "industrial_colonies:factory_engineering/cr01_infusion_technology"
+				team_stage: true
+				type: "gamestage"
+			}]
+			x: 29.875d
+			y: 6.166667d
+		}
+		{
+			dependencies: ["7EBCED3AEE4136D2"]
+			disable_toast: true
+			icon: {
+				id: "createdieselgenerators:diesel_engine"
+			}
+			id: "0CBE7E29FB85FCC7"
+			tags: [
+				"industrial_colonies:minecolonies_mirror"
+				"industrial_colonies:petroleum_and_engines/cr01_sea_transport"
+			]
+			tasks: [{
+				id: "139C9BF5DEEA3FF5"
+				stage: "industrial_colonies:petroleum_and_engines/cr01_sea_transport"
+				team_stage: true
+				type: "gamestage"
+			}]
+			x: 30.566667d
+			y: -2.008333d
+		}
+		{
+			dependencies: [
+				"26E501FBF0A2BE22"
+				"3859371443533A35"
+			]
+			disable_toast: true
+			icon: {
+				id: "createdieselgenerators:diesel_engine"
+			}
+			id: "7EBCED3AEE4136D2"
+			tags: [
+				"industrial_colonies:minecolonies_mirror"
+				"industrial_colonies:petroleum_and_engines/cr01_diesel_engines"
+			]
+			tasks: [{
+				id: "0F387C1F68EFD37B"
+				stage: "industrial_colonies:petroleum_and_engines/cr01_diesel_engines"
+				team_stage: true
+				type: "gamestage"
+			}]
+			x: 30.566667d
+			y: -0.908333d
+		}
+		{
+			dependencies: ["37BCE26C4A322B63"]
+			disable_toast: true
+			icon: {
+				id: "tfmg:steel_distillation_controller"
+			}
+			id: "26E501FBF0A2BE22"
+			tags: [
+				"industrial_colonies:minecolonies_mirror"
+				"industrial_colonies:petroleum_and_engines/cr01_diesel_processing"
+			]
+			tasks: [{
+				id: "398749A3A27BF130"
+				stage: "industrial_colonies:petroleum_and_engines/cr01_diesel_processing"
+				team_stage: true
+				type: "gamestage"
+			}]
+			x: 30.566667d
+			y: -0.008333d
+		}
+		{
+			dependencies: ["141CA1E7CCB51745"]
+			disable_toast: true
+			icon: {
+				id: "createmetallurgy:casting_table"
+			}
+			id: "37E6E6B87481AB39"
+			tags: [
+				"industrial_colonies:minecolonies_mirror"
+				"industrial_colonies:steel_and_metallurgy/cr01_advanced_metallurgy"
+			]
+			tasks: [{
+				id: "49B0FAD37484F47C"
+				stage: "industrial_colonies:steel_and_metallurgy/cr01_advanced_metallurgy"
+				team_stage: true
+				type: "gamestage"
+			}]
+			x: 30.566667d
+			y: 2.108333d
+		}
+		{
+			dependencies: ["7BEA47C7A96D5994"]
+			disable_toast: true
+			icon: {
+				id: "electroenergetics:transformer_core_lamination"
+			}
+			id: "325114A546727CB1"
+			tags: [
+				"industrial_colonies:minecolonies_mirror"
+				"industrial_colonies:electrical_grid/cr01_high_voltage_systems"
+			]
+			tasks: [{
+				id: "3D796C05E4D57C8D"
+				stage: "industrial_colonies:electrical_grid/cr01_high_voltage_systems"
+				team_stage: true
+				type: "gamestage"
+			}]
+			x: 30.566667d
+			y: 2.958333d
+		}
+		{
+			dependencies: [
+				"12CE52A3227E5171"
+				"4BA62FF9F1437FBC"
+			]
+			disable_toast: true
+			icon: {
+				id: "ae2:calculation_processor"
+			}
+			id: "16A51829DF6EB61F"
+			tags: [
+				"industrial_colonies:minecolonies_mirror"
+				"industrial_colonies:digital_computing/cr01_advanced_processors"
+			]
+			tasks: [{
+				id: "40904391A537EF71"
+				stage: "industrial_colonies:digital_computing/cr01_advanced_processors"
+				team_stage: true
+				type: "gamestage"
+			}]
+			x: 31.55d
+			y: 8.158333d
+		}
+		{
+			dependencies: ["7EBCED3AEE4136D2"]
+			disable_toast: true
+			icon: {
+				id: "createdieselgenerators:large_diesel_engine"
+			}
+			id: "158399F3EB00A509"
+			tags: [
+				"industrial_colonies:minecolonies_mirror"
+				"industrial_colonies:petroleum_and_engines/cr01_heavy_diesel_engines"
+			]
+			tasks: [{
+				id: "0EC08E0EA06804AD"
+				stage: "industrial_colonies:petroleum_and_engines/cr01_heavy_diesel_engines"
+				team_stage: true
+				type: "gamestage"
+			}]
+			x: 34.066667d
+			y: -0.908333d
+		}
+		{
+			dependencies: ["37E6E6B87481AB39"]
+			disable_toast: true
+			icon: {
+				id: "modernfoundry:foundry_controller"
+			}
+			id: "1EBEFEC972EA1D99"
+			tags: [
+				"industrial_colonies:minecolonies_mirror"
+				"industrial_colonies:steel_and_metallurgy/cr01_exotic_metallurgy"
+			]
+			tasks: [{
+				id: "735B4CB22083301B"
+				stage: "industrial_colonies:steel_and_metallurgy/cr01_exotic_metallurgy"
+				team_stage: true
+				type: "gamestage"
+			}]
+			x: 34.825d
+			y: 2.108333d
+		}
+		{
+			dependencies: ["325114A546727CB1"]
+			disable_toast: true
+			icon: {
+				id: "electroenergetics:heavily_insulated_wire_spool"
+			}
+			id: "0E8EEDD9E74241B4"
+			tags: [
+				"industrial_colonies:minecolonies_mirror"
+				"industrial_colonies:electrical_grid/cr01_extreme_power_transmission"
+			]
+			tasks: [{
+				id: "592646BE7F3616D3"
+				stage: "industrial_colonies:electrical_grid/cr01_extreme_power_transmission"
+				team_stage: true
+				type: "gamestage"
+			}]
+			x: 34.825d
+			y: 2.958333d
+		}
+		{
+			dependencies: ["58C52FD29AA490D0"]
+			disable_toast: true
+			icon: {
+				id: "mekanism:advanced_tier_installer"
+			}
+			id: "3A5E2088093788AA"
+			tags: [
+				"industrial_colonies:minecolonies_mirror"
+				"industrial_colonies:factory_engineering/cr01_reinforced_systems"
+			]
+			tasks: [{
+				id: "66254E17BF76CC74"
+				stage: "industrial_colonies:factory_engineering/cr01_reinforced_systems"
+				team_stage: true
+				type: "gamestage"
+			}]
+			x: 34.833333d
+			y: 3.691667d
+		}
+		{
+			dependencies: [
+				"54267DB17A497AA4"
+				"627ED2D322269E1F"
+			]
+			disable_toast: true
+			icon: {
+				id: "mekanism:steel_casing"
+			}
+			id: "58C52FD29AA490D0"
+			tags: [
+				"industrial_colonies:minecolonies_mirror"
+				"industrial_colonies:factory_engineering/cr01_modular_machinery"
+			]
+			tasks: [{
+				id: "059BD43021352DB7"
+				stage: "industrial_colonies:factory_engineering/cr01_modular_machinery"
+				team_stage: true
+				type: "gamestage"
+			}]
+			x: 34.833333d
+			y: 6.166667d
+		}
+		{
+			dependencies: [
+				"16A51829DF6EB61F"
+				"5DEE13BE5D7F8593"
+			]
+			disable_toast: true
+			icon: {
+				id: "ae2:engineering_processor"
+			}
+			id: "627ED2D322269E1F"
+			tags: [
+				"industrial_colonies:minecolonies_mirror"
+				"industrial_colonies:digital_computing/cr01_advanced_electronics"
+			]
+			tasks: [{
+				id: "580491DCB1139AC6"
+				stage: "industrial_colonies:digital_computing/cr01_advanced_electronics"
+				team_stage: true
+				type: "gamestage"
+			}]
+			x: 34.833333d
+			y: 7.108333d
+		}
+		{
+			dependencies: [
+				"4BA62FF9F1437FBC"
+				"627ED2D322269E1F"
+			]
+			disable_toast: true
+			icon: {
+				id: "ae2:controller"
+			}
+			id: "2A01D7F4ECF5BA20"
+			tags: [
+				"industrial_colonies:minecolonies_mirror"
+				"industrial_colonies:digital_computing/cr01_me_system_advanced"
+			]
+			tasks: [{
+				id: "6E8C3861428B09F2"
+				stage: "industrial_colonies:digital_computing/cr01_me_system_advanced"
+				team_stage: true
+				type: "gamestage"
+			}]
+			x: 34.833333d
+			y: 9.141667d
+		}
+		{
+			dependencies: ["2A01D7F4ECF5BA20"]
+			disable_toast: true
+			icon: {
+				id: "ae2:crafting_unit"
+			}
+			id: "606EF8FC7BC341EB"
+			tags: [
+				"industrial_colonies:minecolonies_mirror"
+				"industrial_colonies:digital_computing/cr01_early_digital_crafting"
+			]
+			tasks: [{
+				id: "63DFEBB720D398CE"
+				stage: "industrial_colonies:digital_computing/cr01_early_digital_crafting"
+				team_stage: true
+				type: "gamestage"
+			}]
+			x: 34.833333d
+			y: 10.083333d
+		}
+		{
+			dependencies: ["0548972F59E2D02B"]
+			disable_toast: true
+			icon: {
+				id: "create:propeller"
+			}
+			id: "22622C64A0D8A85B"
+			tags: [
+				"industrial_colonies:minecolonies_mirror"
+				"industrial_colonies:petroleum_and_engines/cr01_air_transport"
+			]
+			tasks: [{
+				id: "5141BC74F727ACD2"
+				stage: "industrial_colonies:petroleum_and_engines/cr01_air_transport"
+				team_stage: true
+				type: "gamestage"
+			}]
+			x: 37.55d
+			y: -2.008333d
+		}
+		{
+			dependencies: ["158399F3EB00A509"]
+			disable_toast: true
+			icon: {
+				id: "tfmg:radial_engine"
+			}
+			id: "0548972F59E2D02B"
+			tags: [
+				"industrial_colonies:minecolonies_mirror"
+				"industrial_colonies:petroleum_and_engines/cr01_radial_engines"
+			]
+			tasks: [{
+				id: "4C30FBECB160B09A"
+				stage: "industrial_colonies:petroleum_and_engines/cr01_radial_engines"
+				team_stage: true
+				type: "gamestage"
+			}]
+			x: 37.55d
+			y: -0.908333d
+		}
+		{
+			dependencies: ["1EBEFEC972EA1D99"]
+			disable_toast: true
+			icon: {
+				id: "bigreactors:yellorite_ore"
+			}
+			id: "01B38B426752D8A0"
+			tags: [
+				"industrial_colonies:minecolonies_mirror"
+				"industrial_colonies:nuclear_engineering/cr01_yellorium_refinement"
+			]
+			tasks: [{
+				id: "3217DB469F474D23"
+				stage: "industrial_colonies:nuclear_engineering/cr01_yellorium_refinement"
+				team_stage: true
+				type: "gamestage"
+			}]
+			x: 38.308333d
+			y: 2.108333d
+		}
+		{
+			dependencies: [
+				"58C52FD29AA490D0"
+				"5BC1A830CAECBF2D"
+			]
+			disable_toast: true
+			icon: {
+				id: "appmek:chemical_cell_housing"
+			}
+			id: "4E07978D95535CDB"
+			tags: [
+				"industrial_colonies:minecolonies_mirror"
+				"industrial_colonies:digital_logistics/cr01_early_digital_chemical_storage"
+			]
+			tasks: [{
+				id: "7D50B1E9688CAE01"
+				stage: "industrial_colonies:digital_logistics/cr01_early_digital_chemical_storage"
+				team_stage: true
+				type: "gamestage"
+			}]
+			x: 38.316667d
+			y: 6.166667d
+		}
+		{
+			dependencies: [
+				"2A01D7F4ECF5BA20"
+				"627ED2D322269E1F"
+			]
+			disable_toast: true
+			icon: {
+				id: "advancedperipherals:peripheral_casing"
+			}
+			id: "5BC1A830CAECBF2D"
+			tags: [
+				"industrial_colonies:minecolonies_mirror"
+				"industrial_colonies:digital_logistics/cr01_advanced_perhipherals"
+			]
+			tasks: [{
+				id: "1A1097B1C24FACAD"
+				stage: "industrial_colonies:digital_logistics/cr01_advanced_perhipherals"
+				team_stage: true
+				type: "gamestage"
+			}]
+			x: 38.316667d
+			y: 7.108333d
+		}
+		{
+			dependencies: ["58C52FD29AA490D0"]
+			disable_toast: true
+			icon: {
+				id: "mekanism:electrolytic_separator"
+			}
+			id: "1D9D8E40FF874A30"
+			tags: [
+				"industrial_colonies:minecolonies_mirror"
+				"industrial_colonies:factory_engineering/cr01_electrochemical_engineering"
+			]
+			tasks: [{
+				id: "52D021EB4DD2BD1A"
+				stage: "industrial_colonies:factory_engineering/cr01_electrochemical_engineering"
+				team_stage: true
+				type: "gamestage"
+			}]
+			x: 38.35d
+			y: 4.541667d
+		}
+		{
+			dependencies: ["661170B0C2FB1DA3"]
+			disable_toast: true
+			icon: {
+				id: "ae2:me_p2p_tunnel"
+			}
+			id: "72801786157A0645"
+			tags: [
+				"industrial_colonies:minecolonies_mirror"
+				"industrial_colonies:digital_logistics/cr01_p2p_tunneling_technology"
+			]
+			tasks: [{
+				id: "76409F37B3957920"
+				stage: "industrial_colonies:digital_logistics/cr01_p2p_tunneling_technology"
+				team_stage: true
+				type: "gamestage"
+			}]
+			x: 41.8d
+			y: 6.241667d
+		}
+		{
+			dependencies: ["5BC1A830CAECBF2D"]
+			disable_toast: true
+			icon: {
+				id: "ae2:fluix_smart_dense_cable"
+			}
+			id: "661170B0C2FB1DA3"
+			tags: [
+				"industrial_colonies:minecolonies_mirror"
+				"industrial_colonies:digital_logistics/cr01_enhanced_me_system_upgrade"
+			]
+			tasks: [{
+				id: "6D9284DAC13783FF"
+				stage: "industrial_colonies:digital_logistics/cr01_enhanced_me_system_upgrade"
+				team_stage: true
+				type: "gamestage"
+			}]
+			x: 41.8d
+			y: 7.108333d
+		}
+		{
+			dependencies: ["661170B0C2FB1DA3"]
+			disable_toast: true
+			icon: {
+				id: "ae2:import_bus"
+			}
+			id: "56B05B2689F3A7BD"
+			tags: [
+				"industrial_colonies:minecolonies_mirror"
+				"industrial_colonies:digital_logistics/cr01_early_me_bus_technology"
+			]
+			tasks: [{
+				id: "748500730F645238"
+				stage: "industrial_colonies:digital_logistics/cr01_early_me_bus_technology"
+				team_stage: true
+				type: "gamestage"
+			}]
+			x: 41.8d
+			y: 9.141667d
+		}
+		{
+			dependencies: [
+				"56B05B2689F3A7BD"
+				"606EF8FC7BC341EB"
+			]
+			disable_toast: true
+			icon: {
+				id: "ae2:pattern_encoding_terminal"
+			}
+			id: "003AFFEB834A259A"
+			tags: [
+				"industrial_colonies:minecolonies_mirror"
+				"industrial_colonies:digital_computing/cr01_advanced_digital_crafting"
+			]
+			tasks: [{
+				id: "2CB4470E40E2083E"
+				stage: "industrial_colonies:digital_computing/cr01_advanced_digital_crafting"
+				team_stage: true
+				type: "gamestage"
+			}]
+			x: 41.8d
+			y: 10.083333d
+		}
+		{
+			dependencies: [
+				"01B38B426752D8A0"
+				"158399F3EB00A509"
+				"79940CF0103A1ED1"
+			]
+			disable_toast: true
+			icon: {
+				id: "create:refined_radiance"
+			}
+			id: "444D80B0A1C878FA"
+			tags: [
+				"industrial_colonies:minecolonies_mirror"
+				"industrial_colonies:nuclear_engineering/cr01_the_nuclear_age"
+			]
+			tasks: [{
+				id: "1024A673906BF5F3"
+				stage: "industrial_colonies:nuclear_engineering/cr01_the_nuclear_age"
+				team_stage: true
+				type: "gamestage"
+			}]
+			x: 45.283333d
+			y: 1.125d
+		}
+		{
+			dependencies: [
+				"0E8EEDD9E74241B4"
+				"7769BB5584B55731"
+			]
+			disable_toast: true
+			icon: {
+				id: "mekanism:ultimate_tier_installer"
+			}
+			id: "79940CF0103A1ED1"
+			tags: [
+				"industrial_colonies:minecolonies_mirror"
+				"industrial_colonies:factory_engineering/cr01_high_energy_distribution"
+			]
+			tasks: [{
+				id: "418250B129483C3E"
+				stage: "industrial_colonies:factory_engineering/cr01_high_energy_distribution"
+				team_stage: true
+				type: "gamestage"
+			}]
+			x: 45.283333d
+			y: 2.958333d
+		}
+		{
+			dependencies: [
+				"3552597FE167C12A"
+				"3A5E2088093788AA"
+			]
+			disable_toast: true
+			icon: {
+				id: "mekanism:elite_tier_installer"
+			}
+			id: "7769BB5584B55731"
+			tags: [
+				"industrial_colonies:minecolonies_mirror"
+				"industrial_colonies:factory_engineering/cr01_precision_engineering"
+			]
+			tasks: [{
+				id: "17D7119632889A75"
+				stage: "industrial_colonies:factory_engineering/cr01_precision_engineering"
+				team_stage: true
+				type: "gamestage"
+			}]
+			x: 45.283333d
+			y: 3.691667d
+		}
+		{
+			dependencies: ["1D9D8E40FF874A30"]
+			disable_toast: true
+			icon: {
+				id: "mekanism:purification_chamber"
+			}
+			id: "3552597FE167C12A"
+			tags: [
+				"industrial_colonies:minecolonies_mirror"
+				"industrial_colonies:factory_engineering/cr01_chemical_separation"
+			]
+			tasks: [{
+				id: "34C34B6D4CADA194"
+				stage: "industrial_colonies:factory_engineering/cr01_chemical_separation"
+				team_stage: true
+				type: "gamestage"
+			}]
+			x: 45.283333d
+			y: 4.541667d
+		}
+		{
+			dependencies: [
+				"0F3E90AF16A1CCA5"
+				"3552597FE167C12A"
+				"4E07978D95535CDB"
+			]
+			disable_toast: true
+			icon: {
+				id: "appmek:chemical_storage_cell_16k"
+			}
+			id: "5D8D39FB1E54932D"
+			tags: [
+				"industrial_colonies:minecolonies_mirror"
+				"industrial_colonies:digital_logistics/cr01_improved_digital_chemical_storage"
+			]
+			tasks: [{
+				id: "3B356B7AFD05809C"
+				stage: "industrial_colonies:digital_logistics/cr01_improved_digital_chemical_storage"
+				team_stage: true
+				type: "gamestage"
+			}]
+			x: 45.283333d
+			y: 5.35d
+		}
+		{
+			dependencies: ["661170B0C2FB1DA3"]
+			disable_toast: true
+			icon: {
+				id: "ae2:item_storage_cell_256k"
+			}
+			id: "0F3E90AF16A1CCA5"
+			tags: [
+				"industrial_colonies:minecolonies_mirror"
+				"industrial_colonies:digital_logistics/cr01_advanced_me_storage"
+			]
+			tasks: [{
+				id: "369380BA8E5DF573"
+				stage: "industrial_colonies:digital_logistics/cr01_advanced_me_storage"
+				team_stage: true
+				type: "gamestage"
+			}]
+			x: 45.283333d
+			y: 7.108333d
+		}
+		{
+			dependencies: ["0F3E90AF16A1CCA5"]
+			disable_toast: true
+			icon: {
+				id: "ae2:export_bus"
+			}
+			id: "460A00FE41A0A70C"
+			tags: [
+				"industrial_colonies:minecolonies_mirror"
+				"industrial_colonies:digital_logistics/cr01_advanced_me_bus_technology"
+			]
+			tasks: [{
+				id: "47102AC3E0E68130"
+				stage: "industrial_colonies:digital_logistics/cr01_advanced_me_bus_technology"
+				team_stage: true
+				type: "gamestage"
+			}]
+			x: 45.283333d
+			y: 9.141667d
+		}
+		{
+			dependencies: ["003AFFEB834A259A"]
+			disable_toast: true
+			icon: {
+				id: "megacells:accumulation_processor"
+			}
+			id: "52D9133A6916C684"
+			tags: [
+				"industrial_colonies:minecolonies_mirror"
+				"industrial_colonies:digital_logistics/cr01_overclocked_processors"
+			]
+			tasks: [{
+				id: "18B479B5A943E1A4"
+				stage: "industrial_colonies:digital_logistics/cr01_overclocked_processors"
+				team_stage: true
+				type: "gamestage"
+			}]
+			x: 45.283333d
+			y: 10.083333d
+		}
+		{
+			dependencies: ["0F3E90AF16A1CCA5"]
+			disable_toast: true
+			icon: {
+				id: "ae2:spatial_io_port"
+			}
+			id: "2AD9B714A0863AA8"
+			tags: [
+				"industrial_colonies:minecolonies_mirror"
+				"industrial_colonies:digital_logistics/cr01_spacial_storage_tech"
+			]
+			tasks: [{
+				id: "5E679FBE76D51D97"
+				stage: "industrial_colonies:digital_logistics/cr01_spacial_storage_tech"
+				team_stage: true
+				type: "gamestage"
+			}]
+			x: 48.433333d
+			y: 8.225d
+		}
+		{
+			dependencies: ["444D80B0A1C878FA"]
+			disable_toast: true
+			icon: {
+				id: "bigreactors:basic_reactorcasing"
+			}
+			id: "3E90CEFA4BCA541C"
+			tags: [
+				"industrial_colonies:minecolonies_mirror"
+				"industrial_colonies:nuclear_engineering/cr01_containment_engineering"
+			]
+			tasks: [{
+				id: "3D631FA2E90D3E76"
+				stage: "industrial_colonies:nuclear_engineering/cr01_containment_engineering"
+				team_stage: true
+				type: "gamestage"
+			}]
+			x: 48.966667d
+			y: 0.208333d
+		}
+		{
+			dependencies: ["444D80B0A1C878FA"]
+			disable_toast: true
+			icon: {
+				id: "bigreactors:basic_reactorfuelrod"
+			}
+			id: "73EC2E053BF66576"
+			tags: [
+				"industrial_colonies:minecolonies_mirror"
+				"industrial_colonies:nuclear_engineering/cr01_core_engineering"
+			]
+			tasks: [{
+				id: "7CBA26C6AFE545E4"
+				stage: "industrial_colonies:nuclear_engineering/cr01_core_engineering"
+				team_stage: true
+				type: "gamestage"
+			}]
+			x: 48.966667d
+			y: 1.125d
+		}
+		{
+			dependencies: ["444D80B0A1C878FA"]
+			disable_toast: true
+			icon: {
+				id: "mekanism:uranium_ore"
+			}
+			id: "08E46492F92880A5"
+			tags: [
+				"industrial_colonies:minecolonies_mirror"
+				"industrial_colonies:nuclear_engineering/cr01_isotope_materials"
+			]
+			tasks: [{
+				id: "20BA6295C19C6310"
+				stage: "industrial_colonies:nuclear_engineering/cr01_isotope_materials"
+				team_stage: true
+				type: "gamestage"
+			}]
+			x: 48.966667d
+			y: 2.108333d
+		}
+		{
+			dependencies: ["2AD9B714A0863AA8"]
+			disable_toast: true
+			icon: {
+				id: "ae2:spatial_anchor"
+			}
+			id: "6457FFB5ED7424EA"
+			tags: [
+				"industrial_colonies:minecolonies_mirror"
+				"industrial_colonies:digital_logistics/cr01_world_loading_technology"
+			]
+			tasks: [{
+				id: "25B1C77989319D68"
+				stage: "industrial_colonies:digital_logistics/cr01_world_loading_technology"
+				team_stage: true
+				type: "gamestage"
+			}]
+			x: 51.9d
+			y: 8.225d
+		}
+		{
+			dependencies: ["73EC2E053BF66576"]
+			disable_toast: true
+			icon: {
+				id: "bigreactors:basic_reactorcontroller"
+			}
+			id: "4608650D0B7AD835"
+			tags: [
+				"industrial_colonies:minecolonies_mirror"
+				"industrial_colonies:nuclear_engineering/cr01_reactor_instrumentation"
+			]
+			tasks: [{
+				id: "505125B72455ADD1"
+				stage: "industrial_colonies:nuclear_engineering/cr01_reactor_instrumentation"
+				team_stage: true
+				type: "gamestage"
+			}]
+			x: 52.658333d
+			y: 1.125d
+		}
+		{
+			dependencies: ["08E46492F92880A5"]
+			disable_toast: true
+			icon: {
+				id: "mekanism:isotopic_centrifuge"
+			}
+			id: "1184958B2F714688"
+			tags: [
+				"industrial_colonies:minecolonies_mirror"
+				"industrial_colonies:nuclear_engineering/cr01_uranium_processing"
+			]
+			tasks: [{
+				id: "6BB39346CFB2D3F8"
+				stage: "industrial_colonies:nuclear_engineering/cr01_uranium_processing"
+				team_stage: true
+				type: "gamestage"
+			}]
+			x: 52.658333d
+			y: 2.108333d
+		}
+		{
+			dependencies: [
+				"460A00FE41A0A70C"
+				"52D9133A6916C684"
+			]
+			disable_toast: true
+			icon: {
+				id: "megacells:mega_crafting_unit"
+			}
+			id: "3B6E83EE41B0EDCE"
+			tags: [
+				"industrial_colonies:minecolonies_mirror"
+				"industrial_colonies:digital_logistics/cr01_enhanced_me_crafting_upgrade"
+			]
+			tasks: [{
+				id: "545127BA9362DF20"
+				stage: "industrial_colonies:digital_logistics/cr01_enhanced_me_crafting_upgrade"
+				team_stage: true
+				type: "gamestage"
+			}]
+			x: 55.358333d
+			y: 10.083333d
+		}
+		{
+			dependencies: [
+				"3E90CEFA4BCA541C"
+				"4608650D0B7AD835"
+				"619EF1C3E389778C"
+			]
+			disable_toast: true
+			icon: {
+				id: "bigreactors:basic_reactorcontroller"
+			}
+			id: "22B539FE9E4E62D6"
+			tags: [
+				"industrial_colonies:minecolonies_mirror"
+				"industrial_colonies:nuclear_engineering/cr01_first_criticality"
+			]
+			tasks: [{
+				id: "5F1DA5402E3E1933"
+				stage: "industrial_colonies:nuclear_engineering/cr01_first_criticality"
+				team_stage: true
+				type: "gamestage"
+			}]
+			x: 56.35d
+			y: 1.125d
+		}
+		{
+			dependencies: ["1184958B2F714688"]
+			disable_toast: true
+			icon: {
+				id: "bigreactors:yellorium_ingot"
+			}
+			id: "619EF1C3E389778C"
+			tags: [
+				"industrial_colonies:minecolonies_mirror"
+				"industrial_colonies:nuclear_engineering/cr01_early_nuclear_fuel"
+			]
+			tasks: [{
+				id: "131034E81ADD9B63"
+				stage: "industrial_colonies:nuclear_engineering/cr01_early_nuclear_fuel"
+				team_stage: true
+				type: "gamestage"
+			}]
+			x: 56.35d
+			y: 2.108333d
+		}
+		{
+			dependencies: ["22B539FE9E4E62D6"]
+			disable_toast: true
+			icon: {
+				id: "bigreactors:reprocessorcontroller"
+			}
+			id: "4A6F3B6D648528FC"
+			tags: [
+				"industrial_colonies:minecolonies_mirror"
+				"industrial_colonies:nuclear_fuel_cycle/cr01_fuel_reprocessing"
+			]
+			tasks: [{
+				id: "258D262283DA1BAD"
+				stage: "industrial_colonies:nuclear_fuel_cycle/cr01_fuel_reprocessing"
+				team_stage: true
+				type: "gamestage"
+			}]
+			x: 60.041667d
+			y: 1.125d
+		}
+		{
+			dependencies: ["4A6F3B6D648528FC"]
+			disable_toast: true
+			icon: {
+				id: "mekanism:radioactive_waste_barrel"
+			}
+			id: "24A9B640186AD92F"
+			tags: [
+				"industrial_colonies:minecolonies_mirror"
+				"industrial_colonies:nuclear_fuel_cycle/cr01_actinide_chemistry"
+			]
+			tasks: [{
+				id: "3FBAF33660557765"
+				stage: "industrial_colonies:nuclear_fuel_cycle/cr01_actinide_chemistry"
+				team_stage: true
+				type: "gamestage"
+			}]
+			x: 63.633333d
+			y: 1.125d
+		}
+		{
+			dependencies: ["24A9B640186AD92F"]
+			disable_toast: true
+			icon: {
+				id: "mekanism:pellet_plutonium"
+			}
+			id: "0AA5A648144F21CD"
+			tags: [
+				"industrial_colonies:minecolonies_mirror"
+				"industrial_colonies:nuclear_fuel_cycle/cr01_plutonium_production"
+			]
+			tasks: [{
+				id: "64281EBECC93A4F2"
+				stage: "industrial_colonies:nuclear_fuel_cycle/cr01_plutonium_production"
+				team_stage: true
+				type: "gamestage"
+			}]
+			x: 67.225d
+			y: 1.125d
+		}
+		{
+			dependencies: ["0AA5A648144F21CD"]
+			disable_toast: true
+			icon: {
+				id: "bigreactors:reinforced_reactorcasing"
+			}
+			id: "029608DC567C9818"
+			tags: [
+				"industrial_colonies:minecolonies_mirror"
+				"industrial_colonies:nuclear_fuel_cycle/cr01_advanced_nuclear_fuel"
+			]
+			tasks: [{
+				id: "0CE6BA7F8BC74BAC"
+				stage: "industrial_colonies:nuclear_fuel_cycle/cr01_advanced_nuclear_fuel"
+				team_stage: true
+				type: "gamestage"
+			}]
+			x: 70.816667d
+			y: 1.125d
+		}
+	]
+}

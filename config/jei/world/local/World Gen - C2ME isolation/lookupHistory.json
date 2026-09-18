@@ -1,0 +1,5 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"modernfoundry:pick_head","components":"{\"minecraft:custom_data\":{Material:\"modernfoundry:flint\"}}"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"modernfoundry:pickaxe","components":"{\"minecraft:custom_data\":{tic_materials:[\"modernfoundry:flint\",\"modernfoundry:flint\",\"modernfoundry:flint\"],tic_modifiers:[{level:1,name:\"modernfoundry:pierce\"},{level:3,name:\"modernfoundry:jagged\"}],tic_persistent:{},tic_stats:{\"modernfoundry:attack_damage\":2.4750001f,\"modernfoundry:attack_speed\":1.2f,\"modernfoundry:durability\":72.25f,\"modernfoundry:harvest_tier\":\"minecraft:stone\",\"modernfoundry:mining_speed\":3.5f},tic_volatile_data:{abilities:1,upgrades:3}}}"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

@@ -1,0 +1,6 @@
+#508 minecraft:frozen_peaks
+#286 minecraft:grove
+#2D6 minecraft:meadow
+#10D regions_unexplored:pine_slopes
+#11D regions_unexplored:pine_taiga
+#7EA regions_unexplored:sparse_redwoods

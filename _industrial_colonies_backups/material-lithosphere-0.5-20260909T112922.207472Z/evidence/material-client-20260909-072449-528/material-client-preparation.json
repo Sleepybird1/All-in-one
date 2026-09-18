@@ -1,0 +1,1731 @@
+{
+  "mode": "stage_only",
+  "sourceStage": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754",
+  "destination": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\material-client-20260909-072449-528",
+  "candidateFileName": "industrial_colonies-0.5.0.jar",
+  "candidateSha256": "8DF80E5C7E4B447F651696A9383A1487B26F557A67D6263DEAFA3805BC675D91",
+  "sourceContent": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\src\\main\\resources\\data\\industrial_colonies\\processing\\content.json",
+  "contentSha256": "2F56C071A584FAFAE4EE59F6ED8AE87CEAFBD851E0EE9F87F4E89D30942A693B",
+  "sourceCatalog": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\processing\\material_processing_catalog.json",
+  "catalogSha256": "31F344D33295A70F4CC19C1F38B56C604DD13965C7E77E7EC701BC3EFAD4AD45",
+  "stagedJarCount": 241,
+  "restoredHeldJars": [
+    "DistantHorizons-3.2.0-b-1.21.1-fabric-neoforge.jar",
+    "entity_model_features-3.2.4-1.21-neoforge.jar",
+    "entity_texture_features_1.21-neoforge-7.1.jar",
+    "EuphoriaPatcher-1.9.3-r5.8.1-neoforge.jar",
+    "iris-neoforge-1.8.14-beta.1+mc1.21.1.jar",
+    "sodium-neoforge-0.8.13+mc1.21.1.jar"
+  ],
+  "materialItems": 74,
+  "tankFluids": 25,
+  "geologyBlocks": 41,
+  "expectedGeologyQuads": 258,
+  "assetsPresentWithExpectedSize": 3911,
+  "noLaunch": true,
+  "noSavesOrAccountsCopied": true,
+  "noLiveOrPriorStageWrites": true,
+  "network": "No download. Later full-client launch requires approved execution; Gradle --offline is not a runtime firewall.",
+  "materialStagePatchSha256": "8AECC3F063C153FE57AC56162DC1E36510E981F486F29A1ED50429235A6C9D11",
+  "mergedProjectSha256": "0aacb7b7bc2e0ba0a0aa8c4211a115146fdc521141a1cceb400ed71532ff5da9",
+  "initialOptions": {
+    "file": "options.txt",
+    "content": "onboardAccessibility:false\n",
+    "sha256": "FBEC202E13E01A12E7D56027F1245C9FC941CF176681640D56EBBB47CBA4963B",
+    "purpose": "Skip only native first-launch accessibility orientation in this new disposable profile",
+    "otherOptions": "Unspecified; native defaults. No live options copied and no authentication/privacy preferences changed.",
+    "verifiedMinecraftSha256": "BC811B3368CA4E056672AB7425682247A68AB72210F14B0BA68B91EEAE040CE3"
+  },
+  "mods": [
+    {
+      "name": "[1.21.1] neoforge-JECT-2.4.0.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\[1.21.1] neoforge-JECT-2.4.0.jar",
+      "sha256": "166EEFDC52771FC747ABBF73614BA5EDC9A3B20F696DAE8451B78D51E603A796",
+      "bytes": 402705,
+      "restoredHeld": false
+    },
+    {
+      "name": "[1.21.1] SecurityCraft v1.10.2.1.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\[1.21.1] SecurityCraft v1.10.2.1.jar",
+      "sha256": "75AC9E73C60CAF58DF7069F167DBACC00A640E1418207DFF654F56A5FDB5F229",
+      "bytes": 5193371,
+      "restoredHeld": false
+    },
+    {
+      "name": "[Neoforge]ctov-3.6.3.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\[Neoforge]ctov-3.6.3.jar",
+      "sha256": "4815B19B83541F09CBA556E222612BC5DDCC31F7C4BA2198F4B4D6376CCA8B2E",
+      "bytes": 7139609,
+      "restoredHeld": false
+    },
+    {
+      "name": "adastra-1.21.1-1.16.22-neoforge.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\adastra-1.21.1-1.16.22-neoforge.jar",
+      "sha256": "FAF21D02C71D2D5B5A671A746334ED18A9DDBA79A5A9D9BD95E93A1D9EE9EC86",
+      "bytes": 7300936,
+      "restoredHeld": false
+    },
+    {
+      "name": "AdvancedAE-1.6.12-1.21.1.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\AdvancedAE-1.6.12-1.21.1.jar",
+      "sha256": "A01D9718667AC13899013E91C5B0B7708B9B9DB1DA9B8E380772DDE54BBE8F41",
+      "bytes": 4791255,
+      "restoredHeld": false
+    },
+    {
+      "name": "AdvancedPeripherals-1.21.1-0.7.62b.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\AdvancedPeripherals-1.21.1-0.7.62b.jar",
+      "sha256": "81C35E60C5A099151040ABA8874E308FA00B6F8C6ED128C14B6209CCB73BFFE3",
+      "bytes": 936602,
+      "restoredHeld": false
+    },
+    {
+      "name": "ae2ct-1.21.1-1.1.1.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\ae2ct-1.21.1-1.1.1.jar",
+      "sha256": "70A704742CF8BC13778A201A2338D0F4108DC0700BCA47ED265ABA02180F6777",
+      "bytes": 437906,
+      "restoredHeld": false
+    },
+    {
+      "name": "ae2jeiintegration-1.2.1.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\ae2jeiintegration-1.2.1.jar",
+      "sha256": "2989C5D762D3F14A58B4DB6519DAAFF81E719DFF3445A2B39328948AC23E548B",
+      "bytes": 91710,
+      "restoredHeld": false
+    },
+    {
+      "name": "ae2wtlib-19.5.1.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\ae2wtlib-19.5.1.jar",
+      "sha256": "407E7300351353CB4CB7698286E180AEF2BD6E7A97EC7EFC6493F9DAA4DBFFE5",
+      "bytes": 252091,
+      "restoredHeld": false
+    },
+    {
+      "name": "AeroIE-1.0.1.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\AeroIE-1.0.1.jar",
+      "sha256": "A3181A8B1814E33236744E05D321137D07DE558D15BA0F40212EDE8D2F87B811",
+      "bytes": 5574339,
+      "restoredHeld": false
+    },
+    {
+      "name": "allthecompressed-1.21.1-4.4.0.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\allthecompressed-1.21.1-4.4.0.jar",
+      "sha256": "D1B0C1135D8C206B8F18C73AFA08256C74F8B9504626F90E2A64614C92163C36",
+      "bytes": 5901446,
+      "restoredHeld": false
+    },
+    {
+      "name": "allthemodium-3.0.1_mc_1.21.1.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\allthemodium-3.0.1_mc_1.21.1.jar",
+      "sha256": "870004C1D6FBD0891FF322B9FF9E8D42C6AAA082ACE7562E25948F1636B5C6F1",
+      "bytes": 1966440,
+      "restoredHeld": false
+    },
+    {
+      "name": "almostunified-neoforge-1.21.1-1.4.2.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\almostunified-neoforge-1.21.1-1.4.2.jar",
+      "sha256": "65202ADF4DCCF7B3033537E539E23ECCC541C6A15AD88D87FA1C5A09CEB3359F",
+      "bytes": 295093,
+      "restoredHeld": false
+    },
+    {
+      "name": "AmbientSounds_NEOFORGE_v6.3.8_mc1.21.1.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\AmbientSounds_NEOFORGE_v6.3.8_mc1.21.1.jar",
+      "sha256": "07EE6FD24D8427EE079E2E376095B0AC92450B0153331F1575F8195E2C9CF90B",
+      "bytes": 84811632,
+      "restoredHeld": false
+    },
+    {
+      "name": "amendments-neoforge-1.21-2.1.7.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\amendments-neoforge-1.21-2.1.7.jar",
+      "sha256": "F2AB59FEDFBFA09B67C55271599C9E31A2B44CDCBCF60CC2EE70B69C2FE0CF84",
+      "bytes": 1154863,
+      "restoredHeld": false
+    },
+    {
+      "name": "Apotheosis-1.21.1-8.7.0.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\Apotheosis-1.21.1-8.7.0.jar",
+      "sha256": "7309165A2096F441A5B042836616B98EC260E2D8631E85774279DBAD3B1982B7",
+      "bytes": 7142458,
+      "restoredHeld": false
+    },
+    {
+      "name": "apothic_cataclysm-1.2.0.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\apothic_cataclysm-1.2.0.jar",
+      "sha256": "CC48825F84E88DB0ECBD5B5E8DDDA847DD6F0FC1B98F0B3B33BCFF3AA916E873",
+      "bytes": 779458,
+      "restoredHeld": false
+    },
+    {
+      "name": "ApothicAttributes-1.21.1-2.10.1.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\ApothicAttributes-1.21.1-2.10.1.jar",
+      "sha256": "484D52A58BA351D8E41775B351DAD80F39A5BB4ED415BCA67537A7F27DE901BA",
+      "bytes": 323264,
+      "restoredHeld": false
+    },
+    {
+      "name": "ApothicEnchanting-1.21.1-1.6.0.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\ApothicEnchanting-1.21.1-1.6.0.jar",
+      "sha256": "1003B0358282CD8BBB509273821371B92AA3671910DE8ECCB2FBE8064EFB7180",
+      "bytes": 5420322,
+      "restoredHeld": false
+    },
+    {
+      "name": "ApothicSpawners-1.21.1-1.4.0.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\ApothicSpawners-1.21.1-1.4.0.jar",
+      "sha256": "F0CBC52AD606997789C36FAC94AE651AB7E2E21C841E26A952C64041CAD9CDBE",
+      "bytes": 129784,
+      "restoredHeld": false
+    },
+    {
+      "name": "appleskin-neoforge-mc1.21-3.0.9.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\appleskin-neoforge-mc1.21-3.0.9.jar",
+      "sha256": "38B48DD6231341C9F964CE6E42C57EC866C6CC8F72BEC938390A59BAFB3922DF",
+      "bytes": 75804,
+      "restoredHeld": false
+    },
+    {
+      "name": "applied_kjs-1.0.0.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\applied_kjs-1.0.0.jar",
+      "sha256": "4C60560D07A062FCA067ECB32024E779A786F2EF21C66DBA4E112DCECE988D32",
+      "bytes": 86754,
+      "restoredHeld": false
+    },
+    {
+      "name": "Applied-Mekanistics-1.6.3.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\Applied-Mekanistics-1.6.3.jar",
+      "sha256": "8946FEA39451DBCE8E709DEDBEF40A52BA337BDF7A25AC0C4B503800B1BF0773",
+      "bytes": 149709,
+      "restoredHeld": false
+    },
+    {
+      "name": "appliedcreate-1.21.1-1.1.7.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\appliedcreate-1.21.1-1.1.7.jar",
+      "sha256": "F62741487174C4B8454CBB96DB202B546C7D24657C45EB466745FF298A929B75",
+      "bytes": 443442,
+      "restoredHeld": false
+    },
+    {
+      "name": "appliedenergistics2-19.2.17.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\appliedenergistics2-19.2.17.jar",
+      "sha256": "460D779A0609B81409907D9956DE8F6F70A1B0912257E3E5C3C7E75AC9630E95",
+      "bytes": 8230896,
+      "restoredHeld": false
+    },
+    {
+      "name": "appliedschematicannon-1.0.3.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\appliedschematicannon-1.0.3.jar",
+      "sha256": "AF76F6EF9BFECBAEDDCE63D38EE1222C7CDCA770E277DE90FCF91E329CDE5C0A",
+      "bytes": 10970,
+      "restoredHeld": false
+    },
+    {
+      "name": "Aquaculture-1.21.1-2.7.21.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\Aquaculture-1.21.1-2.7.21.jar",
+      "sha256": "45F00F9059838B2FECC988861111D8B3D4613A5F1B3688A8DBFA8655751B85BB",
+      "bytes": 605949,
+      "restoredHeld": false
+    },
+    {
+      "name": "architectury-13.0.11-neoforge.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\architectury-13.0.11-neoforge.jar",
+      "sha256": "9CC92F2C09533FC5482C60F993BD891C655A0E32B637037CDCB7C2B23ADEDEEB",
+      "bytes": 584734,
+      "restoredHeld": false
+    },
+    {
+      "name": "artifacts-neoforge-13.2.1.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\artifacts-neoforge-13.2.1.jar",
+      "sha256": "4A8E1F4D5702937A707861E478829695E432286BCD9E58F5834D82C6D998EEA8",
+      "bytes": 1030252,
+      "restoredHeld": false
+    },
+    {
+      "name": "athena-neoforge-1.21.1-4.0.6.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\athena-neoforge-1.21.1-4.0.6.jar",
+      "sha256": "43699885BBCE3343916D4C5C4940CF0E3F9F6F02FDEB46E8655E121B42282EC5",
+      "bytes": 99944,
+      "restoredHeld": false
+    },
+    {
+      "name": "balm-neoforge-1.21.1-21.0.65.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\balm-neoforge-1.21.1-21.0.65.jar",
+      "sha256": "490FA5FCB7CA83A9B5A84E33C2832298DB99D189131001B9277A1DE7FDC0BF91",
+      "bytes": 783793,
+      "restoredHeld": false
+    },
+    {
+      "name": "bellsandwhistles-0.4.7-1.21.1.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\bellsandwhistles-0.4.7-1.21.1.jar",
+      "sha256": "A438CF2EA3A05120E12342484F1E12CA11526FBF4195D259CE1D7DF8A9B3FFCA",
+      "bytes": 193619,
+      "restoredHeld": false
+    },
+    {
+      "name": "bettercombat-neoforge-2.4.0+1.21.1.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\bettercombat-neoforge-2.4.0+1.21.1.jar",
+      "sha256": "0446E9FAA98B764BA010AC31E337D14AC96BBB2FBFEFF9B599E1EFD510DFDE5A",
+      "bytes": 1045389,
+      "restoredHeld": false
+    },
+    {
+      "name": "BetterThirdPerson-neoforge-1.9.0.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\BetterThirdPerson-neoforge-1.9.0.jar",
+      "sha256": "2E74076C67A78F16D696EC9AD1E3138D6ED1418544B297DBE3F4AD9CD791D059",
+      "bytes": 60941,
+      "restoredHeld": false
+    },
+    {
+      "name": "block_factorys_bosses-2.1.2-neo-1.21.1.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\block_factorys_bosses-2.1.2-neo-1.21.1.jar",
+      "sha256": "9E230BD509E7AEB3AF4C08125DB0340734C0179D83483649A16E45C0EA085E8C",
+      "bytes": 23943105,
+      "restoredHeld": false
+    },
+    {
+      "name": "blockui-1.0.209-1.21.1.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\blockui-1.0.209-1.21.1.jar",
+      "sha256": "EEC023231B21A606306CAC6C588B5B07F51741F5E5BC831DBA709D52332B82AB",
+      "bytes": 468001,
+      "restoredHeld": false
+    },
+    {
+      "name": "BOMD-NeoForge-1.21-1.3.3.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\BOMD-NeoForge-1.21-1.3.3.jar",
+      "sha256": "93DA8753A00229E41C5ED399E6CF849737E7BD9B4109D5D8E4AD3A20136DEB82",
+      "bytes": 1952017,
+      "restoredHeld": false
+    },
+    {
+      "name": "c2me-neoforge-mc1.21.1-0.4.0-alpha.0.120.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\c2me-neoforge-mc1.21.1-0.4.0-alpha.0.120.jar",
+      "sha256": "67FE384AE84F947E999A02EBDE5F5E7DE3A632803304A625BEEE9C4268509A76",
+      "bytes": 3708380,
+      "restoredHeld": false
+    },
+    {
+      "name": "carryon-neoforge-1.21.1-2.2.6.13.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\carryon-neoforge-1.21.1-2.2.6.13.jar",
+      "sha256": "D4F9576B6593DB9486A89D35C1D84C31EE89141D99DBAE2AA470350AB53C4E09",
+      "bytes": 361486,
+      "restoredHeld": false
+    },
+    {
+      "name": "cbc_at_Neoforge_1.21.1_0.1.4c.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\cbc_at_Neoforge_1.21.1_0.1.4c.jar",
+      "sha256": "88FB40B3353308C90D68F4512B78B63FD7278D05915D9D8628CECAB9508EE58F",
+      "bytes": 1438535,
+      "restoredHeld": false
+    },
+    {
+      "name": "cc-tweaked-1.21.1-forge-1.120.0.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\cc-tweaked-1.21.1-forge-1.120.0.jar",
+      "sha256": "81A903710D109D129C249C105695A96F4BAD5E0ACF7068920FB191BA791C14CE",
+      "bytes": 3126946,
+      "restoredHeld": false
+    },
+    {
+      "name": "cccbridge-mc1.21.1-v1.7.3-neoforge.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\cccbridge-mc1.21.1-v1.7.3-neoforge.jar",
+      "sha256": "E78571C5C794E0FA6499331DD1B3AE9171F2F4AF1B3B6A814343C5FADCA04CBD",
+      "bytes": 490733,
+      "restoredHeld": false
+    },
+    {
+      "name": "CerbonsAPI-NeoForge-1.21-1.3.0.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\CerbonsAPI-NeoForge-1.21-1.3.0.jar",
+      "sha256": "5C750762B31AB79127DF6F455351FE79793D8C2B41E1A0F94B335A5A1123534D",
+      "bytes": 250545,
+      "restoredHeld": false
+    },
+    {
+      "name": "chisel-neoforge-2.0.1+mc1.21.1.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\chisel-neoforge-2.0.1+mc1.21.1.jar",
+      "sha256": "66AE1F65374A7409AF069D5CCDE63A338D1754494555B3B5A00F1E862E50E2A6",
+      "bytes": 8268524,
+      "restoredHeld": false
+    },
+    {
+      "name": "chunksending-1.21-3.7.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\chunksending-1.21-3.7.jar",
+      "sha256": "A17CDC5DB59F797632E18CEBEA287ED9807B09E3D03E63229EC501B16BB18A74",
+      "bytes": 26436,
+      "restoredHeld": false
+    },
+    {
+      "name": "Chunky-NeoForge-1.4.23.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\Chunky-NeoForge-1.4.23.jar",
+      "sha256": "D72F235CF1F56F2C374F52C00BDDA5034524B28142305A84CFC123A3F92AD274",
+      "bytes": 340572,
+      "restoredHeld": false
+    },
+    {
+      "name": "cleanswing-1.9.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\cleanswing-1.9.jar",
+      "sha256": "B86E69372A3451A09C1B5D09D69F2E20485C6D2AA62FA8A538EF77509A5F5595",
+      "bytes": 8449,
+      "restoredHeld": false
+    },
+    {
+      "name": "cloth-config-15.0.140-neoforge.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\cloth-config-15.0.140-neoforge.jar",
+      "sha256": "65E722E0D98431A07C45F8BDD8D529A217CC8C175FDE1740248BD5C1B4F3C0D4",
+      "bytes": 1163890,
+      "restoredHeld": false
+    },
+    {
+      "name": "Clumps-neoforge-1.21.1-19.0.0.1.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\Clumps-neoforge-1.21.1-19.0.0.1.jar",
+      "sha256": "B524CCDACE2EF8FD19F5B2074F7DE1103AC5065C52553F064C00E098346C293E",
+      "bytes": 18382,
+      "restoredHeld": false
+    },
+    {
+      "name": "Colony4ComputerCraft-1.21.1-2.8.2.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\Colony4ComputerCraft-1.21.1-2.8.2.jar",
+      "sha256": "EE19BED6756037452BA00E8B1640BD6ABEC176A96319F21E0657DB588389A462",
+      "bytes": 173286,
+      "restoredHeld": false
+    },
+    {
+      "name": "comforts-neoforge-9.0.5+1.21.1.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\comforts-neoforge-9.0.5+1.21.1.jar",
+      "sha256": "6B0FD35A1349107E08A45539ADBDE9683BB203FEBC43A3305F6FC4AC73E59615",
+      "bytes": 422658,
+      "restoredHeld": false
+    },
+    {
+      "name": "common-storage-lib-neoforge-1.21.1-0.0.10.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\common-storage-lib-neoforge-1.21.1-0.0.10.jar",
+      "sha256": "921BD8D255A65B5E21A5C74AA661D1EA4ED034FEBCFBB5939DA054CE08F9D109",
+      "bytes": 309860,
+      "restoredHeld": false
+    },
+    {
+      "name": "configuration-neoforge-1.21.1-3.1.1.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\configuration-neoforge-1.21.1-3.1.1.jar",
+      "sha256": "B903CC326E10AF63226C7A45571BDA1E0CF88B978C9920275806E852BCD92BC1",
+      "bytes": 423189,
+      "restoredHeld": false
+    },
+    {
+      "name": "configured-neoforge-1.21.1-2.6.3.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\configured-neoforge-1.21.1-2.6.3.jar",
+      "sha256": "421FFD2604B5487CBDB284D1EB5D1CB8A7D28F3FF84D5B4BDA25E0A579282A15",
+      "bytes": 428793,
+      "restoredHeld": false
+    },
+    {
+      "name": "connector-2.0.0-beta.17+1.21.1-full.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\connector-2.0.0-beta.17+1.21.1-full.jar",
+      "sha256": "5A4AD10E57B8B1690832D9B77FC488FBE5E7CF41AC5A90D9F569BD78FBEA25BE",
+      "bytes": 4573244,
+      "restoredHeld": false
+    },
+    {
+      "name": "continuity-3.0.0+1.21.neoforge.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\continuity-3.0.0+1.21.neoforge.jar",
+      "sha256": "4CC0A4A09AE09C64BB567E42381652B700F9CADE5067A75E83115662CC475F0A",
+      "bytes": 1014626,
+      "restoredHeld": false
+    },
+    {
+      "name": "Controlling-neoforge-1.21.1-19.0.5.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\Controlling-neoforge-1.21.1-19.0.5.jar",
+      "sha256": "CC525FB6B030D9E4D33176983F278919E17B33935E2CA568929BDFA98F2B44A0",
+      "bytes": 77555,
+      "restoredHeld": false
+    },
+    {
+      "name": "copycats-3.0.4+mc.1.21.1-neoforge.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\copycats-3.0.4+mc.1.21.1-neoforge.jar",
+      "sha256": "8480E2A62EAA625F75776831C1D8A9EF3D77D2D816FA2E67566C6EC25BA745D1",
+      "bytes": 1791747,
+      "restoredHeld": false
+    },
+    {
+      "name": "cosmonautics-26.08.307.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\cosmonautics-26.08.307.jar",
+      "sha256": "3FD9DAC868400905A55164D2C9D74ABC2080AE3269CA51E54E1899874945973E",
+      "bytes": 22566115,
+      "restoredHeld": false
+    },
+    {
+      "name": "cosmowarp-1.0.1.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\cosmowarp-1.0.1.jar",
+      "sha256": "FCAEAD3D8D1FB7C21D9F8243B5305F3B8E0FCD6F90D25FEC0AED3EE46C8AC1BC",
+      "bytes": 277560,
+      "restoredHeld": false
+    },
+    {
+      "name": "CrashAssistant-neoforge-1.20.6-1.21.4-1.11.12.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\CrashAssistant-neoforge-1.20.6-1.21.4-1.11.12.jar",
+      "sha256": "42F582333FFE61366E68A9320D3C205153F2FDC5B53AD715B01543F85828E6B0",
+      "bytes": 3481341,
+      "restoredHeld": false
+    },
+    {
+      "name": "Create Encased-1.21.1-1.9.0-ht3.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\Create Encased-1.21.1-1.9.0-ht3.jar",
+      "sha256": "E93BB110241AB8283C6238590EB04F1FB37199815623F53F3E981EE650F344A3",
+      "bytes": 3110804,
+      "restoredHeld": false
+    },
+    {
+      "name": "create_aeronautics_automated_logistics-0.6.2.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\create_aeronautics_automated_logistics-0.6.2.jar",
+      "sha256": "B966FE666212DA694EF19B292516643081B402C0AF18549F94152DD387CC268E",
+      "bytes": 1567622,
+      "restoredHeld": false
+    },
+    {
+      "name": "create_connected-1.3.2-mc1.21.1.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\create_connected-1.3.2-mc1.21.1.jar",
+      "sha256": "90BDCEAC63CB0EBD5E51351E22136182B996512EDEF937D0635D2857B0A3F24B",
+      "bytes": 6779410,
+      "restoredHeld": false
+    },
+    {
+      "name": "create_factory-0.7b-1.21.1.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\create_factory-0.7b-1.21.1.jar",
+      "sha256": "A2DC0E9DD3C894E1373512035A6483701827A42E1F3DA334DA9457C124639F6E",
+      "bytes": 212765,
+      "restoredHeld": false
+    },
+    {
+      "name": "create_ultimate_factory-2.2.4-neoforge-1.21.1.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\create_ultimate_factory-2.2.4-neoforge-1.21.1.jar",
+      "sha256": "B95DCDD43C859EAF1825F33B2B4C42226187A1E875D368B0B24ED0BE1E0FA1B0",
+      "bytes": 235239,
+      "restoredHeld": false
+    },
+    {
+      "name": "create-1.21.1-6.0.10.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\create-1.21.1-6.0.10.jar",
+      "sha256": "EF87FE5709F1BA1F5B8BB20A2925B5AFB4669E178FD6D8BF10C167759EEFE37A",
+      "bytes": 19123767,
+      "restoredHeld": false
+    },
+    {
+      "name": "create-aeronautics-bundled-1.21.1-1.3.2.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\create-aeronautics-bundled-1.21.1-1.3.2.jar",
+      "sha256": "A3F330D4757640F8715D991A43EEDB826E4D0E51558D859C843AE6693BD35F1E",
+      "bytes": 33123131,
+      "restoredHeld": false
+    },
+    {
+      "name": "create-enchantment-industry-2.4.2.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\create-enchantment-industry-2.4.2.jar",
+      "sha256": "81F192BB53888E01F87A82EAAC2F261C93715F2221DBCF5D8A8D414F912F75EF",
+      "bytes": 1283517,
+      "restoredHeld": false
+    },
+    {
+      "name": "createaddition-1.6.0.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\createaddition-1.6.0.jar",
+      "sha256": "41876C3780B70365A1848994D146A73423CC19FBE86485885795D9E7D855E7E9",
+      "bytes": 1661802,
+      "restoredHeld": false
+    },
+    {
+      "name": "createappliedkinetics-1.5.3-1.21.1.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\createappliedkinetics-1.5.3-1.21.1.jar",
+      "sha256": "EC27FBB014E262F4E1A6578C088DDB46FF162B8C6C407C6DDE9558362E941C76",
+      "bytes": 65199,
+      "restoredHeld": false
+    },
+    {
+      "name": "createbigcannons-5.11.7+mc.1.21.1.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\createbigcannons-5.11.7+mc.1.21.1.jar",
+      "sha256": "EA017AB94637032D039899D88404838D173FA0E6286657CAE6A6C3AF459E87CA",
+      "bytes": 3771506,
+      "restoredHeld": false
+    },
+    {
+      "name": "createdieselgenerators-1.21.1-1.3.15.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\createdieselgenerators-1.21.1-1.3.15.jar",
+      "sha256": "56EF1D574278FC311F1FFA223DBD613077B899354A18D01AE8DCA2578A4E2990",
+      "bytes": 3154746,
+      "restoredHeld": false
+    },
+    {
+      "name": "CreateDragonsPlus-1.11.7b.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\CreateDragonsPlus-1.11.7b.jar",
+      "sha256": "BDAD8FAE41888D161B7EF59DED32D5EFCF3F80DD9F19FDDAAD38C24B139E6EE7",
+      "bytes": 1038830,
+      "restoredHeld": false
+    },
+    {
+      "name": "createenchantablemachinery-3.6.0+mc1.21.1-neoforge.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\createenchantablemachinery-3.6.0+mc1.21.1-neoforge.jar",
+      "sha256": "933AD37B064D8C6005F1F6EB09B3274FE9F5961A6841FB9E7BB65A7BFF66F653",
+      "bytes": 575739,
+      "restoredHeld": false
+    },
+    {
+      "name": "createfactorycontroller-1.1.1-neoforge-1.21.1.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\createfactorycontroller-1.1.1-neoforge-1.21.1.jar",
+      "sha256": "68223EDFF2A0D0C3AF53906F546B502C934DC2F21061920459AB03F356D9A494",
+      "bytes": 1796279,
+      "restoredHeld": false
+    },
+    {
+      "name": "createliquidfuel-2.1.1-1.21.1.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\createliquidfuel-2.1.1-1.21.1.jar",
+      "sha256": "CCD44B069962890352DFEE442508880A37EECD3C5625D74D668DD6EB7D39EE3D",
+      "bytes": 18140,
+      "restoredHeld": false
+    },
+    {
+      "name": "createlowheated-neoforge-1.21.1-6.0.10-2.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\createlowheated-neoforge-1.21.1-6.0.10-2.jar",
+      "sha256": "472A7E40BD4F2FA2862078A87E938DA8EB147A377551CE5DE1CD4568DF496FBD",
+      "bytes": 186031,
+      "restoredHeld": false
+    },
+    {
+      "name": "createmetallurgy-1.0.3-1.21.1.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\createmetallurgy-1.0.3-1.21.1.jar",
+      "sha256": "8F1C30C9F800C367A40715E8E6662F736F4547737987DFC30C10172B89B5D93F",
+      "bytes": 2035560,
+      "restoredHeld": false
+    },
+    {
+      "name": "CreativeCore_NEOFORGE_v2.13.43_mc1.21.1.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\CreativeCore_NEOFORGE_v2.13.43_mc1.21.1.jar",
+      "sha256": "267804E324812965C9B347C456067C6ED982B54148D130F7859FC5002EC97D5D",
+      "bytes": 1222856,
+      "restoredHeld": false
+    },
+    {
+      "name": "cristellib-neoforge-1.21.1-3.1.7.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\cristellib-neoforge-1.21.1-3.1.7.jar",
+      "sha256": "11E05DBC97BD3FE1790BD6361747240E314C1DBF40B590EA20CC691DC8396C38",
+      "bytes": 583525,
+      "restoredHeld": false
+    },
+    {
+      "name": "cryonicconfig-neoforge-1.0.0+mc1.21.11.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\cryonicconfig-neoforge-1.0.0+mc1.21.11.jar",
+      "sha256": "A33856FD37D787B3BD4103D5C045E669C2F4274EFB8D10F1EE0A759911A21E2C",
+      "bytes": 133851,
+      "restoredHeld": false
+    },
+    {
+      "name": "cupboard-1.21.1-4.0.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\cupboard-1.21.1-4.0.jar",
+      "sha256": "426CD295560DF4FCEAC7B410D864BD93AC200F8B77F9146AC430E92F36DAE761",
+      "bytes": 29598,
+      "restoredHeld": false
+    },
+    {
+      "name": "curios-neoforge-9.5.1+1.21.1.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\curios-neoforge-9.5.1+1.21.1.jar",
+      "sha256": "A45DF2125C26219974ABA7507FFC9AFE7B83ACC941A386AF3FAACB1CC0056FDE",
+      "bytes": 410690,
+      "restoredHeld": false
+    },
+    {
+      "name": "deeperdarker-neoforge-1.21.1-1.4.1.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\deeperdarker-neoforge-1.21.1-1.4.1.jar",
+      "sha256": "EEE3F51222B0BCC714DEF002FF089AC9E131D3CAE4575B542FD0A7DD101FE0AF",
+      "bytes": 3906057,
+      "restoredHeld": false
+    },
+    {
+      "name": "dg_js-1.21.1-1.2.4.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\dg_js-1.21.1-1.2.4.jar",
+      "sha256": "97AC8B7EAD7ABAA592A4107C8BADFBE3BF697136EAC9470823F1FD3C45FB569D",
+      "bytes": 133061,
+      "restoredHeld": false
+    },
+    {
+      "name": "domum-ornamentum-1.0.231-main.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\domum-ornamentum-1.0.231-main.jar",
+      "sha256": "04C0C902BDBCBD48E38BEE5A323907AE0B7B7DB4FF4A3E4DA7C45334B65610A1",
+      "bytes": 1143596,
+      "restoredHeld": false
+    },
+    {
+      "name": "drippyloadingscreen_neoforge_3.1.5_MC_1.21.1.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\drippyloadingscreen_neoforge_3.1.5_MC_1.21.1.jar",
+      "sha256": "F1FCB6CF3CBC7A6055FED0912BF284A7C455A0830DE42460943FC5E130072759",
+      "bytes": 168632,
+      "restoredHeld": false
+    },
+    {
+      "name": "DungeonCrawl-NeoForge-1.21-2.3.17.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\DungeonCrawl-NeoForge-1.21-2.3.17.jar",
+      "sha256": "853CD59208F17C25188A419B48D1A9FED3ACEBF676BB1DDD026FA4E7FB56DAD4",
+      "bytes": 738480,
+      "restoredHeld": false
+    },
+    {
+      "name": "dungeonnowloading-neoforge-1.21.1-2.11.3.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\dungeonnowloading-neoforge-1.21.1-2.11.3.jar",
+      "sha256": "CA6EBD2EF0D9F9DC4A131B25DE717E65658173DE96024ACD83E41F54AB05C9C7",
+      "bytes": 85074727,
+      "restoredHeld": false
+    },
+    {
+      "name": "electroenergetics-1.21.1-1.1.1.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\electroenergetics-1.21.1-1.1.1.jar",
+      "sha256": "EA5DF2C5100A4AA178BD0054779015D85C63DA221A782915240656601B51AEFD",
+      "bytes": 4771388,
+      "restoredHeld": false
+    },
+    {
+      "name": "exposure-neoforge-1.21.1-1.9.18.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\exposure-neoforge-1.21.1-1.9.18.jar",
+      "sha256": "674C537A99F69B2BAE53521C95DAE59BC5F4EB2EB15418EEC0ECBAF36B53D888",
+      "bytes": 2192415,
+      "restoredHeld": false
+    },
+    {
+      "name": "ExtendedAE-1.21-2.2.35-neoforge.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\ExtendedAE-1.21-2.2.35-neoforge.jar",
+      "sha256": "14A2860FA2C747E9DDA2279B8933FAC6311FECFEE166C765171022B902591C65",
+      "bytes": 5578031,
+      "restoredHeld": false
+    },
+    {
+      "name": "ExtremeReactors2-1.21.1-2.4.28.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\ExtremeReactors2-1.21.1-2.4.28.jar",
+      "sha256": "74FDFDFC91C3C8E5A439D411E6F081D12193635FFFE2C55142F2F28F75B9D621",
+      "bytes": 2554779,
+      "restoredHeld": false
+    },
+    {
+      "name": "ExtremeReactors2-CreateCompat-1.21.1-1.0.4.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\ExtremeReactors2-CreateCompat-1.21.1-1.0.4.jar",
+      "sha256": "A6F4DFA81DF77908118CF907BCE192D93B6BFC96A7B18CB45470133137E98A23",
+      "bytes": 119634,
+      "restoredHeld": false
+    },
+    {
+      "name": "factory_blocks-neoforge-1.4.0+mc1.21.1.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\factory_blocks-neoforge-1.4.0+mc1.21.1.jar",
+      "sha256": "404080FCF4747C6D84B73D1C204D047408AAE476F57752BC5F38E9C16C7F51CD",
+      "bytes": 809234,
+      "restoredHeld": false
+    },
+    {
+      "name": "fallingleaves-1.21.1-2.5.1.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\fallingleaves-1.21.1-2.5.1.jar",
+      "sha256": "3C03B49B5F35481D4BAF61EC1FE04233B39CB5A34F7447BE04F7D4EFD2976834",
+      "bytes": 153343,
+      "restoredHeld": false
+    },
+    {
+      "name": "fancymenu_neoforge_3.9.10_MC_1.21.1.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\fancymenu_neoforge_3.9.10_MC_1.21.1.jar",
+      "sha256": "E7C425718CA40A39128B690AE22EA069D30E8136ACA9C33238589CB17114A63A",
+      "bytes": 25905546,
+      "restoredHeld": false
+    },
+    {
+      "name": "FarmersDelight-1.21.1-1.3.2.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\FarmersDelight-1.21.1-1.3.2.jar",
+      "sha256": "8FF438D62E1FCE61542945FAAE45975D823E04BD6E73A07A121EA05CE2F03DE7",
+      "bytes": 3163042,
+      "restoredHeld": false
+    },
+    {
+      "name": "fastleafdecay-35.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\fastleafdecay-35.jar",
+      "sha256": "0B90F259CAEF64C3AA09D05427859990A51ADEC072540A9C598370B86C966A98",
+      "bytes": 9511,
+      "restoredHeld": false
+    },
+    {
+      "name": "fastpaintings-1.21-1.3.0-neoforge.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\fastpaintings-1.21-1.3.0-neoforge.jar",
+      "sha256": "782AFB6F4C631C9D3313B6442D304B36336F794273DFA5C381485142020CA05A",
+      "bytes": 155810,
+      "restoredHeld": false
+    },
+    {
+      "name": "ferritecore-7.0.3-neoforge.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\ferritecore-7.0.3-neoforge.jar",
+      "sha256": "D87EA28262715EBFF45B8A82D493E6B468E7A4521BC021DF5D88302196D030A8",
+      "bytes": 121559,
+      "restoredHeld": false
+    },
+    {
+      "name": "forgified-fabric-api-0.116.15+2.3.3+1.21.1.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\forgified-fabric-api-0.116.15+2.3.3+1.21.1.jar",
+      "sha256": "9DCA0ECA901D2B9A6B0025ED7A5F2AA2B925B106D853AECFA2F083500F7380ED",
+      "bytes": 5613274,
+      "restoredHeld": false
+    },
+    {
+      "name": "framework-neoforge-1.21.1-0.13.11.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\framework-neoforge-1.21.1-0.13.11.jar",
+      "sha256": "429EA90A162D7C25C1463EE60979E4D7B1DDB525D9384A3A2A2F45D70BDA03F5",
+      "bytes": 387334,
+      "restoredHeld": false
+    },
+    {
+      "name": "friendsandfoes-neoforge-4.0.27+mc1.21.1.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\friendsandfoes-neoforge-4.0.27+mc1.21.1.jar",
+      "sha256": "40F6129D9124BCD0052A348813425FC223B7B6EF16B81928F5EDCB89EA62CFD1",
+      "bytes": 5096836,
+      "restoredHeld": false
+    },
+    {
+      "name": "ftb-chunks-neoforge-2101.1.21.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\ftb-chunks-neoforge-2101.1.21.jar",
+      "sha256": "2CC32A613DD04D9355B88E6F455235AAF00768C270489657C9949F23B9195588",
+      "bytes": 655753,
+      "restoredHeld": false
+    },
+    {
+      "name": "ftb-essentials-neoforge-2101.1.10.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\ftb-essentials-neoforge-2101.1.10.jar",
+      "sha256": "A61DE1B883EC9D6D652276F453E8E60B18BD315FEF8C62F21D6545260D526587",
+      "bytes": 217288,
+      "restoredHeld": false
+    },
+    {
+      "name": "ftb-library-neoforge-2101.1.35.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\ftb-library-neoforge-2101.1.35.jar",
+      "sha256": "BE7B2BD0B5370A9951624A1D84FD802EFECAE88D5A0CD24552731F887430599D",
+      "bytes": 1439018,
+      "restoredHeld": false
+    },
+    {
+      "name": "ftb-quests-neoforge-2101.1.34.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\ftb-quests-neoforge-2101.1.34.jar",
+      "sha256": "EA09118F399F24640CCBE5B4171B59A4D7BECBA789A8C36783DBB2A04C00BF24",
+      "bytes": 1609252,
+      "restoredHeld": false
+    },
+    {
+      "name": "ftb-teams-neoforge-2101.1.10.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\ftb-teams-neoforge-2101.1.10.jar",
+      "sha256": "A656F2AA0E11A933AAB3BA697690AA0EB2041F65E6C5DAA448897EE0A6D37A6C",
+      "bytes": 302712,
+      "restoredHeld": false
+    },
+    {
+      "name": "ftbxaerocompat-neoforge-1.1.4.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\ftbxaerocompat-neoforge-1.1.4.jar",
+      "sha256": "DD27664945866D4092803C261CDD0D5BA4DF755853E2CC87FAE9C96CBD986681",
+      "bytes": 109301,
+      "restoredHeld": false
+    },
+    {
+      "name": "fusion-1.3.12-neoforge-mc1.21.1.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\fusion-1.3.12-neoforge-mc1.21.1.jar",
+      "sha256": "17F5215648A98BCDE4134577B013200DBF363273AE282449C51408AE8346F2FA",
+      "bytes": 923270,
+      "restoredHeld": false
+    },
+    {
+      "name": "fzzy_config-0.7.6+1.21+neoforge.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\fzzy_config-0.7.6+1.21+neoforge.jar",
+      "sha256": "4E5CC1438087B0BC0276969E88B9AD0BDF2BCC60D6CAF5FE79E18947D7A29050",
+      "bytes": 2369895,
+      "restoredHeld": false
+    },
+    {
+      "name": "geckolib-neoforge-1.21.1-4.9.2.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\geckolib-neoforge-1.21.1-4.9.2.jar",
+      "sha256": "5E548466AF9AB6ACA7A91A7C7D4DC0DC8BC385E22958AED5DA0E7BEBD0FA3FBA",
+      "bytes": 630584,
+      "restoredHeld": false
+    },
+    {
+      "name": "GlitchCore-neoforge-1.21.1-2.1.0.2.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\GlitchCore-neoforge-1.21.1-2.1.0.2.jar",
+      "sha256": "D9EA421E7449A35CF3ADC41C9F740156342B7B17A08B1BE843660608AF7B60F9",
+      "bytes": 90717,
+      "restoredHeld": false
+    },
+    {
+      "name": "Glodium-1.21-2.2-neoforge.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\Glodium-1.21-2.2-neoforge.jar",
+      "sha256": "369E99753DF0BDC90A38A8C52DF4ABB37BAF6B18C6CA130AF4C7BC75FB160A85",
+      "bytes": 61377,
+      "restoredHeld": false
+    },
+    {
+      "name": "gpumemleakfix-1.21-1.8.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\gpumemleakfix-1.21-1.8.jar",
+      "sha256": "4BD0682E26B8D4BA78442CE8D969FC7FA3CAC2C21FC600DE34A54B2FF7814931",
+      "bytes": 6574,
+      "restoredHeld": false
+    },
+    {
+      "name": "gravestone-neoforge-1.21.1-1.0.38.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\gravestone-neoforge-1.21.1-1.0.38.jar",
+      "sha256": "9AEEC340571F55147BAB02BDEA252E25A2E6D7B27B282D12817C34090A35F945",
+      "bytes": 321850,
+      "restoredHeld": false
+    },
+    {
+      "name": "guardvillagers-2.4.10-1.21.1.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\guardvillagers-2.4.10-1.21.1.jar",
+      "sha256": "1E4E9B47A5F6580370D7E3056379EB0C36EC90BEF6E014E098805ACE1DE980A4",
+      "bytes": 283467,
+      "restoredHeld": false
+    },
+    {
+      "name": "guideme-21.1.17.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\guideme-21.1.17.jar",
+      "sha256": "D012ACA7275E2186AA223BF180B643164E5360D6433385FB12951F369F0B8C84",
+      "bytes": 9309396,
+      "restoredHeld": false
+    },
+    {
+      "name": "Hilt-1.21.1-1.14.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\Hilt-1.21.1-1.14.jar",
+      "sha256": "9250B06F442885807C14B1173350A6EB5984C6279748A2D343B44DD229E84E36",
+      "bytes": 1685623,
+      "restoredHeld": false
+    },
+    {
+      "name": "i_architecture-0.1.1b.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\i_architecture-0.1.1b.jar",
+      "sha256": "295EDFB0F3DEC36BC294DEBE377425A9AD21F7CE98305CA9F7B03D4B0605A544",
+      "bytes": 1350779,
+      "restoredHeld": false
+    },
+    {
+      "name": "ImmediatelyFast-NeoForge-1.6.12+1.21.1.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\ImmediatelyFast-NeoForge-1.6.12+1.21.1.jar",
+      "sha256": "BFDF88BBB930F0D934F33253357B53840462FD7FA01779606B7E62EB6A471914",
+      "bytes": 362397,
+      "restoredHeld": false
+    },
+    {
+      "name": "ImmersiveEngineering-1.21.1-12.4.2-194.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\ImmersiveEngineering-1.21.1-12.4.2-194.jar",
+      "sha256": "45942985A4A4AEBF265B8E22A0C54A96208637471F36F2532FF5D4911322DEBC",
+      "bytes": 14232121,
+      "restoredHeld": false
+    },
+    {
+      "name": "ImmersiveUI-NEOFORGE-0.3.3+1.21.1.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\ImmersiveUI-NEOFORGE-0.3.3+1.21.1.jar",
+      "sha256": "6B914E305F27962A91D49A659B77EB65F47ACEE9D79930801B4FC1D3E474C8A4",
+      "bytes": 217081,
+      "restoredHeld": false
+    },
+    {
+      "name": "industrial_colonies-0.5.0.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\industrial_colonies-0.5.0.jar",
+      "sha256": "8DF80E5C7E4B447F651696A9383A1487B26F557A67D6263DEAFA3805BC675D91",
+      "bytes": 1765213,
+      "restoredHeld": false
+    },
+    {
+      "name": "inventoryessentials-neoforge-1.21.1-21.1.17.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\inventoryessentials-neoforge-1.21.1-21.1.17.jar",
+      "sha256": "17D31BFF249E39215A3FC3DA2514EF5B461AD7A61BA2978E7FAEA8AADE46FF5E",
+      "bytes": 200251,
+      "restoredHeld": false
+    },
+    {
+      "name": "irons_apothic-2.2.1.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\irons_apothic-2.2.1.jar",
+      "sha256": "5120745DBABEAC1D836BC10F673A9070E7E63BD0584C67FCD685CDE9F96107C5",
+      "bytes": 250582,
+      "restoredHeld": false
+    },
+    {
+      "name": "irons_lib-1.21.1-2.1.0.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\irons_lib-1.21.1-2.1.0.jar",
+      "sha256": "3D0AD1003D6EDEAAD2500B9922267B4192D2C603CDD846FDA339B168F4DEFF72",
+      "bytes": 406284,
+      "restoredHeld": false
+    },
+    {
+      "name": "irons_spellbooks-1.21.1-3.16.2.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\irons_spellbooks-1.21.1-3.16.2.jar",
+      "sha256": "82B650AFF7636C8FA88DA0E4CFEA008C229BB62843274678EE932F6B4EC74430",
+      "bytes": 13874139,
+      "restoredHeld": false
+    },
+    {
+      "name": "Jade-1.21.1-NeoForge-15.10.6.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\Jade-1.21.1-NeoForge-15.10.6.jar",
+      "sha256": "276F1F65A20D04F536989C4F311949D770B52C440C23C2B904A08860F3C93810",
+      "bytes": 726853,
+      "restoredHeld": false
+    },
+    {
+      "name": "JadeAddons-1.21.1-NeoForge-6.1.0.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\JadeAddons-1.21.1-NeoForge-6.1.0.jar",
+      "sha256": "5F242668AD710092964D4D9AFDA8A94FA2401665EA13EEA67D55D07E4DFF8A64",
+      "bytes": 74419,
+      "restoredHeld": false
+    },
+    {
+      "name": "jamlib-neoforge-1.3.6+1.21.1.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\jamlib-neoforge-1.3.6+1.21.1.jar",
+      "sha256": "911AFDFE717A2375A651253E282AC9E769F8BEAD381D33C2167955C25EEFE514",
+      "bytes": 188553,
+      "restoredHeld": false
+    },
+    {
+      "name": "jei-1.21.1-neoforge-19.51.0.418.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\jei-1.21.1-neoforge-19.51.0.418.jar",
+      "sha256": "8BC3936D869E4040A5649C58B7E8BE1C78C82A245C0DC07BDD68AB49121A222C",
+      "bytes": 1804792,
+      "restoredHeld": false
+    },
+    {
+      "name": "jeimultiblocks-1.21.1-1.0.6.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\jeimultiblocks-1.21.1-1.0.6.jar",
+      "sha256": "86098B6A34A311E845713A199491458972F3A5F68CB7D6B9B380B4F576E20027",
+      "bytes": 16964,
+      "restoredHeld": false
+    },
+    {
+      "name": "journeymap-neoforge-1.21.1-6.0.5.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\journeymap-neoforge-1.21.1-6.0.5.jar",
+      "sha256": "C48A710539CA829E04B2BCC29A4ADDA3A4097DF0C9CA4844B984DFA921C2DA10",
+      "bytes": 4283584,
+      "restoredHeld": false
+    },
+    {
+      "name": "JustEnoughMekanismMultiblocks-1.21.1-7.19.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\JustEnoughMekanismMultiblocks-1.21.1-7.19.jar",
+      "sha256": "3A445F86052A4BD03DD8772FBBB61E7B70C549D5A809E32BCE13E06CAEA36A1D",
+      "bytes": 194194,
+      "restoredHeld": false
+    },
+    {
+      "name": "JustEnoughProfessions-neoforge-1.21.1-4.0.5.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\JustEnoughProfessions-neoforge-1.21.1-4.0.5.jar",
+      "sha256": "B34D6BB434D507874A6EBE49D40169C26F7CAD8F51C9FFEA615EEDB153746696",
+      "bytes": 24879,
+      "restoredHeld": false
+    },
+    {
+      "name": "JustEnoughResources-NeoForge-1.21.1-1.6.0.17.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\JustEnoughResources-NeoForge-1.21.1-1.6.0.17.jar",
+      "sha256": "7A47D69B5530704690D5A5F0726CD74A2D6C57DF17DD4A8589C4AB5212F91460",
+      "bytes": 292088,
+      "restoredHeld": false
+    },
+    {
+      "name": "kjsgen-neoforge-2.0.5+mc1.21.1.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\kjsgen-neoforge-2.0.5+mc1.21.1.jar",
+      "sha256": "83CD46F853FC8D984BF09B700FAE65FCF673DA8768E54A214FD52CE663A40A92",
+      "bytes": 309170,
+      "restoredHeld": false
+    },
+    {
+      "name": "konkrete_neoforge_1.9.9_MC_1.21.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\konkrete_neoforge_1.9.9_MC_1.21.jar",
+      "sha256": "791C5538751DD3015EF3A2CE92D98719E1A28A48EBBD817B78506771256654CD",
+      "bytes": 618842,
+      "restoredHeld": false
+    },
+    {
+      "name": "kotlinforforge-5.12.0-all.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\kotlinforforge-5.12.0-all.jar",
+      "sha256": "095AED94F21B4E55895B21EA957750AE3AB829FBCFC6D3C66A3489F5F1128D46",
+      "bytes": 7279276,
+      "restoredHeld": false
+    },
+    {
+      "name": "kubejs-create-neoforge-2101.3.1-build.18.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\kubejs-create-neoforge-2101.3.1-build.18.jar",
+      "sha256": "60FAB77C339E5757A97A9A1E2D4019ED2A610BD46583D4353C9A13596E01E614",
+      "bytes": 38630,
+      "restoredHeld": false
+    },
+    {
+      "name": "kubejs-neoforge-2101.7.2-build.368.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\kubejs-neoforge-2101.7.2-build.368.jar",
+      "sha256": "28867299E7A9F02CFD74E34745FDBBB073FE4887FDDBC98FD6C1ED2E87B01482",
+      "bytes": 2281720,
+      "restoredHeld": false
+    },
+    {
+      "name": "L_Ender's Cataclysm 1.21.1-3.32.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\L_Ender's Cataclysm 1.21.1-3.32.jar",
+      "sha256": "679C8687281CDAC01E80DE1672F27DB1BAF6AD5C68C74D752806B9D5CE246AC3",
+      "bytes": 73362730,
+      "restoredHeld": false
+    },
+    {
+      "name": "ldlib2-neoforge-1.21.1-2.2.38.a-all.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\ldlib2-neoforge-1.21.1-2.2.38.a-all.jar",
+      "sha256": "8AA7D5E6DE7960214EB6457C6C9744AD09A3395B62E6BDD87A4E1657086C3163",
+      "bytes": 7330470,
+      "restoredHeld": false
+    },
+    {
+      "name": "lionfishapi-3.1.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\lionfishapi-3.1.jar",
+      "sha256": "AEEBF0692650AFBBC78259C0D4E3D5B7EDF037707E8AE5D56045066D83A19CF6",
+      "bytes": 91596,
+      "restoredHeld": false
+    },
+    {
+      "name": "lithium-neoforge-0.15.4+mc1.21.1.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\lithium-neoforge-0.15.4+mc1.21.1.jar",
+      "sha256": "488F33216030C1CB0BAA33E59DE3D657D08D5795A6C2080C8C8BBBC133FC8757",
+      "bytes": 774220,
+      "restoredHeld": false
+    },
+    {
+      "name": "lithosphere 1.6 17.06.2025 (1.20.5 - 1.21.5).jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\lithosphere 1.6 17.06.2025 (1.20.5 - 1.21.5).jar",
+      "sha256": "F66D1C35BD9F36F861C5BD607050D6906413F8EF003941520E96434537B70394",
+      "bytes": 582938,
+      "restoredHeld": false
+    },
+    {
+      "name": "lithostitched-1.8.0+beta4-neoforge-21.1.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\lithostitched-1.8.0+beta4-neoforge-21.1.jar",
+      "sha256": "F9BED6228565D69166AC85EDBE6159E28674A687562964E5424A8C8A477D20C0",
+      "bytes": 954028,
+      "restoredHeld": false
+    },
+    {
+      "name": "lmft-1.1.1+1.21.9-neoforge.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\lmft-1.1.1+1.21.9-neoforge.jar",
+      "sha256": "932765AAE037197E8ACFE7A90D9E473B143E3E785655C24C02B30C7013CD4458",
+      "bytes": 78624,
+      "restoredHeld": false
+    },
+    {
+      "name": "mcw-doors-1.1.5-mc1.21.1neoforge.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\mcw-doors-1.1.5-mc1.21.1neoforge.jar",
+      "sha256": "87261E309F5E10C9910169D5ACBBA613CAB3A2D2270698B0BD47E657A45B0518",
+      "bytes": 1190404,
+      "restoredHeld": false
+    },
+    {
+      "name": "mcw-furniture-3.4.1-mc1.21.1neoforge.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\mcw-furniture-3.4.1-mc1.21.1neoforge.jar",
+      "sha256": "819FDA8059B210E9DE8B9275C8B8E0D931054AF5A5AD47771C72D9FD4AB85E88",
+      "bytes": 2080436,
+      "restoredHeld": false
+    },
+    {
+      "name": "mcw-lights-1.1.5-mc1.21.1neoforge.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\mcw-lights-1.1.5-mc1.21.1neoforge.jar",
+      "sha256": "B27CD68A7673874B0F6D765BDEF2A022666CC07CA0E5057209A16D1A535DA9E4",
+      "bytes": 525744,
+      "restoredHeld": false
+    },
+    {
+      "name": "mcw-mcwstairs-1.0.2-mc1.21.1neoforge.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\mcw-mcwstairs-1.0.2-mc1.21.1neoforge.jar",
+      "sha256": "177FE382FF22CAA14983D862EAD2717321315A5E4AFA778D245E9ACD2F61608D",
+      "bytes": 529082,
+      "restoredHeld": false
+    },
+    {
+      "name": "mcw-mcwwindows-2.4.2-mc1.21.1neoforge.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\mcw-mcwwindows-2.4.2-mc1.21.1neoforge.jar",
+      "sha256": "8970C40EC622EDD34C9B055226B403AF08AB441C77303A6DC625AE18005F8184",
+      "bytes": 1261268,
+      "restoredHeld": false
+    },
+    {
+      "name": "mcw-paintings-1.1.0-mc1.21.1neoforge.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\mcw-paintings-1.1.0-mc1.21.1neoforge.jar",
+      "sha256": "FDDF73508F3C98CADD9B3C1FE08D792141EB3DB7F89134CF313ED175C3BA031C",
+      "bytes": 179058,
+      "restoredHeld": false
+    },
+    {
+      "name": "mcw-trapdoors-1.1.5-mc1.21.1neoforge.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\mcw-trapdoors-1.1.5-mc1.21.1neoforge.jar",
+      "sha256": "1408D46BC2E7515B25B4DA8393F8DBB3D79BCD9FB6D51FCF26FE84734C2597AF",
+      "bytes": 572870,
+      "restoredHeld": false
+    },
+    {
+      "name": "megacells-4.11.0.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\megacells-4.11.0.jar",
+      "sha256": "A386BBF12AFB11729B0DCF77F64221893D250F22E6185A4D728B9799B230BC55",
+      "bytes": 1137276,
+      "restoredHeld": false
+    },
+    {
+      "name": "Mekanism-1.21.1-10.7.19.85.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\Mekanism-1.21.1-10.7.19.85.jar",
+      "sha256": "004DBC9F3106F4D192AEAA1EE1190DD16EC9CA8059ED3D093B80034F4C574F43",
+      "bytes": 11976009,
+      "restoredHeld": false
+    },
+    {
+      "name": "melody_neoforge_1.0.10_MC_1.21.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\melody_neoforge_1.0.10_MC_1.21.jar",
+      "sha256": "6B973A4564703C531FC0EAE09DB08B07A38091E0A743C687B8D2049457E84871",
+      "bytes": 36096,
+      "restoredHeld": false
+    },
+    {
+      "name": "memorysettings-1.21-6.0.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\memorysettings-1.21-6.0.jar",
+      "sha256": "83721E70A8702B4389CA5D83DAA5B30F55797561EE30D788CEC2987B7CE3E042",
+      "bytes": 22329,
+      "restoredHeld": false
+    },
+    {
+      "name": "merequester-neoforge-1.21.1-1.4.3.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\merequester-neoforge-1.21.1-1.4.3.jar",
+      "sha256": "68F3C861A802D48AFEB6E3A48E8EE4F8633904340AC3F89F17493DC84490E385",
+      "bytes": 184517,
+      "restoredHeld": false
+    },
+    {
+      "name": "minecolonies-1.1.1368-1.21.1.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\minecolonies-1.1.1368-1.21.1.jar",
+      "sha256": "C3A2542AACED85AABFC58B38415B70E6B095A16787056E07880FC94320F09A9B",
+      "bytes": 77945293,
+      "restoredHeld": false
+    },
+    {
+      "name": "modernfix-neoforge-5.27.20+mc1.21.1.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\modernfix-neoforge-5.27.20+mc1.21.1.jar",
+      "sha256": "6F367EA4002C39E3CFE27E0A0BE1008880A4B35A8482A78A437CFB9D8EE38273",
+      "bytes": 599474,
+      "restoredHeld": false
+    },
+    {
+      "name": "ModernFoundry-1.21.1-4.1.6-NeoForge.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\ModernFoundry-1.21.1-4.1.6-NeoForge.jar",
+      "sha256": "0B0026DB1C27A1D08B1E3D3EBA8FD2CC470D4CB534EB08D74633ADC5BE5691F1",
+      "bytes": 23385070,
+      "restoredHeld": false
+    },
+    {
+      "name": "moonlight-1.21.1-3.3.4-neoforge.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\moonlight-1.21.1-3.3.4-neoforge.jar",
+      "sha256": "167320F7FB89669BA5BBCB1A35EA3C94ACE403484250A38F55151A0C8D17BFB2",
+      "bytes": 2150988,
+      "restoredHeld": false
+    },
+    {
+      "name": "MouseTweaks-neoforge-mc1.21-2.26.1.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\MouseTweaks-neoforge-mc1.21-2.26.1.jar",
+      "sha256": "68E6F4201C5DE97B77929A7215C9552495696CA6A3BF3AE4EACC34E135F6CC8B",
+      "bytes": 73938,
+      "restoredHeld": false
+    },
+    {
+      "name": "mowzies_cataclysm-1.2.2.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\mowzies_cataclysm-1.2.2.jar",
+      "sha256": "AFBEF1775A869EB65DBD5EB2FE75B37EDD1B2D08B014B24D2049867B7EF768B0",
+      "bytes": 28114,
+      "restoredHeld": false
+    },
+    {
+      "name": "mowziesmobs-1.21.1-1.8.2.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\mowziesmobs-1.21.1-1.8.2.jar",
+      "sha256": "B8E7E39FB6430326DE7FBB193DB56588EE8BD04D0054527924FE588F37131E4F",
+      "bytes": 36042925,
+      "restoredHeld": false
+    },
+    {
+      "name": "multipiston-1.2.58-1.21.1.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\multipiston-1.2.58-1.21.1.jar",
+      "sha256": "7CA26DB4648589B7F76694C249D5096C0C0AFB7615FE6ADF9F638C6C825C15E7",
+      "bytes": 34139,
+      "restoredHeld": false
+    },
+    {
+      "name": "NaturesCompass-1.21.1-3.4.0-neoforge.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\NaturesCompass-1.21.1-3.4.0-neoforge.jar",
+      "sha256": "0E249AC11B2F916C5570D9679E188DA652FA5664BA9CDB7BE5DC9FF69497539C",
+      "bytes": 224657,
+      "restoredHeld": false
+    },
+    {
+      "name": "NuclearCraft-1.21.1-1.3.0-rc1.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\NuclearCraft-1.21.1-1.3.0-rc1.jar",
+      "sha256": "17DEE026FD2B3CE7370E2A74CA540370394F12F80F066D89ED8DDE3F61F6D71D",
+      "bytes": 23783170,
+      "restoredHeld": false
+    },
+    {
+      "name": "NuclearRadiation-1.21.1-1.0.14.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\NuclearRadiation-1.21.1-1.0.14.jar",
+      "sha256": "EB17FD3D3789DFF5B49A779C0448160912625435A2C282472EA8613C01342878",
+      "bytes": 959301,
+      "restoredHeld": false
+    },
+    {
+      "name": "OctoLib-NEOFORGE-0.6.2+1.21.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\OctoLib-NEOFORGE-0.6.2+1.21.jar",
+      "sha256": "92BA07D9D9E55A65421F3C3F203C72FE5149CB024D5277267E81D812E11A7F38",
+      "bytes": 544378,
+      "restoredHeld": false
+    },
+    {
+      "name": "pamhc2crops-NEOFORGE-1.21.1-1.0.9.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\pamhc2crops-NEOFORGE-1.21.1-1.0.9.jar",
+      "sha256": "EBDB8AAF2BDA8D4A46FB655AF57B546F285A1FF15411BBA691C18420064B84B5",
+      "bytes": 1536646,
+      "restoredHeld": false
+    },
+    {
+      "name": "pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+      "sha256": "ACD5DD380EAFC3F317B67231A2355C204CAB254DFDF4AB1F25C084FDD3D317B9",
+      "bytes": 1699044,
+      "restoredHeld": false
+    },
+    {
+      "name": "pamhc2foodextended-NEOFORGE-1.21.1-1.0.0.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\pamhc2foodextended-NEOFORGE-1.21.1-1.0.0.jar",
+      "sha256": "D61DDA7D00AB69BFAEF45854DF01AB6CFD64243D7F9A5AE870C89DD954247A8C",
+      "bytes": 1983616,
+      "restoredHeld": false
+    },
+    {
+      "name": "pamhc2trees-NEOFORGE-1.21.1-1.0.9.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\pamhc2trees-NEOFORGE-1.21.1-1.0.9.jar",
+      "sha256": "64C34129468B0D75738CF0FAF667A52067D2DB1E72EE8564C0A8F850BBF154C7",
+      "bytes": 1399642,
+      "restoredHeld": false
+    },
+    {
+      "name": "particlerain-4.0.0-beta.10+1.21.1-neoforge.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\particlerain-4.0.0-beta.10+1.21.1-neoforge.jar",
+      "sha256": "EF835EDE1D24BA24371F1D77520A66C8010ADF8C5F538A54099A14B13AE2E307",
+      "bytes": 605458,
+      "restoredHeld": false
+    },
+    {
+      "name": "particular-1.21.1-NeoForge-1.5.7.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\particular-1.21.1-NeoForge-1.5.7.jar",
+      "sha256": "42C5BA95472C233A455DA440E08A74BE69CBA616493292C0830CF47A47A9498E",
+      "bytes": 315841,
+      "restoredHeld": false
+    },
+    {
+      "name": "Patchouli-1.21.1-93-NEOFORGE.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\Patchouli-1.21.1-93-NEOFORGE.jar",
+      "sha256": "959AF52ED6640C316C3A8469203420BE4AEEA11AD6603890BA83BF48F5D9F993",
+      "bytes": 646777,
+      "restoredHeld": false
+    },
+    {
+      "name": "photon-neoforge-1.21.1-2.1.5.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\photon-neoforge-1.21.1-2.1.5.jar",
+      "sha256": "EC5F5E09F03F02933D56BE17CF89A4E473799EC34FC5FC690FD7237D8C4FB70B",
+      "bytes": 1774308,
+      "restoredHeld": false
+    },
+    {
+      "name": "Placebo-1.21.1-9.9.2.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\Placebo-1.21.1-9.9.2.jar",
+      "sha256": "1A844A5B081813B1EDB82656329E54D38389ED470F6A6516A5887F5303D7DAAD",
+      "bytes": 324058,
+      "restoredHeld": false
+    },
+    {
+      "name": "Platform-neoforge-1.21.1-1.3.3.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\Platform-neoforge-1.21.1-1.3.3.jar",
+      "sha256": "2D7175E43943D22CBB4F8D4533F0AD620F87A3AC12C77A4F15C3A35D965C4F18",
+      "bytes": 489341,
+      "restoredHeld": false
+    },
+    {
+      "name": "player-animation-lib-forge-2.0.4+1.21.1.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\player-animation-lib-forge-2.0.4+1.21.1.jar",
+      "sha256": "DBE5DE45F5CD60C0E5E47AF14E6D564534A98456E973CF670CB881F6938EEE92",
+      "bytes": 203149,
+      "restoredHeld": false
+    },
+    {
+      "name": "polyeng-0.4.1.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\polyeng-0.4.1.jar",
+      "sha256": "69E565DC00ABC5881CCFF6801C8A0817F479EAF871D578AEFD992B9B6614A2F9",
+      "bytes": 20130,
+      "restoredHeld": false
+    },
+    {
+      "name": "polymorph-neoforge-1.1.0+1.21.1.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\polymorph-neoforge-1.1.0+1.21.1.jar",
+      "sha256": "BEC8118978ADEB052DE9C4EAF9A595830621D82515A764F32F9C8A4DD52AB94B",
+      "bytes": 174972,
+      "restoredHeld": false
+    },
+    {
+      "name": "potentials-neoforge-1.21-0.7.1.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\potentials-neoforge-1.21-0.7.1.jar",
+      "sha256": "B09AC57B03593B62E044B5E73536C369598F5181180050942F973210BFDF4CC7",
+      "bytes": 90809,
+      "restoredHeld": false
+    },
+    {
+      "name": "Quark-4.1-482.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\Quark-4.1-482.jar",
+      "sha256": "0F69CE0D31CAA4F31E1FA4959541120121E27C652CD2D954839AF6B5162F0C70",
+      "bytes": 15576704,
+      "restoredHeld": false
+    },
+    {
+      "name": "rebuild_tech-1.0.1.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\rebuild_tech-1.0.1.jar",
+      "sha256": "C44BC43CD12A3DCDC97D69FD17F322BEC5E0DD4C028866E2D8210D8FFA931CBA",
+      "bytes": 1886457,
+      "restoredHeld": false
+    },
+    {
+      "name": "rechiseled-1.2.5-neoforge-mc1.21.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\rechiseled-1.2.5-neoforge-mc1.21.jar",
+      "sha256": "7BF14CF8A4BFDC4B6C990126A75DA29FD2BB7559D1C05B71E29C8FD5AE044435",
+      "bytes": 11498611,
+      "restoredHeld": false
+    },
+    {
+      "name": "rechiseledae-1.0.1-neoforge-mc1.21.1.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\rechiseledae-1.0.1-neoforge-mc1.21.1.jar",
+      "sha256": "62DDFE0B361311A3808E7A721E3AEE25382C6F150D2FF41F884E51FC5FE9B385",
+      "bytes": 910033,
+      "restoredHeld": false
+    },
+    {
+      "name": "rechiseledae2-neoforge-1.21-1.21.1-1.0.0.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\rechiseledae2-neoforge-1.21-1.21.1-1.0.0.jar",
+      "sha256": "0FC249C87D24710B980EBC7B79A8E847F0EF0A6A039A16BEE3714BD7F3D9FD66",
+      "bytes": 275513,
+      "restoredHeld": false
+    },
+    {
+      "name": "rechiseledcreate-1.1.1-neoforge-mc1.21.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\rechiseledcreate-1.1.1-neoforge-mc1.21.jar",
+      "sha256": "BA89CD5D1221621ED226CC7F1C26DC84A660CC4F6D122753052429F96D71248D",
+      "bytes": 983177,
+      "restoredHeld": false
+    },
+    {
+      "name": "recipeessentials-1.21.1-4.7.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\recipeessentials-1.21.1-4.7.jar",
+      "sha256": "D2AB36A95424654BEDE6FD7AEDCEEFD05912FC12F6DE3F8BB0DB8B8B245B6F85",
+      "bytes": 43983,
+      "restoredHeld": false
+    },
+    {
+      "name": "refurbished_furniture-neoforge-1.21.1-1.0.22.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\refurbished_furniture-neoforge-1.21.1-1.0.22.jar",
+      "sha256": "953A7840261EB79959769A97CAA60CBA2EE141700A4CBE208825268327136BDF",
+      "bytes": 7133477,
+      "restoredHeld": false
+    },
+    {
+      "name": "regions-unexplored-0.6.2-neoforge-21.1.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\regions-unexplored-0.6.2-neoforge-21.1.jar",
+      "sha256": "CCF32ED714F2724F54406B9E02A8D6F94D87DC5C72397BC39B3D6ED8F32412EA",
+      "bytes": 6365953,
+      "restoredHeld": false
+    },
+    {
+      "name": "resourcefulconfig-neoforge-1.21-3.0.11.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\resourcefulconfig-neoforge-1.21-3.0.11.jar",
+      "sha256": "25B4F3502D25C535004ACD4A9420272FFF01D2F1E2DF352239FEC93FDAB005D4",
+      "bytes": 341009,
+      "restoredHeld": false
+    },
+    {
+      "name": "resourcefullib-neoforge-1.21-3.0.12.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\resourcefullib-neoforge-1.21-3.0.12.jar",
+      "sha256": "5E36F2C69DE008DC5795F730C84AB767688F15C810944B585485349A0C911261",
+      "bytes": 484332,
+      "restoredHeld": false
+    },
+    {
+      "name": "rhino-2101.2.7-build.85.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\rhino-2101.2.7-build.85.jar",
+      "sha256": "95DF92CE578B2504CB16D8C9FC285303BF062EB15452246A18E57B7CF091C19A",
+      "bytes": 882075,
+      "restoredHeld": false
+    },
+    {
+      "name": "rightclickharvest-neoforge-4.6.1+1.21.1.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\rightclickharvest-neoforge-4.6.1+1.21.1.jar",
+      "sha256": "B5D597ED361964BA9530A848FE8987715F40AF2390DFA1A6ADB70A2A74076D52",
+      "bytes": 287634,
+      "restoredHeld": false
+    },
+    {
+      "name": "ritchiesprojectilelib-2.1.2-mc.1.21.1-neoforge.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\ritchiesprojectilelib-2.1.2-mc.1.21.1-neoforge.jar",
+      "sha256": "CC509060833736FB650AA4C36B1CE33A7EEEB9CA6E9F8E80A7C951C9E7487B24",
+      "bytes": 76369,
+      "restoredHeld": false
+    },
+    {
+      "name": "rocketnautics_addon-1.0.0.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\rocketnautics_addon-1.0.0.jar",
+      "sha256": "A8A118C69A4455CD7FADBF64A524D93CFBD99BDA9A299909F69DE9D4B0977C06",
+      "bytes": 308063,
+      "restoredHeld": false
+    },
+    {
+      "name": "sable-neoforge-1.21.1-2.0.3.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\sable-neoforge-1.21.1-2.0.3.jar",
+      "sha256": "DA6C3B66238586603D1DCAA2AFB012D36815FBCE0A2D5938FBB2936701D42279",
+      "bytes": 12889000,
+      "restoredHeld": false
+    },
+    {
+      "name": "Searchables-neoforge-1.21.1-1.0.2.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\Searchables-neoforge-1.21.1-1.0.2.jar",
+      "sha256": "CA193F0C69033D8F709F9E073A7C1EF4EA46714E5C2F94EB23ACE12781C6AA68",
+      "bytes": 77326,
+      "restoredHeld": false
+    },
+    {
+      "name": "SereneSeasons-neoforge-1.21.1-10.1.0.3.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\SereneSeasons-neoforge-1.21.1-10.1.0.3.jar",
+      "sha256": "86D89FCE593F868CB6B542943C0F82850CA56970FE0327E401966D8D0420861D",
+      "bytes": 159205,
+      "restoredHeld": false
+    },
+    {
+      "name": "snowundertrees-1.21.1-1.5.1.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\snowundertrees-1.21.1-1.5.1.jar",
+      "sha256": "B146501CAFD389D3FE1E8B3945B22BEF5DCEF7FF8345A2AA027C170C3CFBAF1D",
+      "bytes": 30512,
+      "restoredHeld": false
+    },
+    {
+      "name": "sophisticatedbackpacks-1.21.1-3.25.77.2086.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\sophisticatedbackpacks-1.21.1-3.25.77.2086.jar",
+      "sha256": "7E87A643FF1F7182AF99257AAEE2ED841EAA15A73FDF06FE47539BF06935B111",
+      "bytes": 1172284,
+      "restoredHeld": false
+    },
+    {
+      "name": "sophisticatedcore-1.21.1-1.4.87.2270.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\sophisticatedcore-1.21.1-1.4.87.2270.jar",
+      "sha256": "08B5766B74E7A5CF2983401EEFC340DA6CA2B3C1C8F8B58A352353AD74343302",
+      "bytes": 1686878,
+      "restoredHeld": false
+    },
+    {
+      "name": "sound-physics-remastered-neoforge-1.21.1-1.5.1.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\sound-physics-remastered-neoforge-1.21.1-1.5.1.jar",
+      "sha256": "65372AD64422A20F03AD6E39AABAA827C191ABBE9BE5C35631ACC3A8105FE177",
+      "bytes": 202454,
+      "restoredHeld": false
+    },
+    {
+      "name": "spark-1.10.124-neoforge.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\spark-1.10.124-neoforge.jar",
+      "sha256": "647E8A81AFBE414DBA1DF4BA15FD06C5D32D4CB544E68828405E8E074C2E16DB",
+      "bytes": 3642581,
+      "restoredHeld": false
+    },
+    {
+      "name": "stellaris-1.21-neoforge-1.4.25.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\stellaris-1.21-neoforge-1.4.25.jar",
+      "sha256": "EF858A5718F1E1011944E830601B6049D4D66D87F6AA7EE66BA2D4981692EFDD",
+      "bytes": 9307248,
+      "restoredHeld": false
+    },
+    {
+      "name": "structureessentials-1.21.1-5.0.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\structureessentials-1.21.1-5.0.jar",
+      "sha256": "7ECB6C9D04E20A6803BA6E51DD226EAA289BA2C2C095248F3645222A8BFC1C8D",
+      "bytes": 60833,
+      "restoredHeld": false
+    },
+    {
+      "name": "structurify-neoforge-2.0.33+mc1.21.1.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\structurify-neoforge-2.0.33+mc1.21.1.jar",
+      "sha256": "51BC89226DC7D89F6C8525156DB99E5F3254C3851907C506C00465587B32EE3F",
+      "bytes": 477404,
+      "restoredHeld": false
+    },
+    {
+      "name": "structurize-1.0.832-1.21.1.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\structurize-1.0.832-1.21.1.jar",
+      "sha256": "B6EDE7635C63A80BD3D034C1AD3E74C648B8478F341F883D7D29C3DCF90B79CE",
+      "bytes": 1063849,
+      "restoredHeld": false
+    },
+    {
+      "name": "SubtleEffects-neoforge-1.21.1-1.14.3.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\SubtleEffects-neoforge-1.21.1-1.14.3.jar",
+      "sha256": "78FD24ECAADEE01746ECC4CF598284923E762E25964311E86A67AA30CD3C2B67",
+      "bytes": 3306773,
+      "restoredHeld": false
+    },
+    {
+      "name": "supermartijn642configlib-1.1.8-neoforge-mc1.21.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\supermartijn642configlib-1.1.8-neoforge-mc1.21.jar",
+      "sha256": "D2BA7B839A2268E4E223457E813D11AA2476C3BF708A7BBA691D8FC851778A4B",
+      "bytes": 207514,
+      "restoredHeld": false
+    },
+    {
+      "name": "supermartijn642corelib-1.1.24-neoforge-mc1.21.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\supermartijn642corelib-1.1.24-neoforge-mc1.21.jar",
+      "sha256": "22884E7C6B7C4847E7BB97FBFA61B5F836B7909BB468E7637F6788BE56E59F00",
+      "bytes": 560783,
+      "restoredHeld": false
+    },
+    {
+      "name": "supplementaries-1.21.1-3.8.10-neoforge.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\supplementaries-1.21.1-3.8.10-neoforge.jar",
+      "sha256": "7CD7855E0EB5F8779BD9FF54C54B9D64630DC9C9C59E068CF90478729B47BD9D",
+      "bytes": 13494310,
+      "restoredHeld": false
+    },
+    {
+      "name": "tfmc-1.0.2-neoforge-1.21.1.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\tfmc-1.0.2-neoforge-1.21.1.jar",
+      "sha256": "88718797D6557A1A7ED41A1973F60BFE5CFE4C0251480B28FD08E26BC21C251D",
+      "bytes": 147378,
+      "restoredHeld": false
+    },
+    {
+      "name": "tfmg-1.2.0.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\tfmg-1.2.0.jar",
+      "sha256": "FC824A91CFE22E137C9014ED608EE9BF35F16490D2162B687666332C6EB3A555",
+      "bytes": 4924243,
+      "restoredHeld": false
+    },
+    {
+      "name": "tfmgjs-1.21.1-1.0.2.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\tfmgjs-1.21.1-1.0.2.jar",
+      "sha256": "EA82865364C87425DCE39D54B33527CAA1B17685E5DE25659797264FF98D18D6",
+      "bytes": 210132,
+      "restoredHeld": false
+    },
+    {
+      "name": "towntalk-1.2.0.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\towntalk-1.2.0.jar",
+      "sha256": "98139F54CC0F6F4BE6D7FA8927CD170DF8B14545AE04643436DBD48517589EB4",
+      "bytes": 52301863,
+      "restoredHeld": false
+    },
+    {
+      "name": "TreeChop-1.21.1-neoforge-0.19.3.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\TreeChop-1.21.1-neoforge-0.19.3.jar",
+      "sha256": "2A5EC9CCA187B4A031E9DD7E5EEC8D0872F7D2BC355D88BDA633021FA7EB71B0",
+      "bytes": 517750,
+      "restoredHeld": false
+    },
+    {
+      "name": "VanillaBackport-neoforge-1.21.1-1.1.7.10.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\VanillaBackport-neoforge-1.21.1-1.1.7.10.jar",
+      "sha256": "ECD807AC358E243EDE17819455788C7B7A0CE5E0AF4AECEE82C1C62C586D818D",
+      "bytes": 54902084,
+      "restoredHeld": false
+    },
+    {
+      "name": "voicechat-neoforge-1.21.1-2.6.22.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\voicechat-neoforge-1.21.1-2.6.22.jar",
+      "sha256": "63116A4D21BD57221482D971DD85822F7C723C210B60411670CDB0AA26873CAC",
+      "bytes": 4918442,
+      "restoredHeld": false
+    },
+    {
+      "name": "wwoo-neoforge-2.6.7.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\wwoo-neoforge-2.6.7.jar",
+      "sha256": "DB99E41C3DD8F12C795FD00D08EE324308D54F8009BBBC9992055999E891BD0F",
+      "bytes": 5764879,
+      "restoredHeld": false
+    },
+    {
+      "name": "xaerominimap-neoforge-1.21.1-26.4.2.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\xaerominimap-neoforge-1.21.1-26.4.2.jar",
+      "sha256": "B722BCF794288F0ED51165CD1F057FC4505E20ABBC723B2E17E900426E443603",
+      "bytes": 2185409,
+      "restoredHeld": false
+    },
+    {
+      "name": "xaeroworldmap-neoforge-1.21.1-1.44.2.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\xaeroworldmap-neoforge-1.21.1-1.44.2.jar",
+      "sha256": "2C4089C2F9132B85749A18920D6E2098744F61FE98854FCFF2E3768F2D7269FA",
+      "bytes": 1418918,
+      "restoredHeld": false
+    },
+    {
+      "name": "yet_another_config_lib_v3-3.8.2+1.21.1-neoforge.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\yet_another_config_lib_v3-3.8.2+1.21.1-neoforge.jar",
+      "sha256": "B5C30321B46CFAA521645A04AFF89D2804D8167A25BB23AD4B1AE8DA73093A2F",
+      "bytes": 1118651,
+      "restoredHeld": false
+    },
+    {
+      "name": "YungsApi-1.21.1-NeoForge-5.1.6.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\YungsApi-1.21.1-NeoForge-5.1.6.jar",
+      "sha256": "08E1D21690D3213A4C62DE6B6CF79F3527AFB2E72E0CAD0E1848D46EB8F682CA",
+      "bytes": 388678,
+      "restoredHeld": false
+    },
+    {
+      "name": "YungsBetterDungeons-1.21.1-NeoForge-5.1.4.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\YungsBetterDungeons-1.21.1-NeoForge-5.1.4.jar",
+      "sha256": "61816C3B7C9D92C6B44F93DCE87CEB0A22827F20285D5D9C4D10D519D734DE04",
+      "bytes": 782160,
+      "restoredHeld": false
+    },
+    {
+      "name": "ZeroCore2-1.21.1-2.4.21.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\ZeroCore2-1.21.1-2.4.21.jar",
+      "sha256": "54AC755031B05C3A5B6DDFA22DABC45FB3775481041503DCECD75E5E86627779",
+      "bytes": 1551013,
+      "restoredHeld": false
+    },
+    {
+      "name": "Zeta-1.1-40.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\Zeta-1.1-40.jar",
+      "sha256": "4F17D1A2B9FD6D18DDB7697AA451DB7FB154053B8648F79DE279AE0D7E68A2FA",
+      "bytes": 763725,
+      "restoredHeld": false
+    },
+    {
+      "name": "DistantHorizons-3.2.0-b-1.21.1-fabric-neoforge.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\excluded-server-test-only\\DistantHorizons-3.2.0-b-1.21.1-fabric-neoforge.jar",
+      "sha256": "D6A7A963F794501678113E2545D8B25C90E123EF6B9256BB5716907D059E1EF5",
+      "bytes": 30207268,
+      "restoredHeld": true
+    },
+    {
+      "name": "entity_model_features-3.2.4-1.21-neoforge.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\excluded-server-test-only\\entity_model_features-3.2.4-1.21-neoforge.jar",
+      "sha256": "84C22F2BE06EE6BFAB265A443E075225878BBA9F408843030DC6DE3152E9DEDB",
+      "bytes": 567827,
+      "restoredHeld": true
+    },
+    {
+      "name": "entity_texture_features_1.21-neoforge-7.1.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\excluded-server-test-only\\entity_texture_features_1.21-neoforge-7.1.jar",
+      "sha256": "B2E396543C678B8378A2D5557A0CD3D24790364BFF7E96EDAF17921112D6176B",
+      "bytes": 752334,
+      "restoredHeld": true
+    },
+    {
+      "name": "EuphoriaPatcher-1.9.3-r5.8.1-neoforge.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\excluded-server-test-only\\EuphoriaPatcher-1.9.3-r5.8.1-neoforge.jar",
+      "sha256": "9FF48C18CB5FD3425A6C15B16CE16656D6419FDB695E662D9A3CBE5604C40563",
+      "bytes": 4210708,
+      "restoredHeld": true
+    },
+    {
+      "name": "iris-neoforge-1.8.14-beta.1+mc1.21.1.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\excluded-server-test-only\\iris-neoforge-1.8.14-beta.1+mc1.21.1.jar",
+      "sha256": "60D5F8BF52F25E9986440F4A4270A6BD986D9CFF994510E1108AC1547063B314",
+      "bytes": 2540723,
+      "restoredHeld": true
+    },
+    {
+      "name": "sodium-neoforge-0.8.13+mc1.21.1.jar",
+      "source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\excluded-server-test-only\\sodium-neoforge-0.8.13+mc1.21.1.jar",
+      "sha256": "575D187B15328D7BDDD8A9B1BEE64333C22C14735F5780EC49EAC0CD5503C08D",
+      "bytes": 1292934,
+      "restoredHeld": true
+    }
+  ],
+  "initScript": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\material-client-20260909-072449-528\\material-client-smoke.init.gradle",
+  "prepareCommandNotExecuted": ".\\gradlew.bat --offline --no-daemon --no-configuration-cache --console=plain -I \"C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\material-client-20260909-072449-528\\material-client-smoke.init.gradle\" compileMaterialClientSmokeJava processMaterialClientSmokeResources prepareClientRun auditMaterialClientSmokeDependencies",
+  "launchCommandNotExecuted": ".\\gradlew.bat --offline --no-daemon --no-configuration-cache --console=plain -I \"C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\material-client-20260909-072449-528\\material-client-smoke.init.gradle\" runClient"
+}

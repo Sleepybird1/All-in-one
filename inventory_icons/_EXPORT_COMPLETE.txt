@@ -1,0 +1,3 @@
+Inventory icon export complete.
+Total registered items: 32364
+Output: C:\Users\GodPC\curseforge\minecraft\Instances\All in one\inventory_icons

@@ -1,0 +1,374 @@
+{
+  "format": 1,
+  "name": "default",
+  "defaultTargetFile": "kjsgen_recipes",
+  "exportComments": true,
+  "reloadOnExport": true,
+  "recipes": [
+    {
+      "uid": "5f2584b1-19d4-49f9-a3d6-265659ea0c01",
+      "type": "kjsgen:create_compacting",
+      "comment": "tfmg:empty_circuit_board",
+      "ifModLoaded": "industrial_colonies",
+      "slots": {
+        "__machine_process_compacting": {
+          "kind": "ITEM",
+          "id": "createcasing:copper_press"
+        },
+        "in0": {
+          "kind": "ITEM",
+          "id": "ae2:printed_silicon"
+        },
+        "in1": {
+          "kind": "ITEM",
+          "id": "create:copper_sheet"
+        },
+        "in2": {
+          "kind": "ITEM",
+          "id": "tfmg:plastic_sheet"
+        },
+        "output": {
+          "kind": "ITEM",
+          "id": "tfmg:empty_circuit_board"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "5f2584b1-19d4-49f9-a3d6-265659ea0c02",
+      "type": "kjsgen:create_compacting",
+      "comment": "ae2:printed_silicon",
+      "ifModLoaded": "industrial_colonies",
+      "slots": {
+        "__machine_process_compacting": {
+          "kind": "ITEM",
+          "id": "createcasing:copper_press"
+        },
+        "in0": {
+          "kind": "ITEM",
+          "id": "tfmg:silicon_ingot"
+        },
+        "in1": {
+          "kind": "ITEM",
+          "id": "ae2:silicon_press"
+        },
+        "output": {
+          "kind": "ITEM",
+          "id": "ae2:printed_silicon"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "5f2584b1-19d4-49f9-a3d6-265659ea0c03",
+      "type": "kjsgen:shaped",
+      "comment": "createcasing:copper_deployer",
+      "slots": {
+        "in0": {
+          "kind": "ITEM",
+          "id": "create:transmitter"
+        },
+        "in1": {
+          "kind": "ITEM",
+          "id": "create:electron_tube"
+        },
+        "in2": {
+          "kind": "ITEM",
+          "id": "create:transmitter"
+        },
+        "in3": {
+          "kind": "ITEM",
+          "id": "createaddition:capacitor"
+        },
+        "in4": {
+          "kind": "ITEM",
+          "id": "create:copper_casing"
+        },
+        "in5": {
+          "kind": "ITEM",
+          "id": "createaddition:capacitor"
+        },
+        "in6": {
+          "kind": "ITEM",
+          "id": "tfmg:capacitor_item"
+        },
+        "in7": {
+          "kind": "ITEM",
+          "id": "create:brass_hand"
+        },
+        "in8": {
+          "kind": "ITEM",
+          "id": "tfmg:capacitor_item"
+        },
+        "output": {
+          "kind": "ITEM",
+          "id": "createcasing:copper_deployer"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "5f2584b1-19d4-49f9-a3d6-265659ea0c04",
+      "type": "kjsgen:shaped",
+      "comment": "createcasing:copper_press",
+      "slots": {
+        "in0": {
+          "kind": "ITEM",
+          "id": "create:transmitter"
+        },
+        "in1": {
+          "kind": "ITEM",
+          "id": "create:electron_tube"
+        },
+        "in2": {
+          "kind": "ITEM",
+          "id": "create:transmitter"
+        },
+        "in3": {
+          "kind": "ITEM",
+          "id": "createaddition:capacitor"
+        },
+        "in4": {
+          "kind": "ITEM",
+          "id": "create:copper_casing"
+        },
+        "in5": {
+          "kind": "ITEM",
+          "id": "createaddition:capacitor"
+        },
+        "in6": {
+          "kind": "ITEM",
+          "id": "tfmg:capacitor_item"
+        },
+        "in7": {
+          "kind": "ITEM",
+          "id": "minecraft:iron_block"
+        },
+        "in8": {
+          "kind": "ITEM",
+          "id": "tfmg:capacitor_item"
+        },
+        "output": {
+          "kind": "ITEM",
+          "id": "createcasing:copper_press"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "aa191c30-b26b-4b61-8422-549fd385b673",
+      "type": "kjsgen:shaped",
+      "slots": {
+        "in4": {
+          "kind": "ITEM",
+          "id": "mekanism:ingot_osmium"
+        },
+        "in6": {
+          "kind": "ITEM",
+          "id": "minecraft:iron_ingot"
+        },
+        "in8": {
+          "kind": "ITEM",
+          "id": "minecraft:iron_ingot"
+        },
+        "output": {
+          "kind": "ITEM",
+          "id": "mekanism:metallurgic_infuser"
+        },
+        "in0": {
+          "kind": "ITEM",
+          "id": "tfmg:capacitor_item"
+        },
+        "in2": {
+          "kind": "ITEM",
+          "id": "tfmg:capacitor_item"
+        },
+        "in1": {
+          "kind": "ITEM",
+          "id": "tfmg:transistor_item"
+        },
+        "in3": {
+          "kind": "ITEM",
+          "id": "tfmg:cast_iron_frame"
+        },
+        "in5": {
+          "kind": "ITEM",
+          "id": "tfmg:cast_iron_frame"
+        },
+        "in7": {
+          "kind": "ITEM",
+          "id": "tfmg:empty_circuit_board"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "43916c6c-b706-40c8-a244-997803cfc380",
+      "type": "kjsgen:create_sequenced_assembly",
+      "slots": {},
+      "params": {}
+    },
+    {
+      "uid": "87390809-ec0a-4d0a-983f-28fb86fd1d29",
+      "type": "kjsgen:shaped",
+      "slots": {
+        "in3": {
+          "kind": "ITEM",
+          "id": "mekanism:basic_chemical_tank"
+        },
+        "in5": {
+          "kind": "ITEM",
+          "id": "mekanism:basic_fluid_tank"
+        },
+        "output": {
+          "kind": "ITEM",
+          "id": "mekanism:rotary_condensentrator"
+        },
+        "in1": {
+          "kind": "ITEM",
+          "id": "tfmg:transistor_item"
+        },
+        "in2": {
+          "kind": "ITEM",
+          "id": "tfmg:capacitor_item"
+        },
+        "in0": {
+          "kind": "ITEM",
+          "id": "tfmg:capacitor_item"
+        },
+        "in4": {
+          "kind": "ITEM",
+          "id": "mekanism:energy_tablet"
+        },
+        "in8": {
+          "kind": "ITEM",
+          "id": "tfmg:p_semiconductor"
+        },
+        "in6": {
+          "kind": "ITEM",
+          "id": "tfmg:n_semiconductor"
+        },
+        "in7": {
+          "kind": "ITEM",
+          "id": "tfmg:etched_circuit_board"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "e76c511e-4c66-4827-9b12-bca704dcbb08",
+      "type": "kjsgen:shaped",
+      "slots": {},
+      "params": {}
+    },
+    {
+      "uid": "fca2a1b5-d507-42fc-850b-bfb3fc5c64e1",
+      "type": "kjsgen:shaped",
+      "slots": {
+        "in3": {
+          "kind": "ITEM",
+          "id": "mekanism:alloy_infused"
+        },
+        "in4": {
+          "kind": "ITEM",
+          "id": "minecraft:gold_ingot"
+        },
+        "in5": {
+          "kind": "ITEM",
+          "id": "mekanism:alloy_infused"
+        },
+        "output": {
+          "kind": "ITEM",
+          "id": "mekanism:energy_tablet"
+        },
+        "in0": {
+          "kind": "ITEM",
+          "id": "tfmg:capacitor_item"
+        },
+        "in2": {
+          "kind": "ITEM",
+          "id": "tfmg:capacitor_item"
+        },
+        "in1": {
+          "kind": "ITEM",
+          "id": "tfmg:transistor_item"
+        },
+        "in7": {
+          "kind": "ITEM",
+          "id": "ae2:logic_processor"
+        },
+        "in6": {
+          "kind": "ITEM",
+          "id": "tfmg:n_semiconductor"
+        },
+        "in8": {
+          "kind": "ITEM",
+          "id": "tfmg:p_semiconductor"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "30eb9fff-0dfe-4c01-8f9d-a24f8cc2071a",
+      "type": "kjsgen:shaped",
+      "slots": {
+        "in3": {
+          "kind": "ITEM",
+          "id": "mekanism:alloy_infused"
+        },
+        "in4": {
+          "kind": "ITEM",
+          "id": "minecraft:gold_ingot"
+        },
+        "in5": {
+          "kind": "ITEM",
+          "id": "mekanism:alloy_infused"
+        },
+        "output": {
+          "kind": "ITEM",
+          "id": "mekanism:energy_tablet"
+        },
+        "in0": {
+          "kind": "ITEM",
+          "id": "tfmg:capacitor_item"
+        },
+        "in2": {
+          "kind": "ITEM",
+          "id": "tfmg:capacitor_item"
+        },
+        "in1": {
+          "kind": "ITEM",
+          "id": "tfmg:transistor_item"
+        },
+        "in7": {
+          "kind": "ITEM",
+          "id": "ae2:logic_processor"
+        },
+        "in6": {
+          "kind": "ITEM",
+          "id": "tfmg:n_semiconductor"
+        },
+        "in8": {
+          "kind": "ITEM",
+          "id": "tfmg:p_semiconductor"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "a192fd47-79a4-45ac-9b29-3cd6a1a2f426",
+      "type": "kjsgen:create_sequenced_assembly",
+      "slots": {},
+      "params": {}
+    }
+  ],
+  "removals": [
+    {
+      "uid": "3c59e41a-4be2-40c1-9f18-c31cc13a6483",
+      "output": "ae2:printed_silicon",
+      "input": "ae2:silicon",
+      "mod": "Applied Energistics",
+      "recipeId": ""
+    }
+  ]
+}

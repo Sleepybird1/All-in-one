@@ -1,0 +1,12 @@
+#2A7 regions_unexplored:ancient_delta
+#6D8 regions_unexplored:boreal_taiga
+#2DC minecraft:deep_dark
+#4CA minecraft:dripstone_caves
+#286 minecraft:grove
+#438 regions_unexplored:old_growth_boreal_taiga
+#60C minecraft:old_growth_spruce_taiga
+#10D regions_unexplored:pine_slopes
+#11D regions_unexplored:pine_taiga
+#4AB regions_unexplored:redwoods
+#524 minecraft:snowy_slopes
+#169 minecraft:taiga

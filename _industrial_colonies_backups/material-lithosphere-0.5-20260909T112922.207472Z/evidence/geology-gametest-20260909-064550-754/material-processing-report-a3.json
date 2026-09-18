@@ -1,0 +1,253 @@
+{
+  "catalog": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\processing\\material_processing_catalog.json",
+  "catalogSha256": "31f344d33295a70f4cc19c1f38b56c604dd13965c7e77e7ec701bc3efad4ad45",
+  "candidate": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\mods\\industrial_colonies-0.5.0.jar",
+  "candidateSha256": "8df80e5c7e4b447f651696a9383a1487b26f557a67d6263deafa3805bc675d91",
+  "preScriptProjectExport": {
+    "status": "PASS",
+    "phase": "FMLLoadCompleteEvent.enqueueWork (before GameTest world packs / KubeJS server script parse)",
+    "stage": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754",
+    "project": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\kjsgen\\projects\\default.json",
+    "projectSha256": "0aacb7b7bc2e0ba0a0aa8c4211a115146fdc521141a1cceb400ed71532ff5da9",
+    "recipeCards": 672,
+    "removalRules": 1058,
+    "allMergedCardUidsRetained": true,
+    "candidateBundledVatLayout": {
+      "resource": "/assets/industrial_colonies/kjsgen_layouts/tfmg_chemical_vat.json",
+      "sha256": "dc5994a34c681808d0b9d646989d0c3a55aca07203c2bc1b7d1ecff3d6286d3d",
+      "registeredByTestHarness": true,
+      "nativeParser": "RecipeTypeDefinition.fromJson",
+      "codegen": "industrial_colonies:tfmg_chemical_vat"
+    },
+    "scripts": [
+      {
+        "path": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\kubejs\\server_scripts\\kjsgen_recipes.js",
+        "sha256": "d9de3956d56b9015603c496302aeee27983c31d3f6e01dec92660c7bf65dd692",
+        "bytes": 750076,
+        "recipeCards": 672,
+        "previousSha256": "d9de3956d56b9015603c496302aeee27983c31d3f6e01dec92660c7bf65dd692",
+        "outsideMarkerContentPreservedIgnoringBoundaryWhitespace": true
+      }
+    ],
+    "warnings": []
+  },
+  "scope": "Actual loaded recipe manager, native codecs, direct fan/cache and milling APIs; no powered factory, real-player manual interaction or distribution claim",
+  "expectedRecipes": 299,
+  "loadedAndVerifiedRecipes": 299,
+  "catalogProblems": [],
+  "catalogEncodedMismatches": [],
+  "nativeBasinNoMoldSentinels": [
+    "industrial_colonies:processing/casting/iron/block",
+    "industrial_colonies:processing/casting/copper/block",
+    "industrial_colonies:processing/casting/gold/block",
+    "industrial_colonies:processing/casting/zinc/block",
+    "industrial_colonies:processing/casting/tin/block",
+    "industrial_colonies:processing/casting/lead/block",
+    "industrial_colonies:processing/casting/nickel/block",
+    "industrial_colonies:processing/casting/aluminum/block",
+    "industrial_colonies:processing/casting/lithium/block",
+    "industrial_colonies:processing/casting/osmium/block",
+    "industrial_colonies:processing/casting/silver/block",
+    "industrial_colonies:processing/casting/magnesium/block",
+    "industrial_colonies:processing/casting/cobalt/block",
+    "industrial_colonies:processing/casting/titanium/block",
+    "industrial_colonies:processing/casting/tungsten/block",
+    "industrial_colonies:processing/casting/beryllium/block",
+    "industrial_colonies:processing/casting/boron/block",
+    "industrial_colonies:processing/casting/platinum/block",
+    "industrial_colonies:processing/casting/steel/block",
+    "industrial_colonies:processing/casting/brass/block",
+    "industrial_colonies:processing/casting/bronze/block"
+  ],
+  "modernFoundryAlloyRegistration": {
+    "serializer": "modernfoundry:alloy",
+    "recipeType": "modernfoundry:alloying",
+    "serializerRegistered": true,
+    "recipeTypeRegistered": true
+  },
+  "remainingModernFoundryAlloys": [],
+  "unregisteredRecipeIdentities": [
+    {
+      "recipe": "advanced_ae:skybronze",
+      "recipeClass": "net.pedroksl.advanced_ae.recipes.ReactionChamberRecipe",
+      "serializerKey": "advanced_ae:reaction",
+      "serializerClass": "net.pedroksl.advanced_ae.recipes.ReactionChamberRecipeSerializer",
+      "recipeTypeClass": "net.minecraft.world.item.crafting.RecipeType$2"
+    },
+    {
+      "recipe": "advanced_ae:skysteel",
+      "recipeClass": "net.pedroksl.advanced_ae.recipes.ReactionChamberRecipe",
+      "serializerKey": "advanced_ae:reaction",
+      "serializerClass": "net.pedroksl.advanced_ae.recipes.ReactionChamberRecipeSerializer",
+      "recipeTypeClass": "net.minecraft.world.item.crafting.RecipeType$2"
+    },
+    {
+      "recipe": "advanced_ae:damagedbudding",
+      "recipeClass": "net.pedroksl.advanced_ae.recipes.ReactionChamberRecipe",
+      "serializerKey": "advanced_ae:reaction",
+      "serializerClass": "net.pedroksl.advanced_ae.recipes.ReactionChamberRecipeSerializer",
+      "recipeTypeClass": "net.minecraft.world.item.crafting.RecipeType$2"
+    },
+    {
+      "recipe": "advanced_ae:flawedbudding",
+      "recipeClass": "net.pedroksl.advanced_ae.recipes.ReactionChamberRecipe",
+      "serializerKey": "advanced_ae:reaction",
+      "serializerClass": "net.pedroksl.advanced_ae.recipes.ReactionChamberRecipeSerializer",
+      "recipeTypeClass": "net.minecraft.world.item.crafting.RecipeType$2"
+    },
+    {
+      "recipe": "advanced_ae:skyosmium",
+      "recipeClass": "net.pedroksl.advanced_ae.recipes.ReactionChamberRecipe",
+      "serializerKey": "advanced_ae:reaction",
+      "serializerClass": "net.pedroksl.advanced_ae.recipes.ReactionChamberRecipeSerializer",
+      "recipeTypeClass": "net.minecraft.world.item.crafting.RecipeType$2"
+    },
+    {
+      "recipe": "advanced_ae:shatteredsingularity",
+      "recipeClass": "net.pedroksl.advanced_ae.recipes.ReactionChamberRecipe",
+      "serializerKey": "advanced_ae:reaction",
+      "serializerClass": "net.pedroksl.advanced_ae.recipes.ReactionChamberRecipeSerializer",
+      "recipeTypeClass": "net.minecraft.world.item.crafting.RecipeType$2"
+    },
+    {
+      "recipe": "advanced_ae:entroingot",
+      "recipeClass": "net.pedroksl.advanced_ae.recipes.ReactionChamberRecipe",
+      "serializerKey": "advanced_ae:reaction",
+      "serializerClass": "net.pedroksl.advanced_ae.recipes.ReactionChamberRecipeSerializer",
+      "recipeTypeClass": "net.minecraft.world.item.crafting.RecipeType$2"
+    },
+    {
+      "recipe": "advanced_ae:singularity",
+      "recipeClass": "net.pedroksl.advanced_ae.recipes.ReactionChamberRecipe",
+      "serializerKey": "advanced_ae:reaction",
+      "serializerClass": "net.pedroksl.advanced_ae.recipes.ReactionChamberRecipeSerializer",
+      "recipeTypeClass": "net.minecraft.world.item.crafting.RecipeType$2"
+    },
+    {
+      "recipe": "advanced_ae:entrocrystal",
+      "recipeClass": "net.pedroksl.advanced_ae.recipes.ReactionChamberRecipe",
+      "serializerKey": "advanced_ae:reaction",
+      "serializerClass": "net.pedroksl.advanced_ae.recipes.ReactionChamberRecipeSerializer",
+      "recipeTypeClass": "net.minecraft.world.item.crafting.RecipeType$2"
+    },
+    {
+      "recipe": "advanced_ae:quantum_infusion",
+      "recipeClass": "net.pedroksl.advanced_ae.recipes.ReactionChamberRecipe",
+      "serializerKey": "advanced_ae:reaction",
+      "serializerClass": "net.pedroksl.advanced_ae.recipes.ReactionChamberRecipeSerializer",
+      "recipeTypeClass": "net.minecraft.world.item.crafting.RecipeType$2"
+    },
+    {
+      "recipe": "advanced_ae:quantum_alloy_plate",
+      "recipeClass": "net.pedroksl.advanced_ae.recipes.ReactionChamberRecipe",
+      "serializerKey": "advanced_ae:reaction",
+      "serializerClass": "net.pedroksl.advanced_ae.recipes.ReactionChamberRecipeSerializer",
+      "recipeTypeClass": "net.minecraft.world.item.crafting.RecipeType$2"
+    },
+    {
+      "recipe": "advanced_ae:certuscharger",
+      "recipeClass": "net.pedroksl.advanced_ae.recipes.ReactionChamberRecipe",
+      "serializerKey": "advanced_ae:reaction",
+      "serializerClass": "net.pedroksl.advanced_ae.recipes.ReactionChamberRecipeSerializer",
+      "recipeTypeClass": "net.minecraft.world.item.crafting.RecipeType$2"
+    },
+    {
+      "recipe": "advanced_ae:quartzcrystal",
+      "recipeClass": "net.pedroksl.advanced_ae.recipes.ReactionChamberRecipe",
+      "serializerKey": "advanced_ae:reaction",
+      "serializerClass": "net.pedroksl.advanced_ae.recipes.ReactionChamberRecipeSerializer",
+      "recipeTypeClass": "net.minecraft.world.item.crafting.RecipeType$2"
+    },
+    {
+      "recipe": "advanced_ae:chippedbudding",
+      "recipeClass": "net.pedroksl.advanced_ae.recipes.ReactionChamberRecipe",
+      "serializerKey": "advanced_ae:reaction",
+      "serializerClass": "net.pedroksl.advanced_ae.recipes.ReactionChamberRecipeSerializer",
+      "recipeTypeClass": "net.minecraft.world.item.crafting.RecipeType$2"
+    },
+    {
+      "recipe": "advanced_ae:quantum_alloy",
+      "recipeClass": "net.pedroksl.advanced_ae.recipes.ReactionChamberRecipe",
+      "serializerKey": "advanced_ae:reaction",
+      "serializerClass": "net.pedroksl.advanced_ae.recipes.ReactionChamberRecipeSerializer",
+      "recipeTypeClass": "net.minecraft.world.item.crafting.RecipeType$2"
+    },
+    {
+      "recipe": "advanced_ae:fluixcrystals",
+      "recipeClass": "net.pedroksl.advanced_ae.recipes.ReactionChamberRecipe",
+      "serializerKey": "advanced_ae:reaction",
+      "serializerClass": "net.pedroksl.advanced_ae.recipes.ReactionChamberRecipeSerializer",
+      "recipeTypeClass": "net.minecraft.world.item.crafting.RecipeType$2"
+    },
+    {
+      "recipe": "advanced_ae:fluixcrystalfromdust",
+      "recipeClass": "net.pedroksl.advanced_ae.recipes.ReactionChamberRecipe",
+      "serializerKey": "advanced_ae:reaction",
+      "serializerClass": "net.pedroksl.advanced_ae.recipes.ReactionChamberRecipeSerializer",
+      "recipeTypeClass": "net.minecraft.world.item.crafting.RecipeType$2"
+    }
+  ],
+  "unregisteredRecipeIdentityCount": 17,
+  "retainedElectronicsBootstrap": [
+    {
+      "recipe": "industrial_colonies:electronics/n_semiconductor",
+      "output": "tfmg:n_semiconductor",
+      "count": 2
+    },
+    {
+      "recipe": "industrial_colonies:electronics/p_semiconductor",
+      "output": "tfmg:p_semiconductor",
+      "count": 2
+    },
+    {
+      "recipe": "industrial_colonies:electronics/prepared_silicon_wafer",
+      "output": "industrial_colonies:prepared_silicon_wafer",
+      "count": 1
+    }
+  ],
+  "nativeExclusiveMilling": {
+    "samples": 100000,
+    "recovered": 20177,
+    "countsOsPtIr": [
+      14053,
+      5091,
+      1033
+    ]
+  },
+  "industrialFanDirectProcessingCalls": 153,
+  "fanFixture": "Detached native block entities; no world blocks changed. Direct lookup/belt processing exercised, not airflow geometry.",
+  "nativeElectricalRecipes": [
+    "industrial_colonies:processing/lead/purify",
+    "industrial_colonies:processing/aluminum/electrical_reduction",
+    "industrial_colonies:processing/magnesium/electrolyze_chloride",
+    "industrial_colonies:processing/lithium/electrical_reduction",
+    "industrial_colonies:processing/beryllium/electrochemical_reduce",
+    "industrial_colonies:processing/reagents/bootstrap_brine_electrolysis",
+    "industrial_colonies:processing/silicon/n_semiconductor",
+    "industrial_colonies:processing/silicon/p_semiconductor"
+  ],
+  "nativeArcBaseTime": 800,
+  "nativeArcBaseTotalEnergy": 409600,
+  "manualConfig": {
+    "enabled": true,
+    "heatingTicks": 1200,
+    "hammerCooldownTicks": 20,
+    "hammerDamage": 1,
+    "reach": 4.5,
+    "manualNoBatch": true
+  },
+  "manualScope": "Config, registered damageable hammer and no-heat batch recipe checked; a real-player 60-second interaction was not simulated by this addon.",
+  "sections": {
+    "loadedCatalogAndRegistryReferences": "PASS (2846 assertions)",
+    "noModernFoundryAlloy": "PASS (3 assertions)",
+    "retainedElectronicsBootstrap": "PASS (6 assertions)",
+    "nativeExclusiveMilling": "PASS (142376 assertions)",
+    "exactFanAndNegativeCacheRetry": "PASS (34 assertions)",
+    "nativeElectricalVatAndTungstenArc": "PASS (67 assertions)",
+    "manualConfigAndNoHeatCinnabar": "PASS (13 assertions)"
+  },
+  "failures": [],
+  "assertions": 145355,
+  "elapsedMilliseconds": 176,
+  "status": "PASS"
+}

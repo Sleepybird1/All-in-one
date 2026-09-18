@@ -1,0 +1,16 @@
+#453 regions_unexplored:cold_boreal_taiga
+#4CA minecraft:dripstone_caves
+#508 minecraft:frozen_peaks
+#01C regions_unexplored:frozen_pine_taiga
+#286 minecraft:grove
+#154 minecraft:ice_spikes
+#60C minecraft:old_growth_spruce_taiga
+#4E5 minecraft:snowy_plains
+#524 minecraft:snowy_slopes
+#340 minecraft:snowy_taiga
+#169 minecraft:taiga
+#79C regions_unexplored:tundra
+#152 minecraft:windswept_forest
+#05C minecraft:windswept_gravelly_hills
+#4C3 minecraft:windswept_hills
+#6BF regions_unexplored:windswept_maple_forest

@@ -1,0 +1,14 @@
+# Worlds - excluded completely for now
+saves/
+
+# Large generated runtime data
+journeymap/
+xaero/world-map/
+xaero/minimap/
+
+# Runtime/cache data
+logs/
+crash-reports/
+screenshots/
+dynamic-resource-pack-cache/
+.minecraft/

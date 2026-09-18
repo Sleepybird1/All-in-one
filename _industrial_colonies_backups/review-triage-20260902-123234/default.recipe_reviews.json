@@ -1,0 +1,2855 @@
+{
+  "schemaVersion": 1,
+  "project": "default",
+  "reviews": {
+    "industrial_colonies:advanced_ae/reaction_chamber": {
+      "uid": "0d6c2f2a-297d-546b-9826-0c9b5d6e8f57",
+      "status": "approved",
+      "reason": "approved",
+      "note": "",
+      "cardSha256": "sha256:2e94105a7d5918317280cbf03b3863590a08b517bc1bd2c4d75f9681e4a937a1"
+    },
+    "industrial_colonies:ae2/calculation_processor": {
+      "uid": "031bf944-1028-5fb8-bc08-65711ea5f6a4",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "Remember copper machines for electronics like processors. also plastic, redstone, etc.",
+      "cardSha256": "sha256:767d045e2d597c0936b23897c02963d75cbb43303c5fa58a50bb56e85dcc678d"
+    },
+    "industrial_colonies:ae2/charger": {
+      "uid": "d3102b3c-2994-5acc-b48f-b8efd00dcb44",
+      "status": "approved",
+      "reason": "approved",
+      "note": "",
+      "cardSha256": "sha256:481ad6315b22dcb3b442693785ee445fbf6cb83a5e47521c85d7bed9345db2b1"
+    },
+    "industrial_colonies:ae2/engineering_processor": {
+      "uid": "afc7e3c6-301d-52ca-b096-70fefe22f6e9",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "same thing as I said for other AE2 processors",
+      "cardSha256": "sha256:efeb86f287b25d2d027f4e755167e3ac0cf972c3c74b1e6e20548e7c31b38e42"
+    },
+    "industrial_colonies:ae2/inscriber": {
+      "uid": "f51c4797-5e0b-59a6-803a-a56dfa308d97",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "Honestly the inscriber is not really needed. It should probably be disabled all together.",
+      "cardSha256": "sha256:63feffd290179be92acdbbf4649c80676accf7be2ab4e2937adf4bda8b0c42fb"
+    },
+    "industrial_colonies:ae2/logic_processor": {
+      "uid": "05ebd786-75ee-559a-859d-404c2fd6e017",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "good start however should require some plastic and semi conductors.",
+      "cardSha256": "sha256:eff6e73c4b8a6dbcae38c5ab1635cc56907dceb2096adbdca951179b16198ea4"
+    },
+    "industrial_colonies:ae2/printed_calculation_processor": {
+      "uid": "4df1b60b-0065-583d-bc35-64a88c601f17",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "okay same thing as the logic circuit",
+      "cardSha256": "sha256:13c1817635d46bf52046edcf113d78a536f1197ac9fc3a314c626e1ce5e3beca"
+    },
+    "industrial_colonies:ae2/printed_engineering_processor": {
+      "uid": "c7a804b9-6aab-522b-8248-98b3613113ea",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "same thing as the logic circuit",
+      "cardSha256": "sha256:32f0118235c2c1ab81a902e7c18c71856a38cd7daff386dd2f28bc83a4894bae"
+    },
+    "industrial_colonies:ae2/printed_logic_processor": {
+      "uid": "5a35ffda-6047-5c2e-9a5c-5d1b9694e476",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "Nope should require more than this. Gold is fine for the base material however remember plastic, redstone, semiconductors, ect can be used.",
+      "cardSha256": "sha256:5a1ab060e4c6247f8e8335a25561af233595a96ee164f91434ee25e0ec67a5aa"
+    },
+    "industrial_colonies:ae2_high_energy/cell_workbench": {
+      "uid": "96fc2a8f-6594-577b-9b32-f29be13dcb04",
+      "status": "approved",
+      "reason": "approved",
+      "note": "",
+      "cardSha256": "sha256:29691e03f8d96bc2089e21bcb7f819dba82f8fcf3a43e113cb7e033fe5c596ed"
+    },
+    "industrial_colonies:ae2_high_energy/controller": {
+      "uid": "10a8e223-ad84-5e5b-a81a-80a3d61c34d7",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "should be a bit more complex its the brain of the ME system.",
+      "cardSha256": "sha256:aea35e5d7d32c76c515faf90ae7a704000a3228d57575b861e522908c56ee297"
+    },
+    "industrial_colonies:ae2_high_energy/export_bus": {
+      "uid": "9661fd53-04fb-5286-8045-1f21fb8b37f3",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "a little more complex please",
+      "cardSha256": "sha256:2265187f059ee36d1572fb343bcbff3c9c2c6a6af268949aae9762bba9f3d34f"
+    },
+    "industrial_colonies:ae2_high_energy/io_port": {
+      "uid": "a98e30ac-bef7-5814-b9cb-a225ab4e8e76",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "more complex",
+      "cardSha256": "sha256:f567d72dbe2b1afda01adcf4adfe3351df731ee3b467c0521cfd66a0b1d6eb00"
+    },
+    "industrial_colonies:ae2_high_energy/me_p2p_tunnel": {
+      "uid": "4666a639-01a9-5514-bc2f-a6e4cb9713ab",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "more complex",
+      "cardSha256": "sha256:1c47624de39a79e90d7f26f61e9bb6abbf181f6c3cc6fd64a32e122272b11fd5"
+    },
+    "industrial_colonies:ae2_high_energy/mega_crafting_unit": {
+      "uid": "7f21a4b4-2e89-564d-acc0-0e2ebc3e1a73",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "too cheap",
+      "cardSha256": "sha256:5017447d38f60cc19e3436cf603e819cc97dd9165a9b2c49a64e8b4fb8dedc5d"
+    },
+    "industrial_colonies:ae2_high_energy/spatial_anchor": {
+      "uid": "b5632c32-3a8f-5826-a80d-e6a54326d46b",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "way to simple, wrong machine type, should use the chunk core item.",
+      "cardSha256": "sha256:16ce91c04ea739dca8a7d0d3a0ef35e60a8b733599de49fab4a5e34d67bf0b05"
+    },
+    "industrial_colonies:ae2_high_energy/spatial_io_port": {
+      "uid": "dc3205b5-488a-5d79-95fa-e4fe2501931c",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "wrong machine type",
+      "cardSha256": "sha256:5f54b1939c32f594e87b5b157486acfaf62ed30bddccb09f70e0f648ebe830f4"
+    },
+    "industrial_colonies:ae2_high_energy/spatial_pylon_batch": {
+      "uid": "94b29760-ee7c-5fbc-9af3-4a6024f39fb4",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "should follow the electronics families progression not industrial",
+      "cardSha256": "sha256:a38ed039ade6d50a0255fca1e907792d33c3302ba5c6d99af46240e7f4c519fb"
+    },
+    "industrial_colonies:appliedcreate/kinetic_energy_acceptor": {
+      "uid": "589317a0-7441-5c44-a207-e4a8276125be",
+      "status": "approved",
+      "reason": "approved",
+      "note": "",
+      "cardSha256": "sha256:ef9b59968651aca851ea11e9a336a6d137be8af47b27e64bb7b97c205d5e41f0"
+    },
+    "industrial_colonies:appliedcreate/me_gearbox": {
+      "uid": "65da988a-5ca7-576b-8652-9a1181f15cce",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "not sure what this is used for but not very clever(ring)",
+      "cardSha256": "sha256:68307cde35116a1accd42e23e85bcccd887be79ac2e7f0f93ca6a091654c7c64"
+    },
+    "industrial_colonies:appliedcreate/stress_storage_component_1k": {
+      "uid": "0fc0e809-a032-5541-b1dc-f3639904a218",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "its nice but should need more electronics stuff and also should used brass, copper, or train based off of progression",
+      "cardSha256": "sha256:016d33f069b862a8f9fe05e49fdc53f158b5192da4de5eacb8465d29ccf59b78"
+    },
+    "industrial_colonies:auto/create/controls": {
+      "uid": "64af29b5-1864-5bb4-8e11-e64568756f03",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "doesnt make items",
+      "cardSha256": "sha256:8c7ef24a7a82d0cebe1cbbd7af2efe1414f8777c728292b8a9a3f3e4689fbf99"
+    },
+    "industrial_colonies:auto/create/steam_whistle": {
+      "uid": "d914c08d-7ba2-5f2d-9a57-2fd7f871302c",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "doesnt make items",
+      "cardSha256": "sha256:fb391a46e734d6db2d15e08d062c0d69bc47c905813fc4bba2c6c78081f79131"
+    },
+    "industrial_colonies:auto/create/track_observer": {
+      "uid": "f5725aee-5e19-592f-b11b-8802aa5e329e",
+      "status": "rejected",
+      "reason": "default_recipe",
+      "note": "This is the default recipe—why is it in here?",
+      "cardSha256": "sha256:21c8ddb269bda8e5f9161727d975e00747bd4fa8fd19720b1b6fc2db9cec8026"
+    },
+    "industrial_colonies:auto/create/track_signal": {
+      "uid": "a31036b0-6563-5faa-9906-37365b9f0c07",
+      "status": "rejected",
+      "reason": "default_recipe",
+      "note": "This is the default recipe—why is it in here?",
+      "cardSha256": "sha256:41d4711d6b11b4d53c53935bfd5fa35c54ab3f5e0a167f50129e55d59e51aff1"
+    },
+    "industrial_colonies:auto/create/track_station": {
+      "uid": "bdd96bef-7d86-536b-8172-2a7b4c57e25c",
+      "status": "rejected",
+      "reason": "default_recipe",
+      "note": "This is the default recipe—why is it in here?",
+      "cardSha256": "sha256:c5403fa90a714a91acbcaca52e492dfcde96b958043ff27224e039fb221a5711"
+    },
+    "industrial_colonies:auto/tfmg/cast_iron_frame": {
+      "uid": "70857dd5-16c7-5d79-b981-7454924e5405",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "eh looking at the structure it doesnt seem to look sturdy. I think its simplicity works just not the materials and shape.",
+      "cardSha256": "sha256:a72cf8531308e8f8f940951e0902c9609e5c223afebab29c7e2238dc58f37a9a"
+    },
+    "industrial_colonies:auto/tfmg/copper_spool": {
+      "uid": "fe9f283d-19f9-59de-bf01-76e88714b3ce",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "there is a machine for this that spools wire",
+      "cardSha256": "sha256:470d5a3096d0b8f1b0978418fb0df5d96aaab6858e8f60bc05959765bd3ec136"
+    },
+    "industrial_colonies:big_cannons/cannon_drill": {
+      "uid": "08cfa784-8993-580e-93b8-b70e272b5b95",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "Wrong machine type.",
+      "cardSha256": "sha256:99f74e4c2b0c0c33ecf555e401737f678ff7294c46d77f73435d5e15dab42cd1"
+    },
+    "industrial_colonies:big_cannons/cannon_mount": {
+      "uid": "c69f6ea6-7e0d-50f1-90c9-ea8c384dcf30",
+      "status": "approved",
+      "reason": "approved",
+      "note": "",
+      "cardSha256": "sha256:8bd526a2df5f473deab84bdd8ebe3c56b596c014ce8b11460b6c987a4f4a00e2"
+    },
+    "industrial_colonies:bigreactors/basic_reactor/casing": {
+      "uid": "0d9a156a-1eb6-542d-8fce-27e9cd126e80",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "wrong machine type and a little too cheap",
+      "cardSha256": "sha256:677635eb8ecd069387037be22bc68e6bb521d2eab4eb827175a943c108cddd16"
+    },
+    "industrial_colonies:bigreactors/basic_reactor/control_rod": {
+      "uid": "3bdc77b1-5beb-5293-b8df-cb29cbb93cf6",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "wrong machine type and a little too cheap",
+      "cardSha256": "sha256:6fd2542f01371f911969c06033d515922851e8b2fd499acdc43b1fcba1b57e4a"
+    },
+    "industrial_colonies:bigreactors/basic_reactor/fuel_rod": {
+      "uid": "e7e8eb31-5ca9-5480-8a91-04bdfdb89fe0",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "wrong machine type and a little too cheap",
+      "cardSha256": "sha256:89c8a312dd688052ca9108bbaa7e303253d3c7fb74f3fd1303a4553291faf585"
+    },
+    "industrial_colonies:bigreactors/basic_turbine/casing": {
+      "uid": "074dc7c1-234c-5788-b393-0169e34ae830",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "wrong machine type and a little too cheap",
+      "cardSha256": "sha256:620dfab3ed75e6d242c71107af30a6f27a3498f1cebf60715ff29915c1e0970d"
+    },
+    "industrial_colonies:bigreactors/basic_turbine/controller": {
+      "uid": "05df1381-3cb6-5669-8e2b-74404d2e0e35",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "a little cheap",
+      "cardSha256": "sha256:c1768f28c222d64937f78421a6e94fb5208285833caaee9a53b2f6a11ca2f95d"
+    },
+    "industrial_colonies:bigreactors/basic_turbine/rotor_bearing": {
+      "uid": "a2a23cea-6621-53c4-8789-1ad94f8946d9",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "wrong machine type and a little too cheap",
+      "cardSha256": "sha256:14ecd0d15533b7502e3c2495da6abefe5d4fd66e28c4d802d37b80cd746883c2"
+    },
+    "industrial_colonies:bigreactors/basic_turbine/rotor_blade": {
+      "uid": "1006613c-889d-5e77-a9d1-94aea90a1ebb",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "wrong machine type and a little too cheap",
+      "cardSha256": "sha256:e5742e545ddb24fed2dc9d521e11fe83a0798a7a8b74c35ec4feb4f1d892cdf3"
+    },
+    "industrial_colonies:bigreactors/basic_turbine/rotor_shaft": {
+      "uid": "e82fab4b-d338-5bcc-bb7b-15bcd5f29f64",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "wrong machine type and a little too cheap",
+      "cardSha256": "sha256:e019d3c9e9c0d81f09ce76483274484f9701909e5f2edb3bd4fc7dd343f30d1d"
+    },
+    "industrial_colonies:bigreactors/energizer/casing": {
+      "uid": "54ba3857-1634-5ae4-8333-21521d549c27",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "wrong machine type and a little too cheap",
+      "cardSha256": "sha256:2d8c3fc3c0744d8e91a9f9541d80ccf73b25e12f798a41b3f7e2ef3fc7f87345"
+    },
+    "industrial_colonies:bigreactors/energizer/controller": {
+      "uid": "c0c4100d-0d0b-5a55-8315-703e44d3493d",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "a little too cheap",
+      "cardSha256": "sha256:331464d1c2b59561a3d1b04edc2868923d4d197cddb0149c582347883e850503"
+    },
+    "industrial_colonies:bigreactors/fluidizer/casing": {
+      "uid": "45c56b3c-cdcf-5317-b925-7a24c07cde85",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "wrong machine type and a little too cheap",
+      "cardSha256": "sha256:d02db05c126f25713968e9f6c105031b3e3962a135e3b126dca4aee8eaf709bf"
+    },
+    "industrial_colonies:bigreactors/fluidizer/controller": {
+      "uid": "7704fbbe-8517-53a6-96dc-973302010489",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "a little too cheap",
+      "cardSha256": "sha256:f912c9aaaa3cc02e76253045b381ae1dce5b3be925dec9534c34f33a4cfcb936"
+    },
+    "industrial_colonies:bigreactors/reinforced_reactor/casing": {
+      "uid": "364efc91-b41f-50ba-8f49-843c4647690a",
+      "status": "approved",
+      "reason": "approved",
+      "note": "",
+      "cardSha256": "sha256:87bf193241ff5c87d36a6a2aa1b04bc6a826678b673556867d0e2c59b1ce1298"
+    },
+    "industrial_colonies:bigreactors/reinforced_reactor/control_rod": {
+      "uid": "6bdcdbc2-526b-548c-9f6b-b9463dd398be",
+      "status": "approved",
+      "reason": "approved",
+      "note": "",
+      "cardSha256": "sha256:f44adc278610bc8aff8d9ffda8eddd0af5cc8e2a839ec4623c27d6fde22eb8ce"
+    },
+    "industrial_colonies:bigreactors/reinforced_reactor/fuel_rod": {
+      "uid": "127d6e83-5a89-58a7-ae2f-ca7f78b61061",
+      "status": "approved",
+      "reason": "approved",
+      "note": "",
+      "cardSha256": "sha256:9afd762a3d5bcde0fb9fab8d39674ff7c8cd0c0eb5bdca14938e9a1091753e45"
+    },
+    "industrial_colonies:bigreactors/reinforced_turbine/casing": {
+      "uid": "d5fb4277-5fe8-5c6b-9da2-f841d2fd5bd7",
+      "status": "approved",
+      "reason": "approved",
+      "note": "",
+      "cardSha256": "sha256:1ee829b4a8385cfb6e184e26602c970f59f25c825e6583954bf6105aaee098ce"
+    },
+    "industrial_colonies:bigreactors/reinforced_turbine/controller": {
+      "uid": "af4e4a6a-d6d8-5dc2-ab59-2c5894d743e7",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "a little cheap",
+      "cardSha256": "sha256:7876e628c4707f32e4288bb68c788638d2db5af96e81867827172a7dff961628"
+    },
+    "industrial_colonies:bigreactors/reinforced_turbine/rotor_bearing": {
+      "uid": "d4c48233-512e-5c56-b0b4-10b2ab1fd3be",
+      "status": "approved",
+      "reason": "approved",
+      "note": "",
+      "cardSha256": "sha256:1c7f9eb8f34137bca3c89c92d92a33f0ef07f60a5b9ceefbf7a909072d3eb7c2"
+    },
+    "industrial_colonies:bigreactors/reinforced_turbine/rotor_blade": {
+      "uid": "c518ed05-7f6e-5abe-a826-3a1a663d951f",
+      "status": "approved",
+      "reason": "approved",
+      "note": "",
+      "cardSha256": "sha256:8c16ed9d8b6952225a23d32d16d2c360a398ff484d14e3eae8fb3db214a7ece2"
+    },
+    "industrial_colonies:bigreactors/reinforced_turbine/rotor_shaft": {
+      "uid": "a4d569a9-cacd-5836-9429-1758ad75331d",
+      "status": "approved",
+      "reason": "approved",
+      "note": "",
+      "cardSha256": "sha256:1971e9920451f97d8c2fcb6744f79e69d61ae133cf0bb13903f03904fb6295da"
+    },
+    "industrial_colonies:bigreactors/reprocessor/casing": {
+      "uid": "e930caca-c79c-51c5-9896-015e226b3fdf",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "wrong machine type and a little too cheap",
+      "cardSha256": "sha256:baeab7db1c8da0b0e146401ce6881f54a9446d225258ef88986f0a902dde2417"
+    },
+    "industrial_colonies:bigreactors/reprocessor/collector": {
+      "uid": "a5121b84-a1a0-5eb2-95db-63878cd065de",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "wrong machine type and a little too cheap",
+      "cardSha256": "sha256:a9be7b25876ba772186449ac142d152cf26eaf4c16c767aaa38277de8c79221c"
+    },
+    "industrial_colonies:bigreactors/reprocessor/controller": {
+      "uid": "6fe9458a-d17e-5727-962d-f43568b1bd69",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "a little cheap",
+      "cardSha256": "sha256:a3bcd37119d010cbb770f0c95c9a6213109325752b0ad738c9811d8a0ca6c3b6"
+    },
+    "industrial_colonies:bigreactors/reprocessor/fluid_injector": {
+      "uid": "9eb7e753-42e6-5195-a62f-3c33295dfa05",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "wrong machine type and a little too cheap",
+      "cardSha256": "sha256:21ca53d1a977b2305072028a2802fa56f4fdbfe8f65067ef7cda5e0446962568"
+    },
+    "industrial_colonies:bigreactors/reprocessor/output_port": {
+      "uid": "ae5d5c1a-f840-52ec-a165-c5917e179a95",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "wrong machine type and a little too cheap",
+      "cardSha256": "sha256:7c8139939f0edbc932af31f4ec7ee144a44b75afd9e8ae4aa440fbb561725830"
+    },
+    "industrial_colonies:bigreactors/reprocessor/power_port": {
+      "uid": "06ef188d-d7e6-5d94-afb8-281b39a0de9d",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "wrong machine type and a little too cheap",
+      "cardSha256": "sha256:b91940c5ee69e5e3b0ca08737567f009f2f18b24e38177d1175d13bb374576de"
+    },
+    "industrial_colonies:bigreactors/reprocessor/waste_injector": {
+      "uid": "5d4e9398-b2df-5864-b447-bc21317bee61",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "wrong machine type and a little too cheap",
+      "cardSha256": "sha256:99661f000ff941ad52ab68766ae51a54ac6e5a6f0c0e94bf75e6b3cf0dd777f5"
+    },
+    "industrial_colonies:brass/deployer": {
+      "uid": "245a76b5-6967-5fdf-a78d-8954a7df8d5c",
+      "status": "rejected",
+      "reason": "default_recipe",
+      "note": "This is the default recipe—why is it in here?",
+      "cardSha256": "sha256:55e1457e1639fa3c2641063ed148ef163d44880e580034a5b7f32aebdc757224"
+    },
+    "industrial_colonies:brass/mechanical_crafter": {
+      "uid": "1a883460-8be4-5494-8beb-bb14eea065bb",
+      "status": "rejected",
+      "reason": "default_recipe",
+      "note": "This is the default recipe—why is it in here?",
+      "cardSha256": "sha256:730c383b7ed1fefc83f5bfcc419ee812cb7d6b01305bc61e6d3aa6cf3d22a92e"
+    },
+    "industrial_colonies:chemical_processing/accumulator": {
+      "uid": "58cb349e-8f80-5f62-b63e-f49f4ea6e209",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "I like it but should use lithium",
+      "cardSha256": "sha256:52769862d337b680faa943ef1f1fbbfcc5bc7a6f96b3a0f9574c9216fc84a041"
+    },
+    "industrial_colonies:chemical_processing/cable_tube": {
+      "uid": "b79ce515-d998-574e-a0de-b391add80283",
+      "status": "approved",
+      "reason": "approved",
+      "note": "",
+      "cardSha256": "sha256:b0c02d28f86d46407baafdaa7ea6531a66d8f5fb82d1a9c4fc597a4942cb189d"
+    },
+    "industrial_colonies:computercraft/computer/advanced_upgrade": {
+      "uid": "92a99d02-8a30-5de6-9492-4cb7f392124a",
+      "status": "approved",
+      "reason": "approved",
+      "note": "",
+      "cardSha256": "sha256:ba1ed7b8c097c818b62e0c45807971ea3bf53dafdec55cb1a6e09c39ee45e73b"
+    },
+    "industrial_colonies:computercraft/computer/normal": {
+      "uid": "9431fd31-312a-597b-998a-a4ebea7ca350",
+      "status": "rejected",
+      "reason": "ring_of_items",
+      "note": "There\u0027s a ring of items. That\u0027s not clever.",
+      "cardSha256": "sha256:8cdd365bf5b828099b6ad07385dd53923e09a0fb7b4c9c36c19bcf6e13041881"
+    },
+    "industrial_colonies:computercraft/io/disk_drive": {
+      "uid": "b3b74282-f350-59fd-b437-eaed518082eb",
+      "status": "rejected",
+      "reason": "ring_of_items",
+      "note": "There\u0027s a ring of items. That\u0027s not clever.",
+      "cardSha256": "sha256:3deddb15dae5386825395d5aff3a59fc557098030b122f731ad673461e08c10d"
+    },
+    "industrial_colonies:computercraft/io/printer": {
+      "uid": "126da548-056f-5e49-91f2-ebb6e09bfaa7",
+      "status": "rejected",
+      "reason": "ring_of_items",
+      "note": "There\u0027s a ring of items. That\u0027s not clever.",
+      "cardSha256": "sha256:c52b38fac0762fc334d93ea97c7ba1938f028b1635a2a71980155b265efe9597"
+    },
+    "industrial_colonies:computercraft/io/redstone_relay": {
+      "uid": "5d57f160-4704-52e4-8d84-ef8f5728cea6",
+      "status": "approved",
+      "reason": "approved",
+      "note": "",
+      "cardSha256": "sha256:de56be582938e1803c0f371db7fe3337e0532c42ff0392b77234ae6137aa2f71"
+    },
+    "industrial_colonies:computercraft/io/speaker": {
+      "uid": "0e1fa961-4513-56f9-9006-be22c081dd3a",
+      "status": "approved",
+      "reason": "approved",
+      "note": "",
+      "cardSha256": "sha256:3eaf336a38e103b57a35000f1adfa5fede765125c757df726b125a630698df73"
+    },
+    "industrial_colonies:computercraft/mobile/advanced_pocket_upgrade": {
+      "uid": "a11ffff4-3eca-5e8c-9c2e-141d1a7e6e6a",
+      "status": "approved",
+      "reason": "approved",
+      "note": "",
+      "cardSha256": "sha256:daa76c3b1b185b037ecf505a4af19a4d1230cedcd2a8d13b5a9a22e3b8a39beb"
+    },
+    "industrial_colonies:computercraft/mobile/advanced_turtle_upgrade": {
+      "uid": "79c20dac-ef5a-5042-9fa9-ac15c0939313",
+      "status": "approved",
+      "reason": "approved",
+      "note": "",
+      "cardSha256": "sha256:49a863aceb40ae65d6abbc06cc775143c69c1499e4a772a6fb57e7ae06fa7501"
+    },
+    "industrial_colonies:computercraft/mobile/pocket_computer": {
+      "uid": "746d2b3a-a702-5f7c-a4ff-778bd0b29901",
+      "status": "rejected",
+      "reason": "ring_of_items",
+      "note": "There\u0027s a ring of items. That\u0027s not clever.",
+      "cardSha256": "sha256:82af94209397a394fd22a4e5cee1aa7b432e81b56259d58a9f701b5aeeef01f8"
+    },
+    "industrial_colonies:computercraft/mobile/turtle": {
+      "uid": "032d1402-b423-5f03-a68e-ac4789895d4f",
+      "status": "rejected",
+      "reason": "ring_of_items",
+      "note": "There\u0027s a ring of items. That\u0027s not clever.",
+      "cardSha256": "sha256:e58fcbd3924f4392bc362f8b9116296343065aa1b5e7251dfc01a1bd00b3ab61"
+    },
+    "industrial_colonies:computercraft/monitor/advanced": {
+      "uid": "7728b205-6a14-54a5-85fe-eefb3f8c06e0",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "its just a moniror maybe a little less complex",
+      "cardSha256": "sha256:1734ec90a9575b620a277f8125be3ac3f3d72246253f1de0b39a9f471033bea9"
+    },
+    "industrial_colonies:computercraft/monitor/normal": {
+      "uid": "271ddfa2-a598-5ea1-8f11-5e1ad647a80f",
+      "status": "rejected",
+      "reason": "ring_of_items",
+      "note": "There\u0027s a ring of items. That\u0027s not clever.",
+      "cardSha256": "sha256:ce2f67fc1cea82c3d368f0737e4ccdffa8645c45a01362640270ffc01e759a4f"
+    },
+    "industrial_colonies:computercraft/network/advanced_wireless_modem": {
+      "uid": "964c0a45-96ed-5a2e-a7f7-cb7d68d4645c",
+      "status": "approved",
+      "reason": "approved",
+      "note": "",
+      "cardSha256": "sha256:5dd4b1ad924d1ecbb9be57ad5cda4a078daaff3f9f49eb34ee3fd968984d4cf9"
+    },
+    "industrial_colonies:computercraft/network/cable": {
+      "uid": "383a2666-3ff2-56ed-b34d-c4ff1ced7241",
+      "status": "approved",
+      "reason": "approved",
+      "note": "",
+      "cardSha256": "sha256:6733d9234b6d07d5e1e934d101190fe7c05bec43bee74c7cf4bb48d5d8c64d9a"
+    },
+    "industrial_colonies:computercraft/network/wired_modem": {
+      "uid": "9ff009b9-3764-509e-9a77-d0ce0b7ff169",
+      "status": "approved",
+      "reason": "approved",
+      "note": "",
+      "cardSha256": "sha256:b9a0ae1b635323c67391154b4803fbb4fe5a49f19199784a22e445bb4b2bab1c"
+    },
+    "industrial_colonies:computercraft/network/wireless_modem": {
+      "uid": "0dfa3084-a7b0-5b20-a14b-e3c593c4fa6f",
+      "status": "approved",
+      "reason": "approved",
+      "note": "",
+      "cardSha256": "sha256:2ed1c1bdd58d00d11ff9f30fd57741746527d908e395ccc581ab29c4fdb36329"
+    },
+    "industrial_colonies:create_addons/brake": {
+      "uid": "bfe28148-cda1-5ac2-98f0-5a3116f3ebcd",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "Does not make anything",
+      "cardSha256": "sha256:761c03685dd1de1f5d658ca91ed8dcb181f0da0e09c61d9a2ed8543d28b9af4c"
+    },
+    "industrial_colonies:create_addons/experience_lantern": {
+      "uid": "428a7b31-038c-56ff-a88f-b64d9e9db43e",
+      "status": "approved",
+      "reason": "approved",
+      "note": "",
+      "cardSha256": "sha256:483884e5a78ab454c267808e323b7265ca557d28e20307a3ecb9e65cf56706e9"
+    },
+    "industrial_colonies:create_connected/crank_wheel": {
+      "uid": "3323f8d7-0187-5ccf-899e-ca31f569d0d2",
+      "status": "rejected",
+      "reason": "default_recipe",
+      "note": "This is the default recipe—why is it in here?",
+      "cardSha256": "sha256:43b0ccec21473aa520b367c4da417243b4b43655d02cf72620d7fb2cc2a8a9c4"
+    },
+    "industrial_colonies:create_connected/cross_connector": {
+      "uid": "db739e92-e5ec-55c7-aa79-92769d58f58c",
+      "status": "rejected",
+      "reason": "default_recipe",
+      "note": "This is the default recipe—why is it in here?",
+      "cardSha256": "sha256:7b2a63b898d83e18ac07a5c9673c6a57589a3b39d3c0e029dc21090e2d75e873"
+    },
+    "industrial_colonies:create_connected/fluid_vessel": {
+      "uid": "bde8508b-4baf-5397-970c-080f8e337ecb",
+      "status": "rejected",
+      "reason": "default_recipe",
+      "note": "This is the default recipe—why is it in here?",
+      "cardSha256": "sha256:5303e1593b5906986066dc7d1c5fb49a836cfa6308d337f90adaa662f0c15c1b"
+    },
+    "industrial_colonies:create_connected/freewheel_clutch": {
+      "uid": "a4668b7d-5573-578b-8e4a-54e4fe6d317a",
+      "status": "rejected",
+      "reason": "default_recipe",
+      "note": "This is the default recipe—why is it in here?",
+      "cardSha256": "sha256:5094316b5d19cf906c596f0841ba4880118a3e069a3acd0947420b256d4177da"
+    },
+    "industrial_colonies:create_connected/large_crank_wheel": {
+      "uid": "9dd4107b-6898-5a1b-8eac-d13924ab02ae",
+      "status": "rejected",
+      "reason": "default_recipe",
+      "note": "This is the default recipe—why is it in here?",
+      "cardSha256": "sha256:eccf5bb491f895dad6960628831c77d7320a2f014ea24780cb97d4b572881db9"
+    },
+    "industrial_colonies:create_connected/parallel_gearbox": {
+      "uid": "df1b05fb-365c-5111-babc-fa29ee69d87f",
+      "status": "rejected",
+      "reason": "default_recipe",
+      "note": "This is the default recipe—why is it in here?",
+      "cardSha256": "sha256:2471d1a4862bbe68cc5e8e0cede6cb4edd4d6d4f05549adaf833ecb401a489cf"
+    },
+    "industrial_colonies:create_connected/six_way_gearbox": {
+      "uid": "0515e88d-43ab-5f3f-beb0-5e57bdb9e5cf",
+      "status": "rejected",
+      "reason": "default_recipe",
+      "note": "This is the default recipe—why is it in here?",
+      "cardSha256": "sha256:3503f1746a744bde7adf11316fe10fcff6fd9ecfe0302ea5a29d0a24260c60db"
+    },
+    "industrial_colonies:create_core/basin": {
+      "uid": "6b287f49-6faf-5bc9-83d2-77acdcd4e1a5",
+      "status": "rejected",
+      "reason": "default_recipe",
+      "note": "This is the default recipe—why is it in here?",
+      "cardSha256": "sha256:89f177fdbaa782c26735b5ea534e2ddc0f86f66e6e14549615aaadbcb09ef1bb"
+    },
+    "industrial_colonies:create_core/cart_assembler": {
+      "uid": "90f22419-c164-5c1a-ad02-e1faf4a974df",
+      "status": "approved",
+      "reason": "approved",
+      "note": "",
+      "cardSha256": "sha256:e254f1b3289a03aca88ce48dbcf05aedd50d681cc89057f62045204091272e84"
+    },
+    "industrial_colonies:create_core/chute_batch": {
+      "uid": "60704925-1eea-5149-a4b8-93566bbcd122",
+      "status": "rejected",
+      "reason": "default_recipe",
+      "note": "This is the default recipe—why is it in here?",
+      "cardSha256": "sha256:5cd84fd83fef2e23f3af3fcace4385c9330005d3c4b44b3f9e56410ea71930b5"
+    },
+    "industrial_colonies:create_core/depot_batch": {
+      "uid": "f106066f-f4c7-5a8f-8bc8-b40932872d54",
+      "status": "rejected",
+      "reason": "default_recipe",
+      "note": "This is the default recipe—why is it in here?",
+      "cardSha256": "sha256:e55970c8e0da7612bac02f40cf01caf44884fd3a920a00e4af5243f3b4cb0cdb"
+    },
+    "industrial_colonies:create_core/display_board_batch": {
+      "uid": "7c879ea7-669e-50d3-823e-14dcf107ef3c",
+      "status": "approved",
+      "reason": "approved",
+      "note": "",
+      "cardSha256": "sha256:36328c0d246877ff31a0559744b980d6d8794d57f87fd028004e081d66693bd6"
+    },
+    "industrial_colonies:create_core/display_link": {
+      "uid": "8f25fdbe-77a4-5deb-a953-a584f7096cfb",
+      "status": "approved",
+      "reason": "approved",
+      "note": "",
+      "cardSha256": "sha256:9165540ee6b6b8ff019bb936feba30b02618a2d25bcc9a46db60586fbe09143b"
+    },
+    "industrial_colonies:create_core/encased_fan": {
+      "uid": "a2a500b8-9fd6-5661-b90a-5fadd2257f00",
+      "status": "rejected",
+      "reason": "default_recipe",
+      "note": "This is the default recipe—why is it in here?",
+      "cardSha256": "sha256:72363416df1fd30bdb97d3089d9ac7fa6c2b72b3cb1e35ee14c402b691637d8f"
+    },
+    "industrial_colonies:create_core/mechanical_bearing": {
+      "uid": "6bf03fe8-9afd-5e03-8942-419a59a7a949",
+      "status": "rejected",
+      "reason": "default_recipe",
+      "note": "This is the default recipe—why is it in here?",
+      "cardSha256": "sha256:9213b8dbd25b9246cb53fb53b23d46ae324af1d7a199e69ca5fbfb0e070af9f4"
+    },
+    "industrial_colonies:create_core/mechanical_drill": {
+      "uid": "a6de9420-18ea-570f-9e1e-760738b8b9d6",
+      "status": "rejected",
+      "reason": "default_recipe",
+      "note": "This is the default recipe—why is it in here?",
+      "cardSha256": "sha256:e37ec12fb2ce0e14dd0c6ea1bc40cc957ccab795a0d8aef9afb86e74488147e7"
+    },
+    "industrial_colonies:create_core/mechanical_harvester": {
+      "uid": "3f8fc21b-16a2-52bd-961d-f74c74ea4670",
+      "status": "rejected",
+      "reason": "default_recipe",
+      "note": "This is the default recipe—why is it in here?",
+      "cardSha256": "sha256:d4065b517652bd2251ffff53d205e23f09ca583b741d16257f6f657b7a850ebb"
+    },
+    "industrial_colonies:digital/accumulation_processor": {
+      "uid": "9defff81-a76e-59fc-b6a6-27dc2eb3a0a3",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "processors need more refer to my other processor entries",
+      "cardSha256": "sha256:85459f6b496f2bff4eba560ea1a2c786317b0342d397420181a21801e7765868"
+    },
+    "industrial_colonies:digital/crafting_unit": {
+      "uid": "20659f18-130c-56d8-9ca0-c9691a2c6e81",
+      "status": "rejected",
+      "reason": "ring_of_items",
+      "note": "There\u0027s a ring of items. That\u0027s not clever.",
+      "cardSha256": "sha256:9decfad22e6f681e4a3522dbdf795f991735a82eb1bcdfe0cdd314a239a314a1"
+    },
+    "industrial_colonies:digital/pattern_encoding_terminal": {
+      "uid": "6feebd0a-506a-52c0-9410-bfb39655f47a",
+      "status": "rejected",
+      "reason": "ring_of_items",
+      "note": "There\u0027s a ring of items. That\u0027s not clever.",
+      "cardSha256": "sha256:716c8c098834206ad8f828c221cac410340f1e13e165697f7983f5255d4492af"
+    },
+    "industrial_colonies:digital/storage_drive": {
+      "uid": "968a2d8c-b9bd-5d4d-89ee-1a7f64affe18",
+      "status": "rejected",
+      "reason": "ring_of_items",
+      "note": "There\u0027s a ring of items. That\u0027s not clever.",
+      "cardSha256": "sha256:99decad19f51edb4b4f7682b814d0e7ec2ff8aee9067d6dacf7e040fbb4be537"
+    },
+    "industrial_colonies:digital_core/block_reader": {
+      "uid": "216ed188-2e29-503c-960c-c4627f55ded3",
+      "status": "approved",
+      "reason": "approved",
+      "note": "",
+      "cardSha256": "sha256:bcdc7c76029d2777067e4bf894fa78edb4a2512636e4c0041bd6003c871f3464"
+    },
+    "industrial_colonies:digital_core/chemical_cell_housing": {
+      "uid": "3101f978-a53b-5af4-9aae-12aaabf8c84f",
+      "status": "approved",
+      "reason": "approved",
+      "note": "",
+      "cardSha256": "sha256:a1a6d26aa28ac23a29bc11b2b95c326182e5f33b53905147223dd60f5702c80e"
+    },
+    "industrial_colonies:digital_core/colony_integrator": {
+      "uid": "aa6eb55e-13a3-5c83-8266-b3ee002e66e6",
+      "status": "approved",
+      "reason": "approved",
+      "note": "",
+      "cardSha256": "sha256:a9e4f35dddde8c39f8512457d64522761a441c0e3dc51cb9760ebb50f59a1114"
+    },
+    "industrial_colonies:digital_core/energy_acceptor": {
+      "uid": "1c191a47-cbb0-5cd9-a36d-adf1cbc71dcf",
+      "status": "approved",
+      "reason": "approved",
+      "note": "",
+      "cardSha256": "sha256:711ba0d9f933a61f0937293ede56ac2c3a26844a6e29242a652760808782db5c"
+    },
+    "industrial_colonies:digital_core/energy_detector": {
+      "uid": "1f34cdc4-6753-5e57-ab61-c0e788e96f68",
+      "status": "approved",
+      "reason": "approved",
+      "note": "",
+      "cardSha256": "sha256:ebe053ab1c41d1742aa452249ad00c96f8f823189bfca57640488cad0547589d"
+    },
+    "industrial_colonies:digital_core/import_bus": {
+      "uid": "5f13ce7d-fa97-567b-979a-aeffb54798a3",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "eh its a direct link for the ME system make it more complex",
+      "cardSha256": "sha256:eb07e6938376bea6ccdee90cf43f351ff63e7aca1b2487d0d60c910d428fe34c"
+    },
+    "industrial_colonies:digital_core/interface": {
+      "uid": "521f9421-1b3f-5ebf-9a5c-a8b0b562b881",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "refer to impot bus entry",
+      "cardSha256": "sha256:a302c10b303eedf4fbf33205ae5e05c7c1ddd5863278ee9100c82714335ede4e"
+    },
+    "industrial_colonies:digital_core/inventory_manager": {
+      "uid": "c5385484-703f-502d-841f-52f8f08c0e2a",
+      "status": "approved",
+      "reason": "approved",
+      "note": "",
+      "cardSha256": "sha256:f8d6cbd84c53c1a05376e6c1cac8db7cafa52d7aaac141220e4fa7fbf2e411a9"
+    },
+    "industrial_colonies:digital_core/item_cell_housing": {
+      "uid": "6216c632-e2a2-5696-84fd-e3114bd51fa5",
+      "status": "approved",
+      "reason": "approved",
+      "note": "",
+      "cardSha256": "sha256:d19667bded6925a79c3cdf0a1e199a9a9c765a7d62594dd14026551726ad9d5a"
+    },
+    "industrial_colonies:digital_core/me_bridge": {
+      "uid": "48841b7f-2910-5958-9d14-2893921d2d49",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "make it a little more complex",
+      "cardSha256": "sha256:4a96e288bbd5ab8edfcd16bbec3232d464b820f19f53dbec12d495da694eb128"
+    },
+    "industrial_colonies:digital_core/molecular_assembler": {
+      "uid": "f243d4ff-21aa-527a-83ba-bceb0a512f7c",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "yeah no its gotta be waaay more complex. Its a digital crafter. Maybe either a 5x5 recipe or sequenced assembly",
+      "cardSha256": "sha256:c19807fcb6c19806a5f50ace6ffaf317787989e98074794e4ad74e68159becb1"
+    },
+    "industrial_colonies:digital_core/pattern_provider": {
+      "uid": "bc6ba929-4f8e-51de-9ad6-5bbcd27a70a5",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "correct machine but way to simple",
+      "cardSha256": "sha256:ab392c5829881998b937ef0e58f9a06bdf9c3da541a2bed53ca3633d3e2def10"
+    },
+    "industrial_colonies:digital_core/peripheral_casing": {
+      "uid": "ccc4a27b-dfb4-5e93-81a6-ae5448dbdba3",
+      "status": "approved",
+      "reason": "approved",
+      "note": "",
+      "cardSha256": "sha256:e24a5378021a21b84fe8ddfe97a98e16862fc994899417a4d41ccee7de69e7f1"
+    },
+    "industrial_colonies:digital_core/terminal": {
+      "uid": "9e21f89c-cab6-56b2-ac1a-75dc5453c1b1",
+      "status": "approved",
+      "reason": "approved",
+      "note": "",
+      "cardSha256": "sha256:8dd1824600186212ad4ebe3dd3ff31c4c74e8aa33bcd00cb442dc006f4f6d94c"
+    },
+    "industrial_colonies:early_electricity/electric_motor": {
+      "uid": "3c7b7c98-24b5-55da-b2e3-9cc18844a22b",
+      "status": "approved",
+      "reason": "approved",
+      "note": "",
+      "cardSha256": "sha256:a60ad705830f9f3c1546424d6d2026e064063226b95aac12d1a9e69ed8e1e373"
+    },
+    "industrial_colonies:early_electricity/generator": {
+      "uid": "f6a7487c-3946-5fdc-8a46-582b42ed2878",
+      "status": "approved",
+      "reason": "approved",
+      "note": "",
+      "cardSha256": "sha256:cf051c525e4f9d9b4a0006914fd64e5b6280ba2a576aeb0fb94085458b8fef04"
+    },
+    "industrial_colonies:early_power_cables/cable_connector": {
+      "uid": "7e13e85d-046b-5fe0-860f-6b21fb2112b4",
+      "status": "approved",
+      "reason": "approved",
+      "note": "",
+      "cardSha256": "sha256:faa5b95b29074aad013a8c32587dd2529b0ef8d3c2d4218fee7df84182363737"
+    },
+    "industrial_colonies:early_power_cables/copper_cable_hub": {
+      "uid": "f58981d8-6ad2-58f7-b69b-14b48e4ded3b",
+      "status": "approved",
+      "reason": "approved",
+      "note": "",
+      "cardSha256": "sha256:49198f40c402ee7fe0f05e5b96ce6ab226ab14c42de29d620a6d13e33960c597"
+    },
+    "industrial_colonies:early_power_cables/redstone_relay": {
+      "uid": "0db47439-8368-507c-80c9-c49ddf5172be",
+      "status": "approved",
+      "reason": "approved",
+      "note": "",
+      "cardSha256": "sha256:309dbb619298c7c2c70c2c4ae3594bf10679e072981efaf6ed639d8cfe769aa7"
+    },
+    "industrial_colonies:early_power_cables/small_light_connector": {
+      "uid": "86e4bf8a-5e2f-594f-a71a-c53790eefa91",
+      "status": "approved",
+      "reason": "approved",
+      "note": "",
+      "cardSha256": "sha256:92a579b97d9c37c58a1e30fad87e802f4709b41600526e109289a5f27ebf5dfd"
+    },
+    "industrial_colonies:electroenergetics/pantograph": {
+      "uid": "515b05c9-0029-5fcd-8ce1-3222e8f16daf",
+      "status": "approved",
+      "reason": "approved",
+      "note": "",
+      "cardSha256": "sha256:5b87ae5ea106c90fbac58076e8c4a04f5e2794b3f79b976207a185d47a6bcebb"
+    },
+    "industrial_colonies:electroenergetics/rail_contact_shoe": {
+      "uid": "640d4f95-a409-5eb3-9781-a0ff13dbc0c4",
+      "status": "approved",
+      "reason": "approved",
+      "note": "",
+      "cardSha256": "sha256:95daf117e0be8fd85725267311368a76c00d22b707fee6be54d73dee2138f664"
+    },
+    "industrial_colonies:electronics/advanced_stress_circuit_board": {
+      "uid": "70db7bf7-428a-57b4-b41d-65724aac5cae",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "this is more advanced which I like but maybe a little more? Like redstone or something.",
+      "cardSha256": "sha256:fe938685c4ae22b3b72594569a5dc5c47e7e6889b1840d22947511280352bc44"
+    },
+    "industrial_colonies:electronics/advanced_stress_processor": {
+      "uid": "36ee99fb-ba32-52bf-9e28-e3984ce0ab23",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "same as the oother stress processor",
+      "cardSha256": "sha256:3f77837c46155416a6e9a00f78d930c504eaaacab0bafcca42ef3ac473979c20"
+    },
+    "industrial_colonies:electronics/capacitor": {
+      "uid": "c97772a7-9c68-40dd-b22b-7b55028a8878",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "its a capacitor make it more electronic like",
+      "cardSha256": "sha256:a09fdb6d6231f78e094f9316490bf960dba56750d57cf45228ceeaf8e99a444e"
+    },
+    "industrial_colonies:electronics/circuit_board": {
+      "uid": "d56b2248-eab3-4511-9e27-5637ab974d39",
+      "status": "approved",
+      "reason": "approved",
+      "note": "",
+      "cardSha256": "sha256:8aa88efa5bec30b18163ed3fe0b992ecee3d135d876f1d55ba3c8408f38b227e"
+    },
+    "industrial_colonies:electronics/coated_circuit_board": {
+      "uid": "37b5587b-3f08-48aa-b694-9a2737a48b06",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "feels kind of bland still but very close",
+      "cardSha256": "sha256:3cea74d6c5cfe90808be2bb7c4faa68964df0b94024c19aae595ac7c067465ba"
+    },
+    "industrial_colonies:electronics/n_semiconductor": {
+      "uid": "4e630645-dd56-500d-a7d3-37d180e3abb8",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "Unknown Recipe type",
+      "cardSha256": "sha256:a327512e18c2123c5dc7de3ed80aa4b5cabee07bafe58293457057624e84a513"
+    },
+    "industrial_colonies:electronics/polarizer": {
+      "uid": "aa739159-cb0e-5619-be7b-e6c770c4e53c",
+      "status": "approved",
+      "reason": "approved",
+      "note": "",
+      "cardSha256": "sha256:241ec11cf005b383c9088c7e7f15286a089c85daff4017ab93f742cfc88b3a2d"
+    },
+    "industrial_colonies:electronics/printed_silicon": {
+      "uid": "5f2584b1-19d4-49f9-a3d6-265659ea0c02",
+      "status": "approved",
+      "reason": "approved",
+      "note": "",
+      "cardSha256": "sha256:d9715b677fb5a4d4b88743cb9eab99799fdd6daf052e07494b043169ea07ba16"
+    },
+    "industrial_colonies:electronics/stress_circuit_board": {
+      "uid": "8d572c24-4730-57e5-85d7-9313dcc9afd5",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "circuits should be more complex than this. Need semi conductors or something, Maybe should be a sequenced assembly too? Maybe compacting would be fine.",
+      "cardSha256": "sha256:ad6b58ca95ba6ba93fd89d795438660dbf601cffaa9fdacdcba6aaf440a1ba31"
+    },
+    "industrial_colonies:electronics/stress_processor": {
+      "uid": "7fb56ab9-2388-5f92-aec6-c182c9afc52b",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "Nope. Processors should be sequenced assemblies and should require semi conductors etc. However the transistors and capacitors are good along with the silicon etc.",
+      "cardSha256": "sha256:1848a61f1747acdaaa24eeacb349c6d284bc1ef4a27fcc312d557acb5ee3870f"
+    },
+    "industrial_colonies:electronics/transistor": {
+      "uid": "d4762377-acde-460d-a9d3-882acdf4b8a1",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "Eh I think its alright however it feels a little expensive and maybe uses to many semi conductors instead of something else more relevant",
+      "cardSha256": "sha256:231a9c5e8245d24fbd2193818cd7cf2b7a681f0af1d11d8f78ae360a5053f6ae"
+    },
+    "industrial_colonies:electronics/voltmeter": {
+      "uid": "746178d7-9b47-4a90-9d50-b3f7b98aaec8",
+      "status": "approved",
+      "reason": "approved",
+      "note": "",
+      "cardSha256": "sha256:24cb46bd9d85c65b414bfba2741791cadd82fd3ebd25714f5e53de73df4ae664"
+    },
+    "industrial_colonies:electronics_manufacturing/empty_spool": {
+      "uid": "33f53302-0eb5-5434-adfe-9a584ea49d27",
+      "status": "approved",
+      "reason": "approved",
+      "note": "",
+      "cardSha256": "sha256:e71ded0b48036a9291cbdf3e02907a120ab3848903d584b77dc1658c5645fc43"
+    },
+    "industrial_colonies:engines/diesel_engine": {
+      "uid": "0f4dcd38-6591-592c-9c53-c62ca0ed4788",
+      "status": "approved",
+      "reason": "approved",
+      "note": "",
+      "cardSha256": "sha256:2f20cbad266819dc3db5df9a9606a870df579744d7b9a35c5dc8f1dff5aa8b34"
+    },
+    "industrial_colonies:engines/electronic_engine_controller": {
+      "uid": "b7c013fe-fac6-544d-89c5-27b40f506da9",
+      "status": "approved",
+      "reason": "approved",
+      "note": "",
+      "cardSha256": "sha256:ecefc8acd07edaf753923f79642df6b6d50469d1b94e69d9fa58e3643ffe617a"
+    },
+    "industrial_colonies:engines/engine_turbocharger": {
+      "uid": "b953bce2-ad4f-597f-9456-37ede0d239db",
+      "status": "approved",
+      "reason": "approved",
+      "note": "",
+      "cardSha256": "sha256:75287fde7620df7d9470b4f30456f27f469017e53aa02fd74df90a187b040968"
+    },
+    "industrial_colonies:engines/huge_diesel_engine": {
+      "uid": "9cad2873-b8f0-5adf-a00e-17cfd784a982",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "I like it but shouldnt need turbine engines.",
+      "cardSha256": "sha256:bb88c0d955a604cb596d673d040a61e250656b292aba85815235702ea24e2e78"
+    },
+    "industrial_colonies:engines/large_diesel_engine": {
+      "uid": "ab257526-cc0b-51d0-b4d2-22bfebfe1ff7",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "its a modular diesel engine. Dont make it too expensive but do make it more expensive than the standalone.",
+      "cardSha256": "sha256:566efffddb308dddfaa6eeffc03d93d9b035c32a460789c713fe0d291b7e4fdd"
+    },
+    "industrial_colonies:engines/large_engine": {
+      "uid": "b1f805fa-1cb2-5f86-a0fb-49a29f256808",
+      "status": "approved",
+      "reason": "approved",
+      "note": "",
+      "cardSha256": "sha256:8eb5252677edca64b20fb2218f7aaf683f64d581ccbe8a445061f75692546c32"
+    },
+    "industrial_colonies:engines/radial_engine": {
+      "uid": "580f63f5-7464-582e-8101-a650df683226",
+      "status": "approved",
+      "reason": "approved",
+      "note": "",
+      "cardSha256": "sha256:f74e55ca692831fa1d9dc7c004ec6c522fffc2c57f93b98ca1235465e0bd8106"
+    },
+    "industrial_colonies:engines/regular_engine": {
+      "uid": "315ba5c8-724c-53d8-91a6-2de86bbdc9c3",
+      "status": "approved",
+      "reason": "approved",
+      "note": "",
+      "cardSha256": "sha256:ce206c96634c2c1c72014fb71ce34ca0156b5eca9b066cda802485c54df4a6df"
+    },
+    "industrial_colonies:engines/simple_large_engine": {
+      "uid": "a553fd19-7093-58f5-a933-bd73179c9bc8",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "I like the overall method just dont like the shape. Also feels slightly to expensive.",
+      "cardSha256": "sha256:c64bcdfaf4fe20ace12c346da04e2393893c2e5386c00a1797ca7e2ece6087a7"
+    },
+    "industrial_colonies:engines/turbine_engine": {
+      "uid": "4409e065-f12d-5964-a0cf-c7c6dc19357c",
+      "status": "approved",
+      "reason": "approved",
+      "note": "",
+      "cardSha256": "sha256:b04b670fea6678aae32d4667d375f2085afe46becc4bc230884fd36a152d231a"
+    },
+    "industrial_colonies:extendedae/crystal_assembler": {
+      "uid": "8fcfb341-6804-5157-9a2b-44fb7b980e8d",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "I like it but not the ring",
+      "cardSha256": "sha256:bc3df270abd14121888fa640b51b7afe7d85bd3a6d95b00a117667e72620b356"
+    },
+    "industrial_colonies:extendedae/machine_frame": {
+      "uid": "029c45ea-d32d-593b-8853-a6d4b8514fad",
+      "status": "approved",
+      "reason": "approved",
+      "note": "",
+      "cardSha256": "sha256:833d0160de27f4a43563330eb8bc789848bc7041706501c902859d443f4d0685"
+    },
+    "industrial_colonies:extreme_grid/glass_insulator_segment": {
+      "uid": "0fa2b2d7-e5f4-5661-9b1c-6bcf5cb367f3",
+      "status": "approved",
+      "reason": "approved",
+      "note": "",
+      "cardSha256": "sha256:22d0814435afe38adcc21ad689bb976de11e771272c27ac0c33a3dace666b1e4"
+    },
+    "industrial_colonies:extreme_grid/ground_rod": {
+      "uid": "a61915d2-7755-566f-b2d8-cc4d948a78b2",
+      "status": "approved",
+      "reason": "approved",
+      "note": "",
+      "cardSha256": "sha256:b14901192521ff6524c6746c74b23c1f7e64aa99214710d0d7e6c9abb50ad7f3"
+    },
+    "industrial_colonies:extreme_grid/hanging_glass_insulator": {
+      "uid": "8b1c8618-9bb4-54a9-a6d9-9a2503ba1a46",
+      "status": "approved",
+      "reason": "approved",
+      "note": "",
+      "cardSha256": "sha256:4099108176b5d847548a02cc4bbb2b7fce1b76308b677bf5d30f8c59ab8d8226"
+    },
+    "industrial_colonies:extreme_grid/heavily_insulated_wire": {
+      "uid": "0321e842-f15c-5bae-827c-5d1d840a2a18",
+      "status": "approved",
+      "reason": "approved",
+      "note": "",
+      "cardSha256": "sha256:efff14da4536f9aefbec80a6efeb6babd01f40ecad7874601ef0507eaa39adb2"
+    },
+    "industrial_colonies:extreme_grid/heavily_insulated_wire_spool": {
+      "uid": "82f2d465-64c1-563d-88c6-00ad3eeaf828",
+      "status": "approved",
+      "reason": "approved",
+      "note": "",
+      "cardSha256": "sha256:9486a5bc5e7e282f8c91837366ed369f8befc767a6c48b988135fe1f0afac17e"
+    },
+    "industrial_colonies:extreme_grid/high_voltage_capacitor": {
+      "uid": "8a31c91b-50e1-5b8f-97d9-d7966621bd85",
+      "status": "approved",
+      "reason": "approved",
+      "note": "",
+      "cardSha256": "sha256:00550556898a38cecb24083ef781f5364c6342382b889d6af6e70cd12345c4d8"
+    },
+    "industrial_colonies:extreme_grid/high_voltage_switch": {
+      "uid": "16b50341-143d-50d2-a69c-f4ced617006d",
+      "status": "approved",
+      "reason": "approved",
+      "note": "",
+      "cardSha256": "sha256:6fe2046275949e0aef92c39bbaf4a5a43569b8c0f721c6482242f742e5d8ff36"
+    },
+    "industrial_colonies:extreme_grid/sulfur_hexafluoride_breaker": {
+      "uid": "ce19f7a3-b432-5fb3-8b9b-ff91231ce177",
+      "status": "approved",
+      "reason": "approved",
+      "note": "",
+      "cardSha256": "sha256:c6a9e0ccd2c3837bd09b762caccb16c5bebaa8c6bf83d934cf27823b3fdfe48a"
+    },
+    "industrial_colonies:fluid_infrastructure/aluminum_pipe": {
+      "uid": "dd963ee0-51fa-555e-b8da-ae8f2fd2d3dc",
+      "status": "rejected",
+      "reason": "default_recipe",
+      "note": "This is the default recipe—why is it in here?",
+      "cardSha256": "sha256:b1adced08350fb0663c610ff8bd87370aa1316c42018efb0c6294158f6a6b631"
+    },
+    "industrial_colonies:fluid_infrastructure/cast_iron_chemical_vat": {
+      "uid": "8caa4e10-9ac4-50e6-a7cd-d35b9c98355e",
+      "status": "approved",
+      "reason": "approved",
+      "note": "",
+      "cardSha256": "sha256:6b9ffc29bd27efdee4bec6bb1f5e30b88609aead3b5a384312cf050828cc90c6"
+    },
+    "industrial_colonies:fluid_infrastructure/cast_iron_fluid_tank": {
+      "uid": "b17c7d16-f180-595f-bced-540f5724fc54",
+      "status": "rejected",
+      "reason": "default_recipe",
+      "note": "This is the default recipe—why is it in here?",
+      "cardSha256": "sha256:2d13629058dea13f9b9301b8ac8dd046132ad3c5f5d133ecf07d988fea25aa28"
+    },
+    "industrial_colonies:fluid_infrastructure/cast_iron_mechanical_pump": {
+      "uid": "a1473b6d-77d0-56e8-a5ed-cfcbf18440d1",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "Rejected during manual recipe review.",
+      "cardSha256": "sha256:91589909d36a9f22d3cca6df0032da232532cfcf7232455f1b419b1d1b60520e"
+    },
+    "industrial_colonies:fluid_infrastructure/cast_iron_pipe": {
+      "uid": "fa5db1ba-5070-5e68-a9e7-d8d1ac00c959",
+      "status": "rejected",
+      "reason": "default_recipe",
+      "note": "This is the default recipe—why is it in here?",
+      "cardSha256": "sha256:2886b526bd5ac92e936dfbf1869de8a700ff55d37b101e6cee19f42d6a61970e"
+    },
+    "industrial_colonies:fluid_infrastructure/electric_pump": {
+      "uid": "7346771c-f0a1-55b8-925b-f68b73875c8b",
+      "status": "approved",
+      "reason": "approved",
+      "note": "",
+      "cardSha256": "sha256:2c21f7598ce78a2f56d01a5c608b83cf22aa38c8bb8dda7cefcef0442a00b12e"
+    },
+    "industrial_colonies:fluid_infrastructure/fireproof_chemical_vat": {
+      "uid": "03ffc205-bded-50dc-9aec-8946a3bad252",
+      "status": "approved",
+      "reason": "approved",
+      "note": "",
+      "cardSha256": "sha256:415a22f26bf46b3934d56a7df73f4de6aed23029bc46d82c4ebf052dfb2dc0d9"
+    },
+    "industrial_colonies:fluid_infrastructure/industrial_pipe": {
+      "uid": "95e3a596-ed4c-55ca-9ab3-cda2d9756296",
+      "status": "approved",
+      "reason": "approved",
+      "note": "",
+      "cardSha256": "sha256:f4b60d58a34ee0448a6f818e617497305a3be565fc19fdbb24c99c210e0eb653"
+    },
+    "industrial_colonies:fluid_infrastructure/steel_chemical_vat": {
+      "uid": "f7cb1779-e59d-5319-a78a-826a048bdda3",
+      "status": "approved",
+      "reason": "approved",
+      "note": "",
+      "cardSha256": "sha256:7a6463a66eba793a71af835e0eb20f9d428c85fb6c6aead847c231238077ee64"
+    },
+    "industrial_colonies:fluid_infrastructure/steel_fluid_tank": {
+      "uid": "e8975d7b-7b37-5bec-82b5-2c8cfc104470",
+      "status": "approved",
+      "reason": "approved",
+      "note": "",
+      "cardSha256": "sha256:ca11039eae69c202e371989823f8699c1fcc806340c945b4d7ca11e88de4c9f1"
+    },
+    "industrial_colonies:fluid_infrastructure/steel_mechanical_pump": {
+      "uid": "a793a2e0-decb-5b88-954f-d844d1dea983",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "Rejected during manual recipe review.",
+      "cardSha256": "sha256:7b5a4f535df1893c9db24a0e4a7f0c6d2efb5046fbb76a3618dc6981dfc2dda5"
+    },
+    "industrial_colonies:fluid_infrastructure/steel_pipe": {
+      "uid": "d95bc4e3-a0cb-5300-a61d-1121a828c5a6",
+      "status": "rejected",
+      "reason": "default_recipe",
+      "note": "This is the default recipe—why is it in here?",
+      "cardSha256": "sha256:bb2ad661366d5400fb75170bd4125738071cd93468b362dee202dff3af9d89d6"
+    },
+    "industrial_colonies:foundry_routes/create_metallurgy_casting_basin": {
+      "uid": "0a243eb2-eaa9-5eeb-bef6-e2cd631858c4",
+      "status": "approved",
+      "reason": "approved",
+      "note": "",
+      "cardSha256": "sha256:ece420f9be5c85d90015405404368f2ee4872883c09c8fd1c1e38281b9886e97"
+    },
+    "industrial_colonies:foundry_routes/create_metallurgy_casting_table": {
+      "uid": "bf99bf10-a277-59b1-99f7-ca5351423c47",
+      "status": "approved",
+      "reason": "approved",
+      "note": "",
+      "cardSha256": "sha256:671386429689d2f1cf20a5ac3c9ca0a6ce9df3576c839b3968d8d9b04a404012"
+    },
+    "industrial_colonies:foundry_routes/create_metallurgy_foundry_basin": {
+      "uid": "d7ab765f-eeb3-536c-b097-f3da592853b2",
+      "status": "approved",
+      "reason": "approved",
+      "note": "",
+      "cardSha256": "sha256:481d239df772140efffecfa789dc744eb381d9183bd82ac749cf38548773b720"
+    },
+    "industrial_colonies:foundry_routes/create_metallurgy_foundry_lid": {
+      "uid": "bec2dd87-1dde-51ef-945f-15e993753bd2",
+      "status": "approved",
+      "reason": "approved",
+      "note": "",
+      "cardSha256": "sha256:9664a7781ad83e51431816ffebcb89daaa92c1f162b95214caa395344603c3cb"
+    },
+    "industrial_colonies:foundry_routes/create_metallurgy_foundry_mixer": {
+      "uid": "d588580b-5a1c-5943-bf80-835658a9b842",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "Too cheap — make it more complex.",
+      "cardSha256": "sha256:2d8476ae39862213f835c60b44543ebe60d048b841ed2fff9eeb268192641de5"
+    },
+    "industrial_colonies:foundry_routes/modern_scorched_basin": {
+      "uid": "93851bac-37d4-55d8-b2a1-598a350ae4db",
+      "status": "approved",
+      "reason": "approved",
+      "note": "",
+      "cardSha256": "sha256:5f28e55b1a4d43d9ba95385c242b1e30f57ccbae7d136c7802cec55487e15707"
+    },
+    "industrial_colonies:foundry_routes/modern_scorched_drain": {
+      "uid": "7475b89e-3bf3-5551-9105-2cc8453640b6",
+      "status": "approved",
+      "reason": "approved",
+      "note": "",
+      "cardSha256": "sha256:6df347f3c924bbe44bf5ad09c0688bb7d970bcea4d6135aa5d28f81c0db7ee02"
+    },
+    "industrial_colonies:foundry_routes/modern_scorched_table": {
+      "uid": "3f2a5be7-d45d-5f11-ab98-ea26f7fe8537",
+      "status": "approved",
+      "reason": "approved",
+      "note": "",
+      "cardSha256": "sha256:31c17f20041f7bd7b6ca2eb01b2d833c64dde3d741ab5233f052f57ff819ea64"
+    },
+    "industrial_colonies:grid/accumulator": {
+      "uid": "52a4f47d-e800-5cb0-a177-af824e49f81b",
+      "status": "approved",
+      "reason": "approved",
+      "note": "",
+      "cardSha256": "sha256:793a3c39d709b42f0ee766a400cd937673e3f4459379d136a905dd8ac7c2ceb9"
+    },
+    "industrial_colonies:grid/alternator_brushes": {
+      "uid": "9f50de24-7dd6-53f5-8232-7dc1e2313a4e",
+      "status": "approved",
+      "reason": "approved",
+      "note": "",
+      "cardSha256": "sha256:185e58c217d4671e167ddde06c5687d5125b4a6d8ea219de1e04425de3552527"
+    },
+    "industrial_colonies:grid/alternator_rotor": {
+      "uid": "4664ab9e-73f4-5288-bf62-3e668ee71079",
+      "status": "approved",
+      "reason": "approved",
+      "note": "",
+      "cardSha256": "sha256:060a7e5aa768553c553e830908cd7693c816e3b1d03faad42764f9b890f625dd"
+    },
+    "industrial_colonies:grid/connector": {
+      "uid": "de4cc858-86e9-55a3-a55b-b66294762a3f",
+      "status": "approved",
+      "reason": "approved",
+      "note": "",
+      "cardSha256": "sha256:5d644f9ba0fad563a15cc14ccde6b5b56f4539e9de7aef0428709226d1544271"
+    },
+    "industrial_colonies:grid/copper_wire_spool": {
+      "uid": "b8a87b63-9e41-5348-862a-4b5994c750ad",
+      "status": "approved",
+      "reason": "approved",
+      "note": "",
+      "cardSha256": "sha256:043a04347645f487243dc5ed6415c7eba25d4eeeecd26a1af500aaeaf2281a09"
+    },
+    "industrial_colonies:grid/empty_spool": {
+      "uid": "cfdeeb94-844e-5cb9-a984-2d0a93692013",
+      "status": "rejected",
+      "reason": "default_recipe",
+      "note": "This is the default recipe—why is it in here?",
+      "cardSha256": "sha256:a9d78cec7142c4491f73305ed7af33e255c038295909d636f70c85cbf4ad474f"
+    },
+    "industrial_colonies:grid/resistor": {
+      "uid": "210a033b-d9fd-5916-a655-05c603c47ba0",
+      "status": "approved",
+      "reason": "approved",
+      "note": "",
+      "cardSha256": "sha256:cccbe29b9554f6f00301015f0c8d8025265ca8c3e1c3ef010711f85de99f5f3d"
+    },
+    "industrial_colonies:heavy_industry/foundry_controller": {
+      "uid": "7b9bb84d-ffdf-5fb8-bb5a-2629342b722a",
+      "status": "rejected",
+      "reason": "ring_of_items",
+      "note": "There\u0027s a ring of items. That\u0027s not clever.",
+      "cardSha256": "sha256:c8a1273f51676de80667aa598f0d2a5addc084204756ffdddab1c5bf74f9ee57"
+    },
+    "industrial_colonies:heavy_industry/industrial_mixer": {
+      "uid": "2adabefb-d5a0-5b94-a12c-ea08f0615d58",
+      "status": "approved",
+      "reason": "approved",
+      "note": "",
+      "cardSha256": "sha256:3b87126f1028474d1031ef0c0809208b30af619242729a5431cd6b0f75d71bb9"
+    },
+    "industrial_colonies:heavy_industry/scorched_alloyer": {
+      "uid": "4be95123-fec2-5a40-a0c5-28dd0304bb44",
+      "status": "rejected",
+      "reason": "ring_of_items",
+      "note": "There\u0027s a ring of items. That\u0027s not clever.",
+      "cardSha256": "sha256:7e3d5206ec5289ba55b7be2245175c2efe3121b9fafa9b0caf37ee67a0e6f068"
+    },
+    "industrial_colonies:heavy_industry/smeltery_controller": {
+      "uid": "2a1abbf4-f462-5599-a88f-cabe561a633d",
+      "status": "rejected",
+      "reason": "ring_of_items",
+      "note": "There\u0027s a ring of items. That\u0027s not clever.",
+      "cardSha256": "sha256:2e431b2adb4df1d87662796589adc537a76578697c646476f19e7dd8373071b8"
+    },
+    "industrial_colonies:heavy_industry/winding_machine": {
+      "uid": "0bb04746-3821-5e9d-a52e-8c93f70dbb37",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "good but maybe a little to complex for a winding machine? idk what it does though.",
+      "cardSha256": "sha256:f5af22c87044a9bc4eb70a42ce5fb1c354723851b25edc415fb79637e6a4dbf9"
+    },
+    "industrial_colonies:high_voltage/current_transformer": {
+      "uid": "97011672-d0e9-5823-9f5c-83a2179e4f6c",
+      "status": "approved",
+      "reason": "approved",
+      "note": "",
+      "cardSha256": "sha256:35194ead2605107495ce6b777e334bdfc86429bb02f8b6a09afabf682817556e"
+    },
+    "industrial_colonies:high_voltage/insulated_wire": {
+      "uid": "60d6d5ad-4fe9-5a00-96c8-fb5177f6a161",
+      "status": "approved",
+      "reason": "approved",
+      "note": "",
+      "cardSha256": "sha256:40f60c962a00e49eb011cc7d25d2a0fd73ca1aebd1ab09cae5a56689bceecf6f"
+    },
+    "industrial_colonies:high_voltage/miniature_circuit_breaker": {
+      "uid": "95df36b3-63f1-522e-8a9d-201fb0b73f91",
+      "status": "approved",
+      "reason": "approved",
+      "note": "",
+      "cardSha256": "sha256:b5a3c6d64237327aa6f63e70eb2297c99c99ca7723801d28995beed6870da028"
+    },
+    "industrial_colonies:high_voltage/transformer": {
+      "uid": "082464e0-09fd-514d-b05d-899e69496fec",
+      "status": "approved",
+      "reason": "approved",
+      "note": "",
+      "cardSha256": "sha256:d62f8a63b7842e9e848ace021eb92cd15a465774a3159a4a4cfcb8321e511d96"
+    },
+    "industrial_colonies:high_voltage/transformer_core": {
+      "uid": "c4fd1739-f2a3-5cf5-9023-114b74de6b9c",
+      "status": "approved",
+      "reason": "approved",
+      "note": "",
+      "cardSha256": "sha256:960ec25b4907315a81a4fd210ba750c6dd9ff68ffa838158543d528f0693f9dd"
+    },
+    "industrial_colonies:high_voltage/transformer_core_lamination": {
+      "uid": "8f13732a-96ad-5dea-83ca-7c12f1a39458",
+      "status": "approved",
+      "reason": "approved",
+      "note": "",
+      "cardSha256": "sha256:58a57bd8f3bec01aaf7e8fb555712c70da4188286d6b4b9cb523967003089ce4"
+    },
+    "industrial_colonies:high_voltage/voltage_regulator": {
+      "uid": "a4db1187-0355-58c8-87e1-013721e82b3c",
+      "status": "approved",
+      "reason": "approved",
+      "note": "",
+      "cardSha256": "sha256:f0a2dddc8847153bf71d8cb2f56ca161571b4ea8ba2557afa05bdce9edc63f5a"
+    },
+    "industrial_colonies:machine/oil_processing/large_pumpjack_hammer_connector": {
+      "uid": "ddd8e9d5-1678-53c0-80f7-375059db6abf",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "should require rusted iron machines. Mechanical Crafting should do.",
+      "cardSha256": "sha256:12f12a6b55be9bb2a33a2c726c55eaec39353e094216b3874ee8390cb5d29821"
+    },
+    "industrial_colonies:machine/oil_processing/large_pumpjack_hammer_head": {
+      "uid": "52353740-7e52-5daa-b475-29c51201453e",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "should require rusted iron machines. Mechanical Crafting should do.",
+      "cardSha256": "sha256:1265d372008806aaae1dde3149bae452aa71fe568358e9b84d9199d5d7d5e37d"
+    },
+    "industrial_colonies:machine/oil_processing/large_pumpjack_hammer_part": {
+      "uid": "4b7f098f-6a5b-57bd-b62f-a5ee702d4211",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "should create a better shape of some kind but on the right track also remember these items should require rusted iron to make. Maybe a mechanical press. same for all jack items as we go on.",
+      "cardSha256": "sha256:e78469e7d9a6548aab83c527441d6699d686f392998e37f676ba2858eaf383c3"
+    },
+    "industrial_colonies:machine/oil_processing/oil_can": {
+      "uid": "31c6a0fd-fcc7-5a3a-8b9e-e9dce7a579a0",
+      "status": "approved",
+      "reason": "approved",
+      "note": "",
+      "cardSha256": "sha256:c1c74584d8ddaa1b75dc1b0a8c72165e30fe4a46aa27992f087cebd52d941a32"
+    },
+    "industrial_colonies:machine/oil_processing/oil_hammer": {
+      "uid": "e420cac7-76d4-5d8a-9fbd-392d2e834c04",
+      "status": "approved",
+      "reason": "approved",
+      "note": "",
+      "cardSha256": "sha256:4a4c99de22cfcfd588fc48f36d193cd7b381b3b26f4cf71ef350db40624cf94f"
+    },
+    "industrial_colonies:machine/oil_processing/pumpjack_base": {
+      "uid": "fd806454-a631-5a1e-9b1a-7927c66c04c2",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "just compact it and make it a 4x5 recipe",
+      "cardSha256": "sha256:2bd625d0c5a00e145af4e83eb8643c21577f093b268dfc50b1691c7c8923cadb"
+    },
+    "industrial_colonies:machine/oil_processing/pumpjack_crank": {
+      "uid": "30962ebe-ba03-56b4-ab42-f2cd64f282bd",
+      "status": "approved",
+      "reason": "approved",
+      "note": "",
+      "cardSha256": "sha256:2a1cb25d843e27ebe491dc6f3811a12ae663416fc3361d41625dd4e439ffd2e2"
+    },
+    "industrial_colonies:machine/oil_processing/pumpjack_hammer": {
+      "uid": "448ec51d-9fec-5c44-8b7e-1d38d853a5f5",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "very close but its missing a few items",
+      "cardSha256": "sha256:4729f9dd26c19118c99b64008d0ce98a180073b377b6d3d89d4af49d944b824e"
+    },
+    "industrial_colonies:machine/oil_processing/pumpjack_hammer_connector": {
+      "uid": "b75ada09-1e37-53f5-b1c5-0992ca815595",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "should require rusted iron machines mechanical compacting should do.",
+      "cardSha256": "sha256:9cbbf72aacec5fa71964622576ebe4f87dd4bf973a4328f5f8348b738749442d"
+    },
+    "industrial_colonies:machine/oil_processing/pumpjack_hammer_head": {
+      "uid": "d94a0ef0-77a5-54f1-92ad-c07449f7aada",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "should require rusted iron machines. Mechanical Crafting should do.",
+      "cardSha256": "sha256:407158f03ef16f94dec3674c27c29fbf4eeaa94218aff8b0f084897ca807f170"
+    },
+    "industrial_colonies:machine/oil_processing/pumpjack_hammer_part": {
+      "uid": "82c06802-ac55-58c0-a9b6-faf541940950",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "this is fine but should maybe have more items to create a shape of some kind",
+      "cardSha256": "sha256:121d42ce603f01a1cdfc302178356e0f5d1bc2b9850edb844534af0c54895431"
+    },
+    "industrial_colonies:machine/oil_processing/surface_scanner": {
+      "uid": "941a099d-e4ee-597c-b6c9-d80b4a780577",
+      "status": "approved",
+      "reason": "approved",
+      "note": "",
+      "cardSha256": "sha256:d3a4f7b42714bd4260aba45510a6f82c2be7d702d208a858d5bc9e2e9d2df76f"
+    },
+    "industrial_colonies:manufacturing/brass/automatic_clutch": {
+      "uid": "fe9375d6-d4b9-577f-b419-67cd2a0853f9",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "doesnt make items",
+      "cardSha256": "sha256:8aa82965842085f02aeac8754c4864943a79b796b05d9665b1b6b7b31aefe4b1"
+    },
+    "industrial_colonies:manufacturing/brass/chain_conveyor": {
+      "uid": "e999edaa-cb06-539b-b2cf-bc1d9a3595cb",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "doesnt make items",
+      "cardSha256": "sha256:fc5fe1780b6cc37938f11915c6205d3d6a8e5e103804b9c7e90c8170b5ce95c1"
+    },
+    "industrial_colonies:manufacturing/brass/clutch": {
+      "uid": "b3c10055-ec0d-5036-902b-9454ee05c5b3",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "doesnt make items",
+      "cardSha256": "sha256:df1b90321a00f0fb8b7137f91b2f5495b6ce68d481900c74abfa0ae017f1cdb2"
+    },
+    "industrial_colonies:manufacturing/brass/configurable_gearbox": {
+      "uid": "15819821-222b-5844-af3f-a456b9e62dca",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "doesnt make items",
+      "cardSha256": "sha256:243f4ab3dc658a0a4a4762997a2297a5a88ca3b5f1a54d8a730da6e2f2c16fce"
+    },
+    "industrial_colonies:manufacturing/brass/depot": {
+      "uid": "56af7a5a-48af-5a8e-b817-6edd85e4cb15",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "were now getting more advanced in electronics recipes like this should show that. However, good concept so far.",
+      "cardSha256": "sha256:1e04151f33ea360e71633bb60ef6baa5faafffc91c619293d521ccb0d5051600"
+    },
+    "industrial_colonies:manufacturing/brass/fan": {
+      "uid": "06feee9d-d283-5c9d-9fd5-165a3e7350a1",
+      "status": "approved",
+      "reason": "approved",
+      "note": "",
+      "cardSha256": "sha256:e4a1c20b30e1f71c51f9ad45eb1eeb8d8d4f0f207fd4cad64c47dce571262ff9"
+    },
+    "industrial_colonies:manufacturing/brass/gearbox": {
+      "uid": "3eb8520e-b9b2-5b8e-9441-cb728bb05ee0",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "doesnt make items",
+      "cardSha256": "sha256:98d0721743534f1a321dd3d6f13199ea29c4e72e2ad08ccaae0f3f775fb0cc74"
+    },
+    "industrial_colonies:manufacturing/brass/mixer": {
+      "uid": "def0a3e2-d5eb-5473-a745-34a5aa160f06",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "a little lacking again in the electronics recipe area.",
+      "cardSha256": "sha256:49227f3644b65cff88b5f037b9a1a6264eb525a33fc6cc39abbad7ae01d948fe"
+    },
+    "industrial_colonies:manufacturing/brass/roller": {
+      "uid": "db226183-98c0-5dbf-96c7-1c4d865045c5",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "doesnt make items",
+      "cardSha256": "sha256:3d1c62894b518fcbbd78b80ee2d1766e26f3283fd062dd012676bc628bc46ef4"
+    },
+    "industrial_colonies:manufacturing/brass/saw": {
+      "uid": "6f017a25-ea45-54f1-8a6c-86dc6af9676d",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "lacking in the advanced electronics area",
+      "cardSha256": "sha256:79ce1e1ad2fd0cc23d97cec1d743057418e41229b6968897cfff62ba861701d2"
+    },
+    "industrial_colonies:manufacturing/brass_deployer": {
+      "uid": "947d25ed-df35-4395-93d6-58ca8e72b9fe",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "too cheap",
+      "cardSha256": "sha256:ea3a891914a55d9180154f5acbf7ef21e30dd0a4010a5640d57defb34b5ec1d8"
+    },
+    "industrial_colonies:manufacturing/brass_press": {
+      "uid": "f25791bc-f894-4ec0-b527-b258fab7ce19",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "too cheap",
+      "cardSha256": "sha256:f7c78fd1bd089f33a7e97a6331a2619becbc547c60e5c9236b4c9a8496d4dc3e"
+    },
+    "industrial_colonies:manufacturing/copper/automatic_clutch": {
+      "uid": "c04875fd-a29c-5800-a762-5058386afacd",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "Not needed its a clutch it doesnt make anything",
+      "cardSha256": "sha256:2d735eb4c7ed918f2161eeb37a18833e9e7a6cdaf3fed66b14563d93b2ec8d1b"
+    },
+    "industrial_colonies:manufacturing/copper/chain_conveyor": {
+      "uid": "478fc5da-4332-57ba-84ac-01f8e498af1f",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "doesnt make any items",
+      "cardSha256": "sha256:6bf9766a5cbf74d423fdec87d49ae6315a8289fb7d9716777ba8b9c73f746abd"
+    },
+    "industrial_colonies:manufacturing/copper/clutch": {
+      "uid": "ab4a67ce-5626-5309-bf0c-84b81596ff12",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "doesnt make items",
+      "cardSha256": "sha256:f2e07192f7e0f38cafb8ed3712f3a31ae2fa0675848e99607dff6959fdd040cd"
+    },
+    "industrial_colonies:manufacturing/copper/configurable_gearbox": {
+      "uid": "63f86297-2d31-5650-8fb8-4820b68b962a",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "doesnt make items",
+      "cardSha256": "sha256:f18e085df01c7db3911982c286f52293c73b422d3be523e505eced085526fba2"
+    },
+    "industrial_colonies:manufacturing/copper/depot": {
+      "uid": "91a908f4-4e2f-5bc6-8f86-93eab652beaf",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "eh kind of lacking also Not sure how this affects recipes. Maybe the depot type should matter? Keep note of it.",
+      "cardSha256": "sha256:268b07e63a636ff6468712d553540489f6d5d3b8777f45715099def0771e7839"
+    },
+    "industrial_colonies:manufacturing/copper/fan": {
+      "uid": "52fbd59d-2e56-5f0e-a0a3-349d756b3532",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "kind of lacking over all. However its just a fan so maybe it doesnt need to be. It would only really be used to smelt or grind sand or something.",
+      "cardSha256": "sha256:172cecdfedb6af7e1616b87b5612376a14e2d2b1bd428a98af3d758acca2080d"
+    },
+    "industrial_colonies:manufacturing/copper/gearbox": {
+      "uid": "3778dda6-8c20-5a44-b16a-e0f2207032a9",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "doesnt make anything",
+      "cardSha256": "sha256:053eeae7a481d57b42ec322ce25eb51773ce630d58dc8f8a8298a8347ee28268"
+    },
+    "industrial_colonies:manufacturing/copper/mixer": {
+      "uid": "3ce4b68c-2f3d-53ae-8499-5ed2d19985d4",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "eh kind of lacking it doesnt feel like the machine youre making makes electronics. Although dont break progression.",
+      "cardSha256": "sha256:034e7952af2e3cd8ded1c23298c9cb194470cd7d45cb3ee0259489a7c6300d55"
+    },
+    "industrial_colonies:manufacturing/copper/roller": {
+      "uid": "b8e6d57a-f502-5cd3-92da-8d43bb2f912f",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "Not sure what this will be used for in crafting.",
+      "cardSha256": "sha256:1382efbb6928c1bb2aa047f8a9279c2889c38045ada4db3ba4bd3dc7f6868997"
+    },
+    "industrial_colonies:manufacturing/copper/saw": {
+      "uid": "67800289-3b37-55c8-92f6-6d6abb5534d6",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "kind of lacking. Could be used in cutting chips or circuit boards??",
+      "cardSha256": "sha256:e5957fadd8b1571f8204672408126c121215acc538c9f12ea1a859626332c75a"
+    },
+    "industrial_colonies:manufacturing/copper_deployer": {
+      "uid": "5f2584b1-19d4-49f9-a3d6-265659ea0c03",
+      "status": "approved",
+      "reason": "approved",
+      "note": "",
+      "cardSha256": "sha256:6934aac46f3668c73527c51353e13c8bb25ff092e2861c283c0e6b99b8112d22"
+    },
+    "industrial_colonies:manufacturing/copper_press": {
+      "uid": "5f2584b1-19d4-49f9-a3d6-265659ea0c04",
+      "status": "approved",
+      "reason": "approved",
+      "note": "",
+      "cardSha256": "sha256:81f4a3fe3eb1053f065bb31cbbcb768535bd80de729c493dee7afea8891321ff"
+    },
+    "industrial_colonies:manufacturing/industrial_iron/automatic_clutch": {
+      "uid": "6dc46eb2-72a3-5d63-a54c-1654c25b3856",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "doesnt make any items",
+      "cardSha256": "sha256:bcc5e20b363e4f0786fabff97636b38e42278ba142bea5d3e6c26de5252fe86a"
+    },
+    "industrial_colonies:manufacturing/industrial_iron/chain_conveyor": {
+      "uid": "6071c375-6250-5da1-978a-e50c6a5d8513",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "doesnt make any items",
+      "cardSha256": "sha256:0fae7163c6c34814912cc848bb3345d593070d3d4e5b1bb27f111028cdf881e1"
+    },
+    "industrial_colonies:manufacturing/industrial_iron/clutch": {
+      "uid": "00fff52c-64a6-5190-88a2-d9bc0908d271",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "doesnt make any items",
+      "cardSha256": "sha256:bac1cddea5398ea75cf4065fa0469674fe244629158dad36dfa1d7c2d81fbdf0"
+    },
+    "industrial_colonies:manufacturing/industrial_iron/configurable_gearbox": {
+      "uid": "5593be58-2e7b-5923-919b-e018c15bccf1",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "doesnt make any items",
+      "cardSha256": "sha256:7fe14e27d5b1283b4d9bb426f30f5c8baefe5075f327acefa09530bf3736e849"
+    },
+    "industrial_colonies:manufacturing/industrial_iron/deployer": {
+      "uid": "9b944196-fede-50f4-860b-22d9c797371c",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "good start however its the next industial stage make it more complex. Especially since its a deployer. Infact I didnt say it for other deployers but deployers are used alot and should be quite expensive compared to other machines.",
+      "cardSha256": "sha256:5ac83f769e54c4677effcdb1133c137c135f02007fe21c0f6d9bf783e3aec72d"
+    },
+    "industrial_colonies:manufacturing/industrial_iron/depot": {
+      "uid": "5dc5a9dc-bbb5-5bf1-a2d8-cf3a21a3a48f",
+      "status": "approved",
+      "reason": "approved",
+      "note": "",
+      "cardSha256": "sha256:a53063aed3cbbe49e762a969171172cd04a70f1797ce2d677fa36221a9dcf1d5"
+    },
+    "industrial_colonies:manufacturing/industrial_iron/fan": {
+      "uid": "8730ef53-3394-5c64-8c57-a7daf3e3990a",
+      "status": "approved",
+      "reason": "approved",
+      "note": "",
+      "cardSha256": "sha256:67f251e770838565ee9adf4a8a3efd66e10ddb1fc850b2efb1fb49fa4df29e38"
+    },
+    "industrial_colonies:manufacturing/industrial_iron/gearbox": {
+      "uid": "f30b2fdf-8f9f-5e25-acd9-d70fb620ab0b",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "doesnt make any items",
+      "cardSha256": "sha256:fb870fb307de84d118924487126013c3340e35d3a90a8564660629e17349b3bf"
+    },
+    "industrial_colonies:manufacturing/industrial_iron/mixer": {
+      "uid": "d5c69878-7c72-5694-8978-fbdc3cba5dc2",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "its the next industrial tier maybe make it a bit more complex also this should use the rusted steel instead of the train cased version.",
+      "cardSha256": "sha256:d7f0414abdaad562e965ae68eac24485486859c2716d4830a7d1f89a7363c0d4"
+    },
+    "industrial_colonies:manufacturing/industrial_iron/press": {
+      "uid": "5d540ac1-6229-50c3-a5f8-0ba66f357be7",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "same thing as the mixer",
+      "cardSha256": "sha256:53be1652bf24c23596542381e1bf54435f87959b3c2bb36bd42bde597685ad0f"
+    },
+    "industrial_colonies:manufacturing/industrial_iron/roller": {
+      "uid": "a27afc5f-89f6-59c5-b35d-4848f5b77021",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "doesnt make any items",
+      "cardSha256": "sha256:3738da65133e1e9aa53883d04554118545c1eb716add209869661c53724eecfd"
+    },
+    "industrial_colonies:manufacturing/industrial_iron/saw": {
+      "uid": "ff1be550-bd89-51ef-9a80-2e78193ee7a2",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "same thing as the mixer",
+      "cardSha256": "sha256:d00d5729e7d6d1fc34e9e92ac53fe6a2e0b7612291955cf6c52fcd500da732f1"
+    },
+    "industrial_colonies:manufacturing/railway/automatic_clutch": {
+      "uid": "1b502104-3f66-5850-9653-a8c5edaa5e19",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "doesnt make items",
+      "cardSha256": "sha256:b6a1e59c2e21a847d9b36a397a98d8c8e167ad9a06d3df352c11f5a626b1f044"
+    },
+    "industrial_colonies:manufacturing/railway/chain_conveyor": {
+      "uid": "18b36445-b8f5-5764-a4b8-cd22033de567",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "doesnt make items",
+      "cardSha256": "sha256:2466f7276e95dc6e18129ecbe16780b1e3c3f71ed105809833c11532b80ebdaa"
+    },
+    "industrial_colonies:manufacturing/railway/clutch": {
+      "uid": "0eaefd53-8789-5643-bff2-43212ffd222b",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "doesnt make items",
+      "cardSha256": "sha256:846f0282e6d1fae542bbd611d06218d14b179f22bdacc3580efb457fef6d3342"
+    },
+    "industrial_colonies:manufacturing/railway/configurable_gearbox": {
+      "uid": "8cde6f7a-9b15-56e1-851a-3dda1c8e5793",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "doesnt make items",
+      "cardSha256": "sha256:02e256868dcfb7d46c22aaa079ff5e55ddfd29831f28b0471ca01546404e802c"
+    },
+    "industrial_colonies:manufacturing/railway/deployer": {
+      "uid": "9a9973f3-f003-5d02-9365-e954796b8ef3",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "I like the recipe but its still a little lacking",
+      "cardSha256": "sha256:be90c6985e9939148cbce01d60ab28d2927c8007c9980f6e1720ae1ef9377289"
+    },
+    "industrial_colonies:manufacturing/railway/depot": {
+      "uid": "10ae2aae-31ea-536e-b996-a87aa55ae4f3",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "good but still lacking",
+      "cardSha256": "sha256:0b7eab25f4193c05d330a25b0c53aead4d6b602ff805699186c5b559481d6082"
+    },
+    "industrial_colonies:manufacturing/railway/fan": {
+      "uid": "2565edc8-d0fd-55d4-89a8-d4d144f35da1",
+      "status": "approved",
+      "reason": "approved",
+      "note": "",
+      "cardSha256": "sha256:7c39852212e44ebafb2e12fceac3bfdf25e7fca7a6ffaa6212ceee4527e7ec9b"
+    },
+    "industrial_colonies:manufacturing/railway/gearbox": {
+      "uid": "21e53185-a452-586a-90d7-83a48f0b9799",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "doesnt make items",
+      "cardSha256": "sha256:78c7b8ce7ff1267efd8351d8775300c64284c7d4ef10dd31d950a0d44557b472"
+    },
+    "industrial_colonies:manufacturing/railway/mixer": {
+      "uid": "a93a89f5-d151-5177-9f55-3ecc7f120a74",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "lacking in electronics",
+      "cardSha256": "sha256:04d24d39799415904eca08a4a0fe93c2ed30c6e4ba839c67e9125b659e1cbbe8"
+    },
+    "industrial_colonies:manufacturing/railway/press": {
+      "uid": "8349d7ca-3040-50aa-8bcb-3f924e0a1872",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "lacking in electronics",
+      "cardSha256": "sha256:b2ec3ff5f0e2a0224cca2986a10963662b941ef68174a0e4e052ae4585d4f7c8"
+    },
+    "industrial_colonies:manufacturing/railway/roller": {
+      "uid": "58172f90-3823-518d-a1ce-af4dc9d07395",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "doesnt make items",
+      "cardSha256": "sha256:5ea88c2421d60aeac75702c4f4ce23a0ae1737b3ce827d1b8f80181f30189f75"
+    },
+    "industrial_colonies:manufacturing/refined_radiance/automatic_clutch": {
+      "uid": "0deeee5f-8b1b-5a05-a20f-2ad988203e39",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "doesnt make any items",
+      "cardSha256": "sha256:337ed26ac76726972f3f10020d6f3864451f585cde2e5d95c363dce0a6a8d06c"
+    },
+    "industrial_colonies:manufacturing/refined_radiance/chain_conveyor": {
+      "uid": "be573081-d205-5c03-9fd7-202a033f4e75",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "doesnt make any items",
+      "cardSha256": "sha256:6f489a5955d475cfe8fca3fe1c2e94f1129cbc3af52d6efacb778891a3892b06"
+    },
+    "industrial_colonies:manufacturing/refined_radiance/clutch": {
+      "uid": "914231cc-6773-5829-9c2c-b345db0cbb5a",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "doesnt make any items",
+      "cardSha256": "sha256:fe16d2cac9fbdac8f0a7fd0a1432a9e0728a1625b1244c0dd0e6ba526c4d2600"
+    },
+    "industrial_colonies:manufacturing/refined_radiance/configurable_gearbox": {
+      "uid": "32da616a-2a39-5ddf-b1e1-98185cf881f0",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "doesnt make any items",
+      "cardSha256": "sha256:8479d02f3dff61ecc2b102086beda4283a3ad7b1673316717072ce2c5f596247"
+    },
+    "industrial_colonies:manufacturing/refined_radiance/deployer": {
+      "uid": "edb526e4-cea6-5ec7-904a-e0d70c6e8e10",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "this is the end game it should be waaay more complex than this. Also remember industrial iron should come before this.",
+      "cardSha256": "sha256:cce0b607852240f0f93d905f4507f73e4addfe06b974ea17638b17c3c6a95e14"
+    },
+    "industrial_colonies:manufacturing/refined_radiance/depot": {
+      "uid": "315c058b-ee59-55d2-acd5-72fda6aef824",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "this is the end game it should be waaay more complex than this. Also remember industrial iron should come before this.",
+      "cardSha256": "sha256:f8580764ab3ef9b8c22c2e6b40d0f6647c4a89ae0d644f5818f54451ef699123"
+    },
+    "industrial_colonies:manufacturing/refined_radiance/fan": {
+      "uid": "bff4599b-9b62-560e-b5c2-3c2de07e5188",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "this is the end game it should be waaay more complex than this. Also remember industrial iron should come before this.",
+      "cardSha256": "sha256:b09357132e4255d0d3815c29328e0922f09868c4b3b87a665245c8a6146adc87"
+    },
+    "industrial_colonies:manufacturing/refined_radiance/gearbox": {
+      "uid": "8abd871b-8f64-5c32-b120-9581d5977498",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "doesnt make any items",
+      "cardSha256": "sha256:3c1cc0c1b4f38f6d17ce33dff01c8b1713a6d9ba727c3ec42fa6aa9e07e186b2"
+    },
+    "industrial_colonies:manufacturing/refined_radiance/mixer": {
+      "uid": "5176049a-248e-57a0-a463-7c9fcf0428f2",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "this is the end game it should be waaay more complex than this. Also remember industrial iron should come before this.",
+      "cardSha256": "sha256:ac41c09d95f147685edb7f97e38262a89085bc1b45c648ca87f5dc16cc7503a3"
+    },
+    "industrial_colonies:manufacturing/refined_radiance/press": {
+      "uid": "d3d5ac38-6b21-5255-b19a-99e837c73bf7",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "this is the end game it should be waaay more complex than this. Also remember industrial iron should come before this.",
+      "cardSha256": "sha256:9cdc8014f991bd91cfdf2def646b22ce6ac3d8d16b7f335e26eb9d41629f0a79"
+    },
+    "industrial_colonies:manufacturing/refined_radiance/roller": {
+      "uid": "0c14daa3-8252-5cbe-b3b1-c54b35912a3e",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "doesnt make any items",
+      "cardSha256": "sha256:bdaf755f7ea4f0e8468ec713fe70363377c7b269ba57d469f27e5a575f51c45c"
+    },
+    "industrial_colonies:manufacturing/refined_radiance/saw": {
+      "uid": "6c2ea281-9a37-549f-a1fa-27ff079e39ea",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "this is the end game it should be waaay more complex than this. Also remember industrial iron should come before this.",
+      "cardSha256": "sha256:b38e599334edad3153b9e0108e95646a4559583348a54d656e175633961b6f2e"
+    },
+    "industrial_colonies:manufacturing/weathered_iron/automatic_clutch": {
+      "uid": "23f91498-7bc1-5d07-a231-f93ec3437703",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "doesnt make any items",
+      "cardSha256": "sha256:dd0b4fd9be0476726a001e1894aed73ce13aaa722daf53487f746397772f3e3b"
+    },
+    "industrial_colonies:manufacturing/weathered_iron/chain_conveyor": {
+      "uid": "4466f4e9-0c2f-524e-bb7f-ca7b73c47d43",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "doesnt make any items",
+      "cardSha256": "sha256:849b6c797b9ac528b20c3461d7d16040d1e504128d29dce4123c963e02667893"
+    },
+    "industrial_colonies:manufacturing/weathered_iron/clutch": {
+      "uid": "2cf5a1a2-cc44-5211-9cf5-d8db0aa9f09e",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "doesnt make any items",
+      "cardSha256": "sha256:f70668565b4df3bc965709bfd861002d0389474bf81b769a2081d0826f61eb14"
+    },
+    "industrial_colonies:manufacturing/weathered_iron/configurable_gearbox": {
+      "uid": "54caf20d-0e20-56be-8a86-c1b4e8231aab",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "doesnt make any items",
+      "cardSha256": "sha256:2e05f7af516a21dcdbc6a0adcbe69db3cafc2c387703bd630e2b42674d975507"
+    },
+    "industrial_colonies:manufacturing/weathered_iron/deployer": {
+      "uid": "4db13837-154b-59f5-b9d4-b82c46b8832b",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "make it more industrial. Also this should use andesite and default create items for this tier. Since its the next industrial tier after vanilla create.",
+      "cardSha256": "sha256:1c1774c2f77855810f79180d36cf53eb1d73a510e1e6e25d9797c5cc1a3bf67e"
+    },
+    "industrial_colonies:manufacturing/weathered_iron/depot": {
+      "uid": "fad02b01-3b06-52c8-948d-c61d4426fe60",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "same as deployer make more industrial",
+      "cardSha256": "sha256:8866edcecf7a6c4e34b0f6fc1d87f02f2c467fedb6f5505f26233a46db8a2049"
+    },
+    "industrial_colonies:manufacturing/weathered_iron/fan": {
+      "uid": "319fe265-1c12-5f02-bae1-fadaf718b768",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "same as depot make more industrial",
+      "cardSha256": "sha256:e3bcb15cb43f4c62596b59dc56cc96d23ef457a7f200c5ab84066d22dd285217"
+    },
+    "industrial_colonies:manufacturing/weathered_iron/gearbox": {
+      "uid": "fed61015-960a-5a78-ada1-53c629f2a640",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "doesnt make any items",
+      "cardSha256": "sha256:32565e7ca79e206dfa7ffa6184593941038431e0af634df91e976f400feaca81"
+    },
+    "industrial_colonies:manufacturing/weathered_iron/mixer": {
+      "uid": "40b15e60-a53a-531d-af30-15f752e72725",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "make more industrial also industrial iron comes after this family not before it",
+      "cardSha256": "sha256:ed4a3126f744d1c309b8319e4833976f20683c7c94bab9dc3ede5343ce1e6d35"
+    },
+    "industrial_colonies:manufacturing/weathered_iron/press": {
+      "uid": "edd68a0b-d366-506c-bc51-1d4fac8e34fe",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "same as mixer",
+      "cardSha256": "sha256:d8313c8d3ddb79dd58d53f581f823528d1fedb98549eeb0465a4dba521501cee"
+    },
+    "industrial_colonies:manufacturing/weathered_iron/roller": {
+      "uid": "1a41a930-be5b-5890-bdfd-e76ee9fe3258",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "doesnt make any items",
+      "cardSha256": "sha256:ebaeef49a31997027ef0bfb28175d5d40bc85b8ae6884913dac92f04f5fc211e"
+    },
+    "industrial_colonies:manufacturing/weathered_iron/saw": {
+      "uid": "b3720a97-bf60-5f6b-bdc5-cb1b5179f2a6",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "same as mixer",
+      "cardSha256": "sha256:01ba532427dfd716a7b73b8b575668a368dbdd6415830c9cca6180088f358a0c"
+    },
+    "industrial_colonies:mechanical/mechanical_press": {
+      "uid": "c428b3c8-6ecb-5c73-bd61-1e4e032b3324",
+      "status": "rejected",
+      "reason": "default_recipe",
+      "note": "This is the default recipe—why is it in here?",
+      "cardSha256": "sha256:c6eb352b4ba846daa84a2f6892be83ee9ceaba99480656b9cf48a94e9a0ffb7f"
+    },
+    "industrial_colonies:mechanical/mechanical_pump": {
+      "uid": "39323c2e-94a4-56bf-9c1d-d806e33004b2",
+      "status": "rejected",
+      "reason": "default_recipe",
+      "note": "This is the default recipe—why is it in here?",
+      "cardSha256": "sha256:642d42a956cadf0e4505c142e34626b3118cee62c5efbccd97a30acd5d8dba63"
+    },
+    "industrial_colonies:megacells/cell_component_1m": {
+      "uid": "450ca2dd-daed-5e2e-8f0c-f451ff3bbb66",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "same as my other storage component entries",
+      "cardSha256": "sha256:ed23204de07038166d65c1f710eafdc65c7ed6532170a3a7a7b13b3a772b5121"
+    },
+    "industrial_colonies:mekanism/advanced_control_circuit": {
+      "uid": "e6127ec8-3872-5ab1-bee6-e1ee92f371e2",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "clever but should use copper machines",
+      "cardSha256": "sha256:8cf45d68e9b5ec48ec59a9bcd6f409df4d63e9cd0adc46722bc73927d29dada1"
+    },
+    "industrial_colonies:mekanism/basic_control_circuit": {
+      "uid": "e109ef23-880a-5f93-bac2-e61d6f02b08e",
+      "status": "approved",
+      "reason": "approved",
+      "note": "",
+      "cardSha256": "sha256:b5c7889d49762fbaed27b9077e3935efa83f6c0e8bbeadd702216d8d350f9d88"
+    },
+    "industrial_colonies:mekanism/combiner": {
+      "uid": "9cf62920-7392-5ba4-bdf9-7880560d61ed",
+      "status": "rejected",
+      "reason": "ring_of_items",
+      "note": "There\u0027s a ring of items. That\u0027s not clever.",
+      "cardSha256": "sha256:99908ff045e7896cdbc6c572037729fb0b7c66482a61642a4c8014a7bf9d304d"
+    },
+    "industrial_colonies:mekanism/elite_control_circuit": {
+      "uid": "c66580b1-c916-5db5-b01d-13e51a17b73e",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "same as othe mekanism circuits remember copper and brass, train etc for electronic items.",
+      "cardSha256": "sha256:d26a2060206704ed51ef02dae73c4018613bf43d8e1e74ed5d36aa9052906ce8"
+    },
+    "industrial_colonies:mekanism/factory/advanced_combining": {
+      "uid": "4d189503-60f3-548f-a2ad-e5aaa2117a77",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "these upgraded machenes should not have recipes(Tier installers)",
+      "cardSha256": "sha256:6c7e0e08ec987259f294e48f094f2be970ac6236f12e5973602932394cf0e365"
+    },
+    "industrial_colonies:mekanism/factory/advanced_compressing": {
+      "uid": "cc431fc1-650f-5dd2-b250-3e195485123e",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "these upgraded machenes should not have recipes(Tier installers)",
+      "cardSha256": "sha256:d9d0245756ecff072fb24a92fbea04e30d5a1bb8e7b7e72838789581749271f6"
+    },
+    "industrial_colonies:mekanism/factory/advanced_crushing": {
+      "uid": "ed886939-9120-539f-89e3-e43a5e80c66a",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "these upgraded machenes should not have recipes(Tier installers)",
+      "cardSha256": "sha256:c87de29a6fd96fe2f3ea0110346b1b2e146e3be406d0cfe4fd2e872a2097fbe1"
+    },
+    "industrial_colonies:mekanism/factory/advanced_enriching": {
+      "uid": "2abd1b1b-a7ec-5c9f-8a45-938f29b611e5",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "these upgraded machenes should not have recipes(Tier installers)",
+      "cardSha256": "sha256:21e1bdfe89cbcc1a4f432e9bcf140fe6521e323592e43bfa14ca807fbd33e8d5"
+    },
+    "industrial_colonies:mekanism/factory/advanced_infusing": {
+      "uid": "d6732eb1-3859-50d8-8268-0328d57429a4",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "these upgraded machenes should not have recipes(Tier installers)",
+      "cardSha256": "sha256:2e26aa9efc947ebc8afd45f1cebcd5ae4312d4455672c1e23794a32902bd79bc"
+    },
+    "industrial_colonies:mekanism/factory/advanced_injecting": {
+      "uid": "7bb65dda-f371-5f13-ba45-81700acd9d45",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "Should be disabled(Tier Installers)",
+      "cardSha256": "sha256:f7e201fe4081787aae84e31ace9ed7b5e92b9fcae89d441438355a625c1ea905"
+    },
+    "industrial_colonies:mekanism/factory/advanced_purifying": {
+      "uid": "4bc60183-4b7f-5d4d-8ec0-45edf7ee8da4",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "Should be disabled(Tier Installers)",
+      "cardSha256": "sha256:61931afeb09f605ad7693d2cd66d2e700051242ebfaf6a040ec60c03dc655704"
+    },
+    "industrial_colonies:mekanism/factory/advanced_sawing": {
+      "uid": "0dd4d8fa-cad6-5f4d-b5fd-b8665889355b",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "these upgraded machenes should not have recipes(Tier installers)",
+      "cardSha256": "sha256:7b0d4260556a2825bf4ad9f5e39ade4cb401a456fa2fdba37f907c0b9f2aaaae"
+    },
+    "industrial_colonies:mekanism/factory/basic_combining": {
+      "uid": "33e3fb0b-5987-50d6-815d-933080eb90f6",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "these upgraded machenes should not have recipes(Tier installers)",
+      "cardSha256": "sha256:7194686446bd68382dcb248773c2824e56cccd10e6c930a190c2ef054776093a"
+    },
+    "industrial_colonies:mekanism/factory/basic_compressing": {
+      "uid": "8666d417-d272-59e4-8c11-652b5176d7c6",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "these upgraded machenes should not have recipes(Tier installers)",
+      "cardSha256": "sha256:267d8e617e836a34fd95724d4e647f007c89ac3e03689876a07ef19817f89eba"
+    },
+    "industrial_colonies:mekanism/factory/basic_crushing": {
+      "uid": "ab0a7227-3efb-5dfb-9855-14cebe2f14d0",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "these upgraded machenes should not have recipes(Tier installers)",
+      "cardSha256": "sha256:672d0bfbf40685f896bc54424ec92f2952298068dad7c78d152e823d5fb58d5c"
+    },
+    "industrial_colonies:mekanism/factory/basic_enriching": {
+      "uid": "6a385733-aed9-5940-b5dc-376683a3ab02",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "these upgraded machenes should not have recipes(Tier installers)",
+      "cardSha256": "sha256:f643435bc7f71db5943acbfd0c5b6905b2e7c5761670a927ec1ae17903347ac6"
+    },
+    "industrial_colonies:mekanism/factory/basic_infusing": {
+      "uid": "87d3a463-cc56-55b9-9b59-da7f8d897e85",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "these upgraded machenes should not have recipes(Tier installers)",
+      "cardSha256": "sha256:6b51efa4cd28c3517d3a857a8c1fb527258b938eea43e52253432d07713ff4c3"
+    },
+    "industrial_colonies:mekanism/factory/basic_injecting": {
+      "uid": "61a6b05f-1d18-501c-8121-70919570e250",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "Should be disabled(Tier Installers)",
+      "cardSha256": "sha256:865ca4bcac790a3547e168187873fd366d44f3adc9b78893f95ff6a601bcb85e"
+    },
+    "industrial_colonies:mekanism/factory/basic_purifying": {
+      "uid": "0b1e579f-8e03-5fc1-ac59-47377d1b0591",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "Should be disabled(Tier Installers)",
+      "cardSha256": "sha256:4ed23147e49461d66cbe944e698fea762dc12205c37e168c09768ac7020b89ee"
+    },
+    "industrial_colonies:mekanism/factory/basic_sawing": {
+      "uid": "d34223ef-a45e-5edd-a0b9-7ac56dfc2fee",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "these upgraded machenes should not have recipes(Tier installers)",
+      "cardSha256": "sha256:52a77957b1dd2fab9ec9360f0915734f55a31cacef6ab0653fd9b4b1dcf442fa"
+    },
+    "industrial_colonies:mekanism/factory/elite_combining": {
+      "uid": "0a319e89-5a21-52b6-86c9-12957bc40c36",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "Should be disabled(Tier Installers)",
+      "cardSha256": "sha256:3047d27a2d55e8b85cbb57a1efa70be89812b4f6bf5922574d6eedc967455093"
+    },
+    "industrial_colonies:mekanism/factory/elite_compressing": {
+      "uid": "9678229b-a0a0-5992-9a93-8ad298b9394c",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "Should be disabled(Tier Installers)",
+      "cardSha256": "sha256:42dad8871f9090457be0b193e73a6ad7e5fd78e51cf531d00606eb3b727e37b2"
+    },
+    "industrial_colonies:mekanism/factory/elite_crushing": {
+      "uid": "ae2ddaad-fc10-539d-bedc-6a327f45c468",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "Should be disabled(Tier Installers)",
+      "cardSha256": "sha256:397045e914c4b9b47522569a7ed241b7774892b92ea5903cbb671e291628c198"
+    },
+    "industrial_colonies:mekanism/factory/elite_enriching": {
+      "uid": "0a1a242e-6d27-5268-9e85-cc267046ea6f",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "Should be disabled(Tier Installers)",
+      "cardSha256": "sha256:986eb04b0f03d988289a6cfaf178f008cf240b531a754057a48a1784272d90c5"
+    },
+    "industrial_colonies:mekanism/factory/elite_infusing": {
+      "uid": "8d1e50dc-fffa-5341-9e52-52ce18f2844f",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "Should be disabled(Tier Installers)",
+      "cardSha256": "sha256:7618e532111e652ce5bd2fd78486b656298c002ac8f882a1bd4024a45ca32985"
+    },
+    "industrial_colonies:mekanism/factory/elite_injecting": {
+      "uid": "055916e9-9dd9-548a-8ea3-08d1c49ca08a",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "Should be disabled(Tier Installers)",
+      "cardSha256": "sha256:e24bd3fcc264fd272067e321a394d02df60960bdda81b0e368b4267785c79629"
+    },
+    "industrial_colonies:mekanism/factory/elite_purifying": {
+      "uid": "9d0a4b14-a843-58c3-b767-b25daf6fd494",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "Should be disabled(Tier Installers)",
+      "cardSha256": "sha256:ab26475dd9ead615f53caf4165656e9d4af188bc46c51de5923e19d92240f6be"
+    },
+    "industrial_colonies:mekanism/factory/elite_sawing": {
+      "uid": "3b1ad848-8181-5b24-98a8-80df843ed3d1",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "Should be disabled(Tier Installers)",
+      "cardSha256": "sha256:4a66f9a4ace40ce596f30cc31613cad463a1f27fe412022993ebd95b9a96a23e"
+    },
+    "industrial_colonies:mekanism/factory/ultimate_combining": {
+      "uid": "0b6958dd-84bc-5c1c-be84-8deae2cb807d",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "Should be disabled(Tier Installers)",
+      "cardSha256": "sha256:cd2cc477b713cebcea4a6cd00acc920c9800f8cf2c5d5a31b6523ec0a2642743"
+    },
+    "industrial_colonies:mekanism/factory/ultimate_compressing": {
+      "uid": "eb9166b4-07ba-58ea-a25e-5fa7ef33363b",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "Should be disabled(Tier Installers)",
+      "cardSha256": "sha256:22ce9daa0f5f79cd5d67659405e0cd292b4f775101a2ab200fa2ac307b23e40c"
+    },
+    "industrial_colonies:mekanism/factory/ultimate_crushing": {
+      "uid": "feba047d-ba47-5bad-b65a-5da44223b3ce",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "Should be disabled(Tier Installers)",
+      "cardSha256": "sha256:2b232d35dcd6c4d7a85e8c1cc306c42472ea88ddf22f1be271179d2a86bd0d9a"
+    },
+    "industrial_colonies:mekanism/factory/ultimate_enriching": {
+      "uid": "a3b37ea8-e8fb-5a10-9b6f-331fa5ed049d",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "Should be disabled(Tier Installers)",
+      "cardSha256": "sha256:aea998c6b04bb64346ef1aadb39f86c3645a1c3271fed06be8c543a1c2ef8570"
+    },
+    "industrial_colonies:mekanism/factory/ultimate_infusing": {
+      "uid": "4be13391-28d9-513d-b247-ce56891209c9",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "Should be disabled(Tier Installers)",
+      "cardSha256": "sha256:79d76dcdbf3abc9053723939224350f7f6e3258acab7126e19ab140eb927ef17"
+    },
+    "industrial_colonies:mekanism/factory/ultimate_injecting": {
+      "uid": "772d578d-740c-5a52-af02-aeffdfd33884",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "Should be disabled(Tier Installers)",
+      "cardSha256": "sha256:b781d9501a4db871c2fb8038d7598cbca295120115799fddfddc0df0203a050c"
+    },
+    "industrial_colonies:mekanism/factory/ultimate_purifying": {
+      "uid": "238cf352-9941-5457-9550-ae283ac898a7",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "recipe should be disabled (tier installers)",
+      "cardSha256": "sha256:830315be4b0b4dc4dfe3b9caa28eda2123d7e4ef325f2d847a1ccd2ab8607212"
+    },
+    "industrial_colonies:mekanism/factory/ultimate_sawing": {
+      "uid": "d3f69ff4-f23c-5eb3-8eba-b011c81b8e1f",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "Should be disabled(Tier Installers)",
+      "cardSha256": "sha256:f1164d1625425fc8c84451247e5ee812ec0ce8e2fdc5db0e26ed38e38bc3f3c7"
+    },
+    "industrial_colonies:mekanism/induction/advanced_cell": {
+      "uid": "15cc78c3-09ce-56f3-9214-ad0b3b2a2949",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "wrong machine type",
+      "cardSha256": "sha256:5df8c82dd443a6ceff05e02ae294b48920cdd72c125e9127ab5092d46d452f45"
+    },
+    "industrial_colonies:mekanism/induction/advanced_provider": {
+      "uid": "89d2243c-6dcb-551f-84cb-a737eda2f05f",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "wrong machine type",
+      "cardSha256": "sha256:44f193488e040fb8099110ef683511858eb6ba3eecd543a3b6269ab00129569d"
+    },
+    "industrial_colonies:mekanism/induction/basic_cell": {
+      "uid": "40692d89-2218-52fd-875b-4cb6ef93e287",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "maybe should be copper, train, brass",
+      "cardSha256": "sha256:466607eacb862794ac4b7a042b2bfb4a112e7408a7de14fcec7ecf20baaaf8f3"
+    },
+    "industrial_colonies:mekanism/induction/basic_provider": {
+      "uid": "dfa52e31-2102-51c0-9d1d-03c703ec35bd",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "wrong machine type",
+      "cardSha256": "sha256:f7694311c966ea58021a116bbccf9ed63b40526fed54461824360741c15b4821"
+    },
+    "industrial_colonies:mekanism/induction/casing": {
+      "uid": "68887c8f-0f1e-5664-a996-dbb7702eadbf",
+      "status": "approved",
+      "reason": "approved",
+      "note": "",
+      "cardSha256": "sha256:234da2e8f22d7c91a06a8decea2f33555d25e46338a318640a4627e09a4f7e36"
+    },
+    "industrial_colonies:mekanism/induction/elite_cell": {
+      "uid": "8b7d2eea-438c-510e-8e4f-f298cbff0c23",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "wrong machine type",
+      "cardSha256": "sha256:8c5bb05c2d985acd7ca8ba0f5641c5cf29dfe0096ce8f4edf504e7012568ecd2"
+    },
+    "industrial_colonies:mekanism/induction/elite_provider": {
+      "uid": "be7286a2-9cb6-5355-b3ac-6ea62b5ca73e",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "wrong machine type",
+      "cardSha256": "sha256:dd639b592b2e51cf2b5fc25617333f0bfa1165056fe13b39c1cee4de81971f84"
+    },
+    "industrial_colonies:mekanism/induction/port": {
+      "uid": "2577059e-7bed-501a-92a2-29d34bffe723",
+      "status": "approved",
+      "reason": "approved",
+      "note": "",
+      "cardSha256": "sha256:708bdabbf8ecd2b6e49ccab9b0a827753cc740e4dbac91f60c1a7ecb299f8d38"
+    },
+    "industrial_colonies:mekanism/induction/ultimate_cell": {
+      "uid": "ab16847a-8057-5327-a73d-15a3f737d834",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "wrong machine type",
+      "cardSha256": "sha256:e7028ff61d934c47c596dcb2bf8a83c97b7f3025316cb833e4af7ac8c343b516"
+    },
+    "industrial_colonies:mekanism/induction/ultimate_provider": {
+      "uid": "25bc7d94-62d4-5006-b531-5552a7634906",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "wrong machine type",
+      "cardSha256": "sha256:27c85032f51447ea083983acdd1e148f0b6423cab6f9656fc7c5e4efcb63c9c4"
+    },
+    "industrial_colonies:mekanism/steel_casing": {
+      "uid": "8b681ccc-c90f-5613-887a-e8caf83fe732",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "This items should be disabled and the TFMG casing should replace this one in all recipes",
+      "cardSha256": "sha256:203cf5535ea74d3e591a43de70a3c72c7817a528ac235b21228d7ce2b1b2c7f4"
+    },
+    "industrial_colonies:mekanism/storage/advanced_energy_cube": {
+      "uid": "2d1f3e91-e6a9-547f-9e88-d4ab077b219d",
+      "status": "approved",
+      "reason": "approved",
+      "note": "",
+      "cardSha256": "sha256:20e99ea2eb269573691c517dcf3a319e23869da3c1a7be48874d0800a5ac3a72"
+    },
+    "industrial_colonies:mekanism/storage/basic_energy_cube": {
+      "uid": "a2f1b960-b3bd-5f96-98fd-43cc0a8358f2",
+      "status": "approved",
+      "reason": "approved",
+      "note": "",
+      "cardSha256": "sha256:a44328139e0f8a8a3fff47c2706caf61189afd5a5704edfaf870a43214f055ca"
+    },
+    "industrial_colonies:mekanism/storage/elite_energy_cube": {
+      "uid": "212c786d-0e18-5e79-961e-446d94e1aa47",
+      "status": "approved",
+      "reason": "approved",
+      "note": "",
+      "cardSha256": "sha256:0144e7e20dbc787697d184029dbe62ceef762fb16090a6760eb44a1c7bd28dbb"
+    },
+    "industrial_colonies:mekanism/storage/ultimate_energy_cube": {
+      "uid": "e7557f56-66b6-5097-83e5-1c5a5fa6ee7b",
+      "status": "approved",
+      "reason": "approved",
+      "note": "",
+      "cardSha256": "sha256:73e6f8ca5a55d5e9d6da30a09b9bcaf1654af6716a23f364031fb6c08ba2a8bc"
+    },
+    "industrial_colonies:mekanism/transmission/advanced_logistical_transporter": {
+      "uid": "0ed128e2-6748-52a9-9c9f-f925d524aa90",
+      "status": "approved",
+      "reason": "approved",
+      "note": "",
+      "cardSha256": "sha256:be3b8b943a933f884ef46a77417ab0981d6c0e1a76732d0796dbad650da78c1f"
+    },
+    "industrial_colonies:mekanism/transmission/advanced_mechanical_pipe": {
+      "uid": "632d92b6-2bde-538a-bec8-117c4bd4e8f8",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "create has its own pipes",
+      "cardSha256": "sha256:c3f4b228362458108512d75fa7f8a2d9e283b341ed2c6b64521cc4adfa0e30c6"
+    },
+    "industrial_colonies:mekanism/transmission/advanced_pressurized_tube": {
+      "uid": "ab99b54e-a7f9-5b5a-ad8a-e28acd6a5e2b",
+      "status": "approved",
+      "reason": "approved",
+      "note": "",
+      "cardSha256": "sha256:fdd0ee04bb31623b00e2da91d65a131bd7f3713686816f6d62f0ccc666df378b"
+    },
+    "industrial_colonies:mekanism/transmission/advanced_thermodynamic_conductor": {
+      "uid": "6614f1d7-1506-543a-9033-819ec10eff2b",
+      "status": "approved",
+      "reason": "approved",
+      "note": "",
+      "cardSha256": "sha256:172a6e05e4672d4cac9cef7ec77bda7554a9a657d4ab847de8af201da1ef7263"
+    },
+    "industrial_colonies:mekanism/transmission/advanced_universal_cable": {
+      "uid": "04cc00be-b91c-52ea-86c5-806799a8d78b",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "should be disabled for this cable type",
+      "cardSha256": "sha256:8413138643480029ef6e11e7013f9479fad04654fc152437365bc07b62ac9243"
+    },
+    "industrial_colonies:mekanism/transmission/basic_logistical_transporter": {
+      "uid": "900c1b51-35e0-5b0a-a26b-ce894c773914",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "love it but should use copper or rustede compacting",
+      "cardSha256": "sha256:75bf2f28ce2ac9a81466ff591dbaebd6fade54808a4713e6dec144ae3465700d"
+    },
+    "industrial_colonies:mekanism/transmission/basic_mechanical_pipe": {
+      "uid": "8aa84bfe-a102-5309-9722-ce58aa281a8c",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "love it but should require rusted compacting. Honestly just remove this because pipes from create do this already.",
+      "cardSha256": "sha256:aa2134f1754420a0d71ccbe055712793e47856d6df1710a2e780cf64b98b8dfb"
+    },
+    "industrial_colonies:mekanism/transmission/basic_pressurized_tube": {
+      "uid": "e67e693a-f68d-5541-8b64-6ad513e50d67",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "love it but should require rusted steel machines",
+      "cardSha256": "sha256:30adccfcccbfabd32cc74d5a8cce6a7e4d295796ddfbecc901a80f0a91a1d06a"
+    },
+    "industrial_colonies:mekanism/transmission/basic_thermodynamic_conductor": {
+      "uid": "a5e7a3a9-7897-5cbb-9245-337dc45c0994",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "not sure exactly what these do but probably rusted steel",
+      "cardSha256": "sha256:36279a28ef5dc9cbb69c2b492099c9a14ba96d649071c854cfccfd36f978fa3c"
+    },
+    "industrial_colonies:mekanism/transmission/basic_universal_cable": {
+      "uid": "9939ab4a-2af0-598b-8903-ce2460c1c969",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "love it but should use copper compacting",
+      "cardSha256": "sha256:d2d8b6b7657673f802c538fbca414373ee50cffcc221c2c0096ccb11f6f796b2"
+    },
+    "industrial_colonies:mekanism/transmission/elite_logistical_transporter": {
+      "uid": "a06fb7eb-bd61-50ba-81f2-09cb940ee5a7",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "wrong machine type",
+      "cardSha256": "sha256:4156e5a1eccf6213f2f4e685c144c59fa1b1a4e9e52e77f2244599c629656447"
+    },
+    "industrial_colonies:mekanism/transmission/elite_mechanical_pipe": {
+      "uid": "0b2db1a9-b165-535d-8e24-1f0450874e53",
+      "status": "approved",
+      "reason": "approved",
+      "note": "",
+      "cardSha256": "sha256:204e8e1a04e4aee4eaac3e35fcc428ef7de4926aa704d558c3f4ab46deab62e6"
+    },
+    "industrial_colonies:mekanism/transmission/elite_pressurized_tube": {
+      "uid": "a760b453-058c-5127-9084-ca949781e292",
+      "status": "approved",
+      "reason": "approved",
+      "note": "",
+      "cardSha256": "sha256:7dbbe1a600b7a95a2d541668b13565608001f59d11c18be0e6fbd2736d580442"
+    },
+    "industrial_colonies:mekanism/transmission/elite_thermodynamic_conductor": {
+      "uid": "eefac160-22fe-515c-a75a-74e10d793c21",
+      "status": "approved",
+      "reason": "approved",
+      "note": "",
+      "cardSha256": "sha256:7034ae384453f05f21453dbf3c8b45b5bfdf5471d1dbd1bb5380a98486dd54be"
+    },
+    "industrial_colonies:mekanism/transmission/elite_universal_cable": {
+      "uid": "fa133e75-8ad8-5842-bb7c-9becae3886f7",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "should be disabled",
+      "cardSha256": "sha256:669f2b846bbb74dbfef9032ec3ddca0af39619230a5c0b7ed88b99665590ae5e"
+    },
+    "industrial_colonies:mekanism/transmission/ultimate_logistical_transporter": {
+      "uid": "28d64b0d-1604-5069-a17d-cdb328b7b35d",
+      "status": "approved",
+      "reason": "approved",
+      "note": "",
+      "cardSha256": "sha256:02fa1f37dc8d077efd08defc8ad770c08a20a63b74ea33e22791b82675d2d304"
+    },
+    "industrial_colonies:mekanism/transmission/ultimate_mechanical_pipe": {
+      "uid": "ecc3a395-9d44-561a-a5d9-0c1fa1663e0f",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "create has this feature",
+      "cardSha256": "sha256:6122a63893f4e4fe22fa833868a56647e093c8d751fd5208d163a010a043e412"
+    },
+    "industrial_colonies:mekanism/transmission/ultimate_pressurized_tube": {
+      "uid": "be0878c5-7b45-5f62-acf0-f58fe3c8c607",
+      "status": "approved",
+      "reason": "approved",
+      "note": "",
+      "cardSha256": "sha256:6640f6a58613428bdf8336627a735022cd827acab988fba287254394cb1f2b08"
+    },
+    "industrial_colonies:mekanism/transmission/ultimate_thermodynamic_conductor": {
+      "uid": "e27f4517-9cb4-5a96-8fd5-b6d201a7fff9",
+      "status": "approved",
+      "reason": "approved",
+      "note": "",
+      "cardSha256": "sha256:aac7ad3bf1c260caf0b1c89c98c849877a0cede64444eef18bb7ab7cae26b627"
+    },
+    "industrial_colonies:mekanism/transmission/ultimate_universal_cable": {
+      "uid": "39f9403c-c36c-581e-9f8e-400ea580a08f",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "should be disabled",
+      "cardSha256": "sha256:b180696df955d1593555301db16d1b57436446eebaf51de68a5d0cd2e9c6b0b2"
+    },
+    "industrial_colonies:mekanism/ultimate_control_circuit": {
+      "uid": "1b12156a-7685-5b8e-9adf-61de35bbb4f8",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "same as other mekanism circuits",
+      "cardSha256": "sha256:9d12d045351723229191f64c952108933e8cd8c5c09ef4e5e565141c618d0013"
+    },
+    "industrial_colonies:mekanism_nuclear/antiprotonic_nucleosynthesizer": {
+      "uid": "1f320509-99bb-5bdd-b53a-75abf25f2a3e",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "a little cheap",
+      "cardSha256": "sha256:36a06161cd42b6134200ac105210d1003a7207c65d67b97bd2d9cc31c81c9b77"
+    },
+    "industrial_colonies:mekanism_nuclear/chemical_crystallizer": {
+      "uid": "0b9bb2d0-e9d7-535b-b1c6-58523746f017",
+      "status": "approved",
+      "reason": "approved",
+      "note": "",
+      "cardSha256": "sha256:16d016f078fdf7782f90c27bf12d7aaf65c53e6538316ca8a6ada96483668391"
+    },
+    "industrial_colonies:mekanism_nuclear/chemical_dissolution_chamber": {
+      "uid": "7aeae1de-9492-5021-a1e8-7dc06ade8f84",
+      "status": "approved",
+      "reason": "approved",
+      "note": "",
+      "cardSha256": "sha256:d8c63b5311cf7c0824f6a621ad737b6a6eb9c62660d059f662d491ebeb730eec"
+    },
+    "industrial_colonies:mekanism_nuclear/chemical_injection_chamber": {
+      "uid": "797e02ab-7b75-5df3-92df-1ad86359287a",
+      "status": "approved",
+      "reason": "approved",
+      "note": "",
+      "cardSha256": "sha256:de9832364a01f17b66ca2c748a5611df51316d54cbdeaa6b483f8b95b2807313"
+    },
+    "industrial_colonies:mekanism_nuclear/chemical_washer": {
+      "uid": "7d593ddc-e1a4-5865-8e21-771830e6f2f2",
+      "status": "approved",
+      "reason": "approved",
+      "note": "",
+      "cardSha256": "sha256:7cdcae4d28d29bcf7eded6eff612a967ce98c4a660295ffba236f554f4d5b794"
+    },
+    "industrial_colonies:mekanism_nuclear/isotopic_centrifuge": {
+      "uid": "13fa3966-c8b6-5967-936f-fac5e71074b1",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "good machine type but very cheap.",
+      "cardSha256": "sha256:f6f90eea60d5240cf5564de5ccbeb2b63c9cc8454ef62344d27bf1daf0d6ef60"
+    },
+    "industrial_colonies:mekanism_nuclear/purification_chamber": {
+      "uid": "9aefcc0f-754e-5293-a5f8-ce6137265d00",
+      "status": "approved",
+      "reason": "approved",
+      "note": "",
+      "cardSha256": "sha256:aba0b5ca5e918d67e9fda72ac55bc9af8be58ae3ad51e85f1a94694e5b68fd20"
+    },
+    "industrial_colonies:mekanism_nuclear/radioactive_waste_barrel_batch": {
+      "uid": "258ae5c8-59cf-5da0-9c7a-7b725631594f",
+      "status": "approved",
+      "reason": "approved",
+      "note": "",
+      "cardSha256": "sha256:ad63c7ab79d418aac95805422d314eaee799e4414ad504dd6517e07524971209"
+    },
+    "industrial_colonies:mekanism_nuclear/solar_neutron_activator": {
+      "uid": "5a5afa36-5c82-5632-9a3d-ba40933dfc3a",
+      "status": "approved",
+      "reason": "approved",
+      "note": "",
+      "cardSha256": "sha256:77afa79f66aad1873281fca1b480992e12640cb2348c7ccbc5e582d84e0ad5a4"
+    },
+    "industrial_colonies:mekanism_nuclear/sps_casing_batch": {
+      "uid": "d2dbfb49-2144-55ec-8120-2c328d0d8c35",
+      "status": "approved",
+      "reason": "approved",
+      "note": "",
+      "cardSha256": "sha256:9981df012237c9f95a42bed64c16111baba17e0fe9a6f7c065f2313268c63097"
+    },
+    "industrial_colonies:mekanism_nuclear/sps_port": {
+      "uid": "8b5c656a-4bfc-524c-8106-c13260e7c960",
+      "status": "approved",
+      "reason": "approved",
+      "note": "",
+      "cardSha256": "sha256:9a8b9ba39903a2154b68e8549cd664289d8a228bd39237265d2d4c504f4be679"
+    },
+    "industrial_colonies:mekanism_nuclear/supercharged_coil": {
+      "uid": "909b6da3-2dd7-5a3f-b7bb-3a890f7724dd",
+      "status": "approved",
+      "reason": "approved",
+      "note": "",
+      "cardSha256": "sha256:0b486e9f13d7f5c8947eed97fd18f6077f5320e098d1d80d6836f24f79060384"
+    },
+    "industrial_colonies:mekanism_pre_nuclear/chemical_infuser": {
+      "uid": "6f16fe55-235d-53a1-9dce-8e7a14984c45",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "good but should maybe be a rusted deployer sequence instead.",
+      "cardSha256": "sha256:7dd5538a78e170b87c773f681bf8a72e2451f78d604fc56acc0bb1e24c92b3e4"
+    },
+    "industrial_colonies:mekanism_pre_nuclear/chemical_oxidizer": {
+      "uid": "b12e6952-4dc4-5472-b47a-ca11a3786122",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "good but should maybe be a rusted deployer sequence instead.",
+      "cardSha256": "sha256:488e7df6e564d6c20186cdc6849f437a73c81440115455625249ba06034458a8"
+    },
+    "industrial_colonies:mekanism_pre_nuclear/crusher": {
+      "uid": "dc6eede0-fad2-52c4-9035-9d61a0e75f9c",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "good but should maybe be a rusted deployer sequence instead.",
+      "cardSha256": "sha256:6424652aa7c678eb7342765f8e635b7aa86bd2f4ff5dfabac9b39446d83a7f27"
+    },
+    "industrial_colonies:mekanism_pre_nuclear/electrolytic_separator": {
+      "uid": "920cf5b6-001b-558f-b907-d5821fce8803",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "good but should maybe be a rusted deployer sequence instead.",
+      "cardSha256": "sha256:7760ac2a1c12ded755d43efb28b9d55316677983119372ff8b2af93ecce1ad92"
+    },
+    "industrial_colonies:mekanism_pre_nuclear/enrichment_chamber": {
+      "uid": "80bf5255-d403-5d93-bafd-0ac0134fa544",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "good but should maybe be a rusted deployer sequence instead.",
+      "cardSha256": "sha256:ff211705d51ef6b829ad0fb7a78ee8ae53a4bfc379ee7968b15f86f74859b81a"
+    },
+    "industrial_colonies:mekanism_pre_nuclear/osmium_compressor": {
+      "uid": "1f0a01c1-aa50-53b8-8cf6-8b511005112a",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "good but should maybe be a rusted deployer sequence instead.",
+      "cardSha256": "sha256:fb3896949d8cb8b1e366be100eff4e1100d0a09ccf7b171f835de4ef20dc3aa1"
+    },
+    "industrial_colonies:mekanism_pre_nuclear/precision_sawmill": {
+      "uid": "9bc6d146-6fc8-5deb-be38-7c1a728c393d",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "good but should maybe be a rusted deployer sequence instead.",
+      "cardSha256": "sha256:6e14020e5e719fae8128d3927422af3b4cccba99730d539d947c18004d880482"
+    },
+    "industrial_colonies:mekanism_pre_nuclear/pressurized_reaction_chamber": {
+      "uid": "8770ed58-72a2-5860-ada1-d35d5402b40c",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "good but should maybe be a rusted deployer sequence instead.",
+      "cardSha256": "sha256:ff1aad054f1bbc9e126a5d24d83a46417fd321f6515ff2845e4d8138aabfc398"
+    },
+    "industrial_colonies:nuclear/basic_reactor_controller": {
+      "uid": "46fa2398-2fdb-550b-be88-fcf738f8b551",
+      "status": "approved",
+      "reason": "approved",
+      "note": "",
+      "cardSha256": "sha256:e3dd7ba54a676f9fdafaca9526d1dbd9a880ff44d5244048ce38ba287a2d7616"
+    },
+    "industrial_colonies:nuclear/basic_reactor_power_tap": {
+      "uid": "25da256b-7eff-5ba2-95e2-bad367223db4",
+      "status": "approved",
+      "reason": "approved",
+      "note": "",
+      "cardSha256": "sha256:62847857fa597c631e3a9f8cbcec6421e738f1cd2aa4229d9e71f3d648b71e9d"
+    },
+    "industrial_colonies:nuclear/basic_reactor_redstone_port": {
+      "uid": "33c32b83-6818-5fb4-a3d9-8911fdffec10",
+      "status": "approved",
+      "reason": "approved",
+      "note": "",
+      "cardSha256": "sha256:dd877905f446719ca2555e9cbd13b4b3ff24b68c83709b2f2db7e77e6ed1dc85"
+    },
+    "industrial_colonies:nuclear/chromatic_compound": {
+      "uid": "73a8c1c8-0313-567e-ad15-beddc5dc6b1c",
+      "status": "approved",
+      "reason": "approved",
+      "note": "",
+      "cardSha256": "sha256:3dc55e8bfded5e64439a7770b063e511b25717e26c2c4cff1297441bef2aacdc"
+    },
+    "industrial_colonies:nuclear/refined_radiance": {
+      "uid": "9e200904-b26a-52cd-9e1b-e731eee3ddd7",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "I like it but make sure it comes from industrial iron thats the tier before radiance.",
+      "cardSha256": "sha256:1739f4a6666bd738a79e55ea0b50faaf54469ec12257c9c89380f6ebd268b5fe"
+    },
+    "industrial_colonies:nuclear/refined_radiance_casing": {
+      "uid": "bf9c7a79-72cb-578e-a9ef-40b26d410e68",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "I like it just remember it comes from industrial iron not rusted",
+      "cardSha256": "sha256:beda7c2310ccbb06418ce247a453343685d644ccff6e437f7d9fa8f3d0663f17"
+    },
+    "industrial_colonies:nuclear/reinforced_computer_port": {
+      "uid": "89418326-5e31-5825-b9f0-3fe217bcce4a",
+      "status": "approved",
+      "reason": "approved",
+      "note": "",
+      "cardSha256": "sha256:cf1ed2396116752652211649d48b9ca746f35db7bd967e56f58e210db5bbea11"
+    },
+    "industrial_colonies:nuclear/reinforced_reactor_controller": {
+      "uid": "6bbb7842-1490-571e-ab8a-94f956058a9d",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "way too cheap",
+      "cardSha256": "sha256:b9f66ae2e2ca83a52cacd6775b6f432fcf511c2c28a356e1b99af6e4a2154cce"
+    },
+    "industrial_colonies:petroleum/steel_distillation_controller": {
+      "uid": "53fe964f-52fa-50de-bb93-afaa3efeec28",
+      "status": "approved",
+      "reason": "approved",
+      "note": "",
+      "cardSha256": "sha256:8ae7ba7280be06834ffaf36a5e8f22bc72c2456da72d805d09ae4bb3dbdc31d7"
+    },
+    "industrial_colonies:petroleum/steel_distillation_output": {
+      "uid": "67b08c58-ddd3-5e3d-848e-75a8f27fd2e1",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "Honestly its just an output make it a bit less complex",
+      "cardSha256": "sha256:ec1a554ffcaeca1d61a84973f91949009d88bbaa60d41edca516b300a54f06ea"
+    },
+    "industrial_colonies:space/orbital_flight_computer": {
+      "uid": "14fdc9de-295a-57c9-baef-41ee1882fd2f",
+      "status": "approved",
+      "reason": "approved",
+      "note": "",
+      "cardSha256": "sha256:38c722635b507f7822b32d5f0ff1d771fff0b38f6733becd2d41669d6d993015"
+    },
+    "industrial_colonies:space/propulsion/engine_nozzle": {
+      "uid": "27d0fa95-e7b0-5b14-93c6-6597c1c3dda2",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "maybe some electronics? love the shape.",
+      "cardSha256": "sha256:0fe85a21d0b670e0fbebbb47f5a5b81f30f72f08dc933e6fd2917b4259e400ee"
+    },
+    "industrial_colonies:space/propulsion/engine_pipes": {
+      "uid": "5df67bfc-f32d-5db0-8626-43c973be60fb",
+      "status": "approved",
+      "reason": "approved",
+      "note": "",
+      "cardSha256": "sha256:949fe169314081f31eebe8088d5e6dccf21fb744c022ed574dc9c94e544faf66"
+    },
+    "industrial_colonies:space/propulsion/hose_anchor": {
+      "uid": "61b4719c-0e8f-50b4-aa6a-170dec9bcef6",
+      "status": "approved",
+      "reason": "approved",
+      "note": "",
+      "cardSha256": "sha256:b1fe2117126fc827247e20b0b98a392f00b11957adda6040401a89053e9c64b2"
+    },
+    "industrial_colonies:space/propulsion/thruster_mount": {
+      "uid": "8a3357a4-54bd-53bc-8be2-4fa1e0aa6ccf",
+      "status": "rejected",
+      "reason": "ring_of_items",
+      "note": "There\u0027s a ring of items. That\u0027s not clever.",
+      "cardSha256": "sha256:eb5640201d266bbaa9e45078ad88ffba0c074cbf220add91bc4e5b35de5c71cf"
+    },
+    "industrial_colonies:steam/steam_engine": {
+      "uid": "9d37f80c-c86e-5a01-90ec-bb3b169ef2d4",
+      "status": "rejected",
+      "reason": "default_recipe",
+      "note": "This is the default recipe—why is it in here?",
+      "cardSha256": "sha256:8fc48e56d645ed5633fc779bf41fada2f8924f54999f9b3374113cda6b80e26b"
+    },
+    "industrial_colonies:steelworks/blast_furnace_hatch": {
+      "uid": "ec43d244-0aa6-590c-886f-d7cce7f21abf",
+      "status": "approved",
+      "reason": "approved",
+      "note": "",
+      "cardSha256": "sha256:ed3ff6b1cf8a941a6a33516c302b511d147f4d4c21810b19d6597ab355b8bf3a"
+    },
+    "industrial_colonies:steelworks/blast_furnace_output": {
+      "uid": "163fc7f8-ca51-5b5f-a7a7-ff05b2c6e0c8",
+      "status": "rejected",
+      "reason": "ring_of_items",
+      "note": "There\u0027s a ring of items. That\u0027s not clever.",
+      "cardSha256": "sha256:9506249c967860c281bd0693d80bb79de7dcfb441596ee2c25124016bc8db5c8"
+    },
+    "industrial_colonies:steelworks/blast_furnace_reinforcement": {
+      "uid": "4032b233-6cc5-5606-b875-29a90ae97fb6",
+      "status": "approved",
+      "reason": "approved",
+      "note": "",
+      "cardSha256": "sha256:579a4faaa637c3c1a110c436ada5957a1b8974b2ce650b102668240c26b55c40"
+    },
+    "industrial_colonies:steelworks/blast_stove": {
+      "uid": "ded160ee-2737-5f94-9ec7-820149bc99e7",
+      "status": "approved",
+      "reason": "approved",
+      "note": "",
+      "cardSha256": "sha256:b2bc6319b6b8bb2c8875efa6b89e52680abd0c5dd76a5b6889c799a9cc1064ef"
+    },
+    "industrial_colonies:steelworks/coke_oven": {
+      "uid": "1ff5a3e1-dc15-5d60-884c-4ded4743e630",
+      "status": "approved",
+      "reason": "approved",
+      "note": "",
+      "cardSha256": "sha256:8d3bdedd3397d642d71518c9b34e75b5759c18f7f4970d6ea51b8425e52a14b0"
+    },
+    "industrial_colonies:steelworks/fireproof_brick_reinforcement": {
+      "uid": "908b3a77-1ef7-5deb-8f88-9eeef6bdaae1",
+      "status": "approved",
+      "reason": "approved",
+      "note": "",
+      "cardSha256": "sha256:e4e2887f193b8ee407c4cea1b6c3214dac2aa55ef22bd60f0e6d2c4a902a943d"
+    },
+    "industrial_colonies:steelworks/fireproof_bricks": {
+      "uid": "0e8ec3d9-0d8d-52dd-b217-eadc3ae80f40",
+      "status": "approved",
+      "reason": "approved",
+      "note": "",
+      "cardSha256": "sha256:bee2d62e6cd3e11a796df1a2df7af1de70233cc167355663c0243e3ed41ff674"
+    },
+    "industrial_colonies:tfmg_core/steel_mechanism": {
+      "uid": "d2ade82b-37aa-5521-a7fe-1dcf66a0f0b4",
+      "status": "rejected",
+      "reason": "manual",
+      "note": "Keep the original recipe.",
+      "cardSha256": "sha256:e5785d52de600cd3f28d2a403385de0f3a822acb4a3e946d5064df4c52c432c4"
+    },
+    "industrial_colonies:tfmg_coverage/spark_plug": {
+      "uid": "4c420685-6a89-5ec6-bf4f-4b953d773996",
+      "status": "approved",
+      "reason": "approved",
+      "note": "",
+      "cardSha256": "sha256:ec3adf532c820f22ed6c422d8c2c987ce6dd8dbeb9baacf98c28d2f5272a64a2"
+    },
+    "industrial_colonies:tfmg_heavy_electrical/centrifuge": {
+      "uid": "627e6a6e-3814-58ef-b53a-4dd7839d27a7",
+      "status": "approved",
+      "reason": "approved",
+      "note": "",
+      "cardSha256": "sha256:18b7b0c0b0eb732e5ff03f111d94566f1e2a7842cb1f771e6546de4e3f9cf8a6"
+    },
+    "industrial_colonies:tfmg_heavy_electrical/diesel_engine_cylinder": {
+      "uid": "8d3c7663-1f97-583d-88a0-d894fa4bebbd",
+      "status": "approved",
+      "reason": "approved",
+      "note": "",
+      "cardSha256": "sha256:29dbc144236865aa3bad654eba46a8bec014e55fdb3f94f9bbc4e0b22b83136f"
+    },
+    "industrial_colonies:tfmg_heavy_electrical/digital_adapter": {
+      "uid": "cef532a4-2f02-5e89-9bdc-5ee60af006a2",
+      "status": "approved",
+      "reason": "approved",
+      "note": "",
+      "cardSha256": "sha256:e0cecf5211e84f30d6cbe94eaafd4d1bc41af0aa8d52b95e5849d609e8fd71fe"
+    },
+    "industrial_colonies:tfmg_heavy_electrical/electrode_holder": {
+      "uid": "8bef78e8-3bd0-58b7-b153-2993c8f32079",
+      "status": "approved",
+      "reason": "approved",
+      "note": "",
+      "cardSha256": "sha256:c3541285f13a0d7f7546b4b0af8d033072e3e2d0bf487512a3d788a71d9e9dc2"
+    },
+    "industrial_colonies:tfmg_heavy_electrical/engine_cylinder": {
+      "uid": "7d30e24f-5dbb-5512-a178-567674b96a07",
+      "status": "approved",
+      "reason": "approved",
+      "note": "",
+      "cardSha256": "sha256:bf3d01b67f325c741606a899b05848b7b3944768e7f4bd3a6217eac38b7622d4"
+    },
+    "industrial_colonies:tfmg_heavy_electrical/portable_energy_interface": {
+      "uid": "7e2566ae-fc74-53aa-9916-c46ff624e0f2",
+      "status": "approved",
+      "reason": "approved",
+      "note": "",
+      "cardSha256": "sha256:8c76a8ad6e43e007db2dd43961b60cb2be2654960fb40128b23e3223283d73b0"
+    },
+    "industrial_colonies:tfmg_heavy_electrical/transformer": {
+      "uid": "78d2d7b6-6883-59ce-af2e-950c7cddc55b",
+      "status": "approved",
+      "reason": "approved",
+      "note": "",
+      "cardSha256": "sha256:63daf6c3ef8e19123b850f34650feb781f2a83c9a304b4a0b76b32d61ed44e6d"
+    },
+    "industrial_colonies:tfmg_heavy_electrical/voltage_observer": {
+      "uid": "79de37a0-70d9-5959-adf0-f951d393828c",
+      "status": "approved",
+      "reason": "approved",
+      "note": "",
+      "cardSha256": "sha256:3cd5459691af247280f406d52e99ee53c9d56481c5b61fb1313ea05240f2c606"
+    },
+    "industrial_colonies:world_loading/chunk_controller": {
+      "uid": "f18bcdbf-aefb-5652-a041-5efae09d6c18",
+      "status": "approved",
+      "reason": "approved",
+      "note": "",
+      "cardSha256": "sha256:5e5bb023a1ff8c63b7de821de76590f791687cd2988807d3bdeda0e9036e5d91"
+    },
+    "industrial_colonies:world_loading/dimensional_stabilizer": {
+      "uid": "e92441d9-154a-57d5-855e-5f130fa96273",
+      "status": "rejected",
+      "reason": "ring_of_items",
+      "note": "There\u0027s a ring of items. That\u0027s not clever.",
+      "cardSha256": "sha256:7f641804e6a86442b192621744f984e0cf2f08aef42f1720586544305d255a6f"
+    }
+  }
+}

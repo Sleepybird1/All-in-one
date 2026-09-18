@@ -1,0 +1,28 @@
+{
+  "status": "PASS",
+  "phase": "FMLLoadCompleteEvent.enqueueWork (before GameTest world packs / KubeJS server script parse)",
+  "stage": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754",
+  "project": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\kjsgen\\projects\\default.json",
+  "projectSha256": "0aacb7b7bc2e0ba0a0aa8c4211a115146fdc521141a1cceb400ed71532ff5da9",
+  "recipeCards": 672,
+  "removalRules": 1058,
+  "allMergedCardUidsRetained": true,
+  "candidateBundledVatLayout": {
+    "resource": "/assets/industrial_colonies/kjsgen_layouts/tfmg_chemical_vat.json",
+    "sha256": "dc5994a34c681808d0b9d646989d0c3a55aca07203c2bc1b7d1ecff3d6286d3d",
+    "registeredByTestHarness": true,
+    "nativeParser": "RecipeTypeDefinition.fromJson",
+    "codegen": "industrial_colonies:tfmg_chemical_vat"
+  },
+  "scripts": [
+    {
+      "path": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\isolated-runtime\\geology-gametest-20260909-064550-754\\kubejs\\server_scripts\\kjsgen_recipes.js",
+      "sha256": "d9de3956d56b9015603c496302aeee27983c31d3f6e01dec92660c7bf65dd692",
+      "bytes": 750076,
+      "recipeCards": 672,
+      "previousSha256": "d9de3956d56b9015603c496302aeee27983c31d3f6e01dec92660c7bf65dd692",
+      "outsideMarkerContentPreservedIgnoringBoundaryWhitespace": true
+    }
+  ],
+  "warnings": []
+}

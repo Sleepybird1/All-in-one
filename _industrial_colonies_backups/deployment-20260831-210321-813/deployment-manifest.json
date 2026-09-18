@@ -1,0 +1,103 @@
+{
+  "schema": 1,
+  "completed_at": "2026-08-31T21:03:22.1731208-04:00",
+  "project_root": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies",
+  "live_pack_root": "C:\\Users\\GodPC\\curseforge\\minecraft\\Instances\\All in one",
+  "project_jar_sha256": "73B0AEC0343D5B3C8A5E7C08D12948C7A3F21FF44819670A5745AA44F39EA4D6",
+  "owned_server_scripts": 43,
+  "owned_client_scripts": 8,
+  "owned_ftbquests_files": 11,
+  "recipe_stage_mappings": 0,
+  "changes": [
+    {
+      "Action": "KubeJS server script",
+      "Source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\pack-scripts\\server_scripts\\industrial_allthemodium_currency.js",
+      "Destination": "C:\\Users\\GodPC\\curseforge\\minecraft\\Instances\\All in one\\kubejs\\server_scripts\\industrial_allthemodium_currency.js",
+      "Sha256": "392F1E5BBD7B91E66D3EBC5F86214583AC47C77EF3493FBE29D4F4ADCC166045"
+    },
+    {
+      "Action": "KubeJS server script",
+      "Source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\pack-scripts\\server_scripts\\industrial_nuclear_actinides_01.js",
+      "Destination": "C:\\Users\\GodPC\\curseforge\\minecraft\\Instances\\All in one\\kubejs\\server_scripts\\industrial_nuclear_actinides_01.js",
+      "Sha256": "4F50A49FBD127507240A06530E3106899952BD9E9D53E9FD6318F763BA4A959F"
+    },
+    {
+      "Action": "KubeJS server script",
+      "Source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\pack-scripts\\server_scripts\\industrial_reserve_core_megaproject.js",
+      "Destination": "C:\\Users\\GodPC\\curseforge\\minecraft\\Instances\\All in one\\kubejs\\server_scripts\\industrial_reserve_core_megaproject.js",
+      "Sha256": "AC962AA3A360B20D4D140C38FF5B5527D225A1DDAD76D59E1B5C19E5E91EBA08"
+    },
+    {
+      "Action": "Create Applied Kinetics Inscriber compatibility config",
+      "Source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\pack-config-overrides\\createappliedkinetics-common.toml",
+      "Destination": "C:\\Users\\GodPC\\curseforge\\minecraft\\Instances\\All in one\\config\\createappliedkinetics-common.toml",
+      "Sha256": "6384423BC35409DDBA14C5B3477E5B66DD6DDBDFB0F1DEC33A867A2ECAA4518B"
+    },
+    {
+      "Action": "FTB Chunks claims-enabled zero-force-load pack defaults",
+      "Source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\pack-config-overrides\\ftbchunks-world.snbt",
+      "Destination": "C:\\Users\\GodPC\\curseforge\\minecraft\\Instances\\All in one\\config\\ftbchunks-world.snbt",
+      "Sha256": "872AEF64115053F5B7417B45D4BCDB010EC32C85ACDA0CFC0BED73D8A75ABCCD"
+    },
+    {
+      "Action": "FTB Quests factory-guidance data",
+      "Source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\pack-config-overrides\\ftbquests\\quests\\chapter_groups.snbt",
+      "Destination": "C:\\Users\\GodPC\\curseforge\\minecraft\\Instances\\All in one\\config\\ftbquests\\quests\\chapter_groups.snbt",
+      "Sha256": "DCEFA23F7441409DB799365BAC250DC2418800A7B7468B15984C2C866F0CB4CD"
+    },
+    {
+      "Action": "FTB Quests factory-guidance data",
+      "Source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\pack-config-overrides\\ftbquests\\quests\\chapters\\digital_logistics.snbt",
+      "Destination": "C:\\Users\\GodPC\\curseforge\\minecraft\\Instances\\All in one\\config\\ftbquests\\quests\\chapters\\digital_logistics.snbt",
+      "Sha256": "1FA641BC3DD05B99678986EF484ABD87A3FDB4C65EA94C9C05D8842E9C6512BC"
+    },
+    {
+      "Action": "FTB Quests factory-guidance data",
+      "Source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\pack-config-overrides\\ftbquests\\quests\\chapters\\dungeon_exploration.snbt",
+      "Destination": "C:\\Users\\GodPC\\curseforge\\minecraft\\Instances\\All in one\\config\\ftbquests\\quests\\chapters\\dungeon_exploration.snbt",
+      "Sha256": "A519AD60932EE5074EF139A8A710FB8F3C6128EF2E42754E2C4FD94363AFCA93"
+    },
+    {
+      "Action": "FTB Quests factory-guidance data",
+      "Source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\pack-config-overrides\\ftbquests\\quests\\chapters\\electrical_manufacturing.snbt",
+      "Destination": "C:\\Users\\GodPC\\curseforge\\minecraft\\Instances\\All in one\\config\\ftbquests\\quests\\chapters\\electrical_manufacturing.snbt",
+      "Sha256": "3E0331B6D748CE447A47CE89342DC6D5F19E588ADA7ECEC3707BDA810776477E"
+    },
+    {
+      "Action": "FTB Quests factory-guidance data",
+      "Source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\pack-config-overrides\\ftbquests\\quests\\chapters\\factory_foundations.snbt",
+      "Destination": "C:\\Users\\GodPC\\curseforge\\minecraft\\Instances\\All in one\\config\\ftbquests\\quests\\chapters\\factory_foundations.snbt",
+      "Sha256": "656E653786A57F7790CE00274C3E0F12473B9380AB2832CD20A9390154C81ED8"
+    },
+    {
+      "Action": "FTB Quests factory-guidance data",
+      "Source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\pack-config-overrides\\ftbquests\\quests\\chapters\\high_energy_grid.snbt",
+      "Destination": "C:\\Users\\GodPC\\curseforge\\minecraft\\Instances\\All in one\\config\\ftbquests\\quests\\chapters\\high_energy_grid.snbt",
+      "Sha256": "644C4953BDCEFE7C930B02406FF217C528DEE9040D91DDB7FCD1D0B63DF52D40"
+    },
+    {
+      "Action": "FTB Quests factory-guidance data",
+      "Source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\pack-config-overrides\\ftbquests\\quests\\chapters\\industrial_progression.snbt",
+      "Destination": "C:\\Users\\GodPC\\curseforge\\minecraft\\Instances\\All in one\\config\\ftbquests\\quests\\chapters\\industrial_progression.snbt",
+      "Sha256": "DB8A8AE0D8003C1ECEEBDEA686161C83001EA32D918819FDF1B5AB6679028FF3"
+    },
+    {
+      "Action": "FTB Quests factory-guidance data",
+      "Source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\pack-config-overrides\\ftbquests\\quests\\chapters\\mekanized_industry.snbt",
+      "Destination": "C:\\Users\\GodPC\\curseforge\\minecraft\\Instances\\All in one\\config\\ftbquests\\quests\\chapters\\mekanized_industry.snbt",
+      "Sha256": "A779F4559834CA20EA10D7615C56734CD2015E8FB943911EBE23F0842493538D"
+    },
+    {
+      "Action": "FTB Quests factory-guidance data",
+      "Source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\pack-config-overrides\\ftbquests\\quests\\chapters\\nuclear_engineering.snbt",
+      "Destination": "C:\\Users\\GodPC\\curseforge\\minecraft\\Instances\\All in one\\config\\ftbquests\\quests\\chapters\\nuclear_engineering.snbt",
+      "Sha256": "F5812CBEA46F55BA3B8C0AAE1A6DAEE776B6BAC0DCF00C06CF7676A11D1110AE"
+    },
+    {
+      "Action": "FTB Quests factory-guidance data",
+      "Source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\pack-config-overrides\\ftbquests\\quests\\data.snbt",
+      "Destination": "C:\\Users\\GodPC\\curseforge\\minecraft\\Instances\\All in one\\config\\ftbquests\\quests\\data.snbt",
+      "Sha256": "18C6F7059B8365F4365A26FB13E5ADD54F19DDDD65B34BAEB90F02D025C6DD19"
+    }
+  ]
+}

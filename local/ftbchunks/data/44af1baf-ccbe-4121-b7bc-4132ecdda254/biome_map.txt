@@ -1,0 +1,11 @@
+#2A7 regions_unexplored:ancient_delta
+#453 regions_unexplored:cold_boreal_taiga
+#2DC minecraft:deep_dark
+#4CA minecraft:dripstone_caves
+#01C regions_unexplored:frozen_pine_taiga
+#3A0 minecraft:frozen_river
+#286 minecraft:grove
+#154 minecraft:ice_spikes
+#4E5 minecraft:snowy_plains
+#524 minecraft:snowy_slopes
+#340 minecraft:snowy_taiga

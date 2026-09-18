@@ -1,0 +1,6 @@
+#4E1 regions_unexplored:clover_plains
+#3DC minecraft:plains
+#02B regions_unexplored:shrubland
+#774 minecraft:sunflower_plains
+#05C minecraft:windswept_gravelly_hills
+#4C3 minecraft:windswept_hills

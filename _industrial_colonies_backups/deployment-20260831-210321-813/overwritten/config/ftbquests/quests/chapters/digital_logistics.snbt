@@ -1,0 +1,190 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "rsquare"
+	filename: "digital_logistics"
+	group: ""
+	id: "4577312E188BD84D"
+	images: [ ]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["72079119200F4E33"]
+			disable_toast: true
+			icon: {
+				id: "ae2:charger"
+			}
+			id: "4C92188778A511FE"
+			tags: [
+				"industrial_colonies:physical_guidance"
+				"industrial_colonies:physical_guidance/phase/digital_logistics"
+				"industrial_colonies:physical_guidance/inscription_hardware"
+			]
+			tasks: [
+				{
+					id: "72CCEF9B6840BD49"
+					item: { count: 1, id: "ae2:charger" }
+					type: "item"
+				}
+				{
+					id: "7E1015A2C7481326"
+					item: { count: 1, id: "ae2:inscriber" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4C92188778A511FE"]
+			disable_toast: true
+			icon: {
+				id: "ae2:logic_processor"
+			}
+			id: "61A18A651CB4E6B3"
+			tags: [
+				"industrial_colonies:physical_guidance"
+				"industrial_colonies:physical_guidance/phase/digital_logistics"
+				"industrial_colonies:physical_guidance/logic_and_stress_processors"
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "5604DA580DF0484F"
+					item: { count: 1, id: "ae2:logic_processor" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "5DD99795B3022A7D"
+					item: { count: 1, id: "appliedcreate:advanced_stress_processor" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4C92188778A511FE"]
+			disable_toast: true
+			icon: {
+				id: "ae2:energy_acceptor"
+			}
+			id: "37C1696E32511946"
+			tags: [
+				"industrial_colonies:physical_guidance"
+				"industrial_colonies:physical_guidance/phase/digital_logistics"
+				"industrial_colonies:physical_guidance/starter_me_network"
+			]
+			tasks: [
+				{
+					id: "26D1965736833237"
+					item: { count: 1, id: "ae2:energy_acceptor" }
+					type: "item"
+				}
+				{
+					id: "3AD6597D168DFA7D"
+					item: { count: 1, id: "ae2:terminal" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["37C1696E32511946"]
+			disable_toast: true
+			icon: {
+				id: "ae2:drive"
+			}
+			id: "226A04656BFB827E"
+			tags: [
+				"industrial_colonies:physical_guidance"
+				"industrial_colonies:physical_guidance/phase/digital_logistics"
+				"industrial_colonies:physical_guidance/starter_me_storage"
+			]
+			tasks: [
+				{
+					id: "291B93CB98A8B750"
+					item: { count: 1, id: "ae2:drive" }
+					type: "item"
+				}
+				{
+					id: "546BFC72CDED99DD"
+					item: { count: 1, id: "ae2:item_storage_cell_4k" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["61A18A651CB4E6B3"]
+			disable_toast: true
+			icon: {
+				id: "computercraft:computer_normal"
+			}
+			id: "4A5F56050103C954"
+			tags: [
+				"industrial_colonies:physical_guidance"
+				"industrial_colonies:physical_guidance/phase/digital_logistics"
+				"industrial_colonies:physical_guidance/computer_control_station"
+			]
+			tasks: [
+				{
+					id: "436E1AE778F558D8"
+					item: { count: 1, id: "computercraft:computer_normal" }
+					type: "item"
+				}
+				{
+					id: "5EE55F00E2D0D213"
+					item: { count: 1, id: "computercraft:monitor_normal" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "717683DE47BC4C35"
+					item: { count: 1, id: "computercraft:wired_modem" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"61A18A651CB4E6B3"
+				"226A04656BFB827E"
+			]
+			disable_toast: true
+			icon: {
+				id: "ae2:crafting_unit"
+			}
+			id: "6D8FEEBB98B4136F"
+			tags: [
+				"industrial_colonies:physical_guidance"
+				"industrial_colonies:physical_guidance/phase/digital_logistics"
+				"industrial_colonies:physical_guidance/first_autocrafting_cell"
+			]
+			tasks: [
+				{
+					id: "6840F2130738A768"
+					item: { count: 1, id: "ae2:crafting_unit" }
+					type: "item"
+				}
+				{
+					id: "3F08C72EDF16DB9A"
+					item: { count: 1, id: "ae2:molecular_assembler" }
+					type: "item"
+				}
+				{
+					id: "68EA6545F5A982F0"
+					item: { count: 1, id: "ae2:import_bus" }
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: 0.0d
+		}
+	]
+}

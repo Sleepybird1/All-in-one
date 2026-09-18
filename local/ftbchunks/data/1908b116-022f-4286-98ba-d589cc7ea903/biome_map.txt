@@ -1,0 +1,7 @@
+#4E1 regions_unexplored:clover_plains
+#301 regions_unexplored:orchard
+#3DC minecraft:plains
+#5B4 regions_unexplored:poppy_fields
+#5FF minecraft:river
+#02B regions_unexplored:shrubland
+#774 minecraft:sunflower_plains

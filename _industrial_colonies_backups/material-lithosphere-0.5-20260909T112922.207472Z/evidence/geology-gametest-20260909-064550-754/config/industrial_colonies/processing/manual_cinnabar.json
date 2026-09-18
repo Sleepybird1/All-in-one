@@ -1,0 +1,8 @@
+{
+  "enabled": true,
+  "heatingTicks": 1200,
+  "hammerCooldownTicks": 20,
+  "hammerDamage": 1,
+  "reach": 4.5,
+  "manualNoBatch": true
+}

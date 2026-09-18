@@ -1,0 +1,423 @@
+{
+  "structures": [
+    {
+      "structure": "ae2:meteorite",
+      "weight": 30
+    },
+    {
+      "structure": "apotheosis:tower_leaf",
+      "weight": 150
+    },
+    {
+      "structure": "apotheosis:tower_main",
+      "weight": 150
+    },
+    {
+      "structure": "apotheosis:tower_sand",
+      "weight": 150
+    },
+    {
+      "structure": "apotheosis:tower_spruce",
+      "weight": 150
+    },
+    {
+      "structure": "betterdungeons:skeleton_dungeon",
+      "weight": 10
+    },
+    {
+      "structure": "betterdungeons:small_dungeon",
+      "weight": 150
+    },
+    {
+      "structure": "betterdungeons:spider_dungeon",
+      "weight": 10
+    },
+    {
+      "structure": "betterdungeons:zombie_dungeon",
+      "weight": 10
+    },
+    {
+      "structure": "block_factorys_bosses:kraken_ship",
+      "weight": 300
+    },
+    {
+      "structure": "block_factorys_bosses:sandworm_nest",
+      "weight": 150
+    },
+    {
+      "structure": "block_factorys_bosses:yeti_hideout",
+      "weight": 150
+    },
+    {
+      "structure": "bosses_of_mass_destruction:lich_tower",
+      "weight": 150
+    },
+    {
+      "structure": "bosses_of_mass_destruction:void_blossom",
+      "weight": 150
+    },
+    {
+      "structure": "cataclysm:abandoned_spire",
+      "weight": 150
+    },
+    {
+      "structure": "cataclysm:abandoned_temple",
+      "weight": 150
+    },
+    {
+      "structure": "cataclysm:abandoned_village",
+      "weight": 1
+    },
+    {
+      "structure": "cataclysm:acropolis",
+      "weight": 10
+    },
+    {
+      "structure": "cataclysm:amethyst_nest",
+      "weight": 150
+    },
+    {
+      "structure": "cataclysm:ancient_factory",
+      "weight": 10
+    },
+    {
+      "structure": "cataclysm:cursed_pyramid",
+      "weight": 10
+    },
+    {
+      "structure": "cataclysm:desert_occupied_village",
+      "weight": 1
+    },
+    {
+      "structure": "cataclysm:desert_site",
+      "weight": 150
+    },
+    {
+      "structure": "cataclysm:desert_temple",
+      "weight": 150
+    },
+    {
+      "structure": "cataclysm:frosted_prison",
+      "weight": 10
+    },
+    {
+      "structure": "cataclysm:sunken_city",
+      "weight": 10
+    },
+    {
+      "structure": "ctov:pillager_outpost_badlands",
+      "weight": 150
+    },
+    {
+      "structure": "ctov:pillager_outpost_beach",
+      "weight": 150
+    },
+    {
+      "structure": "ctov:pillager_outpost_dark_forest",
+      "weight": 150
+    },
+    {
+      "structure": "ctov:pillager_outpost_desert",
+      "weight": 150
+    },
+    {
+      "structure": "ctov:pillager_outpost_jungle",
+      "weight": 150
+    },
+    {
+      "structure": "ctov:pillager_outpost_mesa",
+      "weight": 150
+    },
+    {
+      "structure": "ctov:pillager_outpost_mountain",
+      "weight": 150
+    },
+    {
+      "structure": "ctov:pillager_outpost_plains",
+      "weight": 150
+    },
+    {
+      "structure": "ctov:pillager_outpost_savanna",
+      "weight": 150
+    },
+    {
+      "structure": "ctov:pillager_outpost_snowy",
+      "weight": 150
+    },
+    {
+      "structure": "ctov:pillager_outpost_swamp",
+      "weight": 150
+    },
+    {
+      "structure": "ctov:pillager_outpost_taiga",
+      "weight": 150
+    },
+    {
+      "structure": "ctov:small/village_desert",
+      "weight": 20
+    },
+    {
+      "structure": "ctov:small/village_plains",
+      "weight": 20
+    },
+    {
+      "structure": "ctov:small/village_savanna",
+      "weight": 20
+    },
+    {
+      "structure": "ctov:small/village_snowy_igloo",
+      "weight": 20
+    },
+    {
+      "structure": "ctov:small/village_taiga",
+      "weight": 20
+    },
+    {
+      "structure": "dungeoncrawl:dungeon",
+      "weight": 10
+    },
+    {
+      "structure": "dungeonnowloading:labyrinth",
+      "weight": 10
+    },
+    {
+      "structure": "dungeonnowloading:temple_of_duality",
+      "weight": 10
+    },
+    {
+      "structure": "friendsandfoes:iceologer_cabin",
+      "weight": 150
+    },
+    {
+      "structure": "friendsandfoes:illusioner_shack",
+      "weight": 150
+    },
+    {
+      "structure": "friendsandfoes:illusioner_training_grounds",
+      "weight": 150
+    },
+    {
+      "structure": "irons_spellbooks:catacombs",
+      "weight": 10
+    },
+    {
+      "structure": "irons_spellbooks:evoker_fort",
+      "weight": 10
+    },
+    {
+      "structure": "irons_spellbooks:ice_spider_den",
+      "weight": 10
+    },
+    {
+      "structure": "irons_spellbooks:impaled_icebreaker",
+      "weight": 300
+    },
+    {
+      "structure": "irons_spellbooks:mangrove_hut",
+      "weight": 150
+    },
+    {
+      "structure": "irons_spellbooks:mountain_tower",
+      "weight": 150
+    },
+    {
+      "structure": "minecolonies:amazon_camp",
+      "weight": 1
+    },
+    {
+      "structure": "minecolonies:asian_colony",
+      "weight": 1
+    },
+    {
+      "structure": "minecolonies:barbarian_camp",
+      "weight": 1
+    },
+    {
+      "structure": "minecolonies:caledonia_colony",
+      "weight": 1
+    },
+    {
+      "structure": "minecolonies:colonial_colony",
+      "weight": 1
+    },
+    {
+      "structure": "minecolonies:desert_camp",
+      "weight": 1
+    },
+    {
+      "structure": "minecolonies:desertoasis_colony",
+      "weight": 1
+    },
+    {
+      "structure": "minecolonies:incan_colony",
+      "weight": 1
+    },
+    {
+      "structure": "minecolonies:lostmesacity_colony",
+      "weight": 1
+    },
+    {
+      "structure": "minecolonies:medieval_birch_colony",
+      "weight": 1
+    },
+    {
+      "structure": "minecolonies:medieval_dark_oak_colony",
+      "weight": 1
+    },
+    {
+      "structure": "minecolonies:medieval_oak_colony",
+      "weight": 1
+    },
+    {
+      "structure": "minecolonies:medieval_spruce_colony",
+      "weight": 1
+    },
+    {
+      "structure": "minecolonies:ship",
+      "weight": 300
+    },
+    {
+      "structure": "minecolonies:shire_colony",
+      "weight": 1
+    },
+    {
+      "structure": "minecraft:ancient_city",
+      "weight": 10
+    },
+    {
+      "structure": "minecraft:desert_pyramid",
+      "weight": 150
+    },
+    {
+      "structure": "minecraft:igloo",
+      "weight": 150
+    },
+    {
+      "structure": "minecraft:jungle_pyramid",
+      "weight": 150
+    },
+    {
+      "structure": "minecraft:mansion",
+      "weight": 20
+    },
+    {
+      "structure": "minecraft:monument",
+      "weight": 10
+    },
+    {
+      "structure": "minecraft:ocean_ruin_cold",
+      "weight": 150
+    },
+    {
+      "structure": "minecraft:ocean_ruin_warm",
+      "weight": 150
+    },
+    {
+      "structure": "minecraft:pillager_outpost",
+      "weight": 150
+    },
+    {
+      "structure": "minecraft:ruined_portal",
+      "weight": 150
+    },
+    {
+      "structure": "minecraft:ruined_portal_desert",
+      "weight": 150
+    },
+    {
+      "structure": "minecraft:ruined_portal_jungle",
+      "weight": 150
+    },
+    {
+      "structure": "minecraft:ruined_portal_mountain",
+      "weight": 150
+    },
+    {
+      "structure": "minecraft:ruined_portal_ocean",
+      "weight": 150
+    },
+    {
+      "structure": "minecraft:ruined_portal_swamp",
+      "weight": 150
+    },
+    {
+      "structure": "minecraft:shipwreck",
+      "weight": 300
+    },
+    {
+      "structure": "minecraft:shipwreck_beached",
+      "weight": 300
+    },
+    {
+      "structure": "minecraft:swamp_hut",
+      "weight": 150
+    },
+    {
+      "structure": "minecraft:village_desert",
+      "weight": 1000
+    },
+    {
+      "structure": "minecraft:village_plains",
+      "weight": 1000
+    },
+    {
+      "structure": "minecraft:village_savanna",
+      "weight": 1000
+    },
+    {
+      "structure": "minecraft:village_snowy",
+      "weight": 1000
+    },
+    {
+      "structure": "minecraft:village_taiga",
+      "weight": 1000
+    },
+    {
+      "structure": "mowziesmobs:frostmaw_spawn",
+      "weight": 150
+    },
+    {
+      "structure": "mowziesmobs:monastery",
+      "weight": 10
+    },
+    {
+      "structure": "mowziesmobs:umvuthana_grove",
+      "weight": 150
+    },
+    {
+      "structure": "mowziesmobs:wrought_chamber",
+      "weight": 150
+    },
+    {
+      "structure": "nuclearcraft:wasteland_village",
+      "weight": 1
+    },
+    {
+      "structure": "supplementaries:galleon",
+      "weight": 300
+    },
+    {
+      "structure": "supplementaries:road_sign",
+      "weight": 5
+    },
+    {
+      "structure": "stellaris:earth_satellite",
+      "weight": 150
+    },
+    {
+      "structure": "stellaris:earth_operation_base",
+      "weight": 150
+    },
+    {
+      "structure": "industrial_colonies:stellaris_overworld_meteor",
+      "weight": 30
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 19610912,
+    "spacing": 384,
+    "separation": 256,
+    "frequency": 0.5
+  }
+}

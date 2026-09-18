@@ -1,0 +1,51 @@
+{
+  "Enabled": true,
+  "ReactorReactants": {
+    "WipeExistingValuesBeforeAdding": false,
+    "Add": [
+      {
+        "Name": "mek_plutonium",
+        "TranslationKey": "reactant.industrial_colonies.mek_plutonium",
+        "IsFuel": true,
+        "RgbColour": 7529842,
+        "FuelProperties": {
+          "ModerationFactor": 2.23,
+          "AbsorptionCoefficient": 0.6,
+          "HardnessDivisor": 2.0,
+          "FissionEventsPerFuelUnit": 0.0137,
+          "FuelUnitsPerFissionEvent": 0.0006
+        }
+      }
+    ],
+    "Remove": []
+  },
+  "ReactorReactantSources": {
+    "WipeExistingValuesBeforeAdding": false,
+    "Add": [
+      {
+        "SourceTagId": "c:pellets/plutonium",
+        "ProductName": "mek_plutonium",
+        "ProductQuantity": 1000
+      }
+    ],
+    "Remove": [
+      "c:ingots/blutonium",
+      "c:ingots/plutonium",
+      "c:storage_blocks/blutonium",
+      "c:storage_blocks/plutonium",
+      "c:blutonium"
+    ]
+  },
+  "ReactorReactantReaction": {
+    "WipeExistingValuesBeforeAdding": false,
+    "Add": [
+      {
+        "SourceReactant": "mek_plutonium",
+        "ProductReactant": "magentite",
+        "Reactivity": 1.0871,
+        "FissionRate": 0.051
+      }
+    ],
+    "Remove": []
+  }
+}

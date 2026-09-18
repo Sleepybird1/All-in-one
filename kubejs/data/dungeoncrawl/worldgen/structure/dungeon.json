@@ -1,0 +1,14 @@
+{
+  "type": "dungeoncrawl:dungeon",
+  "biomes": {
+    "type": "neoforge:and",
+    "values": [
+      "#dungeoncrawl:has_structure/dungeon",
+      "#minecraft:is_overworld"
+    ]
+  },
+  "step": "underground_structures",
+  "terrain_adaptation": "none",
+  "config": {},
+  "spawn_overrides": {}
+}

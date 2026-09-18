@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:desert_pyramid",
+  "biomes": {
+    "type": "neoforge:and",
+    "values": [
+      "#minecraft:has_structure/desert_pyramid",
+      "#minecraft:is_overworld"
+    ]
+  },
+  "spawn_overrides": {},
+  "step": "surface_structures"
+}

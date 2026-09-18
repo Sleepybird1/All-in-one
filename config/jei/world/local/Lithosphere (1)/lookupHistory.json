@@ -1,0 +1,5 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"industrial_colonies:iron_bearing_dust"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"industrial_colonies:hematite"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

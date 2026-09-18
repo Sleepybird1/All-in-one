@@ -1,0 +1,55 @@
+{
+  "schema": 1,
+  "completed_at": "2026-08-30T21:36:52.6080280-04:00",
+  "project_root": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies",
+  "live_pack_root": "C:\\Users\\GodPC\\curseforge\\minecraft\\Instances\\All in one",
+  "project_jar_sha256": "8CA17F790544087D28C3C5DE9D90DB0F737210174D8D92FCAF0C23935B3331A5",
+  "owned_server_scripts": 40,
+  "owned_client_scripts": 8,
+  "owned_ftbquests_files": 4,
+  "recipe_stage_mappings": 0,
+  "changes": [
+    {
+      "Action": "Industrial Colonies mod JAR",
+      "Source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\build\\libs\\industrial_colonies-0.4.0.jar",
+      "Destination": "C:\\Users\\GodPC\\curseforge\\minecraft\\Instances\\All in one\\mods\\industrial_colonies-0.4.0.jar",
+      "Sha256": "8CA17F790544087D28C3C5DE9D90DB0F737210174D8D92FCAF0C23935B3331A5"
+    },
+    {
+      "Action": "Merged KJSGen default project",
+      "Source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\build\\generated\\kjsgen\\default.json",
+      "Destination": "C:\\Users\\GodPC\\curseforge\\minecraft\\Instances\\All in one\\kjsgen\\projects\\default.json",
+      "Sha256": "D5DB318DEE4E256943DF4C29C7D65CC6191D120107F0A179104B0C02F9C44E34"
+    },
+    {
+      "Action": "KJSGen managed-project merge baseline",
+      "Source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\build\\generated\\kjsgen\\default.managed.baseline.json",
+      "Destination": "C:\\Users\\GodPC\\curseforge\\minecraft\\Instances\\All in one\\kjsgen\\industrial_colonies_sync\\default.managed.baseline.json",
+      "Sha256": "6C2A241F4B8C53283B043A75F43658526B512301E0189F3CAF74EC9090F02B49"
+    },
+    {
+      "Action": "Create Applied Kinetics Inscriber compatibility config",
+      "Source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\pack-config-overrides\\createappliedkinetics-common.toml",
+      "Destination": "C:\\Users\\GodPC\\curseforge\\minecraft\\Instances\\All in one\\config\\createappliedkinetics-common.toml",
+      "Sha256": "6384423BC35409DDBA14C5B3477E5B66DD6DDBDFB0F1DEC33A867A2ECAA4518B"
+    },
+    {
+      "Action": "FTB Quests capstone data",
+      "Source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\pack-config-overrides\\ftbquests\\quests\\chapter_groups.snbt",
+      "Destination": "C:\\Users\\GodPC\\curseforge\\minecraft\\Instances\\All in one\\config\\ftbquests\\quests\\chapter_groups.snbt",
+      "Sha256": "DCEFA23F7441409DB799365BAC250DC2418800A7B7468B15984C2C866F0CB4CD"
+    },
+    {
+      "Action": "FTB Quests capstone data",
+      "Source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\pack-config-overrides\\ftbquests\\quests\\chapters\\industrial_progression.snbt",
+      "Destination": "C:\\Users\\GodPC\\curseforge\\minecraft\\Instances\\All in one\\config\\ftbquests\\quests\\chapters\\industrial_progression.snbt",
+      "Sha256": "DB8A8AE0D8003C1ECEEBDEA686161C83001EA32D918819FDF1B5AB6679028FF3"
+    },
+    {
+      "Action": "FTB Quests capstone data",
+      "Source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\pack-config-overrides\\ftbquests\\quests\\data.snbt",
+      "Destination": "C:\\Users\\GodPC\\curseforge\\minecraft\\Instances\\All in one\\config\\ftbquests\\quests\\data.snbt",
+      "Sha256": "18C6F7059B8365F4365A26FB13E5ADD54F19DDDD65B34BAEB90F02D025C6DD19"
+    }
+  ]
+}

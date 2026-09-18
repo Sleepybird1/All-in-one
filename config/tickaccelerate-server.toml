@@ -1,0 +1,103 @@
+#General settings
+[general]
+	#Minimum TPS to use in calculations (clamp floor). Below this, compensation stops increasing.
+	# Default: 5.0
+	# Range: 1.0 ~ 20.0
+	minTps = 5.0
+	#EMA smoothing factor for TPS calculation (0 = no change, 1 = no smoothing).
+	#Lower values produce smoother, slower transitions; higher values react faster.
+	#Recommended range: 0.05 ~ 0.3. Default 0.15 gives a good balance.
+	# Default: 0.15
+	# Range: 0.01 ~ 1.0
+	tpsSmoothingAlpha = 0.15
+	#Server display language for command output (e.g. en_us, zh_cn).
+	#This ensures proper text rendering for clients that do not have the mod installed.
+	serverLocale = "en_us"
+
+#Server-level compensations
+[server]
+	#Disable the dedicated server watchdog to prevent crash on low TPS.
+	disableWatchdog = true
+	#Compensate tick-based anti-cheat thresholds at low TPS.
+	#Prevents players from being kicked for 'flying' or 'moved too quickly'
+	#and compensates chat/drop spam counter decay rate.
+	enableAntiKick = true
+
+#Player-related compensations
+[player]
+	#Compensate block breaking speed so blocks break in the same real time.
+	enableBlockBreaking = true
+	#Compensate attack cooldown recovery speed.
+	enableAttackCooldown = true
+	#Compensate natural regeneration / starvation timer.
+	enableFoodRegen = true
+	#Compensate item use duration (eating, drinking, bow charge, etc).
+	enableItemUse = true
+	#Compensate item cooldowns (ender pearl, chorus fruit, shield, etc).
+	enableItemCooldown = true
+	#Compensate experience orb pickup delay.
+	enableXpPickupDelay = true
+	#Compensate sleep timer so the player falls asleep in the same real time.
+	enableSleepTimer = true
+
+#Entity-related compensations
+[entity]
+	#Compensate potion effect durations.
+	enablePotionEffect = true
+	#Compensate dropped item pickup delay.
+	enableItemPickupDelay = true
+	#Compensate nether portal transition time.
+	enablePortalTime = true
+	#Compensate hurt (damage) invulnerability cooldown for entities.
+	enableHurtTime = true
+	#Compensate death animation timer for entities.
+	enableDeathTime = true
+	#Compensate air supply recovery speed when surfacing from water.
+	enableAirSupply = true
+	#Compensate attack swing animation speed so arm swings play at correct real-time speed.
+	enableSwingSpeed = true
+	#Compensate damage invulnerability frames (iFrames) for non-player entities.
+	enableInvulnerability = true
+	#Compensate fire tick duration so entities stop burning in the same real time.
+	enableFireTick = true
+	#Compensate vehicle boarding cooldown (60 ticks after dismounting).
+	enableBoardingCooldown = true
+	#Compensate dropped item despawn timer so items despawn in correct real time.
+	#Prevents item entity buildup at low TPS.
+	enableItemDespawn = true
+	#Compensate experience orb age/despawn timer.
+	enableXpOrbAge = true
+	#Compensate arrow life timer (despawn after 60s stuck in block).
+	enableArrowLife = true
+	#Compensate animal breeding 'in love' timer (600 ticks = 30 seconds).
+	enableBreedingTimer = true
+	#Compensate baby mob growth timer so babies grow up in the correct real time.
+	enableMobGrowth = true
+	#Compensate TNT fuse timer so TNT explodes in the correct real time (default 80 ticks = 4s).
+	enableTntFuse = true
+	#Compensate falling block entity time counter so sand/gravel/anvils land at correct real-time speed.
+	enableFallingBlock = true
+
+#World-level compensations
+[world]
+	#Compensate fluid (water/lava) spread tick delay so fluids flow at the same real-time speed.
+	enableFluidSpeed = true
+	#Compensate random tick speed (crop growth, leaf decay, etc) so they progress at the same real-time rate.
+	enableRandomTick = true
+	#Compensate portal re-entry cooldown so it lasts the same real time after teleportation.
+	enablePortalCooldown = true
+	#Compensate day/night cycle progression so the sun and moon move at the correct real-time speed.
+	enableDayTime = true
+	#Compensate block entity ticking (furnaces, hoppers, brewing stands, etc).
+	enableBlockEntityTick = true
+	#Compensate weather cycle so rain/thunder transitions happen at correct real-time speed.
+	enableWeatherCycle = true
+	#Compensate mob spawner delay so spawners produce mobs at the correct real-time rate.
+	enableSpawnerCooldown = true
+
+#Client-side animation compensations
+[client]
+	#Compensate client-side animation playback speed (hurt flash, death animation, swing animation, etc).
+	#When TPS is low, these tick-based animations normally play slower than intended.
+	#This makes them play at correct real-time speed on the client.
+	enableClientAnimations = true

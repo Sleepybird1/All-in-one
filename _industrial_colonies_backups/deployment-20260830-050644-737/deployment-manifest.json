@@ -1,0 +1,85 @@
+{
+  "schema": 1,
+  "completed_at": "2026-08-30T05:06:45.0063301-04:00",
+  "project_root": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies",
+  "live_pack_root": "C:\\Users\\GodPC\\curseforge\\minecraft\\Instances\\All in one",
+  "project_jar_sha256": "5907A7B8C64B05B165A2FC3646B54D9AA14C79B84B7139999FC71E5F6A8752F9",
+  "owned_server_scripts": 35,
+  "owned_client_scripts": 8,
+  "owned_ftbquests_files": 4,
+  "recipe_stage_mappings": 223,
+  "changes": [
+    {
+      "Action": "Industrial Colonies mod JAR",
+      "Source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\build\\libs\\industrial_colonies-0.4.0.jar",
+      "Destination": "C:\\Users\\GodPC\\curseforge\\minecraft\\Instances\\All in one\\mods\\industrial_colonies-0.4.0.jar",
+      "Sha256": "5907A7B8C64B05B165A2FC3646B54D9AA14C79B84B7139999FC71E5F6A8752F9"
+    },
+    {
+      "Action": "KubeJS server script",
+      "Source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\pack-scripts\\server_scripts\\industrial_allthemodium_currency.js",
+      "Destination": "C:\\Users\\GodPC\\curseforge\\minecraft\\Instances\\All in one\\kubejs\\server_scripts\\industrial_allthemodium_currency.js",
+      "Sha256": "F7DE39FDC746B61C7377C40D7739A5442E2794287EB4B243C41F848A179C36CB"
+    },
+    {
+      "Action": "KubeJS server script",
+      "Source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\pack-scripts\\server_scripts\\industrial_black_hole_megaproject.js",
+      "Destination": "C:\\Users\\GodPC\\curseforge\\minecraft\\Instances\\All in one\\kubejs\\server_scripts\\industrial_black_hole_megaproject.js",
+      "Sha256": "6091D70ED61487AF36E23C5D16D24391E32CE9D30DF62BE20D1E5F340DD05F3A"
+    },
+    {
+      "Action": "KubeJS server script",
+      "Source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\pack-scripts\\server_scripts\\industrial_reserve_core_megaproject.js",
+      "Destination": "C:\\Users\\GodPC\\curseforge\\minecraft\\Instances\\All in one\\kubejs\\server_scripts\\industrial_reserve_core_megaproject.js",
+      "Sha256": "039566F066EEF07DC2FB0C747B9B42E12150BE1BE9B946D9F1AF0AD9EA764F14"
+    },
+    {
+      "Action": "KubeJS server script",
+      "Source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\pack-scripts\\server_scripts\\industrial_star_megaproject.js",
+      "Destination": "C:\\Users\\GodPC\\curseforge\\minecraft\\Instances\\All in one\\kubejs\\server_scripts\\industrial_star_megaproject.js",
+      "Sha256": "4BF93AA975DDF9160F4AB6B0086326D9DE1FFEE470EF83910BCFC15A2E09043D"
+    },
+    {
+      "Action": "KubeJS server script",
+      "Source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\pack-scripts\\server_scripts\\industrial_uranium_yellorium_separation.js",
+      "Destination": "C:\\Users\\GodPC\\curseforge\\minecraft\\Instances\\All in one\\kubejs\\server_scripts\\industrial_uranium_yellorium_separation.js",
+      "Sha256": "80C7C7E3CC07297B86F72AD1025E47AC03A90488222D289CBCA833EF4B6DF640"
+    },
+    {
+      "Action": "KubeJS client script",
+      "Source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\pack-scripts\\client_scripts\\industrial_megaproject_viewer_cleanup.js",
+      "Destination": "C:\\Users\\GodPC\\curseforge\\minecraft\\Instances\\All in one\\kubejs\\client_scripts\\industrial_megaproject_viewer_cleanup.js",
+      "Sha256": "E6622099FA558EF5E6E051C18200136255E58B60513769FFCF9D729DC3CCBC32"
+    },
+    {
+      "Action": "FTB Quests project-owned data",
+      "Source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\pack-config-overrides\\ftbquests\\quests\\chapter_groups.snbt",
+      "Destination": "C:\\Users\\GodPC\\curseforge\\minecraft\\Instances\\All in one\\config\\ftbquests\\quests\\chapter_groups.snbt",
+      "Sha256": "DCEFA23F7441409DB799365BAC250DC2418800A7B7468B15984C2C866F0CB4CD"
+    },
+    {
+      "Action": "FTB Quests project-owned data",
+      "Source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\pack-config-overrides\\ftbquests\\quests\\chapters\\industrial_progression.snbt",
+      "Destination": "C:\\Users\\GodPC\\curseforge\\minecraft\\Instances\\All in one\\config\\ftbquests\\quests\\chapters\\industrial_progression.snbt",
+      "Sha256": "60FA6397AB5D36370907DCA8E9D41327AEC028B8E65C7B8873474D29D66AA24A"
+    },
+    {
+      "Action": "FTB Quests project-owned data",
+      "Source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\pack-config-overrides\\ftbquests\\quests\\data.snbt",
+      "Destination": "C:\\Users\\GodPC\\curseforge\\minecraft\\Instances\\All in one\\config\\ftbquests\\quests\\data.snbt",
+      "Sha256": "18C6F7059B8365F4365A26FB13E5ADD54F19DDDD65B34BAEB90F02D025C6DD19"
+    },
+    {
+      "Action": "FTB Quests project-owned data",
+      "Source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\pack-config-overrides\\ftbquests\\quests\\lang\\en_us.snbt",
+      "Destination": "C:\\Users\\GodPC\\curseforge\\minecraft\\Instances\\All in one\\config\\ftbquests\\quests\\lang\\en_us.snbt",
+      "Sha256": "FBE2AA86A4173D26C48CB20D77E6784115F8935F178C79083909241A7899C7ED"
+    },
+    {
+      "Action": "Retire duplicate active Industrial Colonies JAR",
+      "Source": "C:\\Users\\GodPC\\curseforge\\minecraft\\Instances\\All in one\\mods\\industrial_colonies-0.3.0.jar",
+      "Destination": "C:\\Users\\GodPC\\curseforge\\minecraft\\Instances\\All in one\\_industrial_colonies_backups\\deployment-20260830-050644-737\\disabled-or-retired\\mods\\industrial_colonies-0.3.0.jar",
+      "Sha256": "8E021AD1DF5224D1EB32267C79A77FD1BC1E1681FF8223EA82A8B4FDB9894228"
+    }
+  ]
+}

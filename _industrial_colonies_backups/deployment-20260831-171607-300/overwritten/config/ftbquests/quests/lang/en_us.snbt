@@ -1,0 +1,215 @@
+{
+  "file.0000000000000001.title": "Industrial Colonies Guide",
+  "chapter.755CA7A80FA55558.title": "Factory Foundations",
+  "chapter.755CA7A80FA55558.chapter_subtitle": [
+    "Build a physical production chain from scavenged flint to the first TFMG diesel engine.",
+    "Quest lines are guidance only: recipes and machines remain usable whenever their real inputs are available."
+  ],
+  "quest.7B267A9BDA18FB08.title": "A Shard and a Stick",
+  "quest.7B267A9BDA18FB08.quest_subtitle": "Assemble the crude tool that starts the pack.",
+  "quest.7B267A9BDA18FB08.quest_desc": [
+    "Break leaves for sticks and search gravel or the ground for flint, then assemble a Crude Flint Pickaxe.",
+    "It is deliberately poor. Its job is to get the first stone and copper without restoring vanilla wooden-tool shortcuts."
+  ],
+  "quest.25564D0B6D54A977.title": "Copper Tool Workshop",
+  "quest.25564D0B6D54A977.quest_subtitle": "Build the stations for repairable modular tools.",
+  "quest.25564D0B6D54A977.quest_desc": [
+    "Craft a Part Builder and Tinker Station, then use copper parts to replace the crude emergency pickaxe.",
+    "These stations are a permanent repair and upgrade foundation, not a disposable tutorial step."
+  ],
+  "quest.3764A497D2E15A90.title": "Andesite Stock",
+  "quest.3764A497D2E15A90.quest_subtitle": "Prepare the first standardized machine material.",
+  "quest.3764A497D2E15A90.quest_desc": [
+    "Produce a working batch of Andesite Alloy for shafts, casings, and early Create machinery.",
+    "Sixteen ingots are a small production lot, not a toll: the task never consumes them."
+  ],
+  "quest.7D8F9757107D900E.title": "Rotational Power",
+  "quest.7D8F9757107D900E.quest_subtitle": "Turn flowing water into a reusable kinetic bus.",
+  "quest.7D8F9757107D900E.quest_desc": [
+    "Place a Water Wheel in flowing water and carry its rotation with shafts.",
+    "Leave space for gearing and future parallel lines instead of building a single-machine dead end."
+  ],
+  "quest.4690588A445A568A.title": "Material Handling",
+  "quest.4690588A445A568A.quest_subtitle": "Give the factory controlled transfer points.",
+  "quest.4690588A445A568A.quest_desc": [
+    "Use a Depot as a process position and a Chute for compact vertical transfer.",
+    "These two blocks become the handoff points between belts, presses, deployers, and bulk storage."
+  ],
+  "quest.42774C522DB6D308.title": "Mechanical Processing Line",
+  "quest.42774C522DB6D308.quest_subtitle": "Press, mix, wash, smoke, and blast materials in motion.",
+  "quest.42774C522DB6D308.quest_desc": [
+    "Build the Mechanical Press, Mechanical Mixer, and Encased Fan.",
+    "Together they turn rotation into the first repeatable processing line and prepare the operations used by later component recipes."
+  ],
+  "quest.644174D8D1981A6B.title": "Liquid Handling",
+  "quest.644174D8D1981A6B.quest_subtitle": "Store, route, and apply process fluids.",
+  "quest.644174D8D1981A6B.quest_desc": [
+    "Build a Mechanical Pump, Fluid Tank, and Spout and connect them with Create pipes.",
+    "This plumbing foundation remains useful for steam, oil, refined fuel, and chemical support lines."
+  ],
+  "quest.29D2F5846190436E.title": "Bulk Storage",
+  "quest.29D2F5846190436E.quest_subtitle": "Buffer a production line instead of carrying every batch.",
+  "quest.29D2F5846190436E.quest_desc": [
+    "Build an Item Vault and connect it to the material-handling line.",
+    "Buffers keep upstream machines productive while downstream operations stop, change recipes, or expand."
+  ],
+  "quest.3084D2C62CB77DF2.title": "Controlled Blaze Heat",
+  "quest.3084D2C62CB77DF2.quest_subtitle": "Add regulated high-temperature processing.",
+  "quest.3084D2C62CB77DF2.quest_desc": [
+    "Capture a Blaze in a Blaze Burner and install it beneath a Basin or boiler tank.",
+    "This heat source opens brass alloying and powered steam generation without acting as a quest-side lock."
+  ],
+  "quest.7CD0AB35E320C066.title": "Steam Power Plant",
+  "quest.7CD0AB35E320C066.quest_subtitle": "Convert a heated water system into scalable rotation.",
+  "quest.7CD0AB35E320C066.quest_desc": [
+    "Expand the Fluid Tank into a boiler, supply water and heat, then fit two Steam Engines to the structure.",
+    "Verify the boiler is actually producing rotation before treating the plant as complete; the quest only audits the tangible engine hardware."
+  ],
+  "quest.613FA403F315154B.title": "Brass Production",
+  "quest.613FA403F315154B.quest_subtitle": "Establish a heated copper-zinc alloy line.",
+  "quest.613FA403F315154B.quest_desc": [
+    "Use controlled Blaze heat and mechanical mixing to produce Brass Ingots, then prepare Brass Casings.",
+    "Keep this as a repeatable alloy line because precision mechanisms and smart logistics consume brass continuously."
+  ],
+  "quest.7E6341184F840A14.title": "Deployer Assembly",
+  "quest.7E6341184F840A14.quest_subtitle": "Place components onto moving workpieces without a player hand.",
+  "quest.7E6341184F840A14.quest_desc": [
+    "Use the new brass supply to build a Deployer, then give it a filtered input and a controlled work position.",
+    "Deployers are the core actors for sequenced assembly; the more capable Mechanical Arm follows after Precision Mechanisms exist."
+  ],
+  "quest.61A6D3F19EEB34C7.title": "Precision Assembly",
+  "quest.61A6D3F19EEB34C7.quest_subtitle": "Run the pack's first recognizable sequenced component line.",
+  "quest.61A6D3F19EEB34C7.quest_desc": [
+    "Automate Precision Mechanisms with a controlled sequence of component placement and pressing.",
+    "Produce a batch rather than hand-feeding one mechanism; later machine construction treats this as factory stock."
+  ],
+  "quest.58A7A51DA92A33AA.title": "Smart Brass Logistics",
+  "quest.58A7A51DA92A33AA.quest_subtitle": "Filter and distribute items by purpose.",
+  "quest.58A7A51DA92A33AA.quest_desc": [
+    "Build Brass Funnels, a Brass Tunnel, a Smart Chute, and a Mechanical Arm, then use filters to separate at least two products.",
+    "The arm requires a Precision Mechanism, so this branch improves the working assembly factory instead of pretending brass alone can build it."
+  ],
+  "quest.13389943D0FAD5DA.title": "Large-Grid Fabrication",
+  "quest.13389943D0FAD5DA.quest_subtitle": "Build the reusable 3x3 core of a Mechanical Crafter wall.",
+  "quest.13389943D0FAD5DA.quest_desc": [
+    "Manufacture nine Mechanical Crafters and power them as one connected grid.",
+    "The wall can expand beyond 3x3; large industrial machines later require deliberate 5x5 layouts."
+  ],
+  "quest.29D90F99EFEE1161.title": "Crushing Line",
+  "quest.29D90F99EFEE1161.quest_subtitle": "Increase ore and bulk-material processing capacity.",
+  "quest.29D90F99EFEE1161.quest_desc": [
+    "Manufacture a matched pair of Crushing Wheels and build a safe powered crusher.",
+    "Route outputs into a buffer so this high-throughput step can feed washing, mixing, and metallurgy."
+  ],
+  "quest.47A3EC06D2E649DE.title": "Rail Freight",
+  "quest.47A3EC06D2E649DE.quest_subtitle": "Prepare terrestrial bulk transport for separated factory districts.",
+  "quest.47A3EC06D2E649DE.quest_desc": [
+    "Build a Track Station and enough Track for a useful test segment.",
+    "Trains are a long-lived logistics layer for mines, oil fields, colonies, and remote processing sites."
+  ],
+  "quest.52C70E33F82424F3.title": "Cast-Iron Works",
+  "quest.52C70E33F82424F3.quest_subtitle": "Prepare structural metal for TFMG heavy industry.",
+  "quest.52C70E33F82424F3.quest_desc": [
+    "Produce a batch of TFMG Cast Iron and form several Cast Iron Frames.",
+    "This is the construction stock for coke processing and the first heavy industrial assemblies."
+  ],
+  "quest.68015D83ABB6978E.title": "Coke Oven Bank",
+  "quest.68015D83ABB6978E.quest_subtitle": "Turn coal into metallurgical fuel and useful byproducts.",
+  "quest.68015D83ABB6978E.quest_desc": [
+    "Build at least one TFMG Coke Oven and automate coal input, Coal Coke output, and fluid handling for Creosote and Carbon Dioxide.",
+    "TFMG's oven is intentionally slow, so reserve room for a parallel bank instead of treating one oven as permanent capacity."
+  ],
+  "quest.1CCCC465FEA474E1.title": "Metallurgical Fuel Stock",
+  "quest.1CCCC465FEA474E1.quest_subtitle": "Prove the coke line can supply sustained steelmaking.",
+  "quest.1CCCC465FEA474E1.quest_desc": [
+    "Run the Coke Oven line until it produces a working batch of TFMG Coal Coke.",
+    "The quest observes the output without consuming it, so the same batch can charge the blast furnace."
+  ],
+  "quest.6D678C942CF65C0F.title": "Blast Furnace",
+  "quest.6D678C942CF65C0F.quest_subtitle": "Assemble TFMG's hot-air steelmaking structure.",
+  "quest.6D678C942CF65C0F.quest_desc": [
+    "Center the furnace on a Blast Furnace Output, surround it with a fireproof-brick cylinder, and fit a Blast Furnace Hatch for hot air.",
+    "Install reinforcement and a Blast Stove, then automate solid charging from the top and steel collection from the output."
+  ],
+  "quest.0E5BD2CFD14A633A.title": "First Steel Campaign",
+  "quest.0E5BD2CFD14A633A.quest_subtitle": "Run the blast furnace as a production machine, not a display piece.",
+  "quest.0E5BD2CFD14A633A.quest_desc": [
+    "Supply hot air, iron feed, and Coal Coke until the furnace produces a batch of TFMG Steel Ingots.",
+    "Keep steelmaking online: petroleum machinery, engines, electrical equipment, and later tiers all draw from this line."
+  ],
+  "quest.4FC2BE1934396EF9.title": "Steel Mechanisms",
+  "quest.4FC2BE1934396EF9.quest_subtitle": "Combine precision assembly with heavy metallurgy.",
+  "quest.4FC2BE1934396EF9.quest_desc": [
+    "Automate TFMG Steel Mechanisms from the new steel supply using the established assembly line.",
+    "This component is the bridge from brass-era automation into engines, prospecting, and heavy process equipment."
+  ],
+  "quest.5B31CD0E49FE0072.title": "Oil Prospecting",
+  "quest.5B31CD0E49FE0072.quest_subtitle": "Locate a TFMG reservoir before building extraction infrastructure.",
+  "quest.5B31CD0E49FE0072.quest_desc": [
+    "Craft a Surface Scanner and use it to find a viable oil deposit away from the main production floor.",
+    "Plan a rail or bulk-fluid route back to the refinery instead of moving the entire factory to the well."
+  ],
+  "quest.3A3FE22AFFDC2AA6.title": "Pumpjack Assembly",
+  "quest.3A3FE22AFFDC2AA6.quest_subtitle": "Build a powered extraction machine over the reservoir.",
+  "quest.3A3FE22AFFDC2AA6.quest_desc": [
+    "Run Industrial Pipes from the deposit to the surface, place the Pumpjack Base, then assemble the holder, crank, connector, head, and glued hammer parts.",
+    "Drive the Pumpjack Crank through a machine input and route the extracted crude into a tank or freight terminal."
+  ],
+  "quest.2DF5B6E3DB301322.title": "First Crude Oil",
+  "quest.2DF5B6E3DB301322.quest_subtitle": "Prove that the extraction line reaches storage.",
+  "quest.2DF5B6E3DB301322.quest_desc": [
+    "Operate the pumpjack until TFMG Crude Oil reaches a tank, then draw one bucket as a tangible line sample.",
+    "The bucket is not consumed and does not replace the bulk-fluid network required by the refinery."
+  ],
+  "quest.40921767ED845051.title": "Steel Distillation Column",
+  "quest.40921767ED845051.quest_subtitle": "Separate crude oil into useful TFMG fractions.",
+  "quest.40921767ED845051.quest_desc": [
+    "Build the base from Steel Tanks, attach the Steel Distillation Controller, and stack Industrial Pipes with the required Distillation Outputs.",
+    "Place a heat source beneath the tanks, feed crude into the controller, and route every output so a full buffer cannot stall the column."
+  ],
+  "quest.7345CDBE48B1E78E.title": "TFMG Diesel Supply",
+  "quest.7345CDBE48B1E78E.quest_subtitle": "Commission the pack's canonical diesel production line.",
+  "quest.7345CDBE48B1E78E.quest_desc": [
+    "Run the distillation column until it produces TFMG Diesel and draw a bucket as a line sample.",
+    "TFMG Diesel is the canonical fuel used by the pack; keep it in bulk storage and route it to engine consumers."
+  ],
+  "quest.09B6F1F98DB6C64D.title": "Engine Fabrication",
+  "quest.09B6F1F98DB6C64D.quest_subtitle": "Manufacture the modular hardware for controlled combustion power.",
+  "quest.09B6F1F98DB6C64D.quest_desc": [
+    "Build a Regular Engine block, Diesel Engine Cylinder, Engine Controller, Engine Gearbox, and Steel Flywheel.",
+    "The controller links to an engine with a transmission item; the gearbox and flywheel make the first installation useful as factory infrastructure."
+  ],
+  "quest.0DBF619FB292F51B.title": "First Working Diesel Engine",
+  "quest.0DBF619FB292F51B.quest_subtitle": "Join the fuel and engine branches into a running power source.",
+  "quest.0DBF619FB292F51B.quest_desc": [
+    "Place the Regular Engine, insert the Diesel Engine Cylinder and a shaft, connect TFMG Diesel input, and leave a valid exhaust path.",
+    "Start it with redstone, verify that the shaft turns under load, then link the Engine Controller if you want direct speed and direction control.",
+    "FTB Quests cannot detect multiblock runtime state, so the non-consuming tasks audit the complete commissioning kit while the running-shaft check remains an explicit build instruction."
+  ],
+  "chapter.5EAE8C019077D7EF.title": "Industrial Endgame",
+  "chapter.5EAE8C019077D7EF.chapter_subtitle": [
+    "Three non-gating factory objectives for the physical recipe progression.",
+    "Build mass, prove sustained chemical throughput, then combine both achievements into the Industrial Star."
+  ],
+  "quest.4B66DE417E679AE6.title": "Black Hole",
+  "quest.4B66DE417E679AE6.quest_subtitle": "Collapse nine maximum-density renewable material streams.",
+  "quest.4B66DE417E679AE6.quest_desc": [
+    "Produce the nine 9x-compressed renewable materials and craft the Black Hole.",
+    "The recipe represents 3,486,784,401 base blocks across cobblestone, stone, gravel, dirt, basalt, blackstone, oak logs, sand, and oak planks.",
+    "This quest only observes the finished item; it does not unlock or grant anything."
+  ],
+  "quest.3373AEB6F841A026.title": "Industrial Reserve Core",
+  "quest.3373AEB6F841A026.quest_subtitle": "Prove sustained fuel, acid, polymer, and actinide throughput.",
+  "quest.3373AEB6F841A026.quest_desc": [
+    "Run the 512-loop Sequenced Assembly that manufactures one Industrial Reserve Core.",
+    "The completed core consumes 4,096 HDPE Pellets, 512 Plutonium Pellets, 1,024,000 mB TFMG Sulfuric Acid, and 5,120,000 mB TFMG Diesel.",
+    "This quest is guidance only; the physical recipe and its inputs are the progression gate."
+  ],
+  "quest.00C5B9DFDCC5F502.title": "Industrial Star",
+  "quest.00C5B9DFDCC5F502.quest_subtitle": "Complete the base pack's ultimate factory artifact.",
+  "quest.00C5B9DFDCC5F502.quest_desc": [
+    "Mechanically craft the Black Hole, Industrial Reserve Core, Ultimate control circuits, and all three manufactured Allthemodium alloy families in a 5x5 grid.",
+    "The Industrial Star is the base-pack capstone and the future handoff into orbital and space-travel expansions.",
+    "No quest reward or stage is emitted; possession of the crafted Star completes the objective."
+  ]
+}

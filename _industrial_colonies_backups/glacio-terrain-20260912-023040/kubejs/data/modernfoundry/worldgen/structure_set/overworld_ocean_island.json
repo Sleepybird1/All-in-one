@@ -1,0 +1,19 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "frequency": 0.05,
+    "salt": 25988585,
+    "separation": 48,
+    "spacing": 96
+  },
+  "structures": [
+    {
+      "structure": "modernfoundry:earth_slime_island",
+      "weight": 1
+    },
+    {
+      "structure": "modernfoundry:ocean_skyslime_island",
+      "weight": 1
+    }
+  ]
+}

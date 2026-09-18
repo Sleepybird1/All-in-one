@@ -1,0 +1,74 @@
+{
+  "status": "PASS",
+  "economicFeaturesChecked": 5,
+  "directGuardCalls": 10,
+  "overworldBiomesInspected": 129,
+  "lavaFeatureRetained": true,
+  "paleGardenFamily": "ordinary_forest",
+  "decorativeResourcePriority": [
+    {
+      "resource": "minecraft:worldgen/configured_feature/ore_andesite.json",
+      "sourcePack": "mod/industrial_colonies:resourcepacks/ic_wwoo_decorative",
+      "sha256": "add2247bb7e9e9395deeb5571f0329fda9c781d70d1e24641c45bd50984ba009"
+    },
+    {
+      "resource": "minecraft:worldgen/configured_feature/ore_diorite.json",
+      "sourcePack": "mod/industrial_colonies:resourcepacks/ic_wwoo_decorative",
+      "sha256": "aafa75748b44eb5c0683aa0806c78e84b3409fc3ce3a0305b6e5f54e9dc83182"
+    },
+    {
+      "resource": "minecraft:worldgen/configured_feature/ore_granite.json",
+      "sourcePack": "mod/industrial_colonies:resourcepacks/ic_wwoo_decorative",
+      "sha256": "8567ae951eaf97d912eca16e46f19e66a43acd8e2b4bcc156edcf092a76a8cc7"
+    },
+    {
+      "resource": "minecraft:worldgen/configured_feature/ore_dirt.json",
+      "sourcePack": "mod/industrial_colonies:resourcepacks/ic_wwoo_decorative",
+      "sha256": "261065a5cb681653cfe1f78ad214e84da1b203143e30a65edc8c3081f4cf166e"
+    },
+    {
+      "resource": "minecraft:worldgen/configured_feature/ore_gravel.json",
+      "sourcePack": "mod/industrial_colonies:resourcepacks/ic_wwoo_decorative",
+      "sha256": "27d25dd85d2d3fe6f91cc3b7a3b5275e17ff4cad553402d7c4f781f75447a2da"
+    },
+    {
+      "resource": "minecraft:worldgen/placed_feature/ore_andesite_lower.json",
+      "sourcePack": "mod/industrial_colonies:resourcepacks/ic_wwoo_decorative",
+      "sha256": "80acad3053cd03e871e36bff3e03e347abc2418a2beffa0bdf49fb39e38fe977"
+    },
+    {
+      "resource": "minecraft:worldgen/placed_feature/ore_andesite_upper.json",
+      "sourcePack": "mod/industrial_colonies:resourcepacks/ic_wwoo_decorative",
+      "sha256": "ce18f7c52c3d10ad77e436c2185a6f9e7129f5d6be5f7725d7cc4b2e4f82fa1d"
+    },
+    {
+      "resource": "minecraft:worldgen/placed_feature/ore_diorite_lower.json",
+      "sourcePack": "mod/industrial_colonies:resourcepacks/ic_wwoo_decorative",
+      "sha256": "f509765632416a5ac760595d43d1fba011ab7dcbde1518f6219f31599b89cbcd"
+    },
+    {
+      "resource": "minecraft:worldgen/placed_feature/ore_diorite_upper.json",
+      "sourcePack": "mod/industrial_colonies:resourcepacks/ic_wwoo_decorative",
+      "sha256": "82a6fdc8a030f4652da4479eda19d0ce769a389645da747bab2727dd2c5ed6f4"
+    },
+    {
+      "resource": "minecraft:worldgen/placed_feature/ore_granite_lower.json",
+      "sourcePack": "mod/industrial_colonies:resourcepacks/ic_wwoo_decorative",
+      "sha256": "55252dbf46a51ea5fef6e4ca0d4ab5391ed23e6759c8e102e4089d156f8c6367"
+    },
+    {
+      "resource": "minecraft:worldgen/placed_feature/ore_granite_upper.json",
+      "sourcePack": "mod/industrial_colonies:resourcepacks/ic_wwoo_decorative",
+      "sha256": "e7ba30ad82f524a524b83d97a156194c84885b11d9e5d695c24e0b817901f40f"
+    },
+    {
+      "resource": "minecraft:worldgen/placed_feature/ore_dirt.json",
+      "sourcePack": "mod/industrial_colonies:resourcepacks/ic_wwoo_decorative",
+      "sha256": "ac4fc3a1458dfaa73a365797f8da605ab41e216e19d99cb2e515c21246dfbf02"
+    }
+  ],
+  "wwooLavaSpringPolicyPreserved": true,
+  "minimumBuildHeight": -64,
+  "maximumBuildHeight": 512,
+  "scope": "Effective registry/tag/biome removal plus actual no-write placement guards. No forced chunk, no block writes, no world distribution certification."
+}

@@ -1,0 +1,54 @@
+{
+  "entries": [
+    {
+      "pool": "minecraft:village/desert/houses",
+      "structures": [
+        {
+          "id": "rpg-minibosses:village/generic/wanted",
+          "weight": 10,
+          "limit": 1
+        }
+      ]
+    },
+    {
+      "pool": "minecraft:village/savanna/houses",
+      "structures": [
+        {
+          "id": "rpg-rpg-minibosses:village/generic/wanted",
+          "weight": 10,
+          "limit": 1
+        }
+      ]
+    },
+    {
+      "pool": "minecraft:village/plains/houses",
+      "structures": [
+        {
+          "id": "rpg-minibosses:village/generic/wanted",
+          "weight": 10,
+          "limit": 1
+        }
+      ]
+    },
+    {
+      "pool": "minecraft:village/taiga/houses",
+      "structures": [
+        {
+          "id": "rpg-minibosses:village/generic/wanted",
+          "weight": 10,
+          "limit": 1
+        }
+      ]
+    },
+    {
+      "pool": "minecraft:village/snowy/houses",
+      "structures": [
+        {
+          "id": "rpg-minibosses:village/generic/wanted",
+          "weight": 10,
+          "limit": 1
+        }
+      ]
+    }
+  ]
+}

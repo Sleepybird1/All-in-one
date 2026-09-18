@@ -1,0 +1,68 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "rsquare"
+	filename: "industrial_progression"
+	group: ""
+	id: "5EAE8C019077D7EF"
+	images: [ ]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			disable_toast: true
+			icon: {
+				id: "industrial_colonies:black_hole"
+			}
+			id: "4B66DE417E679AE6"
+			tags: [
+				"industrial_colonies:endgame_guidance"
+				"industrial_colonies:endgame_guidance/black_hole"
+			]
+			tasks: [{
+				id: "20E484AA707D9B02"
+				item: { count: 1, id: "industrial_colonies:black_hole" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4B66DE417E679AE6"]
+			disable_toast: true
+			icon: {
+				id: "industrial_colonies:industrial_reserve_core"
+			}
+			id: "3373AEB6F841A026"
+			tags: [
+				"industrial_colonies:endgame_guidance"
+				"industrial_colonies:endgame_guidance/industrial_reserves"
+			]
+			tasks: [{
+				id: "151350606F0AEA63"
+				item: { count: 1, id: "industrial_colonies:industrial_reserve_core" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3373AEB6F841A026"]
+			disable_toast: true
+			icon: {
+				id: "industrial_colonies:industrial_star"
+			}
+			id: "00C5B9DFDCC5F502"
+			tags: [
+				"industrial_colonies:endgame_guidance"
+				"industrial_colonies:endgame_guidance/industrial_star"
+			]
+			tasks: [{
+				id: "7E7DE00B68C29219"
+				item: { count: 1, id: "industrial_colonies:industrial_star" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+	]
+}

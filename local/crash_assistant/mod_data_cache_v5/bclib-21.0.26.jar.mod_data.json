@@ -1,0 +1,1 @@
+{"fileSize":2159176,"lastModifiedMillis":1789342956995,"mod":{"jarName":"bclib-21.0.26.jar","modId":"bclib","name":"BCLib","version":"21.0.26","mixinConfigs":["bclib.mixins.client.json","bclib.mixins.common.json","ui.mixins.client.json"],"jarJarMods":[],"curseForgeHash":1101722029,"modrinthHash":"06cc971fd149d7dae65c75792798b98be7439141"}}

@@ -1,0 +1,91 @@
+{
+  "schema": 1,
+  "completed_at": "2026-08-31T12:58:30.6513267-04:00",
+  "project_root": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies",
+  "live_pack_root": "C:\\Users\\GodPC\\curseforge\\minecraft\\Instances\\All in one",
+  "project_jar_sha256": "D663F3438B8F3043BCD6FDFF0FC1A6A225B92FCC1CDA11ED46BE5AAB4548480E",
+  "owned_server_scripts": 43,
+  "owned_client_scripts": 8,
+  "owned_ftbquests_files": 5,
+  "recipe_stage_mappings": 0,
+  "changes": [
+    {
+      "Action": "Industrial Colonies mod JAR",
+      "Source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\build\\libs\\industrial_colonies-0.4.0.jar",
+      "Destination": "C:\\Users\\GodPC\\curseforge\\minecraft\\Instances\\All in one\\mods\\industrial_colonies-0.4.0.jar",
+      "Sha256": "D663F3438B8F3043BCD6FDFF0FC1A6A225B92FCC1CDA11ED46BE5AAB4548480E"
+    },
+    {
+      "Action": "Merged KJSGen default project",
+      "Source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\build\\generated\\kjsgen\\default.json",
+      "Destination": "C:\\Users\\GodPC\\curseforge\\minecraft\\Instances\\All in one\\kjsgen\\projects\\default.json",
+      "Sha256": "291ED857FC1EAE2058352786ABE2606B83D8E21FAD2E8065C7E7EC32AC607158"
+    },
+    {
+      "Action": "KJSGen managed-project merge baseline",
+      "Source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\build\\generated\\kjsgen\\default.managed.baseline.json",
+      "Destination": "C:\\Users\\GodPC\\curseforge\\minecraft\\Instances\\All in one\\kjsgen\\industrial_colonies_sync\\default.managed.baseline.json",
+      "Sha256": "DC6BFCD59A5A0032FB3452A3271B5C97B1FA927F0D0EB920048E35F852271BC2"
+    },
+    {
+      "Action": "KubeJS server script",
+      "Source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\pack-scripts\\server_scripts\\industrial_appliedcreate_kinetic_network.js",
+      "Destination": "C:\\Users\\GodPC\\curseforge\\minecraft\\Instances\\All in one\\kubejs\\server_scripts\\industrial_appliedcreate_kinetic_network.js",
+      "Sha256": "B46F7D57DAC9F0A78C1BBD4AA81680BFECBE0F3C01B2B8F6444FBFC144145CE9"
+    },
+    {
+      "Action": "KubeJS server script",
+      "Source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\pack-scripts\\server_scripts\\industrial_petroleum_canonicalization.js",
+      "Destination": "C:\\Users\\GodPC\\curseforge\\minecraft\\Instances\\All in one\\kubejs\\server_scripts\\industrial_petroleum_canonicalization.js",
+      "Sha256": "DCF1574506A374F0838BD6D38FDBDFB5555785A92DF368C359C2F1F382475142"
+    },
+    {
+      "Action": "KubeJS client script",
+      "Source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\pack-scripts\\client_scripts\\industrial_petroleum_viewer_cleanup.js",
+      "Destination": "C:\\Users\\GodPC\\curseforge\\minecraft\\Instances\\All in one\\kubejs\\client_scripts\\industrial_petroleum_viewer_cleanup.js",
+      "Sha256": "D5B314CF169EEFCC0BE683FD1A7FE7E6E5ED6B46DB715AC0D31D5F9F52EC20A3"
+    },
+    {
+      "Action": "Create Applied Kinetics Inscriber compatibility config",
+      "Source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\pack-config-overrides\\createappliedkinetics-common.toml",
+      "Destination": "C:\\Users\\GodPC\\curseforge\\minecraft\\Instances\\All in one\\config\\createappliedkinetics-common.toml",
+      "Sha256": "6384423BC35409DDBA14C5B3477E5B66DD6DDBDFB0F1DEC33A867A2ECAA4518B"
+    },
+    {
+      "Action": "FTB Chunks claims-enabled zero-force-load pack defaults",
+      "Source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\pack-config-overrides\\ftbchunks-world.snbt",
+      "Destination": "C:\\Users\\GodPC\\curseforge\\minecraft\\Instances\\All in one\\config\\ftbchunks-world.snbt",
+      "Sha256": "872AEF64115053F5B7417B45D4BCDB010EC32C85ACDA0CFC0BED73D8A75ABCCD"
+    },
+    {
+      "Action": "FTB Quests factory-guidance data",
+      "Source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\pack-config-overrides\\ftbquests\\quests\\chapter_groups.snbt",
+      "Destination": "C:\\Users\\GodPC\\curseforge\\minecraft\\Instances\\All in one\\config\\ftbquests\\quests\\chapter_groups.snbt",
+      "Sha256": "DCEFA23F7441409DB799365BAC250DC2418800A7B7468B15984C2C866F0CB4CD"
+    },
+    {
+      "Action": "FTB Quests factory-guidance data",
+      "Source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\pack-config-overrides\\ftbquests\\quests\\chapters\\factory_foundations.snbt",
+      "Destination": "C:\\Users\\GodPC\\curseforge\\minecraft\\Instances\\All in one\\config\\ftbquests\\quests\\chapters\\factory_foundations.snbt",
+      "Sha256": "D72884D14536DBC775C85B75CB039510F463D295CC1BE47233CD021B59743C23"
+    },
+    {
+      "Action": "FTB Quests factory-guidance data",
+      "Source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\pack-config-overrides\\ftbquests\\quests\\chapters\\industrial_progression.snbt",
+      "Destination": "C:\\Users\\GodPC\\curseforge\\minecraft\\Instances\\All in one\\config\\ftbquests\\quests\\chapters\\industrial_progression.snbt",
+      "Sha256": "DB8A8AE0D8003C1ECEEBDEA686161C83001EA32D918819FDF1B5AB6679028FF3"
+    },
+    {
+      "Action": "FTB Quests factory-guidance data",
+      "Source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\pack-config-overrides\\ftbquests\\quests\\data.snbt",
+      "Destination": "C:\\Users\\GodPC\\curseforge\\minecraft\\Instances\\All in one\\config\\ftbquests\\quests\\data.snbt",
+      "Sha256": "18C6F7059B8365F4365A26FB13E5ADD54F19DDDD65B34BAEB90F02D025C6DD19"
+    },
+    {
+      "Action": "FTB Quests factory-guidance data",
+      "Source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\pack-config-overrides\\ftbquests\\quests\\lang\\en_us.snbt",
+      "Destination": "C:\\Users\\GodPC\\curseforge\\minecraft\\Instances\\All in one\\config\\ftbquests\\quests\\lang\\en_us.snbt",
+      "Sha256": "E89637A591CAA1E68699C4CD733D8BC99D6A2279B1B66D7147833BD60F08BA18"
+    }
+  ]
+}

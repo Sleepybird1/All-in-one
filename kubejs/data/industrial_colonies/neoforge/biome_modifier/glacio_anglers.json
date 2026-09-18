@@ -1,0 +1,15 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": [
+    "ad_astra:glacio_ice_peaks",
+    "ad_astra:glacio_snowy_barrens"
+  ],
+  "spawners": [
+    {
+      "type": "cataclysm:deepling_angler",
+      "weight": 2,
+      "minCount": 1,
+      "maxCount": 1
+    }
+  ]
+}

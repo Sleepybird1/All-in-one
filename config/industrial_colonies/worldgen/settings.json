@@ -1,0 +1,177 @@
+{
+  "version": 1,
+  "enabled": true,
+  "suppressDefaultOres": true,
+  "hardTerrainExclusions": [],
+  "terrainThresholds": {"mountainSurfaceY": 120, "extremeSurfaceY": 190},
+  "geometry": {"regionSearchRadius": 1, "maxIntendedBlocks": 50000, "caveSearchRange": 24, "richClusterMin": 3, "richClusterMax": 8, "exteriorCover": 3},
+  "indicators": {"enabled": true, "chancePerDepositChunk": 0.025, "maxVerticalDistance": 28, "maxBlocksPerDepositChunk": 2},
+  "regionSize": 512,
+  "majorAttemptChance": 0.65,
+  "globalMinSpacing": 800,
+  "depth": {
+    "minY": -60,
+    "maxY": 64,
+    "shallowY": 42,
+    "midY": 0,
+    "deepY": -44
+  },
+  "quality": {
+    "names": [
+      "poor",
+      "normal",
+      "rich",
+      "exceptional"
+    ],
+    "base": [
+      0.45,
+      0.35,
+      0.17,
+      0.03
+    ],
+    "poor": [
+      0.65,
+      0.27,
+      0.07,
+      0.01
+    ],
+    "good": [
+      0.3,
+      0.4,
+      0.25,
+      0.05
+    ],
+    "ideal": [
+      0.15,
+      0.4,
+      0.35,
+      0.1
+    ],
+    "sizeMultipliers": [
+      0.6,
+      1,
+      1.7,
+      2.75
+    ],
+    "richMultipliers": [
+      0.4,
+      1,
+      1.8,
+      3
+    ]
+  },
+  "terrain": {
+    "normal": {
+      "majorWeight": 1,
+      "caveExposure": 1,
+      "indicatorExposure": 1
+    },
+    "mountain": {
+      "majorWeight": 1.25,
+      "caveExposure": 2.5,
+      "indicatorExposure": 2.5
+    },
+    "extreme": {
+      "majorWeight": 1.35,
+      "caveExposure": 3,
+      "indicatorExposure": 3
+    }
+  },
+  "micro": {
+    "frequencyMultiplier": 1,
+    "maxChancePerChunk": 1,
+    "maxBlocks": 3,
+    "diamond": {
+      "enabled": true,
+      "block": "industrial_colonies:diamond_ore",
+      "chancePerChunk": 0.0002,
+      "min": 1,
+      "max": 2,
+      "jackpotChance": 0.02,
+      "jackpotMax": 3,
+      "maxY": -20
+    }
+  },
+  "trace": {
+    "enabled": true,
+    "attemptsPerChunk": 4,
+    "chancePerAttempt": 0.35,
+    "supplyTargetNote": "Provisional starter supply, not final yield: several ingots-equivalent of Iron and Copper over reasonable surface/cave exploration. These rates propose 2.8 trace blocks/chunk on average before stone/surface clipping, about 0.84 each Iron/Copper and 1.12 Coal. Verify actual recovery after low-yield processing values are assigned; do not count each rock as an ingot.",
+    "maxSurfaceDepth": 3,
+    "resources": [
+      {
+        "material": "iron",
+        "block": "industrial_colonies:hematite",
+        "weight": 3,
+        "min": 1,
+        "max": 3
+      },
+      {
+        "material": "copper",
+        "block": "industrial_colonies:chalcopyrite",
+        "weight": 3,
+        "min": 1,
+        "max": 3
+      },
+      {
+        "material": "coal",
+        "block": "minecraft:coal_ore",
+        "weight": 4,
+        "min": 1,
+        "max": 3
+      }
+    ]
+  },
+  "placer": {
+    "enabled": true,
+    "attemptsPerChunk": 3,
+    "chancePerAttempt": 0.035,
+    "riverBiomes": [
+      "minecraft:river",
+      "minecraft:frozen_river",
+      "regions_unexplored:cold_river",
+      "regions_unexplored:muddy_river",
+      "regions_unexplored:tropical_river"
+    ],
+    "favorableFamilies": [
+      "mountain_highland",
+      "arid_badlands",
+      "sedimentary_plains"
+    ],
+    "maxRiverbankDistance": 8,
+    "min": 1,
+    "max": 3
+  },
+  "economy": {
+    "ingotMb": 1000,
+    "storageBlockMb": 9000,
+    "lifetimeOutputTargetsIngots": {
+      "iron": [3000, 10000], "copper": [2000, 8000], "aluminum": [3000, 10000],
+      "magnesium": [2000, 6000], "zinc": [1000, 4000], "lead": [1000, 4000],
+      "nickel": [1000, 3000], "tin": [500, 2000], "titanium": [500, 2000],
+      "chromium": [500, 1500], "tungsten": [250, 1000], "silver": [250, 1000],
+      "gold": [100, 500], "platinum": [50, 250]
+    },
+    "unfinalizedYieldNote": "Targets are planning metadata, not block drops or recipes. Iron may exceed 10000. Osmium must support Mekanism; iridium may yield only tens over very large-scale processing. Low-yield/rich-rock recoverable mB and recovery efficiencies remain unassigned.",
+    "provisional": {
+      "goldFlakeMb": 1,
+      "goldNuggetMb": 10,
+      "rawGoldMb": 100,
+      "rawIronMb": 200
+    },
+    "note": "Potential material content only; no processing, casting, tool or recovery recipes are defined here."
+  },
+  "debug": false,
+  "provisional": {
+    "implementationGeometry": "Terrain height thresholds, exterior cover, cave search range, rich cluster sizes, indicator rates and 50000-block safety ceiling are provisional implementation controls; no mineral or recipe changes.",
+    "regionSize": "512-block deterministic candidate cells; implementation tuning, not approved deposit spacing.",
+    "majorAttemptChance": "0.65 before deterministic spacing rejection; provisional, not actual accepted-deposit density.",
+    "depth": "-60..64 center bounds and 42/0/-44 interpolation anchors operationalize the approved conceptual shallow/mid/deep bands.",
+    "baseWeights": "Every deposit baseWeight is provisional; approved biome/depth weights are copied exactly.",
+    "micro": "All occurrence chances and jackpot chances are provisional; approved eligibility and maximum sizes are retained.",
+    "trace": "All numeric trace occurrence rates and patch sizes are provisional and require early-development playtesting.",
+    "placer": "All numeric placer occurrence rates, bank distance and counts are provisional.",
+    "economy": "Only 1000 mB per ingot and 9000 mB per storage block are final; all other mB values are approximate approved concepts, not recipes.",
+    "associated": "Cobalt poor/normal occurrence chances, Thorium's Uranium quantity, ordinary associated cluster sizes and diamond jackpot chance are provisional."
+  }
+}

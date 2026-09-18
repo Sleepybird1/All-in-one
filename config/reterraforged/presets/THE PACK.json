@@ -1,0 +1,991 @@
+{
+  "filters": {
+    "erosion": {
+      "dropletVelocity": 0.7,
+      "erosionRate": 0.5,
+      "depositeRate": 0.5,
+      "dropletsPerChunk": 135,
+      "dropletLifetime": 12,
+      "dropletVolume": 0.7
+    },
+    "smoothing": {
+      "iterations": 1,
+      "smoothingRadius": 1.8,
+      "smoothingRate": 0.9
+    }
+  },
+  "structures": {
+    "structures": {
+      "minecraft:ruined_portals": {
+        "spacing": 40,
+        "separation": 15,
+        "salt": 34222645,
+        "disabled": false
+      },
+      "stellaris:venus_lava_outpost": {
+        "spacing": 60,
+        "separation": 30,
+        "salt": 1204166310,
+        "disabled": false
+      },
+      "mowziesmobs:monasteries": {
+        "spacing": 25,
+        "separation": 8,
+        "salt": 37312139,
+        "disabled": false
+      },
+      "betterdungeons:zombie_dungeons": {
+        "spacing": 48,
+        "separation": 24,
+        "salt": 280667671,
+        "disabled": false
+      },
+      "cataclysm:desert_structures": {
+        "spacing": 30,
+        "separation": 20,
+        "salt": 31547671,
+        "disabled": false
+      },
+      "stellaris:venus_ruins": {
+        "spacing": 60,
+        "separation": 30,
+        "salt": 1554388699,
+        "disabled": false
+      },
+      "ad_astra:pygro_village": {
+        "spacing": 24,
+        "separation": 17,
+        "salt": 302103168,
+        "disabled": false
+      },
+      "stellaris:moon_first_landing": {
+        "spacing": 50,
+        "separation": 25,
+        "salt": 538142749,
+        "disabled": false
+      },
+      "stellaris:venus_tower": {
+        "spacing": 80,
+        "separation": 40,
+        "salt": 334941869,
+        "disabled": false
+      },
+      "stellaris:mercury_quarry": {
+        "spacing": 60,
+        "separation": 30,
+        "salt": 846003947,
+        "disabled": false
+      },
+      "allthemodium:piglin_village": {
+        "spacing": 15,
+        "separation": 10,
+        "salt": 1236549879,
+        "disabled": false
+      },
+      "apotheosis:towers": {
+        "spacing": 26,
+        "separation": 18,
+        "salt": 12121818,
+        "disabled": false
+      },
+      "irons_spellbooks:mountain_tower": {
+        "spacing": 45,
+        "separation": 33,
+        "salt": 194767080,
+        "disabled": false
+      },
+      "irons_spellbooks:impaled_icebreaker": {
+        "spacing": 150,
+        "separation": 75,
+        "salt": 87959402,
+        "disabled": false
+      },
+      "bosses_of_mass_destruction:lich_tower": {
+        "spacing": 100,
+        "separation": 50,
+        "salt": 1230784,
+        "disabled": false
+      },
+      "supplementaries:road_signs": {
+        "spacing": 19,
+        "separation": 10,
+        "salt": 431041526,
+        "disabled": false
+      },
+      "irons_spellbooks:pyromancer_tower": {
+        "spacing": 85,
+        "separation": 50,
+        "salt": 1512684,
+        "disabled": false
+      },
+      "stellaris:venus_outpost_dungeon": {
+        "spacing": 80,
+        "separation": 30,
+        "salt": 1236580239,
+        "disabled": false
+      },
+      "industrial_colonies:global_landmarks": {
+        "spacing": 384,
+        "separation": 256,
+        "salt": 19610912,
+        "disabled": false
+      },
+      "minecraft:ancient_cities": {
+        "spacing": 24,
+        "separation": 8,
+        "salt": 20083232,
+        "disabled": false
+      },
+      "irons_spellbooks:ancient_battleground": {
+        "spacing": 35,
+        "separation": 12,
+        "salt": 1111569999,
+        "disabled": false
+      },
+      "minecraft:trial_chambers": {
+        "spacing": 34,
+        "separation": 12,
+        "salt": 94251327,
+        "disabled": false
+      },
+      "stellaris:mercury_small_castle": {
+        "spacing": 50,
+        "separation": 30,
+        "salt": 746090329,
+        "disabled": false
+      },
+      "minecolonies:barbarian_camp": {
+        "spacing": 55,
+        "separation": 25,
+        "salt": 1223366777,
+        "disabled": false
+      },
+      "dungeoncrawl:dungeons": {
+        "spacing": 32,
+        "separation": 12,
+        "salt": 10387313,
+        "disabled": false
+      },
+      "cataclysm:frosted_prison": {
+        "spacing": 80,
+        "separation": 50,
+        "salt": 1577172143,
+        "disabled": false
+      },
+      "stellaris:mars_ruins": {
+        "spacing": 40,
+        "separation": 20,
+        "salt": 1217096804,
+        "disabled": false
+      },
+      "stellaris:small_moon_dungeon": {
+        "spacing": 60,
+        "separation": 30,
+        "salt": 713151019,
+        "disabled": false
+      },
+      "stellaris:mercury_temple": {
+        "spacing": 100,
+        "separation": 50,
+        "salt": 1224566881,
+        "disabled": false
+      },
+      "minecraft:shipwrecks": {
+        "spacing": 24,
+        "separation": 4,
+        "salt": 165745295,
+        "disabled": false
+      },
+      "stellaris:mars_temple": {
+        "spacing": 50,
+        "separation": 30,
+        "salt": 1782095137,
+        "disabled": false
+      },
+      "nuclearcraft:wasteland_village": {
+        "spacing": 32,
+        "separation": 10,
+        "salt": 918273645,
+        "disabled": false
+      },
+      "dungeonnowloading:temple_of_duality": {
+        "spacing": 64,
+        "separation": 16,
+        "salt": 83979417,
+        "disabled": false
+      },
+      "stellaris:venus_outpost": {
+        "spacing": 80,
+        "separation": 30,
+        "salt": 243033212,
+        "disabled": false
+      },
+      "minecraft:ocean_ruins": {
+        "spacing": 20,
+        "separation": 8,
+        "salt": 14357621,
+        "disabled": false
+      },
+      "friendsandfoes:citadel": {
+        "spacing": 16,
+        "separation": 8,
+        "salt": 878514152,
+        "disabled": false
+      },
+      "minecraft:ocean_monuments": {
+        "spacing": 32,
+        "separation": 5,
+        "salt": 10387313,
+        "disabled": false
+      },
+      "allthemodium:dungeon": {
+        "spacing": 50,
+        "separation": 45,
+        "salt": 1546875896,
+        "disabled": false
+      },
+      "cataclysm:ruined_citadel": {
+        "spacing": 50,
+        "separation": 25,
+        "salt": 367895146,
+        "disabled": false
+      },
+      "mowziesmobs:umvuthana_groves": {
+        "spacing": 25,
+        "separation": 8,
+        "salt": 23311138,
+        "disabled": false
+      },
+      "cataclysm:ancient_factory": {
+        "spacing": 112,
+        "separation": 70,
+        "salt": 319514301,
+        "disabled": false
+      },
+      "cataclysm:cursed_pyramid": {
+        "spacing": 80,
+        "separation": 50,
+        "salt": 577299997,
+        "disabled": false
+      },
+      "minecraft:woodland_mansions": {
+        "spacing": 80,
+        "separation": 20,
+        "salt": 10387319,
+        "disabled": false
+      },
+      "cataclysm:sunken_city": {
+        "spacing": 100,
+        "separation": 70,
+        "salt": 1673928450,
+        "disabled": false
+      },
+      "stellaris:earth_satellite": {
+        "spacing": 80,
+        "separation": 50,
+        "salt": 1690701129,
+        "disabled": false
+      },
+      "bosses_of_mass_destruction:void_blossom": {
+        "spacing": 64,
+        "separation": 24,
+        "salt": 574839,
+        "disabled": false
+      },
+      "minecraft:villages": {
+        "spacing": 34,
+        "separation": 8,
+        "salt": 10387312,
+        "disabled": false
+      },
+      "minecraft:swamp_huts": {
+        "spacing": 32,
+        "separation": 8,
+        "salt": 14357620,
+        "disabled": false
+      },
+      "betterdungeons:small_dungeons": {
+        "spacing": 10,
+        "separation": 6,
+        "salt": 34239823,
+        "disabled": false
+      },
+      "block_factorys_bosses:dragon_tower": {
+        "spacing": 96,
+        "separation": 24,
+        "salt": 178711064,
+        "disabled": false
+      },
+      "stellaris:mars_tower": {
+        "spacing": 50,
+        "separation": 30,
+        "salt": 1587943221,
+        "disabled": false
+      },
+      "cataclysm:abandoned_structures": {
+        "spacing": 30,
+        "separation": 20,
+        "salt": 514659267,
+        "disabled": false
+      },
+      "mowziesmobs:frostmaw_spawns": {
+        "spacing": 25,
+        "separation": 8,
+        "salt": 23317578,
+        "disabled": false
+      },
+      "minecraft:jungle_temples": {
+        "spacing": 32,
+        "separation": 8,
+        "salt": 14357619,
+        "disabled": false
+      },
+      "irons_spellbooks:mangrove_hut": {
+        "spacing": 25,
+        "separation": 18,
+        "salt": 169476080,
+        "disabled": false
+      },
+      "stellaris:mercury_lava_mines": {
+        "spacing": 60,
+        "separation": 30,
+        "salt": 1143744966,
+        "disabled": false
+      },
+      "ad_astra:lunar_tower": {
+        "spacing": 34,
+        "separation": 13,
+        "salt": 1460175004,
+        "disabled": false
+      },
+      "stellaris:earth_operation_base": {
+        "spacing": 80,
+        "separation": 50,
+        "salt": 890562391,
+        "disabled": false
+      },
+      "ad_astra:venus_bullet": {
+        "spacing": 27,
+        "separation": 14,
+        "salt": 1539450951,
+        "disabled": false
+      },
+      "minecraft:desert_pyramids": {
+        "spacing": 32,
+        "separation": 8,
+        "salt": 14357617,
+        "disabled": false
+      },
+      "minecraft:igloos": {
+        "spacing": 32,
+        "separation": 8,
+        "salt": 14357618,
+        "disabled": false
+      },
+      "ad_astra:moon_dungeon": {
+        "spacing": 32,
+        "separation": 14,
+        "salt": 1361819893,
+        "disabled": false
+      },
+      "modernfoundry:nether_ocean_island": {
+        "spacing": 15,
+        "separation": 7,
+        "salt": 65245622,
+        "disabled": false
+      },
+      "ad_astra:pygro_tower": {
+        "spacing": 29,
+        "separation": 19,
+        "salt": 1360696494,
+        "disabled": false
+      },
+      "deeperdarker:ancient_temples": {
+        "spacing": 28,
+        "separation": 8,
+        "salt": 40510257,
+        "disabled": false
+      },
+      "minecolonies:ship": {
+        "spacing": 110,
+        "separation": 55,
+        "salt": 1225566777,
+        "disabled": false
+      },
+      "ad_astra:lunarian_village": {
+        "spacing": 30,
+        "separation": 14,
+        "salt": 2118452159,
+        "disabled": false
+      },
+      "allthemodium:ancient_pyramid": {
+        "spacing": 50,
+        "separation": 45,
+        "salt": 185645172,
+        "disabled": false
+      },
+      "stellaris:mercury_factory": {
+        "spacing": 50,
+        "separation": 30,
+        "salt": 1591924087,
+        "disabled": false
+      },
+      "ad_astra:oil_well": {
+        "spacing": 20,
+        "separation": 14,
+        "salt": 1922601463,
+        "disabled": false
+      },
+      "irons_spellbooks:evoker_fort": {
+        "spacing": 85,
+        "separation": 50,
+        "salt": 684512,
+        "disabled": false
+      },
+      "stellaris:moon_launchpad": {
+        "spacing": 50,
+        "separation": 25,
+        "salt": 458630173,
+        "disabled": false
+      },
+      "cataclysm:soul_black_smith": {
+        "spacing": 60,
+        "separation": 50,
+        "salt": 1984567320,
+        "disabled": false
+      },
+      "block_factorys_bosses:kraken_ship": {
+        "spacing": 128,
+        "separation": 64,
+        "salt": 496078896,
+        "disabled": false
+      },
+      "stellaris:mercury_big_castle": {
+        "spacing": 60,
+        "separation": 40,
+        "salt": 2033109259,
+        "disabled": false
+      },
+      "ad_astra:mars_temple": {
+        "spacing": 40,
+        "separation": 27,
+        "salt": 486424619,
+        "disabled": false
+      },
+      "stellaris:moon_destroyed_village": {
+        "spacing": 60,
+        "separation": 20,
+        "salt": 77261376,
+        "disabled": false
+      },
+      "minecraft:end_cities": {
+        "spacing": 20,
+        "separation": 11,
+        "salt": 10387313,
+        "disabled": false
+      },
+      "betterdungeons:spider_dungeons": {
+        "spacing": 44,
+        "separation": 22,
+        "salt": 596523129,
+        "disabled": false
+      },
+      "block_factorys_bosses:underworld_arena": {
+        "spacing": 48,
+        "separation": 40,
+        "salt": 565960105,
+        "disabled": false
+      },
+      "minecraft:mineshafts": {
+        "spacing": 1,
+        "separation": 0,
+        "salt": 0,
+        "disabled": false
+      },
+      "stellaris:venus_plaza": {
+        "spacing": 60,
+        "separation": 30,
+        "salt": 983403534,
+        "disabled": false
+      },
+      "minecraft:pillager_outposts": {
+        "spacing": 32,
+        "separation": 8,
+        "salt": 165745296,
+        "disabled": false
+      },
+      "betterdungeons:skeleton_dungeons": {
+        "spacing": 46,
+        "separation": 23,
+        "salt": 732581671,
+        "disabled": false
+      },
+      "minecraft:nether_fossils": {
+        "spacing": 2,
+        "separation": 1,
+        "salt": 14357921,
+        "disabled": false
+      },
+      "block_factorys_bosses:sandworm_nest": {
+        "spacing": 45,
+        "separation": 30,
+        "salt": 1779810129,
+        "disabled": false
+      },
+      "friendsandfoes:iceologer_cabin": {
+        "spacing": 40,
+        "separation": 10,
+        "salt": 516979219,
+        "disabled": false
+      },
+      "stellaris:mars_maze": {
+        "spacing": 60,
+        "separation": 30,
+        "salt": 129839051,
+        "disabled": false
+      },
+      "irons_spellbooks:catacombs": {
+        "spacing": 72,
+        "separation": 48,
+        "salt": 1794563212,
+        "disabled": false
+      },
+      "minecolonies:desert_camp": {
+        "spacing": 55,
+        "separation": 25,
+        "salt": 1223366777,
+        "disabled": false
+      },
+      "friendsandfoes:illusioner_shack": {
+        "spacing": 40,
+        "separation": 10,
+        "salt": 365262534,
+        "disabled": false
+      },
+      "cataclysm:burning_arena": {
+        "spacing": 80,
+        "separation": 50,
+        "salt": 533522197,
+        "disabled": false
+      },
+      "dungeonnowloading:labyrinth": {
+        "spacing": 80,
+        "separation": 20,
+        "salt": 269766545,
+        "disabled": false
+      },
+      "stellaris:moon_space_base": {
+        "spacing": 50,
+        "separation": 40,
+        "salt": 261480326,
+        "disabled": false
+      },
+      "irons_spellbooks:citadel": {
+        "spacing": 100,
+        "separation": 80,
+        "salt": 199995600,
+        "disabled": false
+      },
+      "stellaris:moon_sphere": {
+        "spacing": 60,
+        "separation": 45,
+        "salt": 184370957,
+        "disabled": false
+      },
+      "stellaris:venus_crash_site": {
+        "spacing": 60,
+        "separation": 30,
+        "salt": 270660707,
+        "disabled": false
+      },
+      "betterdungeons:small_nether_dungeons": {
+        "spacing": 16,
+        "separation": 10,
+        "salt": 998767517,
+        "disabled": false
+      },
+      "minecolonies:empty_colony": {
+        "spacing": 95,
+        "separation": 45,
+        "salt": 1225566777,
+        "disabled": false
+      },
+      "stellaris:venus_catacombs": {
+        "spacing": 50,
+        "separation": 30,
+        "salt": 1279549879,
+        "disabled": false
+      },
+      "bosses_of_mass_destruction:obsidilith_arena": {
+        "spacing": 64,
+        "separation": 32,
+        "salt": 499672,
+        "disabled": false
+      },
+      "stellaris:mars_main_temple": {
+        "spacing": 80,
+        "separation": 40,
+        "salt": 677240350,
+        "disabled": false
+      },
+      "block_factorys_bosses:yeti_hideout": {
+        "spacing": 30,
+        "separation": 25,
+        "salt": 787478644,
+        "disabled": false
+      },
+      "stellaris:moon_dungeon": {
+        "spacing": 100,
+        "separation": 60,
+        "salt": 1592341735,
+        "disabled": false
+      },
+      "minecolonies:amazon_camp": {
+        "spacing": 55,
+        "separation": 25,
+        "salt": 1223366777,
+        "disabled": false
+      },
+      "minecraft:trail_ruins": {
+        "spacing": 34,
+        "separation": 8,
+        "salt": 83469867,
+        "disabled": false
+      },
+      "mowziesmobs:wrought_chambers": {
+        "spacing": 15,
+        "separation": 5,
+        "salt": 23217347,
+        "disabled": false
+      },
+      "bosses_of_mass_destruction:gauntlet_arena": {
+        "spacing": 32,
+        "separation": 16,
+        "salt": 499672,
+        "disabled": false
+      },
+      "stellaris:moon_village": {
+        "spacing": 60,
+        "separation": 30,
+        "salt": 385714280,
+        "disabled": false
+      },
+      "modernfoundry:overworld_sky_island": {
+        "spacing": 128,
+        "separation": 64,
+        "salt": 14357800,
+        "disabled": false
+      },
+      "industrial_colonies:rare_maritime_sites": {
+        "spacing": 128,
+        "separation": 64,
+        "salt": 19610911,
+        "disabled": false
+      },
+      "stellaris:mercury_volcano": {
+        "spacing": 50,
+        "separation": 20,
+        "salt": 324957075,
+        "disabled": false
+      },
+      "modernfoundry:end_sky_island": {
+        "spacing": 25,
+        "separation": 6,
+        "salt": 368963602,
+        "disabled": false
+      },
+      "rocketnautics_addon:rocketnautics_structure_set": {
+        "spacing": 1,
+        "separation": 0,
+        "salt": 999999,
+        "disabled": false
+      },
+      "stellaris:moon_destroyed_spaceship": {
+        "spacing": 60,
+        "separation": 40,
+        "salt": 810251829,
+        "disabled": false
+      },
+      "friendsandfoes:illusioner_training_grounds": {
+        "spacing": 40,
+        "separation": 10,
+        "salt": 819729564,
+        "disabled": false
+      },
+      "ae2:meteorite": {
+        "spacing": 32,
+        "separation": 8,
+        "salt": 124895654,
+        "disabled": false
+      },
+      "cataclysm:acropolis": {
+        "spacing": 80,
+        "separation": 50,
+        "salt": 913530101,
+        "disabled": false
+      },
+      "minecraft:nether_complexes": {
+        "spacing": 27,
+        "separation": 4,
+        "salt": 30084232,
+        "disabled": false
+      },
+      "minecraft:buried_treasures": {
+        "spacing": 1,
+        "separation": 0,
+        "salt": 0,
+        "disabled": false
+      },
+      "cataclysm:amethyst_nest": {
+        "spacing": 32,
+        "separation": 8,
+        "salt": 14325760,
+        "disabled": false
+      },
+      "irons_spellbooks:ice_spider_den": {
+        "spacing": 85,
+        "separation": 50,
+        "salt": 126346,
+        "disabled": false
+      },
+      "modernfoundry:overworld_ocean_island": {
+        "spacing": 96,
+        "separation": 48,
+        "salt": 25988585,
+        "disabled": false
+      },
+      "stellaris:mercury_mining_ship": {
+        "spacing": 60,
+        "separation": 40,
+        "salt": 1475602571,
+        "disabled": false
+      },
+      "stellaris:meteor": {
+        "spacing": 60,
+        "separation": 30,
+        "salt": 1231192934,
+        "disabled": false
+      },
+      "supplementaries:galleons": {
+        "spacing": 31,
+        "separation": 19,
+        "salt": 121047156,
+        "disabled": false
+      }
+    }
+  },
+  "miscellaneous": {
+    "vanillaLavaLakes": true,
+    "vanillaLavaSprings": false,
+    "mountainBiomeUsage": 0.4,
+    "volcanoBiomeUsage": 0.4,
+    "naturalSnowDecorator": true,
+    "customBiomeFeatures": true,
+    "vanillaSprings": false,
+    "oreCompatibleStoneOnly": true,
+    "erosionDecorator": true,
+    "plainStoneErosion": false,
+    "smoothLayerDecorator": true,
+    "strataRegionSize": 600,
+    "strataDecorator": true
+  },
+  "rivers": {
+    "branchRivers": {
+      "bankWidth": 14,
+      "bedWidth": 7,
+      "fade": 0.68022597,
+      "bedDepth": 5,
+      "minBankHeight": 1,
+      "maxBankHeight": 4
+    },
+    "lakes": {
+      "sizeMin": 75,
+      "sizeMax": 309,
+      "minBankHeight": 2,
+      "maxBankHeight": 10,
+      "chance": 0.3,
+      "minStartDistance": 0.0,
+      "maxStartDistance": 0.03,
+      "depth": 10
+    },
+    "wetlands": {
+      "chance": 0.6,
+      "sizeMin": 175,
+      "sizeMax": 225
+    },
+    "seedOffset": 0,
+    "riverCount": 6,
+    "mainRivers": {
+      "bankWidth": 18,
+      "bedWidth": 15,
+      "fade": 0.5378531,
+      "bedDepth": 8,
+      "minBankHeight": 3,
+      "maxBankHeight": 6
+    }
+  },
+  "island": {
+    "beachWidth": 0.05,
+    "beachCoverage": 0.29717514,
+    "volcanismScale": 0.6079096,
+    "mountainScale": 0.5,
+    "mountainChance": 0.6,
+    "volcanoChance": 0.54915255,
+    "offshoreDepth": 0.1,
+    "islandHeight": 0.5161582,
+    "islandBaseScale": 0.19661017,
+    "islandVerticalScale": 1.8137853,
+    "islandHorizontalScale": 1.9645197,
+    "enableArchipelago": true,
+    "islandDensity": 0.21581921,
+    "islandSize": 221.86441
+  },
+  "caves": {
+    "ravineCarverProbability": 0.0075,
+    "largeOreVeins": true,
+    "legacyCarverDistribution": false,
+    "caveCarverProbability": 0.05,
+    "deepCaveCarverProbability": 0.07,
+    "cheeseCaveProbability": 1.0,
+    "spaghettiCaveProbability": 1.0,
+    "noodleCaveProbability": 1.0,
+    "entranceCaveProbability": 0.0,
+    "cheeseCaveDepthOffset": 1.5625
+  },
+  "climate": {
+    "temperature": {
+      "min": 0.0,
+      "max": 1.0,
+      "bias": -0.22711864,
+      "seedOffset": 1502943641,
+      "scale": 16,
+      "falloff": 4
+    },
+    "moisture": {
+      "min": 0.0,
+      "max": 1.0,
+      "bias": -0.3920904,
+      "seedOffset": 0,
+      "scale": 8,
+      "falloff": 4
+    },
+    "biomeShape": {
+      "biomeSize": 225,
+      "macroNoiseSize": 8,
+      "biomeWarpScale": 150,
+      "biomeWarpStrength": 80
+    },
+    "biomeEdgeShape": {
+      "gain": 0.5,
+      "lacunarity": 2.65,
+      "strength": 256,
+      "type": "SIMPLEX_RIDGE",
+      "scale": 24,
+      "octaves": 2
+    }
+  },
+  "terrain": {
+    "torridonian": {
+      "weight": 2.0,
+      "baseScale": 1.0,
+      "verticalScale": 1.0,
+      "horizontalScale": 1.0
+    },
+    "mountains": {
+      "weight": 1.9435028,
+      "baseScale": 0.88135594,
+      "verticalScale": 1.8192091,
+      "horizontalScale": 2.316384
+    },
+    "volcano": {
+      "weight": 1.3898305,
+      "baseScale": 1.0,
+      "verticalScale": 1.5706215,
+      "horizontalScale": 1.5819209
+    },
+    "plateau": {
+      "weight": 1.5,
+      "baseScale": 1.0,
+      "verticalScale": 1.0,
+      "horizontalScale": 1.0
+    },
+    "badlands": {
+      "weight": 1.0,
+      "baseScale": 1.0,
+      "verticalScale": 1.0,
+      "horizontalScale": 1.0
+    },
+    "plains": {
+      "weight": 2.0,
+      "baseScale": 2.0,
+      "verticalScale": 0.8361582,
+      "horizontalScale": 1.0621469
+    },
+    "hills": {
+      "weight": 2.0,
+      "baseScale": 1.0,
+      "verticalScale": 1.1299435,
+      "horizontalScale": 1.7627119
+    },
+    "dales": {
+      "weight": 1.5,
+      "baseScale": 1.0,
+      "verticalScale": 1.0,
+      "horizontalScale": 1.0
+    },
+    "general": {
+      "globalHorizontalScale": 1.0812994,
+      "fancyMountains": true,
+      "legacyMountainScaling": false,
+      "terrainSeedOffset": 0,
+      "terrainRegionSize": 1761,
+      "globalVerticalScale": 1.0
+    },
+    "steppe": {
+      "weight": 1.0,
+      "baseScale": 2.0,
+      "verticalScale": 1.0,
+      "horizontalScale": 1.0
+    }
+  },
+  "world": {
+    "continent": {
+      "continentNoiseOctaves": 2,
+      "continentNoiseLacunarity": 4.854237,
+      "continentSkipping": 0.78305084,
+      "continentSizeVariance": 0.55932206,
+      "continentType": "MULTI_IMPROVED",
+      "continentShape": "NATURAL",
+      "continentScale": 8724,
+      "continentJitter": 0.5259887
+    },
+    "controlPoints": {
+      "shallowOcean": 0.23276836,
+      "beach": 0.33559322,
+      "coast": 0.45762712,
+      "inland": 0.502,
+      "islandInland": 0.0,
+      "islandCoast": 0.1,
+      "deepOcean": 0.18305084
+    },
+    "properties": {
+      "seaLevel": 63,
+      "lavaLevel": -51,
+      "spawnX": 9902,
+      "spawnZ": 22370,
+      "spawnType": "USER_SELECTED",
+      "worldHeight": 800
+    }
+  },
+  "surface": {
+    "erosion": {
+      "dirtMin": 95,
+      "rockSteepness": 0.65,
+      "dirtSteepness": 0.475,
+      "screeSteepness": 0.4,
+      "rockVariance": 30,
+      "rockMin": 256,
+      "dirtVariance": 40
+    }
+  }
+}

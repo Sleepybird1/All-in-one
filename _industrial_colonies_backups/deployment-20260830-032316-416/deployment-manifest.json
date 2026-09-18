@@ -1,0 +1,91 @@
+{
+  "schema": 1,
+  "completed_at": "2026-08-30T03:23:16.6798492-04:00",
+  "project_root": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies",
+  "live_pack_root": "C:\\Users\\GodPC\\curseforge\\minecraft\\Instances\\All in one",
+  "project_jar_sha256": "8E021AD1DF5224D1EB32267C79A77FD1BC1E1681FF8223EA82A8B4FDB9894228",
+  "owned_server_scripts": 31,
+  "owned_client_scripts": 7,
+  "owned_ftbquests_files": 4,
+  "recipe_stage_mappings": 135,
+  "changes": [
+    {
+      "Action": "Industrial Colonies mod JAR",
+      "Source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\build\\libs\\industrial_colonies-0.3.0.jar",
+      "Destination": "C:\\Users\\GodPC\\curseforge\\minecraft\\Instances\\All in one\\mods\\industrial_colonies-0.3.0.jar",
+      "Sha256": "8E021AD1DF5224D1EB32267C79A77FD1BC1E1681FF8223EA82A8B4FDB9894228"
+    },
+    {
+      "Action": "KubeJS server script",
+      "Source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\pack-scripts\\server_scripts\\industrial_early_electricity_construction.js",
+      "Destination": "C:\\Users\\GodPC\\curseforge\\minecraft\\Instances\\All in one\\kubejs\\server_scripts\\industrial_early_electricity_construction.js",
+      "Sha256": "341BA7D1FC849C4C104181CF74263D13C32846F522A97CD8F070182163700B9D"
+    },
+    {
+      "Action": "KubeJS server script",
+      "Source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\pack-scripts\\server_scripts\\industrial_grid_engineering_construction.js",
+      "Destination": "C:\\Users\\GodPC\\curseforge\\minecraft\\Instances\\All in one\\kubejs\\server_scripts\\industrial_grid_engineering_construction.js",
+      "Sha256": "0A858E903BD28602C15423995CB64F49E8AED7D02E0E2FFDFF84CF2FF5CFC0E5"
+    },
+    {
+      "Action": "KubeJS server script",
+      "Source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\pack-scripts\\server_scripts\\industrial_megacells_radioactive_compat.js",
+      "Destination": "C:\\Users\\GodPC\\curseforge\\minecraft\\Instances\\All in one\\kubejs\\server_scripts\\industrial_megacells_radioactive_compat.js",
+      "Sha256": "965E711551CCDD6822D09E73FC5B1152F2A59052526BEE3859BD6830525946A7"
+    },
+    {
+      "Action": "KubeJS server script",
+      "Source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\pack-scripts\\server_scripts\\industrial_metallurgy_casting_compat.js",
+      "Destination": "C:\\Users\\GodPC\\curseforge\\minecraft\\Instances\\All in one\\kubejs\\server_scripts\\industrial_metallurgy_casting_compat.js",
+      "Sha256": "2446473652FEF688A1F99DB59B0FE179A1783209F3B16DDC66E9E4E086CF4931"
+    },
+    {
+      "Action": "KubeJS server script",
+      "Source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\pack-scripts\\server_scripts\\industrial_oil_field_construction.js",
+      "Destination": "C:\\Users\\GodPC\\curseforge\\minecraft\\Instances\\All in one\\kubejs\\server_scripts\\industrial_oil_field_construction.js",
+      "Sha256": "A134035A3724042C79558078A058B12DFE58FB353B6C344A8771DC4363EDBFC5"
+    },
+    {
+      "Action": "KubeJS server script",
+      "Source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\pack-scripts\\server_scripts\\industrial_uranium_yellorium_separation.js",
+      "Destination": "C:\\Users\\GodPC\\curseforge\\minecraft\\Instances\\All in one\\kubejs\\server_scripts\\industrial_uranium_yellorium_separation.js",
+      "Sha256": "1B9FA407FDD84A58F4D02A52E9C4CF1BCEE4DE12493B6C45C468579DB515FF16"
+    },
+    {
+      "Action": "KubeJS client script",
+      "Source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\pack-scripts\\client_scripts\\industrial_machine_retirement_viewer_cleanup.js",
+      "Destination": "C:\\Users\\GodPC\\curseforge\\minecraft\\Instances\\All in one\\kubejs\\client_scripts\\industrial_machine_retirement_viewer_cleanup.js",
+      "Sha256": "FE1F88CEA5825C9785BDF63A64B721DBF5737F4691F8279D04A6F814DFC69314"
+    },
+    {
+      "Action": "FTB Quests project-owned data",
+      "Source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\pack-config-overrides\\ftbquests\\quests\\chapter_groups.snbt",
+      "Destination": "C:\\Users\\GodPC\\curseforge\\minecraft\\Instances\\All in one\\config\\ftbquests\\quests\\chapter_groups.snbt",
+      "Sha256": "DCEFA23F7441409DB799365BAC250DC2418800A7B7468B15984C2C866F0CB4CD"
+    },
+    {
+      "Action": "FTB Quests project-owned data",
+      "Source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\pack-config-overrides\\ftbquests\\quests\\chapters\\industrial_progression.snbt",
+      "Destination": "C:\\Users\\GodPC\\curseforge\\minecraft\\Instances\\All in one\\config\\ftbquests\\quests\\chapters\\industrial_progression.snbt",
+      "Sha256": "DEDC8420C626E3BA631727947ED6B0E5F2D5DCFA5668B0F5CE51CD3D13D2A476"
+    },
+    {
+      "Action": "FTB Quests project-owned data",
+      "Source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\pack-config-overrides\\ftbquests\\quests\\data.snbt",
+      "Destination": "C:\\Users\\GodPC\\curseforge\\minecraft\\Instances\\All in one\\config\\ftbquests\\quests\\data.snbt",
+      "Sha256": "18C6F7059B8365F4365A26FB13E5ADD54F19DDDD65B34BAEB90F02D025C6DD19"
+    },
+    {
+      "Action": "FTB Quests project-owned data",
+      "Source": "C:\\Users\\GodPC\\Documents\\Codex\\2026-08-16\\ok\\work\\industrial-colonies\\pack-config-overrides\\ftbquests\\quests\\lang\\en_us.snbt",
+      "Destination": "C:\\Users\\GodPC\\curseforge\\minecraft\\Instances\\All in one\\config\\ftbquests\\quests\\lang\\en_us.snbt",
+      "Sha256": "62C2D7B81ADCDE78A8F74B4E6A006ECC98D9D3896E2BC20C8A81AA99269DCE77"
+    },
+    {
+      "Action": "Disable BetterChunkLoading because C2ME is active",
+      "Source": "C:\\Users\\GodPC\\curseforge\\minecraft\\Instances\\All in one\\mods\\betterchunkloading-1.21-5.4.jar",
+      "Destination": "C:\\Users\\GodPC\\curseforge\\minecraft\\Instances\\All in one\\_industrial_colonies_backups\\deployment-20260830-032316-416\\disabled-or-retired\\mods\\betterchunkloading-1.21-5.4.jar",
+      "Sha256": "4D13BDAAEE282B7C0DCFBA5F54E0EFF7F0850D95D866ED1935FC2B95E5F626B0"
+    }
+  ]
+}

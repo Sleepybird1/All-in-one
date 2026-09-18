@@ -1,0 +1,12 @@
+{
+  "recipePreference": {},
+  "ingredientPreference": {},
+  "expandedPreference": {
+    "minecraft:item_stack|advanced_ae:quantum_processor": true
+  },
+  "naturalAllow": [],
+  "naturalDeny": [],
+  "disabledRecipeMethods": [],
+  "disabledRecipeMethodsByComponent": {},
+  "treeLoadingTargetFps": 50
+}

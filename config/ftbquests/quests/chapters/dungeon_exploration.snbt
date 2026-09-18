@@ -1,0 +1,265 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "rsquare"
+	filename: "dungeon_exploration"
+	group: ""
+	id: "3F3E354DC1DC44D2"
+	images: [ ]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			disable_toast: true
+			icon: {
+				id: "minecraft:torch"
+			}
+			id: "5A0421E6B792A4AC"
+			tags: [
+				"industrial_colonies:exploration_guidance"
+				"industrial_colonies:exploration_guidance/phase/field_readiness"
+				"industrial_colonies:exploration_guidance/field_lighting"
+			]
+			tasks: [{
+				count: 16L
+				id: "3C64418F21D1F1F8"
+				item: { count: 1, id: "minecraft:torch" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5A0421E6B792A4AC"]
+			disable_toast: true
+			icon: {
+				id: "minecraft:spawner"
+			}
+			id: "7E127D48840BC572"
+			tags: [
+				"industrial_colonies:exploration_guidance"
+				"industrial_colonies:exploration_guidance/phase/overworld_dungeons"
+				"industrial_colonies:exploration_guidance/small_dungeon"
+			]
+			tasks: [{
+				id: "5350271BFB2AF2E6"
+				structure: "betterdungeons:small_dungeon"
+				type: "structure"
+			}]
+			x: 3.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["5A0421E6B792A4AC"]
+			disable_toast: true
+			icon: {
+				id: "minecraft:skeleton_skull"
+			}
+			id: "05DC3726C24A4A89"
+			tags: [
+				"industrial_colonies:exploration_guidance"
+				"industrial_colonies:exploration_guidance/phase/overworld_dungeons"
+				"industrial_colonies:exploration_guidance/skeleton_dungeon"
+			]
+			tasks: [{
+				id: "65E92B899A3D9D85"
+				structure: "betterdungeons:skeleton_dungeon"
+				type: "structure"
+			}]
+			x: 6.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["5A0421E6B792A4AC"]
+			disable_toast: true
+			icon: {
+				id: "minecraft:string"
+			}
+			id: "4BCB71CCDCF233E1"
+			tags: [
+				"industrial_colonies:exploration_guidance"
+				"industrial_colonies:exploration_guidance/phase/overworld_dungeons"
+				"industrial_colonies:exploration_guidance/spider_dungeon"
+			]
+			tasks: [{
+				id: "309BC0D1ADB992BC"
+				structure: "betterdungeons:spider_dungeon"
+				type: "structure"
+			}]
+			x: 6.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["5A0421E6B792A4AC"]
+			disable_toast: true
+			icon: {
+				id: "minecraft:rotten_flesh"
+			}
+			id: "79B14136836E0DE4"
+			tags: [
+				"industrial_colonies:exploration_guidance"
+				"industrial_colonies:exploration_guidance/phase/overworld_dungeons"
+				"industrial_colonies:exploration_guidance/zombie_dungeon"
+			]
+			tasks: [{
+				id: "41B03F921444F4FD"
+				structure: "betterdungeons:zombie_dungeon"
+				type: "structure"
+			}]
+			x: 6.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"7E127D48840BC572"
+				"05DC3726C24A4A89"
+				"4BCB71CCDCF233E1"
+				"79B14136836E0DE4"
+			]
+			disable_toast: true
+			icon: {
+				id: "minecraft:filled_map"
+			}
+			id: "12E86BD2EF1AADF8"
+			tags: [
+				"industrial_colonies:exploration_guidance"
+				"industrial_colonies:exploration_guidance/phase/overworld_dungeons"
+				"industrial_colonies:exploration_guidance/better_dungeons_survey"
+			]
+			tasks: [{
+				advancement: "betterdungeons:all_dungeons"
+				criterion: ""
+				id: "281CFB843A64E8CD"
+				type: "advancement"
+			}]
+			x: 9.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["5A0421E6B792A4AC"]
+			disable_toast: true
+			icon: {
+				id: "minecraft:mossy_stone_bricks"
+			}
+			id: "18E067DE9F1BD75F"
+			tags: [
+				"industrial_colonies:exploration_guidance"
+				"industrial_colonies:exploration_guidance/phase/deep_descent"
+				"industrial_colonies:exploration_guidance/dungeon_crawl_entrance"
+			]
+			tasks: [{
+				id: "02CA5B6AE2FC4037"
+				structure: "dungeoncrawl:dungeon"
+				type: "structure"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["18E067DE9F1BD75F"]
+			disable_toast: true
+			icon: {
+				id: "minecraft:stone_pickaxe"
+			}
+			id: "58D55A5352E07D9F"
+			tags: [
+				"industrial_colonies:exploration_guidance"
+				"industrial_colonies:exploration_guidance/phase/deep_descent"
+				"industrial_colonies:exploration_guidance/salvaged_stone_pickaxe"
+			]
+			tasks: [{
+				id: "35A83BE9DEE5CDE6"
+				item: { count: 1, id: "minecraft:stone_pickaxe" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5A0421E6B792A4AC"]
+			disable_toast: true
+			icon: {
+				id: "minecraft:shield"
+			}
+			id: "7D84155B5DB7500F"
+			tags: [
+				"industrial_colonies:exploration_guidance"
+				"industrial_colonies:exploration_guidance/phase/rare_expeditions"
+				"industrial_colonies:exploration_guidance/expedition_kit"
+			]
+			tasks: [
+				{
+					id: "29AC5E57543814F0"
+					item: { count: 1, id: "minecraft:shield" }
+					type: "item"
+				}
+				{
+					id: "49160771926FD2BF"
+					item: { count: 1, id: "minecraft:water_bucket" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7D84155B5DB7500F"]
+			disable_toast: true
+			icon: {
+				id: "minecraft:chiseled_stone_bricks"
+			}
+			id: "2772ECEBB83F9B21"
+			tags: [
+				"industrial_colonies:exploration_guidance"
+				"industrial_colonies:exploration_guidance/phase/rare_expeditions"
+				"industrial_colonies:exploration_guidance/labyrinth_recon"
+			]
+			tasks: [{
+				id: "51198E420B9AD202"
+				structure: "dungeonnowloading:labyrinth"
+				type: "structure"
+			}]
+			x: 6.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["7D84155B5DB7500F"]
+			disable_toast: true
+			icon: {
+				id: "minecraft:comparator"
+			}
+			id: "3C69C2345C7ECA6F"
+			tags: [
+				"industrial_colonies:exploration_guidance"
+				"industrial_colonies:exploration_guidance/phase/rare_expeditions"
+				"industrial_colonies:exploration_guidance/temple_recon"
+			]
+			tasks: [{
+				id: "1F403361B634E083"
+				structure: "dungeonnowloading:temple_of_duality"
+				type: "structure"
+			}]
+			x: 6.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["12E86BD2EF1AADF8"]
+			disable_toast: true
+			icon: {
+				id: "minecraft:red_nether_bricks"
+			}
+			id: "64F5BC69BE8892C4"
+			tags: [
+				"industrial_colonies:exploration_guidance"
+				"industrial_colonies:exploration_guidance/phase/nether_expedition"
+				"industrial_colonies:exploration_guidance/small_nether_dungeon"
+			]
+			tasks: [{
+				id: "4FB002FC867D4009"
+				structure: "betterdungeons:small_nether_dungeon"
+				type: "structure"
+			}]
+			x: 12.0d
+			y: -6.0d
+		}
+	]
+}

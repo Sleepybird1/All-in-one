@@ -1,0 +1,32 @@
+{
+  "status": "APPLIED",
+  "revision": "r7",
+  "files": {
+    "kjsgen/projects/default.json": {
+      "before": "0aacb7b7bc2e0ba0a0aa8c4211a115146fdc521141a1cceb400ed71532ff5da9",
+      "after": "ee9bb6d93f514acc3e344bf93bf1049f58e5bea03e6e6fbdb65dad4a6002e77a"
+    },
+    "kubejs/server_scripts/kjsgen_recipes.js": {
+      "before": "caba0d103c32b052435c57a5421b42e1b550c89e415d1b31bd1e0c5f1aef5c91",
+      "after": "d237918276b5e093b81c2b68ecd26f5e7fd3db87d1ffedb577b9f218d51178eb"
+    },
+    "kubejs/server_scripts/zz_industrial_material_processing.js": {
+      "before": "1e44f7bc42718aaf3218c48526f2f534db31679bc2e18127a37cac5158a2ec78",
+      "after": "05948a6c0434f71d8cebf24c09d5af12f3e6c5c6c732ba070f04050e62629733"
+    },
+    "kubejs/server_scripts/zzz_industrial_ownership.js": {
+      "before": null,
+      "after": "d8358ea99323bb1487fdb2157a8b8e1cd88def45266b8e8eb5ebd60f5db11129"
+    }
+  },
+  "jarUnchanged": "d1a60ce6f8869b7c1197eae9d0d2879b8599a38bc34c064d878475e8594efa2e",
+  "savesTouched": false,
+  "backup": "C:\\Users\\GodPC\\curseforge\\minecraft\\Instances\\All in one\\_industrial_colonies_backups\\ownership-20260910-191354",
+  "written": [
+    "kjsgen/projects/default.json",
+    "kubejs/server_scripts/kjsgen_recipes.js",
+    "kubejs/server_scripts/zz_industrial_material_processing.js",
+    "kubejs/server_scripts/zzz_industrial_ownership.js"
+  ],
+  "appliedAt": "2026-09-10T19:13:55.143413-04:00"
+}

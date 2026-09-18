@@ -1,0 +1,276 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "rsquare"
+	filename: "orbital_engineering"
+	group: ""
+	id: "0098A4630EB1B68C"
+	images: [ ]
+	order_index: 8
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["00C5B9DFDCC5F502"]
+			disable_toast: true
+			icon: {
+				id: "industrial_colonies:orbital_flight_computer"
+			}
+			id: "7BF772462B764442"
+			tags: [
+				"industrial_colonies:orbital_guidance"
+				"industrial_colonies:orbital_guidance/phase/orbital_authorization"
+				"industrial_colonies:orbital_guidance/orbital_flight_computer"
+			]
+			tasks: [{
+				id: "30A921CA62672ABF"
+				item: { count: 1, id: "industrial_colonies:orbital_flight_computer" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["369662C60696204E"]
+			disable_toast: true
+			icon: {
+				id: "rocketnautics:thruster_mount"
+			}
+			id: "3A73061D881D59D7"
+			tags: [
+				"industrial_colonies:orbital_guidance"
+				"industrial_colonies:orbital_guidance/phase/modular_propulsion"
+				"industrial_colonies:orbital_guidance/thruster_mount"
+			]
+			tasks: [{
+				id: "04E88A270AB2E557"
+				item: { count: 1, id: "rocketnautics:thruster_mount" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["18548A7BBD3A6471"]
+			disable_toast: true
+			icon: {
+				id: "rocketnautics:engine_pipes"
+			}
+			id: "46B99062C183CE00"
+			tags: [
+				"industrial_colonies:orbital_guidance"
+				"industrial_colonies:orbital_guidance/phase/modular_propulsion"
+				"industrial_colonies:orbital_guidance/engine_pipes"
+			]
+			tasks: [{
+				id: "1106F165DC37EB8F"
+				item: { count: 1, id: "rocketnautics:engine_pipes" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["46B99062C183CE00"]
+			disable_toast: true
+			icon: {
+				id: "rocketnautics:engine_nozzle"
+			}
+			id: "369662C60696204E"
+			tags: [
+				"industrial_colonies:orbital_guidance"
+				"industrial_colonies:orbital_guidance/phase/modular_propulsion"
+				"industrial_colonies:orbital_guidance/engine_nozzle"
+			]
+			tasks: [{
+				id: "52BC39062576A4C1"
+				item: { count: 1, id: "rocketnautics:engine_nozzle" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7BF772462B764442"]
+			disable_toast: true
+			icon: {
+				id: "rocketnautics:hose_anchor"
+			}
+			id: "18548A7BBD3A6471"
+			tags: [
+				"industrial_colonies:orbital_guidance"
+				"industrial_colonies:orbital_guidance/phase/modular_propulsion"
+				"industrial_colonies:orbital_guidance/hose_anchor"
+			]
+			tasks: [{
+				id: "57847BBD969B004B"
+				item: { count: 1, id: "rocketnautics:hose_anchor" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3A73061D881D59D7"]
+			disable_toast: true
+			icon: {
+				id: "ad_astra:airlock"
+			}
+			id: "1AA3FBF030B8937D"
+			tags: [
+				"industrial_colonies:orbital_guidance"
+				"industrial_colonies:orbital_guidance/phase/habitat_readiness"
+				"industrial_colonies:orbital_guidance/habitat_life_support"
+			]
+			tasks: [
+				{
+					id: "0526FA4A58F9F712"
+					item: { count: 1, id: "ad_astra:oxygen_distributor" }
+					type: "item"
+				}
+				{
+					id: "424F891CE86409C5"
+					item: { count: 1, id: "ad_astra:oxygen_sensor" }
+					type: "item"
+				}
+				{
+					id: "3F77D0A36AD6FD49"
+					item: { count: 1, id: "ad_astra:vent" }
+					type: "item"
+				}
+				{
+					id: "0696ABC97C26D578"
+					item: { count: 1, id: "ad_astra:airlock" }
+					type: "item"
+				}
+			]
+			x: 15.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"3A73061D881D59D7"
+				"1AA3FBF030B8937D"
+			]
+			disable_toast: true
+			icon: {
+				id: "simulated:physics_assembler"
+			}
+			id: "7A2579770208EA42"
+			tags: [
+				"industrial_colonies:orbital_guidance"
+				"industrial_colonies:orbital_guidance/phase/orbital_construction"
+				"industrial_colonies:orbital_guidance/physics_assembler"
+			]
+			tasks: [{
+				id: "062A943A0A573AA4"
+				item: { count: 1, id: "simulated:physics_assembler" }
+				type: "item"
+			}]
+			x: 18.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7A2579770208EA42"]
+			disable_toast: true
+			icon: {
+				id: "simulated:navigation_table"
+			}
+			id: "73F7C4FE65529875"
+			tags: [
+				"industrial_colonies:orbital_guidance"
+				"industrial_colonies:orbital_guidance/phase/orbital_navigation"
+				"industrial_colonies:orbital_guidance/navigation_suite"
+			]
+			tasks: [
+				{
+					id: "7E10F4C2E8516D22"
+					item: { count: 1, id: "simulated:velocity_sensor" }
+					type: "item"
+				}
+				{
+					id: "02465D77005CC431"
+					item: { count: 1, id: "simulated:gimbal_sensor" }
+					type: "item"
+				}
+				{
+					id: "6FB17821F7424146"
+					item: { count: 1, id: "simulated:optical_sensor" }
+					type: "item"
+				}
+				{
+					id: "28A95507C31AE282"
+					item: { count: 1, id: "simulated:navigation_table" }
+					type: "item"
+				}
+				{
+					id: "4E7C616C3FAB4465"
+					item: { count: 1, id: "rocketnautics:sputnik" }
+					type: "item"
+				}
+			]
+			x: 21.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["73F7C4FE65529875"]
+			disable_toast: true
+			icon: {
+				id: "simulated:docking_connector"
+			}
+			id: "3C05FACF5195295E"
+			tags: [
+				"industrial_colonies:orbital_guidance"
+				"industrial_colonies:orbital_guidance/phase/dockyard_interfaces"
+				"industrial_colonies:orbital_guidance/docking_connector"
+			]
+			tasks: [{
+				count: 6L
+				id: "45B3B23B500E4363"
+				item: { count: 1, id: "simulated:docking_connector" }
+				type: "item"
+			}]
+			x: 24.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3C05FACF5195295E"]
+			disable_toast: true
+			icon: {
+				id: "ad_astra:steel_plating"
+			}
+			id: "0A7C17FCC821EE93"
+			tags: [
+				"industrial_colonies:orbital_guidance"
+				"industrial_colonies:orbital_guidance/phase/station_fabrication"
+				"industrial_colonies:orbital_guidance/station_materials"
+			]
+			tasks: [
+				{
+					count: 128L
+					id: "7C6AB0446DF892A7"
+					item: { count: 1, id: "ad_astra:steel_plating" }
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "31F952BEE893682B"
+					item: { count: 1, id: "ad_astra:steel_panel" }
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "2E857F7EC0A0BC46"
+					item: { count: 1, id: "ad_astra:cable_duct" }
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "36299A42D10ECDA9"
+					item: { count: 1, id: "ad_astra:fluid_pipe_duct" }
+					type: "item"
+				}
+			]
+			x: 27.0d
+			y: 0.0d
+		}
+	]
+}

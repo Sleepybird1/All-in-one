@@ -1,0 +1,49 @@
+Detected that Windows reported recent critical or error events in the Application log,
+which can indicate that a process (including the Minecraft JVM) terminated unexpectedly.
+Scope: Application log; Levels: Error & Critical; Window: last ~15 seconds.
+
+If no java.exe (or related JVM processes) are listed below, you can disregard this message.
+To inspect these events manually:
+  1) Press Win+R, type "eventvwr.msc", press Enter.
+  2) Open "Windows Logs" → "Application".
+  3) Sort by Date and look for entries with Level = Error or Critical near the crash time.
+
+-----------------------
+Time: 2026-09-04 03:13:23.791 EDT
+Source: Application Error
+Event ID: 1000
+Level: Error
+
+Message:
+  Faulting application name: javaw.exe, version: 21.0.9.0, time stamp: 0xb94994ce
+  Faulting module name: OpenAL.dll, version: 1.23.1.0, time stamp: 0x647635a1
+  Exception code: 0xc0000409
+  Fault offset: 0x00000000000a2b05
+  Faulting process id: 0x79BC
+  Faulting application start time: 0x1DD3C3CC9D32364
+  Faulting application path: C:\Users\GodPC\curseforge\minecraft\Install\java\java-runtime-delta\bin\javaw.exe
+  Faulting module path: C:\Users\GodPC\curseforge\minecraft\Install\natives\neoforge-21.1.248\OpenAL.dll
+  Report Id: d0fee75b-5103-41b2-ba3b-031babb0af15
+  Faulting package full name: 
+  Faulting package-relative application ID:
+
+
+Details:
+  - AppName: javaw.exe
+  - AppVersion: 21.0.9.0
+  - AppTimeStamp: b94994ce
+  - ModuleName: OpenAL.dll
+  - ModuleVersion: 1.23.1.0
+  - ModuleTimeStamp: 647635a1
+  - ExceptionCode: c0000409
+  - FaultingOffset: 00000000000a2b05
+  - Process ID: 31164 [0x79bc]
+  - ProcessCreationTime: 0x1dd3c3cc9d32364
+  - AppPath: C:\Users\GodPC\curseforge\minecraft\Install\java\java-runtime-delta\bin\javaw.exe
+  - ModulePath: C:\Users\GodPC\curseforge\minecraft\Install\natives\neoforge-21.1.248\OpenAL.dll
+  - IntegratorReportId: d0fee75b-5103-41b2-ba3b-031babb0af15
+  - Process ID: 31164 [0x79BC]
+  - Start Time: 2026-09-04 03:12:47.274 EDT [0x1DD3C3CC9D32364]
+  - Exception Code: 3221226505 [0xc0000409]
+-----------------------
+

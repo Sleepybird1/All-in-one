@@ -1,0 +1,49 @@
+/weather clear
+/weather clear 1000000d
+/time set day
+/gamerule doDaylightCycle false
+/clear
+/reload
+/give @s industrial_colonies:yellorium_compound
+/time set day
+/gamerule doEntityDrops false
+/gamerule doEntityDrops true
+/time set day
+/gamerule doDaylightCycle false
+/weather clear\
+/weather clear
+/gamerule doWeatherCycle false
+/kubejs dump registry minecraft:item
+/kubejs dump registry minecraft:block
+/item replace entity @s hotbar.8 with createcasing:copper_press
+/locate biome minecraft:plains
+/tp @s -2496 132 1447
+/gamemode survival
+/gamemode creative
+/time set day
+/clear
+/structureessentials getStructuresNearby
+/time set day
+/structureessentials getStructuresNearby
+/time set day
+/structureessentials getStructuresNearby
+/chunky start minecraft:overworld circle 5761 20630 1000 1000
+/chunky pause
+/chunky cancel
+/chunky confirm
+/chunky start minecraft:overworld circle -22424 -5939 1000 1000
+/chunky start minecraft:overworld circle -22424 -5939 10000 10000
+/chunky pause
+/locate biome minecraft:frozen_peaks
+/tp @s 4841 163 16002
+/chunky start minecraft:overworld circle 10771 20755 1000 1000
+/chunky confirm
+/chunky start minecraft:overworld circle 10771 20755 1000 1000
+/chunky start minecraft:overworld circle 10771 20755 2000 2000
+/chunky start minecraft:overworld circle 5815 17694 2000 2000
+/chunky start minecraft:overworld rectangle 3672 18518 1000 4000
+/locate structure minecraft:village
+/locate structure minecraft:village_taiga
+/structureessentials getStructuresNearby
+/clear
+/exportinventoryicons

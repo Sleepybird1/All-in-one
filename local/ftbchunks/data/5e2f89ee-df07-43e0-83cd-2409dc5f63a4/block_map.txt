@@ -1,0 +1,10 @@
+#FA75A8 minecraft:andesite
+#CD50CF industrial_colonies:chalcopyrite
+#DE242D minecraft:coal_ore
+#BED665 minecraft:diorite
+#3F84B7 minecraft:grass_block
+#88BAFA minecraft:gravel
+#76C819 industrial_colonies:hematite
+#872D76 minecraft:snow
+#12E6C4 minecraft:snow_block
+#DC3458 minecraft:stone

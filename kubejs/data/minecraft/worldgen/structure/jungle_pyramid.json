@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:jungle_temple",
+  "biomes": {
+    "type": "neoforge:and",
+    "values": [
+      "#minecraft:has_structure/jungle_temple",
+      "#minecraft:is_overworld"
+    ]
+  },
+  "spawn_overrides": {},
+  "step": "surface_structures"
+}

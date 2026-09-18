@@ -1,0 +1,11 @@
+{
+  "status": "APPLIED",
+  "version": "0.5.1",
+  "sha256": "7219C29073CF45918E4BD8A64127E4D83147CC277120E334BE10242882078749",
+  "installed": "C:\\Users\\GodPC\\curseforge\\minecraft\\Instances\\All in one\\mods\\industrial_colonies-0.5.1.jar",
+  "backup": "C:\\Users\\GodPC\\curseforge\\minecraft\\Instances\\All in one\\_industrial_colonies_backups\\cave-traces-0.5.1-20260909-182157\\industrial_colonies-0.5.0.jar",
+  "previousSha256": "8DF80E5C7E4B447F651696A9383A1487B26F557A67D6263DEAFA3805BC675D91",
+  "appliedAt": "2026-09-09T18:21:57.4860635-04:00",
+  "savesTouched": false,
+  "recipesTouched": false
+}

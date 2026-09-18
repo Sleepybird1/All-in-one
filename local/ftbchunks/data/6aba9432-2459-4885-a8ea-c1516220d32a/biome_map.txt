@@ -1,0 +1,16 @@
+#6D8 regions_unexplored:boreal_taiga
+#4E1 regions_unexplored:clover_plains
+#3D6 minecraft:cold_ocean
+#109 minecraft:deep_cold_ocean
+#3DE minecraft:deep_ocean
+#71D regions_unexplored:dry_bushland
+#053 regions_unexplored:flower_fields
+#674 minecraft:flower_forest
+#4F1 minecraft:ocean
+#11D regions_unexplored:pine_taiga
+#3DC minecraft:plains
+#5B4 regions_unexplored:poppy_fields
+#25A regions_unexplored:prairie
+#67B minecraft:savanna
+#02B regions_unexplored:shrubland
+#169 minecraft:taiga
