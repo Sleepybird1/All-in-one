@@ -16,6 +16,6 @@
   "kjsgen.param.heat": "Heat Requirement",
   "kjsgen.param.heatLevel": "Vat Heat Level",
   "kjsgen.param.minSize": "Minimum Vat Size",
-  "kjsgen.param.mode": "Fluid Processing Mode",
+  "kjsgen.param.processingType": "Fan Processing Type",
   "kjsgen.param.consumeFluid": "Consume Fluid"
 }
