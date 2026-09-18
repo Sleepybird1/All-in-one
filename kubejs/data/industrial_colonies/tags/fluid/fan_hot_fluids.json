@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "#create:fan_processing_catalysts/blasting",
+    "minecraft:lava"
+  ]
+}
