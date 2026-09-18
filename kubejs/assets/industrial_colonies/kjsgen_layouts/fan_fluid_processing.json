@@ -2,22 +2,24 @@
   "id": "industrial_colonies:fan_fluid_processing",
   "mod": "create",
   "icon": "create:encased_fan",
-  "width": 126,
-  "height": 76,
+  "width": 144,
+  "height": 94,
   "slots": [
-    { "key": "input", "role": "INPUT", "x": 0, "y": 18, "required": true, "item": true, "tag": true },
-    { "key": "fluid", "role": "CATALYST", "x": 36, "y": 18, "required": true, "fluid": true, "tag": true, "count": true },
-    { "key": "output", "role": "OUTPUT", "x": 90, "y": 18, "required": true, "item": true, "count": true, "chance": true, "list": true }
+    { "key": "fanType", "role": "CATALYST", "x": 0, "y": 0, "required": true, "item": true, "tag": true },
+    { "key": "input", "role": "INPUT", "x": 0, "y": 36, "required": true, "item": true, "tag": true },
+    { "key": "fluid", "role": "CATALYST", "x": 42, "y": 36, "required": true, "fluid": true, "tag": true, "count": true },
+    { "key": "output", "role": "OUTPUT", "x": 108, "y": 36, "required": true, "item": true, "count": true, "chance": true, "list": true }
   ],
   "decorations": [
-    { "type": "PLUS", "x": 20, "y": 20 },
-    { "type": "ARROW", "x": 62, "y": 19 },
-    { "type": "TEXT", "x": 0, "y": 50, "text": "Encased Fan + selected fluid" }
+    { "type": "TEXT", "x": 22, "y": 4, "text": "Encased Fan Type" },
+    { "type": "PLUS", "x": 24, "y": 38 },
+    { "type": "ARROW", "x": 76, "y": 37 },
+    { "type": "TEXT", "x": 0, "y": 68, "text": "Fan Processing + selected fluid" }
   ],
   "parameters": [
-    { "key": "mode", "type": "ENUM", "default": "heat", "options": ["heat", "wash", "cool", "reactive"] },
+    { "key": "processingType", "type": "ENUM", "default": "fluid", "options": ["fluid", "heat"] },
     { "key": "consumeFluid", "type": "BOOL", "default": "false" },
-    { "key": "__template", "type": "STRING", "default": "global.IndustrialFanProcessing.register({ input: {slot:input}, fluid: {slot:fluid}, outputs: [{outputs}], mode: {param_str:mode}, consumeFluid: {param:consumeFluid} })" },
+    { "key": "__template", "type": "STRING", "default": "global.IndustrialFanProcessing.register({ fan: {slot:fanType}, input: {slot:input}, fluid: {slot:fluid}, outputs: [{outputs}], processingType: {param_str:processingType}, consumeFluid: {param:consumeFluid} })" },
     { "key": "__suffix_id", "type": "STRING", "default": "false" }
   ],
   "codegen": "kjsgen:template",
