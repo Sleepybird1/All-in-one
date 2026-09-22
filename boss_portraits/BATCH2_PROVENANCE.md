@@ -1,0 +1,44 @@
+# Additional boss reference portraits
+
+Rendered from actual Minecraft/mod models and textures. Reference poses, not gameplay screenshots. Original assets belong to their respective authors. One colour variant is shown where applicable.
+
+- Wither (Minecraft): Minecraft 1.21.1 :: WitherBossModel + textures/entity/wither/wither.png
+- Ignis (Cataclysm): L_Ender's Cataclysm 1.21.1-3.32.jar :: Ignis_Model.java + assets/cataclysm/textures/entity/ignis/ignis_idle_0.png
+- Netherite Monstrosity (Cataclysm): L_Ender's Cataclysm 1.21.1-3.32.jar :: Netherite_Monstrosity_Model.java + assets/cataclysm/textures/entity/monstrosity/netherite_monstrosity.png
+- Frostmaw (Mowzie’s Mobs): mowziesmobs-1.21.1-1.8.2.jar :: ModelFrostmaw.java + assets/mowziesmobs/textures/entity/frostmaw.png
+- The Dead King (Iron’s Spells): irons_spellbooks-1.21.1-3.16.2.jar :: assets/irons_spellbooks/geo/dead_king.geo.json + assets/irons_spellbooks/textures/entity/dead_king/dead_king.png
+- Echo of Tyros, First Flamebearer (Iron’s Spells): irons_spellbooks-1.21.1-3.16.2.jar :: assets/irons_spellbooks/geo/tyros.geo.json + assets/irons_spellbooks/textures/entity/fire_boss/tyros.png
+- Stalker (Deeper and Darker): deeperdarker-neoforge-1.21.1-1.4.1.jar :: StalkerModel.java + assets/deeperdarker/textures/entity/stalker.png
+- Fire Dragon (Ice and Fire): iceandfire-2.1.3.jar :: assets/iceandfire/models/tabula/firedragon/firedragon_base_male.tbl + assets/iceandfire/textures/entity/firedragon/bronze_5.png
+- Ice Dragon (Ice and Fire): iceandfire-2.1.3.jar :: assets/iceandfire/models/tabula/icedragon/icedragon_base_male.tbl + assets/iceandfire/textures/entity/icedragon/blue_5.png
+- Lightning Dragon (Ice and Fire): iceandfire-2.1.3.jar :: assets/iceandfire/models/tabula/lightningdragon/lightningdragon_base_male.tbl + assets/iceandfire/textures/entity/lightningdragon/amethyst_5.png
+- Sea Serpent (Ice and Fire): iceandfire-2.1.3.jar :: assets/iceandfire/models/tabula/seaserpent/seaserpent_base.tbl + assets/iceandfire/textures/entity/seaserpent/seaserpent_blue.png
+- Warden (Minecraft): Minecraft 1.21.1 :: WardenModel + textures/entity/warden/warden.png
+- Ravager (Minecraft): Minecraft 1.21.1 :: RavagerModel + textures/entity/illager/ravager.png
+- Evoker (Minecraft): Minecraft 1.21.1 :: IllagerModel + textures/entity/illager/evoker.png
+- Coralssus (Cataclysm): L_Ender's Cataclysm 1.21.1-3.32.jar :: Coralssus_Model.java + assets/cataclysm/textures/entity/deepling/coralssus_fire.png
+- Clawdian (Cataclysm): L_Ender's Cataclysm 1.21.1-3.32.jar :: Clawdian_Model.java + assets/cataclysm/textures/entity/sea/shrimp.png
+- Wither Knight (Block Factory’s Bosses): block_factorys_bosses-2.1.2-neo-1.21.1.jar :: Modelsoul_knight_wither_skeleton.java + assets/block_factorys_bosses/textures/entities/soul_knight_wither_skeleton_sword.png
+- Foliaath (Mowzie’s Mobs): mowziesmobs-1.21.1-1.8.2.jar :: ModelFoliaath.java + assets/mowziesmobs/textures/entity/foliaath.png
+- Necromancer (Iron’s Spells): irons_spellbooks-1.21.1-3.16.2.jar :: assets/irons_spellbooks/geo/skeleton_mob.geo.json + assets/irons_spellbooks/textures/entity/necromancer.png
+- Priest (Iron’s Spells): irons_spellbooks-1.21.1-3.16.2.jar :: assets/irons_spellbooks/geo/archevoker.geo.json + assets/irons_spellbooks/textures/entity/priest/priest.png
+- Apothecarist (Iron’s Spells): irons_spellbooks-1.21.1-3.16.2.jar :: assets/irons_spellbooks/geo/piglin_casting_mob.geo.json + assets/irons_spellbooks/textures/entity/apothecarist.png
+- Serpent Caller (Dungeon Now Loading): dungeonnowloading-neoforge-1.21.1-2.11.3.jar :: FairkeeperSerpentCallerModel.java + assets/dungeonnowloading/textures/entity/fairkeeper_serpent_caller/fairkeeper_serpent_caller_active.png
+- Pharaoh (MineColonies): minecolonies-1.1.1368-1.21.1.jar :: ModelPharaoh.java + assets/minecolonies/textures/entity/raiders/pharao.png
+- Amazon Leader (MineColonies): minecolonies-1.1.1368-1.21.1.jar :: ModelAmazonChief.java + assets/minecolonies/textures/entity/raiders/amazon_chief.png
+- The Gatekeeper (Eternal Starlight): eternalstarlight-0.9.0+1.21.1+neoforge.jar.disabled :: TheGatekeeperModel.java + assets/eternal_starlight/textures/entity/the_gatekeeper.png
+- Starlight Golem (Eternal Starlight): eternalstarlight-0.9.0+1.21.1+neoforge.jar.disabled :: StarlightGolemModel.java + assets/eternal_starlight/textures/entity/starlight_golem/starlight_golem.png
+- Lunar Monstrosity (Eternal Starlight): eternalstarlight-0.9.0+1.21.1+neoforge.jar.disabled :: LunarMonstrosityModel.java + assets/eternal_starlight/textures/entity/lunar_monstrosity.png
+- Solar Creeper (Eternal Starlight): eternalstarlight-0.9.0+1.21.1+neoforge.jar.disabled :: SolarCreeperModel.java + assets/eternal_starlight/textures/entity/solar_creeper/solar_creeper.png
+- The Obliterator (Legendary Monsters): legendary_monsters-2.2.3 MC 1.21.1.jar.disabled :: TheObliteratorModel.java + assets/legendary_monsters/textures/entity/the_warped_one/the_warped_one.png
+- Redstone Golem (Dungeons): dungeons_1.19_mc1.21.1.jar.disabled :: Modelredstone_golem.java + assets/duneons/textures/entities/golem_red.png
+- Draugr Wight (Mebahel Draugr): mebahel-creatures-draugr-2.1.3-fabric-1.21.1.jar.disabled :: assets/mebahelcreaturesdraugr/geo/draugr_wight.geo.json + assets/mebahelcreaturesdraugr/textures/entity/draugr/draugr_wight_temperate.png
+- Draugr Scourge (Mebahel Draugr): mebahel-creatures-draugr-2.1.3-fabric-1.21.1.jar.disabled :: assets/mebahelcreaturesdraugr/geo/draugr_scourge.geo.json + assets/mebahelcreaturesdraugr/textures/entity/draugr_scourge/draugr_scourge_temperate.png
+- Infernal Draugr (Mebahel Draugr): mebahel-creatures-draugr-2.1.3-fabric-1.21.1.jar.disabled :: assets/mebahelcreaturesdraugr/geo/infernal_draugr.geo.json + assets/mebahelcreaturesdraugr/textures/entity/infernal_draugr/infernal_draugr_1.png
+- Flame Atronach (Mebahel Draugr): mebahel-creatures-draugr-2.1.3-fabric-1.21.1.jar.disabled :: assets/mebahelcreaturesdraugr/geo/flame_atronach.geo.json + assets/mebahelcreaturesdraugr/textures/entity/flame_atronach/flame_atronach_texture.png
+- Skeletosaurus (Legendary Monsters): legendary_monsters-2.2.3 MC 1.21.1.jar.disabled :: SkeletosaurusModel.java + assets/legendary_monsters/textures/entity/skeletosaurus_new5.png
+- Chorusent (Legendary Monsters): legendary_monsters-2.2.3 MC 1.21.1.jar.disabled :: EndersentModel.java + assets/legendary_monsters/textures/entity/endersent6.png
+- Ambusher (Legendary Monsters): legendary_monsters-2.2.3 MC 1.21.1.jar.disabled :: AmbusherModel.java + assets/legendary_monsters/textures/entity/ambusher_new.png
+- Ancient Guardian (Legendary Monsters): legendary_monsters-2.2.3 MC 1.21.1.jar.disabled :: Ancient_GuardianModel.java + assets/legendary_monsters/textures/entity/ancient_guardian/ancient_guardian.png
+- Haunted Guard (Legendary Monsters): legendary_monsters-2.2.3 MC 1.21.1.jar.disabled :: HauntedGuardModel.java + assets/legendary_monsters/textures/entity/variant/haunted_guard/haunted_guard_diamond.png
+- Bomber (Legendary Monsters): legendary_monsters-2.2.3 MC 1.21.1.jar.disabled :: BomberModel.java + assets/legendary_monsters/textures/entity/bomber_dune.png
