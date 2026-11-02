@@ -1,3 +1,48 @@
+## November 1 — selected storage capacity balance
+
+Design decision recorded; **not implemented or verified in gameplay**. This supersedes earlier capacity proposals, including thirty stacks per Vault block and a constant bytes/item ratio.
+
+Physical silos/Vaults retain the economical bulk-storage and freight role. Digital cells provide mixed-item storage, search and crafting convenience. Preserve separately selected host progression and freight restrictions; the drive counts below are capacity comparisons, not early-game availability.
+
+### ME item-cell capacities
+
+| Cell tier | Bytes/item | One cell | 1 full drive | 2 full drives | 4 full drives | 8 full drives |
+|---|---:|---:|---:|---:|---:|---:|
+| 1K | 4 | 256 | 2,560 | 5,120 | 10,240 | 20,480 |
+| 4K | 4 | 1,024 | 10,240 | 20,480 | 40,960 | 81,920 |
+| 16K | 8 | 2,048 | 20,480 | 40,960 | 81,920 | 163,840 |
+| 64K | 8 | 8,192 | 81,920 | 163,840 | 327,680 | 655,360 |
+| 256K | 16 | 16,384 | 163,840 | 327,680 | 655,360 | 1,310,720 |
+| 1M | 16 | 65,536 | 655,360 | 1,310,720 | 2,621,440 | 5,242,880 |
+| 4M | 32 | 131,072 | 1,310,720 | 2,621,440 | 5,242,880 | 10,485,760 |
+| 16M | 32 | 524,288 | 5,242,880 | 10,485,760 | 20,971,520 | 41,943,040 |
+| 64M | 64 | 1,048,576 | 10,485,760 | 20,971,520 | 41,943,040 | 83,886,080 |
+| 256M | 64 | 4,194,304 | 41,943,040 | 83,886,080 | 167,772,160 | 335,544,320 |
+
+All counts are item budgets **before item-type overhead**, with 10 cells per standard ME Drive, binary K = 1,024 bytes and M = 1,048,576 bytes. Effective capacity = nominal bytes / bytes per item. The paired byte weights alternate 4× and 2× effective capacity gains. Actual type limits/overhead and technical implementation still require verification.
+
+### Item Vault capacity target
+
+Set the target to **48 inventory slots (stacks) per Vault block**. Item totals assume full stacks of 64; lower-stack or unstackable items reduce totals. Larger structures do not increase capacity per occupied block.
+
+| Vault dimensions | Blocks | Slots | Items at 64/stack |
+|---|---:|---:|---:|
+| 1 × 1 × 1 | 1 | 48 | 3,072 |
+| 1 × 1 × 3 | 3 | 144 | 9,216 |
+| 2 × 2 × 6 | 24 | 1,152 | 73,728 |
+| 3 × 3 × 9 | 81 | 3,888 | 248,832 |
+
+Maximum 3 × 3 × 9 Vault: **248,832 items**, close to the requested 250,000. Relative to the discussed 20-slot baseline, 48 slots is 2.4× capacity (+140%); verify the installed configuration before applying. Preserve the separately recorded item-type restriction decision and resolve Silo parity before changing a shared setting.
+
+### Capacity crossovers and power decisions
+
+- First full standard Drive tier exceeding the maximum Vault: **1M**, 655,360 items across ten cells; ten 256K cells hold 163,840.
+- First single-cell tier exceeding the maximum Vault: **16M**, 524,288 items; one 4M cell holds 131,072.
+- Twelve full Drives of 16K cells hold 245,760 items, slightly below one maximum Vault.
+- These are capacity comparisons, not verified construction-cost equivalence. A full transitive recipe-cost audit remains pending.
+- Higher-density cells should cost more to construct and more power per stored item. Paired byte weights already increase occupied bytes/item at every other upgrade; even a constant occupied-byte power rate therefore increases power/item. Extra rate increases multiply this penalty and must be tested against adding smaller cells.
+- Exact base/idle rates, tier power multipliers, efficiency cards and transport stabilization costs remain **undecided/unimplemented**. The earlier 3.5× idle-power table is illustrative and is not the approved operating curve. Power loss must not destroy contents.
+
 ## November 1 — full-month repository checkpoint
 
 This repository now carries the accumulated installed pack files, current recipe-review state, current Industrial Colonies source/development snapshot, and consolidated design notes. The latest source snapshot is broader than the installed JAR: staged or tested code is not automatically installed or survival-qualified. Recipe approvals, runtime exports, editor visibility and live gameplay verification remain distinct.
@@ -43,9 +88,9 @@ Updated November 1. This is the entry point for work we still want done. An unch
 
 - [ ] Price the ME Chest as the initial single-cell host, gate standard ME Drives substantially later and Extended ME Drives at endgame. The suggested ten-chests-versus-one-drive cost comparison is a target to evaluate, not an implemented ratio. Prevent many cheap1kcells/chests from bypassing physical storage progression.
 - [ ] At the endgame storage stage, make Matter Stabilizer authorize shipboard ME Chests only; do not carry forward old Drive/Extended-Drive stabilization. Decide per-ship chest count/aggregate capacity and binding, and close nested-container/subnet/portable-cell bypasses without losing contents.
-- [ ] Choose the actual cell-capacity rule. One item per byte, ordinary-vs-bulk byte weights and per-type limits were discussed but not finalized. Keep the goal clear: physical silos/vaults for large bulk, digital storage for useful mixed inventories; Storage Buses can expose physical inventories without moving them into cells.
+- [ ] Implement and verify the selected paired cell-capacity rule in the November 1 storage capacity balance above; finalize actual type overhead/limits. Keep the goal clear: physical silos/vaults for large bulk, digital storage for useful mixed inventories; Storage Buses can expose physical inventories without moving them into cells.
 
-- [ ] Implement connected Item Vault storage at thirty stacks per block and one item type across the whole structure. Resolve Item Silo parity rather than changing a shared setting blindly.
+- [ ] Implement connected Item Vault storage at forty-eight stacks per block and one item type across the whole structure. Resolve Item Silo parity rather than changing a shared setting blindly.
 - [ ] Make loaded Vault cargo increase ship mass, counting shared multiblock inventory once and reducing mass when unloaded.
 - [ ] Make Copycat material mass scale by occupied shape volume; empty Copycats remain nearly weightless. Define actual shape fractions and ship-mass integration.
 - [ ] Balance late-game AE2 item/fluid cells and housings, including the first 1k tier, while retaining useful automation and physical bulk storage.
