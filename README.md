@@ -1,3 +1,11 @@
+## November 1 — Extended ME Drive efficiency target
+
+Selected design target; **not implemented or verified in gameplay**. The standard ME Drive hosts 10 cells; the ExtendedAE Extended ME Drive hosts 20. The Extended Drive should have **the same host operating power cost as one standard Drive while providing twice the cell slots**, making it an expensive late-game efficiency upgrade. At equal cell count, one Extended Drive replaces two standard Drives and halves their combined host overhead.
+
+This does not automatically halve total network consumption: occupied-byte/cell stabilization power remains a separate charge. No blanket 50% discount on cell storage power, exact FE/t value or additional 10–20% discount was selected. Final accounting must preserve the intended cell-tier power tradeoffs. Price the Extended Drive recipe for the selected efficiency advantage; exact materials and numeric power rates remain pending.
+
+The latest capacity comparison uses **4 bytes/item for 1K only**, then 8 for 4K, 16 for 16K/64K, 32 for 256K/1M, 64 for 4M/16M, and 128 for 64M/256M. This remains a comparison candidate, not a replacement of the earlier baseline table without further selection. With that candidate, twenty 4K cells hold **10,240 items before type overhead**. The 48-slot-per-block Vault target remains unchanged.
+
 ## November 1 — selected storage capacity balance
 
 Design decision recorded; **not implemented or verified in gameplay**. This supersedes earlier capacity proposals, including thirty stacks per Vault block and a constant bytes/item ratio.
