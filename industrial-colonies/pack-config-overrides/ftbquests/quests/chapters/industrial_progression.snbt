@@ -1,0 +1,90 @@
+{
+  "id": "5EAE8C019077D7EF",
+  "group": "",
+  "order_index": 0,
+  "filename": "industrial_progression",
+  "default_quest_shape": "rsquare",
+  "default_quest_size": 1.0,
+  "default_hide_dependency_lines": false,
+  "progression_mode": "default",
+  "quests": [
+    {
+      "id": "4B66DE417E679AE6",
+      "x": 0.0,
+      "y": 0.0,
+      "icon": {
+        "id": "industrial_colonies:black_hole"
+      },
+      "disable_toast": true,
+      "tags": [
+        "industrial_colonies:endgame_guidance",
+        "industrial_colonies:endgame_guidance/black_hole"
+      ],
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "20E484AA707D9B02",
+          "type": "item",
+          "item": {
+            "id": "industrial_colonies:black_hole"
+          },
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "3373AEB6F841A026",
+      "x": 3.0,
+      "y": 0.0,
+      "icon": {
+        "id": "industrial_colonies:industrial_reserve_core"
+      },
+      "disable_toast": true,
+      "tags": [
+        "industrial_colonies:endgame_guidance",
+        "industrial_colonies:endgame_guidance/industrial_reserves"
+      ],
+      "dependencies": [
+        "4B66DE417E679AE6"
+      ],
+      "tasks": [
+        {
+          "id": "151350606F0AEA63",
+          "type": "item",
+          "item": {
+            "id": "industrial_colonies:industrial_reserve_core"
+          },
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "00C5B9DFDCC5F502",
+      "x": 6.0,
+      "y": 0.0,
+      "icon": {
+        "id": "industrial_colonies:industrial_star"
+      },
+      "disable_toast": true,
+      "tags": [
+        "industrial_colonies:endgame_guidance",
+        "industrial_colonies:endgame_guidance/industrial_star"
+      ],
+      "dependencies": [
+        "3373AEB6F841A026"
+      ],
+      "tasks": [
+        {
+          "id": "7E7DE00B68C29219",
+          "type": "item",
+          "item": {
+            "id": "industrial_colonies:industrial_star"
+          },
+          "count": 1
+        }
+      ]
+    }
+  ],
+  "quest_links": [],
+  "images": []
+}

@@ -1,0 +1,8 @@
+{
+  "status": "STATIC_CLASS_REFERENCE_CANDIDATES",
+  "classesInspected": 3287,
+  "archiveContentsInspected": 545,
+  "matches": [],
+  "errors": [],
+  "limits": "Class names filtered for trade/loot/village/structure/chest/quest/reward; constant references are candidates, not active acquisition. Generic/indirect dispatch, other class names and reflective code are not excluded. No modified archives, recipes or execution."
+}

@@ -1,0 +1,98 @@
+{
+  "id": "industrial_colonies:nuclearcraft_assembler",
+  "mod": "nuclearcraft",
+  "icon": "nuclearcraft:assembler",
+  "width": 156,
+  "height": 62,
+  "slots": [
+    {
+      "key": "in0",
+      "role": "INPUT",
+      "x": 8,
+      "y": 8,
+      "required": true,
+      "item": true,
+      "count": false
+    },
+    {
+      "key": "in1",
+      "role": "INPUT",
+      "x": 32,
+      "y": 8,
+      "required": false,
+      "item": true,
+      "count": false
+    },
+    {
+      "key": "in2",
+      "role": "INPUT",
+      "x": 56,
+      "y": 8,
+      "required": false,
+      "item": true,
+      "count": false
+    },
+    {
+      "key": "in3",
+      "role": "INPUT",
+      "x": 8,
+      "y": 32,
+      "required": false,
+      "item": true,
+      "count": false
+    },
+    {
+      "key": "in4",
+      "role": "INPUT",
+      "x": 32,
+      "y": 32,
+      "required": false,
+      "item": true,
+      "count": false
+    },
+    {
+      "key": "in5",
+      "role": "INPUT",
+      "x": 56,
+      "y": 32,
+      "required": false,
+      "item": true,
+      "count": false
+    },
+    {
+      "key": "output",
+      "role": "OUTPUT",
+      "x": 130,
+      "y": 20,
+      "required": true,
+      "item": true,
+      "count": true
+    }
+  ],
+  "decorations": [
+    {
+      "type": "ARROW",
+      "x": 94,
+      "y": 20
+    }
+  ],
+  "parameters": [
+    {
+      "key": "energyPerTick",
+      "type": "INT",
+      "default": "50"
+    },
+    {
+      "key": "processTime",
+      "type": "INT",
+      "default": "200"
+    },
+    {
+      "key": "__template",
+      "type": "STRING",
+      "default": "event.custom({type:'nuclearcraft:assembler',item_inputs:[{slot:in0},{slot:in1},{slot:in2},{slot:in3},{slot:in4},{slot:in5}].filter(Boolean).map(s=>Item.of(s)).filter(s=>!s.empty).map(s=>({item:s.id,count:s.count})),item_outputs:[{item:Item.of({slot:output}).id,count:Item.of({slot:output}).count}],energy_per_tick:{param:energyPerTick},process_time:{param:processTime}})"
+    }
+  ],
+  "codegen": "kjsgen:template",
+  "requiresMod": "nuclearcraft"
+}

@@ -1,0 +1,30 @@
+{
+  "branch": "industrial_colonies:tech_tree",
+  "costs": [
+    {
+      "item": "bigreactors:reprocessorcontroller",
+      "count": 1
+    },
+    {
+      "item": "bigreactors:blutonium_ingot",
+      "count": 12
+    },
+    {
+      "item": "bigreactors:reprocessorcasing",
+      "count": 8
+    }
+  ],
+  "icon": "mekanism:radioactive_waste_barrel",
+  "name": "com.industrial_colonies.research.nuclear_fuel_cycle.cr01_actinide_chemistry.name",
+  "no-reset": true,
+  "researchLevel": 2,
+  "sortOrder": 10002,
+  "subtitle": "com.industrial_colonies.research.nuclear_fuel_cycle.cr01_actinide_chemistry.subtitle",
+  "parentResearch": "industrial_colonies:nuclear_fuel_cycle/cr01_fuel_reprocessing",
+  "requirements": [
+    {
+      "type": "minecolonies:research",
+      "research": "industrial_colonies:nuclear_fuel_cycle/cr01_fuel_reprocessing"
+    }
+  ]
+}

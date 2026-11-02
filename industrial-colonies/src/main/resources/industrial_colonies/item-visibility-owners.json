@@ -1,0 +1,313 @@
+{
+  "scope": "Existing45installed owners plus later copper rolling-only policy; ordinary ingredient-list presentation only.",
+  "mappings": [
+    {
+      "alias": "ad_astra:desh_ingot",
+      "preferred": "stellaris:desh_ingot"
+    },
+    {
+      "alias": "ad_astra:iron_plate",
+      "preferred": "immersiveengineering:plate_iron"
+    },
+    {
+      "alias": "ad_astra:iron_rod",
+      "preferred": "createaddition:iron_rod"
+    },
+    {
+      "alias": "ad_astra:steel_ingot",
+      "preferred": "mekanism:ingot_steel"
+    },
+    {
+      "alias": "ad_astra:steel_plate",
+      "preferred": "immersiveengineering:plate_steel"
+    },
+    {
+      "alias": "ad_astra:steel_rod",
+      "preferred": "immersiveengineering:stick_steel"
+    },
+    {
+      "alias": "alexscaves:sulfur_dust",
+      "preferred": "tfmg:sulfur_dust"
+    },
+    {
+      "alias": "createaddition:copper_wire",
+      "preferred": "tfmg:copper_wire"
+    },
+    {
+      "alias": "createbigcannons:bronze_ingot",
+      "preferred": "mekanism:ingot_bronze"
+    },
+    {
+      "alias": "createbigcannons:cast_iron_ingot",
+      "preferred": "tfmg:cast_iron_ingot"
+    },
+    {
+      "alias": "createbigcannons:steel_ingot",
+      "preferred": "mekanism:ingot_steel"
+    },
+    {
+      "alias": "createcasing:zinc_sheet",
+      "preferred": "createaddition:zinc_sheet"
+    },
+    {
+      "alias": "createmechanisms:bronze",
+      "preferred": "mekanism:ingot_bronze"
+    },
+    {
+      "alias": "createmetallurgy:steel_ingot",
+      "preferred": "mekanism:ingot_steel"
+    },
+    {
+      "alias": "electroenergetics:copper_wire",
+      "preferred": "tfmg:copper_wire"
+    },
+    {
+      "alias": "iceandfire:raw_silver",
+      "preferred": "nuclearcraft:raw_silver"
+    },
+    {
+      "alias": "iceandfire:silver_ingot",
+      "preferred": "immersiveengineering:ingot_silver"
+    },
+    {
+      "alias": "immersiveengineering:dust_sulfur",
+      "preferred": "tfmg:sulfur_dust"
+    },
+    {
+      "alias": "immersiveengineering:ingot_aluminum",
+      "preferred": "tfmg:aluminum_ingot"
+    },
+    {
+      "alias": "immersiveengineering:ingot_constantan",
+      "preferred": "tfmg:constantan_ingot"
+    },
+    {
+      "alias": "immersiveengineering:ingot_electrum",
+      "preferred": "createaddition:electrum_ingot"
+    },
+    {
+      "alias": "immersiveengineering:ingot_lead",
+      "preferred": "tfmg:lead_ingot"
+    },
+    {
+      "alias": "immersiveengineering:ingot_nickel",
+      "preferred": "tfmg:nickel_ingot"
+    },
+    {
+      "alias": "immersiveengineering:ingot_steel",
+      "preferred": "mekanism:ingot_steel"
+    },
+    {
+      "alias": "immersiveengineering:ingot_uranium",
+      "preferred": "mekanism:ingot_uranium"
+    },
+    {
+      "alias": "immersiveengineering:raw_lead",
+      "preferred": "tfmg:raw_lead"
+    },
+    {
+      "alias": "immersiveengineering:raw_nickel",
+      "preferred": "tfmg:raw_nickel"
+    },
+    {
+      "alias": "immersiveengineering:raw_silver",
+      "preferred": "nuclearcraft:raw_silver"
+    },
+    {
+      "alias": "immersiveengineering:raw_uranium",
+      "preferred": "mekanism:raw_uranium"
+    },
+    {
+      "alias": "immersiveengineering:stick_iron",
+      "preferred": "createaddition:iron_rod"
+    },
+    {
+      "alias": "immersiveengineering:wire_copper",
+      "preferred": "tfmg:copper_wire"
+    },
+    {
+      "alias": "industrial_colonies:galena",
+      "preferred": "tfmg:galena"
+    },
+    {
+      "alias": "industrial_colonies:galena_dust",
+      "preferred": "create:crushed_raw_lead"
+    },
+    {
+      "alias": "mekanism:dust_sulfur",
+      "preferred": "tfmg:sulfur_dust"
+    },
+    {
+      "alias": "mekanism:ingot_lead",
+      "preferred": "tfmg:lead_ingot"
+    },
+    {
+      "alias": "mekanism:raw_lead",
+      "preferred": "tfmg:raw_lead"
+    },
+    {
+      "alias": "modernfoundry:steel_ingot",
+      "preferred": "mekanism:ingot_steel"
+    },
+    {
+      "alias": "nuclearcraft:aluminum_ingot",
+      "preferred": "tfmg:aluminum_ingot"
+    },
+    {
+      "alias": "nuclearcraft:aluminum_plate",
+      "preferred": "immersiveengineering:plate_aluminum"
+    },
+    {
+      "alias": "nuclearcraft:bronze_ingot",
+      "preferred": "mekanism:ingot_bronze"
+    },
+    {
+      "alias": "nuclearcraft:cobalt_ingot",
+      "preferred": "modernfoundry:cobalt_ingot"
+    },
+    {
+      "alias": "nuclearcraft:copper_plate",
+      "preferred": "immersiveengineering:plate_copper"
+    },
+    {
+      "alias": "nuclearcraft:electrum_ingot",
+      "preferred": "createaddition:electrum_ingot"
+    },
+    {
+      "alias": "nuclearcraft:electrum_plate",
+      "preferred": "immersiveengineering:plate_electrum"
+    },
+    {
+      "alias": "nuclearcraft:iron_plate",
+      "preferred": "immersiveengineering:plate_iron"
+    },
+    {
+      "alias": "nuclearcraft:lead_ingot",
+      "preferred": "tfmg:lead_ingot"
+    },
+    {
+      "alias": "nuclearcraft:lead_plate",
+      "preferred": "immersiveengineering:plate_lead"
+    },
+    {
+      "alias": "nuclearcraft:lithium_ingot",
+      "preferred": "tfmg:lithium_ingot"
+    },
+    {
+      "alias": "nuclearcraft:osmium_ingot",
+      "preferred": "mekanism:ingot_osmium"
+    },
+    {
+      "alias": "nuclearcraft:platinum_ingot",
+      "preferred": "rocketnautics_addon:platinum_ingot"
+    },
+    {
+      "alias": "nuclearcraft:raw_cobalt",
+      "preferred": "modernfoundry:raw_cobalt"
+    },
+    {
+      "alias": "nuclearcraft:raw_lead",
+      "preferred": "tfmg:raw_lead"
+    },
+    {
+      "alias": "nuclearcraft:raw_lithium",
+      "preferred": "tfmg:raw_lithium"
+    },
+    {
+      "alias": "nuclearcraft:raw_platinum",
+      "preferred": "rocketnautics_addon:raw_platinum"
+    },
+    {
+      "alias": "nuclearcraft:raw_tin",
+      "preferred": "mekanism:raw_tin"
+    },
+    {
+      "alias": "nuclearcraft:raw_uranium",
+      "preferred": "mekanism:raw_uranium"
+    },
+    {
+      "alias": "nuclearcraft:raw_zinc",
+      "preferred": "create:raw_zinc"
+    },
+    {
+      "alias": "nuclearcraft:silver_ingot",
+      "preferred": "immersiveengineering:ingot_silver"
+    },
+    {
+      "alias": "nuclearcraft:silver_plate",
+      "preferred": "immersiveengineering:plate_silver"
+    },
+    {
+      "alias": "nuclearcraft:steel_ingot",
+      "preferred": "mekanism:ingot_steel"
+    },
+    {
+      "alias": "nuclearcraft:steel_plate",
+      "preferred": "immersiveengineering:plate_steel"
+    },
+    {
+      "alias": "nuclearcraft:sulfur_dust",
+      "preferred": "tfmg:sulfur_dust"
+    },
+    {
+      "alias": "nuclearcraft:tin_ingot",
+      "preferred": "mekanism:ingot_tin"
+    },
+    {
+      "alias": "nuclearcraft:titanium_ingot",
+      "preferred": "rocketnautics:titanium_ingot"
+    },
+    {
+      "alias": "nuclearcraft:tungsten_ingot",
+      "preferred": "createmetallurgy:tungsten_ingot"
+    },
+    {
+      "alias": "nuclearcraft:uranium_ingot",
+      "preferred": "mekanism:ingot_uranium"
+    },
+    {
+      "alias": "nuclearcraft:uranium_plate",
+      "preferred": "immersiveengineering:plate_uranium"
+    },
+    {
+      "alias": "nuclearcraft:zinc_ingot",
+      "preferred": "create:zinc_ingot"
+    },
+    {
+      "alias": "quark:iron_plate",
+      "preferred": "immersiveengineering:plate_iron"
+    },
+    {
+      "alias": "rocketnautics_addon:desh_ingot",
+      "preferred": "stellaris:desh_ingot"
+    },
+    {
+      "alias": "rocketnautics_addon:raw_desh",
+      "preferred": "ad_astra:raw_desh"
+    },
+    {
+      "alias": "rocketnautics_addon:sulfur_dust",
+      "preferred": "tfmg:sulfur_dust"
+    },
+    {
+      "alias": "stellaris:raw_desh_ingot",
+      "preferred": "ad_astra:raw_desh"
+    },
+    {
+      "alias": "stellaris:raw_uranium",
+      "preferred": "mekanism:raw_uranium"
+    },
+    {
+      "alias": "stellaris:steel_ingot",
+      "preferred": "mekanism:ingot_steel"
+    },
+    {
+      "alias": "stellaris:uranium_ingot",
+      "preferred": "mekanism:ingot_uranium"
+    },
+    {
+      "alias": "tfmg:steel_ingot",
+      "preferred": "mekanism:ingot_steel"
+    }
+  ]
+}

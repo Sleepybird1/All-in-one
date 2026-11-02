@@ -1,0 +1,422 @@
+{
+  "recordedAt": "2026-09-10T18:34:21.9008583-04:00",
+  "scope": "Read-only KJSGen project and local processing policy; not effective runtime certification",
+  "input": "C:\\Users\\GodPC\\curseforge\\minecraft\\Instances\\All in one\\kjsgen\\projects\\default.json",
+  "sha256": "0AACB7B7BC2E0BA0A0AA8C4211A115146FDC521141A1CCEB400ED71532FF5DA9",
+  "recipeCards": 672,
+  "mechanicalCrafterCards": 258,
+  "oversizeCards": [],
+  "missingGridDimensions": [],
+  "gridCounts": [
+    {
+      "grid": "3x3",
+      "count": 61
+    },
+    {
+      "grid": "3x4",
+      "count": 12
+    },
+    {
+      "grid": "3x5",
+      "count": 6
+    },
+    {
+      "grid": "4x3",
+      "count": 21
+    },
+    {
+      "grid": "4x4",
+      "count": 44
+    },
+    {
+      "grid": "4x5",
+      "count": 5
+    },
+    {
+      "grid": "5x2",
+      "count": 1
+    },
+    {
+      "grid": "5x3",
+      "count": 4
+    },
+    {
+      "grid": "5x4",
+      "count": 20
+    },
+    {
+      "grid": "5x5",
+      "count": 82
+    },
+    {
+      "grid": "5x6",
+      "count": 2
+    }
+  ],
+  "selectedCards": [
+    {
+      "id": "industrial_colonies:manufacturing/weathered_iron/deployer",
+      "type": "kjsgen:create_sequenced_assembly",
+      "outputs": [
+        "createcasing:weathered_iron_deployer"
+      ],
+      "machines": [
+        "create:deployer",
+        "create:mechanical_press"
+      ],
+      "ingredients": [
+        "create:brass_hand",
+        "create:deployer",
+        "create:iron_sheet",
+        "create:weathered_iron_block",
+        "tfmg:circuit_board",
+        "tfmg:electric_motor",
+        "tfmg:plastic_sheet",
+        "tfmg:transistor_item"
+      ],
+      "gridW": null,
+      "gridH": null
+    },
+    {
+      "id": "industrial_colonies:manufacturing/weathered_iron/depot",
+      "type": "kjsgen:create_sequenced_assembly",
+      "outputs": [
+        "createcasing:weathered_iron_depot"
+      ],
+      "machines": [
+        "create:deployer",
+        "create:mechanical_press"
+      ],
+      "ingredients": [
+        "create:content_observer",
+        "create:depot",
+        "create:iron_sheet",
+        "create:sturdy_sheet",
+        "create:weathered_iron_block",
+        "tfmg:capacitor_item",
+        "tfmg:plastic_sheet"
+      ],
+      "gridW": null,
+      "gridH": null
+    },
+    {
+      "id": "industrial_colonies:manufacturing/weathered_iron/fan",
+      "type": "kjsgen:create_sequenced_assembly",
+      "outputs": [
+        "createcasing:weathered_iron_encased_fan"
+      ],
+      "machines": [
+        "create:deployer",
+        "create:mechanical_press"
+      ],
+      "ingredients": [
+        "create:encased_fan",
+        "create:iron_sheet",
+        "create:propeller",
+        "create:weathered_iron_block",
+        "tfmg:capacitor_item",
+        "tfmg:electric_motor",
+        "tfmg:magnetic_alloy_sheet"
+      ],
+      "gridW": null,
+      "gridH": null
+    },
+    {
+      "id": "industrial_colonies:manufacturing/weathered_iron/mixer",
+      "type": "kjsgen:create_sequenced_assembly",
+      "outputs": [
+        "createcasing:weathered_iron_mixer"
+      ],
+      "machines": [
+        "create:deployer",
+        "create:mechanical_press"
+      ],
+      "ingredients": [
+        "create:iron_sheet",
+        "create:large_cogwheel",
+        "create:mechanical_mixer",
+        "create:weathered_iron_block",
+        "create:whisk",
+        "tfmg:electric_motor",
+        "tfmg:magnetic_alloy_sheet"
+      ],
+      "gridW": null,
+      "gridH": null
+    },
+    {
+      "id": "industrial_colonies:manufacturing/weathered_iron/press",
+      "type": "kjsgen:create_sequenced_assembly",
+      "outputs": [
+        "createcasing:weathered_iron_press"
+      ],
+      "machines": [
+        "create:deployer",
+        "create:mechanical_press"
+      ],
+      "ingredients": [
+        "create:iron_sheet",
+        "create:mechanical_press",
+        "create:sturdy_sheet",
+        "create:weathered_iron_block",
+        "tfmg:circuit_board",
+        "tfmg:electric_motor",
+        "tfmg:magnetic_alloy_sheet"
+      ],
+      "gridW": null,
+      "gridH": null
+    },
+    {
+      "id": "industrial_colonies:manufacturing/weathered_iron/saw",
+      "type": "kjsgen:create_sequenced_assembly",
+      "outputs": [
+        "createcasing:weathered_iron_mechanical_saw"
+      ],
+      "machines": [
+        "create:deployer",
+        "create:mechanical_press"
+      ],
+      "ingredients": [
+        "create:iron_sheet",
+        "create:mechanical_saw",
+        "create:sturdy_sheet",
+        "create:weathered_iron_block",
+        "tfmg:copper_wire",
+        "tfmg:electric_motor",
+        "tfmg:magnetic_alloy_sheet"
+      ],
+      "gridW": null,
+      "gridH": null
+    },
+    {
+      "id": "industrial_colonies:manufacturing/industrial_iron/deployer",
+      "type": "kjsgen:create_sequenced_assembly",
+      "outputs": [
+        "createcasing:industrial_iron_deployer"
+      ],
+      "machines": [
+        "createcasing:weathered_iron_deployer",
+        "createcasing:weathered_iron_press"
+      ],
+      "ingredients": [
+        "ae2:calculation_processor",
+        "create:brass_hand",
+        "create:industrial_iron_block",
+        "createcasing:weathered_iron_deployer",
+        "industrial_colonies:high_purity_silicon",
+        "mekanism:advanced_control_circuit",
+        "nuclearcraft:titanium_ingot",
+        "nuclearcraft:tungsten_ingot",
+        "tfmg:heavy_machinery_casing",
+        "tfmg:heavy_plate",
+        "tfmg:magnetic_alloy_sheet",
+        "tfmg:plastic_sheet",
+        "tfmg:transistor_item"
+      ],
+      "gridW": null,
+      "gridH": null
+    },
+    {
+      "id": "industrial_colonies:manufacturing/industrial_iron/mixer",
+      "type": "kjsgen:create_sequenced_assembly",
+      "outputs": [
+        "createcasing:industrial_iron_mixer"
+      ],
+      "machines": [
+        "createcasing:weathered_iron_deployer",
+        "createcasing:weathered_iron_press"
+      ],
+      "ingredients": [
+        "ae2:calculation_processor",
+        "create:industrial_iron_block",
+        "create:whisk",
+        "createcasing:weathered_iron_mixer",
+        "industrial_colonies:high_purity_silicon",
+        "mekanism:advanced_control_circuit",
+        "modernfoundry:cobalt_ingot",
+        "nuclearcraft:titanium_ingot",
+        "nuclearcraft:tungsten_ingot",
+        "tfmg:heavy_machinery_casing",
+        "tfmg:heavy_plate",
+        "tfmg:magnetic_alloy_sheet",
+        "tfmg:plastic_sheet"
+      ],
+      "gridW": null,
+      "gridH": null
+    },
+    {
+      "id": "industrial_colonies:manufacturing/industrial_iron/press",
+      "type": "kjsgen:create_sequenced_assembly",
+      "outputs": [
+        "createcasing:industrial_iron_press"
+      ],
+      "machines": [
+        "createcasing:weathered_iron_deployer",
+        "createcasing:weathered_iron_press"
+      ],
+      "ingredients": [
+        "ae2:calculation_processor",
+        "create:industrial_iron_block",
+        "createcasing:weathered_iron_press",
+        "industrial_colonies:high_purity_silicon",
+        "mekanism:advanced_control_circuit",
+        "modernfoundry:cobalt_ingot",
+        "nuclearcraft:titanium_ingot",
+        "nuclearcraft:tungsten_ingot",
+        "tfmg:electric_motor",
+        "tfmg:heavy_machinery_casing",
+        "tfmg:heavy_plate",
+        "tfmg:magnetic_alloy_sheet",
+        "tfmg:plastic_sheet"
+      ],
+      "gridW": null,
+      "gridH": null
+    },
+    {
+      "id": "industrial_colonies:manufacturing/industrial_iron/saw",
+      "type": "kjsgen:create_sequenced_assembly",
+      "outputs": [
+        "createcasing:industrial_iron_mechanical_saw"
+      ],
+      "machines": [
+        "createcasing:weathered_iron_deployer",
+        "createcasing:weathered_iron_press"
+      ],
+      "ingredients": [
+        "ae2:calculation_processor",
+        "create:industrial_iron_block",
+        "create:sturdy_sheet",
+        "createcasing:weathered_iron_mechanical_saw",
+        "industrial_colonies:high_purity_silicon",
+        "mekanism:advanced_control_circuit",
+        "modernfoundry:cobalt_ingot",
+        "nuclearcraft:titanium_ingot",
+        "nuclearcraft:tungsten_ingot",
+        "tfmg:heavy_machinery_casing",
+        "tfmg:heavy_plate",
+        "tfmg:magnetic_alloy_sheet",
+        "tfmg:plastic_sheet"
+      ],
+      "gridW": null,
+      "gridH": null
+    },
+    {
+      "id": "industrial_colonies:mekanism_pre_nuclear/crusher",
+      "type": "kjsgen:create_sequenced_assembly",
+      "outputs": [
+        "mekanism:crusher"
+      ],
+      "machines": [
+        "createcasing:industrial_iron_deployer",
+        "createcasing:industrial_iron_press"
+      ],
+      "ingredients": [
+        "create:crushing_wheel",
+        "mekanism:alloy_infused",
+        "mekanism:basic_control_circuit",
+        "tfmg:circuit_board",
+        "tfmg:electric_motor",
+        "tfmg:heavy_plate",
+        "tfmg:steel_frame",
+        "tfmg:steel_mechanism"
+      ],
+      "gridW": null,
+      "gridH": null
+    },
+    {
+      "id": "industrial_colonies:electronics/circuit_board",
+      "type": "kjsgen:create_sequenced_assembly",
+      "outputs": [
+        "tfmg:circuit_board"
+      ],
+      "machines": [
+        "createcasing:copper_deployer"
+      ],
+      "ingredients": [
+        "tfmg:capacitor_item",
+        "tfmg:etched_circuit_board",
+        "tfmg:resistor",
+        "tfmg:transistor_item"
+      ],
+      "gridW": null,
+      "gridH": null
+    },
+    {
+      "id": "industrial_colonies:manufacturing/industrial_iron/depot",
+      "type": "kjsgen:create_mechanical_crafting",
+      "outputs": [
+        "createcasing:industrial_iron_depot"
+      ],
+      "machines": [],
+      "ingredients": [
+        "ae2:calculation_processor",
+        "create:content_observer",
+        "create:industrial_iron_block",
+        "createcasing:weathered_iron_depot",
+        "mekanism:advanced_control_circuit",
+        "mekanism:hdpe_sheet",
+        "tfmg:heavy_machinery_casing",
+        "tfmg:heavy_plate",
+        "tfmg:lithium_charge",
+        "tfmg:magnetic_alloy_sheet"
+      ],
+      "gridW": "4",
+      "gridH": "5"
+    },
+    {
+      "id": "industrial_colonies:manufacturing/industrial_iron/fan",
+      "type": "kjsgen:create_sequenced_assembly",
+      "outputs": [
+        "createcasing:industrial_iron_encased_fan"
+      ],
+      "machines": [
+        "createcasing:weathered_iron_deployer",
+        "createcasing:weathered_iron_press"
+      ],
+      "ingredients": [
+        "ae2:calculation_processor",
+        "create:industrial_iron_block",
+        "create:propeller",
+        "createcasing:weathered_iron_encased_fan",
+        "industrial_colonies:high_purity_silicon",
+        "mekanism:advanced_control_circuit",
+        "nuclearcraft:titanium_ingot",
+        "nuclearcraft:tungsten_ingot",
+        "tfmg:heavy_machinery_casing",
+        "tfmg:heavy_plate",
+        "tfmg:lithium_charge",
+        "tfmg:magnetic_alloy_sheet",
+        "tfmg:plastic_sheet"
+      ],
+      "gridW": null,
+      "gridH": null
+    },
+    {
+      "id": "industrial_colonies:manufacturing/industrial_iron/roller",
+      "type": "kjsgen:create_sequenced_assembly",
+      "outputs": [
+        "createcasing:industrial_iron_mechanical_roller"
+      ],
+      "machines": [
+        "createcasing:weathered_iron_deployer",
+        "createcasing:weathered_iron_press"
+      ],
+      "ingredients": [
+        "ae2:calculation_processor",
+        "create:crushing_wheel",
+        "create:industrial_iron_block",
+        "createcasing:weathered_iron_mechanical_roller",
+        "industrial_colonies:high_purity_silicon",
+        "mekanism:advanced_control_circuit",
+        "modernfoundry:cobalt_ingot",
+        "nuclearcraft:titanium_ingot",
+        "nuclearcraft:tungsten_ingot",
+        "tfmg:heavy_machinery_casing",
+        "tfmg:heavy_plate",
+        "tfmg:magnetic_alloy_sheet",
+        "tfmg:plastic_sheet"
+      ],
+      "gridW": null,
+      "gridH": null
+    }
+  ]
+}

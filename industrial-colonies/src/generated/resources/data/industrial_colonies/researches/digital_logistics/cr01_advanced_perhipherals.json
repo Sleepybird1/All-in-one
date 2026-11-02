@@ -1,0 +1,33 @@
+{
+  "branch": "industrial_colonies:tech_tree",
+  "costs": [
+    {
+      "item": "ae2:engineering_processor",
+      "count": 8
+    },
+    {
+      "item": "ae2:controller",
+      "count": 1
+    },
+    {
+      "item": "createaddition:digital_adapter",
+      "count": 4
+    }
+  ],
+  "icon": "advancedperipherals:peripheral_casing",
+  "name": "com.industrial_colonies.research.digital_logistics.cr01_advanced_perhipherals.name",
+  "no-reset": true,
+  "researchLevel": 1,
+  "sortOrder": 10720,
+  "subtitle": "com.industrial_colonies.research.digital_logistics.cr01_advanced_perhipherals.subtitle",
+  "requirements": [
+    {
+      "type": "minecolonies:research",
+      "research": "industrial_colonies:digital_computing/cr01_advanced_electronics"
+    },
+    {
+      "type": "minecolonies:research",
+      "research": "industrial_colonies:digital_computing/cr01_me_system_advanced"
+    }
+  ]
+}

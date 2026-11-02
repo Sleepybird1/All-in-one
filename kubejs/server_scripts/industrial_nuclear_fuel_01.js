@@ -1,9 +1,11 @@
+// Original recipe review: registrations retained below, temporarily inactive.
+function IC_originalRecipeReview_skip() {}
 // Industrial Colonies - Phase 4 nuclear fuel, slice 01
 // Yellorium is a structural alloy and uranium precursor. It never becomes
 // reactor fuel directly. Usable first-tier reactor fuel must pass through
 // Mekanism uranium chemistry and isotope separation.
 
-ServerEvents.recipes(event => {
+IC_originalRecipeReview_skip(event => {
   const removedDirectFuelRecipes = [
     'bigreactors:smelting/yellorium_from_ore',
     'bigreactors:blasting/yellorium_from_ore',

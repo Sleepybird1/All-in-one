@@ -1,0 +1,8 @@
+{
+  "exoticMaterialReview": {
+    "enabled": true,
+    "authorization": "October24 user explicitly: move all these to Exotic Material Review, remake that queue so we can defer these until later.",
+    "purpose": "Park the endgame pair-alloy chains and shared binder/reagent/ceramic precursors. This does not authorize reopening rejected base Vibranium processing or resubmitting unchanged designs.",
+    "automaticRecipeAuthoring": false
+  }
+}

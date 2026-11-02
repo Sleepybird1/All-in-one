@@ -1,0 +1,607 @@
+{
+  "createbigcannons:melting/melt_steel_block": {
+    "recipeClass": "rbasamoyai.createbigcannons.crafting.foundry.MeltingRecipe",
+    "serializer": "createbigcannons:melting",
+    "sha256": "36a3ccfed0247b9abbe961f5fbcc327ac91c89e0805de96fb27def0f829996bd"
+  },
+  "createmetallurgy:melting/steel/plate": {
+    "recipeClass": "fr.lucreeper74.createmetallurgy.content.blocks.foundry_lid.MeltingRecipe",
+    "serializer": "createmetallurgy:melting",
+    "sha256": "a59cf7feced39563735f3060b5ca494b2ac94924aa9487026bd97d462ad5d11a"
+  },
+  "nuclearcraft:chemical_reactor/ferroboron_molten": {
+    "recipeClass": "igentuman.nc.recipe.UniversalProcessorRecipe",
+    "serializer": "nuclearcraft:chemical_reactor",
+    "sha256": "7b4eb59489d0ec66ad9854699b2cb1f600d648fecb8a6095ef160540b3faac54"
+  },
+  "createmetallurgy:casting_in_table/steel/rod": {
+    "recipeClass": "fr.lucreeper74.createmetallurgy.content.blocks.casting.recipe.CastingTableRecipe",
+    "serializer": "createmetallurgy:casting_in_table",
+    "sha256": "c1af705c0a48e38c8b17fab883c58624192bc85056c777adaa7fb55f29b9a9de"
+  },
+  "nuclearcraft:ingot_former/steel": {
+    "recipeClass": "igentuman.nc.recipe.UniversalProcessorRecipe",
+    "serializer": "nuclearcraft:ingot_former",
+    "sha256": "ad439955b45fe41b1ad6a7f8f7badbdc0cf58774c1d2ce1ac28f906196be9f96"
+  },
+  "createmetallurgy:bulk_melting/steel/raw_block": {
+    "recipeClass": "fr.lucreeper74.createmetallurgy.content.blocks.industrial_crucible.foundry.recipes.BulkMeltingRecipe",
+    "serializer": "createmetallurgy:bulk_melting",
+    "sha256": "04b19450f48f726d2c83f318a11027eef85d3f36af075a65e39a8208c23c302a"
+  },
+  "createmetallurgy:alloying/steel": {
+    "recipeClass": "fr.lucreeper74.createmetallurgy.content.blocks.foundry_mixer.AlloyingRecipe",
+    "serializer": "createmetallurgy:alloying",
+    "sha256": "3ac902633a872054d3a08b1c67a3f31d34238963605f3aad7c2ff4cb4347c940"
+  },
+  "createmetallurgy:melting/steel/wire": {
+    "recipeClass": "fr.lucreeper74.createmetallurgy.content.blocks.foundry_lid.MeltingRecipe",
+    "serializer": "createmetallurgy:melting",
+    "sha256": "06ca4173c6da75054f9632a96fc8a45072527a5400ea89e0d18c506f93d97037"
+  },
+  "createmetallurgy:melting/steel/nugget": {
+    "recipeClass": "fr.lucreeper74.createmetallurgy.content.blocks.foundry_lid.MeltingRecipe",
+    "serializer": "createmetallurgy:melting",
+    "sha256": "318b6f6b547c031d5433c2d55d5c3551fd5ef65d9e89d46d2b3dd994da5f2c2f"
+  },
+  "createbigcannons:melting/melt_steel_nugget": {
+    "recipeClass": "rbasamoyai.createbigcannons.crafting.foundry.MeltingRecipe",
+    "serializer": "createbigcannons:melting",
+    "sha256": "4f9b448fb875b26c4eff8aaf9c2ba575922314bad5bed75c196dea0a3147016a"
+  },
+  "createmetallurgy:melting/steel/ingot": {
+    "recipeClass": "fr.lucreeper74.createmetallurgy.content.blocks.foundry_lid.MeltingRecipe",
+    "serializer": "createmetallurgy:melting",
+    "sha256": "8d5d156b9c50329ab2e18895f262d32d31543e97e74f7bb9644193248a80f8ca"
+  },
+  "mekanism:rotary/sulfuric_acid": {
+    "recipeClass": "mekanism.api.recipes.basic.BasicRotaryRecipe",
+    "serializer": "mekanism:rotary",
+    "sha256": "289ce28606f3fddfb137eca54748be0ba2814fe1cf0fbd2e89a2647d6fb1e81a"
+  },
+  "createmetallurgy:melting/steel/rod": {
+    "recipeClass": "fr.lucreeper74.createmetallurgy.content.blocks.foundry_lid.MeltingRecipe",
+    "serializer": "createmetallurgy:melting",
+    "sha256": "822db8c4b469d8f0c1a66a0ea809266788473ff4946e5302fb3399bbffaafe09"
+  },
+  "createmetallurgy:casting_in_table/steel/plate": {
+    "recipeClass": "fr.lucreeper74.createmetallurgy.content.blocks.casting.recipe.CastingTableRecipe",
+    "serializer": "createmetallurgy:casting_in_table",
+    "sha256": "9397ac676fc8f75e76beee81e9e2edef9bc2515c12adcba1f070c20fe0dcafc2"
+  },
+  "nuclearcraft:melter/steel_dust": {
+    "recipeClass": "igentuman.nc.recipe.UniversalProcessorRecipe",
+    "serializer": "nuclearcraft:melter",
+    "sha256": "cf60630c9958201f85e86e48a817bd0c65b97655196611e77f60034861a0eb02"
+  },
+  "createmetallurgy:melting/steel/raw_material": {
+    "recipeClass": "fr.lucreeper74.createmetallurgy.content.blocks.foundry_lid.MeltingRecipe",
+    "serializer": "createmetallurgy:melting",
+    "sha256": "cd3927156266a236f7f7d45125ee7a31c686b9541e284e3f1c1d98b658de1a50"
+  },
+  "createbigcannons:melting/melt_steel_ingot": {
+    "recipeClass": "rbasamoyai.createbigcannons.crafting.foundry.MeltingRecipe",
+    "serializer": "createbigcannons:melting",
+    "sha256": "150ddbfc1b193f528c54324fb1ea39cda9b843a826fc4e44d513ddd81845a54a"
+  },
+  "nuclearcraft:melter/steel_ingot": {
+    "recipeClass": "igentuman.nc.recipe.UniversalProcessorRecipe",
+    "serializer": "nuclearcraft:melter",
+    "sha256": "d93799b6dbbc410926a0c076373f5c4ed8ed05c7edbf9e2c2a838bb3fb39bc2c"
+  },
+  "nuclearcraft:chemical_reactor/sulfuric_acid": {
+    "recipeClass": "igentuman.nc.recipe.UniversalProcessorRecipe",
+    "serializer": "nuclearcraft:chemical_reactor",
+    "sha256": "a592150a725a5f30aea2f36c0ebc6890c53d944efe7221329ee52f250eb5a33c"
+  },
+  "createmetallurgy:bulk_melting/steel/block": {
+    "recipeClass": "fr.lucreeper74.createmetallurgy.content.blocks.industrial_crucible.foundry.recipes.BulkMeltingRecipe",
+    "serializer": "createmetallurgy:bulk_melting",
+    "sha256": "c619283d6c5695f7f49b6b5865348e58e4bd77844671b14f2b60bafb392ecf0c"
+  },
+  "createmetallurgy:casting_in_basin/steel/block": {
+    "recipeClass": "fr.lucreeper74.createmetallurgy.content.blocks.casting.recipe.CastingBasinRecipe",
+    "serializer": "createmetallurgy:casting_in_basin",
+    "sha256": "c9de580104f1848b1f9a0aa7a4322fb5adb97bdd466a524c0a29b99e56e3051e"
+  },
+  "createmetallurgy:melting/steel/dust": {
+    "recipeClass": "fr.lucreeper74.createmetallurgy.content.blocks.foundry_lid.MeltingRecipe",
+    "serializer": "createmetallurgy:melting",
+    "sha256": "bf8e87216cd6fcffa3ddfd1aea4fe181a55fde0b8d729fb5bb3a19b6a8d8c764"
+  },
+  "createmetallurgy:entity_melting/wither_skeleton": {
+    "recipeClass": "fr.lucreeper74.createmetallurgy.content.blocks.industrial_crucible.foundry.recipes.MobMeltingRecipe",
+    "serializer": "createmetallurgy:entity_melting",
+    "sha256": "60b29948e4735c42ca1b0333a51f9e76155b03ccaafff101bf7f2c22f6389e1d"
+  },
+  "createmetallurgy:casting_in_table/steel/ingot": {
+    "recipeClass": "fr.lucreeper74.createmetallurgy.content.blocks.casting.recipe.CastingTableRecipe",
+    "serializer": "createmetallurgy:casting_in_table",
+    "sha256": "26a96626118c73ba6322346ddffbeb55e0c1af022e2e4e25a31de4b8c2613fc7"
+  },
+  "createmetallurgy:casting_in_table/steel/nugget": {
+    "recipeClass": "fr.lucreeper74.createmetallurgy.content.blocks.casting.recipe.CastingTableRecipe",
+    "serializer": "createmetallurgy:casting_in_table",
+    "sha256": "0f7fd92b2e16902c5b98b659a932bab97663bcce0e20c762213b349b18f33be6"
+  },
+  "nuclearcraft:electrolyzer/hydrofluoric_acid": {
+    "recipeClass": "igentuman.nc.recipe.UniversalProcessorRecipe",
+    "serializer": "nuclearcraft:electrolyzer",
+    "sha256": "cf2adde6963bd47002eb0bdd5704f38ac449b1bdeb4117d2265f262ea02adab2"
+  },
+  "nuclearcraft:chemical_reactor/oxygen_difluoride_sulfur": {
+    "recipeClass": "igentuman.nc.recipe.UniversalProcessorRecipe",
+    "serializer": "nuclearcraft:chemical_reactor",
+    "sha256": "5629d9ada3880d8b7581e32966d363bcae250c354709cc40f25ef38f9fc12400"
+  },
+  "nuclearcraft:centrifuge/carbon_dioxide": {
+    "recipeClass": "igentuman.nc.recipe.UniversalProcessorRecipe",
+    "serializer": "nuclearcraft:centrifuge",
+    "sha256": "a465cb4934946b5f29007a6b07f696f3ec612a0758b5609ab998cbb0b539b70e"
+  },
+  "nuclearcraft:centrifuge/technical_water": {
+    "recipeClass": "igentuman.nc.recipe.UniversalProcessorRecipe",
+    "serializer": "nuclearcraft:centrifuge",
+    "sha256": "4473ed577a381fc880e65dd724f369d5089c425a73eebd31eb1dabd582cfb4af"
+  },
+  "nuclearcraft:chemical_reactor/ammonia_oxidation": {
+    "recipeClass": "igentuman.nc.recipe.UniversalProcessorRecipe",
+    "serializer": "nuclearcraft:chemical_reactor",
+    "sha256": "922599719112e6dec2d9a5fc7e6af6deaad12ee475424816266b667f2f1de4b2"
+  },
+  "nuclearcraft:chemical_reactor/no_oxidation": {
+    "recipeClass": "igentuman.nc.recipe.UniversalProcessorRecipe",
+    "serializer": "nuclearcraft:chemical_reactor",
+    "sha256": "3c8405b351dcbb93d1b6e8ece7676f92ca546b3a2164e8a15cbefe0c8f908e6b"
+  },
+  "nuclearcraft:electrolyzer/water": {
+    "recipeClass": "igentuman.nc.recipe.UniversalProcessorRecipe",
+    "serializer": "nuclearcraft:electrolyzer",
+    "sha256": "e170bb3bf55b3aa3b4c5369c27a2c89f3d18352a523fa710cf38467a11991762"
+  },
+  "nuclearcraft:fluid_infuser/americium_241_ox": {
+    "recipeClass": "igentuman.nc.recipe.UniversalProcessorRecipe",
+    "serializer": "nuclearcraft:fluid_infuser",
+    "sha256": "b34be8dbfd15b00a8c68d7cb87d4043b9aec1415a2a754c606085c1948b815fa"
+  },
+  "nuclearcraft:fluid_infuser/americium_242_ox": {
+    "recipeClass": "igentuman.nc.recipe.UniversalProcessorRecipe",
+    "serializer": "nuclearcraft:fluid_infuser",
+    "sha256": "7b6ed37b7d91a42045c67e86a1f007907f32dfc95dbc23b4424c0da740414603"
+  },
+  "nuclearcraft:fluid_infuser/americium_243_ox": {
+    "recipeClass": "igentuman.nc.recipe.UniversalProcessorRecipe",
+    "serializer": "nuclearcraft:fluid_infuser",
+    "sha256": "7f8e9c94c51d2dc7dff2d25c2a1a2197d809b57c7519a4c3aa762dfd2c22faaa"
+  },
+  "nuclearcraft:fluid_infuser/americium_hea_242_ox": {
+    "recipeClass": "igentuman.nc.recipe.UniversalProcessorRecipe",
+    "serializer": "nuclearcraft:fluid_infuser",
+    "sha256": "f29a5f4b4b1e71a4d79c6f60eb92d158c1accde5a77dfef875f8b8a4bdba834c"
+  },
+  "nuclearcraft:fluid_infuser/americium_lea_242_ox": {
+    "recipeClass": "igentuman.nc.recipe.UniversalProcessorRecipe",
+    "serializer": "nuclearcraft:fluid_infuser",
+    "sha256": "ee41b94ed444e0b583804fa4e82357341f231ed93895f5138afa109c105eaa24"
+  },
+  "nuclearcraft:fluid_infuser/berkelium_247_ox": {
+    "recipeClass": "igentuman.nc.recipe.UniversalProcessorRecipe",
+    "serializer": "nuclearcraft:fluid_infuser",
+    "sha256": "f480c7b8c09605c8ebca73a75d3fb8959372c7f0a0a2e9bf76260ed46a381217"
+  },
+  "nuclearcraft:fluid_infuser/berkelium_248_ox": {
+    "recipeClass": "igentuman.nc.recipe.UniversalProcessorRecipe",
+    "serializer": "nuclearcraft:fluid_infuser",
+    "sha256": "3125bec7b027ea376be0cc0acf86d7c0a45233163af1a90744da13e7c1583b8f"
+  },
+  "nuclearcraft:fluid_infuser/berkelium_heb_248_ox": {
+    "recipeClass": "igentuman.nc.recipe.UniversalProcessorRecipe",
+    "serializer": "nuclearcraft:fluid_infuser",
+    "sha256": "73f306c9cceb7c607c634fe1c27d1a7f946c78dbab30bd19ea06036c0e5ea66a"
+  },
+  "nuclearcraft:fluid_infuser/berkelium_leb_248_ox": {
+    "recipeClass": "igentuman.nc.recipe.UniversalProcessorRecipe",
+    "serializer": "nuclearcraft:fluid_infuser",
+    "sha256": "c41d85aad766fe9e3464337902933b96a2173bb4a124a97da17cb27169295ebb"
+  },
+  "nuclearcraft:fluid_infuser/boron_10_ox": {
+    "recipeClass": "igentuman.nc.recipe.UniversalProcessorRecipe",
+    "serializer": "nuclearcraft:fluid_infuser",
+    "sha256": "690f9fa4a6cdf75e94b9f47d0de720e6b7d6728ff00c3060fbc21b25d3539097"
+  },
+  "nuclearcraft:fluid_infuser/boron_11_ox": {
+    "recipeClass": "igentuman.nc.recipe.UniversalProcessorRecipe",
+    "serializer": "nuclearcraft:fluid_infuser",
+    "sha256": "25068531365826dae2664e00a111e7d9a164c6ce6f8a1eb6fb6228c2614712ae"
+  },
+  "nuclearcraft:fluid_infuser/californium_249_ox": {
+    "recipeClass": "igentuman.nc.recipe.UniversalProcessorRecipe",
+    "serializer": "nuclearcraft:fluid_infuser",
+    "sha256": "cbbd87788ad870a7ce54ba7d30c77f3b34b2f4c440a3db278e2ff93e9dbb1e94"
+  },
+  "nuclearcraft:fluid_infuser/californium_250_ox": {
+    "recipeClass": "igentuman.nc.recipe.UniversalProcessorRecipe",
+    "serializer": "nuclearcraft:fluid_infuser",
+    "sha256": "1c36bb81faebc7d592980ab1a39a9cdc53ecc5603036b3cb0cdd99b7b1a140a1"
+  },
+  "nuclearcraft:fluid_infuser/californium_251_ox": {
+    "recipeClass": "igentuman.nc.recipe.UniversalProcessorRecipe",
+    "serializer": "nuclearcraft:fluid_infuser",
+    "sha256": "22c5b4f41b94cee9595e63953cace43bd07b2c18d35144942ce4e4f5ce2f2fce"
+  },
+  "nuclearcraft:fluid_infuser/californium_252_ox": {
+    "recipeClass": "igentuman.nc.recipe.UniversalProcessorRecipe",
+    "serializer": "nuclearcraft:fluid_infuser",
+    "sha256": "76f9e9662cc2e77e874706523169d5fb9ef5bd2591b0b745b4cc7bb9c73cee35"
+  },
+  "nuclearcraft:fluid_infuser/californium_hecf_249_ox": {
+    "recipeClass": "igentuman.nc.recipe.UniversalProcessorRecipe",
+    "serializer": "nuclearcraft:fluid_infuser",
+    "sha256": "4f6c1d35993255658c3a4a5150b361123b9967b7070eb5a5e42402e41ab5d452"
+  },
+  "nuclearcraft:fluid_infuser/californium_hecf_251_ox": {
+    "recipeClass": "igentuman.nc.recipe.UniversalProcessorRecipe",
+    "serializer": "nuclearcraft:fluid_infuser",
+    "sha256": "4288b7c25a323a837fde5480ce5a259d5c6ea47fe17e00c215422cd99d31d75b"
+  },
+  "nuclearcraft:fluid_infuser/californium_lecf_249_ox": {
+    "recipeClass": "igentuman.nc.recipe.UniversalProcessorRecipe",
+    "serializer": "nuclearcraft:fluid_infuser",
+    "sha256": "a37de052f86f32420ecd9f4b75423076c7cf7e9c3f845471086cebd4bdf12d12"
+  },
+  "nuclearcraft:fluid_infuser/californium_lecf_251_ox": {
+    "recipeClass": "igentuman.nc.recipe.UniversalProcessorRecipe",
+    "serializer": "nuclearcraft:fluid_infuser",
+    "sha256": "4ff0f505f97ddefb4b2de97a21506d5570cf3bc55558b649d87d90c46c1a684e"
+  },
+  "nuclearcraft:fluid_infuser/copernicium_291_ox": {
+    "recipeClass": "igentuman.nc.recipe.UniversalProcessorRecipe",
+    "serializer": "nuclearcraft:fluid_infuser",
+    "sha256": "708c174cdddba09d27dcccf0a2d7c06c0b0035344986da4370911fba42814363"
+  },
+  "nuclearcraft:fluid_infuser/curium_243_ox": {
+    "recipeClass": "igentuman.nc.recipe.UniversalProcessorRecipe",
+    "serializer": "nuclearcraft:fluid_infuser",
+    "sha256": "4150df735e71464e79b903cbf84ae1be3dd13bb7dd301ab68cdce760ebde1877"
+  },
+  "nuclearcraft:fluid_infuser/curium_245_ox": {
+    "recipeClass": "igentuman.nc.recipe.UniversalProcessorRecipe",
+    "serializer": "nuclearcraft:fluid_infuser",
+    "sha256": "0e507610f54df2230ddab9eebcf688278dbd7a67f05696a1129abcb1c0320cea"
+  },
+  "nuclearcraft:fluid_infuser/curium_246_ox": {
+    "recipeClass": "igentuman.nc.recipe.UniversalProcessorRecipe",
+    "serializer": "nuclearcraft:fluid_infuser",
+    "sha256": "03ceaa3f8df3d9af2213ca64267664e151fca7818360c1b8afba84d521f8a1df"
+  },
+  "nuclearcraft:fluid_infuser/curium_247_ox": {
+    "recipeClass": "igentuman.nc.recipe.UniversalProcessorRecipe",
+    "serializer": "nuclearcraft:fluid_infuser",
+    "sha256": "29f835bf3622339c26d4da419caae41a24e01e883485d9f8ab302bf0d04bbf72"
+  },
+  "nuclearcraft:fluid_infuser/curium_hecm_243_ox": {
+    "recipeClass": "igentuman.nc.recipe.UniversalProcessorRecipe",
+    "serializer": "nuclearcraft:fluid_infuser",
+    "sha256": "2b9356b473f17bfdd88a2c68b1e2a24d9cf5c9aaabfc8f976cda77b399326484"
+  },
+  "nuclearcraft:fluid_infuser/curium_hecm_245_ox": {
+    "recipeClass": "igentuman.nc.recipe.UniversalProcessorRecipe",
+    "serializer": "nuclearcraft:fluid_infuser",
+    "sha256": "a0430d0889c432f106a5918cdc554f7d241205f3fa449a05c67046f1c9140482"
+  },
+  "nuclearcraft:fluid_infuser/curium_hecm_247_ox": {
+    "recipeClass": "igentuman.nc.recipe.UniversalProcessorRecipe",
+    "serializer": "nuclearcraft:fluid_infuser",
+    "sha256": "507f3ff1740fd4807dc5aeae2cd76ec5df867927a555a7d110a3b6d3eec597fa"
+  },
+  "nuclearcraft:fluid_infuser/curium_lecm_243_ox": {
+    "recipeClass": "igentuman.nc.recipe.UniversalProcessorRecipe",
+    "serializer": "nuclearcraft:fluid_infuser",
+    "sha256": "a8596101394433fd4867d55965d1a05db08662e73e2e96d8a98da0af369467a4"
+  },
+  "nuclearcraft:fluid_infuser/curium_lecm_245_ox": {
+    "recipeClass": "igentuman.nc.recipe.UniversalProcessorRecipe",
+    "serializer": "nuclearcraft:fluid_infuser",
+    "sha256": "54d4c9d01b5f7cce791198951a004e9cdbfd96a785b8065e2526e7fbc10b7c8c"
+  },
+  "nuclearcraft:fluid_infuser/curium_lecm_247_ox": {
+    "recipeClass": "igentuman.nc.recipe.UniversalProcessorRecipe",
+    "serializer": "nuclearcraft:fluid_infuser",
+    "sha256": "a2c13f7574f5d953c0f98df97b50c9fca688ba2b687759056096ac2520bb61ce"
+  },
+  "nuclearcraft:fluid_infuser/lithium_6_ox": {
+    "recipeClass": "igentuman.nc.recipe.UniversalProcessorRecipe",
+    "serializer": "nuclearcraft:fluid_infuser",
+    "sha256": "7b27cd3598d4aaaff5eda8a5ad8c3726882a90aa524e075bce49e15cb2f2e2bd"
+  },
+  "nuclearcraft:fluid_infuser/lithium_7_ox": {
+    "recipeClass": "igentuman.nc.recipe.UniversalProcessorRecipe",
+    "serializer": "nuclearcraft:fluid_infuser",
+    "sha256": "c1d6c9d55258e03f02b75f8177e5e566225920069d380bc3ef414075b0766816"
+  },
+  "nuclearcraft:fluid_infuser/manganese_dioxide_dust": {
+    "recipeClass": "igentuman.nc.recipe.UniversalProcessorRecipe",
+    "serializer": "nuclearcraft:fluid_infuser",
+    "sha256": "5539ac541e7dcdf1cedac739fd40adb99f1e15232c55e7208e80cf2cbe4ac3fb"
+  },
+  "nuclearcraft:fluid_infuser/manganese_dioxide_ingot": {
+    "recipeClass": "igentuman.nc.recipe.UniversalProcessorRecipe",
+    "serializer": "nuclearcraft:fluid_infuser",
+    "sha256": "b28b71953bc2292f04202437028d1fc4e370f6c7acce23f521f09b8f9e799f59"
+  },
+  "nuclearcraft:fluid_infuser/mixed_mix_239_ox": {
+    "recipeClass": "igentuman.nc.recipe.UniversalProcessorRecipe",
+    "serializer": "nuclearcraft:fluid_infuser",
+    "sha256": "9d896cc50e844f6050df875af75fa930de2a705bb0a111e7fd50ae20172ce148"
+  },
+  "nuclearcraft:fluid_infuser/mixed_mix_241_ox": {
+    "recipeClass": "igentuman.nc.recipe.UniversalProcessorRecipe",
+    "serializer": "nuclearcraft:fluid_infuser",
+    "sha256": "597d9d6e08a4bdf33f1e38d44a7254da1e248398ebdc3341bd57f7e514054135"
+  },
+  "nuclearcraft:fluid_infuser/neptunium_236_ox": {
+    "recipeClass": "igentuman.nc.recipe.UniversalProcessorRecipe",
+    "serializer": "nuclearcraft:fluid_infuser",
+    "sha256": "872fcf651e1f33afdc568892dd7aa53755a0976eccd8f7a9f03d52bfc7981b34"
+  },
+  "nuclearcraft:fluid_infuser/neptunium_237_ox": {
+    "recipeClass": "igentuman.nc.recipe.UniversalProcessorRecipe",
+    "serializer": "nuclearcraft:fluid_infuser",
+    "sha256": "027f7fa38101bad778dd38791b2fd73bcee1d630dc1ff7f4e97114e9fdb0675e"
+  },
+  "nuclearcraft:fluid_infuser/neptunium_hen_236_ox": {
+    "recipeClass": "igentuman.nc.recipe.UniversalProcessorRecipe",
+    "serializer": "nuclearcraft:fluid_infuser",
+    "sha256": "d1bee2b9f57f6236cd3d9d20f369914b9074166c5fabd3b2bdb232b091d83893"
+  },
+  "nuclearcraft:fluid_infuser/neptunium_len_236_ox": {
+    "recipeClass": "igentuman.nc.recipe.UniversalProcessorRecipe",
+    "serializer": "nuclearcraft:fluid_infuser",
+    "sha256": "ab51f6506c0d7b692016df5efd91b5a401d58f6a40b82e70465ea20f0280bb07"
+  },
+  "nuclearcraft:fluid_infuser/plutonium_238_ox": {
+    "recipeClass": "igentuman.nc.recipe.UniversalProcessorRecipe",
+    "serializer": "nuclearcraft:fluid_infuser",
+    "sha256": "03374883e95239a39d6f38004c4979af4fda4751d5a10605b39ab9221683594b"
+  },
+  "nuclearcraft:fluid_infuser/plutonium_239_ox": {
+    "recipeClass": "igentuman.nc.recipe.UniversalProcessorRecipe",
+    "serializer": "nuclearcraft:fluid_infuser",
+    "sha256": "ad3417221483c301d23727325614741283345211565d196fbeaba43ee287dd28"
+  },
+  "nuclearcraft:fluid_infuser/plutonium_241_ox": {
+    "recipeClass": "igentuman.nc.recipe.UniversalProcessorRecipe",
+    "serializer": "nuclearcraft:fluid_infuser",
+    "sha256": "c087e70fb0d7c4f7e01241b67c26702fcada1839a8060925269672d56e506419"
+  },
+  "nuclearcraft:fluid_infuser/plutonium_242_ox": {
+    "recipeClass": "igentuman.nc.recipe.UniversalProcessorRecipe",
+    "serializer": "nuclearcraft:fluid_infuser",
+    "sha256": "7b76626aefcbf485c7663d66972f42164bd2f30c6042ca4d9d7156eb2fcc4d7e"
+  },
+  "nuclearcraft:fluid_infuser/plutonium_hep_239_ox": {
+    "recipeClass": "igentuman.nc.recipe.UniversalProcessorRecipe",
+    "serializer": "nuclearcraft:fluid_infuser",
+    "sha256": "1c9acaee4ade750d2278db632a026b7495e37977bae818c27e7dccfa7151b35f"
+  },
+  "nuclearcraft:fluid_infuser/plutonium_hep_241_ox": {
+    "recipeClass": "igentuman.nc.recipe.UniversalProcessorRecipe",
+    "serializer": "nuclearcraft:fluid_infuser",
+    "sha256": "96091817ba2b7dcb266ab3c48f25e3c622182a4693ceac09595c4d8567bd8290"
+  },
+  "nuclearcraft:fluid_infuser/plutonium_lep_239_ox": {
+    "recipeClass": "igentuman.nc.recipe.UniversalProcessorRecipe",
+    "serializer": "nuclearcraft:fluid_infuser",
+    "sha256": "abd5525e4a0bf5f5b558d4a5afe6c48b061babb99c5bceda3e5aa5393c13c948"
+  },
+  "nuclearcraft:fluid_infuser/plutonium_lep_241_ox": {
+    "recipeClass": "igentuman.nc.recipe.UniversalProcessorRecipe",
+    "serializer": "nuclearcraft:fluid_infuser",
+    "sha256": "9c99fb989363c5bc76f461338f960019331f94ba2f2af63d45f508d100dee8a8"
+  },
+  "nuclearcraft:fluid_infuser/thorium_230_ox": {
+    "recipeClass": "igentuman.nc.recipe.UniversalProcessorRecipe",
+    "serializer": "nuclearcraft:fluid_infuser",
+    "sha256": "ba9dad55a5bce5103d60982ffc6bccfbcaf7b6d6f86dd61723c0d76523deb97e"
+  },
+  "nuclearcraft:fluid_infuser/thorium_232_ox": {
+    "recipeClass": "igentuman.nc.recipe.UniversalProcessorRecipe",
+    "serializer": "nuclearcraft:fluid_infuser",
+    "sha256": "efb7d4e5bdd3a296d8cdd6345b461436c21f652e6fc2e72b2c7103b16c5d9f48"
+  },
+  "nuclearcraft:fluid_infuser/thorium_tbu_ox": {
+    "recipeClass": "igentuman.nc.recipe.UniversalProcessorRecipe",
+    "serializer": "nuclearcraft:fluid_infuser",
+    "sha256": "00ebbc8e722482f43d6914dceb642fc85188a0f92e2c8f23afeb98d66dcb17a9"
+  },
+  "nuclearcraft:fluid_infuser/uranium_233_ox": {
+    "recipeClass": "igentuman.nc.recipe.UniversalProcessorRecipe",
+    "serializer": "nuclearcraft:fluid_infuser",
+    "sha256": "6a858a2a373e65fdb99330e692801381e44da3367576d1e1cdd62fa1a8ea179b"
+  },
+  "nuclearcraft:fluid_infuser/uranium_234_ox": {
+    "recipeClass": "igentuman.nc.recipe.UniversalProcessorRecipe",
+    "serializer": "nuclearcraft:fluid_infuser",
+    "sha256": "d326f902c62b8c006f7496a966179f8456e3462e343a14aa1a98af7f07e84e2f"
+  },
+  "nuclearcraft:fluid_infuser/uranium_235_ox": {
+    "recipeClass": "igentuman.nc.recipe.UniversalProcessorRecipe",
+    "serializer": "nuclearcraft:fluid_infuser",
+    "sha256": "e8821c2525cf14b07f73c73b142b8b4a6ab30805c645d621589c0db97ea4009c"
+  },
+  "nuclearcraft:fluid_infuser/uranium_238_ox": {
+    "recipeClass": "igentuman.nc.recipe.UniversalProcessorRecipe",
+    "serializer": "nuclearcraft:fluid_infuser",
+    "sha256": "52d2049e3f940576b641e0e8c62d453e9ae525e3132a992a4467491b14a3afae"
+  },
+  "nuclearcraft:fluid_infuser/uranium_heu_233_ox": {
+    "recipeClass": "igentuman.nc.recipe.UniversalProcessorRecipe",
+    "serializer": "nuclearcraft:fluid_infuser",
+    "sha256": "5622e6f991f5e3d249a68af735279582215c309b7ad16291373af5b79c0321b7"
+  },
+  "nuclearcraft:fluid_infuser/uranium_heu_235_ox": {
+    "recipeClass": "igentuman.nc.recipe.UniversalProcessorRecipe",
+    "serializer": "nuclearcraft:fluid_infuser",
+    "sha256": "3e63c58ac2d64aa3c9a9288af70f233cdef5caed98050e31cd5582c4c1e873ae"
+  },
+  "nuclearcraft:fluid_infuser/uranium_leu_233_ox": {
+    "recipeClass": "igentuman.nc.recipe.UniversalProcessorRecipe",
+    "serializer": "nuclearcraft:fluid_infuser",
+    "sha256": "c4be6aa4c81165fbb3d968beb9d9cc5f4241a40fa0913df3241390a324fa8fca"
+  },
+  "nuclearcraft:fluid_infuser/uranium_leu_235_ox": {
+    "recipeClass": "igentuman.nc.recipe.UniversalProcessorRecipe",
+    "serializer": "nuclearcraft:fluid_infuser",
+    "sha256": "72428533163e4df7e552f3a6cbdcfed418a55991283a0f3ab9e70a0f3582899c"
+  },
+  "nuclearcraft:chemical_reactor/ammonia_synthesis": {
+    "recipeClass": "igentuman.nc.recipe.UniversalProcessorRecipe",
+    "serializer": "nuclearcraft:chemical_reactor",
+    "sha256": "b734ef978000962ea3d3ba7aef11ebdba9db9461ba334c4ef04b6244fe20d847"
+  },
+  "nuclearcraft:chemical_reactor/boric_acid": {
+    "recipeClass": "igentuman.nc.recipe.UniversalProcessorRecipe",
+    "serializer": "nuclearcraft:chemical_reactor",
+    "sha256": "06405b74e401763b21835ab0f9624ffc773bae5a90829711195f7f585f9830a2"
+  },
+  "nuclearcraft:chemical_reactor/carbon_shift": {
+    "recipeClass": "igentuman.nc.recipe.UniversalProcessorRecipe",
+    "serializer": "nuclearcraft:chemical_reactor",
+    "sha256": "7b0ee4943cc3c5700a92281c6d962fdaf8f79526241612cef13e10ba75ed2130"
+  },
+  "nuclearcraft:chemical_reactor/diborane": {
+    "recipeClass": "igentuman.nc.recipe.UniversalProcessorRecipe",
+    "serializer": "nuclearcraft:chemical_reactor",
+    "sha256": "e21a347c6e33cbe0584d651e3d478001944cdeefbcc06c56aa52212af02208be"
+  },
+  "nuclearcraft:fission_boiling/water_steam": {
+    "recipeClass": "igentuman.nc.recipe.fission.BoilingRecipe",
+    "serializer": "nuclearcraft:fission_boiling",
+    "sha256": "b39804a176cb2d5d1b2c516d7f09c3241adcb834eda71770e188d4d0ebbb98bc"
+  },
+  "nuclearcraft:fusion_coolant/water": {
+    "recipeClass": "igentuman.nc.recipe.fusion.FusionCoolantRecipe",
+    "serializer": "nuclearcraft:fusion_coolant",
+    "sha256": "5cae5cb5eeb36c8ee7a9eb9452065a687db1545e69819a64337b336606f4182b"
+  },
+  "nuclearcraft:fusion_reactor/deuterium_helium3": {
+    "recipeClass": "igentuman.nc.recipe.fusion.FusionRecipe",
+    "serializer": "nuclearcraft:fusion_reactor",
+    "sha256": "b5a482bef45fcb33fc3a18bbed822b35f0871b3b6bcf18c7e31f86f11a5022cb"
+  },
+  "nuclearcraft:fusion_reactor/deuterium_hydrogen": {
+    "recipeClass": "igentuman.nc.recipe.fusion.FusionRecipe",
+    "serializer": "nuclearcraft:fusion_reactor",
+    "sha256": "b5820fa5f78908e1cf63d41f071480a5af8ca98c7634ca50f6aefce29185c0a2"
+  },
+  "nuclearcraft:fusion_reactor/helium3_lithium6": {
+    "recipeClass": "igentuman.nc.recipe.fusion.FusionRecipe",
+    "serializer": "nuclearcraft:fusion_reactor",
+    "sha256": "de198bc473b3ab8ecd568779113c3f6ba159dd58615acd45bdffe1b2c5636906"
+  },
+  "nuclearcraft:fusion_reactor/hydrogen_helium3": {
+    "recipeClass": "igentuman.nc.recipe.fusion.FusionRecipe",
+    "serializer": "nuclearcraft:fusion_reactor",
+    "sha256": "24143758f2b62a3b67dd15a4e6f693ee7d6c4ca20fd758c1e7b7a3382df7a012"
+  },
+  "nuclearcraft:fusion_reactor/hydrogen_lithium6": {
+    "recipeClass": "igentuman.nc.recipe.fusion.FusionRecipe",
+    "serializer": "nuclearcraft:fusion_reactor",
+    "sha256": "e4fb262cdbe9b7ea3f505935349108d248898c31b8478b28dbffca2ab52c7c94"
+  },
+  "nuclearcraft:fusion_reactor/hydrogen_lithium7": {
+    "recipeClass": "igentuman.nc.recipe.fusion.FusionRecipe",
+    "serializer": "nuclearcraft:fusion_reactor",
+    "sha256": "00a69d93dec9dcf45fdd4560c3c3b86a52f42f6087657e9a0960c21e9efc3b52"
+  },
+  "nuclearcraft:fusion_reactor/hydrogen_quantite": {
+    "recipeClass": "igentuman.nc.recipe.fusion.FusionRecipe",
+    "serializer": "nuclearcraft:fusion_reactor",
+    "sha256": "a06df5e7619ac525b33faa046630290ba0441def99035176fb6f90f238099068"
+  },
+  "nuclearcraft:fusion_reactor/hydrogen_tritium": {
+    "recipeClass": "igentuman.nc.recipe.fusion.FusionRecipe",
+    "serializer": "nuclearcraft:fusion_reactor",
+    "sha256": "ac691e4d843e5a1b10302a533b31f9cc053033f0a29dea9524f77977c3483454"
+  },
+  "nuclearcraft:heat_exchanger/water": {
+    "recipeClass": "igentuman.nc.recipe.heat_exchanger.HeatExchangerRecipe",
+    "serializer": "nuclearcraft:heat_exchanger",
+    "sha256": "5e722111dee559c714c83404c26da87f685608d88257d753f58ed75cbfd278d7"
+  },
+  "nuclearcraft:steam_turbine/steam": {
+    "recipeClass": "igentuman.nc.recipe.UniversalProcessorRecipe",
+    "serializer": "nuclearcraft:steam_turbine",
+    "sha256": "f187cba79e9b66c7d6c0561cd4f5db89a9ef8943f0c7ad34e42638a8fb82edd4"
+  },
+  "nuclearcraft:turbine/steam": {
+    "recipeClass": "igentuman.nc.recipe.turbine.TurbineRecipe",
+    "serializer": "nuclearcraft:turbine",
+    "sha256": "55c1c64ceab390a533c528de3ca8f1b4162e2c97dec8a0ba0a0c0ec0ddee2df7"
+  },
+  "farmersdelight:integration/immersiveengineering/fermenter/tomato": {
+    "recipeClass": "blusunrize.immersiveengineering.api.crafting.FermenterRecipe",
+    "serializer": "immersiveengineering:fermenter",
+    "sha256": "a3914f71793e8e0780d6a3ba198e121be9f369f6496a96c16c46eec4555ab829"
+  },
+  "immersiveengineering:fermenter/apple": {
+    "recipeClass": "blusunrize.immersiveengineering.api.crafting.FermenterRecipe",
+    "serializer": "immersiveengineering:fermenter",
+    "sha256": "ccd10a894c07ef2eb93495d28693d6874e6207aefca7599d361cfa3b522935b7"
+  },
+  "immersiveengineering:fermenter/beetroot": {
+    "recipeClass": "blusunrize.immersiveengineering.api.crafting.FermenterRecipe",
+    "serializer": "immersiveengineering:fermenter",
+    "sha256": "9606ecbe70a1f1ebc9361f9cabf355d738bb533eff1af68613e5db9d7e382e79"
+  },
+  "immersiveengineering:fermenter/glow_berries": {
+    "recipeClass": "blusunrize.immersiveengineering.api.crafting.FermenterRecipe",
+    "serializer": "immersiveengineering:fermenter",
+    "sha256": "226273ec92e10ec36b412697a8a48594d355b232dd7702607318c4c650ea8109"
+  },
+  "immersiveengineering:fermenter/honey": {
+    "recipeClass": "blusunrize.immersiveengineering.api.crafting.FermenterRecipe",
+    "serializer": "immersiveengineering:fermenter",
+    "sha256": "90c946560749eafccf17acd214323f9e7f5120ab2c0711acc73f53df0c3a0b49"
+  },
+  "immersiveengineering:fermenter/melon_slice": {
+    "recipeClass": "blusunrize.immersiveengineering.api.crafting.FermenterRecipe",
+    "serializer": "immersiveengineering:fermenter",
+    "sha256": "f4aaace1bffa01f21059318d0bc0d05fcd8a4be3e5becfcda8a00f9d6a3c3fab"
+  },
+  "immersiveengineering:fermenter/potato": {
+    "recipeClass": "blusunrize.immersiveengineering.api.crafting.FermenterRecipe",
+    "serializer": "immersiveengineering:fermenter",
+    "sha256": "a6a9270b3426e29947950343073e784f09534fee16c22b6dcbf9afedc9f02c68"
+  },
+  "immersiveengineering:fermenter/sugar_cane": {
+    "recipeClass": "blusunrize.immersiveengineering.api.crafting.FermenterRecipe",
+    "serializer": "immersiveengineering:fermenter",
+    "sha256": "eb07cf3b2074b458d268714ec60a0a9a8cf48fbea55cf0617efb73a19ff26da9"
+  },
+  "immersiveengineering:fermenter/sweet_berries": {
+    "recipeClass": "blusunrize.immersiveengineering.api.crafting.FermenterRecipe",
+    "serializer": "immersiveengineering:fermenter",
+    "sha256": "ceb6f3c8c03b5abfa67f597fae4fab14b5264b420d76b0e32ed3a99db0300d07"
+  },
+  "electroenergetics:compacting/plant_oil": {
+    "recipeClass": "com.simibubi.create.content.kinetics.mixer.CompactingRecipe",
+    "serializer": "create:compacting",
+    "sha256": "5e21d8dffb71a2450c42a8487974ede30145b6ad91f8fa4b960fb24c02b0e06b"
+  },
+  "immersiveengineering:refinery/biodiesel": {
+    "recipeClass": "blusunrize.immersiveengineering.api.crafting.RefineryRecipe",
+    "serializer": "immersiveengineering:refinery",
+    "sha256": "e0b35c74eac7f6fab7b4de74a4e0c21f4f1d3a5c1a966bcc596368cc020d4ab3"
+  },
+  "createdieselgenerators:distillation/crude_oil": {
+    "recipeClass": "com.jesz.createdieselgenerators.content.distillation.DistillationRecipe",
+    "serializer": "createdieselgenerators:distillation",
+    "sha256": "2c130d4530a475d6fc78626152568c0a2ad1d674221746b570552dbeec13a541"
+  },
+  "createdieselgenerators:distillation/superheated_crude_oil": {
+    "recipeClass": "com.jesz.createdieselgenerators.content.distillation.DistillationRecipe",
+    "serializer": "createdieselgenerators:distillation",
+    "sha256": "813a5b61829222f51b5370b9d44fd184411ffa39b527abe8b6a1b65e35254326"
+  }
+}

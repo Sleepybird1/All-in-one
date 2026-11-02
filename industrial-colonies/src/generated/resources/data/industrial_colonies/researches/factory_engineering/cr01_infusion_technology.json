@@ -1,0 +1,30 @@
+{
+  "branch": "industrial_colonies:tech_tree",
+  "costs": [
+    {
+      "item": "tfmg:transformer",
+      "count": 2
+    },
+    {
+      "item": "createaddition:digital_adapter",
+      "count": 2
+    },
+    {
+      "item": "tfmg:steel_casing",
+      "count": 8
+    }
+  ],
+  "icon": "mekanism:metallurgic_infuser",
+  "name": "com.industrial_colonies.research.factory_engineering.cr01_infusion_technology.name",
+  "no-reset": true,
+  "researchLevel": 3,
+  "sortOrder": 10607,
+  "subtitle": "com.industrial_colonies.research.factory_engineering.cr01_infusion_technology.subtitle",
+  "parentResearch": "industrial_colonies:factory_engineering/cr01_control_electronics",
+  "requirements": [
+    {
+      "type": "minecolonies:research",
+      "research": "industrial_colonies:factory_engineering/cr01_control_electronics"
+    }
+  ]
+}

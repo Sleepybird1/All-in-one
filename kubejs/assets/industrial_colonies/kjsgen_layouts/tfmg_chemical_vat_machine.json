@@ -1,40 +1,180 @@
 {
   "id": "industrial_colonies:tfmg_chemical_vat_machine",
-  "mod": "tfmg",
+  "mod": "industrial_colonies_legacy_layout",
   "icon": "tfmg:graphite_electrode",
-  "width": 180,
-  "height": 108,
+  "width": 320,
+  "height": 176,
   "slots": [
-    { "key": "input1", "role": "INPUT", "x": 0, "y": 0, "required": false, "item": true, "fluid": true, "tag": true, "count": true },
-    { "key": "input2", "role": "INPUT", "x": 18, "y": 0, "required": false, "item": true, "fluid": true, "tag": true, "count": true },
-    { "key": "input3", "role": "INPUT", "x": 0, "y": 18, "required": false, "item": true, "fluid": true, "tag": true, "count": true },
-    { "key": "input4", "role": "INPUT", "x": 18, "y": 18, "required": false, "item": true, "fluid": true, "tag": true, "count": true },
-    { "key": "output1", "role": "OUTPUT", "x": 126, "y": 0, "required": false, "item": true, "fluid": true, "count": true },
-    { "key": "output2", "role": "OUTPUT", "x": 144, "y": 0, "required": false, "item": true, "fluid": true, "count": true },
-    { "key": "output3", "role": "OUTPUT", "x": 126, "y": 18, "required": false, "item": true, "fluid": true, "count": true },
-    { "key": "output4", "role": "OUTPUT", "x": 144, "y": 18, "required": false, "item": true, "fluid": true, "count": true }
+    {
+      "key": "input1",
+      "role": "INPUT",
+      "x": 56,
+      "y": 64,
+      "required": false,
+      "item": true,
+      "fluid": true,
+      "tag": true,
+      "count": true
+    },
+    {
+      "key": "input2",
+      "role": "INPUT",
+      "x": 74,
+      "y": 64,
+      "required": false,
+      "item": true,
+      "fluid": true,
+      "tag": true,
+      "count": true
+    },
+    {
+      "key": "input3",
+      "role": "INPUT",
+      "x": 92,
+      "y": 64,
+      "required": false,
+      "item": true,
+      "fluid": true,
+      "tag": true,
+      "count": true
+    },
+    {
+      "key": "input4",
+      "role": "INPUT",
+      "x": 110,
+      "y": 64,
+      "required": false,
+      "item": true,
+      "fluid": true,
+      "tag": true,
+      "count": true
+    },
+    {
+      "key": "output1",
+      "role": "OUTPUT",
+      "x": 252,
+      "y": 76,
+      "required": false,
+      "item": true,
+      "fluid": true,
+      "count": true,
+      "chance": true
+    },
+    {
+      "key": "output2",
+      "role": "OUTPUT",
+      "x": 274,
+      "y": 76,
+      "required": false,
+      "item": true,
+      "fluid": true,
+      "count": true,
+      "chance": true
+    },
+    {
+      "key": "output3",
+      "role": "OUTPUT",
+      "x": 252,
+      "y": 98,
+      "required": false,
+      "item": true,
+      "fluid": true,
+      "count": true,
+      "chance": true
+    },
+    {
+      "key": "output4",
+      "role": "OUTPUT",
+      "x": 274,
+      "y": 98,
+      "required": false,
+      "item": true,
+      "fluid": true,
+      "count": true,
+      "chance": true
+    },
+    {
+      "key": "additionalIngredients",
+      "role": "INPUT",
+      "x": 56,
+      "y": 64,
+      "required": false,
+      "item": true,
+      "fluid": true,
+      "tag": true,
+      "chemical": false,
+      "count": true,
+      "chance": false,
+      "list": true
+    }
   ],
   "decorations": [
-    { "type": "ARROW", "x": 72, "y": 9 },
-    { "type": "TEXT", "x": 0, "y": 48, "text": "Vat attachment / operation required" }
+    {
+      "type": "ARROW",
+      "x": 224,
+      "y": 87
+    }
   ],
   "parameters": [
-    { "key": "machineSetup", "type": "ENUM", "default": "'tfmg:mixing'", "options": [
-      "'tfmg:mixing'",
-      "'tfmg:electrode'",
-      "'tfmg:electrode', 'tfmg:electrode'",
-      "'tfmg:mixing', 'tfmg:electrode'",
-      "'tfmg:mixing', 'tfmg:electrode', 'tfmg:electrode'",
-      "'tfmg:centrifuge'",
-      "'tfmg:graphite_electrode'",
-      "'tfmg:graphite_electrode', 'tfmg:graphite_electrode', 'tfmg:graphite_electrode'"
-    ] },
-    { "key": "processingTime", "type": "INT", "default": "100" },
-    { "key": "heat", "type": "ENUM", "default": "none", "options": ["none", "heated", "superheated"] },
-    { "key": "heatLevel", "type": "INT", "default": "0" },
-    { "key": "minSize", "type": "INT", "default": "1" },
-    { "key": "__template", "type": "STRING", "default": "event.recipes.tfmg.vat_machine_recipe([{inputs}], [{outputs}]).processingTime({param:processingTime}){opt_call:heat}.machines({param:machineSetup}).minSize({param:minSize}).heatLevel({param:heatLevel})" }
+    {
+      "key": "allowedVatTypes",
+      "type": "ENUM",
+      "default": "'tfmg:steel_vat', 'tfmg:cast_iron_vat', 'tfmg:firebrick_lined_vat'",
+      "options": [
+        "'tfmg:steel_vat', 'tfmg:cast_iron_vat', 'tfmg:firebrick_lined_vat'",
+        "'tfmg:steel_vat'",
+        "'tfmg:cast_iron_vat'",
+        "'tfmg:firebrick_lined_vat'",
+        "'tfmg:steel_vat', 'tfmg:firebrick_lined_vat'"
+      ]
+    },
+    {
+      "key": "machineSetup",
+      "type": "ENUM",
+      "default": "'tfmg:mixing'",
+      "options": [
+        "none",
+        "'tfmg:mixing'",
+        "'tfmg:electrode'",
+        "'tfmg:electrode', 'tfmg:electrode'",
+        "'tfmg:mixing', 'tfmg:electrode'",
+        "'tfmg:mixing', 'tfmg:electrode', 'tfmg:electrode'",
+        "'tfmg:centrifuge'",
+        "'tfmg:graphite_electrode'",
+        "'tfmg:graphite_electrode', 'tfmg:graphite_electrode', 'tfmg:graphite_electrode'"
+      ]
+    },
+    {
+      "key": "processingTime",
+      "type": "INT",
+      "default": "100"
+    },
+    {
+      "key": "heat",
+      "type": "ENUM",
+      "default": "none",
+      "options": [
+        "none",
+        "heated",
+        "superheated"
+      ]
+    },
+    {
+      "key": "heatLevel",
+      "type": "INT",
+      "default": "0"
+    },
+    {
+      "key": "minSize",
+      "type": "INT",
+      "default": "1"
+    },
+    {
+      "key": "__template",
+      "type": "STRING",
+      "default": "event.recipes.tfmg.vat_machine_recipe([{inputs}], [{outputs}]).processingTime({param:processingTime}){opt_call:heat}.machines({param:machineSetup}).minSize({param:minSize}).heatLevel({param:heatLevel}).allowedVatTypes({param:allowedVatTypes})"
+    }
   ],
-  "codegen": "kjsgen:template",
+  "codegen": "industrial_colonies:tfmg_chemical_vat",
   "requiresMod": "tfmg"
 }

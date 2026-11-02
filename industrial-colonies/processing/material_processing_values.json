@@ -1,0 +1,228 @@
+{
+  "metals": {
+    "iron": {
+      "nugget": 25
+    },
+    "copper": {
+      "nugget": 100
+    },
+    "gold": {
+      "nugget": 10
+    },
+    "zinc": {
+      "nugget": 100,
+      "raw": 125
+    },
+    "tin": {
+      "nugget": 100,
+      "direct": 20,
+      "concentrate": 75
+    },
+    "lead": {
+      "nugget": 100
+    },
+    "nickel": {
+      "nugget": 100
+    },
+    "aluminum": {
+      "nugget": 100
+    },
+    "lithium": {
+      "nugget": 100
+    },
+    "osmium": {
+      "nugget": 100
+    },
+    "silver": {
+      "nugget": 100
+    },
+    "magnesium": {
+      "nugget": 100
+    },
+    "cobalt": {
+      "nugget": 100
+    },
+    "chromium": {
+      "nugget": 100
+    },
+    "titanium": {
+      "nugget": 100
+    },
+    "tungsten": {
+      "nugget": 100
+    },
+    "beryllium": {
+      "nugget": 100
+    },
+    "boron": {
+      "nugget": 100
+    },
+    "platinum": {
+      "nugget": 100,
+      "trace": 25
+    },
+    "iridium": {
+      "nugget": 100,
+      "trace": 25
+    },
+    "steel": {
+      "nugget": 100
+    },
+    "brass": {
+      "nugget": 100
+    },
+    "bronze": {
+      "nugget": 100
+    }
+  },
+  "timing": {
+    "melting": 80,
+    "iron_blast": 600,
+    "tin_agitation": 300,
+    "cinnabar_batch": 300,
+    "silicon_reduction": 1200,
+    "pulverized_coal_coking": 1200,
+    "coal_tar_fractionation": 100
+  },
+  "pgm": {
+    "crude_recovery_chance": 0.2,
+    "iridium_trace_consolidation_energy": 819200,
+    "iridium_trace_consolidation_ticks": 1200
+  },
+  "chemistry": {
+    "zinc": {
+      "acid_mb": 100,
+      "metal_mb": 75,
+      "direct_mb": 12
+    },
+    "timing": {
+      "leaching": 480,
+      "precipitation": 320,
+      "reduction": 600,
+      "lead_roasting": 700,
+      "electrolysis": 1000,
+      "separation": 400,
+      "nickel_roast_precipitate": 600,
+      "cobalt_roast_precipitate": 600,
+      "magnesium_calcine": 1000,
+      "titanium_consolidate_sponge": 600,
+      "tungsten_oxide": 600,
+      "tungsten_sinter": 800,
+      "chromium_conditioning": 800,
+      "chromium_consolidate": 500,
+      "lithium_activate": 800,
+      "silver_roast": 700,
+      "phosphate_condition": 1200,
+      "fertilizer": 200,
+      "phosphate_elemental_reduction": 800,
+      "graphite_agitation": 400,
+      "graphite_high_temperature_purification": 600,
+      "beryllium_oxide": 1000,
+      "pgm_consolidate_iridium": 1200,
+      "salt_dissolution": 300,
+      "reagent": 300,
+      "boron_consolidate_powder": 800,
+      "pgm_consolidate_osmium": 600,
+      "pgm_consolidate_platinum": 800,
+      "desulfurized_oil_distillation": 100
+    },
+    "lead": {
+      "rich_dust": 4,
+      "sulfur_chance": 0.015,
+      "metal_mb": 75,
+      "purification_acid_mb": 150,
+      "direct_mb": 15
+    },
+    "nickel": {
+      "acid_mb": 200,
+      "rich_concentrates": 4,
+      "metal_mb": 75
+    },
+    "cobalt": {
+      "pentlandite_recovery_chance": 0.08,
+      "rich_concentrates": 4,
+      "nickel_byproduct_chance": 0.25,
+      "metal_mb": 100
+    },
+    "aluminum": {
+      "rich_powder": 4,
+      "metal_mb": 75
+    },
+    "magnesium": {
+      "metal_mb": 75
+    },
+    "titanium": {
+      "rich_dust": 4,
+      "sponge_per_ingot": 8
+    },
+    "energy": {
+      "titanium_consolidate_sponge": 204800,
+      "tungsten_sinter": 409600,
+      "chromium_consolidate": 204800,
+      "phosphate_elemental_reduction": 307200,
+      "graphite_high_temperature_purification": 153600,
+      "pgm_consolidate_iridium": 819200,
+      "boron_consolidate_powder": 409600,
+      "pgm_consolidate_osmium": 204800,
+      "pgm_consolidate_platinum": 409600
+    },
+    "tungsten": {
+      "rich_dust": 4,
+      "powder_per_ingot": 8
+    },
+    "chromium": {
+      "rich_dust": 4,
+      "powder_per_ingot": 8
+    },
+    "lithium": {
+      "rich_dust": 4,
+      "metal_mb": 60
+    },
+    "silver": {
+      "rich_dust": 4,
+      "metal_mb": 60,
+      "direct_mb": 12
+    },
+    "phosphate": {
+      "fertilizer_output": 6,
+      "compound_per_elemental": 4
+    },
+    "beryllium": {
+      "metal_mb": 40
+    },
+    "boron": {
+      "metal_mb": 60
+    },
+    "uranium": {
+      "acid_mb": 400
+    },
+    "thorium": {
+      "acid_mb": 400
+    },
+    "pgm": {
+      "osmium_fractions": 7,
+      "platinum_fractions": 2,
+      "platinum_extra_chance": 0.5,
+      "iridium_fraction_chance": 0.5,
+      "osmium_rich_concentrates": 4,
+      "platinum_rich_concentrates": 4,
+      "iridium_rich_concentrates": 4,
+      "iridium_powder_per_ingot": 20
+    },
+    "osmium": {
+      "metal_mb": 50
+    },
+    "platinum": {
+      "metal_mb": 50
+    },
+    "sulfur": {
+      "refinery_dust_per_batch": 8
+    }
+  },
+  "radiance": {
+    "refractory_energy": 2000000,
+    "pressure_ticks": 12500,
+    "pressure_extra_joules_per_tick": 1600,
+    "stabilization_energy": 16000000
+  }
+}

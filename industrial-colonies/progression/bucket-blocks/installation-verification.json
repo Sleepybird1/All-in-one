@@ -1,0 +1,83 @@
+{
+  "status": "PASS",
+  "installedFiles": [
+    "kubejs/server_scripts/zz_industrial_material_processing.js",
+    "kubejs/server_scripts/zzzzz_industrial_metal_units.js",
+    "kubejs/assets/modernfoundry/hilt/fluid_tooltips/metals.json"
+  ],
+  "preservedFiles": [
+    "kubejs/server_scripts/industrial_ae2_me_basics.js",
+    "kubejs/server_scripts/industrial_ae2_processor_construction.js",
+    "kubejs/server_scripts/industrial_allthemodium_currency.js",
+    "kubejs/server_scripts/industrial_appliedcreate_kinetic_network.js",
+    "kubejs/server_scripts/industrial_black_hole_megaproject.js",
+    "kubejs/server_scripts/industrial_cast_iron_canonicalization.js",
+    "kubejs/server_scripts/industrial_computercraft_hardware.js",
+    "kubejs/server_scripts/industrial_copper_wire_canonicalization.js",
+    "kubejs/server_scripts/industrial_early_electricity_construction.js",
+    "kubejs/server_scripts/industrial_electronics_progression.js",
+    "kubejs/server_scripts/industrial_factory_installer_progression.js",
+    "kubejs/server_scripts/industrial_grid_engineering_construction.js",
+    "kubejs/server_scripts/industrial_lead_canonicalization.js",
+    "kubejs/server_scripts/industrial_machine_construction_01.js",
+    "kubejs/server_scripts/industrial_machine_construction_02.js",
+    "kubejs/server_scripts/industrial_machine_construction_03.js",
+    "kubejs/server_scripts/industrial_machine_construction_04.js",
+    "kubejs/server_scripts/industrial_machine_construction_05.js",
+    "kubejs/server_scripts/industrial_machine_construction_06.js",
+    "kubejs/server_scripts/industrial_machine_retirement_01.js",
+    "kubejs/server_scripts/industrial_megacells_radioactive_compat.js",
+    "kubejs/server_scripts/industrial_mekanism_physical_progression.js",
+    "kubejs/server_scripts/industrial_metallurgy_casting_compat.js",
+    "kubejs/server_scripts/industrial_nuclear_actinides_01.js",
+    "kubejs/server_scripts/industrial_nuclear_advanced_fuel_01.js",
+    "kubejs/server_scripts/industrial_nuclear_construction_01.js",
+    "kubejs/server_scripts/industrial_nuclear_construction_02.js",
+    "kubejs/server_scripts/industrial_nuclear_construction_03.js",
+    "kubejs/server_scripts/industrial_nuclear_construction_04.js",
+    "kubejs/server_scripts/industrial_nuclear_fuel_01.js",
+    "kubejs/server_scripts/industrial_nuclear_plutonium_01.js",
+    "kubejs/server_scripts/industrial_nuclear_reprocessing_01.js",
+    "kubejs/server_scripts/industrial_oil_field_construction.js",
+    "kubejs/server_scripts/industrial_petroleum_canonicalization.js",
+    "kubejs/server_scripts/industrial_primitive_tool_progression.js",
+    "kubejs/server_scripts/industrial_reserve_core_megaproject.js",
+    "kubejs/server_scripts/industrial_space_entry_deferred.js",
+    "kubejs/server_scripts/industrial_star_megaproject.js",
+    "kubejs/server_scripts/industrial_steel_canonicalization.js",
+    "kubejs/server_scripts/industrial_sulfur_canonicalization.js",
+    "kubejs/server_scripts/industrial_tier_installer_construction.js",
+    "kubejs/server_scripts/industrial_uranium_yellorium_separation.js",
+    "kubejs/server_scripts/industrial_yellorium_refinement.js",
+    "kubejs/server_scripts/kjsgen_recipes.js",
+    "kubejs/server_scripts/main.js",
+    "kubejs/server_scripts/TEMP_FILE_REMOVE_RECIPE_AFTER.js",
+    "kubejs/server_scripts/zzzz_industrial_semiconductors.js",
+    "kubejs/server_scripts/zzz_industrial_ownership.js",
+    "kjsgen/projects/approved_recipes.json",
+    "kjsgen/projects/default.json",
+    "kjsgen/projects/Deferred.json",
+    "kjsgen/projects/disabled_recipes.json",
+    "kjsgen/projects/maybe_recipes.json",
+    "kjsgen/projects/rejected_recipes.json",
+    "kjsgen/projects/TEST.json"
+  ],
+  "firstBasinRecipe": {
+    "key": {
+      "#": {
+        "item": "modernfoundry:seared_brick"
+      }
+    },
+    "pattern": [
+      "# #",
+      "# #",
+      "###"
+    ],
+    "result": {
+      "id": "modernfoundry:seared_basin",
+      "count": 1
+    },
+    "category": "misc",
+    "type": "minecraft:crafting_shaped"
+  }
+}

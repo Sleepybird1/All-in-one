@@ -1,0 +1,26 @@
+{
+  "branch": "industrial_colonies:tech_tree",
+  "costs": [
+    {
+      "item": "create:andesite_casing",
+      "count": 8
+    },
+    {
+      "item": "create:cogwheel",
+      "count": 16
+    }
+  ],
+  "icon": "create:brass_ingot",
+  "name": "com.industrial_colonies.research.mechanical_foundations.the_brass_age.name",
+  "no-reset": true,
+  "researchLevel": 3,
+  "sortOrder": 9867,
+  "subtitle": "com.industrial_colonies.research.mechanical_foundations.the_brass_age.subtitle",
+  "parentResearch": "industrial_colonies:mechanical_foundations/the_andesite_age",
+  "requirements": [
+    {
+      "type": "minecolonies:research",
+      "research": "industrial_colonies:mechanical_foundations/the_andesite_age"
+    }
+  ]
+}

@@ -1,0 +1,2109 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "body": "tfmg:block/steel_casing",
+    "coil": "tfmg:block/transformer",
+    "chip": "industrial_colonies:item/fusion_subsystems/materials/controller_chip_materials",
+    "edge": "industrial_colonies:item/fusion_subsystems/materials/bearing_plate_edge",
+    "steel": "industrial_colonies:item/fusion_subsystems/materials/minimal_bearing_core",
+    "particle": "tfmg:block/steel_casing"
+  },
+  "elements": [
+    {
+      "name": "compact board substrate",
+      "from": [
+        2,
+        1,
+        3
+      ],
+      "to": [
+        14,
+        1.6,
+        13
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            4,
+            8
+          ],
+          "texture": "#chip"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            4,
+            8
+          ],
+          "texture": "#chip"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            4,
+            8
+          ],
+          "texture": "#chip"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            4,
+            8
+          ],
+          "texture": "#chip"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            4,
+            8
+          ],
+          "texture": "#chip"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            4,
+            8
+          ],
+          "texture": "#chip"
+        }
+      }
+    },
+    {
+      "name": "edge signal rail",
+      "from": [
+        3,
+        1.6,
+        4
+      ],
+      "to": [
+        3.25,
+        1.8,
+        12
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            4,
+            8,
+            8,
+            16
+          ],
+          "texture": "#chip"
+        },
+        "south": {
+          "uv": [
+            4,
+            8,
+            8,
+            16
+          ],
+          "texture": "#chip"
+        },
+        "east": {
+          "uv": [
+            4,
+            8,
+            8,
+            16
+          ],
+          "texture": "#chip"
+        },
+        "west": {
+          "uv": [
+            4,
+            8,
+            8,
+            16
+          ],
+          "texture": "#chip"
+        },
+        "up": {
+          "uv": [
+            4,
+            8,
+            8,
+            16
+          ],
+          "texture": "#chip"
+        },
+        "down": {
+          "uv": [
+            4,
+            8,
+            8,
+            16
+          ],
+          "texture": "#chip"
+        }
+      }
+    },
+    {
+      "name": "edge signal rail",
+      "from": [
+        12.7,
+        1.6,
+        4
+      ],
+      "to": [
+        12.95,
+        1.8,
+        12
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            4,
+            8,
+            8,
+            16
+          ],
+          "texture": "#chip"
+        },
+        "south": {
+          "uv": [
+            4,
+            8,
+            8,
+            16
+          ],
+          "texture": "#chip"
+        },
+        "east": {
+          "uv": [
+            4,
+            8,
+            8,
+            16
+          ],
+          "texture": "#chip"
+        },
+        "west": {
+          "uv": [
+            4,
+            8,
+            8,
+            16
+          ],
+          "texture": "#chip"
+        },
+        "up": {
+          "uv": [
+            4,
+            8,
+            8,
+            16
+          ],
+          "texture": "#chip"
+        },
+        "down": {
+          "uv": [
+            4,
+            8,
+            8,
+            16
+          ],
+          "texture": "#chip"
+        }
+      }
+    },
+    {
+      "name": "transverse signal trace",
+      "from": [
+        3,
+        1.6,
+        4
+      ],
+      "to": [
+        13,
+        1.8,
+        4.25
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            4,
+            8,
+            8,
+            16
+          ],
+          "texture": "#chip"
+        },
+        "south": {
+          "uv": [
+            4,
+            8,
+            8,
+            16
+          ],
+          "texture": "#chip"
+        },
+        "east": {
+          "uv": [
+            4,
+            8,
+            8,
+            16
+          ],
+          "texture": "#chip"
+        },
+        "west": {
+          "uv": [
+            4,
+            8,
+            8,
+            16
+          ],
+          "texture": "#chip"
+        },
+        "up": {
+          "uv": [
+            4,
+            8,
+            8,
+            16
+          ],
+          "texture": "#chip"
+        },
+        "down": {
+          "uv": [
+            4,
+            8,
+            8,
+            16
+          ],
+          "texture": "#chip"
+        }
+      }
+    },
+    {
+      "name": "transverse signal trace",
+      "from": [
+        3,
+        1.6,
+        11.7
+      ],
+      "to": [
+        13,
+        1.8,
+        11.95
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            4,
+            8,
+            8,
+            16
+          ],
+          "texture": "#chip"
+        },
+        "south": {
+          "uv": [
+            4,
+            8,
+            8,
+            16
+          ],
+          "texture": "#chip"
+        },
+        "east": {
+          "uv": [
+            4,
+            8,
+            8,
+            16
+          ],
+          "texture": "#chip"
+        },
+        "west": {
+          "uv": [
+            4,
+            8,
+            8,
+            16
+          ],
+          "texture": "#chip"
+        },
+        "up": {
+          "uv": [
+            4,
+            8,
+            8,
+            16
+          ],
+          "texture": "#chip"
+        },
+        "down": {
+          "uv": [
+            4,
+            8,
+            8,
+            16
+          ],
+          "texture": "#chip"
+        }
+      }
+    },
+    {
+      "name": "plug edge gold finger",
+      "from": [
+        3,
+        1.1,
+        1.6
+      ],
+      "to": [
+        3.8,
+        1.5,
+        3.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            8,
+            4,
+            16
+          ],
+          "texture": "#chip"
+        },
+        "south": {
+          "uv": [
+            0,
+            8,
+            4,
+            16
+          ],
+          "texture": "#chip"
+        },
+        "east": {
+          "uv": [
+            0,
+            8,
+            4,
+            16
+          ],
+          "texture": "#chip"
+        },
+        "west": {
+          "uv": [
+            0,
+            8,
+            4,
+            16
+          ],
+          "texture": "#chip"
+        },
+        "up": {
+          "uv": [
+            0,
+            8,
+            4,
+            16
+          ],
+          "texture": "#chip"
+        },
+        "down": {
+          "uv": [
+            0,
+            8,
+            4,
+            16
+          ],
+          "texture": "#chip"
+        }
+      }
+    },
+    {
+      "name": "plug edge gold finger",
+      "from": [
+        5,
+        1.1,
+        1.6
+      ],
+      "to": [
+        5.8,
+        1.5,
+        3.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            8,
+            4,
+            16
+          ],
+          "texture": "#chip"
+        },
+        "south": {
+          "uv": [
+            0,
+            8,
+            4,
+            16
+          ],
+          "texture": "#chip"
+        },
+        "east": {
+          "uv": [
+            0,
+            8,
+            4,
+            16
+          ],
+          "texture": "#chip"
+        },
+        "west": {
+          "uv": [
+            0,
+            8,
+            4,
+            16
+          ],
+          "texture": "#chip"
+        },
+        "up": {
+          "uv": [
+            0,
+            8,
+            4,
+            16
+          ],
+          "texture": "#chip"
+        },
+        "down": {
+          "uv": [
+            0,
+            8,
+            4,
+            16
+          ],
+          "texture": "#chip"
+        }
+      }
+    },
+    {
+      "name": "plug edge gold finger",
+      "from": [
+        7,
+        1.1,
+        1.6
+      ],
+      "to": [
+        7.8,
+        1.5,
+        3.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            8,
+            4,
+            16
+          ],
+          "texture": "#chip"
+        },
+        "south": {
+          "uv": [
+            0,
+            8,
+            4,
+            16
+          ],
+          "texture": "#chip"
+        },
+        "east": {
+          "uv": [
+            0,
+            8,
+            4,
+            16
+          ],
+          "texture": "#chip"
+        },
+        "west": {
+          "uv": [
+            0,
+            8,
+            4,
+            16
+          ],
+          "texture": "#chip"
+        },
+        "up": {
+          "uv": [
+            0,
+            8,
+            4,
+            16
+          ],
+          "texture": "#chip"
+        },
+        "down": {
+          "uv": [
+            0,
+            8,
+            4,
+            16
+          ],
+          "texture": "#chip"
+        }
+      }
+    },
+    {
+      "name": "plug edge gold finger",
+      "from": [
+        9,
+        1.1,
+        1.6
+      ],
+      "to": [
+        9.8,
+        1.5,
+        3.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            8,
+            4,
+            16
+          ],
+          "texture": "#chip"
+        },
+        "south": {
+          "uv": [
+            0,
+            8,
+            4,
+            16
+          ],
+          "texture": "#chip"
+        },
+        "east": {
+          "uv": [
+            0,
+            8,
+            4,
+            16
+          ],
+          "texture": "#chip"
+        },
+        "west": {
+          "uv": [
+            0,
+            8,
+            4,
+            16
+          ],
+          "texture": "#chip"
+        },
+        "up": {
+          "uv": [
+            0,
+            8,
+            4,
+            16
+          ],
+          "texture": "#chip"
+        },
+        "down": {
+          "uv": [
+            0,
+            8,
+            4,
+            16
+          ],
+          "texture": "#chip"
+        }
+      }
+    },
+    {
+      "name": "plug edge gold finger",
+      "from": [
+        11,
+        1.1,
+        1.6
+      ],
+      "to": [
+        11.8,
+        1.5,
+        3.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            8,
+            4,
+            16
+          ],
+          "texture": "#chip"
+        },
+        "south": {
+          "uv": [
+            0,
+            8,
+            4,
+            16
+          ],
+          "texture": "#chip"
+        },
+        "east": {
+          "uv": [
+            0,
+            8,
+            4,
+            16
+          ],
+          "texture": "#chip"
+        },
+        "west": {
+          "uv": [
+            0,
+            8,
+            4,
+            16
+          ],
+          "texture": "#chip"
+        },
+        "up": {
+          "uv": [
+            0,
+            8,
+            4,
+            16
+          ],
+          "texture": "#chip"
+        },
+        "down": {
+          "uv": [
+            0,
+            8,
+            4,
+            16
+          ],
+          "texture": "#chip"
+        }
+      }
+    },
+    {
+      "name": "high voltage capacitor foot",
+      "from": [
+        3,
+        1.6,
+        6
+      ],
+      "to": [
+        6.5,
+        2,
+        10.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#edge"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#edge"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#edge"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#edge"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#edge"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#edge"
+        }
+      }
+    },
+    {
+      "name": "high voltage capacitor can",
+      "from": [
+        3.25,
+        2,
+        6.3
+      ],
+      "to": [
+        6.25,
+        5.8,
+        10.2
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#body"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#body"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#body"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#body"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#body"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#body"
+        }
+      }
+    },
+    {
+      "name": "capacitor contact strip",
+      "from": [
+        3.6,
+        5.8,
+        7.2
+      ],
+      "to": [
+        5.9,
+        6.15,
+        9.3
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#steel"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#steel"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#steel"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#steel"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#steel"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#steel"
+        }
+      }
+    },
+    {
+      "name": "capacitor lead",
+      "from": [
+        4.4,
+        1.7,
+        6.9
+      ],
+      "to": [
+        4.9,
+        2.3,
+        7.4
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            8,
+            4,
+            16
+          ],
+          "texture": "#chip"
+        },
+        "south": {
+          "uv": [
+            0,
+            8,
+            4,
+            16
+          ],
+          "texture": "#chip"
+        },
+        "east": {
+          "uv": [
+            0,
+            8,
+            4,
+            16
+          ],
+          "texture": "#chip"
+        },
+        "west": {
+          "uv": [
+            0,
+            8,
+            4,
+            16
+          ],
+          "texture": "#chip"
+        },
+        "up": {
+          "uv": [
+            0,
+            8,
+            4,
+            16
+          ],
+          "texture": "#chip"
+        },
+        "down": {
+          "uv": [
+            0,
+            8,
+            4,
+            16
+          ],
+          "texture": "#chip"
+        }
+      }
+    },
+    {
+      "name": "capacitor lead",
+      "from": [
+        4.4,
+        1.7,
+        9.1
+      ],
+      "to": [
+        4.9,
+        2.3,
+        9.6
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            8,
+            4,
+            16
+          ],
+          "texture": "#chip"
+        },
+        "south": {
+          "uv": [
+            0,
+            8,
+            4,
+            16
+          ],
+          "texture": "#chip"
+        },
+        "east": {
+          "uv": [
+            0,
+            8,
+            4,
+            16
+          ],
+          "texture": "#chip"
+        },
+        "west": {
+          "uv": [
+            0,
+            8,
+            4,
+            16
+          ],
+          "texture": "#chip"
+        },
+        "up": {
+          "uv": [
+            0,
+            8,
+            4,
+            16
+          ],
+          "texture": "#chip"
+        },
+        "down": {
+          "uv": [
+            0,
+            8,
+            4,
+            16
+          ],
+          "texture": "#chip"
+        }
+      }
+    },
+    {
+      "name": "high voltage capacitor foot",
+      "from": [
+        9,
+        1.6,
+        6
+      ],
+      "to": [
+        12.5,
+        2,
+        10.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#edge"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#edge"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#edge"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#edge"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#edge"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#edge"
+        }
+      }
+    },
+    {
+      "name": "high voltage capacitor can",
+      "from": [
+        9.25,
+        2,
+        6.3
+      ],
+      "to": [
+        12.25,
+        5.8,
+        10.2
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#body"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#body"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#body"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#body"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#body"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#body"
+        }
+      }
+    },
+    {
+      "name": "capacitor contact strip",
+      "from": [
+        9.6,
+        5.8,
+        7.2
+      ],
+      "to": [
+        11.9,
+        6.15,
+        9.3
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#steel"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#steel"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#steel"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#steel"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#steel"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#steel"
+        }
+      }
+    },
+    {
+      "name": "capacitor lead",
+      "from": [
+        10.4,
+        1.7,
+        6.9
+      ],
+      "to": [
+        10.9,
+        2.3,
+        7.4
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            8,
+            4,
+            16
+          ],
+          "texture": "#chip"
+        },
+        "south": {
+          "uv": [
+            0,
+            8,
+            4,
+            16
+          ],
+          "texture": "#chip"
+        },
+        "east": {
+          "uv": [
+            0,
+            8,
+            4,
+            16
+          ],
+          "texture": "#chip"
+        },
+        "west": {
+          "uv": [
+            0,
+            8,
+            4,
+            16
+          ],
+          "texture": "#chip"
+        },
+        "up": {
+          "uv": [
+            0,
+            8,
+            4,
+            16
+          ],
+          "texture": "#chip"
+        },
+        "down": {
+          "uv": [
+            0,
+            8,
+            4,
+            16
+          ],
+          "texture": "#chip"
+        }
+      }
+    },
+    {
+      "name": "capacitor lead",
+      "from": [
+        10.4,
+        1.7,
+        9.1
+      ],
+      "to": [
+        10.9,
+        2.3,
+        9.6
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            8,
+            4,
+            16
+          ],
+          "texture": "#chip"
+        },
+        "south": {
+          "uv": [
+            0,
+            8,
+            4,
+            16
+          ],
+          "texture": "#chip"
+        },
+        "east": {
+          "uv": [
+            0,
+            8,
+            4,
+            16
+          ],
+          "texture": "#chip"
+        },
+        "west": {
+          "uv": [
+            0,
+            8,
+            4,
+            16
+          ],
+          "texture": "#chip"
+        },
+        "up": {
+          "uv": [
+            0,
+            8,
+            4,
+            16
+          ],
+          "texture": "#chip"
+        },
+        "down": {
+          "uv": [
+            0,
+            8,
+            4,
+            16
+          ],
+          "texture": "#chip"
+        }
+      }
+    },
+    {
+      "name": "switching transistor body",
+      "from": [
+        6.6,
+        1.7,
+        5
+      ],
+      "to": [
+        8.4,
+        3.3,
+        7.3
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            4,
+            0,
+            8,
+            8
+          ],
+          "texture": "#chip"
+        },
+        "south": {
+          "uv": [
+            4,
+            0,
+            8,
+            8
+          ],
+          "texture": "#chip"
+        },
+        "east": {
+          "uv": [
+            4,
+            0,
+            8,
+            8
+          ],
+          "texture": "#chip"
+        },
+        "west": {
+          "uv": [
+            4,
+            0,
+            8,
+            8
+          ],
+          "texture": "#chip"
+        },
+        "up": {
+          "uv": [
+            4,
+            0,
+            8,
+            8
+          ],
+          "texture": "#chip"
+        },
+        "down": {
+          "uv": [
+            4,
+            0,
+            8,
+            8
+          ],
+          "texture": "#chip"
+        }
+      }
+    },
+    {
+      "name": "transistor individual lead",
+      "from": [
+        6.1,
+        1.7,
+        5.2
+      ],
+      "to": [
+        8.9,
+        2,
+        5.4
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            8,
+            4,
+            16
+          ],
+          "texture": "#chip"
+        },
+        "south": {
+          "uv": [
+            0,
+            8,
+            4,
+            16
+          ],
+          "texture": "#chip"
+        },
+        "east": {
+          "uv": [
+            0,
+            8,
+            4,
+            16
+          ],
+          "texture": "#chip"
+        },
+        "west": {
+          "uv": [
+            0,
+            8,
+            4,
+            16
+          ],
+          "texture": "#chip"
+        },
+        "up": {
+          "uv": [
+            0,
+            8,
+            4,
+            16
+          ],
+          "texture": "#chip"
+        },
+        "down": {
+          "uv": [
+            0,
+            8,
+            4,
+            16
+          ],
+          "texture": "#chip"
+        }
+      }
+    },
+    {
+      "name": "transistor individual lead",
+      "from": [
+        6.1,
+        1.7,
+        6
+      ],
+      "to": [
+        8.9,
+        2,
+        6.2
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            8,
+            4,
+            16
+          ],
+          "texture": "#chip"
+        },
+        "south": {
+          "uv": [
+            0,
+            8,
+            4,
+            16
+          ],
+          "texture": "#chip"
+        },
+        "east": {
+          "uv": [
+            0,
+            8,
+            4,
+            16
+          ],
+          "texture": "#chip"
+        },
+        "west": {
+          "uv": [
+            0,
+            8,
+            4,
+            16
+          ],
+          "texture": "#chip"
+        },
+        "up": {
+          "uv": [
+            0,
+            8,
+            4,
+            16
+          ],
+          "texture": "#chip"
+        },
+        "down": {
+          "uv": [
+            0,
+            8,
+            4,
+            16
+          ],
+          "texture": "#chip"
+        }
+      }
+    },
+    {
+      "name": "transistor individual lead",
+      "from": [
+        6.1,
+        1.7,
+        6.8
+      ],
+      "to": [
+        8.9,
+        2,
+        7.0
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            8,
+            4,
+            16
+          ],
+          "texture": "#chip"
+        },
+        "south": {
+          "uv": [
+            0,
+            8,
+            4,
+            16
+          ],
+          "texture": "#chip"
+        },
+        "east": {
+          "uv": [
+            0,
+            8,
+            4,
+            16
+          ],
+          "texture": "#chip"
+        },
+        "west": {
+          "uv": [
+            0,
+            8,
+            4,
+            16
+          ],
+          "texture": "#chip"
+        },
+        "up": {
+          "uv": [
+            0,
+            8,
+            4,
+            16
+          ],
+          "texture": "#chip"
+        },
+        "down": {
+          "uv": [
+            0,
+            8,
+            4,
+            16
+          ],
+          "texture": "#chip"
+        }
+      }
+    },
+    {
+      "name": "compact choke ferrite",
+      "from": [
+        6.6,
+        2,
+        9.1
+      ],
+      "to": [
+        8.4,
+        4.3,
+        11.3
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#steel"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#steel"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#steel"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#steel"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#steel"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#steel"
+        }
+      }
+    },
+    {
+      "name": "choke winding turn",
+      "from": [
+        6.3,
+        2.2,
+        8.8
+      ],
+      "to": [
+        8.7,
+        2.5,
+        11.6
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            13,
+            0,
+            16,
+            5
+          ],
+          "texture": "#coil"
+        },
+        "south": {
+          "uv": [
+            13,
+            0,
+            16,
+            5
+          ],
+          "texture": "#coil"
+        },
+        "east": {
+          "uv": [
+            13,
+            0,
+            16,
+            5
+          ],
+          "texture": "#coil"
+        },
+        "west": {
+          "uv": [
+            13,
+            0,
+            16,
+            5
+          ],
+          "texture": "#coil"
+        },
+        "up": {
+          "uv": [
+            13,
+            0,
+            16,
+            5
+          ],
+          "texture": "#coil"
+        },
+        "down": {
+          "uv": [
+            13,
+            0,
+            16,
+            5
+          ],
+          "texture": "#coil"
+        }
+      }
+    },
+    {
+      "name": "choke winding turn",
+      "from": [
+        6.3,
+        2.7,
+        8.8
+      ],
+      "to": [
+        8.7,
+        3.0,
+        11.6
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            13,
+            0,
+            16,
+            5
+          ],
+          "texture": "#coil"
+        },
+        "south": {
+          "uv": [
+            13,
+            0,
+            16,
+            5
+          ],
+          "texture": "#coil"
+        },
+        "east": {
+          "uv": [
+            13,
+            0,
+            16,
+            5
+          ],
+          "texture": "#coil"
+        },
+        "west": {
+          "uv": [
+            13,
+            0,
+            16,
+            5
+          ],
+          "texture": "#coil"
+        },
+        "up": {
+          "uv": [
+            13,
+            0,
+            16,
+            5
+          ],
+          "texture": "#coil"
+        },
+        "down": {
+          "uv": [
+            13,
+            0,
+            16,
+            5
+          ],
+          "texture": "#coil"
+        }
+      }
+    },
+    {
+      "name": "choke winding turn",
+      "from": [
+        6.3,
+        3.2,
+        8.8
+      ],
+      "to": [
+        8.7,
+        3.5,
+        11.6
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            13,
+            0,
+            16,
+            5
+          ],
+          "texture": "#coil"
+        },
+        "south": {
+          "uv": [
+            13,
+            0,
+            16,
+            5
+          ],
+          "texture": "#coil"
+        },
+        "east": {
+          "uv": [
+            13,
+            0,
+            16,
+            5
+          ],
+          "texture": "#coil"
+        },
+        "west": {
+          "uv": [
+            13,
+            0,
+            16,
+            5
+          ],
+          "texture": "#coil"
+        },
+        "up": {
+          "uv": [
+            13,
+            0,
+            16,
+            5
+          ],
+          "texture": "#coil"
+        },
+        "down": {
+          "uv": [
+            13,
+            0,
+            16,
+            5
+          ],
+          "texture": "#coil"
+        }
+      }
+    },
+    {
+      "name": "choke winding turn",
+      "from": [
+        6.3,
+        3.7,
+        8.8
+      ],
+      "to": [
+        8.7,
+        4.0,
+        11.6
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            13,
+            0,
+            16,
+            5
+          ],
+          "texture": "#coil"
+        },
+        "south": {
+          "uv": [
+            13,
+            0,
+            16,
+            5
+          ],
+          "texture": "#coil"
+        },
+        "east": {
+          "uv": [
+            13,
+            0,
+            16,
+            5
+          ],
+          "texture": "#coil"
+        },
+        "west": {
+          "uv": [
+            13,
+            0,
+            16,
+            5
+          ],
+          "texture": "#coil"
+        },
+        "up": {
+          "uv": [
+            13,
+            0,
+            16,
+            5
+          ],
+          "texture": "#coil"
+        },
+        "down": {
+          "uv": [
+            13,
+            0,
+            16,
+            5
+          ],
+          "texture": "#coil"
+        }
+      }
+    },
+    {
+      "name": "capacitor discharge bus",
+      "from": [
+        4.2,
+        2.1,
+        4
+      ],
+      "to": [
+        11.8,
+        2.5,
+        4.7
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            13,
+            0,
+            16,
+            5
+          ],
+          "texture": "#coil"
+        },
+        "south": {
+          "uv": [
+            13,
+            0,
+            16,
+            5
+          ],
+          "texture": "#coil"
+        },
+        "east": {
+          "uv": [
+            13,
+            0,
+            16,
+            5
+          ],
+          "texture": "#coil"
+        },
+        "west": {
+          "uv": [
+            13,
+            0,
+            16,
+            5
+          ],
+          "texture": "#coil"
+        },
+        "up": {
+          "uv": [
+            13,
+            0,
+            16,
+            5
+          ],
+          "texture": "#coil"
+        },
+        "down": {
+          "uv": [
+            13,
+            0,
+            16,
+            5
+          ],
+          "texture": "#coil"
+        }
+      }
+    }
+  ],
+  "display": {
+    "gui": {
+      "rotation": [
+        30,
+        225,
+        0
+      ],
+      "scale": [
+        0.85,
+        0.85,
+        0.85
+      ]
+    },
+    "ground": {
+      "translation": [
+        0,
+        3,
+        0
+      ],
+      "scale": [
+        0.4,
+        0.4,
+        0.4
+      ]
+    }
+  }
+}

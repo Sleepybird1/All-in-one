@@ -1,8 +1,10 @@
+// Original recipe review: registrations retained below, temporarily inactive.
+function IC_originalRecipeReview_skip() {}
 // Industrial Colonies - canonical lead
 // TFMG owns lead ores, raw material, ingots, nuggets, sheets, and blocks.
 // Mekanism keeps its unique chemical-processing intermediates.
 
-ServerEvents.tags('item', event => {
+IC_originalRecipeReview_skip('item', event => {
   const canonicalLeadTags = {
     'c:ores/lead': ['tfmg:lead_ore', 'tfmg:deepslate_lead_ore'],
     'c:raw_materials/lead': ['tfmg:raw_lead'],
@@ -19,7 +21,7 @@ ServerEvents.tags('item', event => {
   })
 })
 
-ServerEvents.recipes(event => {
+IC_originalRecipeReview_skip(event => {
   const removedLeadDuplicates = [
     'mekanism:processing/lead/ingot/from_block',
     'mekanism:processing/lead/ingot/from_dust_blasting',

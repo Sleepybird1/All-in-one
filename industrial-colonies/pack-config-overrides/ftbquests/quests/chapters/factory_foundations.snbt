@@ -1,0 +1,1078 @@
+{
+  "id": "755CA7A80FA55558",
+  "group": "",
+  "order_index": -100,
+  "filename": "factory_foundations",
+  "default_quest_shape": "rsquare",
+  "default_quest_size": 1.0,
+  "default_hide_dependency_lines": false,
+  "progression_mode": "default",
+  "quests": [
+    {
+      "id": "7B267A9BDA18FB08",
+      "x": 0.0,
+      "y": 0.0,
+      "icon": {
+        "id": "industrial_colonies:crude_flint_pickaxe"
+      },
+      "disable_toast": true,
+      "tags": [
+        "industrial_colonies:physical_guidance",
+        "industrial_colonies:physical_guidance/phase/primitive_start",
+        "industrial_colonies:physical_guidance/crude_flint_pickaxe"
+      ],
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "2A899819005CE46E",
+          "type": "item",
+          "item": {
+            "id": "industrial_colonies:crude_flint_pickaxe"
+          },
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "25564D0B6D54A977",
+      "x": 3.0,
+      "y": 0.0,
+      "icon": {
+        "id": "modernfoundry:tinker_station"
+      },
+      "disable_toast": true,
+      "tags": [
+        "industrial_colonies:physical_guidance",
+        "industrial_colonies:physical_guidance/phase/primitive_start",
+        "industrial_colonies:physical_guidance/copper_tool_workshop"
+      ],
+      "dependencies": [
+        "7B267A9BDA18FB08"
+      ],
+      "tasks": [
+        {
+          "id": "4CBFA718B334C412",
+          "type": "item",
+          "item": {
+            "id": "modernfoundry:part_builder"
+          },
+          "count": 1
+        },
+        {
+          "id": "5EC9B8EFDF08D94A",
+          "type": "item",
+          "item": {
+            "id": "modernfoundry:tinker_station"
+          },
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "3764A497D2E15A90",
+      "x": 6.0,
+      "y": 0.0,
+      "icon": {
+        "id": "create:andesite_alloy"
+      },
+      "disable_toast": true,
+      "tags": [
+        "industrial_colonies:physical_guidance",
+        "industrial_colonies:physical_guidance/phase/mechanical_foundations",
+        "industrial_colonies:physical_guidance/andesite_alloy"
+      ],
+      "dependencies": [
+        "25564D0B6D54A977"
+      ],
+      "tasks": [
+        {
+          "id": "6B1E2D4647228153",
+          "type": "item",
+          "item": {
+            "id": "create:andesite_alloy"
+          },
+          "count": 16
+        }
+      ]
+    },
+    {
+      "id": "7D8F9757107D900E",
+      "x": 9.0,
+      "y": -3.0,
+      "icon": {
+        "id": "create:water_wheel"
+      },
+      "disable_toast": true,
+      "tags": [
+        "industrial_colonies:physical_guidance",
+        "industrial_colonies:physical_guidance/phase/mechanical_foundations",
+        "industrial_colonies:physical_guidance/rotational_power"
+      ],
+      "dependencies": [
+        "3764A497D2E15A90"
+      ],
+      "tasks": [
+        {
+          "id": "32C6053B11ED972B",
+          "type": "item",
+          "item": {
+            "id": "create:water_wheel"
+          },
+          "count": 1
+        },
+        {
+          "id": "400E9FF6BE0D1EF4",
+          "type": "item",
+          "item": {
+            "id": "create:shaft"
+          },
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "4690588A445A568A",
+      "x": 9.0,
+      "y": 3.0,
+      "icon": {
+        "id": "create:depot"
+      },
+      "disable_toast": true,
+      "tags": [
+        "industrial_colonies:physical_guidance",
+        "industrial_colonies:physical_guidance/phase/mechanical_foundations",
+        "industrial_colonies:physical_guidance/material_handling"
+      ],
+      "dependencies": [
+        "3764A497D2E15A90"
+      ],
+      "tasks": [
+        {
+          "id": "06DABBE096F99A63",
+          "type": "item",
+          "item": {
+            "id": "create:depot"
+          },
+          "count": 1
+        },
+        {
+          "id": "08D4BCF784954CF4",
+          "type": "item",
+          "item": {
+            "id": "create:chute"
+          },
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "42774C522DB6D308",
+      "x": 12.0,
+      "y": -3.0,
+      "icon": {
+        "id": "create:mechanical_press"
+      },
+      "disable_toast": true,
+      "tags": [
+        "industrial_colonies:physical_guidance",
+        "industrial_colonies:physical_guidance/phase/mechanical_foundations",
+        "industrial_colonies:physical_guidance/mechanical_processing"
+      ],
+      "dependencies": [
+        "7D8F9757107D900E"
+      ],
+      "tasks": [
+        {
+          "id": "2187E8FBA07B85FD",
+          "type": "item",
+          "item": {
+            "id": "create:mechanical_press"
+          },
+          "count": 1
+        },
+        {
+          "id": "25E1A989A8DBAD1F",
+          "type": "item",
+          "item": {
+            "id": "create:mechanical_mixer"
+          },
+          "count": 1
+        },
+        {
+          "id": "04BB1B307480225F",
+          "type": "item",
+          "item": {
+            "id": "create:encased_fan"
+          },
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "644174D8D1981A6B",
+      "x": 12.0,
+      "y": 0.0,
+      "icon": {
+        "id": "create:mechanical_pump"
+      },
+      "disable_toast": true,
+      "tags": [
+        "industrial_colonies:physical_guidance",
+        "industrial_colonies:physical_guidance/phase/mechanical_foundations",
+        "industrial_colonies:physical_guidance/liquid_handling"
+      ],
+      "dependencies": [
+        "7D8F9757107D900E"
+      ],
+      "tasks": [
+        {
+          "id": "1A563FA74C96A7B8",
+          "type": "item",
+          "item": {
+            "id": "create:mechanical_pump"
+          },
+          "count": 1
+        },
+        {
+          "id": "72480D5A8CF95F42",
+          "type": "item",
+          "item": {
+            "id": "create:fluid_tank"
+          },
+          "count": 1
+        },
+        {
+          "id": "57463A5C5DE452D3",
+          "type": "item",
+          "item": {
+            "id": "create:spout"
+          },
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "29D2F5846190436E",
+      "x": 12.0,
+      "y": 3.0,
+      "icon": {
+        "id": "create:item_vault"
+      },
+      "disable_toast": true,
+      "tags": [
+        "industrial_colonies:physical_guidance",
+        "industrial_colonies:physical_guidance/phase/mechanical_foundations",
+        "industrial_colonies:physical_guidance/bulk_storage"
+      ],
+      "dependencies": [
+        "4690588A445A568A"
+      ],
+      "tasks": [
+        {
+          "id": "3FCE2385A782B2A3",
+          "type": "item",
+          "item": {
+            "id": "create:item_vault"
+          },
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "3084D2C62CB77DF2",
+      "x": 18.0,
+      "y": -5.0,
+      "icon": {
+        "id": "create:blaze_burner"
+      },
+      "disable_toast": true,
+      "tags": [
+        "industrial_colonies:physical_guidance",
+        "industrial_colonies:physical_guidance/phase/steam_brass",
+        "industrial_colonies:physical_guidance/blaze_heating"
+      ],
+      "dependencies": [
+        "42774C522DB6D308"
+      ],
+      "tasks": [
+        {
+          "id": "66F7F0BC1D8074F2",
+          "type": "item",
+          "item": {
+            "id": "create:blaze_burner"
+          },
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "7CD0AB35E320C066",
+      "x": 18.0,
+      "y": -1.5,
+      "icon": {
+        "id": "create:steam_engine"
+      },
+      "disable_toast": true,
+      "tags": [
+        "industrial_colonies:physical_guidance",
+        "industrial_colonies:physical_guidance/phase/steam_brass",
+        "industrial_colonies:physical_guidance/steam_power"
+      ],
+      "dependencies": [
+        "644174D8D1981A6B",
+        "7D8F9757107D900E",
+        "3084D2C62CB77DF2"
+      ],
+      "tasks": [
+        {
+          "id": "0FD6147CFCD7700C",
+          "type": "item",
+          "item": {
+            "id": "create:steam_engine"
+          },
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "613FA403F315154B",
+      "x": 21.0,
+      "y": -4.0,
+      "icon": {
+        "id": "create:brass_ingot"
+      },
+      "disable_toast": true,
+      "tags": [
+        "industrial_colonies:physical_guidance",
+        "industrial_colonies:physical_guidance/phase/steam_brass",
+        "industrial_colonies:physical_guidance/brass_production"
+      ],
+      "dependencies": [
+        "3084D2C62CB77DF2",
+        "42774C522DB6D308"
+      ],
+      "tasks": [
+        {
+          "id": "49161427650248F9",
+          "type": "item",
+          "item": {
+            "id": "create:brass_ingot"
+          },
+          "count": 8
+        },
+        {
+          "id": "6B49274BA112FB33",
+          "type": "item",
+          "item": {
+            "id": "create:brass_casing"
+          },
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "7E6341184F840A14",
+      "x": 24.0,
+      "y": 0.0,
+      "icon": {
+        "id": "create:deployer"
+      },
+      "disable_toast": true,
+      "tags": [
+        "industrial_colonies:physical_guidance",
+        "industrial_colonies:physical_guidance/phase/steam_brass",
+        "industrial_colonies:physical_guidance/automated_assembly"
+      ],
+      "dependencies": [
+        "613FA403F315154B",
+        "4690588A445A568A"
+      ],
+      "tasks": [
+        {
+          "id": "0B8FEDE701A55D47",
+          "type": "item",
+          "item": {
+            "id": "create:deployer"
+          },
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "61A6D3F19EEB34C7",
+      "x": 27.0,
+      "y": 0.0,
+      "icon": {
+        "id": "create:precision_mechanism"
+      },
+      "disable_toast": true,
+      "tags": [
+        "industrial_colonies:physical_guidance",
+        "industrial_colonies:physical_guidance/phase/steam_brass",
+        "industrial_colonies:physical_guidance/precision_assembly"
+      ],
+      "dependencies": [
+        "613FA403F315154B",
+        "7E6341184F840A14"
+      ],
+      "tasks": [
+        {
+          "id": "11E158DDD302B3BC",
+          "type": "item",
+          "item": {
+            "id": "create:precision_mechanism"
+          },
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "58A7A51DA92A33AA",
+      "x": 30.0,
+      "y": 3.0,
+      "icon": {
+        "id": "create:brass_tunnel"
+      },
+      "disable_toast": true,
+      "tags": [
+        "industrial_colonies:physical_guidance",
+        "industrial_colonies:physical_guidance/phase/steam_brass",
+        "industrial_colonies:physical_guidance/brass_logistics"
+      ],
+      "dependencies": [
+        "61A6D3F19EEB34C7",
+        "29D2F5846190436E"
+      ],
+      "tasks": [
+        {
+          "id": "04E4D74FC636A030",
+          "type": "item",
+          "item": {
+            "id": "create:brass_funnel"
+          },
+          "count": 2
+        },
+        {
+          "id": "3F68EFD3252BA8D9",
+          "type": "item",
+          "item": {
+            "id": "create:brass_tunnel"
+          },
+          "count": 1
+        },
+        {
+          "id": "18EF4EB411A8CA7C",
+          "type": "item",
+          "item": {
+            "id": "create:smart_chute"
+          },
+          "count": 1
+        },
+        {
+          "id": "08EF1CD48765B867",
+          "type": "item",
+          "item": {
+            "id": "create:mechanical_arm"
+          },
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "13389943D0FAD5DA",
+      "x": 24.0,
+      "y": -4.0,
+      "icon": {
+        "id": "create:mechanical_crafter"
+      },
+      "disable_toast": true,
+      "tags": [
+        "industrial_colonies:physical_guidance",
+        "industrial_colonies:physical_guidance/phase/steam_brass",
+        "industrial_colonies:physical_guidance/mechanical_crafting"
+      ],
+      "dependencies": [
+        "613FA403F315154B",
+        "7CD0AB35E320C066"
+      ],
+      "tasks": [
+        {
+          "id": "43E8AF0DBC0B5032",
+          "type": "item",
+          "item": {
+            "id": "create:mechanical_crafter"
+          },
+          "count": 9
+        }
+      ]
+    },
+    {
+      "id": "29D90F99EFEE1161",
+      "x": 27.0,
+      "y": -5.0,
+      "icon": {
+        "id": "create:crushing_wheel"
+      },
+      "disable_toast": true,
+      "tags": [
+        "industrial_colonies:physical_guidance",
+        "industrial_colonies:physical_guidance/phase/steam_brass",
+        "industrial_colonies:physical_guidance/crushing_line"
+      ],
+      "dependencies": [
+        "13389943D0FAD5DA",
+        "42774C522DB6D308"
+      ],
+      "tasks": [
+        {
+          "id": "3B0072996ABDCAF8",
+          "type": "item",
+          "item": {
+            "id": "create:crushing_wheel"
+          },
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "47A3EC06D2E649DE",
+      "x": 33.0,
+      "y": 4.0,
+      "icon": {
+        "id": "create:track_station"
+      },
+      "disable_toast": true,
+      "tags": [
+        "industrial_colonies:physical_guidance",
+        "industrial_colonies:physical_guidance/phase/steam_brass",
+        "industrial_colonies:physical_guidance/rail_freight"
+      ],
+      "dependencies": [
+        "61A6D3F19EEB34C7",
+        "58A7A51DA92A33AA"
+      ],
+      "tasks": [
+        {
+          "id": "59BF10DF8FC2A61F",
+          "type": "item",
+          "item": {
+            "id": "create:track_station"
+          },
+          "count": 1
+        },
+        {
+          "id": "1CEFB589186BD15D",
+          "type": "item",
+          "item": {
+            "id": "create:track"
+          },
+          "count": 32
+        }
+      ]
+    },
+    {
+      "id": "52C70E33F82424F3",
+      "x": 30.0,
+      "y": -5.0,
+      "icon": {
+        "id": "tfmg:cast_iron_frame"
+      },
+      "disable_toast": true,
+      "tags": [
+        "industrial_colonies:physical_guidance",
+        "industrial_colonies:physical_guidance/phase/steel_petroleum",
+        "industrial_colonies:physical_guidance/cast_iron"
+      ],
+      "dependencies": [
+        "29D90F99EFEE1161",
+        "13389943D0FAD5DA"
+      ],
+      "tasks": [
+        {
+          "id": "18D7DFC3F77E102A",
+          "type": "item",
+          "item": {
+            "id": "tfmg:cast_iron_ingot"
+          },
+          "count": 16
+        },
+        {
+          "id": "2423A8AABBC2B896",
+          "type": "item",
+          "item": {
+            "id": "tfmg:cast_iron_frame"
+          },
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "68015D83ABB6978E",
+      "x": 33.0,
+      "y": -5.0,
+      "icon": {
+        "id": "tfmg:coke_oven"
+      },
+      "disable_toast": true,
+      "tags": [
+        "industrial_colonies:physical_guidance",
+        "industrial_colonies:physical_guidance/phase/steel_petroleum",
+        "industrial_colonies:physical_guidance/coke_oven"
+      ],
+      "dependencies": [
+        "52C70E33F82424F3"
+      ],
+      "tasks": [
+        {
+          "id": "1134EC726BDCA74D",
+          "type": "item",
+          "item": {
+            "id": "tfmg:coke_oven"
+          },
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "1CCCC465FEA474E1",
+      "x": 36.0,
+      "y": -5.0,
+      "icon": {
+        "id": "tfmg:coal_coke"
+      },
+      "disable_toast": true,
+      "tags": [
+        "industrial_colonies:physical_guidance",
+        "industrial_colonies:physical_guidance/phase/steel_petroleum",
+        "industrial_colonies:physical_guidance/coal_coke"
+      ],
+      "dependencies": [
+        "68015D83ABB6978E"
+      ],
+      "tasks": [
+        {
+          "id": "1D04C21699AFB7FB",
+          "type": "item",
+          "item": {
+            "id": "tfmg:coal_coke"
+          },
+          "count": 8
+        }
+      ]
+    },
+    {
+      "id": "6D678C942CF65C0F",
+      "x": 39.0,
+      "y": -5.0,
+      "icon": {
+        "id": "tfmg:blast_furnace_output"
+      },
+      "disable_toast": true,
+      "tags": [
+        "industrial_colonies:physical_guidance",
+        "industrial_colonies:physical_guidance/phase/steel_petroleum",
+        "industrial_colonies:physical_guidance/blast_furnace"
+      ],
+      "dependencies": [
+        "1CCCC465FEA474E1",
+        "13389943D0FAD5DA"
+      ],
+      "tasks": [
+        {
+          "id": "68596137F60FC65B",
+          "type": "item",
+          "item": {
+            "id": "tfmg:blast_stove"
+          },
+          "count": 1
+        },
+        {
+          "id": "0F0F71339CED6589",
+          "type": "item",
+          "item": {
+            "id": "tfmg:fireproof_bricks"
+          },
+          "count": 16
+        },
+        {
+          "id": "5103429E003725E1",
+          "type": "item",
+          "item": {
+            "id": "tfmg:fireproof_brick_reinforcement"
+          },
+          "count": 8
+        },
+        {
+          "id": "45E666AB7C201B53",
+          "type": "item",
+          "item": {
+            "id": "tfmg:blast_furnace_output"
+          },
+          "count": 1
+        },
+        {
+          "id": "32F526B286F0FC06",
+          "type": "item",
+          "item": {
+            "id": "tfmg:blast_furnace_hatch"
+          },
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "0E5BD2CFD14A633A",
+      "x": 42.0,
+      "y": -5.0,
+      "icon": {
+        "id": "tfmg:steel_ingot"
+      },
+      "disable_toast": true,
+      "tags": [
+        "industrial_colonies:physical_guidance",
+        "industrial_colonies:physical_guidance/phase/steel_petroleum",
+        "industrial_colonies:physical_guidance/first_steel"
+      ],
+      "dependencies": [
+        "6D678C942CF65C0F"
+      ],
+      "tasks": [
+        {
+          "id": "7D03C0E38BF79CF3",
+          "type": "item",
+          "item": {
+            "id": "tfmg:steel_ingot"
+          },
+          "count": 16
+        }
+      ]
+    },
+    {
+      "id": "4FC2BE1934396EF9",
+      "x": 45.0,
+      "y": -2.5,
+      "icon": {
+        "id": "tfmg:steel_mechanism"
+      },
+      "disable_toast": true,
+      "tags": [
+        "industrial_colonies:physical_guidance",
+        "industrial_colonies:physical_guidance/phase/steel_petroleum",
+        "industrial_colonies:physical_guidance/steel_mechanism"
+      ],
+      "dependencies": [
+        "0E5BD2CFD14A633A",
+        "7E6341184F840A14"
+      ],
+      "tasks": [
+        {
+          "id": "5E45E6D3ED0513C0",
+          "type": "item",
+          "item": {
+            "id": "tfmg:steel_mechanism"
+          },
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "5B31CD0E49FE0072",
+      "x": 48.0,
+      "y": 1.5,
+      "icon": {
+        "id": "tfmg:surface_scanner"
+      },
+      "disable_toast": true,
+      "tags": [
+        "industrial_colonies:physical_guidance",
+        "industrial_colonies:physical_guidance/phase/steel_petroleum",
+        "industrial_colonies:physical_guidance/oil_prospecting"
+      ],
+      "dependencies": [
+        "4FC2BE1934396EF9"
+      ],
+      "tasks": [
+        {
+          "id": "2971CC639C77CF43",
+          "type": "item",
+          "item": {
+            "id": "tfmg:surface_scanner"
+          },
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "3A3FE22AFFDC2AA6",
+      "x": 51.0,
+      "y": 1.5,
+      "icon": {
+        "id": "tfmg:pumpjack_base"
+      },
+      "disable_toast": true,
+      "tags": [
+        "industrial_colonies:physical_guidance",
+        "industrial_colonies:physical_guidance/phase/steel_petroleum",
+        "industrial_colonies:physical_guidance/pumpjack"
+      ],
+      "dependencies": [
+        "5B31CD0E49FE0072",
+        "644174D8D1981A6B"
+      ],
+      "tasks": [
+        {
+          "id": "69B8105AC5DBDF5A",
+          "type": "item",
+          "item": {
+            "id": "tfmg:pumpjack_base"
+          },
+          "count": 1
+        },
+        {
+          "id": "7CA4519DE348E647",
+          "type": "item",
+          "item": {
+            "id": "tfmg:pumpjack_crank"
+          },
+          "count": 1
+        },
+        {
+          "id": "781450233DDA23D6",
+          "type": "item",
+          "item": {
+            "id": "tfmg:pumpjack_hammer"
+          },
+          "count": 1
+        },
+        {
+          "id": "78AA46E3317854B5",
+          "type": "item",
+          "item": {
+            "id": "tfmg:pumpjack_hammer_connector"
+          },
+          "count": 1
+        },
+        {
+          "id": "5CB7FEE455964302",
+          "type": "item",
+          "item": {
+            "id": "tfmg:pumpjack_hammer_head"
+          },
+          "count": 1
+        },
+        {
+          "id": "30711768134F8E0E",
+          "type": "item",
+          "item": {
+            "id": "tfmg:pumpjack_hammer_part"
+          },
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "2DF5B6E3DB301322",
+      "x": 54.0,
+      "y": 1.5,
+      "icon": {
+        "id": "tfmg:crude_oil_bucket"
+      },
+      "disable_toast": true,
+      "tags": [
+        "industrial_colonies:physical_guidance",
+        "industrial_colonies:physical_guidance/phase/steel_petroleum",
+        "industrial_colonies:physical_guidance/crude_oil"
+      ],
+      "dependencies": [
+        "3A3FE22AFFDC2AA6"
+      ],
+      "tasks": [
+        {
+          "id": "046D8046A4FF6117",
+          "type": "item",
+          "item": {
+            "id": "tfmg:crude_oil_bucket"
+          },
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "40921767ED845051",
+      "x": 57.0,
+      "y": 1.5,
+      "icon": {
+        "id": "tfmg:steel_distillation_controller"
+      },
+      "disable_toast": true,
+      "tags": [
+        "industrial_colonies:physical_guidance",
+        "industrial_colonies:physical_guidance/phase/steel_petroleum",
+        "industrial_colonies:physical_guidance/distillation_column"
+      ],
+      "dependencies": [
+        "2DF5B6E3DB301322",
+        "0E5BD2CFD14A633A"
+      ],
+      "tasks": [
+        {
+          "id": "5DC73FE1C9D07EF6",
+          "type": "item",
+          "item": {
+            "id": "tfmg:steel_distillation_controller"
+          },
+          "count": 1
+        },
+        {
+          "id": "1DFAC1B59F0B2E5F",
+          "type": "item",
+          "item": {
+            "id": "tfmg:steel_distillation_output"
+          },
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "7345CDBE48B1E78E",
+      "x": 60.0,
+      "y": 1.5,
+      "icon": {
+        "id": "tfmg:diesel_bucket"
+      },
+      "disable_toast": true,
+      "tags": [
+        "industrial_colonies:physical_guidance",
+        "industrial_colonies:physical_guidance/phase/steel_petroleum",
+        "industrial_colonies:physical_guidance/diesel_fuel"
+      ],
+      "dependencies": [
+        "40921767ED845051"
+      ],
+      "tasks": [
+        {
+          "id": "652B014C22F52CCF",
+          "type": "item",
+          "item": {
+            "id": "tfmg:diesel_bucket"
+          },
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "09B6F1F98DB6C64D",
+      "x": 51.0,
+      "y": -2.5,
+      "icon": {
+        "id": "tfmg:regular_engine"
+      },
+      "disable_toast": true,
+      "tags": [
+        "industrial_colonies:physical_guidance",
+        "industrial_colonies:physical_guidance/phase/steel_petroleum",
+        "industrial_colonies:physical_guidance/engine_fabrication"
+      ],
+      "dependencies": [
+        "4FC2BE1934396EF9",
+        "13389943D0FAD5DA"
+      ],
+      "tasks": [
+        {
+          "id": "56222951F9DD9713",
+          "type": "item",
+          "item": {
+            "id": "tfmg:regular_engine"
+          },
+          "count": 1
+        },
+        {
+          "id": "75128BCD9621C6B6",
+          "type": "item",
+          "item": {
+            "id": "tfmg:diesel_engine_cylinder"
+          },
+          "count": 1
+        },
+        {
+          "id": "4793F79EEBB07D03",
+          "type": "item",
+          "item": {
+            "id": "tfmg:engine_controller"
+          },
+          "count": 1
+        },
+        {
+          "id": "31973EFBCD201D55",
+          "type": "item",
+          "item": {
+            "id": "tfmg:engine_gearbox"
+          },
+          "count": 1
+        },
+        {
+          "id": "346CD8C65067A071",
+          "type": "item",
+          "item": {
+            "id": "tfmg:steel_flywheel"
+          },
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "0DBF619FB292F51B",
+      "x": 63.0,
+      "y": -0.5,
+      "icon": {
+        "id": "tfmg:diesel_engine_cylinder"
+      },
+      "disable_toast": true,
+      "tags": [
+        "industrial_colonies:physical_guidance",
+        "industrial_colonies:physical_guidance/phase/steel_petroleum",
+        "industrial_colonies:physical_guidance/diesel_engine_commissioning"
+      ],
+      "dependencies": [
+        "7345CDBE48B1E78E",
+        "09B6F1F98DB6C64D"
+      ],
+      "tasks": [
+        {
+          "id": "63EFC1AB88057534",
+          "type": "item",
+          "item": {
+            "id": "tfmg:regular_engine"
+          },
+          "count": 1
+        },
+        {
+          "id": "2176843A292B047F",
+          "type": "item",
+          "item": {
+            "id": "tfmg:diesel_engine_cylinder"
+          },
+          "count": 1
+        },
+        {
+          "id": "492D16E63641588B",
+          "type": "item",
+          "item": {
+            "id": "create:shaft"
+          },
+          "count": 1
+        },
+        {
+          "id": "32259A39915D6BC1",
+          "type": "item",
+          "item": {
+            "id": "tfmg:diesel_bucket"
+          },
+          "count": 1
+        }
+      ]
+    }
+  ],
+  "quest_links": [],
+  "images": []
+}

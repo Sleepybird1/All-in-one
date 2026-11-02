@@ -1,7 +1,9 @@
+// Original recipe review: registrations retained below, temporarily inactive.
+function IC_originalRecipeReview_skip() {}
 // priority: -1100
 // Generated ownership policy; source: tools/build_ownership_progression.py.
 // Run after material reconciliation so neither stock recipes nor exporters regain bypasses.
-ServerEvents.recipes(event => {
+IC_originalRecipeReview_skip(event => {
   var owned = {"createcasing:weathered_iron_press": ["industrial_colonies:manufacturing/weathered_iron/press"], "createcasing:weathered_iron_deployer": ["industrial_colonies:manufacturing/weathered_iron/deployer"], "createcasing:weathered_iron_depot": ["industrial_colonies:manufacturing/weathered_iron/depot"], "createcasing:weathered_iron_encased_fan": ["industrial_colonies:manufacturing/weathered_iron/fan"], "createcasing:weathered_iron_mixer": ["industrial_colonies:manufacturing/weathered_iron/mixer"], "createcasing:weathered_iron_mechanical_saw": ["industrial_colonies:manufacturing/weathered_iron/saw"], "tfmg:steel_frame": ["industrial_colonies:ownership/steel_frame"], "tfmg:steel_casing": ["industrial_colonies:ownership/steel_casing"], "tfmg:steel_mechanism": ["industrial_colonies:ownership/steel_mechanism"], "tfmg:heavy_machinery_casing": ["industrial_colonies:tfmg_core/heavy_machinery_casing"], "tfmg:heavy_plate": ["industrial_colonies:tfmg_core/heavy_plate"], "immersiveengineering:plate_steel": ["industrial_colonies:ownership/steel_sheet"], "nuclearcraft:steel_plate": ["industrial_colonies:ownership/nuclearcraft_steel_plate"], "ad_astra:steel_plate": ["industrial_colonies:ownership/ad_astra_steel_plate"], "tfmg:cast_iron_sheet": ["industrial_colonies:ownership/cast_iron_sheet"], "tfmg:cast_iron_fluid_tank": ["industrial_colonies:ownership/cast_iron_fluid_tank"], "tfmg:cast_iron_fluid_valve": ["industrial_colonies:ownership/cast_iron_fluid_valve"], "tfmg:cast_iron_pipe": ["industrial_colonies:ownership/cast_iron_pipe"], "createcasing:copper_press": ["industrial_colonies:manufacturing/copper_press"], "createcasing:copper_deployer": ["industrial_colonies:manufacturing/copper_deployer"], "createcasing:copper_depot": ["industrial_colonies:manufacturing/copper/depot"], "createcasing:copper_encased_fan": ["industrial_colonies:manufacturing/copper/fan"], "createcasing:copper_mixer": ["industrial_colonies:manufacturing/copper/mixer"], "createcasing:copper_mechanical_saw": ["industrial_colonies:manufacturing/copper/saw"], "tfmg:steel_pipe": ["industrial_colonies:fluid_infrastructure/steel_pipe"], "tfmg:industrial_pipe": ["industrial_colonies:fluid_infrastructure/industrial_pipe"], "tfmg:fireproof_bricks": ["industrial_colonies:steelworks/fireproof_bricks"], "tfmg:fireproof_brick_reinforcement": ["industrial_colonies:steelworks/fireproof_brick_reinforcement"], "tfmg:blast_furnace_reinforcement": ["industrial_colonies:steelworks/blast_furnace_reinforcement"], "tfmg:steel_fluid_tank": ["industrial_colonies:fluid_infrastructure/steel_fluid_tank"], "tfmg:steel_chemical_vat": ["industrial_colonies:fluid_infrastructure/steel_chemical_vat"], "tfmg:fireproof_chemical_vat": ["industrial_colonies:fluid_infrastructure/fireproof_chemical_vat"], "tfmg:steel_distillation_output": ["industrial_colonies:petroleum/steel_distillation_output"], "tfmg:industrial_mixer": ["industrial_colonies:heavy_industry/industrial_mixer"], "tfmg:steel_fluid_valve": ["industrial_colonies:tfmg_coverage/steel_fluid_valve"], "tfmg:plastic_fluid_valve": ["industrial_colonies:tfmg_coverage/plastic_fluid_valve"], "tfmg:cable_tube": ["industrial_colonies:chemical_processing/cable_tube"], "createaddition:rolling_mill": ["industrial_colonies:createaddition_coverage/rolling_mill"], "nuclearcraft:alloy_smelter": ["industrial_colonies:ownership/nuclear_boundary/alloy_smelter"], "nuclearcraft:melter": ["industrial_colonies:ownership/nuclear_boundary/melter"], "nuclearcraft:ingot_former": ["industrial_colonies:ownership/nuclear_boundary/ingot_former"]};
   var retired = ["immersiveengineering:crusher", "mekanism:advanced_crushing_factory", "mekanism:basic_crushing_factory", "mekanism:crusher", "mekanism:elite_crushing_factory", "mekanism:ultimate_crushing_factory", "modernfoundry:scorched_alloyer", "nuclearcraft:manufactory", "nuclearcraft:rock_crusher"];
   var removed = 0;
@@ -22,6 +24,7 @@ ServerEvents.recipes(event => {
   event.forEachRecipe({}, recipe => {
     recipe.serialize();
     var data=JSON.parse(recipe.json.toString());
+    if (data.type==='createmetallurgy:melting' && [].indexOf(String(recipe.getId()))>=0) return false;
     // Preserve surviving non-ore NC grinding operations on Create. Raw-ore bypasses
     // have already been removed by the material policy. Multi-input conversion
     // (leather/bioplastic) uses exact-count compacting, not a probabilistic yield.
@@ -59,6 +62,7 @@ ServerEvents.recipes(event => {
   event.addedRecipes.removeIf(recipe => {
     try {recipe.serialize();} catch(error) {return false;}
     var data=JSON.parse(recipe.json.toString());
+    if (data.type==='createmetallurgy:melting' && [].indexOf(String(recipe.getId()))>=0) return false;
     var values=[];
     ['result','results','output','outputs','item_output','item_outputs'].forEach(k=>refs(data[k],values));
     var id=String(recipe.getId());

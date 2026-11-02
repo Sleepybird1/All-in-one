@@ -1,0 +1,21 @@
+{
+  "status": "APPLIED_RESTART_REQUIRED",
+  "timestamp": "2026-09-12T04:11:50.805564-04:00",
+  "target": "C:\\Users\\GodPC\\curseforge\\minecraft\\Instances\\All in one\\config\\c2me.toml",
+  "backup": "C:\\Users\\GodPC\\curseforge\\minecraft\\Instances\\All in one\\_industrial_colonies_backups\\reterraforged-dfc-20260912-041150\\config\\c2me.toml",
+  "before_sha256": "5f77a940d3d2aa121fe7f145e3127eec3f90a97a4bcf5dbe7d4ead8d183658d9",
+  "after_sha256": "aa16553420664cbaaf21eae4819057369dc19fe717854bf9cd2d35efbbe1a514",
+  "change": {
+    "vanillaWorldGenOptimizations.useDensityFunctionCompiler": false
+  },
+  "preserved": {
+    "vanillaWorldGenOptimizations.optimizeAquifer": false
+  },
+  "sources": [
+    "https://github.com/ETcodehome/FreeTerraForged/issues/91",
+    "https://github.com/ETcodehome/FreeTerraForged/pull/130",
+    "https://github.com/RelativityMC/C2ME-neoforge/issues/76"
+  ],
+  "validation": "TOML parsed; single-setting semantic diff; exact live readback and backup verified. In-game terrain result pending full restart and newly generated terrain.",
+  "saves_modified": false
+}

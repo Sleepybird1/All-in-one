@@ -1,0 +1,1522 @@
+62877b75f	2026-10-30	Record per-cell occupied-byte power and diminishing efficiency-card design
+78347f6e7	2026-10-30	Document chest-first ME storage and chest-only ship stabilization
+3a2e1c78a	2026-10-30	Consolidate open project work in central README to-do section
+037605ea7	2026-10-30	Make reactor ladder energy-driven and draft shielded reprocessor
+4b7f37b67	2026-10-30	Balance MSR construction after fission and below fusion
+be4f21e4e	2026-10-30	Use canonical composite plates in fission designer review card
+2a912e466	2026-10-30	Seat platinum controller bed before installing circuit board
+2d0f9ec6f	2026-10-30	Reinforce fusion controller sequence with Osmiridium rails and cover
+f28eb9940	2026-10-30	Expand fusion module electronics with mixed-tier assembly operations
+dec2979aa	2026-10-30	Make fusion pulse and magnet modules compact board assemblies
+df8175859	2026-10-30	Layer fusion controller board assembly with mixed Railway and Radiance steps
+7e2202a08	2026-10-30	Recreate controller sequenced assembly review card on explicit request
+cd05887b5	2026-10-30	Fix disabled crafting table predicate boolean conversion
+d28507f8f	2026-10-30	Install approved fusion controller and extend both components rods
+af156150e	2026-10-30	Model physical fusion controller chips on full-panel circuit board
+1eea911ff	2026-10-30	Mount actual processor and circuit board textures on fusion controller
+1f9e9a7b2	2026-10-30	Wind fusion controller contacts with exposed coils
+4a045b286	2026-10-30	Add exposed wiring and service pipes to fusion controller model
+c32793622	2026-10-30	Build fusion control unit review recipe and model on approved bearing
+8b5ab1d23	2026-10-30	Fix Fusion Control Bearing held rendering with accepted 3D geometry
+598e36c93	2026-10-30	Install approved Fusion Control Bearing and validate native approval visibility
+7963e1eac	2026-10-30	Add Allthemodium rods through upper and lower bearing pads
+afec6e8e5	2026-10-30	Add requested matching upper and lower pads to accepted bearing icon
+e537151b7	2026-10-30	Add Create-style machined middle plates to bearing inventory icon
+b2e570db8	2026-10-30	Reduce bearing inventory art to nickel struts HSLA core and Allthemodium rods
+b5b203747	2026-10-30	Restart bearing icon as integrated internal cartridge in reinforced frame
+e2922cdda	2026-10-30	Remove nickel frame middle webbing and retain outer struts only
+4b2b6b1bd	2026-10-30	Preserve actual TFMG nickel frame geometry and texture in bearing icon
+00a070a29	2026-10-30	Preserve accepted bearing icon design and smooth rendering resolution
+ae6b600ff	2026-10-30	Simplify bearing inventory icon to frame HSLA ring and outward gold rods
+3e54fa851	2026-10-30	Replace weak cradle icon with rigid Create-style bearing housing
+434719d33	2026-10-30	Give fusion bearing inventory icon a distinct stepped cradle silhouette
+278241c0d	2026-10-30	Use live recipe and TFMG cube-frame silhouette for bearing inventory icon
+c76d64cfc	2026-10-30	Attach inventory-only bearing icon to existing temporary recipe output
+b4f5b0463	2026-10-30	Revise fusion bearing prototype around a coherent race and carrier frame
+15692398a	2026-10-30	Make fusion control bearing prototype a structural frame assembly
+cb1a53d9f	2026-10-30	Fill temporary fusion controller prototype with functional 5x5 assembly
+588d2a1b6	2026-10-30	Add user-requested blank 5x5 fusion controller design canvas
+0beab0d99	2026-10-30	Replace flat fusion icons with detailed Create-style 3D item models
+41ad4d779	2026-10-30	Restyle fusion component sprites with Create brass and copper palette
+cd83f8065	2026-10-30	Give fusion subsystems distinct functional pixel-art icons
+196889df4	2026-10-30	Disable NuclearCraft pattern autocrafter and remove review mirror
+ddde0e0bb	2026-10-29	Separate plate and sheet forms and gate Unobtainium on Shadow Steel
+758f941e1	2026-10-29	Withdraw unapproved Crystal Binder from gameplay export
+d720d62ba	2026-10-29	Keep starter brass forming reachable and eliminate plate saw bootstrap risks
+e712ca289	2026-10-29	Install tiered material fabrication and functional fusion subsystem recipes
+754f4fa12	2026-10-29	Give remaining nuclear composite plates distinct material identities
+70810d452	2026-10-29	Give advanced plate red trim and embedded chip identity
+3fa5f901c	2026-10-29	Detail original IE plating pixels without redrawing silhouettes
+414733e88	2026-10-29	Withdraw rejected advanced plating texture and restore prior model
+5bf02a3f1	2026-10-29	Give advanced plating distinct layered reinforced panel texture
+74b46a140	2026-10-29	Replace NuclearCraft chassis ingredients with existing TFMG steel frame
+52b88748c	2026-10-29	Guard absent legacy items after actual reload and record chassis replacement scope
+a59b46e9a	2026-10-29	Verify higher plating drafts and five nuclear component appearance models
+1fcf7875b	2026-10-29	Add omitted higher plating review recipes and coherent nuclear component models
+0c9b6a427	2026-10-29	Verify old intermediate retirement never disables new generated material parts
+01c3944ae	2026-10-29	Retire exact old generic powder intermediates while preserving new material parts
+43a2f5f40	2026-10-29	Verify exact obsolete-item retirement and retained glossy silicon in installed Rhino
+55aa026b1	2026-10-29	Retire explicitly rejected powder intermediates while keeping glossy high purity silicon
+f85bc48f8	2026-10-29	Verify grainy dust colors and exact cinnabar retirement scope in installed Rhino engine
+466170670	2026-10-29	Use grainy vanilla dust models with material tints and retire obsolete cinnabar intermediates
+43e67442c	2026-10-29	Fix actual Rhino recursive declaration failure and reproduce it in installed-engine fixture
+207527f6d	2026-10-29	Verify duplicate retirement preserves tags, item stacks and canonical JEI entries
+c41520a46	2026-10-29	Retire duplicate generated components and preserve canonical originals and stack identities
+d88138d73	2026-10-29	Verify recipe-used JEI visibility with tag and migration negative controls
+53939d399	2026-10-29	Replace basic plating with lead graphite composite and hide unused custom parts
+57da0113f	2026-10-29	Extend all-material catalog with material-colored industrial dusts
+ed75de92a	2026-10-29	Replace rejected sparse gear art with locally retained detailed gear sprite
+62f071079	2026-10-29	Extend all-material component catalog with distinct Create-style sheets
+d78f3fc7b	2026-10-29	Fix explicit creative tab identifier and require it in material registration mock
+7ae65a7a5	2026-10-29	Correct installed material package file count to six verified files
+fe4334a79	2026-10-29	Install custom material parts after user game exit with recoverable More Plates backup
+203d58fdd	2026-10-29	Refuse material cutover for running Minecraft across launcher path formats
+7a5e28490	2026-10-29	Stage complete custom material parts catalog and guarded More Plates replacement
+bdf0d3b3e	2026-10-29	Stage complete custom material parts catalog and guarded More Plates replacement
+06d7eb30b	2026-10-29	Record More Plates install verification and loading-window shutdown error
+766e730bc	2026-10-29	Unify matching NuclearCraft material variants without replacing unique alloys
+c814375b8	2026-10-29	Index sheet-metal vault recipe in central design notes
+0102a1475	2026-10-29	Use iron and aluminum sheet metal in Item Vault construction
+8f4ef520c	2026-10-29	Record exponential energy tradeoff for AE2 storage cells
+910b29e42	2026-10-29	Record late-game AE2 storage direction and unresolved balance
+9a281d564	2026-10-29	Add fluid tank ownership to central design reference
+6e13bd32b	2026-10-29	Disable competing standalone fluid storage tank recipes
+f42cce65a	2026-10-29	Consolidate current design decisions and historical design index in README
+8233afdfa	2026-10-29	Record thirty-stack single-item connected vault design
+a8054556f	2026-10-29	Document cargo-dependent Item Vault mass for Aeronautics
+c4b78ed1b	2026-10-29	Audit manufactory dust coverage and material age exceptions
+e158fe67d	2026-10-29	Audit manufactory dust coverage and material age exceptions
+4027f5e7b	2026-10-29	Park creative items for later endgame review
+a19e3bec3	2026-10-29	Consolidate disabled AE2 generator recipes
+1c2bdb0a7	2026-10-29	Balance orbital computer for early Refined Radiance tier
+a2ab5469c	2026-10-29	Defer all Copycat and Big Reactors machine recipes
+f759a750a	2026-10-29	Document copycat mass scaled by material and shape volume
+effe4fa4f	2026-10-29	Use andesite sheet for cogwheel body
+6ac6dce01	2026-10-29	Clarify balanced approval policy and reduce anvil iron cost
+16da148e3	2026-10-29	Move machine-selection approvals into authoring review and retire superseded fusion approvals
+366c01931	2026-10-29	Disable direct Mekanism factory tier recipes while retaining machine approval
+714ae75be	2026-10-29	Require completed fission fuel reprocessing for fusion core draft
+47bb7c0de	2026-10-29	Add Allthemodium output buses and paired fusion transformers
+7d70416a9	2026-10-29	Record latest user controls preserved and fission gate evidence
+4be9642e6	2026-10-29	Preserve user fusion shape and require fission-earned Neutronium
+578763b0f	2026-10-29	Research magnet tradeoffs and correct entry core and conductor budgets
+da9d56b15	2026-10-29	Reopen Deferred recipes and rebalance complete fusion block set
+23e17da39	2026-10-29	Record Deferred inclusion and fusion rebalance scope
+a00840271	2026-10-29	Match new pipe draft materials to copper bodies
+dd97ce4a9	2026-10-29	Complete approved-source index and preserve unmatched original designs
+43f22aa48	2026-10-29	Stage balanced recipe drafts and index existing selected designs
+e7aee5f62	2026-10-29	Apply conservative machine review decisions from user examples
+430b76002	2026-10-29	Inventory functional devices for recipe review; preserve approved archive
+a2bb6a67b	2026-10-29	Build five-part semiconductors from standard board and molten metals
+c2c2eebc5	2026-10-29	Review explicit casing use and remove heavy machinery from cell housing only
+e0769aece	2026-10-29	Record user scope corrections and restore protected approvals
+bb494a52b	2026-10-29	Refine named industrial machines while preserving finished approvals
+3192cb957	2026-10-29	Build insulated MEGA board layers around one processor core
+c0e5f8e85	2026-10-29	Make MEGA component sixteen steps across four bank loops
+9b2021b8d	2026-10-29	Preserve titanium and refine MEGA component assembly order
+d5f495849	2026-10-29	Redesign Shadow Steel deployer around precision manipulation
+708e1280a	2026-10-29	Preserve user cobalt conductor in Shadow Steel deployer
+6728c287a	2026-10-29	Adapt Shadow Steel deployer to user press architecture
+bb6fba32d	2026-10-29	Record current-chat recipe revisions and rubber ownership fix
+d731ff098	2026-10-28	Record production demand research and populated planning totals
+64d78106b	2026-10-26	Record installed fixed basic melting routes and absence of boosted competitors
+1073af645	2026-10-26	Stage fixed basic melting for previously meltable regular mineral rocks
+dd3406753	2026-10-26	Install approved fixed low-yield normal sphalerite melting
+d14ed9ea0	2026-10-26	Prepare user-approved fixed low-yield sphalerite melting correction
+93c688bcf	2026-10-26	Install native-validated normal sphalerite melting survival hotfix
+a2d3e8b3b	2026-10-26	Confirm installed bundle reaches Minecraft main menu without opening saves
+a753e70a7	2026-10-26	Record authorized technical bundle installation with verified backup receipt
+77256f9fd	2026-10-26	Qualify full-size finite nodes and numeric prospecting display for staged installation
+87321321f	2026-10-26	Implement numeric node prospecting from exact counts and live melting rates
+0db717c45	2026-10-26	Record independent node placement acceptance and remaining yield display work
+7b5391e92	2026-10-26	Checkpoint single-mineral node appearance sources and Blockbench lineup
+0e7c8e15e	2026-10-26	Stage independent finite node placement and record native rollout policy admission
+3dca1d0fb	2026-10-26	Stage per-continent deposit policy compatibility without rewriting existing records
+057d76598	2026-10-26	Stage upstream recipe compatibility and preserve existing-world rollout decision
+22be43f80	2026-10-25	Qualify recipe load and stage exact node observation engine
+7f4571b1a	2026-10-25	Checkpoint staged prospecting personal recipes and native retest guards
+080f1b411	2026-10-25	Record isolated restart-load failure and descriptor correction
+74e9412b5	2026-10-25	Stage combined restart candidate and Farmers Delight food priority
+2afcbb2be	2026-10-25	Stage existing-world trace prospecting and1000block clues
+b6876893e	2026-10-25	Stage disabled Overworld sky effect guard and preserve stutter evidence
+bd31de93e	2026-10-25	Fix retired Neptunium crafting bypass routes
+0afd2367e	2026-10-25	Repair approved output ownership and reload errors; preserve failed native fixture evidence
+4bbc51095	2026-10-25	Install supported approved recipe preview: 652 cards, 38 disabled decisions, four incompatible cards held; reload pending
+8bb285c13	2026-10-25	Approved export PASS 656 cards; combined recipe load and disabled-dependency resolution pending
+3af169c91	2026-10-25	IN_PROGRESS approved export: native registry run and scoped disables; preserve failures and user designs
+f97a3f199	2026-10-25	Install shared cap repair retaining original1000-5000-15000 tiers
+28b3629c1	2026-10-25	Stage tripled cap reserves with persistent shared fitting
+72375e027	2026-10-25	Record verified installed summit cap and500block clue preview
+f9d83fcaa	2026-10-25	Freeze compiled cap and500blockscatter candidate awaiting game exit
+09589fddf	2026-10-25	Stage thick local cinnabar cap and scattered500block clues
+884fb500d	2026-10-25	Retain failed cinnabar size feedback after installed budget correction
+3837d9304	2026-10-25	Record installed chart size preview and physical placement limits
+446364308	2026-10-25	Stage chart size audit and coal/cinnabar budget corrections
+e14ba5d62	2026-10-25	Record observed surface clues concentrated directly over veins
+ac36084e7	2026-10-25	Record verified node-free vein counter installation
+91807bc03	2026-10-25	Implement node-free vein counting from exact saved natural ownership
+5fec5b590	2026-10-25	Prioritize overdue direct vein count from saved natural ownership
+c6211d98f	2026-10-25	Record verified locator and Fireclay suppression installation
+b655879c5	2026-10-25	Stage continuing locator, concise clickable results and Fireclay suppression
+2d126dc22	2026-10-25	Begin full-radius continuing locator and concise coordinate feedback fix
+a23d3b21e	2026-10-25	Record verified automatic survey preview installation and authorized relaunch
+28928b2ba	2026-10-25	Freeze automatic vein survey and high cold-temperate Lightning preview
+b68146662	2026-10-25	Begin durable automatic vein survey implementation
+6c73a7e80	2026-10-25	Record automatic survey restart when world spawn changes
+72ed5f4a9	2026-10-25	Record silent automatic all-mineral survey stop and safety rules
+3c378182d	2026-10-25	Freeze compiled cinnabar locator preview with unchanged generation pattern
+05be1eee6	2026-10-25	Stage bounded background cinnabar locator and preserve local pattern
+31dbac3b1	2026-10-25	Record installed mine and single-block source clue preview
+2e74b783c	2026-10-25	Freeze combined mine and surface-clue candidate before authorized install
+d69a8437c	2026-10-25	Stage Deep Dark mine admission and source-owner single-block clues
+947f1d30e	2026-10-25	Install backed-up cooperative terrain prerequisite preview
+0a37331cc	2026-10-25	Stage cooperative terrain readiness without blocking discovery
+e1ce01c01	2026-10-25	Record confirmed chromite teleport success and remaining terrain latency
+38ab7ec38	2026-10-25	Record chromite retry terrain wait without claiming mine acceptance
+6b9cf6864	2026-10-25	Record installed full mineshaft vein connection and preserved configs
+9756e4e9e	2026-10-25	Stage native mineshaft connection without vein containment and record install authorization
+b467a3e5c	2026-10-25	Record nearest saved coal observation and planned chromite with scope limits
+c8ee1033a	2026-10-25	Capture live startup terrain wait and22completed mineral searches
+f0a54d698	2026-10-25	Record installed500block clue preview and independent readback
+2dc917393	2026-10-25	Record authorized500block clue preview install start
+d0bf578d5	2026-10-25	Package500block matching-vein clue preview and guarded installer without installation
+834d71c3f	2026-10-25	Stage matching500block clue gates and persistent spatial index with tests
+5a8004edd	2026-10-25	Record500block clue limit and audit still independent trace routes
+beb4cb0ce	2026-10-25	Record installed cinnabar local biome preview and exact preservation readback
+5a544121d	2026-10-25	Prepare guarded cinnabar-only local biome preview install
+3795c1d42	2026-10-25	Preserve compiled biome height drafts after user ended goal
+082e5f3cf	2026-10-25	Record authorized local biome cinnabar and cold temperate dragon simplification
+124bb73e1	2026-10-25	Stage traced cinnabar index optimization and record remaining terrain wait
+d2dee7cca	2026-10-25	Record live cinnabar terrain bottleneck and scoped indexing correction plan
+d7a96366d	2026-10-25	Record Oritech accelerator proposal and Create ownership limits
+d6e47d3d3	2026-10-25	Checkpoint live client test and verified endgame processing options
+23ae10f66	2026-10-25	Checkpoint exact saved Lightning reader and verified memory launch hold
+2bdcc22d4	2026-10-25	Checkpoint exact Lightning delivery gap and preserved coal policy blocker
+77b826ecf	2026-10-25	Checkpoint compiled original-range automatic cinnabar fixture and resource gate
+bc5e59968	2026-10-25	Checkpoint installed cinnabar paging repair and remaining native placement scope
+2e44b0445	2026-10-25	Checkpoint native original failed-prefix continuation before preview install
+72783f92f	2026-10-24	Checkpoint exact candidate runtime and guarded preview installer
+68fab986c	2026-10-24	Checkpoint bounded native diagnostic budget and exact failed-prefix inputs
+a17a22b76	2026-10-24	Checkpoint million-column exact continuation and frozen native failure probe
+235673854	2026-10-24	Checkpoint paged survey restart and refusal evidence before million-column regression
+4e6fb4825	2026-10-24	Checkpoint exact-topology paged continuation implementation before regression
+50d6d99c3	2026-10-24	Stage cinnabar survey-limit isolation and preserve unfinished large-range repair
+8ee227b59	2026-10-24	Record cinnabar survey-limit stall and scoped recovery plan
+0d4b1474f	2026-10-24	Record Unobtainium before Kugelblitz and distinguish proposed laser synthesis from native mining
+892c2c202	2026-10-24	Honor explicit Exotic Material Review parking override and preserve rejected Vibranium references
+8dd3b4374	2026-10-24	Record confirmed twenty-thousand-bucket endgame binding scale and unresolved native allocation
+294400974	2026-10-24	Refine Radiance saw with centered motor steel guides and engineering control
+a543990d5	2026-10-24	Rebuild Radiance saw beneath player-placed top blade and reinforce drill structure
+c060e8b7e	2026-10-24	Revise Radiance saw orientation and late-game deployer mixer electronics per user feedback
+a9683013f	2026-10-24	Trim empty outside columns from four current Radiance machine drafts without redesign
+981b1da51	2026-10-24	Save six functional lower-cost Radiance machinery drafts with installed editor qualification
+be321de3d	2026-10-24	Save casing-specific Industrial Iron base and Electrum wiring revision for review
+789ba3f6c	2026-10-24	Stage requested electronics-bearing Radiance casing assembly for review preserving depot edits
+e55d6eecc	2026-10-24	Record user-authorized Radiance osmium cost reopening and whole-set audit
+2a46cdcb5	2026-10-24	Capture requested richer live worldgen performance profile with bounded evidence limits
+3e7739db5	2026-10-24	Distinguish actual Giant Trees save IO wait from cinnabar survey stall
+bae7f3f06	2026-10-24	Preserve actual client cinnabar survey main-thread bottleneck under Chunky
+350a758cd	2026-10-24	Record corrected full-client spawn preparation completion without mountain acceptance
+7e961b2b7	2026-10-24	Repair observed cinnabar empty-owner startup refusal and install scoped correction
+4ed065ea7	2026-10-24	Install user-authorized compiled mountain cinnabar preview with scoped backup and readback
+6fcf880ec	2026-10-24	Checkpoint compiled inactive cinnabar generation hook and bounded source residency
+41980cdd4	2026-10-24	Stage automatic native mountain cinnabar source backend and preserve natural roost result
+b78abde62	2026-10-24	Record cinnabar priority and future Easy NPC station life design
+98363ab19	2026-10-24	Stage exact foreign-continent Lightning prefilter and retain interrupted trial
+dd5ba1ab2	2026-10-24	Preserve live natural roost trial and guarded saved entity reader
+e456b317f	2026-10-24	Prepare naturally selected physical Lightning roost qualification
+cedb57ebb	2026-10-24	Complete scoped installed giant generation and saved authority milestone
+7ea086356	2026-10-24	Accept exact whole giant restart and prepare scoped numeric height repair
+50edb1f52	2026-10-24	Fix boxed cave height equality and preserve native failure evidence
+346fd0f40	2026-10-24	Prepare exact saved-site native seed and cave-height diagnosis
+6beaba9ef	2026-10-24	Record native committed ultramafic fit rejection without reroll or repair
+2074b4d07	2026-10-24	Pin reproducible read-only giant restart diagnostic source
+a4dd54766	2026-10-24	Preserve giant restart hold and prepare read-only native diagnosis
+5962f0d62	2026-10-24	Record actual automatic whole giant writer and exact saved reader preparation
+2d60709c8	2026-10-24	Preserve live full-policy giant writer and guarded saved reader
+feb2b939f	2026-10-24	Checkpoint full-policy land giant native preparation and compile
+1313171f0	2026-10-24	Install actual-size saved-qualified cave fitting refinement
+b39c649eb	2026-10-24	Accept saved actual-size cave occurrence and prepare scoped fit refinement
+59993fb05	2026-10-24	Qualify actual-size cave occurrence and stage exact saved reader
+bfaab1ca1	2026-10-24	Target actual eligible cave habitats without weakening catalog rules
+caac3f703	2026-10-24	Preserve actual cave habitat rejection and correct fitting diagnosis
+5d076e1af	2026-10-24	Preserve full-size cave negative and stage immutable-body floor-contact refinement
+c867e6498	2026-10-24	Stage actual catalog cave occurrence persistence and valid giant scope lookup
+773774890	2026-10-24	Install authorized cave-directed location preview with exact preservation
+f53511e8b	2026-10-24	Prepare scoped user-authorized cave placement preview
+4c238c8ea	2026-10-24	Qualify existing native cave fit against actual generated dry air
+8475f8129	2026-10-24	Preserve cave fixture module failure and stage isolated retry
+752f5d0c8	2026-10-24	Prepare bounded native cave exposure fixture
+36846b515	2026-10-24	Implement quarter-directed native cave location policy without fallback
+afe2c3bc9	2026-10-24	Install scoped native skipped-region correction with preserved preview
+faf26a85b	2026-10-24	Prepare authorized scoped skip correction install and runtime admission fixture
+748ca4d84	2026-10-24	Qualify native canonical-center skip correction and retain source delta
+165654019	2026-10-24	Stage bounded canonical-center regression for native skip correction
+03d3e84e1	2026-10-24	Preserve terminal native search diagnosis and staged skip correction
+4b21a0f52	2026-10-24	Install user-authorized generation preview with exact backups and readback
+d96c87631	2026-10-24	Preserve confirmed cave-directed placement semantics above historical proposals
+95abbd3ee	2026-10-24	Extend vein block inspection to regional rocks and preserve trace and cave decisions
+618f025f9	2026-10-24	Stage bounded vein quantity inspection and record nearby-vein pocket direction
+c1046871b	2026-10-24	Record observed native giant search hot paths and bounded follow-up
+2cd5eebab	2026-10-24	Record authorized scoped rock-view install and readback
+43963dfa8	2026-10-24	Record explicit rock-view-only installation authorization
+bd2712e67	2026-10-24	Stage toggleable rock-only rendering with installed Sodium path
+6a4cbcd11	2026-10-24	Record authorized rock-only client view intent
+91a6c94e0	2026-10-24	Stage canonical vein locator with bounded jobs and cancellation
+5c4bf67c6	2026-10-24	Record continent-aware locate implementation intent
+9f77db5c5	2026-10-24	Preserve bounded skip observer and per-vein locator direction
+64a79445a	2026-10-24	Record bounded native skip-branch diagnosis intent
+561399c1d	2026-10-24	Stage runtime identity-only reads and discovery observations
+207927faa	2026-10-24	Record discovery barrier diagnosis and observation intent
+e0dba11ab	2026-10-24	Assemble future identity phase and qualified surface layers without activation
+401d736aa	2026-10-24	Record live full-catalog run and guard exact stopped giant reader
+403e53310	2026-10-24	Freeze compiled full-catalog identity optimized native candidate
+bec803f02	2026-10-24	Record compiled identity membership optimization and native retry scope
+4e1d63175	2026-10-24	Accept native identity parity; stage focused membership caller change
+a88d10437	2026-10-24	Preserve n15 full-catalog search failure; begin serialized identity comparison
+35e80ab83	2026-10-24	Package dormant cinnabar phase adapter over exact surface correction
+2db42f362	2026-10-24	Preserve pending coal minimum choice and live native continuation
+eba6c6eea	2026-10-24	Trace installed lightning dragon natural entries and retain native limits
+20d653d62	2026-10-24	Stage exact native-qualified surface fix for combined world-start package
+ed1e60e1d	2026-10-24	Prepare exact accepted surface-cache overlay for combined world generation
+b331aafb8	2026-10-24	Record native skipped-continent branch without changing live generation
+5109c7ea1	2026-10-24	worldgen: prepare native processed identity boundary comparison with serial launch guards
+d43a1d789	2026-10-24	worldgen: checkpoint native identity boundary comparison intent
+617220566	2026-10-24	worldgen: stage exact native continent identity reader without changing live discovery
+e884afec6	2026-10-24	worldgen: retain actual native discovery cost and exact identity investigation
+78f94f561	2026-10-24	worldgen: checkpoint live normal automatic giant after accepted mine matrix
+58a1b7f4d	2026-10-24	worldgen: accept native exhausted restart and ordinary finite mine component
+5f7f28e3c	2026-10-24	worldgen: checkpoint exact exhausted-world native reader before launch
+a440dd45f	2026-10-24	worldgen: accept native whole-deposit powered depletion and exact custody
+c836a0ab7	2026-10-24	worldgen: pin final giant snapshot and exact normal saved-body reader
+933a32fa6	2026-10-24	worldgen: prepare normal automatic whole-catalog giant qualification
+bf385e76b	2026-10-24	worldgen: connect explicit saved cinnabar phases without activation
+0e446b637	2026-10-24	worldgen: checkpoint explicit saved cinnabar phase integration intent
+a7dfdc1ea	2026-10-24	worldgen: retain first real full-deposit powered extraction and guarded restart reader
+ef645817b	2026-10-24	worldgen: retain empty-corner fixture failure and prepare exact corrected reader
+f1d3f2b5f	2026-10-24	worldgen: prepare exact saved mine full powered depletion trial
+60fd393a9	2026-10-24	worldgen: checkpoint connected full-deposit native qualification intent
+0ab711d14	2026-10-24	worldgen: qualify actual adaptive native mine and bound node
+0b8646980	2026-10-24	worldgen: prepare physical adaptive mine for unchanged failed vein
+b5a5de448	2026-10-24	worldgen: stage deposit-fitted chamber and native gallery network
+fdbec0348	2026-10-24	worldgen: pin actual native room incompatibility without changing ore
+0191b23a5	2026-10-24	worldgen: prepare exact failed native mine diagnostic case
+12a230de8	2026-10-24	worldgen: preserve failed selected mine and stage native fit evidence
+65689241c	2026-10-24	worldgen: preserve surface prerequisite stage and live native mine trial
+107cd18e4	2026-10-24	worldgen: accept normal restart and all present origin body volumes
+f1e8a6bbf	2026-10-24	worldgen: stage native surface phase mailbox bridge
+ae58bea4d	2026-10-24	worldgen: retain saved-owner/cache proofs and prepare native finite mine
+193b07379	2026-10-24	worldgen: retain and correct unlaunched reader API compile failure
+5ff85a525	2026-10-24	worldgen: accept native processed terrain writer and prepare full-body reader
+6c3ae5b80	2026-10-24	worldgen: stage context-bound processed height memoization
+b46e89f76	2026-10-24	worldgen: preserve live corrected terrain run and reader observations
+8115e98cb	2026-10-24	worldgen: retain n5 module-resource failure and prepare corrected n7
+64e81ee2d	2026-10-24	worldgen: preserve native n5 run and bound future reader requests
+feb75f004	2026-10-24	worldgen: compile accurate terrain fix and freeze fresh n5 trial
+00ac6de1a	2026-10-24	worldgen: stage scoped accurate native terrain sampling
+5c0a3a964	2026-10-24	worldgen: record confirmed native terrain cache admission cause
+ac11cf060	2026-10-24	worldgen: preserve fixed-candidate failure and test native tile-cache causality
+a94da15bd	2026-10-24	worldgen: preserve normal reader failure and explicit saved-choice revalidation
+d68fc082f	2026-10-24	worldgen: preserve normal save and shutdown failure; freeze full-body restart reader
+fcf29ca31	2026-10-24	worldgen: accept automatic finite owner and prepare normal saved-world writer
+099d5e7ce	2026-10-24	worldgen: prepare comparative native discovery counters without changing policy
+d7cef4500	2026-10-24	worldgen: preserve exact bounded discovery batching and native candidate
+45992bb63	2026-10-24	worldgen: stage deposit-first native finite mine scheduler
+89469d4d6	2026-10-24	worldgen: accept saved giant native FEATURES and exact stock revocation
+a3fc0df46	2026-10-24	worldgen: freeze automatic lifecycle candidate with physical provenance guard
+9f88a2259	2026-10-24	worldgen: retain native phantom-stock failure and stage missing mutation hook
+5c8b4ecc8	2026-10-24	worldgen: retain saved reader failure and isolate corrected native trials
+41d370024	2026-10-24	worldgen: freeze copied saved giant FEATURES reader r18
+a98e8636d	2026-10-24	world-start: accept actual giant CARVERS placement and exact physical stock
+f189e0c40	2026-10-24	world-start: remove measured voxel collision cost without changing geometry
+092bf092a	2026-10-24	world-start: record real voxel hashing bottleneck and geometry baselines
+3da326230	2026-10-24	world-start: retain live placement run and profile actual finite-body membership
+d1bfcef08	2026-10-24	world-start: pin committed deposit height without weakening geometry guards
+4d2469e4c	2026-10-24	world-start: isolate saved-height mismatch before immutable revalidation repair
+76977d9f3	2026-10-24	world-start: preserve physical refusal and verify exact diagnostic delta
+aa188f527	2026-10-24	world-start: validate fixed giant configuration and freeze repaired native placement
+029459e9c	2026-10-24	world-start: preserve fixed-reserve failure and repair configuration gate
+d20bb5d82	2026-10-24	world-start: freeze natural giant placement and provenance trial
+e9a551e10	2026-10-24	world-start: stage finite giant Veridium integration and retain DH fixture crash
+4ee647965	2026-10-24	world-start: checkpoint finite Veridium integration intent
+9e928391b	2026-10-24	world-start: stage scoped ordinary Veridium route closure
+3a3fa9477	2026-10-24	world-start: preserve installed mod incompatibilities and bounded retry scope
+d170b2c10	2026-10-24	world-start: retain client bootstrap failure and scope dedicated retry
+c58eb592d	2026-10-24	world-start: preserve saved dragon reader and prepare exact installed runtime
+ce3c21145	2026-10-24	Checkpoint actual native dragon start and prepare independent saved-start reader
+977b4a063	2026-10-24	Prepare structure-enabled native dragon trial with canonical preset identity
+735475003	2026-10-24	Record installed structure spacing milestone and independent readback
+848ac0598	2026-10-24	Prepare scoped structure spacing installation with native and preservation evidence
+5901dddb5	2026-10-24	Checkpoint native spacing evidence and require nonzero dragon start coverage
+b577a9ca7	2026-10-24	Checkpoint ranked native-start qualification and cross-pool structure spacing
+a1fc5b202	2026-10-24	Checkpoint native world-start allocation pass and optional ore commissioning
+91e72bf0d	2026-10-24	Checkpoint world-start native failures and bounded dragon candidate revision
+b60ab1431	2026-10-24	Checkpoint native structure-spacing test and staged world-start allocation guards
+d6e03003e	2026-10-24	Install scoped fire ice and dead-dragon natural-generation suppression
+202b27228	2026-10-24	Stage dead-dragon suppression and record cinnabar copper appearance feedback
+6ed4d8e5a	2026-10-24	Record higher resource-presence targets to limit exploration world size
+7ed243867	2026-10-24	Record giant Veridium density and inclusive Vibranium recovery budgets
+04fb6b1ce	2026-10-24	Record conditional Lightning Dragon continent rolls capped at four
+799bd6211	2026-10-24	Confirm major Lightning Dragon quarter-continent chance and single-lair cap
+c444394cb	2026-10-24	Record twenty-five percent giant Lightning Dragon continent chance and maritime spacing
+c05f815fa	2026-10-24	Record final structure spacing terrain and maritime generation decisions
+a635a6342	2026-10-24	Record structure spacing bands by size and mineshaft eligibility setting requirement
+6679b3650	2026-10-24	Record biome-neutral giant Veridium formations with no mineshafts
+eb83dbb88	2026-10-24	Record rare pre-Leacher Vibranium ore access and reject basalt host
+015300383	2026-10-24	Park Vibranium Leacher exclusivity and prioritize survival-world generation
+3448d503e	2026-10-24	Record ten percent mineshaft chance across all vein families
+00385ec93	2026-10-24	Replace mineshaft minimum spacing design with per-vein random rarity
+24dab6f04	2026-10-24	Record Ice Dragon supercooling requirement and staged fire-dragon site suppression
+d90695889	2026-10-24	Record mountain-only Lightning Dragon Overworld spawning and finite drill direction
+2ba011985	2026-10-24	Record 800-block minimum village spacing direction and restore original yield table
+79f709ae6	2026-10-24	Correct first-tool continuity to existing sticks flint Modern Foundry route
+a3d889afc	2026-10-24	Record default Seared Melter and Heater starter recipe decision
+8f05223de	2026-10-24	Record user parking exotic alloys until post-Unobtainium cost review
+c3fb7f4e3	2026-10-24	Save Shadow Steel first alloy mixing preserving downstream review history
+ba523080f	2026-10-24	Save heated Industrial Iron Mixer Radiance revision with unchanged ingredients
+63d32210f	2026-10-24	Archive obsolete approved Radiance recipe competitor preserving current vat design
+37228d842	2026-10-24	Apply requested first alloy batch byproduct split and linked yields
+6a3929945	2026-10-24	Reduce excessive ATM Refined Glowstone recovery to conservative 360mB
+4015256e3	2026-10-24	Trace Radiance-derived glowstone and obsidian without double recovery
+f982d4ab9	2026-10-24	Load both staged alloy cards with authorized existing dust placeholders
+ee64671d8	2026-10-24	Stage first alloy blending and explicit purification-loss cards
+eb25cfc55	2026-10-24	Record accepted 63-unit alloy bill and staged byproduct losses
+203450fdd	2026-10-24	Stage three dirty alloy item resources and confirm four-ingot dust accounting
+49a8f68ef	2026-10-24	Record dirty alloy intermediate staging scope before edits
+c861e10ae	2026-10-24	Consolidate voice recipe and progression decisions in README
+be03b0007	2026-10-24	Record functional limits for exotic alloy consumers
+6f9b9d598	2026-10-23	Distinguish later player coil edit from recorded approval
+2b61d5a78	2026-10-23	Preserve approved SPS references and prioritize new-world blockers
+592e19d20	2026-10-23	Convert SPS coil into casing-based laser-first assembly
+039e921b6	2026-10-23	Revise SPS Supercharged Coil with superconducting windings and concurrent control
+a6847e92c	2026-10-23	Add advanced SPS port electronics preserving player layout
+f581b67b8	2026-10-23	Reshape SPS casing into square housing for review
+3f6eda165	2026-10-23	Add Allthemodium structural plate to SPS casing review
+2d5cf8630	2026-10-23	Move SPS containment before quantum in review proposals
+30d167f14	2026-10-23	Fix SPS first-antimatter alloy cycle in review card
+0b4918e50	2026-10-23	Record confirmed Leacher backfill and extraction progression design
+a078fb0b3	2026-10-23	Record Leacher late-game ore yield direction instead of disable
+0eeefb522	2026-10-23	Record separate alloy activation tiers and first-antimatter dependency conflict
+a0f4ca37a	2026-10-23	Apply whole-batch alloy smelting with one-ingot and slag accounting
+0558823ec	2026-10-23	Record M-X alloy mass ledger and pending safe finishing choice
+56008ebd5	2026-10-23	Consolidate Crystal Binder to one shared endgame producer
+b17c062e7	2026-10-23	Replace alloy-ingot carriers and price gates with functional binding compounds
+1b594f93d	2026-10-23	Require Shadow Steel powder mixing before alloy vat consolidation
+f9513cc12	2026-10-23	Add post-Radiance Atomic Alloy gates to final alloy charges
+1d0da9d87	2026-10-23	Remove prohibitive antimatter gate from Osmiridium preparation
+3d1a268f7	2026-10-23	Correct late Osmiridium constituent alloying and preserve pre-SPS route
+d4f9a8aef	2026-10-23	Save single-ingot metal chain yields and installed review verification
+b6ac5c301	2026-10-23	Stage single-ingot yield correction with unchanged input costs
+590381b31	2026-10-23	Save four new Mekanism chemical-chain cards and review readback
+4fab241ad	2026-10-23	Stage new Mekanism binder reagent and arsenide crystal chains
+791786247	2026-10-23	Restrict staged Pressurizer policy to approved dust crystallization without diamonds
+ada352b0b	2026-10-23	Save chemical precursor review revisions and stage plate-bypass activation manifest
+a5277a15f	2026-10-23	Stage Mekanism precursor corrections and scoped Pressurizer plate restriction
+1c7343cf8	2026-10-23	Save all three existing-intermediate alloy chains for review
+2aa7e5c6e	2026-10-23	Stage 18 existing-intermediate alloy transformations before guarded save
+c8dac0106	2026-10-23	Research existing alloy precursor intermediates without custom authorization
+f90f1ba0b	2026-10-23	Record alloy intermediate correction and explicit identity prerequisite
+82f24a82c	2026-10-23	Install alloy stage predicates and load 36 canonical review cards
+fdaed86a6	2026-10-23	Checkpoint authorized alloy activation and native qualification
+96b8bf653	2026-10-23	Stage ATM-baseline alloy chains and strict phase input support
+dc8dcb8c4	2026-10-23	Stage specific shape and material rejection sub-options
+984a2d7b0	2026-10-23	Save 34 holistic recipe revisions and verify Osmium visibility
+e8ba29028	2026-10-23	Stage holistic recipe review with native preview limits
+fcc6b546f	2026-10-23	Record whole-card feedback review and protected boundaries
+12662826b	2026-10-23	Correct enriched feedstock and alloy production direction
+67857f3d2	2026-10-23	Retain enriched reagents in Mekanism alloy Infuser chain
+064062291	2026-10-23	Save Mekanism reinforced and atomic alloy review proposals
+808f5e89c	2026-10-23	Record Mekanism alloy-chain proposal scope
+4a407c6b9	2026-10-23	Record reproduced Infuser navigation failure and verified Backspace binding repair
+8a2f85c39	2026-10-22	Save Chromatic Compound as Industrial Iron Low Heated mixture
+87f5d3ad0	2026-10-22	Prepare explicit Chromatic Compound Low Heated mixer revision
+d77243907	2026-10-22	Save Atomic Alloy review proposal and relocate two explicitly reopened Radiance cards
+13f14b5fd	2026-10-22	Stage validated Atomic gate and explicit Radiance review reopening
+6a84e7eaf	2026-10-20	Qualify in-world JEI Infuser retention and loaded Refined Glowstone availability
+01b8d9e8a	2026-10-20	Retain isolated JEI login fixture failure and protect intervening launcher metadata
+78e57fb29	2026-10-20	Install verified GUI repairs and stage fresh-world JEI tab qualification
+309c54095	2026-10-20	Preserve native GUI acceptance and fresh final repair install snapshot
+21dc2368a	2026-10-20	Verify native Refined Glowstone codec and finish GUI readability candidate
+02f2edab8	2026-10-20	Qualify native GUI controls and stage validation-row and compressor-time corrections
+5f3a8b3a8	2026-10-20	Retain first native GUI fixture failure and correct mixin isolation
+920e98faa	2026-10-20	Prepare frozen disconnected native GUI regression
+7d48f528d	2026-10-20	Verify installed GUI corrections and scope isolated native acceptance
+2be1bc456	2026-10-20	Prepare scoped overnight GUI repair installation and preserve memory choice
+b5ff42da7	2026-10-20	Qualify JEI alias compatibility while preserving live profile edits
+252fbe5d7	2026-10-20	Stage reproduced editor selection and parameter binding corrections
+19a561686	2026-10-20	Verify installed editor fixes and preserve current recipe edits
+3997dc5e0	2026-10-20	Prepare authorized closed-game editor fix installation
+2982fbc1d	2026-10-20	Stage counted vat artwork, picker coverage and bounded Infuser trace
+4bf96c618	2026-10-20	Stage complete existing-item picker coverage with exact vat artwork
+fcbb3e6d7	2026-10-20	Qualify counted vat artwork and track missing existing picker item
+a3f8c344b	2026-10-20	Correct small-vat JEI electrode artwork to use actual recipe counts
+ea0148525	2026-10-20	Identify SteelSeries capture commit pressure and preserve current recipes
+7c93b9bc7	2026-10-20	Record native commit allocation failure and SteelSeries capture pressure evidence
+8c7023659	2026-10-20	Verify installed refresh fix and preserve exact authoring data
+bc7e5ab42	2026-10-20	Install qualified refresh fix with current recipe and profile preservation
+9b617a776	2026-10-20	Record authorized refresh installation and fresh preserved authoring snapshot
+e17e5aa25	2026-10-20	Verify scoped refresh fix and record closed-game installation handoff
+b9cc4ba37	2026-10-20	Fix orphan refresh signal polling without changing project safety guards
+ac044b84b	2026-10-20	Restore user-chosen CurseForge memory setting and correct mistaken diagnosis framing
+841bccb5c	2026-10-20	Diagnose native game allocation crash and restore requested 8GB override
+03a39b827	2026-10-20	Record locked authoring transaction and final rebase evidence
+9fb599663	2026-10-20	Add required Radiance finishing stage and preserve user chromium edits
+c3a97ecd0	2026-10-20	Withdraw Rose Quartz shortcut and preserve existing early progression
+509f00158	2026-10-20	Save stronger Radiance drafts while preserving restored processing references
+2c40c2040	2026-10-20	Restore original processing references and prepare substantive Radiance correction
+f442af605	2026-10-20	Prepare recovery of original ore and alloy processing cards
+50f68c36d	2026-10-20	Announce saved project move through native refresh signals
+21c524c4f	2026-10-20	Save three-stage Radiance process and preserve accepted ATM chain
+0c72a20eb	2026-10-20	Move approved ATM cards and qualify Radiance candidate
+9a7c8ec3a	2026-10-20	Begin approved ATM move and Radiance process proposal
+c811d35fe	2026-10-20	Apply raw Vibranium shape in ATM gold palette
+eab296b50	2026-10-20	Begin requested raw ATM icon recolor
+74950e67d	2026-10-20	fix(recipes): save and verify 13-dirty-dust ATM batch reconciliation
+bcaa921dd	2026-10-20	fix(recipes): prepare downstream ATM quantities for user 13-dust batch
+7af68e35e	2026-10-19	fix(editor): install and verify invalid-draft preview guard after client closure
+502fb52fa	2026-10-19	docs(editor): preserve locked-JAR failure and exact staged-fix resume point
+6b5da12b4	2026-10-19	test(editor): qualify native invalid-draft recovery and scoped package
+1ba4ef37c	2026-10-19	fix(editor): contain invalid recipe preview errors without changing exports
+07f223757	2026-10-19	Record documentation checkpoint verification and publication limits
+093a2f4fa	2026-10-19	Reconcile chat decisions and current editor recovery handoff
+78689cb76	2026-10-19	Install and verify repair for confirmed recipe icon access crash
+142f32079	2026-10-19	Correct confirmed thumbnail private-class access crash
+7e20789c9	2026-10-19	Verify installed fluid and item icons without altering recipe cards
+6581741df	2026-10-19	Install scoped fluid and item icon corrections
+efdb7c45c	2026-10-19	Stage real fluid icons and output-aware recipe thumbnails
+bd18378b8	2026-10-19	Audit fluid and item icon paths before scoped corrections
+69e110741	2026-10-19	Verify installed JEI catalog and preserve ingredient review state
+d01d35207	2026-10-19	Install shared JEI picker preserving all recipe authoring files
+e8b7102de	2026-10-19	Stage JEI item catalog with exact component identities and vat matching
+9f3560b95	2026-10-19	Investigate shared JEI item catalog and preserve current recipe edits
+1d7f2d830	2026-10-19	Save and verify editable high-power ATM Polarizer card
+e3f5fbc7c	2026-10-19	Install editable Polarizer runtime preserving current authoring files
+6e07a4d05	2026-10-19	Prepare real per-recipe Polarizer power and time implementation
+4523d48d6	2026-10-19	Begin editable Polarizer parameters from fresh closed-game snapshot
+e8101b670	2026-10-19	Save linear ATM slurry cards and preserve held high-power Polarizer delivery
+5da449ea9	2026-10-19	Qualify sustained ATM polarization and guarded scoped candidate
+224e763a5	2026-10-19	Verify ATM slurry candidate and prepare scoped polarization installer
+e29c3f1dc	2026-10-19	Prepare linear ATM slurry revision and high-power polarization requirement
+353ff7121	2026-10-19	Install enlarged vat and fixed machine time and energy panel
+4e9702cba	2026-10-19	Prepare enlarged vat and fixed energy panel; retain file-in-use refusal
+63212774a	2026-10-19	Begin enlarged vat layout and fixed machine energy parameters
+7bdd90db8	2026-10-19	Install machine environments and save direct nine-card ATM baseline
+9199576d7	2026-10-19	Install editor and prepare direct ATM cards
+373e18f25	2026-10-19	Begin authorized editor install and direct ATM correction
+db0c78325	2026-10-19	Stage machine environments: staged complete
+a03d1ae65	2026-10-19	Stage machine environments: folder and direct-vat integration
+00db40819	2026-10-19	Start mod-folder machine-editor and expandable-vat source staging
+fd13b02ad	2026-10-19	Protect retired processing designs from accidental requeue after ATM reset
+6b9a0594c	2026-10-19	Save and independently verify ATM-only Material Processing baseline
+281a1d88b	2026-10-19	Prepare sole ATM processing review baseline and exact reset validation
+493b9c69a	2026-10-19	Snapshot explicit ATM-only processing reset before authoring
+5cd369734	2026-10-19	Assess ATM batch staging power pressure and mandatory-route gaps without changing cards
+a942af3d2	2026-10-19	Record ATM seven-stage brainstorm and bounded feasibility scope
+caa4250b8	2026-10-17	Save one linear advanced-metal chain and verify authoring custody
+bbd12dc5e	2026-10-17	Checkpoint linear exotic candidates and actual power support before guarded save
+67f817fd6	2026-10-17	Replace ambiguous exotic chains with linear manufacturing
+6b4c210a1	2026-10-16	Recipe feedback review6 saved and independently verified
+fc2447906	2026-10-16	Recipe feedback review6 candidate authoring and validation in progress
+555550781	2026-10-16	Recipe feedback review6 candidate authoring and validation in progress
+401a3e1e0	2026-10-16	Recipe feedback review6 candidate authoring and validation in progress
+60eeac423	2026-10-16	Review latest recipe feedback without unchanged requeues
+c2f198a34	2026-10-16	Stop repeated recipe reviews: saved
+a1287079a	2026-10-16	Stop repeated recipe reviews: prepared; guarded save next
+645367e79	2026-10-16	Review current recipe feedback: saved and installed-filter verified
+0c9d25905	2026-10-16	Review current recipe feedback: candidate prepared; guarded save pending
+8f48f3a15	2026-10-16	Review current recipe feedback: candidate prepared; guarded save pending
+8a78b6ee2	2026-10-16	Recipe review4: capture latest decisions and protect user edits
+a21ccc6b6	2026-10-16	AE cell freight: preserve local inventory transfers and fixed-home range rule
+051a1fbab	2026-10-16	AE cell freight: record loaded-cargo custody and native safety requirements
+ce9d7272f	2026-10-16	Recipe review: save79eligiblecardsandpinprotection
+8fa1f7f16	2026-10-16	Recipe review: validate77proposalsbeforeguardedsave
+6979b7f9b	2026-10-16	docs: seal full research hour and stage complete review authoring
+64bb2584e	2026-10-16	Checkpoint complete source coverage during mandatory research hour
+11722b8f4	2026-10-16	Begin one-hour research-only whole-pack recipe review
+548ae607f	2026-10-16	Save and independently verify revised multi-stage exotic recipe cards
+6128e6883	2026-10-16	Validate source-complete separate exotic processing proposals
+04c22029e	2026-10-16	Capture third recipe review and separate-stage exotic direction
+b9303aa07	2026-10-16	Save and verify second back-review cards in KubeJS Gen
+fd02fea52	2026-10-16	Validate second back-review and exotic redesign before guarded save
+9ca2e46a3	2026-10-16	Start second back-review from completed user decisions
+047e40845	2026-10-16	Save MEGA item-cell housing bases without changing assembly bills
+25bd5fb70	2026-10-16	Prepare MEGA housing base correction for three item cells
+4f1114962	2026-10-16	Verify Progression Review reload and preserve all review history
+bc6304822	2026-10-16	Prepare guarded reload of forty-three Progression Review cards
+38020da3d	2026-10-16	Checkpoint completed extended recipe and world research with staged fixes
+93b92cf81	2026-10-16	Checkpoint extended material-cost research and evidence correction
+5395c475c	2026-10-16	Start requested additional thirty-minute research pass
+8a57d81fe	2026-10-16	Save back-review batch and staged rarity candidates with explicit limits
+936575981	2026-10-16	Checkpoint complete static audit and paid-quantity repairs before save
+511d5a9c1	2026-10-16	Checkpoint researched back-review candidates before guarded save
+f9ec7db20	2026-10-16	Begin researched full recipe back-review with protected baselines
+6c98163d2	2026-10-16	Add rubber liner around user-designed turbine controls
+0e4a5f4f9	2026-10-16	Save compact three-layer horizontal turbine shell draft
+33c208698	2026-10-16	Preserve user takeover of turbine recipe design
+2ac04f688	2026-10-16	Compact turbine shell into coherent air channel and control bands
+c5bbf08b8	2026-10-16	Save lightweight horizontal seven-by-five turbine shell
+7d6ab4c80	2026-10-16	Explicitly requeue revised turbine from old maybe status
+e59218d47	2026-10-16	Restore late hollow turbine shell and advanced controls
+4a1aa0806	2026-10-16	Reconcile approved radial snapshot to prevent stale re-review
+cd6a1b5b6	2026-10-16	Record latest approval and pending turbine shell review
+3e7b29787	2026-10-16	Save shell-only turbine segment with intake valves and chips
+1d1a6b7af	2026-10-16	Save compact two-output turbine segment review card
+20bef92d8	2026-10-16	Begin compact turbine segment correction
+4a2f5878b	2026-10-16	Remove wrongly copied material cards from progression review
+079707812	2026-10-16	Audit all cards and restore 121 omitted material review entries
+08ffa4132	2026-10-16	Begin complete card inventory and missing-target audit
+4244de8b0	2026-10-16	Save turbine speed control and prequantum condenser cards
+0fd184156	2026-10-16	Begin turbine governor and prequantum condenser revisions
+74311028a	2026-10-16	Save five latest recipe revisions and clearer machine explanations
+d83c02178	2026-10-16	Begin latest machine feedback and pump-item clarification
+2e272d432	2026-10-16	Restore 79 deferred explanation cards and repair editor format
+3b2596609	2026-10-16	Begin deferred explanation return and refresh format repair
+8ebadcee5	2026-10-16	Save latest 14 recipe revisions and two explanations
+09df0dfc9	2026-10-16	Begin latest recipe feedback revisions
+a82a35c11	2026-10-16	Save full latest recipe review and 68 eligible cards
+7e70b26a8	2026-10-16	Begin latest complete recipe decision review
+719b081e1	2026-10-16	Save 74 latest card revisions and 16 machine explanations
+f3167ff21	2026-10-16	Validate 74 recipe revisions and 16 explanation requests
+027ef4444	2026-10-16	Begin next recipe judgments and explanation-only deferred pass
+513212fcf	2026-10-16	Save duplicate-free review queue and retire Default workspace
+86a2ce4fe	2026-10-16	Checkpoint Default removal and validated duplicate-free review batch
+3642ff7da	2026-10-16	Begin Default to Progression Review consolidation
+cd6d84328	2026-10-16	Install Deferred explanation and park choices
+a60af7dcd	2026-10-16	Queue scoped Deferred UI installation after game exit
+e63ea3dc9	2026-10-16	Prepare verified Deferred chooser installation
+adfa38d5d	2026-10-16	Begin scoped Deferred explanation and park options
+ae9c80259	2026-10-15	Return 126 deferred recipes with functional review explanations
+3e3dc4c65	2026-10-15	Begin complete deferred recipe review and queue restoration
+418db41da	2026-10-15	Save 84 reviewed recipe revisions and preserve uncertain Maybes
+ec68b3c04	2026-10-15	Validate latest recipe designs and stage one cell per stabilizer
+57c95b90e	2026-10-15	Begin latest 285 card review and single cell stabilizer revision
+bb0aa9949	2026-10-15	Save reopened recipe batch and plate material review evidence
+7cbb696fd	2026-10-15	Prepare guarded parked recipe review and material assemblies
+ab2d5f900	2026-10-15	Add functional Vibranium and Unobtainium containment to stabilizer card
+b65d81823	2026-10-15	Verify actual installed review visibility and identify search-name mismatch
+fe2426c02	2026-10-15	Rebuild rejected stabilizer around functional spatial containment
+5d6c22936	2026-10-15	Correct review visibility counts and resubmit two rejected designs
+b42a68a07	2026-10-15	Load stabilizer review card into actual KubeJS Gen project
+9ab3abb66	2026-10-15	Review stabilizer costs and remove inherited unrelated recipe removal
+583728ffc	2026-10-15	Complete staged ship AE2 restrictions and reviewed recipe candidates
+44d55ca01	2026-10-15	Checkpoint staged ship AE2 budget and stabilizer before full checks
+6a6de595b	2026-10-15	Record verified UI installation and saved shipboard AE2 policy
+416465025	2026-10-15	Prepare scoped UI fix installation and confirm mobile AE2 rule
+e838a4d70	2026-10-15	Record transport-preserving limits for shipboard AE2 networks
+3e8369e19	2026-10-15	Prevent parent recipe icons rendering through rejection dialogs
+8e7084247	2026-10-15	Fix clipped KubeJS Gen comment panel with bounded wheel scrolling
+5cf5838fd	2026-10-15	Save fourth reviewed recipe batch and transport limitations
+4baa2f18c	2026-10-15	Checkpoint fourth review designs before editor save
+0687f2457	2026-10-15	Save completed third review recipes and deferred explanations
+fc6d2310d	2026-10-15	Checkpoint third review candidates before editor save
+94353a529	2026-10-15	Save second completed review and cold-fluid recipe revisions
+fd090183f	2026-10-15	Checkpoint second reviewed batch and verified cold-fluid filling
+8e5be8d67	2026-10-15	Save rare-metal tier revisions and preserve early machinery access
+6852dd663	2026-10-15	Checkpoint late-tier rare-metal recipe candidate
+135aae84d	2026-10-15	Save completed October 15 review revisions and preserve approved decisions
+90cf63b4e	2026-10-15	Checkpoint full October 15 reviewed recipe candidate and deferred guide
+d624ea544	2026-10-15	Checkpoint October 15 review design and official balance references
+b515f7c94	2026-10-15	Add four missing Kugelblitz Chamber construction cards including EXPL
+f95f1318f	2026-10-15	Add staged NuclearCraft Supercooler fluid recipe editor
+38c5d3d1a	2026-10-15	Record Supercooler as cold-fluid production candidate
+f236aae59	2026-10-14	Save complete rejected and maybe card revision pass
+a28de5994	2026-10-14	Checkpoint complete rejected and maybe recipe candidate before save
+f9cde6058	2026-10-14	Revise seven existing AE2 upgrade cards from review feedback
+c0ae05749	2026-10-14	Resume recipe revision from approved and personal references
+729d914a5	2026-10-14	Document deferred recipe purposes and SPS endgame target
+df58ef07c	2026-10-14	Record storage cost focus and Radiance shape clarification
+f43eb01b5	2026-10-14	Preserve ongoing spoken review and pause card edits
+f23a62b49	2026-10-14	Clarify default restoration and stage compact review layout fix
+cea847888	2026-10-14	Correct printed circuits to single coated-board outputs
+198128276	2026-10-14	Replace generic reactor templates with distinct functional layouts
+b89694d13	2026-10-14	Differentiate electronics drafts and withdraw unusable outputs
+feda3471b	2026-10-14	Revise MSR controller nuclear materials and electronics
+4c013a2c4	2026-10-14	Fill heat controller 5x5 grid around steel frame
+43924e4b7	2026-10-14	Add nuclear-tier Radiance to heat controller
+021d417e3	2026-10-14	Expand chamber terminal to full 7x7 endgame grid
+35790c034	2026-10-14	Gate chamber terminal draft behind quantum components
+d324c7741	2026-10-14	Remove doubled casing frame ingredients
+c48dc472e	2026-10-14	Replace chassis inputs with TFMG steel frames
+c3c64234b	2026-10-14	Replace basic plate card inputs with existing lead plates
+d06585501	2026-10-14	Add ice dragon blood directly to quantum chip assembly
+7a5f5dabc	2026-10-14	Record distinct ice dragon blood and heart recipe roles
+e48f9ad73	2026-10-14	Respect recurring ice dragon cost for quantum chips
+9cf4ad7b5	2026-10-14	Record dragon and Saturn moon gates for quantum progression
+1a9c5189c	2026-10-14	Align circuit board tiers and record bulk semiconductor design
+384ac9ff1	2026-10-14	Record user coated-board filling recipe as design reference
+5c2d4569b	2026-10-14	Apply functional material costs to electronics and nuclear panels
+5ced9d55f	2026-10-14	Reduce logic gold cost and use empty board assembly base
+f8fbc3444	2026-10-14	Use green starter semiconductors for logic processor chain
+65f07cb14	2026-10-14	Reopen electronics review and align processor dependencies
+6b2b3ed86	2026-10-14	Remove custom wafer drafts and use existing AE2 silicon
+2085ae00f	2026-10-14	Remove excluded cosmetic conveyor cards from review
+248044ca8	2026-10-14	Correct stored versus visible recipe review count
+caf29b3b2	2026-10-14	Reconcile full 801-target recipe review and expose missing designs
+8a4663624	2026-10-14	Refine recurring material demand and load Chain03 review cards
+654f7468c	2026-10-14	Record continuing material demand across progression
+31237a56a	2026-10-14	Add electrical and quantum logistics draft cards and show existing computer chain
+e0fa60fbb	2026-10-14	Record cross-mod electronics and ComputerCraft progression rules
+064bc155f	2026-10-14	Add fourteen functional progression recipe drafts for review
+a36667a62	2026-10-14	Curate functional progression targets and remove variant inflation
+34977ba31	2026-10-14	Audit full pack progression coverage and missing recipe locations
+0c1e28074	2026-10-14	Notify editor of validated custom progression update
+689d4d7a8	2026-10-14	Author and import custom progression draft families
+a0c5a1e70	2026-10-14	Remove verified unchanged native recipe review duplicates
+87d25f026	2026-10-14	Apply ordinary Create scope correction and install review filter
+25bafe549	2026-10-14	Record user recipe scope correction and actual card audit
+344466a2a	2026-10-14	Fix reviewed cards remaining in named review queues
+fce26d519	2026-10-14	Record authorized KubeJS Gen draft import with preserved projects
+39565156a	2026-10-14	Log user authorized recipe editor import
+509ed2496	2026-10-14	Record resumed goal blocked with unchanged prerequisites
+2ab5851b4	2026-10-14	Record second resumed prerequisite check
+9d25cb6a6	2026-10-14	Record resumed goal prerequisite check
+97a310eb4	2026-10-13	Record confirmed blocked goal and preserved prerequisites
+723398915	2026-10-13	Record unchanged offline prerequisites second impasse check
+49f1c680b	2026-10-13	Record remaining offline prerequisites without completion credit
+9852f0dd0	2026-10-13	Reconcile priority prerequisites with preserved accepted evidence
+a65c2bf1d	2026-10-13	Log priority prerequisite reconciliation
+b11e7846e	2026-10-13	Finish scoped capture instruction checks and park native fixtures
+14d4c9ca8	2026-10-13	Log frozen capture invocation screen
+86f723224	2026-10-13	Freeze private saved capture candidate and internal member evidence
+a34cf0e17	2026-10-13	Log full capture member and package preparation
+caea3484c	2026-10-13	Qualify capture provider declarations and replacement contracts
+237261079	2026-10-13	Log capture provider integration in progress
+934c10a1d	2026-10-13	Correct capture dimension witness and audit providers
+a38e7bb50	2026-10-13	Prepare original-world capture reader and explicit modes
+00802a2b4	2026-10-13	Prepare original-encounter saved capture writer
+b2bb9a7d3	2026-10-13	Pin missing real-player saved capture integration
+bcc753566	2026-10-13	Bind saved capture fixture to common outcome authority
+147524a9b	2026-10-13	Freeze expiry lab package and park native reward checks
+12afa390e	2026-10-13	Fix expiry session identity and failure reporting
+af0617273	2026-10-13	Connect later-tick expired reward fixture
+0d4f4b8c6	2026-10-13	Verify packaged reward call instructions
+30807a0a5	2026-10-13	Prepare isolated reward candidate archives
+3afa0de88	2026-10-13	Verify reward replacement callers and lab registration
+e78aff9e7	2026-10-13	Resolve staged reward custody dependency boundary
+873204f6e	2026-10-13	Verify newer frozen reward control provider
+7edef5bee	2026-10-13	Record exact historical baseline linkage refusal
+4e07c7408	2026-10-13	Identify exact baseline provider boundary for reward lab
+2045cde9b	2026-10-13	Add opt-in operator entry for staged reward fixtures
+958fa235b	2026-10-13	Prepare interleaved destruction split reward fixture
+e64a0e794	2026-10-13	Connect surviving split callbacks to destruction history
+47c540ad1	2026-10-13	Publish confirmed destruction into live ship lineage
+62bbb574e	2026-10-13	Preserve destruction receipts across relocation events
+5803c5ffd	2026-10-13	Prepare combined native split destruction reward fixture
+cc1e8e539	2026-10-13	Bind destruction receipts to tracked ship fragments
+9cf2a5cf1	2026-10-13	Fix closed enemy lineage reward authority
+0fba5c9d0	2026-10-13	Correct stale resource blockers and index remaining dependencies
+5c1003371	2026-10-13	Prepare native transporter replacement regression observer
+c00819670	2026-10-13	Require reciprocal native transmitter membership
+e6c6d0187	2026-10-13	Reject stale native item ingress identities
+fee03961c	2026-10-13	Verify range admission boundaries against pinned reference
+cf4f43f2d	2026-10-13	Reduce short-range admission scratch allocation
+ce3af0182	2026-10-13	Pin dust registration behavior and remaining runtime limits
+d8f3e9187	2026-10-13	Record canonical dust class behavior boundaries
+23cf1dd2f	2026-10-13	Separate existing and proposed dust furnace conflicts
+3bed58efb	2026-10-13	Audit saved canonical item batch composition
+b36407422	2026-10-13	Prepare actual CBC break-to-reward fixture runner
+b86d1a3da	2026-10-13	Prepare reward fixture using observed native destruction
+b71b09ce3	2026-10-13	Bind one-shot native structural fixture to reward guards
+4fb38460d	2026-10-13	Bind native lab destruction observation to committed receipts
+bf64ceec1	2026-10-13	Stage fresh committed destruction evidence observation
+6d4ec68b8	2026-10-13	Require current native ownership observation for guarded reward fixtures
+1b1649b7c	2026-10-13	Record native reward ownership admission gap
+f96851bff	2026-10-13	Bind native capture and reward records to one server world directory
+e398828f6	2026-10-13	Record shared native outcome directory binding work
+d6cba8e05	2026-10-13	Prevent capture and reward reservations for the same original ship
+e5bd61291	2026-10-13	Record capture and reward mutual exclusion gap
+19621526b	2026-10-13	Prepare saved capture fixture and verify full main-source compilation
+8b761ec34	2026-10-13	Record capture saved-world fixture preparation
+f704451e1	2026-10-13	Preserve captured roster state through explicit held recovery
+f6ff39278	2026-10-13	Record captured roster reconciliation work
+2c4307222	2026-10-13	Persist capture outcome and stage read-only restart audit
+88e0a815c	2026-10-13	Record saved capture receipt and audit intent
+2c83f3a74	2026-10-13	Stage intent-bound native capture transfer and live ownership audit
+9528090c6	2026-10-13	Record native capture setter integration intent
+43bcdef8f	2026-10-13	Persist held capture transfer intent before owner observation
+b747fbc31	2026-10-13	Record capture transfer intent work
+1e8d63c0b	2026-10-13	Bind native capture owner observation to exact live custody
+6e5873705	2026-10-13	Record one-shot native capture owner observation intent
+6ca68528e	2026-10-13	Compare complete capture custody across exact owner-field changes
+55632af97	2026-10-13	Record exact capture owner-change custody profile intent
+84c4fabcf	2026-10-13	Observe capture owner agreement across live and saved identities
+6393c6934	2026-10-13	Record native capture ownership observer intent
+c8826a4ae	2026-10-13	Pin capture ownership setter and registry behavior
+fa42712a5	2026-10-13	Record installed capture ownership API audit intent
+27b349a3d	2026-10-13	Prepare capture hold native verification helper
+72ce56349	2026-10-13	Record isolated capture probe intent
+87405a6a5	2026-10-13	Audit captured encounter custody without resuming
+b7de70546	2026-10-13	Record read-only capture recovery audit intent
+6c03c80ed	2026-10-13	Connect capture hold to stopped encounter custody
+f0c877a73	2026-10-13	Record capture session shutdown integration intent
+404ce9b14	2026-10-13	Persist capture holds in enemy control admission
+5419026da	2026-10-13	Record durable capture hold implementation intent
+a21244380	2026-10-13	Record durable capture control gap for offline continuation
+a92478565	2026-10-13	Prepare isolated reward capacity and restart fixture
+760f323d6	2026-10-13	Record isolated reward fixture intent
+3cbfb19e4	2026-10-13	Stage reward capacity planning and exact inventory delta
+8f3f949ce	2026-10-13	Record native reward capacity and delta intent
+4b272dfed	2026-10-13	Stage exact player inventory reward observation
+fa4ee094b	2026-10-13	Record native reward inventory observer intent
+19d03d1b4	2026-10-13	Audit held rewards against exact restart records
+ec85be63e	2026-10-13	Record held reward restart audit intent
+5ef458892	2026-10-13	Bind reward acknowledgement to persisted claim and observation
+a881949c1	2026-10-13	Record bound reward acknowledgement intent
+150665ae3	2026-10-13	Prevent repeat reward delivery attempts after uncertain outcomes
+1fbb4f14a	2026-10-13	Record one shot reward delivery session intent
+d3288d64a	2026-10-13	Verify encounter reward claim contention across eight JVMs
+5857f1a0e	2026-10-13	Record concurrent reward reservation test intent
+275958150	2026-10-13	Persist encounter keyed reward reservations with held recovery
+a18e42eff	2026-10-13	Record durable reward reservation intent
+51c5cdd26	2026-10-13	Add offline reward admission checks and retire RAM polling directions
+2e175d94a	2026-10-13	Record independent reward admission work
+c3f170301	2026-10-13	Prepare nonempty cannon contents disassembly controls
+852f97fed	2026-10-13	Record nonempty breech custody fixture intent
+bd3692f30	2026-10-13	Preserve breech contents across observed cannon disassembly
+c39ca8dbf	2026-10-13	Record mounted cannon inventory audit intent
+79da03cbd	2026-10-13	Prepare mount break stop and changed survivor controls
+64d94c444	2026-10-13	Record mount break interruption fixture intent
+7a70331b5	2026-10-13	Prepare combined boss mount break journal fixture
+efaff5950	2026-10-13	Record combined mount break fixture intent
+26ecb4b12	2026-10-13	Journal mount destruction with surviving gun relocation
+557642862	2026-10-13	Record combined mount destruction relocation intent
+f86d37bb4	2026-10-13	Keep mount disassembly pending until outer break completes
+aa333dafc	2026-10-13	Record pending disassembly callback integration intent
+5194e1d6c	2026-10-13	Bind pending mount recovery to captured placement observation
+00745b70d	2026-10-13	Record transform bound mount completion intent
+a38eccaef	2026-10-13	Stage explicit pending cannon mount break witness
+7ab3c2593	2026-10-13	Record pending mount break witness intent
+d734d5cda	2026-10-13	Recheck complete boss custody after cannon disassembly
+fc9f019fc	2026-10-13	Record fixture outcome and whole manifest repair intent
+412d5d7c2	2026-10-13	Freeze direct cannon disassembly fixture and record validation gap
+28bfe779b	2026-10-13	Record direct cannon disassembly fixture intent
+aa1db27de	2026-10-13	Wire native disassembly transform and completion callbacks
+3f3c7a96c	2026-10-13	Record disassembly callback wiring intent
+65ad72bb1	2026-10-13	Track native cannon disassembly as structural relocation
+1f0b2ebe5	2026-10-13	Record mounted cannon relocation boundary
+91aebc8d0	2026-10-13	Freeze native CBC break and journal fixture
+555c3dd40	2026-10-13	Record native break binding fixture intent
+e99973baf	2026-10-13	Bind native hull break observations to durable intent records
+8f05602fd	2026-10-13	Record native break journal binding intent
+7f55e7c3b	2026-10-13	Stage actual CBC break-call observation boundary
+c3c6fd136	2026-10-13	Record actual native break boundary findings
+f381146b4	2026-10-13	Add durable held boss destruction intent records
+55a7fb8aa	2026-10-13	Record boss destruction journal implementation intent
+6dc5c8d84	2026-10-13	Connect boss constituent reader to isolated hull fixture
+8cbe42d22	2026-10-13	Record combined boss constituent fixture intent
+679f6a6a8	2026-10-13	Add read-only typed native boss constituent inspection
+877f030b7	2026-10-13	Record typed native boss constituent reader intent
+77be750d7	2026-10-13	Add compound boss weapon defeat observations
+33c7fd0b2	2026-10-13	Record compound boss weapon observation work
+411863dd3	2026-10-13	Prepare and freeze Twin Keel native admission fixture
+04f3cf7ff	2026-10-13	Record Twin Keel admission fixture intent
+838ac5f76	2026-10-13	Stage original Twin Keel boss hull and geometry evidence
+119e37511	2026-10-13	Record original boss hull offline work intent
+a49350adb	2026-10-13	Freeze verified lab boss callback package
+39123ffcc	2026-10-13	Begin reproducible boss fixture packaging
+8c047c4dc	2026-10-13	Prepare native descendant callback fixture and cleanup
+ba7e98759	2026-10-13	Begin native boss callback fixture preparation
+97e4d6447	2026-10-13	Wire lab-only boss assembly callbacks
+c3ee73bf2	2026-10-13	Begin lab boss assembly callbacks
+738cfff8e	2026-10-13	Track live descendant boss bodies without copying tags
+1a980e4c2	2026-10-13	Begin bounded boss fragment lineage owner
+a33010a4d	2026-10-13	Use native split provenance instead of assumed copied tags
+287a62902	2026-10-13	Record native fragment provenance correction
+c2186baea	2026-10-13	Reject foreign boss custody successors and nested starts
+e8b167f8e	2026-10-13	Record boss session successor audit
+2ddeb6faf	2026-10-13	Bracket boss assembly with held single-owner session
+e28ef1218	2026-10-13	Begin boss assembly session integration
+4b2380798	2026-10-13	Stage native boss module assembly observation
+7d6f6cb6f	2026-10-13	Record native split ordering before assembly observer
+ff65c7b18	2026-10-13	Track boss module relocation separately from destruction
+0e74b89fe	2026-10-13	Begin offline boss module custody
+c39724fdb	2026-10-13	Stage offline boss defeat policy and pin eight GB test heap
+1da3f6493	2026-10-13	Begin offline boss defeat implementation
+2a426a50c	2026-10-13	Record-external-prerequisite-block-with-frozen-resume-point
+f97e78070	2026-10-13	Freeze-current-integrated-oil-candidate-and-main-compile
+9d71cea6a	2026-10-13	Verify-native-oil-disk-publication-and-write-failure
+c7eef9123	2026-10-13	Wire-native-oil-disk-publication-and-freeze-integrated-fixture
+6ec8b7b47	2026-10-13	Gate-new-oil-session-admission-on-verified-publication
+79cd0f812	2026-10-13	Apply-once-only-oil-budget-to-explicit-native-admission
+49d9030d6	2026-10-13	Stage-once-only-oil-commissioning-and-verify-allocation-regression
+d2717f88d	2026-10-13	Freeze-integrated-oil-pump-and-save-fixture
+11b4f1f61	2026-10-13	Prepare-lab-only-oil-pump-save-lifecycle-hooks
+1121f0483	2026-10-13	Stage-shared-native-oil-session-save-ownership
+2d45dbd25	2026-10-13	Prepare-frozen-full-loader-oil-tank-fixture
+f80e2d848	2026-10-13	Stage-native-tank-wrapper-and-preserve-loader-failure
+eaa7c1403	2026-10-13	Stage-native-oil-balance-save-and-fill-adapter
+38b5ff8c4	2026-10-13	Qualify-competing-oil-allocations-and-native-scope
+165fa841e	2026-10-13	Stage-exact-fractional-oil-reserve-state
+ab78b900f	2026-10-13	Stage-once-only-oil-field-allocation-journal
+8b9ad40b8	2026-10-13	Correct-oil-policy-main-compile-scope
+6753cb8bd	2026-10-13	Stage-chart-backed-shared-oil-field-budget-policy
+420888e57	2026-10-13	Stage-chart-backed-shared-oil-field-budget-policy
+02e12e2d1	2026-10-13	Retain-verified-survey-state-with-exact-disk-validation
+5a2c0b14d	2026-10-13	Reduce-survey-journal-replay-and-record-native-timeout
+66ed3f6f8	2026-10-13	Record-recovered-validation-and-native-range-fixture-failure
+0446d87a5	2026-10-13	Resume-ore-validation-after-memory-recovery
+188ce3ec1	2026-10-13	Record-host-memory-block-and-safe-resume
+285d6fd81	2026-10-13	Prepare-persisted-ore-surface-phase-and-restart-tests
+49e72c71f	2026-10-13	Begin-shared-ore-surface-phase-persistence
+9a8bd3b50	2026-10-13	Prepare-owned-cinnabar-write-custody-and-shortage-holds
+0bbe88185	2026-10-13	Begin-owned-cinnabar-surface-write-accounting
+c60b8fa3e	2026-10-13	Persist-and-revalidate-cinnabar-concentration-selections
+335563eaf	2026-10-13	Begin-persisted-cinnabar-concentration-revalidation
+b433c0e44	2026-10-13	Fit-finite-cinnabar-surface-concentrations
+50d7b8c76	2026-10-13	Begin-finite-cinnabar-surface-fitting
+657dbb1ee	2026-10-13	Deduplicate-finite-cinnabar-range-allocations
+c0c1e2692	2026-10-13	Begin-canonical-cinnabar-range-allocation
+49e744627	2026-10-13	Prepare-actual-terrain-mountain-range-reopen-fixture
+9966b49fe	2026-10-13	Checkpoint-native-mountain-range-fixture-intent
+5b9f26f4a	2026-10-13	Persist-connected-range-surveys-with-restart-revalidation
+508ef1440	2026-10-13	Checkpoint-connected-mountain-survey-persistence-intent
+4df35a676	2026-10-13	Stage-connected-mountain-survey-and-qualify-coal-fixture-compilation
+21fd70f31	2026-10-13	Checkpoint-cinnabar-connected-range-survey-intent
+be5d645cd	2026-10-13	Prepare-combined-coal-native-fixture-and-verify-preflight-guards
+3e2d1baf0	2026-10-13	Checkpoint-combined-coal-native-fixture-preparation
+94677c2dd	2026-10-13	Stage-ranked-coal-habitat-discovery-with-persisted-fallback
+5b193e04e	2026-10-13	Checkpoint-coal-habitat-preference-work
+9b503bced	2026-10-13	Bind saved coal stage into explicit continent generation runtime
+7979890a8	2026-10-13	Checkpoint explicit combined coal runtime binding
+4cfced159	2026-10-13	Integrate coal finite mining identity and shared owner placement
+af3448aee	2026-10-13	Checkpoint coal finite mining and shared placement integration
+35bced295	2026-10-13	Coordinate saved coal slots and qualify actual seam footprint
+a8b81dcd8	2026-10-13	Checkpoint saved coal multi-slot coordination intent
+ffad0fbf2	2026-10-13	Prepare native transport loss reproduction with launch memory gate
+a75f927db	2026-10-13	Checkpoint targeted native transport interleaving test
+a121eaa97	2026-10-13	Reproduce exact transport save deficit with installed allocation code
+098e7ec88	2026-10-13	Checkpoint transport save-share ordering investigation
+e21f86890	2026-10-13	Persist coal discovery and correct compile report naming
+1fad4f193	2026-10-13	Checkpoint bounded saved coal discovery intent
+b3380f75d	2026-10-13	Bind saved coal deposits to native terrain qualification
+6efbd36ee	2026-10-13	Checkpoint saved coal slot terrain qualification intent
+2bee494e3	2026-10-13	Persist coal allocations and refuse incomplete or changed requests
+52b64047f	2026-10-13	Stage deterministic coal layouts with explicit minimum policy
+6a7bca627	2026-10-13	Checkpoint separate continent coal allocation intent
+9cbfb259b	2026-10-13	Hold extraction after failed ore placement without losing provenance
+97422ca10	2026-10-13	Checkpoint failed placement custody repair intent
+2c21a80d3	2026-10-13	Wire guarded main continent generation and exact legacy ownership
+92bfb312c	2026-10-13	Record guarded main continent generation hook work
+85bc7e983	2026-10-13	Bind staged continent policies to explicit native level lifecycle
+1270a3f30	2026-10-13	Record immutable continent policy and level lifecycle work
+90e1cc6a7	2026-10-13	Connect continent generation stages with bounded resource release
+3c738b50b	2026-10-13	Record generation dispatcher integration resume point
+cf4fbcd92	2026-10-13	Route complete owner-column continent coverage through shared placement
+b89bfaa68	2026-10-13	Record exact owner-column routing integration
+ed62b1c4c	2026-10-13	Stage bounded continent runtime and saved decision lifecycle
+06ebff3f7	2026-10-13	Record bounded continent coordinator integration resume point
+fdcbbd484	2026-10-13	Stage resolved continent admission before native structure starts
+d8f947d0e	2026-10-13	Admit mine layouts against exact finite continent reserves
+e0123b8e6	2026-10-13	Preserve finite mine marker identity and prepare natural extraction qualification
+582a4224b	2026-10-13	Support exact continent mining scopes with compatible saved progress
+88fa69c08	2026-10-13	Record actual continent ore provenance with atomic owner batches
+b4cbcf6a3	2026-10-13	Stage full catalog owner placement and enforce native resource gate
+692b586e6	2026-10-13	Qualify complete optional resource catalog on native continent
+fee3f30af	2026-10-13	Bind full optional resource chart to explicit staged biome probabilities
+af38a25b1	2026-10-13	Qualify native local-band resource discovery and biome chance admission
+8ca6f8736	2026-10-13	Sample disjoint local bands while retaining complete candidate coverage
+fcf1d01be	2026-10-13	Connect chart reserve tiers and explicit biome probabilities to staged discovery
+cacf34976	2026-10-13	Preserve bounded coordinator failure and switch to chart integration
+26519db39	2026-10-13	Persist continent occurrence decisions and qualify native candidate discovery
+962ebf3f2	2026-10-13	Stage bounded resumable continent candidate discovery without occurrence rerolls
+69b5237ba	2026-10-13	Freeze genuine-player test runtime and retain resource hold
+d377742be	2026-10-13	Accept twenty-two fluid visibility families and preserve enemy launch prerequisite failure
+838923a4d	2026-10-13	Qualify chlorine and ethene boundaries and prepare duplicate visibility check
+43bf62e6d	2026-10-13	Prepare unchanged chlorine and ethene native boundary qualification
+5141b9396	2026-10-13	Qualify twenty fluid visibility mappings with preserved recipes and repeat application
+1fa91b028	2026-10-13	Pin native-decoded boundary recipe fingerprints for visibility admission
+e1698b771	2026-10-13	Qualify boundary client representation through native packet decoding
+1f190ca12	2026-10-13	Preserve client representation refusal and prepare exact boundary packet capture
+d86967a9a	2026-10-13	Include qualified ordinary fluids in duplicate visibility cleanup
+a619d365a	2026-10-13	Qualify fluid visibility reapplication and preserve exact lab restoration
+0ae6a1407	2026-10-13	Guard empty fluid visibility updates and add native reapplication regression
+eeb3df93b	2026-10-13	Prepare fresh genuine-player encounter runner with restoration and memory guard
+b42042822	2026-10-13	Record exact source-first saved custody without claiming original loss fixed
+23fe2a93b	2026-10-13	Preserve launch and partial unload prerequisite failures
+04cb9d8fe	2026-10-13	Preserve nonreproduced transport loss and prepare ordered unload test
+ec378cc4c	2026-10-13	Preserve trace fixture compile failure and repair final capture
+acd9f7941	2026-10-13	Trace native transport save shares using frozen failing guards
+8ed27b697	2026-10-13	Qualify duplicate wire visibility and confirm saved transport deficit
+759154254	2026-10-13	Fix duplicate visibility reapplication with empty hide lists
+ea835967e	2026-10-13	Preserve JEI startup failure and separate external removals
+2f34f425b	2026-10-13	Record item visibility compile and correct fixture invocation
+84ce8d305	2026-10-13	Stage duplicate item visibility from existing explicit owners
+5756a0d19	2026-10-13	Qualify native continent bounds and record exhaustive survey cost
+76de0e10a	2026-10-13	Preserve envelope admission failure and reuse qualified resource lookup
+2fea29430	2026-10-13	Derive bounded continent search with native contract admission
+3d00b512a	2026-10-13	Qualify whole near-surface formations with native ore writes
+bd9a321b3	2026-10-13	Prepare bounded native surface-depth placement qualification
+2a080482c	2026-10-13	Constrain proposed near-surface ores across planning and whole-formation fitting
+682793c54	2026-10-13	Qualify native block-column geographic census and retain startup failure
+aef732d58	2026-10-13	Preserve aquifer startup failure and reuse accepted guard in survey lab
+c05c445ec	2026-10-13	Add budgeted native geographic area census for resource allocation
+3733c7cc0	2026-10-13	Qualify all selected JEI fluid aliases and preserve recipe visibility
+ddaddf41e	2026-10-13	Qualify initial JEI hiding and pin native packet admission for held families
+9f779c97b	2026-10-13	Stage guarded JEI canonical fluid list visibility
+922164147	2026-10-13	Preserve preferred biodiesel in staged viewer cleanup candidate
+f10bbfe37	2026-10-13	Accept staged CO2 source-flowing correction for current consumers
+a97725136	2026-10-13	Compose CO2 acceptance after canonical identity pass; retain r110 failure
+ccea28a5f	2026-10-13	Stage exact CO2 source and flowing consumer compatibility
+639c0dfbe	2026-10-13	Qualify detached dust normalization and record remaining CO2 flowing gap
+6531ea185	2026-10-12	Qualify staged wire identity normalization and preserve item audit
+e8fcdd2e4	2026-10-12	Connect staged potion producers and pinned consumers
+d6509d196	2026-10-12	Resume bounded potion identity qualification
+ac9c91cc1	2026-10-12	Prepare combined transport unload and saved-cargo restart qualification
+a9d1ea248	2026-10-12	Stage selected-route item admission without changing existing cargo
+85d08bc37	2026-10-12	Preserve native buffered return flow in transport admission test
+413172d07	2026-10-12	Qualify native cable range admission and energy preservation
+34f131690	2026-10-12	Qualify nine bulk tank pickup paths and preserve specialized storage
+40ab806a8	2026-10-12	Qualify service-container limits and compose portable storage candidate
+1d1ee7af4	2026-10-12	Cap Stellaris portable tanks with native restart custody qualification
+f000d40a8	2026-10-12	Qualify reduced chemical tank restart and expose remaining portable storage gaps
+e392d2251	2026-10-12	Preserve chemical storage writer and prepare reader inventory coverage
+1b5aff3bc	2026-10-12	Compile distinct-process native chemical tank custody fixture
+dd2a277f3	2026-10-12	Stage portable chemical tank capacity proposal and isolated restart harness
+7595eef39	2026-10-12	Qualify full storage custody across reduced-capacity native restart
+2e825ca57	2026-10-12	Qualify full native storage writer and recover exact lab configuration
+2337e6b55	2026-10-12	Preserve failed storage fill and guard lab configuration restoration
+698ce8910	2026-10-12	Record storage writer native runtime launch failure
+27fa78a7b	2026-10-12	Compile native full-storage save and reduced-capacity restart fixture
+d47f9ea99	2026-10-12	Prepare isolated storage capacity restart qualification
+9da102e37	2026-10-12	Stage deterministic continent resource occurrence decision
+32f101da0	2026-10-12	Start one-decision-per-continent resource policy
+7c61c9ced	2026-10-12	Stage and validate remaining chart ore elevation bands
+da769c06f	2026-10-12	Start remaining chart elevation reconciliation
+d9cdb0e41	2026-10-12	Qualify exposed cinnabar geometry and protected native surface writes
+705dc75c0	2026-10-12	Implement selected exposed cinnabar concentration geometry and writer
+892c9735c	2026-10-12	Start exposed cinnabar surface placement
+f3779eceb	2026-10-12	Repair UTF-8 continuity checkpoint after native geography acceptance
+895e00dac	2026-10-12	Qualify installed ReTerraForged geographic sampling
+318cb98d0	2026-10-12	Preserve missing-context refusal and qualify captured terrain profile
+c55e9b3bb	2026-10-12	Add read-only native geographic sampling and qualification fixture
+b31f92e21	2026-10-12	Start actual geographic identity qualification
+96f0d7bf1	2026-10-12	Qualify finite formations against actual native terrain
+ccbbf378a	2026-10-12	Fit complete finite deposits before caching their final centers
+a6e624ab6	2026-10-12	Start whole finite-deposit terrain fitting
+dbddbd3fa	2026-10-12	Restrict osmium group to selected habitats and elevations
+390604419	2026-10-12	Start restricted osmium-group habitat and elevation policy
+7b71fcbc7	2026-10-12	Qualify native graphite host separation
+f678e44ad	2026-10-12	Separate ordinary graphite from diamond-bearing deep hosts
+f5bdfc3f6	2026-10-12	Start ordinary and diamond-associated graphite separation
+ef0841f25	2026-10-12	Qualify actual native ore elevation boundaries
+997ca0cd0	2026-10-12	Enforce ore elevations in small clusters and prepare native boundary test
+fbcd8656a	2026-10-12	Start small-cluster elevation closure
+889b09c64	2026-10-12	Support actual per-resource elevations and stage silver ceiling
+ff5cc59a7	2026-10-12	Retain native gold config proof and bounded negative search
+9605edf17	2026-10-12	Record per-resource actual-Y implementation scope
+c6b1463b7	2026-10-12	Preserve failed dimension assumption and use native normal preset
+586364d83	2026-10-12	Prepare installed-engine normal-terrain gold test
+dd2abeb0b	2026-10-12	Start isolated normal-terrain gold qualification
+8362aa2c3	2026-10-12	Stage chosen cold-region gold preference with planner verification
+08017ddc9	2026-10-12	Start chosen gold habitat correction from verified source gap
+85ee851f6	2026-10-12	Accept staged collision controls and restart matrix
+9e7809d16	2026-10-12	Prepare real low-speed and sliding collision controls
+600fc9042	2026-10-12	Preserve actual fragment and debris restart custody
+3d7b3d58c	2026-10-12	Prepare read-only native collision fragment restart audit
+eec4b8151	2026-10-12	Accept native collision breakup and exact debris custody
+6c94e127f	2026-10-12	Add actual collision fragmentation cargo fixture
+b9dfaea51	2026-10-12	Start collision-triggered fragment custody qualification
+8b7c691e3	2026-10-12	Accept staged bounded collision impact runtime and advance fracture work
+d838b9fbc	2026-10-12	Retain full long-run collision evidence and idle held sessions
+dc74c6e42	2026-10-12	Preserve event damage proof and remove test-era session expiry
+a40be1a79	2026-10-12	Connect explicitly armed collision damage to native physics and server events
+a51bd6f8e	2026-10-12	Record native structural collision damage and preserved cargo
+efb24b952	2026-10-12	Preserve native iron resistance result and prepare higher drop
+2fd83f053	2026-10-12	Stage ownership-bound collision hull damage with held intent records
+ab396df7c	2026-10-12	Implement conservative collision motion from immutable pre-step samples
+6ce492a1d	2026-10-12	Qualify pre-step geometry against all native drop contacts
+983ba2773	2026-10-12	Correct collision comparison using untouched native vectors
+64df1eed6	2026-10-12	Capture collision substep poses without consuming native contacts
+469aa6ea0	2026-10-12	Accept staged personal-flight limits with native mode and custody checks
+ec6914985	2026-10-12	Require actual boost eligibility before charging Stellaris fuel
+c0f431b56	2026-10-12	Stage paid Stellaris propulsion and preserve partial Ad Astra validation
+936fd1ed0	2026-10-12	Stage complete-cost Ad Astra propulsion and native balance checks
+7a139f0e0	2026-10-12	Correct rate-limited MekaSuit fuel recovery fixture
+62ce782a3	2026-10-12	Prepare native MekaSuit and Ad Astra flight boundary audit
+f4b228de8	2026-10-12	Pin remaining suit propulsion boundaries after worldgen acceptance
+5bb24bcf9	2026-10-12	Accept staged river gold and dragon-remains corrections
+357fbf14f	2026-10-12	Preserve river synthetic helper during scoped bytecode patch
+8177a0373	2026-10-12	Close staged ore suppression against registered acceptance requirements
+a9deb479e	2026-10-12	Isolate river placer patch and preserve failed full-class candidate
+ee02fb753	2026-10-12	Prepare scoped current-pack natural river qualification
+f9558346f	2026-10-12	Verify native dragon-remains suppression and prepare current river candidate
+d11ec7058	2026-10-12	Resolve external ore dimensions and prepare native dragon-generation check
+ee4a751fd	2026-10-12	Verify staged WWOO ore correction and preserve approved coal generation
+73ec95eba	2026-10-12	Qualify vent replacement and combine remaining worldgen checks
+101f6c7f9	2026-10-12	Preserve native terrain results and distinguish approved coal sources
+4fa25e393	2026-10-12	Stage conditional ore replacement in four mixed WWOO terrain features
+adbd7f483	2026-10-12	Correct ore placement probe observation before native validation
+c5058d6fb	2026-10-12	Inspect effective worldgen and preserve failed negative controls
+3b902ba15	2026-10-12	Distinguish archive-only features from actual ore registrations
+a88276d7d	2026-10-12	Prepare native ore suppression and normal terrain validation
+1b4182ccd	2026-10-12	Qualify portable balance settings and stage missing cave ore suppression
+ddc27dae6	2026-10-12	Initialize native backpack storage before upgrade tests
+1ba4dfe26	2026-10-12	Record transport fixture failure and current ore manifest audit
+355668472	2026-10-12	Prepare native backpack and personal rocket jetpack balance checks
+7852d7ea1	2026-10-12	Record native transport balance results and remaining pack coverage
+354a6ea44	2026-10-12	Preserve tank custody result and correct armored jetpack fixture ID
+e1c04d437	2026-10-12	Stage bounded transport and personal flight balance candidate
+a345c4ec7	2026-10-12	Park compiled potion candidate and reprioritize overnight work
+9fa53810e	2026-10-12	Record detached component-aware potion conversion scope
+d60354d18	2026-10-12	Accept native potion content and bottle preservation regressions
+d72c0bdda	2026-10-12	Preserve bottle regression failure and use native potion family match
+d3ee560a8	2026-10-12	Stage compiled Create bottle metadata preservation in Spellbooks
+1c43efae9	2026-10-12	Accept scoped potion preservation and stage bottle metadata follow-up
+621d2dd92	2026-10-12	Qualify exact potion baseline comparison with native cure sets
+b504a9eb6	2026-10-12	Preserve potion regression failure and correct saved JSON comparison
+856b5a8d6	2026-10-12	Stage compiled potion component preservation and native regression
+bf9521797	2026-10-12	Record native potion data loss and targeted correction scope
+2981553bd	2026-10-12	Compile native potion component and container baseline
+6fa2e9712	2026-10-12	Begin component-sensitive potion native baseline
+5b8369773	2026-10-12	Accept honey boundaries and pin potion component preservation audit
+34b3c3d1c	2026-10-12	Prepare native honey container output and effect boundary fixture
+ca6b0583d	2026-10-12	Accept neon container and tube boundary; prepare honey consumer audit
+feec62184	2026-10-12	Compile bounded neon bucket and tube consumer fixture
+c8b277c36	2026-10-12	Prepare neon item and fluid consumer boundary audit
+4ead7b9f4	2026-10-12	Accept creosote native boundaries and preserve viewer review policy
+53c2ae9b1	2026-10-12	Prepare full native creosote consumer fixture
+e2c606771	2026-10-12	Qualify Stellaris custody fixes and prepare creosote consumer audit
+bcfa56c0c	2026-10-12	Preserve failed Stellaris simulation and bound drains to actual custody
+b988355ca	2026-10-12	Stage complete-batch Stellaris fuel and refinery admission guards
+c9be97cd1	2026-10-12	Record actual Stellaris fuel and blocked-output losses
+61e9d1ec6	2026-10-12	Prepare owned Stellaris fuel and output custody baseline
+9431e758c	2026-10-12	Accept CO2 integration and identify Stellaris fuel custody boundary
+f76832d78	2026-10-12	Stage CO2 composition with preserved oxygen and hydrogen rules
+0f13edb56	2026-10-12	Qualify composed CO2 candidates and actual container exhaust boundaries
+17e23275b	2026-10-12	Prepare composed CO2 native recipe and container boundary test
+14bc265cd	2026-10-12	Accept petroleum reload integration and pin CO2 continuation
+3b6bfe90b	2026-10-12	Stage qualified petroleum output identities for full reload integration
+fb1d496b5	2026-10-12	Qualify actual TFMG cylinder and petroleum fuel compatibility
+227171c59	2026-10-12	Prepare native TFMG petroleum engine and cylinder compatibility fixture
+332bf43ec	2026-10-12	Qualify detached petroleum compatibility and record engine boundary
+86c4cfe16	2026-10-12	Prepare detached petroleum identity and fuel compatibility test
+98db81c5b	2026-10-12	Accept biodiesel integration and pin next petroleum boundary checks
+4b3a351af	2026-10-12	Stage biodiesel integration with composed plant-oil regression
+ae038c69c	2026-10-12	Qualify detached biodiesel chemistry and fuel compatibility
+54837f4a3	2026-10-12	Prepare detached biodiesel native compatibility test
+7143ce261	2026-10-12	Qualify plant-oil load reload and client integration; prepare biodiesel audit
+50cfa8930	2026-10-12	Stage guarded plant-oil integration and native reload fixture
+9ac6fd75f	2026-10-12	Accept detached plant-oil compatibility and prepare guarded integration
+b7a19df6b	2026-10-12	Prepare isolated plant-oil consumer and quantity qualification
+c2ab4a05a	2026-10-12	Accept scoped117-rule ethanol reload and client integration
+2be7dab0a	2026-10-12	Preserve recurring recipe-count failure and capture exact missing IDs
+8d2bef78e	2026-10-12	Qualify ethanol native packets and preserve client fuel expansion failure
+2a8ba53f8	2026-10-12	Preserve ethanol client failure and add exact native network comparison
+54aeadefb	2026-10-12	Record ethanol integration preflight and isolated profile restoration
+6869db8a5	2026-10-12	Stage nine ethanol output rules and combined reload qualification
+67fbede98	2026-10-12	Qualify detached ethanol outputs with disabled engine fuels preserved
+7fd027c24	2026-10-12	Preserve intentional ethanol engine disable in canonical audit
+cd1d7e8d3	2026-10-12	Preserve ethanol fuel refusal and inspect typed liquid boundaries
+e25b1625a	2026-10-12	Prepare guarded ethanol candidate and native consumer test
+4e30316f3	2026-10-12	Qualify staged reactor gas load reload and client integration
+5f00fdce7	2026-10-12	Integrate qualified reactor fluid identities for full reload validation
+d4ae9856c	2026-10-12	Qualify detached reactor gas candidates with exact native amounts
+9e88750cd	2026-10-12	Checkpoint corrected detached reactor qualification start
+f0bf8f333	2026-10-12	Preserve reactor fingerprint failure and correct native numeric tokens
+be6ae1e89	2026-10-12	Prepare detached native reactor gas admission with preserved quantities
+61a33c3e4	2026-10-12	Qualify oxygen recipe parity and inspect native reactor fluid schemas
+1a3eea47b	2026-10-12	Prepare exact oxygen recipe identity integration and native parity checks
+c2aa0dd1f	2026-10-12	Qualify sulfur oxide integration and retain remaining gas consumer holds
+21b60514d	2026-10-12	Stage composed sulfur oxide identities and native integration checks
+d5a520e9a	2026-10-12	Qualify HF load reload and client with accepted gem preservation
+ebb102a8f	2026-10-12	Prepare HF reload qualification with accepted gem dependency
+6ee449df1	2026-10-12	Identify accepted gem fix dependency in full HF reload audit
+b607c2818	2026-10-12	Use native entity predicates and verify composed rule refusal controls
+eaeb9c5af	2026-10-12	Preserve diagnostic context failure and compose sulfur oxide draft rules
+912f62044	2026-10-12	Qualify only native entity set ordering in HF baseline comparison
+1df25a89f	2026-10-12	Preserve HF baseline comparison failure and native rotary inventory
+cab204a68	2026-10-12	Stage exact hydrofluoric consumer and reload synchronization validation
+d630428e1	2026-10-12	Checkpoint hydrofluoric acid integration intent
+f629eef9c	2026-10-12	Qualify detached metal candidates and preserve native unit conflict evidence
+274929ae8	2026-10-12	Record metal boundary checks and running detached native validation
+47fe21ba3	2026-10-12	Hold metal unit conflicts and prepare detached candidate validation
+5678e61a9	2026-10-12	Capture current native material registry and identify metal compatibility gaps
+1846a3b98	2026-10-12	Record running catalog audit and documentation encoding correction
+9441e4720	2026-10-12	Prepare full native material and effective recipe catalog
+e86682a3d	2026-10-12	Checkpoint full native material catalog audit intent
+e5c88a921	2026-10-12	Qualify acid normalization across reload and new client synchronization
+908cec71c	2026-10-12	Qualify canonical acid roundtrip and prepare reloaded client verification
+835e4bb58	2026-10-12	Preserve acid tag gap and stage canonical rotary compatibility
+e1fe30223	2026-10-12	Qualify actual fluid resource reload and prepare client sync audit
+fafff65c0	2026-10-12	Qualify initial fluid normalization and prepare full resource reload
+a78b4d6f9	2026-10-12	Explain numeric comparison failure without changing recipe data
+a595628f0	2026-10-12	Retain fluid hook integration failure and stage exact difference capture
+a6701ca0e	2026-10-12	Preserve prelaunch fluid failure and reject stale script logs
+9753cfd31	2026-10-12	Stage guarded effective fluid recipe hook and native consumer test
+e5db1c072	2026-10-12	Checkpoint guarded effective fluid integration intent
+58fb11233	2026-10-12	Verify current effective fluid candidates with native codec preservation
+b19a21683	2026-10-12	Capture effective recipes and prepare native identity-only candidates
+b2251dac6	2026-10-12	Verify exact profile restoration and stage effective fluid identity comparison
+905653cfa	2026-10-12	Stage effective native fluid recipe capture with exact profile reuse
+8bb544205	2026-10-12	Qualify current-client fluid observations and pin preexisting recipe errors
+f7e98a325	2026-10-12	Reuse qualified Jade captions and retain typed item boundaries
+1e83daf40	2026-10-12	Pin offline isolated client profile and existing item ownership
+29d07c48e	2026-10-12	Preserve headless failure and stage integrated-client fluid audit
+9d11cf7b7	2026-10-12	Pin complete current-pack inputs and strict fluid audit admission
+ded92140a	2026-10-12	Prepare isolated current-pack fluid audit snapshot
+a573d9d0e	2026-10-12	Record current-script audit limits and dependency closure
+17e711abe	2026-10-12	Add guarded current-script snapshot for isolated validation
+05ec28d96	2026-10-12	Qualify loaded helpers and distinguish current script baseline
+9fb27aa9f	2026-10-12	Prepare native loaded fluid output validation
+273544007	2026-10-12	Begin loaded canonical fluid recipe audit
+814ed96b4	2026-10-12	Qualify exact canonical fluid tag preference
+5748a7683	2026-10-12	Stage exact canonical Hilt fluid output preference
+66ec8b60f	2026-10-12	Record native shared steel tag preference mismatch
+559b927fd	2026-10-12	Audit typed fluid tags and prepare native preference check
+0065c73f9	2026-10-12	Begin canonical fluid tag consumer closure
+831cde356	2026-10-12	Qualify staged optional metal bucket transport repair
+f0ac154fd	2026-10-12	Stage guarded optional metal bucket capability repair
+ec61de5e6	2026-10-12	Diagnose optional bucket capability gap
+226c5e823	2026-10-12	Prepare targeted native bucket diagnostics
+367356be5	2026-10-12	Record native fluid bucket failures and preserved passes
+33c2d6907	2026-10-12	Prepare native fluid family and bucket inventory
+7b1004624	2026-10-12	Qualify native fluid identity codec roundtrips
+013ae4e16	2026-10-12	Prepare isolated native fluid codec qualification
+f3d84fc32	2026-10-12	Stage exact fluid identity substitutions with registry guards
+3e2df8be7	2026-10-12	Audit typed fluid and chemical conversion boundaries
+aea35a599	2026-10-12	Preserve installed rolling-only copper policy
+f0faac5fa	2026-10-12	Qualify staged copper wire identity substitutions
+b5dac9ef4	2026-10-12	Stage canonical material consumer audit
+deb272a3e	2026-10-12	Stage native NuclearCraft manufacturing cards
+24d2e200c	2026-10-12	Preserve conditional Create processing recipes
+dd07f6960	2026-10-12	Audit staged recipe condition availability
+8de61dffc	2026-10-12	Stage native Create item application cards
+7bc3b6f31	2026-10-12	Stage native Crystal Assembler recipe cards
+14498cf49	2026-10-12	Qualify yield data on native Seared Melter
+2f54b00f0	2026-10-12	Add staged native AE2 inscriber recipe cards
+9bf999ddf	2026-10-12	Stage deferred river gold and dragon remains worldgen corrections
+cd0d6bacf	2026-10-12	Stage per-input Seared yield data with native codec fixture
+423efff09	2026-10-12	Stage read-only collision observer and isolated native fixture
+dfb340f46	2026-10-12	Prepare space combat balance proposal and enforce seven-wide crafting cap
+dc4f9c4f5	2026-10-12	Stage native machine cards and repair acquisition dependency cycles
+149cdb739	2026-10-12	Preserve conditional crafting and Mekanism data in staged recipe cards
+7a9dfa27e	2026-10-12	Validate processing card generation and recover canonical copper standard
+e6bb6b3e4	2026-10-12	Stage 1188 native-baseline recipe cards and verify editor roundtrip
+345b1dbe8	2026-10-12	Record active recreated overnight priority goal
+21efed6be	2026-10-12	Register user-requested overnight priority expansion and card checklist
+ddf33a3db	2026-10-12	Apply reviewed equipment exclusions and jetpack transport policy
+fd6d6bd9d	2026-10-12	Keep basic mechanisms available before dependent Weathered Iron machines
+41a1ba0f0	2026-10-12	Finalize reviewed item list before card-authoring batch
+c2a5c04d1	2026-10-12	Omit disabled machines and unchanged basics from target list
+7762336a3	2026-10-12	Exclude slag byproducts from acquisition recipe targets
+332808a89	2026-10-12	Remove unchanged foods and add ore extraction review targets
+2eb90fb9d	2026-10-12	Place Refined Radiance within nuclear-age manufacturing
+90fd81042	2026-10-12	Apply factory installer and canonical wire review rules
+6b740db5e	2026-10-12	Apply unchanged-item exclusions and mechanism review requirement
+d2ee2736d	2026-10-12	Combine machines and manufactured outputs in progression review table
+79d542b4c	2026-10-12	Restore full functional machine tiers to construction review list
+182f38727	2026-10-12	Narrow recipe review to finished construction targets only
+713ef1d0a	2026-10-12	Prepare progression item inventory and rename material processing project
+58b514563	2026-10-12	Clarify fireproof lining rule preserves furnace routes
+57cd2eda1	2026-10-12	Require fireproof vats for molten-fluid editor cards
+c493ae9be	2026-10-12	Include bronze infusion alternatives in alloy replacement plan
+3a2bfb112	2026-10-12	Add reviewed alloy editor cards and targeted replacement plan
+c2f938ce4	2026-10-12	Retain existing alloy recipes and record recovery card audit
+f3b3c4663	2026-10-12	Record draft carbon dioxide exhaust for coke-fed vat recovery
+aed4d28be	2026-10-12	Record recipe recovery cards and lossless editor format correction
+564d4a833	2026-10-12	Carry explicit player target approvals through staged encounter control
+42a653be5	2026-10-12	Accept genuine multiplayer authority and concurrent native encounter load
+6f0c473a0	2026-10-12	Stage joint genuine-player concurrent encounter load validation
+c8074b4b4	2026-10-12	Qualify genuine two-client native packet authority and tick baseline
+181d8764d	2026-10-12	Correct real-client command observer to native server dispatch
+962483e9f	2026-10-12	Preserve failed real-client trial and add shutdown and tick diagnostics
+6f9960cb8	2026-10-12	Prepare genuine client packet authority after memory prerequisite changed
+b02847edc	2026-10-12	Qualify concurrent native encounter custody and retain multiplayer authority gap
+8e3a0b9f7	2026-10-12	Accept direct native firing controls and prepare concurrent server regression
+d783949a1	2026-10-12	Qualify direct public global firing interruption and prepare individual command
+c6b175669	2026-10-12	Accept actual moving recoil damage and require direct public firing interruption
+dfaa02c39	2026-10-12	Accept native operator controls and prepare moving damage and recoil observations
+bb5781b84	2026-10-11	Register actual staged command with pinned native dependency closure
+115c2906d	2026-10-11	Preserve post-recoil aim refusal and qualify commands before firing
+2fb1879c6	2026-10-11	Preserve strict sequence refusal and use ordinary native command cadence
+c55538492	2026-10-11	Preserve invalid fixture range refusal and prepare valid nonfiring approach
+62d1683b4	2026-10-11	Preserve missing-hook admission refusal and test current native command code
+c7712c4ee	2026-10-11	Accept native encounter held recovery and prepare public command integration
+1f4ec60f7	2026-10-11	Preserve quarantine fixture count failure and audit all twelve thrusters
+d87608b1c	2026-10-11	Preserve actual active encounter halt and prepare native quarantine reader
+ea34647bd	2026-10-11	Qualify post-shot native held restart and prepare active crash quarantine
+f7581a376	2026-10-11	Qualify actual post-shot held save and prepare fresh native restart
+30032e2f4	2026-10-11	Preserve settled post-shot evidence and correct casing lifetime assertion
+4524599d0	2026-10-11	Allow bounded native cooldown settling without omitting cannon custody
+5cea66717	2026-10-11	Preserve post-shot unsettled custody refusal and prepare full diagnostics
+2a20d8646	2026-10-11	Qualify native held refusal controls and prepare actual post-shot save
+228227d85	2026-10-11	Preserve negative fixture restoration failure and require genuine budget refusal
+79f692630	2026-10-11	Prepare native restored encounter custody and budget refusal controls
+355b71025	2026-10-11	Qualify original native pre shot encounter custody and held restart
+febff8d2f	2026-10-11	Qualify moving native attack stop save and prepare fresh process custody reader
+b42d078af	2026-10-11	Require consecutive native custody stability after physical encounter stop
+61b81839a	2026-10-11	Identify actual RCS and cannon settling before encounter custody checkpoint
+4094e23f2	2026-10-11	Preserve native held checkpoint and diagnose full next tick custody drift
+ad3262347	2026-10-11	Preserve native cache drift and stage verified controller metadata re-query
+813a3abbc	2026-10-11	Preserve moving session cache refusal and capture actual native cache diagnostics
+b140ceee3	2026-10-11	Bind explicit native encounter session to durable held custody checkpoints
+e7d720fbc	2026-10-11	Stage native encounter custody binding without new NBT omissions
+2969891bc	2026-10-11	Stage durable encounter journal with held reload and verified atomic metadata
+b2f9bfa19	2026-10-11	Begin durable encounter lifecycle journal while preserving held custody roster
+bfaeb93c5	2026-10-11	Accept bounded native firing protection and actual turret lifecycle controls
+5c477b031	2026-10-11	Qualify target claim admission refusal and stage actual turret lifecycle tests
+d916fcdd1	2026-10-11	Qualify individual native admission stop and stage target claim protection
+0b138fd6a	2026-10-11	Qualify global native admission stop and prepare individual disable case
+cdb41f04d	2026-10-11	Qualify current native shot reentry refusal and stage global admission interruption
+a10f96d79	2026-10-11	Prepare genuine moving native shot reentry interruption with casing custody
+68f071074	2026-10-11	Accept moving native firing and zero or nonzero mechanical override controls
+e33dc4563	2026-10-11	Qualify actual moving source fire and prepare mechanical override controls
+7dd06d216	2026-10-11	Stage explicit bounded mount rotation reader with mechanical override interruption
+231dbd1a7	2026-10-11	Pin native kinetic maintenance reset and prepare scoped mount reader authority
+88498da8b	2026-10-11	Preserve setter trace and qualify direct native kinetic validation reset
+58ca53e73	2026-10-11	Trace native kinetic reset before changing moving turret authority
+76a8388ee	2026-10-11	Preserve actual native moving source and diagnose turret refusal precisely
+3026f9c0a	2026-10-11	Preserve prolonged native pose stall and stage opposite bounded motion demand
+037eec7fa	2026-10-11	Correct r2 pose diagnostic serialization and preserve compiler refusal
+b08e19214	2026-10-11	Preserve native pre-shot pose stall and stage stronger bounded RCS coast
+8a0aba5b5	2026-10-11	Correct moving-fire fixture JSON serialization and preserve compile failure
+502a71298	2026-10-11	Stage actual finite RCS motion before guarded native firing
+b59660dc4	2026-10-11	Accept native attack retreat and nonresuming target global individual loss controls
+a4fdd67cd	2026-10-11	Accept native finite shot physical retreat and exact spent casing retention
+2700031b2	2026-10-11	Stage exact native spent casing custody for finite attack retreat
+3800eb43b	2026-10-11	Identify actual native spent casing blocking retreat without removing output
+0e4ba48a6	2026-10-11	Preserve safe stock recoil and stage exact post-shot entity census
+61a85807e	2026-10-11	Preserve measured stock mass recoil and stage symmetric physical ballast
+dd213119f	2026-10-11	Preserve guarded native shot and recoil hold before physical ballast trial
+1da547b7a	2026-10-11	Accept native assembly refusal controls and preserve recoil envelope refusal
+11be35c79	2026-10-11	Qualify full native orbital flight volume and preserve assembly height refusal
+652cd630c	2026-10-11	Stage full owned cannon geometry in conservative movement clearance
+7d9407d53	2026-10-11	Qualify native mounted gun coordinate mismatch without bypassing collision guard
+9ee785870	2026-10-11	Preserve mounted entity collision refusal and stage native geometry census
+1df9d5570	2026-10-11	Preserve stale hull refusal and fix encounter fixture sampling gap
+bbcf80d78	2026-10-11	Preserve native encounter admission failure and add actual diagnostics
+5a8480df5	2026-10-11	Compile explicit encounter and prepare native guarded attack retreat trial
+b1b8f0337	2026-10-11	Stage explicit native attack retreat controller and turret ownership
+2071f5ee5	2026-10-11	Accept bounded native retreat with exact cargo and nonresuming holds
+6a1587120	2026-10-11	Preserve retreat launch failure and verified lab cleanup
+004fb73a9	2026-10-11	Stage bounded native retreat component and isolated verification
+09611e16c	2026-10-11	Accept native frame-bound pursuit with nonresuming lifecycle holds
+a38e8b617	2026-10-11	Stage native frame-bound pursuit and lifecycle qualification fixture
+1f7d7aed9	2026-10-11	Accept native moving collision avoidance and continue pursuit
+6460ccbff	2026-10-11	Preserve native refusal failure and include envelope dependency
+4b589d488	2026-10-11	Accept native moving pair and prepare collision refusal controls
+a666bc748	2026-10-11	Update native motion task resume points and evidence limits
+aa9d48144	2026-10-11	Preserve exact native target stall and prepare bounded thrust test
+25bc732ba	2026-10-11	Preserve native motion failure and extend exact coast diagnostic
+388dedc6a	2026-10-11	Prepare native headless leased motion collision fixture
+cbb567d4f	2026-10-11	Verify actual headless orbital dimension bootstrap
+1ee0128f6	2026-10-11	Prepare authentic headless native dimension fixture
+4771cd3f6	2026-10-11	Accept native mounted held crash recovery with exact custody and budget
+283dda971	2026-10-11	Record actual isolated held JVM halt and preserved recovery seed
+96fce162a	2026-10-11	Prepare guarded isolated mounted roster held crash test
+fbb99bc73	2026-10-11	Accept complete native mounted block budget reconstruction
+206a81c8f	2026-10-11	Count separately registered cannon blocks in held encounter budgets
+765afc5c3	2026-10-11	Accept held mounted roster restart and identify external block budget gap
+599562819	2026-10-11	Qualify native mounted roster writer and sealed exact budget
+98e4d1edd	2026-10-11	Stage disarmed mounted cannon roster with strict saved-data schema
+4c7702fe7	2026-10-11	Qualify actual native mounted custody change detection
+3744c7feb	2026-10-11	Accept full native mounted cannon restart and stage live-change controls
+c2a6d03ba	2026-10-11	Qualify stable native mounted cannon custody writer
+8e268fe29	2026-10-11	Checkpoint mounted cannon custody audit and isolated native fixture
+92c80abec	2026-10-11	Accept native controller-verified roster writer and test held restart
+c79043e5b	2026-10-11	Compile controller-verified roster schema and retain mounted motion failure
+dd7579140	2026-10-11	Isolate exact native coordinate cache mismatch and stage bounded repair
+a4b658d2a	2026-10-11	Record instrumented roster writer and compile mounted settling fixture
+7272312bf	2026-10-11	Stage exact custody diagnostics and preserve longer muzzle refusal
+5d7e2a8a2	2026-10-11	Preserve native roster custody mismatch before any repair
+f2d1203ba	2026-10-11	Record native held roster writer and stage copied-world restart
+f59f5839f	2026-10-11	Preserve conservative moving refusal and stage native roster restart fixture
+e9455f689	2026-10-11	Preserve angular reserve reader refusal and compile moving r4
+a0c6babd3	2026-10-11	Stage held native encounter roster and preserve moving caller refusal
+be74a806f	2026-10-11	Preserve moving speed refusal and record native prefire motion
+2581a49f1	2026-10-11	Accept real shutdown callback and compile native moving-hull shot
+a4ad08ebb	2026-10-11	Accept actual main authorized target damage and prepare lifecycle reader
+70de74f62	2026-10-11	Accept actual cannon watchdog and compile shutdown event observation
+94694cb36	2026-10-11	Accept exact-source main interruption and prepare authorized damage reader
+277107b9c	2026-10-11	Preserve individual fixture failure and restore exact control identity
+0e173a934	2026-10-11	Accept main global interruption and compile actual event watchdog
+27c15018a	2026-10-11	Accept main reentry refusal and harden next fixture preflight
+f9ca55861	2026-10-11	Preserve wrapper path failure and compile main control fixtures
+67f00b3df	2026-10-11	Accept integrated damage guard and compile main reentry fixture
+a78db2f81	2026-10-11	Preserve integrated damage failure and guard exact native damage invocation
+1412fdbde	2026-10-11	Stage optional main cannon guards and compile observer-only native fixture
+082066b1b	2026-10-11	Accept exact native firing reentry refusal and pin integration next step
+2b166c8d0	2026-10-11	Compile nested native firing reentry refusal fixture
+2940dcd5c	2026-10-11	Accept native individual control loss before projectile admission
+42046cfca	2026-10-11	Compile exact individual control loss at native emission boundary
+7b67deb34	2026-10-11	Accept native global control loss before projectile admission
+74df5ae66	2026-10-11	Compile actual global-disable interruption at native projectile admission
+3faf91db4	2026-10-11	Accept exact native finite emission and conditional source clearance
+fdd8ef994	2026-10-11	Preserve fixture edit failure and add verified native barrel part
+169d9dc32	2026-10-11	Preserve short-muzzle refusal and compile longer native cannon fixture
+0bd3bc007	2026-10-11	Preserve receiver settlement timeout and use accepted bounded allowance
+93fe9892b	2026-10-11	Preserve native terrain refusal and prepare clear finite-fire fixture
+3d1be6275	2026-10-11	Stage guarded finite cannon admission and compile native fixture
+4f60f5859	2026-10-11	Accept full native generator wire Arc layout with exact energy custody
+0959a5e2a	2026-10-11	Preserve grid launch failure and correct native template namespace
+5347b860a	2026-10-11	Prepare full native generator wire Arc qualification
+dacd55586	2026-10-11	Compile native Dynamo energy meter for older powered grid qualification
+8a0f2b8e3	2026-10-11	Qualify native runtime projectile cleanup and resume older grid work
+16bb6de22	2026-10-11	Stage server-scoped owned projectile cleanup and native fixture
+595744d12	2026-10-11	Qualify fresh native owned projectile orphan refusal
+2c69b2246	2026-10-11	Capture actual native owned projectile snapshot for fresh-process reader
+37bace057	2026-10-11	Prepare actual owned entity writer and fresh native orphan reader
+8c593b2d8	2026-10-11	Qualify exact native projectile custody and checkpoint orphan-reader proof
+d576d5519	2026-10-11	Stage exact projectile custody and native marker qualification
+df423e979	2026-10-11	Qualify native living-hit protection and checkpoint exact projectile ownership
+949209318	2026-10-11	Qualify native claim-at-impact denial and prepare living-hit stop
+973ac9424	2026-10-11	Preserve safely refused stale-hull impact and prepare continuous custody check
+705d89392	2026-10-11	Prepare native impact claim and finite control qualification
+4c9e58804	2026-10-11	Qualify earliest native projectile stop and stage finite impact authority
+f5a8a2f53	2026-10-11	Prepare native earliest-penetration stop and custody qualification
+4d2ad4011	2026-10-11	Qualify modified-ammunition refusal and checkpoint native impact-stop plan
+9ef03a114	2026-10-11	Restrict stock projectile profiles and prepare native altered-ammo refusal
+b3c336d37	2026-10-11	Qualify conditional full-lifetime native projectile corridor
+90397127c	2026-10-11	Diagnose correct alignment refusal and prepare bounded native realignment
+d09f3b1fe	2026-10-11	Preserve full corridor controls and diagnose friendly admission freshness
+3e4aef895	2026-10-11	Record physical settlement and preserve pointing-count failure
+9f0127148	2026-10-11	Preserve second corridor settlement failure and add motion diagnostics
+c2c585cc2	2026-10-11	Preserve corridor settlement failure and prepare wider receiver base
+615f7d34f	2026-10-11	Stage full-lifetime projectile environment corridor audit
+66886e6fd	2026-10-11	Qualify nonzero native launch spread and dry flight envelope
+bf0de9c30	2026-10-11	Stage native nonzero-spread launch envelope qualification
+d0336afa8	2026-10-11	Qualify independent loaded projectile profile against native shot
+a16114615	2026-10-11	Synchronize native projectile forecast resume point
+2af0623b2	2026-10-11	Stage loaded projectile forecast and native launch comparison
+1f96328a9	2026-10-11	Record exact native projectile integration and continuation requirements
+a5f0f60d1	2026-10-11	Accept individual cannon stop controls and prepare native projectile model check
+b2a610eae	2026-10-11	Accept native disarmed cannon stop and prepare individual watchdog controls
+9bdf58e6c	2026-10-11	Preserve isolated command branch dependency failure and scoped repair
+6cb6dae59	2026-10-11	Preserve cannon hold native command-registration failure and corrected fixture
+f7100e69c	2026-10-11	Stage disarmed cannon hold and native stop qualification
+fa5b11db0	2026-10-11	Record native partial damage and exact shot custody
+81cf949dc	2026-10-11	Preserve actual native shot attribution receipt and frozen observer sources
+0c8eee1fb	2026-10-11	Checkpoint native hit attribution and damage observation fixture
+ad80491ad	2026-10-11	Preserve finite shot observations and add native force and impact audit
+4120e1c32	2026-10-11	Accept native friendly obstruction and prepare finite projectile observations
+b432f41fb	2026-10-11	Preserve no-motion pursuit failure and advance native friendly obstruction
+380979537	2026-10-11	Checkpoint running contact-supported pursuit and immediate continuation
+a9bd142a9	2026-10-11	Accept native obstruction observations and continue supported pursuit
+61d03e0b3	2026-10-11	Reject sleeping lift as support and preserve native pursuit failure
+a614e94bc	2026-10-11	Preserve native ray obstruction refusal and prepare supported pursuit
+214425899	2026-10-11	Stage native projected weapon obstruction reader and isolated controls
+df644d22b	2026-10-11	Accept bounded stationary and moving native ship aiming
+09efde888	2026-10-11	Preserve stationary aim observation failure and extend test window
+85357f437	2026-10-11	Accept moving aim limits and prepare stationary native pointing
+453336a30	2026-10-11	Qualify bounded native moving aim and prepare refusal holds
+3c2b96e28	2026-10-11	Stage bounded disarmed native turret pointing
+17b908f13	2026-10-11	Record resumed work and active staged continuation
+d40110a7a	2026-10-11	Verify native moving target freshness and authority refusal
+00973d498	2026-10-11	Stage guarded physical hostile target observation
+9d1aec03a	2026-10-11	Qualify native turret pitch yaw and disarmed hold
+ceb84484f	2026-10-11	Checkpoint resumed native weapon actuator qualification
+aa43873c2	2026-10-11	Checkpoint overnight task acceptance and guarded native weapon frame evidence
+c249a8171	2026-10-11	Preserve native weapon frame missing dependency and repair fixture manifest
+01639eb4e	2026-10-11	Preserve native physical muzzle proof and prepare guarded frame qualification
+d96caeff9	2026-10-11	Prepare native moving cannon projectile frame audit
+14b32f50a	2026-10-11	Accept finite native ammunition and held restart custody
+22cec903d	2026-10-11	Record finite native ammunition consumption and held reader preparation
+d615e4916	2026-10-11	Respect native ammunition cooldown and prepare held restart reader
+2a6fe57c6	2026-10-11	Preserve ammunition fixture crash and scope missing planet-data fallback
+8232b6e89	2026-10-11	Park unsafe pursuit fixture and prepare finite native ammunition audit
+55c7feec1	2026-10-11	Retain powered lift speed refusal and measure expanded fixture
+d6b6f971f	2026-10-11	Require measured lift settling before native pursuit
+54f1c48b9	2026-10-11	Retain pursuit speed refusals and prepare native levitite fixture
+353115893	2026-10-11	Accept measured guarded local NPC flight
+e9466812d	2026-10-11	Stage bounded native NPC pursuit qualification
+dac3df1ad	2026-10-11	Accept native enemy capability and damage-control scopes
+6373d205f	2026-10-11	Stage finite guarded enemy flight and native weapon audits
+b1e1b80de	2026-10-11	Qualify native propulsion and power capability observations
+6c9d14c36	2026-10-11	Stage bounded read-only enemy capability sampling
+fc50446c3	2026-10-11	Qualify bounded native enemy placement and scheduling
+bf3b0eed9	2026-10-11	Accept native encounter budget reconstruction after restart
+600ccb088	2026-10-11	Accept native NPC target gates and stage survivor budget reconstruction
+d525a4862	2026-10-11	Checkpoint persisted native NPC identity and target gates
+fe683ea66	2026-10-11	Accept bounded native enemy fragment identity and custody
+fd2ef90df	2026-10-11	Accept staged native enemy hull change detection
+f270da832	2026-10-11	Checkpoint native hull split proof and expanded topology observer
+3f96a048a	2026-10-11	Start staged enemy hull damage qualification
+9406e5e97	2026-10-10	Stage independent chemical vat attachment controls
+28594ca59	2026-10-10	Correct fireproof iron recovery output and record vat direction
+738589515	2026-10-10	Add complete production outputs and recovery reference tables
+1710b760e	2026-10-10	Consolidate world generation and production balance tables in README
+ab29e163d	2026-10-10	Apply draft diamond recovery chance and preserve removed coal cards
+b45a54ec0	2026-10-10	Add reviewed and draft ore crushing cards in dedicated editor project
+b523b5709	2026-10-10	Record chromium crushing counts and fireproof recovery target
+c729686f3	2026-10-10	Record flake visual acceptance and excessive dead dragon spawns
+801077bc1	2026-10-10	Reduce gold flake inventory and held size
+a36ab1cdb	2026-10-10	Install approved thin vanilla gold flake item model
+ba15a62e1	2026-10-10	Restore warm ground gold and stage vanilla nugget based flake
+b73b94c36	2026-10-10	Vary ground gold flecks and correct placeable inventory model
+32a300793	2026-10-10	Revise gold flake lighting and icon; hide redundant hot blast picker
+6f7dd381f	2026-10-10	Consolidate vat picker while preserving saved recipe compatibility
+cd0309dac	2026-10-10	Deliver JEI-style vat and blast furnace editors with scoped preservation
+ed1e57be8	2026-10-10	Record approved gold-flake visuals and one-to-three drop delivery
+ec17a2050	2026-10-05	Checkpoint recipe-independent machine and world-generation validation
+3b361cde9	2026-09-26	Stage bounded massive deposit generation and current survival audit
+9322efb10	2026-09-26	Start isolated overnight world and survival integration
+237423f4f	2026-09-26	Add symmetric same-cost Weathered fan comparison drafts
+0ac703739	2026-09-26	Add three Weathered review drafts and verify safe automatic refresh
+dc6769825	2026-09-26	Clarify stress demand across all machine tiers
+56a52f3f9	2026-09-26	Record tier stress direction and sequence Splashing limits
+ff2e24576	2026-09-26	Label sequence blasting as Fan heating using client resource
+d5a959871	2026-09-26	Verify deployer move and prepare rod equivalence candidate
+e8ab54f84	2026-09-26	Record frame rod edit and safe deployer move resume point
+49f52f3a0	2026-09-26	Checkpoint automatic recipe project refresh
+b310de55e	2026-09-26	Checkpoint automatic recipe project refresh
+911113a19	2026-09-26	Checkpoint automatic recipe project refresh
+b863845b5	2026-09-26	Checkpoint automatic recipe project refresh
+407a069cf	2026-09-26	Checkpoint automatic recipe project refresh
+81bfbbc69	2026-09-26	Checkpoint automatic recipe project refresh
+d2c716204	2026-09-26	Checkpoint safe live recipe project refresh
+390e90e14	2026-09-26	Checkpoint safe live recipe project refresh
+ee1525157	2026-09-26	Stage guarded live recipe project refresh
+ece516aa9	2026-09-26	Checkpoint safe live project refresh investigation
+53f89571c	2026-09-26	Document complete task, design and Git handoff
+1fc7e5a75	2026-09-26	Checkpoint editor performance fixes
+283652f52	2026-09-26	Checkpoint editor performance fixes
+38b8a2952	2026-09-26	Checkpoint independent KJSGen editor rendering
+9ee908612	2026-09-26	Checkpoint independent KJSGen editor rendering
+8ecddfa8a	2026-09-25	Checkpoint native KJSGen desktop projection
+3db690b21	2026-09-25	Checkpoint native KJSGen desktop projection
+90c778a2b	2026-09-25	Checkpoint separate desktop recipe editor prototype
+dbc43144d	2026-09-25	Checkpoint separate desktop recipe editor prototype
+603f91d3f	2026-09-25	Checkpoint editor window sizing and comments panel correction
+642666ab9	2026-09-25	Checkpoint editor window sizing and comments panel correction
+c79d398f2	2026-09-25	Checkpoint original recipe review and installation evidence
+9a57c16cb	2026-09-25	Checkpoint original recipe review and installation evidence
+11f696df7	2026-09-25	Checkpoint original recipe review and installation evidence
+85f93ed35	2026-09-25	Checkpoint original recipe review and installation evidence
+82265f3f3	2026-09-25	Checkpoint original recipe review and installation evidence
+33e5484e3	2026-09-25	Checkpoint original recipe review and installation evidence
+ff5cf1cd8	2026-09-25	Install recipe approval and project-move controls
+43ac955cd	2026-09-25	Stage reversible original recipe review and missing-item audit
+ac05e3058	2026-09-25	Stage reversible original recipe review and missing-item audit
+bf963bfa7	2026-09-25	Add personal recipe review and safe project move controls
+8d1901c94	2026-09-23	Install verified Mixing Compacting and timed fan sequence extension
+7a93f8503	2026-09-23	Stage extended assembly runtime editor and isolated integration tests
+3eaf4b337	2026-09-23	Install tested KJSGen scrollbar heat and basin editor bundle
+a1dd6cbd8	2026-09-23	Guard sequence exports against silently replacing unsupported stages
+50bcbf77b	2026-09-23	Add Create Low Heated option to mixing and compacting editors
+e8074265d	2026-09-23	Checkpoint Create Low Heated editor support
+9716a5a08	2026-09-23	Verify existing mixing and compacting heat options
+b1ff2ad67	2026-09-23	Separate KJSGen scrollbar from recipe deletion and add dragging
+42784330b	2026-09-23	Checkpoint recipe scrollbar overlap diagnosis
+d54c45fc7	2026-09-23	Stage basin melting editor and zinc-first bootstrap policy with checks
+60ce8cd77	2026-09-23	Checkpoint basin editor and zinc bootstrap work in progress
+720100d57	2026-09-23	Record pre-space dungeon and boss progression with Hydra prerequisite
+3a9fb676c	2026-09-23	Specify temporary yes-no prospecting stick
+9749f22e9	2026-09-23	Record TFC ground rocks as prospecting appearance reference
+c23f3cf71	2026-09-23	Record prospecting rock options and existing clue support
+20886a5c4	2026-09-23	Plan Dungeon Now Loading structures exclusively on Earth
+d9eb98a18	2026-09-22	Preserve rare small hematite pockets in geology plan
+82d4a9b5d	2026-09-22	Record surface ore limits and rare massive hematite direction
+05178f086	2026-09-22	Record rare mineshaft-only extraction nodes and preserve approved vein appearance
+882b45497	2026-09-22	Diagnose thin magnetite body around reported working mineshaft
+228831d47	2026-09-22	Record Darker Depths Void Soul Knights and Catacombs on Mars
+6df6d3bc5	2026-09-22	Add mob disable catalog and record Remnant rat request
+713b78bed	2026-09-22	Consolidate all deferred boss and planetary progression notes in readmes
+b3bcc26fd	2026-09-22	Record Earth encounter scope and separate planetary End progression plan
+1d0f9acbb	2026-09-22	Record deferred planetary boss progression and portal energy requirements
+3552e57fc	2026-09-22	Record deferred Saturn moon boss placements and terrain layers
+bb939ebb4	2026-09-22	Record planned Saturn moon ocean habitat for Hullbreaker
+defbddc3f	2026-09-22	Record disable-request dropdowns in both master catalogs
+7e46ba97e	2026-09-22	Checkpoint 187 verified boss pictures and 14 explicit remaining references
+2f53e13de	2026-09-22	Checkpoint 160 published boss portraits and reviewed final asset batch
+0f0572ab8	2026-09-22	Checkpoint boss spawn column and 118 published portraits
+ad480ae47	2026-09-20	docs: reconcile web progress and make README the shared handoff

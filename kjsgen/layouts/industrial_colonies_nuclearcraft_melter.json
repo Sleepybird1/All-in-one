@@ -1,0 +1,54 @@
+{
+  "id": "industrial_colonies:nuclearcraft_melter",
+  "mod": "nuclearcraft",
+  "icon": "nuclearcraft:melter",
+  "width": 156,
+  "height": 62,
+  "slots": [
+    {
+      "key": "in0",
+      "role": "INPUT",
+      "x": 8,
+      "y": 8,
+      "required": true,
+      "item": true,
+      "count": false
+    },
+    {
+      "key": "output",
+      "role": "OUTPUT",
+      "x": 130,
+      "y": 20,
+      "required": true,
+      "item": false,
+      "fluid": true,
+      "count": true
+    }
+  ],
+  "decorations": [
+    {
+      "type": "ARROW",
+      "x": 94,
+      "y": 20
+    }
+  ],
+  "parameters": [
+    {
+      "key": "energyPerTick",
+      "type": "INT",
+      "default": "50"
+    },
+    {
+      "key": "processTime",
+      "type": "INT",
+      "default": "200"
+    },
+    {
+      "key": "__template",
+      "type": "STRING",
+      "default": "event.custom({type:'nuclearcraft:melter',item_inputs:[{item:Item.of({slot:in0}).id,count:Item.of({slot:in0}).count}],fluid_outputs:[{fluid:({slot:output}).id,amount:({slot:output}).amount}],energy_per_tick:{param:energyPerTick},process_time:{param:processTime}})"
+    }
+  ],
+  "codegen": "kjsgen:template",
+  "requiresMod": "nuclearcraft"
+}

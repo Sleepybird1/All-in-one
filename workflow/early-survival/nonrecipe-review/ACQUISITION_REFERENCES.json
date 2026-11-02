@@ -1,0 +1,2517 @@
+{
+  "status": "STATIC_REFERENCE_SCAN",
+  "checks": 5,
+  "counts": {
+    "tag": 10097,
+    "recipe": 45683,
+    "other_data": 11298,
+    "loot": 19315,
+    "structure": 4366,
+    "script_or_config": 926
+  },
+  "targets": [
+    "mekanism:advanced_combining_factory",
+    "mekanism:advanced_sawing_factory",
+    "mekanism:basic_combining_factory",
+    "mekanism:basic_sawing_factory",
+    "mekanism:combiner",
+    "mekanism:elite_combining_factory",
+    "mekanism:elite_sawing_factory",
+    "mekanism:precision_sawmill",
+    "mekanism:ultimate_combining_factory",
+    "mekanism:ultimate_sawing_factory"
+  ],
+  "archives": [
+    {
+      "name": "[1.21.1] neoforge-JECT-2.4.0.jar",
+      "sha256": "166eefdc52771fc747abbf73614ba5edc9a3b20f696dae8451b78d51e603a796"
+    },
+    {
+      "name": "[1.21.1] SecurityCraft v1.10.2.1.jar",
+      "sha256": "75ac9e73c60caf58df7069f167dbacc00a640e1418207dff654f56a5fdb5f229"
+    },
+    {
+      "name": "[Neoforge]ctov-3.6.3.jar",
+      "sha256": "4815b19b83541f09cba556e222612bc5ddcc31f7c4ba2198f4b4d6376cca8b2e"
+    },
+    {
+      "name": "adastra-1.21.1-1.16.22-neoforge.jar",
+      "sha256": "faf21d02c71d2d5b5a671a746334ed18a9ddba79a5a9d9bd95e93a1d9ee9ec86"
+    },
+    {
+      "name": "AdvancedAE-1.6.12-1.21.1.jar",
+      "sha256": "a01d9718667ac13899013e91c5b0b7708b9b9db1da9b8e380772dde54bbe8f41"
+    },
+    {
+      "name": "AdvancedPeripherals-1.21.1-0.7.62b.jar",
+      "sha256": "81c35e60c5a099151040aba8874e308fa00b6f8c6ed128c14b6209ccb73bffe3"
+    },
+    {
+      "name": "ae2ct-1.21.1-1.1.1.jar",
+      "sha256": "70a704742cf8bc13778a201a2338d0f4108dc0700bca47ed265aba02180f6777"
+    },
+    {
+      "name": "ae2jeiintegration-1.2.1.jar",
+      "sha256": "2989c5d762d3f14a58b4db6519daaff81e719dff3445a2b39328948ac23e548b"
+    },
+    {
+      "name": "ae2wtlib-19.5.1.jar",
+      "sha256": "407e7300351353cb4cb7698286e180aef2bd6e7a97ec7efc6493f9daa4dbffe5"
+    },
+    {
+      "name": "AeroIE-1.0.1.jar",
+      "sha256": "a3181a8b1814e33236744e05d321137d07de558d15ba0f40212ede8d2f87b811"
+    },
+    {
+      "name": "alexscaves-2.0.2.jar",
+      "sha256": "131e205ce3eed384d701b336d8a0d4a671108ed56b6eff6014f0e407db2997f0"
+    },
+    {
+      "name": "allthecompressed-1.21.1-4.4.0.jar",
+      "sha256": "d1b0c1135d8c206b8f18c73afa08256c74f8b9504626f90e2a64614c92163c36"
+    },
+    {
+      "name": "allthemodium-3.0.1_mc_1.21.1.jar",
+      "sha256": "870004c1d6fbd0891ff322b9ff9e8d42c6aaa082ace7562e25948f1636b5c6f1"
+    },
+    {
+      "name": "almostunified-neoforge-1.21.1-1.4.2.jar",
+      "sha256": "65202adf4dccf7b3033537e539e23eccc541c6a15ad88d87fa1c5a09ceb3359f"
+    },
+    {
+      "name": "AmbientSounds_NEOFORGE_v6.3.8_mc1.21.1.jar",
+      "sha256": "07ee6fd24d8427ee079e2e376095b0ac92450b0153331f1575f8195e2c9cf90b"
+    },
+    {
+      "name": "amendments-neoforge-1.21-2.1.7.jar",
+      "sha256": "f2ab59fedfbfa09b67c55271599c9e31a2b44cdcbcf60cc2ee70b69c2fe0cf84"
+    },
+    {
+      "name": "Apotheosis-1.21.1-8.7.0.jar",
+      "sha256": "7309165a2096f441a5b042836616b98ec260e2d8631e85774279dbad3b1982b7"
+    },
+    {
+      "name": "apothic_cataclysm-1.2.0.jar",
+      "sha256": "cc48825f84e88db0ecbd5b5e8ddda847dd6f0fc1b98f0b3b33bcff3aa916e873"
+    },
+    {
+      "name": "ApothicAttributes-1.21.1-2.10.1.jar",
+      "sha256": "484d52a58ba351d8e41775b351dad80f39a5bb4ed415bca67537a7f27de901ba"
+    },
+    {
+      "name": "ApothicEnchanting-1.21.1-1.6.0.jar",
+      "sha256": "1003b0358282cd8bbb509273821371b92aa3671910de8eccb2fbe8064efb7180"
+    },
+    {
+      "name": "ApothicSpawners-1.21.1-1.4.0.jar",
+      "sha256": "f0cbc52ad606997789c36fac94ae651ab7e2e21c841e26a952c64041cad9cdbe"
+    },
+    {
+      "name": "appleskin-neoforge-mc1.21-3.0.9.jar",
+      "sha256": "38b48dd6231341c9f964ce6e42c57ec866c6cc8f72bec938390a59bafb3922df"
+    },
+    {
+      "name": "Applied-Mekanistics-1.6.3.jar",
+      "sha256": "8946fea39451dbce8e709dedbef40a52ba337bdf7a25ac0c4b503800b1bf0773"
+    },
+    {
+      "name": "applied_kjs-1.0.0.jar",
+      "sha256": "4c60560d07a062fca067ecb32024e779a786f2ef21c66dba4e112dcece988d32"
+    },
+    {
+      "name": "appliedcreate-1.21.1-1.1.7.jar",
+      "sha256": "f62741487174c4b8454cbb96db202b546c7d24657c45eb466745ff298a929b75"
+    },
+    {
+      "name": "appliedenergistics2-19.2.17.jar",
+      "sha256": "460d779a0609b81409907d9956de8f6f70a1b0912257e3e5c3c7e75ac9630e95"
+    },
+    {
+      "name": "appliedschematicannon-1.0.3.jar",
+      "sha256": "af76f6ef9bfecbaeddce63d38ee1222c7cdca770e277de90fcf91e329cde5c0a"
+    },
+    {
+      "name": "Aquaculture-1.21.1-2.7.21.jar",
+      "sha256": "45f00f9059838b2fecc988861111d8b3d4613a5f1b3688a8dbfa8655751b85bb"
+    },
+    {
+      "name": "architectury-13.0.11-neoforge.jar",
+      "sha256": "9cc92f2c09533fc5482c60f993bd891c655a0e32b637037cdcb7c2b23adedeeb"
+    },
+    {
+      "name": "armor_model_api-neoforge-1.1.0+1.21.1.jar",
+      "sha256": "f3776a0bea29ec48774cf510b98bb3874e41e5edb3dc88bef1a3ff53a57ebccb"
+    },
+    {
+      "name": "artifacts-neoforge-13.2.1.jar",
+      "sha256": "4a8e1f4d5702937a707861e478829695e432286bcd9e58f5834d82c6d998eea8"
+    },
+    {
+      "name": "athena-neoforge-1.21.1-4.0.6.jar",
+      "sha256": "43699885bbce3343916d4c5c4940cf0e3f9f6f02fdeb46e8655e121b42282ec5"
+    },
+    {
+      "name": "azurelib-neo-1.21.1-3.1.11.jar",
+      "sha256": "54c3a272716344e214d00ba4c338ce153ef997fe4e70aec3d80ef92037dbd1b1"
+    },
+    {
+      "name": "balm-neoforge-1.21.1-21.0.65.jar",
+      "sha256": "490fa5fcb7ca83a9b5a84e33c2832298db99d189131001b9277a1de7fdc0bf91"
+    },
+    {
+      "name": "bellsandwhistles-0.4.7-1.21.1.jar",
+      "sha256": "a438cf2ea3a05120e12342484f1e12ca11526fbf4195d259ce1d7df8a9b3ffca"
+    },
+    {
+      "name": "bettercombat-neoforge-2.4.0+1.21.1.jar",
+      "sha256": "0446e9faa98b764ba010ac31e337d14ac96bbb2fbfeff9b599e1efd510dfde5a"
+    },
+    {
+      "name": "BetterThirdPerson-neoforge-1.9.0.jar",
+      "sha256": "2e74076c67a78f16d696ec9ad1e3138d6ed1418544b297dbe3f4ad9cd791d059"
+    },
+    {
+      "name": "block_factorys_bosses-2.1.2-neo-1.21.1.jar",
+      "sha256": "9e230bd509e7aeb3af4c08125db0340734c0179d83483649a16e45c0ea085e8c"
+    },
+    {
+      "name": "blockui-1.0.209-1.21.1.jar",
+      "sha256": "eec023231b21a606306cac6c588b5b07f51741f5e5bc831dba709d52332b82ab"
+    },
+    {
+      "name": "BOMD-NeoForge-1.21-1.3.3.jar",
+      "sha256": "93da8753a00229e41c5ed399e6cf849737e7bd9b4109d5d8e4ad3a20136deb82"
+    },
+    {
+      "name": "bundle-api-neoforge-1.1.0.jar",
+      "sha256": "73328888d1dede4c121974a0914f5a35cb857283223217a59de7b5b697e43771"
+    },
+    {
+      "name": "c2me-neoforge-mc1.21.1-0.4.0-alpha.0.120.jar",
+      "sha256": "67fe384ae84f947e999a02ebde5f5e7de3a632803304a625beee9c4268509a76"
+    },
+    {
+      "name": "carryon-neoforge-1.21.1-2.2.6.13.jar",
+      "sha256": "d4f9576b6593db9486a89d35c1d84c31ee89141d99dbae2aa470350ab53c4e09"
+    },
+    {
+      "name": "cbc_at_Neoforge_1.21.1_0.1.4c.jar",
+      "sha256": "88fb40b3353308c90d68f4512b78b63fd7278d05915d9d8628cecab9508ee58f"
+    },
+    {
+      "name": "cc-tweaked-1.21.1-forge-1.120.0.jar",
+      "sha256": "81a903710d109d129c249c105695a96f4bad5e0acf7068920fb191ba791c14ce"
+    },
+    {
+      "name": "cccbridge-mc1.21.1-v1.7.3-neoforge.jar",
+      "sha256": "e78571c5c794e0fa6499331dd1b3ae9171f2f4af1b3b6a814343c5fadca04cbd"
+    },
+    {
+      "name": "CerbonsAPI-NeoForge-1.21-1.3.0.jar",
+      "sha256": "5c750762b31ab79127df6f455351fe79793d8c2b41e1a0f94b335a5a1123534d"
+    },
+    {
+      "name": "chisel-neoforge-2.0.1+mc1.21.1.jar",
+      "sha256": "66ae1f65374a7409af069d5ccde63a338d1754494555b3b5a00f1e862e50e2a6"
+    },
+    {
+      "name": "chunksending-1.21-3.7.jar",
+      "sha256": "a17cdc5db59f797632e18cebea287ed9807b09e3d03e63229ec501b16bb18a74"
+    },
+    {
+      "name": "Chunky-NeoForge-1.4.23.jar",
+      "sha256": "d72f235cf1f56f2c374f52c00bdda5034524b28142305a84cfc123a3f92ad274"
+    },
+    {
+      "name": "citadel-2.7.1-1.21.1.jar",
+      "sha256": "a2d4c5dd17375090467db9f66d2aae41e17cb0b324902534580078bd23944925"
+    },
+    {
+      "name": "cleanswing-1.9.jar",
+      "sha256": "b86e69372a3451a09c1b5d09d69f2e20485c6d2aa62fa8a538ef77509a5f5595"
+    },
+    {
+      "name": "clientsort-neoforge-3.89.1+1.21.1.jar",
+      "sha256": "758caca99eec14aff82e5707b33a0c10991e7c35df208f01a04b3d50db2b2db5"
+    },
+    {
+      "name": "cloth-config-15.0.140-neoforge.jar",
+      "sha256": "65e722e0d98431a07c45f8bdd8d529a217cc8c175fde1740248bd5c1b4f3c0d4"
+    },
+    {
+      "name": "Clumps-neoforge-1.21.1-19.0.0.1.jar",
+      "sha256": "b524ccdace2ef8fd19f5b2074f7de1103ac5065c52553f064c00e098346c293e"
+    },
+    {
+      "name": "cobweb-neoforge-1.21-1.4.0.jar",
+      "sha256": "40c151dcee6a08decdd980a7c7ffed6ada292e77c3d2cd7aea2d01e5fa8d3b1c"
+    },
+    {
+      "name": "Colony4ComputerCraft-1.21.1-2.8.2.jar",
+      "sha256": "ee19bed6756037452ba00e8b1640bd6abec176a96319f21e0657db588389a462"
+    },
+    {
+      "name": "comforts-neoforge-9.0.5+1.21.1.jar",
+      "sha256": "6b0fd35a1349107e08a45539adbde9683bb203febc43a3305f6fc4ac73e59615"
+    },
+    {
+      "name": "common-storage-lib-neoforge-1.21.1-0.0.10.jar",
+      "sha256": "921bd8d255a65b5e21a5c74aa661d1ea4ed034febcfbb5939da054ce08f9d109"
+    },
+    {
+      "name": "configuration-neoforge-1.21.1-3.1.1.jar",
+      "sha256": "b903cc326e10af63226c7a45571bda1e0cf88b978c9920275806e852bcd92bc1"
+    },
+    {
+      "name": "configured-neoforge-1.21.1-2.6.3.jar",
+      "sha256": "421ffd2604b5487cbdb284d1eb5d1cb8a7d28f3ff84d5b4bda25e0a579282a15"
+    },
+    {
+      "name": "connector-2.0.0-beta.17+1.21.1-full.jar",
+      "sha256": "5a4ad10e57b8b1690832d9b77fc488fbe5e7cf41ac5a90d9f569bd78fbea25be"
+    },
+    {
+      "name": "continuity-3.0.0+1.21.neoforge.jar",
+      "sha256": "4cc0a4a09ae09c64bb567e42381652b700f9cade5067a75e83115662cc475f0a"
+    },
+    {
+      "name": "Controlling-neoforge-1.21.1-19.0.5.jar",
+      "sha256": "cc525fb6b030d9e4d33176983f278919e17b33935e2ca568929bdfa98f2b44a0"
+    },
+    {
+      "name": "copycats-3.0.4+mc.1.21.1-neoforge.jar",
+      "sha256": "8480e2a62eaa625f75776831c1d8a9ef3d77d2d816fa2e67566c6ec25ba745d1"
+    },
+    {
+      "name": "cosmonautics-26.08.307.jar",
+      "sha256": "3fd9dac868400905a55164d2c9d74abc2080ae3269ca51e54e1899874945973e"
+    },
+    {
+      "name": "cosmowarp-1.0.1.jar",
+      "sha256": "fcaead3d8d1fb7c21d9f8243b5305f3b8e0fcd6f90d25fec0aed3ee46c8ac1bc"
+    },
+    {
+      "name": "CrashAssistant-neoforge-1.20.6-1.21.4-1.11.12.jar",
+      "sha256": "42f582333ffe61366e68a9320d3c205153f2fdc5b53ad715b01543f85828e6b0"
+    },
+    {
+      "name": "Create Encased-1.21.1-1.9.0-ht3.jar",
+      "sha256": "e93bb110241ab8283c6238590eb04f1fb37199815623f53f3e981ee650f344a3"
+    },
+    {
+      "name": "create-1.21.1-6.0.10.jar",
+      "sha256": "ef87fe5709f1ba1f5b8bb20a2925b5afb4669e178fd6d8bf10c167759eefe37a"
+    },
+    {
+      "name": "create-aeronautics-bundled-1.21.1-1.3.2.jar",
+      "sha256": "a3f330d4757640f8715d991a43eedb826e4d0e51558d859c843ae6693bd35f1e"
+    },
+    {
+      "name": "create-enchantment-industry-2.4.2.jar",
+      "sha256": "81f192bb53888e01f87a82eaac2f261c93715f2221dbcf5d8a8d414f912f75ef"
+    },
+    {
+      "name": "create_aeronautics_automated_logistics-0.6.2.jar",
+      "sha256": "b966fe666212da694ef19b292516643081b402c0af18549f94152dd387cc268e"
+    },
+    {
+      "name": "create_connected-1.3.2-mc1.21.1.jar",
+      "sha256": "90bdceac63cb0ebd5e51351e22136182b996512edef937d0635d2857b0a3f24b"
+    },
+    {
+      "name": "create_factory-0.7b-1.21.1.jar",
+      "sha256": "a2dc0e9dd3c894e1373512035a6483701827a42e1f3da334da9457c124639f6e"
+    },
+    {
+      "name": "create_ultimate_factory-2.2.4-neoforge-1.21.1.jar",
+      "sha256": "b95dcdd43c859eaf1825f33b2b4c42226187a1e875d368b0b24ed0be1e0fa1b0"
+    },
+    {
+      "name": "createaddition-1.6.0.jar",
+      "sha256": "41876c3780b70365a1848994d146a73423cc19fbe86485885795d9e7d855e7e9"
+    },
+    {
+      "name": "createappliedkinetics-1.5.3-1.21.1.jar",
+      "sha256": "ec27fbb014e262f4e1a6578c088ddb46ff162b8c6c407c6dde9558362e941c76"
+    },
+    {
+      "name": "createbigcannons-5.11.7+mc.1.21.1.jar",
+      "sha256": "ea017ab94637032d039899d88404838d173fa0e6286657cae6a6c3af459e87ca"
+    },
+    {
+      "name": "createdieselgenerators-1.21.1-1.3.15.jar",
+      "sha256": "56ef1d574278fc311f1ffa223dbd613077b899354a18d01ae8dca2578a4e2990"
+    },
+    {
+      "name": "CreateDragonsPlus-1.11.7b.jar",
+      "sha256": "bdad8fae41888d161b7ef59ded32d5efcf3f80dd9f19fddaad38c24b139e6ee7"
+    },
+    {
+      "name": "createenchantablemachinery-3.6.0+mc1.21.1-neoforge.jar",
+      "sha256": "933ad37b064d8c6005f1f6eb09b3274fe9f5961a6841fb9e7bb65a7bff66f653"
+    },
+    {
+      "name": "createfactorycontroller-1.1.1-neoforge-1.21.1.jar",
+      "sha256": "68223edff2a0d0c3af53906f546b502c934dc2f21061920459ab03f356d9a494"
+    },
+    {
+      "name": "createliquidfuel-2.1.1-1.21.1.jar",
+      "sha256": "ccd44b069962890352dfee442508880a37eecd3c5625d74d668dd6eb7d39ee3d"
+    },
+    {
+      "name": "createlowheated-neoforge-1.21.1-6.0.10-2.jar",
+      "sha256": "472a7e40bd4f2fa2862078a87e938da8eb147a377551ce5de1cd4568df496fbd"
+    },
+    {
+      "name": "createmechanisms-3.2.0.jar",
+      "sha256": "e92c6ff841777e0e1481d3711a8198f3e172b12f53ebeae2667046d15f81cff3"
+    },
+    {
+      "name": "createmetallurgy-1.0.3-1.21.1.jar",
+      "sha256": "8f1c30c9f800c367a40715e8e6662f736f4547737987dfc30c10172b89b5d93f"
+    },
+    {
+      "name": "createmetalwork-2.0.0.jar",
+      "sha256": "2cc07f6c62219bf0434f322180330e7276b16a9af5b44527c494b2e7af274583"
+    },
+    {
+      "name": "createreautomated-0.3.2-mc1.21.1-neoforge.jar",
+      "sha256": "ebd1d106c4ff0243752289720f5dda7e019e6f2492b61abe85ed078d870d3ee5"
+    },
+    {
+      "name": "CreativeCore_NEOFORGE_v2.13.43_mc1.21.1.jar",
+      "sha256": "267804e324812965c9b347c456067c6ed982b54148d130f7859fc5002ec97d5d"
+    },
+    {
+      "name": "cristellib-neoforge-1.21.1-3.1.7.jar",
+      "sha256": "11e05dbc97bd3fe1790bd6361747240e314c1dbf40b590ea20cc691dc8396c38"
+    },
+    {
+      "name": "cryonicconfig-neoforge-1.0.0+mc1.21.11.jar",
+      "sha256": "a33856fd37d787b3bd4103d5c045e669c2f4274efb8d10f1ee0a759911a21e2c"
+    },
+    {
+      "name": "cupboard-1.21.1-4.0.jar",
+      "sha256": "426cd295560df4fceac7b410d864bd93ac200f8b77f9146ac430e92f36dae761"
+    },
+    {
+      "name": "curios-neoforge-9.5.1+1.21.1.jar",
+      "sha256": "a45df2125c26219974aba7507ffc9afe7b83acc941a386af3faacb1cc0056fde"
+    },
+    {
+      "name": "deeperdarker-neoforge-1.21.1-1.4.1.jar",
+      "sha256": "eee3f51222b0bcc714def002ff089ac9e131d3cae4575b542fd0a7dd101fe0af"
+    },
+    {
+      "name": "dg_js-1.21.1-1.2.4.jar",
+      "sha256": "97ac8b7ead7abaa592a4107c8badfbe3bf697136eac9470823f1fd3c45fb569d"
+    },
+    {
+      "name": "DistantHorizons-3.3.2-1.21.1.jar",
+      "sha256": "cf63717e037bc2576933d63d11246b5f2f317f4cd5b6d4ea1ea077ad027e4a36"
+    },
+    {
+      "name": "domum-ornamentum-1.0.231-main.jar",
+      "sha256": "04c0c902bdbcbd48e38bee5a323907ae0b7b7db4ff4a3e4da7c45334b65610a1"
+    },
+    {
+      "name": "drippyloadingscreen_neoforge_3.1.5_MC_1.21.1.jar",
+      "sha256": "f1fcb6cf3cbc7a6055fed0912bf284a7c455a0830de42460943fc5e130072759"
+    },
+    {
+      "name": "DungeonCrawl-NeoForge-1.21-2.3.17.jar",
+      "sha256": "853cd59208f17c25188a419b48d1a9fed3acebf676bb1ddd026fa4e7fb56dad4"
+    },
+    {
+      "name": "dungeonnowloading-neoforge-1.21.1-2.11.5.jar",
+      "sha256": "f55a8f6d7e3263074f05c0ed5adb11d62bb412bec8b0922a13e81079d2850c44"
+    },
+    {
+      "name": "easy_npc-neoforge-1.21.1-7.12.1.jar",
+      "sha256": "36ec8ab25dbba63fa3165097160962e21fe463d566697237eb8333bdbeef208e"
+    },
+    {
+      "name": "easy_npc_bundle-neoforge-1.21.1-7.12.1.jar",
+      "sha256": "ac2fbdaedbe49c3b3cfd7ea126bf9b84f6e35ffb6f7ad1c5cd2a23f67b956791"
+    },
+    {
+      "name": "easy_npc_config_ui-neoforge-1.21.1-7.12.1.jar",
+      "sha256": "9eb298ba5c865d00a3b8f03c70032556c9d0e40f338ff6b831ad6fdce29a9d85"
+    },
+    {
+      "name": "electroenergetics-1.21.1-1.1.1.jar",
+      "sha256": "ea5df2c5100a4aa178bd0054779015d85c63da221a782915240656601b51aefd"
+    },
+    {
+      "name": "entity_model_features-3.3.9-1.21-neoforge.jar",
+      "sha256": "21881f096eb73d44f90120c07bf4cc5187d52115841a720785ac02f6c478e562"
+    },
+    {
+      "name": "entity_texture_features-7.2.4-1.21-neoforge.jar",
+      "sha256": "49da793fe15a8aed2222cd42b12e87e2a09df9890f773e179770b2f462d2988d"
+    },
+    {
+      "name": "EuphoriaPatcher-1.9.3-r5.8.1-neoforge.jar",
+      "sha256": "9ff48c18cb5fd3425a6c15b16ce16656d6419fdb695e662d9a3cbe5604c40563"
+    },
+    {
+      "name": "exposure-neoforge-1.21.1-1.9.18.jar",
+      "sha256": "674c537a99f69b2bae53521c95dae59bc5f4eb2eb15418eec0ecbaf36b53d888"
+    },
+    {
+      "name": "ExtendedAE-1.21-2.2.35-neoforge.jar",
+      "sha256": "14a2860fa2c747e9dda2279b8933fac6311fecfee166c765171022b902591c65"
+    },
+    {
+      "name": "ExtremeReactors2-1.21.1-2.4.28.jar",
+      "sha256": "74fdfdfc91c3c8e5a439d411e6f081d12193635fffe2c55142f2f28f75b9d621"
+    },
+    {
+      "name": "ExtremeReactors2-CreateCompat-1.21.1-1.0.4.jar",
+      "sha256": "a6f4dfa81df77908118cf907bce192d93b6bfc96a7b18cb45470133137e98a23"
+    },
+    {
+      "name": "factory_blocks-neoforge-1.4.0+mc1.21.1.jar",
+      "sha256": "404080fcf4747c6d84b73d1c204d047408aae476f57752bc5f38e9c16c7f51cd"
+    },
+    {
+      "name": "fallingleaves-1.21.1-2.5.1.jar",
+      "sha256": "3c03b49b5f35481d4baf61ec1fe04233b39cb5a34f7447be04f7d4efd2976834"
+    },
+    {
+      "name": "fancymenu_neoforge_3.9.12_MC_1.21.1.jar",
+      "sha256": "fd0f446c22bb42a0a3ac5cbdcb614abcba5a70f99e2a0cda6556a8efad2859a5"
+    },
+    {
+      "name": "FarmersDelight-1.21.1-1.3.2.jar",
+      "sha256": "8ff438d62e1fce61542945faae45975d823e04bd6e73a07a121ea05ce2f03de7"
+    },
+    {
+      "name": "fastleafdecay-35.jar",
+      "sha256": "0b90f259caef64c3aa09d05427859990a51adec072540a9c598370b86c966a98"
+    },
+    {
+      "name": "fastpaintings-1.21-1.3.0-neoforge.jar",
+      "sha256": "782afb6f4c631c9d3313b6442d304b36336f794273dfa5c381485142020ca05a"
+    },
+    {
+      "name": "fdlib-1.0.9-1.21.1.jar",
+      "sha256": "84c2ba547695abbe488533681714ee53bc4412c6983f305d2d9deaa3ada0a710"
+    },
+    {
+      "name": "ferritecore-7.0.3-neoforge.jar",
+      "sha256": "d87ea28262715ebff45b8a82d493e6b468e7a4521bc021df5d88302196d030a8"
+    },
+    {
+      "name": "fieldguide-neoforge-1.21.1-1.18.0.jar",
+      "sha256": "c7b427c8582152c2b0198b129b4b582d9b6fc30bdbb98b2bb6bab4e20d8c556e"
+    },
+    {
+      "name": "forgified-fabric-api-0.116.15+2.3.3+1.21.1.jar",
+      "sha256": "9dca0eca901d2b9a6b0025ed7a5f2aa2b925b106d853aecfa2f083500f7380ed"
+    },
+    {
+      "name": "framework-neoforge-1.21.1-0.13.11.jar",
+      "sha256": "429ea90a162d7c25c1463ee60979e4d7b1ddb525d9384a3a2a2f45d70bda03f5"
+    },
+    {
+      "name": "friendsandfoes-neoforge-4.0.27+mc1.21.1.jar",
+      "sha256": "40f6129d9124bcd0052a348813425fc223b7b6ef16b81928f5edcb89ea62cfd1"
+    },
+    {
+      "name": "ftb-chunks-neoforge-2101.1.21.jar",
+      "sha256": "2cc32a613dd04d9355b88e6f455235aaf00768c270489657c9949f23b9195588"
+    },
+    {
+      "name": "ftb-essentials-neoforge-2101.1.10.jar",
+      "sha256": "a61de1b883ec9d6d652276f453e8e60b18bd315fef8c62f21d6545260d526587"
+    },
+    {
+      "name": "ftb-library-neoforge-2101.1.35.jar",
+      "sha256": "be7b2bd0b5370a9951624a1d84fd802efecae88d5a0cd24552731f887430599d"
+    },
+    {
+      "name": "ftb-quests-neoforge-2101.1.34.jar",
+      "sha256": "ea09118f399f24640ccbe5b4171b59a4d7becba789a8c36783dbb2a04c00bf24"
+    },
+    {
+      "name": "ftb-teams-neoforge-2101.1.10.jar",
+      "sha256": "a656f2aa0e11a933aab3ba697690aa0eb2041f65e6c5daa448897ee0a6d37a6c"
+    },
+    {
+      "name": "ftbxaerocompat-neoforge-1.1.4.jar",
+      "sha256": "dd27664945866d4092803c261cdd0d5ba4df755853e2cc87fae9c96cbd986681"
+    },
+    {
+      "name": "fusion-1.3.12-neoforge-mc1.21.1.jar",
+      "sha256": "17f5215648a98bcde4134577b013200dbf363273ae282449c51408ae8346f2fa"
+    },
+    {
+      "name": "fzzy_config-0.7.6+1.21+neoforge.jar",
+      "sha256": "4e5cc1438087b0bc0276969e88b9ad0bdf2bcc60d6caf5fe79e18947d7a29050"
+    },
+    {
+      "name": "geckolib-neoforge-1.21.1-4.9.2.jar",
+      "sha256": "5e548466af9ab6aca7a91a7c7d4dc0dc8bc385e22958aed5da0e7bebd0fa3fba"
+    },
+    {
+      "name": "GlitchCore-neoforge-1.21.1-2.1.0.2.jar",
+      "sha256": "d9ea421e7449a35cf3adc41c9f740156342b7b17a08b1be843660608af7b60f9"
+    },
+    {
+      "name": "Glodium-1.21-2.2-neoforge.jar",
+      "sha256": "369e99753df0bdc90a38a8c52df4abb37baf6b18c6ca130af4c7bc75fb160a85"
+    },
+    {
+      "name": "gpumemleakfix-1.21-1.8.jar",
+      "sha256": "4bd0682e26b8d4ba78442ce8d969fc7fa3cac2c21fc600de34a54b2ff7814931"
+    },
+    {
+      "name": "gravestone-neoforge-1.21.1-1.0.38.jar",
+      "sha256": "9aeec340571f55147bab02bdea252e25a2e6d7b27b282d12817c34090a35f945"
+    },
+    {
+      "name": "guardvillagers-2.4.12-1.21.1.jar",
+      "sha256": "aab03d59216bd931a05434b2527e0d5b7641793bd0178a9958100579c4f11407"
+    },
+    {
+      "name": "guideme-21.1.17.jar",
+      "sha256": "d012aca7275e2186aa223bf180b643164e5360d6433385fb12951f369f0b8c84"
+    },
+    {
+      "name": "Hilt-1.21.1-1.14.jar",
+      "sha256": "9250b06f442885807c14b1173350a6eb5984c6279748a2d343b44dd229e84e36"
+    },
+    {
+      "name": "i_architecture-0.1.1b.jar",
+      "sha256": "295edfb0f3dec36bc294debe377425a9ad21f7ce98305ca9f7b03d4b0605a544"
+    },
+    {
+      "name": "iceandfire-2.1.3.jar",
+      "sha256": "5c67db7c93a02cc45285e23cc25b4b40b63025f445b528057747641f187f94f5"
+    },
+    {
+      "name": "Iceberg-1.21.1-neoforge-1.3.2.jar",
+      "sha256": "0d620c975619b04110b94a73d5b42d252563ff59c1eae9d21ab2ee7e38460a3c"
+    },
+    {
+      "name": "ImmediatelyFast-NeoForge-1.6.12+1.21.1.jar",
+      "sha256": "bfdf88bbb930f0d934f33253357b53840462fd7fa01779606b7e62eb6a471914"
+    },
+    {
+      "name": "ImmersiveEngineering-1.21.1-12.4.2-194.jar",
+      "sha256": "45942985a4a4aebf265b8e22a0c54a96208637471f36f2532ff5d4911322debc"
+    },
+    {
+      "name": "immersiveoverlays-1.8.5+1.21.1-neoforge.jar",
+      "sha256": "292de2c5490cee0cf8714a97a4746d5ab6765bd7d475328149a4d4fc7efae1b9"
+    },
+    {
+      "name": "ImmersiveUI-NEOFORGE-0.3.3+1.21.1.jar",
+      "sha256": "6b914e305f27962a91d49a659b77eb65f47acee9d79930801b4fc1d3e474c8a4"
+    },
+    {
+      "name": "industrial_colonies-0.5.5.jar",
+      "sha256": "31516bb11046a1342babf4680d11622889801ae29f28bcfac05dfa4d0987e199"
+    },
+    {
+      "name": "industrial_colonies_berry_comfort-1.0.0.jar",
+      "sha256": "aaa2d3fc18ea13b3a4dd177c9b8d33893ecb78093959ca9e245fc008738b4474"
+    },
+    {
+      "name": "industrial_colonies_foundry_crafting-1.0.0.jar",
+      "sha256": "1ec5c1841244d3f5655e29892d4d6d2963e8b9b7d55a5e59995b3193eb49b567"
+    },
+    {
+      "name": "industrial_colonies_giant_trees-1.3.0.jar",
+      "sha256": "7c5c1d4e78ffd51aa3db0ed1bd0712b4313886dcc6ad33809e47a6ee04ad14e7"
+    },
+    {
+      "name": "inventoryessentials-neoforge-1.21.1-21.1.17.jar",
+      "sha256": "17d31bff249e39215a3fc3da2514ef5b461ad7a61ba2978e7faea8aade46ff5e"
+    },
+    {
+      "name": "inventoryiconexporter-1.0.0.jar",
+      "sha256": "b64d5e675866423a767408cf02f1273b7bbb1f9082cfbdc4297d78c736b0825e"
+    },
+    {
+      "name": "iris-neoforge-1.8.14-beta.1+mc1.21.1.jar",
+      "sha256": "60d5f8bf52f25e9986440f4a4270a6bd986d9cff994510e1108ac1547063b314"
+    },
+    {
+      "name": "irons_apothic-2.2.1.jar",
+      "sha256": "5120745dbabeac1d836bc10f673a9070e7e63bd0584c67fcd685cde9f96107c5"
+    },
+    {
+      "name": "irons_lib-1.21.1-2.1.0.jar",
+      "sha256": "3d0ad1003d6edeaad2500b9922267b4192d2c603cdd846fda339b168f4deff72"
+    },
+    {
+      "name": "irons_spellbooks-1.21.1-3.16.3.jar",
+      "sha256": "13d644474ddba4f8478b4ce68294687fd509c994b3f344a224142b102dbe6f73"
+    },
+    {
+      "name": "item_descriptions-2.8.0+1.21.1-neoforge.jar",
+      "sha256": "29773325b0aaac251471b7d9fc15ed3b6712c68b429a5354c6097637e053bfab"
+    },
+    {
+      "name": "ItemBorders-1.21-neoforge-1.2.5.jar",
+      "sha256": "6ad3a4f3ea1c56fb8600db9cbdbe2de9c50b217f9981de134b44aab216da83b9"
+    },
+    {
+      "name": "Jade-1.21.1-NeoForge-15.10.6.jar",
+      "sha256": "276f1f65a20d04f536989c4f311949d770b52c440c23c2b904a08860f3c93810"
+    },
+    {
+      "name": "JadeAddons-1.21.1-NeoForge-6.1.0.jar",
+      "sha256": "5f242668ad710092964d4d9afda8a94fa2401665ea13eea67d55d07e4dff8a64"
+    },
+    {
+      "name": "jamlib-neoforge-1.3.6+1.21.1.jar",
+      "sha256": "911afdfe717a2375a651253e282ac9e769f8bead381d33c2167955c25eefe514"
+    },
+    {
+      "name": "jauml-neoforge-1.21.1-2.3.0.jar",
+      "sha256": "fb1ce3224e5add097c7f2a3b7fbfb62281222a1a91fb0a3461da036523e67d8f"
+    },
+    {
+      "name": "jei-1.21.1-neoforge-19.51.0.418.jar",
+      "sha256": "8bc3936d869e4040a5649c58b7e8be1c78c82a245c0dc07bdd68ab49121a222c"
+    },
+    {
+      "name": "jeimultiblocks-1.21.1-1.0.6.jar",
+      "sha256": "86098b6a34a311e845713a199491458972f3a5f68cb7d6b9b380b4f576e20027"
+    },
+    {
+      "name": "journeymap-neoforge-1.21.1-6.0.5.jar",
+      "sha256": "c48a710539ca829e04b2bcc29a4adda3a4097df0c9ca4844b984dfa921c2da10"
+    },
+    {
+      "name": "jupiter-2.3.7-1.21.1-neoforge.jar",
+      "sha256": "95af332af250f97fe2d9d288fe6b2057c266673a388348bf33756b0b693ace15"
+    },
+    {
+      "name": "JustEnoughMekanismMultiblocks-1.21.1-7.19.jar",
+      "sha256": "3a445f86052a4bd03dd8772fbbb61e7b70c549d5a809e32bce13e06caea36a1d"
+    },
+    {
+      "name": "JustEnoughProfessions-neoforge-1.21.1-4.0.5.jar",
+      "sha256": "b34d6bb434d507874a6ebe49d40169c26f7cad8f51c9ffea615eedb153746696"
+    },
+    {
+      "name": "JustEnoughResources-NeoForge-1.21.1-1.6.0.17.jar",
+      "sha256": "7a47d69b5530704690d5a5f0726cd74a2d6c57df17dd4a8589c4ab5212f91460"
+    },
+    {
+      "name": "kjsgen-neoforge-2.0.5+mc1.21.1.jar",
+      "sha256": "83cd46f853fc8d984bf09b700fae65fcf673da8768e54a214fd52ce663a40a92"
+    },
+    {
+      "name": "konkrete_neoforge_1.9.9_MC_1.21.jar",
+      "sha256": "791c5538751dd3015ef3a2ce92d98719e1a28a48ebbd817b78506771256654cd"
+    },
+    {
+      "name": "kotlinforforge-5.12.0-all.jar",
+      "sha256": "095aed94f21b4e55895b21ea957750ae3ab829fbcfc6d3c66a3489f5f1128d46"
+    },
+    {
+      "name": "kubejs-create-neoforge-2101.3.1-build.18.jar",
+      "sha256": "60fab77c339e5757a97a9a1e2d4019ed2a610bd46583d4353c9a13596e01e614"
+    },
+    {
+      "name": "kubejs-neoforge-2101.7.2-build.368.jar",
+      "sha256": "28867299e7a9f02cfd74e34745fdbbb073fe4887fddbc98fd6c1ed2e87b01482"
+    },
+    {
+      "name": "L_Ender's Cataclysm 1.21.1-3.33.jar",
+      "sha256": "371956d0c2e3b56729ee93b955e936875d210e372fe734cdb74326d89ef79875"
+    },
+    {
+      "name": "ldlib2-neoforge-1.21.1-2.2.38.a-all.jar",
+      "sha256": "8aa7d5e6de7960214eb6457c6c9744ad09a3395b62e6bdd87a4e1657086c3163"
+    },
+    {
+      "name": "lionfishapi-3.1.jar",
+      "sha256": "aeebf0692650afbbc78259c0d4e3d5b7edf037707e8ae5d56045066d83a19cf6"
+    },
+    {
+      "name": "lithium-neoforge-0.15.4+mc1.21.1.jar",
+      "sha256": "488f33216030c1cb0baa33e59de3d657d08d5795a6c2080c8c8bbbc133fc8757"
+    },
+    {
+      "name": "lithostitched-1.8.0+beta4-neoforge-21.1.jar",
+      "sha256": "f9bed6228565d69166ac85edbe6159e28674a687562964e5424a8c8a477d20c0"
+    },
+    {
+      "name": "lmft-1.1.1+1.21.9-neoforge.jar",
+      "sha256": "932765aae037197e8acfe7a90d9e473b143e3e785655c24c02b30c7013cd4458"
+    },
+    {
+      "name": "mcw-doors-1.1.5-mc1.21.1neoforge.jar",
+      "sha256": "87261e309f5e10c9910169d5acbba613cab3a2d2270698b0bd47e657a45b0518"
+    },
+    {
+      "name": "mcw-furniture-3.4.1-mc1.21.1neoforge.jar",
+      "sha256": "819fda8059b210e9de8b9275c8b8e0d931054af5a5ad47771c72d9fd4ab85e88"
+    },
+    {
+      "name": "mcw-lights-1.1.5-mc1.21.1neoforge.jar",
+      "sha256": "b27cd68a7673874b0f6d765bdef2a022666cc07ca0e5057209a16d1a535da9e4"
+    },
+    {
+      "name": "mcw-mcwstairs-1.0.2-mc1.21.1neoforge.jar",
+      "sha256": "177fe382ff22caa14983d862ead2717321315a5e4afa778d245e9acd2f61608d"
+    },
+    {
+      "name": "mcw-mcwwindows-2.4.2-mc1.21.1neoforge.jar",
+      "sha256": "8970c40ec622edd34c9b055226b403af08ab441c77303a6dc625ae18005f8184"
+    },
+    {
+      "name": "mcw-paintings-1.1.0-mc1.21.1neoforge.jar",
+      "sha256": "fddf73508f3c98cadd9b3c1fe08d792141eb3db7f89134cf313ed175c3ba031c"
+    },
+    {
+      "name": "mcw-trapdoors-1.1.5-mc1.21.1neoforge.jar",
+      "sha256": "1408d46bc2e7515b25b4da8393f8dbb3d79bcd9fb6d51fcf26fe84734c2597af"
+    },
+    {
+      "name": "megacells-4.11.0.jar",
+      "sha256": "a386bbf12afb11729b0dcf77f64221893d250f22e6185a4d728b9799b230bc55"
+    },
+    {
+      "name": "Mekanism-1.21.1-10.7.19.85.jar",
+      "sha256": "004dbc9f3106f4d192aeaa1ee1190dd16ec9ca8059ed3d093b80034f4c574f43"
+    },
+    {
+      "name": "melody_neoforge_1.0.10_MC_1.21.jar",
+      "sha256": "6b973a4564703c531fc0eae09db08b07a38091e0a743c687b8d2049457e84871"
+    },
+    {
+      "name": "memorysettings-1.21-6.0.jar",
+      "sha256": "83721e70a8702b4389ca5d83daa5b30f55797561ee30d788cec2987b7ce3e042"
+    },
+    {
+      "name": "merequester-neoforge-1.21.1-1.4.3.jar",
+      "sha256": "68f3c861a802d48afeb6e3a48e8ee4f8633904340ac3f89f17493dc84490e385"
+    },
+    {
+      "name": "minecolonies-1.1.1368-1.21.1.jar",
+      "sha256": "c3a2542aaced85aabfc58b38415b70e6b095a16787056e07880fc94320f09a9b"
+    },
+    {
+      "name": "modernfix-neoforge-5.27.20+mc1.21.1.jar",
+      "sha256": "6f367ea4002c39e3cfe27e0a0be1008880a4b35a8482a78a437cfb9d8ee38273"
+    },
+    {
+      "name": "ModernFoundry-1.21.1-4.1.6-NeoForge.jar",
+      "sha256": "0b0026db1c27a1d08b1e3d3eba8fd2cc470d4cb534eb08d74633adc5be5691f1"
+    },
+    {
+      "name": "moonlight-1.21.1-3.3.4-neoforge.jar",
+      "sha256": "167320f7fb89669ba5bbcb1a35ea3c94ace403484250a38f55151a0c8d17bfb2"
+    },
+    {
+      "name": "MouseTweaks-neoforge-mc1.21-2.26.1.jar",
+      "sha256": "68e6f4201c5de97b77929a7215c9552495696ca6a3bf3ae4eacc34e135f6cc8b"
+    },
+    {
+      "name": "mowzies_cataclysm-1.2.2.jar",
+      "sha256": "afbef1775a869eb65dbd5eb2fe75b37edd1b2d08b014b24d2049867b7ef768b0"
+    },
+    {
+      "name": "mowziesmobs-1.21.1-1.8.2.jar",
+      "sha256": "b8e7e39fb6430326de7fbb193db56588ee8bd04d0054527924fe588f37131e4f"
+    },
+    {
+      "name": "multipiston-1.2.58-1.21.1.jar",
+      "sha256": "7ca26db4648589b7f76694c249d5096c0c0afb7615fe6adf9f638c6c825c15e7"
+    },
+    {
+      "name": "mustjs-0.0.3.jar",
+      "sha256": "1a693f173086fb8dcb87148f41500a27d435c3d21c8eba872de9d0579460da41"
+    },
+    {
+      "name": "NaturesCompass-1.21.1-3.4.0-neoforge.jar",
+      "sha256": "0e249ac11b2f916c5570d9679e188da652fa5664ba9cdb7be5dc9ff69497539c"
+    },
+    {
+      "name": "NuclearCraft-1.21.1-1.3.0-rc1.jar",
+      "sha256": "17dee026fd2b3ce7370e2a74ca540370394f12f80f066d89ed8dde3f61f6d71d"
+    },
+    {
+      "name": "NuclearRadiation-1.21.1-1.0.14.jar",
+      "sha256": "eb17fd3d3789dff5b49a779c0448160912625435a2c282472ea8613c01342878"
+    },
+    {
+      "name": "OctoLib-NEOFORGE-0.6.2+1.21.jar",
+      "sha256": "92ba07d9d9e55a65421f3c3f203c72fe5149cb024d5277267e81d812e11a7f38"
+    },
+    {
+      "name": "pamhc2crops-NEOFORGE-1.21.1-1.0.9.jar",
+      "sha256": "ebdb8aaf2bda8d4a46fb655af57b546f285a1ff15411bba691c18420064b84b5"
+    },
+    {
+      "name": "pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+      "sha256": "acd5dd380eafc3f317b67231a2355c204cab254dfdf4ab1f25c084fdd3d317b9"
+    },
+    {
+      "name": "pamhc2foodextended-NEOFORGE-1.21.1-1.0.0.jar",
+      "sha256": "d61dda7d00ab69bfaef45854df01ab6cfd64243d7f9a5ae870c89dd954247a8c"
+    },
+    {
+      "name": "pamhc2trees-NEOFORGE-1.21.1-1.0.9.jar",
+      "sha256": "64c34129468b0d75738cf0faf667a52067d2db1e72ee8564c0a8f850bbf154c7"
+    },
+    {
+      "name": "Panoptic-1.08a-NeoForge-1.21.1.jar",
+      "sha256": "44615fbaffea76d07e32f3b5939e50ff9916357dbef72411dc134bdd2d30cd2b"
+    },
+    {
+      "name": "Panopticon-1.08-NeoForge-1.21.1.jar",
+      "sha256": "eace47cc1aa54ed0a14434962e4d1b4c0b0c8035a7101ef7477561d3526644e2"
+    },
+    {
+      "name": "particlerain-4.0.0-beta.10+1.21.1-neoforge.jar",
+      "sha256": "ef835ede1d24ba24371f1d77520a66c8010adf8c5f538a54099a14b13ae2e307"
+    },
+    {
+      "name": "particular-1.21.1-NeoForge-1.5.7.jar",
+      "sha256": "42c5ba95472c233a455da440e08a74be69cba616493292c0830cf47a47a9498e"
+    },
+    {
+      "name": "Patchouli-1.21.1-93-NEOFORGE.jar",
+      "sha256": "959af52ed6640c316c3a8469203420be4aeea11ad6603890ba83bf48f5d9f993"
+    },
+    {
+      "name": "photon-neoforge-1.21.1-2.1.5.jar",
+      "sha256": "ec5f5e09f03f02933d56be17cf89a4e473799ec34fc5fc690fd7237d8c4fb70b"
+    },
+    {
+      "name": "Placebo-1.21.1-9.9.2.jar",
+      "sha256": "1a844a5b081813b1edb82656329e54d38389ed470f6a6516a5887f5303d7daad"
+    },
+    {
+      "name": "Platform-neoforge-1.21.1-1.3.3.jar",
+      "sha256": "2d7175e43943d22cbb4f8d4533f0ad620f87a3ac12c77a4f15c3a35d965c4f18"
+    },
+    {
+      "name": "player-animation-lib-forge-2.0.4+1.21.1.jar",
+      "sha256": "dbe5de45f5cd60c0e5e47af14e6d564534a98456e973cf670cb881f6938eee92"
+    },
+    {
+      "name": "polyeng-0.4.1.jar",
+      "sha256": "69e565dc00abc5881ccff6801c8a0817f479eaf871d578aefd992b9b6614a2f9"
+    },
+    {
+      "name": "polymorph-neoforge-1.1.0+1.21.1.jar",
+      "sha256": "bec8118978adeb052de9c4eaf9a595830621d82515a764f32f9c8a4dd52ab94b"
+    },
+    {
+      "name": "potentials-neoforge-1.21-0.7.1.jar",
+      "sha256": "b09ac57b03593b62e044b5e73536c369598f5181180050942f973210bfdf4cc7"
+    },
+    {
+      "name": "Prism-1.21.1-neoforge-1.0.11.jar",
+      "sha256": "b6a1e585416c48d7d9fa53fc12c67122ad1f3a6965202b51d4e2c643ffca61c2"
+    },
+    {
+      "name": "Quark-4.1-482.jar",
+      "sha256": "0f69ce0d31caa4f31e1fa4959541120121e27c652cd2d954839af6b5162f0c70"
+    },
+    {
+      "name": "raidsenhanced-1.0.2-1.21.1.jar",
+      "sha256": "12311ddd5b66ee45bb64239dd6858f7e1554eb1c474515bfe483d498b5c13bcd"
+    },
+    {
+      "name": "rebuild_tech-1.0.1.jar",
+      "sha256": "c44bc43cd12a3dcdc97d69fd17f322bec5e0dd4c028866e2d8210d8ffa931cba"
+    },
+    {
+      "name": "rechiseled-1.2.5-neoforge-mc1.21.jar",
+      "sha256": "7bf14cf8a4bfdc4b6c990126a75da29fd2bb7559d1c05b71e29c8fd5ae044435"
+    },
+    {
+      "name": "rechiseledae-1.0.1-neoforge-mc1.21.1.jar",
+      "sha256": "62ddfe0b361311a3808e7a721e3aee25382c6f150d2ff41f884e51fc5fe9b385"
+    },
+    {
+      "name": "rechiseledae2-neoforge-1.21-1.21.1-1.0.0.jar",
+      "sha256": "0fc249c87d24710b980ebc7b79a8e847f0ef0a6a039a16bee3714bd7f3d9fd66"
+    },
+    {
+      "name": "rechiseledcreate-1.1.1-neoforge-mc1.21.jar",
+      "sha256": "ba89cd5d1221621ed226cc7f1c26dc84a660cc4f6d122753052429f96d71248d"
+    },
+    {
+      "name": "recipeessentials-1.21.1-4.7.jar",
+      "sha256": "d2ab36a95424654bede6fd7aedceefd05912fc12f6de3f8bb0db8b8b245b6f85"
+    },
+    {
+      "name": "refurbished_furniture-neoforge-1.21.1-1.0.22.jar",
+      "sha256": "953a7840261eb79959769a97caa60cba2ee141700a4cbe208825268327136bdf"
+    },
+    {
+      "name": "regions-unexplored-0.6.2-neoforge-21.1.jar",
+      "sha256": "ccf32ed714f2724f54406b9e02a8d6f94d87dc5c72397bc39b3d6ed8f32412ea"
+    },
+    {
+      "name": "resourcefulconfig-neoforge-1.21-3.0.11.jar",
+      "sha256": "25b4f3502d25c535004acd4a9420272fff01d2f1e2df352239fec93fdab005d4"
+    },
+    {
+      "name": "resourcefullib-neoforge-1.21-3.0.12.jar",
+      "sha256": "5e36f2c69de008dc5795f730c84ab767688f15c810944b585485349a0c911261"
+    },
+    {
+      "name": "reterraforged-neoforge-1.21.1.jar",
+      "sha256": "691d922125703fc652f5ee4b3369bc06ab935e4fb42f14cad7e0e52d79da47d4"
+    },
+    {
+      "name": "rhino-2101.2.7-build.85.jar",
+      "sha256": "95df92ce578b2504cb16d8c9fc285303bf062eb15452246a18e57b7cf091c19a"
+    },
+    {
+      "name": "rightclickharvest-neoforge-4.6.1+1.21.1.jar",
+      "sha256": "b5d597ed361964ba9530a848fe8987715f40af2390dfa1a6adb70a2a74076d52"
+    },
+    {
+      "name": "ritchiesprojectilelib-2.1.2-mc.1.21.1-neoforge.jar",
+      "sha256": "cc509060833736fb650aa4c36b1ce33a7eeeb9ca6e9f8e80a7c951c9e7487b24"
+    },
+    {
+      "name": "rocketnautics_addon-1.0.0.jar",
+      "sha256": "a8a118c69a4455cd7fadbf64a524d93cfbd99bda9a299909f69de9d4b0977c06"
+    },
+    {
+      "name": "sable-neoforge-1.21.1-2.0.3.jar",
+      "sha256": "da6c3b66238586603d1dcaa2afb012d36815fbce0a2d5938fbb2936701d42279"
+    },
+    {
+      "name": "Searchables-neoforge-1.21.1-1.0.2.jar",
+      "sha256": "ca193f0c69033d8f709f9e073a7c1ef4ea46714e5c2f94eb23ace12781c6aa68"
+    },
+    {
+      "name": "SereneSeasons-neoforge-1.21.1-10.1.0.3.jar",
+      "sha256": "86d89fce593f868cb6b542943c0f82850ca56970fe0327e401966d8d0420861d"
+    },
+    {
+      "name": "SmartBrainLib-neoforge-1.21.1-1.16.11.jar",
+      "sha256": "68036561cc5511766d54cc0deabc3fc3a5e68f9e3db2478f2574ec82b494374b"
+    },
+    {
+      "name": "smoothswapping-0.9.3.2-1.21.1-neoforge.jar",
+      "sha256": "c1187b545097df22c528e9339902ab3631bea2da2b94f7b1569faabbc548d041"
+    },
+    {
+      "name": "snowundertrees-1.21.1-1.5.1.jar",
+      "sha256": "b146501cafd389d3fe1e8b3945b22bef5dcef7ff8345a2aa027c170c3cfbaf1d"
+    },
+    {
+      "name": "sodium-neoforge-0.8.13+mc1.21.1.jar",
+      "sha256": "575d187b15328d7bddd8a9b1bee64333c22c14735f5780ec49eac0cd5503c08d"
+    },
+    {
+      "name": "sophisticatedbackpacks-1.21.1-3.25.77.2086.jar",
+      "sha256": "7e87a643ff1f7182af99257aaee2ed841eaa15a73fdf06fe47539bf06935b111"
+    },
+    {
+      "name": "sophisticatedcore-1.21.1-1.4.87.2270.jar",
+      "sha256": "08b5766b74e7a5cf2983401eefc340da6ca2b3c1c8f8b58a352353ad74343302"
+    },
+    {
+      "name": "sound-physics-remastered-neoforge-1.21.1-1.5.1.jar",
+      "sha256": "65372ad64422a20f03ad6e39aabaa827c191abbe9be5c35631acc3a8105fe177"
+    },
+    {
+      "name": "spark-1.10.124-neoforge.jar",
+      "sha256": "647e8a81afbe414dba1df4ba15fd06c5d32d4cb544e68828405e8e074c2e16db"
+    },
+    {
+      "name": "spatial-gui-1.5+1.21.1-neoforge.jar",
+      "sha256": "245cbd0e8cae6861f3a54a96a4262410bfc14c544cfeef2a59861646a77822ab"
+    },
+    {
+      "name": "spell_power-neoforge-1.6.0+1.21.1.jar",
+      "sha256": "a57cd041be1bee86640861588ad9b4a3a032d2dedff8d44abf5305136e2f5854"
+    },
+    {
+      "name": "stellaris-1.21-neoforge-1.4.25.jar",
+      "sha256": "ef858a5718f1e1011944e830601b6049d4d66d87f6aa7ee66ba2d4981692efdd"
+    },
+    {
+      "name": "structureessentials-1.21.1-5.0.jar",
+      "sha256": "7ecb6c9d04e20a6803ba6e51dd226eaa289ba2c2c095248f3645222a8bfc1c8d"
+    },
+    {
+      "name": "structurify-neoforge-2.0.33+mc1.21.1.jar",
+      "sha256": "51bc89226dc7d89f6c8525156db99e5f3254c3851907c506c00465587b32ee3f"
+    },
+    {
+      "name": "structurize-1.0.832-1.21.1.jar",
+      "sha256": "b6ede7635c63a80bd3d034c1ad3e74c648b8478f341f883d7d29c3dcf90b79ce"
+    },
+    {
+      "name": "stutterfix-mc1.21.1-0.2.4.jar",
+      "sha256": "1c800a6bf77e4d56073cf3e9ac673591d9e3e8e237d54cc591194678f1795967"
+    },
+    {
+      "name": "SubtleEffects-neoforge-1.21.1-1.14.3.jar",
+      "sha256": "78fd24ecaadee01746ecc4cf598284923e762e25964311e86a67aa30cd3c2b67"
+    },
+    {
+      "name": "supermartijn642configlib-1.1.8-neoforge-mc1.21.jar",
+      "sha256": "d2ba7b839a2268e4e223457e813d11aa2476c3bf708a7bba691d8fc851778a4b"
+    },
+    {
+      "name": "supermartijn642corelib-1.1.24-neoforge-mc1.21.jar",
+      "sha256": "22884e7c6b7c4847e7bb97fbfa61b5f836b7909bb468e7637f6788be56e59f00"
+    },
+    {
+      "name": "supplementaries-1.21.1-3.8.10-neoforge.jar",
+      "sha256": "7cd7855e0eb5f8779bd9ff54c54b9d64630dc9c9c59e068cf90478729b47bd9d"
+    },
+    {
+      "name": "TerraBlender-neoforge-1.21.1-4.1.0.8.jar",
+      "sha256": "edb34c388fe17ea88d0a7fd11174bbf8ae8f28a4c8ce886f1bf9a5cf0ebc36b8"
+    },
+    {
+      "name": "tfmc-1.0.2-neoforge-1.21.1.jar",
+      "sha256": "88718797d6557a1a7ed41a1973f60bfe5cfe4c0251480b28fd08e26bc21c251d"
+    },
+    {
+      "name": "tfmg-1.2.0.jar",
+      "sha256": "fc824a91cfe22e137c9014ed608ee9bf35f16490d2162b687666332c6eb3a555"
+    },
+    {
+      "name": "tfmgjs-1.21.1-1.0.2.jar",
+      "sha256": "ea82865364c87425dce39d54b33527caa1b17685e5de25659797264ff98d18d6"
+    },
+    {
+      "name": "tickaccelerate-1.21.1-neoforge-0.8.7.jar",
+      "sha256": "cf425c7d9c1f18620bf9151a187f5690c4553c8129422169a39c3c742160b57e"
+    },
+    {
+      "name": "towntalk-1.2.0.jar",
+      "sha256": "98139f54cc0f6f4be6d7fa8927cd170df8b14545ae04643436dbd48517589eb4"
+    },
+    {
+      "name": "TreeChop-1.21.1-neoforge-0.19.3.jar",
+      "sha256": "2a5ec9cca187b4a031e9dd7e5eec8d0872f7d2bc355d88bda633021fa7eb71b0"
+    },
+    {
+      "name": "uranus-2.4.1-bugfix-1.21.1-neoforge.jar",
+      "sha256": "2f98db9e0fed13aad87340beaff185e95c9d56ee27cdf1d111346b91a5725a69"
+    },
+    {
+      "name": "VanillaBackport-neoforge-1.21.1-1.1.7.10.jar",
+      "sha256": "ecd807ac358e243ede17819455788c7b7a0ce5e0af4aecee82c1c62c586d818d"
+    },
+    {
+      "name": "voicechat-neoforge-1.21.1-2.6.22.jar",
+      "sha256": "63116a4d21bd57221482d971dd85822f7c723c210b60411670cdb0aa26873cac"
+    },
+    {
+      "name": "wwoo-neoforge-2.6.7.jar",
+      "sha256": "db99e41c3dd8f12c795fd00d08ee324308d54f8009bbbc9992055999e891bd0f"
+    },
+    {
+      "name": "xaerominimap-neoforge-1.21.1-26.4.2.jar",
+      "sha256": "b722bcf794288f0ed51165cd1f057fc4505e20abbc723b2e17e900426e443603"
+    },
+    {
+      "name": "xaeroworldmap-neoforge-1.21.1-1.44.2.jar",
+      "sha256": "2c4089c2f9132b85749a18920d6e2098744f61fe98854fcff2e3768f2d7269fa"
+    },
+    {
+      "name": "yet_another_config_lib_v3-3.8.2+1.21.1-neoforge.jar",
+      "sha256": "b5c30321b46cfaa521645a04aff89d2804d8167a25bb23ad4b1ae8da73093a2f"
+    },
+    {
+      "name": "YungsApi-1.21.1-NeoForge-5.1.6.jar",
+      "sha256": "08e1d21690d3213a4c62de6b6cf79f3527afb2e72e0cad0e1848d46eb8f682ca"
+    },
+    {
+      "name": "YungsBetterDungeons-1.21.1-NeoForge-5.1.4.jar",
+      "sha256": "61816c3b7c9d92c6b44f93dce87ceb0a22827f20285d5d9c4d10d519d734de04"
+    },
+    {
+      "name": "ZeroCore2-1.21.1-2.4.21.jar",
+      "sha256": "54ac755031b05c3a5b6ddfa22dabc45fb3775481041503dcecd75e5e86627779"
+    },
+    {
+      "name": "Zeta-1.1-40.jar",
+      "sha256": "4f17d1a2b9fd6d18ddb7697aa451db7fb154053b8648f79de279ae0d7e68a2fa"
+    }
+  ],
+  "matches": [
+    {
+      "archive": "megacells-4.11.0.jar",
+      "resource": "data/megacells/recipe/cells/standard/radioactive_chemical_cell.json",
+      "kind": "recipe",
+      "sha256": "a3ffefbb6771e6acac119a82a2ea106beb9448c888f018caf38e51712636f1ad",
+      "references": [
+        {
+          "path": "$.key.a.item",
+          "id": "mekanismgenerators:reactor_glass"
+        }
+      ]
+    },
+    {
+      "archive": "Mekanism-1.21.1-10.7.19.85.jar",
+      "resource": "data/mekanism/advancement/factory.json",
+      "kind": "other_data",
+      "sha256": "51ec7a7de06d31c038bff5e80d1ee646607c6a58217a32f556ffafd6ceaaf230",
+      "references": [
+        {
+          "path": "$.criteria.factory.conditions.items[0].items[4]",
+          "id": "mekanism:basic_combining_factory"
+        },
+        {
+          "path": "$.criteria.factory.conditions.items[0].items[8]",
+          "id": "mekanism:basic_sawing_factory"
+        },
+        {
+          "path": "$.criteria.factory.conditions.items[0].items[13]",
+          "id": "mekanism:advanced_combining_factory"
+        },
+        {
+          "path": "$.criteria.factory.conditions.items[0].items[17]",
+          "id": "mekanism:advanced_sawing_factory"
+        },
+        {
+          "path": "$.criteria.factory.conditions.items[0].items[22]",
+          "id": "mekanism:elite_combining_factory"
+        },
+        {
+          "path": "$.criteria.factory.conditions.items[0].items[26]",
+          "id": "mekanism:elite_sawing_factory"
+        },
+        {
+          "path": "$.criteria.factory.conditions.items[0].items[31]",
+          "id": "mekanism:ultimate_combining_factory"
+        },
+        {
+          "path": "$.criteria.factory.conditions.items[0].items[35]",
+          "id": "mekanism:ultimate_sawing_factory"
+        }
+      ]
+    },
+    {
+      "archive": "Mekanism-1.21.1-10.7.19.85.jar",
+      "resource": "data/mekanism/advancement/sawmill.json",
+      "kind": "other_data",
+      "sha256": "88b67d910eb7bc586ed5e3fd261f5a3d4f670dec60940c8304fbaf6896772fc4",
+      "references": [
+        {
+          "path": "$.criteria.precision_sawmill.conditions.items[0].items",
+          "id": "mekanism:precision_sawmill"
+        },
+        {
+          "path": "$.display.icon.id",
+          "id": "mekanism:precision_sawmill"
+        }
+      ]
+    },
+    {
+      "archive": "Mekanism-1.21.1-10.7.19.85.jar",
+      "resource": "data/mekanism/loot_table/blocks/advanced_combining_factory.json",
+      "kind": "loot",
+      "sha256": "e82dfcd07168760f9ff715a5c068c6f9ed4fc96ed4d5391e0785c5bb3b77b9dd",
+      "references": [
+        {
+          "path": "$.pools[0].entries[0].name",
+          "id": "mekanism:advanced_combining_factory"
+        }
+      ]
+    },
+    {
+      "archive": "Mekanism-1.21.1-10.7.19.85.jar",
+      "resource": "data/mekanism/loot_table/blocks/advanced_sawing_factory.json",
+      "kind": "loot",
+      "sha256": "053339df72b9617220e2ccc4fe725d42e3e743343dd9bc9b5f57c6266d70035e",
+      "references": [
+        {
+          "path": "$.pools[0].entries[0].name",
+          "id": "mekanism:advanced_sawing_factory"
+        }
+      ]
+    },
+    {
+      "archive": "Mekanism-1.21.1-10.7.19.85.jar",
+      "resource": "data/mekanism/loot_table/blocks/basic_combining_factory.json",
+      "kind": "loot",
+      "sha256": "209ef756b14d126fab377aa3e0230d8da46d33d4f452904204b8e7ad44589ce6",
+      "references": [
+        {
+          "path": "$.pools[0].entries[0].name",
+          "id": "mekanism:basic_combining_factory"
+        }
+      ]
+    },
+    {
+      "archive": "Mekanism-1.21.1-10.7.19.85.jar",
+      "resource": "data/mekanism/loot_table/blocks/basic_sawing_factory.json",
+      "kind": "loot",
+      "sha256": "bd66f852e027ee98b62b48c6bf24525f94e8c6210187a9be5a3c25586d6c12ab",
+      "references": [
+        {
+          "path": "$.pools[0].entries[0].name",
+          "id": "mekanism:basic_sawing_factory"
+        }
+      ]
+    },
+    {
+      "archive": "Mekanism-1.21.1-10.7.19.85.jar",
+      "resource": "data/mekanism/loot_table/blocks/combiner.json",
+      "kind": "loot",
+      "sha256": "ebb5b189951590663bc046f3249b00caf85de294f9bba0c2c788ec4682f4b6b9",
+      "references": [
+        {
+          "path": "$.pools[0].entries[0].name",
+          "id": "mekanism:combiner"
+        }
+      ]
+    },
+    {
+      "archive": "Mekanism-1.21.1-10.7.19.85.jar",
+      "resource": "data/mekanism/loot_table/blocks/elite_combining_factory.json",
+      "kind": "loot",
+      "sha256": "5722e9bed4576ff0429b9949f402cbfc41b84912132a0ca5aafd72e40b7a9368",
+      "references": [
+        {
+          "path": "$.pools[0].entries[0].name",
+          "id": "mekanism:elite_combining_factory"
+        }
+      ]
+    },
+    {
+      "archive": "Mekanism-1.21.1-10.7.19.85.jar",
+      "resource": "data/mekanism/loot_table/blocks/elite_sawing_factory.json",
+      "kind": "loot",
+      "sha256": "54b938fda5a7bd725a432ee31273d83a7e4895b8c9a8ade9b056287dd561221f",
+      "references": [
+        {
+          "path": "$.pools[0].entries[0].name",
+          "id": "mekanism:elite_sawing_factory"
+        }
+      ]
+    },
+    {
+      "archive": "Mekanism-1.21.1-10.7.19.85.jar",
+      "resource": "data/mekanism/loot_table/blocks/precision_sawmill.json",
+      "kind": "loot",
+      "sha256": "db15258166b361b3699c76295e397c037d47165f1a6633af4e3ee04332caf300",
+      "references": [
+        {
+          "path": "$.pools[0].entries[0].name",
+          "id": "mekanism:precision_sawmill"
+        }
+      ]
+    },
+    {
+      "archive": "Mekanism-1.21.1-10.7.19.85.jar",
+      "resource": "data/mekanism/loot_table/blocks/ultimate_combining_factory.json",
+      "kind": "loot",
+      "sha256": "cd403e82798f90457144efa62f4b4e9fb7a0b0ed69a29f36f24ccd78dfd70c92",
+      "references": [
+        {
+          "path": "$.pools[0].entries[0].name",
+          "id": "mekanism:ultimate_combining_factory"
+        }
+      ]
+    },
+    {
+      "archive": "Mekanism-1.21.1-10.7.19.85.jar",
+      "resource": "data/mekanism/loot_table/blocks/ultimate_sawing_factory.json",
+      "kind": "loot",
+      "sha256": "a056e4892f5370f430260fadfb380f51077704d61df5e796dc5d31c7472ef330",
+      "references": [
+        {
+          "path": "$.pools[0].entries[0].name",
+          "id": "mekanism:ultimate_sawing_factory"
+        }
+      ]
+    },
+    {
+      "archive": "Mekanism-1.21.1-10.7.19.85.jar",
+      "resource": "data/mekanism/recipe/combiner.json",
+      "kind": "recipe",
+      "sha256": "c0770480956e7302311cba60477d14d7564800c2665fa819bf86b4879a7cb225",
+      "references": [
+        {
+          "path": "$.result.id",
+          "id": "mekanism:combiner"
+        }
+      ]
+    },
+    {
+      "archive": "Mekanism-1.21.1-10.7.19.85.jar",
+      "resource": "data/mekanism/recipe/precision_sawmill.json",
+      "kind": "recipe",
+      "sha256": "d625421942b0ba33a2dc577be8cf60addfb96521ab0214e2c301747c5670b83e",
+      "references": [
+        {
+          "path": "$.result.id",
+          "id": "mekanism:precision_sawmill"
+        }
+      ]
+    },
+    {
+      "archive": "Mekanism-1.21.1-10.7.19.85.jar",
+      "resource": "data/mekanism/recipe/factory/advanced/combining.json",
+      "kind": "recipe",
+      "sha256": "02b8156a2890aa4c67504b42fcb5cec32d64674ed6ba405495dd206c506ccca6",
+      "references": [
+        {
+          "path": "$.key.P.item",
+          "id": "mekanism:basic_combining_factory"
+        },
+        {
+          "path": "$.result.id",
+          "id": "mekanism:advanced_combining_factory"
+        }
+      ]
+    },
+    {
+      "archive": "Mekanism-1.21.1-10.7.19.85.jar",
+      "resource": "data/mekanism/recipe/factory/advanced/sawing.json",
+      "kind": "recipe",
+      "sha256": "40f156cf31aa30faffc25b2a6b9bd16a54e967347a98ea53dcb6635ac4dfdfc0",
+      "references": [
+        {
+          "path": "$.key.P.item",
+          "id": "mekanism:basic_sawing_factory"
+        },
+        {
+          "path": "$.result.id",
+          "id": "mekanism:advanced_sawing_factory"
+        }
+      ]
+    },
+    {
+      "archive": "Mekanism-1.21.1-10.7.19.85.jar",
+      "resource": "data/mekanism/recipe/factory/basic/combining.json",
+      "kind": "recipe",
+      "sha256": "81b65a3eaa73058fe0994aa658e704ded724d7da43628f0a5b8fa2e03201185a",
+      "references": [
+        {
+          "path": "$.key.P.item",
+          "id": "mekanism:combiner"
+        },
+        {
+          "path": "$.result.id",
+          "id": "mekanism:basic_combining_factory"
+        }
+      ]
+    },
+    {
+      "archive": "Mekanism-1.21.1-10.7.19.85.jar",
+      "resource": "data/mekanism/recipe/factory/basic/sawing.json",
+      "kind": "recipe",
+      "sha256": "520cd24edecbf1281a15b60a6d54aa2918a25f44d320a8be12b0ca21b001c12c",
+      "references": [
+        {
+          "path": "$.key.P.item",
+          "id": "mekanism:precision_sawmill"
+        },
+        {
+          "path": "$.result.id",
+          "id": "mekanism:basic_sawing_factory"
+        }
+      ]
+    },
+    {
+      "archive": "Mekanism-1.21.1-10.7.19.85.jar",
+      "resource": "data/mekanism/recipe/factory/elite/combining.json",
+      "kind": "recipe",
+      "sha256": "14326ec3271c75a105bae0fda6f81285f2e6aa95083b45542636aff22e492bb1",
+      "references": [
+        {
+          "path": "$.key.P.item",
+          "id": "mekanism:advanced_combining_factory"
+        },
+        {
+          "path": "$.result.id",
+          "id": "mekanism:elite_combining_factory"
+        }
+      ]
+    },
+    {
+      "archive": "Mekanism-1.21.1-10.7.19.85.jar",
+      "resource": "data/mekanism/recipe/factory/elite/sawing.json",
+      "kind": "recipe",
+      "sha256": "a7eb2886210cfe487827b989705b179447631b0146a51ea36bba3a2de7349da1",
+      "references": [
+        {
+          "path": "$.key.P.item",
+          "id": "mekanism:advanced_sawing_factory"
+        },
+        {
+          "path": "$.result.id",
+          "id": "mekanism:elite_sawing_factory"
+        }
+      ]
+    },
+    {
+      "archive": "Mekanism-1.21.1-10.7.19.85.jar",
+      "resource": "data/mekanism/recipe/factory/ultimate/combining.json",
+      "kind": "recipe",
+      "sha256": "2f65b940e87c85bcb2b5db012dc9173ec52d755d93ccda692a63b98d32b1339b",
+      "references": [
+        {
+          "path": "$.key.P.item",
+          "id": "mekanism:elite_combining_factory"
+        },
+        {
+          "path": "$.result.id",
+          "id": "mekanism:ultimate_combining_factory"
+        }
+      ]
+    },
+    {
+      "archive": "Mekanism-1.21.1-10.7.19.85.jar",
+      "resource": "data/mekanism/recipe/factory/ultimate/sawing.json",
+      "kind": "recipe",
+      "sha256": "50d3257e0ed5730fb19595b1ec554c8a0588198daf45a8c4df7d9536c0a4de75",
+      "references": [
+        {
+          "path": "$.key.P.item",
+          "id": "mekanism:elite_sawing_factory"
+        },
+        {
+          "path": "$.result.id",
+          "id": "mekanism:ultimate_sawing_factory"
+        }
+      ]
+    },
+    {
+      "archive": "Mekanism-1.21.1-10.7.19.85.jar",
+      "resource": "data/minecraft/tags/block/mineable/pickaxe.json",
+      "kind": "tag",
+      "sha256": "1e89f6bb30ce4e8dd69db48a69da3eba869a10ff40db1576fe26793a05cfc0ce",
+      "references": [
+        {
+          "path": "$.values[54]",
+          "id": "mekanism:combiner"
+        },
+        {
+          "path": "$.values[71]",
+          "id": "mekanism:precision_sawmill"
+        },
+        {
+          "path": "$.values[106]",
+          "id": "mekanism:basic_combining_factory"
+        },
+        {
+          "path": "$.values[110]",
+          "id": "mekanism:basic_sawing_factory"
+        },
+        {
+          "path": "$.values[115]",
+          "id": "mekanism:advanced_combining_factory"
+        },
+        {
+          "path": "$.values[119]",
+          "id": "mekanism:advanced_sawing_factory"
+        },
+        {
+          "path": "$.values[124]",
+          "id": "mekanism:elite_combining_factory"
+        },
+        {
+          "path": "$.values[128]",
+          "id": "mekanism:elite_sawing_factory"
+        },
+        {
+          "path": "$.values[133]",
+          "id": "mekanism:ultimate_combining_factory"
+        },
+        {
+          "path": "$.values[137]",
+          "id": "mekanism:ultimate_sawing_factory"
+        }
+      ]
+    }
+  ],
+  "scripts": [
+    {
+      "path": "kubejs\\server_scripts\\kjsgen_recipes.js",
+      "sha256": "bdc8c23947c5fe03f237e8c673b0852b10b756076d3e99e47e71963f0b784b10",
+      "identifiers": [
+        "mekanism:combiner",
+        "mekanism:precision_sawmill"
+      ],
+      "scope": "Text reference, not proof of active code or acquisition."
+    },
+    {
+      "path": "config\\carryon-common.toml",
+      "sha256": "61413d3baf24cd7106e2be4c2f62b0ede74258051daf0ed2a157ad7b3a73d1aa",
+      "identifiers": [
+        "mekanismgenerators:heat_generator",
+        "mekanismgenerators:wind_generator"
+      ],
+      "scope": "Text reference, not proof of active code or acquisition."
+    },
+    {
+      "path": "config\\jei\\world\\local\\Industrial Colonies Runtime Test\\lookupHistory.json",
+      "sha256": "cbe6ae6f5eec053cfe3f62565077e617f65a321ae6b308d1cb1e812731920670",
+      "identifiers": [
+        "mekanism:combiner"
+      ],
+      "scope": "Text reference, not proof of active code or acquisition."
+    }
+  ],
+  "errors": [
+    {
+      "archive": "dungeonnowloading-neoforge-1.21.1-2.11.5.jar",
+      "resource": "data/dungeonnowloading/structure/temple_of_duality/chamber/easy/arrow_lane.nbt",
+      "error": "CRC check failed"
+    },
+    {
+      "archive": "dungeonnowloading-neoforge-1.21.1-2.11.5.jar",
+      "resource": "data/dungeonnowloading/structure/temple_of_duality/chamber/normal/pillar_parkour.nbt",
+      "error": "CRC check failed"
+    },
+    {
+      "archive": "minecolonies-1.1.1368-1.21.1.jar",
+      "resource": "data/minecolonies/structure/desertoasis/residenceluxuryred1.nbt",
+      "error": "Not a gzipped file (b'\\n')"
+    },
+    {
+      "archive": "minecolonies-1.1.1368-1.21.1.jar",
+      "resource": "data/minecolonies/structure/desertoasis/residenceluxuryred2.nbt",
+      "error": "Not a gzipped file (b'\\n')"
+    }
+  ],
+  "unscannedNestedJars": [
+    {
+      "archive": "adastra-1.21.1-1.16.22-neoforge.jar",
+      "entry": "META-INF/jars/jlayer-1.0.1.jar"
+    },
+    {
+      "archive": "AdvancedAE-1.6.12-1.21.1.jar",
+      "entry": "META-INF/jarjar/ae2addonlib-1.0.3-1.21.1.jar"
+    },
+    {
+      "archive": "AdvancedAE-1.6.12-1.21.1.jar",
+      "entry": "META-INF/jarjar/ae2wtlib_api-19.2.5.jar"
+    },
+    {
+      "archive": "ae2wtlib-19.5.1.jar",
+      "entry": "META-INF/jarjar/de.mari_023.ae2wtlib_api-19.5.1.jar"
+    },
+    {
+      "archive": "AeroIE-1.0.1.jar",
+      "entry": "META-INF/jarjar/mixinextras-neoforge-0.5.0.jar"
+    },
+    {
+      "archive": "apothic_cataclysm-1.2.0.jar",
+      "entry": "META-INF/jarjar/Registrate-MC1.21-1.3.0+63.jar"
+    },
+    {
+      "archive": "apothic_cataclysm-1.2.0.jar",
+      "entry": "META-INF/jarjar/l2core-3.0.8+8.jar"
+    },
+    {
+      "archive": "apothic_cataclysm-1.2.0.jar",
+      "entry": "META-INF/jarjar/l2serial-3.1.1.jar"
+    },
+    {
+      "archive": "apothic_cataclysm-1.2.0.jar",
+      "entry": "META-INF/jarjar/mob_weapon_api-3.0.2.jar"
+    },
+    {
+      "archive": "artifacts-neoforge-13.2.1.jar",
+      "entry": "META-INF/jars/expandability-neoforge-12.0.0.jar"
+    },
+    {
+      "archive": "balm-neoforge-1.21.1-21.0.65.jar",
+      "entry": "META-INF/jarjar/kuma-api-neoforge-21.0.8+1.21.jar"
+    },
+    {
+      "archive": "bettercombat-neoforge-2.4.0+1.21.1.jar",
+      "entry": "META-INF/jars/tiny-config-3.1.0-neoforge.jar"
+    },
+    {
+      "archive": "BOMD-NeoForge-1.21-1.3.3.jar",
+      "entry": "META-INF/jars/mixinextras-neoforge-0.4.1.jar"
+    },
+    {
+      "archive": "c2me-neoforge-mc1.21.1-0.4.0-alpha.0.120.jar",
+      "entry": "META-INF/jars/asyncutil-0.1.0.jar"
+    },
+    {
+      "archive": "c2me-neoforge-mc1.21.1-0.4.0-alpha.0.120.jar",
+      "entry": "META-INF/jars/c2me-neoforge-base-mc1.21.1-0.4.0-alpha.0.120-all.jar"
+    },
+    {
+      "archive": "c2me-neoforge-mc1.21.1-0.4.0-alpha.0.120.jar",
+      "entry": "META-INF/jars/c2me-neoforge-client-uncapvd-mc1.21.1-0.4.0-alpha.0.120.jar"
+    },
+    {
+      "archive": "c2me-neoforge-mc1.21.1-0.4.0-alpha.0.120.jar",
+      "entry": "META-INF/jars/c2me-neoforge-fixes-chunkio-threading-issues-mc1.21.1-0.4.0-alpha.0.120.jar"
+    },
+    {
+      "archive": "c2me-neoforge-mc1.21.1-0.4.0-alpha.0.120.jar",
+      "entry": "META-INF/jars/c2me-neoforge-fixes-general-threading-issues-mc1.21.1-0.4.0-alpha.0.120.jar"
+    },
+    {
+      "archive": "c2me-neoforge-mc1.21.1-0.4.0-alpha.0.120.jar",
+      "entry": "META-INF/jars/c2me-neoforge-fixes-worldgen-threading-issues-mc1.21.1-0.4.0-alpha.0.120.jar"
+    },
+    {
+      "archive": "c2me-neoforge-mc1.21.1-0.4.0-alpha.0.120.jar",
+      "entry": "META-INF/jars/c2me-neoforge-fixes-worldgen-vanilla-bugs-mc1.21.1-0.4.0-alpha.0.120.jar"
+    },
+    {
+      "archive": "c2me-neoforge-mc1.21.1-0.4.0-alpha.0.120.jar",
+      "entry": "META-INF/jars/c2me-neoforge-notickvd-mc1.21.1-0.4.0-alpha.0.120.jar"
+    },
+    {
+      "archive": "c2me-neoforge-mc1.21.1-0.4.0-alpha.0.120.jar",
+      "entry": "META-INF/jars/c2me-neoforge-opts-allocs-mc1.21.1-0.4.0-alpha.0.120.jar"
+    },
+    {
+      "archive": "c2me-neoforge-mc1.21.1-0.4.0-alpha.0.120.jar",
+      "entry": "META-INF/jars/c2me-neoforge-opts-chunkio-mc1.21.1-0.4.0-alpha.0.120.jar"
+    },
+    {
+      "archive": "c2me-neoforge-mc1.21.1-0.4.0-alpha.0.120.jar",
+      "entry": "META-INF/jars/c2me-neoforge-opts-dfc-mc1.21.1-0.4.0-alpha.0.120.jar"
+    },
+    {
+      "archive": "c2me-neoforge-mc1.21.1-0.4.0-alpha.0.120.jar",
+      "entry": "META-INF/jars/c2me-neoforge-opts-math-mc1.21.1-0.4.0-alpha.0.120.jar"
+    },
+    {
+      "archive": "c2me-neoforge-mc1.21.1-0.4.0-alpha.0.120.jar",
+      "entry": "META-INF/jars/c2me-neoforge-opts-natives-math-mc1.21.1-0.4.0-alpha.0.120.jar"
+    },
+    {
+      "archive": "c2me-neoforge-mc1.21.1-0.4.0-alpha.0.120.jar",
+      "entry": "META-INF/jars/c2me-neoforge-opts-scheduling-mc1.21.1-0.4.0-alpha.0.120.jar"
+    },
+    {
+      "archive": "c2me-neoforge-mc1.21.1-0.4.0-alpha.0.120.jar",
+      "entry": "META-INF/jars/c2me-neoforge-opts-worldgen-general-mc1.21.1-0.4.0-alpha.0.120.jar"
+    },
+    {
+      "archive": "c2me-neoforge-mc1.21.1-0.4.0-alpha.0.120.jar",
+      "entry": "META-INF/jars/c2me-neoforge-opts-worldgen-vanilla-mc1.21.1-0.4.0-alpha.0.120.jar"
+    },
+    {
+      "archive": "c2me-neoforge-mc1.21.1-0.4.0-alpha.0.120.jar",
+      "entry": "META-INF/jars/c2me-neoforge-rewrites-chunk-system-mc1.21.1-0.4.0-alpha.0.120.jar"
+    },
+    {
+      "archive": "c2me-neoforge-mc1.21.1-0.4.0-alpha.0.120.jar",
+      "entry": "META-INF/jars/c2me-neoforge-rewrites-chunkio-mc1.21.1-0.4.0-alpha.0.120.jar"
+    },
+    {
+      "archive": "c2me-neoforge-mc1.21.1-0.4.0-alpha.0.120.jar",
+      "entry": "META-INF/jars/c2me-neoforge-server-utils-mc1.21.1-0.4.0-alpha.0.120.jar"
+    },
+    {
+      "archive": "c2me-neoforge-mc1.21.1-0.4.0-alpha.0.120.jar",
+      "entry": "META-INF/jars/c2me-neoforge-threading-lighting-mc1.21.1-0.4.0-alpha.0.120.jar"
+    },
+    {
+      "archive": "c2me-neoforge-mc1.21.1-0.4.0-alpha.0.120.jar",
+      "entry": "META-INF/jars/caffeine-3.2.1.jar"
+    },
+    {
+      "archive": "c2me-neoforge-mc1.21.1-0.4.0-alpha.0.120.jar",
+      "entry": "META-INF/jars/exp4j-0.4.8.jar"
+    },
+    {
+      "archive": "c2me-neoforge-mc1.21.1-0.4.0-alpha.0.120.jar",
+      "entry": "META-INF/jars/jctools-core-4.0.5.jar"
+    },
+    {
+      "archive": "c2me-neoforge-mc1.21.1-0.4.0-alpha.0.120.jar",
+      "entry": "META-INF/jars/mixinsquared-neoforge-0.3.7-beta.1.jar"
+    },
+    {
+      "archive": "c2me-neoforge-mc1.21.1-0.4.0-alpha.0.120.jar",
+      "entry": "META-INF/jars/reactive-streams-1.0.4.jar"
+    },
+    {
+      "archive": "c2me-neoforge-mc1.21.1-0.4.0-alpha.0.120.jar",
+      "entry": "META-INF/jars/rxjava-3.1.12.jar"
+    },
+    {
+      "archive": "cc-tweaked-1.21.1-forge-1.120.0.jar",
+      "entry": "META-INF/jarjar/cobalt-0.9.9.jar"
+    },
+    {
+      "archive": "cc-tweaked-1.21.1-forge-1.120.0.jar",
+      "entry": "META-INF/jarjar/jzlib-1.1.3.jar"
+    },
+    {
+      "archive": "cccbridge-mc1.21.1-v1.7.3-neoforge.jar",
+      "entry": "META-INF/jarjar/kaleido-config-0.3.3+1.3.2.jar"
+    },
+    {
+      "archive": "comforts-neoforge-9.0.5+1.21.1.jar",
+      "entry": "META-INF/jarjar/spectrelib-neoforge-0.17.2+1.21.jar"
+    },
+    {
+      "archive": "common-storage-lib-neoforge-1.21.1-0.0.10.jar",
+      "entry": "META-INF/jars/common-storage-lib-data-neoforge-1.21.1-0.0.10.jar"
+    },
+    {
+      "archive": "common-storage-lib-neoforge-1.21.1-0.0.10.jar",
+      "entry": "META-INF/jars/common-storage-lib-lookup-neoforge-1.21.1-0.0.10.jar"
+    },
+    {
+      "archive": "common-storage-lib-neoforge-1.21.1-0.0.10.jar",
+      "entry": "META-INF/jars/common-storage-lib-resources-neoforge-1.21.1-0.0.10.jar"
+    },
+    {
+      "archive": "connector-2.0.0-beta.17+1.21.1-full.jar",
+      "entry": "META-INF/jarjar/org.sinytra.connector-2.0.0-beta.17+1.21.1-mod.jar"
+    },
+    {
+      "archive": "connector-2.0.0-beta.17+1.21.1-full.jar",
+      "entry": "META-INF/jarjar/runtime-1.0.0+1.21.1.jar"
+    },
+    {
+      "archive": "cosmowarp-1.0.1.jar",
+      "entry": "META-INF/jarjar/sable-companion-common-1.21.1-1.6.0.jar"
+    },
+    {
+      "archive": "CrashAssistant-neoforge-1.20.6-1.21.4-1.11.12.jar",
+      "entry": "META-INF/jarjar/app.jar"
+    },
+    {
+      "archive": "CrashAssistant-neoforge-1.20.6-1.21.4-1.11.12.jar",
+      "entry": "META-INF/jarjar/crash_assistant-neoforge.jar"
+    },
+    {
+      "archive": "create-1.21.1-6.0.10.jar",
+      "entry": "META-INF/jarjar/flywheel-neoforge-1.21.1-1.0.6.jar"
+    },
+    {
+      "archive": "create-1.21.1-6.0.10.jar",
+      "entry": "META-INF/jarjar/ponder-neoforge-1.0.82+mc1.21.1.jar"
+    },
+    {
+      "archive": "create-1.21.1-6.0.10.jar",
+      "entry": "META-INF/jarjar/Registrate-MC1.21-1.3.0+67.jar"
+    },
+    {
+      "archive": "create-aeronautics-bundled-1.21.1-1.3.2.jar",
+      "entry": "META-INF/jarjar/dev.eriksonn.aeronautics.aeronautics-neoforge-1.21.1-1.3.2.jar"
+    },
+    {
+      "archive": "create-aeronautics-bundled-1.21.1-1.3.2.jar",
+      "entry": "META-INF/jarjar/dev.ryanhcode.offroad.offroad-neoforge-1.21.1-1.3.2.jar"
+    },
+    {
+      "archive": "create-aeronautics-bundled-1.21.1-1.3.2.jar",
+      "entry": "META-INF/jarjar/dev.simulated_team.simulated.simulated-neoforge-1.21.1-1.3.2.jar"
+    },
+    {
+      "archive": "create-enchantment-industry-2.4.2.jar",
+      "entry": "META-INF/jarjar/conditional-mixin-neoforge-0.6.4.jar"
+    },
+    {
+      "archive": "create_connected-1.3.2-mc1.21.1.jar",
+      "entry": "META-INF/jarjar/sable-companion-common-1.21.1-1.6.0.jar"
+    },
+    {
+      "archive": "createaddition-1.6.0.jar",
+      "entry": "META-INF/jarjar/sable-companion-common-1.21.1-1.6.0.jar"
+    },
+    {
+      "archive": "createdieselgenerators-1.21.1-1.3.15.jar",
+      "entry": "META-INF/jarjar/sable-companion-common-1.21.1-1.6.0.jar"
+    },
+    {
+      "archive": "CreateDragonsPlus-1.11.7b.jar",
+      "entry": "META-INF/jarjar/conditional-mixin-neoforge-0.6.4.jar"
+    },
+    {
+      "archive": "cristellib-neoforge-1.21.1-3.1.7.jar",
+      "entry": "META-INF/jars/jankson-1.2.3.jar"
+    },
+    {
+      "archive": "DistantHorizons-3.3.2-1.21.1.jar",
+      "entry": "META-INF/jars/fabric-api-0.116.11+1.21.1.jar"
+    },
+    {
+      "archive": "DistantHorizons-3.3.2-1.21.1.jar",
+      "entry": "META-INF/jars/fabric-api-base-0.4.42+6573ed8c19.jar"
+    },
+    {
+      "archive": "DistantHorizons-3.3.2-1.21.1.jar",
+      "entry": "META-INF/jars/fabric-api-lookup-api-v1-1.6.72+7b3d111d19.jar"
+    },
+    {
+      "archive": "DistantHorizons-3.3.2-1.21.1.jar",
+      "entry": "META-INF/jars/fabric-biome-api-v1-13.0.31+d527f9fd19.jar"
+    },
+    {
+      "archive": "DistantHorizons-3.3.2-1.21.1.jar",
+      "entry": "META-INF/jars/fabric-block-api-v1-1.1.0+0bc3503219.jar"
+    },
+    {
+      "archive": "DistantHorizons-3.3.2-1.21.1.jar",
+      "entry": "META-INF/jars/fabric-block-view-api-v2-1.0.11+ebb2264e19.jar"
+    },
+    {
+      "archive": "DistantHorizons-3.3.2-1.21.1.jar",
+      "entry": "META-INF/jars/fabric-blockrenderlayer-v1-1.1.52+0af3f5a719.jar"
+    },
+    {
+      "archive": "DistantHorizons-3.3.2-1.21.1.jar",
+      "entry": "META-INF/jars/fabric-client-tags-api-v1-1.1.15+6573ed8c19.jar"
+    },
+    {
+      "archive": "DistantHorizons-3.3.2-1.21.1.jar",
+      "entry": "META-INF/jars/fabric-command-api-v1-1.2.49+f71b366f19.jar"
+    },
+    {
+      "archive": "DistantHorizons-3.3.2-1.21.1.jar",
+      "entry": "META-INF/jars/fabric-command-api-v2-2.2.28+6ced4dd919.jar"
+    },
+    {
+      "archive": "DistantHorizons-3.3.2-1.21.1.jar",
+      "entry": "META-INF/jars/fabric-commands-v0-0.2.66+df3654b319.jar"
+    },
+    {
+      "archive": "DistantHorizons-3.3.2-1.21.1.jar",
+      "entry": "META-INF/jars/fabric-content-registries-v0-8.0.19+b559734419.jar"
+    },
+    {
+      "archive": "DistantHorizons-3.3.2-1.21.1.jar",
+      "entry": "META-INF/jars/fabric-convention-tags-v1-2.1.7+7f945d5b19.jar"
+    },
+    {
+      "archive": "DistantHorizons-3.3.2-1.21.1.jar",
+      "entry": "META-INF/jars/fabric-convention-tags-v2-2.12.0+c3656daa19.jar"
+    },
+    {
+      "archive": "DistantHorizons-3.3.2-1.21.1.jar",
+      "entry": "META-INF/jars/fabric-crash-report-info-v1-0.2.29+0af3f5a719.jar"
+    },
+    {
+      "archive": "DistantHorizons-3.3.2-1.21.1.jar",
+      "entry": "META-INF/jars/fabric-data-attachment-api-v1-1.4.6+5b36e0f719.jar"
+    },
+    {
+      "archive": "DistantHorizons-3.3.2-1.21.1.jar",
+      "entry": "META-INF/jars/fabric-data-generation-api-v1-20.2.37+60a6976219.jar"
+    },
+    {
+      "archive": "DistantHorizons-3.3.2-1.21.1.jar",
+      "entry": "META-INF/jars/fabric-dimensions-v1-4.0.1+65213ef819.jar"
+    },
+    {
+      "archive": "DistantHorizons-3.3.2-1.21.1.jar",
+      "entry": "META-INF/jars/fabric-entity-events-v1-1.8.0+2b27e0a419.jar"
+    },
+    {
+      "archive": "DistantHorizons-3.3.2-1.21.1.jar",
+      "entry": "META-INF/jars/fabric-events-interaction-v0-0.7.13+ba9dae0619.jar"
+    },
+    {
+      "archive": "DistantHorizons-3.3.2-1.21.1.jar",
+      "entry": "META-INF/jars/fabric-game-rule-api-v1-1.0.53+6ced4dd919.jar"
+    },
+    {
+      "archive": "DistantHorizons-3.3.2-1.21.1.jar",
+      "entry": "META-INF/jars/fabric-item-api-v1-11.2.0+3b3cb2e819.jar"
+    },
+    {
+      "archive": "DistantHorizons-3.3.2-1.21.1.jar",
+      "entry": "META-INF/jars/fabric-item-group-api-v1-4.1.7+def88e3a19.jar"
+    },
+    {
+      "archive": "DistantHorizons-3.3.2-1.21.1.jar",
+      "entry": "META-INF/jars/fabric-key-binding-api-v1-1.0.47+0af3f5a719.jar"
+    },
+    {
+      "archive": "DistantHorizons-3.3.2-1.21.1.jar",
+      "entry": "META-INF/jars/fabric-keybindings-v0-0.2.45+df3654b319.jar"
+    },
+    {
+      "archive": "DistantHorizons-3.3.2-1.21.1.jar",
+      "entry": "META-INF/jars/fabric-lifecycle-events-v1-2.6.0+0865547519.jar"
+    },
+    {
+      "archive": "DistantHorizons-3.3.2-1.21.1.jar",
+      "entry": "META-INF/jars/fabric-loot-api-v2-3.0.15+3f89f5a519.jar"
+    },
+    {
+      "archive": "DistantHorizons-3.3.2-1.21.1.jar",
+      "entry": "META-INF/jars/fabric-loot-api-v3-1.0.3+3f89f5a519.jar"
+    },
+    {
+      "archive": "DistantHorizons-3.3.2-1.21.1.jar",
+      "entry": "META-INF/jars/fabric-message-api-v1-6.0.14+8aaf3aca19.jar"
+    },
+    {
+      "archive": "DistantHorizons-3.3.2-1.21.1.jar",
+      "entry": "META-INF/jars/fabric-model-loading-api-v1-2.1.0+b4d813fc19.jar"
+    },
+    {
+      "archive": "DistantHorizons-3.3.2-1.21.1.jar",
+      "entry": "META-INF/jars/fabric-networking-api-v1-4.3.0+c7469b2119.jar"
+    },
+    {
+      "archive": "DistantHorizons-3.3.2-1.21.1.jar",
+      "entry": "META-INF/jars/fabric-object-builder-api-v1-15.2.1+40875a9319.jar"
+    },
+    {
+      "archive": "DistantHorizons-3.3.2-1.21.1.jar",
+      "entry": "META-INF/jars/fabric-particles-v1-4.0.2+6573ed8c19.jar"
+    },
+    {
+      "archive": "DistantHorizons-3.3.2-1.21.1.jar",
+      "entry": "META-INF/jars/fabric-recipe-api-v1-5.0.15+2475392c19.jar"
+    },
+    {
+      "archive": "DistantHorizons-3.3.2-1.21.1.jar",
+      "entry": "META-INF/jars/fabric-registry-sync-v0-5.3.1+e3eddc2119.jar"
+    },
+    {
+      "archive": "DistantHorizons-3.3.2-1.21.1.jar",
+      "entry": "META-INF/jars/fabric-renderer-api-v1-3.4.1+b4d813fc19.jar"
+    },
+    {
+      "archive": "DistantHorizons-3.3.2-1.21.1.jar",
+      "entry": "META-INF/jars/fabric-renderer-indigo-1.7.1+c705a49c19.jar"
+    },
+    {
+      "archive": "DistantHorizons-3.3.2-1.21.1.jar",
+      "entry": "META-INF/jars/fabric-renderer-registries-v1-3.2.69+df3654b319.jar"
+    },
+    {
+      "archive": "DistantHorizons-3.3.2-1.21.1.jar",
+      "entry": "META-INF/jars/fabric-rendering-data-attachment-v1-0.3.49+73761d2e19.jar"
+    },
+    {
+      "archive": "DistantHorizons-3.3.2-1.21.1.jar",
+      "entry": "META-INF/jars/fabric-rendering-fluids-v1-3.1.6+1daea21519.jar"
+    },
+    {
+      "archive": "DistantHorizons-3.3.2-1.21.1.jar",
+      "entry": "META-INF/jars/fabric-rendering-v0-1.1.72+df3654b319.jar"
+    },
+    {
+      "archive": "DistantHorizons-3.3.2-1.21.1.jar",
+      "entry": "META-INF/jars/fabric-rendering-v1-5.1.0+ab4c25a019.jar"
+    },
+    {
+      "archive": "DistantHorizons-3.3.2-1.21.1.jar",
+      "entry": "META-INF/jars/fabric-resource-conditions-api-v1-4.3.0+8dc279b119.jar"
+    },
+    {
+      "archive": "DistantHorizons-3.3.2-1.21.1.jar",
+      "entry": "META-INF/jars/fabric-resource-loader-v0-1.3.1+5b5275af19.jar"
+    },
+    {
+      "archive": "DistantHorizons-3.3.2-1.21.1.jar",
+      "entry": "META-INF/jars/fabric-screen-api-v1-2.0.25+8b68f1c719.jar"
+    },
+    {
+      "archive": "DistantHorizons-3.3.2-1.21.1.jar",
+      "entry": "META-INF/jars/fabric-screen-handler-api-v1-1.3.90+b559734419.jar"
+    },
+    {
+      "archive": "DistantHorizons-3.3.2-1.21.1.jar",
+      "entry": "META-INF/jars/fabric-sound-api-v1-1.0.23+6573ed8c19.jar"
+    },
+    {
+      "archive": "DistantHorizons-3.3.2-1.21.1.jar",
+      "entry": "META-INF/jars/fabric-transfer-api-v1-5.4.4+7b3d111d19.jar"
+    },
+    {
+      "archive": "DistantHorizons-3.3.2-1.21.1.jar",
+      "entry": "META-INF/jars/fabric-transitive-access-wideners-v1-6.2.0+45b9699719.jar"
+    },
+    {
+      "archive": "electroenergetics-1.21.1-1.1.1.jar",
+      "entry": "META-INF/jarjar/sable-companion-common-1.21.1-1.6.0.jar"
+    },
+    {
+      "archive": "exposure-neoforge-1.21.1-1.9.18.jar",
+      "entry": "META-INF/jars/mixinextras-neoforge-0.4.1.jar"
+    },
+    {
+      "archive": "ExtendedAE-1.21-2.2.35-neoforge.jar",
+      "entry": "META-INF/jarjar/ae2wtlib_api-19.2.0.jar"
+    },
+    {
+      "archive": "fancymenu_neoforge_3.9.12_MC_1.21.1.jar",
+      "entry": "META-INF/jarjar/japng-0.5.3.jar"
+    },
+    {
+      "archive": "fancymenu_neoforge_3.9.12_MC_1.21.1.jar",
+      "entry": "META-INF/jarjar/animated-gif-lib-for-java-animated-gif-lib-1.7.jar"
+    },
+    {
+      "archive": "forgified-fabric-api-0.116.15+2.3.3+1.21.1.jar",
+      "entry": "META-INF/jars/fabric-api-base-0.4.42+d1308ded19.jar"
+    },
+    {
+      "archive": "forgified-fabric-api-0.116.15+2.3.3+1.21.1.jar",
+      "entry": "META-INF/jars/fabric-api-lookup-api-v1-1.6.72+6244b11119.jar"
+    },
+    {
+      "archive": "forgified-fabric-api-0.116.15+2.3.3+1.21.1.jar",
+      "entry": "META-INF/jars/fabric-biome-api-v1-13.0.31+1e62d33c19.jar"
+    },
+    {
+      "archive": "forgified-fabric-api-0.116.15+2.3.3+1.21.1.jar",
+      "entry": "META-INF/jars/fabric-block-api-v1-1.1.0+b0c22bb819.jar"
+    },
+    {
+      "archive": "forgified-fabric-api-0.116.15+2.3.3+1.21.1.jar",
+      "entry": "META-INF/jars/fabric-block-view-api-v2-1.0.11+e9036fd419.jar"
+    },
+    {
+      "archive": "forgified-fabric-api-0.116.15+2.3.3+1.21.1.jar",
+      "entry": "META-INF/jars/fabric-blockrenderlayer-v1-1.1.52+c290471319.jar"
+    },
+    {
+      "archive": "forgified-fabric-api-0.116.15+2.3.3+1.21.1.jar",
+      "entry": "META-INF/jars/fabric-client-tags-api-v1-1.2.0+5adff2d719.jar"
+    },
+    {
+      "archive": "forgified-fabric-api-0.116.15+2.3.3+1.21.1.jar",
+      "entry": "META-INF/jars/fabric-command-api-v2-2.2.28+36d727be19.jar"
+    },
+    {
+      "archive": "forgified-fabric-api-0.116.15+2.3.3+1.21.1.jar",
+      "entry": "META-INF/jars/fabric-content-registries-v0-8.0.19+5e0d320019.jar"
+    },
+    {
+      "archive": "forgified-fabric-api-0.116.15+2.3.3+1.21.1.jar",
+      "entry": "META-INF/jars/fabric-convention-tags-v1-2.1.7+7f945d5b19.jar"
+    },
+    {
+      "archive": "forgified-fabric-api-0.116.15+2.3.3+1.21.1.jar",
+      "entry": "META-INF/jars/fabric-convention-tags-v2-2.12.0+75d3639619.jar"
+    },
+    {
+      "archive": "forgified-fabric-api-0.116.15+2.3.3+1.21.1.jar",
+      "entry": "META-INF/jars/fabric-data-attachment-api-v1-1.4.7+26d408aa19.jar"
+    },
+    {
+      "archive": "forgified-fabric-api-0.116.15+2.3.3+1.21.1.jar",
+      "entry": "META-INF/jars/fabric-data-generation-api-v1-20.3.0+3e2bcb4b19.jar"
+    },
+    {
+      "archive": "forgified-fabric-api-0.116.15+2.3.3+1.21.1.jar",
+      "entry": "META-INF/jars/fabric-entity-events-v1-1.8.0+e46a02ca19.jar"
+    },
+    {
+      "archive": "forgified-fabric-api-0.116.15+2.3.3+1.21.1.jar",
+      "entry": "META-INF/jars/fabric-events-interaction-v0-0.7.14+057f5afd19.jar"
+    },
+    {
+      "archive": "forgified-fabric-api-0.116.15+2.3.3+1.21.1.jar",
+      "entry": "META-INF/jars/fabric-game-rule-api-v1-1.0.53+36d727be19.jar"
+    },
+    {
+      "archive": "forgified-fabric-api-0.116.15+2.3.3+1.21.1.jar",
+      "entry": "META-INF/jars/fabric-gametest-api-v1-2.0.5+29f188ce19.jar"
+    },
+    {
+      "archive": "forgified-fabric-api-0.116.15+2.3.3+1.21.1.jar",
+      "entry": "META-INF/jars/fabric-item-api-v1-11.3.0+766f218719.jar"
+    },
+    {
+      "archive": "forgified-fabric-api-0.116.15+2.3.3+1.21.1.jar",
+      "entry": "META-INF/jars/fabric-item-group-api-v1-4.1.7+e324903319.jar"
+    },
+    {
+      "archive": "forgified-fabric-api-0.116.15+2.3.3+1.21.1.jar",
+      "entry": "META-INF/jars/fabric-key-binding-api-v1-1.0.47+62cc7ce119.jar"
+    },
+    {
+      "archive": "forgified-fabric-api-0.116.15+2.3.3+1.21.1.jar",
+      "entry": "META-INF/jars/fabric-lifecycle-events-v1-2.6.0+e40d8add19.jar"
+    },
+    {
+      "archive": "forgified-fabric-api-0.116.15+2.3.3+1.21.1.jar",
+      "entry": "META-INF/jars/fabric-loot-api-v2-3.0.15+a3ee712d19.jar"
+    },
+    {
+      "archive": "forgified-fabric-api-0.116.15+2.3.3+1.21.1.jar",
+      "entry": "META-INF/jars/fabric-loot-api-v3-1.0.3+333dfad919.jar"
+    },
+    {
+      "archive": "forgified-fabric-api-0.116.15+2.3.3+1.21.1.jar",
+      "entry": "META-INF/jars/fabric-message-api-v1-6.0.14+6a754fce19.jar"
+    },
+    {
+      "archive": "forgified-fabric-api-0.116.15+2.3.3+1.21.1.jar",
+      "entry": "META-INF/jars/fabric-model-loading-api-v1-2.1.0+6e8f52c719.jar"
+    },
+    {
+      "archive": "forgified-fabric-api-0.116.15+2.3.3+1.21.1.jar",
+      "entry": "META-INF/jars/fabric-networking-api-v1-4.3.1+7e3d421f19.jar"
+    },
+    {
+      "archive": "forgified-fabric-api-0.116.15+2.3.3+1.21.1.jar",
+      "entry": "META-INF/jars/fabric-object-builder-api-v1-15.2.1+cc242efd19.jar"
+    },
+    {
+      "archive": "forgified-fabric-api-0.116.15+2.3.3+1.21.1.jar",
+      "entry": "META-INF/jars/fabric-particles-v1-4.0.2+824f924c19.jar"
+    },
+    {
+      "archive": "forgified-fabric-api-0.116.15+2.3.3+1.21.1.jar",
+      "entry": "META-INF/jars/fabric-recipe-api-v1-5.0.16+59440bcc19.jar"
+    },
+    {
+      "archive": "forgified-fabric-api-0.116.15+2.3.3+1.21.1.jar",
+      "entry": "META-INF/jars/fabric-registry-sync-v0-5.3.2+f9aace1619.jar"
+    },
+    {
+      "archive": "forgified-fabric-api-0.116.15+2.3.3+1.21.1.jar",
+      "entry": "META-INF/jars/fabric-renderer-api-v1-3.4.1+9125b6dc19.jar"
+    },
+    {
+      "archive": "forgified-fabric-api-0.116.15+2.3.3+1.21.1.jar",
+      "entry": "META-INF/jars/fabric-renderer-indigo-1.7.1+9125b6dc19.jar"
+    },
+    {
+      "archive": "forgified-fabric-api-0.116.15+2.3.3+1.21.1.jar",
+      "entry": "META-INF/jars/fabric-renderer-registries-v1-3.2.69+df3654b319.jar"
+    },
+    {
+      "archive": "forgified-fabric-api-0.116.15+2.3.3+1.21.1.jar",
+      "entry": "META-INF/jars/fabric-rendering-data-attachment-v1-0.3.49+73761d2e19.jar"
+    },
+    {
+      "archive": "forgified-fabric-api-0.116.15+2.3.3+1.21.1.jar",
+      "entry": "META-INF/jars/fabric-rendering-fluids-v1-3.1.6+a51883b219.jar"
+    },
+    {
+      "archive": "forgified-fabric-api-0.116.15+2.3.3+1.21.1.jar",
+      "entry": "META-INF/jars/fabric-rendering-v1-5.1.0+1a09bd5a19.jar"
+    },
+    {
+      "archive": "forgified-fabric-api-0.116.15+2.3.3+1.21.1.jar",
+      "entry": "META-INF/jars/fabric-resource-conditions-api-v1-4.3.0+5bdd099819.jar"
+    },
+    {
+      "archive": "forgified-fabric-api-0.116.15+2.3.3+1.21.1.jar",
+      "entry": "META-INF/jars/fabric-resource-loader-v0-1.3.1+4ea8954419.jar"
+    },
+    {
+      "archive": "forgified-fabric-api-0.116.15+2.3.3+1.21.1.jar",
+      "entry": "META-INF/jars/fabric-screen-api-v1-2.0.26+9991ca2f19.jar"
+    },
+    {
+      "archive": "forgified-fabric-api-0.116.15+2.3.3+1.21.1.jar",
+      "entry": "META-INF/jars/fabric-screen-handler-api-v1-1.3.91+8dbc56dd19.jar"
+    },
+    {
+      "archive": "forgified-fabric-api-0.116.15+2.3.3+1.21.1.jar",
+      "entry": "META-INF/jars/fabric-sound-api-v1-1.0.23+10b84f8419.jar"
+    },
+    {
+      "archive": "forgified-fabric-api-0.116.15+2.3.3+1.21.1.jar",
+      "entry": "META-INF/jars/fabric-tag-api-v1-1.3.0+3e2bcb4b19.jar"
+    },
+    {
+      "archive": "forgified-fabric-api-0.116.15+2.3.3+1.21.1.jar",
+      "entry": "META-INF/jars/fabric-transfer-api-v1-5.4.4+6244b11119.jar"
+    },
+    {
+      "archive": "forgified-fabric-api-0.116.15+2.3.3+1.21.1.jar",
+      "entry": "META-INF/jars/fabric-transitive-access-wideners-v1-6.2.0+6c854b6f19.jar"
+    },
+    {
+      "archive": "forgified-fabric-api-0.116.15+2.3.3+1.21.1.jar",
+      "entry": "META-INF/jars/forgified-fabric-loader-2.5.68+0.18.4+1.21.1-full.jar"
+    },
+    {
+      "archive": "fzzy_config-0.7.6+1.21+neoforge.jar",
+      "entry": "META-INF/jars/jankson-1.2.3.jar"
+    },
+    {
+      "archive": "fzzy_config-0.7.6+1.21+neoforge.jar",
+      "entry": "META-INF/jars/tomlkt-jvm-0.3.7.jar"
+    },
+    {
+      "archive": "iceandfire-2.1.3.jar",
+      "entry": "META-INF/jarjar/integration-neoforge-0.2.jar"
+    },
+    {
+      "archive": "ImmediatelyFast-NeoForge-1.6.12+1.21.1.jar",
+      "entry": "META-INF/jars/Reflect-1.6.2.jar"
+    },
+    {
+      "archive": "ImmersiveEngineering-1.21.1-12.4.2-194.jar",
+      "entry": "META-INF/jarjar/BlockModelSplitter-2.0.1.jar"
+    },
+    {
+      "archive": "ImmersiveEngineering-1.21.1-12.4.2-194.jar",
+      "entry": "META-INF/jarjar/DualCodecs-0.1.2.jar"
+    },
+    {
+      "archive": "immersiveoverlays-1.8.5+1.21.1-neoforge.jar",
+      "entry": "META-INF/jarjar/mixinconstraints-1.0.9.jar"
+    },
+    {
+      "archive": "immersiveoverlays-1.8.5+1.21.1-neoforge.jar",
+      "entry": "META-INF/jarjar/mru-neoforge-1.0.41+1.21.1.jar"
+    },
+    {
+      "archive": "iris-neoforge-1.8.14-beta.1+mc1.21.1.jar",
+      "entry": "META-INF/jarjar/fabric-api-base-0.4.42+d1308ded19.jar"
+    },
+    {
+      "archive": "iris-neoforge-1.8.14-beta.1+mc1.21.1.jar",
+      "entry": "META-INF/jarjar/fabric-block-view-api-v2-1.0.10+9afaaf8c19.jar"
+    },
+    {
+      "archive": "iris-neoforge-1.8.14-beta.1+mc1.21.1.jar",
+      "entry": "META-INF/jarjar/fabric-renderer-api-v1-3.4.0+acb05a3919.jar"
+    },
+    {
+      "archive": "iris-neoforge-1.8.14-beta.1+mc1.21.1.jar",
+      "entry": "META-INF/jarjar/fabric-rendering-data-attachment-v1-0.3.48+73761d2e19.jar"
+    },
+    {
+      "archive": "iris-neoforge-1.8.14-beta.1+mc1.21.1.jar",
+      "entry": "META-INF/jarjar/glsl-transformer-3.0.0-pre3.jar"
+    },
+    {
+      "archive": "iris-neoforge-1.8.14-beta.1+mc1.21.1.jar",
+      "entry": "META-INF/jarjar/jcpp-1.4.14.jar"
+    },
+    {
+      "archive": "item_descriptions-2.8.0+1.21.1-neoforge.jar",
+      "entry": "META-INF/jarjar/kaleido-config-0.3.3+1.3.2.jar"
+    },
+    {
+      "archive": "jamlib-neoforge-1.3.6+1.21.1.jar",
+      "entry": "META-INF/jars/jankson-1.2.3.jar"
+    },
+    {
+      "archive": "journeymap-neoforge-1.21.1-6.0.5.jar",
+      "entry": "META-INF/jarjar/common-networking-neoforge-1.0.21-1.21.1.jar"
+    },
+    {
+      "archive": "journeymap-neoforge-1.21.1-6.0.5.jar",
+      "entry": "META-INF/jarjar/journeymap-api-neoforge-2.0.0-1.21.1.jar"
+    },
+    {
+      "archive": "journeymap-neoforge-1.21.1-6.0.5.jar",
+      "entry": "META-INF/jarjar/pngj-2.1.0.jar"
+    },
+    {
+      "archive": "kotlinforforge-5.12.0-all.jar",
+      "entry": "META-INF/jarjar/thedarkcolour.kfflib-5.12.0.jar"
+    },
+    {
+      "archive": "kotlinforforge-5.12.0-all.jar",
+      "entry": "META-INF/jarjar/kotlin-stdlib-jdk7-2.4.0.jar"
+    },
+    {
+      "archive": "kotlinforforge-5.12.0-all.jar",
+      "entry": "META-INF/jarjar/kotlin-stdlib-2.4.0.jar"
+    },
+    {
+      "archive": "kotlinforforge-5.12.0-all.jar",
+      "entry": "META-INF/jarjar/thedarkcolour.kfflang-5.12.0.jar"
+    },
+    {
+      "archive": "kotlinforforge-5.12.0-all.jar",
+      "entry": "META-INF/jarjar/kotlinx-serialization-core-jvm-1.11.0.jar"
+    },
+    {
+      "archive": "kotlinforforge-5.12.0-all.jar",
+      "entry": "META-INF/jarjar/kotlinx-coroutines-core-jvm-1.11.0.jar"
+    },
+    {
+      "archive": "kotlinforforge-5.12.0-all.jar",
+      "entry": "META-INF/jarjar/kotlinx-coroutines-jdk8-1.11.0.jar"
+    },
+    {
+      "archive": "kotlinforforge-5.12.0-all.jar",
+      "entry": "META-INF/jarjar/kotlinx-serialization-json-jvm-1.11.0.jar"
+    },
+    {
+      "archive": "kotlinforforge-5.12.0-all.jar",
+      "entry": "META-INF/jarjar/kotlin-reflect-2.4.0.jar"
+    },
+    {
+      "archive": "kotlinforforge-5.12.0-all.jar",
+      "entry": "META-INF/jarjar/kotlin-stdlib-jdk8-2.4.0.jar"
+    },
+    {
+      "archive": "kotlinforforge-5.12.0-all.jar",
+      "entry": "META-INF/jarjar/thedarkcolour.kffmod-5.12.0.jar"
+    },
+    {
+      "archive": "kubejs-neoforge-2101.7.2-build.368.jar",
+      "entry": "META-INF/jarjar/animated-gif-lib-for-java-animated-gif-lib-1.7.jar"
+    },
+    {
+      "archive": "kubejs-neoforge-2101.7.2-build.368.jar",
+      "entry": "META-INF/jarjar/better-advanced-tooltips-2101.1.0-build.1.jar"
+    },
+    {
+      "archive": "kubejs-neoforge-2101.7.2-build.368.jar",
+      "entry": "META-INF/jarjar/tiny-java-server-1.0.0-build.33.jar"
+    },
+    {
+      "archive": "ldlib2-neoforge-1.21.1-2.2.38.a-all.jar",
+      "entry": "META-INF/jarjar/taffy-1.1.4.jar"
+    },
+    {
+      "archive": "ldlib2-neoforge-1.21.1-2.2.38.a-all.jar",
+      "entry": "META-INF/jarjar/yoga-1.0.0.jar"
+    },
+    {
+      "archive": "ldlib2-neoforge-1.21.1-2.2.38.a-all.jar",
+      "entry": "META-INF/jarjar/kotlin-stdlib-2.4.20-RC2.jar"
+    },
+    {
+      "archive": "lithostitched-1.8.0+beta4-neoforge-21.1.jar",
+      "entry": "META-INF/jarjar/apollib-1.2.0-neoforge-21.1.jar"
+    },
+    {
+      "archive": "moonlight-1.21.1-3.3.4-neoforge.jar",
+      "entry": "META-INF/jarjar/codecui-neoforge-1.21.1-1.3.6.jar"
+    },
+    {
+      "archive": "NuclearCraft-1.21.1-1.3.0-rc1.jar",
+      "entry": "META-INF/jarjar/flywheel-neoforge-1.21.1-1.0.6-44.jar"
+    },
+    {
+      "archive": "NuclearCraft-1.21.1-1.3.0-rc1.jar",
+      "entry": "META-INF/jarjar/ponder-neoforge-1.0.87+mc1.21.1.jar"
+    },
+    {
+      "archive": "NuclearRadiation-1.21.1-1.0.14.jar",
+      "entry": "META-INF/jarjar/sable-companion-common-1.21.1-1.6.0.jar"
+    },
+    {
+      "archive": "OctoLib-NEOFORGE-0.6.2+1.21.jar",
+      "entry": "META-INF/jars/snakeyaml-2.2.jar"
+    },
+    {
+      "archive": "Quark-4.1-482.jar",
+      "entry": "META-INF/jarjar/biolith-neoforge-3.0.10.jar"
+    },
+    {
+      "archive": "regions-unexplored-0.6.2-neoforge-21.1.jar",
+      "entry": "META-INF/jars/json5-java-3.0.0.jar"
+    },
+    {
+      "archive": "resourcefullib-neoforge-1.21-3.0.12.jar",
+      "entry": "META-INF/jars/bytecodecs-1.1.2.jar"
+    },
+    {
+      "archive": "resourcefullib-neoforge-1.21-3.0.12.jar",
+      "entry": "META-INF/jars/yabn-1.0.3.jar"
+    },
+    {
+      "archive": "sable-neoforge-1.21.1-2.0.3.jar",
+      "entry": "META-INF/jarjar/dev.ryanhcode.sable.sable-sable_rapier-1.21.1-2.0.3.jar"
+    },
+    {
+      "archive": "sable-neoforge-1.21.1-2.0.3.jar",
+      "entry": "META-INF/jarjar/sable-companion-common-1.21.1-1.6.0.jar"
+    },
+    {
+      "archive": "sable-neoforge-1.21.1-2.0.3.jar",
+      "entry": "META-INF/jarjar/veil-neoforge-1.21.1-4.1.4.jar"
+    },
+    {
+      "archive": "sodium-neoforge-0.8.13+mc1.21.1.jar",
+      "entry": "META-INF/jarjar/fabric-api-base-0.4.42+d1308ded19.jar"
+    },
+    {
+      "archive": "sodium-neoforge-0.8.13+mc1.21.1.jar",
+      "entry": "META-INF/jarjar/fabric-block-view-api-v2-1.0.10+9afaaf8c19.jar"
+    },
+    {
+      "archive": "sodium-neoforge-0.8.13+mc1.21.1.jar",
+      "entry": "META-INF/jarjar/fabric-renderer-api-v1-3.4.1+9125b6dc19.jar"
+    },
+    {
+      "archive": "sodium-neoforge-0.8.13+mc1.21.1.jar",
+      "entry": "META-INF/jarjar/fabric-rendering-data-attachment-v1-0.3.48+73761d2e19.jar"
+    },
+    {
+      "archive": "sodium-neoforge-0.8.13+mc1.21.1.jar",
+      "entry": "META-INF/jarjar/net.caffeinemc.sodium-neoforge-0.8.13+mc1.21.1-mod.jar"
+    },
+    {
+      "archive": "spell_power-neoforge-1.6.0+1.21.1.jar",
+      "entry": "META-INF/jars/tiny-config-3.1.0-neoforge.jar"
+    },
+    {
+      "archive": "stellaris-1.21-neoforge-1.4.25.jar",
+      "entry": "META-INF/jars/sky-aesthetics-neoforge-1.21-2.0.13-beta.jar"
+    },
+    {
+      "archive": "SubtleEffects-neoforge-1.21.1-1.14.3.jar",
+      "entry": "META-INF/jarjar/mixinconstraints-1.1.0.jar"
+    },
+    {
+      "archive": "supplementaries-1.21.1-3.8.10-neoforge.jar",
+      "entry": "META-INF/jarjar/mixinsquared-forge-0.3.7-beta.3.jar"
+    },
+    {
+      "archive": "supplementaries-1.21.1-3.8.10-neoforge.jar",
+      "entry": "META-INF/jarjar/sable-companion-common-1.21.1-1.6.0.jar"
+    },
+    {
+      "archive": "uranus-2.4.1-bugfix-1.21.1-neoforge.jar",
+      "entry": "META-INF/jars/architectury-neoforge-13.0.8.jar"
+    },
+    {
+      "archive": "xaerominimap-neoforge-1.21.1-26.4.2.jar",
+      "entry": "META-INF/jarjar/xaerolib-neoforge-1.21.1-1.7.1.jar"
+    },
+    {
+      "archive": "xaeroworldmap-neoforge-1.21.1-1.44.2.jar",
+      "entry": "META-INF/jarjar/xaerolib-neoforge-1.21.1-1.7.1.jar"
+    },
+    {
+      "archive": "yet_another_config_lib_v3-3.8.2+1.21.1-neoforge.jar",
+      "entry": "META-INF/jarjar/common-image-3.12.0.jar"
+    },
+    {
+      "archive": "yet_another_config_lib_v3-3.8.2+1.21.1-neoforge.jar",
+      "entry": "META-INF/jarjar/common-io-3.12.0.jar"
+    },
+    {
+      "archive": "yet_another_config_lib_v3-3.8.2+1.21.1-neoforge.jar",
+      "entry": "META-INF/jarjar/common-lang-3.12.0.jar"
+    },
+    {
+      "archive": "yet_another_config_lib_v3-3.8.2+1.21.1-neoforge.jar",
+      "entry": "META-INF/jarjar/gson-0.2.1.jar"
+    },
+    {
+      "archive": "yet_another_config_lib_v3-3.8.2+1.21.1-neoforge.jar",
+      "entry": "META-INF/jarjar/imageio-core-3.12.0.jar"
+    },
+    {
+      "archive": "yet_another_config_lib_v3-3.8.2+1.21.1-neoforge.jar",
+      "entry": "META-INF/jarjar/imageio-metadata-3.12.0.jar"
+    },
+    {
+      "archive": "yet_another_config_lib_v3-3.8.2+1.21.1-neoforge.jar",
+      "entry": "META-INF/jarjar/imageio-webp-3.12.0.jar"
+    },
+    {
+      "archive": "yet_another_config_lib_v3-3.8.2+1.21.1-neoforge.jar",
+      "entry": "META-INF/jarjar/json-0.2.1.jar"
+    }
+  ],
+  "limits": "Scans top-level installed lab JAR data JSON, gzip/raw structure NBT identifiers and local kubejs/config text. Recipes are references only and unchanged. Tags/removal scripts/block self-drop entries are not independent obtainable sources. Native Java trades, dynamic code, nested JARs, condition evaluation, datapack priority, saves and production are NOT_AUDITED. No absence proof for all acquisition."
+}

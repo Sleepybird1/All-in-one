@@ -1,5 +1,5 @@
 {
   "enabled": true,
-  "linkedSiteChance": 0.95,
-  "note": "95% of proposed sites use a chunk with verified surviving matching deposit material; 5% are unrelated scatters 160–224 blocks away. Terrain can reject either kind, so 95% is not a measured posterior probability. Rocks indicate nearby material, not deposit size or quality. Restart after editing."
+  "linkedSiteChance": 1.0,
+  "note": "Clue-only mode: every site also requires a recorded matching main vein within500horizontal blocks. No independent false leads; no claim of remaining stock. Existing terrain is not retrofitted."
 }

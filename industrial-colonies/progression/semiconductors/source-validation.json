@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "changed": {
+    "industrial_colonies:electronics/prepared_silicon_wafer": "industrial_colonies:prepared_silicon_wafer",
+    "industrial_colonies:electronics/etched_silicon_wafer": "industrial_colonies:etched_silicon_wafer",
+    "industrial_colonies:electronics/n_semiconductor": "tfmg:n_semiconductor",
+    "industrial_colonies:electronics/p_semiconductor": "tfmg:p_semiconductor",
+    "industrial_colonies:electronics/bootstrap_hydrogen_chloride": "mekanism:hydrogen_chloride"
+  },
+  "owned": {
+    "industrial_colonies:prepared_silicon_wafer": "industrial_colonies:electronics/prepared_silicon_wafer",
+    "industrial_colonies:etched_silicon_wafer": "industrial_colonies:electronics/etched_silicon_wafer",
+    "tfmg:n_semiconductor": "industrial_colonies:electronics/n_semiconductor",
+    "tfmg:p_semiconductor": "industrial_colonies:electronics/p_semiconductor"
+  },
+  "retired": [
+    "industrial_colonies:processing/silicon/n_semiconductor",
+    "industrial_colonies:processing/silicon/p_semiconductor",
+    "industrial_colonies:processing/silicon/wafer_cutting"
+  ],
+  "untouchedCards": 679,
+  "materialRecipesRetained": 296
+}

@@ -1,0 +1,130 @@
+{
+  "id": "industrial_colonies:crystal_assembler",
+  "mod": "extendedae",
+  "icon": "extendedae:crystal_assembler",
+  "jei": "extendedae:crystal_assembler",
+  "width": 172,
+  "height": 90,
+  "slots": [
+    {
+      "key": "in0",
+      "role": "INPUT",
+      "x": 8,
+      "y": 12,
+      "required": false,
+      "item": true,
+      "tag": true,
+      "count": true,
+      "fluid": false
+    },
+    {
+      "key": "in1",
+      "role": "INPUT",
+      "x": 31,
+      "y": 12,
+      "required": false,
+      "item": true,
+      "tag": true,
+      "count": true,
+      "fluid": false
+    },
+    {
+      "key": "in2",
+      "role": "INPUT",
+      "x": 54,
+      "y": 12,
+      "required": false,
+      "item": true,
+      "tag": true,
+      "count": true,
+      "fluid": false
+    },
+    {
+      "key": "in3",
+      "role": "INPUT",
+      "x": 77,
+      "y": 12,
+      "required": false,
+      "item": true,
+      "tag": true,
+      "count": true,
+      "fluid": false
+    },
+    {
+      "key": "in4",
+      "role": "INPUT",
+      "x": 8,
+      "y": 36,
+      "required": false,
+      "item": true,
+      "tag": true,
+      "count": true,
+      "fluid": false
+    },
+    {
+      "key": "in5",
+      "role": "INPUT",
+      "x": 31,
+      "y": 36,
+      "required": false,
+      "item": true,
+      "tag": true,
+      "count": true,
+      "fluid": false
+    },
+    {
+      "key": "in6",
+      "role": "INPUT",
+      "x": 54,
+      "y": 36,
+      "required": false,
+      "item": true,
+      "tag": true,
+      "count": true,
+      "fluid": false
+    },
+    {
+      "key": "in7",
+      "role": "INPUT",
+      "x": 77,
+      "y": 36,
+      "required": false,
+      "item": true,
+      "tag": true,
+      "count": true,
+      "fluid": false
+    },
+    {
+      "key": "fluid",
+      "role": "INPUT",
+      "x": 40,
+      "y": 64,
+      "required": false,
+      "item": false,
+      "fluid": true,
+      "tag": true,
+      "count": true
+    },
+    {
+      "key": "output",
+      "role": "OUTPUT",
+      "x": 146,
+      "y": 24,
+      "required": true,
+      "item": true,
+      "fluid": false,
+      "tag": false,
+      "count": true
+    }
+  ],
+  "decorations": [
+    {
+      "type": "ARROW",
+      "x": 112,
+      "y": 26
+    }
+  ],
+  "parameters": [],
+  "codegen": "industrial_colonies:crystal_assembler",
+  "requiresMod": "extendedae"
+}

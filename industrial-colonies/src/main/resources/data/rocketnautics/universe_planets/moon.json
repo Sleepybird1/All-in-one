@@ -1,0 +1,48 @@
+{
+  "parent": "overworld",
+  "acceleration_at_surface": 1.622,
+  "dimension_data": {
+    "allowed_transfer": "all",
+    "apply_gravity_correction_to_entities_in_dimension": false,
+    "atmosphere_composition": {},
+    "dimension_transfer_height": 20000,
+    "entity_drag_multiplier": [
+      {
+        "altitude": 4000.0,
+        "slope": 0.0,
+        "value": 1.0
+      },
+      {
+        "altitude": 7000.0,
+        "slope": -0.0006,
+        "value": 0.0
+      }
+    ],
+    "linked_dimension": "ad_astra:moon",
+    "render_universe_in_dimension": false
+  },
+  "planet_extras": {
+    "light_source_name": "sol",
+    "has_clouds": false
+  },
+  "name": "moon",
+  "planet_texture": {
+    "type": "resloc",
+    "texture": "ad_astra:textures/environment/moon.png"
+  },
+  "position": {
+    "type": "circular_orbit_period",
+    "orbit_axis": {
+      "x": 0.0,
+      "y": 1.0,
+      "z": 0.0
+    },
+    "period_seconds": 28800.0
+  },
+  "priority": 2000,
+  "radius": 750000.0,
+  "rotation": {
+    "type": "tidal_lock",
+    "rotations_per_orbit": -1.0
+  }
+}

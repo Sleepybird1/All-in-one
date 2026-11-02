@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    { "id": "wythers:ores/ore_coal_windswept", "required": false },
+    { "id": "wythers:ores/ore_diamond_volcanic", "required": false },
+    { "id": "wythers:ores/ore_gold_volcanic", "required": false },
+    { "id": "wythers:ores/ore_iron_windswept", "required": false },
+    { "id": "wythers:ores/ore_redstone_windswept", "required": false }
+  ]
+}

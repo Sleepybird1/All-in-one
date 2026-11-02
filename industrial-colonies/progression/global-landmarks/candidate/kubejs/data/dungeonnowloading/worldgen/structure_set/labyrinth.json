@@ -1,0 +1,19 @@
+{
+  "structures": [
+    {
+      "structure": "dungeonnowloading:labyrinth",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 269766545,
+    "exclusion_zone": {
+      "other_set": "minecraft:mineshafts",
+      "chunk_count": 5
+    },
+    "spacing": 80,
+    "separation": 20,
+    "frequency": 0.0
+  }
+}

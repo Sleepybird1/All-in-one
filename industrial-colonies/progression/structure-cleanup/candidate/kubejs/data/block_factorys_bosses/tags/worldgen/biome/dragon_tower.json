@@ -1,0 +1,9 @@
+{
+  "replace": true,
+  "values": [
+    "ad_astra:venus_wastelands",
+    "ad_astra:infernal_venus_barrens",
+    "stellaris:venus_desert",
+    "stellaris:infernal_venus_barrens"
+  ]
+}

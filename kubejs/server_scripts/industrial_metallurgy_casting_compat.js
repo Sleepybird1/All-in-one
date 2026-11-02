@@ -1,3 +1,5 @@
+// Original recipe review: registrations retained below, temporarily inactive.
+function IC_originalRecipeReview_skip() {}
 // Industrial Colonies - Create Metallurgy casting codec repair
 //
 // Create Metallurgy publishes these nine optional casts through common output
@@ -6,7 +8,7 @@
 // them with the current CastingOutput item-stack shape while preserving the
 // original IDs, fluid costs, molds, and processing times.
 
-ServerEvents.recipes(event => {
+IC_originalRecipeReview_skip(event => {
   const casts = [
     { material: 'tin', form: 'nugget', amount: 10, time: 6, mold: 'createmetallurgy:graphite_nugget_mold', output: 'mekanism:nugget_tin' },
     { material: 'tin', form: 'ingot', amount: 90, time: 60, mold: 'createmetallurgy:graphite_ingot_mold', output: 'mekanism:ingot_tin' },

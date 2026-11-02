@@ -1,0 +1,9 @@
+{
+  "kubejs/data/industrial_colonies/worldgen/structure_set/global_landmarks.json": "a208f418b72e57ff079194ac2bd1ef94336a0c6c96f8f4dfd8fcf8f918b65a42",
+  "kubejs/data/stellaris/worldgen/structure/earth_satellite.json": null,
+  "kubejs/data/stellaris/worldgen/structure_set/earth_satellite.json": null,
+  "kubejs/data/stellaris/worldgen/structure/earth_operation_base.json": null,
+  "kubejs/data/stellaris/worldgen/structure_set/earth_operation_base.json": null,
+  "kubejs/data/industrial_colonies/worldgen/structure/stellaris_overworld_meteor.json": null,
+  "kubejs/data/stellaris/worldgen/structure/meteor.json": null
+}

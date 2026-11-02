@@ -1,0 +1,26 @@
+{
+  "format": 1,
+  "name": "Standby Recipes",
+  "defaultTargetFile": "kjsgen_recipes",
+  "exportComments": true,
+  "reloadOnExport": false,
+  "recipes": [
+    {
+      "uid": "5d1ec5f8-30c3-46c6-aa22-2b2cf2b01e59",
+      "type": "kjsgen:smelting",
+      "replaceRecipe": false,
+      "slots": {
+        "input": {
+          "kind": "ITEM",
+          "id": "modernfoundry:grout"
+        },
+        "output": {
+          "kind": "ITEM",
+          "id": "modernfoundry:seared_brick"
+        }
+      },
+      "params": {}
+    }
+  ],
+  "removals": []
+}

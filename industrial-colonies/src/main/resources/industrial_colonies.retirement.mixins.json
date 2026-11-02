@@ -1,0 +1,12 @@
+{
+  "package": "dev.godpc.retirement.mixin",
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "minVersion": "0.8",
+  "compatibilityLevel": "JAVA_21",
+  "required": true,
+  "mixins": [
+    "LegacyMachineFunctionMixin"
+  ]
+}

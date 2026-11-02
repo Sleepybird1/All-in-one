@@ -1,0 +1,496 @@
+ADDITIONAL PROGRESSION / MACHINE-OWNERSHIP NOTES
+
+These notes come after the previously defined material-processing system.
+
+==================================================
+HARD MACHINE-OWNERSHIP RULE
+==================================================
+
+Each major processing function should have one designated machine family.
+
+If Create or another specifically designated mod owns a processing function, competing machines from other mods should be disabled unless explicitly approved.
+
+Examples:
+
+CRUSHING / GRINDING
+- Owned by Create Crushing Wheels
+- Mekanism Crusher should be completely disabled
+- Other generic crusher recipes/machines should also be disabled if they bypass Create
+
+MELTING / CASTING
+- Owned by Modern Foundry
+- Competing melting/casting systems should not bypass it
+
+ALLOYING
+- Owned by Create Mixer
+- Modern Foundry alloying must remain disabled
+- Do not allow molten metals in Modern Foundry to automatically alloy
+
+WASHING / AIRFLOW SEPARATION
+- Owned by Create Fans and Create Encased fan tiers
+- Competing washing machines should be disabled where they overlap
+
+CHEMICALS / GASES / REAGENTS
+- Mekanism should be used primarily to create industrial chemicals, gases, acids, reagents, and related chemical infrastructure
+- Mekanism should NOT be used as a generic ore-processing or ore-multiplication path
+
+OIL REFINING
+- Owned primarily by TFMG
+- Preserve its normal oil-refining system unless specifically modified
+
+NUCLEAR-SPECIFIC CHEMISTRY
+- NuclearCraft should own nuclear fuel chemistry, isotope handling, reprocessing, enrichment, breeding, and related nuclear processes where appropriate
+
+General rule:
+
+ONE PROCESSING FUNCTION = ONE PRIMARY MACHINE FAMILY
+
+Do not allow hidden alternate recipes that bypass the intended progression.
+
+==================================================
+BASIC CREATE
+==================================================
+
+Basic Create should retain its normal/default recipes as much as possible.
+
+Do not redesign ordinary Create machinery unnecessarily.
+
+Basic Create includes:
+- shafts
+- cogs
+- belts
+- normal Mechanical Press
+- normal Mixer
+- normal Crushing Wheels
+- normal Encased Fan
+- normal basic logistics
+- normal mechanical automation
+
+Only alter basic Create recipes where the larger pack progression specifically requires it.
+
+Known exceptions include:
+- Andesite Alloy should use the custom low-heat progression recipe
+- Foundry alloying is disabled
+- custom ore-processing routes override generic ore processing
+- recipes assigned to higher Create Encased tiers must not work in normal Create machines
+
+==================================================
+CREATE ENCASED TIER PHILOSOPHY
+==================================================
+
+Create Encased machines are not simply faster versions of Create machines.
+
+Their role is to unlock:
+- higher processing capability
+- stronger pressure/airflow
+- heavier-duty manufacturing
+- harsher material processing
+- higher-tier recipes
+
+Create defines the machine function.
+Create Encased defines the capability tier.
+
+Major progression families currently include:
+
+1. Basic / Andesite Create
+2. Weathered Iron Encased
+3. Copper Encased
+4. Brass Encased
+5. Train Encased
+6. Industrial Iron Encased
+7. Later exotic tiers
+
+==================================================
+WEATHERED IRON ENCASED
+==================================================
+
+Weathered Iron should be a HEAVY INDUSTRIAL tier.
+
+It is NOT primarily the electronics tier.
+
+Its major identity is:
+- structural manufacturing
+- machine frames
+- heavy mechanical components
+- early TFMG industrial infrastructure
+- stronger industrial processing
+- refinery / boiler / pressure-vessel construction
+- heavy mechanical subassemblies
+
+Weathered Iron also marks the start of TFMG progression.
+
+Possible Weathered Iron manufacturing outputs include:
+- steel plates
+- reinforced steel plates
+- heavy machine plates
+- boiler plates
+- steel frames
+- machine frames
+- steel mechanisms
+- reinforced bearing assemblies
+- valve assemblies
+- pump assemblies
+- heavy structural components
+- pressure-rated components
+- furnace/refinery/boiler hardware
+- heavy housings
+- industrial mechanical assemblies
+
+The division of labor should roughly be:
+
+WEATHERED IRON PRESS
+- steel plates
+- reinforced plates
+- boiler plates
+- heavy structural plate components
+- formed industrial metal parts
+
+WEATHERED IRON DEPLOYER
+- steel mechanisms
+- steel frames
+- machine frame sections
+- valve assemblies
+- pump assemblies
+- bearing assemblies
+- heavy mechanical subassemblies
+
+Other Weathered Iron machines can own heavier industrial processes where appropriate.
+
+Weathered Iron should feel like the transition from:
+
+WORKSHOP
+->
+FACTORY
+
+It should enable the structural side of:
+- refineries
+- coke plants
+- blast furnaces
+- boilers
+- chemical plants
+- fluid systems
+- industrial machinery
+
+==================================================
+COPPER / BRASS / TRAIN ENCASED ROLES
+==================================================
+
+These tiers handle much more of the ELECTRONICS and POWER side of industrial progression.
+
+Important:
+Brass can still make circuits and electronics.
+The tiers overlap where it makes sense.
+
+COPPER ENCASED
+- basic to intermediate electronics manufacturing
+- conductive parts
+- early circuit manufacturing
+- basic electronic subassemblies
+- lower-level precision electronic work
+
+BRASS ENCASED
+- more complex electronics
+- advanced circuit manufacturing
+- processors / CPU-related manufacturing support
+- precision control components
+- complex electronic assemblies
+- higher-density electronics
+- also begins higher-voltage electrical manufacturing
+
+TRAIN ENCASED
+- heavy electrical machinery
+- high-voltage equipment
+- high-power transmission
+- transformers
+- large coils
+- heavy switching equipment
+- generator internals
+- traction systems
+- high-current electrical assemblies
+- industrial power-conversion components
+
+BRASS + TRAIN ENCASED
+should jointly handle much of:
+- high voltage
+- power transmission
+- heavy electrical infrastructure
+
+COPPER -> BRASS
+should handle the main electronics-manufacturing progression.
+
+==================================================
+ELECTRONICS GENERAL RULE
+==================================================
+
+Electronics should be expensive primarily because they are HARD TO MANUFACTURE, not because they contain arbitrary fantasy materials.
+
+Do not add materials such as:
+- Diamonds
+- Radium
+- Allthemodium
+- other unrelated exotic items
+
+just to make an electronic recipe expensive.
+
+The cost should come from:
+- purified materials
+- sheet/foil fabrication
+- precision components
+- multiple subassemblies
+- long manufacturing chains
+- sequenced assembly
+- specialized machine tiers
+- real factory infrastructure
+
+Semiconductor manufacturing will be designed separately.
+
+==================================================
+INDUSTRIAL IRON ENCASED
+==================================================
+
+Industrial Iron is the major advanced heavy-industrial tier above Weathered Iron.
+
+Industrial Iron machines should require materials such as:
+- Titanium
+- Tungsten
+- advanced structural materials
+- advanced electrical/electronic components
+
+Industrial Iron should be significantly more electromechanical than Weathered Iron.
+
+It should enable:
+- very harsh processing
+- higher-pressure processing
+- higher-temperature processing
+- stronger airflow
+- advanced metallurgy
+- advanced chemistry
+- difficult mineral separation
+- higher-tier machine production
+- late Industrial Iron materials such as Refined Radiance
+
+Important existing example:
+
+CHROMIUM
+
+Chromite processing requires:
+- Chromite Dust
+- chemical/thermal conditioning
+- Industrial Iron Encased Fan + Water
+
+Normal Create Fan:
+- cannot perform this recipe
+
+Weathered Iron Fan:
+- cannot perform this recipe
+
+Industrial Iron Encased Fan:
+- required
+
+This is an example of Create Encased machines unlocking new PROCESSING CAPABILITY rather than simply processing faster.
+
+Industrial Iron machines require Titanium/Tungsten partly because they must survive these harsher conditions.
+
+==================================================
+FUNCTIONAL BLOCK / MACHINE ASSEMBLY RULE
+==================================================
+
+Finished machines and functional blocks should generally be crafted using MECHANICAL CRAFTERS.
+
+This includes:
+- Create Encased machines
+- industrial machines
+- functional factory blocks
+- higher-tier machine blocks
+
+The philosophy is:
+
+PROCESSING MACHINES MAKE THE COMPONENTS
+
+MECHANICAL CRAFTERS ASSEMBLE THE FINAL MACHINE
+
+Example Weathered Iron chain:
+
+Steel
+->
+Weathered Iron Press
+->
+Steel Plates / Reinforced Plates
+
+Then:
+
+plates + shafts + bearings + other components
+->
+Weathered Iron Deployers
+->
+Steel Mechanism / Steel Frame / Machine Frame / subassemblies
+
+Then:
+
+Machine Frame
++ mechanisms
++ specialty components
++ machine-specific internals
+->
+Mechanical Crafters
+->
+Finished Weathered Iron machine
+
+Do NOT make higher-tier machines simple crafting-table recipes.
+
+==================================================
+MECHANICAL CRAFTER COMPLEXITY
+==================================================
+
+Hard maximum Mechanical Crafter recipe size:
+
+7 x 7
+
+DO NOT exceed 7x7.
+
+Suggested progression:
+
+3x3 - 4x4
+- basic functional blocks
+- low-tier machinery
+
+4x4 - 5x5
+- Weathered Iron machines
+- heavier industrial blocks
+
+5x5 - 6x6
+- Copper / Brass / Train Encased machinery
+- electronics-heavy or power-heavy equipment
+
+6x6 - 7x7
+- Industrial Iron machinery
+- high-end functional blocks
+- advanced industrial equipment
+
+7x7
+- reserved for especially major machines or capstone assemblies
+
+If a recipe concept would require more complexity than a 7x7 grid:
+
+USE SUBASSEMBLIES
+
+Do NOT create a larger crafting grid.
+
+==================================================
+MECHANICAL CRAFTER RECIPE DESIGN
+==================================================
+
+Higher-tier recipes should become:
+- more expensive
+- more complex
+- more dependent on manufactured subassemblies
+
+But they should NOT become random ingredient spam.
+
+Mechanical Crafter recipes should visually resemble the machine where practical.
+
+Examples:
+
+FAN
+- outer casing/frame
+- rotor/blades in center
+- shaft/bearing components
+- motor or power components
+- control hardware at higher tiers
+
+PRESS
+- frame
+- ram
+- shaft/drive parts
+- heavy plate
+- motor/control hardware where appropriate
+
+PUMP
+- casing
+- rotor/impeller
+- shaft
+- seals
+- valve assembly
+- pipe connections
+
+Higher-tier machines should increasingly use subassemblies such as:
+- Machine Frame
+- Motor Assembly
+- Processing Head
+- Valve Assembly
+- Bearing Assembly
+- Control/Electrical Assembly
+
+rather than filling a 7x7 grid with dozens of loose ingredients.
+
+==================================================
+MACHINE RECIPE PROGRESSION
+==================================================
+
+The machine tiers should scale like this:
+
+BASIC CREATE
+- recognizable/default recipes
+- relatively simple
+- mostly original Create progression
+
+WEATHERED IRON
+- more expensive
+- more structural parts
+- machine frames
+- steel mechanisms
+- reinforced plates
+- heavy mechanical subassemblies
+
+COPPER / BRASS / TRAIN
+- increasingly precise
+- more electrical/electronic subassemblies
+- conductive components
+- power-transmission components
+- advanced electrical hardware
+
+INDUSTRIAL IRON
+- large Mechanical Crafter recipes
+- advanced frames
+- Titanium/Tungsten components
+- advanced electronics
+- high-pressure / high-temperature parts
+- expensive specialty subassemblies
+
+==================================================
+FUTURE MACHINE-TIER INTENT
+==================================================
+
+Weathered Iron:
+- first heavy industrial tier
+- beginning of TFMG
+- structural/mechanical manufacturing
+
+Copper / Brass:
+- electronics manufacturing progression
+- Brass also handles more complex electronics than Copper
+
+Brass / Train:
+- high-voltage
+- high-power transmission
+- heavy electrical systems
+
+Industrial Iron:
+- advanced heavy industry
+- difficult metallurgy
+- advanced chemical processes
+- Refined Radiance-era machinery
+
+Later tiers:
+- will eventually lead toward Allthemodium, Vibranium, Unobtainium, etc.
+- do NOT design or implement those yet unless explicitly requested
+
+==================================================
+IMPORTANT DEVELOPMENT PRINCIPLE
+==================================================
+
+Do not assume every installed machine deserves a place in progression.
+
+If two mods contain machines that perform the same function, prefer the machine family already assigned to that function and disable the duplicate.
+
+The goal is a coherent industrial progression, not preserving every machine from every mod.

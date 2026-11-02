@@ -1,0 +1,29 @@
+{
+  "branch": "industrial_colonies:tech_tree",
+  "costs": [
+    {
+      "item": "mekanism:basic_control_circuit",
+      "count": 8
+    },
+    {
+      "item": "mekanism:alloy_infused",
+      "count": 8
+    },
+    {
+      "item": "tfmg:steel_frame",
+      "count": 4
+    }
+  ],
+  "icon": "mekanism:electrolytic_separator",
+  "name": "com.industrial_colonies.research.factory_engineering.cr01_electrochemical_engineering.name",
+  "no-reset": true,
+  "researchLevel": 1,
+  "sortOrder": 10412,
+  "subtitle": "com.industrial_colonies.research.factory_engineering.cr01_electrochemical_engineering.subtitle",
+  "requirements": [
+    {
+      "type": "minecolonies:research",
+      "research": "industrial_colonies:factory_engineering/cr01_modular_machinery"
+    }
+  ]
+}

@@ -1,0 +1,346 @@
+{
+  "id": "76B4195A87E371E1",
+  "group": "",
+  "order_index": -60,
+  "filename": "mekanized_industry",
+  "default_quest_shape": "rsquare",
+  "default_quest_size": 1.0,
+  "default_hide_dependency_lines": false,
+  "progression_mode": "default",
+  "quests": [
+    {
+      "id": "3113B64B7B30EA66",
+      "x": 0.0,
+      "y": 0.0,
+      "icon": {
+        "id": "mekanism:metallurgic_infuser"
+      },
+      "disable_toast": true,
+      "tags": [
+        "industrial_colonies:physical_guidance",
+        "industrial_colonies:physical_guidance/phase/mekanized_industry",
+        "industrial_colonies:physical_guidance/infusion_gateway"
+      ],
+      "dependencies": [
+        "72079119200F4E33",
+        "0E5BD2CFD14A633A"
+      ],
+      "tasks": [
+        {
+          "id": "3B1C013BBC581ED2",
+          "type": "item",
+          "item": {
+            "id": "mekanism:metallurgic_infuser"
+          },
+          "count": 1
+        },
+        {
+          "id": "7B8124BFB2301B04",
+          "type": "item",
+          "item": {
+            "id": "mekanism:basic_control_circuit"
+          },
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "3885F77B7EE24658",
+      "x": 3.0,
+      "y": -2.0,
+      "icon": {
+        "id": "tfmg:steel_frame"
+      },
+      "disable_toast": true,
+      "tags": [
+        "industrial_colonies:physical_guidance",
+        "industrial_colonies:physical_guidance/phase/mekanized_industry",
+        "industrial_colonies:physical_guidance/modular_chassis"
+      ],
+      "dependencies": [
+        "3113B64B7B30EA66"
+      ],
+      "tasks": [
+        {
+          "id": "2DC81741BE7A7EFF",
+          "type": "item",
+          "item": {
+            "id": "tfmg:steel_frame"
+          },
+          "count": 2
+        },
+        {
+          "id": "07CEE9ED7F5F973E",
+          "type": "item",
+          "item": {
+            "id": "mekanism:basic_tier_installer"
+          },
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "30A64C03E787CFC4",
+      "x": 6.0,
+      "y": -2.0,
+      "icon": {
+        "id": "mekanism:enrichment_chamber"
+      },
+      "disable_toast": true,
+      "tags": [
+        "industrial_colonies:physical_guidance",
+        "industrial_colonies:physical_guidance/phase/mekanized_industry",
+        "industrial_colonies:physical_guidance/base_processing_cluster"
+      ],
+      "dependencies": [
+        "3885F77B7EE24658"
+      ],
+      "tasks": [
+        {
+          "id": "7A25992F3C5892A7",
+          "type": "item",
+          "item": {
+            "id": "mekanism:enrichment_chamber"
+          },
+          "count": 1
+        },
+        {
+          "id": "2D70F00B89F0AF27",
+          "type": "item",
+          "item": {
+            "id": "mekanism:osmium_compressor"
+          },
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "23C1566E5ACD3D87",
+      "x": 9.0,
+      "y": -4.0,
+      "icon": {
+        "id": "mekanism:basic_enriching_factory"
+      },
+      "disable_toast": true,
+      "tags": [
+        "industrial_colonies:physical_guidance",
+        "industrial_colonies:physical_guidance/phase/mekanized_industry",
+        "industrial_colonies:physical_guidance/first_basic_factory"
+      ],
+      "dependencies": [
+        "30A64C03E787CFC4"
+      ],
+      "tasks": [
+        {
+          "id": "5B459229AFDE9610",
+          "type": "item",
+          "item": {
+            "id": "mekanism:basic_enriching_factory"
+          },
+          "count": 1
+        },
+        {
+          "id": "17B5D913439C1F73",
+          "type": "item",
+          "item": {
+            "id": "mekanism:enrichment_chamber"
+          },
+          "count": 1
+        },
+        {
+          "id": "037C824EEBD2C819",
+          "type": "item",
+          "item": {
+            "id": "mekanism:basic_tier_installer"
+          },
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "0D141D97AAAB427E",
+      "x": 6.0,
+      "y": 2.0,
+      "icon": {
+        "id": "mekanism:basic_universal_cable"
+      },
+      "disable_toast": true,
+      "tags": [
+        "industrial_colonies:physical_guidance",
+        "industrial_colonies:physical_guidance/phase/mekanized_industry",
+        "industrial_colonies:physical_guidance/basic_transmitter_suite"
+      ],
+      "dependencies": [
+        "3885F77B7EE24658"
+      ],
+      "tasks": [
+        {
+          "id": "35E5C6A7623F8CDB",
+          "type": "item",
+          "item": {
+            "id": "mekanism:basic_universal_cable"
+          },
+          "count": 8
+        },
+        {
+          "id": "7F1986684C4EA0E0",
+          "type": "item",
+          "item": {
+            "id": "mekanism:basic_logistical_transporter"
+          },
+          "count": 8
+        },
+        {
+          "id": "0688DCF5642A690A",
+          "type": "item",
+          "item": {
+            "id": "mekanism:basic_pressurized_tube"
+          },
+          "count": 8
+        },
+        {
+          "id": "3896A12C89B91A2C",
+          "type": "item",
+          "item": {
+            "id": "mekanism:basic_thermodynamic_conductor"
+          },
+          "count": 8
+        }
+      ]
+    },
+    {
+      "id": "5887BC446874E157",
+      "x": 3.0,
+      "y": 2.0,
+      "icon": {
+        "id": "mekanism:advanced_control_circuit"
+      },
+      "disable_toast": true,
+      "tags": [
+        "industrial_colonies:physical_guidance",
+        "industrial_colonies:physical_guidance/phase/mekanized_industry",
+        "industrial_colonies:physical_guidance/reinforced_controls"
+      ],
+      "dependencies": [
+        "3113B64B7B30EA66",
+        "61A18A651CB4E6B3"
+      ],
+      "tasks": [
+        {
+          "id": "703313B27B47471F",
+          "type": "item",
+          "item": {
+            "id": "mekanism:advanced_control_circuit"
+          },
+          "count": 4
+        },
+        {
+          "id": "739F9B7C5566B529",
+          "type": "item",
+          "item": {
+            "id": "mekanism:advanced_tier_installer"
+          },
+          "count": 1
+        },
+        {
+          "id": "5D4791CB7DD8DF55",
+          "type": "item",
+          "item": {
+            "id": "ae2:calculation_processor"
+          },
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "031A13099A48BFAF",
+      "x": 9.0,
+      "y": -2.0,
+      "icon": {
+        "id": "mekanism:electrolytic_separator"
+      },
+      "disable_toast": true,
+      "tags": [
+        "industrial_colonies:physical_guidance",
+        "industrial_colonies:physical_guidance/phase/mekanized_industry",
+        "industrial_colonies:physical_guidance/electrochemical_services"
+      ],
+      "dependencies": [
+        "30A64C03E787CFC4",
+        "5887BC446874E157"
+      ],
+      "tasks": [
+        {
+          "id": "3E244A1F23A9B4FB",
+          "type": "item",
+          "item": {
+            "id": "mekanism:electrolytic_separator"
+          },
+          "count": 1
+        },
+        {
+          "id": "23A65B19F233682F",
+          "type": "item",
+          "item": {
+            "id": "mekanism:pressurized_reaction_chamber"
+          },
+          "count": 1
+        },
+        {
+          "id": "4B9193706B42EB3A",
+          "type": "item",
+          "item": {
+            "id": "mekanism:hdpe_pellet"
+          },
+          "count": 16
+        }
+      ]
+    },
+    {
+      "id": "0A35292A559B2318",
+      "x": 9.0,
+      "y": 2.0,
+      "icon": {
+        "id": "ae2:pattern_encoding_terminal"
+      },
+      "disable_toast": true,
+      "tags": [
+        "industrial_colonies:physical_guidance",
+        "industrial_colonies:physical_guidance/phase/mekanized_industry",
+        "industrial_colonies:physical_guidance/pattern_automation"
+      ],
+      "dependencies": [
+        "5887BC446874E157",
+        "6D8FEEBB98B4136F"
+      ],
+      "tasks": [
+        {
+          "id": "1B5DCC9F9790348F",
+          "type": "item",
+          "item": {
+            "id": "ae2:pattern_encoding_terminal"
+          },
+          "count": 1
+        },
+        {
+          "id": "74591DECBD868E5E",
+          "type": "item",
+          "item": {
+            "id": "ae2:pattern_provider"
+          },
+          "count": 1
+        },
+        {
+          "id": "367C5F6C8F641596",
+          "type": "item",
+          "item": {
+            "id": "ae2:16k_crafting_storage"
+          },
+          "count": 1
+        }
+      ]
+    }
+  ],
+  "quest_links": [],
+  "images": []
+}

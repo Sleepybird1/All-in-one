@@ -1,0 +1,13 @@
+{
+  "type": "modernfoundry:melting",
+  "ingredient": {
+    "item": "industrial_colonies:galena"
+  },
+  "result": {
+    "tag": "c:molten_lead",
+    "amount": 3
+  },
+  "temperature": 700,
+  "time": 80,
+  "id": "industrial_colonies:survival/basic_rock/direct_galena_lead"
+}

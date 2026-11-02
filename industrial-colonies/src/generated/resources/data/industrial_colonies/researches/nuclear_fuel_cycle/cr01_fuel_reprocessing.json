@@ -1,0 +1,29 @@
+{
+  "branch": "industrial_colonies:tech_tree",
+  "costs": [
+    {
+      "item": "bigreactors:cyanite_ingot",
+      "count": 12
+    },
+    {
+      "item": "bigreactors:basic_reactorglass",
+      "count": 8
+    },
+    {
+      "item": "bigreactors:yellorium_block",
+      "count": 2
+    }
+  ],
+  "icon": "bigreactors:reprocessorcontroller",
+  "name": "com.industrial_colonies.research.nuclear_fuel_cycle.cr01_fuel_reprocessing.name",
+  "no-reset": true,
+  "researchLevel": 1,
+  "sortOrder": 10002,
+  "subtitle": "com.industrial_colonies.research.nuclear_fuel_cycle.cr01_fuel_reprocessing.subtitle",
+  "requirements": [
+    {
+      "type": "minecolonies:research",
+      "research": "industrial_colonies:nuclear_engineering/cr01_first_criticality"
+    }
+  ]
+}

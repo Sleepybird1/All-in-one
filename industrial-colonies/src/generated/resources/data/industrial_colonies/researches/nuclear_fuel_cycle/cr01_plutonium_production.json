@@ -1,0 +1,30 @@
+{
+  "branch": "industrial_colonies:tech_tree",
+  "costs": [
+    {
+      "item": "mekanism:radioactive_waste_barrel",
+      "count": 4
+    },
+    {
+      "item": "mekanism:solar_neutron_activator",
+      "count": 2
+    },
+    {
+      "item": "bigreactors:blutonium_ingot",
+      "count": 8
+    }
+  ],
+  "icon": "mekanism:pellet_plutonium",
+  "name": "com.industrial_colonies.research.nuclear_fuel_cycle.cr01_plutonium_production.name",
+  "no-reset": true,
+  "researchLevel": 3,
+  "sortOrder": 10002,
+  "subtitle": "com.industrial_colonies.research.nuclear_fuel_cycle.cr01_plutonium_production.subtitle",
+  "parentResearch": "industrial_colonies:nuclear_fuel_cycle/cr01_actinide_chemistry",
+  "requirements": [
+    {
+      "type": "minecolonies:research",
+      "research": "industrial_colonies:nuclear_fuel_cycle/cr01_actinide_chemistry"
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+#Detected tree log count at which TreeChop felling requires a Modern Foundry broad axe.
+#Individual-block mining with TreeChop disabled/sneaking remains available.
+# Default: 128
+# Range: 2 ~ 1024
+broadAxeMinimumLogs = 71

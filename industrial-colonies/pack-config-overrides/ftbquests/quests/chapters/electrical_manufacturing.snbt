@@ -1,0 +1,286 @@
+{
+  "id": "66B4C51A8A428007",
+  "group": "",
+  "order_index": -80,
+  "filename": "electrical_manufacturing",
+  "default_quest_shape": "rsquare",
+  "default_quest_size": 1.0,
+  "default_hide_dependency_lines": false,
+  "progression_mode": "default",
+  "quests": [
+    {
+      "id": "4B2C38F6A6067EFC",
+      "x": 0.0,
+      "y": 0.0,
+      "icon": {
+        "id": "tfmg:generator"
+      },
+      "disable_toast": true,
+      "tags": [
+        "industrial_colonies:physical_guidance",
+        "industrial_colonies:physical_guidance/phase/electrical_manufacturing",
+        "industrial_colonies:physical_guidance/electromechanical_conversion"
+      ],
+      "dependencies": [
+        "0DBF619FB292F51B"
+      ],
+      "tasks": [
+        {
+          "id": "799FCCC7111F3D77",
+          "type": "item",
+          "item": {
+            "id": "tfmg:generator"
+          },
+          "count": 1
+        },
+        {
+          "id": "7DCCDFF92E60C28B",
+          "type": "item",
+          "item": {
+            "id": "tfmg:electric_motor"
+          },
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "63A0F1E445367DFF",
+      "x": 3.0,
+      "y": -2.0,
+      "icon": {
+        "id": "tfmg:winding_machine"
+      },
+      "disable_toast": true,
+      "tags": [
+        "industrial_colonies:physical_guidance",
+        "industrial_colonies:physical_guidance/phase/electrical_manufacturing",
+        "industrial_colonies:physical_guidance/electronics_workshop"
+      ],
+      "dependencies": [
+        "4B2C38F6A6067EFC"
+      ],
+      "tasks": [
+        {
+          "id": "05FB0AAAA20218C8",
+          "type": "item",
+          "item": {
+            "id": "tfmg:winding_machine"
+          },
+          "count": 1
+        },
+        {
+          "id": "23DCB3E75FC86A56",
+          "type": "item",
+          "item": {
+            "id": "tfmg:voltmeter"
+          },
+          "count": 1
+        },
+        {
+          "id": "358EF6B7F72B04D8",
+          "type": "item",
+          "item": {
+            "id": "tfmg:polarizer"
+          },
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "5B5F230617D7F2F6",
+      "x": 3.0,
+      "y": 2.0,
+      "icon": {
+        "id": "tfmg:cable_connector"
+      },
+      "disable_toast": true,
+      "tags": [
+        "industrial_colonies:physical_guidance",
+        "industrial_colonies:physical_guidance/phase/electrical_manufacturing",
+        "industrial_colonies:physical_guidance/local_power_network"
+      ],
+      "dependencies": [
+        "4B2C38F6A6067EFC"
+      ],
+      "tasks": [
+        {
+          "id": "4355E3AD2D2140C9",
+          "type": "item",
+          "item": {
+            "id": "tfmg:cable_connector"
+          },
+          "count": 4
+        },
+        {
+          "id": "02D3B97933A018FC",
+          "type": "item",
+          "item": {
+            "id": "tfmg:copper_cable_hub"
+          },
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "72079119200F4E33",
+      "x": 6.0,
+      "y": -2.0,
+      "icon": {
+        "id": "tfmg:capacitor_item"
+      },
+      "disable_toast": true,
+      "tags": [
+        "industrial_colonies:physical_guidance",
+        "industrial_colonies:physical_guidance/phase/electrical_manufacturing",
+        "industrial_colonies:physical_guidance/industrial_circuit_line"
+      ],
+      "dependencies": [
+        "63A0F1E445367DFF"
+      ],
+      "tasks": [
+        {
+          "id": "649DF8B490A98401",
+          "type": "item",
+          "item": {
+            "id": "tfmg:capacitor_item"
+          },
+          "count": 8
+        },
+        {
+          "id": "3AF2837CF3EA4CC8",
+          "type": "item",
+          "item": {
+            "id": "tfmg:transistor_item"
+          },
+          "count": 8
+        },
+        {
+          "id": "398F8D21D6B3A20D",
+          "type": "item",
+          "item": {
+            "id": "tfmg:circuit_board"
+          },
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "45E416C00E24B6A6",
+      "x": 6.0,
+      "y": 2.0,
+      "icon": {
+        "id": "tfmg:steel_chemical_vat"
+      },
+      "disable_toast": true,
+      "tags": [
+        "industrial_colonies:physical_guidance",
+        "industrial_colonies:physical_guidance/phase/electrical_manufacturing",
+        "industrial_colonies:physical_guidance/chemical_power_services"
+      ],
+      "dependencies": [
+        "63A0F1E445367DFF",
+        "5B5F230617D7F2F6"
+      ],
+      "tasks": [
+        {
+          "id": "643EBD79BCD9AFE2",
+          "type": "item",
+          "item": {
+            "id": "tfmg:steel_chemical_vat"
+          },
+          "count": 1
+        },
+        {
+          "id": "43B3DE24EBDCCEDA",
+          "type": "item",
+          "item": {
+            "id": "tfmg:accumulator"
+          },
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "5AB1E00E8E1C2241",
+      "x": 9.0,
+      "y": 2.0,
+      "icon": {
+        "id": "electroenergetics:copper_wire_spool"
+      },
+      "disable_toast": true,
+      "tags": [
+        "industrial_colonies:physical_guidance",
+        "industrial_colonies:physical_guidance/phase/electrical_manufacturing",
+        "industrial_colonies:physical_guidance/utility_grid_plant"
+      ],
+      "dependencies": [
+        "5B5F230617D7F2F6",
+        "45E416C00E24B6A6"
+      ],
+      "tasks": [
+        {
+          "id": "129284B50957291D",
+          "type": "item",
+          "item": {
+            "id": "electroenergetics:copper_wire_spool"
+          },
+          "count": 2
+        },
+        {
+          "id": "7F3EFBAF90439049",
+          "type": "item",
+          "item": {
+            "id": "electroenergetics:alternator_rotor"
+          },
+          "count": 1
+        },
+        {
+          "id": "41E9035BE0DFA602",
+          "type": "item",
+          "item": {
+            "id": "electroenergetics:alternator_brushes"
+          },
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "5CE1866C695CC2E0",
+      "x": 12.0,
+      "y": 0.0,
+      "icon": {
+        "id": "electroenergetics:accumulator"
+      },
+      "disable_toast": true,
+      "tags": [
+        "industrial_colonies:physical_guidance",
+        "industrial_colonies:physical_guidance/phase/electrical_manufacturing",
+        "industrial_colonies:physical_guidance/grid_storage_and_control"
+      ],
+      "dependencies": [
+        "72079119200F4E33",
+        "5AB1E00E8E1C2241"
+      ],
+      "tasks": [
+        {
+          "id": "46AB94CD557823C5",
+          "type": "item",
+          "item": {
+            "id": "electroenergetics:accumulator"
+          },
+          "count": 1
+        },
+        {
+          "id": "16F36EC3F209D66F",
+          "type": "item",
+          "item": {
+            "id": "electroenergetics:resistor"
+          },
+          "count": 4
+        }
+      ]
+    }
+  ],
+  "quest_links": [],
+  "images": []
+}

@@ -1,9 +1,11 @@
+// Original recipe review: registrations retained below, temporarily inactive.
+function IC_originalRecipeReview_skip() {}
 // Industrial Colonies - canonical sulfur and sulfuric acid
 // TFMG owns the player-facing sulfur dust and sulfuric-acid fluid.
 // Mekanism keeps unique sulfur gases and consumes TFMG acid through its
 // Rotary Condensentrator chemical/fluid bridge.
 
-ServerEvents.tags('item', event => {
+IC_originalRecipeReview_skip('item', event => {
   event.removeAll('c:dusts/sulfur')
   event.add('c:dusts/sulfur', 'tfmg:sulfur_dust')
 
@@ -11,7 +13,7 @@ ServerEvents.tags('item', event => {
   event.add('c:buckets/sulfuric_acid', 'tfmg:sulfuric_acid_bucket')
 })
 
-ServerEvents.tags('fluid', event => {
+IC_originalRecipeReview_skip('fluid', event => {
   event.removeAll('c:sulfuric_acid')
   event.add('c:sulfuric_acid', 'tfmg:sulfuric_acid')
 
@@ -20,7 +22,7 @@ ServerEvents.tags('fluid', event => {
   event.add('industrial_colonies:legacy_mekanism_sulfuric_acid', 'mekanism:sulfuric_acid')
 })
 
-ServerEvents.recipes(event => {
+IC_originalRecipeReview_skip(event => {
   const removedSulfurDuplicates = [
     'mekanism:chemical_conversion/sulfur_to_sulfuric_acid',
     'mekanism:chemical_infusing/sulfuric_acid',

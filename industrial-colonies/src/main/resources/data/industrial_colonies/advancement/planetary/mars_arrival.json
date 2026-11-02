@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "arrived_on_mars": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "ad_astra:mars"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "arrived_on_mars"
+    ]
+  ],
+  "sends_telemetry_event": false
+}

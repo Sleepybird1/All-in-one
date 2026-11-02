@@ -1,0 +1,16 @@
+gradle.projectsEvaluated {
+    def p=gradle.rootProject
+    def stage=p.file('isolated-runtime/mineshaft-01')
+    def revision=(p.findProperty('mineRevision') ?: 'r1').toString()
+    if(!(revision==~ /[a-z0-9-]+/))throw new GradleException('Invalid revision')
+    def world=new File(stage,'worlds/mineshaft-'+revision)
+    def ss=p.sourceSets.create('mineshaftSmoke');ss.java.setSrcDirs([p.file('tools/mineshaft-smoke/src')]);ss.resources.setSrcDirs([p.file('tools/mineshaft-smoke/resources')])
+    p.tasks.named(ss.processResourcesTaskName){from(p.file('src/main/resources/data/industrial_colonies/structure/geology_smoke_empty.nbt')){into 'data/ic_mineshaft_smoke/structure'}}
+    def neo=p.extensions.getByName('neoForge');neo.addModdingDependenciesTo(ss)
+    p.dependencies.add(ss.compileOnlyConfigurationName,p.files('build/libs/industrial_colonies-0.5.2.jar'));p.dependencies.add(ss.runtimeOnlyConfigurationName,'net.neoforged:DevLaunch:1.0.2')
+    def addon=neo.mods.create('ic_mineshaft_smoke');addon.sourceSet(ss)
+    def run=neo.runs.getByName('gameTestServer');run.sourceSet.set(ss);run.loadedMods.set([addon]);run.logLevel=org.slf4j.event.Level.INFO
+    run.systemProperty('neoforge.enabledGameTestNamespaces','industrial_colonies,ic_mineshaft_smoke');run.systemProperty('mixin.debug.verbose','false');run.systemProperty('bsl.debug','false')
+    run.programArguments.set(['--nogui','--allowUpdates','false','--universe',new File(stage,'worlds').absolutePath,'--world',world.name])
+    p.tasks.named('runGameTestServer'){dependsOn p.tasks.named(ss.classesTaskName);doFirst{if(new File(world,'level.dat').exists())throw new GradleException('Fresh world required');p.copy{from p.file('tools/terrain-smoke/world-template');into new File(world,'datapacks/ic_normal_terrain')}}}
+}

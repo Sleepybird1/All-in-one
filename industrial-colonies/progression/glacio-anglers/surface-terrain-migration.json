@@ -1,0 +1,6 @@
+{
+  "version": "0.5.4",
+  "maxHeightRange": 6,
+  "dryColumns": "all",
+  "surfaceStructuresOnly": true
+}

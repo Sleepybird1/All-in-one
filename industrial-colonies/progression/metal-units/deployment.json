@@ -1,0 +1,44 @@
+{
+  "status": "APPLIED",
+  "revision": "r4",
+  "files": {
+    "kubejs/server_scripts/zz_industrial_material_processing.js": {
+      "before": "05948a6c0434f71d8cebf24c09d5af12f3e6c5c6c732ba070f04050e62629733",
+      "after": "aff6db364732387f83d5078d1be3704bac1732874ee1b2a15a2eb5f5f90e83e6"
+    },
+    "kubejs/server_scripts/zzz_industrial_ownership.js": {
+      "before": "d8358ea99323bb1487fdb2157a8b8e1cd88def45266b8e8eb5ebd60f5db11129",
+      "after": "0c00fe8ad9baa1faf5238dfbcac01ad580fd03aaf4d1e96b29504d58694c3e45"
+    },
+    "kubejs/server_scripts/zzzzz_industrial_metal_units.js": {
+      "before": null,
+      "after": "174245bd82c1d396e894fdb4b6a429de9934bbb56fd739e39331ba0cfb8b4258"
+    },
+    "kubejs/assets/modernfoundry/hilt/fluid_tooltips/ingots.json": {
+      "before": null,
+      "after": "b7942d9dd6c3a211ac988c62d1a6c9c3745a72ba6510897a124d939bfac95fea"
+    },
+    "kubejs/assets/modernfoundry/hilt/fluid_tooltips/metals.json": {
+      "before": null,
+      "after": "555a7278342bdb2cdc352a4683905954e1b3df954894851c465043286dbcdc00"
+    },
+    "kubejs/assets/industrial_colonies/lang/en_us.json": {
+      "before": null,
+      "after": "e39f6671726d52c661a2dfa47a6aba9ce419db5070261fe38264cc6ddb9ac236"
+    }
+  },
+  "jarUnchanged": "d1a60ce6f8869b7c1197eae9d0d2879b8599a38bc34c064d878475e8594efa2e",
+  "savesTouched": false,
+  "liveGameRunning": false,
+  "restartRequired": true,
+  "backup": "C:\\Users\\GodPC\\curseforge\\minecraft\\Instances\\All in one\\_industrial_colonies_backups\\metal-units-20260911-071858",
+  "written": [
+    "kubejs/server_scripts/zz_industrial_material_processing.js",
+    "kubejs/server_scripts/zzz_industrial_ownership.js",
+    "kubejs/server_scripts/zzzzz_industrial_metal_units.js",
+    "kubejs/assets/modernfoundry/hilt/fluid_tooltips/ingots.json",
+    "kubejs/assets/modernfoundry/hilt/fluid_tooltips/metals.json",
+    "kubejs/assets/industrial_colonies/lang/en_us.json"
+  ],
+  "appliedAt": "2026-09-11T07:18:58.295136-04:00"
+}

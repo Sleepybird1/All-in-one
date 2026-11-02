@@ -1,0 +1,30 @@
+{
+  "branch": "industrial_colonies:tech_tree",
+  "costs": [
+    {
+      "item": "tfmg:circuit_board",
+      "count": 8
+    },
+    {
+      "item": "tfmg:capacitor_item",
+      "count": 8
+    },
+    {
+      "item": "tfmg:transistor_item",
+      "count": 8
+    }
+  ],
+  "icon": "tfmg:etched_circuit_board",
+  "name": "com.industrial_colonies.research.industrial_electronics.cr01_advanced_electronics_manufacturing.name",
+  "no-reset": true,
+  "researchLevel": 4,
+  "sortOrder": 10846,
+  "subtitle": "com.industrial_colonies.research.industrial_electronics.cr01_advanced_electronics_manufacturing.subtitle",
+  "parentResearch": "industrial_colonies:industrial_electronics/cr01_early_circuitry",
+  "requirements": [
+    {
+      "type": "minecolonies:research",
+      "research": "industrial_colonies:industrial_electronics/cr01_early_circuitry"
+    }
+  ]
+}

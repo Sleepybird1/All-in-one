@@ -5,7 +5,7 @@
   "item.industrial_colonies.annealed_silicon_wafer": "Annealed High-Density Wafer",
   "item.industrial_colonies.copper_contact_frame": "Copper Contact Frame",
   "item.industrial_colonies.gold_bonding_wire": "Fine Gold Bonding Wire",
-  "kjsgen.recipe_type.industrial_colonies.tfmg_industrial_blasting": "TFMG: Industrial Blasting",
+  "kjsgen.recipe_type.industrial_colonies.tfmg_industrial_blasting": "Industrial Blasting",
   "kjsgen.recipe_type.industrial_colonies.tfmg_hot_blast": "TFMG: Hot Blast",
   "kjsgen.recipe_type.industrial_colonies.tfmg_chemical_vat": "TFMG: Chemical Vat",
   "kjsgen.recipe_type.industrial_colonies.tfmg_chemical_vat_machine": "TFMG: Chemical Vat + Machine",
@@ -17,5 +17,8 @@
   "kjsgen.param.heatLevel": "Vat Heat Level",
   "kjsgen.param.minSize": "Minimum Vat Size",
   "kjsgen.param.processingType": "Fan Processing Type",
-  "kjsgen.param.consumeFluid": "Consume Fluid"
+  "kjsgen.param.consumeFluid": "Consume Fluid",
+  "kjsgen.recipe_type.industrial_colonies.tfmg_steel_vat_editor": "Steel Chemical Vat",
+  "kjsgen.recipe_type.industrial_colonies.tfmg_cast_iron_vat_editor": "Cast Iron Chemical Vat",
+  "kjsgen.recipe_type.industrial_colonies.tfmg_fireproof_vat_editor": "Fireproof Chemical Vat"
 }

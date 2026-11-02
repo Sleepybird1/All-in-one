@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "entries": 103,
+  "minimumSampledOriginDistanceBlocks": 4176,
+  "guaranteedOriginSeparationBlocks": 4096,
+  "sampledSeeds": 3
+}

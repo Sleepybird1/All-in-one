@@ -1,6 +1,8 @@
+// Original recipe review: registrations retained below, temporarily inactive.
+function IC_originalRecipeReview_skip() {}
 // priority: -1200
 // Semiconductor ownership overlays the unchanged material/early-industry migrations.
-ServerEvents.recipes(event => {
+IC_originalRecipeReview_skip(event => {
   var owned = {"industrial_colonies:prepared_silicon_wafer": "industrial_colonies:electronics/prepared_silicon_wafer", "industrial_colonies:etched_silicon_wafer": "industrial_colonies:electronics/etched_silicon_wafer", "tfmg:n_semiconductor": "industrial_colonies:electronics/n_semiconductor", "tfmg:p_semiconductor": "industrial_colonies:electronics/p_semiconductor", "industrial_colonies:precision_wafer_mask": "industrial_colonies:electronics/precision_wafer_mask", "industrial_colonies:patterned_silicon_wafer": "industrial_colonies:electronics/patterned_silicon_wafer", "industrial_colonies:annealed_silicon_wafer": "industrial_colonies:electronics/annealed_silicon_wafer", "industrial_colonies:copper_contact_frame": "industrial_colonies:electronics/copper_contact_frame", "industrial_colonies:gold_bonding_wire": "industrial_colonies:electronics/gold_bonding_wire"};
   var retired = ["industrial_colonies:processing/silicon/n_semiconductor", "industrial_colonies:processing/silicon/p_semiconductor", "industrial_colonies:processing/silicon/wafer_cutting"];
   Object.keys(owned).forEach(out => event.remove({output:out,not:{id:owned[out]}}));

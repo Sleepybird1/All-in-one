@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "create:zinc_ore",
+      "required": false
+    },
+    {
+      "id": "create:striated_ores_overworld",
+      "required": false
+    }
+  ]
+}

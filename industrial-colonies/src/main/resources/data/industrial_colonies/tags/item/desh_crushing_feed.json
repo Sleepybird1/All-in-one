@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "#c:ores/desh",
+    "#c:raw_materials/desh",
+    "rocketnautics_addon:mars_desh_ore",
+    "rocketnautics_addon:raw_desh"
+  ]
+}

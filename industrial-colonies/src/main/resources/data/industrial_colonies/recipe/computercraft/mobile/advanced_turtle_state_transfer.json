@@ -1,0 +1,27 @@
+{
+  "type": "computercraft:transform_shapeless",
+  "category": "redstone",
+  "function": [
+    {
+      "type": "computercraft:copy_components",
+      "from": {
+        "item": "computercraft:turtle_normal"
+      }
+    }
+  ],
+  "ingredients": [
+    {
+      "type": "neoforge:components",
+      "items": "computercraft:turtle_advanced",
+      "components": {},
+      "strict": true
+    },
+    {
+      "item": "computercraft:turtle_normal"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "computercraft:turtle_advanced"
+  }
+}

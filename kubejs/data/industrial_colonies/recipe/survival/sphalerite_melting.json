@@ -1,0 +1,13 @@
+{
+  "ingredient": {
+    "item": "industrial_colonies:sphalerite"
+  },
+  "result": {
+    "tag": "c:molten_zinc",
+    "amount": 2
+  },
+  "temperature": 420,
+  "time": 70,
+  "type": "modernfoundry:melting",
+  "id": "industrial_colonies:survival/sphalerite_melting"
+}

@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "exactNativeRecipeChanges": [
+    "industrial_colonies:electronics/annealed_silicon_wafer",
+    "industrial_colonies:electronics/copper_contact_frame",
+    "industrial_colonies:electronics/gold_bonding_wire",
+    "industrial_colonies:electronics/n_semiconductor",
+    "industrial_colonies:electronics/patterned_silicon_wafer",
+    "industrial_colonies:electronics/precision_wafer_mask",
+    "industrial_colonies:electronics/transistor"
+  ],
+  "unrelatedNativeRecipesPreserved": 26444,
+  "uiCards": 689,
+  "dumpSha256": "e8be3286061835007933693007a98e743601954f62e0fd1307b1cce68d97beaf"
+}

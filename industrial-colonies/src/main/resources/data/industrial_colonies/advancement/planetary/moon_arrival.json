@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "arrived_on_moon": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "ad_astra:moon"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "arrived_on_moon"
+    ]
+  ],
+  "sends_telemetry_event": false
+}

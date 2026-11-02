@@ -1,0 +1,9 @@
+{
+  "feature": "allthemodium:other_vibranium_ore",
+  "placement": [
+    {
+      "type": "minecraft:count",
+      "count": 0
+    }
+  ]
+}

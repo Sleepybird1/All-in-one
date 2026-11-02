@@ -1,0 +1,19 @@
+{
+  "replace": false,
+  "values": [
+    "mekanism:basic_energy_cube",
+    "mekanism:advanced_energy_cube",
+    "mekanism:elite_energy_cube",
+    "mekanism:ultimate_energy_cube",
+    "mekanism:precision_sawmill",
+    "mekanism:combiner",
+    "mekanism:basic_sawing_factory",
+    "mekanism:advanced_sawing_factory",
+    "mekanism:elite_sawing_factory",
+    "mekanism:ultimate_sawing_factory",
+    "mekanism:basic_combining_factory",
+    "mekanism:advanced_combining_factory",
+    "mekanism:elite_combining_factory",
+    "mekanism:ultimate_combining_factory"
+  ]
+}

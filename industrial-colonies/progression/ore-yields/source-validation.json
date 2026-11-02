@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "existingOreRecipesChanged": 28,
+  "existingRecipesPreserved": 268,
+  "newOreRoutes": 4,
+  "reagentCostsPreserved": true,
+  "finishedValuesPreserved": true,
+  "machineRequirementsPreservedExceptExplicitIronFix": true,
+  "catalogSha256": "2bf85bfe6d2393f49e71790ef432ad164626d0813170c819656cb2bf1154707f",
+  "richCopperProcessedMb": 100
+}

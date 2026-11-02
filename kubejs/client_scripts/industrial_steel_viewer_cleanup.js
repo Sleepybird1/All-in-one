@@ -1,7 +1,9 @@
+// Original recipe review: show registered alternatives.
+function IC_originalRecipeReview_skip() {}
 // Hide inaccessible legacy steel solids. Their registry entries remain so
 // existing worlds can migrate them through the one-way conversion recipes.
 
-RecipeViewerEvents.removeEntries('item', event => {
+IC_originalRecipeReview_skip('item', event => {
   ;[
     'mekanism:ingot_steel',
     'mekanism:nugget_steel',

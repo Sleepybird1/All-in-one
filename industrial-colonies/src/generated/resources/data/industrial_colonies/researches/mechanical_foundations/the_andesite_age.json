@@ -1,0 +1,22 @@
+{
+  "branch": "industrial_colonies:tech_tree",
+  "costs": [
+    {
+      "item": "create:andesite_alloy",
+      "count": 12
+    }
+  ],
+  "icon": "create:water_wheel",
+  "name": "com.industrial_colonies.research.mechanical_foundations.the_andesite_age.name",
+  "no-reset": true,
+  "researchLevel": 2,
+  "sortOrder": 9867,
+  "subtitle": "com.industrial_colonies.research.mechanical_foundations.the_andesite_age.subtitle",
+  "parentResearch": "industrial_colonies:mechanical_foundations/cr01_we_dont_read_manuals",
+  "requirements": [
+    {
+      "type": "minecolonies:research",
+      "research": "industrial_colonies:mechanical_foundations/cr01_we_dont_read_manuals"
+    }
+  ]
+}

@@ -1,0 +1,282 @@
+# This is an example neoforge.mods.toml file. It contains the data relating to the loading mods.
+# There are several mandatory fields (#mandatory), and many more that are optional (#optional).
+# The overall format is standard TOML format, v0.5.0.
+# Note that there are a couple of TOML lists in this file.
+# Find more information on toml format here:  https://github.com/toml-lang/toml
+
+# The name of the mod loader type to load - for regular FML @Mod mods it should be javafml
+modLoader="javafml" #mandatory
+
+# A version range to match for said mod loader - for regular FML @Mod it will be the FML version. This is currently 2.
+loaderVersion="${loader_version_range}" #mandatory
+
+# The license for you mod. This is mandatory metadata and allows for easier comprehension of your redistributive properties.
+# Review your options at https://choosealicense.com/. All rights reserved is the default copyright stance, and is thus the default here.
+license="${mod_license}"
+
+# A URL to refer people to when problems occur with this mod
+#issueTrackerURL="https://change.me.to.your.issue.tracker.example.invalid/" #optional
+
+# A list of mods - how many allowed here is determined by the individual mod loader
+[[mods]] #mandatory
+
+# The modid of the mod
+modId="${mod_id}" #mandatory
+
+# The version number of the mod
+version="${mod_version}" #mandatory
+
+# A display name for the mod
+displayName="${mod_name}" #mandatory
+
+# A URL to query for updates for this mod. See the JSON update specification https://docs.neoforged.net/docs/misc/updatechecker/
+#updateJSONURL="https://change.me.example.invalid/updates.json" #optional
+
+# A URL for the "homepage" for this mod, displayed in the mod UI
+#displayURL="https://change.me.to.your.mods.homepage.example.invalid/" #optional
+
+# A file name (in the root of the mod JAR) containing a logo for display
+#logoFile="examplemod.png" #optional
+
+# A text field displayed in the mod UI
+#credits="" #optional
+
+# The authors of the mod, displayed in the mod UI (optional)
+authors="GodPC"
+
+# The description text for the mod (multi line!) (#mandatory)
+description='''
+Stock-recipe-preserving integration for the All in One modpack. KJSGen recipes
+can target one exact compatible Create or Create Encased machine selected in
+the process editor, while focused material, fuel, compatibility, and capstone
+policies remain enabled.
+'''
+
+[[mixins]]
+config="${mod_id}.mixins.json"
+
+# Retired Mekanism manufacturing families retain blocks/inventories but stop processing.
+[[mixins]]
+config="${mod_id}.retirement.mixins.json"
+
+[[mixins]]
+config="${mod_id}.wwoo_ore.mixins.json"
+
+# Optional because Stellaris is an add-on provider. The mixin itself is
+# schema-scoped and is loaded only when its target class exists.
+[[mixins]]
+config="${mod_id}.stellaris.mixins.json"
+
+# Kept in a non-required config so dedicated servers and installations without
+# JEI never attempt to resolve client recipe-viewer classes.
+[[mixins]]
+config="${mod_id}.jei.mixins.json"
+
+# The [[accessTransformers]] block allows you to declare where your AT file is.
+# If this block is omitted, a fallback attempt will be made to load an AT from META-INF/accesstransformer.cfg
+#[[accessTransformers]]
+#file="META-INF/accesstransformer.cfg"
+
+# The coremods config file path is not configurable and is always loaded from META-INF/coremods.json
+
+# A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
+[[dependencies.${mod_id}]] #optional
+    # the modid of the dependency
+    modId="neoforge" #mandatory
+    # The type of the dependency. Can be one of "required", "optional", "incompatible" or "discouraged" (case insensitive).
+    # 'required' requires the mod to exist, 'optional' does not
+    # 'incompatible' will prevent the game from loading when the mod exists, and 'discouraged' will show a warning
+    type="required" #mandatory
+    # Optional field describing why the dependency is required or why it is incompatible
+    # reason="..."
+    # The version range of the dependency
+    versionRange="[${neo_version},)" #mandatory
+    # An ordering relationship for the dependency.
+    # BEFORE - This mod is loaded BEFORE the dependency
+    # AFTER - This mod is loaded AFTER the dependency
+    ordering="NONE"
+    # Side this dependency is applied on - BOTH, CLIENT, or SERVER
+    side="BOTH"
+
+# Here's another dependency
+[[dependencies.${mod_id}]]
+    modId="minecraft"
+    type="required"
+    # This version range declares a minimum of the current minecraft version up to but not including the next major version
+    versionRange="${minecraft_version_range}"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.${mod_id}]]
+    modId="minecolonies"
+    type="required"
+    reason="MineColonies remains a core pack system, but its University no longer gates factory recipes."
+    versionRange="[1.1.1368-1.21.1,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.${mod_id}]]
+    modId="ftbteams"
+    type="required"
+    reason="Required by the target pack; Industrial Colonies no longer mirrors research stages into it."
+    versionRange="[2101.1.10,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.${mod_id}]]
+    modId="mekanism"
+    type="required"
+    reason="Mekanism supplies stock machines and chemistry used by retained pack policies and user-authored recipes."
+    versionRange="[10.7.19,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.${mod_id}]]
+    modId="bigreactors"
+    type="required"
+    reason="Basic Extreme Reactors access ports reject the advanced Plutonium Pellet fuel tier."
+    versionRange="[1.21.1-2.4.28,1.21.1-2.5.0)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.${mod_id}]]
+    modId="create"
+    type="required"
+    reason="Provides exact-machine recipe authoring and the bytecode-pinned orbital kinetic targets."
+    versionRange="[6.0.10,6.0.11)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.${mod_id}]]
+    modId="createmetallurgy"
+    type="required"
+    reason="Provides casting and alloy processes used by retained compatibility rules and user-authored recipes."
+    versionRange="[1.0.3,1.1.0)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.${mod_id}]]
+    modId="createcasing"
+    type="required"
+    reason="Supplies the encased machine variants available to the exact-machine recipe selector."
+    versionRange="[1.9.0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.${mod_id}]]
+    modId="kubejs"
+    type="required"
+    reason="Executes the focused canonicalization scripts and recipes exported by the visual editor."
+    versionRange="[2101.7.2-build.368,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.${mod_id}]]
+    modId="kubejs_create"
+    type="required"
+    reason="Provides the Create process schemas inherited by the process-first visual editor."
+    versionRange="[2101.3.1-build.18,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.${mod_id}]]
+    modId="kjsgen"
+    type="required"
+    reason="Provides one editor entry per Create process with an in-canvas compatible-machine selector."
+    versionRange="[2.0.5,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.${mod_id}]]
+    modId="jei"
+    type="optional"
+    reason="When present, exact-machine recipes appear in Create's normal JEI categories with their selected machine rendered."
+    versionRange="[19.32,20)"
+    ordering="AFTER"
+    side="CLIENT"
+
+[[dependencies.${mod_id}]]
+    modId="allthemodium"
+    type="required"
+    reason="Allthemodium, Vibranium, Unobtainium, and their alloys are manufactured progression currencies."
+    versionRange="[3.0.1,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.${mod_id}]]
+    modId="allthecompressed"
+    type="required"
+    reason="The Black Hole megaproject consumes the nine highest compressed bulk-material tiers."
+    versionRange="[4.4.0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.${mod_id}]]
+    modId="dungeonnowloading"
+    type="optional"
+    reason="When installed, its early diamond-tool chest rolls are rebalanced by exact datapack overrides."
+    versionRange="[0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.${mod_id}]]
+    modId="betterdungeons"
+    type="optional"
+    reason="When installed, its zombie-dungeon tool rolls are rebalanced without removing exploration gear."
+    versionRange="[0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.${mod_id}]]
+    modId="dungeoncrawl"
+    type="optional"
+    reason="When installed, its dynamic staged equipment remains useful exploration loot but is generated with bounded wear."
+    versionRange="[0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.${mod_id}]]
+    modId="sable"
+    type="required"
+    reason="Indexes the Orbital Flight Computer aboard block-built moving spacecraft."
+    versionRange="[2.0.3,2.1.0)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.${mod_id}]]
+    modId="rocketnautics"
+    type="required"
+    reason="The first orbital transition requires a source-owned post-Star flight computer."
+    versionRange="[26.08.307,26.09.0)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.${mod_id}]]
+    modId="ad_astra"
+    type="required"
+    reason="Provides the canonical Moon and Mars surface dimensions used by the Rocketnautics destination bridge."
+    versionRange="[1.16.22,1.17.0)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.${mod_id}]]
+    modId="stellaris"
+    type="optional"
+    reason="Industrial Colonies isolates the incompatible Stellaris and Ad Astra planet JSON loaders so both providers can coexist."
+    versionRange="[1.4.25,1.5.0)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.${mod_id}]]
+    modId="cosmowarp"
+    type="required"
+    reason="Provides the bytecode-pinned Warp Drive and route components used by the signed interstellar transaction."
+    versionRange="[1.0.1,1.0.2)"
+    ordering="AFTER"
+    side="BOTH"
+
+# Features are specific properties of the game environment, that you may want to declare you require. This example declares
+# that your mod requires GL version 3.2 or higher. Other features will be added. They are side aware so declaring this won't
+# stop your mod loading on the server for example.
+#[features.${mod_id}]
+#openGLVersion="[3.2,)"

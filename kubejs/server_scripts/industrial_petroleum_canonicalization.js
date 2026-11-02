@@ -1,3 +1,5 @@
+// Original recipe review: registrations retained below, temporarily inactive.
+function IC_originalRecipeReview_skip() {}
 // Industrial Colonies - canonical petroleum chain
 // TFMG owns crude oil, diesel, and gasoline. Other mods may consume these
 // fluids through common tags, but may not publish competing versions.
@@ -9,7 +11,7 @@ CDGEvents.oilAmount(event => {
   return 0
 })
 
-ServerEvents.tags('fluid', event => {
+IC_originalRecipeReview_skip('fluid', event => {
   const canonicalTags = {
     'c:crude_oil': ['tfmg:crude_oil', 'tfmg:flowing_crude_oil'],
     'c:diesel': ['tfmg:diesel', 'tfmg:flowing_diesel'],
@@ -36,7 +38,7 @@ ServerEvents.tags('fluid', event => {
   ].forEach(fluid => event.remove('c:fuel', fluid))
 })
 
-ServerEvents.recipes(event => {
+IC_originalRecipeReview_skip(event => {
   const removedBypassRecipes = [
     'createdieselgenerators:distillation/crude_oil',
     'createdieselgenerators:distillation/superheated_crude_oil',

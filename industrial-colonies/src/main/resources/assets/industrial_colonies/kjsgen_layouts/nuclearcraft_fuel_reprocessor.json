@@ -1,0 +1,139 @@
+{
+  "id": "industrial_colonies:nuclearcraft_fuel_reprocessor",
+  "mod": "nuclearcraft",
+  "icon": "nuclearcraft:fuel_reprocessor",
+  "jei": "nuclearcraft:fuel_reprocessor",
+  "width": 224,
+  "height": 92,
+  "slots": [
+    {
+      "key": "item_input0",
+      "role": "INPUT",
+      "x": 8,
+      "y": 12,
+      "required": false,
+      "item": true,
+      "fluid": false,
+      "chemical": false,
+      "tag": true,
+      "count": true
+    },
+    {
+      "key": "item_output0",
+      "role": "OUTPUT",
+      "x": 148,
+      "y": 12,
+      "required": false,
+      "item": true,
+      "fluid": false,
+      "chemical": false,
+      "tag": false,
+      "count": true
+    },
+    {
+      "key": "item_output1",
+      "role": "OUTPUT",
+      "x": 172,
+      "y": 12,
+      "required": false,
+      "item": true,
+      "fluid": false,
+      "chemical": false,
+      "tag": false,
+      "count": true
+    },
+    {
+      "key": "item_output2",
+      "role": "OUTPUT",
+      "x": 196,
+      "y": 12,
+      "required": false,
+      "item": true,
+      "fluid": false,
+      "chemical": false,
+      "tag": false,
+      "count": true
+    },
+    {
+      "key": "item_output3",
+      "role": "OUTPUT",
+      "x": 148,
+      "y": 38,
+      "required": false,
+      "item": true,
+      "fluid": false,
+      "chemical": false,
+      "tag": false,
+      "count": true
+    },
+    {
+      "key": "item_output4",
+      "role": "OUTPUT",
+      "x": 172,
+      "y": 38,
+      "required": false,
+      "item": true,
+      "fluid": false,
+      "chemical": false,
+      "tag": false,
+      "count": true
+    },
+    {
+      "key": "item_output5",
+      "role": "OUTPUT",
+      "x": 196,
+      "y": 38,
+      "required": false,
+      "item": true,
+      "fluid": false,
+      "chemical": false,
+      "tag": false,
+      "count": true
+    },
+    {
+      "key": "item_output6",
+      "role": "OUTPUT",
+      "x": 148,
+      "y": 64,
+      "required": false,
+      "item": true,
+      "fluid": false,
+      "chemical": false,
+      "tag": false,
+      "count": true
+    },
+    {
+      "key": "item_output7",
+      "role": "OUTPUT",
+      "x": 172,
+      "y": 64,
+      "required": false,
+      "item": true,
+      "fluid": false,
+      "chemical": false,
+      "tag": false,
+      "count": true
+    }
+  ],
+  "decorations": [
+    {
+      "type": "ARROW",
+      "x": 108,
+      "y": 26
+    }
+  ],
+  "parameters": [
+    {
+      "key": "energyPerTick",
+      "type": "INT",
+      "default": "50"
+    },
+    {
+      "key": "processTime",
+      "type": "INT",
+      "default": "200"
+    }
+  ],
+  "codegen": "industrial_colonies:nuclearcraft_manufacturing",
+  "requiresMod": "nuclearcraft"
+}

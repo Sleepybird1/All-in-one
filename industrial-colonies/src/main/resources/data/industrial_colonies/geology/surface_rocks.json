@@ -1,0 +1,5 @@
+{
+  "enabled": true,
+  "linkedSiteChance": 0.95,
+  "note": "95% of proposed sites use a chunk with verified surviving matching deposit material; 5% are unrelated scatters 160–224 blocks away. Terrain can reject either kind, so 95% is not a measured posterior probability. Rocks indicate nearby material, not deposit size or quality. Restart after editing."
+}

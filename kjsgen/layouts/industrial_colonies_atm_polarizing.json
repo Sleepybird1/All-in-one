@@ -1,0 +1,47 @@
+{
+  "id": "industrial_colonies:atm_polarizing",
+  "mod": "tfmg",
+  "icon": "tfmg:polarizer",
+  "width": 172,
+  "height": 82,
+  "slots": [
+    {
+      "key": "input",
+      "role": "INPUT",
+      "x": 8,
+      "y": 28,
+      "required": true,
+      "item": true,
+      "fluid": false,
+      "chemical": false,
+      "count": true
+    },
+    {
+      "key": "output",
+      "role": "OUTPUT",
+      "x": 136,
+      "y": 28,
+      "required": true,
+      "item": true,
+      "fluid": false,
+      "chemical": false,
+      "count": true
+    }
+  ],
+  "decorations": [
+    {
+      "type": "ARROW",
+      "x": 86,
+      "y": 30
+    }
+  ],
+  "parameters": [
+    {
+      "key": "__template",
+      "type": "STRING",
+      "default": "event.custom({type:'tfmg:polarizing',ingredients:[{item:Item.of({slot:input}).id}],results:[{id:Item.of({slot:output}).id,count:Item.of({slot:output}).count}]})"
+    }
+  ],
+  "codegen": "kjsgen:template",
+  "requiresMod": "tfmg"
+}

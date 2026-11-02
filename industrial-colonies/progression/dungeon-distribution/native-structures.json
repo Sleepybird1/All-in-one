@@ -1,0 +1,5543 @@
+[
+  {
+    "id": "ad_astra:lunar_tower",
+    "jar": "adastra-1.21.1-1.16.22-neoforge.jar",
+    "path": "data/ad_astra/worldgen/structure/lunar_tower.json",
+    "data": {
+      "type": "minecraft:jigsaw",
+      "start_pool": "ad_astra:lunar_tower",
+      "size": 1,
+      "max_distance_from_center": 80,
+      "biomes": "#ad_astra:has_structure/lunarian_village",
+      "step": "surface_structures",
+      "terrain_adaptation": "beard_thin",
+      "start_height": {
+        "absolute": 0
+      },
+      "project_start_to_heightmap": "WORLD_SURFACE_WG",
+      "use_expansion_hack": false,
+      "adapt_noise": true,
+      "spawn_overrides": {}
+    }
+  },
+  {
+    "id": "ad_astra:lunarian_village",
+    "jar": "adastra-1.21.1-1.16.22-neoforge.jar",
+    "path": "data/ad_astra/worldgen/structure/lunarian_village.json",
+    "data": {
+      "type": "minecraft:jigsaw",
+      "start_pool": "ad_astra:lunarian_village/entrance",
+      "size": 20,
+      "max_distance_from_center": 80,
+      "biomes": "#ad_astra:has_structure/lunarian_village",
+      "step": "surface_structures",
+      "terrain_adaptation": "none",
+      "start_height": {
+        "absolute": -20
+      },
+      "project_start_to_heightmap": "WORLD_SURFACE_WG",
+      "use_expansion_hack": false,
+      "spawn_overrides": {}
+    }
+  },
+  {
+    "id": "ad_astra:mars_temple",
+    "jar": "adastra-1.21.1-1.16.22-neoforge.jar",
+    "path": "data/ad_astra/worldgen/structure/mars_temple.json",
+    "data": {
+      "type": "minecraft:jigsaw",
+      "start_pool": "ad_astra:temple/mars/start_pool",
+      "size": 1,
+      "max_distance_from_center": 80,
+      "biomes": "#ad_astra:has_structure/mars_temple",
+      "step": "surface_structures",
+      "terrain_adaptation": "beard_thin",
+      "start_height": {
+        "absolute": 0
+      },
+      "project_start_to_heightmap": "WORLD_SURFACE_WG",
+      "use_expansion_hack": false,
+      "adapt_noise": true,
+      "spawn_overrides": {}
+    }
+  },
+  {
+    "id": "ad_astra:moon_dungeon",
+    "jar": "adastra-1.21.1-1.16.22-neoforge.jar",
+    "path": "data/ad_astra/worldgen/structure/moon_dungeon.json",
+    "data": {
+      "type": "ad_astra:large_jigsaw_structure",
+      "start_pool": "ad_astra:dungeon/moon/entrance",
+      "size": 35,
+      "max_distance_from_center": 80,
+      "biomes": "#ad_astra:has_structure/moon_dungeon",
+      "step": "surface_structures",
+      "terrain_adaptation": "none",
+      "start_height": {
+        "absolute": -40
+      },
+      "project_start_to_heightmap": "WORLD_SURFACE_WG",
+      "use_expansion_hack": false,
+      "spawn_overrides": {}
+    }
+  },
+  {
+    "id": "ad_astra:oil_well",
+    "jar": "adastra-1.21.1-1.16.22-neoforge.jar",
+    "path": "data/ad_astra/worldgen/structure/oil_well.json",
+    "data": {
+      "type": "minecraft:jigsaw",
+      "start_pool": "ad_astra:oil_well/oil_well",
+      "size": 1,
+      "max_distance_from_center": 80,
+      "biomes": "#ad_astra:has_structure/oil_well",
+      "step": "surface_structures",
+      "terrain_adaptation": "none",
+      "start_height": {
+        "absolute": -10
+      },
+      "project_start_to_heightmap": "WORLD_SURFACE_WG",
+      "use_expansion_hack": false,
+      "adapt_noise": false,
+      "spawn_overrides": {}
+    }
+  },
+  {
+    "id": "ad_astra:pygro_tower",
+    "jar": "adastra-1.21.1-1.16.22-neoforge.jar",
+    "path": "data/ad_astra/worldgen/structure/pygro_tower.json",
+    "data": {
+      "type": "minecraft:jigsaw",
+      "start_pool": "ad_astra:run_venus_tower/side_venus_tower_start",
+      "size": 1,
+      "max_distance_from_center": 80,
+      "biomes": "#ad_astra:has_structure/pygro_tower",
+      "step": "surface_structures",
+      "terrain_adaptation": "beard_box",
+      "start_height": {
+        "absolute": 0
+      },
+      "project_start_to_heightmap": "WORLD_SURFACE_WG",
+      "use_expansion_hack": false,
+      "adapt_noise": true,
+      "spawn_overrides": {}
+    }
+  },
+  {
+    "id": "ad_astra:pygro_village",
+    "jar": "adastra-1.21.1-1.16.22-neoforge.jar",
+    "path": "data/ad_astra/worldgen/structure/pygro_village.json",
+    "data": {
+      "type": "ad_astra:large_jigsaw_structure",
+      "start_pool": "ad_astra:crimson_village/crimson_start",
+      "size": 25,
+      "max_distance_from_center": 80,
+      "biomes": "#ad_astra:has_structure/pygro_village",
+      "step": "surface_structures",
+      "terrain_adaptation": "beard_thin",
+      "start_height": {
+        "absolute": 0
+      },
+      "project_start_to_heightmap": "WORLD_SURFACE_WG",
+      "use_expansion_hack": false,
+      "adapt_noise": true,
+      "spawn_overrides": {}
+    }
+  },
+  {
+    "id": "ad_astra:venus_bullet",
+    "jar": "adastra-1.21.1-1.16.22-neoforge.jar",
+    "path": "data/ad_astra/worldgen/structure/venus_bullet.json",
+    "data": {
+      "type": "minecraft:jigsaw",
+      "start_pool": "ad_astra:run_venus_bullet/side_venus_bullet_start",
+      "size": 1,
+      "max_distance_from_center": 80,
+      "biomes": "#ad_astra:has_structure/venus_bullet",
+      "step": "surface_structures",
+      "terrain_adaptation": "beard_thin",
+      "start_height": {
+        "absolute": 0
+      },
+      "project_start_to_heightmap": "WORLD_SURFACE_WG",
+      "use_expansion_hack": false,
+      "adapt_noise": true,
+      "spawn_overrides": {}
+    }
+  },
+  {
+    "id": "allthemodium:ancient_pyramid",
+    "jar": "allthemodium-3.0.1_mc_1.21.1.jar",
+    "path": "data/allthemodium/worldgen/structure/ancient_pyramid.json",
+    "data": {
+      "type": "minecraft:jigsaw",
+      "start_pool": "allthemodium:pyramid/start_pool",
+      "size": 7,
+      "max_distance_from_center": 80,
+      "biomes": "#allthemodium:has_structure/ancient_pyramid_biomes",
+      "step": "surface_structures",
+      "terrain_adaptation": "beard_thin",
+      "start_height": {
+        "absolute": 0
+      },
+      "project_start_to_heightmap": "WORLD_SURFACE_WG",
+      "use_expansion_hack": false,
+      "liquid_settings": "apply_waterlogging",
+      "spawn_overrides": {
+        "monster": {
+          "bounding_box": "piece",
+          "spawns": [
+            {
+              "type": "allthemodium:piglich",
+              "weight": 4500,
+              "minCount": 1,
+              "maxCount": 1
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "id": "allthemodium:dungeon",
+    "jar": "allthemodium-3.0.1_mc_1.21.1.jar",
+    "path": "data/allthemodium/worldgen/structure/dungeon.json",
+    "data": {
+      "type": "minecraft:jigsaw",
+      "start_pool": "allthemodium:dungeon/start_pool",
+      "size": 15,
+      "max_distance_from_center": 80,
+      "biomes": "#allthemodium:has_structure/dungeon_biomes",
+      "step": "surface_structures",
+      "terrain_adaptation": "beard_box",
+      "start_height": {
+        "absolute": 0
+      },
+      "liquid_settings": "apply_waterlogging",
+      "project_start_to_heightmap": "WORLD_SURFACE_WG",
+      "use_expansion_hack": false,
+      "spawn_overrides": {}
+    }
+  },
+  {
+    "id": "allthemodium:piglin_village",
+    "jar": "allthemodium-3.0.1_mc_1.21.1.jar",
+    "path": "data/allthemodium/worldgen/structure/piglin_village.json",
+    "data": {
+      "type": "minecraft:jigsaw",
+      "start_pool": "allthemodium:village/start_pool",
+      "size": 20,
+      "max_distance_from_center": 65,
+      "biomes": "#allthemodium:has_structure/piglin_village_biomes",
+      "step": "underground_structures",
+      "terrain_adaptation": "beard_box",
+      "start_height": {
+        "absolute": -89
+      },
+      "liquid_settings": "apply_waterlogging",
+      "project_start_to_heightmap": "WORLD_SURFACE_WG",
+      "use_expansion_hack": false,
+      "adapt_noise": true,
+      "spawn_overrides": {
+        "monster": {
+          "bounding_box": "piece",
+          "spawns": [
+            {
+              "type": "minecraft:piglin",
+              "weight": 200,
+              "minCount": 5,
+              "maxCount": 10
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "id": "apotheosis:tower_leaf",
+    "jar": "Apotheosis-1.21.1-8.7.0.jar",
+    "path": "data/apotheosis/worldgen/structure/tower_leaf.json",
+    "data": {
+      "type": "minecraft:jigsaw",
+      "biomes": {
+        "type": "neoforge:and",
+        "values": [
+          "#apotheosis:tower_leaf",
+          {
+            "type": "neoforge:not",
+            "value": "#minecraft:is_ocean"
+          }
+        ]
+      },
+      "step": "surface_structures",
+      "spawn_overrides": {},
+      "terrain_adaptation": "beard_thin",
+      "start_pool": "apotheosis:tower_leaf",
+      "size": 1,
+      "start_height": {
+        "absolute": 0
+      },
+      "project_start_to_heightmap": "WORLD_SURFACE_WG",
+      "max_distance_from_center": 80,
+      "use_expansion_hack": false
+    }
+  },
+  {
+    "id": "apotheosis:tower_main",
+    "jar": "Apotheosis-1.21.1-8.7.0.jar",
+    "path": "data/apotheosis/worldgen/structure/tower_main.json",
+    "data": {
+      "type": "minecraft:jigsaw",
+      "biomes": {
+        "type": "neoforge:and",
+        "values": [
+          "#apotheosis:tower_main",
+          {
+            "type": "neoforge:not",
+            "value": "#minecraft:is_ocean"
+          }
+        ]
+      },
+      "step": "surface_structures",
+      "spawn_overrides": {},
+      "terrain_adaptation": "beard_thin",
+      "start_pool": "apotheosis:tower_main",
+      "size": 1,
+      "start_height": {
+        "absolute": 0
+      },
+      "project_start_to_heightmap": "WORLD_SURFACE_WG",
+      "max_distance_from_center": 80,
+      "use_expansion_hack": false
+    }
+  },
+  {
+    "id": "apotheosis:tower_sand",
+    "jar": "Apotheosis-1.21.1-8.7.0.jar",
+    "path": "data/apotheosis/worldgen/structure/tower_sand.json",
+    "data": {
+      "type": "minecraft:jigsaw",
+      "biomes": {
+        "type": "neoforge:and",
+        "values": [
+          "#apotheosis:tower_sand",
+          {
+            "type": "neoforge:not",
+            "value": "#minecraft:is_ocean"
+          }
+        ]
+      },
+      "step": "surface_structures",
+      "spawn_overrides": {},
+      "terrain_adaptation": "beard_thin",
+      "start_pool": "apotheosis:tower_sand",
+      "size": 1,
+      "start_height": {
+        "absolute": 0
+      },
+      "project_start_to_heightmap": "WORLD_SURFACE_WG",
+      "max_distance_from_center": 80,
+      "use_expansion_hack": false
+    }
+  },
+  {
+    "id": "apotheosis:tower_spruce",
+    "jar": "Apotheosis-1.21.1-8.7.0.jar",
+    "path": "data/apotheosis/worldgen/structure/tower_spruce.json",
+    "data": {
+      "type": "minecraft:jigsaw",
+      "biomes": {
+        "type": "neoforge:and",
+        "values": [
+          "#apotheosis:tower_spruce",
+          {
+            "type": "neoforge:not",
+            "value": "#minecraft:is_ocean"
+          }
+        ]
+      },
+      "step": "surface_structures",
+      "spawn_overrides": {},
+      "terrain_adaptation": "beard_thin",
+      "start_pool": "apotheosis:tower_spruce",
+      "size": 1,
+      "start_height": {
+        "absolute": 0
+      },
+      "project_start_to_heightmap": "WORLD_SURFACE_WG",
+      "max_distance_from_center": 80,
+      "use_expansion_hack": false
+    }
+  },
+  {
+    "id": "ae2:meteorite",
+    "jar": "appliedenergistics2-19.2.17.jar",
+    "path": "data/ae2/worldgen/structure/meteorite.json",
+    "data": {
+      "type": "ae2:ae2mtrt",
+      "biomes": "#ae2:has_meteorites",
+      "spawn_overrides": {},
+      "step": "top_layer_modification"
+    }
+  },
+  {
+    "id": "block_factorys_bosses:sandworm_nest",
+    "jar": "block_factorys_bosses-2.1.2-neo-1.21.1.jar",
+    "path": "data/block_factorys_bosses/worldgen/structure/sandworm_nest.json",
+    "data": {
+      "type": "minecraft:jigsaw",
+      "start_pool": "block_factorys_bosses:sandworm_nest",
+      "size": 1,
+      "max_distance_from_center": 64,
+      "spawn_overrides": {},
+      "step": "surface_structures",
+      "terrain_adaptation": "beard_box",
+      "start_height": {
+        "absolute": 0
+      },
+      "project_start_to_heightmap": "MOTION_BLOCKING_NO_LEAVES",
+      "biomes": "#block_factorys_bosses:sandworm_nest",
+      "use_expansion_hack": false
+    }
+  },
+  {
+    "id": "block_factorys_bosses:dragon_tower",
+    "jar": "block_factorys_bosses-2.1.2-neo-1.21.1.jar",
+    "path": "data/block_factorys_bosses/worldgen/structure/dragon_tower.json",
+    "data": {
+      "type": "block_factorys_bosses:dragon_tower",
+      "start_pool": "block_factorys_bosses:dragon_tower",
+      "size": 18,
+      "max_distance_from_center": 160,
+      "spawn_overrides": {},
+      "step": "surface_structures",
+      "terrain_adaptation": "none",
+      "start_height": {
+        "absolute": 8
+      },
+      "project_start_to_heightmap": "WORLD_SURFACE_WG",
+      "biomes": "#block_factorys_bosses:dragon_tower",
+      "use_expansion_hack": false
+    }
+  },
+  {
+    "id": "block_factorys_bosses:underworld_arena",
+    "jar": "block_factorys_bosses-2.1.2-neo-1.21.1.jar",
+    "path": "data/block_factorys_bosses/worldgen/structure/underworld_arena.json",
+    "data": {
+      "type": "minecraft:jigsaw",
+      "start_pool": "block_factorys_bosses:underworld_arena",
+      "size": 18,
+      "max_distance_from_center": 120,
+      "spawn_overrides": {
+        "monster": {
+          "bounding_box": "piece",
+          "spawns": [
+            {
+              "type": "block_factorys_bosses:soul_skeleton",
+              "weight": 2,
+              "minCount": 1,
+              "maxCount": 3
+            },
+            {
+              "type": "block_factorys_bosses:soul_knight_wither_skeleton",
+              "weight": 1,
+              "minCount": 1,
+              "maxCount": 3
+            }
+          ]
+        }
+      },
+      "step": "underground_decoration",
+      "terrain_adaptation": "beard_box",
+      "start_height": {
+        "absolute": 31
+      },
+      "biomes": "#block_factorys_bosses:underworld_arena",
+      "use_expansion_hack": false
+    }
+  },
+  {
+    "id": "block_factorys_bosses:yeti_hideout",
+    "jar": "block_factorys_bosses-2.1.2-neo-1.21.1.jar",
+    "path": "data/block_factorys_bosses/worldgen/structure/yeti_hideout.json",
+    "data": {
+      "type": "minecraft:jigsaw",
+      "start_pool": "block_factorys_bosses:yeti_hideout",
+      "size": 1,
+      "max_distance_from_center": 64,
+      "spawn_overrides": {},
+      "step": "surface_structures",
+      "terrain_adaptation": "beard_thin",
+      "start_height": {
+        "absolute": 0
+      },
+      "project_start_to_heightmap": "WORLD_SURFACE_WG",
+      "biomes": "#block_factorys_bosses:yeti_hideout",
+      "use_expansion_hack": false
+    }
+  },
+  {
+    "id": "block_factorys_bosses:kraken_ship",
+    "jar": "block_factorys_bosses-2.1.2-neo-1.21.1.jar",
+    "path": "data/block_factorys_bosses/worldgen/structure/kraken_ship.json",
+    "data": {
+      "type": "block_factorys_bosses:kraken_ship",
+      "start_pool": "block_factorys_bosses:kraken_ship_seed",
+      "size": 4,
+      "max_distance_from_center": 160,
+      "spawn_overrides": {},
+      "step": "surface_structures",
+      "terrain_adaptation": "none",
+      "start_height": {
+        "absolute": -4
+      },
+      "project_start_to_heightmap": "WORLD_SURFACE_WG",
+      "biomes": "#block_factorys_bosses:kraken_ship",
+      "use_expansion_hack": false
+    }
+  },
+  {
+    "id": "bosses_of_mass_destruction:gauntlet_arena",
+    "jar": "BOMD-NeoForge-1.21-1.3.3.jar",
+    "path": "data/bosses_of_mass_destruction/worldgen/structure/gauntlet_arena.json",
+    "data": {
+      "type": "minecraft:jigsaw",
+      "start_pool": "bosses_of_mass_destruction:gauntlet_arena/start_pool",
+      "size": 1,
+      "max_distance_from_center": 80,
+      "step": "underground_decoration",
+      "biomes": "#bosses_of_mass_destruction:has_structure/gauntlet_arena",
+      "use_expansion_hack": false,
+      "start_height": {
+        "absolute": 15
+      },
+      "spawn_overrides": {
+        "monster": {
+          "bounding_box": "full",
+          "spawns": []
+        }
+      }
+    }
+  },
+  {
+    "id": "bosses_of_mass_destruction:lich_tower",
+    "jar": "BOMD-NeoForge-1.21-1.3.3.jar",
+    "path": "data/bosses_of_mass_destruction/worldgen/structure/lich_tower.json",
+    "data": {
+      "type": "minecraft:jigsaw",
+      "start_pool": "bosses_of_mass_destruction:lich_tower/start_pool",
+      "size": 2,
+      "max_distance_from_center": 80,
+      "step": "surface_structures",
+      "biomes": "#bosses_of_mass_destruction:has_structure/lich_tower",
+      "use_expansion_hack": false,
+      "start_height": {
+        "absolute": -8
+      },
+      "project_start_to_heightmap": "WORLD_SURFACE_WG",
+      "spawn_overrides": {
+        "monster": {
+          "bounding_box": "full",
+          "spawns": []
+        }
+      }
+    }
+  },
+  {
+    "id": "bosses_of_mass_destruction:obsidilith_arena",
+    "jar": "BOMD-NeoForge-1.21-1.3.3.jar",
+    "path": "data/bosses_of_mass_destruction/worldgen/structure/obsidilith_arena.json",
+    "data": {
+      "type": "minecraft:jigsaw",
+      "start_pool": "bosses_of_mass_destruction:obsidilith_arena/start_pool",
+      "size": 1,
+      "max_distance_from_center": 80,
+      "step": "surface_structures",
+      "biomes": "#bosses_of_mass_destruction:has_structure/obsidilith_arena",
+      "use_expansion_hack": false,
+      "start_height": {
+        "absolute": 90
+      },
+      "spawn_overrides": {
+        "monster": {
+          "bounding_box": "full",
+          "spawns": []
+        }
+      }
+    }
+  },
+  {
+    "id": "bosses_of_mass_destruction:void_blossom",
+    "jar": "BOMD-NeoForge-1.21-1.3.3.jar",
+    "path": "data/bosses_of_mass_destruction/worldgen/structure/void_blossom.json",
+    "data": {
+      "type": "bosses_of_mass_destruction:void_blossom",
+      "step": "surface_structures",
+      "biomes": "#bosses_of_mass_destruction:has_structure/void_blossom",
+      "spawn_overrides": {
+        "monster": {
+          "bounding_box": "full",
+          "spawns": []
+        }
+      }
+    }
+  },
+  {
+    "id": "deeperdarker:ancient_temple",
+    "jar": "deeperdarker-neoforge-1.21.1-1.4.1.jar",
+    "path": "data/deeperdarker/worldgen/structure/ancient_temple.json",
+    "data": {
+      "type": "minecraft:jigsaw",
+      "biomes": "#deeperdarker:has_structure/ancient_temple",
+      "max_distance_from_center": 80,
+      "size": 7,
+      "spawn_overrides": {},
+      "start_height": {
+        "type": "minecraft:uniform",
+        "max_inclusive": {
+          "above_bottom": 28
+        },
+        "min_inclusive": {
+          "above_bottom": 18
+        }
+      },
+      "start_pool": "deeperdarker:ancient_temple/basement",
+      "step": "underground_structures",
+      "terrain_adaptation": "beard_box",
+      "use_expansion_hack": false
+    }
+  },
+  {
+    "id": "dungeoncrawl:dungeon",
+    "jar": "DungeonCrawl-NeoForge-1.21-2.3.17.jar",
+    "path": "data/dungeoncrawl/worldgen/structure/dungeon.json",
+    "data": {
+      "type": "dungeoncrawl:dungeon",
+      "biomes": "#dungeoncrawl:has_structure/dungeon",
+      "step": "underground_structures",
+      "terrain_adaptation": "none",
+      "config": {},
+      "spawn_overrides": {}
+    }
+  },
+  {
+    "id": "dungeonnowloading:temple_of_duality",
+    "jar": "dungeonnowloading-neoforge-1.21.1-2.11.3.jar",
+    "path": "data/dungeonnowloading/worldgen/structure/temple_of_duality.json",
+    "data": {
+      "type": "dungeonnowloading:generic_jigsaw_structure",
+      "biomes": "#dungeonnowloading:has_structure/temple_of_duality",
+      "spawn_overrides": {
+        "monster": {
+          "bounding_box": "piece",
+          "spawns": []
+        }
+      },
+      "step": "underground_structures",
+      "terrain_adaptation": "none",
+      "start_pool": "dungeonnowloading:temple_of_duality/starts",
+      "size": 30,
+      "start_height": {
+        "absolute": 20
+      },
+      "start_jigsaw_name": "dungeonnowloading:start",
+      "max_distance_from_center": 117,
+      "use_expansion_hack": false
+    }
+  },
+  {
+    "id": "dungeonnowloading:labyrinth",
+    "jar": "dungeonnowloading-neoforge-1.21.1-2.11.3.jar",
+    "path": "data/dungeonnowloading/worldgen/structure/labyrinth.json",
+    "data": {
+      "type": "dungeonnowloading:generic_jigsaw_structure",
+      "biomes": "#dungeonnowloading:has_structure/labyrinth",
+      "step": "surface_structures",
+      "spawn_overrides": {
+        "monster": {
+          "bounding_box": "piece",
+          "spawns": [
+            {
+              "type": "minecraft:spider",
+              "weight": 80,
+              "minCount": 4,
+              "maxCount": 4
+            },
+            {
+              "type": "minecraft:zombie",
+              "weight": 75,
+              "minCount": 4,
+              "maxCount": 4
+            },
+            {
+              "type": "minecraft:zombie_villager",
+              "weight": 5,
+              "minCount": 1,
+              "maxCount": 1
+            },
+            {
+              "type": "minecraft:skeleton",
+              "weight": 80,
+              "minCount": 4,
+              "maxCount": 4
+            },
+            {
+              "type": "minecraft:creeper",
+              "weight": 80,
+              "minCount": 4,
+              "maxCount": 4
+            },
+            {
+              "type": "minecraft:slime",
+              "weight": 80,
+              "minCount": 4,
+              "maxCount": 4
+            },
+            {
+              "type": "dungeonnowloading:hollow",
+              "weight": 20,
+              "minCount": 1,
+              "maxCount": 4
+            },
+            {
+              "type": "dungeonnowloading:garhold",
+              "weight": 10,
+              "minCount": 1,
+              "maxCount": 1
+            },
+            {
+              "type": "minecraft:enderman",
+              "weight": 10,
+              "minCount": 1,
+              "maxCount": 4
+            },
+            {
+              "type": "dungeonnowloading:spawner_carrier",
+              "weight": 10,
+              "minCount": 1,
+              "maxCount": 1
+            },
+            {
+              "type": "minecraft:witch",
+              "weight": 5,
+              "minCount": 1,
+              "maxCount": 1
+            },
+            {
+              "type": "minecraft:drowned",
+              "weight": 80,
+              "minCount": 4,
+              "maxCount": 4
+            }
+          ]
+        },
+        "underground_water_creature": {
+          "bounding_box": "piece",
+          "spawns": [
+            {
+              "type": "minecraft:glow_squid",
+              "weight": 10,
+              "minCount": 4,
+              "maxCount": 6
+            }
+          ]
+        },
+        "ambient": {
+          "bounding_box": "piece",
+          "spawns": [
+            {
+              "type": "minecraft:bat",
+              "weight": 10,
+              "minCount": 8,
+              "maxCount": 8
+            }
+          ]
+        }
+      },
+      "terrain_adaptation": "none",
+      "start_pool": "dungeonnowloading:labyrinth/starts",
+      "size": 30,
+      "start_height": {
+        "absolute": -60
+      },
+      "start_jigsaw_name": "dungeonnowloading:start",
+      "max_distance_from_center": 116,
+      "extra_surface_pool": "dungeonnowloading:labyrinth/surface",
+      "extra_surface_start_jigsaw_name": "dungeonnowloading:start",
+      "extra_surface_size": 4,
+      "extra_surface_max_distance_from_center": 80,
+      "extra_surface_heightmap": "WORLD_SURFACE_WG",
+      "extra_surface_y_offset": 0,
+      "use_expansion_hack": false
+    }
+  },
+  {
+    "id": "friendsandfoes:citadel",
+    "jar": "friendsandfoes-neoforge-4.0.27+mc1.21.1.jar",
+    "path": "data/friendsandfoes/worldgen/structure/citadel.json",
+    "data": {
+      "type": "friendsandfoes:citadel_structure",
+      "start_pool": "friendsandfoes:citadel/base_plate",
+      "size": 10,
+      "biomes": "#friendsandfoes:has_structure/citadel",
+      "step": "strongholds",
+      "terrain_adaptation": "none",
+      "start_height": {
+        "type": "minecraft:uniform",
+        "min_inclusive": {
+          "absolute": 34
+        },
+        "max_inclusive": {
+          "absolute": 54
+        }
+      },
+      "max_distance_from_center": 64,
+      "use_expansion_hack": false,
+      "spawn_overrides": {
+        "monster": {
+          "bounding_box": "piece",
+          "spawns": [
+            {
+              "type": "minecraft:blaze",
+              "weight": 1,
+              "minCount": 1,
+              "maxCount": 2
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "id": "friendsandfoes:iceologer_cabin",
+    "jar": "friendsandfoes-neoforge-4.0.27+mc1.21.1.jar",
+    "path": "data/friendsandfoes/worldgen/structure/iceologer_cabin.json",
+    "data": {
+      "type": "friendsandfoes:iceologer_cabin_structure",
+      "start_pool": "friendsandfoes:iceologer_cabin/base_plates",
+      "size": 5,
+      "biomes": "#friendsandfoes:has_structure/iceologer_cabin",
+      "step": "surface_structures",
+      "terrain_adaptation": "beard_thin",
+      "start_height": {
+        "absolute": 0
+      },
+      "project_start_to_heightmap": "WORLD_SURFACE_WG",
+      "max_distance_from_center": 32,
+      "use_expansion_hack": false,
+      "spawn_overrides": {
+        "monster": {
+          "bounding_box": "piece",
+          "spawns": [
+            {
+              "type": "friendsandfoes:iceologer",
+              "weight": 1,
+              "minCount": 1,
+              "maxCount": 1
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "id": "friendsandfoes:illusioner_shack",
+    "jar": "friendsandfoes-neoforge-4.0.27+mc1.21.1.jar",
+    "path": "data/friendsandfoes/worldgen/structure/illusioner_shack.json",
+    "data": {
+      "type": "friendsandfoes:illusioner_shack_structure",
+      "start_pool": "friendsandfoes:illusioner_shack/base_plates",
+      "size": 5,
+      "biomes": "#friendsandfoes:has_structure/illusioner_shack",
+      "step": "surface_structures",
+      "terrain_adaptation": "beard_thin",
+      "start_height": {
+        "absolute": 0
+      },
+      "project_start_to_heightmap": "WORLD_SURFACE_WG",
+      "max_distance_from_center": 32,
+      "use_expansion_hack": false,
+      "spawn_overrides": {
+        "monster": {
+          "bounding_box": "piece",
+          "spawns": [
+            {
+              "type": "friendsandfoes:illusioner",
+              "weight": 1,
+              "minCount": 1,
+              "maxCount": 1
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "id": "friendsandfoes:illusioner_training_grounds",
+    "jar": "friendsandfoes-neoforge-4.0.27+mc1.21.1.jar",
+    "path": "data/friendsandfoes/worldgen/structure/illusioner_training_grounds.json",
+    "data": {
+      "type": "friendsandfoes:illusioner_training_grounds_structure",
+      "start_pool": "friendsandfoes:illusioner_training_grounds/illusioner_training_grounds",
+      "size": 5,
+      "biomes": "#friendsandfoes:has_structure/illusioner_training_grounds",
+      "step": "surface_structures",
+      "terrain_adaptation": "beard_thin",
+      "start_height": {
+        "absolute": 0
+      },
+      "project_start_to_heightmap": "WORLD_SURFACE_WG",
+      "max_distance_from_center": 32,
+      "use_expansion_hack": false,
+      "spawn_overrides": {
+        "monster": {
+          "bounding_box": "piece",
+          "spawns": [
+            {
+              "type": "friendsandfoes:illusioner",
+              "weight": 1,
+              "minCount": 1,
+              "maxCount": 1
+            },
+            {
+              "type": "minecraft:pillager",
+              "weight": 2,
+              "minCount": 1,
+              "maxCount": 2
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "id": "irons_spellbooks:ancient_battleground",
+    "jar": "irons_spellbooks-1.21.1-3.16.2.jar",
+    "path": "data/irons_spellbooks/worldgen/structure/ancient_battleground.json",
+    "data": {
+      "type": "minecraft:jigsaw",
+      "liquid_settings": "ignore_waterlogging",
+      "biomes": "#minecraft:has_structure/bastion_remnant",
+      "max_distance_from_center": 116,
+      "size": 4,
+      "spawn_overrides": {},
+      "start_height": {
+        "type": "minecraft:uniform",
+        "min_inclusive": {
+          "absolute": 35
+        },
+        "max_inclusive": {
+          "absolute": 75
+        }
+      },
+      "start_pool": "irons_spellbooks:battleground/start_pool",
+      "step": "underground_decoration",
+      "terrain_adaptation": "beard_box",
+      "use_expansion_hack": false
+    }
+  },
+  {
+    "id": "irons_spellbooks:catacombs",
+    "jar": "irons_spellbooks-1.21.1-3.16.2.jar",
+    "path": "data/irons_spellbooks/worldgen/structure/catacombs.json",
+    "data": {
+      "type": "minecraft:jigsaw",
+      "liquid_settings": "ignore_waterlogging",
+      "start_pool": "irons_spellbooks:catacombs/catacombs_start_pool",
+      "size": 7,
+      "biomes": "#irons_spellbooks:has_structure/catacombs",
+      "terrain_adaptation": "bury",
+      "use_expansion_hack": false,
+      "start_height": {
+        "type": "minecraft:uniform",
+        "min_inclusive": {
+          "absolute": -40
+        },
+        "max_inclusive": {
+          "absolute": 20
+        }
+      },
+      "step": "underground_decoration",
+      "max_distance_from_center": 96,
+      "spawn_overrides": {
+        "monster": {
+          "bounding_box": "piece",
+          "spawns": [
+            {
+              "type": "irons_spellbooks:catacombs_zombie",
+              "maxCount": 1,
+              "minCount": 1,
+              "weight": 10
+            },
+            {
+              "type": "minecraft:skeleton",
+              "maxCount": 1,
+              "minCount": 1,
+              "weight": 5
+            },
+            {
+              "type": "irons_spellbooks:necromancer",
+              "maxCount": 1,
+              "minCount": 1,
+              "weight": 2
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "id": "irons_spellbooks:citadel",
+    "jar": "irons_spellbooks-1.21.1-3.16.2.jar",
+    "path": "data/irons_spellbooks/worldgen/structure/citadel.json",
+    "data": {
+      "type": "minecraft:jigsaw",
+      "liquid_settings": "ignore_waterlogging",
+      "biomes": "#minecraft:has_structure/bastion_remnant",
+      "max_distance_from_center": 116,
+      "size": 7,
+      "spawn_overrides": {
+        "ambient": {
+          "bounding_box": "full",
+          "spawns": []
+        },
+        "axolotls": {
+          "bounding_box": "full",
+          "spawns": []
+        },
+        "creature": {
+          "bounding_box": "full",
+          "spawns": []
+        },
+        "misc": {
+          "bounding_box": "full",
+          "spawns": []
+        },
+        "monster": {
+          "bounding_box": "full",
+          "spawns": []
+        },
+        "underground_water_creature": {
+          "bounding_box": "full",
+          "spawns": []
+        },
+        "water_ambient": {
+          "bounding_box": "full",
+          "spawns": []
+        },
+        "water_creature": {
+          "bounding_box": "full",
+          "spawns": []
+        }
+      },
+      "start_height": {
+        "absolute": 33
+      },
+      "start_pool": "irons_spellbooks:citadel/start_pool",
+      "step": "fluid_springs",
+      "terrain_adaptation": "beard_box",
+      "use_expansion_hack": false
+    }
+  },
+  {
+    "id": "irons_spellbooks:evoker_fort",
+    "jar": "irons_spellbooks-1.21.1-3.16.2.jar",
+    "path": "data/irons_spellbooks/worldgen/structure/evoker_fort.json",
+    "data": {
+      "type": "minecraft:jigsaw",
+      "liquid_settings": "ignore_waterlogging",
+      "start_pool": "irons_spellbooks:evoker_fort/start_pool",
+      "size": 7,
+      "biomes": "#irons_spellbooks:has_structure/evoker_fort",
+      "terrain_adaptation": "beard_box",
+      "use_expansion_hack": false,
+      "start_height": {
+        "absolute": 0
+      },
+      "project_start_to_heightmap": "WORLD_SURFACE_WG",
+      "step": "surface_structures",
+      "max_distance_from_center": 96,
+      "spawn_overrides": {
+        "monster": {
+          "bounding_box": "piece",
+          "spawns": [
+            {
+              "type": "minecraft:pillager",
+              "maxCount": 3,
+              "minCount": 2,
+              "weight": 10
+            },
+            {
+              "type": "minecraft:vindicator",
+              "maxCount": 4,
+              "minCount": 4,
+              "weight": 5
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "id": "irons_spellbooks:ice_spider_den",
+    "jar": "irons_spellbooks-1.21.1-3.16.2.jar",
+    "path": "data/irons_spellbooks/worldgen/structure/ice_spider_den.json",
+    "data": {
+      "type": "minecraft:jigsaw",
+      "liquid_settings": "ignore_waterlogging",
+      "start_pool": "irons_spellbooks:ice_spider_den/start_pool",
+      "size": 13,
+      "max_distance_from_center": 100,
+      "step": "underground_decoration",
+      "use_expansion_hack": false,
+      "start_height": {
+        "absolute": 0
+      },
+      "project_start_to_heightmap": "WORLD_SURFACE_WG",
+      "biomes": "#irons_spellbooks:has_structure/ice_spider_den",
+      "terrain_adaptation": "beard_box",
+      "spawn_overrides": {}
+    }
+  },
+  {
+    "id": "irons_spellbooks:impaled_icebreaker",
+    "jar": "irons_spellbooks-1.21.1-3.16.2.jar",
+    "path": "data/irons_spellbooks/worldgen/structure/impaled_icebreaker.json",
+    "data": {
+      "type": "minecraft:jigsaw",
+      "biomes": "#irons_spellbooks:has_structure/impaled_icebreaker",
+      "max_distance_from_center": 116,
+      "size": 4,
+      "spawn_overrides": {},
+      "start_height": {
+        "absolute": -1
+      },
+      "project_start_to_heightmap": "WORLD_SURFACE_WG",
+      "start_pool": "irons_spellbooks:impaled_icebreaker_pool",
+      "step": "underground_decoration",
+      "terrain_adaptation": "none",
+      "use_expansion_hack": false
+    }
+  },
+  {
+    "id": "irons_spellbooks:mangrove_hut",
+    "jar": "irons_spellbooks-1.21.1-3.16.2.jar",
+    "path": "data/irons_spellbooks/worldgen/structure/mangrove_hut.json",
+    "data": {
+      "type": "minecraft:jigsaw",
+      "start_pool": "irons_spellbooks:mangrove_hut_pool",
+      "size": 2,
+      "max_distance_from_center": 20,
+      "step": "surface_structures",
+      "use_expansion_hack": false,
+      "start_height": {
+        "absolute": -2
+      },
+      "project_start_to_heightmap": "WORLD_SURFACE_WG",
+      "biomes": "#irons_spellbooks:has_structure/mangrove_hut",
+      "terrain_adaptation": "beard_thin",
+      "spawn_overrides": {}
+    }
+  },
+  {
+    "id": "irons_spellbooks:mountain_tower",
+    "jar": "irons_spellbooks-1.21.1-3.16.2.jar",
+    "path": "data/irons_spellbooks/worldgen/structure/mountain_tower.json",
+    "data": {
+      "type": "minecraft:jigsaw",
+      "liquid_settings": "ignore_waterlogging",
+      "start_pool": "irons_spellbooks:mountain_tower_pool",
+      "size": 2,
+      "max_distance_from_center": 20,
+      "step": "surface_structures",
+      "use_expansion_hack": false,
+      "start_height": {
+        "absolute": 0
+      },
+      "project_start_to_heightmap": "WORLD_SURFACE_WG",
+      "biomes": "#irons_spellbooks:has_structure/mountain_tower",
+      "terrain_adaptation": "beard_thin",
+      "spawn_overrides": {}
+    }
+  },
+  {
+    "id": "irons_spellbooks:pyromancer_tower",
+    "jar": "irons_spellbooks-1.21.1-3.16.2.jar",
+    "path": "data/irons_spellbooks/worldgen/structure/pyromancer_tower.json",
+    "data": {
+      "type": "minecraft:jigsaw",
+      "liquid_settings": "ignore_waterlogging",
+      "start_pool": "irons_spellbooks:pyromancer_tower/start_pool",
+      "size": 7,
+      "biomes": "#irons_spellbooks:has_structure/pyromancer_tower",
+      "terrain_adaptation": "beard_thin",
+      "use_expansion_hack": false,
+      "start_height": {
+        "absolute": 0
+      },
+      "project_start_to_heightmap": "WORLD_SURFACE_WG",
+      "step": "underground_decoration",
+      "max_distance_from_center": 96,
+      "spawn_overrides": {}
+    }
+  },
+  {
+    "id": "cataclysm:abandoned_spire",
+    "jar": "L_Ender's Cataclysm 1.21.1-3.32.jar",
+    "path": "data/cataclysm/worldgen/structure/abandoned_spire.json",
+    "data": {
+      "type": "minecraft:jigsaw",
+      "biomes": "#cataclysm:has_structure/frosted_prison_biomes",
+      "max_distance_from_center": 80,
+      "project_start_to_heightmap": "WORLD_SURFACE_WG",
+      "size": 2,
+      "spawn_overrides": {
+        "monster": {
+          "bounding_box": "piece",
+          "spawns": []
+        }
+      },
+      "start_height": {
+        "absolute": 0
+      },
+      "start_pool": "cataclysm:abandoned_spire/start_pool",
+      "step": "surface_structures",
+      "terrain_adaptation": "beard_thin",
+      "use_expansion_hack": true
+    }
+  },
+  {
+    "id": "cataclysm:abandoned_temple",
+    "jar": "L_Ender's Cataclysm 1.21.1-3.32.jar",
+    "path": "data/cataclysm/worldgen/structure/abandoned_temple.json",
+    "data": {
+      "type": "minecraft:jigsaw",
+      "biomes": "#cataclysm:has_structure/frosted_prison_biomes",
+      "max_distance_from_center": 80,
+      "project_start_to_heightmap": "WORLD_SURFACE_WG",
+      "size": 2,
+      "spawn_overrides": {
+        "monster": {
+          "bounding_box": "piece",
+          "spawns": []
+        }
+      },
+      "start_height": {
+        "absolute": 0
+      },
+      "start_pool": "cataclysm:abandoned_temple/start_pool",
+      "step": "surface_structures",
+      "terrain_adaptation": "beard_thin",
+      "use_expansion_hack": true
+    }
+  },
+  {
+    "id": "cataclysm:abandoned_village",
+    "jar": "L_Ender's Cataclysm 1.21.1-3.32.jar",
+    "path": "data/cataclysm/worldgen/structure/abandoned_village.json",
+    "data": {
+      "type": "minecraft:jigsaw",
+      "biomes": "#cataclysm:has_structure/frosted_prison_biomes",
+      "max_distance_from_center": 80,
+      "project_start_to_heightmap": "WORLD_SURFACE_WG",
+      "size": 2,
+      "spawn_overrides": {
+        "monster": {
+          "bounding_box": "piece",
+          "spawns": []
+        }
+      },
+      "start_height": {
+        "absolute": 0
+      },
+      "start_pool": "cataclysm:abandoned_village/start_pool",
+      "step": "surface_structures",
+      "terrain_adaptation": "beard_thin",
+      "use_expansion_hack": true
+    }
+  },
+  {
+    "id": "cataclysm:acropolis",
+    "jar": "L_Ender's Cataclysm 1.21.1-3.32.jar",
+    "path": "data/cataclysm/worldgen/structure/acropolis.json",
+    "data": {
+      "type": "cataclysm:cataclysm_jigsaw",
+      "biomes": "#cataclysm:has_structure/acropolis_biomes",
+      "step": "surface_structures",
+      "start_pool": "cataclysm:acropolis/start_pool",
+      "liquid_settings": "ignore_waterlogging",
+      "size": 33,
+      "start_height": {
+        "absolute": 200
+      },
+      "max_distance_from_center": 187,
+      "spawn_overrides": {
+        "monster": {
+          "bounding_box": "piece",
+          "spawns": []
+        }
+      }
+    }
+  },
+  {
+    "id": "cataclysm:amethyst_nest",
+    "jar": "L_Ender's Cataclysm 1.21.1-3.32.jar",
+    "path": "data/cataclysm/worldgen/structure/amethyst_nest.json",
+    "data": {
+      "type": "minecraft:jigsaw",
+      "biomes": "minecraft:lush_caves",
+      "start_pool": "cataclysm:amethyst_nest/start_pool",
+      "use_expansion_hack": true,
+      "step": "underground_decoration",
+      "size": 2,
+      "start_height": {
+        "type": "minecraft:uniform",
+        "min_inclusive": {
+          "absolute": -10
+        },
+        "max_inclusive": {
+          "absolute": 10
+        }
+      },
+      "max_distance_from_center": 80,
+      "spawn_overrides": {
+        "monster": {
+          "bounding_box": "piece",
+          "spawns": [
+            {
+              "type": "cataclysm:amethyst_crab",
+              "maxCount": 1,
+              "minCount": 1,
+              "weight": 1
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "id": "cataclysm:ancient_factory",
+    "jar": "L_Ender's Cataclysm 1.21.1-3.32.jar",
+    "path": "data/cataclysm/worldgen/structure/ancient_factory.json",
+    "data": {
+      "type": "cataclysm:cataclysm_jigsaw",
+      "biomes": "#cataclysm:has_structure/ancient_factory_biomes",
+      "step": "underground_structures",
+      "start_pool": "cataclysm:ancient_factory/start_pool",
+      "liquid_settings": "ignore_waterlogging",
+      "terrain_adaptation": "beard_box",
+      "size": 10,
+      "start_height": {
+        "absolute": -30
+      },
+      "max_distance_from_center": 72,
+      "spawn_overrides": {
+        "monster": {
+          "bounding_box": "piece",
+          "spawns": []
+        }
+      }
+    }
+  },
+  {
+    "id": "cataclysm:burning_arena",
+    "jar": "L_Ender's Cataclysm 1.21.1-3.32.jar",
+    "path": "data/cataclysm/worldgen/structure/burning_arena.json",
+    "data": {
+      "type": "cataclysm:burning_arena",
+      "biomes": "#cataclysm:has_structure/burning_arena_biomes",
+      "step": "surface_structures",
+      "start_height": {
+        "absolute": 0
+      },
+      "use_expansion_hack": false,
+      "spawn_overrides": {
+        "monster": {
+          "bounding_box": "piece",
+          "spawns": []
+        }
+      }
+    }
+  },
+  {
+    "id": "cataclysm:cursed_pyramid",
+    "jar": "L_Ender's Cataclysm 1.21.1-3.32.jar",
+    "path": "data/cataclysm/worldgen/structure/cursed_pyramid.json",
+    "data": {
+      "type": "cataclysm:cursed_pyramid",
+      "biomes": "#cataclysm:has_structure/cursed_pyramid_biomes",
+      "step": "surface_structures",
+      "liquid_settings": "ignore_waterlogging",
+      "project_start_to_heightmap": "WORLD_SURFACE_WG",
+      "start_height": {
+        "absolute": -3
+      },
+      "use_expansion_hack": false,
+      "spawn_overrides": {
+        "monster": {
+          "bounding_box": "piece",
+          "spawns": []
+        }
+      }
+    }
+  },
+  {
+    "id": "cataclysm:desert_occupied_village",
+    "jar": "L_Ender's Cataclysm 1.21.1-3.32.jar",
+    "path": "data/cataclysm/worldgen/structure/desert_occupied_village.json",
+    "data": {
+      "type": "minecraft:jigsaw",
+      "biomes": "#cataclysm:has_structure/cursed_pyramid_biomes",
+      "max_distance_from_center": 80,
+      "liquid_settings": "ignore_waterlogging",
+      "project_start_to_heightmap": "WORLD_SURFACE_WG",
+      "size": 5,
+      "spawn_overrides": {
+        "monster": {
+          "bounding_box": "full",
+          "spawns": [
+            {
+              "type": "cataclysm:koboleton",
+              "maxCount": 1,
+              "minCount": 1,
+              "weight": 1
+            }
+          ]
+        }
+      },
+      "start_height": {
+        "absolute": -3
+      },
+      "start_pool": "cataclysm:desert_occupied_village/start_pool",
+      "step": "surface_structures",
+      "terrain_adaptation": "beard_thin",
+      "use_expansion_hack": true
+    }
+  },
+  {
+    "id": "cataclysm:desert_site",
+    "jar": "L_Ender's Cataclysm 1.21.1-3.32.jar",
+    "path": "data/cataclysm/worldgen/structure/desert_site.json",
+    "data": {
+      "type": "minecraft:jigsaw",
+      "biomes": "#cataclysm:has_structure/cursed_pyramid_biomes",
+      "max_distance_from_center": 80,
+      "project_start_to_heightmap": "WORLD_SURFACE_WG",
+      "size": 2,
+      "liquid_settings": "ignore_waterlogging",
+      "spawn_overrides": {
+        "monster": {
+          "bounding_box": "full",
+          "spawns": [
+            {
+              "type": "cataclysm:koboleton",
+              "maxCount": 1,
+              "minCount": 1,
+              "weight": 1
+            }
+          ]
+        }
+      },
+      "start_height": {
+        "type": "minecraft:uniform",
+        "min_inclusive": {
+          "absolute": -20
+        },
+        "max_inclusive": {
+          "absolute": -15
+        }
+      },
+      "start_pool": "cataclysm:desert_site/start_pool",
+      "step": "surface_structures",
+      "terrain_adaptation": "beard_thin",
+      "use_expansion_hack": true
+    }
+  },
+  {
+    "id": "cataclysm:desert_temple",
+    "jar": "L_Ender's Cataclysm 1.21.1-3.32.jar",
+    "path": "data/cataclysm/worldgen/structure/desert_temple.json",
+    "data": {
+      "type": "minecraft:jigsaw",
+      "biomes": "#cataclysm:has_structure/cursed_pyramid_biomes",
+      "max_distance_from_center": 80,
+      "liquid_settings": "ignore_waterlogging",
+      "project_start_to_heightmap": "WORLD_SURFACE_WG",
+      "size": 2,
+      "spawn_overrides": {
+        "monster": {
+          "bounding_box": "full",
+          "spawns": [
+            {
+              "type": "cataclysm:koboleton",
+              "maxCount": 1,
+              "minCount": 1,
+              "weight": 1
+            }
+          ]
+        }
+      },
+      "start_height": {
+        "absolute": -2
+      },
+      "start_pool": "cataclysm:desert_temple/start_pool",
+      "step": "surface_structures",
+      "terrain_adaptation": "beard_thin",
+      "use_expansion_hack": true
+    }
+  },
+  {
+    "id": "cataclysm:frosted_prison",
+    "jar": "L_Ender's Cataclysm 1.21.1-3.32.jar",
+    "path": "data/cataclysm/worldgen/structure/frosted_prison.json",
+    "data": {
+      "type": "cataclysm:cataclysm_jigsaw",
+      "biomes": "#cataclysm:has_structure/frosted_prison_biomes",
+      "step": "surface_structures",
+      "start_pool": "cataclysm:frosted_prison/start_pool",
+      "liquid_settings": "ignore_waterlogging",
+      "size": 25,
+      "project_start_to_heightmap": "WORLD_SURFACE_WG",
+      "start_height": {
+        "absolute": 0
+      },
+      "max_distance_from_center": 128,
+      "spawn_overrides": {
+        "monster": {
+          "bounding_box": "piece",
+          "spawns": []
+        }
+      }
+    }
+  },
+  {
+    "id": "cataclysm:ruined_citadel",
+    "jar": "L_Ender's Cataclysm 1.21.1-3.32.jar",
+    "path": "data/cataclysm/worldgen/structure/ruined_citadel.json",
+    "data": {
+      "type": "cataclysm:ruined_citadel",
+      "biomes": "#cataclysm:has_structure/ruined_citadel_biomes",
+      "step": "surface_structures",
+      "start_height": {
+        "absolute": 0
+      },
+      "use_expansion_hack": false,
+      "spawn_overrides": {
+        "monster": {
+          "bounding_box": "piece",
+          "spawns": [
+            {
+              "type": "cataclysm:endermaptera",
+              "weight": 3,
+              "minCount": 1,
+              "maxCount": 1
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "id": "cataclysm:soul_black_smith",
+    "jar": "L_Ender's Cataclysm 1.21.1-3.32.jar",
+    "path": "data/cataclysm/worldgen/structure/soul_black_smith.json",
+    "data": {
+      "type": "cataclysm:cataclysm_jigsaw",
+      "start_pool": "cataclysm:soul_black_smith/start_pool",
+      "biomes": "#cataclysm:has_structure/soul_black_smith_biomes",
+      "max_distance_from_center": 80,
+      "size": 8,
+      "spawn_overrides": {
+        "monster": {
+          "bounding_box": "piece",
+          "spawns": []
+        }
+      },
+      "start_height": {
+        "absolute": 64
+      },
+      "step": "surface_structures",
+      "use_expansion_hack": false
+    }
+  },
+  {
+    "id": "cataclysm:sunken_city",
+    "jar": "L_Ender's Cataclysm 1.21.1-3.32.jar",
+    "path": "data/cataclysm/worldgen/structure/sunken_city.json",
+    "data": {
+      "type": "cataclysm:sunken_city",
+      "biomes": "#cataclysm:has_structure/sunken_city_biomes",
+      "step": "surface_structures",
+      "start_height": {
+        "absolute": 0
+      },
+      "use_expansion_hack": false,
+      "spawn_overrides": {
+        "monster": {
+          "bounding_box": "piece",
+          "spawns": []
+        }
+      }
+    }
+  },
+  {
+    "id": "minecolonies:medieval_spruce_colony",
+    "jar": "minecolonies-1.1.1368-1.21.1.jar",
+    "path": "data/minecolonies/worldgen/structure/medieval_spruce_colony.json",
+    "data": {
+      "type": "minecolonies:empty_colony",
+      "start_pool": "minecolonies:medieval_spruce_pool",
+      "size": 5,
+      "max_distance_from_center": 80,
+      "step": "surface_structures",
+      "biomes": "#minecolonies:has_structure/medieval_spruce_colony",
+      "start_height": {
+        "above_bottom": 32
+      },
+      "terrain_adaptation": "beard_box",
+      "adapt_noise": true,
+      "spawn_overrides": {
+        "creature": {
+          "bounding_box": "piece",
+          "spawns": [
+            {
+              "type": "minecraft:cat",
+              "weight": 100,
+              "minCount": 1,
+              "maxCount": 2
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "id": "minecolonies:medieval_dark_oak_colony",
+    "jar": "minecolonies-1.1.1368-1.21.1.jar",
+    "path": "data/minecolonies/worldgen/structure/medieval_dark_oak_colony.json",
+    "data": {
+      "type": "minecolonies:empty_colony",
+      "start_pool": "minecolonies:medieval_dark_oak_pool",
+      "size": 5,
+      "max_distance_from_center": 80,
+      "step": "surface_structures",
+      "biomes": "#minecolonies:has_structure/medieval_dark_oak_colony",
+      "start_height": {
+        "above_bottom": 32
+      },
+      "terrain_adaptation": "beard_box",
+      "adapt_noise": true,
+      "spawn_overrides": {
+        "creature": {
+          "bounding_box": "piece",
+          "spawns": [
+            {
+              "type": "minecraft:cat",
+              "weight": 100,
+              "minCount": 1,
+              "maxCount": 2
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "id": "minecolonies:warpednetherlands_colony",
+    "jar": "minecolonies-1.1.1368-1.21.1.jar",
+    "path": "data/minecolonies/worldgen/structure/warpednetherlands_colony.json",
+    "data": {
+      "type": "minecolonies:empty_colony",
+      "start_pool": "minecolonies:warpednetherlands_pool",
+      "size": 5,
+      "max_distance_from_center": 80,
+      "step": "surface_structures",
+      "biomes": "#minecolonies:has_structure/warpednetherlands_colony",
+      "start_height": {
+        "below_top": 120
+      },
+      "terrain_adaptation": "beard_box",
+      "allow_cave": true,
+      "adapt_noise": true,
+      "spawn_overrides": {
+        "creature": {
+          "bounding_box": "piece",
+          "spawns": [
+            {
+              "type": "minecraft:cat",
+              "weight": 100,
+              "minCount": 1,
+              "maxCount": 2
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "id": "minecolonies:barbarian_camp",
+    "jar": "minecolonies-1.1.1368-1.21.1.jar",
+    "path": "data/minecolonies/worldgen/structure/barbarian_camp.json",
+    "data": {
+      "type": "minecraft:jigsaw",
+      "biomes": "#minecolonies:has_structure/barbarian_camp",
+      "adapt_noise": true,
+      "terrain_adaptation": "beard_box",
+      "start_pool": "minecolonies:barbarian_camp",
+      "spawn_overrides": {},
+      "size": 1,
+      "step": "surface_structures",
+      "start_height": {
+        "absolute": 0
+      },
+      "project_start_to_heightmap": "WORLD_SURFACE_WG",
+      "max_distance_from_center": 16,
+      "use_expansion_hack": false
+    }
+  },
+  {
+    "id": "minecolonies:medieval_birch_colony",
+    "jar": "minecolonies-1.1.1368-1.21.1.jar",
+    "path": "data/minecolonies/worldgen/structure/medieval_birch_colony.json",
+    "data": {
+      "type": "minecolonies:empty_colony",
+      "start_pool": "minecolonies:medieval_birch_pool",
+      "size": 5,
+      "max_distance_from_center": 80,
+      "step": "surface_structures",
+      "biomes": "#minecolonies:has_structure/medieval_birch_colony",
+      "start_height": {
+        "above_bottom": 32
+      },
+      "terrain_adaptation": "beard_box",
+      "adapt_noise": true,
+      "spawn_overrides": {
+        "creature": {
+          "bounding_box": "piece",
+          "spawns": [
+            {
+              "type": "minecraft:cat",
+              "weight": 100,
+              "minCount": 1,
+              "maxCount": 2
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "id": "minecolonies:medieval_oak_colony",
+    "jar": "minecolonies-1.1.1368-1.21.1.jar",
+    "path": "data/minecolonies/worldgen/structure/medieval_oak_colony.json",
+    "data": {
+      "type": "minecolonies:empty_colony",
+      "start_pool": "minecolonies:medieval_oak_pool",
+      "size": 5,
+      "max_distance_from_center": 80,
+      "step": "surface_structures",
+      "biomes": "#minecolonies:has_structure/medieval_oak_colony",
+      "start_height": {
+        "above_bottom": 32
+      },
+      "terrain_adaptation": "beard_box",
+      "adapt_noise": true,
+      "spawn_overrides": {
+        "creature": {
+          "bounding_box": "piece",
+          "spawns": [
+            {
+              "type": "minecraft:cat",
+              "weight": 100,
+              "minCount": 1,
+              "maxCount": 2
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "id": "minecolonies:shire_colony",
+    "jar": "minecolonies-1.1.1368-1.21.1.jar",
+    "path": "data/minecolonies/worldgen/structure/shire_colony.json",
+    "data": {
+      "type": "minecolonies:empty_colony",
+      "start_pool": "minecolonies:shire_pool",
+      "size": 5,
+      "max_distance_from_center": 80,
+      "step": "surface_structures",
+      "biomes": "#minecolonies:has_structure/shire_colony",
+      "start_height": {
+        "above_bottom": 32
+      },
+      "terrain_adaptation": "beard_box",
+      "adapt_noise": true,
+      "spawn_overrides": {
+        "creature": {
+          "bounding_box": "piece",
+          "spawns": [
+            {
+              "type": "minecraft:cat",
+              "weight": 100,
+              "minCount": 1,
+              "maxCount": 2
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "id": "minecolonies:incan_colony",
+    "jar": "minecolonies-1.1.1368-1.21.1.jar",
+    "path": "data/minecolonies/worldgen/structure/incan_colony.json",
+    "data": {
+      "type": "minecolonies:empty_colony",
+      "start_pool": "minecolonies:incan_pool",
+      "size": 5,
+      "max_distance_from_center": 80,
+      "step": "surface_structures",
+      "biomes": "#minecolonies:has_structure/incan_colony",
+      "start_height": {
+        "above_bottom": 32
+      },
+      "terrain_adaptation": "beard_box",
+      "adapt_noise": true,
+      "spawn_overrides": {
+        "creature": {
+          "bounding_box": "piece",
+          "spawns": [
+            {
+              "type": "minecraft:cat",
+              "weight": 100,
+              "minCount": 1,
+              "maxCount": 2
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "id": "minecolonies:desert_camp",
+    "jar": "minecolonies-1.1.1368-1.21.1.jar",
+    "path": "data/minecolonies/worldgen/structure/desert_camp.json",
+    "data": {
+      "type": "minecraft:jigsaw",
+      "biomes": "#minecolonies:has_structure/desert_camp",
+      "adapt_noise": true,
+      "terrain_adaptation": "beard_box",
+      "start_pool": "minecolonies:desert_camp",
+      "spawn_overrides": {},
+      "size": 1,
+      "step": "surface_structures",
+      "start_height": {
+        "absolute": 0
+      },
+      "project_start_to_heightmap": "WORLD_SURFACE_WG",
+      "max_distance_from_center": 16,
+      "use_expansion_hack": false
+    }
+  },
+  {
+    "id": "minecolonies:asian_colony",
+    "jar": "minecolonies-1.1.1368-1.21.1.jar",
+    "path": "data/minecolonies/worldgen/structure/asian_colony.json",
+    "data": {
+      "type": "minecolonies:empty_colony",
+      "start_pool": "minecolonies:asian_pool",
+      "size": 5,
+      "max_distance_from_center": 80,
+      "step": "surface_structures",
+      "biomes": "#minecolonies:has_structure/asian_colony",
+      "start_height": {
+        "above_bottom": 32
+      },
+      "terrain_adaptation": "beard_box",
+      "adapt_noise": true,
+      "spawn_overrides": {
+        "creature": {
+          "bounding_box": "piece",
+          "spawns": [
+            {
+              "type": "minecraft:cat",
+              "weight": 100,
+              "minCount": 1,
+              "maxCount": 2
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "id": "minecolonies:colonial_colony",
+    "jar": "minecolonies-1.1.1368-1.21.1.jar",
+    "path": "data/minecolonies/worldgen/structure/colonial_colony.json",
+    "data": {
+      "type": "minecolonies:empty_colony",
+      "start_pool": "minecolonies:colonial_pool",
+      "size": 5,
+      "max_distance_from_center": 80,
+      "step": "surface_structures",
+      "biomes": "#minecolonies:has_structure/colonial_colony",
+      "start_height": {
+        "above_bottom": 32
+      },
+      "terrain_adaptation": "beard_box",
+      "adapt_noise": true,
+      "spawn_overrides": {
+        "creature": {
+          "bounding_box": "piece",
+          "spawns": [
+            {
+              "type": "minecraft:cat",
+              "weight": 100,
+              "minCount": 1,
+              "maxCount": 2
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "id": "minecolonies:desertoasis_colony",
+    "jar": "minecolonies-1.1.1368-1.21.1.jar",
+    "path": "data/minecolonies/worldgen/structure/desertoasis_colony.json",
+    "data": {
+      "type": "minecolonies:empty_colony",
+      "start_pool": "minecolonies:desertoasis_pool",
+      "size": 5,
+      "max_distance_from_center": 80,
+      "step": "surface_structures",
+      "biomes": "#minecolonies:has_structure/desertoasis_colony",
+      "start_height": {
+        "above_bottom": 32
+      },
+      "terrain_adaptation": "beard_box",
+      "adapt_noise": true,
+      "spawn_overrides": {
+        "creature": {
+          "bounding_box": "piece",
+          "spawns": [
+            {
+              "type": "minecraft:cat",
+              "weight": 100,
+              "minCount": 1,
+              "maxCount": 2
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "id": "minecolonies:caledonia_colony",
+    "jar": "minecolonies-1.1.1368-1.21.1.jar",
+    "path": "data/minecolonies/worldgen/structure/caledonia_colony.json",
+    "data": {
+      "type": "minecolonies:empty_colony",
+      "start_pool": "minecolonies:caledonia_pool",
+      "size": 5,
+      "max_distance_from_center": 80,
+      "step": "surface_structures",
+      "biomes": "#minecolonies:has_structure/caledonia_colony",
+      "start_height": {
+        "above_bottom": 32
+      },
+      "terrain_adaptation": "beard_box",
+      "adapt_noise": true,
+      "spawn_overrides": {
+        "creature": {
+          "bounding_box": "piece",
+          "spawns": [
+            {
+              "type": "minecraft:cat",
+              "weight": 100,
+              "minCount": 1,
+              "maxCount": 2
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "id": "minecolonies:amazon_camp",
+    "jar": "minecolonies-1.1.1368-1.21.1.jar",
+    "path": "data/minecolonies/worldgen/structure/amazon_camp.json",
+    "data": {
+      "type": "minecraft:jigsaw",
+      "biomes": "#minecolonies:has_structure/amazon_camp",
+      "adapt_noise": true,
+      "terrain_adaptation": "beard_box",
+      "start_pool": "minecolonies:amazon_camp",
+      "spawn_overrides": {},
+      "size": 7,
+      "step": "surface_structures",
+      "start_height": {
+        "absolute": 0
+      },
+      "project_start_to_heightmap": "WORLD_SURFACE_WG",
+      "max_distance_from_center": 16,
+      "use_expansion_hack": false
+    }
+  },
+  {
+    "id": "minecolonies:lostmesacity_colony",
+    "jar": "minecolonies-1.1.1368-1.21.1.jar",
+    "path": "data/minecolonies/worldgen/structure/lostmesacity_colony.json",
+    "data": {
+      "type": "minecolonies:empty_colony",
+      "start_pool": "minecolonies:lostmesacity_pool",
+      "size": 5,
+      "max_distance_from_center": 80,
+      "step": "surface_structures",
+      "biomes": "#minecolonies:has_structure/lostmesacity_colony",
+      "start_height": {
+        "above_bottom": 32
+      },
+      "terrain_adaptation": "beard_box",
+      "adapt_noise": true,
+      "spawn_overrides": {
+        "creature": {
+          "bounding_box": "piece",
+          "spawns": [
+            {
+              "type": "minecraft:cat",
+              "weight": 100,
+              "minCount": 1,
+              "maxCount": 2
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "id": "minecolonies:ship",
+    "jar": "minecolonies-1.1.1368-1.21.1.jar",
+    "path": "data/minecolonies/worldgen/structure/ship.json",
+    "data": {
+      "type": "minecraft:jigsaw",
+      "biomes": "#minecolonies:has_structure/ship",
+      "adapt_noise": false,
+      "start_pool": "minecolonies:ship_pool",
+      "spawn_overrides": {},
+      "size": 1,
+      "step": "surface_structures",
+      "start_height": {
+        "absolute": -3
+      },
+      "project_start_to_heightmap": "WORLD_SURFACE_WG",
+      "max_distance_from_center": 16,
+      "use_expansion_hack": false
+    }
+  },
+  {
+    "id": "modernfoundry:blood_island",
+    "jar": "ModernFoundry-1.21.1-4.1.6-NeoForge.jar",
+    "path": "data/modernfoundry/worldgen/structure/blood_island.json",
+    "data": {
+      "type": "modernfoundry:island",
+      "biomes": "#modernfoundry:islands/blood",
+      "grasses": [
+        {
+          "data": "modernfoundry:blood_slime_tall_grass",
+          "weight": 7
+        },
+        {
+          "data": "modernfoundry:blood_slime_fern",
+          "weight": 1
+        }
+      ],
+      "placement": "sea",
+      "spawn_overrides": {
+        "monster": {
+          "bounding_box": "full",
+          "spawns": [
+            {
+              "type": "minecraft:magma_cube",
+              "maxCount": 6,
+              "minCount": 4,
+              "weight": 1
+            }
+          ]
+        }
+      },
+      "step": "underground_decoration",
+      "templates": [
+        {
+          "data": "modernfoundry:islands/blood/0x1x0",
+          "weight": 1
+        },
+        {
+          "data": "modernfoundry:islands/blood/2x2x4",
+          "weight": 1
+        },
+        {
+          "data": "modernfoundry:islands/blood/4x1x6",
+          "weight": 1
+        },
+        {
+          "data": "modernfoundry:islands/blood/8x1x11",
+          "weight": 1
+        },
+        {
+          "data": "modernfoundry:islands/blood/11x1x11",
+          "weight": 1
+        }
+      ],
+      "trees": [
+        {
+          "data": "modernfoundry:blood_slime_island_fungus",
+          "weight": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": "modernfoundry:clay_island",
+    "jar": "ModernFoundry-1.21.1-4.1.6-NeoForge.jar",
+    "path": "data/modernfoundry/worldgen/structure/clay_island.json",
+    "data": {
+      "type": "modernfoundry:island",
+      "biomes": "#modernfoundry:islands/clay",
+      "grasses": [
+        {
+          "data": "minecraft:short_grass",
+          "weight": 7
+        },
+        {
+          "data": "minecraft:fern",
+          "weight": 1
+        }
+      ],
+      "placement": "sky",
+      "spawn_overrides": {
+        "monster": {
+          "bounding_box": "full",
+          "spawns": [
+            {
+              "type": "modernfoundry:terracube",
+              "maxCount": 4,
+              "minCount": 2,
+              "weight": 1
+            }
+          ]
+        }
+      },
+      "step": "surface_structures",
+      "templates": [
+        {
+          "data": "modernfoundry:islands/dirt/0x1x0",
+          "weight": 1
+        },
+        {
+          "data": "modernfoundry:islands/dirt/2x2x4",
+          "weight": 1
+        },
+        {
+          "data": "modernfoundry:islands/dirt/4x1x6",
+          "weight": 1
+        },
+        {
+          "data": "modernfoundry:islands/dirt/8x1x11",
+          "weight": 1
+        },
+        {
+          "data": "modernfoundry:islands/dirt/11x1x11",
+          "weight": 1
+        }
+      ],
+      "trees": [
+        {
+          "data": "minecraft:oak",
+          "weight": 4
+        },
+        {
+          "data": "minecraft:birch",
+          "weight": 3
+        },
+        {
+          "data": "minecraft:spruce",
+          "weight": 2
+        },
+        {
+          "data": "minecraft:acacia",
+          "weight": 1
+        },
+        {
+          "data": "minecraft:jungle_tree_no_vine",
+          "weight": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": "modernfoundry:earth_slime_island",
+    "jar": "ModernFoundry-1.21.1-4.1.6-NeoForge.jar",
+    "path": "data/modernfoundry/worldgen/structure/earth_slime_island.json",
+    "data": {
+      "type": "modernfoundry:island",
+      "biomes": "#modernfoundry:islands/earthslime",
+      "grasses": [
+        {
+          "data": "modernfoundry:earth_slime_tall_grass",
+          "weight": 7
+        },
+        {
+          "data": "modernfoundry:earth_slime_fern",
+          "weight": 1
+        }
+      ],
+      "placement": "sea",
+      "spawn_overrides": {
+        "monster": {
+          "bounding_box": "full",
+          "spawns": [
+            {
+              "type": "minecraft:slime",
+              "maxCount": 4,
+              "minCount": 4,
+              "weight": 1
+            }
+          ]
+        }
+      },
+      "step": "surface_structures",
+      "templates": [
+        {
+          "data": "modernfoundry:islands/earth/0x1x0",
+          "weight": 1
+        },
+        {
+          "data": "modernfoundry:islands/earth/2x2x4",
+          "weight": 1
+        },
+        {
+          "data": "modernfoundry:islands/earth/4x1x6",
+          "weight": 1
+        },
+        {
+          "data": "modernfoundry:islands/earth/8x1x11",
+          "weight": 1
+        },
+        {
+          "data": "modernfoundry:islands/earth/11x1x11",
+          "weight": 1
+        }
+      ],
+      "trees": [
+        {
+          "data": "modernfoundry:earth_slime_island_tree",
+          "weight": 1
+        },
+        {
+          "data": "modernfoundry:sky_slime_island_tree",
+          "weight": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": "modernfoundry:end_slime_island",
+    "jar": "ModernFoundry-1.21.1-4.1.6-NeoForge.jar",
+    "path": "data/modernfoundry/worldgen/structure/end_slime_island.json",
+    "data": {
+      "type": "modernfoundry:island",
+      "biomes": "#modernfoundry:islands/enderslime",
+      "grasses": [
+        {
+          "data": "modernfoundry:ender_slime_tall_grass",
+          "weight": 7
+        },
+        {
+          "data": "modernfoundry:ender_slime_fern",
+          "weight": 1
+        }
+      ],
+      "placement": "sky",
+      "spawn_overrides": {
+        "monster": {
+          "bounding_box": "full",
+          "spawns": [
+            {
+              "type": "modernfoundry:ender_slime",
+              "maxCount": 4,
+              "minCount": 4,
+              "weight": 1
+            }
+          ]
+        }
+      },
+      "step": "surface_structures",
+      "templates": [
+        {
+          "data": "modernfoundry:islands/ender/0x1x0",
+          "weight": 1
+        },
+        {
+          "data": "modernfoundry:islands/ender/2x2x4",
+          "weight": 1
+        },
+        {
+          "data": "modernfoundry:islands/ender/4x1x6",
+          "weight": 1
+        },
+        {
+          "data": "modernfoundry:islands/ender/8x1x11",
+          "weight": 1
+        },
+        {
+          "data": "modernfoundry:islands/ender/11x1x11",
+          "weight": 1
+        }
+      ],
+      "trees": [
+        {
+          "data": "modernfoundry:ender_slime_tree",
+          "weight": 3
+        },
+        {
+          "data": "modernfoundry:ender_slime_tree_tall",
+          "weight": 17
+        }
+      ],
+      "vines": "modernfoundry:ender_slime_vine"
+    }
+  },
+  {
+    "id": "modernfoundry:ocean_skyslime_island",
+    "jar": "ModernFoundry-1.21.1-4.1.6-NeoForge.jar",
+    "path": "data/modernfoundry/worldgen/structure/ocean_skyslime_island.json",
+    "data": {
+      "type": "modernfoundry:island",
+      "biomes": "#modernfoundry:islands/earthslime",
+      "grasses": [
+        {
+          "data": "modernfoundry:sky_slime_tall_grass",
+          "weight": 7
+        },
+        {
+          "data": "modernfoundry:sky_slime_fern",
+          "weight": 1
+        }
+      ],
+      "placement": "sea",
+      "spawn_overrides": {
+        "monster": {
+          "bounding_box": "full",
+          "spawns": [
+            {
+              "type": "modernfoundry:sky_slime",
+              "maxCount": 4,
+              "minCount": 3,
+              "weight": 1
+            }
+          ]
+        }
+      },
+      "step": "surface_structures",
+      "templates": [
+        {
+          "data": "modernfoundry:islands/sky/0x1x0",
+          "weight": 1
+        },
+        {
+          "data": "modernfoundry:islands/sky/2x2x4",
+          "weight": 1
+        },
+        {
+          "data": "modernfoundry:islands/sky/4x1x6",
+          "weight": 1
+        },
+        {
+          "data": "modernfoundry:islands/sky/8x1x11",
+          "weight": 1
+        },
+        {
+          "data": "modernfoundry:islands/sky/11x1x11",
+          "weight": 1
+        }
+      ],
+      "trees": [
+        {
+          "data": "modernfoundry:earth_slime_island_tree",
+          "weight": 1
+        },
+        {
+          "data": "modernfoundry:sky_slime_island_tree",
+          "weight": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": "modernfoundry:sky_slime_island",
+    "jar": "ModernFoundry-1.21.1-4.1.6-NeoForge.jar",
+    "path": "data/modernfoundry/worldgen/structure/sky_slime_island.json",
+    "data": {
+      "type": "modernfoundry:island",
+      "biomes": "#modernfoundry:islands/skyslime",
+      "grasses": [
+        {
+          "data": "modernfoundry:sky_slime_tall_grass",
+          "weight": 7
+        },
+        {
+          "data": "modernfoundry:sky_slime_fern",
+          "weight": 1
+        }
+      ],
+      "placement": "sky",
+      "spawn_overrides": {
+        "monster": {
+          "bounding_box": "full",
+          "spawns": [
+            {
+              "type": "modernfoundry:sky_slime",
+              "maxCount": 4,
+              "minCount": 3,
+              "weight": 1
+            }
+          ]
+        }
+      },
+      "step": "surface_structures",
+      "templates": [
+        {
+          "data": "modernfoundry:islands/sky/0x1x0",
+          "weight": 1
+        },
+        {
+          "data": "modernfoundry:islands/sky/2x2x4",
+          "weight": 1
+        },
+        {
+          "data": "modernfoundry:islands/sky/4x1x6",
+          "weight": 1
+        },
+        {
+          "data": "modernfoundry:islands/sky/8x1x11",
+          "weight": 1
+        },
+        {
+          "data": "modernfoundry:islands/sky/11x1x11",
+          "weight": 1
+        }
+      ],
+      "trees": [
+        {
+          "data": "modernfoundry:earth_slime_island_tree",
+          "weight": 1
+        },
+        {
+          "data": "modernfoundry:sky_slime_island_tree",
+          "weight": 3
+        }
+      ],
+      "vines": "modernfoundry:sky_slime_vine"
+    }
+  },
+  {
+    "id": "mowziesmobs:frostmaw_spawn",
+    "jar": "mowziesmobs-1.21.1-1.8.2.jar",
+    "path": "data/mowziesmobs/worldgen/structure/frostmaw_spawn.json",
+    "data": {
+      "type": "mowziesmobs:frostmaw_spawn",
+      "biomes": "#mowziesmobs:has_structure/has_mowzie_structure",
+      "spawn_overrides": {},
+      "step": "surface_structures",
+      "terrain_adaptation": "beard_thin"
+    }
+  },
+  {
+    "id": "mowziesmobs:monastery",
+    "jar": "mowziesmobs-1.21.1-1.8.2.jar",
+    "path": "data/mowziesmobs/worldgen/structure/monastery.json",
+    "data": {
+      "type": "mowziesmobs:monastery",
+      "biomes": "#mowziesmobs:has_structure/has_mowzie_structure",
+      "step": "surface_structures",
+      "terrain_adaptation": "none",
+      "spawn_overrides": {
+        "monster": {
+          "bounding_box": "piece",
+          "spawns": [
+            {
+              "type": "mowziesmobs:bluff",
+              "weight": 100,
+              "minCount": 1,
+              "maxCount": 2
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "id": "mowziesmobs:umvuthana_grove",
+    "jar": "mowziesmobs-1.21.1-1.8.2.jar",
+    "path": "data/mowziesmobs/worldgen/structure/umvuthana_grove.json",
+    "data": {
+      "type": "mowziesmobs:umvuthana_grove",
+      "biomes": "#mowziesmobs:has_structure/has_mowzie_structure",
+      "spawn_overrides": {},
+      "step": "surface_structures"
+    }
+  },
+  {
+    "id": "mowziesmobs:wrought_chamber",
+    "jar": "mowziesmobs-1.21.1-1.8.2.jar",
+    "path": "data/mowziesmobs/worldgen/structure/wrought_chamber.json",
+    "data": {
+      "type": "mowziesmobs:wrought_chamber",
+      "biomes": "#mowziesmobs:has_structure/has_mowzie_structure",
+      "spawn_overrides": {},
+      "step": "surface_structures"
+    }
+  },
+  {
+    "id": "nuclearcraft:wasteland_village",
+    "jar": "NuclearCraft-1.21.1-1.3.0-rc1.jar",
+    "path": "data/nuclearcraft/worldgen/structure/wasteland_village.json",
+    "data": {
+      "type": "minecraft:jigsaw",
+      "biomes": "#nuclearcraft:has_structure/wasteland_village",
+      "step": "surface_structures",
+      "terrain_adaptation": "beard_thin",
+      "start_pool": "nuclearcraft:wasteland_village/start",
+      "size": 4,
+      "start_height": {
+        "absolute": 0
+      },
+      "project_start_to_heightmap": "WORLD_SURFACE_WG",
+      "max_distance_from_center": 80,
+      "use_expansion_hack": false,
+      "spawn_overrides": {}
+    }
+  },
+  {
+    "id": "rocketnautics_addon:mars_mountain_ice",
+    "jar": "rocketnautics_addon-1.0.0.jar",
+    "path": "data/rocketnautics_addon/worldgen/structure/mars_mountain_ice.json",
+    "data": {
+      "type": "rocketnautics_addon:mars_mountain_ice",
+      "biomes": "rocketnautics_addon:mars_frostlands",
+      "step": "underground_structures",
+      "spawn_overrides": {},
+      "terrain_adaptation": "none",
+      "start_pool": "rocketnautics_addon:rocketnautics_pool",
+      "size": 1,
+      "start_height": {
+        "type": "minecraft:constant",
+        "value": 0
+      },
+      "project_start_to_heightmap": "NONE",
+      "max_distance_from_center": 80,
+      "use_expansion_hack": false
+    }
+  },
+  {
+    "id": "stellaris:earth_operation_base",
+    "jar": "stellaris-1.21-neoforge-1.4.25.jar",
+    "path": "data/stellaris/worldgen/structure/earth_operation_base.json",
+    "data": {
+      "type": "minecraft:jigsaw",
+      "biomes": "#stellaris:has_structure/earth_biomes",
+      "step": "underground_structures",
+      "spawn_overrides": {},
+      "terrain_adaptation": "beard_thin",
+      "start_pool": "stellaris:earth/earth_operation_base",
+      "size": 1,
+      "start_height": {
+        "absolute": -17
+      },
+      "max_distance_from_center": 80,
+      "use_expansion_hack": false,
+      "liquid_settings": "ignore_waterlogging",
+      "project_start_to_heightmap": "WORLD_SURFACE_WG"
+    }
+  },
+  {
+    "id": "stellaris:earth_satellite",
+    "jar": "stellaris-1.21-neoforge-1.4.25.jar",
+    "path": "data/stellaris/worldgen/structure/earth_satellite.json",
+    "data": {
+      "type": "minecraft:jigsaw",
+      "biomes": "#stellaris:has_structure/earth_biomes",
+      "step": "surface_structures",
+      "spawn_overrides": {},
+      "terrain_adaptation": "beard_thin",
+      "start_pool": "stellaris:earth/earth_satellite",
+      "size": 1,
+      "start_height": {
+        "absolute": 1
+      },
+      "max_distance_from_center": 80,
+      "use_expansion_hack": false,
+      "liquid_settings": "ignore_waterlogging",
+      "project_start_to_heightmap": "WORLD_SURFACE_WG"
+    }
+  },
+  {
+    "id": "stellaris:mars_main_temple",
+    "jar": "stellaris-1.21-neoforge-1.4.25.jar",
+    "path": "data/stellaris/worldgen/structure/mars_main_temple.json",
+    "data": {
+      "type": "minecraft:jigsaw",
+      "biomes": "#stellaris:mars_biomes",
+      "step": "surface_structures",
+      "spawn_overrides": {},
+      "terrain_adaptation": "beard_thin",
+      "start_pool": "stellaris:mars/mars_main_temple",
+      "size": 1,
+      "start_height": {
+        "absolute": 0
+      },
+      "max_distance_from_center": 80,
+      "use_expansion_hack": false,
+      "project_start_to_heightmap": "WORLD_SURFACE_WG"
+    }
+  },
+  {
+    "id": "stellaris:mars_maze",
+    "jar": "stellaris-1.21-neoforge-1.4.25.jar",
+    "path": "data/stellaris/worldgen/structure/mars_maze.json",
+    "data": {
+      "type": "minecraft:jigsaw",
+      "biomes": "#stellaris:mars_biomes",
+      "step": "underground_structures",
+      "spawn_overrides": {},
+      "terrain_adaptation": "beard_thin",
+      "start_pool": "stellaris:mars/mars_maze_entry",
+      "size": 12,
+      "start_height": {
+        "absolute": 0
+      },
+      "max_distance_from_center": 116,
+      "use_expansion_hack": true
+    }
+  },
+  {
+    "id": "stellaris:mars_ruins",
+    "jar": "stellaris-1.21-neoforge-1.4.25.jar",
+    "path": "data/stellaris/worldgen/structure/mars_ruins.json",
+    "data": {
+      "type": "minecraft:jigsaw",
+      "biomes": "#stellaris:mars_biomes",
+      "step": "surface_structures",
+      "spawn_overrides": {},
+      "terrain_adaptation": "none",
+      "start_pool": "stellaris:mars/mars_ruins",
+      "size": 4,
+      "start_height": {
+        "absolute": 0
+      },
+      "max_distance_from_center": 80,
+      "use_expansion_hack": true,
+      "project_start_to_heightmap": "WORLD_SURFACE_WG"
+    }
+  },
+  {
+    "id": "stellaris:mars_temple",
+    "jar": "stellaris-1.21-neoforge-1.4.25.jar",
+    "path": "data/stellaris/worldgen/structure/mars_temple.json",
+    "data": {
+      "type": "minecraft:jigsaw",
+      "biomes": "#stellaris:mars_biomes",
+      "step": "surface_structures",
+      "spawn_overrides": {},
+      "terrain_adaptation": "beard_thin",
+      "start_pool": "stellaris:mars/mars_temple",
+      "size": 1,
+      "start_height": {
+        "absolute": 0
+      },
+      "max_distance_from_center": 80,
+      "use_expansion_hack": false,
+      "project_start_to_heightmap": "WORLD_SURFACE_WG"
+    }
+  },
+  {
+    "id": "stellaris:mars_tower",
+    "jar": "stellaris-1.21-neoforge-1.4.25.jar",
+    "path": "data/stellaris/worldgen/structure/mars_tower.json",
+    "data": {
+      "type": "minecraft:jigsaw",
+      "biomes": "#stellaris:mars_biomes",
+      "step": "surface_structures",
+      "spawn_overrides": {},
+      "terrain_adaptation": "beard_thin",
+      "start_pool": "stellaris:mars/mars_tower",
+      "size": 1,
+      "start_height": {
+        "absolute": 0
+      },
+      "max_distance_from_center": 80,
+      "use_expansion_hack": false,
+      "project_start_to_heightmap": "WORLD_SURFACE_WG"
+    }
+  },
+  {
+    "id": "stellaris:mercury_big_castle",
+    "jar": "stellaris-1.21-neoforge-1.4.25.jar",
+    "path": "data/stellaris/worldgen/structure/mercury_big_castle.json",
+    "data": {
+      "type": "minecraft:jigsaw",
+      "biomes": "#stellaris:has_structure/mercury_biomes",
+      "step": "surface_structures",
+      "spawn_overrides": {},
+      "terrain_adaptation": "beard_thin",
+      "start_pool": "stellaris:mercury/mercury_big_castle",
+      "size": 1,
+      "start_height": {
+        "absolute": 0
+      },
+      "max_distance_from_center": 80,
+      "use_expansion_hack": false,
+      "project_start_to_heightmap": "WORLD_SURFACE_WG"
+    }
+  },
+  {
+    "id": "stellaris:mercury_factory",
+    "jar": "stellaris-1.21-neoforge-1.4.25.jar",
+    "path": "data/stellaris/worldgen/structure/mercury_factory.json",
+    "data": {
+      "type": "minecraft:jigsaw",
+      "biomes": "#stellaris:has_structure/mercury_biomes",
+      "step": "surface_structures",
+      "spawn_overrides": {},
+      "terrain_adaptation": "beard_thin",
+      "start_pool": "stellaris:mercury/mercury_factory",
+      "size": 1,
+      "start_height": {
+        "absolute": 0
+      },
+      "max_distance_from_center": 80,
+      "use_expansion_hack": false,
+      "project_start_to_heightmap": "WORLD_SURFACE_WG"
+    }
+  },
+  {
+    "id": "stellaris:mercury_lava_mines",
+    "jar": "stellaris-1.21-neoforge-1.4.25.jar",
+    "path": "data/stellaris/worldgen/structure/mercury_lava_mines.json",
+    "data": {
+      "type": "minecraft:jigsaw",
+      "biomes": "#stellaris:has_structure/mercury_biomes",
+      "step": "underground_structures",
+      "spawn_overrides": {},
+      "terrain_adaptation": "beard_thin",
+      "start_pool": "stellaris:mercury/mercury_lava_mines",
+      "size": 1,
+      "start_height": {
+        "absolute": -22
+      },
+      "max_distance_from_center": 80,
+      "use_expansion_hack": false,
+      "project_start_to_heightmap": "WORLD_SURFACE_WG"
+    }
+  },
+  {
+    "id": "stellaris:mercury_mining_ship",
+    "jar": "stellaris-1.21-neoforge-1.4.25.jar",
+    "path": "data/stellaris/worldgen/structure/mercury_mining_ship.json",
+    "data": {
+      "type": "minecraft:jigsaw",
+      "biomes": "#stellaris:has_structure/mercury_biomes",
+      "step": "surface_structures",
+      "spawn_overrides": {},
+      "terrain_adaptation": "beard_thin",
+      "start_pool": "stellaris:mercury/mercury_mining_ship",
+      "size": 1,
+      "start_height": {
+        "absolute": 0
+      },
+      "max_distance_from_center": 80,
+      "use_expansion_hack": false,
+      "project_start_to_heightmap": "WORLD_SURFACE_WG"
+    }
+  },
+  {
+    "id": "stellaris:mercury_quarry",
+    "jar": "stellaris-1.21-neoforge-1.4.25.jar",
+    "path": "data/stellaris/worldgen/structure/mercury_quarry.json",
+    "data": {
+      "type": "minecraft:jigsaw",
+      "biomes": "#stellaris:has_structure/mercury_biomes",
+      "step": "surface_structures",
+      "spawn_overrides": {},
+      "terrain_adaptation": "beard_thin",
+      "start_pool": "stellaris:mercury/mercury_quarry",
+      "size": 1,
+      "start_height": {
+        "absolute": 0
+      },
+      "max_distance_from_center": 80,
+      "use_expansion_hack": false,
+      "project_start_to_heightmap": "WORLD_SURFACE_WG"
+    }
+  },
+  {
+    "id": "stellaris:mercury_small_castle",
+    "jar": "stellaris-1.21-neoforge-1.4.25.jar",
+    "path": "data/stellaris/worldgen/structure/mercury_small_castle.json",
+    "data": {
+      "type": "minecraft:jigsaw",
+      "biomes": "#stellaris:has_structure/mercury_biomes",
+      "step": "surface_structures",
+      "spawn_overrides": {},
+      "terrain_adaptation": "beard_thin",
+      "start_pool": "stellaris:mercury/mercury_small_castle",
+      "size": 1,
+      "start_height": {
+        "absolute": 0
+      },
+      "max_distance_from_center": 80,
+      "use_expansion_hack": false,
+      "project_start_to_heightmap": "WORLD_SURFACE_WG"
+    }
+  },
+  {
+    "id": "stellaris:mercury_temple",
+    "jar": "stellaris-1.21-neoforge-1.4.25.jar",
+    "path": "data/stellaris/worldgen/structure/mercury_temple.json",
+    "data": {
+      "type": "minecraft:jigsaw",
+      "biomes": "#stellaris:has_structure/mercury_biomes",
+      "step": "surface_structures",
+      "spawn_overrides": {},
+      "terrain_adaptation": "beard_thin",
+      "start_pool": "stellaris:mercury/mercury_temple",
+      "size": 1,
+      "start_height": {
+        "absolute": 0
+      },
+      "max_distance_from_center": 80,
+      "use_expansion_hack": false,
+      "liquid_settings": "apply_waterlogging",
+      "project_start_to_heightmap": "WORLD_SURFACE_WG"
+    }
+  },
+  {
+    "id": "stellaris:mercury_volcano",
+    "jar": "stellaris-1.21-neoforge-1.4.25.jar",
+    "path": "data/stellaris/worldgen/structure/mercury_volcano.json",
+    "data": {
+      "type": "minecraft:jigsaw",
+      "biomes": "#stellaris:has_structure/mercury_biomes",
+      "step": "surface_structures",
+      "spawn_overrides": {},
+      "terrain_adaptation": "beard_thin",
+      "start_pool": "stellaris:mercury/mercury_volcano",
+      "size": 1,
+      "start_height": {
+        "absolute": 0
+      },
+      "max_distance_from_center": 80,
+      "use_expansion_hack": false,
+      "project_start_to_heightmap": "WORLD_SURFACE_WG"
+    }
+  },
+  {
+    "id": "stellaris:meteor",
+    "jar": "stellaris-1.21-neoforge-1.4.25.jar",
+    "path": "data/stellaris/worldgen/structure/meteor.json",
+    "data": {
+      "type": "minecraft:jigsaw",
+      "biomes": "#stellaris:has_structure/meteor_biomes",
+      "step": "surface_structures",
+      "spawn_overrides": {},
+      "terrain_adaptation": "none",
+      "start_pool": "stellaris:meteor/meteor",
+      "size": 1,
+      "start_height": {
+        "absolute": -20
+      },
+      "project_start_to_heightmap": "WORLD_SURFACE_WG",
+      "max_distance_from_center": 80,
+      "use_expansion_hack": false,
+      "liquid_settings": "ignore_waterlogging"
+    }
+  },
+  {
+    "id": "stellaris:moon_destroyed_spaceship",
+    "jar": "stellaris-1.21-neoforge-1.4.25.jar",
+    "path": "data/stellaris/worldgen/structure/moon_destroyed_spaceship.json",
+    "data": {
+      "type": "minecraft:jigsaw",
+      "biomes": "#stellaris:moon_biomes",
+      "step": "surface_structures",
+      "spawn_overrides": {},
+      "terrain_adaptation": "beard_thin",
+      "start_pool": "stellaris:moon/moon_destroyed_spaceship",
+      "size": 1,
+      "start_height": {
+        "absolute": 1
+      },
+      "max_distance_from_center": 80,
+      "use_expansion_hack": false,
+      "liquid_settings": "ignore_waterlogging",
+      "project_start_to_heightmap": "WORLD_SURFACE_WG"
+    }
+  },
+  {
+    "id": "stellaris:moon_destroyed_village",
+    "jar": "stellaris-1.21-neoforge-1.4.25.jar",
+    "path": "data/stellaris/worldgen/structure/moon_destroyed_village.json",
+    "data": {
+      "type": "minecraft:jigsaw",
+      "biomes": "#stellaris:moon_biomes",
+      "step": "surface_structures",
+      "spawn_overrides": {},
+      "terrain_adaptation": "none",
+      "start_pool": "stellaris:moon/moon_destroyed_village_walkway",
+      "size": 6,
+      "start_height": {
+        "absolute": 0
+      },
+      "max_distance_from_center": 80,
+      "use_expansion_hack": true,
+      "project_start_to_heightmap": "WORLD_SURFACE_WG"
+    }
+  },
+  {
+    "id": "stellaris:moon_dungeon",
+    "jar": "stellaris-1.21-neoforge-1.4.25.jar",
+    "path": "data/stellaris/worldgen/structure/moon_dungeon.json",
+    "data": {
+      "type": "minecraft:jigsaw",
+      "biomes": "#stellaris:moon_biomes",
+      "step": "underground_structures",
+      "spawn_overrides": {},
+      "terrain_adaptation": "beard_thin",
+      "start_pool": "stellaris:moon/moon_dungeon_entry",
+      "size": 12,
+      "start_height": {
+        "absolute": -16
+      },
+      "max_distance_from_center": 116,
+      "use_expansion_hack": true
+    }
+  },
+  {
+    "id": "stellaris:moon_first_landing",
+    "jar": "stellaris-1.21-neoforge-1.4.25.jar",
+    "path": "data/stellaris/worldgen/structure/moon_first_landing.json",
+    "data": {
+      "type": "minecraft:jigsaw",
+      "biomes": "#stellaris:moon_biomes",
+      "step": "surface_structures",
+      "spawn_overrides": {},
+      "terrain_adaptation": "beard_thin",
+      "start_pool": "stellaris:moon/moon_first_landing",
+      "size": 1,
+      "start_height": {
+        "absolute": 0
+      },
+      "max_distance_from_center": 80,
+      "use_expansion_hack": false,
+      "liquid_settings": "ignore_waterlogging",
+      "project_start_to_heightmap": "WORLD_SURFACE_WG"
+    }
+  },
+  {
+    "id": "stellaris:moon_launchpad",
+    "jar": "stellaris-1.21-neoforge-1.4.25.jar",
+    "path": "data/stellaris/worldgen/structure/moon_launchpad.json",
+    "data": {
+      "type": "minecraft:jigsaw",
+      "biomes": "#stellaris:moon_biomes",
+      "step": "surface_structures",
+      "spawn_overrides": {},
+      "terrain_adaptation": "beard_thin",
+      "start_pool": "stellaris:moon/moon_launchpad",
+      "size": 1,
+      "start_height": {
+        "absolute": 0
+      },
+      "max_distance_from_center": 80,
+      "use_expansion_hack": false,
+      "liquid_settings": "ignore_waterlogging",
+      "project_start_to_heightmap": "WORLD_SURFACE_WG"
+    }
+  },
+  {
+    "id": "stellaris:moon_space_base",
+    "jar": "stellaris-1.21-neoforge-1.4.25.jar",
+    "path": "data/stellaris/worldgen/structure/moon_space_base.json",
+    "data": {
+      "type": "minecraft:jigsaw",
+      "biomes": "#stellaris:moon_biomes",
+      "step": "surface_structures",
+      "spawn_overrides": {},
+      "terrain_adaptation": "beard_thin",
+      "start_pool": "stellaris:moon/moon_space_base",
+      "size": 1,
+      "start_height": {
+        "absolute": 0
+      },
+      "max_distance_from_center": 80,
+      "use_expansion_hack": false,
+      "liquid_settings": "ignore_waterlogging",
+      "project_start_to_heightmap": "WORLD_SURFACE_WG"
+    }
+  },
+  {
+    "id": "stellaris:moon_sphere",
+    "jar": "stellaris-1.21-neoforge-1.4.25.jar",
+    "path": "data/stellaris/worldgen/structure/moon_sphere.json",
+    "data": {
+      "type": "minecraft:jigsaw",
+      "biomes": "#stellaris:moon_biomes",
+      "step": "surface_structures",
+      "spawn_overrides": {},
+      "terrain_adaptation": "beard_thin",
+      "start_pool": "stellaris:moon/moon_sphere",
+      "size": 1,
+      "start_height": {
+        "absolute": -20
+      },
+      "max_distance_from_center": 80,
+      "use_expansion_hack": false,
+      "liquid_settings": "ignore_waterlogging",
+      "project_start_to_heightmap": "WORLD_SURFACE_WG"
+    }
+  },
+  {
+    "id": "stellaris:moon_village",
+    "jar": "stellaris-1.21-neoforge-1.4.25.jar",
+    "path": "data/stellaris/worldgen/structure/moon_village.json",
+    "data": {
+      "type": "minecraft:jigsaw",
+      "biomes": "#stellaris:moon_biomes",
+      "step": "surface_structures",
+      "spawn_overrides": {
+        "creature": {
+          "bounding_box": "piece",
+          "spawns": [
+            {
+              "type": "stellaris:alien",
+              "weight": 5,
+              "minCount": 4,
+              "maxCount": 8
+            }
+          ]
+        }
+      },
+      "terrain_adaptation": "beard_thin",
+      "start_pool": "stellaris:moon/moon_village",
+      "size": 6,
+      "start_height": {
+        "absolute": 0
+      },
+      "max_distance_from_center": 80,
+      "use_expansion_hack": true,
+      "project_start_to_heightmap": "WORLD_SURFACE_WG"
+    }
+  },
+  {
+    "id": "stellaris:small_moon_dungeon",
+    "jar": "stellaris-1.21-neoforge-1.4.25.jar",
+    "path": "data/stellaris/worldgen/structure/small_moon_dungeon.json",
+    "data": {
+      "type": "minecraft:jigsaw",
+      "biomes": "#stellaris:moon_biomes",
+      "step": "underground_structures",
+      "spawn_overrides": {},
+      "terrain_adaptation": "beard_thin",
+      "start_pool": "stellaris:moon/moon_dungeon_entry",
+      "size": 4,
+      "start_height": {
+        "absolute": -16
+      },
+      "max_distance_from_center": 80,
+      "use_expansion_hack": true
+    }
+  },
+  {
+    "id": "stellaris:venus_catacombs",
+    "jar": "stellaris-1.21-neoforge-1.4.25.jar",
+    "path": "data/stellaris/worldgen/structure/venus_catacombs.json",
+    "data": {
+      "type": "minecraft:jigsaw",
+      "biomes": "#stellaris:has_structure/venus_biomes",
+      "step": "surface_structures",
+      "spawn_overrides": {},
+      "terrain_adaptation": "beard_thin",
+      "start_pool": "stellaris:venus/venus_catacombs_entry",
+      "size": 8,
+      "start_height": {
+        "absolute": 0
+      },
+      "max_distance_from_center": 116,
+      "use_expansion_hack": true,
+      "project_start_to_heightmap": "WORLD_SURFACE_WG"
+    }
+  },
+  {
+    "id": "stellaris:venus_crash_site",
+    "jar": "stellaris-1.21-neoforge-1.4.25.jar",
+    "path": "data/stellaris/worldgen/structure/venus_crash_site.json",
+    "data": {
+      "type": "minecraft:jigsaw",
+      "biomes": "#stellaris:has_structure/venus_biomes",
+      "step": "surface_structures",
+      "spawn_overrides": {},
+      "terrain_adaptation": "beard_thin",
+      "start_pool": "stellaris:venus/venus_crash_site",
+      "size": 1,
+      "start_height": {
+        "absolute": 0
+      },
+      "max_distance_from_center": 80,
+      "use_expansion_hack": false,
+      "project_start_to_heightmap": "WORLD_SURFACE_WG"
+    }
+  },
+  {
+    "id": "stellaris:venus_lava_outpost",
+    "jar": "stellaris-1.21-neoforge-1.4.25.jar",
+    "path": "data/stellaris/worldgen/structure/venus_lava_outpost.json",
+    "data": {
+      "type": "minecraft:jigsaw",
+      "biomes": "#stellaris:has_structure/venus_biomes",
+      "step": "surface_structures",
+      "spawn_overrides": {},
+      "terrain_adaptation": "beard_thin",
+      "start_pool": "stellaris:venus/venus_lava_outpost",
+      "size": 1,
+      "start_height": {
+        "absolute": 0
+      },
+      "max_distance_from_center": 80,
+      "use_expansion_hack": false,
+      "project_start_to_heightmap": "WORLD_SURFACE_WG"
+    }
+  },
+  {
+    "id": "stellaris:venus_outpost",
+    "jar": "stellaris-1.21-neoforge-1.4.25.jar",
+    "path": "data/stellaris/worldgen/structure/venus_outpost.json",
+    "data": {
+      "type": "minecraft:jigsaw",
+      "biomes": "#stellaris:has_structure/venus_biomes",
+      "step": "surface_structures",
+      "spawn_overrides": {},
+      "terrain_adaptation": "beard_thin",
+      "start_pool": "stellaris:venus/venus_outpost",
+      "size": 1,
+      "start_height": {
+        "absolute": 0
+      },
+      "max_distance_from_center": 80,
+      "use_expansion_hack": false,
+      "project_start_to_heightmap": "WORLD_SURFACE_WG"
+    }
+  },
+  {
+    "id": "stellaris:venus_outpost_dungeon",
+    "jar": "stellaris-1.21-neoforge-1.4.25.jar",
+    "path": "data/stellaris/worldgen/structure/venus_outpost_dungeon.json",
+    "data": {
+      "type": "minecraft:jigsaw",
+      "biomes": "#stellaris:has_structure/venus_biomes",
+      "step": "surface_structures",
+      "spawn_overrides": {},
+      "terrain_adaptation": "beard_thin",
+      "start_pool": "stellaris:venus/venus_outpost_dungeon",
+      "size": 1,
+      "start_height": {
+        "absolute": 0
+      },
+      "max_distance_from_center": 80,
+      "use_expansion_hack": false,
+      "project_start_to_heightmap": "WORLD_SURFACE_WG"
+    }
+  },
+  {
+    "id": "stellaris:venus_plaza",
+    "jar": "stellaris-1.21-neoforge-1.4.25.jar",
+    "path": "data/stellaris/worldgen/structure/venus_plaza.json",
+    "data": {
+      "type": "minecraft:jigsaw",
+      "biomes": "#stellaris:has_structure/venus_biomes",
+      "step": "surface_structures",
+      "spawn_overrides": {},
+      "terrain_adaptation": "beard_thin",
+      "start_pool": "stellaris:venus/venus_plaza",
+      "size": 1,
+      "start_height": {
+        "absolute": 0
+      },
+      "max_distance_from_center": 80,
+      "use_expansion_hack": false,
+      "project_start_to_heightmap": "WORLD_SURFACE_WG"
+    }
+  },
+  {
+    "id": "stellaris:venus_ruins",
+    "jar": "stellaris-1.21-neoforge-1.4.25.jar",
+    "path": "data/stellaris/worldgen/structure/venus_ruins.json",
+    "data": {
+      "type": "minecraft:jigsaw",
+      "biomes": "#stellaris:has_structure/venus_biomes",
+      "step": "surface_structures",
+      "spawn_overrides": {},
+      "terrain_adaptation": "beard_thin",
+      "start_pool": "stellaris:venus/venus_ruins",
+      "size": 1,
+      "start_height": {
+        "absolute": 0
+      },
+      "max_distance_from_center": 80,
+      "use_expansion_hack": false,
+      "project_start_to_heightmap": "WORLD_SURFACE_WG"
+    }
+  },
+  {
+    "id": "stellaris:venus_tower",
+    "jar": "stellaris-1.21-neoforge-1.4.25.jar",
+    "path": "data/stellaris/worldgen/structure/venus_tower.json",
+    "data": {
+      "type": "minecraft:jigsaw",
+      "biomes": "#stellaris:has_structure/venus_biomes",
+      "step": "surface_structures",
+      "spawn_overrides": {},
+      "terrain_adaptation": "beard_thin",
+      "start_pool": "stellaris:venus/venus_tower",
+      "size": 1,
+      "start_height": {
+        "absolute": 0
+      },
+      "max_distance_from_center": 80,
+      "use_expansion_hack": false,
+      "project_start_to_heightmap": "WORLD_SURFACE_WG"
+    }
+  },
+  {
+    "id": "supplementaries:galleon",
+    "jar": "supplementaries-1.21.1-3.8.10-neoforge.jar",
+    "path": "data/supplementaries/worldgen/structure/galleon.json",
+    "data": {
+      "type": "supplementaries:galleon",
+      "biomes": "#supplementaries:has_galleons",
+      "spawn_boxes": [
+        {
+          "category": "monster",
+          "name": "galleon_enemies",
+          "spawns": [
+            {
+              "type": "minecraft:pillager",
+              "maxCount": 1,
+              "minCount": 1,
+              "weight": 5
+            },
+            {
+              "type": "supplementaries:plunderer",
+              "maxCount": 1,
+              "minCount": 1,
+              "weight": 7
+            }
+          ]
+        }
+      ],
+      "spawn_overrides": {},
+      "y_offset": -3,
+      "start_pool": "supplementaries:galleon/start_pool",
+      "step": "surface_structures",
+      "liquid_settings": "ignore_waterlogging",
+      "require_sea_level": true,
+      "biome_point": {
+        "continentalness": {
+          "min": -0.92,
+          "max": -0.48
+        },
+        "temperature": {
+          "min": -2,
+          "max": 2
+        },
+        "humidity": {
+          "min": -2,
+          "max": 2
+        },
+        "erosion": {
+          "min": -2,
+          "max": 2
+        },
+        "depth": {
+          "min": -2,
+          "max": 2
+        },
+        "weirdness": {
+          "min": -2,
+          "max": 2
+        },
+        "offset": 0
+      }
+    }
+  },
+  {
+    "id": "supplementaries:road_sign",
+    "jar": "supplementaries-1.21.1-3.8.10-neoforge.jar",
+    "path": "data/supplementaries/worldgen/structure/road_sign.json",
+    "data": {
+      "type": "supplementaries:road_sign",
+      "biomes": "#supplementaries:has_road_signs",
+      "terrain_adaptation": "beard_thin",
+      "step": "strongholds",
+      "spawn_overrides": {},
+      "start_pool": "supplementaries:road_sign/start_pool",
+      "min_y": 40,
+      "max_y": 105
+    }
+  },
+  {
+    "id": "betterdungeons:skeleton_dungeon",
+    "jar": "YungsBetterDungeons-1.21.1-NeoForge-5.1.4.jar",
+    "path": "data/betterdungeons/worldgen/structure/skeleton_dungeon.json",
+    "data": {
+      "type": "yungsapi:yung_jigsaw",
+      "biomes": "#betterdungeons:has_structure/skeleton_dungeon",
+      "step": "underground_structures",
+      "start_pool": "betterdungeons:skeleton_dungeon",
+      "start_jigsaw_name": "betterdungeons:skeleton_dungeon_anchor",
+      "size": 20,
+      "start_height": {
+        "type": "minecraft:uniform",
+        "min_inclusive": {
+          "absolute": -50
+        },
+        "max_inclusive": {
+          "absolute": -30
+        }
+      },
+      "use_expansion_hack": false,
+      "max_distance_from_center": 80,
+      "liquid_settings": "ignore_waterlogging",
+      "spawn_overrides": {
+        "monster": {
+          "bounding_box": "piece",
+          "spawns": [
+            {
+              "type": "minecraft:skeleton",
+              "weight": 100,
+              "minCount": 4,
+              "maxCount": 15
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "id": "betterdungeons:small_dungeon",
+    "jar": "YungsBetterDungeons-1.21.1-NeoForge-5.1.4.jar",
+    "path": "data/betterdungeons/worldgen/structure/small_dungeon.json",
+    "data": {
+      "type": "yungsapi:yung_jigsaw",
+      "biomes": "#betterdungeons:has_structure/small_dungeon",
+      "step": "underground_structures",
+      "start_pool": "betterdungeons:small_dungeon",
+      "start_jigsaw_name": "betterdungeons:small_dungeon_anchor",
+      "size": 10,
+      "start_height": {
+        "type": "minecraft:uniform",
+        "min_inclusive": {
+          "absolute": -50
+        },
+        "max_inclusive": {
+          "absolute": 50
+        }
+      },
+      "use_expansion_hack": false,
+      "max_distance_from_center": 80,
+      "liquid_settings": "ignore_waterlogging",
+      "spawn_overrides": {}
+    }
+  },
+  {
+    "id": "betterdungeons:small_nether_dungeon",
+    "jar": "YungsBetterDungeons-1.21.1-NeoForge-5.1.4.jar",
+    "path": "data/betterdungeons/worldgen/structure/small_nether_dungeon.json",
+    "data": {
+      "type": "betterdungeons:small_nether_dungeon",
+      "biomes": "#betterdungeons:has_structure/small_nether_dungeon",
+      "step": "underground_structures",
+      "start_pool": "betterdungeons:small_nether_dungeon",
+      "start_jigsaw_name": "betterdungeons:small_nether_dungeon_anchor",
+      "size": 10,
+      "start_height": {
+        "type": "minecraft:uniform",
+        "min_inclusive": {
+          "absolute": 35
+        },
+        "max_inclusive": {
+          "absolute": 100
+        }
+      },
+      "max_distance_from_center": 80,
+      "spawn_overrides": {},
+      "liquid_settings": "ignore_waterlogging"
+    }
+  },
+  {
+    "id": "betterdungeons:spider_dungeon",
+    "jar": "YungsBetterDungeons-1.21.1-NeoForge-5.1.4.jar",
+    "path": "data/betterdungeons/worldgen/structure/spider_dungeon.json",
+    "data": {
+      "type": "betterdungeons:spider_dungeon",
+      "biomes": "#betterdungeons:has_structure/spider_dungeon",
+      "step": "underground_structures",
+      "start_height": {
+        "type": "minecraft:uniform",
+        "min_inclusive": {
+          "absolute": 70
+        },
+        "max_inclusive": {
+          "absolute": 71
+        }
+      },
+      "liquid_settings": "ignore_waterlogging",
+      "spawn_overrides": {
+        "monster": {
+          "bounding_box": "piece",
+          "spawns": [
+            {
+              "type": "minecraft:spider",
+              "weight": 100,
+              "minCount": 4,
+              "maxCount": 15
+            },
+            {
+              "type": "minecraft:cave_spider",
+              "weight": 50,
+              "minCount": 4,
+              "maxCount": 8
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "id": "betterdungeons:zombie_dungeon",
+    "jar": "YungsBetterDungeons-1.21.1-NeoForge-5.1.4.jar",
+    "path": "data/betterdungeons/worldgen/structure/zombie_dungeon.json",
+    "data": {
+      "type": "yungsapi:yung_jigsaw",
+      "biomes": "#betterdungeons:has_structure/zombie_dungeon",
+      "step": "underground_structures",
+      "start_pool": "betterdungeons:zombie_dungeon",
+      "start_jigsaw_name": "betterdungeons:zombie_dungeon_anchor",
+      "size": 20,
+      "start_height": {
+        "type": "minecraft:uniform",
+        "min_inclusive": {
+          "absolute": 50
+        },
+        "max_inclusive": {
+          "absolute": 51
+        }
+      },
+      "use_expansion_hack": false,
+      "max_distance_from_center": 120,
+      "liquid_settings": "ignore_waterlogging",
+      "adapt_noise": false,
+      "spawn_overrides": {
+        "monster": {
+          "bounding_box": "piece",
+          "spawns": [
+            {
+              "type": "minecraft:zombie",
+              "weight": 100,
+              "minCount": 4,
+              "maxCount": 15
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "id": "ctov:large/village_beach",
+    "jar": "[Neoforge]ctov-3.6.3.jar",
+    "path": "data/ctov/worldgen/structure/large/village_beach.json",
+    "data": {
+      "type": "lithostitched:jigsaw",
+      "biomes": "#minecraft:is_beach",
+      "step": "surface_structures",
+      "spawn_overrides": {},
+      "terrain_adaptation": "beard_thin",
+      "start_pool": "ctov:village/beach/town_centers",
+      "size": 6,
+      "start_height": {
+        "absolute": 0
+      },
+      "project_start_to_heightmap": "WORLD_SURFACE_WG",
+      "max_distance_from_center": 80,
+      "use_expansion_hack": true,
+      "pool_aliases": [],
+      "liquid_settings": "ignore_waterlogging"
+    }
+  },
+  {
+    "id": "ctov:large/village_christmas",
+    "jar": "[Neoforge]ctov-3.6.3.jar",
+    "path": "data/ctov/worldgen/structure/large/village_christmas.json",
+    "data": {
+      "type": "lithostitched:jigsaw",
+      "biomes": "#minecraft:has_structure/village_snowy",
+      "step": "surface_structures",
+      "spawn_overrides": {},
+      "terrain_adaptation": "beard_thin",
+      "start_pool": "ctov:village/christmas/town_centers",
+      "size": 6,
+      "start_height": {
+        "absolute": 0
+      },
+      "project_start_to_heightmap": "WORLD_SURFACE_WG",
+      "max_distance_from_center": 80,
+      "use_expansion_hack": true,
+      "pool_aliases": [],
+      "liquid_settings": "ignore_waterlogging"
+    }
+  },
+  {
+    "id": "ctov:large/village_dark_forest",
+    "jar": "[Neoforge]ctov-3.6.3.jar",
+    "path": "data/ctov/worldgen/structure/large/village_dark_forest.json",
+    "data": {
+      "type": "lithostitched:jigsaw",
+      "biomes": "#minecraft:has_structure/woodland_mansion",
+      "step": "surface_structures",
+      "spawn_overrides": {},
+      "terrain_adaptation": "beard_thin",
+      "start_pool": "ctov:village/halloween/town_centers",
+      "size": 6,
+      "start_height": {
+        "absolute": 0
+      },
+      "project_start_to_heightmap": "WORLD_SURFACE_WG",
+      "max_distance_from_center": 80,
+      "use_expansion_hack": true,
+      "pool_aliases": [],
+      "liquid_settings": "ignore_waterlogging"
+    }
+  },
+  {
+    "id": "ctov:large/village_desert",
+    "jar": "[Neoforge]ctov-3.6.3.jar",
+    "path": "data/ctov/worldgen/structure/large/village_desert.json",
+    "data": {
+      "type": "lithostitched:jigsaw",
+      "biomes": "#minecraft:has_structure/village_desert",
+      "step": "surface_structures",
+      "spawn_overrides": {},
+      "terrain_adaptation": "beard_thin",
+      "start_pool": "ctov:village/desert/town_centers",
+      "size": 6,
+      "start_height": {
+        "absolute": 0
+      },
+      "project_start_to_heightmap": "WORLD_SURFACE_WG",
+      "max_distance_from_center": 80,
+      "use_expansion_hack": true,
+      "pool_aliases": [],
+      "liquid_settings": "ignore_waterlogging"
+    }
+  },
+  {
+    "id": "ctov:large/village_desert_oasis",
+    "jar": "[Neoforge]ctov-3.6.3.jar",
+    "path": "data/ctov/worldgen/structure/large/village_desert_oasis.json",
+    "data": {
+      "type": "lithostitched:jigsaw",
+      "biomes": "#minecraft:has_structure/village_desert",
+      "step": "surface_structures",
+      "spawn_overrides": {},
+      "terrain_adaptation": "beard_thin",
+      "start_pool": "ctov:village/desert_oasis/town_centers",
+      "size": 6,
+      "start_height": {
+        "absolute": 0
+      },
+      "project_start_to_heightmap": "WORLD_SURFACE_WG",
+      "max_distance_from_center": 80,
+      "use_expansion_hack": true,
+      "pool_aliases": [],
+      "liquid_settings": "ignore_waterlogging"
+    }
+  },
+  {
+    "id": "ctov:large/village_jungle",
+    "jar": "[Neoforge]ctov-3.6.3.jar",
+    "path": "data/ctov/worldgen/structure/large/village_jungle.json",
+    "data": {
+      "type": "lithostitched:jigsaw",
+      "biomes": "#minecraft:is_jungle",
+      "step": "surface_structures",
+      "spawn_overrides": {},
+      "terrain_adaptation": "beard_thin",
+      "start_pool": "ctov:village/jungle/town_centers",
+      "size": 6,
+      "start_height": {
+        "absolute": 0
+      },
+      "project_start_to_heightmap": "WORLD_SURFACE_WG",
+      "max_distance_from_center": 80,
+      "use_expansion_hack": true,
+      "pool_aliases": [],
+      "liquid_settings": "ignore_waterlogging"
+    }
+  },
+  {
+    "id": "ctov:large/village_jungle_tree",
+    "jar": "[Neoforge]ctov-3.6.3.jar",
+    "path": "data/ctov/worldgen/structure/large/village_jungle_tree.json",
+    "data": {
+      "type": "lithostitched:jigsaw",
+      "biomes": "#minecraft:is_jungle",
+      "step": "surface_structures",
+      "spawn_overrides": {},
+      "terrain_adaptation": "beard_thin",
+      "start_pool": "ctov:village/jungle_tree/town_centers",
+      "size": 6,
+      "start_height": {
+        "absolute": 0
+      },
+      "project_start_to_heightmap": "WORLD_SURFACE_WG",
+      "max_distance_from_center": 80,
+      "use_expansion_hack": true,
+      "pool_aliases": [],
+      "liquid_settings": "ignore_waterlogging"
+    }
+  },
+  {
+    "id": "ctov:large/village_mesa",
+    "jar": "[Neoforge]ctov-3.6.3.jar",
+    "path": "data/ctov/worldgen/structure/large/village_mesa.json",
+    "data": {
+      "type": "lithostitched:jigsaw",
+      "biomes": "#minecraft:is_badlands",
+      "step": "surface_structures",
+      "spawn_overrides": {},
+      "terrain_adaptation": "beard_thin",
+      "start_pool": "ctov:village/mesa/town_centers",
+      "size": 6,
+      "start_height": {
+        "absolute": 0
+      },
+      "project_start_to_heightmap": "WORLD_SURFACE_WG",
+      "max_distance_from_center": 80,
+      "use_expansion_hack": true,
+      "pool_aliases": [],
+      "liquid_settings": "ignore_waterlogging"
+    }
+  },
+  {
+    "id": "ctov:large/village_mesa_fortified",
+    "jar": "[Neoforge]ctov-3.6.3.jar",
+    "path": "data/ctov/worldgen/structure/large/village_mesa_fortified.json",
+    "data": {
+      "type": "lithostitched:jigsaw",
+      "biomes": "#minecraft:is_badlands",
+      "step": "surface_structures",
+      "spawn_overrides": {},
+      "terrain_adaptation": "beard_thin",
+      "start_pool": "ctov:village/mesa_fortified/town_centers",
+      "size": 6,
+      "start_height": {
+        "absolute": 0
+      },
+      "project_start_to_heightmap": "WORLD_SURFACE_WG",
+      "max_distance_from_center": 80,
+      "use_expansion_hack": true,
+      "pool_aliases": [],
+      "liquid_settings": "ignore_waterlogging"
+    }
+  },
+  {
+    "id": "ctov:large/village_mountain",
+    "jar": "[Neoforge]ctov-3.6.3.jar",
+    "path": "data/ctov/worldgen/structure/large/village_mountain.json",
+    "data": {
+      "type": "lithostitched:jigsaw",
+      "biomes": "#minecraft:is_mountain",
+      "step": "surface_structures",
+      "spawn_overrides": {},
+      "terrain_adaptation": "beard_thin",
+      "start_pool": "ctov:village/mountain/town_centers",
+      "size": 6,
+      "start_height": {
+        "absolute": 0
+      },
+      "project_start_to_heightmap": "WORLD_SURFACE_WG",
+      "max_distance_from_center": 80,
+      "use_expansion_hack": true,
+      "pool_aliases": [],
+      "liquid_settings": "ignore_waterlogging"
+    }
+  },
+  {
+    "id": "ctov:large/village_mountain_alpine",
+    "jar": "[Neoforge]ctov-3.6.3.jar",
+    "path": "data/ctov/worldgen/structure/large/village_mountain_alpine.json",
+    "data": {
+      "type": "lithostitched:jigsaw",
+      "biomes": "#minecraft:is_mountain",
+      "step": "surface_structures",
+      "spawn_overrides": {},
+      "terrain_adaptation": "beard_thin",
+      "start_pool": "ctov:village/mountain_alpine/town_centers",
+      "size": 6,
+      "start_height": {
+        "absolute": 0
+      },
+      "project_start_to_heightmap": "WORLD_SURFACE_WG",
+      "max_distance_from_center": 80,
+      "use_expansion_hack": true,
+      "pool_aliases": [],
+      "liquid_settings": "ignore_waterlogging"
+    }
+  },
+  {
+    "id": "ctov:large/village_mushroom",
+    "jar": "[Neoforge]ctov-3.6.3.jar",
+    "path": "data/ctov/worldgen/structure/large/village_mushroom.json",
+    "data": {
+      "type": "lithostitched:jigsaw",
+      "biomes": "minecraft:mushroom_fields",
+      "step": "surface_structures",
+      "spawn_overrides": {},
+      "terrain_adaptation": "beard_thin",
+      "start_pool": "ctov:village/mushroom/town_centers",
+      "size": 6,
+      "start_height": {
+        "absolute": 0
+      },
+      "project_start_to_heightmap": "WORLD_SURFACE_WG",
+      "max_distance_from_center": 80,
+      "use_expansion_hack": true,
+      "pool_aliases": [],
+      "liquid_settings": "ignore_waterlogging"
+    }
+  },
+  {
+    "id": "ctov:large/village_plains",
+    "jar": "[Neoforge]ctov-3.6.3.jar",
+    "path": "data/ctov/worldgen/structure/large/village_plains.json",
+    "data": {
+      "type": "lithostitched:jigsaw",
+      "biomes": "#minecraft:has_structure/village_plains",
+      "step": "surface_structures",
+      "spawn_overrides": {},
+      "terrain_adaptation": "beard_thin",
+      "start_pool": "ctov:village/plains/town_centers",
+      "size": 6,
+      "start_height": {
+        "absolute": 0
+      },
+      "project_start_to_heightmap": "WORLD_SURFACE_WG",
+      "max_distance_from_center": 80,
+      "use_expansion_hack": true,
+      "pool_aliases": [],
+      "liquid_settings": "ignore_waterlogging"
+    }
+  },
+  {
+    "id": "ctov:large/village_plains_fortified",
+    "jar": "[Neoforge]ctov-3.6.3.jar",
+    "path": "data/ctov/worldgen/structure/large/village_plains_fortified.json",
+    "data": {
+      "type": "lithostitched:jigsaw",
+      "biomes": "#minecraft:has_structure/village_plains",
+      "step": "surface_structures",
+      "spawn_overrides": {},
+      "terrain_adaptation": "beard_thin",
+      "start_pool": "ctov:village/plains_fortified/town_centers",
+      "size": 6,
+      "start_height": {
+        "absolute": 0
+      },
+      "project_start_to_heightmap": "WORLD_SURFACE_WG",
+      "max_distance_from_center": 80,
+      "use_expansion_hack": true,
+      "pool_aliases": [],
+      "liquid_settings": "ignore_waterlogging"
+    }
+  },
+  {
+    "id": "ctov:large/village_savanna",
+    "jar": "[Neoforge]ctov-3.6.3.jar",
+    "path": "data/ctov/worldgen/structure/large/village_savanna.json",
+    "data": {
+      "type": "lithostitched:jigsaw",
+      "biomes": "#minecraft:has_structure/village_savanna",
+      "step": "surface_structures",
+      "spawn_overrides": {},
+      "terrain_adaptation": "beard_thin",
+      "start_pool": "ctov:village/savanna/town_centers",
+      "size": 6,
+      "start_height": {
+        "absolute": 0
+      },
+      "project_start_to_heightmap": "WORLD_SURFACE_WG",
+      "max_distance_from_center": 80,
+      "use_expansion_hack": true,
+      "pool_aliases": [],
+      "liquid_settings": "ignore_waterlogging"
+    }
+  },
+  {
+    "id": "ctov:large/village_savanna_na",
+    "jar": "[Neoforge]ctov-3.6.3.jar",
+    "path": "data/ctov/worldgen/structure/large/village_savanna_na.json",
+    "data": {
+      "type": "lithostitched:jigsaw",
+      "biomes": "#minecraft:has_structure/village_savanna",
+      "step": "surface_structures",
+      "spawn_overrides": {},
+      "terrain_adaptation": "beard_thin",
+      "start_pool": "ctov:village/savanna_na/town_centers",
+      "size": 6,
+      "start_height": {
+        "absolute": 0
+      },
+      "project_start_to_heightmap": "WORLD_SURFACE_WG",
+      "max_distance_from_center": 80,
+      "use_expansion_hack": true,
+      "pool_aliases": [],
+      "liquid_settings": "ignore_waterlogging"
+    }
+  },
+  {
+    "id": "ctov:large/village_snowy_igloo",
+    "jar": "[Neoforge]ctov-3.6.3.jar",
+    "path": "data/ctov/worldgen/structure/large/village_snowy_igloo.json",
+    "data": {
+      "type": "lithostitched:jigsaw",
+      "biomes": "#minecraft:has_structure/village_snowy",
+      "step": "surface_structures",
+      "spawn_overrides": {},
+      "terrain_adaptation": "beard_thin",
+      "start_pool": "ctov:village/snowy_igloo/town_centers",
+      "size": 6,
+      "start_height": {
+        "absolute": 0
+      },
+      "project_start_to_heightmap": "WORLD_SURFACE_WG",
+      "max_distance_from_center": 80,
+      "use_expansion_hack": true,
+      "pool_aliases": [],
+      "liquid_settings": "ignore_waterlogging"
+    }
+  },
+  {
+    "id": "ctov:large/village_swamp",
+    "jar": "[Neoforge]ctov-3.6.3.jar",
+    "path": "data/ctov/worldgen/structure/large/village_swamp.json",
+    "data": {
+      "type": "lithostitched:jigsaw",
+      "biomes": "#minecraft:has_structure/ruined_portal_swamp",
+      "step": "surface_structures",
+      "spawn_overrides": {},
+      "terrain_adaptation": "beard_thin",
+      "start_pool": "ctov:village/swamp/town_centers",
+      "size": 6,
+      "start_height": {
+        "absolute": 0
+      },
+      "project_start_to_heightmap": "WORLD_SURFACE_WG",
+      "max_distance_from_center": 80,
+      "use_expansion_hack": true,
+      "pool_aliases": [],
+      "liquid_settings": "ignore_waterlogging"
+    }
+  },
+  {
+    "id": "ctov:large/village_swamp_fortified",
+    "jar": "[Neoforge]ctov-3.6.3.jar",
+    "path": "data/ctov/worldgen/structure/large/village_swamp_fortified.json",
+    "data": {
+      "type": "lithostitched:jigsaw",
+      "biomes": "#minecraft:has_structure/ruined_portal_swamp",
+      "step": "surface_structures",
+      "spawn_overrides": {},
+      "terrain_adaptation": "beard_thin",
+      "start_pool": "ctov:village/swamp_fortified/town_centers",
+      "size": 6,
+      "start_height": {
+        "absolute": 0
+      },
+      "project_start_to_heightmap": "WORLD_SURFACE_WG",
+      "max_distance_from_center": 80,
+      "use_expansion_hack": true,
+      "pool_aliases": [],
+      "liquid_settings": "ignore_waterlogging"
+    }
+  },
+  {
+    "id": "ctov:large/village_taiga",
+    "jar": "[Neoforge]ctov-3.6.3.jar",
+    "path": "data/ctov/worldgen/structure/large/village_taiga.json",
+    "data": {
+      "type": "lithostitched:jigsaw",
+      "biomes": "#minecraft:has_structure/village_taiga",
+      "step": "surface_structures",
+      "spawn_overrides": {},
+      "terrain_adaptation": "beard_thin",
+      "start_pool": "ctov:village/taiga/town_centers",
+      "size": 6,
+      "start_height": {
+        "absolute": 0
+      },
+      "project_start_to_heightmap": "WORLD_SURFACE_WG",
+      "max_distance_from_center": 80,
+      "use_expansion_hack": true,
+      "pool_aliases": [],
+      "liquid_settings": "ignore_waterlogging"
+    }
+  },
+  {
+    "id": "ctov:large/village_taiga_fortified",
+    "jar": "[Neoforge]ctov-3.6.3.jar",
+    "path": "data/ctov/worldgen/structure/large/village_taiga_fortified.json",
+    "data": {
+      "type": "lithostitched:jigsaw",
+      "biomes": "#minecraft:has_structure/village_taiga",
+      "step": "surface_structures",
+      "spawn_overrides": {},
+      "terrain_adaptation": "beard_thin",
+      "start_pool": "ctov:village/taiga_fortified/town_centers",
+      "size": 6,
+      "start_height": {
+        "absolute": 0
+      },
+      "project_start_to_heightmap": "WORLD_SURFACE_WG",
+      "max_distance_from_center": 80,
+      "use_expansion_hack": true,
+      "pool_aliases": [],
+      "liquid_settings": "ignore_waterlogging"
+    }
+  },
+  {
+    "id": "ctov:large/village_underground",
+    "jar": "[Neoforge]ctov-3.6.3.jar",
+    "path": "data/ctov/worldgen/structure/large/village_underground.json",
+    "data": {
+      "type": "lithostitched:jigsaw",
+      "biomes": "#minecraft:has_structure/village_plains",
+      "step": "surface_structures",
+      "spawn_overrides": {},
+      "terrain_adaptation": "beard_thin",
+      "start_pool": "ctov:village/underground/start",
+      "size": 6,
+      "start_height": {
+        "absolute": -14
+      },
+      "project_start_to_heightmap": "WORLD_SURFACE_WG",
+      "max_distance_from_center": 80,
+      "use_expansion_hack": true,
+      "pool_aliases": [],
+      "liquid_settings": "ignore_waterlogging"
+    }
+  },
+  {
+    "id": "ctov:medium/village_beach",
+    "jar": "[Neoforge]ctov-3.6.3.jar",
+    "path": "data/ctov/worldgen/structure/medium/village_beach.json",
+    "data": {
+      "type": "lithostitched:jigsaw",
+      "biomes": "#minecraft:is_beach",
+      "step": "surface_structures",
+      "spawn_overrides": {},
+      "terrain_adaptation": "beard_thin",
+      "start_pool": "ctov:village/beach/town_centers",
+      "size": 5,
+      "start_height": {
+        "absolute": 0
+      },
+      "project_start_to_heightmap": "WORLD_SURFACE_WG",
+      "max_distance_from_center": 80,
+      "use_expansion_hack": true,
+      "pool_aliases": [],
+      "liquid_settings": "ignore_waterlogging"
+    }
+  },
+  {
+    "id": "ctov:medium/village_christmas",
+    "jar": "[Neoforge]ctov-3.6.3.jar",
+    "path": "data/ctov/worldgen/structure/medium/village_christmas.json",
+    "data": {
+      "type": "lithostitched:jigsaw",
+      "biomes": "#minecraft:has_structure/village_snowy",
+      "step": "surface_structures",
+      "spawn_overrides": {},
+      "terrain_adaptation": "beard_thin",
+      "start_pool": "ctov:village/christmas/town_centers",
+      "size": 5,
+      "start_height": {
+        "absolute": 0
+      },
+      "project_start_to_heightmap": "WORLD_SURFACE_WG",
+      "max_distance_from_center": 80,
+      "use_expansion_hack": true,
+      "pool_aliases": [],
+      "liquid_settings": "ignore_waterlogging"
+    }
+  },
+  {
+    "id": "ctov:medium/village_dark_forest",
+    "jar": "[Neoforge]ctov-3.6.3.jar",
+    "path": "data/ctov/worldgen/structure/medium/village_dark_forest.json",
+    "data": {
+      "type": "lithostitched:jigsaw",
+      "biomes": "#minecraft:has_structure/woodland_mansion",
+      "step": "surface_structures",
+      "spawn_overrides": {},
+      "terrain_adaptation": "beard_thin",
+      "start_pool": "ctov:village/halloween/town_centers",
+      "size": 5,
+      "start_height": {
+        "absolute": 0
+      },
+      "project_start_to_heightmap": "WORLD_SURFACE_WG",
+      "max_distance_from_center": 80,
+      "use_expansion_hack": true,
+      "pool_aliases": [],
+      "liquid_settings": "ignore_waterlogging"
+    }
+  },
+  {
+    "id": "ctov:medium/village_desert",
+    "jar": "[Neoforge]ctov-3.6.3.jar",
+    "path": "data/ctov/worldgen/structure/medium/village_desert.json",
+    "data": {
+      "type": "lithostitched:jigsaw",
+      "biomes": "#minecraft:has_structure/village_desert",
+      "step": "surface_structures",
+      "spawn_overrides": {},
+      "terrain_adaptation": "beard_thin",
+      "start_pool": "ctov:village/desert/town_centers",
+      "size": 5,
+      "start_height": {
+        "absolute": 0
+      },
+      "project_start_to_heightmap": "WORLD_SURFACE_WG",
+      "max_distance_from_center": 80,
+      "use_expansion_hack": true,
+      "pool_aliases": [],
+      "liquid_settings": "ignore_waterlogging"
+    }
+  },
+  {
+    "id": "ctov:medium/village_desert_oasis",
+    "jar": "[Neoforge]ctov-3.6.3.jar",
+    "path": "data/ctov/worldgen/structure/medium/village_desert_oasis.json",
+    "data": {
+      "type": "lithostitched:jigsaw",
+      "biomes": "#minecraft:has_structure/village_desert",
+      "step": "surface_structures",
+      "spawn_overrides": {},
+      "terrain_adaptation": "beard_thin",
+      "start_pool": "ctov:village/desert_oasis/town_centers",
+      "size": 5,
+      "start_height": {
+        "absolute": 0
+      },
+      "project_start_to_heightmap": "WORLD_SURFACE_WG",
+      "max_distance_from_center": 80,
+      "use_expansion_hack": true,
+      "pool_aliases": [],
+      "liquid_settings": "ignore_waterlogging"
+    }
+  },
+  {
+    "id": "ctov:medium/village_jungle",
+    "jar": "[Neoforge]ctov-3.6.3.jar",
+    "path": "data/ctov/worldgen/structure/medium/village_jungle.json",
+    "data": {
+      "type": "lithostitched:jigsaw",
+      "biomes": "#minecraft:is_jungle",
+      "step": "surface_structures",
+      "spawn_overrides": {},
+      "terrain_adaptation": "beard_thin",
+      "start_pool": "ctov:village/jungle/town_centers",
+      "size": 5,
+      "start_height": {
+        "absolute": 0
+      },
+      "project_start_to_heightmap": "WORLD_SURFACE_WG",
+      "max_distance_from_center": 80,
+      "use_expansion_hack": true,
+      "pool_aliases": [],
+      "liquid_settings": "ignore_waterlogging"
+    }
+  },
+  {
+    "id": "ctov:medium/village_jungle_tree",
+    "jar": "[Neoforge]ctov-3.6.3.jar",
+    "path": "data/ctov/worldgen/structure/medium/village_jungle_tree.json",
+    "data": {
+      "type": "lithostitched:jigsaw",
+      "biomes": "#minecraft:is_jungle",
+      "step": "surface_structures",
+      "spawn_overrides": {},
+      "terrain_adaptation": "beard_thin",
+      "start_pool": "ctov:village/jungle_tree/town_centers",
+      "size": 5,
+      "start_height": {
+        "absolute": 0
+      },
+      "project_start_to_heightmap": "WORLD_SURFACE_WG",
+      "max_distance_from_center": 80,
+      "use_expansion_hack": true,
+      "pool_aliases": [],
+      "liquid_settings": "ignore_waterlogging"
+    }
+  },
+  {
+    "id": "ctov:medium/village_mesa",
+    "jar": "[Neoforge]ctov-3.6.3.jar",
+    "path": "data/ctov/worldgen/structure/medium/village_mesa.json",
+    "data": {
+      "type": "lithostitched:jigsaw",
+      "biomes": "#minecraft:is_badlands",
+      "step": "surface_structures",
+      "spawn_overrides": {},
+      "terrain_adaptation": "beard_thin",
+      "start_pool": "ctov:village/mesa/town_centers",
+      "size": 5,
+      "start_height": {
+        "absolute": 0
+      },
+      "project_start_to_heightmap": "WORLD_SURFACE_WG",
+      "max_distance_from_center": 80,
+      "use_expansion_hack": true,
+      "pool_aliases": [],
+      "liquid_settings": "ignore_waterlogging"
+    }
+  },
+  {
+    "id": "ctov:medium/village_mesa_fortified",
+    "jar": "[Neoforge]ctov-3.6.3.jar",
+    "path": "data/ctov/worldgen/structure/medium/village_mesa_fortified.json",
+    "data": {
+      "type": "lithostitched:jigsaw",
+      "biomes": "#minecraft:is_badlands",
+      "step": "surface_structures",
+      "spawn_overrides": {},
+      "terrain_adaptation": "beard_thin",
+      "start_pool": "ctov:village/mesa_fortified/town_centers",
+      "size": 5,
+      "start_height": {
+        "absolute": 0
+      },
+      "project_start_to_heightmap": "WORLD_SURFACE_WG",
+      "max_distance_from_center": 80,
+      "use_expansion_hack": true,
+      "pool_aliases": [],
+      "liquid_settings": "ignore_waterlogging"
+    }
+  },
+  {
+    "id": "ctov:medium/village_mountain",
+    "jar": "[Neoforge]ctov-3.6.3.jar",
+    "path": "data/ctov/worldgen/structure/medium/village_mountain.json",
+    "data": {
+      "type": "lithostitched:jigsaw",
+      "biomes": "#minecraft:is_mountain",
+      "step": "surface_structures",
+      "spawn_overrides": {},
+      "terrain_adaptation": "beard_thin",
+      "start_pool": "ctov:village/mountain/town_centers",
+      "size": 5,
+      "start_height": {
+        "absolute": 0
+      },
+      "project_start_to_heightmap": "WORLD_SURFACE_WG",
+      "max_distance_from_center": 80,
+      "use_expansion_hack": true,
+      "pool_aliases": [],
+      "liquid_settings": "ignore_waterlogging"
+    }
+  },
+  {
+    "id": "ctov:medium/village_mountain_alpine",
+    "jar": "[Neoforge]ctov-3.6.3.jar",
+    "path": "data/ctov/worldgen/structure/medium/village_mountain_alpine.json",
+    "data": {
+      "type": "lithostitched:jigsaw",
+      "biomes": "#minecraft:is_mountain",
+      "step": "surface_structures",
+      "spawn_overrides": {},
+      "terrain_adaptation": "beard_thin",
+      "start_pool": "ctov:village/mountain_alpine/town_centers",
+      "size": 5,
+      "start_height": {
+        "absolute": 0
+      },
+      "project_start_to_heightmap": "WORLD_SURFACE_WG",
+      "max_distance_from_center": 80,
+      "use_expansion_hack": true,
+      "pool_aliases": [],
+      "liquid_settings": "ignore_waterlogging"
+    }
+  },
+  {
+    "id": "ctov:medium/village_mushroom",
+    "jar": "[Neoforge]ctov-3.6.3.jar",
+    "path": "data/ctov/worldgen/structure/medium/village_mushroom.json",
+    "data": {
+      "type": "lithostitched:jigsaw",
+      "biomes": "minecraft:mushroom_fields",
+      "step": "surface_structures",
+      "spawn_overrides": {},
+      "terrain_adaptation": "beard_thin",
+      "start_pool": "ctov:village/mushroom/town_centers",
+      "size": 5,
+      "start_height": {
+        "absolute": 0
+      },
+      "project_start_to_heightmap": "WORLD_SURFACE_WG",
+      "max_distance_from_center": 80,
+      "use_expansion_hack": true,
+      "pool_aliases": [],
+      "liquid_settings": "ignore_waterlogging"
+    }
+  },
+  {
+    "id": "ctov:medium/village_plains",
+    "jar": "[Neoforge]ctov-3.6.3.jar",
+    "path": "data/ctov/worldgen/structure/medium/village_plains.json",
+    "data": {
+      "type": "lithostitched:jigsaw",
+      "biomes": "#minecraft:has_structure/village_plains",
+      "step": "surface_structures",
+      "spawn_overrides": {},
+      "terrain_adaptation": "beard_thin",
+      "start_pool": "ctov:village/plains/town_centers",
+      "size": 5,
+      "start_height": {
+        "absolute": 0
+      },
+      "project_start_to_heightmap": "WORLD_SURFACE_WG",
+      "max_distance_from_center": 80,
+      "use_expansion_hack": true,
+      "pool_aliases": [],
+      "liquid_settings": "ignore_waterlogging"
+    }
+  },
+  {
+    "id": "ctov:medium/village_plains_fortified",
+    "jar": "[Neoforge]ctov-3.6.3.jar",
+    "path": "data/ctov/worldgen/structure/medium/village_plains_fortified.json",
+    "data": {
+      "type": "lithostitched:jigsaw",
+      "biomes": "#minecraft:has_structure/village_plains",
+      "step": "surface_structures",
+      "spawn_overrides": {},
+      "terrain_adaptation": "beard_thin",
+      "start_pool": "ctov:village/plains_fortified/town_centers",
+      "size": 5,
+      "start_height": {
+        "absolute": 0
+      },
+      "project_start_to_heightmap": "WORLD_SURFACE_WG",
+      "max_distance_from_center": 80,
+      "use_expansion_hack": true,
+      "pool_aliases": [],
+      "liquid_settings": "ignore_waterlogging"
+    }
+  },
+  {
+    "id": "ctov:medium/village_savanna",
+    "jar": "[Neoforge]ctov-3.6.3.jar",
+    "path": "data/ctov/worldgen/structure/medium/village_savanna.json",
+    "data": {
+      "type": "lithostitched:jigsaw",
+      "biomes": "#minecraft:has_structure/village_savanna",
+      "step": "surface_structures",
+      "spawn_overrides": {},
+      "terrain_adaptation": "beard_thin",
+      "start_pool": "ctov:village/savanna/town_centers",
+      "size": 5,
+      "start_height": {
+        "absolute": 0
+      },
+      "project_start_to_heightmap": "WORLD_SURFACE_WG",
+      "max_distance_from_center": 80,
+      "use_expansion_hack": true,
+      "pool_aliases": [],
+      "liquid_settings": "ignore_waterlogging"
+    }
+  },
+  {
+    "id": "ctov:medium/village_savanna_na",
+    "jar": "[Neoforge]ctov-3.6.3.jar",
+    "path": "data/ctov/worldgen/structure/medium/village_savanna_na.json",
+    "data": {
+      "type": "lithostitched:jigsaw",
+      "biomes": "#minecraft:has_structure/village_savanna",
+      "step": "surface_structures",
+      "spawn_overrides": {},
+      "terrain_adaptation": "beard_thin",
+      "start_pool": "ctov:village/savanna_na/town_centers",
+      "size": 5,
+      "start_height": {
+        "absolute": 0
+      },
+      "project_start_to_heightmap": "WORLD_SURFACE_WG",
+      "max_distance_from_center": 80,
+      "use_expansion_hack": true,
+      "pool_aliases": [],
+      "liquid_settings": "ignore_waterlogging"
+    }
+  },
+  {
+    "id": "ctov:medium/village_snowy_igloo",
+    "jar": "[Neoforge]ctov-3.6.3.jar",
+    "path": "data/ctov/worldgen/structure/medium/village_snowy_igloo.json",
+    "data": {
+      "type": "lithostitched:jigsaw",
+      "biomes": "#minecraft:has_structure/village_snowy",
+      "step": "surface_structures",
+      "spawn_overrides": {},
+      "terrain_adaptation": "beard_thin",
+      "start_pool": "ctov:village/snowy_igloo/town_centers",
+      "size": 5,
+      "start_height": {
+        "absolute": 0
+      },
+      "project_start_to_heightmap": "WORLD_SURFACE_WG",
+      "max_distance_from_center": 80,
+      "use_expansion_hack": true,
+      "pool_aliases": [],
+      "liquid_settings": "ignore_waterlogging"
+    }
+  },
+  {
+    "id": "ctov:medium/village_swamp",
+    "jar": "[Neoforge]ctov-3.6.3.jar",
+    "path": "data/ctov/worldgen/structure/medium/village_swamp.json",
+    "data": {
+      "type": "lithostitched:jigsaw",
+      "biomes": "#minecraft:has_structure/ruined_portal_swamp",
+      "step": "surface_structures",
+      "spawn_overrides": {},
+      "terrain_adaptation": "beard_thin",
+      "start_pool": "ctov:village/swamp/town_centers",
+      "size": 5,
+      "start_height": {
+        "absolute": 0
+      },
+      "project_start_to_heightmap": "WORLD_SURFACE_WG",
+      "max_distance_from_center": 80,
+      "use_expansion_hack": true,
+      "pool_aliases": [],
+      "liquid_settings": "ignore_waterlogging"
+    }
+  },
+  {
+    "id": "ctov:medium/village_swamp_fortified",
+    "jar": "[Neoforge]ctov-3.6.3.jar",
+    "path": "data/ctov/worldgen/structure/medium/village_swamp_fortified.json",
+    "data": {
+      "type": "lithostitched:jigsaw",
+      "biomes": "#minecraft:has_structure/ruined_portal_swamp",
+      "step": "surface_structures",
+      "spawn_overrides": {},
+      "terrain_adaptation": "beard_thin",
+      "start_pool": "ctov:village/swamp_fortified/town_centers",
+      "size": 5,
+      "start_height": {
+        "absolute": 0
+      },
+      "project_start_to_heightmap": "WORLD_SURFACE_WG",
+      "max_distance_from_center": 80,
+      "use_expansion_hack": true,
+      "pool_aliases": [],
+      "liquid_settings": "ignore_waterlogging"
+    }
+  },
+  {
+    "id": "ctov:medium/village_taiga",
+    "jar": "[Neoforge]ctov-3.6.3.jar",
+    "path": "data/ctov/worldgen/structure/medium/village_taiga.json",
+    "data": {
+      "type": "lithostitched:jigsaw",
+      "biomes": "#minecraft:has_structure/village_taiga",
+      "step": "surface_structures",
+      "spawn_overrides": {},
+      "terrain_adaptation": "beard_thin",
+      "start_pool": "ctov:village/taiga/town_centers",
+      "size": 5,
+      "start_height": {
+        "absolute": 0
+      },
+      "project_start_to_heightmap": "WORLD_SURFACE_WG",
+      "max_distance_from_center": 80,
+      "use_expansion_hack": true,
+      "pool_aliases": [],
+      "liquid_settings": "ignore_waterlogging"
+    }
+  },
+  {
+    "id": "ctov:medium/village_taiga_fortified",
+    "jar": "[Neoforge]ctov-3.6.3.jar",
+    "path": "data/ctov/worldgen/structure/medium/village_taiga_fortified.json",
+    "data": {
+      "type": "lithostitched:jigsaw",
+      "biomes": "#minecraft:has_structure/village_taiga",
+      "step": "surface_structures",
+      "spawn_overrides": {},
+      "terrain_adaptation": "beard_thin",
+      "start_pool": "ctov:village/taiga_fortified/town_centers",
+      "size": 5,
+      "start_height": {
+        "absolute": 0
+      },
+      "project_start_to_heightmap": "WORLD_SURFACE_WG",
+      "max_distance_from_center": 80,
+      "use_expansion_hack": true,
+      "pool_aliases": [],
+      "liquid_settings": "ignore_waterlogging"
+    }
+  },
+  {
+    "id": "ctov:medium/village_underground",
+    "jar": "[Neoforge]ctov-3.6.3.jar",
+    "path": "data/ctov/worldgen/structure/medium/village_underground.json",
+    "data": {
+      "type": "lithostitched:jigsaw",
+      "biomes": "#minecraft:has_structure/village_plains",
+      "step": "surface_structures",
+      "spawn_overrides": {},
+      "terrain_adaptation": "beard_thin",
+      "start_pool": "ctov:village/underground/start",
+      "size": 5,
+      "start_height": {
+        "absolute": -14
+      },
+      "project_start_to_heightmap": "WORLD_SURFACE_WG",
+      "max_distance_from_center": 80,
+      "use_expansion_hack": true,
+      "pool_aliases": [],
+      "liquid_settings": "ignore_waterlogging"
+    }
+  },
+  {
+    "id": "ctov:pillager_outpost_badlands",
+    "jar": "[Neoforge]ctov-3.6.3.jar",
+    "path": "data/ctov/worldgen/structure/pillager_outpost_badlands.json",
+    "data": {
+      "type": "minecraft:jigsaw",
+      "biomes": "#minecraft:is_badlands",
+      "step": "surface_structures",
+      "spawn_overrides": {
+        "monster": {
+          "bounding_box": "full",
+          "spawns": [
+            {
+              "type": "minecraft:pillager",
+              "weight": 1,
+              "minCount": 1,
+              "maxCount": 1
+            },
+            {
+              "type": "minecraft:evoker",
+              "weight": 1,
+              "minCount": 1,
+              "maxCount": 1
+            },
+            {
+              "type": "minecraft:vindicator",
+              "weight": 1,
+              "minCount": 1,
+              "maxCount": 1
+            },
+            {
+              "type": "minecraft:witch",
+              "weight": 1,
+              "minCount": 1,
+              "maxCount": 1
+            }
+          ]
+        }
+      },
+      "terrain_adaptation": "beard_thin",
+      "start_pool": "ctov:pillager_outpost/badlands/base_plates",
+      "size": 2,
+      "start_height": {
+        "absolute": 0
+      },
+      "project_start_to_heightmap": "WORLD_SURFACE_WG",
+      "max_distance_from_center": 80,
+      "use_expansion_hack": true,
+      "pool_aliases": [],
+      "liquid_settings": "ignore_waterlogging"
+    }
+  },
+  {
+    "id": "ctov:pillager_outpost_beach",
+    "jar": "[Neoforge]ctov-3.6.3.jar",
+    "path": "data/ctov/worldgen/structure/pillager_outpost_beach.json",
+    "data": {
+      "type": "minecraft:jigsaw",
+      "biomes": "#minecraft:is_beach",
+      "step": "surface_structures",
+      "spawn_overrides": {
+        "monster": {
+          "bounding_box": "full",
+          "spawns": [
+            {
+              "type": "minecraft:pillager",
+              "weight": 1,
+              "minCount": 1,
+              "maxCount": 1
+            },
+            {
+              "type": "minecraft:evoker",
+              "weight": 1,
+              "minCount": 1,
+              "maxCount": 1
+            },
+            {
+              "type": "minecraft:vindicator",
+              "weight": 1,
+              "minCount": 1,
+              "maxCount": 1
+            },
+            {
+              "type": "minecraft:witch",
+              "weight": 1,
+              "minCount": 1,
+              "maxCount": 1
+            }
+          ]
+        }
+      },
+      "terrain_adaptation": "beard_thin",
+      "start_pool": "ctov:pillager_outpost/beach/base_plates",
+      "size": 4,
+      "start_height": {
+        "absolute": 0
+      },
+      "project_start_to_heightmap": "WORLD_SURFACE_WG",
+      "max_distance_from_center": 80,
+      "use_expansion_hack": true,
+      "pool_aliases": [],
+      "liquid_settings": "ignore_waterlogging"
+    }
+  },
+  {
+    "id": "ctov:pillager_outpost_dark_forest",
+    "jar": "[Neoforge]ctov-3.6.3.jar",
+    "path": "data/ctov/worldgen/structure/pillager_outpost_dark_forest.json",
+    "data": {
+      "type": "minecraft:jigsaw",
+      "biomes": "#minecraft:has_structure/woodland_mansion",
+      "step": "surface_structures",
+      "spawn_overrides": {
+        "monster": {
+          "bounding_box": "full",
+          "spawns": [
+            {
+              "type": "minecraft:pillager",
+              "weight": 1,
+              "minCount": 1,
+              "maxCount": 1
+            },
+            {
+              "type": "minecraft:evoker",
+              "weight": 1,
+              "minCount": 1,
+              "maxCount": 1
+            },
+            {
+              "type": "minecraft:vindicator",
+              "weight": 1,
+              "minCount": 1,
+              "maxCount": 1
+            },
+            {
+              "type": "minecraft:witch",
+              "weight": 1,
+              "minCount": 1,
+              "maxCount": 1
+            }
+          ]
+        }
+      },
+      "terrain_adaptation": "beard_thin",
+      "start_pool": "ctov:pillager_outpost/dark_forest/base_plates",
+      "size": 4,
+      "start_height": {
+        "absolute": 0
+      },
+      "project_start_to_heightmap": "WORLD_SURFACE_WG",
+      "max_distance_from_center": 80,
+      "use_expansion_hack": true,
+      "pool_aliases": [],
+      "liquid_settings": "ignore_waterlogging"
+    }
+  },
+  {
+    "id": "ctov:pillager_outpost_desert",
+    "jar": "[Neoforge]ctov-3.6.3.jar",
+    "path": "data/ctov/worldgen/structure/pillager_outpost_desert.json",
+    "data": {
+      "type": "minecraft:jigsaw",
+      "biomes": "#minecraft:has_structure/village_desert",
+      "step": "surface_structures",
+      "spawn_overrides": {
+        "monster": {
+          "bounding_box": "full",
+          "spawns": [
+            {
+              "type": "minecraft:pillager",
+              "weight": 1,
+              "minCount": 1,
+              "maxCount": 1
+            },
+            {
+              "type": "minecraft:evoker",
+              "weight": 1,
+              "minCount": 1,
+              "maxCount": 1
+            },
+            {
+              "type": "minecraft:vindicator",
+              "weight": 1,
+              "minCount": 1,
+              "maxCount": 1
+            },
+            {
+              "type": "minecraft:witch",
+              "weight": 1,
+              "minCount": 1,
+              "maxCount": 1
+            }
+          ]
+        }
+      },
+      "terrain_adaptation": "beard_thin",
+      "start_pool": "ctov:pillager_outpost/desert/base_plates",
+      "size": 4,
+      "start_height": {
+        "absolute": 0
+      },
+      "project_start_to_heightmap": "WORLD_SURFACE_WG",
+      "max_distance_from_center": 80,
+      "use_expansion_hack": true,
+      "pool_aliases": [],
+      "liquid_settings": "ignore_waterlogging"
+    }
+  },
+  {
+    "id": "ctov:pillager_outpost_jungle",
+    "jar": "[Neoforge]ctov-3.6.3.jar",
+    "path": "data/ctov/worldgen/structure/pillager_outpost_jungle.json",
+    "data": {
+      "type": "minecraft:jigsaw",
+      "biomes": "#minecraft:is_jungle",
+      "step": "surface_structures",
+      "spawn_overrides": {
+        "monster": {
+          "bounding_box": "full",
+          "spawns": [
+            {
+              "type": "minecraft:pillager",
+              "weight": 1,
+              "minCount": 1,
+              "maxCount": 1
+            },
+            {
+              "type": "minecraft:evoker",
+              "weight": 1,
+              "minCount": 1,
+              "maxCount": 1
+            },
+            {
+              "type": "minecraft:vindicator",
+              "weight": 1,
+              "minCount": 1,
+              "maxCount": 1
+            },
+            {
+              "type": "minecraft:witch",
+              "weight": 1,
+              "minCount": 1,
+              "maxCount": 1
+            }
+          ]
+        }
+      },
+      "terrain_adaptation": "beard_thin",
+      "start_pool": "ctov:pillager_outpost/jungle/base_plates",
+      "size": 4,
+      "start_height": {
+        "absolute": 0
+      },
+      "project_start_to_heightmap": "WORLD_SURFACE_WG",
+      "max_distance_from_center": 80,
+      "use_expansion_hack": true,
+      "pool_aliases": [],
+      "liquid_settings": "ignore_waterlogging"
+    }
+  },
+  {
+    "id": "ctov:pillager_outpost_mesa",
+    "jar": "[Neoforge]ctov-3.6.3.jar",
+    "path": "data/ctov/worldgen/structure/pillager_outpost_mesa.json",
+    "data": {
+      "type": "minecraft:jigsaw",
+      "biomes": "#minecraft:is_badlands",
+      "step": "surface_structures",
+      "spawn_overrides": {
+        "monster": {
+          "bounding_box": "full",
+          "spawns": [
+            {
+              "type": "minecraft:pillager",
+              "weight": 1,
+              "minCount": 1,
+              "maxCount": 1
+            },
+            {
+              "type": "minecraft:evoker",
+              "weight": 1,
+              "minCount": 1,
+              "maxCount": 1
+            },
+            {
+              "type": "minecraft:vindicator",
+              "weight": 1,
+              "minCount": 1,
+              "maxCount": 1
+            },
+            {
+              "type": "minecraft:witch",
+              "weight": 1,
+              "minCount": 1,
+              "maxCount": 1
+            }
+          ]
+        }
+      },
+      "terrain_adaptation": "beard_thin",
+      "start_pool": "ctov:pillager_outpost/badlands/base_plates",
+      "size": 2,
+      "start_height": {
+        "absolute": 0
+      },
+      "project_start_to_heightmap": "WORLD_SURFACE_WG",
+      "max_distance_from_center": 80,
+      "use_expansion_hack": true,
+      "pool_aliases": [],
+      "liquid_settings": "ignore_waterlogging"
+    }
+  },
+  {
+    "id": "ctov:pillager_outpost_mountain",
+    "jar": "[Neoforge]ctov-3.6.3.jar",
+    "path": "data/ctov/worldgen/structure/pillager_outpost_mountain.json",
+    "data": {
+      "type": "minecraft:jigsaw",
+      "biomes": "#minecraft:is_mountain",
+      "step": "surface_structures",
+      "spawn_overrides": {
+        "monster": {
+          "bounding_box": "full",
+          "spawns": [
+            {
+              "type": "minecraft:pillager",
+              "weight": 1,
+              "minCount": 1,
+              "maxCount": 1
+            },
+            {
+              "type": "minecraft:evoker",
+              "weight": 1,
+              "minCount": 1,
+              "maxCount": 1
+            },
+            {
+              "type": "minecraft:vindicator",
+              "weight": 1,
+              "minCount": 1,
+              "maxCount": 1
+            },
+            {
+              "type": "minecraft:witch",
+              "weight": 1,
+              "minCount": 1,
+              "maxCount": 1
+            }
+          ]
+        }
+      },
+      "terrain_adaptation": "beard_thin",
+      "start_pool": "ctov:pillager_outpost/mountain/base_plates",
+      "size": 2,
+      "start_height": {
+        "absolute": 0
+      },
+      "project_start_to_heightmap": "WORLD_SURFACE_WG",
+      "max_distance_from_center": 80,
+      "use_expansion_hack": true,
+      "pool_aliases": [],
+      "liquid_settings": "ignore_waterlogging"
+    }
+  },
+  {
+    "id": "ctov:pillager_outpost_plains",
+    "jar": "[Neoforge]ctov-3.6.3.jar",
+    "path": "data/ctov/worldgen/structure/pillager_outpost_plains.json",
+    "data": {
+      "type": "minecraft:jigsaw",
+      "biomes": "#minecraft:has_structure/village_plains",
+      "step": "surface_structures",
+      "spawn_overrides": {
+        "monster": {
+          "bounding_box": "full",
+          "spawns": [
+            {
+              "type": "minecraft:pillager",
+              "weight": 1,
+              "minCount": 1,
+              "maxCount": 1
+            },
+            {
+              "type": "minecraft:evoker",
+              "weight": 1,
+              "minCount": 1,
+              "maxCount": 1
+            },
+            {
+              "type": "minecraft:vindicator",
+              "weight": 1,
+              "minCount": 1,
+              "maxCount": 1
+            },
+            {
+              "type": "minecraft:witch",
+              "weight": 1,
+              "minCount": 1,
+              "maxCount": 1
+            }
+          ]
+        }
+      },
+      "terrain_adaptation": "beard_thin",
+      "start_pool": "ctov:pillager_outpost/plains/base_plates",
+      "size": 4,
+      "start_height": {
+        "absolute": 0
+      },
+      "project_start_to_heightmap": "WORLD_SURFACE_WG",
+      "max_distance_from_center": 80,
+      "use_expansion_hack": true,
+      "pool_aliases": [],
+      "liquid_settings": "ignore_waterlogging"
+    }
+  },
+  {
+    "id": "ctov:pillager_outpost_savanna",
+    "jar": "[Neoforge]ctov-3.6.3.jar",
+    "path": "data/ctov/worldgen/structure/pillager_outpost_savanna.json",
+    "data": {
+      "type": "minecraft:jigsaw",
+      "biomes": "#minecraft:has_structure/village_savanna",
+      "step": "surface_structures",
+      "spawn_overrides": {
+        "monster": {
+          "bounding_box": "full",
+          "spawns": [
+            {
+              "type": "minecraft:pillager",
+              "weight": 1,
+              "minCount": 1,
+              "maxCount": 1
+            },
+            {
+              "type": "minecraft:evoker",
+              "weight": 1,
+              "minCount": 1,
+              "maxCount": 1
+            },
+            {
+              "type": "minecraft:vindicator",
+              "weight": 1,
+              "minCount": 1,
+              "maxCount": 1
+            },
+            {
+              "type": "minecraft:witch",
+              "weight": 1,
+              "minCount": 1,
+              "maxCount": 1
+            }
+          ]
+        }
+      },
+      "terrain_adaptation": "beard_thin",
+      "start_pool": "ctov:pillager_outpost/savanna/base_plates",
+      "size": 4,
+      "start_height": {
+        "absolute": 0
+      },
+      "project_start_to_heightmap": "WORLD_SURFACE_WG",
+      "max_distance_from_center": 80,
+      "use_expansion_hack": true,
+      "pool_aliases": [],
+      "liquid_settings": "ignore_waterlogging"
+    }
+  },
+  {
+    "id": "ctov:pillager_outpost_snowy",
+    "jar": "[Neoforge]ctov-3.6.3.jar",
+    "path": "data/ctov/worldgen/structure/pillager_outpost_snowy.json",
+    "data": {
+      "type": "minecraft:jigsaw",
+      "biomes": "#minecraft:has_structure/village_snowy",
+      "step": "surface_structures",
+      "spawn_overrides": {
+        "monster": {
+          "bounding_box": "full",
+          "spawns": [
+            {
+              "type": "minecraft:pillager",
+              "weight": 1,
+              "minCount": 1,
+              "maxCount": 1
+            },
+            {
+              "type": "minecraft:evoker",
+              "weight": 1,
+              "minCount": 1,
+              "maxCount": 1
+            },
+            {
+              "type": "minecraft:vindicator",
+              "weight": 1,
+              "minCount": 1,
+              "maxCount": 1
+            },
+            {
+              "type": "minecraft:witch",
+              "weight": 1,
+              "minCount": 1,
+              "maxCount": 1
+            }
+          ]
+        }
+      },
+      "terrain_adaptation": "beard_thin",
+      "start_pool": "ctov:pillager_outpost/snowy/base_plates",
+      "size": 5,
+      "start_height": {
+        "absolute": 0
+      },
+      "project_start_to_heightmap": "WORLD_SURFACE_WG",
+      "max_distance_from_center": 80,
+      "use_expansion_hack": true,
+      "pool_aliases": [],
+      "liquid_settings": "ignore_waterlogging"
+    }
+  },
+  {
+    "id": "ctov:pillager_outpost_swamp",
+    "jar": "[Neoforge]ctov-3.6.3.jar",
+    "path": "data/ctov/worldgen/structure/pillager_outpost_swamp.json",
+    "data": {
+      "type": "minecraft:jigsaw",
+      "biomes": "#minecraft:has_structure/ruined_portal_swamp",
+      "step": "surface_structures",
+      "spawn_overrides": {
+        "monster": {
+          "bounding_box": "full",
+          "spawns": [
+            {
+              "type": "minecraft:pillager",
+              "weight": 1,
+              "minCount": 1,
+              "maxCount": 1
+            },
+            {
+              "type": "minecraft:evoker",
+              "weight": 1,
+              "minCount": 1,
+              "maxCount": 1
+            },
+            {
+              "type": "minecraft:vindicator",
+              "weight": 1,
+              "minCount": 1,
+              "maxCount": 1
+            },
+            {
+              "type": "minecraft:witch",
+              "weight": 1,
+              "minCount": 1,
+              "maxCount": 1
+            }
+          ]
+        }
+      },
+      "terrain_adaptation": "beard_thin",
+      "start_pool": "ctov:pillager_outpost/swamp/base_plates",
+      "size": 5,
+      "start_height": {
+        "absolute": 0
+      },
+      "project_start_to_heightmap": "WORLD_SURFACE_WG",
+      "max_distance_from_center": 80,
+      "use_expansion_hack": true,
+      "pool_aliases": [],
+      "liquid_settings": "ignore_waterlogging"
+    }
+  },
+  {
+    "id": "ctov:pillager_outpost_taiga",
+    "jar": "[Neoforge]ctov-3.6.3.jar",
+    "path": "data/ctov/worldgen/structure/pillager_outpost_taiga.json",
+    "data": {
+      "type": "minecraft:jigsaw",
+      "biomes": "#minecraft:has_structure/village_taiga",
+      "step": "surface_structures",
+      "spawn_overrides": {
+        "monster": {
+          "bounding_box": "full",
+          "spawns": [
+            {
+              "type": "minecraft:pillager",
+              "weight": 1,
+              "minCount": 1,
+              "maxCount": 1
+            },
+            {
+              "type": "minecraft:evoker",
+              "weight": 1,
+              "minCount": 1,
+              "maxCount": 1
+            },
+            {
+              "type": "minecraft:vindicator",
+              "weight": 1,
+              "minCount": 1,
+              "maxCount": 1
+            },
+            {
+              "type": "minecraft:witch",
+              "weight": 1,
+              "minCount": 1,
+              "maxCount": 1
+            }
+          ]
+        }
+      },
+      "terrain_adaptation": "beard_thin",
+      "start_pool": "ctov:pillager_outpost/taiga/base_plates",
+      "size": 2,
+      "start_height": {
+        "absolute": 0
+      },
+      "project_start_to_heightmap": "WORLD_SURFACE_WG",
+      "max_distance_from_center": 80,
+      "use_expansion_hack": true,
+      "pool_aliases": [],
+      "liquid_settings": "ignore_waterlogging"
+    }
+  },
+  {
+    "id": "ctov:small/village_beach",
+    "jar": "[Neoforge]ctov-3.6.3.jar",
+    "path": "data/ctov/worldgen/structure/small/village_beach.json",
+    "data": {
+      "type": "lithostitched:jigsaw",
+      "biomes": "#minecraft:is_beach",
+      "step": "surface_structures",
+      "spawn_overrides": {},
+      "terrain_adaptation": "beard_thin",
+      "start_pool": "ctov:village/beach/town_centers",
+      "size": 4,
+      "start_height": {
+        "absolute": 0
+      },
+      "project_start_to_heightmap": "WORLD_SURFACE_WG",
+      "max_distance_from_center": 80,
+      "use_expansion_hack": true,
+      "pool_aliases": [],
+      "liquid_settings": "ignore_waterlogging"
+    }
+  },
+  {
+    "id": "ctov:small/village_christmas",
+    "jar": "[Neoforge]ctov-3.6.3.jar",
+    "path": "data/ctov/worldgen/structure/small/village_christmas.json",
+    "data": {
+      "type": "lithostitched:jigsaw",
+      "biomes": "#minecraft:has_structure/village_snowy",
+      "step": "surface_structures",
+      "spawn_overrides": {},
+      "terrain_adaptation": "beard_thin",
+      "start_pool": "ctov:village/christmas/town_centers",
+      "size": 4,
+      "start_height": {
+        "absolute": 0
+      },
+      "project_start_to_heightmap": "WORLD_SURFACE_WG",
+      "max_distance_from_center": 80,
+      "use_expansion_hack": true,
+      "pool_aliases": [],
+      "liquid_settings": "ignore_waterlogging"
+    }
+  },
+  {
+    "id": "ctov:small/village_dark_forest",
+    "jar": "[Neoforge]ctov-3.6.3.jar",
+    "path": "data/ctov/worldgen/structure/small/village_dark_forest.json",
+    "data": {
+      "type": "lithostitched:jigsaw",
+      "biomes": "#minecraft:has_structure/woodland_mansion",
+      "step": "surface_structures",
+      "spawn_overrides": {},
+      "terrain_adaptation": "beard_thin",
+      "start_pool": "ctov:village/halloween/town_centers",
+      "size": 4,
+      "start_height": {
+        "absolute": 0
+      },
+      "project_start_to_heightmap": "WORLD_SURFACE_WG",
+      "max_distance_from_center": 80,
+      "use_expansion_hack": true,
+      "pool_aliases": [],
+      "liquid_settings": "ignore_waterlogging"
+    }
+  },
+  {
+    "id": "ctov:small/village_desert",
+    "jar": "[Neoforge]ctov-3.6.3.jar",
+    "path": "data/ctov/worldgen/structure/small/village_desert.json",
+    "data": {
+      "type": "lithostitched:jigsaw",
+      "biomes": "#minecraft:has_structure/village_desert",
+      "step": "surface_structures",
+      "spawn_overrides": {},
+      "terrain_adaptation": "beard_thin",
+      "start_pool": "ctov:village/desert/town_centers",
+      "size": 4,
+      "start_height": {
+        "absolute": 0
+      },
+      "project_start_to_heightmap": "WORLD_SURFACE_WG",
+      "max_distance_from_center": 80,
+      "use_expansion_hack": true,
+      "pool_aliases": [],
+      "liquid_settings": "ignore_waterlogging"
+    }
+  },
+  {
+    "id": "ctov:small/village_desert_oasis",
+    "jar": "[Neoforge]ctov-3.6.3.jar",
+    "path": "data/ctov/worldgen/structure/small/village_desert_oasis.json",
+    "data": {
+      "type": "lithostitched:jigsaw",
+      "biomes": "#minecraft:has_structure/village_desert",
+      "step": "surface_structures",
+      "spawn_overrides": {},
+      "terrain_adaptation": "beard_thin",
+      "start_pool": "ctov:village/desert_oasis/town_centers",
+      "size": 4,
+      "start_height": {
+        "absolute": 0
+      },
+      "project_start_to_heightmap": "WORLD_SURFACE_WG",
+      "max_distance_from_center": 80,
+      "use_expansion_hack": true,
+      "pool_aliases": [],
+      "liquid_settings": "ignore_waterlogging"
+    }
+  },
+  {
+    "id": "ctov:small/village_jungle",
+    "jar": "[Neoforge]ctov-3.6.3.jar",
+    "path": "data/ctov/worldgen/structure/small/village_jungle.json",
+    "data": {
+      "type": "lithostitched:jigsaw",
+      "biomes": "#minecraft:is_jungle",
+      "step": "surface_structures",
+      "spawn_overrides": {},
+      "terrain_adaptation": "beard_thin",
+      "start_pool": "ctov:village/jungle/town_centers",
+      "size": 4,
+      "start_height": {
+        "absolute": 0
+      },
+      "project_start_to_heightmap": "WORLD_SURFACE_WG",
+      "max_distance_from_center": 80,
+      "use_expansion_hack": true,
+      "pool_aliases": [],
+      "liquid_settings": "ignore_waterlogging"
+    }
+  },
+  {
+    "id": "ctov:small/village_jungle_tree",
+    "jar": "[Neoforge]ctov-3.6.3.jar",
+    "path": "data/ctov/worldgen/structure/small/village_jungle_tree.json",
+    "data": {
+      "type": "lithostitched:jigsaw",
+      "biomes": "#minecraft:is_jungle",
+      "step": "surface_structures",
+      "spawn_overrides": {},
+      "terrain_adaptation": "beard_thin",
+      "start_pool": "ctov:village/jungle_tree/town_centers",
+      "size": 4,
+      "start_height": {
+        "absolute": 0
+      },
+      "project_start_to_heightmap": "WORLD_SURFACE_WG",
+      "max_distance_from_center": 80,
+      "use_expansion_hack": true,
+      "pool_aliases": [],
+      "liquid_settings": "ignore_waterlogging"
+    }
+  },
+  {
+    "id": "ctov:small/village_mesa",
+    "jar": "[Neoforge]ctov-3.6.3.jar",
+    "path": "data/ctov/worldgen/structure/small/village_mesa.json",
+    "data": {
+      "type": "lithostitched:jigsaw",
+      "biomes": "#minecraft:is_badlands",
+      "step": "surface_structures",
+      "spawn_overrides": {},
+      "terrain_adaptation": "beard_thin",
+      "start_pool": "ctov:village/mesa/town_centers",
+      "size": 4,
+      "start_height": {
+        "absolute": 0
+      },
+      "project_start_to_heightmap": "WORLD_SURFACE_WG",
+      "max_distance_from_center": 80,
+      "use_expansion_hack": true,
+      "pool_aliases": [],
+      "liquid_settings": "ignore_waterlogging"
+    }
+  },
+  {
+    "id": "ctov:small/village_mesa_fortified",
+    "jar": "[Neoforge]ctov-3.6.3.jar",
+    "path": "data/ctov/worldgen/structure/small/village_mesa_fortified.json",
+    "data": {
+      "type": "lithostitched:jigsaw",
+      "biomes": "#minecraft:is_badlands",
+      "step": "surface_structures",
+      "spawn_overrides": {},
+      "terrain_adaptation": "beard_thin",
+      "start_pool": "ctov:village/mesa_fortified/town_centers",
+      "size": 4,
+      "start_height": {
+        "absolute": 0
+      },
+      "project_start_to_heightmap": "WORLD_SURFACE_WG",
+      "max_distance_from_center": 80,
+      "use_expansion_hack": true,
+      "pool_aliases": [],
+      "liquid_settings": "ignore_waterlogging"
+    }
+  },
+  {
+    "id": "ctov:small/village_mountain",
+    "jar": "[Neoforge]ctov-3.6.3.jar",
+    "path": "data/ctov/worldgen/structure/small/village_mountain.json",
+    "data": {
+      "type": "lithostitched:jigsaw",
+      "biomes": "#minecraft:is_mountain",
+      "step": "surface_structures",
+      "spawn_overrides": {},
+      "terrain_adaptation": "beard_thin",
+      "start_pool": "ctov:village/mountain/town_centers",
+      "size": 4,
+      "start_height": {
+        "absolute": 0
+      },
+      "project_start_to_heightmap": "WORLD_SURFACE_WG",
+      "max_distance_from_center": 80,
+      "use_expansion_hack": true,
+      "pool_aliases": [],
+      "liquid_settings": "ignore_waterlogging"
+    }
+  },
+  {
+    "id": "ctov:small/village_mountain_alpine",
+    "jar": "[Neoforge]ctov-3.6.3.jar",
+    "path": "data/ctov/worldgen/structure/small/village_mountain_alpine.json",
+    "data": {
+      "type": "lithostitched:jigsaw",
+      "biomes": "#minecraft:is_mountain",
+      "step": "surface_structures",
+      "spawn_overrides": {},
+      "terrain_adaptation": "beard_thin",
+      "start_pool": "ctov:village/mountain_alpine/town_centers",
+      "size": 4,
+      "start_height": {
+        "absolute": 0
+      },
+      "project_start_to_heightmap": "WORLD_SURFACE_WG",
+      "max_distance_from_center": 80,
+      "use_expansion_hack": true,
+      "pool_aliases": [],
+      "liquid_settings": "ignore_waterlogging"
+    }
+  },
+  {
+    "id": "ctov:small/village_mushroom",
+    "jar": "[Neoforge]ctov-3.6.3.jar",
+    "path": "data/ctov/worldgen/structure/small/village_mushroom.json",
+    "data": {
+      "type": "lithostitched:jigsaw",
+      "biomes": "minecraft:mushroom_fields",
+      "step": "surface_structures",
+      "spawn_overrides": {},
+      "terrain_adaptation": "beard_thin",
+      "start_pool": "ctov:village/mushroom/town_centers",
+      "size": 4,
+      "start_height": {
+        "absolute": 0
+      },
+      "project_start_to_heightmap": "WORLD_SURFACE_WG",
+      "max_distance_from_center": 80,
+      "use_expansion_hack": true,
+      "pool_aliases": [],
+      "liquid_settings": "ignore_waterlogging"
+    }
+  },
+  {
+    "id": "ctov:small/village_plains",
+    "jar": "[Neoforge]ctov-3.6.3.jar",
+    "path": "data/ctov/worldgen/structure/small/village_plains.json",
+    "data": {
+      "type": "lithostitched:jigsaw",
+      "biomes": "#minecraft:has_structure/village_plains",
+      "step": "surface_structures",
+      "spawn_overrides": {},
+      "terrain_adaptation": "beard_thin",
+      "start_pool": "ctov:village/plains/town_centers",
+      "size": 4,
+      "start_height": {
+        "absolute": 0
+      },
+      "project_start_to_heightmap": "WORLD_SURFACE_WG",
+      "max_distance_from_center": 80,
+      "use_expansion_hack": true,
+      "pool_aliases": [],
+      "liquid_settings": "ignore_waterlogging"
+    }
+  },
+  {
+    "id": "ctov:small/village_plains_fortified",
+    "jar": "[Neoforge]ctov-3.6.3.jar",
+    "path": "data/ctov/worldgen/structure/small/village_plains_fortified.json",
+    "data": {
+      "type": "lithostitched:jigsaw",
+      "biomes": "#minecraft:has_structure/village_plains",
+      "step": "surface_structures",
+      "spawn_overrides": {},
+      "terrain_adaptation": "beard_thin",
+      "start_pool": "ctov:village/plains_fortified/town_centers",
+      "size": 4,
+      "start_height": {
+        "absolute": 0
+      },
+      "project_start_to_heightmap": "WORLD_SURFACE_WG",
+      "max_distance_from_center": 80,
+      "use_expansion_hack": true,
+      "pool_aliases": [],
+      "liquid_settings": "ignore_waterlogging"
+    }
+  },
+  {
+    "id": "ctov:small/village_savanna",
+    "jar": "[Neoforge]ctov-3.6.3.jar",
+    "path": "data/ctov/worldgen/structure/small/village_savanna.json",
+    "data": {
+      "type": "lithostitched:jigsaw",
+      "biomes": "#minecraft:has_structure/village_savanna",
+      "step": "surface_structures",
+      "spawn_overrides": {},
+      "terrain_adaptation": "beard_thin",
+      "start_pool": "ctov:village/savanna/town_centers",
+      "size": 4,
+      "start_height": {
+        "absolute": 0
+      },
+      "project_start_to_heightmap": "WORLD_SURFACE_WG",
+      "max_distance_from_center": 80,
+      "use_expansion_hack": true,
+      "pool_aliases": [],
+      "liquid_settings": "ignore_waterlogging"
+    }
+  },
+  {
+    "id": "ctov:small/village_savanna_na",
+    "jar": "[Neoforge]ctov-3.6.3.jar",
+    "path": "data/ctov/worldgen/structure/small/village_savanna_na.json",
+    "data": {
+      "type": "lithostitched:jigsaw",
+      "biomes": "#minecraft:has_structure/village_savanna",
+      "step": "surface_structures",
+      "spawn_overrides": {},
+      "terrain_adaptation": "beard_thin",
+      "start_pool": "ctov:village/savanna_na/town_centers",
+      "size": 4,
+      "start_height": {
+        "absolute": 0
+      },
+      "project_start_to_heightmap": "WORLD_SURFACE_WG",
+      "max_distance_from_center": 80,
+      "use_expansion_hack": true,
+      "pool_aliases": [],
+      "liquid_settings": "ignore_waterlogging"
+    }
+  },
+  {
+    "id": "ctov:small/village_snowy_igloo",
+    "jar": "[Neoforge]ctov-3.6.3.jar",
+    "path": "data/ctov/worldgen/structure/small/village_snowy_igloo.json",
+    "data": {
+      "type": "lithostitched:jigsaw",
+      "biomes": "#minecraft:has_structure/village_snowy",
+      "step": "surface_structures",
+      "spawn_overrides": {},
+      "terrain_adaptation": "beard_thin",
+      "start_pool": "ctov:village/snowy_igloo/town_centers",
+      "size": 4,
+      "start_height": {
+        "absolute": 0
+      },
+      "project_start_to_heightmap": "WORLD_SURFACE_WG",
+      "max_distance_from_center": 80,
+      "use_expansion_hack": true,
+      "pool_aliases": [],
+      "liquid_settings": "ignore_waterlogging"
+    }
+  },
+  {
+    "id": "ctov:small/village_swamp",
+    "jar": "[Neoforge]ctov-3.6.3.jar",
+    "path": "data/ctov/worldgen/structure/small/village_swamp.json",
+    "data": {
+      "type": "lithostitched:jigsaw",
+      "biomes": "#minecraft:has_structure/ruined_portal_swamp",
+      "step": "surface_structures",
+      "spawn_overrides": {},
+      "terrain_adaptation": "beard_thin",
+      "start_pool": "ctov:village/swamp/town_centers",
+      "size": 4,
+      "start_height": {
+        "absolute": 0
+      },
+      "project_start_to_heightmap": "WORLD_SURFACE_WG",
+      "max_distance_from_center": 80,
+      "use_expansion_hack": true,
+      "pool_aliases": [],
+      "liquid_settings": "ignore_waterlogging"
+    }
+  },
+  {
+    "id": "ctov:small/village_swamp_fortified",
+    "jar": "[Neoforge]ctov-3.6.3.jar",
+    "path": "data/ctov/worldgen/structure/small/village_swamp_fortified.json",
+    "data": {
+      "type": "lithostitched:jigsaw",
+      "biomes": "#minecraft:has_structure/ruined_portal_swamp",
+      "step": "surface_structures",
+      "spawn_overrides": {},
+      "terrain_adaptation": "beard_thin",
+      "start_pool": "ctov:village/swamp_fortified/town_centers",
+      "size": 4,
+      "start_height": {
+        "absolute": 0
+      },
+      "project_start_to_heightmap": "WORLD_SURFACE_WG",
+      "max_distance_from_center": 80,
+      "use_expansion_hack": true,
+      "pool_aliases": [],
+      "liquid_settings": "ignore_waterlogging"
+    }
+  },
+  {
+    "id": "ctov:small/village_taiga",
+    "jar": "[Neoforge]ctov-3.6.3.jar",
+    "path": "data/ctov/worldgen/structure/small/village_taiga.json",
+    "data": {
+      "type": "lithostitched:jigsaw",
+      "biomes": "#minecraft:has_structure/village_taiga",
+      "step": "surface_structures",
+      "spawn_overrides": {},
+      "terrain_adaptation": "beard_thin",
+      "start_pool": "ctov:village/taiga/town_centers",
+      "size": 4,
+      "start_height": {
+        "absolute": 0
+      },
+      "project_start_to_heightmap": "WORLD_SURFACE_WG",
+      "max_distance_from_center": 80,
+      "use_expansion_hack": true,
+      "pool_aliases": [],
+      "liquid_settings": "ignore_waterlogging"
+    }
+  },
+  {
+    "id": "ctov:small/village_taiga_fortified",
+    "jar": "[Neoforge]ctov-3.6.3.jar",
+    "path": "data/ctov/worldgen/structure/small/village_taiga_fortified.json",
+    "data": {
+      "type": "lithostitched:jigsaw",
+      "biomes": "#minecraft:has_structure/village_taiga",
+      "step": "surface_structures",
+      "spawn_overrides": {},
+      "terrain_adaptation": "beard_thin",
+      "start_pool": "ctov:village/taiga_fortified/town_centers",
+      "size": 4,
+      "start_height": {
+        "absolute": 0
+      },
+      "project_start_to_heightmap": "WORLD_SURFACE_WG",
+      "max_distance_from_center": 80,
+      "use_expansion_hack": true,
+      "pool_aliases": [],
+      "liquid_settings": "ignore_waterlogging"
+    }
+  },
+  {
+    "id": "ctov:small/village_underground",
+    "jar": "[Neoforge]ctov-3.6.3.jar",
+    "path": "data/ctov/worldgen/structure/small/village_underground.json",
+    "data": {
+      "type": "lithostitched:jigsaw",
+      "biomes": "#minecraft:has_structure/village_plains",
+      "step": "surface_structures",
+      "spawn_overrides": {},
+      "terrain_adaptation": "beard_thin",
+      "start_pool": "ctov:village/underground/start",
+      "size": 5,
+      "start_height": {
+        "absolute": -14
+      },
+      "project_start_to_heightmap": "WORLD_SURFACE_WG",
+      "max_distance_from_center": 80,
+      "use_expansion_hack": true,
+      "pool_aliases": [],
+      "liquid_settings": "ignore_waterlogging"
+    }
+  }
+]

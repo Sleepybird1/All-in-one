@@ -1,0 +1,62 @@
+[
+  {
+    "file": "approved_recipes.json",
+    "name": "approved recipes",
+    "cards": 974
+  },
+  {
+    "file": "Deferred.json",
+    "name": "Deferred",
+    "cards": 103
+  },
+  {
+    "file": "disabled_recipes.json",
+    "name": "disabled recipes",
+    "cards": 122
+  },
+  {
+    "file": "Exotic_Material_Review.json",
+    "name": "Exotic Material Review",
+    "cards": 21
+  },
+  {
+    "file": "Material_Processing.json",
+    "name": "Material Processing",
+    "cards": 145
+  },
+  {
+    "file": "Material_Processing_Review.json",
+    "name": "Material Processing Review",
+    "cards": 452
+  },
+  {
+    "file": "maybe_recipes.json",
+    "name": "maybe recipes",
+    "cards": 134
+  },
+  {
+    "file": "Personal_Recipes.json",
+    "name": "Personal Recipes",
+    "cards": 42
+  },
+  {
+    "file": "Progression_Review.json",
+    "name": "Progression Review",
+    "cards": 326
+  },
+  {
+    "file": "Refresh_Test.json",
+    "name": "Refresh Test",
+    "cards": 5
+  },
+  {
+    "file": "rejected_recipes.json",
+    "name": "rejected recipes",
+    "cards": 98
+  },
+  {
+    "file": "Standby_Recipes.json",
+    "name": "Standby Recipes",
+    "cards": 1
+  }
+]

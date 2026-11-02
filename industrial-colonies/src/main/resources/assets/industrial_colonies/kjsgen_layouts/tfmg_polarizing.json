@@ -1,0 +1,51 @@
+{
+  "id": "industrial_colonies:tfmg_polarizing",
+  "mod": "tfmg",
+  "icon": "tfmg:polarizer",
+  "jei": "tfmg:polarizing",
+  "width": 142,
+  "height": 66,
+  "slots": [
+    {
+      "key": "input",
+      "role": "INPUT",
+      "x": 10,
+      "y": 20,
+      "required": true,
+      "item": true,
+      "tag": true,
+      "count": false
+    },
+    {
+      "key": "output",
+      "role": "OUTPUT",
+      "x": 110,
+      "y": 20,
+      "required": true,
+      "item": true,
+      "count": false,
+      "chance": false
+    }
+  ],
+  "decorations": [
+    {
+      "type": "ARROW",
+      "x": 64,
+      "y": 22
+    }
+  ],
+  "parameters": [
+    {
+      "key": "processingTime",
+      "type": "INT",
+      "default": "200"
+    },
+    {
+      "key": "powerRequired",
+      "type": "INT",
+      "default": "2000"
+    }
+  ],
+  "codegen": "industrial_colonies:tfmg_polarizing",
+  "requiresMod": "tfmg"
+}

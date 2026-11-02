@@ -1,0 +1,13 @@
+{
+  "type": "modernfoundry:melting",
+  "ingredient": {
+    "item": "industrial_colonies:argentite"
+  },
+  "result": {
+    "tag": "c:molten_silver",
+    "amount": 2
+  },
+  "temperature": 1000,
+  "time": 80,
+  "id": "industrial_colonies:survival/basic_rock/direct_argentite_silver"
+}

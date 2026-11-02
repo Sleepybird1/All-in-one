@@ -1,0 +1,206 @@
+{
+  "schema_version": 2,
+  "model": "machine_centric_with_legacy_tier_types",
+  "tiers": [
+    { "id": "andesite", "display_name": "Andesite", "casing_item": "create:andesite_casing" },
+    { "id": "zinc", "display_name": "Zinc", "casing_item": "createcasing:zinc_casing" },
+    { "id": "copper", "display_name": "Copper", "casing_item": "create:copper_casing" },
+    { "id": "brass", "display_name": "Brass", "casing_item": "create:brass_casing" },
+    { "id": "railway", "display_name": "Railway", "casing_item": "create:railway_casing" },
+    { "id": "industrial_iron", "display_name": "Industrial Iron", "casing_item": "create:industrial_iron_block" },
+    { "id": "weathered_iron", "display_name": "Weathered Iron", "casing_item": "create:weathered_iron_block" },
+    { "id": "refined_radiance", "display_name": "Refined Radiance", "casing_item": "create:refined_radiance_casing" },
+    { "id": "shadow_steel", "display_name": "Shadow Steel", "casing_item": "create:shadow_steel_casing" },
+    { "id": "creative", "display_name": "Creative", "casing_item": "createcasing:creative_casing" }
+  ],
+  "recipe_families": [
+    {
+      "id": "conversion", "display_name": "Conversion", "icon": "create:andesite_alloy",
+      "schema": "conversion", "create_type": "CONVERSION", "machines": []
+    },
+    {
+      "id": "crushing", "display_name": "Crushing", "icon": "create:crushing_wheel",
+      "schema": "crushing", "create_type": "CRUSHING",
+      "machines": [
+        { "id": "base", "display_name": "Crushing Wheels", "item": "create:crushing_wheel", "tier": null, "block_ids": ["create:crushing_wheel_controller"] }
+      ]
+    },
+    {
+      "id": "cutting", "display_name": "Cutting", "icon": "create:mechanical_saw",
+      "schema": "cutting", "create_type": "CUTTING",
+      "machines": [
+        { "id": "base", "display_name": "Mechanical Saw", "item": "create:mechanical_saw", "tier": null, "block_ids": ["create:mechanical_saw"] },
+        { "id": "copper", "display_name": "Copper Mechanical Saw", "item": "createcasing:copper_mechanical_saw", "tier": "copper", "block_ids": ["createcasing:copper_mechanical_saw"] },
+        { "id": "brass", "display_name": "Brass Mechanical Saw", "item": "createcasing:brass_mechanical_saw", "tier": "brass", "block_ids": ["createcasing:brass_mechanical_saw"] },
+        { "id": "railway", "display_name": "Railway Mechanical Saw", "item": "createcasing:railway_mechanical_saw", "tier": "railway", "block_ids": ["createcasing:railway_mechanical_saw"] },
+        { "id": "industrial_iron", "display_name": "Industrial Iron Mechanical Saw", "item": "createcasing:industrial_iron_mechanical_saw", "tier": "industrial_iron", "block_ids": ["createcasing:industrial_iron_mechanical_saw"] },
+        { "id": "weathered_iron", "display_name": "Weathered Iron Mechanical Saw", "item": "createcasing:weathered_iron_mechanical_saw", "tier": "weathered_iron", "block_ids": ["createcasing:weathered_iron_mechanical_saw"] },
+        { "id": "refined_radiance", "display_name": "Refined Radiance Mechanical Saw", "item": "createcasing:refined_radiance_mechanical_saw", "tier": "refined_radiance", "block_ids": ["createcasing:refined_radiance_mechanical_saw"] },
+        { "id": "shadow_steel", "display_name": "Shadow Steel Mechanical Saw", "item": "createcasing:shadow_steel_mechanical_saw", "tier": "shadow_steel", "block_ids": ["createcasing:shadow_steel_mechanical_saw"] },
+        { "id": "creative", "display_name": "Creative Mechanical Saw", "item": "createcasing:creative_mechanical_saw", "tier": "creative", "block_ids": ["createcasing:creative_mechanical_saw"] }
+      ]
+    },
+    {
+      "id": "milling", "display_name": "Milling", "icon": "create:millstone",
+      "schema": "milling", "create_type": "MILLING",
+      "machines": [
+        { "id": "base", "display_name": "Millstone", "item": "create:millstone", "tier": null, "block_ids": ["create:millstone"] }
+      ]
+    },
+    {
+      "id": "basin", "display_name": "Basin Processing", "icon": "create:mechanical_mixer",
+      "schema": "basin", "create_type": "BASIN",
+      "machines": [
+        { "id": "base", "display_name": "Mechanical Mixer", "item": "create:mechanical_mixer", "tier": null, "block_ids": ["create:mechanical_mixer"] },
+        { "id": "copper", "display_name": "Copper Mixer", "item": "createcasing:copper_mixer", "tier": "copper", "block_ids": ["createcasing:copper_mixer"] },
+        { "id": "brass", "display_name": "Brass Mixer", "item": "createcasing:brass_mixer", "tier": "brass", "block_ids": ["createcasing:brass_mixer"] },
+        { "id": "railway", "display_name": "Railway Mixer", "item": "createcasing:railway_mixer", "tier": "railway", "block_ids": ["createcasing:railway_mixer"] },
+        { "id": "industrial_iron", "display_name": "Industrial Iron Mixer", "item": "createcasing:industrial_iron_mixer", "tier": "industrial_iron", "block_ids": ["createcasing:industrial_iron_mixer"] },
+        { "id": "weathered_iron", "display_name": "Weathered Iron Mixer", "item": "createcasing:weathered_iron_mixer", "tier": "weathered_iron", "block_ids": ["createcasing:weathered_iron_mixer"] },
+        { "id": "refined_radiance", "display_name": "Refined Radiance Mixer", "item": "createcasing:refined_radiance_mixer", "tier": "refined_radiance", "block_ids": ["createcasing:refined_radiance_mixer"] },
+        { "id": "shadow_steel", "display_name": "Shadow Steel Mixer", "item": "createcasing:shadow_steel_mixer", "tier": "shadow_steel", "block_ids": ["createcasing:shadow_steel_mixer"] },
+        { "id": "creative", "display_name": "Creative Mixer", "item": "createcasing:creative_mixer", "tier": "creative", "block_ids": ["createcasing:creative_mixer"] }
+      ]
+    },
+    {
+      "id": "mixing", "display_name": "Mixing", "icon": "create:mechanical_mixer",
+      "schema": "mixing", "create_type": "MIXING",
+      "machines": [
+        { "id": "base", "display_name": "Mechanical Mixer", "item": "create:mechanical_mixer", "tier": null, "block_ids": ["create:mechanical_mixer"] },
+        { "id": "copper", "display_name": "Copper Mixer", "item": "createcasing:copper_mixer", "tier": "copper", "block_ids": ["createcasing:copper_mixer"] },
+        { "id": "brass", "display_name": "Brass Mixer", "item": "createcasing:brass_mixer", "tier": "brass", "block_ids": ["createcasing:brass_mixer"] },
+        { "id": "railway", "display_name": "Railway Mixer", "item": "createcasing:railway_mixer", "tier": "railway", "block_ids": ["createcasing:railway_mixer"] },
+        { "id": "industrial_iron", "display_name": "Industrial Iron Mixer", "item": "createcasing:industrial_iron_mixer", "tier": "industrial_iron", "block_ids": ["createcasing:industrial_iron_mixer"] },
+        { "id": "weathered_iron", "display_name": "Weathered Iron Mixer", "item": "createcasing:weathered_iron_mixer", "tier": "weathered_iron", "block_ids": ["createcasing:weathered_iron_mixer"] },
+        { "id": "refined_radiance", "display_name": "Refined Radiance Mixer", "item": "createcasing:refined_radiance_mixer", "tier": "refined_radiance", "block_ids": ["createcasing:refined_radiance_mixer"] },
+        { "id": "shadow_steel", "display_name": "Shadow Steel Mixer", "item": "createcasing:shadow_steel_mixer", "tier": "shadow_steel", "block_ids": ["createcasing:shadow_steel_mixer"] },
+        { "id": "creative", "display_name": "Creative Mixer", "item": "createcasing:creative_mixer", "tier": "creative", "block_ids": ["createcasing:creative_mixer"] }
+      ]
+    },
+    {
+      "id": "compacting", "display_name": "Compacting", "icon": "create:mechanical_press",
+      "schema": "compacting", "create_type": "COMPACTING",
+      "machines": [
+        { "id": "base", "display_name": "Mechanical Press", "item": "create:mechanical_press", "tier": null, "block_ids": ["create:mechanical_press"] },
+        { "id": "copper", "display_name": "Copper Press", "item": "createcasing:copper_press", "tier": "copper", "block_ids": ["createcasing:copper_press"] },
+        { "id": "brass", "display_name": "Brass Press", "item": "createcasing:brass_press", "tier": "brass", "block_ids": ["createcasing:brass_press"] },
+        { "id": "railway", "display_name": "Railway Press", "item": "createcasing:railway_press", "tier": "railway", "block_ids": ["createcasing:railway_press"] },
+        { "id": "industrial_iron", "display_name": "Industrial Iron Press", "item": "createcasing:industrial_iron_press", "tier": "industrial_iron", "block_ids": ["createcasing:industrial_iron_press"] },
+        { "id": "weathered_iron", "display_name": "Weathered Iron Press", "item": "createcasing:weathered_iron_press", "tier": "weathered_iron", "block_ids": ["createcasing:weathered_iron_press"] },
+        { "id": "refined_radiance", "display_name": "Refined Radiance Press", "item": "createcasing:refined_radiance_press", "tier": "refined_radiance", "block_ids": ["createcasing:refined_radiance_press"] },
+        { "id": "shadow_steel", "display_name": "Shadow Steel Press", "item": "createcasing:shadow_steel_press", "tier": "shadow_steel", "block_ids": ["createcasing:shadow_steel_press"] },
+        { "id": "creative", "display_name": "Creative Press", "item": "createcasing:creative_press", "tier": "creative", "block_ids": ["createcasing:creative_press"] }
+      ]
+    },
+    {
+      "id": "pressing", "display_name": "Pressing", "icon": "create:mechanical_press",
+      "schema": "pressing", "create_type": "PRESSING",
+      "machines": [
+        { "id": "base", "display_name": "Mechanical Press", "item": "create:mechanical_press", "tier": null, "block_ids": ["create:mechanical_press"] },
+        { "id": "copper", "display_name": "Copper Press", "item": "createcasing:copper_press", "tier": "copper", "block_ids": ["createcasing:copper_press"] },
+        { "id": "brass", "display_name": "Brass Press", "item": "createcasing:brass_press", "tier": "brass", "block_ids": ["createcasing:brass_press"] },
+        { "id": "railway", "display_name": "Railway Press", "item": "createcasing:railway_press", "tier": "railway", "block_ids": ["createcasing:railway_press"] },
+        { "id": "industrial_iron", "display_name": "Industrial Iron Press", "item": "createcasing:industrial_iron_press", "tier": "industrial_iron", "block_ids": ["createcasing:industrial_iron_press"] },
+        { "id": "weathered_iron", "display_name": "Weathered Iron Press", "item": "createcasing:weathered_iron_press", "tier": "weathered_iron", "block_ids": ["createcasing:weathered_iron_press"] },
+        { "id": "refined_radiance", "display_name": "Refined Radiance Press", "item": "createcasing:refined_radiance_press", "tier": "refined_radiance", "block_ids": ["createcasing:refined_radiance_press"] },
+        { "id": "shadow_steel", "display_name": "Shadow Steel Press", "item": "createcasing:shadow_steel_press", "tier": "shadow_steel", "block_ids": ["createcasing:shadow_steel_press"] },
+        { "id": "creative", "display_name": "Creative Press", "item": "createcasing:creative_press", "tier": "creative", "block_ids": ["createcasing:creative_press"] }
+      ]
+    },
+    {
+      "id": "sandpaper_polishing", "display_name": "Sandpaper Polishing", "icon": "create:sand_paper",
+      "schema": "sandpaper_polishing", "create_type": "SANDPAPER_POLISHING", "machines": []
+    },
+    {
+      "id": "splashing", "display_name": "Bulk Washing", "icon": "create:encased_fan",
+      "schema": "splashing", "create_type": "SPLASHING",
+      "machines": [
+        { "id": "base", "display_name": "Encased Fan", "item": "create:encased_fan", "tier": null, "block_ids": ["create:encased_fan"] },
+        { "id": "copper", "display_name": "Copper Encased Fan", "item": "createcasing:copper_encased_fan", "tier": "copper", "block_ids": ["createcasing:copper_encased_fan"] },
+        { "id": "brass", "display_name": "Brass Encased Fan", "item": "createcasing:brass_encased_fan", "tier": "brass", "block_ids": ["createcasing:brass_encased_fan"] },
+        { "id": "railway", "display_name": "Railway Encased Fan", "item": "createcasing:railway_encased_fan", "tier": "railway", "block_ids": ["createcasing:railway_encased_fan"] },
+        { "id": "industrial_iron", "display_name": "Industrial Iron Encased Fan", "item": "createcasing:industrial_iron_encased_fan", "tier": "industrial_iron", "block_ids": ["createcasing:industrial_iron_encased_fan"] },
+        { "id": "weathered_iron", "display_name": "Weathered Iron Encased Fan", "item": "createcasing:weathered_iron_encased_fan", "tier": "weathered_iron", "block_ids": ["createcasing:weathered_iron_encased_fan"] },
+        { "id": "refined_radiance", "display_name": "Refined Radiance Encased Fan", "item": "createcasing:refined_radiance_encased_fan", "tier": "refined_radiance", "block_ids": ["createcasing:refined_radiance_encased_fan"] },
+        { "id": "shadow_steel", "display_name": "Shadow Steel Encased Fan", "item": "createcasing:shadow_steel_encased_fan", "tier": "shadow_steel", "block_ids": ["createcasing:shadow_steel_encased_fan"] },
+        { "id": "creative", "display_name": "Creative Encased Fan", "item": "createcasing:creative_encased_fan", "tier": "creative", "block_ids": ["createcasing:creative_encased_fan"] }
+      ]
+    },
+    {
+      "id": "haunting", "display_name": "Bulk Haunting", "icon": "create:encased_fan",
+      "schema": "haunting", "create_type": "HAUNTING",
+      "machines": [
+        { "id": "base", "display_name": "Encased Fan", "item": "create:encased_fan", "tier": null, "block_ids": ["create:encased_fan"] },
+        { "id": "copper", "display_name": "Copper Encased Fan", "item": "createcasing:copper_encased_fan", "tier": "copper", "block_ids": ["createcasing:copper_encased_fan"] },
+        { "id": "brass", "display_name": "Brass Encased Fan", "item": "createcasing:brass_encased_fan", "tier": "brass", "block_ids": ["createcasing:brass_encased_fan"] },
+        { "id": "railway", "display_name": "Railway Encased Fan", "item": "createcasing:railway_encased_fan", "tier": "railway", "block_ids": ["createcasing:railway_encased_fan"] },
+        { "id": "industrial_iron", "display_name": "Industrial Iron Encased Fan", "item": "createcasing:industrial_iron_encased_fan", "tier": "industrial_iron", "block_ids": ["createcasing:industrial_iron_encased_fan"] },
+        { "id": "weathered_iron", "display_name": "Weathered Iron Encased Fan", "item": "createcasing:weathered_iron_encased_fan", "tier": "weathered_iron", "block_ids": ["createcasing:weathered_iron_encased_fan"] },
+        { "id": "refined_radiance", "display_name": "Refined Radiance Encased Fan", "item": "createcasing:refined_radiance_encased_fan", "tier": "refined_radiance", "block_ids": ["createcasing:refined_radiance_encased_fan"] },
+        { "id": "shadow_steel", "display_name": "Shadow Steel Encased Fan", "item": "createcasing:shadow_steel_encased_fan", "tier": "shadow_steel", "block_ids": ["createcasing:shadow_steel_encased_fan"] },
+        { "id": "creative", "display_name": "Creative Encased Fan", "item": "createcasing:creative_encased_fan", "tier": "creative", "block_ids": ["createcasing:creative_encased_fan"] }
+      ]
+    },
+    {
+      "id": "deploying", "display_name": "Deploying", "icon": "create:deployer",
+      "schema": "deploying", "create_type": "DEPLOYING",
+      "machines": [
+        { "id": "base", "display_name": "Deployer", "item": "create:deployer", "tier": null, "block_ids": ["create:deployer"] },
+        { "id": "copper", "display_name": "Copper Deployer", "item": "createcasing:copper_deployer", "tier": "copper", "block_ids": ["createcasing:copper_deployer"] },
+        { "id": "brass", "display_name": "Brass Deployer", "item": "createcasing:brass_deployer", "tier": "brass", "block_ids": ["createcasing:brass_deployer"] },
+        { "id": "railway", "display_name": "Railway Deployer", "item": "createcasing:railway_deployer", "tier": "railway", "block_ids": ["createcasing:railway_deployer"] },
+        { "id": "industrial_iron", "display_name": "Industrial Iron Deployer", "item": "createcasing:industrial_iron_deployer", "tier": "industrial_iron", "block_ids": ["createcasing:industrial_iron_deployer"] },
+        { "id": "weathered_iron", "display_name": "Weathered Iron Deployer", "item": "createcasing:weathered_iron_deployer", "tier": "weathered_iron", "block_ids": ["createcasing:weathered_iron_deployer"] },
+        { "id": "refined_radiance", "display_name": "Refined Radiance Deployer", "item": "createcasing:refined_radiance_deployer", "tier": "refined_radiance", "block_ids": ["createcasing:refined_radiance_deployer"] },
+        { "id": "shadow_steel", "display_name": "Shadow Steel Deployer", "item": "createcasing:shadow_steel_deployer", "tier": "shadow_steel", "block_ids": ["createcasing:shadow_steel_deployer"] },
+        { "id": "creative", "display_name": "Creative Deployer", "item": "createcasing:creative_deployer", "tier": "creative", "block_ids": ["createcasing:creative_deployer"] }
+      ]
+    },
+    {
+      "id": "filling", "display_name": "Filling", "icon": "create:spout",
+      "schema": "filling", "create_type": "FILLING",
+      "machines": [
+        { "id": "base", "display_name": "Spout", "item": "create:spout", "tier": null, "block_ids": ["create:spout"] },
+        { "id": "andesite", "display_name": "Andesite Spout", "item": "createcasing:andesite_spout", "tier": "andesite", "block_ids": ["createcasing:andesite_spout"] },
+        { "id": "zinc", "display_name": "Zinc Spout", "item": "createcasing:zinc_spout", "tier": "zinc", "block_ids": ["createcasing:zinc_spout"] },
+        { "id": "brass", "display_name": "Brass Spout", "item": "createcasing:brass_spout", "tier": "brass", "block_ids": ["createcasing:brass_spout"] }
+      ]
+    },
+    {
+      "id": "emptying", "display_name": "Emptying", "icon": "create:item_drain",
+      "schema": "emptying", "create_type": "EMPTYING",
+      "machines": [
+        { "id": "base", "display_name": "Item Drain", "item": "create:item_drain", "tier": null, "block_ids": ["create:item_drain"] },
+        { "id": "andesite", "display_name": "Andesite Item Drain", "item": "createcasing:andesite_item_drain", "tier": "andesite", "block_ids": ["createcasing:andesite_item_drain"] },
+        { "id": "zinc", "display_name": "Zinc Item Drain", "item": "createcasing:zinc_item_drain", "tier": "zinc", "block_ids": ["createcasing:zinc_item_drain"] },
+        { "id": "brass", "display_name": "Brass Item Drain", "item": "createcasing:brass_item_drain", "tier": "brass", "block_ids": ["createcasing:brass_item_drain"] }
+      ]
+    },
+    {
+      "id": "item_application", "display_name": "Item Application", "icon": "create:deployer",
+      "schema": "item_application", "create_type": "ITEM_APPLICATION",
+      "machines": [
+        { "id": "base", "display_name": "Deployer", "item": "create:deployer", "tier": null, "block_ids": ["create:deployer"] },
+        { "id": "copper", "display_name": "Copper Deployer", "item": "createcasing:copper_deployer", "tier": "copper", "block_ids": ["createcasing:copper_deployer"] },
+        { "id": "brass", "display_name": "Brass Deployer", "item": "createcasing:brass_deployer", "tier": "brass", "block_ids": ["createcasing:brass_deployer"] },
+        { "id": "railway", "display_name": "Railway Deployer", "item": "createcasing:railway_deployer", "tier": "railway", "block_ids": ["createcasing:railway_deployer"] },
+        { "id": "industrial_iron", "display_name": "Industrial Iron Deployer", "item": "createcasing:industrial_iron_deployer", "tier": "industrial_iron", "block_ids": ["createcasing:industrial_iron_deployer"] },
+        { "id": "weathered_iron", "display_name": "Weathered Iron Deployer", "item": "createcasing:weathered_iron_deployer", "tier": "weathered_iron", "block_ids": ["createcasing:weathered_iron_deployer"] },
+        { "id": "refined_radiance", "display_name": "Refined Radiance Deployer", "item": "createcasing:refined_radiance_deployer", "tier": "refined_radiance", "block_ids": ["createcasing:refined_radiance_deployer"] },
+        { "id": "shadow_steel", "display_name": "Shadow Steel Deployer", "item": "createcasing:shadow_steel_deployer", "tier": "shadow_steel", "block_ids": ["createcasing:shadow_steel_deployer"] },
+        { "id": "creative", "display_name": "Creative Deployer", "item": "createcasing:creative_deployer", "tier": "creative", "block_ids": ["createcasing:creative_deployer"] }
+      ]
+    },
+    {
+      "id": "mechanical_crafting", "display_name": "Mechanical Crafting", "icon": "create:mechanical_crafter",
+      "schema": "mechanical_crafting", "create_type": "MECHANICAL_CRAFTING",
+      "machines": [
+        { "id": "base", "display_name": "Mechanical Crafter", "item": "create:mechanical_crafter", "tier": null, "block_ids": ["create:mechanical_crafter"] }
+      ]
+    },
+    {
+      "id": "sequenced_assembly", "display_name": "Sequenced Assembly", "icon": "create:depot",
+      "schema": "sequenced_assembly", "create_type": "SEQUENCED_ASSEMBLY", "machines": []
+    }
+  ]
+}

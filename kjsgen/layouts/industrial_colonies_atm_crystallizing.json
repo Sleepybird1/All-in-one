@@ -1,0 +1,47 @@
+{
+  "id": "industrial_colonies:atm_crystallizing",
+  "mod": "mekanism",
+  "icon": "mekanism:chemical_crystallizer",
+  "width": 172,
+  "height": 82,
+  "slots": [
+    {
+      "key": "input",
+      "role": "INPUT",
+      "x": 8,
+      "y": 28,
+      "required": true,
+      "item": false,
+      "fluid": false,
+      "chemical": true,
+      "count": true
+    },
+    {
+      "key": "output",
+      "role": "OUTPUT",
+      "x": 136,
+      "y": 28,
+      "required": true,
+      "item": true,
+      "fluid": false,
+      "chemical": false,
+      "count": true
+    }
+  ],
+  "decorations": [
+    {
+      "type": "ARROW",
+      "x": 86,
+      "y": 30
+    }
+  ],
+  "parameters": [
+    {
+      "key": "__template",
+      "type": "STRING",
+      "default": "event.custom({type:'mekanism:crystallizing',input:(function(s){var m=String(s).match(/^(?:(\\d+)x\\s+)?(.+)$/);if(!m)throw new Error('Invalid chemical');return {amount:m[1]?Number(m[1]):1000,chemical:m[2]};})({slot:input}),output:{id:Item.of({slot:output}).id,count:Item.of({slot:output}).count}})"
+    }
+  ],
+  "codegen": "kjsgen:template",
+  "requiresMod": "mekanism"
+}

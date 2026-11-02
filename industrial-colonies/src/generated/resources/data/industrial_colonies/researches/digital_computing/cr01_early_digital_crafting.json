@@ -1,0 +1,30 @@
+{
+  "branch": "industrial_colonies:tech_tree",
+  "costs": [
+    {
+      "item": "ae2:controller",
+      "count": 1
+    },
+    {
+      "item": "ae2:item_storage_cell_64k",
+      "count": 2
+    },
+    {
+      "item": "ae2:engineering_processor",
+      "count": 8
+    }
+  ],
+  "icon": "ae2:crafting_unit",
+  "name": "com.industrial_colonies.research.digital_computing.cr01_early_digital_crafting.name",
+  "no-reset": true,
+  "researchLevel": 5,
+  "sortOrder": 11077,
+  "subtitle": "com.industrial_colonies.research.digital_computing.cr01_early_digital_crafting.subtitle",
+  "parentResearch": "industrial_colonies:digital_computing/cr01_me_system_advanced",
+  "requirements": [
+    {
+      "type": "minecolonies:research",
+      "research": "industrial_colonies:digital_computing/cr01_me_system_advanced"
+    }
+  ]
+}

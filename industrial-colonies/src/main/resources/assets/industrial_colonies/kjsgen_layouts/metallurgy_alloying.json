@@ -1,0 +1,60 @@
+{
+  "id": "industrial_colonies:metallurgy_alloying",
+  "jei": "createmetallurgy:alloying",
+  "mod": "createmetallurgy",
+  "icon": "createmetallurgy:foundry_mixer",
+  "width": 176,
+  "height": 64,
+  "slots": [
+    {
+      "key": "ingredients",
+      "role": "INPUT",
+      "x": 0,
+      "y": 4,
+      "required": true,
+      "item": true,
+      "tag": true,
+      "fluid": true,
+      "count": true,
+      "list": true
+    },
+    {
+      "key": "results",
+      "role": "OUTPUT",
+      "x": 116,
+      "y": 4,
+      "required": true,
+      "item": true,
+      "fluid": true,
+      "count": true,
+      "chance": true,
+      "list": true
+    }
+  ],
+  "decorations": [
+    {
+      "type": "ARROW",
+      "x": 78,
+      "y": 20
+    }
+  ],
+  "parameters": [
+    {
+      "key": "processingTime",
+      "type": "INT",
+      "default": "100"
+    },
+    {
+      "key": "heat",
+      "type": "ENUM",
+      "default": "none",
+      "options": [
+        "none",
+        "heated",
+        "superheated"
+      ]
+    }
+  ],
+  "codegen": "industrial_colonies:metallurgy",
+  "requiresMod": "createmetallurgy"
+}

@@ -1,0 +1,132 @@
+{
+  "catalogMetalRecipes": 146,
+  "fractionalFields": [
+    {
+      "recipe": "industrial_colonies:processing/foundry/iron/nugget",
+      "field": "/result",
+      "old": 25,
+      "new": 2.5
+    },
+    {
+      "recipe": "industrial_colonies:processing/casting/iron/nugget",
+      "field": "/fluid",
+      "old": 25,
+      "new": 2.5
+    },
+    {
+      "recipe": "industrial_colonies:processing/raw/copper",
+      "field": "/result",
+      "old": 125,
+      "new": 12.5
+    },
+    {
+      "recipe": "industrial_colonies:processing/raw/copper_block",
+      "field": "/result",
+      "old": 1125,
+      "new": 112.5
+    },
+    {
+      "recipe": "industrial_colonies:processing/raw/zinc",
+      "field": "/result",
+      "old": 125,
+      "new": 12.5
+    },
+    {
+      "recipe": "industrial_colonies:processing/raw/zinc_block",
+      "field": "/result",
+      "old": 1125,
+      "new": 112.5
+    },
+    {
+      "recipe": "industrial_colonies:processing/gold/flake",
+      "field": "/result",
+      "old": 1,
+      "new": 0.1
+    },
+    {
+      "recipe": "industrial_colonies:processing/iron/direct_hematite",
+      "field": "/result",
+      "old": 25,
+      "new": 2.5
+    },
+    {
+      "recipe": "industrial_colonies:processing/iron/direct_magnetite",
+      "field": "/result",
+      "old": 25,
+      "new": 2.5
+    },
+    {
+      "recipe": "industrial_colonies:processing/iron/reduced",
+      "field": "/result",
+      "old": 75,
+      "new": 7.5
+    },
+    {
+      "recipe": "industrial_colonies:processing/tin/concentrate",
+      "field": "/result",
+      "old": 75,
+      "new": 7.5
+    },
+    {
+      "recipe": "industrial_colonies:processing/pgm/platinum_fragment",
+      "field": "/result",
+      "old": 25,
+      "new": 2.5
+    },
+    {
+      "recipe": "industrial_colonies:processing/zinc/melt_recovered_dust",
+      "field": "/result",
+      "old": 75,
+      "new": 7.5
+    },
+    {
+      "recipe": "industrial_colonies:processing/zinc/direct_sphalerite",
+      "field": "/result",
+      "old": 12,
+      "new": 1.2
+    },
+    {
+      "recipe": "industrial_colonies:processing/lead/melt_crude",
+      "field": "/result",
+      "old": 75,
+      "new": 7.5
+    },
+    {
+      "recipe": "industrial_colonies:processing/lead/melt_high_purity",
+      "field": "/result",
+      "old": 75,
+      "new": 7.5
+    },
+    {
+      "recipe": "industrial_colonies:processing/lead/direct_galena",
+      "field": "/result",
+      "old": 15,
+      "new": 1.5
+    },
+    {
+      "recipe": "industrial_colonies:processing/nickel/melt_powder",
+      "field": "/result",
+      "old": 75,
+      "new": 7.5
+    },
+    {
+      "recipe": "industrial_colonies:processing/aluminum/melt_granules",
+      "field": "/result",
+      "old": 75,
+      "new": 7.5
+    },
+    {
+      "recipe": "industrial_colonies:processing/magnesium/melt_powder",
+      "field": "/result",
+      "old": 75,
+      "new": 7.5
+    },
+    {
+      "recipe": "industrial_colonies:processing/silver/direct_argentite",
+      "field": "/result",
+      "old": 12,
+      "new": 1.2
+    }
+  ],
+  "liveFiles": 56
+}

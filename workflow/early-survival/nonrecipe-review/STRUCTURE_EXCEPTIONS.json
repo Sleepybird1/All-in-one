@@ -1,0 +1,47 @@
+{
+  "rows": [
+    {
+      "archive": "dungeonnowloading-neoforge-1.21.1-2.11.5.jar",
+      "resource": "data/dungeonnowloading/structure/temple_of_duality/chamber/easy/arrow_lane.nbt",
+      "error": "CRC check failed",
+      "archiveSHA256": "f55a8f6d7e3263074f05c0ed5adb11d62bb412bec8b0922a13e81079d2850c44",
+      "resourceSHA256": "3d5bc2b742dc347c11ae09925d7b003f00b47ff4473f53aa4ab6a4603dcb0c63",
+      "status": "STILL_UNREADABLE",
+      "followupError": "Error -3 while decompressing data: incorrect data check"
+    },
+    {
+      "archive": "dungeonnowloading-neoforge-1.21.1-2.11.5.jar",
+      "resource": "data/dungeonnowloading/structure/temple_of_duality/chamber/normal/pillar_parkour.nbt",
+      "error": "CRC check failed",
+      "archiveSHA256": "f55a8f6d7e3263074f05c0ed5adb11d62bb412bec8b0922a13e81079d2850c44",
+      "resourceSHA256": "bdb25df455a0f6650ea3570bbb07c1c74a9c513ae3f53473142325005e86eb5c",
+      "status": "STILL_UNREADABLE",
+      "followupError": "Error -3 while decompressing data: incorrect data check"
+    },
+    {
+      "archive": "minecolonies-1.1.1368-1.21.1.jar",
+      "resource": "data/minecolonies/structure/desertoasis/residenceluxuryred1.nbt",
+      "error": "Not a gzipped file (b'\\n')",
+      "archiveSHA256": "c3a2542aaced85aabfc58b38415b70e6b095a16787056e07880fc94320f09a9b",
+      "resourceSHA256": "e724e1868bb4c3622dcfc2b9845400fe7ce8a5ea2459a1282958ceaacadf9e3e",
+      "status": "FIRST_GZIP_MEMBER_CRC_VERIFIED",
+      "trailingBytes": 1,
+      "trailingHex": "0a",
+      "identifiers": [],
+      "payloadBytes": 70277
+    },
+    {
+      "archive": "minecolonies-1.1.1368-1.21.1.jar",
+      "resource": "data/minecolonies/structure/desertoasis/residenceluxuryred2.nbt",
+      "error": "Not a gzipped file (b'\\n')",
+      "archiveSHA256": "c3a2542aaced85aabfc58b38415b70e6b095a16787056e07880fc94320f09a9b",
+      "resourceSHA256": "2300317690935bbc58e5c0f8e500578b4b882afccb080f97e688cd1c6c531ef7",
+      "status": "FIRST_GZIP_MEMBER_CRC_VERIFIED",
+      "trailingBytes": 1,
+      "trailingHex": "0a",
+      "identifiers": [],
+      "payloadBytes": 78247
+    }
+  ],
+  "scope": "First gzip member checked with normal CRC validation; no CRC bypass, archive edits, game-load claim or universal acquisition proof."
+}

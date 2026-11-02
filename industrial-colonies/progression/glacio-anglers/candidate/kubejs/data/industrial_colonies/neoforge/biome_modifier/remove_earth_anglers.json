@@ -1,0 +1,7 @@
+{
+  "type": "neoforge:remove_spawns",
+  "biomes": "#cataclysm:deeplings_spawn",
+  "entity_types": [
+    "cataclysm:deepling_angler"
+  ]
+}

@@ -1,0 +1,4931 @@
+{
+  "format": 1,
+  "name": "Material Processing",
+  "defaultTargetFile": "ore_crushing",
+  "exportComments": true,
+  "reloadOnExport": false,
+  "recipes": [
+    {
+      "uid": "c2bf2a91-d68d-4cdc-b79d-1bfe3e0da38a",
+      "type": "kjsgen:create_crushing",
+      "recipeId": "industrial_colonies:processing/chromite/crushing",
+      "comment": "User-selected crushing output. Downstream recovery design: four dust -\u003e one90mBingot only in Fireproof Vat; existing alternative recipes require audit. No melting recipe added here.",
+      "replaceRecipe": false,
+      "slots": {
+        "input": {
+          "kind": "ITEM",
+          "id": "industrial_colonies:chromite"
+        },
+        "output0": {
+          "kind": "ITEM",
+          "id": "nuclearcraft:chromium_dust"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "38867379-e873-4246-b235-489dbd5765c2",
+      "type": "kjsgen:create_crushing",
+      "recipeId": "industrial_colonies:processing/rich_chromium_ore/crushing",
+      "comment": "User-selected crushing output. Downstream recovery design: four dust -\u003e one90mBingot only in Fireproof Vat; existing alternative recipes require audit. No melting recipe added here.",
+      "replaceRecipe": false,
+      "slots": {
+        "input": {
+          "kind": "ITEM",
+          "id": "industrial_colonies:rich_chromium_ore"
+        },
+        "output0": {
+          "kind": "ITEM",
+          "id": "nuclearcraft:chromium_dust",
+          "count": 4
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "3d7cb2ea-a436-4cf5-ae4d-4055e205d3f3",
+      "type": "kjsgen:create_crushing",
+      "slots": {
+        "input": {
+          "kind": "ITEM",
+          "id": "industrial_colonies:magnetite"
+        },
+        "output0": {
+          "kind": "ITEM",
+          "id": "create:crushed_raw_iron"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "fe81db48-1a68-4e75-a0c5-e378c0f89ec8",
+      "type": "kjsgen:create_crushing",
+      "slots": {
+        "input": {
+          "kind": "ITEM",
+          "id": "industrial_colonies:rich_magnetite"
+        },
+        "output0": {
+          "kind": "ITEM",
+          "id": "create:crushed_raw_iron",
+          "count": 3
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "d3f6e825-46a5-405c-bcb5-e3d668e83e96",
+      "type": "kjsgen:create_mixing",
+      "slots": {
+        "__machine_process_mixing": {
+          "kind": "ITEM",
+          "id": "create:mechanical_mixer"
+        },
+        "in0": {
+          "kind": "ITEM",
+          "id": "industrial_colonies:graphite_rock",
+          "count": 2
+        },
+        "in1": {
+          "kind": "ITEM",
+          "id": "minecraft:coal_block"
+        },
+        "in2": {
+          "kind": "ITEM",
+          "id": "minecraft:fire_charge"
+        },
+        "output": {
+          "kind": "ITEM",
+          "id": "nuclearcraft:graphite_block"
+        }
+      },
+      "params": {
+        "heat": "heated"
+      }
+    },
+    {
+      "uid": "00dbf48e-776e-4755-ad21-a16fd87200ff",
+      "type": "kjsgen:create_mixing",
+      "slots": {
+        "__machine_process_mixing": {
+          "kind": "ITEM",
+          "id": "create:mechanical_mixer"
+        },
+        "output": {
+          "kind": "ITEM",
+          "id": "tfmg:fireclay_ball",
+          "count": 4
+        },
+        "in0": {
+          "kind": "ITEM",
+          "id": "tfmg:fireclay"
+        },
+        "in1": {
+          "kind": "ITEM",
+          "id": "minecraft:sand"
+        },
+        "in2": {
+          "kind": "ITEM",
+          "id": "minecraft:water_bucket"
+        },
+        "in3": {
+          "kind": "ITEM",
+          "id": "minecraft:fire_charge"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "850adbbb-b976-42dd-b764-f37d37836dc0",
+      "type": "kjsgen:create_mixing",
+      "slots": {
+        "__machine_process_mixing": {
+          "kind": "ITEM",
+          "id": "create:mechanical_mixer"
+        },
+        "in0": {
+          "kind": "ITEM",
+          "id": "minecraft:fire_charge"
+        },
+        "in1": {
+          "kind": "ITEM",
+          "id": "mekanism:dust_coal"
+        },
+        "in2": {
+          "kind": "ITEM",
+          "id": "create:crushed_raw_iron"
+        },
+        "in3": {
+          "kind": "ITEM",
+          "id": "minecraft:flint"
+        },
+        "output": {
+          "kind": "ITEM",
+          "id": "mekanism:dirty_dust_iron"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "644cf192-b4af-489b-bf37-3f549738a71f",
+      "type": "kjsgen:create_crushing",
+      "recipeId": "industrial_colonies:crushing_review/industrial_colonies/sphalerite",
+      "comment": "DRAFT quantity for review. Crushing only; no melting or vat recovery is assigned. Review before export; old parallel recipes are not automatically removed.",
+      "replaceRecipe": false,
+      "slots": {
+        "input": {
+          "kind": "ITEM",
+          "id": "industrial_colonies:sphalerite"
+        },
+        "output0": {
+          "kind": "ITEM",
+          "id": "create:crushed_raw_zinc",
+          "count": 6
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "b95baa57-fe15-4660-acc1-afc831ee4c75",
+      "type": "kjsgen:create_crushing",
+      "recipeId": "industrial_colonies:crushing_review/industrial_colonies/rich_sphalerite",
+      "comment": "DRAFT quantity for review. Crushing only; no melting or vat recovery is assigned. Review before export; old parallel recipes are not automatically removed.",
+      "replaceRecipe": false,
+      "slots": {
+        "input": {
+          "kind": "ITEM",
+          "id": "industrial_colonies:rich_sphalerite"
+        },
+        "output0": {
+          "kind": "ITEM",
+          "id": "create:crushed_raw_zinc",
+          "count": 12
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "3d7e94ee-a386-4715-b720-971a882fc93c",
+      "type": "kjsgen:create_crushing",
+      "recipeId": "industrial_colonies:crushing_review/industrial_colonies/chalcopyrite",
+      "comment": "DRAFT quantity for review. Crushing only; no melting or vat recovery is assigned. Review before export; old parallel recipes are not automatically removed.",
+      "replaceRecipe": false,
+      "slots": {
+        "input": {
+          "kind": "ITEM",
+          "id": "industrial_colonies:chalcopyrite"
+        },
+        "output0": {
+          "kind": "ITEM",
+          "id": "create:crushed_raw_copper",
+          "count": 6
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "5129ba20-792d-4c6a-83f1-f54a64c7bc0d",
+      "type": "kjsgen:create_crushing",
+      "recipeId": "industrial_colonies:crushing_review/industrial_colonies/rich_copper_ore",
+      "comment": "DRAFT quantity for review. Crushing only; no melting or vat recovery is assigned. Review before export; old parallel recipes are not automatically removed.",
+      "replaceRecipe": false,
+      "slots": {
+        "input": {
+          "kind": "ITEM",
+          "id": "industrial_colonies:rich_copper_ore"
+        },
+        "output0": {
+          "kind": "ITEM",
+          "id": "create:crushed_raw_copper",
+          "count": 10
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "ab610671-83de-45b1-9a82-fb6d43991d47",
+      "type": "kjsgen:create_crushing",
+      "recipeId": "industrial_colonies:crushing_review/industrial_colonies/hematite",
+      "comment": "Previously proposed iron crushing amount. Crushing only; no melting or vat recovery is assigned. Review before export; old parallel recipes are not automatically removed.",
+      "replaceRecipe": false,
+      "slots": {
+        "input": {
+          "kind": "ITEM",
+          "id": "industrial_colonies:hematite"
+        },
+        "output0": {
+          "kind": "ITEM",
+          "id": "create:crushed_raw_iron",
+          "count": 5
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "cf5daebd-cd02-42fb-b68a-9d33fdc2a532",
+      "type": "kjsgen:create_crushing",
+      "recipeId": "industrial_colonies:crushing_review/industrial_colonies/bauxite",
+      "comment": "DRAFT quantity for review. Crushing only; no melting or vat recovery is assigned. Review before export; old parallel recipes are not automatically removed.",
+      "replaceRecipe": false,
+      "slots": {
+        "input": {
+          "kind": "ITEM",
+          "id": "industrial_colonies:bauxite"
+        },
+        "output0": {
+          "kind": "ITEM",
+          "id": "tfmg:bauxite_powder",
+          "count": 6
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "964a8971-431f-4c27-a8ef-e103e2db5316",
+      "type": "kjsgen:create_crushing",
+      "recipeId": "industrial_colonies:crushing_review/industrial_colonies/rich_bauxite",
+      "comment": "DRAFT quantity for review. Crushing only; no melting or vat recovery is assigned. Review before export; old parallel recipes are not automatically removed.",
+      "replaceRecipe": false,
+      "slots": {
+        "input": {
+          "kind": "ITEM",
+          "id": "industrial_colonies:rich_bauxite"
+        },
+        "output0": {
+          "kind": "ITEM",
+          "id": "tfmg:bauxite_powder",
+          "count": 12
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "47aeb57c-ccea-46a8-a968-1ab9be348df9",
+      "type": "kjsgen:create_crushing",
+      "recipeId": "industrial_colonies:crushing_review/industrial_colonies/cinnabar",
+      "comment": "AGREED output/count; replaces the old netherrack Cinder Flour route on export. Crushing only; no melting or vat recovery is assigned. Review before export; old parallel recipes are not automatically removed.",
+      "replaceRecipe": false,
+      "slots": {
+        "input": {
+          "kind": "ITEM",
+          "id": "industrial_colonies:cinnabar"
+        },
+        "output0": {
+          "kind": "ITEM",
+          "id": "create:cinder_flour",
+          "count": 2
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "7124e17a-fbe3-4b89-bd13-3782b13be983",
+      "type": "kjsgen:create_crushing",
+      "recipeId": "industrial_colonies:crushing_review/industrial_colonies/spodumene_rock",
+      "comment": "DRAFT quantity for review. Crushing only; no melting or vat recovery is assigned. Review before export; old parallel recipes are not automatically removed.",
+      "replaceRecipe": false,
+      "slots": {
+        "input": {
+          "kind": "ITEM",
+          "id": "industrial_colonies:spodumene_rock"
+        },
+        "output0": {
+          "kind": "ITEM",
+          "id": "tfmg:crushed_raw_lithium"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "0cc0a945-4907-476d-a46b-293c043b91f8",
+      "type": "kjsgen:create_crushing",
+      "recipeId": "industrial_colonies:crushing_review/industrial_colonies/spodumene_ore",
+      "comment": "DRAFT quantity for review. Crushing only; no melting or vat recovery is assigned. Review before export; old parallel recipes are not automatically removed.",
+      "replaceRecipe": false,
+      "slots": {
+        "input": {
+          "kind": "ITEM",
+          "id": "industrial_colonies:spodumene_ore"
+        },
+        "output0": {
+          "kind": "ITEM",
+          "id": "tfmg:crushed_raw_lithium",
+          "count": 3
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "7766bcf5-4c26-48c8-b455-893f3b32716b",
+      "type": "kjsgen:create_crushing",
+      "recipeId": "industrial_colonies:crushing_review/industrial_colonies/argentite",
+      "comment": "DRAFT quantity for review. Crushing only; no melting or vat recovery is assigned. Review before export; old parallel recipes are not automatically removed.",
+      "replaceRecipe": false,
+      "slots": {
+        "input": {
+          "kind": "ITEM",
+          "id": "industrial_colonies:argentite"
+        },
+        "output0": {
+          "kind": "ITEM",
+          "id": "create:crushed_raw_silver"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "e67d97e6-cf5e-469e-ac0f-c982215fea91",
+      "type": "kjsgen:create_crushing",
+      "recipeId": "industrial_colonies:crushing_review/industrial_colonies/rich_silver_ore",
+      "comment": "DRAFT quantity for review. Crushing only; no melting or vat recovery is assigned. Review before export; old parallel recipes are not automatically removed.",
+      "replaceRecipe": false,
+      "slots": {
+        "input": {
+          "kind": "ITEM",
+          "id": "industrial_colonies:rich_silver_ore"
+        },
+        "output0": {
+          "kind": "ITEM",
+          "id": "create:crushed_raw_silver",
+          "count": 2
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "c97ff1e4-e37b-4d7d-afb0-331811fec846",
+      "type": "kjsgen:create_crushing",
+      "recipeId": "industrial_colonies:crushing_review/industrial_colonies/wolframite_rock",
+      "comment": "DRAFT quantity for review. Crushing only; no melting or vat recovery is assigned. Review before export; old parallel recipes are not automatically removed.",
+      "replaceRecipe": false,
+      "slots": {
+        "input": {
+          "kind": "ITEM",
+          "id": "industrial_colonies:wolframite_rock"
+        },
+        "output0": {
+          "kind": "ITEM",
+          "id": "createmetallurgy:crushed_raw_tungsten"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "8d6d09ca-2268-4701-a489-e6a049e54602",
+      "type": "kjsgen:create_crushing",
+      "recipeId": "industrial_colonies:crushing_review/industrial_colonies/rich_wolframite_ore",
+      "comment": "DRAFT quantity for review. Crushing only; no melting or vat recovery is assigned. Review before export; old parallel recipes are not automatically removed.",
+      "replaceRecipe": false,
+      "slots": {
+        "input": {
+          "kind": "ITEM",
+          "id": "industrial_colonies:rich_wolframite_ore"
+        },
+        "output0": {
+          "kind": "ITEM",
+          "id": "createmetallurgy:crushed_raw_tungsten",
+          "count": 2
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "c1b67e26-ed35-424a-9960-3dbb19f1aa7f",
+      "type": "kjsgen:create_crushing",
+      "recipeId": "industrial_colonies:crushing_review/industrial_colonies/pentlandite",
+      "comment": "DRAFT quantity for review. Crushing only; no melting or vat recovery is assigned. Review before export; old parallel recipes are not automatically removed.",
+      "replaceRecipe": false,
+      "slots": {
+        "input": {
+          "kind": "ITEM",
+          "id": "industrial_colonies:pentlandite"
+        },
+        "output0": {
+          "kind": "ITEM",
+          "id": "create:crushed_raw_nickel",
+          "count": 2
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "5ceeed17-f595-483d-bd68-60dbf857bd0d",
+      "type": "kjsgen:create_crushing",
+      "recipeId": "industrial_colonies:crushing_review/industrial_colonies/rich_nickel_ore",
+      "comment": "DRAFT quantity for review. Crushing only; no melting or vat recovery is assigned. Review before export; old parallel recipes are not automatically removed.",
+      "replaceRecipe": false,
+      "slots": {
+        "input": {
+          "kind": "ITEM",
+          "id": "industrial_colonies:rich_nickel_ore"
+        },
+        "output0": {
+          "kind": "ITEM",
+          "id": "create:crushed_raw_nickel",
+          "count": 4
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "e0955bc7-79a0-4097-93ba-6494b2265d08",
+      "type": "kjsgen:create_crushing",
+      "recipeId": "industrial_colonies:crushing_review/industrial_colonies/galena",
+      "comment": "DRAFT quantity for review. Crushing only; no melting or vat recovery is assigned. Review before export; old parallel recipes are not automatically removed.",
+      "replaceRecipe": false,
+      "slots": {
+        "input": {
+          "kind": "ITEM",
+          "id": "industrial_colonies:galena"
+        },
+        "output0": {
+          "kind": "ITEM",
+          "id": "create:crushed_raw_lead",
+          "count": 3
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "bc19f71e-c76f-4dc8-8706-5d4fcc17001c",
+      "type": "kjsgen:create_crushing",
+      "recipeId": "industrial_colonies:crushing_review/industrial_colonies/rich_galena_ore",
+      "comment": "DRAFT quantity for review. Crushing only; no melting or vat recovery is assigned. Review before export; old parallel recipes are not automatically removed.",
+      "replaceRecipe": false,
+      "slots": {
+        "input": {
+          "kind": "ITEM",
+          "id": "industrial_colonies:rich_galena_ore"
+        },
+        "output0": {
+          "kind": "ITEM",
+          "id": "create:crushed_raw_lead",
+          "count": 6
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "8a6b5b16-93d8-4b7f-aad3-a887ddc3e7f8",
+      "type": "kjsgen:create_crushing",
+      "recipeId": "industrial_colonies:crushing_review/industrial_colonies/dolomite",
+      "comment": "DRAFT output and count; direct dust route bypasses old refining and requires review. Crushing only; no melting or vat recovery is assigned. Review before export; old parallel recipes are not automatically removed.",
+      "replaceRecipe": false,
+      "slots": {
+        "input": {
+          "kind": "ITEM",
+          "id": "industrial_colonies:dolomite"
+        },
+        "output0": {
+          "kind": "ITEM",
+          "id": "nuclearcraft:magnesium_dust",
+          "count": 2
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "23fef127-53e1-412d-b21b-c30b297b351d",
+      "type": "kjsgen:create_crushing",
+      "recipeId": "industrial_colonies:crushing_review/industrial_colonies/graphite_rock",
+      "comment": "AGREED output/count. Crushing only; no melting or vat recovery is assigned. Review before export; old parallel recipes are not automatically removed.",
+      "replaceRecipe": false,
+      "slots": {
+        "input": {
+          "kind": "ITEM",
+          "id": "industrial_colonies:graphite_rock"
+        },
+        "output0": {
+          "kind": "ITEM",
+          "id": "nuclearcraft:graphite_dust"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "3fa0fb5d-cb87-40ed-abb0-eca24833616d",
+      "type": "kjsgen:create_crushing",
+      "recipeId": "industrial_colonies:crushing_review/industrial_colonies/phosphate_rock",
+      "comment": "AGREED output/count; existing custom dust explicitly accepted. Crushing only; no melting or vat recovery is assigned. Review before export; old parallel recipes are not automatically removed.",
+      "replaceRecipe": false,
+      "slots": {
+        "input": {
+          "kind": "ITEM",
+          "id": "industrial_colonies:phosphate_rock"
+        },
+        "output0": {
+          "kind": "ITEM",
+          "id": "industrial_colonies:phosphate_dust"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "b3b9eee7-ebb4-4b38-94f9-45ebdb742a83",
+      "type": "kjsgen:create_crushing",
+      "recipeId": "industrial_colonies:crushing_review/industrial_colonies/diamond_ore",
+      "comment": "DRAFT recovery chance: one custom diamond ore -\u003e one intact diamond at75%. User selected damage risk from crushing;75% is an adjustable starting proposal. No dust byproduct or guaranteed alternate route added. Worldgen/mining drops unchanged; review before export.",
+      "replaceRecipe": false,
+      "slots": {
+        "input": {
+          "kind": "ITEM",
+          "id": "industrial_colonies:diamond_ore"
+        },
+        "output0": {
+          "kind": "ITEM",
+          "id": "minecraft:diamond",
+          "chance": 0.75
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "41261d09-9fbd-4265-808e-79e2f2c406ba",
+      "type": "kjsgen:create_crushing",
+      "recipeId": "industrial_colonies:crushing_review/industrial_colonies/cobalt_ore",
+      "comment": "DRAFT output/count; downstream refining and full-ingot dust recipes need review. Crushing only; no melting or vat recovery is assigned. Review before export; old parallel recipes are not automatically removed.",
+      "replaceRecipe": false,
+      "slots": {
+        "input": {
+          "kind": "ITEM",
+          "id": "industrial_colonies:cobalt_ore"
+        },
+        "output0": {
+          "kind": "ITEM",
+          "id": "nuclearcraft:cobalt_dust"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "572eef68-9eb2-45a5-b0e5-fc42aa274b40",
+      "type": "kjsgen:create_crushing",
+      "recipeId": "industrial_colonies:crushing_review/industrial_colonies/uraninite",
+      "comment": "DRAFT count; retain Mekanism ownership of downstream uranium processing. Crushing only; no melting or vat recovery is assigned. Review before export; old parallel recipes are not automatically removed.",
+      "replaceRecipe": false,
+      "slots": {
+        "input": {
+          "kind": "ITEM",
+          "id": "industrial_colonies:uraninite"
+        },
+        "output0": {
+          "kind": "ITEM",
+          "id": "create:crushed_raw_uranium"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "1c0d1a7d-4de1-456c-abcc-dc0019a88ecb",
+      "type": "kjsgen:create_crushing",
+      "recipeId": "industrial_colonies:crushing_review/industrial_colonies/thorium_ore",
+      "comment": "DRAFT output/count; downstream nuclear processing needs review. Crushing only; no melting or vat recovery is assigned. Review before export; old parallel recipes are not automatically removed.",
+      "replaceRecipe": false,
+      "slots": {
+        "input": {
+          "kind": "ITEM",
+          "id": "industrial_colonies:thorium_ore"
+        },
+        "output0": {
+          "kind": "ITEM",
+          "id": "nuclearcraft:thorium_dust"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "3eef9d24-2616-40ce-bf76-8976b87bdf6d",
+      "type": "kjsgen:create_crushing",
+      "recipeId": "industrial_colonies:crushing_review/industrial_colonies/ilmenite",
+      "comment": "DRAFT quantity for review. Crushing only; no melting or vat recovery is assigned. Review before export; old parallel recipes are not automatically removed.",
+      "replaceRecipe": false,
+      "slots": {
+        "input": {
+          "kind": "ITEM",
+          "id": "industrial_colonies:ilmenite"
+        },
+        "output0": {
+          "kind": "ITEM",
+          "id": "rocketnautics:crushed_raw_titanium",
+          "count": 2
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "399ea2b8-df46-454a-810c-52b17097280b",
+      "type": "kjsgen:create_crushing",
+      "recipeId": "industrial_colonies:crushing_review/industrial_colonies/rich_ilmenite_ore",
+      "comment": "DRAFT quantity for review. Crushing only; no melting or vat recovery is assigned. Review before export; old parallel recipes are not automatically removed.",
+      "replaceRecipe": false,
+      "slots": {
+        "input": {
+          "kind": "ITEM",
+          "id": "industrial_colonies:rich_ilmenite_ore"
+        },
+        "output0": {
+          "kind": "ITEM",
+          "id": "rocketnautics:crushed_raw_titanium",
+          "count": 4
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "5cdb9777-cb0e-4b0f-9ff6-e125c1c3de0b",
+      "type": "kjsgen:create_crushing",
+      "recipeId": "industrial_colonies:crushing_review/industrial_colonies/bertrandite",
+      "comment": "DRAFT output/count; downstream refining and full-ingot dust recipes need review. Crushing only; no melting or vat recovery is assigned. Review before export; old parallel recipes are not automatically removed.",
+      "replaceRecipe": false,
+      "slots": {
+        "input": {
+          "kind": "ITEM",
+          "id": "industrial_colonies:bertrandite"
+        },
+        "output0": {
+          "kind": "ITEM",
+          "id": "nuclearcraft:beryllium_dust"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "a760ba5b-a4a0-42ab-973d-87261e2cd51b",
+      "type": "kjsgen:create_crushing",
+      "recipeId": "industrial_colonies:crushing_review/industrial_colonies/borax_rock",
+      "comment": "DRAFT output/count; direct dust versus borax intermediate requires review. Crushing only; no melting or vat recovery is assigned. Review before export; old parallel recipes are not automatically removed.",
+      "replaceRecipe": false,
+      "slots": {
+        "input": {
+          "kind": "ITEM",
+          "id": "industrial_colonies:borax_rock"
+        },
+        "output0": {
+          "kind": "ITEM",
+          "id": "nuclearcraft:boron_dust"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "a7c88bba-6981-415d-bd7a-735fbec3909d",
+      "type": "kjsgen:create_crushing",
+      "recipeId": "industrial_colonies:crushing_review/industrial_colonies/cassiterite",
+      "comment": "DRAFT quantity for review. Crushing only; no melting or vat recovery is assigned. Review before export; old parallel recipes are not automatically removed.",
+      "replaceRecipe": false,
+      "slots": {
+        "input": {
+          "kind": "ITEM",
+          "id": "industrial_colonies:cassiterite"
+        },
+        "output0": {
+          "kind": "ITEM",
+          "id": "create:crushed_raw_tin",
+          "count": 2
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "38ecc78f-3513-4f88-ba2c-02f2e54d039f",
+      "type": "kjsgen:create_crushing",
+      "recipeId": "industrial_colonies:crushing_review/industrial_colonies/rich_tin_ore",
+      "comment": "DRAFT quantity for review. Crushing only; no melting or vat recovery is assigned. Review before export; old parallel recipes are not automatically removed.",
+      "replaceRecipe": false,
+      "slots": {
+        "input": {
+          "kind": "ITEM",
+          "id": "industrial_colonies:rich_tin_ore"
+        },
+        "output0": {
+          "kind": "ITEM",
+          "id": "create:crushed_raw_tin",
+          "count": 4
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "8c67cb42-cb56-4214-a26a-691622705bb5",
+      "type": "kjsgen:create_crushing",
+      "recipeId": "industrial_colonies:crushing_review/minecraft/gold_ore",
+      "comment": "DRAFT quantity; separate from collected river flakes and finished gold dust. Crushing only; no melting or vat recovery is assigned. Review before export; old parallel recipes are not automatically removed.",
+      "replaceRecipe": false,
+      "slots": {
+        "input": {
+          "kind": "ITEM",
+          "id": "minecraft:gold_ore"
+        },
+        "output0": {
+          "kind": "ITEM",
+          "id": "create:crushed_raw_gold"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "a98421a6-fb90-4679-8a11-c51cc810690e",
+      "type": "kjsgen:create_crushing",
+      "recipeId": "industrial_colonies:crushing_review/minecraft/deepslate_gold_ore",
+      "comment": "DRAFT quantity; separate from collected river flakes and finished gold dust. Crushing only; no melting or vat recovery is assigned. Review before export; old parallel recipes are not automatically removed.",
+      "replaceRecipe": false,
+      "slots": {
+        "input": {
+          "kind": "ITEM",
+          "id": "minecraft:deepslate_gold_ore"
+        },
+        "output0": {
+          "kind": "ITEM",
+          "id": "create:crushed_raw_gold"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "e97d550b-da86-40a3-a2d8-434eff85d1d8",
+      "type": "kjsgen:create_crushing",
+      "recipeId": "industrial_colonies:crushing_review/industrial_colonies/rich_hematite",
+      "comment": "Previously proposed iron crushing amount. Crushing only; no melting or vat recovery is assigned. Review before export; old parallel recipes are not automatically removed.",
+      "replaceRecipe": false,
+      "slots": {
+        "input": {
+          "kind": "ITEM",
+          "id": "industrial_colonies:rich_hematite"
+        },
+        "output0": {
+          "kind": "ITEM",
+          "id": "create:crushed_raw_iron",
+          "count": 9
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "f975d5ae-ef05-535d-8f9d-bfc630b61026",
+      "type": "industrial_colonies:tfmg_industrial_blasting",
+      "recipeId": "industrial_colonies:ore_recovery/iron/industrial_blasting",
+      "comment": "Ore recovery: 1 create:crushed_raw_iron -\u003e 7mB iron. Slag10mB/time/hot-air defaults for review.90mB/ingot. Iron output is molten iron, steel separate. No dirty-dust changes.",
+      "replaceRecipe": false,
+      "slots": {
+        "input1": {
+          "kind": "ITEM",
+          "id": "create:crushed_raw_iron"
+        },
+        "output1": {
+          "kind": "FLUID",
+          "id": "createmetallurgy:molten_iron",
+          "amount": 7
+        },
+        "output2": {
+          "kind": "FLUID",
+          "id": "tfmg:molten_slag",
+          "amount": 10
+        }
+      },
+      "params": {
+        "processingTime": "200",
+        "hotAirUsage": "20"
+      }
+    },
+    {
+      "uid": "62accd0e-4947-5f26-a836-6e68be4d1d3b",
+      "type": "industrial_colonies:tfmg_chemical_vat",
+      "recipeId": "industrial_colonies:ore_recovery/zinc/vat",
+      "comment": "Ore recovery: 1 create:crushed_raw_zinc -\u003e 10mB zinc. Per machine input, not per original ore.90mB/ingot. No automatic steel. Machine/time/reagent and CO2 byproduct defaults are draft; audit before export. Dirty-dust processing unchanged. Draft reagent proposal:1 Coal Coke Dust +1 Limesand per stated batch;10mB slag. Balance and chemistry review before export; metal yield unchanged. Draft exhaust:10mB Carbon Dioxide per stated batch; pending reagent/mass-balance review. TFMG fluid used for vat compatibility; Mekanism chemical unification remains pending. Latest rule: molten processing requires Fireproof Vat. Ingredients/yields retained; existing attachment and heat requirements retained.",
+      "replaceRecipe": false,
+      "slots": {
+        "input1": {
+          "kind": "ITEM",
+          "id": "create:crushed_raw_zinc"
+        },
+        "output1": {
+          "kind": "FLUID",
+          "id": "createmetallurgy:molten_zinc",
+          "amount": 10
+        },
+        "input2": {
+          "kind": "ITEM",
+          "id": "tfmg:coal_coke_dust"
+        },
+        "input3": {
+          "kind": "ITEM",
+          "id": "tfmg:limesand"
+        },
+        "output2": {
+          "kind": "FLUID",
+          "id": "tfmg:molten_slag",
+          "amount": 10
+        },
+        "output3": {
+          "kind": "FLUID",
+          "id": "tfmg:carbon_dioxide",
+          "amount": 10
+        }
+      },
+      "params": {
+        "allowedVatTypes": "\u0027tfmg:firebrick_lined_vat\u0027",
+        "machineSetup": "\u0027tfmg:mixing\u0027",
+        "processingTime": "200",
+        "heat": "heated",
+        "heatLevel": "0",
+        "minSize": "3",
+        "__template": "event.recipes.tfmg.vat_machine_recipe([{inputs}], [{outputs}]).processingTime({param:processingTime}){opt_call:heat}.machines({param:machineSetup}).minSize({param:minSize}).heatLevel({param:heatLevel}).allowedVatTypes({param:allowedVatTypes})"
+      }
+    },
+    {
+      "uid": "b58570f8-b8f0-555b-a355-1b27a0f8740e",
+      "type": "industrial_colonies:tfmg_industrial_blasting",
+      "recipeId": "industrial_colonies:ore_recovery/zinc/industrial_blasting",
+      "comment": "Ore recovery: 1 create:crushed_raw_zinc -\u003e 7mB zinc. Slag10mB/time/hot-air defaults for review.90mB/ingot. Iron output is molten iron, steel separate. No dirty-dust changes.",
+      "replaceRecipe": false,
+      "slots": {
+        "input1": {
+          "kind": "ITEM",
+          "id": "create:crushed_raw_zinc"
+        },
+        "output1": {
+          "kind": "FLUID",
+          "id": "createmetallurgy:molten_zinc",
+          "amount": 7
+        },
+        "output2": {
+          "kind": "FLUID",
+          "id": "tfmg:molten_slag",
+          "amount": 10
+        }
+      },
+      "params": {
+        "processingTime": "200",
+        "hotAirUsage": "20"
+      }
+    },
+    {
+      "uid": "ba7976ab-c7a8-5381-bec1-5d71ca169d16",
+      "type": "industrial_colonies:tfmg_chemical_vat",
+      "recipeId": "industrial_colonies:ore_recovery/copper/vat",
+      "comment": "Ore recovery: 1 create:crushed_raw_copper -\u003e 10mB copper. Per machine input, not per original ore.90mB/ingot. No automatic steel. Machine/time/reagent and CO2 byproduct defaults are draft; audit before export. Dirty-dust processing unchanged. Draft reagent proposal:1 Coal Coke Dust +1 Limesand per stated batch;10mB slag. Balance and chemistry review before export; metal yield unchanged. Draft exhaust:10mB Carbon Dioxide per stated batch; pending reagent/mass-balance review. TFMG fluid used for vat compatibility; Mekanism chemical unification remains pending. Latest rule: molten processing requires Fireproof Vat. Ingredients/yields retained; existing attachment and heat requirements retained.",
+      "replaceRecipe": false,
+      "slots": {
+        "input1": {
+          "kind": "ITEM",
+          "id": "create:crushed_raw_copper"
+        },
+        "output1": {
+          "kind": "FLUID",
+          "id": "createmetallurgy:molten_copper",
+          "amount": 10
+        },
+        "input2": {
+          "kind": "ITEM",
+          "id": "tfmg:coal_coke_dust"
+        },
+        "input3": {
+          "kind": "ITEM",
+          "id": "tfmg:limesand"
+        },
+        "output2": {
+          "kind": "FLUID",
+          "id": "tfmg:molten_slag",
+          "amount": 10
+        },
+        "output3": {
+          "kind": "FLUID",
+          "id": "tfmg:carbon_dioxide",
+          "amount": 10
+        }
+      },
+      "params": {
+        "allowedVatTypes": "\u0027tfmg:firebrick_lined_vat\u0027",
+        "machineSetup": "\u0027tfmg:mixing\u0027",
+        "processingTime": "200",
+        "heat": "heated",
+        "heatLevel": "0",
+        "minSize": "3",
+        "__template": "event.recipes.tfmg.vat_machine_recipe([{inputs}], [{outputs}]).processingTime({param:processingTime}){opt_call:heat}.machines({param:machineSetup}).minSize({param:minSize}).heatLevel({param:heatLevel}).allowedVatTypes({param:allowedVatTypes})"
+      }
+    },
+    {
+      "uid": "196ecc93-71ea-517f-868c-a44671043010",
+      "type": "industrial_colonies:tfmg_industrial_blasting",
+      "recipeId": "industrial_colonies:ore_recovery/copper/industrial_blasting",
+      "comment": "Ore recovery: 1 create:crushed_raw_copper -\u003e 7mB copper. Slag10mB/time/hot-air defaults for review.90mB/ingot. Iron output is molten iron, steel separate. No dirty-dust changes.",
+      "replaceRecipe": false,
+      "slots": {
+        "input1": {
+          "kind": "ITEM",
+          "id": "create:crushed_raw_copper"
+        },
+        "output1": {
+          "kind": "FLUID",
+          "id": "createmetallurgy:molten_copper",
+          "amount": 7
+        },
+        "output2": {
+          "kind": "FLUID",
+          "id": "tfmg:molten_slag",
+          "amount": 10
+        }
+      },
+      "params": {
+        "processingTime": "200",
+        "hotAirUsage": "20"
+      }
+    },
+    {
+      "uid": "80a15a61-ff70-5ead-91b8-4199d16640e4",
+      "type": "industrial_colonies:tfmg_chemical_vat",
+      "recipeId": "industrial_colonies:ore_recovery/aluminum/vat",
+      "comment": "Ore recovery: 1 tfmg:bauxite_powder -\u003e 10mB aluminum. Per machine input, not per original ore.90mB/ingot. No automatic steel. Machine/time/reagent and CO2 byproduct defaults are draft; audit before export. Dirty-dust processing unchanged. Latest rule: molten processing requires Fireproof Vat. Ingredients/yields retained; existing attachment and heat requirements retained.",
+      "replaceRecipe": false,
+      "slots": {
+        "input1": {
+          "kind": "ITEM",
+          "id": "tfmg:bauxite_powder"
+        },
+        "output1": {
+          "kind": "FLUID",
+          "id": "createmetallurgy:molten_aluminum",
+          "amount": 10
+        },
+        "output2": {
+          "kind": "FLUID",
+          "id": "tfmg:carbon_dioxide",
+          "amount": 10
+        }
+      },
+      "params": {
+        "allowedVatTypes": "\u0027tfmg:firebrick_lined_vat\u0027",
+        "machineSetup": "\u0027tfmg:centrifuge\u0027, \u0027tfmg:electrode\u0027, \u0027tfmg:electrode\u0027",
+        "processingTime": "200",
+        "heat": "heated",
+        "heatLevel": "0",
+        "minSize": "3",
+        "__template": "event.recipes.tfmg.vat_machine_recipe([{inputs}], [{outputs}]).processingTime({param:processingTime}){opt_call:heat}.machines({param:machineSetup}).minSize({param:minSize}).heatLevel({param:heatLevel}).allowedVatTypes({param:allowedVatTypes})"
+      }
+    },
+    {
+      "uid": "8c0399d1-03d4-5a03-92b5-3b72f54da103",
+      "type": "industrial_colonies:tfmg_chemical_vat",
+      "recipeId": "industrial_colonies:ore_recovery/lead/vat",
+      "comment": "Ore recovery: 1 create:crushed_raw_lead -\u003e 10mB lead. Per machine input, not per original ore.90mB/ingot. No automatic steel. Machine/time/reagent and CO2 byproduct defaults are draft; audit before export. Dirty-dust processing unchanged. Draft reagent proposal:1 Coal Coke Dust +1 Limesand per stated batch;10mB slag. Balance and chemistry review before export; metal yield unchanged. Draft exhaust:10mB Carbon Dioxide per stated batch; pending reagent/mass-balance review. TFMG fluid used for vat compatibility; Mekanism chemical unification remains pending. Latest rule: molten processing requires Fireproof Vat. Ingredients/yields retained; existing attachment and heat requirements retained.",
+      "replaceRecipe": false,
+      "slots": {
+        "input1": {
+          "kind": "ITEM",
+          "id": "create:crushed_raw_lead"
+        },
+        "output1": {
+          "kind": "FLUID",
+          "id": "createmetallurgy:molten_lead",
+          "amount": 10
+        },
+        "input2": {
+          "kind": "ITEM",
+          "id": "tfmg:coal_coke_dust"
+        },
+        "input3": {
+          "kind": "ITEM",
+          "id": "tfmg:limesand"
+        },
+        "output2": {
+          "kind": "FLUID",
+          "id": "tfmg:molten_slag",
+          "amount": 10
+        },
+        "output3": {
+          "kind": "FLUID",
+          "id": "tfmg:carbon_dioxide",
+          "amount": 10
+        }
+      },
+      "params": {
+        "allowedVatTypes": "\u0027tfmg:firebrick_lined_vat\u0027",
+        "machineSetup": "\u0027tfmg:mixing\u0027",
+        "processingTime": "200",
+        "heat": "heated",
+        "heatLevel": "0",
+        "minSize": "3",
+        "__template": "event.recipes.tfmg.vat_machine_recipe([{inputs}], [{outputs}]).processingTime({param:processingTime}){opt_call:heat}.machines({param:machineSetup}).minSize({param:minSize}).heatLevel({param:heatLevel}).allowedVatTypes({param:allowedVatTypes})"
+      }
+    },
+    {
+      "uid": "9c6d56a8-fb5c-58e4-93be-0a8b7fd9dd62",
+      "type": "industrial_colonies:tfmg_industrial_blasting",
+      "recipeId": "industrial_colonies:ore_recovery/lead/industrial_blasting",
+      "comment": "Ore recovery: 1 create:crushed_raw_lead -\u003e 7mB lead. Slag10mB/time/hot-air defaults for review.90mB/ingot. Iron output is molten iron, steel separate. No dirty-dust changes.",
+      "replaceRecipe": false,
+      "slots": {
+        "input1": {
+          "kind": "ITEM",
+          "id": "create:crushed_raw_lead"
+        },
+        "output1": {
+          "kind": "FLUID",
+          "id": "createmetallurgy:molten_lead",
+          "amount": 7
+        },
+        "output2": {
+          "kind": "FLUID",
+          "id": "tfmg:molten_slag",
+          "amount": 10
+        }
+      },
+      "params": {
+        "processingTime": "200",
+        "hotAirUsage": "20"
+      }
+    },
+    {
+      "uid": "5af7f34e-b0d1-529f-aec9-1459b19171d4",
+      "type": "industrial_colonies:tfmg_chemical_vat",
+      "recipeId": "industrial_colonies:ore_recovery/tin/vat",
+      "comment": "Ore recovery: 1 create:crushed_raw_tin -\u003e 10mB tin. Per machine input, not per original ore.90mB/ingot. No automatic steel. Machine/time/reagent and CO2 byproduct defaults are draft; audit before export. Dirty-dust processing unchanged. Draft reagent proposal:1 Coal Coke Dust +1 Limesand per stated batch;10mB slag. Balance and chemistry review before export; metal yield unchanged. Draft exhaust:10mB Carbon Dioxide per stated batch; pending reagent/mass-balance review. TFMG fluid used for vat compatibility; Mekanism chemical unification remains pending. Latest rule: molten processing requires Fireproof Vat. Ingredients/yields retained; existing attachment and heat requirements retained.",
+      "replaceRecipe": false,
+      "slots": {
+        "input1": {
+          "kind": "ITEM",
+          "id": "create:crushed_raw_tin"
+        },
+        "output1": {
+          "kind": "FLUID",
+          "id": "createmetallurgy:molten_tin",
+          "amount": 10
+        },
+        "input2": {
+          "kind": "ITEM",
+          "id": "tfmg:coal_coke_dust"
+        },
+        "input3": {
+          "kind": "ITEM",
+          "id": "tfmg:limesand"
+        },
+        "output2": {
+          "kind": "FLUID",
+          "id": "tfmg:molten_slag",
+          "amount": 10
+        },
+        "output3": {
+          "kind": "FLUID",
+          "id": "tfmg:carbon_dioxide",
+          "amount": 10
+        }
+      },
+      "params": {
+        "allowedVatTypes": "\u0027tfmg:firebrick_lined_vat\u0027",
+        "machineSetup": "\u0027tfmg:mixing\u0027",
+        "processingTime": "200",
+        "heat": "heated",
+        "heatLevel": "0",
+        "minSize": "3",
+        "__template": "event.recipes.tfmg.vat_machine_recipe([{inputs}], [{outputs}]).processingTime({param:processingTime}){opt_call:heat}.machines({param:machineSetup}).minSize({param:minSize}).heatLevel({param:heatLevel}).allowedVatTypes({param:allowedVatTypes})"
+      }
+    },
+    {
+      "uid": "f4130394-f0ab-582b-8ffe-8939195a12df",
+      "type": "industrial_colonies:tfmg_industrial_blasting",
+      "recipeId": "industrial_colonies:ore_recovery/tin/industrial_blasting",
+      "comment": "Ore recovery: 1 create:crushed_raw_tin -\u003e 7mB tin. Slag10mB/time/hot-air defaults for review.90mB/ingot. Iron output is molten iron, steel separate. No dirty-dust changes.",
+      "replaceRecipe": false,
+      "slots": {
+        "input1": {
+          "kind": "ITEM",
+          "id": "create:crushed_raw_tin"
+        },
+        "output1": {
+          "kind": "FLUID",
+          "id": "createmetallurgy:molten_tin",
+          "amount": 7
+        },
+        "output2": {
+          "kind": "FLUID",
+          "id": "tfmg:molten_slag",
+          "amount": 10
+        }
+      },
+      "params": {
+        "processingTime": "200",
+        "hotAirUsage": "20"
+      }
+    },
+    {
+      "uid": "373110c1-cea4-5373-9cb5-15b8973e33ac",
+      "type": "industrial_colonies:tfmg_chemical_vat",
+      "recipeId": "industrial_colonies:ore_recovery/nickel/vat",
+      "comment": "Ore recovery: 1 create:crushed_raw_nickel -\u003e 10mB nickel. Per machine input, not per original ore.90mB/ingot. No automatic steel. Machine/time/reagent and CO2 byproduct defaults are draft; audit before export. Dirty-dust processing unchanged. Draft reagent proposal:1 Coal Coke Dust +1 Limesand per stated batch;10mB slag. Balance and chemistry review before export; metal yield unchanged. Draft exhaust:10mB Carbon Dioxide per stated batch; pending reagent/mass-balance review. TFMG fluid used for vat compatibility; Mekanism chemical unification remains pending.",
+      "replaceRecipe": false,
+      "slots": {
+        "input1": {
+          "kind": "ITEM",
+          "id": "create:crushed_raw_nickel"
+        },
+        "output1": {
+          "kind": "FLUID",
+          "id": "createmetallurgy:molten_nickel",
+          "amount": 10
+        },
+        "input2": {
+          "kind": "ITEM",
+          "id": "tfmg:coal_coke_dust"
+        },
+        "input3": {
+          "kind": "ITEM",
+          "id": "tfmg:limesand"
+        },
+        "output2": {
+          "kind": "FLUID",
+          "id": "tfmg:molten_slag",
+          "amount": 10
+        },
+        "output3": {
+          "kind": "FLUID",
+          "id": "tfmg:carbon_dioxide",
+          "amount": 10
+        }
+      },
+      "params": {
+        "allowedVatTypes": "\u0027tfmg:firebrick_lined_vat\u0027",
+        "machineSetup": "\u0027tfmg:graphite_electrode\u0027, \u0027tfmg:graphite_electrode\u0027, \u0027tfmg:graphite_electrode\u0027",
+        "processingTime": "200",
+        "heat": "none",
+        "heatLevel": "0",
+        "minSize": "3",
+        "__template": "event.recipes.tfmg.vat_machine_recipe([{inputs}], [{outputs}]).processingTime({param:processingTime}){opt_call:heat}.machines({param:machineSetup}).minSize({param:minSize}).heatLevel({param:heatLevel}).allowedVatTypes({param:allowedVatTypes})"
+      }
+    },
+    {
+      "uid": "e7d1f93c-1c4e-5c62-8d53-062eab46bf86",
+      "type": "industrial_colonies:tfmg_industrial_blasting",
+      "recipeId": "industrial_colonies:ore_recovery/nickel/industrial_blasting",
+      "comment": "Ore recovery: 1 create:crushed_raw_nickel -\u003e 7mB nickel. Slag10mB/time/hot-air defaults for review.90mB/ingot. Iron output is molten iron, steel separate. No dirty-dust changes.",
+      "replaceRecipe": false,
+      "slots": {
+        "input1": {
+          "kind": "ITEM",
+          "id": "create:crushed_raw_nickel"
+        },
+        "output1": {
+          "kind": "FLUID",
+          "id": "createmetallurgy:molten_nickel",
+          "amount": 7
+        },
+        "output2": {
+          "kind": "FLUID",
+          "id": "tfmg:molten_slag",
+          "amount": 10
+        }
+      },
+      "params": {
+        "processingTime": "200",
+        "hotAirUsage": "20"
+      }
+    },
+    {
+      "uid": "2fcecf1d-6e15-59ae-8fe1-8883836b6ac9",
+      "type": "industrial_colonies:tfmg_chemical_vat",
+      "recipeId": "industrial_colonies:ore_recovery/silver/vat",
+      "comment": "Ore recovery: 1 create:crushed_raw_silver -\u003e 10mB silver. Per machine input, not per original ore.90mB/ingot. No automatic steel. Machine/time/reagent and CO2 byproduct defaults are draft; audit before export. Dirty-dust processing unchanged. Latest rule: molten processing requires Fireproof Vat. Ingredients/yields retained; existing attachment and heat requirements retained.",
+      "replaceRecipe": false,
+      "slots": {
+        "input1": {
+          "kind": "ITEM",
+          "id": "create:crushed_raw_silver"
+        },
+        "output1": {
+          "kind": "FLUID",
+          "id": "createmetallurgy:molten_silver",
+          "amount": 10
+        }
+      },
+      "params": {
+        "allowedVatTypes": "\u0027tfmg:firebrick_lined_vat\u0027",
+        "machineSetup": "\u0027tfmg:mixing\u0027",
+        "processingTime": "200",
+        "heat": "heated",
+        "heatLevel": "0",
+        "minSize": "3",
+        "__template": "event.recipes.tfmg.vat_machine_recipe([{inputs}], [{outputs}]).processingTime({param:processingTime}){opt_call:heat}.machines({param:machineSetup}).minSize({param:minSize}).heatLevel({param:heatLevel}).allowedVatTypes({param:allowedVatTypes})"
+      }
+    },
+    {
+      "uid": "fb5fbc36-036d-5e74-9e43-796f2ad5c864",
+      "type": "industrial_colonies:tfmg_industrial_blasting",
+      "recipeId": "industrial_colonies:ore_recovery/silver/industrial_blasting",
+      "comment": "Ore recovery: 1 create:crushed_raw_silver -\u003e 7mB silver. Slag10mB/time/hot-air defaults for review.90mB/ingot. Iron output is molten iron, steel separate. No dirty-dust changes.",
+      "replaceRecipe": false,
+      "slots": {
+        "input1": {
+          "kind": "ITEM",
+          "id": "create:crushed_raw_silver"
+        },
+        "output1": {
+          "kind": "FLUID",
+          "id": "createmetallurgy:molten_silver",
+          "amount": 7
+        },
+        "output2": {
+          "kind": "FLUID",
+          "id": "tfmg:molten_slag",
+          "amount": 10
+        }
+      },
+      "params": {
+        "processingTime": "200",
+        "hotAirUsage": "20"
+      }
+    },
+    {
+      "uid": "d8653b21-bd06-532d-996f-724d3bbf4abd",
+      "type": "industrial_colonies:tfmg_chemical_vat",
+      "recipeId": "industrial_colonies:ore_recovery/gold/vat",
+      "comment": "Ore recovery: 1 create:crushed_raw_gold -\u003e 10mB gold. Per machine input, not per original ore.90mB/ingot. No automatic steel. Machine/time/reagent and CO2 byproduct defaults are draft; audit before export. Dirty-dust processing unchanged. Latest rule: molten processing requires Fireproof Vat. Ingredients/yields retained; existing attachment and heat requirements retained.",
+      "replaceRecipe": false,
+      "slots": {
+        "input1": {
+          "kind": "ITEM",
+          "id": "create:crushed_raw_gold"
+        },
+        "output1": {
+          "kind": "FLUID",
+          "id": "createmetallurgy:molten_gold",
+          "amount": 10
+        }
+      },
+      "params": {
+        "allowedVatTypes": "\u0027tfmg:firebrick_lined_vat\u0027",
+        "machineSetup": "\u0027tfmg:mixing\u0027",
+        "processingTime": "200",
+        "heat": "heated",
+        "heatLevel": "0",
+        "minSize": "3",
+        "__template": "event.recipes.tfmg.vat_machine_recipe([{inputs}], [{outputs}]).processingTime({param:processingTime}){opt_call:heat}.machines({param:machineSetup}).minSize({param:minSize}).heatLevel({param:heatLevel}).allowedVatTypes({param:allowedVatTypes})"
+      }
+    },
+    {
+      "uid": "fb79a3bf-dd3b-5732-85a2-1e8c4680f040",
+      "type": "industrial_colonies:tfmg_industrial_blasting",
+      "recipeId": "industrial_colonies:ore_recovery/gold/industrial_blasting",
+      "comment": "Ore recovery: 1 create:crushed_raw_gold -\u003e 7mB gold. Slag10mB/time/hot-air defaults for review.90mB/ingot. Iron output is molten iron, steel separate. No dirty-dust changes.",
+      "replaceRecipe": false,
+      "slots": {
+        "input1": {
+          "kind": "ITEM",
+          "id": "create:crushed_raw_gold"
+        },
+        "output1": {
+          "kind": "FLUID",
+          "id": "createmetallurgy:molten_gold",
+          "amount": 7
+        },
+        "output2": {
+          "kind": "FLUID",
+          "id": "tfmg:molten_slag",
+          "amount": 10
+        }
+      },
+      "params": {
+        "processingTime": "200",
+        "hotAirUsage": "20"
+      }
+    },
+    {
+      "uid": "25d30d19-5d07-5625-8d57-74bcddd3de8e",
+      "type": "industrial_colonies:tfmg_chemical_vat",
+      "recipeId": "industrial_colonies:ore_recovery/titanium/vat",
+      "comment": "Ore recovery: 1 rocketnautics:crushed_raw_titanium -\u003e 10mB titanium. Per machine input, not per original ore.90mB/ingot. No automatic steel. Machine/time/reagent and CO2 byproduct defaults are draft; audit before export. Dirty-dust processing unchanged.",
+      "replaceRecipe": false,
+      "slots": {
+        "input1": {
+          "kind": "ITEM",
+          "id": "rocketnautics:crushed_raw_titanium"
+        },
+        "output1": {
+          "kind": "FLUID",
+          "id": "industrial_colonies:molten_titanium",
+          "amount": 10
+        }
+      },
+      "params": {
+        "allowedVatTypes": "\u0027tfmg:firebrick_lined_vat\u0027",
+        "machineSetup": "\u0027tfmg:graphite_electrode\u0027, \u0027tfmg:graphite_electrode\u0027, \u0027tfmg:graphite_electrode\u0027",
+        "processingTime": "200",
+        "heat": "none",
+        "heatLevel": "0",
+        "minSize": "3",
+        "__template": "event.recipes.tfmg.vat_machine_recipe([{inputs}], [{outputs}]).processingTime({param:processingTime}){opt_call:heat}.machines({param:machineSetup}).minSize({param:minSize}).heatLevel({param:heatLevel}).allowedVatTypes({param:allowedVatTypes})"
+      }
+    },
+    {
+      "uid": "180aba90-c104-5056-9432-d91de73db553",
+      "type": "industrial_colonies:tfmg_industrial_blasting",
+      "recipeId": "industrial_colonies:ore_recovery/titanium/industrial_blasting",
+      "comment": "Ore recovery: 1 rocketnautics:crushed_raw_titanium -\u003e 7mB titanium. Slag10mB/time/hot-air defaults for review.90mB/ingot. Iron output is molten iron, steel separate. No dirty-dust changes.",
+      "replaceRecipe": false,
+      "slots": {
+        "input1": {
+          "kind": "ITEM",
+          "id": "rocketnautics:crushed_raw_titanium"
+        },
+        "output1": {
+          "kind": "FLUID",
+          "id": "industrial_colonies:molten_titanium",
+          "amount": 7
+        },
+        "output2": {
+          "kind": "FLUID",
+          "id": "tfmg:molten_slag",
+          "amount": 10
+        }
+      },
+      "params": {
+        "processingTime": "200",
+        "hotAirUsage": "20"
+      }
+    },
+    {
+      "uid": "313ba39b-fbf0-594e-8846-33be87fa580a",
+      "type": "industrial_colonies:tfmg_chemical_vat",
+      "recipeId": "industrial_colonies:ore_recovery/chromium/vat",
+      "comment": "Ore recovery: 4 nuclearcraft:chromium_dust -\u003e 90mB chromium. Per machine input, not per original ore.90mB/ingot. No automatic steel. Machine/time/reagent and CO2 byproduct defaults are draft; audit before export. Dirty-dust processing unchanged. Draft reagent proposal:1 Coal Coke Dust +1 Limesand per stated batch;10mB slag. Balance and chemistry review before export; metal yield unchanged. Draft exhaust:10mB Carbon Dioxide per stated batch; pending reagent/mass-balance review. TFMG fluid used for vat compatibility; Mekanism chemical unification remains pending.",
+      "replaceRecipe": false,
+      "slots": {
+        "input1": {
+          "kind": "ITEM",
+          "id": "nuclearcraft:chromium_dust",
+          "count": 4
+        },
+        "output1": {
+          "kind": "FLUID",
+          "id": "modernfoundry:molten_chromium",
+          "amount": 90
+        },
+        "input2": {
+          "kind": "ITEM",
+          "id": "tfmg:coal_coke_dust"
+        },
+        "input3": {
+          "kind": "ITEM",
+          "id": "tfmg:limesand"
+        },
+        "output2": {
+          "kind": "FLUID",
+          "id": "tfmg:molten_slag",
+          "amount": 10
+        },
+        "output3": {
+          "kind": "FLUID",
+          "id": "tfmg:carbon_dioxide",
+          "amount": 10
+        }
+      },
+      "params": {
+        "allowedVatTypes": "\u0027tfmg:firebrick_lined_vat\u0027",
+        "machineSetup": "\u0027tfmg:graphite_electrode\u0027, \u0027tfmg:graphite_electrode\u0027, \u0027tfmg:graphite_electrode\u0027",
+        "processingTime": "200",
+        "heat": "none",
+        "heatLevel": "0",
+        "minSize": "3",
+        "__template": "event.recipes.tfmg.vat_machine_recipe([{inputs}], [{outputs}]).processingTime({param:processingTime}){opt_call:heat}.machines({param:machineSetup}).minSize({param:minSize}).heatLevel({param:heatLevel}).allowedVatTypes({param:allowedVatTypes})"
+      }
+    },
+    {
+      "uid": "8e8ad06c-882f-5eaa-acd2-3520419fb163",
+      "type": "industrial_colonies:tfmg_industrial_blasting",
+      "recipeId": "industrial_colonies:ore_recovery/chromium/industrial_blasting",
+      "comment": "Ore recovery: 4 nuclearcraft:chromium_dust -\u003e 70mB chromium. Slag10mB/time/hot-air defaults for review.90mB/ingot. Iron output is molten iron, steel separate. No dirty-dust changes.",
+      "replaceRecipe": false,
+      "slots": {
+        "input1": {
+          "kind": "ITEM",
+          "id": "nuclearcraft:chromium_dust",
+          "count": 4
+        },
+        "output1": {
+          "kind": "FLUID",
+          "id": "modernfoundry:molten_chromium",
+          "amount": 70
+        },
+        "output2": {
+          "kind": "FLUID",
+          "id": "tfmg:molten_slag",
+          "amount": 10
+        }
+      },
+      "params": {
+        "processingTime": "200",
+        "hotAirUsage": "20"
+      }
+    },
+    {
+      "uid": "2f69457a-bcd3-5e4d-9a83-4c6c255d843d",
+      "type": "industrial_colonies:tfmg_chemical_vat",
+      "recipeId": "industrial_colonies:ore_recovery/tungsten/vat",
+      "comment": "Ore recovery: 1 createmetallurgy:crushed_raw_tungsten -\u003e 10mB tungsten. Per machine input, not per original ore.90mB/ingot. No automatic steel. Machine/time/reagent and CO2 byproduct defaults are draft; audit before export. Dirty-dust processing unchanged. Draft reagent proposal:1 Coal Coke Dust +1 Limesand per stated batch;10mB slag. Balance and chemistry review before export; metal yield unchanged. Draft exhaust:10mB Carbon Dioxide per stated batch; pending reagent/mass-balance review. TFMG fluid used for vat compatibility; Mekanism chemical unification remains pending.",
+      "replaceRecipe": false,
+      "slots": {
+        "input1": {
+          "kind": "ITEM",
+          "id": "createmetallurgy:crushed_raw_tungsten"
+        },
+        "output1": {
+          "kind": "FLUID",
+          "id": "createmetallurgy:molten_tungsten",
+          "amount": 10
+        },
+        "input2": {
+          "kind": "ITEM",
+          "id": "tfmg:coal_coke_dust"
+        },
+        "input3": {
+          "kind": "ITEM",
+          "id": "tfmg:limesand"
+        },
+        "output2": {
+          "kind": "FLUID",
+          "id": "tfmg:molten_slag",
+          "amount": 10
+        },
+        "output3": {
+          "kind": "FLUID",
+          "id": "tfmg:carbon_dioxide",
+          "amount": 10
+        }
+      },
+      "params": {
+        "allowedVatTypes": "\u0027tfmg:firebrick_lined_vat\u0027",
+        "machineSetup": "\u0027tfmg:graphite_electrode\u0027, \u0027tfmg:graphite_electrode\u0027, \u0027tfmg:graphite_electrode\u0027",
+        "processingTime": "200",
+        "heat": "none",
+        "heatLevel": "0",
+        "minSize": "3",
+        "__template": "event.recipes.tfmg.vat_machine_recipe([{inputs}], [{outputs}]).processingTime({param:processingTime}){opt_call:heat}.machines({param:machineSetup}).minSize({param:minSize}).heatLevel({param:heatLevel}).allowedVatTypes({param:allowedVatTypes})"
+      }
+    },
+    {
+      "uid": "6851d3f8-ba8d-53e9-9464-d667bf2e461b",
+      "type": "industrial_colonies:tfmg_industrial_blasting",
+      "recipeId": "industrial_colonies:ore_recovery/tungsten/industrial_blasting",
+      "comment": "Ore recovery: 1 createmetallurgy:crushed_raw_tungsten -\u003e 7mB tungsten. Slag10mB/time/hot-air defaults for review.90mB/ingot. Iron output is molten iron, steel separate. No dirty-dust changes.",
+      "replaceRecipe": false,
+      "slots": {
+        "input1": {
+          "kind": "ITEM",
+          "id": "createmetallurgy:crushed_raw_tungsten"
+        },
+        "output1": {
+          "kind": "FLUID",
+          "id": "createmetallurgy:molten_tungsten",
+          "amount": 7
+        },
+        "output2": {
+          "kind": "FLUID",
+          "id": "tfmg:molten_slag",
+          "amount": 10
+        }
+      },
+      "params": {
+        "processingTime": "200",
+        "hotAirUsage": "20"
+      }
+    },
+    {
+      "uid": "2e4f99ad-d05c-5eb4-b65a-ba905cb728e2",
+      "type": "industrial_colonies:tfmg_chemical_vat",
+      "recipeId": "industrial_colonies:ore_recovery/lithium/vat",
+      "comment": "Ore recovery: 1 tfmg:crushed_raw_lithium -\u003e 10mB lithium. Per machine input, not per original ore.90mB/ingot. No automatic steel. Machine/time/reagent and CO2 byproduct defaults are draft; audit before export. Dirty-dust processing unchanged. Latest rule: molten processing requires Fireproof Vat. Ingredients/yields retained; existing attachment and heat requirements retained.",
+      "replaceRecipe": false,
+      "slots": {
+        "input1": {
+          "kind": "ITEM",
+          "id": "tfmg:crushed_raw_lithium"
+        },
+        "output1": {
+          "kind": "FLUID",
+          "id": "createmetallurgy:molten_lithium",
+          "amount": 10
+        }
+      },
+      "params": {
+        "allowedVatTypes": "\u0027tfmg:firebrick_lined_vat\u0027",
+        "machineSetup": "\u0027tfmg:mixing\u0027",
+        "processingTime": "200",
+        "heat": "heated",
+        "heatLevel": "0",
+        "minSize": "3",
+        "__template": "event.recipes.tfmg.vat_machine_recipe([{inputs}], [{outputs}]).processingTime({param:processingTime}){opt_call:heat}.machines({param:machineSetup}).minSize({param:minSize}).heatLevel({param:heatLevel}).allowedVatTypes({param:allowedVatTypes})"
+      }
+    },
+    {
+      "uid": "7b1b40f2-5178-58b8-85cb-0a08abacefdb",
+      "type": "industrial_colonies:tfmg_chemical_vat",
+      "recipeId": "industrial_colonies:ore_recovery/magnesium/vat",
+      "comment": "Ore recovery: 1 nuclearcraft:magnesium_dust -\u003e 10mB magnesium. Per machine input, not per original ore.90mB/ingot. No automatic steel. Machine/time/reagent and CO2 byproduct defaults are draft; audit before export. Dirty-dust processing unchanged. Latest rule: molten processing requires Fireproof Vat. Ingredients/yields retained; existing attachment and heat requirements retained.",
+      "replaceRecipe": false,
+      "slots": {
+        "input1": {
+          "kind": "ITEM",
+          "id": "nuclearcraft:magnesium_dust"
+        },
+        "output1": {
+          "kind": "FLUID",
+          "id": "nuclearcraft:molten_magnesium",
+          "amount": 10
+        }
+      },
+      "params": {
+        "allowedVatTypes": "\u0027tfmg:firebrick_lined_vat\u0027",
+        "machineSetup": "\u0027tfmg:mixing\u0027",
+        "processingTime": "200",
+        "heat": "heated",
+        "heatLevel": "0",
+        "minSize": "3",
+        "__template": "event.recipes.tfmg.vat_machine_recipe([{inputs}], [{outputs}]).processingTime({param:processingTime}){opt_call:heat}.machines({param:machineSetup}).minSize({param:minSize}).heatLevel({param:heatLevel}).allowedVatTypes({param:allowedVatTypes})"
+      }
+    },
+    {
+      "uid": "f659232b-75cb-5725-b769-cf2aae6fa2e3",
+      "type": "industrial_colonies:tfmg_chemical_vat",
+      "recipeId": "industrial_colonies:ore_recovery/beryllium/vat",
+      "comment": "Ore recovery: 1 nuclearcraft:beryllium_dust -\u003e 10mB beryllium. Per machine input, not per original ore.90mB/ingot. No automatic steel. Machine/time/reagent and CO2 byproduct defaults are draft; audit before export. Dirty-dust processing unchanged.",
+      "replaceRecipe": false,
+      "slots": {
+        "input1": {
+          "kind": "ITEM",
+          "id": "nuclearcraft:beryllium_dust"
+        },
+        "output1": {
+          "kind": "FLUID",
+          "id": "nuclearcraft:molten_beryllium",
+          "amount": 10
+        }
+      },
+      "params": {
+        "allowedVatTypes": "\u0027tfmg:firebrick_lined_vat\u0027",
+        "machineSetup": "\u0027tfmg:graphite_electrode\u0027, \u0027tfmg:graphite_electrode\u0027, \u0027tfmg:graphite_electrode\u0027",
+        "processingTime": "200",
+        "heat": "none",
+        "heatLevel": "0",
+        "minSize": "3",
+        "__template": "event.recipes.tfmg.vat_machine_recipe([{inputs}], [{outputs}]).processingTime({param:processingTime}){opt_call:heat}.machines({param:machineSetup}).minSize({param:minSize}).heatLevel({param:heatLevel}).allowedVatTypes({param:allowedVatTypes})"
+      }
+    },
+    {
+      "uid": "70cad20b-18c9-50ac-afda-ff48e498aae0",
+      "type": "industrial_colonies:tfmg_chemical_vat",
+      "recipeId": "industrial_colonies:ore_recovery/boron/vat",
+      "comment": "Ore recovery: 1 nuclearcraft:boron_dust -\u003e 10mB boron. Per machine input, not per original ore.90mB/ingot. No automatic steel. Machine/time/reagent and CO2 byproduct defaults are draft; audit before export. Dirty-dust processing unchanged.",
+      "replaceRecipe": false,
+      "slots": {
+        "input1": {
+          "kind": "ITEM",
+          "id": "nuclearcraft:boron_dust"
+        },
+        "output1": {
+          "kind": "FLUID",
+          "id": "nuclearcraft:molten_boron",
+          "amount": 10
+        }
+      },
+      "params": {
+        "allowedVatTypes": "\u0027tfmg:firebrick_lined_vat\u0027",
+        "machineSetup": "\u0027tfmg:graphite_electrode\u0027, \u0027tfmg:graphite_electrode\u0027, \u0027tfmg:graphite_electrode\u0027",
+        "processingTime": "200",
+        "heat": "none",
+        "heatLevel": "0",
+        "minSize": "3",
+        "__template": "event.recipes.tfmg.vat_machine_recipe([{inputs}], [{outputs}]).processingTime({param:processingTime}){opt_call:heat}.machines({param:machineSetup}).minSize({param:minSize}).heatLevel({param:heatLevel}).allowedVatTypes({param:allowedVatTypes})"
+      }
+    },
+    {
+      "uid": "658e393e-95a1-5bdd-9495-8be3538228ae",
+      "type": "industrial_colonies:tfmg_chemical_vat",
+      "recipeId": "industrial_colonies:ore_recovery/cobalt/vat",
+      "comment": "Ore recovery: 1 nuclearcraft:cobalt_dust -\u003e 10mB cobalt. Per machine input, not per original ore.90mB/ingot. No automatic steel. Machine/time/reagent and CO2 byproduct defaults are draft; audit before export. Dirty-dust processing unchanged. Draft reagent proposal:1 Coal Coke Dust +1 Limesand per stated batch;10mB slag. Balance and chemistry review before export; metal yield unchanged. Draft exhaust:10mB Carbon Dioxide per stated batch; pending reagent/mass-balance review. TFMG fluid used for vat compatibility; Mekanism chemical unification remains pending.",
+      "replaceRecipe": false,
+      "slots": {
+        "input1": {
+          "kind": "ITEM",
+          "id": "nuclearcraft:cobalt_dust"
+        },
+        "output1": {
+          "kind": "FLUID",
+          "id": "modernfoundry:molten_cobalt",
+          "amount": 10
+        },
+        "input2": {
+          "kind": "ITEM",
+          "id": "tfmg:coal_coke_dust"
+        },
+        "input3": {
+          "kind": "ITEM",
+          "id": "tfmg:limesand"
+        },
+        "output2": {
+          "kind": "FLUID",
+          "id": "tfmg:molten_slag",
+          "amount": 10
+        },
+        "output3": {
+          "kind": "FLUID",
+          "id": "tfmg:carbon_dioxide",
+          "amount": 10
+        }
+      },
+      "params": {
+        "allowedVatTypes": "\u0027tfmg:firebrick_lined_vat\u0027",
+        "machineSetup": "\u0027tfmg:graphite_electrode\u0027, \u0027tfmg:graphite_electrode\u0027, \u0027tfmg:graphite_electrode\u0027",
+        "processingTime": "200",
+        "heat": "none",
+        "heatLevel": "0",
+        "minSize": "3",
+        "__template": "event.recipes.tfmg.vat_machine_recipe([{inputs}], [{outputs}]).processingTime({param:processingTime}){opt_call:heat}.machines({param:machineSetup}).minSize({param:minSize}).heatLevel({param:heatLevel}).allowedVatTypes({param:allowedVatTypes})"
+      }
+    },
+    {
+      "uid": "a5448a19-d980-5aa7-b9d2-2d2a0490ace8",
+      "type": "industrial_colonies:tfmg_industrial_blasting",
+      "recipeId": "industrial_colonies:ore_recovery/cobalt/industrial_blasting",
+      "comment": "Ore recovery: 1 nuclearcraft:cobalt_dust -\u003e 7mB cobalt. Slag10mB/time/hot-air defaults for review.90mB/ingot. Iron output is molten iron, steel separate. No dirty-dust changes.",
+      "replaceRecipe": false,
+      "slots": {
+        "input1": {
+          "kind": "ITEM",
+          "id": "nuclearcraft:cobalt_dust"
+        },
+        "output1": {
+          "kind": "FLUID",
+          "id": "modernfoundry:molten_cobalt",
+          "amount": 7
+        },
+        "output2": {
+          "kind": "FLUID",
+          "id": "tfmg:molten_slag",
+          "amount": 10
+        }
+      },
+      "params": {
+        "processingTime": "200",
+        "hotAirUsage": "20"
+      }
+    },
+    {
+      "uid": "a28e5e3a-048d-586b-b96a-ff45e900d81c",
+      "type": "industrial_colonies:tfmg_chemical_vat",
+      "recipeId": "industrial_colonies:ore_recovery/uranium/vat",
+      "comment": "Ore recovery: 1 mekanism:dust_uranium -\u003e 10mB uranium. Per machine input, not per original ore.90mB/ingot. No automatic steel. Machine/time/reagent and CO2 byproduct defaults are draft; audit before export. Dirty-dust processing unchanged.",
+      "replaceRecipe": false,
+      "slots": {
+        "input1": {
+          "kind": "ITEM",
+          "id": "mekanism:dust_uranium"
+        },
+        "output1": {
+          "kind": "FLUID",
+          "id": "modernfoundry:molten_uranium",
+          "amount": 10
+        }
+      },
+      "params": {
+        "allowedVatTypes": "\u0027tfmg:firebrick_lined_vat\u0027",
+        "machineSetup": "\u0027tfmg:graphite_electrode\u0027, \u0027tfmg:graphite_electrode\u0027, \u0027tfmg:graphite_electrode\u0027",
+        "processingTime": "200",
+        "heat": "none",
+        "heatLevel": "0",
+        "minSize": "3",
+        "__template": "event.recipes.tfmg.vat_machine_recipe([{inputs}], [{outputs}]).processingTime({param:processingTime}){opt_call:heat}.machines({param:machineSetup}).minSize({param:minSize}).heatLevel({param:heatLevel}).allowedVatTypes({param:allowedVatTypes})"
+      }
+    },
+    {
+      "uid": "4453e33d-7aea-581f-920a-ddf01aa34ac0",
+      "type": "industrial_colonies:tfmg_chemical_vat",
+      "recipeId": "industrial_colonies:ore_recovery/thorium/vat",
+      "comment": "Ore recovery: 1 nuclearcraft:thorium_dust -\u003e 10mB thorium. Per machine input, not per original ore.90mB/ingot. No automatic steel. Machine/time/reagent and CO2 byproduct defaults are draft; audit before export. Dirty-dust processing unchanged.",
+      "replaceRecipe": false,
+      "slots": {
+        "input1": {
+          "kind": "ITEM",
+          "id": "nuclearcraft:thorium_dust"
+        },
+        "output1": {
+          "kind": "FLUID",
+          "id": "nuclearcraft:molten_thorium",
+          "amount": 10
+        }
+      },
+      "params": {
+        "allowedVatTypes": "\u0027tfmg:firebrick_lined_vat\u0027",
+        "machineSetup": "\u0027tfmg:graphite_electrode\u0027, \u0027tfmg:graphite_electrode\u0027, \u0027tfmg:graphite_electrode\u0027",
+        "processingTime": "200",
+        "heat": "none",
+        "heatLevel": "0",
+        "minSize": "3",
+        "__template": "event.recipes.tfmg.vat_machine_recipe([{inputs}], [{outputs}]).processingTime({param:processingTime}){opt_call:heat}.machines({param:machineSetup}).minSize({param:minSize}).heatLevel({param:heatLevel}).allowedVatTypes({param:allowedVatTypes})"
+      }
+    },
+    {
+      "uid": "0df927f2-5ef0-5147-acec-5840b25dfae2",
+      "type": "industrial_colonies:tfmg_chemical_vat",
+      "recipeId": "industrial_colonies:ore_recovery/osmium/vat",
+      "comment": "Selected rich crushed osmium: 1items -\u003e 45mB. Batch preserves fractional early equivalent; default ancillary parameters require review before export.",
+      "replaceRecipe": false,
+      "slots": {
+        "input1": {
+          "kind": "ITEM",
+          "id": "create:crushed_raw_osmium"
+        },
+        "output1": {
+          "kind": "FLUID",
+          "id": "createmetallurgy:molten_osmium",
+          "amount": 45
+        }
+      },
+      "params": {
+        "allowedVatTypes": "\u0027tfmg:firebrick_lined_vat\u0027",
+        "machineSetup": "\u0027tfmg:graphite_electrode\u0027, \u0027tfmg:graphite_electrode\u0027, \u0027tfmg:graphite_electrode\u0027",
+        "processingTime": "200",
+        "heat": "none",
+        "heatLevel": "0",
+        "minSize": "3",
+        "__template": "event.recipes.tfmg.vat_machine_recipe([{inputs}], [{outputs}]).processingTime({param:processingTime}){opt_call:heat}.machines({param:machineSetup}).minSize({param:minSize}).heatLevel({param:heatLevel}).allowedVatTypes({param:allowedVatTypes})"
+      }
+    },
+    {
+      "uid": "47b9332a-55c0-56fc-9d35-c1397cec075c",
+      "type": "industrial_colonies:tfmg_industrial_blasting",
+      "recipeId": "industrial_colonies:ore_recovery/osmium/industrial_blasting",
+      "comment": "Selected rich crushed osmium: 2items -\u003e 63mB. Batch preserves fractional early equivalent; default ancillary parameters require review before export.",
+      "replaceRecipe": false,
+      "slots": {
+        "input1": {
+          "kind": "ITEM",
+          "id": "create:crushed_raw_osmium",
+          "count": 2
+        },
+        "output1": {
+          "kind": "FLUID",
+          "id": "createmetallurgy:molten_osmium",
+          "amount": 63
+        },
+        "output2": {
+          "kind": "FLUID",
+          "id": "tfmg:molten_slag",
+          "amount": 10
+        }
+      },
+      "params": {
+        "processingTime": "200",
+        "hotAirUsage": "20"
+      }
+    },
+    {
+      "uid": "ce941f95-3535-592b-b5eb-578a0491c8df",
+      "type": "industrial_colonies:tfmg_chemical_vat",
+      "recipeId": "industrial_colonies:ore_recovery/platinum/vat",
+      "comment": "Selected rich crushed platinum: 1items -\u003e 45mB. Batch preserves fractional early equivalent; default ancillary parameters require review before export.",
+      "replaceRecipe": false,
+      "slots": {
+        "input1": {
+          "kind": "ITEM",
+          "id": "create:crushed_raw_platinum"
+        },
+        "output1": {
+          "kind": "FLUID",
+          "id": "modernfoundry:molten_platinum",
+          "amount": 45
+        }
+      },
+      "params": {
+        "allowedVatTypes": "\u0027tfmg:firebrick_lined_vat\u0027",
+        "machineSetup": "\u0027tfmg:graphite_electrode\u0027, \u0027tfmg:graphite_electrode\u0027, \u0027tfmg:graphite_electrode\u0027",
+        "processingTime": "200",
+        "heat": "none",
+        "heatLevel": "0",
+        "minSize": "3",
+        "__template": "event.recipes.tfmg.vat_machine_recipe([{inputs}], [{outputs}]).processingTime({param:processingTime}){opt_call:heat}.machines({param:machineSetup}).minSize({param:minSize}).heatLevel({param:heatLevel}).allowedVatTypes({param:allowedVatTypes})"
+      }
+    },
+    {
+      "uid": "526704a8-836c-51ee-8d29-29ca1eac00d4",
+      "type": "industrial_colonies:tfmg_industrial_blasting",
+      "recipeId": "industrial_colonies:ore_recovery/platinum/industrial_blasting",
+      "comment": "Selected rich crushed platinum: 2items -\u003e 63mB. Batch preserves fractional early equivalent; default ancillary parameters require review before export.",
+      "replaceRecipe": false,
+      "slots": {
+        "input1": {
+          "kind": "ITEM",
+          "id": "create:crushed_raw_platinum",
+          "count": 2
+        },
+        "output1": {
+          "kind": "FLUID",
+          "id": "modernfoundry:molten_platinum",
+          "amount": 63
+        },
+        "output2": {
+          "kind": "FLUID",
+          "id": "tfmg:molten_slag",
+          "amount": 10
+        }
+      },
+      "params": {
+        "processingTime": "200",
+        "hotAirUsage": "20"
+      }
+    },
+    {
+      "uid": "541abed5-2233-515b-afcb-46f487c8e073",
+      "type": "industrial_colonies:tfmg_chemical_vat",
+      "recipeId": "industrial_colonies:ore_recovery/osmium/dust_vat",
+      "comment": "Ordinary ore-derived osmium dust:1 -\u003e10mB. Keep full-ingot dust conversion bypass audit before export; dirty dust unchanged.",
+      "replaceRecipe": false,
+      "slots": {
+        "input1": {
+          "kind": "ITEM",
+          "id": "mekanism:dust_osmium"
+        },
+        "output1": {
+          "kind": "FLUID",
+          "id": "createmetallurgy:molten_osmium",
+          "amount": 10
+        }
+      },
+      "params": {
+        "allowedVatTypes": "\u0027tfmg:firebrick_lined_vat\u0027",
+        "machineSetup": "\u0027tfmg:graphite_electrode\u0027, \u0027tfmg:graphite_electrode\u0027, \u0027tfmg:graphite_electrode\u0027",
+        "processingTime": "200",
+        "heat": "none",
+        "heatLevel": "0",
+        "minSize": "3"
+      }
+    },
+    {
+      "uid": "fc16689b-ce78-503e-abdc-19fb985d6dba",
+      "type": "industrial_colonies:tfmg_industrial_blasting",
+      "recipeId": "industrial_colonies:ore_recovery/osmium/dust_blasting",
+      "comment": "Ordinary ore-derived osmium dust:1 -\u003e7mB. Ancillary defaults for review; dirty-dust processing unchanged.",
+      "replaceRecipe": false,
+      "slots": {
+        "input1": {
+          "kind": "ITEM",
+          "id": "mekanism:dust_osmium"
+        },
+        "output1": {
+          "kind": "FLUID",
+          "id": "createmetallurgy:molten_osmium",
+          "amount": 7
+        },
+        "output2": {
+          "kind": "FLUID",
+          "id": "tfmg:molten_slag",
+          "amount": 10
+        }
+      },
+      "params": {
+        "processingTime": "200",
+        "hotAirUsage": "20"
+      }
+    },
+    {
+      "uid": "5b46e214-245d-540c-b4d1-25f55976507f",
+      "type": "industrial_colonies:tfmg_chemical_vat",
+      "recipeId": "industrial_colonies:ore_recovery/platinum/dust_vat",
+      "comment": "Ordinary ore-derived platinum dust:1 -\u003e10mB. Keep full-ingot dust conversion bypass audit before export; dirty dust unchanged.",
+      "replaceRecipe": false,
+      "slots": {
+        "input1": {
+          "kind": "ITEM",
+          "id": "nuclearcraft:platinum_dust"
+        },
+        "output1": {
+          "kind": "FLUID",
+          "id": "modernfoundry:molten_platinum",
+          "amount": 10
+        }
+      },
+      "params": {
+        "allowedVatTypes": "\u0027tfmg:firebrick_lined_vat\u0027",
+        "machineSetup": "\u0027tfmg:graphite_electrode\u0027, \u0027tfmg:graphite_electrode\u0027, \u0027tfmg:graphite_electrode\u0027",
+        "processingTime": "200",
+        "heat": "none",
+        "heatLevel": "0",
+        "minSize": "3"
+      }
+    },
+    {
+      "uid": "452d736c-44f8-5aa8-9974-db0bbcb2b7ed",
+      "type": "industrial_colonies:tfmg_industrial_blasting",
+      "recipeId": "industrial_colonies:ore_recovery/platinum/dust_blasting",
+      "comment": "Ordinary ore-derived platinum dust:1 -\u003e7mB. Ancillary defaults for review; dirty-dust processing unchanged.",
+      "replaceRecipe": false,
+      "slots": {
+        "input1": {
+          "kind": "ITEM",
+          "id": "nuclearcraft:platinum_dust"
+        },
+        "output1": {
+          "kind": "FLUID",
+          "id": "modernfoundry:molten_platinum",
+          "amount": 7
+        },
+        "output2": {
+          "kind": "FLUID",
+          "id": "tfmg:molten_slag",
+          "amount": 10
+        }
+      },
+      "params": {
+        "processingTime": "200",
+        "hotAirUsage": "20"
+      }
+    },
+    {
+      "uid": "8ed3f0ef-c63c-59a1-892a-ba0834bfaf90",
+      "type": "industrial_colonies:tfmg_chemical_vat",
+      "recipeId": "industrial_colonies:ore_recovery/iridium/dust_vat",
+      "comment": "Ordinary ore-derived iridium dust:1 -\u003e10mB. Keep full-ingot dust conversion bypass audit before export; dirty dust unchanged.",
+      "replaceRecipe": false,
+      "slots": {
+        "input1": {
+          "kind": "ITEM",
+          "id": "nuclearcraft:iridium_dust"
+        },
+        "output1": {
+          "kind": "FLUID",
+          "id": "industrial_colonies:molten_iridium",
+          "amount": 10
+        }
+      },
+      "params": {
+        "allowedVatTypes": "\u0027tfmg:firebrick_lined_vat\u0027",
+        "machineSetup": "\u0027tfmg:graphite_electrode\u0027, \u0027tfmg:graphite_electrode\u0027, \u0027tfmg:graphite_electrode\u0027",
+        "processingTime": "200",
+        "heat": "none",
+        "heatLevel": "0",
+        "minSize": "3"
+      }
+    },
+    {
+      "uid": "d67ed8b6-0c26-553e-88f9-8105d9c169b3",
+      "type": "industrial_colonies:tfmg_industrial_blasting",
+      "recipeId": "industrial_colonies:ore_recovery/iridium/dust_blasting",
+      "comment": "Ordinary ore-derived iridium dust:1 -\u003e7mB. Ancillary defaults for review; dirty-dust processing unchanged.",
+      "replaceRecipe": false,
+      "slots": {
+        "input1": {
+          "kind": "ITEM",
+          "id": "nuclearcraft:iridium_dust"
+        },
+        "output1": {
+          "kind": "FLUID",
+          "id": "industrial_colonies:molten_iridium",
+          "amount": 7
+        },
+        "output2": {
+          "kind": "FLUID",
+          "id": "tfmg:molten_slag",
+          "amount": 10
+        }
+      },
+      "params": {
+        "processingTime": "200",
+        "hotAirUsage": "20"
+      }
+    },
+    {
+      "uid": "509ffe33-173c-55b2-985b-04ef616df221",
+      "type": "industrial_colonies:tfmg_chemical_vat",
+      "recipeId": "industrial_colonies:ore_recovery/gold/mekanism_dust_gold_vat",
+      "comment": "Finished gold dust retains the full-ingot value:1 -\u003e90mB. This is not the low-yield crushed-gold portion. Latest rule: molten processing requires Fireproof Vat. Ingredients/yields retained; existing attachment and heat requirements retained.",
+      "replaceRecipe": false,
+      "slots": {
+        "input1": {
+          "kind": "ITEM",
+          "id": "mekanism:dust_gold"
+        },
+        "output1": {
+          "kind": "FLUID",
+          "id": "createmetallurgy:molten_gold",
+          "amount": 90
+        }
+      },
+      "params": {
+        "allowedVatTypes": "\u0027tfmg:firebrick_lined_vat\u0027",
+        "machineSetup": "\u0027tfmg:mixing\u0027",
+        "processingTime": "200",
+        "heat": "heated",
+        "heatLevel": "0",
+        "minSize": "3"
+      }
+    },
+    {
+      "uid": "0a381542-a68a-51bf-b091-0f0760fce069",
+      "type": "industrial_colonies:tfmg_industrial_blasting",
+      "recipeId": "industrial_colonies:ore_recovery/gold/mekanism_dust_gold_blasting",
+      "comment": "Finished gold dust:1 -\u003e90mB. Slag/time/hot-air defaults for review.",
+      "replaceRecipe": false,
+      "slots": {
+        "input1": {
+          "kind": "ITEM",
+          "id": "mekanism:dust_gold"
+        },
+        "output1": {
+          "kind": "FLUID",
+          "id": "createmetallurgy:molten_gold",
+          "amount": 90
+        },
+        "output2": {
+          "kind": "FLUID",
+          "id": "tfmg:molten_slag",
+          "amount": 10
+        }
+      },
+      "params": {
+        "processingTime": "200",
+        "hotAirUsage": "20"
+      }
+    },
+    {
+      "uid": "3ebb0a34-dbdc-5e71-8be2-6a7d9a9c1aa5",
+      "type": "industrial_colonies:tfmg_chemical_vat",
+      "recipeId": "industrial_colonies:ore_recovery/gold/nuclearcraft_gold_dust_vat",
+      "comment": "Finished gold dust retains the full-ingot value:1 -\u003e90mB. This is not the low-yield crushed-gold portion. Latest rule: molten processing requires Fireproof Vat. Ingredients/yields retained; existing attachment and heat requirements retained.",
+      "replaceRecipe": false,
+      "slots": {
+        "input1": {
+          "kind": "ITEM",
+          "id": "nuclearcraft:gold_dust"
+        },
+        "output1": {
+          "kind": "FLUID",
+          "id": "createmetallurgy:molten_gold",
+          "amount": 90
+        }
+      },
+      "params": {
+        "allowedVatTypes": "\u0027tfmg:firebrick_lined_vat\u0027",
+        "machineSetup": "\u0027tfmg:mixing\u0027",
+        "processingTime": "200",
+        "heat": "heated",
+        "heatLevel": "0",
+        "minSize": "3"
+      }
+    },
+    {
+      "uid": "08baacf5-0b05-5fd5-ba9d-554e726c713b",
+      "type": "industrial_colonies:tfmg_industrial_blasting",
+      "recipeId": "industrial_colonies:ore_recovery/gold/nuclearcraft_gold_dust_blasting",
+      "comment": "Finished gold dust:1 -\u003e90mB. Slag/time/hot-air defaults for review.",
+      "replaceRecipe": false,
+      "slots": {
+        "input1": {
+          "kind": "ITEM",
+          "id": "nuclearcraft:gold_dust"
+        },
+        "output1": {
+          "kind": "FLUID",
+          "id": "createmetallurgy:molten_gold",
+          "amount": 90
+        },
+        "output2": {
+          "kind": "FLUID",
+          "id": "tfmg:molten_slag",
+          "amount": 10
+        }
+      },
+      "params": {
+        "processingTime": "200",
+        "hotAirUsage": "20"
+      }
+    },
+    {
+      "uid": "b0758cd9-fc45-5ee9-a187-8b568c53957a",
+      "type": "industrial_colonies:tfmg_chemical_vat",
+      "recipeId": "industrial_colonies:ore_recovery/gold/flakes_vat",
+      "comment": "Selected batch:2Gold Flakes -\u003e1mB gold. A single flake must remain unconsumed; native batch consumption still needs verification before export. Latest rule: molten processing requires Fireproof Vat. Ingredients/yields retained; existing attachment and heat requirements retained.",
+      "replaceRecipe": false,
+      "slots": {
+        "input1": {
+          "kind": "ITEM",
+          "id": "industrial_colonies:gold_flake",
+          "count": 2
+        },
+        "output1": {
+          "kind": "FLUID",
+          "id": "createmetallurgy:molten_gold",
+          "amount": 1
+        }
+      },
+      "params": {
+        "allowedVatTypes": "\u0027tfmg:firebrick_lined_vat\u0027",
+        "machineSetup": "\u0027tfmg:mixing\u0027",
+        "processingTime": "200",
+        "heat": "heated",
+        "heatLevel": "0",
+        "minSize": "3"
+      }
+    },
+    {
+      "uid": "b577106e-ab0b-52bc-b066-df727b9ae71f",
+      "type": "kjsgen:mekanism_enriching",
+      "recipeId": "industrial_colonies:ore_recovery/uranium/mekanism_preparation",
+      "comment": "Retained Mekanism uranium preparation:1crushed -\u003e1dust processing portion. Later recovery10mB/dust; audit full-ingot dust bypasses before export. No dirty-dust changes.",
+      "replaceRecipe": false,
+      "slots": {
+        "input": {
+          "kind": "ITEM",
+          "id": "create:crushed_raw_uranium"
+        },
+        "output": {
+          "kind": "ITEM",
+          "id": "mekanism:dust_uranium"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "12786032-4afe-59ff-bc97-7905b3c4ed39",
+      "type": "industrial_colonies:tfmg_chemical_vat",
+      "recipeId": "industrial_colonies:ore_recovery/iron/vat",
+      "comment": "Ore recovery: 1 create:crushed_raw_iron -\u003e 10mB iron. Per machine input, not per original ore.90mB/ingot. No automatic steel. Machine/time/reagent and CO2 byproduct defaults are draft; audit before export. Dirty-dust processing unchanged. Slag byproduct restored:10mB molten slag per crushed iron; ancillary amount proposed for review. Draft reagent proposal:1 Coal Coke Dust +1 Limesand per stated batch;10mB slag. Balance and chemistry review before export; metal yield unchanged. Draft exhaust:10mB Carbon Dioxide per stated batch; pending reagent/mass-balance review. TFMG fluid used for vat compatibility; Mekanism chemical unification remains pending.",
+      "replaceRecipe": false,
+      "slots": {
+        "input1": {
+          "kind": "ITEM",
+          "id": "create:crushed_raw_iron"
+        },
+        "output1": {
+          "kind": "FLUID",
+          "id": "createmetallurgy:molten_iron",
+          "amount": 10
+        },
+        "output2": {
+          "kind": "FLUID",
+          "id": "tfmg:molten_slag",
+          "amount": 10
+        },
+        "input3": {
+          "kind": "ITEM",
+          "id": "tfmg:limesand"
+        },
+        "output3": {
+          "kind": "FLUID",
+          "id": "tfmg:carbon_dioxide",
+          "amount": 10
+        }
+      },
+      "params": {
+        "allowedVatTypes": "\u0027tfmg:firebrick_lined_vat\u0027",
+        "machineSetup": "\u0027tfmg:graphite_electrode\u0027, \u0027tfmg:graphite_electrode\u0027, \u0027tfmg:graphite_electrode\u0027",
+        "processingTime": "200",
+        "heat": "none",
+        "heatLevel": "0",
+        "minSize": "3",
+        "__template": "event.recipes.tfmg.vat_machine_recipe([{inputs}], [{outputs}]).processingTime({param:processingTime}){opt_call:heat}.machines({param:machineSetup}).minSize({param:minSize}).heatLevel({param:heatLevel}).allowedVatTypes({param:allowedVatTypes})"
+      }
+    },
+    {
+      "uid": "1aef038c-09cd-595a-a935-7e0cedc3b634",
+      "type": "industrial_colonies:tfmg_chemical_vat",
+      "recipeId": "industrial_colonies:alloy_review/cast_iron",
+      "comment": "Reviewed alloy table card;90mB per refined ingot portion, not low-yield ore dust. Time/attachments are proposed machine settings. No gameplay export. Steel and Andesite recipes retained.",
+      "replaceRecipe": false,
+      "slots": {
+        "input1": {
+          "kind": "FLUID",
+          "id": "createmetallurgy:molten_iron",
+          "amount": 90
+        },
+        "input2": {
+          "kind": "ITEM",
+          "id": "tfmg:coal_coke_dust"
+        },
+        "output1": {
+          "kind": "ITEM",
+          "id": "tfmg:cast_iron_ingot"
+        }
+      },
+      "params": {
+        "allowedVatTypes": "\u0027tfmg:firebrick_lined_vat\u0027",
+        "machineSetup": "\u0027tfmg:graphite_electrode\u0027, \u0027tfmg:graphite_electrode\u0027, \u0027tfmg:graphite_electrode\u0027",
+        "processingTime": "200",
+        "heat": "none",
+        "heatLevel": "0",
+        "minSize": "9",
+        "__template": "event.recipes.tfmg.vat_machine_recipe([{inputs}], [{outputs}]).processingTime({param:processingTime}){opt_call:heat}.machines({param:machineSetup}).minSize({param:minSize}).heatLevel({param:heatLevel}).allowedVatTypes({param:allowedVatTypes})"
+      }
+    },
+    {
+      "uid": "e4580ffe-47a8-50f4-874a-8194e4ddd2dd",
+      "type": "industrial_colonies:tfmg_chemical_vat",
+      "recipeId": "industrial_colonies:alloy_review/brass",
+      "comment": "Reviewed alloy table card;90mB per refined ingot portion, not low-yield ore dust. Time/attachments are proposed machine settings. No gameplay export. Steel and Andesite recipes retained. Latest rule: molten processing requires Fireproof Vat. Ingredients/yields retained; existing attachment and heat requirements retained.",
+      "replaceRecipe": false,
+      "slots": {
+        "input1": {
+          "kind": "FLUID",
+          "id": "createmetallurgy:molten_copper",
+          "amount": 90
+        },
+        "input2": {
+          "kind": "FLUID",
+          "id": "createmetallurgy:molten_zinc",
+          "amount": 90
+        },
+        "output1": {
+          "kind": "FLUID",
+          "id": "createmetallurgy:molten_brass",
+          "amount": 180
+        }
+      },
+      "params": {
+        "allowedVatTypes": "\u0027tfmg:firebrick_lined_vat\u0027",
+        "machineSetup": "\u0027tfmg:mixing\u0027",
+        "processingTime": "200",
+        "heat": "heated",
+        "heatLevel": "0",
+        "minSize": "3",
+        "__template": "event.recipes.tfmg.vat_machine_recipe([{inputs}], [{outputs}]).processingTime({param:processingTime}){opt_call:heat}.machines({param:machineSetup}).minSize({param:minSize}).heatLevel({param:heatLevel}).allowedVatTypes({param:allowedVatTypes})"
+      }
+    },
+    {
+      "uid": "61237406-d0b2-5fbc-b28c-3926df4e1d6b",
+      "type": "industrial_colonies:tfmg_chemical_vat",
+      "recipeId": "industrial_colonies:alloy_review/bronze",
+      "comment": "Reviewed alloy table card;90mB per refined ingot portion, not low-yield ore dust. Time/attachments are proposed machine settings. No gameplay export. Steel and Andesite recipes retained. Latest rule: molten processing requires Fireproof Vat. Ingredients/yields retained; existing attachment and heat requirements retained.",
+      "replaceRecipe": false,
+      "slots": {
+        "input1": {
+          "kind": "FLUID",
+          "id": "createmetallurgy:molten_copper",
+          "amount": 270
+        },
+        "input2": {
+          "kind": "FLUID",
+          "id": "createmetallurgy:molten_tin",
+          "amount": 90
+        },
+        "output1": {
+          "kind": "FLUID",
+          "id": "createmetallurgy:molten_bronze",
+          "amount": 360
+        }
+      },
+      "params": {
+        "allowedVatTypes": "\u0027tfmg:firebrick_lined_vat\u0027",
+        "machineSetup": "\u0027tfmg:mixing\u0027",
+        "processingTime": "200",
+        "heat": "heated",
+        "heatLevel": "0",
+        "minSize": "3",
+        "__template": "event.recipes.tfmg.vat_machine_recipe([{inputs}], [{outputs}]).processingTime({param:processingTime}){opt_call:heat}.machines({param:machineSetup}).minSize({param:minSize}).heatLevel({param:heatLevel}).allowedVatTypes({param:allowedVatTypes})"
+      }
+    },
+    {
+      "uid": "e62a5a27-c13a-58ec-ac5d-a13ec2b72a3e",
+      "type": "industrial_colonies:tfmg_chemical_vat",
+      "recipeId": "industrial_colonies:alloy_review/constantan",
+      "comment": "Reviewed alloy table card;90mB per refined ingot portion, not low-yield ore dust. Time/attachments are proposed machine settings. No gameplay export. Steel and Andesite recipes retained. Latest rule: molten processing requires Fireproof Vat. Ingredients/yields retained; existing attachment and heat requirements retained.",
+      "replaceRecipe": false,
+      "slots": {
+        "input1": {
+          "kind": "FLUID",
+          "id": "createmetallurgy:molten_copper",
+          "amount": 90
+        },
+        "input2": {
+          "kind": "FLUID",
+          "id": "createmetallurgy:molten_nickel",
+          "amount": 90
+        },
+        "output1": {
+          "kind": "FLUID",
+          "id": "createmetallurgy:molten_constantan",
+          "amount": 180
+        }
+      },
+      "params": {
+        "allowedVatTypes": "\u0027tfmg:firebrick_lined_vat\u0027",
+        "machineSetup": "\u0027tfmg:mixing\u0027",
+        "processingTime": "200",
+        "heat": "heated",
+        "heatLevel": "0",
+        "minSize": "3",
+        "__template": "event.recipes.tfmg.vat_machine_recipe([{inputs}], [{outputs}]).processingTime({param:processingTime}){opt_call:heat}.machines({param:machineSetup}).minSize({param:minSize}).heatLevel({param:heatLevel}).allowedVatTypes({param:allowedVatTypes})"
+      }
+    },
+    {
+      "uid": "8a360260-941d-531e-8e46-b1b32db6e839",
+      "type": "industrial_colonies:tfmg_chemical_vat",
+      "recipeId": "industrial_colonies:alloy_review/electrum",
+      "comment": "Reviewed alloy table card;90mB per refined ingot portion, not low-yield ore dust. Time/attachments are proposed machine settings. No gameplay export. Steel and Andesite recipes retained. Latest rule: molten processing requires Fireproof Vat. Ingredients/yields retained; existing attachment and heat requirements retained.",
+      "replaceRecipe": false,
+      "slots": {
+        "input1": {
+          "kind": "FLUID",
+          "id": "createmetallurgy:molten_gold",
+          "amount": 90
+        },
+        "input2": {
+          "kind": "FLUID",
+          "id": "createmetallurgy:molten_silver",
+          "amount": 90
+        },
+        "output1": {
+          "kind": "FLUID",
+          "id": "createmetallurgy:molten_electrum",
+          "amount": 180
+        }
+      },
+      "params": {
+        "allowedVatTypes": "\u0027tfmg:firebrick_lined_vat\u0027",
+        "machineSetup": "\u0027tfmg:mixing\u0027",
+        "processingTime": "200",
+        "heat": "heated",
+        "heatLevel": "0",
+        "minSize": "3",
+        "__template": "event.recipes.tfmg.vat_machine_recipe([{inputs}], [{outputs}]).processingTime({param:processingTime}){opt_call:heat}.machines({param:machineSetup}).minSize({param:minSize}).heatLevel({param:heatLevel}).allowedVatTypes({param:allowedVatTypes})"
+      }
+    },
+    {
+      "uid": "05e02e73-214d-57a5-8376-4744beb9d3d1",
+      "type": "industrial_colonies:tfmg_chemical_vat",
+      "recipeId": "industrial_colonies:alloy_review/invar",
+      "comment": "Reviewed alloy table card;90mB per refined ingot portion, not low-yield ore dust. Time/attachments are proposed machine settings. No gameplay export. Steel and Andesite recipes retained. Latest rule: molten processing requires Fireproof Vat. Ingredients/yields retained; existing attachment and heat requirements retained.",
+      "replaceRecipe": false,
+      "slots": {
+        "input1": {
+          "kind": "FLUID",
+          "id": "createmetallurgy:molten_iron",
+          "amount": 180
+        },
+        "input2": {
+          "kind": "FLUID",
+          "id": "createmetallurgy:molten_nickel",
+          "amount": 90
+        },
+        "output1": {
+          "kind": "FLUID",
+          "id": "createmetallurgy:molten_invar",
+          "amount": 270
+        }
+      },
+      "params": {
+        "allowedVatTypes": "\u0027tfmg:firebrick_lined_vat\u0027",
+        "machineSetup": "\u0027tfmg:mixing\u0027",
+        "processingTime": "200",
+        "heat": "heated",
+        "heatLevel": "0",
+        "minSize": "3",
+        "__template": "event.recipes.tfmg.vat_machine_recipe([{inputs}], [{outputs}]).processingTime({param:processingTime}){opt_call:heat}.machines({param:machineSetup}).minSize({param:minSize}).heatLevel({param:heatLevel}).allowedVatTypes({param:allowedVatTypes})"
+      }
+    },
+    {
+      "uid": "c1f9ee1a-78ea-530b-b0b8-2aec1577c370",
+      "type": "industrial_colonies:tfmg_chemical_vat",
+      "recipeId": "industrial_colonies:alloy_review/rose_gold",
+      "comment": "Reviewed alloy table card;90mB per refined ingot portion, not low-yield ore dust. Time/attachments are proposed machine settings. No gameplay export. Steel and Andesite recipes retained. Latest rule: molten processing requires Fireproof Vat. Ingredients/yields retained; existing attachment and heat requirements retained.",
+      "replaceRecipe": false,
+      "slots": {
+        "input1": {
+          "kind": "FLUID",
+          "id": "createmetallurgy:molten_copper",
+          "amount": 90
+        },
+        "input2": {
+          "kind": "FLUID",
+          "id": "createmetallurgy:molten_gold",
+          "amount": 90
+        },
+        "output1": {
+          "kind": "FLUID",
+          "id": "modernfoundry:molten_rose_gold",
+          "amount": 180
+        }
+      },
+      "params": {
+        "allowedVatTypes": "\u0027tfmg:firebrick_lined_vat\u0027",
+        "machineSetup": "\u0027tfmg:mixing\u0027",
+        "processingTime": "200",
+        "heat": "heated",
+        "heatLevel": "0",
+        "minSize": "3",
+        "__template": "event.recipes.tfmg.vat_machine_recipe([{inputs}], [{outputs}]).processingTime({param:processingTime}){opt_call:heat}.machines({param:machineSetup}).minSize({param:minSize}).heatLevel({param:heatLevel}).allowedVatTypes({param:allowedVatTypes})"
+      }
+    },
+    {
+      "uid": "4d4fec38-3617-50a6-9518-f17c24b6a4f2",
+      "type": "industrial_colonies:tfmg_chemical_vat",
+      "recipeId": "industrial_colonies:alloy_review/stainless_steel",
+      "comment": "Reviewed alloy table card;90mB per refined ingot portion, not low-yield ore dust. Time/attachments are proposed machine settings. No gameplay export. Steel and Andesite recipes retained.",
+      "replaceRecipe": false,
+      "slots": {
+        "input1": {
+          "kind": "FLUID",
+          "id": "createmetallurgy:molten_steel",
+          "amount": 720
+        },
+        "input2": {
+          "kind": "FLUID",
+          "id": "modernfoundry:molten_chromium",
+          "amount": 90
+        },
+        "input3": {
+          "kind": "FLUID",
+          "id": "createmetallurgy:molten_nickel",
+          "amount": 90
+        },
+        "output1": {
+          "kind": "ITEM",
+          "id": "nuclearcraft:stainless_steel_ingot",
+          "count": 10
+        }
+      },
+      "params": {
+        "allowedVatTypes": "\u0027tfmg:firebrick_lined_vat\u0027",
+        "machineSetup": "\u0027tfmg:graphite_electrode\u0027, \u0027tfmg:graphite_electrode\u0027, \u0027tfmg:graphite_electrode\u0027",
+        "processingTime": "200",
+        "heat": "none",
+        "heatLevel": "0",
+        "minSize": "9",
+        "__template": "event.recipes.tfmg.vat_machine_recipe([{inputs}], [{outputs}]).processingTime({param:processingTime}){opt_call:heat}.machines({param:machineSetup}).minSize({param:minSize}).heatLevel({param:heatLevel}).allowedVatTypes({param:allowedVatTypes})"
+      }
+    },
+    {
+      "uid": "a746548c-d99d-56da-a7c6-a8e031a2d3c8",
+      "type": "industrial_colonies:tfmg_chemical_vat",
+      "recipeId": "industrial_colonies:alloy_review/hsla_steel",
+      "comment": "Reviewed alloy table card;90mB per refined ingot portion, not low-yield ore dust. Time/attachments are proposed machine settings. No gameplay export. Steel and Andesite recipes retained.",
+      "replaceRecipe": false,
+      "slots": {
+        "input1": {
+          "kind": "FLUID",
+          "id": "createmetallurgy:molten_iron",
+          "amount": 1350
+        },
+        "input2": {
+          "kind": "FLUID",
+          "id": "nuclearcraft:molten_carbon_manganese",
+          "amount": 90
+        },
+        "output1": {
+          "kind": "FLUID",
+          "id": "nuclearcraft:molten_hsla_steel",
+          "amount": 1440
+        }
+      },
+      "params": {
+        "allowedVatTypes": "\u0027tfmg:firebrick_lined_vat\u0027",
+        "machineSetup": "\u0027tfmg:graphite_electrode\u0027, \u0027tfmg:graphite_electrode\u0027, \u0027tfmg:graphite_electrode\u0027",
+        "processingTime": "200",
+        "heat": "none",
+        "heatLevel": "0",
+        "minSize": "9",
+        "__template": "event.recipes.tfmg.vat_machine_recipe([{inputs}], [{outputs}]).processingTime({param:processingTime}){opt_call:heat}.machines({param:machineSetup}).minSize({param:minSize}).heatLevel({param:heatLevel}).allowedVatTypes({param:allowedVatTypes})"
+      }
+    },
+    {
+      "uid": "32a2f436-e484-5f90-ade5-49a89eb6b617",
+      "type": "industrial_colonies:tfmg_chemical_vat",
+      "recipeId": "industrial_colonies:alloy_review/magnetic_alloy",
+      "comment": "Reviewed alloy table card;90mB per refined ingot portion, not low-yield ore dust. Time/attachments are proposed machine settings. No gameplay export. Steel and Andesite recipes retained. Latest rule: molten processing requires Fireproof Vat. Ingredients/yields retained; existing attachment and heat requirements retained.",
+      "replaceRecipe": false,
+      "slots": {
+        "input1": {
+          "kind": "FLUID",
+          "id": "createmetallurgy:molten_nickel",
+          "amount": 180
+        },
+        "input2": {
+          "kind": "FLUID",
+          "id": "createmetallurgy:molten_steel",
+          "amount": 180
+        },
+        "input3": {
+          "kind": "ITEM",
+          "id": "tfmg:silicon_ingot"
+        },
+        "output1": {
+          "kind": "ITEM",
+          "id": "tfmg:magnetic_alloy_ingot",
+          "count": 2
+        }
+      },
+      "params": {
+        "allowedVatTypes": "\u0027tfmg:firebrick_lined_vat\u0027",
+        "machineSetup": "\u0027tfmg:mixing\u0027",
+        "processingTime": "200",
+        "heat": "heated",
+        "heatLevel": "0",
+        "minSize": "3",
+        "__template": "event.recipes.tfmg.vat_machine_recipe([{inputs}], [{outputs}]).processingTime({param:processingTime}){opt_call:heat}.machines({param:machineSetup}).minSize({param:minSize}).heatLevel({param:heatLevel}).allowedVatTypes({param:allowedVatTypes})"
+      }
+    },
+    {
+      "uid": "f2542e0c-2e9b-5772-a260-c6c419cf3853",
+      "type": "industrial_colonies:tfmg_chemical_vat",
+      "recipeId": "industrial_colonies:alloy_review/titanium_alloy",
+      "comment": "Reviewed alloy table card;90mB per refined ingot portion, not low-yield ore dust. Time/attachments are proposed machine settings. No gameplay export. Steel and Andesite recipes retained.",
+      "replaceRecipe": false,
+      "slots": {
+        "input1": {
+          "kind": "FLUID",
+          "id": "industrial_colonies:molten_titanium",
+          "amount": 270
+        },
+        "input2": {
+          "kind": "FLUID",
+          "id": "createmetallurgy:molten_aluminum",
+          "amount": 90
+        },
+        "output1": {
+          "kind": "ITEM",
+          "id": "rocketnautics:titanium_alloy",
+          "count": 4
+        }
+      },
+      "params": {
+        "allowedVatTypes": "\u0027tfmg:firebrick_lined_vat\u0027",
+        "machineSetup": "\u0027tfmg:graphite_electrode\u0027, \u0027tfmg:graphite_electrode\u0027, \u0027tfmg:graphite_electrode\u0027",
+        "processingTime": "200",
+        "heat": "none",
+        "heatLevel": "0",
+        "minSize": "9",
+        "__template": "event.recipes.tfmg.vat_machine_recipe([{inputs}], [{outputs}]).processingTime({param:processingTime}){opt_call:heat}.machines({param:machineSetup}).minSize({param:minSize}).heatLevel({param:heatLevel}).allowedVatTypes({param:allowedVatTypes})"
+      }
+    },
+    {
+      "uid": "83160091-0f62-5e19-874e-fac647091bb2",
+      "type": "industrial_colonies:tfmg_chemical_vat",
+      "recipeId": "industrial_colonies:alloy_review/nichrome",
+      "comment": "Reviewed alloy table card;90mB per refined ingot portion, not low-yield ore dust. Time/attachments are proposed machine settings. No gameplay export. Steel and Andesite recipes retained.",
+      "replaceRecipe": false,
+      "slots": {
+        "input1": {
+          "kind": "FLUID",
+          "id": "createmetallurgy:molten_nickel",
+          "amount": 360
+        },
+        "input2": {
+          "kind": "FLUID",
+          "id": "modernfoundry:molten_chromium",
+          "amount": 90
+        },
+        "output1": {
+          "kind": "ITEM",
+          "id": "nuclearcraft:nichrome_ingot",
+          "count": 5
+        }
+      },
+      "params": {
+        "allowedVatTypes": "\u0027tfmg:firebrick_lined_vat\u0027",
+        "machineSetup": "\u0027tfmg:graphite_electrode\u0027, \u0027tfmg:graphite_electrode\u0027, \u0027tfmg:graphite_electrode\u0027",
+        "processingTime": "200",
+        "heat": "none",
+        "heatLevel": "0",
+        "minSize": "9",
+        "__template": "event.recipes.tfmg.vat_machine_recipe([{inputs}], [{outputs}]).processingTime({param:processingTime}){opt_call:heat}.machines({param:machineSetup}).minSize({param:minSize}).heatLevel({param:heatLevel}).allowedVatTypes({param:allowedVatTypes})"
+      }
+    },
+    {
+      "uid": "110b1a9e-b83a-5860-8482-6082b3a21c2c",
+      "type": "industrial_colonies:tfmg_chemical_vat",
+      "recipeId": "industrial_colonies:alloy_review/ferroboron",
+      "comment": "Reviewed alloy table card;90mB per refined ingot portion, not low-yield ore dust. Time/attachments are proposed machine settings. No gameplay export. Steel and Andesite recipes retained.",
+      "replaceRecipe": false,
+      "slots": {
+        "input1": {
+          "kind": "FLUID",
+          "id": "createmetallurgy:molten_steel",
+          "amount": 90
+        },
+        "input2": {
+          "kind": "FLUID",
+          "id": "nuclearcraft:molten_boron",
+          "amount": 90
+        },
+        "output1": {
+          "kind": "FLUID",
+          "id": "nuclearcraft:molten_ferroboron",
+          "amount": 180
+        }
+      },
+      "params": {
+        "allowedVatTypes": "\u0027tfmg:firebrick_lined_vat\u0027",
+        "machineSetup": "\u0027tfmg:graphite_electrode\u0027, \u0027tfmg:graphite_electrode\u0027, \u0027tfmg:graphite_electrode\u0027",
+        "processingTime": "200",
+        "heat": "none",
+        "heatLevel": "0",
+        "minSize": "9",
+        "__template": "event.recipes.tfmg.vat_machine_recipe([{inputs}], [{outputs}]).processingTime({param:processingTime}){opt_call:heat}.machines({param:machineSetup}).minSize({param:minSize}).heatLevel({param:heatLevel}).allowedVatTypes({param:allowedVatTypes})"
+      }
+    },
+    {
+      "uid": "3ed6271a-c1b2-5686-8cc2-a3fb07c7a168",
+      "type": "industrial_colonies:tfmg_chemical_vat",
+      "recipeId": "industrial_colonies:alloy_review/lead_platinum",
+      "comment": "Reviewed alloy table card;90mB per refined ingot portion, not low-yield ore dust. Time/attachments are proposed machine settings. No gameplay export. Steel and Andesite recipes retained. Latest rule: molten processing requires Fireproof Vat. Ingredients/yields retained; existing attachment and heat requirements retained.",
+      "replaceRecipe": false,
+      "slots": {
+        "input1": {
+          "kind": "FLUID",
+          "id": "createmetallurgy:molten_lead",
+          "amount": 270
+        },
+        "input2": {
+          "kind": "FLUID",
+          "id": "modernfoundry:molten_platinum",
+          "amount": 90
+        },
+        "output1": {
+          "kind": "FLUID",
+          "id": "nuclearcraft:molten_lead_platinum",
+          "amount": 360
+        }
+      },
+      "params": {
+        "allowedVatTypes": "\u0027tfmg:firebrick_lined_vat\u0027",
+        "machineSetup": "\u0027tfmg:mixing\u0027",
+        "processingTime": "200",
+        "heat": "heated",
+        "heatLevel": "0",
+        "minSize": "3",
+        "__template": "event.recipes.tfmg.vat_machine_recipe([{inputs}], [{outputs}]).processingTime({param:processingTime}){opt_call:heat}.machines({param:machineSetup}).minSize({param:minSize}).heatLevel({param:heatLevel}).allowedVatTypes({param:allowedVatTypes})"
+      }
+    },
+    {
+      "uid": "54f1dfb4-78c4-53af-a33d-e51155176042",
+      "type": "industrial_colonies:tfmg_chemical_vat",
+      "recipeId": "industrial_colonies:alloy_review/tin_silver",
+      "comment": "Reviewed alloy table card;90mB per refined ingot portion, not low-yield ore dust. Time/attachments are proposed machine settings. No gameplay export. Steel and Andesite recipes retained. Latest rule: molten processing requires Fireproof Vat. Ingredients/yields retained; existing attachment and heat requirements retained.",
+      "replaceRecipe": false,
+      "slots": {
+        "input1": {
+          "kind": "FLUID",
+          "id": "createmetallurgy:molten_tin",
+          "amount": 270
+        },
+        "input2": {
+          "kind": "FLUID",
+          "id": "createmetallurgy:molten_silver",
+          "amount": 90
+        },
+        "output1": {
+          "kind": "FLUID",
+          "id": "nuclearcraft:molten_tin_silver",
+          "amount": 360
+        }
+      },
+      "params": {
+        "allowedVatTypes": "\u0027tfmg:firebrick_lined_vat\u0027",
+        "machineSetup": "\u0027tfmg:mixing\u0027",
+        "processingTime": "200",
+        "heat": "heated",
+        "heatLevel": "0",
+        "minSize": "3",
+        "__template": "event.recipes.tfmg.vat_machine_recipe([{inputs}], [{outputs}]).processingTime({param:processingTime}){opt_call:heat}.machines({param:machineSetup}).minSize({param:minSize}).heatLevel({param:heatLevel}).allowedVatTypes({param:allowedVatTypes})"
+      }
+    },
+    {
+      "uid": "18b52059-b44f-5c2f-895e-5a1082c07272",
+      "type": "industrial_colonies:tfmg_chemical_vat",
+      "recipeId": "industrial_colonies:alloy_review/shibuichi",
+      "comment": "Reviewed alloy table card;90mB per refined ingot portion, not low-yield ore dust. Time/attachments are proposed machine settings. No gameplay export. Steel and Andesite recipes retained. Latest rule: molten processing requires Fireproof Vat. Ingredients/yields retained; existing attachment and heat requirements retained.",
+      "replaceRecipe": false,
+      "slots": {
+        "input1": {
+          "kind": "FLUID",
+          "id": "createmetallurgy:molten_copper",
+          "amount": 270
+        },
+        "input2": {
+          "kind": "FLUID",
+          "id": "createmetallurgy:molten_silver",
+          "amount": 90
+        },
+        "output1": {
+          "kind": "FLUID",
+          "id": "nuclearcraft:molten_shibuichi",
+          "amount": 360
+        }
+      },
+      "params": {
+        "allowedVatTypes": "\u0027tfmg:firebrick_lined_vat\u0027",
+        "machineSetup": "\u0027tfmg:mixing\u0027",
+        "processingTime": "200",
+        "heat": "heated",
+        "heatLevel": "0",
+        "minSize": "3",
+        "__template": "event.recipes.tfmg.vat_machine_recipe([{inputs}], [{outputs}]).processingTime({param:processingTime}){opt_call:heat}.machines({param:machineSetup}).minSize({param:minSize}).heatLevel({param:heatLevel}).allowedVatTypes({param:allowedVatTypes})"
+      }
+    },
+    {
+      "uid": "dcfb0d3c-f6e7-5576-aae5-ba8c14460071",
+      "type": "industrial_colonies:tfmg_chemical_vat",
+      "recipeId": "industrial_colonies:alloy_review/osmiridium",
+      "comment": "Reviewed alloy table card;90mB per refined ingot portion, not low-yield ore dust. Time/attachments are proposed machine settings. No gameplay export. Steel and Andesite recipes retained.",
+      "replaceRecipe": false,
+      "slots": {
+        "input1": {
+          "kind": "FLUID",
+          "id": "createmetallurgy:molten_osmium",
+          "amount": 270
+        },
+        "input2": {
+          "kind": "FLUID",
+          "id": "industrial_colonies:molten_iridium",
+          "amount": 90
+        },
+        "output1": {
+          "kind": "ITEM",
+          "id": "nuclearcraft:osmiridium_ingot",
+          "count": 4
+        }
+      },
+      "params": {
+        "allowedVatTypes": "\u0027tfmg:firebrick_lined_vat\u0027",
+        "machineSetup": "\u0027tfmg:graphite_electrode\u0027, \u0027tfmg:graphite_electrode\u0027, \u0027tfmg:graphite_electrode\u0027",
+        "processingTime": "200",
+        "heat": "none",
+        "heatLevel": "0",
+        "minSize": "9",
+        "__template": "event.recipes.tfmg.vat_machine_recipe([{inputs}], [{outputs}]).processingTime({param:processingTime}){opt_call:heat}.machines({param:machineSetup}).minSize({param:minSize}).heatLevel({param:heatLevel}).allowedVatTypes({param:allowedVatTypes})"
+      }
+    },
+    {
+      "uid": "f46f3d01-a102-5c02-a112-f23ad7e681b5",
+      "type": "industrial_colonies:tfmg_chemical_vat",
+      "recipeId": "industrial_colonies:alloy_review/niobium_tin",
+      "comment": "Reviewed alloy table card;90mB per refined ingot portion, not low-yield ore dust. Time/attachments are proposed machine settings. No gameplay export. Steel and Andesite recipes retained.",
+      "replaceRecipe": false,
+      "slots": {
+        "input1": {
+          "kind": "ITEM",
+          "id": "nuclearcraft:niobium_ingot",
+          "count": 2
+        },
+        "input2": {
+          "kind": "FLUID",
+          "id": "createmetallurgy:molten_tin",
+          "amount": 90
+        },
+        "output1": {
+          "kind": "ITEM",
+          "id": "nuclearcraft:niobium_tin_ingot",
+          "count": 3
+        }
+      },
+      "params": {
+        "allowedVatTypes": "\u0027tfmg:firebrick_lined_vat\u0027",
+        "machineSetup": "\u0027tfmg:graphite_electrode\u0027, \u0027tfmg:graphite_electrode\u0027, \u0027tfmg:graphite_electrode\u0027",
+        "processingTime": "200",
+        "heat": "none",
+        "heatLevel": "0",
+        "minSize": "9",
+        "__template": "event.recipes.tfmg.vat_machine_recipe([{inputs}], [{outputs}]).processingTime({param:processingTime}){opt_call:heat}.machines({param:machineSetup}).minSize({param:minSize}).heatLevel({param:heatLevel}).allowedVatTypes({param:allowedVatTypes})"
+      }
+    },
+    {
+      "uid": "0a9b57c5-eedc-5508-a551-4e02a71c9e5b",
+      "type": "industrial_colonies:tfmg_chemical_vat",
+      "recipeId": "industrial_colonies:alloy_review/niobium_titanium",
+      "comment": "Reviewed alloy table card;90mB per refined ingot portion, not low-yield ore dust. Time/attachments are proposed machine settings. No gameplay export. Steel and Andesite recipes retained.",
+      "replaceRecipe": false,
+      "slots": {
+        "input1": {
+          "kind": "ITEM",
+          "id": "nuclearcraft:niobium_ingot"
+        },
+        "input2": {
+          "kind": "FLUID",
+          "id": "industrial_colonies:molten_titanium",
+          "amount": 90
+        },
+        "output1": {
+          "kind": "ITEM",
+          "id": "nuclearcraft:niobium_titanium_ingot"
+        }
+      },
+      "params": {
+        "allowedVatTypes": "\u0027tfmg:firebrick_lined_vat\u0027",
+        "machineSetup": "\u0027tfmg:graphite_electrode\u0027, \u0027tfmg:graphite_electrode\u0027, \u0027tfmg:graphite_electrode\u0027",
+        "processingTime": "200",
+        "heat": "none",
+        "heatLevel": "0",
+        "minSize": "9",
+        "__template": "event.recipes.tfmg.vat_machine_recipe([{inputs}], [{outputs}]).processingTime({param:processingTime}){opt_call:heat}.machines({param:machineSetup}).minSize({param:minSize}).heatLevel({param:heatLevel}).allowedVatTypes({param:allowedVatTypes})"
+      }
+    },
+    {
+      "uid": "2f3ec88e-8b10-5cce-a215-9a78c2f3ace2",
+      "type": "industrial_colonies:tfmg_chemical_vat",
+      "recipeId": "industrial_colonies:alloy_review/zircaloy",
+      "comment": "Reviewed alloy table card;90mB per refined ingot portion, not low-yield ore dust. Time/attachments are proposed machine settings. No gameplay export. Steel and Andesite recipes retained.",
+      "replaceRecipe": false,
+      "slots": {
+        "input1": {
+          "kind": "FLUID",
+          "id": "nuclearcraft:molten_zirconium",
+          "amount": 630
+        },
+        "input2": {
+          "kind": "FLUID",
+          "id": "createmetallurgy:molten_tin",
+          "amount": 90
+        },
+        "output1": {
+          "kind": "FLUID",
+          "id": "nuclearcraft:molten_zircaloy",
+          "amount": 720
+        }
+      },
+      "params": {
+        "allowedVatTypes": "\u0027tfmg:firebrick_lined_vat\u0027",
+        "machineSetup": "\u0027tfmg:graphite_electrode\u0027, \u0027tfmg:graphite_electrode\u0027, \u0027tfmg:graphite_electrode\u0027",
+        "processingTime": "200",
+        "heat": "none",
+        "heatLevel": "0",
+        "minSize": "9",
+        "__template": "event.recipes.tfmg.vat_machine_recipe([{inputs}], [{outputs}]).processingTime({param:processingTime}){opt_call:heat}.machines({param:machineSetup}).minSize({param:minSize}).heatLevel({param:heatLevel}).allowedVatTypes({param:allowedVatTypes})"
+      }
+    },
+    {
+      "uid": "f9dab10f-b6f9-52cc-8f05-7c290aa5e6fb",
+      "type": "industrial_colonies:tfmg_chemical_vat",
+      "recipeId": "industrial_colonies:alloy_review/zirconium_molybdenum",
+      "comment": "Reviewed alloy table card;90mB per refined ingot portion, not low-yield ore dust. Time/attachments are proposed machine settings. No gameplay export. Steel and Andesite recipes retained.",
+      "replaceRecipe": false,
+      "slots": {
+        "input1": {
+          "kind": "FLUID",
+          "id": "nuclearcraft:molten_molybdenum",
+          "amount": 1350
+        },
+        "input2": {
+          "kind": "FLUID",
+          "id": "nuclearcraft:molten_zirconium",
+          "amount": 90
+        },
+        "output1": {
+          "kind": "FLUID",
+          "id": "nuclearcraft:molten_zirconium_molybdenum",
+          "amount": 1440
+        }
+      },
+      "params": {
+        "allowedVatTypes": "\u0027tfmg:firebrick_lined_vat\u0027",
+        "machineSetup": "\u0027tfmg:graphite_electrode\u0027, \u0027tfmg:graphite_electrode\u0027, \u0027tfmg:graphite_electrode\u0027",
+        "processingTime": "200",
+        "heat": "none",
+        "heatLevel": "0",
+        "minSize": "9",
+        "__template": "event.recipes.tfmg.vat_machine_recipe([{inputs}], [{outputs}]).processingTime({param:processingTime}){opt_call:heat}.machines({param:machineSetup}).minSize({param:minSize}).heatLevel({param:heatLevel}).allowedVatTypes({param:allowedVatTypes})"
+      }
+    },
+    {
+      "uid": "1ce8453b-6287-5f46-b6ba-6dc721e3c833",
+      "type": "industrial_colonies:tfmg_chemical_vat",
+      "recipeId": "industrial_colonies:alloy_review/tough_alloy",
+      "comment": "Reviewed alloy table card;90mB per refined ingot portion, not low-yield ore dust. Time/attachments are proposed machine settings. No gameplay export. Steel and Andesite recipes retained.",
+      "replaceRecipe": false,
+      "slots": {
+        "input1": {
+          "kind": "FLUID",
+          "id": "nuclearcraft:molten_ferroboron",
+          "amount": 90
+        },
+        "input2": {
+          "kind": "FLUID",
+          "id": "createmetallurgy:molten_lithium",
+          "amount": 90
+        },
+        "output1": {
+          "kind": "FLUID",
+          "id": "nuclearcraft:molten_tough_alloy",
+          "amount": 180
+        }
+      },
+      "params": {
+        "allowedVatTypes": "\u0027tfmg:firebrick_lined_vat\u0027",
+        "machineSetup": "\u0027tfmg:graphite_electrode\u0027, \u0027tfmg:graphite_electrode\u0027, \u0027tfmg:graphite_electrode\u0027",
+        "processingTime": "200",
+        "heat": "none",
+        "heatLevel": "0",
+        "minSize": "9",
+        "__template": "event.recipes.tfmg.vat_machine_recipe([{inputs}], [{outputs}]).processingTime({param:processingTime}){opt_call:heat}.machines({param:machineSetup}).minSize({param:minSize}).heatLevel({param:heatLevel}).allowedVatTypes({param:allowedVatTypes})"
+      }
+    },
+    {
+      "uid": "d707718d-fc97-5951-9ae6-a324f1ceaf4a",
+      "type": "industrial_colonies:tfmg_chemical_vat",
+      "recipeId": "industrial_colonies:alloy_review/extreme",
+      "comment": "Reviewed alloy table card;90mB per refined ingot portion, not low-yield ore dust. Time/attachments are proposed machine settings. No gameplay export. Steel and Andesite recipes retained.",
+      "replaceRecipe": false,
+      "slots": {
+        "input1": {
+          "kind": "FLUID",
+          "id": "nuclearcraft:molten_tough_alloy",
+          "amount": 90
+        },
+        "input2": {
+          "kind": "FLUID",
+          "id": "nuclearcraft:molten_hard_carbon",
+          "amount": 90
+        },
+        "output1": {
+          "kind": "FLUID",
+          "id": "nuclearcraft:molten_extreme",
+          "amount": 180
+        }
+      },
+      "params": {
+        "allowedVatTypes": "\u0027tfmg:firebrick_lined_vat\u0027",
+        "machineSetup": "\u0027tfmg:graphite_electrode\u0027, \u0027tfmg:graphite_electrode\u0027, \u0027tfmg:graphite_electrode\u0027",
+        "processingTime": "200",
+        "heat": "none",
+        "heatLevel": "0",
+        "minSize": "9",
+        "__template": "event.recipes.tfmg.vat_machine_recipe([{inputs}], [{outputs}]).processingTime({param:processingTime}){opt_call:heat}.machines({param:machineSetup}).minSize({param:minSize}).heatLevel({param:heatLevel}).allowedVatTypes({param:allowedVatTypes})"
+      }
+    },
+    {
+      "uid": "9d4fc501-9f5f-53d2-91e0-0812698796e6",
+      "type": "industrial_colonies:tfmg_chemical_vat",
+      "recipeId": "industrial_colonies:alloy_review/thermoconducting",
+      "comment": "Reviewed alloy table card;90mB per refined ingot portion, not low-yield ore dust. Time/attachments are proposed machine settings. No gameplay export. Steel and Andesite recipes retained.",
+      "replaceRecipe": false,
+      "slots": {
+        "input1": {
+          "kind": "FLUID",
+          "id": "nuclearcraft:molten_extreme",
+          "amount": 90
+        },
+        "input2": {
+          "kind": "ITEM",
+          "id": "nuclearcraft:boron_arsenide_gem"
+        },
+        "output1": {
+          "kind": "FLUID",
+          "id": "nuclearcraft:molten_thermoconducting",
+          "amount": 180
+        }
+      },
+      "params": {
+        "allowedVatTypes": "\u0027tfmg:firebrick_lined_vat\u0027",
+        "machineSetup": "\u0027tfmg:graphite_electrode\u0027, \u0027tfmg:graphite_electrode\u0027, \u0027tfmg:graphite_electrode\u0027",
+        "processingTime": "200",
+        "heat": "none",
+        "heatLevel": "0",
+        "minSize": "9",
+        "__template": "event.recipes.tfmg.vat_machine_recipe([{inputs}], [{outputs}]).processingTime({param:processingTime}){opt_call:heat}.machines({param:machineSetup}).minSize({param:minSize}).heatLevel({param:heatLevel}).allowedVatTypes({param:allowedVatTypes})"
+      }
+    },
+    {
+      "uid": "3155a1a7-688f-5e1c-ba5a-8ee349fe3321",
+      "type": "industrial_colonies:tfmg_chemical_vat",
+      "recipeId": "industrial_colonies:alloy_review/carbon_manganese",
+      "comment": "Reviewed alloy table card;90mB per refined ingot portion, not low-yield ore dust. Time/attachments are proposed machine settings. No gameplay export. Steel and Andesite recipes retained. Latest rule: molten processing requires Fireproof Vat. Ingredients/yields retained; existing attachment and heat requirements retained.",
+      "replaceRecipe": false,
+      "slots": {
+        "input1": {
+          "kind": "FLUID",
+          "id": "nuclearcraft:molten_manganese",
+          "amount": 90
+        },
+        "input2": {
+          "kind": "ITEM",
+          "id": "nuclearcraft:graphite_dust"
+        },
+        "output1": {
+          "kind": "FLUID",
+          "id": "nuclearcraft:molten_carbon_manganese",
+          "amount": 180
+        }
+      },
+      "params": {
+        "allowedVatTypes": "\u0027tfmg:firebrick_lined_vat\u0027",
+        "machineSetup": "\u0027tfmg:mixing\u0027",
+        "processingTime": "200",
+        "heat": "heated",
+        "heatLevel": "0",
+        "minSize": "3",
+        "__template": "event.recipes.tfmg.vat_machine_recipe([{inputs}], [{outputs}]).processingTime({param:processingTime}){opt_call:heat}.machines({param:machineSetup}).minSize({param:minSize}).heatLevel({param:heatLevel}).allowedVatTypes({param:allowedVatTypes})"
+      }
+    },
+    {
+      "uid": "f7aa73ce-1cf7-55f4-a49e-5b5517c42a3d",
+      "type": "industrial_colonies:tfmg_chemical_vat",
+      "recipeId": "industrial_colonies:alloy_review/magnesium_diboride",
+      "comment": "Reviewed alloy table card;90mB per refined ingot portion, not low-yield ore dust. Time/attachments are proposed machine settings. No gameplay export. Steel and Andesite recipes retained. Latest rule: molten processing requires Fireproof Vat. Ingredients/yields retained; existing attachment and heat requirements retained.",
+      "replaceRecipe": false,
+      "slots": {
+        "input1": {
+          "kind": "FLUID",
+          "id": "nuclearcraft:molten_magnesium",
+          "amount": 90
+        },
+        "input2": {
+          "kind": "FLUID",
+          "id": "nuclearcraft:molten_boron",
+          "amount": 180
+        },
+        "output1": {
+          "kind": "FLUID",
+          "id": "nuclearcraft:molten_magnesium_diboride",
+          "amount": 270
+        }
+      },
+      "params": {
+        "allowedVatTypes": "\u0027tfmg:firebrick_lined_vat\u0027",
+        "machineSetup": "\u0027tfmg:mixing\u0027",
+        "processingTime": "200",
+        "heat": "heated",
+        "heatLevel": "0",
+        "minSize": "3",
+        "__template": "event.recipes.tfmg.vat_machine_recipe([{inputs}], [{outputs}]).processingTime({param:processingTime}){opt_call:heat}.machines({param:machineSetup}).minSize({param:minSize}).heatLevel({param:heatLevel}).allowedVatTypes({param:allowedVatTypes})"
+      }
+    },
+    {
+      "uid": "b47d3863-9723-51e2-9df9-2d0bf0a7dde1",
+      "type": "industrial_colonies:tfmg_chemical_vat",
+      "recipeId": "industrial_colonies:alloy_review/tungsten_carbide",
+      "comment": "Reviewed alloy table card;90mB per refined ingot portion, not low-yield ore dust. Time/attachments are proposed machine settings. No gameplay export. Steel and Andesite recipes retained.",
+      "replaceRecipe": false,
+      "slots": {
+        "input1": {
+          "kind": "FLUID",
+          "id": "createmetallurgy:molten_tungsten",
+          "amount": 90
+        },
+        "input2": {
+          "kind": "ITEM",
+          "id": "nuclearcraft:graphite_dust"
+        },
+        "output1": {
+          "kind": "ITEM",
+          "id": "nuclearcraft:tungsten_carbide_ingot"
+        }
+      },
+      "params": {
+        "allowedVatTypes": "\u0027tfmg:firebrick_lined_vat\u0027",
+        "machineSetup": "\u0027tfmg:graphite_electrode\u0027, \u0027tfmg:graphite_electrode\u0027, \u0027tfmg:graphite_electrode\u0027",
+        "processingTime": "200",
+        "heat": "none",
+        "heatLevel": "0",
+        "minSize": "9",
+        "__template": "event.recipes.tfmg.vat_machine_recipe([{inputs}], [{outputs}]).processingTime({param:processingTime}){opt_call:heat}.machines({param:machineSetup}).minSize({param:minSize}).heatLevel({param:heatLevel}).allowedVatTypes({param:allowedVatTypes})"
+      }
+    },
+    {
+      "uid": "7d0a852a-a11a-53e9-96c4-c121acfc7986",
+      "type": "industrial_colonies:tfmg_chemical_vat",
+      "recipeId": "industrial_colonies:alloy_review/silicon_carbide",
+      "comment": "Reviewed alloy table card;90mB per refined ingot portion, not low-yield ore dust. Time/attachments are proposed machine settings. No gameplay export. Steel and Andesite recipes retained. Latest rule: molten processing requires Fireproof Vat. Ingredients/yields retained; existing attachment and heat requirements retained.",
+      "replaceRecipe": false,
+      "slots": {
+        "input1": {
+          "kind": "ITEM",
+          "id": "nuclearcraft:silicon_gem"
+        },
+        "input2": {
+          "kind": "ITEM",
+          "id": "nuclearcraft:graphite_dust"
+        },
+        "output1": {
+          "kind": "FLUID",
+          "id": "nuclearcraft:molten_silicon_carbide",
+          "amount": 180
+        }
+      },
+      "params": {
+        "allowedVatTypes": "\u0027tfmg:firebrick_lined_vat\u0027",
+        "machineSetup": "\u0027tfmg:mixing\u0027",
+        "processingTime": "200",
+        "heat": "heated",
+        "heatLevel": "0",
+        "minSize": "3",
+        "__template": "event.recipes.tfmg.vat_machine_recipe([{inputs}], [{outputs}]).processingTime({param:processingTime}){opt_call:heat}.machines({param:machineSetup}).minSize({param:minSize}).heatLevel({param:heatLevel}).allowedVatTypes({param:allowedVatTypes})"
+      }
+    },
+    {
+      "uid": "3bed95b3-2078-5c2d-91ca-a41c9bc378a2",
+      "type": "industrial_colonies:tfmg_chemical_vat",
+      "recipeId": "industrial_colonies:alloy_review/hard_carbon",
+      "comment": "Reviewed alloy table card;90mB per refined ingot portion, not low-yield ore dust. Time/attachments are proposed machine settings. No gameplay export. Steel and Andesite recipes retained. Latest rule: molten processing requires Fireproof Vat. Ingredients/yields retained; existing attachment and heat requirements retained.",
+      "replaceRecipe": false,
+      "slots": {
+        "input1": {
+          "kind": "ITEM",
+          "id": "nuclearcraft:graphite_dust"
+        },
+        "input2": {
+          "kind": "ITEM",
+          "id": "nuclearcraft:diamond_dust"
+        },
+        "output1": {
+          "kind": "FLUID",
+          "id": "nuclearcraft:molten_hard_carbon",
+          "amount": 180
+        }
+      },
+      "params": {
+        "allowedVatTypes": "\u0027tfmg:firebrick_lined_vat\u0027",
+        "machineSetup": "\u0027tfmg:mixing\u0027",
+        "processingTime": "200",
+        "heat": "heated",
+        "heatLevel": "0",
+        "minSize": "3",
+        "__template": "event.recipes.tfmg.vat_machine_recipe([{inputs}], [{outputs}]).processingTime({param:processingTime}){opt_call:heat}.machines({param:machineSetup}).minSize({param:minSize}).heatLevel({param:heatLevel}).allowedVatTypes({param:allowedVatTypes})"
+      }
+    },
+    {
+      "uid": "f089af33-6fa1-58a6-8f1c-6749945636b1",
+      "type": "industrial_colonies:tfmg_chemical_vat",
+      "recipeId": "industrial_colonies:alloy_review/sic_sic_cmc",
+      "comment": "Reviewed alloy table card;90mB per refined ingot portion, not low-yield ore dust. Time/attachments are proposed machine settings. No gameplay export. Steel and Andesite recipes retained.",
+      "replaceRecipe": false,
+      "slots": {
+        "input1": {
+          "kind": "FLUID",
+          "id": "nuclearcraft:molten_carbon_manganese",
+          "amount": 90
+        },
+        "input2": {
+          "kind": "FLUID",
+          "id": "industrial_colonies:molten_titanium",
+          "amount": 990
+        },
+        "output1": {
+          "kind": "FLUID",
+          "id": "nuclearcraft:molten_sic_sic_cmc",
+          "amount": 1080
+        }
+      },
+      "params": {
+        "allowedVatTypes": "\u0027tfmg:firebrick_lined_vat\u0027",
+        "machineSetup": "\u0027tfmg:graphite_electrode\u0027, \u0027tfmg:graphite_electrode\u0027, \u0027tfmg:graphite_electrode\u0027",
+        "processingTime": "200",
+        "heat": "none",
+        "heatLevel": "0",
+        "minSize": "9",
+        "__template": "event.recipes.tfmg.vat_machine_recipe([{inputs}], [{outputs}]).processingTime({param:processingTime}){opt_call:heat}.machines({param:machineSetup}).minSize({param:minSize}).heatLevel({param:heatLevel}).allowedVatTypes({param:allowedVatTypes})"
+      }
+    },
+    {
+      "uid": "7de1903d-116b-5b78-af19-40873a0b3957",
+      "type": "industrial_colonies:tfmg_chemical_vat",
+      "recipeId": "industrial_colonies:alloy_review/lithium_manganese_dioxide",
+      "comment": "Reviewed alloy table card;90mB per refined ingot portion, not low-yield ore dust. Time/attachments are proposed machine settings. No gameplay export. Steel and Andesite recipes retained. Latest rule: molten processing requires Fireproof Vat. Ingredients/yields retained; existing attachment and heat requirements retained.",
+      "replaceRecipe": false,
+      "slots": {
+        "input1": {
+          "kind": "FLUID",
+          "id": "createmetallurgy:molten_lithium",
+          "amount": 90
+        },
+        "input2": {
+          "kind": "FLUID",
+          "id": "nuclearcraft:molten_manganese_dioxide",
+          "amount": 90
+        },
+        "output1": {
+          "kind": "FLUID",
+          "id": "nuclearcraft:molten_lithium_manganese_dioxide",
+          "amount": 180
+        }
+      },
+      "params": {
+        "allowedVatTypes": "\u0027tfmg:firebrick_lined_vat\u0027",
+        "machineSetup": "\u0027tfmg:mixing\u0027",
+        "processingTime": "200",
+        "heat": "heated",
+        "heatLevel": "0",
+        "minSize": "3",
+        "__template": "event.recipes.tfmg.vat_machine_recipe([{inputs}], [{outputs}]).processingTime({param:processingTime}){opt_call:heat}.machines({param:machineSetup}).minSize({param:minSize}).heatLevel({param:heatLevel}).allowedVatTypes({param:allowedVatTypes})"
+      }
+    },
+    {
+      "uid": "4b15bc92-c7ff-5308-93ed-52e0701b7e2c",
+      "type": "industrial_colonies:tfmg_chemical_vat",
+      "recipeId": "industrial_colonies:alloy_review/duralumin",
+      "comment": "Reviewed alloy table card;90mB per refined ingot portion, not low-yield ore dust. Time/attachments are proposed machine settings. No gameplay export. Steel and Andesite recipes retained. Latest rule: molten processing requires Fireproof Vat. Ingredients/yields retained; existing attachment and heat requirements retained.",
+      "replaceRecipe": false,
+      "slots": {
+        "input1": {
+          "kind": "FLUID",
+          "id": "createmetallurgy:molten_aluminum",
+          "amount": 270
+        },
+        "input2": {
+          "kind": "FLUID",
+          "id": "createmetallurgy:molten_copper",
+          "amount": 90
+        },
+        "output1": {
+          "kind": "FLUID",
+          "id": "modernfoundry:molten_duralumin",
+          "amount": 360
+        }
+      },
+      "params": {
+        "allowedVatTypes": "\u0027tfmg:firebrick_lined_vat\u0027",
+        "machineSetup": "\u0027tfmg:mixing\u0027",
+        "processingTime": "200",
+        "heat": "heated",
+        "heatLevel": "0",
+        "minSize": "3",
+        "__template": "event.recipes.tfmg.vat_machine_recipe([{inputs}], [{outputs}]).processingTime({param:processingTime}){opt_call:heat}.machines({param:machineSetup}).minSize({param:minSize}).heatLevel({param:heatLevel}).allowedVatTypes({param:allowedVatTypes})"
+      }
+    },
+    {
+      "uid": "5755dfc3-a066-5dc8-9be4-19295baa24dd",
+      "type": "industrial_colonies:tfmg_chemical_vat",
+      "recipeId": "industrial_colonies:alloy_review/bendalloy",
+      "comment": "Reviewed alloy table card;90mB per refined ingot portion, not low-yield ore dust. Time/attachments are proposed machine settings. No gameplay export. Steel and Andesite recipes retained. Latest rule: molten processing requires Fireproof Vat. Ingredients/yields retained; existing attachment and heat requirements retained.",
+      "replaceRecipe": false,
+      "slots": {
+        "input1": {
+          "kind": "FLUID",
+          "id": "createmetallurgy:molten_tin",
+          "amount": 180
+        },
+        "input2": {
+          "kind": "FLUID",
+          "id": "createmetallurgy:molten_lead",
+          "amount": 90
+        },
+        "input3": {
+          "kind": "FLUID",
+          "id": "modernfoundry:molten_cadmium",
+          "amount": 90
+        },
+        "output1": {
+          "kind": "FLUID",
+          "id": "modernfoundry:molten_bendalloy",
+          "amount": 360
+        }
+      },
+      "params": {
+        "allowedVatTypes": "\u0027tfmg:firebrick_lined_vat\u0027",
+        "machineSetup": "\u0027tfmg:mixing\u0027",
+        "processingTime": "200",
+        "heat": "heated",
+        "heatLevel": "0",
+        "minSize": "3",
+        "__template": "event.recipes.tfmg.vat_machine_recipe([{inputs}], [{outputs}]).processingTime({param:processingTime}){opt_call:heat}.machines({param:machineSetup}).minSize({param:minSize}).heatLevel({param:heatLevel}).allowedVatTypes({param:allowedVatTypes})"
+      }
+    },
+    {
+      "uid": "a60ab0bf-5ef4-55df-8269-6bfc0361a6cc",
+      "type": "kjsgen:create_sequenced_assembly",
+      "recipeId": "industrial_colonies:plate_assembly/nickel",
+      "comment": "Plate, not sheet. Direct adaptation of Personal Recipes steel-plate card: cut, press, deploy screw, press, deploy screw, press; TWO loops, one ingot and four screws total for one plate. weathered_iron machine capability proposed. Existing finished plate as transitional follows the user reference; incomplete-workpiece/shortcut audit remains required before export. Native competing routes not removed by this draft.",
+      "replaceRecipe": false,
+      "slots": {
+        "input": {
+          "kind": "ITEM",
+          "id": "tfmg:nickel_ingot"
+        },
+        "transitional": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:plate_nickel"
+        },
+        "output0": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:plate_nickel"
+        },
+        "seqItem2": {
+          "kind": "ITEM",
+          "id": "tfmg:screw"
+        },
+        "seqItem4": {
+          "kind": "ITEM",
+          "id": "tfmg:screw"
+        },
+        "__machine_step_0_cutting": {
+          "kind": "ITEM",
+          "id": "createcasing:weathered_iron_mechanical_saw"
+        },
+        "__machine_step_1_pressing": {
+          "kind": "ITEM",
+          "id": "createcasing:weathered_iron_press"
+        },
+        "__machine_step_2_deploying": {
+          "kind": "ITEM",
+          "id": "createcasing:weathered_iron_deployer"
+        },
+        "__machine_step_3_pressing": {
+          "kind": "ITEM",
+          "id": "createcasing:weathered_iron_press"
+        },
+        "__machine_step_4_deploying": {
+          "kind": "ITEM",
+          "id": "createcasing:weathered_iron_deployer"
+        },
+        "__machine_step_5_pressing": {
+          "kind": "ITEM",
+          "id": "createcasing:weathered_iron_press"
+        }
+      },
+      "params": {
+        "__seqLen": "6",
+        "seq0": "cutting",
+        "seq1": "pressing",
+        "seq2": "deploying",
+        "seq3": "pressing",
+        "seq4": "deploying",
+        "seq5": "pressing",
+        "loops": "2"
+      }
+    },
+    {
+      "uid": "f0581248-eb7c-5c46-9655-f3d94ea64fde",
+      "type": "kjsgen:create_sequenced_assembly",
+      "recipeId": "industrial_colonies:plate_assembly/electrum",
+      "comment": "Plate, not sheet. Direct adaptation of Personal Recipes steel-plate card: cut, press, deploy screw, press, deploy screw, press; TWO loops, one ingot and four screws total for one plate. brass machine capability proposed. Existing finished plate as transitional follows the user reference; incomplete-workpiece/shortcut audit remains required before export. Native competing routes not removed by this draft.",
+      "replaceRecipe": false,
+      "slots": {
+        "input": {
+          "kind": "ITEM",
+          "id": "createaddition:electrum_ingot"
+        },
+        "transitional": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:plate_electrum"
+        },
+        "output0": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:plate_electrum"
+        },
+        "seqItem2": {
+          "kind": "ITEM",
+          "id": "tfmg:screw"
+        },
+        "seqItem4": {
+          "kind": "ITEM",
+          "id": "tfmg:screw"
+        },
+        "__machine_step_0_cutting": {
+          "kind": "ITEM",
+          "id": "createcasing:brass_mechanical_saw"
+        },
+        "__machine_step_1_pressing": {
+          "kind": "ITEM",
+          "id": "createcasing:brass_press"
+        },
+        "__machine_step_2_deploying": {
+          "kind": "ITEM",
+          "id": "createcasing:brass_deployer"
+        },
+        "__machine_step_3_pressing": {
+          "kind": "ITEM",
+          "id": "createcasing:brass_press"
+        },
+        "__machine_step_4_deploying": {
+          "kind": "ITEM",
+          "id": "createcasing:brass_deployer"
+        },
+        "__machine_step_5_pressing": {
+          "kind": "ITEM",
+          "id": "createcasing:brass_press"
+        }
+      },
+      "params": {
+        "__seqLen": "6",
+        "seq0": "cutting",
+        "seq1": "pressing",
+        "seq2": "deploying",
+        "seq3": "pressing",
+        "seq4": "deploying",
+        "seq5": "pressing",
+        "loops": "2"
+      }
+    },
+    {
+      "uid": "0930f8e1-841f-5079-8136-9f0919014235",
+      "type": "kjsgen:create_sequenced_assembly",
+      "recipeId": "industrial_colonies:plate_assembly/allthemodium",
+      "comment": "Sturdy structural plate: form the rare ingot, bond a mekanism:alloy_reinforced reinforcement and rocketnautics:titanium_alloy_sheet backing, trim and finish-press. No screw-only structure and no new item; one plate from one rare ingot plus real support materials.",
+      "replaceRecipe": false,
+      "slots": {
+        "input": {
+          "kind": "ITEM",
+          "id": "allthemodium:allthemodium_ingot"
+        },
+        "transitional": {
+          "kind": "ITEM",
+          "id": "allthemodium:allthemodium_ingot"
+        },
+        "output0": {
+          "kind": "ITEM",
+          "id": "allthemodium:allthemodium_plate"
+        },
+        "seqItem1": {
+          "kind": "ITEM",
+          "id": "mekanism:alloy_reinforced"
+        },
+        "seqItem3": {
+          "kind": "ITEM",
+          "id": "rocketnautics:titanium_alloy_sheet"
+        },
+        "__machine_step_0_pressing": {
+          "kind": "ITEM",
+          "id": "createcasing:industrial_iron_press"
+        },
+        "__machine_step_1_deploying": {
+          "kind": "ITEM",
+          "id": "createcasing:industrial_iron_deployer"
+        },
+        "__machine_step_2_pressing": {
+          "kind": "ITEM",
+          "id": "createcasing:industrial_iron_press"
+        },
+        "__machine_step_3_deploying": {
+          "kind": "ITEM",
+          "id": "createcasing:industrial_iron_deployer"
+        },
+        "__machine_step_4_cutting": {
+          "kind": "ITEM",
+          "id": "createcasing:industrial_iron_mechanical_saw"
+        },
+        "__machine_step_5_pressing": {
+          "kind": "ITEM",
+          "id": "createcasing:industrial_iron_press"
+        }
+      },
+      "params": {
+        "loops": "1",
+        "__seqLen": "6",
+        "seq0": "pressing",
+        "seq1": "deploying",
+        "seq2": "pressing",
+        "seq3": "deploying",
+        "seq4": "cutting",
+        "seq5": "pressing"
+      }
+    },
+    {
+      "uid": "b080de1f-cbbd-5040-8923-e6b64c68d799",
+      "type": "kjsgen:create_sequenced_assembly",
+      "recipeId": "industrial_colonies:plate_assembly/vibranium",
+      "comment": "Sturdy structural plate: form the rare ingot, bond a mekanism:alloy_atomic reinforcement and rocketnautics:titanium_alloy_sheet backing, trim and finish-press. No screw-only structure and no new item; one plate from one rare ingot plus real support materials.",
+      "replaceRecipe": false,
+      "slots": {
+        "input": {
+          "kind": "ITEM",
+          "id": "allthemodium:vibranium_ingot"
+        },
+        "transitional": {
+          "kind": "ITEM",
+          "id": "allthemodium:vibranium_ingot"
+        },
+        "output0": {
+          "kind": "ITEM",
+          "id": "allthemodium:vibranium_plate"
+        },
+        "seqItem1": {
+          "kind": "ITEM",
+          "id": "mekanism:alloy_atomic"
+        },
+        "seqItem3": {
+          "kind": "ITEM",
+          "id": "rocketnautics:titanium_alloy_sheet"
+        },
+        "__machine_step_0_pressing": {
+          "kind": "ITEM",
+          "id": "createcasing:refined_radiance_press"
+        },
+        "__machine_step_1_deploying": {
+          "kind": "ITEM",
+          "id": "createcasing:refined_radiance_deployer"
+        },
+        "__machine_step_2_pressing": {
+          "kind": "ITEM",
+          "id": "createcasing:refined_radiance_press"
+        },
+        "__machine_step_3_deploying": {
+          "kind": "ITEM",
+          "id": "createcasing:refined_radiance_deployer"
+        },
+        "__machine_step_4_cutting": {
+          "kind": "ITEM",
+          "id": "createcasing:refined_radiance_mechanical_saw"
+        },
+        "__machine_step_5_pressing": {
+          "kind": "ITEM",
+          "id": "createcasing:refined_radiance_press"
+        }
+      },
+      "params": {
+        "loops": "1",
+        "__seqLen": "6",
+        "seq0": "pressing",
+        "seq1": "deploying",
+        "seq2": "pressing",
+        "seq3": "deploying",
+        "seq4": "cutting",
+        "seq5": "pressing"
+      }
+    },
+    {
+      "uid": "ac7c4d49-481f-5693-82bd-469e0b1001b1",
+      "type": "kjsgen:create_sequenced_assembly",
+      "recipeId": "industrial_colonies:plate_assembly/iron",
+      "comment": "Plate, not sheet. Direct adaptation of Personal Recipes steel-plate card: cut, press, deploy screw, press, deploy screw, press; TWO loops, one ingot and four screws total for one plate. weathered_iron machine capability proposed. Existing finished plate as transitional follows the user reference; incomplete-workpiece/shortcut audit remains required before export. Native competing routes not removed by this draft.",
+      "replaceRecipe": false,
+      "slots": {
+        "input": {
+          "kind": "ITEM",
+          "id": "minecraft:iron_ingot"
+        },
+        "transitional": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:plate_iron"
+        },
+        "output0": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:plate_iron"
+        },
+        "seqItem2": {
+          "kind": "ITEM",
+          "id": "tfmg:screw"
+        },
+        "seqItem4": {
+          "kind": "ITEM",
+          "id": "tfmg:screw"
+        },
+        "__machine_step_0_cutting": {
+          "kind": "ITEM",
+          "id": "createcasing:weathered_iron_mechanical_saw"
+        },
+        "__machine_step_1_pressing": {
+          "kind": "ITEM",
+          "id": "createcasing:weathered_iron_press"
+        },
+        "__machine_step_2_deploying": {
+          "kind": "ITEM",
+          "id": "createcasing:weathered_iron_deployer"
+        },
+        "__machine_step_3_pressing": {
+          "kind": "ITEM",
+          "id": "createcasing:weathered_iron_press"
+        },
+        "__machine_step_4_deploying": {
+          "kind": "ITEM",
+          "id": "createcasing:weathered_iron_deployer"
+        },
+        "__machine_step_5_pressing": {
+          "kind": "ITEM",
+          "id": "createcasing:weathered_iron_press"
+        }
+      },
+      "params": {
+        "__seqLen": "6",
+        "seq0": "cutting",
+        "seq1": "pressing",
+        "seq2": "deploying",
+        "seq3": "pressing",
+        "seq4": "deploying",
+        "seq5": "pressing",
+        "loops": "2"
+      }
+    },
+    {
+      "uid": "d6581f35-4979-5d3f-ba3a-7bf8e2293b5b",
+      "type": "kjsgen:create_sequenced_assembly",
+      "recipeId": "industrial_colonies:plate_assembly/unobtainium",
+      "comment": "Sturdy structural plate: form the rare ingot, bond a mekanism:alloy_atomic reinforcement and createmetallurgy:tungsten_sheet backing, trim and finish-press. No screw-only structure and no new item; one plate from one rare ingot plus real support materials.",
+      "replaceRecipe": false,
+      "slots": {
+        "input": {
+          "kind": "ITEM",
+          "id": "allthemodium:unobtainium_ingot"
+        },
+        "transitional": {
+          "kind": "ITEM",
+          "id": "allthemodium:unobtainium_ingot"
+        },
+        "output0": {
+          "kind": "ITEM",
+          "id": "allthemodium:unobtainium_plate"
+        },
+        "seqItem1": {
+          "kind": "ITEM",
+          "id": "mekanism:alloy_atomic"
+        },
+        "seqItem3": {
+          "kind": "ITEM",
+          "id": "createmetallurgy:tungsten_sheet"
+        },
+        "__machine_step_0_pressing": {
+          "kind": "ITEM",
+          "id": "createcasing:refined_radiance_press"
+        },
+        "__machine_step_1_deploying": {
+          "kind": "ITEM",
+          "id": "createcasing:refined_radiance_deployer"
+        },
+        "__machine_step_2_pressing": {
+          "kind": "ITEM",
+          "id": "createcasing:refined_radiance_press"
+        },
+        "__machine_step_3_deploying": {
+          "kind": "ITEM",
+          "id": "createcasing:refined_radiance_deployer"
+        },
+        "__machine_step_4_cutting": {
+          "kind": "ITEM",
+          "id": "createcasing:refined_radiance_mechanical_saw"
+        },
+        "__machine_step_5_pressing": {
+          "kind": "ITEM",
+          "id": "createcasing:refined_radiance_press"
+        }
+      },
+      "params": {
+        "loops": "1",
+        "__seqLen": "6",
+        "seq0": "pressing",
+        "seq1": "deploying",
+        "seq2": "pressing",
+        "seq3": "deploying",
+        "seq4": "cutting",
+        "seq5": "pressing"
+      }
+    },
+    {
+      "uid": "c8e10556-34bd-577b-8706-9de38159b63f",
+      "type": "kjsgen:create_sequenced_assembly",
+      "recipeId": "industrial_colonies:ownership/steel_sheet",
+      "comment": "Plate, not sheet. Direct adaptation of Personal Recipes steel-plate card: cut, press, deploy screw, press, deploy screw, press; TWO loops, one ingot and four screws total for one plate. weathered_iron machine capability proposed. Existing finished plate as transitional follows the user reference; incomplete-workpiece/shortcut audit remains required before export. Native competing routes not removed by this draft.",
+      "replaceRecipe": false,
+      "slots": {
+        "input": {
+          "kind": "ITEM",
+          "id": "mekanism:ingot_steel"
+        },
+        "transitional": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:plate_steel"
+        },
+        "output0": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:plate_steel"
+        },
+        "seqItem2": {
+          "kind": "ITEM",
+          "id": "tfmg:screw"
+        },
+        "seqItem4": {
+          "kind": "ITEM",
+          "id": "tfmg:screw"
+        },
+        "__machine_step_0_cutting": {
+          "kind": "ITEM",
+          "id": "createcasing:weathered_iron_mechanical_saw"
+        },
+        "__machine_step_1_pressing": {
+          "kind": "ITEM",
+          "id": "createcasing:weathered_iron_press"
+        },
+        "__machine_step_2_deploying": {
+          "kind": "ITEM",
+          "id": "createcasing:weathered_iron_deployer"
+        },
+        "__machine_step_3_pressing": {
+          "kind": "ITEM",
+          "id": "createcasing:weathered_iron_press"
+        },
+        "__machine_step_4_deploying": {
+          "kind": "ITEM",
+          "id": "createcasing:weathered_iron_deployer"
+        },
+        "__machine_step_5_pressing": {
+          "kind": "ITEM",
+          "id": "createcasing:weathered_iron_press"
+        }
+      },
+      "params": {
+        "__seqLen": "6",
+        "seq0": "cutting",
+        "seq1": "pressing",
+        "seq2": "deploying",
+        "seq3": "pressing",
+        "seq4": "deploying",
+        "seq5": "pressing",
+        "loops": "2"
+      }
+    },
+    {
+      "uid": "467ee030-1304-5a29-9128-e8ff2611e8a4",
+      "type": "industrial_colonies:mekanism_washing",
+      "recipeId": "industrial_colonies:atm_baseline/dissolution",
+      "group": "Allthemodium baseline",
+      "comment": "[ATM3 — acid purification] The unchanged Chemical Washer operation uses one unit dirty ATM slurry and 1 mB existing TFMG sulfuric-acid FLUID to produce one unit clean ATM slurry. Run 2,400 native operations per full batch, consuming 2,400 mB acid and preserving 12 feed-equivalent units. The acid fluid remains distinct from Mekanism sulfuric-acid chemical. No per-operation bill, machine or review decision changes here.",
+      "replaceRecipe": false,
+      "slots": {
+        "fluid_input": {
+          "kind": "FLUID",
+          "id": "nuclearcraft:aqua_regia_acid",
+          "amount": 10
+        },
+        "chemical_input": {
+          "kind": "CHEMICAL",
+          "id": "allthemodium:dirty_allthemodium",
+          "amount": 1
+        },
+        "output": {
+          "kind": "CHEMICAL",
+          "id": "allthemodium:clean_allthemodium",
+          "amount": 1
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "81c67728-caf6-59f1-b385-992170f835b5",
+      "type": "kjsgen:mekanism_crystallizing",
+      "recipeId": "industrial_colonies:atm_baseline/crystallization",
+      "group": "Allthemodium baseline",
+      "comment": "[ATM4 — crystal growth] The unchanged native ratio is 200 units clean Allthemodium slurry -\u003e one Allthemodium crystal. Run 12 operations for the 2,400-unit batch. These crystals go to the existing Create Crushing Wheels step for clean dust; they do not return to dirty feedstock. Only this batch explanation changes.",
+      "replaceRecipe": false,
+      "slots": {
+        "input": {
+          "kind": "CHEMICAL",
+          "id": "allthemodium:clean_allthemodium",
+          "amount": 200
+        },
+        "output": {
+          "kind": "ITEM",
+          "id": "allthemodium:allthemodium_crystal"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "3515673e-b54a-5e9c-8ee3-a49f0f6ba570",
+      "type": "kjsgen:create_crushing",
+      "recipeId": "industrial_colonies:atm_baseline/crystal_grinding",
+      "group": "Allthemodium baseline",
+      "comment": "[ATM5 — crystal comminution] The unchanged Create Crushing Wheels operation converts one purified Allthemodium crystal -\u003e one clean Allthemodium dust. Run 12 operations for this batch. Machine selection is context, not a consumed ingredient. Retain duration250; real time/stress depend on rotation speed. No clump/shard/dirty-dust detour, yield multiplier or alternate ingot output.",
+      "replaceRecipe": false,
+      "slots": {
+        "input": {
+          "kind": "ITEM",
+          "id": "allthemodium:allthemodium_crystal"
+        },
+        "output0": {
+          "kind": "ITEM",
+          "id": "allthemodium:allthemodium_dust"
+        },
+        "__machine_process_crushing": {
+          "kind": "ITEM",
+          "id": "create:crushing_wheel"
+        }
+      },
+      "params": {
+        "processingTime": "250"
+      }
+    },
+    {
+      "uid": "72cd5d07-00f0-5ce5-956b-b981ee4be7a8",
+      "type": "industrial_colonies:tfmg_chemical_vat",
+      "recipeId": "industrial_colonies:atm_baseline/electrode_refining",
+      "group": "Allthemodium baseline",
+      "comment": "[ATM6 — clean-dust refining] Consume all 12 clean Allthemodium dust with the retained five Fluorite Dust and 100 mB Liquid Helium in one Fireproof Vat with three Graphite Electrodes. Produce 90 mB molten Allthemodium, 990 mB molten slag and 1,000 mB Hot Helium. Retain 6,000 eligible ticks, superheat, heatLevel4 and 27-block body. At the existing90mB-per-feed accounting this is one ATM-equivalent plus11slag-equivalents. Combined early solids:14feed units -\u003e1graphite+1solid slag+11molten-slag equivalents+1ATM-equivalent. Late Radiance/redstone conditioning products and flux/acid/HCl/coolant are separately accounted reagents. The user-created Radiance PRC can condition this molten output into raw stock; its original bill is preserved.",
+      "replaceRecipe": false,
+      "slots": {
+        "input1": {
+          "kind": "ITEM",
+          "id": "allthemodium:allthemodium_dust",
+          "count": 12
+        },
+        "input2": {
+          "kind": "ITEM",
+          "id": "nuclearcraft:fluorite_dust",
+          "count": 5
+        },
+        "input3": {
+          "kind": "FLUID",
+          "id": "nuclearcraft:liquid_helium",
+          "amount": 100
+        },
+        "output1": {
+          "kind": "FLUID",
+          "id": "allthemodium:molten_allthemodium",
+          "amount": 90
+        },
+        "output2": {
+          "kind": "FLUID",
+          "id": "tfmg:molten_slag",
+          "amount": 990
+        },
+        "output3": {
+          "kind": "FLUID",
+          "id": "nuclearcraft:hot_helium"
+        },
+        "input4": {
+          "kind": "ITEM",
+          "id": "create:refined_radiance",
+          "count": 4
+        },
+        "output4": {
+          "kind": "FLUID",
+          "id": "modernfoundry:molten_refined_glowstone",
+          "amount": 360
+        }
+      },
+      "params": {
+        "allowedVatTypes": "\u0027tfmg:firebrick_lined_vat\u0027",
+        "heat": "superheated",
+        "heatLevel": "4",
+        "minSize": "27",
+        "attachmentDrive": "None",
+        "electrodeType": "Graphite",
+        "electrodeCount": "3",
+        "processingTime": "6000"
+      }
+    },
+    {
+      "uid": "c776abf7-95a2-5560-8c94-f85d355a9064",
+      "type": "industrial_colonies:modernfoundry_casting_table",
+      "recipeId": "industrial_colonies:atm_baseline/casting",
+      "group": "Allthemodium baseline",
+      "comment": "[ATM7/8 — cast unpolarized stock] Cast the one90mB Allthemodium batch into one existing RAW Allthemodium item using the retained Modern Foundry ingot cast. Native cast_consumed\u003dfalse preserves the cast; this does not consume and recreate a possibly damaged tool. Raw is the user-selected unpolarized stock form, not a second ore source. Only the subsequent Polarizer produces the finished ingot. Native raw smelting/enrichment/loot/remelting shortcuts and the broad raw-input policy must be reconciled before export so they cannot bypass or suppress this handoff. No alternate caster is added.",
+      "replaceRecipe": false,
+      "slots": {
+        "fluid": {
+          "kind": "FLUID",
+          "id": "allthemodium:molten_allthemodium",
+          "amount": 90
+        },
+        "cast": {
+          "kind": "ITEM",
+          "id": "modernfoundry:ingot_cast"
+        },
+        "output": {
+          "kind": "ITEM",
+          "id": "allthemodium:raw_allthemodium"
+        }
+      },
+      "params": {
+        "coolingTime": "400"
+      }
+    },
+    {
+      "uid": "8169e2ac-2073-5d9d-b50f-f986e33e066c",
+      "type": "industrial_colonies:tfmg_polarizing",
+      "recipeId": "industrial_colonies:atm_baseline/polarization",
+      "group": "Allthemodium baseline",
+      "comment": "[ATM8/8 — sustained electrical polarization] Convert one raw Allthemodium into one ingot after 6,000 powered ticks (five minutes at normal tick rate), requiring at least 1,000,000 native TFMG electrical power throughout credited work. Power amount and time are real editable recipe parameters; the energy system stays TFMG electricity. Minimum work is 6,000,000,000 native power-ticks, with actual source consumption determined by native network load and configured conversion. Underpowered/overloaded ticks pause work; changing input, full recipe, power or time invalidates paid progress. The active load adapts to the selected power and respects the native voltage safety ceiling. Existing stock recipes retain stock behavior unless explicitly authored with powered parameters. Native connected processing remains a separate acceptance check before gameplay export.",
+      "replaceRecipe": false,
+      "slots": {
+        "input": {
+          "kind": "ITEM",
+          "id": "allthemodium:raw_allthemodium"
+        },
+        "output": {
+          "kind": "ITEM",
+          "id": "allthemodium:allthemodium_ingot"
+        }
+      },
+      "params": {
+        "processingTime": "6000",
+        "powerRequired": "1000000"
+      }
+    },
+    {
+      "uid": "7d472e7b-17de-5541-9e56-b680f882a762",
+      "type": "industrial_colonies:nuclearcraft_supercooler",
+      "recipeId": "industrial_colonies:atm_baseline/coolant_recovery",
+      "group": "Allthemodium baseline",
+      "comment": "[ATM recovery — helium] Custom NuclearCraft Supercooler recipe:1000mB HOT HELIUM returns100mB LIQUID HELIUM for the electrode-melting circuit. It fits the native one-fluid-in/one-fluid-out machine; no extra heat exchanger or invented coolant is needed. The10:1volume convention matches the native gas-to-liquid helium recipe as game balance, not a real thermodynamic-volume calculation. Base recipe cost is16000FE/t for2400ticks \u003d38.4million nominal FE before native upgrades/configuration. Paid-electricity, output blocking and full connected-loop survival acceptance remain NOT_RUN; this is review authoring, not installed gameplay.",
+      "replaceRecipe": false,
+      "slots": {
+        "input": {
+          "kind": "FLUID",
+          "id": "nuclearcraft:hot_helium"
+        },
+        "output": {
+          "kind": "FLUID",
+          "id": "nuclearcraft:liquid_helium",
+          "amount": 100
+        }
+      },
+      "params": {
+        "energyPerTick": "16000",
+        "processTime": "2400"
+      }
+    },
+    {
+      "uid": "a5f3c7c7-7f5b-5d2f-9972-a6ce263a83db",
+      "type": "kjsgen:mekanism_chemical_infusing",
+      "recipeId": "industrial_colonies:atm_baseline/chlorine_recovery",
+      "group": "Allthemodium baseline",
+      "comment": "[ATM support — fresh HCl supply] Chemical Infuser: 1,000 Hydrogen chemical plus 1,000 Chlorine chemical supplies the PRC with 1,000 HCl chemical. This is the existing native 1:1:1 game ratio, now full fresh makeup. The PRC chemical output is dirty slurry, so this card makes no chlorine-recovery or closed-loop claim. The historical UID/recipe ID are retained; no competing acid fluid identity is introduced.",
+      "replaceRecipe": false,
+      "slots": {
+        "left": {
+          "kind": "CHEMICAL",
+          "id": "mekanism:hydrogen",
+          "amount": 1
+        },
+        "output": {
+          "kind": "CHEMICAL",
+          "id": "mekanism:hydrogen_chloride",
+          "amount": 1
+        },
+        "right": {
+          "kind": "CHEMICAL",
+          "id": "mekanism:chlorine",
+          "amount": 1
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "7b800cc8-22da-556a-83c1-661d919a24c8",
+      "type": "industrial_colonies:tfmg_chemical_vat",
+      "recipeId": "industrial_colonies:review/atm_only/electrical_feed_mixing",
+      "group": "Allthemodium baseline",
+      "comment": "[ATM1 — feed mixing] The user-selected 14 existing solid feed units produce 13 dirty Allthemodium dust and one graphite dust. Preserve the Industrial Mixer, two Standard Electrodes, 2,400 eligible ticks, existing vat/heat settings and 27-block minimum. Refined Radiance is consumed later in the user-created raw-stock conditioning step; neither Radiance nor molten Invar is part of this current first-step bill. No packages or premix items and no invented FE conversion.",
+      "replaceRecipe": false,
+      "slots": {
+        "input1": {
+          "kind": "ITEM",
+          "id": "mekanism:dust_bronze"
+        },
+        "input2": {
+          "kind": "ITEM",
+          "id": "rocketnautics:titanium_alloy"
+        },
+        "input3": {
+          "kind": "ITEM",
+          "id": "tfmg:magnetic_alloy_ingot"
+        },
+        "input4": {
+          "kind": "ITEM",
+          "id": "nuclearcraft:thermoconducting_dust"
+        },
+        "output1": {
+          "kind": "ITEM",
+          "id": "allthemodium:dirty_allthemodium_dust",
+          "count": 13
+        },
+        "output2": {
+          "kind": "ITEM",
+          "id": "nuclearcraft:graphite_dust"
+        },
+        "additionalIngredients0": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:dust_electrum"
+        },
+        "additionalIngredients1": {
+          "kind": "ITEM",
+          "id": "nuclearcraft:lead_platinum_dust"
+        },
+        "additionalIngredients2": {
+          "kind": "ITEM",
+          "id": "nuclearcraft:osmiridium_ingot"
+        },
+        "additionalIngredients3": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:dust_aluminum"
+        },
+        "additionalIngredients4": {
+          "kind": "ITEM",
+          "id": "nuclearcraft:cobalt_dust"
+        },
+        "additionalIngredients5": {
+          "kind": "ITEM",
+          "id": "nuclearcraft:chromium_dust"
+        },
+        "additionalIngredients6": {
+          "kind": "ITEM",
+          "id": "nuclearcraft:magnesium_dust"
+        },
+        "additionalIngredients7": {
+          "kind": "ITEM",
+          "id": "nuclearcraft:tungsten_dust"
+        },
+        "additionalIngredients8": {
+          "kind": "ITEM",
+          "id": "mekanism:dust_uranium"
+        },
+        "additionalIngredients9": {
+          "kind": "ITEM",
+          "id": "mekanism:dust_diamond"
+        }
+      },
+      "params": {
+        "allowedVatTypes": "\u0027tfmg:firebrick_lined_vat\u0027",
+        "attachmentDrive": "Mixer",
+        "electrodeType": "Standard",
+        "electrodeCount": "2",
+        "processingTime": "2400",
+        "heat": "none",
+        "heatLevel": "0",
+        "minSize": "27"
+      }
+    },
+    {
+      "uid": "1d40db21-53a1-59cd-b94a-d5f8736d4707",
+      "type": "industrial_colonies:mekanism_reaction",
+      "recipeId": "industrial_colonies:atm_baseline/pressure_purification",
+      "group": "Allthemodium baseline",
+      "comment": "[ATM2 — pressure leaching] The user-selected batch is 13 dirty Allthemodium dust, 1,000 mB water and 1,000 units Hydrogen Chloride chemical -\u003e 2,400 units dirty Allthemodium slurry plus one TFMG slag item. The slurry carries 12 feed-equivalent units at 200 units per crystal. Preserve 1,200 ticks and 16,000 additional J/t. No Radiance carrier is recovered here; Radiance is a later finishing reagent. Native pressure is not independently measurable by this recipe.",
+      "replaceRecipe": false,
+      "slots": {
+        "item_input": {
+          "kind": "ITEM",
+          "id": "allthemodium:dirty_allthemodium_dust",
+          "count": 13
+        },
+        "fluid_input": {
+          "kind": "FLUID",
+          "id": "minecraft:water"
+        },
+        "chemical_input": {
+          "kind": "CHEMICAL",
+          "id": "mekanism:hydrogen_chloride"
+        },
+        "chemical_output": {
+          "kind": "CHEMICAL",
+          "id": "allthemodium:dirty_allthemodium",
+          "amount": 2400
+        },
+        "item_output": {
+          "kind": "ITEM",
+          "id": "tfmg:limesand"
+        }
+      },
+      "params": {
+        "duration": "1200",
+        "energyRequired": "16000"
+      }
+    },
+    {
+      "uid": "77c46e26-a795-47ca-9598-98efa68debd5",
+      "type": "industrial_colonies:mekanism_reaction",
+      "recipeId": "industrial_colonies:atm_baseline/radiance_conditioning",
+      "slots": {
+        "fluid_input": {
+          "kind": "FLUID",
+          "id": "allthemodium:molten_allthemodium",
+          "amount": 90
+        },
+        "chemical_input": {
+          "kind": "CHEMICAL",
+          "id": "mekanism:redstone",
+          "amount": 90
+        },
+        "item_output": {
+          "kind": "ITEM",
+          "id": "allthemodium:raw_allthemodium"
+        },
+        "item_input": {
+          "kind": "ITEM",
+          "id": "mekanism:pellet_plutonium",
+          "count": 2
+        },
+        "chemical_output": {
+          "kind": "CHEMICAL",
+          "id": "mekanism:nuclear_waste",
+          "amount": 2000
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "9108b5f7-2c5f-4b28-b5c6-c3a892d7a80a",
+      "type": "kjsgen:create_splashing",
+      "recipeId": "industrial_colonies:drafts/cinnabar_washing_review_20260927",
+      "comment": "DRAFT: Early cinnabar separation by bulk washing. One dust; independent rolls for one redstone at 50 percent and one TFMG sulfur dust at 10 percent. Both may drop; 45 percent chance neither drops. Review only; no gameplay export.",
+      "slots": {
+        "input": {
+          "kind": "ITEM",
+          "id": "create:cinder_flour"
+        },
+        "output0": {
+          "kind": "ITEM",
+          "id": "minecraft:redstone",
+          "chance": 0.5
+        },
+        "output1": {
+          "kind": "ITEM",
+          "id": "tfmg:sulfur_dust",
+          "chance": 0.1
+        },
+        "__machine_process_splashing": {
+          "kind": "ITEM",
+          "id": "create:encased_fan"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "587eb081-e7b9-4f43-be4b-bcacdcea2782",
+      "type": "kjsgen:create_crushing",
+      "slots": {
+        "input": {
+          "kind": "ITEM",
+          "id": "industrial_colonies:ultramafic_rock"
+        },
+        "output0": {
+          "kind": "ITEM",
+          "id": "nuclearcraft:iridium_dust",
+          "chance": 0.01
+        },
+        "output1": {
+          "kind": "ITEM",
+          "id": "nuclearcraft:platinum_dust",
+          "chance": 0.05
+        },
+        "output2": {
+          "kind": "ITEM",
+          "id": "tfmg:limesand",
+          "chance": 0.8
+        },
+        "output3": {
+          "kind": "ITEM",
+          "id": "mekanism:dust_osmium",
+          "chance": 0.14
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "7b91a79c-5273-4dcd-bb5a-d0f45bda4589",
+      "type": "kjsgen:create_crushing",
+      "recipeId": "industrial_colonies:drafts/rich_osmium_crushing",
+      "comment": "User-requested rich ultramafic family: 80% one metal intermediate, 20% one Create Limestone. Standard Create outputs roll independently: 16% both, 64% metal only, 4% limestone only, 16% neither. NOT an exclusive fallback. Staged card only; no gameplay export. Iridium dust downstream yield not set here.",
+      "replaceRecipe": false,
+      "slots": {
+        "input": {
+          "kind": "ITEM",
+          "id": "industrial_colonies:rich_osmium_ore"
+        },
+        "output0": {
+          "kind": "ITEM",
+          "id": "create:crushed_raw_osmium",
+          "chance": 0.8
+        },
+        "output1": {
+          "kind": "ITEM",
+          "id": "tfmg:limesand",
+          "chance": 0.2
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "2e5a871c-ecac-40bd-ac19-e0362556d88c",
+      "type": "kjsgen:create_crushing",
+      "recipeId": "industrial_colonies:drafts/rich_platinum_crushing",
+      "comment": "User-requested rich ultramafic family: 80% one metal intermediate, 20% one Create Limestone. Standard Create outputs roll independently: 16% both, 64% metal only, 4% limestone only, 16% neither. NOT an exclusive fallback. Staged card only; no gameplay export. Iridium dust downstream yield not set here.",
+      "replaceRecipe": false,
+      "slots": {
+        "input": {
+          "kind": "ITEM",
+          "id": "industrial_colonies:rich_platinum_ore"
+        },
+        "output0": {
+          "kind": "ITEM",
+          "id": "create:crushed_raw_platinum",
+          "chance": 0.8
+        },
+        "output1": {
+          "kind": "ITEM",
+          "id": "tfmg:limesand",
+          "chance": 0.2
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "bf6d8214-b516-4449-b77a-5c7f0341a21f",
+      "type": "kjsgen:create_crushing",
+      "recipeId": "industrial_colonies:drafts/rich_iridium_crushing",
+      "comment": "User-requested rich ultramafic family: 80% one metal intermediate, 20% one Create Limestone. Standard Create outputs roll independently: 16% both, 64% metal only, 4% limestone only, 16% neither. NOT an exclusive fallback. Staged card only; no gameplay export. Iridium dust downstream yield not set here.",
+      "replaceRecipe": false,
+      "slots": {
+        "input": {
+          "kind": "ITEM",
+          "id": "industrial_colonies:rich_iridium_ore"
+        },
+        "output0": {
+          "kind": "ITEM",
+          "id": "nuclearcraft:iridium_dust",
+          "chance": 0.8
+        },
+        "output1": {
+          "kind": "ITEM",
+          "id": "tfmg:limesand",
+          "chance": 0.2
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "5cdb29f6-8aa5-4b5b-8a0b-4f852cebf755",
+      "type": "kjsgen:create_crushing",
+      "recipeId": "industrial_colonies:processing/calcite/crushing",
+      "comment": "User approved replacement for NuclearCraft calcite Rock Crusher: one calcite, independent 40% calcium dust and20% potassium dust. Same expected output as old5calcite-\u003e2calcium+1potassium, not guaranteed per batch.",
+      "replaceRecipe": false,
+      "slots": {
+        "input": {
+          "kind": "ITEM",
+          "id": "minecraft:calcite"
+        },
+        "output0": {
+          "kind": "ITEM",
+          "id": "nuclearcraft:calcium_dust",
+          "chance": 0.4
+        },
+        "output1": {
+          "kind": "ITEM",
+          "id": "nuclearcraft:potassium_dust",
+          "chance": 0.2
+        }
+      },
+      "params": {}
+    }
+  ],
+  "removals": [
+    {
+      "uid": "473cfb47-0b12-487f-a2f3-73639aee22d5",
+      "output": "",
+      "input": "",
+      "mod": "",
+      "recipeId": "create:crushing/netherrack"
+    },
+    {
+      "uid": "3a41528e-4f01-59d4-abe7-b7a96286055a",
+      "output": "",
+      "input": "",
+      "mod": "",
+      "recipeId": "rocketnautics:mixing/titanium_alloy"
+    },
+    {
+      "uid": "52b6b7fe-27b9-586f-a6b9-edceb0eb41cd",
+      "output": "",
+      "input": "",
+      "mod": "",
+      "recipeId": "create:mixing/brass_ingot"
+    },
+    {
+      "uid": "d307d3f5-7a20-5837-852a-d1d3fa2d0be5",
+      "output": "",
+      "input": "",
+      "mod": "",
+      "recipeId": "createaddition:compat/immersiveengineering/constantan"
+    },
+    {
+      "uid": "3b4cfbb1-d653-5ff8-8466-0224b6977d6b",
+      "output": "",
+      "input": "",
+      "mod": "",
+      "recipeId": "createaddition:compat/tconstruct/rose_gold"
+    },
+    {
+      "uid": "769fa652-3f7c-5a56-9b0f-dec6f1b082a8",
+      "output": "",
+      "input": "",
+      "mod": "",
+      "recipeId": "createaddition:mixing/electrum"
+    },
+    {
+      "uid": "44399031-1e89-546c-8a52-e7c02f2fd780",
+      "output": "",
+      "input": "",
+      "mod": "",
+      "recipeId": "createbigcannons:mixing/alloy_bronze_brass"
+    },
+    {
+      "uid": "5e14b078-3be0-59ac-8e66-a4cd15717bdb",
+      "output": "",
+      "input": "",
+      "mod": "",
+      "recipeId": "createbigcannons:mixing/alloy_bronze_tin"
+    },
+    {
+      "uid": "bff9382a-7c70-554e-8474-838bd2aaa157",
+      "output": "",
+      "input": "",
+      "mod": "",
+      "recipeId": "createbigcannons:mixing/alloy_bronze_tinless"
+    },
+    {
+      "uid": "dc1530ee-8397-5943-ae7c-feb5d3bcbf65",
+      "output": "",
+      "input": "",
+      "mod": "",
+      "recipeId": "createmetallurgy:alloying/brass"
+    },
+    {
+      "uid": "88711b98-55b0-536d-a9e7-cdd747c167ce",
+      "output": "",
+      "input": "",
+      "mod": "",
+      "recipeId": "createmetallurgy:alloying/bronze"
+    },
+    {
+      "uid": "f1530461-306d-518a-a337-93cf19fc4f00",
+      "output": "",
+      "input": "",
+      "mod": "",
+      "recipeId": "createmetallurgy:alloying/constantan"
+    },
+    {
+      "uid": "4201084b-c637-5790-954a-d3319d8ea3c1",
+      "output": "",
+      "input": "",
+      "mod": "",
+      "recipeId": "createmetallurgy:alloying/electrum"
+    },
+    {
+      "uid": "10bf59fe-ee40-5a98-ae46-e4bd1831d5d6",
+      "output": "",
+      "input": "",
+      "mod": "",
+      "recipeId": "createmetallurgy:alloying/invar"
+    },
+    {
+      "uid": "5a413c79-f52d-50d0-ba90-5a5732293789",
+      "output": "",
+      "input": "",
+      "mod": "",
+      "recipeId": "createmetalwork:create/compat/create_ironworks/mixing/ingot_melting/molten_bronze_from_melting"
+    },
+    {
+      "uid": "121fa72d-6546-5fec-90bb-14610f407391",
+      "output": "",
+      "input": "",
+      "mod": "",
+      "recipeId": "createmetalwork:create/compat/create_ironworks/mixing/molten_bronze_from_mixing_heated"
+    },
+    {
+      "uid": "dfac34f2-4f30-54b5-b85c-d1df9e376b23",
+      "output": "",
+      "input": "",
+      "mod": "",
+      "recipeId": "createmetalwork:create/mixing/ingot_melting/molten_brass_from_melting"
+    },
+    {
+      "uid": "867588eb-7468-59bd-9040-dcc7c5fcbd98",
+      "output": "",
+      "input": "",
+      "mod": "",
+      "recipeId": "createmetalwork:create/mixing/molten_brass_from_mixing_heated"
+    },
+    {
+      "uid": "93d27837-c40f-5085-bc67-e224a26363e9",
+      "output": "",
+      "input": "",
+      "mod": "",
+      "recipeId": "createmetalwork:create/mixing/molten_brass_from_mixing_heated_molten"
+    },
+    {
+      "uid": "5d2f3f44-c5ca-5489-955d-3908447d4ca6",
+      "output": "",
+      "input": "",
+      "mod": "",
+      "recipeId": "immersiveengineering:alloysmelter/brass"
+    },
+    {
+      "uid": "a2eb8788-f3d1-5fc1-87d5-b6aa016810c0",
+      "output": "",
+      "input": "",
+      "mod": "",
+      "recipeId": "immersiveengineering:alloysmelter/bronze"
+    },
+    {
+      "uid": "ee119005-7b6d-5eb5-afbe-fc29889fcefe",
+      "output": "",
+      "input": "",
+      "mod": "",
+      "recipeId": "immersiveengineering:alloysmelter/constantan"
+    },
+    {
+      "uid": "bc07650a-83b2-598f-8c5e-39337f2bb3e8",
+      "output": "",
+      "input": "",
+      "mod": "",
+      "recipeId": "immersiveengineering:alloysmelter/electrum"
+    },
+    {
+      "uid": "fb014c9f-4bff-5940-adc1-44ffa6051dad",
+      "output": "",
+      "input": "",
+      "mod": "",
+      "recipeId": "immersiveengineering:alloysmelter/invar"
+    },
+    {
+      "uid": "93d45f2e-78ac-5676-a286-2093a2180c81",
+      "output": "",
+      "input": "",
+      "mod": "",
+      "recipeId": "immersiveengineering:alloysmelter/rose_gold"
+    },
+    {
+      "uid": "e2936cd0-103f-5171-ac06-3ce90440e622",
+      "output": "",
+      "input": "",
+      "mod": "",
+      "recipeId": "immersiveengineering:arcfurnace/alloy_brass"
+    },
+    {
+      "uid": "fffd967e-4621-532e-ab81-92c45e82faf1",
+      "output": "",
+      "input": "",
+      "mod": "",
+      "recipeId": "immersiveengineering:arcfurnace/alloy_bronze"
+    },
+    {
+      "uid": "e7f6f4cd-eab8-52e7-8ebe-8d3daea22534",
+      "output": "",
+      "input": "",
+      "mod": "",
+      "recipeId": "immersiveengineering:arcfurnace/alloy_constantan"
+    },
+    {
+      "uid": "eb124114-82bd-5190-8bb1-5fa1a494b617",
+      "output": "",
+      "input": "",
+      "mod": "",
+      "recipeId": "immersiveengineering:arcfurnace/alloy_electrum"
+    },
+    {
+      "uid": "cf02c7e9-ad7c-5766-8f9a-9533f2689474",
+      "output": "",
+      "input": "",
+      "mod": "",
+      "recipeId": "immersiveengineering:arcfurnace/alloy_invar"
+    },
+    {
+      "uid": "62d87075-3750-587e-971d-7cd8047a4958",
+      "output": "",
+      "input": "",
+      "mod": "",
+      "recipeId": "immersiveengineering:arcfurnace/alloy_rose_gold"
+    },
+    {
+      "uid": "10b7e09a-d42f-50fb-bab1-f11d21505dd4",
+      "output": "",
+      "input": "",
+      "mod": "",
+      "recipeId": "immersiveengineering:arcfurnace/dust_brass"
+    },
+    {
+      "uid": "982f8894-4741-560e-ac66-3f0e33263cb0",
+      "output": "",
+      "input": "",
+      "mod": "",
+      "recipeId": "immersiveengineering:arcfurnace/dust_bronze"
+    },
+    {
+      "uid": "685c6a05-5fd2-558a-a854-32396de9125e",
+      "output": "",
+      "input": "",
+      "mod": "",
+      "recipeId": "immersiveengineering:arcfurnace/dust_constantan"
+    },
+    {
+      "uid": "0b8d9424-af0e-5c34-bc88-d96d9f5d3145",
+      "output": "",
+      "input": "",
+      "mod": "",
+      "recipeId": "immersiveengineering:arcfurnace/dust_electrum"
+    },
+    {
+      "uid": "a25dfc55-a9e9-5aae-ad71-dd2f88e168da",
+      "output": "",
+      "input": "",
+      "mod": "",
+      "recipeId": "immersiveengineering:arcfurnace/dust_invar"
+    },
+    {
+      "uid": "5e19c580-bcfb-572b-a647-97a68b557162",
+      "output": "",
+      "input": "",
+      "mod": "",
+      "recipeId": "immersiveengineering:arcfurnace/dust_rose_gold"
+    },
+    {
+      "uid": "c4be3c9b-14bd-550c-aec6-1392948e079e",
+      "output": "",
+      "input": "",
+      "mod": "",
+      "recipeId": "modernfoundry:smeltery/alloys/molten_bendalloy"
+    },
+    {
+      "uid": "c5d6408d-023f-52e0-a07d-eae1ca6d04d8",
+      "output": "",
+      "input": "",
+      "mod": "",
+      "recipeId": "modernfoundry:smeltery/alloys/molten_brass"
+    },
+    {
+      "uid": "5888fc59-0206-5e08-ae35-f5f0bf35dc23",
+      "output": "",
+      "input": "",
+      "mod": "",
+      "recipeId": "modernfoundry:smeltery/alloys/molten_bronze"
+    },
+    {
+      "uid": "a72a6cd9-6f55-5e4f-9583-2501bccde830",
+      "output": "",
+      "input": "",
+      "mod": "",
+      "recipeId": "modernfoundry:smeltery/alloys/molten_constantan"
+    },
+    {
+      "uid": "459e1988-f22c-5eb7-97a0-c0f13d86172f",
+      "output": "",
+      "input": "",
+      "mod": "",
+      "recipeId": "modernfoundry:smeltery/alloys/molten_duralumin"
+    },
+    {
+      "uid": "af5bdcab-5539-5deb-aecd-a1d9bc75d2d8",
+      "output": "",
+      "input": "",
+      "mod": "",
+      "recipeId": "modernfoundry:smeltery/alloys/molten_electrum"
+    },
+    {
+      "uid": "c8b24539-296d-5a33-9f68-e31422666dc8",
+      "output": "",
+      "input": "",
+      "mod": "",
+      "recipeId": "modernfoundry:smeltery/alloys/molten_invar"
+    },
+    {
+      "uid": "7a4d0424-3630-56dd-89e2-d5d2e2f94f34",
+      "output": "",
+      "input": "",
+      "mod": "",
+      "recipeId": "modernfoundry:smeltery/alloys/molten_rose_gold"
+    },
+    {
+      "uid": "42d4f48b-af53-5611-b431-11547bd65044",
+      "output": "",
+      "input": "",
+      "mod": "",
+      "recipeId": "nuclearcraft:alloy_smelter/bronze"
+    },
+    {
+      "uid": "acd76d2a-0dd2-557f-97a0-d9220d66085a",
+      "output": "",
+      "input": "",
+      "mod": "",
+      "recipeId": "nuclearcraft:alloy_smelter/bronze_ingots"
+    },
+    {
+      "uid": "54daeaa9-41f0-55e5-97dc-e9ece0df314d",
+      "output": "",
+      "input": "",
+      "mod": "",
+      "recipeId": "nuclearcraft:alloy_smelter/carbon_manganese"
+    },
+    {
+      "uid": "988bc0d7-767e-503c-bbf8-b950be20d3ec",
+      "output": "",
+      "input": "",
+      "mod": "",
+      "recipeId": "nuclearcraft:alloy_smelter/electrum"
+    },
+    {
+      "uid": "75206c60-c6eb-5f18-b516-7634a65ab59c",
+      "output": "",
+      "input": "",
+      "mod": "",
+      "recipeId": "nuclearcraft:alloy_smelter/electrum_ingots"
+    },
+    {
+      "uid": "28264fcc-910b-5438-83be-e9dcc1244eef",
+      "output": "",
+      "input": "",
+      "mod": "",
+      "recipeId": "nuclearcraft:alloy_smelter/extreme"
+    },
+    {
+      "uid": "9765f01d-ec0f-5772-a19a-80f0e8984576",
+      "output": "",
+      "input": "",
+      "mod": "",
+      "recipeId": "nuclearcraft:alloy_smelter/extreme_ingots"
+    },
+    {
+      "uid": "3fc3fb69-ea5b-59eb-b985-e9f252facbca",
+      "output": "",
+      "input": "",
+      "mod": "",
+      "recipeId": "nuclearcraft:alloy_smelter/ferroboron"
+    },
+    {
+      "uid": "e5a5b46f-e4e6-5821-9a7b-5290257e3b2e",
+      "output": "",
+      "input": "",
+      "mod": "",
+      "recipeId": "nuclearcraft:alloy_smelter/ferroboron_ingots"
+    },
+    {
+      "uid": "887ee70a-94dc-5e7a-8b71-2dffd9ac2e19",
+      "output": "",
+      "input": "",
+      "mod": "",
+      "recipeId": "nuclearcraft:alloy_smelter/hard_carbon"
+    },
+    {
+      "uid": "d82b14fb-638f-533e-b3d1-ec781f53f082",
+      "output": "",
+      "input": "",
+      "mod": "",
+      "recipeId": "nuclearcraft:alloy_smelter/hsla_steel"
+    },
+    {
+      "uid": "2a51dc5e-d5d8-5fb2-8f67-18ff5a6e3937",
+      "output": "",
+      "input": "",
+      "mod": "",
+      "recipeId": "nuclearcraft:alloy_smelter/hsla_steel_ingots"
+    },
+    {
+      "uid": "1b53f03b-5976-5ed9-a44b-04a879643c5e",
+      "output": "",
+      "input": "",
+      "mod": "",
+      "recipeId": "nuclearcraft:alloy_smelter/lead_platinum"
+    },
+    {
+      "uid": "cd394fbc-5156-52ce-8902-49658860553d",
+      "output": "",
+      "input": "",
+      "mod": "",
+      "recipeId": "nuclearcraft:alloy_smelter/lead_platinum_ingots"
+    },
+    {
+      "uid": "d0a1817b-5fd3-52a8-8993-c33c0980f001",
+      "output": "",
+      "input": "",
+      "mod": "",
+      "recipeId": "nuclearcraft:alloy_smelter/lithium_manganese_dioxide"
+    },
+    {
+      "uid": "9b3a4446-02b3-5805-8995-c7dd2d8cd682",
+      "output": "",
+      "input": "",
+      "mod": "",
+      "recipeId": "nuclearcraft:alloy_smelter/lithium_manganese_dioxide_ingots"
+    },
+    {
+      "uid": "68506316-ab73-596b-8920-ec1857991fa2",
+      "output": "",
+      "input": "",
+      "mod": "",
+      "recipeId": "nuclearcraft:alloy_smelter/magnesium_diboride"
+    },
+    {
+      "uid": "363b6dda-c717-56bd-9694-ea76d91226f4",
+      "output": "",
+      "input": "",
+      "mod": "",
+      "recipeId": "nuclearcraft:alloy_smelter/magnesium_diboride_ingots"
+    },
+    {
+      "uid": "b1066d05-04d6-5f26-a296-ed5e0709c429",
+      "output": "",
+      "input": "",
+      "mod": "",
+      "recipeId": "nuclearcraft:alloy_smelter/nichrome"
+    },
+    {
+      "uid": "8bbfbd2e-383e-5561-9269-5633c0152ccd",
+      "output": "",
+      "input": "",
+      "mod": "",
+      "recipeId": "nuclearcraft:alloy_smelter/nichrome_ingots"
+    },
+    {
+      "uid": "2830319d-4e13-541f-b1a0-6fa6e92a7a6f",
+      "output": "",
+      "input": "",
+      "mod": "",
+      "recipeId": "nuclearcraft:alloy_smelter/niobium_tin"
+    },
+    {
+      "uid": "51b00dc1-f203-5099-9270-c5e2652f6f55",
+      "output": "",
+      "input": "",
+      "mod": "",
+      "recipeId": "nuclearcraft:alloy_smelter/niobium_tin_ingots"
+    },
+    {
+      "uid": "ab6b6bcb-1a8d-5701-96de-d8d68f4360d1",
+      "output": "",
+      "input": "",
+      "mod": "",
+      "recipeId": "nuclearcraft:alloy_smelter/niobium_titanium"
+    },
+    {
+      "uid": "440f23e4-09ca-5ec6-a348-f61c7c9db92c",
+      "output": "",
+      "input": "",
+      "mod": "",
+      "recipeId": "nuclearcraft:alloy_smelter/niobium_titanium_ingots"
+    },
+    {
+      "uid": "433d9a50-4b77-5843-8a63-f82321a88639",
+      "output": "",
+      "input": "",
+      "mod": "",
+      "recipeId": "nuclearcraft:alloy_smelter/osmiridium"
+    },
+    {
+      "uid": "e2334775-862f-5022-b502-45bfa1ab311d",
+      "output": "",
+      "input": "",
+      "mod": "",
+      "recipeId": "nuclearcraft:alloy_smelter/osmiridium_ingots"
+    },
+    {
+      "uid": "ddd26cde-26a8-5da6-b61f-5185bcdbb90f",
+      "output": "",
+      "input": "",
+      "mod": "",
+      "recipeId": "nuclearcraft:alloy_smelter/shibuichi"
+    },
+    {
+      "uid": "8c915f0c-df94-59e9-b22d-edce404aed6e",
+      "output": "",
+      "input": "",
+      "mod": "",
+      "recipeId": "nuclearcraft:alloy_smelter/shibuichi_ingots"
+    },
+    {
+      "uid": "dd864406-9a46-540a-b430-045d5f2c96d4",
+      "output": "",
+      "input": "",
+      "mod": "",
+      "recipeId": "nuclearcraft:alloy_smelter/sic_sic_cmc"
+    },
+    {
+      "uid": "f196e649-384f-5f4b-af82-1bdee70574ba",
+      "output": "",
+      "input": "",
+      "mod": "",
+      "recipeId": "nuclearcraft:alloy_smelter/sic_sic_cmc_ingots"
+    },
+    {
+      "uid": "8e026e31-28ef-5698-9811-1028af765ce6",
+      "output": "",
+      "input": "",
+      "mod": "",
+      "recipeId": "nuclearcraft:alloy_smelter/silicon_carbide"
+    },
+    {
+      "uid": "35319778-7e94-5e56-b74f-d3447c80af8b",
+      "output": "",
+      "input": "",
+      "mod": "",
+      "recipeId": "nuclearcraft:alloy_smelter/stainless_steel"
+    },
+    {
+      "uid": "61f77be1-400f-55ec-bb15-2eb515644b26",
+      "output": "",
+      "input": "",
+      "mod": "",
+      "recipeId": "nuclearcraft:alloy_smelter/stainless_steel_ingots"
+    },
+    {
+      "uid": "229c3a27-0444-534d-8467-78ec1747e88f",
+      "output": "",
+      "input": "",
+      "mod": "",
+      "recipeId": "nuclearcraft:alloy_smelter/thermoconducting"
+    },
+    {
+      "uid": "ac0c2cd9-82f5-50dd-9d3a-66a74b348dfe",
+      "output": "",
+      "input": "",
+      "mod": "",
+      "recipeId": "nuclearcraft:alloy_smelter/thermoconducting_ingots"
+    },
+    {
+      "uid": "5949b613-aae4-53fe-977b-5fdb6bc0542a",
+      "output": "",
+      "input": "",
+      "mod": "",
+      "recipeId": "nuclearcraft:alloy_smelter/tin_silver"
+    },
+    {
+      "uid": "278e32b0-ba7b-5bd2-bd99-0cc3859d159d",
+      "output": "",
+      "input": "",
+      "mod": "",
+      "recipeId": "nuclearcraft:alloy_smelter/tin_silver_ingots"
+    },
+    {
+      "uid": "63febb76-a5b7-52fc-810e-525ff3f33da2",
+      "output": "",
+      "input": "",
+      "mod": "",
+      "recipeId": "nuclearcraft:alloy_smelter/tough_alloy"
+    },
+    {
+      "uid": "c29eed9e-4aa0-5b18-81c3-cb90eaf788fc",
+      "output": "",
+      "input": "",
+      "mod": "",
+      "recipeId": "nuclearcraft:alloy_smelter/tough_alloy_ingots"
+    },
+    {
+      "uid": "ff124f62-3749-50ad-ab35-26121e716656",
+      "output": "",
+      "input": "",
+      "mod": "",
+      "recipeId": "nuclearcraft:alloy_smelter/zircaloy"
+    },
+    {
+      "uid": "d647a018-4d2a-56c7-a768-8fd0baa48ca6",
+      "output": "",
+      "input": "",
+      "mod": "",
+      "recipeId": "nuclearcraft:alloy_smelter/zircaloy_ingots"
+    },
+    {
+      "uid": "6cc87249-f3d2-5147-b4cb-ee788238e279",
+      "output": "",
+      "input": "",
+      "mod": "",
+      "recipeId": "nuclearcraft:alloy_smelter/zirconium_molybdenum"
+    },
+    {
+      "uid": "ec766d1a-e659-5dba-a704-f4475a154338",
+      "output": "",
+      "input": "",
+      "mod": "",
+      "recipeId": "tfmg:mixing/constantan"
+    },
+    {
+      "uid": "8ef22e4e-228d-5588-93ed-576390915409",
+      "output": "",
+      "input": "",
+      "mod": "",
+      "recipeId": "tfmg:mixing/magnetic_alloy"
+    },
+    {
+      "uid": "2d0aed06-bd5d-564e-baf3-d738bd0850d3",
+      "output": "",
+      "input": "",
+      "mod": "",
+      "recipeId": "mekanism:processing/bronze/dust/from_infusing"
+    },
+    {
+      "uid": "fc52ec54-3d18-5266-996c-ef6f23e0cb75",
+      "output": "",
+      "input": "",
+      "mod": "",
+      "recipeId": "mekanism:processing/bronze/ingot/from_infusing"
+    }
+  ]
+}

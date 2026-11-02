@@ -2,6 +2,8 @@
   "recipePreference": {},
   "ingredientPreference": {},
   "expandedPreference": {
+    "minecraft:item_stack|immersiveengineering:crusher": true,
+    "fluid_stack|fluid:tfmg:molten_steel": true,
     "minecraft:item_stack|advanced_ae:quantum_processor": true
   },
   "naturalAllow": [],

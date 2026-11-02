@@ -199,7 +199,7 @@
     {
       "id": "galena",
       "spacingFamily": "lead",
-      "hostRock": "industrial_colonies:galena",
+      "hostRock": "tfmg:galena",
       "primaryMaterials": [
         "lead"
       ],
@@ -1067,7 +1067,19 @@
       "provisionalFields": [
         "baseWeight",
         "sameFamilyMinSpacing"
-      ]
+      ],
+      "placement": {
+        "minY": 200,
+        "surfaceDepthMin": 8,
+        "surfaceDepthMax": 40,
+        "requiredSurfaceBiomes": [
+          "minecraft:frozen_peaks",
+          "minecraft:jagged_peaks",
+          "minecraft:snowy_slopes",
+          "regions_unexplored:icy_heights",
+          "regions_unexplored:spires"
+        ]
+      }
     },
     {
       "id": "uranium",
@@ -1322,6 +1334,36 @@
         "micro.chance",
         "micro.jackpotChance"
       ]
+    },
+    {
+      "id": "veridium",
+      "spacingFamily": "veridium",
+      "hostRock": "create:veridium",
+      "primaryMaterials": [
+        "vibranium"
+      ],
+      "richOres": [],
+      "baseWeight": 0,
+      "sameFamilyMinSpacing": 800,
+      "normalSizeMin": 50000,
+      "normalSizeMax": 100000,
+      "biomeWeights": {},
+      "depthWeights": [
+        1,
+        1,
+        1
+      ],
+      "normalRichOrePercent": 0,
+      "associated": [],
+      "micro": {
+        "enabled": false,
+        "chance": 0,
+        "min": 1,
+        "max": 1
+      },
+      "hardBiomeExclusions": [],
+      "hardTerrainExclusions": [],
+      "canSpawnMineshaft": false
     }
   ]
 }

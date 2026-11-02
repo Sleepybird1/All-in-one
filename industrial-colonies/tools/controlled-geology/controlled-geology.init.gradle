@@ -1,0 +1,47 @@
+// Third layer after the staged geology-smoke.init.gradle and terrain-smoke.init.gradle.
+// Development only. No production run or default namespace is modified outside this invocation.
+gradle.projectsEvaluated {
+    def p = gradle.rootProject
+    def stage = p.file('isolated-runtime/geology-gametest-20260909-001051-895').canonicalFile
+    def revision = (p.findProperty('controlledRevision') ?: 'a1').toString()
+    if (!(revision ==~ /[a-z0-9][a-z0-9-]*/)) throw new GradleException('Invalid controlledRevision')
+    def universe = new File(stage, 'controlled-worlds').canonicalFile
+    def world = new File(universe, 'world-controlled-' + revision).canonicalFile
+    def report = new File(stage, 'controlled-report-' + revision + '.json').canonicalFile
+    if (!world.toPath().startsWith(stage.toPath()) || !report.toPath().startsWith(stage.toPath()))
+        throw new GradleException('Controlled fixture escapes the isolated stage')
+    def ensureFresh = {
+        if (new File(world, 'level.dat').exists() || new File(world, 'level.dat_old').exists()
+                || new File(world, 'region').exists() || new File(world, 'entities').exists()
+                || new File(world, 'dimensions').exists() || report.exists())
+            throw new GradleException('Refusing to reuse a generated controlled world/report. Choose a new -PcontrolledRevision: ' + world)
+    }
+    def fixture = p.tasks.register('prepareControlledGeologyFixture') {
+        doLast {
+            ensureFresh()
+            p.copy {
+                from p.file('tools/terrain-smoke/world-template')
+                into new File(world, 'datapacks/ic_normal_terrain')
+            }
+        }
+    }
+    def run = p.extensions.getByName('neoForge').runs.getByName('gameTestServer')
+    // NeoForge filters tests by TEMPLATE namespace, not by the holder when templateNamespace is explicit.
+    // Reuse the exact empty NBT under a test-addon-only alias; never widen the filter to natural A/B tests.
+    p.tasks.named('processTerrainSmokeResources') {
+        from(p.file('src/main/resources/data/industrial_colonies/structure/geology_smoke_empty.nbt')) {
+            into 'data/ic_controlled_smoke/structure'
+        }
+    }
+    run.systemProperty('neoforge.enabledGameTestNamespaces', 'ic_controlled_smoke')
+    run.systemProperty('ic.controlled.report', report.absolutePath)
+    run.programArguments.set([
+        '--nogui', '--allowUpdates', 'false',
+        '--universe', universe.absolutePath,
+        '--world', world.name
+    ])
+    p.tasks.named('runGameTestServer') {
+        dependsOn fixture
+        doFirst { ensureFresh() }
+    }
+}

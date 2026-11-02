@@ -1,0 +1,29 @@
+{
+  "branch": "industrial_colonies:tech_tree",
+  "costs": [
+    {
+      "item": "ae2:pattern_provider",
+      "count": 2
+    },
+    {
+      "item": "ae2:16k_crafting_storage",
+      "count": 2
+    },
+    {
+      "item": "ae2:engineering_processor",
+      "count": 8
+    }
+  ],
+  "icon": "megacells:accumulation_processor",
+  "name": "com.industrial_colonies.research.digital_logistics.cr01_overclocked_processors.name",
+  "no-reset": true,
+  "researchLevel": 1,
+  "sortOrder": 11077,
+  "subtitle": "com.industrial_colonies.research.digital_logistics.cr01_overclocked_processors.subtitle",
+  "requirements": [
+    {
+      "type": "minecolonies:research",
+      "research": "industrial_colonies:digital_computing/cr01_advanced_digital_crafting"
+    }
+  ]
+}

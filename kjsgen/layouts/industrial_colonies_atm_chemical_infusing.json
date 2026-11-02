@@ -1,0 +1,59 @@
+{
+  "id": "industrial_colonies:atm_chemical_infusing",
+  "jei": "mekanism:chemical_infusing",
+  "mod": "mekanism",
+  "icon": "mekanism:chemical_infuser",
+  "width": 82,
+  "height": 36,
+  "slots": [
+    {
+      "key": "left",
+      "role": "INPUT",
+      "x": 0,
+      "y": 0,
+      "required": true,
+      "item": false,
+      "chemical": true,
+      "tag": false,
+      "count": true
+    },
+    {
+      "key": "right",
+      "role": "INPUT",
+      "x": 0,
+      "y": 18,
+      "required": true,
+      "item": false,
+      "chemical": true,
+      "tag": false,
+      "count": true
+    },
+    {
+      "key": "output",
+      "role": "OUTPUT",
+      "x": 60,
+      "y": 9,
+      "required": true,
+      "item": false,
+      "chemical": true,
+      "tag": false,
+      "count": true
+    }
+  ],
+  "decorations": [
+    {
+      "type": "ARROW",
+      "x": 26,
+      "y": 10
+    }
+  ],
+  "parameters": [
+    {
+      "key": "__template",
+      "type": "STRING",
+      "default": "event.custom((function(a,b,c){function parse(v,k){var p=String(v).split('x '),n=Number(p[0]);if(p.length!==2||n<=0||Math.floor(n)!==n||p[1].charAt(0)==='#')throw new Error('Expected a concrete positive chemical stack');var o={amount:n};o[k]=p[1];return o;}return {type:'mekanism:chemical_infusing',left_input:parse(a,'chemical'),right_input:parse(b,'chemical'),output:parse(c,'id')};})({slot:left},{slot:right},{slot:output}))"
+    }
+  ],
+  "codegen": "kjsgen:template",
+  "requiresMod": "mekanism"
+}

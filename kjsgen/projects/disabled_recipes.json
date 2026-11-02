@@ -975,7 +975,7 @@
       "uid": "f51fda8b-f716-597b-99f7-f1875918f8f4",
       "type": "kjsgen:create_mechanical_crafting",
       "recipeId": "industrial_colonies:create_addons/kinetic_battery_batch",
-      "comment": "[Steam \u0026 Brass] Assemble four flywheel cells from a large gear, opposed sturdy faces, a precision hub, and a Brass containment case",
+      "comment": "[Steam & Brass] Assemble four flywheel cells from a large gear, opposed sturdy faces, a precision hub, and a Brass containment case",
       "replaceRecipe": false,
       "slots": {
         "cell_0_1": {
@@ -1540,6 +1540,5096 @@
         "gridW": "4",
         "gridH": "4"
       }
+    },
+    {
+      "uid": "d04a9de8-47a5-57f1-ad35-14e9af236b00",
+      "type": "kjsgen:create_mechanical_crafting",
+      "recipeId": "industrial_colonies:custom_progression/nuclearcraft/pump",
+      "group": "06 Nuclear machines",
+      "comment": "CUSTOM DRAFT - Plumbed working head, single drive and frame, two mechanisms, one controller, wiring and support rods. Uses existing Personal Recipes outputs where specified. No gameplay export; costs and survival access await review.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "nuclearcraft:pump"
+        },
+        "cell_0_0": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:plate_lead"
+        },
+        "cell_0_2": {
+          "kind": "ITEM",
+          "id": "ae2:calculation_processor"
+        },
+        "cell_0_4": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:plate_lead"
+        },
+        "cell_1_0": {
+          "kind": "ITEM",
+          "id": "tfmg:copper_wire"
+        },
+        "cell_1_1": {
+          "kind": "ITEM",
+          "id": "createmechanisms:nuclear_mechanism"
+        },
+        "cell_1_2": {
+          "kind": "ITEM",
+          "id": "tfmg:steel_frame"
+        },
+        "cell_1_3": {
+          "kind": "ITEM",
+          "id": "createmechanisms:nuclear_mechanism"
+        },
+        "cell_1_4": {
+          "kind": "ITEM",
+          "id": "tfmg:copper_wire"
+        },
+        "cell_2_1": {
+          "kind": "ITEM",
+          "id": "createaddition:iron_rod"
+        },
+        "cell_2_2": {
+          "kind": "ITEM",
+          "id": "tfmg:electric_motor"
+        },
+        "cell_2_3": {
+          "kind": "ITEM",
+          "id": "createaddition:iron_rod"
+        },
+        "cell_3_0": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:plate_lead"
+        },
+        "cell_3_2": {
+          "kind": "ITEM",
+          "id": "tfmg:steel_pipe"
+        },
+        "cell_3_4": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:plate_lead"
+        }
+      },
+      "params": {
+        "gridW": "5",
+        "gridH": "4"
+      }
+    },
+    {
+      "uid": "99efbe67-6cb5-524b-bd2c-f385cbb89c72",
+      "type": "kjsgen:create_mechanical_crafting",
+      "recipeId": "industrial_colonies:custom_progression/nuclearcraft/nuclear_furnace",
+      "group": "06 Nuclear machines",
+      "comment": "CUSTOM DRAFT - One functional working head and drive, two reusable mechanisms, one frame and controller, wiring and rod supports; four corner plates. Uses existing Personal Recipes outputs where specified. No gameplay export; costs and survival access await review.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "nuclearcraft:nuclear_furnace"
+        },
+        "cell_0_0": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:plate_lead"
+        },
+        "cell_0_2": {
+          "kind": "ITEM",
+          "id": "ae2:calculation_processor"
+        },
+        "cell_0_4": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:plate_lead"
+        },
+        "cell_1_0": {
+          "kind": "ITEM",
+          "id": "tfmg:copper_wire"
+        },
+        "cell_1_1": {
+          "kind": "ITEM",
+          "id": "createmechanisms:nuclear_mechanism"
+        },
+        "cell_1_2": {
+          "kind": "ITEM",
+          "id": "tfmg:steel_frame"
+        },
+        "cell_1_3": {
+          "kind": "ITEM",
+          "id": "createmechanisms:nuclear_mechanism"
+        },
+        "cell_1_4": {
+          "kind": "ITEM",
+          "id": "tfmg:copper_wire"
+        },
+        "cell_2_1": {
+          "kind": "ITEM",
+          "id": "createaddition:iron_rod"
+        },
+        "cell_2_2": {
+          "kind": "ITEM",
+          "id": "tfmg:electromagnetic_coil"
+        },
+        "cell_2_3": {
+          "kind": "ITEM",
+          "id": "createaddition:iron_rod"
+        },
+        "cell_3_0": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:plate_lead"
+        },
+        "cell_3_2": {
+          "kind": "ITEM",
+          "id": "minecraft:blast_furnace"
+        },
+        "cell_3_4": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:plate_lead"
+        }
+      },
+      "params": {
+        "gridW": "5",
+        "gridH": "4"
+      }
+    },
+    {
+      "uid": "55caf332-cfd3-5969-aad5-dfddc7316faa",
+      "type": "kjsgen:shaped",
+      "recipeId": "industrial_colonies:functional_design/mekanism/teleporter_frame",
+      "group": "Design 02 / 09 Field transport",
+      "comment": "Review revision: Late containment segment with refined-obsidian spine and quantum field control; optional family remains under review. Existing pack items; proposed editor recipe, no gameplay export.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "mekanism:teleporter_frame",
+          "count": 2
+        },
+        "in0": {
+          "kind": "ITEM",
+          "id": "rocketnautics:titanium_alloy_sheet"
+        },
+        "in1": {
+          "kind": "ITEM",
+          "id": "create:refined_radiance"
+        },
+        "in2": {
+          "kind": "ITEM",
+          "id": "rocketnautics:titanium_alloy_sheet"
+        },
+        "in3": {
+          "kind": "ITEM",
+          "id": "advanced_ae:quantum_processor"
+        },
+        "in4": {
+          "kind": "ITEM",
+          "id": "mekanism:ingot_refined_obsidian"
+        },
+        "in5": {
+          "kind": "ITEM",
+          "id": "advanced_ae:quantum_processor"
+        },
+        "in6": {
+          "kind": "ITEM",
+          "id": "rocketnautics:titanium_alloy_sheet"
+        },
+        "in7": {
+          "kind": "ITEM",
+          "id": "create:refined_radiance"
+        },
+        "in8": {
+          "kind": "ITEM",
+          "id": "rocketnautics:titanium_alloy_sheet"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "fe948e36-68d3-53cb-84df-aca93d5af44b",
+      "type": "kjsgen:create_mechanical_crafting",
+      "recipeId": "industrial_colonies:functional_design/mekanism/teleporter",
+      "group": "Design 02 / 09 Field transport",
+      "comment": "Review revision: Optional terminal-endgame teleporter draft, gated by antimatter and quantum electronics. Retention remains Maybe, not approved. Existing pack items; proposed editor recipe, no gameplay export.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "mekanism:teleporter"
+        },
+        "cell_0_0": {
+          "kind": "ITEM",
+          "id": "rocketnautics:titanium_alloy_sheet"
+        },
+        "cell_0_1": {
+          "kind": "ITEM",
+          "id": "create:refined_radiance"
+        },
+        "cell_0_2": {
+          "kind": "ITEM",
+          "id": "create:refined_radiance"
+        },
+        "cell_0_3": {
+          "kind": "ITEM",
+          "id": "create:refined_radiance"
+        },
+        "cell_0_4": {
+          "kind": "ITEM",
+          "id": "rocketnautics:titanium_alloy_sheet"
+        },
+        "cell_1_0": {
+          "kind": "ITEM",
+          "id": "tfmg:circuit_board"
+        },
+        "cell_1_1": {
+          "kind": "ITEM",
+          "id": "advanced_ae:quantum_processor"
+        },
+        "cell_1_2": {
+          "kind": "ITEM",
+          "id": "mekanism:teleportation_core"
+        },
+        "cell_1_3": {
+          "kind": "ITEM",
+          "id": "advanced_ae:quantum_processor"
+        },
+        "cell_1_4": {
+          "kind": "ITEM",
+          "id": "tfmg:circuit_board"
+        },
+        "cell_2_0": {
+          "kind": "ITEM",
+          "id": "ae2:fluix_smart_dense_cable"
+        },
+        "cell_2_1": {
+          "kind": "ITEM",
+          "id": "mekanism:pellet_antimatter"
+        },
+        "cell_2_2": {
+          "kind": "ITEM",
+          "id": "tfmg:steel_frame"
+        },
+        "cell_2_3": {
+          "kind": "ITEM",
+          "id": "mekanism:pellet_antimatter"
+        },
+        "cell_2_4": {
+          "kind": "ITEM",
+          "id": "ae2:fluix_smart_dense_cable"
+        },
+        "cell_3_0": {
+          "kind": "ITEM",
+          "id": "tfmg:circuit_board"
+        },
+        "cell_3_1": {
+          "kind": "ITEM",
+          "id": "tfmg:rubber_sheet"
+        },
+        "cell_3_2": {
+          "kind": "ITEM",
+          "id": "mekanism:ultimate_control_circuit"
+        },
+        "cell_3_3": {
+          "kind": "ITEM",
+          "id": "tfmg:rubber_sheet"
+        },
+        "cell_3_4": {
+          "kind": "ITEM",
+          "id": "tfmg:circuit_board"
+        },
+        "cell_4_0": {
+          "kind": "ITEM",
+          "id": "rocketnautics:titanium_alloy_sheet"
+        },
+        "cell_4_1": {
+          "kind": "ITEM",
+          "id": "create:refined_radiance"
+        },
+        "cell_4_2": {
+          "kind": "ITEM",
+          "id": "ae2:fluix_smart_dense_cable"
+        },
+        "cell_4_3": {
+          "kind": "ITEM",
+          "id": "create:refined_radiance"
+        },
+        "cell_4_4": {
+          "kind": "ITEM",
+          "id": "rocketnautics:titanium_alloy_sheet"
+        }
+      },
+      "params": {
+        "gridW": "5",
+        "gridH": "5"
+      }
+    },
+    {
+      "uid": "518e188a-d715-5abe-825b-7b5a7fec5659",
+      "type": "kjsgen:create_mechanical_crafting",
+      "recipeId": "industrial_colonies:space_coverage/compressor",
+      "comment": "[Orbital Engineering] Review correction: paired receiver tanks and drive motors surround the pressure vessel; a proper electronic control backplane regulates it.",
+      "replaceRecipe": false,
+      "slots": {
+        "cell_0_0": {
+          "kind": "ITEM",
+          "id": "tfmg:steel_fluid_tank"
+        },
+        "cell_0_1": {
+          "kind": "ITEM",
+          "id": "create:mechanical_pump"
+        },
+        "cell_0_2": {
+          "kind": "ITEM",
+          "id": "tfmg:steel_fluid_tank"
+        },
+        "cell_1_0": {
+          "kind": "ITEM",
+          "id": "tfmg:electric_motor"
+        },
+        "cell_1_1": {
+          "kind": "ITEM",
+          "id": "tfmg:steel_chemical_vat"
+        },
+        "cell_1_2": {
+          "kind": "ITEM",
+          "id": "tfmg:electric_motor"
+        },
+        "cell_2_0": {
+          "kind": "ITEM",
+          "id": "tfmg:coated_circuit_board"
+        },
+        "cell_2_1": {
+          "kind": "ITEM",
+          "id": "ae2:engineering_processor"
+        },
+        "cell_2_2": {
+          "kind": "ITEM",
+          "id": "tfmg:coated_circuit_board"
+        },
+        "cell_3_0": {
+          "kind": "ITEM",
+          "id": "tfmg:steel_frame"
+        },
+        "cell_3_2": {
+          "kind": "ITEM",
+          "id": "tfmg:steel_frame"
+        },
+        "output": {
+          "kind": "ITEM",
+          "id": "ad_astra:compressor"
+        }
+      },
+      "params": {
+        "gridW": "3",
+        "gridH": "4"
+      }
+    },
+    {
+      "uid": "32da34f4-406d-5587-9de8-7d9d5479f82b",
+      "type": "kjsgen:create_mechanical_crafting",
+      "recipeId": "industrial_colonies:ownership/nuclear_boundary/alloy_smelter",
+      "comment": "[Pre-semiconductor ownership] Mechanical components precede final factory assembly.",
+      "replaceRecipe": false,
+      "slots": {
+        "cell_0_0": {
+          "kind": "ITEM",
+          "id": "tfmg:steel_frame"
+        },
+        "cell_0_2": {
+          "kind": "ITEM",
+          "id": "tfmg:circuit_board"
+        },
+        "cell_0_4": {
+          "kind": "ITEM",
+          "id": "tfmg:steel_frame"
+        },
+        "cell_1_1": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:plate_lead"
+        },
+        "cell_1_2": {
+          "kind": "ITEM_TAG",
+          "id": "c:dusts/redstone"
+        },
+        "cell_1_3": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:plate_lead"
+        },
+        "cell_2_1": {
+          "kind": "ITEM_TAG",
+          "id": "c:bricks"
+        },
+        "cell_2_2": {
+          "kind": "ITEM",
+          "id": "minecraft:blast_furnace"
+        },
+        "cell_2_3": {
+          "kind": "ITEM_TAG",
+          "id": "c:bricks"
+        },
+        "cell_3_1": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:plate_lead"
+        },
+        "cell_3_2": {
+          "kind": "ITEM",
+          "id": "nuclearcraft:coil_copper"
+        },
+        "cell_3_3": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:plate_lead"
+        },
+        "cell_4_0": {
+          "kind": "ITEM",
+          "id": "tfmg:steel_frame"
+        },
+        "cell_4_2": {
+          "kind": "ITEM",
+          "id": "tfmg:circuit_board"
+        },
+        "cell_4_4": {
+          "kind": "ITEM",
+          "id": "tfmg:steel_frame"
+        },
+        "output": {
+          "kind": "ITEM",
+          "id": "nuclearcraft:alloy_smelter"
+        }
+      },
+      "params": {
+        "gridW": "5",
+        "gridH": "5"
+      }
+    },
+    {
+      "uid": "84769d88-0f6e-5599-849a-24da39ceef69",
+      "type": "kjsgen:create_mechanical_crafting",
+      "recipeId": "industrial_colonies:ownership/nuclear_boundary/ingot_former",
+      "comment": "[Pre-semiconductor ownership] Mechanical components precede final factory assembly.",
+      "replaceRecipe": false,
+      "slots": {
+        "cell_0_0": {
+          "kind": "ITEM",
+          "id": "tfmg:steel_frame"
+        },
+        "cell_0_2": {
+          "kind": "ITEM",
+          "id": "tfmg:circuit_board"
+        },
+        "cell_0_4": {
+          "kind": "ITEM",
+          "id": "tfmg:steel_frame"
+        },
+        "cell_1_1": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:plate_lead"
+        },
+        "cell_1_2": {
+          "kind": "ITEM",
+          "id": "minecraft:hopper"
+        },
+        "cell_1_3": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:plate_lead"
+        },
+        "cell_2_1": {
+          "kind": "ITEM_TAG",
+          "id": "c:ingots/ferroboron"
+        },
+        "cell_2_2": {
+          "kind": "ITEM",
+          "id": "tfmg:steel_frame"
+        },
+        "cell_2_3": {
+          "kind": "ITEM_TAG",
+          "id": "c:ingots/ferroboron"
+        },
+        "cell_3_1": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:plate_lead"
+        },
+        "cell_3_2": {
+          "kind": "ITEM_TAG",
+          "id": "c:ingots/tough_alloy"
+        },
+        "cell_3_3": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:plate_lead"
+        },
+        "cell_4_0": {
+          "kind": "ITEM",
+          "id": "tfmg:steel_frame"
+        },
+        "cell_4_2": {
+          "kind": "ITEM",
+          "id": "tfmg:circuit_board"
+        },
+        "cell_4_4": {
+          "kind": "ITEM",
+          "id": "tfmg:steel_frame"
+        },
+        "output": {
+          "kind": "ITEM",
+          "id": "nuclearcraft:ingot_former"
+        }
+      },
+      "params": {
+        "gridW": "5",
+        "gridH": "5"
+      }
+    },
+    {
+      "uid": "c61d184d-4102-532c-9e83-d634fa6b7ab3",
+      "type": "kjsgen:create_mechanical_crafting",
+      "recipeId": "industrial_colonies:planetary/outpost/energizer",
+      "comment": "WHAT IT DOES: Powered charging machine for Ad Astra energy-using equipment.\nUSES / PROGRESSION / OVERLAP: Space/electrical service equipment. Compare with other retained charging stations before keeping another construction route; it does not produce power.\nYour recipe is unchanged. Choose Maybe if unsure, Approve if suitable, or Park for later.\n\n[Planetary Industry] Keep the charging bay open between Ostrum posts: an ultimate energy cube feeds the overhead transformer and engineering processor, while plastic standoffs, capacitors, copper bus wire, an etched TFMG board, and ultimate controller instrument the interlocked base",
+      "replaceRecipe": false,
+      "slots": {
+        "cell_0_1": {
+          "kind": "ITEM",
+          "id": "tfmg:capacitor_item"
+        },
+        "cell_0_2": {
+          "kind": "ITEM",
+          "id": "ae2:engineering_processor"
+        },
+        "cell_0_3": {
+          "kind": "ITEM",
+          "id": "tfmg:transformer"
+        },
+        "cell_1_0": {
+          "kind": "ITEM",
+          "id": "ad_astra:ostrum_plate"
+        },
+        "cell_1_1": {
+          "kind": "ITEM",
+          "id": "tfmg:plastic_sheet"
+        },
+        "cell_1_2": {
+          "kind": "ITEM",
+          "id": "mekanism:ultimate_energy_cube"
+        },
+        "cell_1_3": {
+          "kind": "ITEM",
+          "id": "tfmg:plastic_sheet"
+        },
+        "cell_1_4": {
+          "kind": "ITEM",
+          "id": "ad_astra:ostrum_plate"
+        },
+        "cell_2_0": {
+          "kind": "ITEM",
+          "id": "ad_astra:ostrum_plate"
+        },
+        "cell_2_4": {
+          "kind": "ITEM",
+          "id": "ad_astra:ostrum_plate"
+        },
+        "cell_3_0": {
+          "kind": "ITEM",
+          "id": "ad_astra:ostrum_plate"
+        },
+        "cell_3_1": {
+          "kind": "ITEM",
+          "id": "tfmg:copper_wire"
+        },
+        "cell_3_2": {
+          "kind": "ITEM",
+          "id": "tfmg:etched_circuit_board"
+        },
+        "cell_3_3": {
+          "kind": "ITEM",
+          "id": "tfmg:copper_wire"
+        },
+        "cell_3_4": {
+          "kind": "ITEM",
+          "id": "ad_astra:ostrum_plate"
+        },
+        "cell_4_0": {
+          "kind": "ITEM",
+          "id": "ad_astra:ostrum_block"
+        },
+        "cell_4_1": {
+          "kind": "ITEM",
+          "id": "ad_astra:ostrum_block"
+        },
+        "cell_4_2": {
+          "kind": "ITEM",
+          "id": "mekanism:ultimate_control_circuit"
+        },
+        "cell_4_3": {
+          "kind": "ITEM",
+          "id": "ad_astra:ostrum_block"
+        },
+        "cell_4_4": {
+          "kind": "ITEM",
+          "id": "ad_astra:ostrum_block"
+        },
+        "output": {
+          "kind": "ITEM",
+          "id": "ad_astra:energizer"
+        }
+      },
+      "params": {
+        "gridW": "5",
+        "gridH": "5"
+      }
+    },
+    {
+      "uid": "4aae0a32-6aa9-5cd4-ab87-0c10bda8b99c",
+      "type": "kjsgen:create_sequenced_assembly",
+      "recipeId": "industrial_colonies:mekanism_utility/elite_bin",
+      "comment": "WHAT IT DOES: Larger single-item-type physical bulk storage.\nUSES / PROGRESSION / OVERLAP: Useful for bulk production buffers, but does not automatically deserve a separate progression role if it undermines vault/freight capacity limits.\nYour recipe is unchanged. Choose Maybe if unsure, Approve if suitable, or Park for later.\n\nDeferred re-review: Larger single-resource physical bulk storage. Transport capacity policy is not implemented by a construction cost.\n\n[High-Energy Grid] Refit the advanced bin with elite transport feeds, a balanced Brass distribution tunnel, powered feeder, heavy shell, and elite governor.\nExisting item; no gameplay export or new mechanic installed. Exact costs/bootstrap remain proposals.",
+      "replaceRecipe": false,
+      "slots": {
+        "input": {
+          "kind": "ITEM",
+          "id": "mekanism:advanced_bin"
+        },
+        "transitional": {
+          "kind": "ITEM",
+          "id": "mekanism:advanced_bin"
+        },
+        "output0": {
+          "kind": "ITEM",
+          "id": "mekanism:elite_bin"
+        },
+        "seqItem0": {
+          "kind": "ITEM",
+          "id": "mekanism:elite_logistical_transporter",
+          "count": 2
+        },
+        "__machine_step_0_deploying": {
+          "kind": "ITEM",
+          "id": "createcasing:weathered_iron_deployer"
+        },
+        "seqItem1": {
+          "kind": "ITEM",
+          "id": "create:brass_tunnel"
+        },
+        "__machine_step_1_deploying": {
+          "kind": "ITEM",
+          "id": "createcasing:weathered_iron_deployer"
+        },
+        "seqItem2": {
+          "kind": "ITEM",
+          "id": "tfmg:electric_motor"
+        },
+        "__machine_step_2_deploying": {
+          "kind": "ITEM",
+          "id": "createcasing:weathered_iron_deployer"
+        },
+        "seqItem3": {
+          "kind": "ITEM",
+          "id": "tfmg:heavy_plate",
+          "count": 2
+        },
+        "__machine_step_3_deploying": {
+          "kind": "ITEM",
+          "id": "createcasing:weathered_iron_deployer"
+        },
+        "seqItem4": {
+          "kind": "ITEM",
+          "id": "mekanism:elite_control_circuit"
+        },
+        "__machine_step_4_deploying": {
+          "kind": "ITEM",
+          "id": "createcasing:weathered_iron_deployer"
+        },
+        "seqItem5": {
+          "kind": "ITEM",
+          "id": "mekanism:alloy_reinforced"
+        },
+        "__machine_step_5_deploying": {
+          "kind": "ITEM",
+          "id": "createcasing:weathered_iron_deployer"
+        },
+        "__machine_step_6_pressing": {
+          "kind": "ITEM",
+          "id": "createcasing:weathered_iron_press"
+        }
+      },
+      "params": {
+        "loops": "1",
+        "__seqLen": "7",
+        "seq0": "deploying",
+        "seq1": "deploying",
+        "seq2": "deploying",
+        "seq3": "deploying",
+        "seq4": "deploying",
+        "seq5": "deploying",
+        "seq6": "pressing"
+      }
+    },
+    {
+      "uid": "416066db-ca5a-5078-8c59-04dafd50de91",
+      "type": "kjsgen:create_mechanical_crafting",
+      "recipeId": "industrial_colonies:custom_progression/extendedae/circuit_cutter",
+      "group": "07 Advanced digital manufacturing",
+      "comment": "WHAT IT DOES: Dedicated ExtendedAE circuit-fabrication machine using its native circuit-cutting recipes.\nUSES / PROGRESSION / OVERLAP: Digital manufacturing tier; inspect retained circuit recipes before deciding whether it complements or duplicates Create production.\nYour recipe is unchanged. Choose Maybe if unsure, Approve if suitable, or Park for later.\n\nDeferred re-review: Dedicated circuit-production machinery; inspect native process recipes before retiring alternatives.\n\nReview revision: Diamond-guided circuit cutting spindle with precision feed and engineering control; a real fabrication machine, no new wafer item. Existing pack items; proposed editor recipe, no gameplay export.\nExisting item; no gameplay export or new mechanic installed. Exact costs/bootstrap remain proposals.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "extendedae:circuit_cutter"
+        },
+        "cell_0_2": {
+          "kind": "ITEM",
+          "id": "create:mechanical_saw"
+        },
+        "cell_1_0": {
+          "kind": "ITEM",
+          "id": "tfmg:nickel_sheet"
+        },
+        "cell_1_1": {
+          "kind": "ITEM",
+          "id": "create:shaft"
+        },
+        "cell_1_2": {
+          "kind": "ITEM",
+          "id": "minecraft:diamond"
+        },
+        "cell_1_3": {
+          "kind": "ITEM",
+          "id": "create:shaft"
+        },
+        "cell_1_4": {
+          "kind": "ITEM",
+          "id": "tfmg:nickel_sheet"
+        },
+        "cell_2_0": {
+          "kind": "ITEM",
+          "id": "tfmg:electric_motor"
+        },
+        "cell_2_1": {
+          "kind": "ITEM",
+          "id": "ae2:calculation_processor"
+        },
+        "cell_2_2": {
+          "kind": "ITEM",
+          "id": "ae2:engineering_processor"
+        },
+        "cell_2_3": {
+          "kind": "ITEM",
+          "id": "ae2:calculation_processor"
+        },
+        "cell_2_4": {
+          "kind": "ITEM",
+          "id": "tfmg:electric_motor"
+        },
+        "cell_3_0": {
+          "kind": "ITEM",
+          "id": "tfmg:rubber_sheet"
+        },
+        "cell_3_1": {
+          "kind": "ITEM",
+          "id": "tfmg:circuit_board"
+        },
+        "cell_3_2": {
+          "kind": "ITEM",
+          "id": "tfmg:circuit_board"
+        },
+        "cell_3_3": {
+          "kind": "ITEM",
+          "id": "tfmg:circuit_board"
+        },
+        "cell_3_4": {
+          "kind": "ITEM",
+          "id": "tfmg:rubber_sheet"
+        },
+        "cell_4_0": {
+          "kind": "ITEM",
+          "id": "tfmg:nickel_sheet"
+        },
+        "cell_4_1": {
+          "kind": "ITEM",
+          "id": "tfmg:steel_frame"
+        },
+        "cell_4_2": {
+          "kind": "ITEM",
+          "id": "tfmg:steel_frame"
+        },
+        "cell_4_3": {
+          "kind": "ITEM",
+          "id": "tfmg:steel_frame"
+        },
+        "cell_4_4": {
+          "kind": "ITEM",
+          "id": "tfmg:nickel_sheet"
+        }
+      },
+      "params": {
+        "gridW": "5",
+        "gridH": "5"
+      }
+    },
+    {
+      "uid": "e32fa72e-f4b7-5e6f-9e7c-3bba7ae81144",
+      "type": "kjsgen:create_compacting",
+      "recipeId": "industrial_colonies:mekanism_utility/advanced_bin",
+      "comment": "WHAT IT DOES: Single-item-type physical bulk storage, advanced tier.\nUSES / PROGRESSION / OVERLAP: Factory logistics, distinct from multi-item digital ME storage. Evaluate actual capacity/mobility against Create vaults before retaining all tiers.\nYour recipe is unchanged. Choose Maybe if unsure, Approve if suitable, or Park for later.\n\n[High-Energy Grid] Review correction: compact the upgraded storage shell and loading hardware around the previous bin; this storage exception does not require a whole-machine assembly line.",
+      "replaceRecipe": false,
+      "slots": {
+        "__machine_process_compacting": {
+          "kind": "ITEM",
+          "id": "createcasing:industrial_iron_press"
+        },
+        "in0": {
+          "kind": "ITEM",
+          "id": "mekanism:basic_bin"
+        },
+        "in1": {
+          "kind": "ITEM",
+          "id": "mekanism:advanced_logistical_transporter",
+          "count": 2
+        },
+        "in2": {
+          "kind": "ITEM",
+          "id": "create:smart_chute"
+        },
+        "in3": {
+          "kind": "ITEM",
+          "id": "create:content_observer"
+        },
+        "in4": {
+          "kind": "ITEM",
+          "id": "tfmg:steel_mechanism"
+        },
+        "in5": {
+          "kind": "ITEM",
+          "id": "mekanism:advanced_control_circuit"
+        },
+        "in6": {
+          "kind": "ITEM",
+          "id": "mekanism:alloy_infused"
+        },
+        "output": {
+          "kind": "ITEM",
+          "id": "mekanism:advanced_bin"
+        }
+      },
+      "params": {
+        "heat": "none"
+      }
+    },
+    {
+      "uid": "38c07122-42c4-5016-a214-f6b059888c24",
+      "type": "kjsgen:create_compacting",
+      "recipeId": "industrial_colonies:mekanism_utility/ultimate_bin",
+      "comment": "WHAT IT DOES: Top-tier single-item-type physical bulk storage.\nUSES / PROGRESSION / OVERLAP: Capacity/moving-storage balance may overlap vaults and trains; returning this explanation is not approval of unlimited portable bulk storage.\nYour recipe is unchanged. Choose Maybe if unsure, Approve if suitable, or Park for later.\n\n[High-Energy Grid] Review correction: compact the upgraded storage shell and loading hardware around the previous bin; this storage exception does not require a whole-machine assembly line.",
+      "replaceRecipe": false,
+      "slots": {
+        "__machine_process_compacting": {
+          "kind": "ITEM",
+          "id": "createcasing:industrial_iron_press"
+        },
+        "in0": {
+          "kind": "ITEM",
+          "id": "mekanism:elite_bin"
+        },
+        "in1": {
+          "kind": "ITEM",
+          "id": "mekanism:ultimate_logistical_transporter",
+          "count": 2
+        },
+        "in2": {
+          "kind": "ITEM",
+          "id": "create:brass_tunnel"
+        },
+        "in3": {
+          "kind": "ITEM",
+          "id": "tfmg:electric_motor",
+          "count": 2
+        },
+        "in4": {
+          "kind": "ITEM",
+          "id": "tfmg:heavy_plate",
+          "count": 2
+        },
+        "in5": {
+          "kind": "ITEM",
+          "id": "mekanism:ultimate_control_circuit"
+        },
+        "in6": {
+          "kind": "ITEM",
+          "id": "mekanism:alloy_atomic"
+        },
+        "output": {
+          "kind": "ITEM",
+          "id": "mekanism:ultimate_bin"
+        }
+      },
+      "params": {
+        "heat": "none"
+      }
+    },
+    {
+      "uid": "36b0cff6-a14b-5b05-bee3-656cbe2e28e4",
+      "type": "kjsgen:create_sequenced_assembly",
+      "recipeId": "industrial_colonies:computer_network_coverage/colony_wireless_advanced",
+      "comment": "WHAT IT DOES: Advanced wireless colony/computer integration peripheral from Colony4CC.\nUSES / PROGRESSION / OVERLAP: Optional remote colony automation/information. Exact installed range/access restrictions are not established here; compare with normal wireless before keeping both.\nREVIEW STATUS: Returned because your deferred note requests an explanation or second review. Recipe ingredients, output and machine type are unchanged. Use Parked for later only to set it aside.\n\nDeferred re-review: Advanced Colony4CC wireless integration component. Compare its actual capabilities with the normal version before setting a higher cost. Evidence: Installed identity / functional summary; exact balance not certified.\n\n[High-Energy Grid] Retune the colonial field upgrade for ender-range service with an advanced modem, fluix coupling pearl, large radio coil, calculation control, and a fresh bonded pocket interface\nExisting item; no gameplay export or new mechanic installed. Exact costs/bootstrap remain proposals.",
+      "replaceRecipe": false,
+      "slots": {
+        "input": {
+          "kind": "ITEM",
+          "id": "colony4cc:colony_wireless_normal"
+        },
+        "transitional": {
+          "kind": "ITEM",
+          "id": "colony4cc:colony_wireless_normal"
+        },
+        "output0": {
+          "kind": "ITEM",
+          "id": "colony4cc:colony_wireless_advanced"
+        },
+        "seqItem0": {
+          "kind": "ITEM",
+          "id": "computercraft:wireless_modem_advanced"
+        },
+        "__machine_step_0_deploying": {
+          "kind": "ITEM",
+          "id": "createcasing:brass_deployer"
+        },
+        "seqItem1": {
+          "kind": "ITEM",
+          "id": "ae2:fluix_pearl"
+        },
+        "__machine_step_1_deploying": {
+          "kind": "ITEM",
+          "id": "createcasing:brass_deployer"
+        },
+        "seqItem2": {
+          "kind": "ITEM",
+          "id": "tfmg:large_coil"
+        },
+        "__machine_step_2_deploying": {
+          "kind": "ITEM",
+          "id": "createcasing:brass_deployer"
+        },
+        "seqItem3": {
+          "kind": "ITEM",
+          "id": "ae2:calculation_processor"
+        },
+        "__machine_step_3_deploying": {
+          "kind": "ITEM",
+          "id": "createcasing:brass_deployer"
+        },
+        "seqItem4": {
+          "kind": "ITEM_TAG",
+          "id": "c:slime_balls"
+        },
+        "__machine_step_4_deploying": {
+          "kind": "ITEM",
+          "id": "createcasing:brass_deployer"
+        },
+        "__machine_step_5_pressing": {
+          "kind": "ITEM",
+          "id": "createcasing:brass_press"
+        }
+      },
+      "params": {
+        "loops": "1",
+        "__seqLen": "6",
+        "seq0": "deploying",
+        "seq1": "deploying",
+        "seq2": "deploying",
+        "seq3": "deploying",
+        "seq4": "deploying",
+        "seq5": "pressing"
+      }
+    },
+    {
+      "uid": "c3fd731f-11b3-5b8d-8b6a-c6bcd6cb6e39",
+      "type": "kjsgen:create_mechanical_crafting",
+      "recipeId": "industrial_colonies:ownership/nuclear_boundary/melter",
+      "group": "Exotic metallurgy / required electric machinery",
+      "comment": "Proposed exotic-only electric melter, restoring a useful role rather than ordinary duplicate processing. Two graphite heater electrodes descend from the electrum bus into a five-sheet tungsten-lined Fireproof Chemical Vat. Side steel pipes carry its melt; the lower completed-board/Engineering-Processor control cabinet and capacitor sit on a static steel frame. Two Refined Radiance supports lock the construction after nuclear-tier tooling but before first Vibranium, Shadow or Quantum. Native ordinary melter routes remain retired; expensive electric demand belongs to the separate real Melter processing recipes, not a fictitious construction power parameter. This proposes a reviewed exception to the old duplicate-machine decision; it does not enable/install/export the machine.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "nuclearcraft:melter"
+        },
+        "cell_0_1": {
+          "kind": "ITEM",
+          "id": "tfmg:graphite_electrode"
+        },
+        "cell_0_2": {
+          "kind": "ITEM",
+          "id": "createaddition:electrum_wire"
+        },
+        "cell_0_3": {
+          "kind": "ITEM",
+          "id": "tfmg:graphite_electrode"
+        },
+        "cell_1_0": {
+          "kind": "ITEM",
+          "id": "create:refined_radiance"
+        },
+        "cell_1_1": {
+          "kind": "ITEM",
+          "id": "createmetallurgy:tungsten_sheet"
+        },
+        "cell_1_2": {
+          "kind": "ITEM",
+          "id": "createmetallurgy:tungsten_sheet"
+        },
+        "cell_1_3": {
+          "kind": "ITEM",
+          "id": "createmetallurgy:tungsten_sheet"
+        },
+        "cell_1_4": {
+          "kind": "ITEM",
+          "id": "create:refined_radiance"
+        },
+        "cell_2_0": {
+          "kind": "ITEM",
+          "id": "createmetallurgy:tungsten_sheet"
+        },
+        "cell_2_1": {
+          "kind": "ITEM",
+          "id": "tfmg:steel_pipe"
+        },
+        "cell_2_2": {
+          "kind": "ITEM",
+          "id": "tfmg:fireproof_chemical_vat"
+        },
+        "cell_2_3": {
+          "kind": "ITEM",
+          "id": "tfmg:steel_pipe"
+        },
+        "cell_2_4": {
+          "kind": "ITEM",
+          "id": "createmetallurgy:tungsten_sheet"
+        },
+        "cell_3_0": {
+          "kind": "ITEM",
+          "id": "tfmg:steel_frame"
+        },
+        "cell_3_1": {
+          "kind": "ITEM",
+          "id": "tfmg:circuit_board"
+        },
+        "cell_3_2": {
+          "kind": "ITEM",
+          "id": "ae2:engineering_processor"
+        },
+        "cell_3_3": {
+          "kind": "ITEM",
+          "id": "tfmg:circuit_board"
+        },
+        "cell_3_4": {
+          "kind": "ITEM",
+          "id": "tfmg:steel_frame"
+        },
+        "cell_4_0": {
+          "kind": "ITEM",
+          "id": "tfmg:steel_frame"
+        },
+        "cell_4_1": {
+          "kind": "ITEM",
+          "id": "createaddition:electrum_wire"
+        },
+        "cell_4_2": {
+          "kind": "ITEM",
+          "id": "tfmg:capacitor_item"
+        },
+        "cell_4_3": {
+          "kind": "ITEM",
+          "id": "createaddition:electrum_wire"
+        },
+        "cell_4_4": {
+          "kind": "ITEM",
+          "id": "tfmg:steel_frame"
+        }
+      },
+      "params": {
+        "gridW": "5",
+        "gridH": "5"
+      }
+    },
+    {
+      "uid": "d0ef3cb9-7536-5088-bdac-6503796e1e15",
+      "type": "kjsgen:create_mechanical_crafting",
+      "recipeId": "industrial_colonies:space/life_support/fan",
+      "comment": "Retired redundant Ad Astra fan; recipes consume Create propeller instead.",
+      "replaceRecipe": false,
+      "slots": {
+        "cell_0_1": {
+          "kind": "ITEM",
+          "id": "create:propeller"
+        },
+        "cell_0_3": {
+          "kind": "ITEM",
+          "id": "create:propeller"
+        },
+        "cell_1_0": {
+          "kind": "ITEM",
+          "id": "create:propeller"
+        },
+        "cell_1_2": {
+          "kind": "ITEM",
+          "id": "tfmg:heavy_plate"
+        },
+        "cell_1_4": {
+          "kind": "ITEM",
+          "id": "create:propeller"
+        },
+        "cell_2_0": {
+          "kind": "ITEM",
+          "id": "tfmg:steel_frame"
+        },
+        "cell_2_2": {
+          "kind": "ITEM",
+          "id": "tfmg:electric_motor"
+        },
+        "cell_2_4": {
+          "kind": "ITEM",
+          "id": "tfmg:steel_frame"
+        },
+        "cell_3_0": {
+          "kind": "ITEM",
+          "id": "create:propeller"
+        },
+        "cell_3_2": {
+          "kind": "ITEM",
+          "id": "tfmg:circuit_board"
+        },
+        "cell_3_4": {
+          "kind": "ITEM",
+          "id": "create:propeller"
+        },
+        "cell_4_1": {
+          "kind": "ITEM",
+          "id": "create:propeller"
+        },
+        "cell_4_3": {
+          "kind": "ITEM",
+          "id": "create:propeller"
+        },
+        "output": {
+          "kind": "ITEM",
+          "id": "ad_astra:fan",
+          "count": 2
+        }
+      },
+      "params": {
+        "gridW": "5",
+        "gridH": "5"
+      }
+    },
+    {
+      "uid": "d1d7dc9b-3aae-5ad5-b01f-986252405d7e",
+      "type": "kjsgen:create_mechanical_crafting",
+      "recipeId": "industrial_colonies:space_coverage/etrionic_blast_furnace",
+      "comment": "Disabled direct construction as requested: redundant machine.",
+      "replaceRecipe": false,
+      "slots": {
+        "cell_0_1": {
+          "kind": "ITEM",
+          "id": "tfmg:fireproof_bricks"
+        },
+        "cell_0_2": {
+          "kind": "ITEM",
+          "id": "tfmg:blast_stove"
+        },
+        "cell_0_3": {
+          "kind": "ITEM",
+          "id": "tfmg:fireproof_bricks"
+        },
+        "cell_1_0": {
+          "kind": "ITEM",
+          "id": "tfmg:heavy_machinery_casing"
+        },
+        "cell_1_2": {
+          "kind": "ITEM",
+          "id": "mekanism:resistive_heater"
+        },
+        "cell_1_4": {
+          "kind": "ITEM",
+          "id": "tfmg:heavy_machinery_casing"
+        },
+        "cell_2_0": {
+          "kind": "ITEM",
+          "id": "tfmg:heavy_machinery_casing"
+        },
+        "cell_2_2": {
+          "kind": "ITEM",
+          "id": "ad_astra:compressor"
+        },
+        "cell_2_4": {
+          "kind": "ITEM",
+          "id": "tfmg:heavy_machinery_casing"
+        },
+        "cell_3_1": {
+          "kind": "ITEM",
+          "id": "tfmg:electric_pump"
+        },
+        "cell_3_2": {
+          "kind": "ITEM",
+          "id": "minecraft:blast_furnace"
+        },
+        "cell_3_3": {
+          "kind": "ITEM",
+          "id": "tfmg:electric_pump"
+        },
+        "output": {
+          "kind": "ITEM",
+          "id": "ad_astra:etrionic_blast_furnace"
+        }
+      },
+      "params": {
+        "gridW": "5",
+        "gridH": "4"
+      }
+    },
+    {
+      "uid": "7475b89e-3bf3-5551-9105-2cc8453640b6",
+      "type": "kjsgen:create_compacting",
+      "recipeId": "industrial_colonies:foundry_routes/modern_scorched_drain",
+      "comment": "Disabled direct construction as requested: redundant machine.",
+      "replaceRecipe": false,
+      "slots": {
+        "__machine_process_compacting": {
+          "kind": "ITEM",
+          "id": "createcasing:weathered_iron_press"
+        },
+        "in0": {
+          "kind": "ITEM",
+          "id": "modernfoundry:scorched_brick",
+          "count": 4
+        },
+        "in1": {
+          "kind": "ITEM",
+          "id": "modernfoundry:obsidian_pane",
+          "count": 2
+        },
+        "in2": {
+          "kind": "ITEM",
+          "id": "tfmg:steel_pipe",
+          "count": 2
+        },
+        "in3": {
+          "kind": "ITEM",
+          "id": "tfmg:steel_fluid_tank"
+        },
+        "in4": {
+          "kind": "ITEM",
+          "id": "tfmg:screw"
+        },
+        "output": {
+          "kind": "ITEM",
+          "id": "modernfoundry:scorched_drain"
+        }
+      },
+      "params": {
+        "heat": "none"
+      }
+    },
+    {
+      "uid": "3f2a5be7-d45d-5f11-ab98-ea26f7fe8537",
+      "type": "kjsgen:create_compacting",
+      "recipeId": "industrial_colonies:foundry_routes/modern_scorched_table",
+      "comment": "Disabled direct construction as requested: redundant machine.",
+      "replaceRecipe": false,
+      "slots": {
+        "__machine_process_compacting": {
+          "kind": "ITEM",
+          "id": "createcasing:weathered_iron_press"
+        },
+        "in0": {
+          "kind": "ITEM",
+          "id": "createmetallurgy:casting_table"
+        },
+        "in1": {
+          "kind": "ITEM",
+          "id": "modernfoundry:scorched_brick",
+          "count": 4
+        },
+        "in2": {
+          "kind": "ITEM",
+          "id": "modernfoundry:gold_bars"
+        },
+        "in3": {
+          "kind": "ITEM",
+          "id": "tfmg:heavy_plate"
+        },
+        "in4": {
+          "kind": "ITEM",
+          "id": "tfmg:screw"
+        },
+        "output": {
+          "kind": "ITEM",
+          "id": "modernfoundry:scorched_table"
+        }
+      },
+      "params": {
+        "heat": "none"
+      }
+    },
+    {
+      "uid": "6fed3c87-e26f-54ca-8832-0cb0ba8c96a2",
+      "type": "kjsgen:shaped",
+      "recipeId": "ad_astra:coal_generator",
+      "group": "Machine inventory / ad_astra",
+      "comment": "Existing registered recipe, unchanged baseline for machine review. Source: ad_astra:coal_generator.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "ad_astra:coal_generator"
+        },
+        "in0": {
+          "kind": "ITEM",
+          "id": "minecraft:iron_ingot"
+        },
+        "in1": {
+          "kind": "ITEM",
+          "id": "minecraft:iron_ingot"
+        },
+        "in2": {
+          "kind": "ITEM",
+          "id": "minecraft:iron_ingot"
+        },
+        "in3": {
+          "kind": "ITEM",
+          "id": "minecraft:coal_block"
+        },
+        "in4": {
+          "kind": "ITEM",
+          "id": "minecraft:furnace"
+        },
+        "in5": {
+          "kind": "ITEM",
+          "id": "minecraft:coal_block"
+        },
+        "in6": {
+          "kind": "ITEM",
+          "id": "minecraft:iron_ingot"
+        },
+        "in7": {
+          "kind": "ITEM",
+          "id": "minecraft:iron_ingot"
+        },
+        "in8": {
+          "kind": "ITEM",
+          "id": "minecraft:iron_ingot"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "54f95c12-73bd-5ab4-8a76-31400d9937ab",
+      "type": "kjsgen:shapeless",
+      "recipeId": "appliedcreate:creative_motor_from_stress_cell",
+      "group": "Machine inventory / create",
+      "comment": "Existing registered recipe, unchanged baseline for machine review. Source: appliedcreate:creative_motor_from_stress_cell.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "create:creative_motor"
+        },
+        "in0": {
+          "kind": "ITEM",
+          "id": "appliedcreate:creative_stress_cell"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "9fb3a815-416d-537b-9edd-32045caa2973",
+      "type": "kjsgen:shaped",
+      "recipeId": "createcasing:crafting/smart_fluid_pipe/andesite",
+      "group": "Machine inventory / createcasing",
+      "comment": "Existing registered recipe, unchanged baseline for machine review. Source: createcasing:crafting/smart_fluid_pipe/andesite.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "createcasing:andesite_smart_fluid_pipe"
+        },
+        "in0": {
+          "kind": "ITEM_TAG",
+          "id": "c:plates/brass"
+        },
+        "in3": {
+          "kind": "ITEM",
+          "id": "createcasing:andesite_fluid_pipe"
+        },
+        "in6": {
+          "kind": "ITEM",
+          "id": "create:electron_tube"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "8f6abb2e-cb2b-5b8e-aa62-627f6a3ae028",
+      "type": "kjsgen:shaped",
+      "recipeId": "createcasing:crafting/spout/andesite",
+      "group": "Machine inventory / createcasing",
+      "comment": "Existing registered recipe, unchanged baseline for machine review. Source: createcasing:crafting/spout/andesite.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "createcasing:andesite_spout"
+        },
+        "in0": {
+          "kind": "ITEM",
+          "id": "create:andesite_casing"
+        },
+        "in3": {
+          "kind": "ITEM",
+          "id": "minecraft:dried_kelp"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "315a6d8f-ddcf-585b-bbb5-d252205a1124",
+      "type": "kjsgen:shaped",
+      "recipeId": "createcasing:crafting/steam_engine/andesite",
+      "group": "Machine inventory / createcasing",
+      "comment": "Existing registered recipe, unchanged baseline for machine review. Source: createcasing:crafting/steam_engine/andesite.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "createcasing:andesite_steam_engine"
+        },
+        "in0": {
+          "kind": "ITEM_TAG",
+          "id": "c:plates/gold"
+        },
+        "in3": {
+          "kind": "ITEM",
+          "id": "create:andesite_alloy"
+        },
+        "in6": {
+          "kind": "ITEM_TAG",
+          "id": "c:storage_blocks/andesite_alloy"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "d5bde19b-0947-57c7-afe9-13a7363a0c04",
+      "type": "kjsgen:shaped",
+      "recipeId": "electroenergetics:crafting/blue_electric_motor",
+      "group": "Machine inventory / electroenergetics",
+      "comment": "Existing registered recipe, unchanged baseline for machine review. Source: electroenergetics:crafting/blue_electric_motor.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "electroenergetics:blue_electric_motor"
+        },
+        "in0": {
+          "kind": "ITEM",
+          "id": "electroenergetics:connector"
+        },
+        "in1": {
+          "kind": "ITEM",
+          "id": "electroenergetics:copper_wire_spool"
+        },
+        "in3": {
+          "kind": "ITEM",
+          "id": "electroenergetics:commutator"
+        },
+        "in4": {
+          "kind": "ITEM",
+          "id": "create:andesite_alloy_block"
+        },
+        "in5": {
+          "kind": "ITEM",
+          "id": "minecraft:blue_dye"
+        },
+        "in6": {
+          "kind": "ITEM",
+          "id": "electroenergetics:connector"
+        },
+        "in7": {
+          "kind": "ITEM",
+          "id": "electroenergetics:copper_wire_spool"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "6fc13eb6-41ff-5073-8189-c80ce645f09a",
+      "type": "kjsgen:shaped",
+      "recipeId": "electroenergetics:crafting/brown_electric_motor",
+      "group": "Machine inventory / electroenergetics",
+      "comment": "Existing registered recipe, unchanged baseline for machine review. Source: electroenergetics:crafting/brown_electric_motor.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "electroenergetics:brown_electric_motor"
+        },
+        "in0": {
+          "kind": "ITEM",
+          "id": "electroenergetics:connector"
+        },
+        "in1": {
+          "kind": "ITEM",
+          "id": "electroenergetics:copper_wire_spool"
+        },
+        "in3": {
+          "kind": "ITEM",
+          "id": "electroenergetics:commutator"
+        },
+        "in4": {
+          "kind": "ITEM",
+          "id": "create:andesite_alloy_block"
+        },
+        "in5": {
+          "kind": "ITEM",
+          "id": "minecraft:brown_dye"
+        },
+        "in6": {
+          "kind": "ITEM",
+          "id": "electroenergetics:connector"
+        },
+        "in7": {
+          "kind": "ITEM",
+          "id": "electroenergetics:copper_wire_spool"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "77d7091d-6254-51a0-9679-da30287ae25e",
+      "type": "kjsgen:shaped",
+      "recipeId": "electroenergetics:crafting/cyan_electric_motor",
+      "group": "Machine inventory / electroenergetics",
+      "comment": "Existing registered recipe, unchanged baseline for machine review. Source: electroenergetics:crafting/cyan_electric_motor.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "electroenergetics:cyan_electric_motor"
+        },
+        "in0": {
+          "kind": "ITEM",
+          "id": "electroenergetics:connector"
+        },
+        "in1": {
+          "kind": "ITEM",
+          "id": "electroenergetics:copper_wire_spool"
+        },
+        "in3": {
+          "kind": "ITEM",
+          "id": "electroenergetics:commutator"
+        },
+        "in4": {
+          "kind": "ITEM",
+          "id": "create:andesite_alloy_block"
+        },
+        "in5": {
+          "kind": "ITEM",
+          "id": "minecraft:cyan_dye"
+        },
+        "in6": {
+          "kind": "ITEM",
+          "id": "electroenergetics:connector"
+        },
+        "in7": {
+          "kind": "ITEM",
+          "id": "electroenergetics:copper_wire_spool"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "58910943-a711-5f13-a292-0aab26a6d6d6",
+      "type": "kjsgen:shaped",
+      "recipeId": "electroenergetics:crafting/gray_electric_motor",
+      "group": "Machine inventory / electroenergetics",
+      "comment": "Existing registered recipe, unchanged baseline for machine review. Source: electroenergetics:crafting/gray_electric_motor.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "electroenergetics:gray_electric_motor"
+        },
+        "in0": {
+          "kind": "ITEM",
+          "id": "electroenergetics:connector"
+        },
+        "in1": {
+          "kind": "ITEM",
+          "id": "electroenergetics:copper_wire_spool"
+        },
+        "in3": {
+          "kind": "ITEM",
+          "id": "electroenergetics:commutator"
+        },
+        "in4": {
+          "kind": "ITEM",
+          "id": "create:andesite_alloy_block"
+        },
+        "in5": {
+          "kind": "ITEM",
+          "id": "minecraft:gray_dye"
+        },
+        "in6": {
+          "kind": "ITEM",
+          "id": "electroenergetics:connector"
+        },
+        "in7": {
+          "kind": "ITEM",
+          "id": "electroenergetics:copper_wire_spool"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "755eb4d1-d6b3-5ed3-ba4e-09057ba95883",
+      "type": "kjsgen:shaped",
+      "recipeId": "electroenergetics:crafting/green_electric_motor",
+      "group": "Machine inventory / electroenergetics",
+      "comment": "Existing registered recipe, unchanged baseline for machine review. Source: electroenergetics:crafting/green_electric_motor.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "electroenergetics:green_electric_motor"
+        },
+        "in0": {
+          "kind": "ITEM",
+          "id": "electroenergetics:connector"
+        },
+        "in1": {
+          "kind": "ITEM",
+          "id": "electroenergetics:copper_wire_spool"
+        },
+        "in3": {
+          "kind": "ITEM",
+          "id": "electroenergetics:commutator"
+        },
+        "in4": {
+          "kind": "ITEM",
+          "id": "create:andesite_alloy_block"
+        },
+        "in5": {
+          "kind": "ITEM",
+          "id": "minecraft:green_dye"
+        },
+        "in6": {
+          "kind": "ITEM",
+          "id": "electroenergetics:connector"
+        },
+        "in7": {
+          "kind": "ITEM",
+          "id": "electroenergetics:copper_wire_spool"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "18b41f18-9b11-5148-a807-9d76a46bae3e",
+      "type": "kjsgen:shaped",
+      "recipeId": "electroenergetics:crafting/light_blue_electric_motor",
+      "group": "Machine inventory / electroenergetics",
+      "comment": "Existing registered recipe, unchanged baseline for machine review. Source: electroenergetics:crafting/light_blue_electric_motor.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "electroenergetics:light_blue_electric_motor"
+        },
+        "in0": {
+          "kind": "ITEM",
+          "id": "electroenergetics:connector"
+        },
+        "in1": {
+          "kind": "ITEM",
+          "id": "electroenergetics:copper_wire_spool"
+        },
+        "in3": {
+          "kind": "ITEM",
+          "id": "electroenergetics:commutator"
+        },
+        "in4": {
+          "kind": "ITEM",
+          "id": "create:andesite_alloy_block"
+        },
+        "in5": {
+          "kind": "ITEM",
+          "id": "minecraft:light_blue_dye"
+        },
+        "in6": {
+          "kind": "ITEM",
+          "id": "electroenergetics:connector"
+        },
+        "in7": {
+          "kind": "ITEM",
+          "id": "electroenergetics:copper_wire_spool"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "4bac3df6-d5cf-501c-8540-f2db08652450",
+      "type": "kjsgen:shaped",
+      "recipeId": "electroenergetics:crafting/light_gray_electric_motor",
+      "group": "Machine inventory / electroenergetics",
+      "comment": "Existing registered recipe, unchanged baseline for machine review. Source: electroenergetics:crafting/light_gray_electric_motor.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "electroenergetics:light_gray_electric_motor"
+        },
+        "in0": {
+          "kind": "ITEM",
+          "id": "electroenergetics:connector"
+        },
+        "in1": {
+          "kind": "ITEM",
+          "id": "electroenergetics:copper_wire_spool"
+        },
+        "in3": {
+          "kind": "ITEM",
+          "id": "electroenergetics:commutator"
+        },
+        "in4": {
+          "kind": "ITEM",
+          "id": "create:andesite_alloy_block"
+        },
+        "in5": {
+          "kind": "ITEM",
+          "id": "minecraft:light_gray_dye"
+        },
+        "in6": {
+          "kind": "ITEM",
+          "id": "electroenergetics:connector"
+        },
+        "in7": {
+          "kind": "ITEM",
+          "id": "electroenergetics:copper_wire_spool"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "ffbc152c-5418-5b3b-a85d-a71bc23dfd8d",
+      "type": "kjsgen:shaped",
+      "recipeId": "electroenergetics:crafting/lime_electric_motor",
+      "group": "Machine inventory / electroenergetics",
+      "comment": "Existing registered recipe, unchanged baseline for machine review. Source: electroenergetics:crafting/lime_electric_motor.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "electroenergetics:lime_electric_motor"
+        },
+        "in0": {
+          "kind": "ITEM",
+          "id": "electroenergetics:connector"
+        },
+        "in1": {
+          "kind": "ITEM",
+          "id": "electroenergetics:copper_wire_spool"
+        },
+        "in3": {
+          "kind": "ITEM",
+          "id": "electroenergetics:commutator"
+        },
+        "in4": {
+          "kind": "ITEM",
+          "id": "create:andesite_alloy_block"
+        },
+        "in5": {
+          "kind": "ITEM",
+          "id": "minecraft:lime_dye"
+        },
+        "in6": {
+          "kind": "ITEM",
+          "id": "electroenergetics:connector"
+        },
+        "in7": {
+          "kind": "ITEM",
+          "id": "electroenergetics:copper_wire_spool"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "a55e550e-82b1-5329-a7f7-0ddd49f48bda",
+      "type": "kjsgen:shaped",
+      "recipeId": "electroenergetics:crafting/magenta_electric_motor",
+      "group": "Machine inventory / electroenergetics",
+      "comment": "Existing registered recipe, unchanged baseline for machine review. Source: electroenergetics:crafting/magenta_electric_motor.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "electroenergetics:magenta_electric_motor"
+        },
+        "in0": {
+          "kind": "ITEM",
+          "id": "electroenergetics:connector"
+        },
+        "in1": {
+          "kind": "ITEM",
+          "id": "electroenergetics:copper_wire_spool"
+        },
+        "in3": {
+          "kind": "ITEM",
+          "id": "electroenergetics:commutator"
+        },
+        "in4": {
+          "kind": "ITEM",
+          "id": "create:andesite_alloy_block"
+        },
+        "in5": {
+          "kind": "ITEM",
+          "id": "minecraft:magenta_dye"
+        },
+        "in6": {
+          "kind": "ITEM",
+          "id": "electroenergetics:connector"
+        },
+        "in7": {
+          "kind": "ITEM",
+          "id": "electroenergetics:copper_wire_spool"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "747a175b-0076-5937-8020-fdb73fbb4165",
+      "type": "kjsgen:shaped",
+      "recipeId": "electroenergetics:crafting/orange_electric_motor",
+      "group": "Machine inventory / electroenergetics",
+      "comment": "Existing registered recipe, unchanged baseline for machine review. Source: electroenergetics:crafting/orange_electric_motor.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "electroenergetics:orange_electric_motor"
+        },
+        "in0": {
+          "kind": "ITEM",
+          "id": "electroenergetics:connector"
+        },
+        "in1": {
+          "kind": "ITEM",
+          "id": "electroenergetics:copper_wire_spool"
+        },
+        "in3": {
+          "kind": "ITEM",
+          "id": "electroenergetics:commutator"
+        },
+        "in4": {
+          "kind": "ITEM",
+          "id": "create:andesite_alloy_block"
+        },
+        "in5": {
+          "kind": "ITEM",
+          "id": "minecraft:orange_dye"
+        },
+        "in6": {
+          "kind": "ITEM",
+          "id": "electroenergetics:connector"
+        },
+        "in7": {
+          "kind": "ITEM",
+          "id": "electroenergetics:copper_wire_spool"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "f2a1d6f1-5cf3-5f49-a72c-4c77c2c84b03",
+      "type": "kjsgen:shaped",
+      "recipeId": "electroenergetics:crafting/pink_electric_motor",
+      "group": "Machine inventory / electroenergetics",
+      "comment": "Existing registered recipe, unchanged baseline for machine review. Source: electroenergetics:crafting/pink_electric_motor.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "electroenergetics:pink_electric_motor"
+        },
+        "in0": {
+          "kind": "ITEM",
+          "id": "electroenergetics:connector"
+        },
+        "in1": {
+          "kind": "ITEM",
+          "id": "electroenergetics:copper_wire_spool"
+        },
+        "in3": {
+          "kind": "ITEM",
+          "id": "electroenergetics:commutator"
+        },
+        "in4": {
+          "kind": "ITEM",
+          "id": "create:andesite_alloy_block"
+        },
+        "in5": {
+          "kind": "ITEM",
+          "id": "minecraft:pink_dye"
+        },
+        "in6": {
+          "kind": "ITEM",
+          "id": "electroenergetics:connector"
+        },
+        "in7": {
+          "kind": "ITEM",
+          "id": "electroenergetics:copper_wire_spool"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "16e1e87d-f7e3-51f3-acaf-a981022862b7",
+      "type": "kjsgen:shaped",
+      "recipeId": "electroenergetics:crafting/purple_electric_motor",
+      "group": "Machine inventory / electroenergetics",
+      "comment": "Existing registered recipe, unchanged baseline for machine review. Source: electroenergetics:crafting/purple_electric_motor.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "electroenergetics:purple_electric_motor"
+        },
+        "in0": {
+          "kind": "ITEM",
+          "id": "electroenergetics:connector"
+        },
+        "in1": {
+          "kind": "ITEM",
+          "id": "electroenergetics:copper_wire_spool"
+        },
+        "in3": {
+          "kind": "ITEM",
+          "id": "electroenergetics:commutator"
+        },
+        "in4": {
+          "kind": "ITEM",
+          "id": "create:andesite_alloy_block"
+        },
+        "in5": {
+          "kind": "ITEM",
+          "id": "minecraft:purple_dye"
+        },
+        "in6": {
+          "kind": "ITEM",
+          "id": "electroenergetics:connector"
+        },
+        "in7": {
+          "kind": "ITEM",
+          "id": "electroenergetics:copper_wire_spool"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "2e8d2e55-13e6-580f-a926-4da44824cb1d",
+      "type": "kjsgen:shaped",
+      "recipeId": "electroenergetics:crafting/red_electric_motor",
+      "group": "Machine inventory / electroenergetics",
+      "comment": "Existing registered recipe, unchanged baseline for machine review. Source: electroenergetics:crafting/red_electric_motor.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "electroenergetics:red_electric_motor"
+        },
+        "in0": {
+          "kind": "ITEM",
+          "id": "electroenergetics:connector"
+        },
+        "in1": {
+          "kind": "ITEM",
+          "id": "electroenergetics:copper_wire_spool"
+        },
+        "in3": {
+          "kind": "ITEM",
+          "id": "electroenergetics:commutator"
+        },
+        "in4": {
+          "kind": "ITEM",
+          "id": "create:andesite_alloy_block"
+        },
+        "in5": {
+          "kind": "ITEM",
+          "id": "minecraft:red_dye"
+        },
+        "in6": {
+          "kind": "ITEM",
+          "id": "electroenergetics:connector"
+        },
+        "in7": {
+          "kind": "ITEM",
+          "id": "electroenergetics:copper_wire_spool"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "192c46c4-b768-5be9-9f65-66f6adbd1ed6",
+      "type": "kjsgen:shaped",
+      "recipeId": "electroenergetics:crafting/white_electric_motor",
+      "group": "Machine inventory / electroenergetics",
+      "comment": "Existing registered recipe, unchanged baseline for machine review. Source: electroenergetics:crafting/white_electric_motor.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "electroenergetics:white_electric_motor"
+        },
+        "in0": {
+          "kind": "ITEM",
+          "id": "electroenergetics:connector"
+        },
+        "in1": {
+          "kind": "ITEM",
+          "id": "electroenergetics:copper_wire_spool"
+        },
+        "in3": {
+          "kind": "ITEM",
+          "id": "electroenergetics:commutator"
+        },
+        "in4": {
+          "kind": "ITEM",
+          "id": "create:andesite_alloy_block"
+        },
+        "in5": {
+          "kind": "ITEM",
+          "id": "minecraft:white_dye"
+        },
+        "in6": {
+          "kind": "ITEM",
+          "id": "electroenergetics:connector"
+        },
+        "in7": {
+          "kind": "ITEM",
+          "id": "electroenergetics:copper_wire_spool"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "4ca746b0-643d-5945-8501-7df40c67d4f2",
+      "type": "kjsgen:shaped",
+      "recipeId": "electroenergetics:crafting/yellow_electric_motor",
+      "group": "Machine inventory / electroenergetics",
+      "comment": "Existing registered recipe, unchanged baseline for machine review. Source: electroenergetics:crafting/yellow_electric_motor.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "electroenergetics:yellow_electric_motor"
+        },
+        "in0": {
+          "kind": "ITEM",
+          "id": "electroenergetics:connector"
+        },
+        "in1": {
+          "kind": "ITEM",
+          "id": "electroenergetics:copper_wire_spool"
+        },
+        "in3": {
+          "kind": "ITEM",
+          "id": "electroenergetics:commutator"
+        },
+        "in4": {
+          "kind": "ITEM",
+          "id": "create:andesite_alloy_block"
+        },
+        "in5": {
+          "kind": "ITEM",
+          "id": "minecraft:yellow_dye"
+        },
+        "in6": {
+          "kind": "ITEM",
+          "id": "electroenergetics:connector"
+        },
+        "in7": {
+          "kind": "ITEM",
+          "id": "electroenergetics:copper_wire_spool"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "ca9724b1-9bfb-5932-8b30-a2936c744d04",
+      "type": "kjsgen:shaped",
+      "recipeId": "mekanism:fuelwood_heater",
+      "group": "Machine inventory / mekanism",
+      "comment": "Existing registered recipe, unchanged baseline for machine review. Source: mekanism:fuelwood_heater.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "mekanism:fuelwood_heater"
+        },
+        "in0": {
+          "kind": "ITEM_TAG",
+          "id": "c:ingots/steel"
+        },
+        "in1": {
+          "kind": "ITEM_TAG",
+          "id": "c:circuits/basic"
+        },
+        "in2": {
+          "kind": "ITEM_TAG",
+          "id": "c:ingots/steel"
+        },
+        "in3": {
+          "kind": "ITEM",
+          "id": "minecraft:furnace"
+        },
+        "in4": {
+          "kind": "ITEM",
+          "id": "mekanism:steel_casing"
+        },
+        "in5": {
+          "kind": "ITEM",
+          "id": "minecraft:furnace"
+        },
+        "in6": {
+          "kind": "ITEM_TAG",
+          "id": "c:ingots/steel"
+        },
+        "in7": {
+          "kind": "ITEM_TAG",
+          "id": "c:ingots/steel"
+        },
+        "in8": {
+          "kind": "ITEM_TAG",
+          "id": "c:ingots/steel"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "f340108b-b391-538a-b05f-0a5ce65ac272",
+      "type": "kjsgen:shaped",
+      "recipeId": "modernfoundry:smeltery/scorched/basin",
+      "group": "Machine inventory / modernfoundry",
+      "comment": "Existing registered recipe, unchanged baseline for machine review. Source: modernfoundry:smeltery/scorched/basin.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "modernfoundry:scorched_basin"
+        },
+        "in0": {
+          "kind": "ITEM",
+          "id": "modernfoundry:scorched_brick"
+        },
+        "in2": {
+          "kind": "ITEM",
+          "id": "modernfoundry:scorched_brick"
+        },
+        "in3": {
+          "kind": "ITEM",
+          "id": "modernfoundry:scorched_brick"
+        },
+        "in4": {
+          "kind": "ITEM",
+          "id": "modernfoundry:gold_platform"
+        },
+        "in5": {
+          "kind": "ITEM",
+          "id": "modernfoundry:scorched_brick"
+        },
+        "in6": {
+          "kind": "ITEM",
+          "id": "modernfoundry:scorched_brick"
+        },
+        "in7": {
+          "kind": "ITEM",
+          "id": "modernfoundry:scorched_brick"
+        },
+        "in8": {
+          "kind": "ITEM",
+          "id": "modernfoundry:scorched_brick"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "05ffd9f6-726a-56dd-88a7-6a0a3b2cda32",
+      "type": "kjsgen:shaped",
+      "recipeId": "modernfoundry:smeltery/scorched/chute",
+      "group": "Machine inventory / modernfoundry",
+      "comment": "Existing registered recipe, unchanged baseline for machine review. Source: modernfoundry:smeltery/scorched/chute.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "modernfoundry:scorched_chute"
+        },
+        "in0": {
+          "kind": "ITEM",
+          "id": "modernfoundry:scorched_brick"
+        },
+        "in1": {
+          "kind": "ITEM",
+          "id": "modernfoundry:obsidian_pane"
+        },
+        "in2": {
+          "kind": "ITEM",
+          "id": "modernfoundry:scorched_brick"
+        },
+        "in6": {
+          "kind": "ITEM",
+          "id": "modernfoundry:scorched_brick"
+        },
+        "in7": {
+          "kind": "ITEM",
+          "id": "modernfoundry:obsidian_pane"
+        },
+        "in8": {
+          "kind": "ITEM",
+          "id": "modernfoundry:scorched_brick"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "2d13b573-a78e-5c9e-8202-d9853661e785",
+      "type": "kjsgen:shaped",
+      "recipeId": "modernfoundry:smeltery/scorched/fuel_tank",
+      "group": "Machine inventory / modernfoundry",
+      "comment": "Existing registered recipe, unchanged baseline for machine review. Source: modernfoundry:smeltery/scorched/fuel_tank.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "modernfoundry:scorched_fuel_tank"
+        },
+        "in0": {
+          "kind": "ITEM",
+          "id": "modernfoundry:scorched_brick"
+        },
+        "in1": {
+          "kind": "ITEM",
+          "id": "modernfoundry:scorched_brick"
+        },
+        "in2": {
+          "kind": "ITEM",
+          "id": "modernfoundry:scorched_brick"
+        },
+        "in3": {
+          "kind": "ITEM",
+          "id": "modernfoundry:scorched_brick"
+        },
+        "in4": {
+          "kind": "ITEM_TAG",
+          "id": "c:gems/quartz"
+        },
+        "in5": {
+          "kind": "ITEM",
+          "id": "modernfoundry:scorched_brick"
+        },
+        "in6": {
+          "kind": "ITEM",
+          "id": "modernfoundry:scorched_brick"
+        },
+        "in7": {
+          "kind": "ITEM",
+          "id": "modernfoundry:scorched_brick"
+        },
+        "in8": {
+          "kind": "ITEM",
+          "id": "modernfoundry:scorched_brick"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "9c7d99b7-4275-594c-a698-4902a6bbc5aa",
+      "type": "kjsgen:shaped",
+      "recipeId": "modernfoundry:smeltery/scorched/ingot_tank",
+      "group": "Machine inventory / modernfoundry",
+      "comment": "Existing registered recipe, unchanged baseline for machine review. Source: modernfoundry:smeltery/scorched/ingot_tank.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "modernfoundry:scorched_ingot_tank"
+        },
+        "in0": {
+          "kind": "ITEM",
+          "id": "modernfoundry:scorched_brick"
+        },
+        "in1": {
+          "kind": "ITEM_TAG",
+          "id": "c:gems/quartz"
+        },
+        "in2": {
+          "kind": "ITEM",
+          "id": "modernfoundry:scorched_brick"
+        },
+        "in3": {
+          "kind": "ITEM",
+          "id": "modernfoundry:scorched_brick"
+        },
+        "in4": {
+          "kind": "ITEM_TAG",
+          "id": "c:gems/quartz"
+        },
+        "in5": {
+          "kind": "ITEM",
+          "id": "modernfoundry:scorched_brick"
+        },
+        "in6": {
+          "kind": "ITEM",
+          "id": "modernfoundry:scorched_brick"
+        },
+        "in7": {
+          "kind": "ITEM_TAG",
+          "id": "c:gems/quartz"
+        },
+        "in8": {
+          "kind": "ITEM",
+          "id": "modernfoundry:scorched_brick"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "e3d7c20a-18a4-5786-b4a1-ee87176796c7",
+      "type": "kjsgen:shaped",
+      "recipeId": "modernfoundry:smeltery/scorched/proxy_tank",
+      "group": "Machine inventory / modernfoundry",
+      "comment": "Existing registered recipe, unchanged baseline for machine review. Source: modernfoundry:smeltery/scorched/proxy_tank.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "modernfoundry:scorched_proxy_tank"
+        },
+        "in0": {
+          "kind": "ITEM",
+          "id": "modernfoundry:scorched_brick"
+        },
+        "in1": {
+          "kind": "ITEM_TAG",
+          "id": "c:gems/quartz"
+        },
+        "in2": {
+          "kind": "ITEM",
+          "id": "modernfoundry:scorched_brick"
+        },
+        "in3": {
+          "kind": "ITEM",
+          "id": "modernfoundry:obsidian_pane"
+        },
+        "in4": {
+          "kind": "ITEM_TAG",
+          "id": "c:gems/quartz"
+        },
+        "in5": {
+          "kind": "ITEM",
+          "id": "modernfoundry:obsidian_pane"
+        },
+        "in6": {
+          "kind": "ITEM",
+          "id": "modernfoundry:scorched_brick"
+        },
+        "in7": {
+          "kind": "ITEM_TAG",
+          "id": "c:gems/quartz"
+        },
+        "in8": {
+          "kind": "ITEM",
+          "id": "modernfoundry:scorched_brick"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "1adc21a0-8458-5660-872f-f83f91be40f2",
+      "type": "kjsgen:shaped",
+      "recipeId": "nuclearcraft:rock_crusher",
+      "group": "Machine inventory / nuclearcraft",
+      "comment": "Existing registered recipe, unchanged baseline for machine review. Source: nuclearcraft:rock_crusher.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "nuclearcraft:rock_crusher"
+        },
+        "in0": {
+          "kind": "ITEM",
+          "id": "nuclearcraft:plate_advanced"
+        },
+        "in1": {
+          "kind": "ITEM",
+          "id": "nuclearcraft:motor"
+        },
+        "in2": {
+          "kind": "ITEM",
+          "id": "nuclearcraft:plate_advanced"
+        },
+        "in3": {
+          "kind": "ITEM",
+          "id": "nuclearcraft:actuator"
+        },
+        "in4": {
+          "kind": "ITEM",
+          "id": "nuclearcraft:chassis"
+        },
+        "in5": {
+          "kind": "ITEM",
+          "id": "nuclearcraft:actuator"
+        },
+        "in6": {
+          "kind": "ITEM",
+          "id": "nuclearcraft:plate_advanced"
+        },
+        "in7": {
+          "kind": "ITEM_TAG",
+          "id": "c:ingots/tough_alloy"
+        },
+        "in8": {
+          "kind": "ITEM",
+          "id": "nuclearcraft:plate_advanced"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "97be00a8-0477-5fbd-ac0f-0cc0bc19f746",
+      "type": "kjsgen:shapeless",
+      "recipeId": "securitycraft:blast_furnace_mine",
+      "group": "Machine inventory / securitycraft",
+      "comment": "Existing registered recipe, unchanged baseline for machine review. Source: securitycraft:blast_furnace_mine.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "securitycraft:blast_furnace_mine"
+        },
+        "in0": {
+          "kind": "ITEM",
+          "id": "minecraft:blast_furnace"
+        },
+        "in1": {
+          "kind": "ITEM",
+          "id": "securitycraft:mine"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "4e797c64-e195-55b3-b9d6-96d3c3b25950",
+      "type": "kjsgen:shapeless",
+      "recipeId": "securitycraft:deepslate_redstone_mine",
+      "group": "Machine inventory / securitycraft",
+      "comment": "Existing registered recipe, unchanged baseline for machine review. Source: securitycraft:deepslate_redstone_mine.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "securitycraft:deepslate_redstone_mine"
+        },
+        "in0": {
+          "kind": "ITEM",
+          "id": "minecraft:deepslate_redstone_ore"
+        },
+        "in1": {
+          "kind": "ITEM",
+          "id": "securitycraft:mine"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "4695ca12-6986-5336-bd1c-6f42ab495097",
+      "type": "kjsgen:shapeless",
+      "recipeId": "securitycraft:furnace_mine",
+      "group": "Machine inventory / securitycraft",
+      "comment": "Existing registered recipe, unchanged baseline for machine review. Source: securitycraft:furnace_mine.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "securitycraft:furnace_mine"
+        },
+        "in0": {
+          "kind": "ITEM",
+          "id": "minecraft:furnace"
+        },
+        "in1": {
+          "kind": "ITEM",
+          "id": "securitycraft:mine"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "570201b1-0cae-5814-814c-77cc9f1fa450",
+      "type": "kjsgen:shapeless",
+      "recipeId": "securitycraft:redstone_mine",
+      "group": "Machine inventory / securitycraft",
+      "comment": "Existing registered recipe, unchanged baseline for machine review. Source: securitycraft:redstone_mine.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "securitycraft:redstone_mine"
+        },
+        "in0": {
+          "kind": "ITEM",
+          "id": "minecraft:redstone_ore"
+        },
+        "in1": {
+          "kind": "ITEM",
+          "id": "securitycraft:mine"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "6836fb6f-ab87-5a96-bf71-e306e1430858",
+      "type": "kjsgen:shaped",
+      "recipeId": "securitycraft:track_mine",
+      "group": "Machine inventory / securitycraft",
+      "comment": "Existing registered recipe, unchanged baseline for machine review. Source: securitycraft:track_mine.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "securitycraft:track_mine",
+          "count": 6
+        },
+        "in0": {
+          "kind": "ITEM_TAG",
+          "id": "c:ingots/iron"
+        },
+        "in2": {
+          "kind": "ITEM_TAG",
+          "id": "c:ingots/iron"
+        },
+        "in3": {
+          "kind": "ITEM_TAG",
+          "id": "c:ingots/iron"
+        },
+        "in4": {
+          "kind": "ITEM_TAG",
+          "id": "c:rods/wooden"
+        },
+        "in5": {
+          "kind": "ITEM_TAG",
+          "id": "c:ingots/iron"
+        },
+        "in6": {
+          "kind": "ITEM_TAG",
+          "id": "c:ingots/iron"
+        },
+        "in7": {
+          "kind": "ITEM_TAG",
+          "id": "c:gunpowders"
+        },
+        "in8": {
+          "kind": "ITEM_TAG",
+          "id": "c:ingots/iron"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "c11c02c9-9975-5899-8a5f-594b433f3e6c",
+      "type": "kjsgen:shaped",
+      "recipeId": "stellaris:misc/diesel_generator",
+      "group": "Machine inventory / stellaris",
+      "comment": "Existing registered recipe, unchanged baseline for machine review. Source: stellaris:misc/diesel_generator.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "stellaris:diesel_generator"
+        },
+        "in0": {
+          "kind": "ITEM_TAG",
+          "id": "c:ingots/steel"
+        },
+        "in1": {
+          "kind": "ITEM_TAG",
+          "id": "c:ingots/steel"
+        },
+        "in2": {
+          "kind": "ITEM_TAG",
+          "id": "c:ingots/steel"
+        },
+        "in3": {
+          "kind": "ITEM_TAG",
+          "id": "c:ingots/heavy_metal"
+        },
+        "in4": {
+          "kind": "ITEM",
+          "id": "minecraft:bucket"
+        },
+        "in5": {
+          "kind": "ITEM_TAG",
+          "id": "c:ingots/heavy_metal"
+        },
+        "in6": {
+          "kind": "ITEM_TAG",
+          "id": "c:ingots/heavy_metal"
+        },
+        "in7": {
+          "kind": "ITEM",
+          "id": "stellaris:coal_generator"
+        },
+        "in8": {
+          "kind": "ITEM_TAG",
+          "id": "c:ingots/heavy_metal"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "ee6c7700-fcff-51b4-adac-8e8548d2128b",
+      "type": "kjsgen:shaped",
+      "recipeId": "stellaris:misc/fuel_refinery",
+      "group": "Machine inventory / stellaris",
+      "comment": "Existing registered recipe, unchanged baseline for machine review. Source: stellaris:misc/fuel_refinery.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "stellaris:fuel_refinery"
+        },
+        "in0": {
+          "kind": "ITEM_TAG",
+          "id": "c:ingots/steel"
+        },
+        "in1": {
+          "kind": "ITEM",
+          "id": "minecraft:lapis_lazuli"
+        },
+        "in2": {
+          "kind": "ITEM_TAG",
+          "id": "c:ingots/steel"
+        },
+        "in3": {
+          "kind": "ITEM",
+          "id": "stellaris:cable"
+        },
+        "in4": {
+          "kind": "ITEM",
+          "id": "minecraft:bucket"
+        },
+        "in5": {
+          "kind": "ITEM",
+          "id": "stellaris:cable"
+        },
+        "in6": {
+          "kind": "ITEM_TAG",
+          "id": "c:ingots/steel"
+        },
+        "in7": {
+          "kind": "ITEM_TAG",
+          "id": "c:ingots/steel"
+        },
+        "in8": {
+          "kind": "ITEM_TAG",
+          "id": "c:ingots/steel"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "50810000-1a89-5774-9e3f-d9ed32155063",
+      "type": "kjsgen:shaped",
+      "recipeId": "stellaris:misc/pumpjack",
+      "group": "Machine inventory / stellaris",
+      "comment": "Existing registered recipe, unchanged baseline for machine review. Source: stellaris:misc/pumpjack.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "stellaris:pumpjack"
+        },
+        "in0": {
+          "kind": "ITEM",
+          "id": "minecraft:chain"
+        },
+        "in1": {
+          "kind": "ITEM_TAG",
+          "id": "c:ingots/heavy_metal"
+        },
+        "in2": {
+          "kind": "ITEM",
+          "id": "stellaris:pumpjack_drill"
+        },
+        "in3": {
+          "kind": "ITEM",
+          "id": "minecraft:bucket"
+        },
+        "in4": {
+          "kind": "ITEM_TAG",
+          "id": "c:ingots/heavy_metal"
+        },
+        "in5": {
+          "kind": "ITEM",
+          "id": "minecraft:bucket"
+        },
+        "in6": {
+          "kind": "ITEM_TAG",
+          "id": "c:ingots/steel"
+        },
+        "in7": {
+          "kind": "ITEM_TAG",
+          "id": "c:ingots/steel"
+        },
+        "in8": {
+          "kind": "ITEM_TAG",
+          "id": "c:ingots/steel"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "a0e25f6c-e4c2-5fd7-8d6c-bfa59142e176",
+      "type": "kjsgen:shaped",
+      "recipeId": "stellaris:misc/cable",
+      "group": "Machine inventory / stellaris",
+      "comment": "Existing registered recipe, unchanged baseline for machine review. Source: stellaris:misc/cable.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "stellaris:cable",
+          "count": 6
+        },
+        "in0": {
+          "kind": "ITEM_TAG",
+          "id": "minecraft:wool"
+        },
+        "in1": {
+          "kind": "ITEM_TAG",
+          "id": "minecraft:wool"
+        },
+        "in2": {
+          "kind": "ITEM_TAG",
+          "id": "minecraft:wool"
+        },
+        "in3": {
+          "kind": "ITEM_TAG",
+          "id": "c:nuggets/steel"
+        },
+        "in4": {
+          "kind": "ITEM_TAG",
+          "id": "c:ingots/steel"
+        },
+        "in5": {
+          "kind": "ITEM_TAG",
+          "id": "c:nuggets/steel"
+        },
+        "in6": {
+          "kind": "ITEM_TAG",
+          "id": "minecraft:wool"
+        },
+        "in7": {
+          "kind": "ITEM_TAG",
+          "id": "minecraft:wool"
+        },
+        "in8": {
+          "kind": "ITEM_TAG",
+          "id": "minecraft:wool"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "5944590b-5221-50c0-85ed-74658b84ba7d",
+      "type": "kjsgen:shaped",
+      "recipeId": "stellaris:misc/cable_t2",
+      "group": "Machine inventory / stellaris",
+      "comment": "Existing registered recipe, unchanged baseline for machine review. Source: stellaris:misc/cable_t2.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "stellaris:cable_t2",
+          "count": 6
+        },
+        "in0": {
+          "kind": "ITEM_TAG",
+          "id": "minecraft:wool"
+        },
+        "in1": {
+          "kind": "ITEM_TAG",
+          "id": "minecraft:wool"
+        },
+        "in2": {
+          "kind": "ITEM_TAG",
+          "id": "minecraft:wool"
+        },
+        "in3": {
+          "kind": "ITEM_TAG",
+          "id": "c:ingots/desh"
+        },
+        "in4": {
+          "kind": "ITEM_TAG",
+          "id": "c:ingots/desh"
+        },
+        "in5": {
+          "kind": "ITEM_TAG",
+          "id": "c:ingots/desh"
+        },
+        "in6": {
+          "kind": "ITEM_TAG",
+          "id": "minecraft:wool"
+        },
+        "in7": {
+          "kind": "ITEM_TAG",
+          "id": "minecraft:wool"
+        },
+        "in8": {
+          "kind": "ITEM_TAG",
+          "id": "minecraft:wool"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "ec42a7eb-ec6f-5291-8478-59e04c240537",
+      "type": "kjsgen:shaped",
+      "recipeId": "stellaris:misc/cable_t3",
+      "group": "Machine inventory / stellaris",
+      "comment": "Existing registered recipe, unchanged baseline for machine review. Source: stellaris:misc/cable_t3.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "stellaris:cable_t3",
+          "count": 6
+        },
+        "in0": {
+          "kind": "ITEM_TAG",
+          "id": "minecraft:wool"
+        },
+        "in1": {
+          "kind": "ITEM_TAG",
+          "id": "minecraft:wool"
+        },
+        "in2": {
+          "kind": "ITEM_TAG",
+          "id": "minecraft:wool"
+        },
+        "in3": {
+          "kind": "ITEM",
+          "id": "stellaris:solerium"
+        },
+        "in4": {
+          "kind": "ITEM",
+          "id": "stellaris:solerium"
+        },
+        "in5": {
+          "kind": "ITEM",
+          "id": "stellaris:solerium"
+        },
+        "in6": {
+          "kind": "ITEM_TAG",
+          "id": "minecraft:wool"
+        },
+        "in7": {
+          "kind": "ITEM_TAG",
+          "id": "minecraft:wool"
+        },
+        "in8": {
+          "kind": "ITEM_TAG",
+          "id": "minecraft:wool"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "64d30bbe-f79e-55d9-93f7-fcfb3aaac790",
+      "type": "kjsgen:shaped",
+      "recipeId": "stellaris:misc/pipe_t1",
+      "group": "Machine inventory / stellaris",
+      "comment": "Existing registered recipe, unchanged baseline for machine review. Source: stellaris:misc/pipe_t1.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "stellaris:pipe_t1",
+          "count": 6
+        },
+        "in0": {
+          "kind": "ITEM_TAG",
+          "id": "minecraft:wool"
+        },
+        "in1": {
+          "kind": "ITEM_TAG",
+          "id": "minecraft:wool"
+        },
+        "in2": {
+          "kind": "ITEM_TAG",
+          "id": "minecraft:wool"
+        },
+        "in3": {
+          "kind": "ITEM_TAG",
+          "id": "c:nuggets/heavy_metal"
+        },
+        "in4": {
+          "kind": "ITEM_TAG",
+          "id": "c:ingots/heavy_metal"
+        },
+        "in5": {
+          "kind": "ITEM_TAG",
+          "id": "c:nuggets/heavy_metal"
+        },
+        "in6": {
+          "kind": "ITEM_TAG",
+          "id": "minecraft:wool"
+        },
+        "in7": {
+          "kind": "ITEM_TAG",
+          "id": "minecraft:wool"
+        },
+        "in8": {
+          "kind": "ITEM_TAG",
+          "id": "minecraft:wool"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "903066eb-c7ae-595d-888e-863f7f06fd9a",
+      "type": "kjsgen:shaped",
+      "recipeId": "stellaris:misc/pipe_t2",
+      "group": "Machine inventory / stellaris",
+      "comment": "Existing registered recipe, unchanged baseline for machine review. Source: stellaris:misc/pipe_t2.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "stellaris:pipe_t2",
+          "count": 6
+        },
+        "in0": {
+          "kind": "ITEM_TAG",
+          "id": "minecraft:wool"
+        },
+        "in1": {
+          "kind": "ITEM_TAG",
+          "id": "minecraft:wool"
+        },
+        "in2": {
+          "kind": "ITEM_TAG",
+          "id": "minecraft:wool"
+        },
+        "in3": {
+          "kind": "ITEM",
+          "id": "stellaris:tharsite_ingot"
+        },
+        "in4": {
+          "kind": "ITEM",
+          "id": "stellaris:tharsite_ingot"
+        },
+        "in5": {
+          "kind": "ITEM",
+          "id": "stellaris:tharsite_ingot"
+        },
+        "in6": {
+          "kind": "ITEM_TAG",
+          "id": "minecraft:wool"
+        },
+        "in7": {
+          "kind": "ITEM_TAG",
+          "id": "minecraft:wool"
+        },
+        "in8": {
+          "kind": "ITEM_TAG",
+          "id": "minecraft:wool"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "393be867-cfc8-5f0a-8215-231e0673ae0a",
+      "type": "kjsgen:shaped",
+      "recipeId": "stellaris:misc/pipe_t3",
+      "group": "Machine inventory / stellaris",
+      "comment": "Existing registered recipe, unchanged baseline for machine review. Source: stellaris:misc/pipe_t3.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "stellaris:pipe_t3"
+        },
+        "in0": {
+          "kind": "ITEM_TAG",
+          "id": "c:ingots/steel"
+        },
+        "in1": {
+          "kind": "ITEM_TAG",
+          "id": "c:ingots/steel"
+        },
+        "in2": {
+          "kind": "ITEM_TAG",
+          "id": "c:ingots/steel"
+        },
+        "in3": {
+          "kind": "ITEM_TAG",
+          "id": "c:ingots/steel"
+        },
+        "in4": {
+          "kind": "ITEM",
+          "id": "stellaris:pipe_t2"
+        },
+        "in5": {
+          "kind": "ITEM_TAG",
+          "id": "c:ingots/steel"
+        },
+        "in6": {
+          "kind": "ITEM_TAG",
+          "id": "c:ingots/steel"
+        },
+        "in7": {
+          "kind": "ITEM_TAG",
+          "id": "c:ingots/steel"
+        },
+        "in8": {
+          "kind": "ITEM_TAG",
+          "id": "c:ingots/steel"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "70f26b31-c91f-58d3-9ab6-ebf14a5b45d6",
+      "type": "kjsgen:shaped",
+      "recipeId": "stellaris:misc/radioactive_generator",
+      "group": "Machine inventory / stellaris",
+      "comment": "Existing registered recipe, unchanged baseline for machine review. Source: stellaris:misc/radioactive_generator.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "stellaris:radioactive_generator"
+        },
+        "in0": {
+          "kind": "ITEM_TAG",
+          "id": "c:ingots/steel"
+        },
+        "in1": {
+          "kind": "ITEM",
+          "id": "minecraft:lapis_lazuli"
+        },
+        "in2": {
+          "kind": "ITEM_TAG",
+          "id": "c:ingots/steel"
+        },
+        "in3": {
+          "kind": "ITEM_TAG",
+          "id": "c:ingots/steel"
+        },
+        "in4": {
+          "kind": "ITEM_TAG",
+          "id": "c:ingots/uranium"
+        },
+        "in5": {
+          "kind": "ITEM_TAG",
+          "id": "c:ingots/steel"
+        },
+        "in6": {
+          "kind": "ITEM_TAG",
+          "id": "c:ingots/steel"
+        },
+        "in7": {
+          "kind": "ITEM_TAG",
+          "id": "c:ingots/steel"
+        },
+        "in8": {
+          "kind": "ITEM_TAG",
+          "id": "c:ingots/steel"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "274a11ca-0e1e-5965-a8df-dd833c037af8",
+      "type": "kjsgen:shaped",
+      "recipeId": "minecraft:crafter",
+      "group": "Machine inventory / minecraft",
+      "comment": "Existing registered recipe, unchanged baseline for machine review. Source: minecraft:crafter.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "minecraft:crafter"
+        },
+        "in0": {
+          "kind": "ITEM_TAG",
+          "id": "c:ingots/iron"
+        },
+        "in1": {
+          "kind": "ITEM_TAG",
+          "id": "c:ingots/iron"
+        },
+        "in2": {
+          "kind": "ITEM_TAG",
+          "id": "c:ingots/iron"
+        },
+        "in3": {
+          "kind": "ITEM_TAG",
+          "id": "c:ingots/iron"
+        },
+        "in4": {
+          "kind": "ITEM",
+          "id": "minecraft:crafting_table"
+        },
+        "in5": {
+          "kind": "ITEM_TAG",
+          "id": "c:ingots/iron"
+        },
+        "in6": {
+          "kind": "ITEM",
+          "id": "minecraft:redstone"
+        },
+        "in7": {
+          "kind": "ITEM",
+          "id": "minecraft:dropper"
+        },
+        "in8": {
+          "kind": "ITEM",
+          "id": "minecraft:redstone"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "b3a14c0e-59b3-5b4e-8b06-b0d408ec52b9",
+      "type": "kjsgen:shaped",
+      "recipeId": "minecraft:blast_furnace",
+      "group": "Machine inventory / minecraft",
+      "comment": "Existing registered recipe, unchanged baseline for machine review. Source: minecraft:blast_furnace.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "minecraft:blast_furnace"
+        },
+        "in0": {
+          "kind": "ITEM_TAG",
+          "id": "c:ingots/iron"
+        },
+        "in1": {
+          "kind": "ITEM_TAG",
+          "id": "c:ingots/iron"
+        },
+        "in2": {
+          "kind": "ITEM_TAG",
+          "id": "c:ingots/iron"
+        },
+        "in3": {
+          "kind": "ITEM_TAG",
+          "id": "c:ingots/iron"
+        },
+        "in4": {
+          "kind": "ITEM",
+          "id": "minecraft:furnace"
+        },
+        "in5": {
+          "kind": "ITEM_TAG",
+          "id": "c:ingots/iron"
+        },
+        "in6": {
+          "kind": "ITEM",
+          "id": "minecraft:smooth_stone"
+        },
+        "in7": {
+          "kind": "ITEM",
+          "id": "minecraft:smooth_stone"
+        },
+        "in8": {
+          "kind": "ITEM",
+          "id": "minecraft:smooth_stone"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "2bc4e99e-7623-56a8-a0c0-192ad2b55b3e",
+      "type": "kjsgen:create_mechanical_crafting",
+      "recipeId": "industrial_colonies:planetary/outpost/water_pump",
+      "comment": "[Planetary Industry] Raise a Desh pump tower from a fluid tank and valved steel intake to an electric pump head; a plastic-isolated coated board, paired capacitors, and elite controller meter the column from inside rather than decorating its perimeter\nReopened by explicit user request to include Deferred in the recipe pass. Existing specialized ingredients and progression are retained unless this card states a concrete balance change. Original deferred decision/source is backed up; no gameplay export.",
+      "replaceRecipe": false,
+      "slots": {
+        "cell_0_2": {
+          "kind": "ITEM",
+          "id": "tfmg:electric_pump"
+        },
+        "cell_1_0": {
+          "kind": "ITEM",
+          "id": "ad_astra:desh_plate"
+        },
+        "cell_1_1": {
+          "kind": "ITEM",
+          "id": "tfmg:capacitor_item"
+        },
+        "cell_1_2": {
+          "kind": "ITEM",
+          "id": "tfmg:coated_circuit_board"
+        },
+        "cell_1_3": {
+          "kind": "ITEM",
+          "id": "tfmg:capacitor_item"
+        },
+        "cell_1_4": {
+          "kind": "ITEM",
+          "id": "ad_astra:desh_plate"
+        },
+        "cell_2_0": {
+          "kind": "ITEM",
+          "id": "ad_astra:desh_plate"
+        },
+        "cell_2_1": {
+          "kind": "ITEM",
+          "id": "tfmg:plastic_sheet"
+        },
+        "cell_2_2": {
+          "kind": "ITEM",
+          "id": "mekanism:elite_control_circuit"
+        },
+        "cell_2_3": {
+          "kind": "ITEM",
+          "id": "tfmg:plastic_sheet"
+        },
+        "cell_2_4": {
+          "kind": "ITEM",
+          "id": "ad_astra:desh_plate"
+        },
+        "cell_3_0": {
+          "kind": "ITEM",
+          "id": "ad_astra:desh_plate"
+        },
+        "cell_3_1": {
+          "kind": "ITEM",
+          "id": "tfmg:steel_pipe"
+        },
+        "cell_3_2": {
+          "kind": "ITEM",
+          "id": "tfmg:steel_fluid_valve"
+        },
+        "cell_3_3": {
+          "kind": "ITEM",
+          "id": "tfmg:steel_pipe"
+        },
+        "cell_3_4": {
+          "kind": "ITEM",
+          "id": "ad_astra:desh_plate"
+        },
+        "cell_4_0": {
+          "kind": "ITEM",
+          "id": "ad_astra:desh_plate"
+        },
+        "cell_4_1": {
+          "kind": "ITEM",
+          "id": "ad_astra:desh_plate"
+        },
+        "cell_4_2": {
+          "kind": "ITEM",
+          "id": "tfmg:steel_fluid_tank"
+        },
+        "cell_4_3": {
+          "kind": "ITEM",
+          "id": "ad_astra:desh_plate"
+        },
+        "cell_4_4": {
+          "kind": "ITEM",
+          "id": "ad_astra:desh_plate"
+        },
+        "output": {
+          "kind": "ITEM",
+          "id": "ad_astra:water_pump"
+        }
+      },
+      "params": {
+        "gridW": "5",
+        "gridH": "5"
+      }
+    },
+    {
+      "uid": "5caef8db-50a3-5daa-aaa3-5457ec837d1a",
+      "type": "kjsgen:shaped",
+      "recipeId": "industrial_colonies:balanced_review/ae2/vibration_chamber",
+      "group": "06 Brass Electronics",
+      "comment": "Balanced custom draft for Vibration Chamber. Sheet age: Brass Electronics. Formed copper sheet represents the actual housing/conductor mounting rather than an unworked ingot. Preserve specialized function, existing output yield unless explicitly stated, and upstream completed recipes. This replaces only the listed native construction route when separately exported; no gameplay change now. Source: ae2:network/blocks/energy_vibration_chamber.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "ae2:vibration_chamber"
+        },
+        "in0": {
+          "kind": "ITEM",
+          "id": "create:copper_sheet"
+        },
+        "in1": {
+          "kind": "ITEM_TAG",
+          "id": "c:gems/fluix"
+        },
+        "in2": {
+          "kind": "ITEM",
+          "id": "create:copper_sheet"
+        },
+        "in3": {
+          "kind": "ITEM_TAG",
+          "id": "c:ingots/iron"
+        },
+        "in4": {
+          "kind": "ITEM",
+          "id": "minecraft:furnace"
+        },
+        "in5": {
+          "kind": "ITEM_TAG",
+          "id": "c:ingots/iron"
+        },
+        "in6": {
+          "kind": "ITEM_TAG",
+          "id": "c:ingots/iron"
+        },
+        "in7": {
+          "kind": "ITEM",
+          "id": "ae2:energy_acceptor"
+        },
+        "in8": {
+          "kind": "ITEM_TAG",
+          "id": "c:ingots/iron"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "af9b5e9f-97a3-5e60-ad6b-b497560b5b0b",
+      "type": "kjsgen:shaped",
+      "recipeId": "industrial_colonies:balanced_review/ae2/crystal_resonance_generator",
+      "group": "06 Brass Electronics",
+      "comment": "Balanced custom draft for Crystal Resonance Generator. Sheet age: Brass Electronics. Formed copper sheet represents the actual housing/conductor mounting rather than an unworked ingot. Preserve specialized function, existing output yield unless explicitly stated, and upstream completed recipes. This replaces only the listed native construction route when separately exported; no gameplay change now. Source: ae2:network/crystal_resonance_generator.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "ae2:crystal_resonance_generator"
+        },
+        "in0": {
+          "kind": "ITEM",
+          "id": "create:copper_sheet"
+        },
+        "in1": {
+          "kind": "ITEM",
+          "id": "ae2:fluix_block"
+        },
+        "in2": {
+          "kind": "ITEM",
+          "id": "create:copper_sheet"
+        },
+        "in3": {
+          "kind": "ITEM",
+          "id": "create:copper_sheet"
+        },
+        "in4": {
+          "kind": "ITEM",
+          "id": "ae2:charged_certus_quartz_crystal"
+        },
+        "in5": {
+          "kind": "ITEM",
+          "id": "create:copper_sheet"
+        },
+        "in6": {
+          "kind": "ITEM_TAG",
+          "id": "c:ingots/iron"
+        },
+        "in7": {
+          "kind": "ITEM_TAG",
+          "id": "c:ingots/iron"
+        },
+        "in8": {
+          "kind": "ITEM_TAG",
+          "id": "c:ingots/iron"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "6d828ee6-20ae-55af-bb47-8706ecf51640",
+      "type": "kjsgen:shaped",
+      "recipeId": "industrial_colonies:balanced_review/immersiveengineering/fluid_pipe",
+      "group": "03 Weathered Iron",
+      "comment": "Balanced custom draft for Fluid Pipe. Sheet age: Weathered Iron. Hollow sheet-metal tube walls, six pipes per six sheets. A passive conduit has no processor, mechanism or heavy casing. Preserve specialized function, existing output yield unless explicitly stated, and upstream completed recipes. This replaces only the listed native construction route when separately exported; no gameplay change now. Source: immersiveengineering:crafting/fluid_pipe.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:fluid_pipe",
+          "count": 6
+        },
+        "in0": {
+          "kind": "ITEM",
+          "id": "tfmg:heavy_plate"
+        },
+        "in2": {
+          "kind": "ITEM",
+          "id": "tfmg:heavy_plate"
+        },
+        "in3": {
+          "kind": "ITEM",
+          "id": "tfmg:heavy_plate"
+        },
+        "in5": {
+          "kind": "ITEM",
+          "id": "tfmg:heavy_plate"
+        },
+        "in6": {
+          "kind": "ITEM",
+          "id": "tfmg:heavy_plate"
+        },
+        "in8": {
+          "kind": "ITEM",
+          "id": "tfmg:heavy_plate"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "c52b2275-4b09-589e-b117-2eea9487a3ac",
+      "type": "kjsgen:shaped",
+      "recipeId": "industrial_colonies:balanced_review/immersiveengineering/connector_lv_relay",
+      "group": "03 Weathered Iron",
+      "comment": "Balanced custom draft for LV Wire Relay. Sheet age: Weathered Iron. Formed copper sheet represents the actual housing/conductor mounting rather than an unworked ingot. Preserve specialized function, existing output yield unless explicitly stated, and upstream completed recipes. This replaces only the listed native construction route when separately exported; no gameplay change now. Source: immersiveengineering:crafting/connector_lv_relay.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:connector_lv_relay",
+          "count": 8
+        },
+        "in1": {
+          "kind": "ITEM",
+          "id": "create:copper_sheet"
+        },
+        "in3": {
+          "kind": "ITEM_TAG",
+          "id": "immersiveengineering:connector_insulator"
+        },
+        "in4": {
+          "kind": "ITEM",
+          "id": "create:copper_sheet"
+        },
+        "in5": {
+          "kind": "ITEM_TAG",
+          "id": "immersiveengineering:connector_insulator"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "54ed8781-ace9-521e-a2fd-1e0cc5a6209f",
+      "type": "kjsgen:shaped",
+      "recipeId": "industrial_colonies:balanced_review/immersiveengineering/connector_lv",
+      "group": "03 Weathered Iron",
+      "comment": "Balanced custom draft for LV Wire Connector. Sheet age: Weathered Iron. Formed copper sheet represents the actual housing/conductor mounting rather than an unworked ingot. Preserve specialized function, existing output yield unless explicitly stated, and upstream completed recipes. This replaces only the listed native construction route when separately exported; no gameplay change now. Source: immersiveengineering:crafting/connector_lv.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:connector_lv",
+          "count": 4
+        },
+        "in1": {
+          "kind": "ITEM",
+          "id": "create:copper_sheet"
+        },
+        "in3": {
+          "kind": "ITEM_TAG",
+          "id": "immersiveengineering:connector_insulator"
+        },
+        "in4": {
+          "kind": "ITEM",
+          "id": "create:copper_sheet"
+        },
+        "in5": {
+          "kind": "ITEM_TAG",
+          "id": "immersiveengineering:connector_insulator"
+        },
+        "in6": {
+          "kind": "ITEM_TAG",
+          "id": "immersiveengineering:connector_insulator"
+        },
+        "in7": {
+          "kind": "ITEM",
+          "id": "create:copper_sheet"
+        },
+        "in8": {
+          "kind": "ITEM_TAG",
+          "id": "immersiveengineering:connector_insulator"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "20df7ffb-bd06-5cf8-80b0-511f2e955bfa",
+      "type": "kjsgen:shaped",
+      "recipeId": "industrial_colonies:authoring_review/stellaris/misc/water_pump",
+      "group": "00 To author / stellaris",
+      "comment": "SELECTED FOR RECIPE AUTHORING: the machine/item is approved to keep; this baseline is NOT a finished custom design. Moved from the recent Approved selection pass into Progression Review by explicit user request. Source recipe: stellaris:misc/water_pump. Preserve its function/output while designing a balanced progression recipe.\nExisting registered recipe, unchanged baseline for machine review. Source: stellaris:misc/water_pump.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "stellaris:water_pump"
+        },
+        "in0": {
+          "kind": "ITEM",
+          "id": "stellaris:cable"
+        },
+        "in3": {
+          "kind": "ITEM",
+          "id": "minecraft:bucket"
+        },
+        "in6": {
+          "kind": "ITEM_TAG",
+          "id": "c:ingots/heavy_metal"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "03d48eed-025f-547d-afab-fc2ec6d7ebb4",
+      "type": "kjsgen:create_sequenced_assembly",
+      "recipeId": "industrial_colonies:mekanism_utility/advanced_fluid_tank",
+      "group": "Disabled / Competing standalone fluid tanks",
+      "comment": "[High-Energy Grid] Reinforce the basic vessel with TFMG heavy shellwork, rubber seals, a steel service valve, and an infused pressure band.\nDisabled by user: competing standalone fluid storage. Main retained storage is Create Fluid Tank and Create Connected Fluid Vessel. Recipe-only review decision; dependencies must be reconciled before gameplay suppression.",
+      "replaceRecipe": false,
+      "slots": {
+        "input": {
+          "kind": "ITEM",
+          "id": "mekanism:basic_fluid_tank"
+        },
+        "transitional": {
+          "kind": "ITEM",
+          "id": "mekanism:basic_fluid_tank"
+        },
+        "output0": {
+          "kind": "ITEM",
+          "id": "mekanism:advanced_fluid_tank"
+        },
+        "seqItem0": {
+          "kind": "ITEM",
+          "id": "tfmg:heavy_plate",
+          "count": 2
+        },
+        "__machine_step_0_deploying": {
+          "kind": "ITEM",
+          "id": "createcasing:industrial_iron_deployer"
+        },
+        "seqItem1": {
+          "kind": "ITEM",
+          "id": "tfmg:rubber_sheet",
+          "count": 2
+        },
+        "__machine_step_1_deploying": {
+          "kind": "ITEM",
+          "id": "createcasing:industrial_iron_deployer"
+        },
+        "seqItem2": {
+          "kind": "ITEM",
+          "id": "tfmg:steel_fluid_valve"
+        },
+        "__machine_step_2_deploying": {
+          "kind": "ITEM",
+          "id": "createcasing:industrial_iron_deployer"
+        },
+        "seqItem3": {
+          "kind": "ITEM",
+          "id": "tfmg:steel_mechanism"
+        },
+        "__machine_step_3_deploying": {
+          "kind": "ITEM",
+          "id": "createcasing:industrial_iron_deployer"
+        },
+        "seqItem4": {
+          "kind": "ITEM",
+          "id": "mekanism:alloy_infused"
+        },
+        "__machine_step_4_deploying": {
+          "kind": "ITEM",
+          "id": "createcasing:industrial_iron_deployer"
+        },
+        "__machine_step_5_pressing": {
+          "kind": "ITEM",
+          "id": "createcasing:industrial_iron_press"
+        }
+      },
+      "params": {
+        "loops": "1",
+        "__seqLen": "6",
+        "seq0": "deploying",
+        "seq1": "deploying",
+        "seq2": "deploying",
+        "seq3": "deploying",
+        "seq4": "deploying",
+        "seq5": "pressing"
+      }
+    },
+    {
+      "uid": "776863e9-0ee4-55d6-bd2e-8c04bd295690",
+      "type": "kjsgen:create_sequenced_assembly",
+      "recipeId": "industrial_colonies:mekanism_utility/elite_fluid_tank",
+      "group": "Disabled / Competing standalone fluid tanks",
+      "comment": "[High-Energy Grid] Refit the advanced vessel with an elite liquid manifold, HDPE liner, reinforced pressure band, and replaceable heavy shell.\nDisabled by user: competing standalone fluid storage. Main retained storage is Create Fluid Tank and Create Connected Fluid Vessel. Recipe-only review decision; dependencies must be reconciled before gameplay suppression.",
+      "replaceRecipe": false,
+      "slots": {
+        "input": {
+          "kind": "ITEM",
+          "id": "mekanism:advanced_fluid_tank"
+        },
+        "transitional": {
+          "kind": "ITEM",
+          "id": "mekanism:advanced_fluid_tank"
+        },
+        "output0": {
+          "kind": "ITEM",
+          "id": "mekanism:elite_fluid_tank"
+        },
+        "seqItem0": {
+          "kind": "ITEM",
+          "id": "mekanism:elite_mechanical_pipe"
+        },
+        "__machine_step_0_deploying": {
+          "kind": "ITEM",
+          "id": "createcasing:weathered_iron_deployer"
+        },
+        "seqItem1": {
+          "kind": "ITEM",
+          "id": "mekanism:hdpe_sheet",
+          "count": 2
+        },
+        "__machine_step_1_deploying": {
+          "kind": "ITEM",
+          "id": "createcasing:weathered_iron_deployer"
+        },
+        "seqItem2": {
+          "kind": "ITEM",
+          "id": "tfmg:heavy_plate",
+          "count": 2
+        },
+        "__machine_step_2_deploying": {
+          "kind": "ITEM",
+          "id": "createcasing:weathered_iron_deployer"
+        },
+        "seqItem3": {
+          "kind": "ITEM",
+          "id": "tfmg:rubber_sheet"
+        },
+        "__machine_step_3_deploying": {
+          "kind": "ITEM",
+          "id": "createcasing:weathered_iron_deployer"
+        },
+        "seqItem4": {
+          "kind": "ITEM",
+          "id": "mekanism:alloy_reinforced"
+        },
+        "__machine_step_4_deploying": {
+          "kind": "ITEM",
+          "id": "createcasing:weathered_iron_deployer"
+        },
+        "__machine_step_5_pressing": {
+          "kind": "ITEM",
+          "id": "createcasing:weathered_iron_press"
+        }
+      },
+      "params": {
+        "loops": "1",
+        "__seqLen": "6",
+        "seq0": "deploying",
+        "seq1": "deploying",
+        "seq2": "deploying",
+        "seq3": "deploying",
+        "seq4": "deploying",
+        "seq5": "pressing"
+      }
+    },
+    {
+      "uid": "d5c59e2c-6b46-55ed-8159-717ef1d84e76",
+      "type": "kjsgen:create_sequenced_assembly",
+      "recipeId": "industrial_colonies:mekanism_utility/ultimate_fluid_tank",
+      "group": "Disabled / Competing standalone fluid tanks",
+      "comment": "[High-Energy Grid] Qualify the Elite vessel for ultimate throughput with its proven Elite liquid manifold, redundant HDPE lining, atomic locks, and a TFMG industrial header\nDisabled by user: competing standalone fluid storage. Main retained storage is Create Fluid Tank and Create Connected Fluid Vessel. Recipe-only review decision; dependencies must be reconciled before gameplay suppression.",
+      "replaceRecipe": false,
+      "slots": {
+        "input": {
+          "kind": "ITEM",
+          "id": "mekanism:elite_fluid_tank"
+        },
+        "transitional": {
+          "kind": "ITEM",
+          "id": "mekanism:elite_fluid_tank"
+        },
+        "output0": {
+          "kind": "ITEM",
+          "id": "mekanism:ultimate_fluid_tank"
+        },
+        "seqItem0": {
+          "kind": "ITEM",
+          "id": "mekanism:elite_mechanical_pipe"
+        },
+        "__machine_step_0_deploying": {
+          "kind": "ITEM",
+          "id": "createcasing:weathered_iron_deployer"
+        },
+        "seqItem1": {
+          "kind": "ITEM",
+          "id": "mekanism:hdpe_sheet",
+          "count": 2
+        },
+        "__machine_step_1_deploying": {
+          "kind": "ITEM",
+          "id": "createcasing:weathered_iron_deployer"
+        },
+        "seqItem2": {
+          "kind": "ITEM",
+          "id": "tfmg:heavy_plate",
+          "count": 2
+        },
+        "__machine_step_2_deploying": {
+          "kind": "ITEM",
+          "id": "createcasing:weathered_iron_deployer"
+        },
+        "seqItem3": {
+          "kind": "ITEM",
+          "id": "tfmg:industrial_pipe"
+        },
+        "__machine_step_3_deploying": {
+          "kind": "ITEM",
+          "id": "createcasing:weathered_iron_deployer"
+        },
+        "seqItem4": {
+          "kind": "ITEM",
+          "id": "mekanism:alloy_atomic"
+        },
+        "__machine_step_4_deploying": {
+          "kind": "ITEM",
+          "id": "createcasing:weathered_iron_deployer"
+        },
+        "seqItem5": {
+          "kind": "ITEM",
+          "id": "tfmg:steel_fluid_valve"
+        },
+        "__machine_step_5_deploying": {
+          "kind": "ITEM",
+          "id": "createcasing:weathered_iron_deployer"
+        },
+        "seqItem6": {
+          "kind": "ITEM",
+          "id": "tfmg:plastic_pipe"
+        },
+        "__machine_step_6_deploying": {
+          "kind": "ITEM",
+          "id": "createcasing:weathered_iron_deployer"
+        },
+        "seqItem7": {
+          "kind": "ITEM",
+          "id": "tfmg:steel_frame"
+        },
+        "__machine_step_7_deploying": {
+          "kind": "ITEM",
+          "id": "createcasing:weathered_iron_deployer"
+        },
+        "__machine_step_8_pressing": {
+          "kind": "ITEM",
+          "id": "createcasing:weathered_iron_press"
+        }
+      },
+      "params": {
+        "loops": "1",
+        "__seqLen": "9",
+        "seq0": "deploying",
+        "seq1": "deploying",
+        "seq2": "deploying",
+        "seq3": "deploying",
+        "seq4": "deploying",
+        "seq5": "deploying",
+        "seq6": "deploying",
+        "seq7": "deploying",
+        "seq8": "pressing"
+      }
+    },
+    {
+      "uid": "7b7ca395-2fbd-57ce-b0dd-9ac8df0656c0",
+      "type": "kjsgen:shaped",
+      "recipeId": "create_dragons_plus:crafting/fragile_fluid_tank",
+      "group": "Disabled / Competing standalone fluid tanks",
+      "comment": "Existing registered recipe, unchanged baseline for machine review. Source: create_dragons_plus:crafting/fragile_fluid_tank.\nReopened by explicit user request to include Deferred in the recipe pass. Existing specialized ingredients and progression are retained unless this card states a concrete balance change. Original deferred decision/source is backed up; no gameplay export.\nDisabled by user: competing standalone fluid storage. Main retained storage is Create Fluid Tank and Create Connected Fluid Vessel. Recipe-only review decision; dependencies must be reconciled before gameplay suppression.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "create_dragons_plus:fragile_fluid_tank"
+        },
+        "in1": {
+          "kind": "ITEM",
+          "id": "create:copper_sheet"
+        },
+        "in3": {
+          "kind": "ITEM",
+          "id": "minecraft:gold_ingot"
+        },
+        "in4": {
+          "kind": "ITEM",
+          "id": "minecraft:barrel"
+        },
+        "in5": {
+          "kind": "ITEM",
+          "id": "minecraft:gold_ingot"
+        },
+        "in7": {
+          "kind": "ITEM",
+          "id": "create:copper_sheet"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "34d298df-f6d2-5c37-b90f-6392b62dd878",
+      "type": "kjsgen:shaped",
+      "recipeId": "create_dragons_plus:crafting/levitite_fragile_fluid_tank",
+      "group": "Disabled / Competing standalone fluid tanks",
+      "comment": "Existing registered recipe, unchanged baseline for machine review. Source: create_dragons_plus:crafting/levitite_fragile_fluid_tank.\nReopened by explicit user request to include Deferred in the recipe pass. Existing specialized ingredients and progression are retained unless this card states a concrete balance change. Original deferred decision/source is backed up; no gameplay export.\nDisabled by user: competing standalone fluid storage. Main retained storage is Create Fluid Tank and Create Connected Fluid Vessel. Recipe-only review decision; dependencies must be reconciled before gameplay suppression.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "create_dragons_plus:levitite_fragile_fluid_tank",
+          "count": 8
+        },
+        "in0": {
+          "kind": "ITEM",
+          "id": "create_dragons_plus:fragile_fluid_tank"
+        },
+        "in1": {
+          "kind": "ITEM",
+          "id": "create_dragons_plus:fragile_fluid_tank"
+        },
+        "in2": {
+          "kind": "ITEM",
+          "id": "create_dragons_plus:fragile_fluid_tank"
+        },
+        "in3": {
+          "kind": "ITEM",
+          "id": "create_dragons_plus:fragile_fluid_tank"
+        },
+        "in4": {
+          "kind": "ITEM",
+          "id": "aeronautics:levitite_blend_bucket"
+        },
+        "in5": {
+          "kind": "ITEM",
+          "id": "create_dragons_plus:fragile_fluid_tank"
+        },
+        "in6": {
+          "kind": "ITEM",
+          "id": "create_dragons_plus:fragile_fluid_tank"
+        },
+        "in7": {
+          "kind": "ITEM",
+          "id": "create_dragons_plus:fragile_fluid_tank"
+        },
+        "in8": {
+          "kind": "ITEM",
+          "id": "create_dragons_plus:fragile_fluid_tank"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "9d6fe056-5233-5097-92b8-0f525547f4d2",
+      "type": "kjsgen:shaped",
+      "recipeId": "industrial_colonies:authoring_review/tfmg/crafting/materials/aluminum_fluid_tank",
+      "group": "Disabled / Competing standalone fluid tanks",
+      "comment": "SELECTED FOR RECIPE AUTHORING: the machine/item is approved to keep; this baseline is NOT a finished custom design. Moved from the recent Approved selection pass into Progression Review by explicit user request. Source recipe: tfmg:crafting/materials/aluminum_fluid_tank. Preserve its function/output while designing a balanced progression recipe.\nExisting registered recipe, unchanged baseline for machine review. Source: tfmg:crafting/materials/aluminum_fluid_tank.\nDisabled by user: competing standalone fluid storage. Main retained storage is Create Fluid Tank and Create Connected Fluid Vessel. Recipe-only review decision; dependencies must be reconciled before gameplay suppression.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "tfmg:aluminum_fluid_tank"
+        },
+        "in1": {
+          "kind": "ITEM_TAG",
+          "id": "c:plates/aluminum"
+        },
+        "in4": {
+          "kind": "ITEM",
+          "id": "minecraft:barrel"
+        },
+        "in7": {
+          "kind": "ITEM_TAG",
+          "id": "c:plates/aluminum"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "3da8cd15-77f3-5589-a4d3-fddc0349c4e4",
+      "type": "kjsgen:shaped",
+      "recipeId": "industrial_colonies:mekanism_components/dynamic_valve_batch",
+      "group": "Disabled / Competing standalone fluid tanks",
+      "comment": "Deferred re-review: Fluid port on a Dynamic Tank multiblock. Installed text: A valve that can be placed on a Dynamic Tank multiblock, allowing for fluids and chemicals to be inserted and extracted via external piping.\n\nReview revision: Tank-shell service port with paired valves, seals and simple fluid monitoring; not an extra high-capacity tank in item form. Existing pack items; proposed editor recipe, no gameplay export.\nExisting item; no gameplay export or new mechanic installed. Exact costs/bootstrap remain proposals.\nDisabled by user: competing standalone fluid storage. Main retained storage is Create Fluid Tank and Create Connected Fluid Vessel. Recipe-only review decision; dependencies must be reconciled before gameplay suppression.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "mekanism:dynamic_valve"
+        },
+        "in1": {
+          "kind": "ITEM",
+          "id": "tfmg:steel_pipe"
+        },
+        "in3": {
+          "kind": "ITEM",
+          "id": "tfmg:steel_fluid_valve"
+        },
+        "in4": {
+          "kind": "ITEM",
+          "id": "mekanism:dynamic_tank"
+        },
+        "in5": {
+          "kind": "ITEM",
+          "id": "tfmg:steel_fluid_valve"
+        },
+        "in6": {
+          "kind": "ITEM",
+          "id": "tfmg:rubber_sheet"
+        },
+        "in7": {
+          "kind": "ITEM",
+          "id": "tfmg:circuit_board"
+        },
+        "in8": {
+          "kind": "ITEM",
+          "id": "tfmg:rubber_sheet"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "e8975d7b-7b37-5bec-82b5-2c8cfc104470",
+      "type": "kjsgen:shaped",
+      "recipeId": "industrial_colonies:fluid_infrastructure/steel_fluid_tank",
+      "group": "Disabled / Competing standalone fluid tanks",
+      "comment": "Review revision: Compact3x3 hollow steel vessel with two gauge windows and a valved insulated base; removes the rejected oversized5x5 footprint. Existing pack items; proposed editor recipe, no gameplay export.\nDisabled by user: competing standalone fluid storage. Main retained storage is Create Fluid Tank and Create Connected Fluid Vessel. Recipe-only review decision; dependencies must be reconciled before gameplay suppression.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "tfmg:steel_fluid_tank"
+        },
+        "in6": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:plate_steel"
+        },
+        "in8": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:plate_steel"
+        },
+        "in5": {
+          "kind": "ITEM",
+          "id": "minecraft:glass"
+        },
+        "in4": {
+          "kind": "ITEM",
+          "id": "tfmg:steel_fluid_valve"
+        },
+        "in3": {
+          "kind": "ITEM",
+          "id": "minecraft:glass"
+        },
+        "in7": {
+          "kind": "ITEM",
+          "id": "tfmg:rubber_sheet"
+        },
+        "in0": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:plate_steel"
+        },
+        "in1": {
+          "kind": "ITEM",
+          "id": "tfmg:rubber_sheet"
+        },
+        "in2": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:plate_steel"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "57cd802d-b495-5205-87f0-d91121b7589e",
+      "type": "kjsgen:shaped",
+      "recipeId": "industrial_colonies:ownership/cast_iron_fluid_tank",
+      "group": "Disabled / Competing standalone fluid tanks",
+      "comment": "Review revision: Small cast-iron tank assembled at the normal crafting table from a barrel core and four protective sheets. No mechanical-crafter-only gate. Existing pack items; proposed editor recipe, no gameplay export.\nDisabled by user: competing standalone fluid storage. Main retained storage is Create Fluid Tank and Create Connected Fluid Vessel. Recipe-only review decision; dependencies must be reconciled before gameplay suppression.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "tfmg:cast_iron_fluid_tank"
+        },
+        "in1": {
+          "kind": "ITEM",
+          "id": "tfmg:cast_iron_sheet"
+        },
+        "in3": {
+          "kind": "ITEM",
+          "id": "tfmg:cast_iron_sheet"
+        },
+        "in4": {
+          "kind": "ITEM",
+          "id": "minecraft:barrel"
+        },
+        "in5": {
+          "kind": "ITEM",
+          "id": "tfmg:cast_iron_sheet"
+        },
+        "in7": {
+          "kind": "ITEM",
+          "id": "tfmg:cast_iron_sheet"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "f07792a6-a006-56ce-a70f-c90a47ab4872",
+      "type": "kjsgen:create_sequenced_assembly",
+      "recipeId": "industrial_colonies:mekanism_components/basic_fluid_tank",
+      "group": "Disabled / Competing standalone fluid tanks",
+      "comment": "Post-review revision: Replace the two full osmium ingots with two ordinary iron reinforcement sheets. Keep the steel vessel, seals, liner/manifold or valve, basic controller, machine selections, output and stage order. Osmium no longer forms a bulk armor tax on a basic utility tank. Existing items only; review proposal, no gameplay export.\n\nOctober16 whole-pack research proposal: Starter chemical hardware uses reachable Weathered Iron structure and Copper/Brass electronic fitting, avoiding the Industrial Iron Press -> HDPE -> first chemistry tooling loop. Every material, quantity, output and stage remains unchanged; later chemical hardware stays advanced.\nDisabled by user: competing standalone fluid storage. Main retained storage is Create Fluid Tank and Create Connected Fluid Vessel. Recipe-only review decision; dependencies must be reconciled before gameplay suppression.",
+      "replaceRecipe": false,
+      "slots": {
+        "input": {
+          "kind": "ITEM",
+          "id": "tfmg:steel_fluid_tank"
+        },
+        "transitional": {
+          "kind": "ITEM",
+          "id": "tfmg:steel_fluid_tank"
+        },
+        "output0": {
+          "kind": "ITEM",
+          "id": "mekanism:basic_fluid_tank"
+        },
+        "seqItem0": {
+          "kind": "ITEM",
+          "id": "create:iron_sheet"
+        },
+        "__machine_step_0_deploying": {
+          "kind": "ITEM",
+          "id": "createcasing:weathered_iron_deployer"
+        },
+        "seqItem1": {
+          "kind": "ITEM",
+          "id": "create:iron_sheet"
+        },
+        "__machine_step_1_deploying": {
+          "kind": "ITEM",
+          "id": "createcasing:weathered_iron_deployer"
+        },
+        "seqItem2": {
+          "kind": "ITEM",
+          "id": "tfmg:rubber_sheet"
+        },
+        "__machine_step_2_deploying": {
+          "kind": "ITEM",
+          "id": "createcasing:weathered_iron_deployer"
+        },
+        "seqItem3": {
+          "kind": "ITEM",
+          "id": "tfmg:rubber_sheet"
+        },
+        "__machine_step_3_deploying": {
+          "kind": "ITEM",
+          "id": "createcasing:weathered_iron_deployer"
+        },
+        "seqItem4": {
+          "kind": "ITEM",
+          "id": "tfmg:plastic_fluid_valve"
+        },
+        "__machine_step_4_deploying": {
+          "kind": "ITEM",
+          "id": "createcasing:weathered_iron_deployer"
+        },
+        "seqItem5": {
+          "kind": "ITEM",
+          "id": "mekanism:basic_control_circuit"
+        },
+        "__machine_step_5_deploying": {
+          "kind": "ITEM",
+          "id": "createcasing:copper_deployer"
+        },
+        "__machine_step_6_pressing": {
+          "kind": "ITEM",
+          "id": "createcasing:weathered_iron_press"
+        }
+      },
+      "params": {
+        "loops": "1",
+        "__seqLen": "7",
+        "seq0": "deploying",
+        "seq1": "deploying",
+        "seq2": "deploying",
+        "seq3": "deploying",
+        "seq4": "deploying",
+        "seq5": "deploying",
+        "seq6": "pressing"
+      }
+    },
+    {
+      "uid": "92d66584-8057-5d07-a000-030f0018dc83",
+      "type": "kjsgen:create_compacting",
+      "recipeId": "industrial_colonies:mekanism_components/dynamic_tank_batch",
+      "group": "Disabled / Competing standalone fluid tanks",
+      "comment": "[High-Energy Grid] Pressure-form four modular reservoir sections from one real tank, heavy plate, steel manifold pipe, osmium ribs, and a rubber gasket.\n\nOctober16 whole-pack research proposal: Starter chemical hardware uses reachable Weathered Iron structure and Copper/Brass electronic fitting, avoiding the Industrial Iron Press -> HDPE -> first chemistry tooling loop. Every material, quantity, output and stage remains unchanged; later chemical hardware stays advanced.\nDisabled by user: competing standalone fluid storage. Main retained storage is Create Fluid Tank and Create Connected Fluid Vessel. Recipe-only review decision; dependencies must be reconciled before gameplay suppression.",
+      "replaceRecipe": false,
+      "slots": {
+        "__machine_process_compacting": {
+          "kind": "ITEM",
+          "id": "createcasing:weathered_iron_press"
+        },
+        "in0": {
+          "kind": "ITEM",
+          "id": "tfmg:steel_fluid_tank"
+        },
+        "in1": {
+          "kind": "ITEM",
+          "id": "tfmg:heavy_plate",
+          "count": 4
+        },
+        "in2": {
+          "kind": "ITEM",
+          "id": "tfmg:steel_pipe",
+          "count": 2
+        },
+        "in3": {
+          "kind": "ITEM",
+          "id": "mekanism:ingot_osmium",
+          "count": 2
+        },
+        "in4": {
+          "kind": "ITEM",
+          "id": "tfmg:rubber_sheet"
+        },
+        "output": {
+          "kind": "ITEM",
+          "id": "mekanism:dynamic_tank",
+          "count": 4
+        }
+      },
+      "params": {
+        "heat": "none"
+      }
+    },
+    {
+      "uid": "e5dd2440-cae0-5f3e-98cd-a1f19176a7b8",
+      "type": "kjsgen:shaped",
+      "recipeId": "tfmg:crafting/materials/aluminum_fluid_tank",
+      "group": "Disabled / Competing standalone fluid tanks",
+      "comment": "Existing registered recipe, unchanged baseline for machine review. Source: tfmg:crafting/materials/aluminum_fluid_tank.\nDisabled by user: competing standalone fluid storage. Main retained storage is Create Fluid Tank and Create Connected Fluid Vessel. Recipe-only review decision; dependencies must be reconciled before gameplay suppression.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "tfmg:aluminum_fluid_tank"
+        },
+        "in1": {
+          "kind": "ITEM_TAG",
+          "id": "c:plates/aluminum"
+        },
+        "in4": {
+          "kind": "ITEM",
+          "id": "minecraft:barrel"
+        },
+        "in7": {
+          "kind": "ITEM_TAG",
+          "id": "c:plates/aluminum"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "9db076a9-0df7-5d5b-92b9-3285958327ea",
+      "type": "kjsgen:shaped",
+      "recipeId": "ae2:misc/tank_sky_stone",
+      "group": "Disabled / Competing standalone fluid tanks",
+      "comment": "Existing registered recipe, unchanged baseline for machine review. Source: ae2:misc/tank_sky_stone.\nDisabled by user: competing standalone fluid storage. Main retained storage is Create Fluid Tank and Create Connected Fluid Vessel. Recipe-only review decision; dependencies must be reconciled before gameplay suppression.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "ae2:sky_stone_tank"
+        },
+        "in0": {
+          "kind": "ITEM",
+          "id": "ae2:sky_stone_block"
+        },
+        "in1": {
+          "kind": "ITEM",
+          "id": "ae2:sky_stone_block"
+        },
+        "in2": {
+          "kind": "ITEM",
+          "id": "ae2:sky_stone_block"
+        },
+        "in3": {
+          "kind": "ITEM",
+          "id": "ae2:sky_stone_block"
+        },
+        "in4": {
+          "kind": "ITEM",
+          "id": "ae2:quartz_glass"
+        },
+        "in5": {
+          "kind": "ITEM",
+          "id": "ae2:sky_stone_block"
+        },
+        "in6": {
+          "kind": "ITEM",
+          "id": "ae2:sky_stone_block"
+        },
+        "in7": {
+          "kind": "ITEM",
+          "id": "ae2:sky_stone_block"
+        },
+        "in8": {
+          "kind": "ITEM",
+          "id": "ae2:sky_stone_block"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "cd32cded-1bdf-5efc-895e-274058823563",
+      "type": "kjsgen:shaped",
+      "recipeId": "stellaris:misc/t1_tank",
+      "group": "Disabled / Competing standalone fluid tanks",
+      "comment": "Existing registered recipe, unchanged baseline for machine review. Source: stellaris:misc/t1_tank.\nDisabled by user: competing standalone fluid storage. Main retained storage is Create Fluid Tank and Create Connected Fluid Vessel. Recipe-only review decision; dependencies must be reconciled before gameplay suppression.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "stellaris:t1_tank"
+        },
+        "in0": {
+          "kind": "ITEM",
+          "id": "stellaris:tharsite_ingot"
+        },
+        "in1": {
+          "kind": "ITEM_TAG",
+          "id": "c:ingots/steel"
+        },
+        "in2": {
+          "kind": "ITEM",
+          "id": "stellaris:tharsite_ingot"
+        },
+        "in3": {
+          "kind": "ITEM_TAG",
+          "id": "c:ingots/steel"
+        },
+        "in4": {
+          "kind": "ITEM",
+          "id": "stellaris:fluid_cell"
+        },
+        "in5": {
+          "kind": "ITEM_TAG",
+          "id": "c:ingots/steel"
+        },
+        "in6": {
+          "kind": "ITEM",
+          "id": "stellaris:tharsite_ingot"
+        },
+        "in7": {
+          "kind": "ITEM_TAG",
+          "id": "c:ingots/steel"
+        },
+        "in8": {
+          "kind": "ITEM",
+          "id": "stellaris:tharsite_ingot"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "5f087294-6dbc-5317-a730-ab1e9bee2eb9",
+      "type": "kjsgen:shaped",
+      "recipeId": "stellaris:misc/t2_tank",
+      "group": "Disabled / Competing standalone fluid tanks",
+      "comment": "Existing registered recipe, unchanged baseline for machine review. Source: stellaris:misc/t2_tank.\nDisabled by user: competing standalone fluid storage. Main retained storage is Create Fluid Tank and Create Connected Fluid Vessel. Recipe-only review decision; dependencies must be reconciled before gameplay suppression.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "stellaris:t2_tank"
+        },
+        "in0": {
+          "kind": "ITEM",
+          "id": "stellaris:tharsite_ingot"
+        },
+        "in1": {
+          "kind": "ITEM_TAG",
+          "id": "c:ingots/steel"
+        },
+        "in2": {
+          "kind": "ITEM",
+          "id": "stellaris:tharsite_ingot"
+        },
+        "in3": {
+          "kind": "ITEM_TAG",
+          "id": "c:ingots/steel"
+        },
+        "in4": {
+          "kind": "ITEM",
+          "id": "stellaris:t1_tank"
+        },
+        "in5": {
+          "kind": "ITEM_TAG",
+          "id": "c:ingots/steel"
+        },
+        "in6": {
+          "kind": "ITEM",
+          "id": "stellaris:tharsite_ingot"
+        },
+        "in7": {
+          "kind": "ITEM_TAG",
+          "id": "c:ingots/steel"
+        },
+        "in8": {
+          "kind": "ITEM",
+          "id": "stellaris:tharsite_ingot"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "0e2a1a0d-602c-5053-8858-98578b61a98b",
+      "type": "kjsgen:shaped",
+      "recipeId": "stellaris:misc/t3_tank",
+      "group": "Disabled / Competing standalone fluid tanks",
+      "comment": "Existing registered recipe, unchanged baseline for machine review. Source: stellaris:misc/t3_tank.\nDisabled by user: competing standalone fluid storage. Main retained storage is Create Fluid Tank and Create Connected Fluid Vessel. Recipe-only review decision; dependencies must be reconciled before gameplay suppression.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "stellaris:t3_tank"
+        },
+        "in0": {
+          "kind": "ITEM",
+          "id": "stellaris:tharsite_ingot"
+        },
+        "in1": {
+          "kind": "ITEM_TAG",
+          "id": "c:ingots/steel"
+        },
+        "in2": {
+          "kind": "ITEM",
+          "id": "stellaris:tharsite_ingot"
+        },
+        "in3": {
+          "kind": "ITEM_TAG",
+          "id": "c:ingots/steel"
+        },
+        "in4": {
+          "kind": "ITEM",
+          "id": "stellaris:t2_tank"
+        },
+        "in5": {
+          "kind": "ITEM_TAG",
+          "id": "c:ingots/steel"
+        },
+        "in6": {
+          "kind": "ITEM",
+          "id": "stellaris:tharsite_ingot"
+        },
+        "in7": {
+          "kind": "ITEM_TAG",
+          "id": "c:ingots/steel"
+        },
+        "in8": {
+          "kind": "ITEM",
+          "id": "stellaris:tharsite_ingot"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "7e6f24fc-43cd-54ac-8627-757af81c1fcb",
+      "type": "kjsgen:shaped",
+      "recipeId": "stellaris:misc/t4_tank",
+      "group": "Disabled / Competing standalone fluid tanks",
+      "comment": "Existing registered recipe, unchanged baseline for machine review. Source: stellaris:misc/t4_tank.\nDisabled by user: competing standalone fluid storage. Main retained storage is Create Fluid Tank and Create Connected Fluid Vessel. Recipe-only review decision; dependencies must be reconciled before gameplay suppression.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "stellaris:t4_tank"
+        },
+        "in0": {
+          "kind": "ITEM",
+          "id": "stellaris:tharsite_ingot"
+        },
+        "in1": {
+          "kind": "ITEM_TAG",
+          "id": "c:ingots/steel"
+        },
+        "in2": {
+          "kind": "ITEM",
+          "id": "stellaris:tharsite_ingot"
+        },
+        "in3": {
+          "kind": "ITEM_TAG",
+          "id": "c:ingots/steel"
+        },
+        "in4": {
+          "kind": "ITEM",
+          "id": "stellaris:t3_tank"
+        },
+        "in5": {
+          "kind": "ITEM_TAG",
+          "id": "c:ingots/steel"
+        },
+        "in6": {
+          "kind": "ITEM",
+          "id": "stellaris:tharsite_ingot"
+        },
+        "in7": {
+          "kind": "ITEM_TAG",
+          "id": "c:ingots/steel"
+        },
+        "in8": {
+          "kind": "ITEM",
+          "id": "stellaris:tharsite_ingot"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "a43538f3-447f-53c9-be12-60cb7cc66140",
+      "type": "kjsgen:shaped",
+      "recipeId": "createcasing:crafting/fluid_tank/andesite",
+      "group": "Disabled / Competing standalone fluid tanks",
+      "comment": "Existing registered recipe, unchanged baseline for machine review. Source: createcasing:crafting/fluid_tank/andesite.\nDisabled by user: competing standalone fluid storage. Main retained storage is Create Fluid Tank and Create Connected Fluid Vessel. Recipe-only review decision; dependencies must be reconciled before gameplay suppression.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "createcasing:andesite_fluid_tank"
+        },
+        "in0": {
+          "kind": "ITEM_TAG",
+          "id": "c:plates/andesite_alloy"
+        },
+        "in3": {
+          "kind": "ITEM_TAG",
+          "id": "c:barrels/wooden"
+        },
+        "in6": {
+          "kind": "ITEM_TAG",
+          "id": "c:plates/andesite_alloy"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "e8a2d7f6-4696-5d45-8097-75e2f23e372f",
+      "type": "kjsgen:shaped",
+      "recipeId": "createcasing:crafting/fluid_tank/brass",
+      "group": "Disabled / Competing standalone fluid tanks",
+      "comment": "Existing registered recipe, unchanged baseline for machine review. Source: createcasing:crafting/fluid_tank/brass.\nDisabled by user: competing standalone fluid storage. Main retained storage is Create Fluid Tank and Create Connected Fluid Vessel. Recipe-only review decision; dependencies must be reconciled before gameplay suppression.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "createcasing:brass_fluid_tank"
+        },
+        "in0": {
+          "kind": "ITEM_TAG",
+          "id": "c:plates/brass"
+        },
+        "in3": {
+          "kind": "ITEM_TAG",
+          "id": "c:barrels/wooden"
+        },
+        "in6": {
+          "kind": "ITEM_TAG",
+          "id": "c:plates/brass"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "b582a28a-f479-51db-8c02-f784a23ea257",
+      "type": "kjsgen:shaped",
+      "recipeId": "createcasing:crafting/fluid_tank/zinc",
+      "group": "Disabled / Competing standalone fluid tanks",
+      "comment": "Existing registered recipe, unchanged baseline for machine review. Source: createcasing:crafting/fluid_tank/zinc.\nDisabled by user: competing standalone fluid storage. Main retained storage is Create Fluid Tank and Create Connected Fluid Vessel. Recipe-only review decision; dependencies must be reconciled before gameplay suppression.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "createcasing:zinc_fluid_tank"
+        },
+        "in0": {
+          "kind": "ITEM",
+          "id": "createaddition:zinc_sheet"
+        },
+        "in3": {
+          "kind": "ITEM_TAG",
+          "id": "c:barrels/wooden"
+        },
+        "in6": {
+          "kind": "ITEM",
+          "id": "createaddition:zinc_sheet"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "987c5ccd-089b-51d2-9842-74007b634a7e",
+      "type": "kjsgen:shaped",
+      "recipeId": "industrial_colonies:authoring_review/nuclearcraft/engineers_crafting_table",
+      "group": "Disabled / NuclearCraft pattern autocrafters",
+      "comment": "SELECTED FOR RECIPE AUTHORING: the machine/item is approved to keep; this baseline is NOT a finished custom design. Moved from the recent Approved selection pass into Progression Review by explicit user request. Source recipe: nuclearcraft:engineers_crafting_table. Preserve its function/output while designing a balanced progression recipe.\nExisting registered recipe, unchanged baseline for machine review. Source: nuclearcraft:engineers_crafting_table.\nDisabled by user: NuclearCraft pattern autocrafter. Retain recipe body as archive evidence; exclude from acquisition when disabled recipes are integrated.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "nuclearcraft:engineers_crafting_table"
+        },
+        "in0": {
+          "kind": "ITEM",
+          "id": "nuclearcraft:plate_basic"
+        },
+        "in1": {
+          "kind": "ITEM",
+          "id": "minecraft:crafting_table"
+        },
+        "in2": {
+          "kind": "ITEM",
+          "id": "nuclearcraft:plate_basic"
+        },
+        "in3": {
+          "kind": "ITEM",
+          "id": "nuclearcraft:basic_electric_circuit"
+        },
+        "in4": {
+          "kind": "ITEM",
+          "id": "minecraft:chest"
+        },
+        "in5": {
+          "kind": "ITEM",
+          "id": "nuclearcraft:basic_electric_circuit"
+        },
+        "in6": {
+          "kind": "ITEM",
+          "id": "nuclearcraft:plate_basic"
+        },
+        "in7": {
+          "kind": "ITEM",
+          "id": "nuclearcraft:basic_voltaic_pile"
+        },
+        "in8": {
+          "kind": "ITEM",
+          "id": "nuclearcraft:plate_basic"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "bfa86b3d-ee2b-5a71-81d5-ea13cfb37e1e",
+      "type": "kjsgen:shaped",
+      "recipeId": "industrial_colonies:authoring_review/nuclearcraft/advanced_storage_container",
+      "group": "00 To author / nuclearcraft",
+      "comment": "SELECTED FOR RECIPE AUTHORING: the machine/item is approved to keep; this baseline is NOT a finished custom design. Moved from the recent Approved selection pass into Progression Review by explicit user request. Source recipe: nuclearcraft:advanced_storage_container. Preserve its function/output while designing a balanced progression recipe.\nExisting registered recipe, unchanged baseline for machine review. Source: nuclearcraft:advanced_storage_container.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "nuclearcraft:advanced_storage_container"
+        },
+        "in0": {
+          "kind": "ITEM_TAG",
+          "id": "c:plates/bronze"
+        },
+        "in1": {
+          "kind": "ITEM",
+          "id": "nuclearcraft:plate_advanced"
+        },
+        "in2": {
+          "kind": "ITEM_TAG",
+          "id": "c:plates/bronze"
+        },
+        "in3": {
+          "kind": "ITEM",
+          "id": "nuclearcraft:plate_advanced"
+        },
+        "in4": {
+          "kind": "ITEM",
+          "id": "nuclearcraft:basic_storage_container"
+        },
+        "in5": {
+          "kind": "ITEM",
+          "id": "nuclearcraft:plate_advanced"
+        },
+        "in6": {
+          "kind": "ITEM_TAG",
+          "id": "c:plates/bronze"
+        },
+        "in7": {
+          "kind": "ITEM",
+          "id": "nuclearcraft:plate_advanced"
+        },
+        "in8": {
+          "kind": "ITEM_TAG",
+          "id": "c:plates/bronze"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "fda615a7-b597-5a04-94d4-031f11e2f8a7",
+      "type": "kjsgen:shaped",
+      "recipeId": "industrial_colonies:authoring_review/nuclearcraft/basic_storage_container",
+      "group": "00 To author / nuclearcraft",
+      "comment": "SELECTED FOR RECIPE AUTHORING: the machine/item is approved to keep; this baseline is NOT a finished custom design. Moved from the recent Approved selection pass into Progression Review by explicit user request. Source recipe: nuclearcraft:basic_storage_container. Preserve its function/output while designing a balanced progression recipe.\nExisting registered recipe, unchanged baseline for machine review. Source: nuclearcraft:basic_storage_container.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "nuclearcraft:basic_storage_container"
+        },
+        "in1": {
+          "kind": "ITEM",
+          "id": "nuclearcraft:plate_basic"
+        },
+        "in3": {
+          "kind": "ITEM",
+          "id": "nuclearcraft:plate_basic"
+        },
+        "in4": {
+          "kind": "ITEM",
+          "id": "minecraft:chest"
+        },
+        "in5": {
+          "kind": "ITEM",
+          "id": "nuclearcraft:plate_basic"
+        },
+        "in7": {
+          "kind": "ITEM",
+          "id": "nuclearcraft:plate_basic"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "496427b6-8437-5843-ab27-5fb8bad6c98d",
+      "type": "kjsgen:shaped",
+      "recipeId": "industrial_colonies:authoring_review/nuclearcraft/du_storage_container",
+      "group": "00 To author / nuclearcraft",
+      "comment": "SELECTED FOR RECIPE AUTHORING: the machine/item is approved to keep; this baseline is NOT a finished custom design. Moved from the recent Approved selection pass into Progression Review by explicit user request. Source recipe: nuclearcraft:du_storage_container. Preserve its function/output while designing a balanced progression recipe.\nExisting registered recipe, unchanged baseline for machine review. Source: nuclearcraft:du_storage_container.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "nuclearcraft:du_storage_container"
+        },
+        "in0": {
+          "kind": "ITEM_TAG",
+          "id": "c:plates/platinum"
+        },
+        "in1": {
+          "kind": "ITEM",
+          "id": "nuclearcraft:plate_du"
+        },
+        "in2": {
+          "kind": "ITEM_TAG",
+          "id": "c:plates/platinum"
+        },
+        "in3": {
+          "kind": "ITEM",
+          "id": "nuclearcraft:plate_du"
+        },
+        "in4": {
+          "kind": "ITEM",
+          "id": "nuclearcraft:advanced_storage_container"
+        },
+        "in5": {
+          "kind": "ITEM",
+          "id": "nuclearcraft:plate_du"
+        },
+        "in6": {
+          "kind": "ITEM_TAG",
+          "id": "c:plates/platinum"
+        },
+        "in7": {
+          "kind": "ITEM",
+          "id": "nuclearcraft:plate_du"
+        },
+        "in8": {
+          "kind": "ITEM_TAG",
+          "id": "c:plates/platinum"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "1c2a5e5d-d4f7-5009-8012-343f69c8dc4c",
+      "type": "kjsgen:shaped",
+      "recipeId": "industrial_colonies:authoring_review/nuclearcraft/elite_storage_container",
+      "group": "00 To author / nuclearcraft",
+      "comment": "SELECTED FOR RECIPE AUTHORING: the machine/item is approved to keep; this baseline is NOT a finished custom design. Moved from the recent Approved selection pass into Progression Review by explicit user request. Source recipe: nuclearcraft:elite_storage_container. Preserve its function/output while designing a balanced progression recipe.\nExisting registered recipe, unchanged baseline for machine review. Source: nuclearcraft:elite_storage_container.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "nuclearcraft:elite_storage_container"
+        },
+        "in0": {
+          "kind": "ITEM_TAG",
+          "id": "c:plates/hsla_steel"
+        },
+        "in1": {
+          "kind": "ITEM",
+          "id": "nuclearcraft:plate_elite"
+        },
+        "in2": {
+          "kind": "ITEM_TAG",
+          "id": "c:plates/hsla_steel"
+        },
+        "in3": {
+          "kind": "ITEM",
+          "id": "nuclearcraft:plate_elite"
+        },
+        "in4": {
+          "kind": "ITEM",
+          "id": "nuclearcraft:du_storage_container"
+        },
+        "in5": {
+          "kind": "ITEM",
+          "id": "nuclearcraft:plate_elite"
+        },
+        "in6": {
+          "kind": "ITEM_TAG",
+          "id": "c:plates/hsla_steel"
+        },
+        "in7": {
+          "kind": "ITEM",
+          "id": "nuclearcraft:plate_elite"
+        },
+        "in8": {
+          "kind": "ITEM_TAG",
+          "id": "c:plates/hsla_steel"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "e3db40a3-a508-5e2e-b2b2-ad25f96473ec",
+      "type": "kjsgen:shaped",
+      "recipeId": "industrial_colonies:authoring_review/nuclearcraft/charging_station",
+      "group": "00 To author / nuclearcraft",
+      "comment": "SELECTED FOR RECIPE AUTHORING: the machine/item is approved to keep; this baseline is NOT a finished custom design. Moved from the recent Approved selection pass into Progression Review by explicit user request. Source recipe: nuclearcraft:charging_station. Preserve its function/output while designing a balanced progression recipe.\nExisting registered recipe, unchanged baseline for machine review. Source: nuclearcraft:charging_station.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "nuclearcraft:charging_station"
+        },
+        "in0": {
+          "kind": "ITEM",
+          "id": "minecraft:iron_bars"
+        },
+        "in1": {
+          "kind": "ITEM",
+          "id": "nuclearcraft:basic_barrel"
+        },
+        "in2": {
+          "kind": "ITEM",
+          "id": "minecraft:iron_bars"
+        },
+        "in3": {
+          "kind": "ITEM",
+          "id": "minecraft:iron_bars"
+        },
+        "in5": {
+          "kind": "ITEM",
+          "id": "minecraft:iron_bars"
+        },
+        "in6": {
+          "kind": "ITEM",
+          "id": "minecraft:iron_bars"
+        },
+        "in7": {
+          "kind": "ITEM",
+          "id": "nuclearcraft:advanced_voltaic_pile"
+        },
+        "in8": {
+          "kind": "ITEM",
+          "id": "minecraft:iron_bars"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "37ef986e-7e0d-5b3e-ba6f-1bdb2b766f31",
+      "type": "kjsgen:shaped",
+      "recipeId": "industrial_colonies:authoring_review/nuclearcraft/pipe_block",
+      "group": "00 To author / nuclearcraft",
+      "comment": "SELECTED FOR RECIPE AUTHORING: the machine/item is approved to keep; this baseline is NOT a finished custom design. Moved from the recent Approved selection pass into Progression Review by explicit user request. Source recipe: nuclearcraft:pipe_block. Preserve its function/output while designing a balanced progression recipe.\nExisting registered recipe, unchanged baseline for machine review. Source: nuclearcraft:pipe_block.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "nuclearcraft:pipe",
+          "count": 8
+        },
+        "in0": {
+          "kind": "ITEM",
+          "id": "nuclearcraft:bioplastic"
+        },
+        "in1": {
+          "kind": "ITEM_TAG",
+          "id": "c:plates/steel"
+        },
+        "in2": {
+          "kind": "ITEM",
+          "id": "nuclearcraft:bioplastic"
+        },
+        "in3": {
+          "kind": "ITEM_TAG",
+          "id": "c:plates/steel"
+        },
+        "in5": {
+          "kind": "ITEM_TAG",
+          "id": "c:plates/steel"
+        },
+        "in6": {
+          "kind": "ITEM",
+          "id": "nuclearcraft:bioplastic"
+        },
+        "in7": {
+          "kind": "ITEM_TAG",
+          "id": "c:plates/steel"
+        },
+        "in8": {
+          "kind": "ITEM",
+          "id": "nuclearcraft:bioplastic"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "d9ddd072-fba7-5528-9f17-5a9322a18e1e",
+      "type": "kjsgen:shaped",
+      "recipeId": "industrial_colonies:authoring_review/nuclearcraft/pipe_connector_block",
+      "group": "00 To author / nuclearcraft",
+      "comment": "SELECTED FOR RECIPE AUTHORING: the machine/item is approved to keep; this baseline is NOT a finished custom design. Moved from the recent Approved selection pass into Progression Review by explicit user request. Source recipe: nuclearcraft:pipe_connector_block. Preserve its function/output while designing a balanced progression recipe.\nExisting registered recipe, unchanged baseline for machine review. Source: nuclearcraft:pipe_connector_block.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "nuclearcraft:pipe_connector",
+          "count": 2
+        },
+        "in0": {
+          "kind": "ITEM",
+          "id": "nuclearcraft:bioplastic"
+        },
+        "in1": {
+          "kind": "ITEM_TAG",
+          "id": "c:plates/steel"
+        },
+        "in2": {
+          "kind": "ITEM",
+          "id": "nuclearcraft:bioplastic"
+        },
+        "in3": {
+          "kind": "ITEM_TAG",
+          "id": "c:plates/steel"
+        },
+        "in4": {
+          "kind": "ITEM",
+          "id": "nuclearcraft:servo"
+        },
+        "in5": {
+          "kind": "ITEM_TAG",
+          "id": "c:plates/steel"
+        },
+        "in6": {
+          "kind": "ITEM",
+          "id": "nuclearcraft:bioplastic"
+        },
+        "in7": {
+          "kind": "ITEM_TAG",
+          "id": "c:plates/steel"
+        },
+        "in8": {
+          "kind": "ITEM",
+          "id": "nuclearcraft:bioplastic"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "b290de08-9510-587a-bbe6-087aab183e30",
+      "type": "kjsgen:shaped",
+      "recipeId": "industrial_colonies:authoring_review/nuclearcraft/basic_barrel",
+      "group": "00 To author / nuclearcraft",
+      "comment": "SELECTED FOR RECIPE AUTHORING: the machine/item is approved to keep; this baseline is NOT a finished custom design. Moved from the recent Approved selection pass into Progression Review by explicit user request. Source recipe: nuclearcraft:basic_barrel. Preserve its function/output while designing a balanced progression recipe.\nExisting registered recipe, unchanged baseline for machine review. Source: nuclearcraft:basic_barrel.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "nuclearcraft:basic_barrel"
+        },
+        "in0": {
+          "kind": "ITEM_TAG",
+          "id": "c:plates/steel"
+        },
+        "in1": {
+          "kind": "ITEM",
+          "id": "nuclearcraft:plate_basic"
+        },
+        "in2": {
+          "kind": "ITEM_TAG",
+          "id": "c:plates/steel"
+        },
+        "in3": {
+          "kind": "ITEM_TAG",
+          "id": "c:plates/steel"
+        },
+        "in5": {
+          "kind": "ITEM_TAG",
+          "id": "c:plates/steel"
+        },
+        "in6": {
+          "kind": "ITEM_TAG",
+          "id": "c:plates/steel"
+        },
+        "in7": {
+          "kind": "ITEM",
+          "id": "nuclearcraft:plate_basic"
+        },
+        "in8": {
+          "kind": "ITEM_TAG",
+          "id": "c:plates/steel"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "962fc963-64d7-56df-b838-d3ec020744e0",
+      "type": "kjsgen:shaped",
+      "recipeId": "industrial_colonies:authoring_review/nuclearcraft/du_barrel",
+      "group": "00 To author / nuclearcraft",
+      "comment": "SELECTED FOR RECIPE AUTHORING: the machine/item is approved to keep; this baseline is NOT a finished custom design. Moved from the recent Approved selection pass into Progression Review by explicit user request. Source recipe: nuclearcraft:du_barrel. Preserve its function/output while designing a balanced progression recipe.\nExisting registered recipe, unchanged baseline for machine review. Source: nuclearcraft:du_barrel.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "nuclearcraft:du_barrel"
+        },
+        "in0": {
+          "kind": "ITEM_TAG",
+          "id": "c:plates/hsla_steel"
+        },
+        "in1": {
+          "kind": "ITEM",
+          "id": "nuclearcraft:plate_du"
+        },
+        "in2": {
+          "kind": "ITEM_TAG",
+          "id": "c:plates/hsla_steel"
+        },
+        "in3": {
+          "kind": "ITEM_TAG",
+          "id": "c:plates/hsla_steel"
+        },
+        "in4": {
+          "kind": "ITEM",
+          "id": "nuclearcraft:advanced_barrel"
+        },
+        "in5": {
+          "kind": "ITEM_TAG",
+          "id": "c:plates/hsla_steel"
+        },
+        "in6": {
+          "kind": "ITEM_TAG",
+          "id": "c:plates/hsla_steel"
+        },
+        "in7": {
+          "kind": "ITEM",
+          "id": "nuclearcraft:plate_du"
+        },
+        "in8": {
+          "kind": "ITEM_TAG",
+          "id": "c:plates/hsla_steel"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "ff7dae9d-d468-56d8-a299-041e5df368e7",
+      "type": "kjsgen:shaped",
+      "recipeId": "industrial_colonies:authoring_review/nuclearcraft/elite_barrel",
+      "group": "00 To author / nuclearcraft",
+      "comment": "SELECTED FOR RECIPE AUTHORING: the machine/item is approved to keep; this baseline is NOT a finished custom design. Moved from the recent Approved selection pass into Progression Review by explicit user request. Source recipe: nuclearcraft:elite_barrel. Preserve its function/output while designing a balanced progression recipe.\nExisting registered recipe, unchanged baseline for machine review. Source: nuclearcraft:elite_barrel.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "nuclearcraft:elite_barrel"
+        },
+        "in0": {
+          "kind": "ITEM_TAG",
+          "id": "c:plates/platinum"
+        },
+        "in1": {
+          "kind": "ITEM",
+          "id": "nuclearcraft:plate_elite"
+        },
+        "in2": {
+          "kind": "ITEM_TAG",
+          "id": "c:plates/platinum"
+        },
+        "in3": {
+          "kind": "ITEM_TAG",
+          "id": "c:plates/platinum"
+        },
+        "in4": {
+          "kind": "ITEM",
+          "id": "nuclearcraft:du_barrel"
+        },
+        "in5": {
+          "kind": "ITEM_TAG",
+          "id": "c:plates/platinum"
+        },
+        "in6": {
+          "kind": "ITEM_TAG",
+          "id": "c:plates/platinum"
+        },
+        "in7": {
+          "kind": "ITEM",
+          "id": "nuclearcraft:plate_elite"
+        },
+        "in8": {
+          "kind": "ITEM_TAG",
+          "id": "c:plates/platinum"
+        }
+      },
+      "params": {}
     }
   ],
   "removals": []

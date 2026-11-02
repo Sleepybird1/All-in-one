@@ -1,0 +1,588 @@
+{
+  "ingot_rod_pairs": [
+    {
+      "ingot": "nuclearcraft:neutronium_ingot",
+      "rod": "moreplates:neutronium_rod"
+    },
+    {
+      "ingot": "nuclearcraft:stainless_steel_ingot",
+      "rod": "moreplates:stainless_steel_rod"
+    },
+    {
+      "ingot": "nuclearcraft:lithium_manganese_dioxide_ingot",
+      "rod": "moreplates:lithium_manganese_dioxide_rod"
+    },
+    {
+      "ingot": "modernfoundry:steel_ingot",
+      "rod": "moreplates:steel_rod"
+    },
+    {
+      "ingot": "minecraft:diamond",
+      "rod": "moreplates:diamond_rod"
+    },
+    {
+      "ingot": "minecraft:copper_ingot",
+      "rod": "moreplates:copper_rod"
+    },
+    {
+      "ingot": "nuclearcraft:baratol_ingot",
+      "rod": "moreplates:baratol_rod"
+    },
+    {
+      "ingot": "minecraft:lapis_lazuli",
+      "rod": "moreplates:lapis_lazuli_rod"
+    },
+    {
+      "ingot": "nuclearcraft:carbon_manganese_ingot",
+      "rod": "moreplates:carbon_manganese_rod"
+    },
+    {
+      "ingot": "nuclearcraft:ferroboron_ingot",
+      "rod": "moreplates:ferroboron_rod"
+    },
+    {
+      "ingot": "ad_astra:calorite_ingot",
+      "rod": "moreplates:calorite_rod"
+    },
+    {
+      "ingot": "minecraft:ender_pearl",
+      "rod": "moreplates:ender_pearl_rod"
+    },
+    {
+      "ingot": "mekanism:ingot_uranium",
+      "rod": "moreplates:uranium_rod"
+    },
+    {
+      "ingot": "nuclearcraft:titanium_ingot",
+      "rod": "moreplates:titanium_rod"
+    },
+    {
+      "ingot": "nuclearcraft:silicon_carbide_ingot",
+      "rod": "moreplates:silicon_carbide_rod"
+    },
+    {
+      "ingot": "tfmg:silicon_ingot",
+      "rod": "moreplates:silicon_rod"
+    },
+    {
+      "ingot": "tfmg:constantan_ingot",
+      "rod": "moreplates:constantan_rod"
+    },
+    {
+      "ingot": "createcasing:chorium_ingot",
+      "rod": "moreplates:chorium_rod"
+    },
+    {
+      "ingot": "modernfoundry:manyullyn_ingot",
+      "rod": "moreplates:manyullyn_rod"
+    },
+    {
+      "ingot": "nuclearcraft:extreme_ingot",
+      "rod": "moreplates:extreme_rod"
+    },
+    {
+      "ingot": "megacells:sky_bronze_ingot",
+      "rod": "moreplates:sky_bronze_rod"
+    },
+    {
+      "ingot": "minecraft:emerald",
+      "rod": "moreplates:emerald_rod"
+    },
+    {
+      "ingot": "nuclearcraft:tungsten_carbide_ingot",
+      "rod": "moreplates:tungsten_carbide_rod"
+    },
+    {
+      "ingot": "modernfoundry:cobalt_ingot",
+      "rod": "moreplates:cobalt_rod"
+    },
+    {
+      "ingot": "minecraft:glowstone_dust",
+      "rod": "moreplates:glowstone_dust_rod"
+    },
+    {
+      "ingot": "nuclearcraft:niobium_titanium_ingot",
+      "rod": "moreplates:niobium_titanium_rod"
+    },
+    {
+      "ingot": "nuclearcraft:lithium_ingot",
+      "rod": "moreplates:lithium_rod"
+    },
+    {
+      "ingot": "stellaris:heavy_metal_ingot",
+      "rod": "moreplates:heavy_metal_rod"
+    },
+    {
+      "ingot": "iceandfire:dragonsteel_ice_ingot",
+      "rod": "moreplates:dragonsteel_ice_rod"
+    },
+    {
+      "ingot": "nuclearcraft:niobium_tin_ingot",
+      "rod": "moreplates:niobium_tin_rod"
+    },
+    {
+      "ingot": "rocketnautics_addon:siderite_ingot",
+      "rod": "moreplates:siderite_rod"
+    },
+    {
+      "ingot": "mekanism:ingot_lead",
+      "rod": "moreplates:lead_rod"
+    },
+    {
+      "ingot": "nuclearcraft:nichrome_ingot",
+      "rod": "moreplates:nichrome_rod"
+    },
+    {
+      "ingot": "tfmg:magnetic_alloy_ingot",
+      "rod": "moreplates:magnetic_alloy_rod"
+    },
+    {
+      "ingot": "modernfoundry:pig_iron_ingot",
+      "rod": "moreplates:pig_iron_rod"
+    },
+    {
+      "ingot": "bigreactors:ludicrite_ingot",
+      "rod": "moreplates:ludicrite_rod"
+    },
+    {
+      "ingot": "allthemodium:unobtainium_ingot",
+      "rod": "moreplates:unobtainium_rod"
+    },
+    {
+      "ingot": "cataclysm:ignitium_ingot",
+      "rod": "moreplates:ignitium_rod"
+    },
+    {
+      "ingot": "i_architecture:industrial_iron_ingot",
+      "rod": "moreplates:industrial_iron_rod"
+    },
+    {
+      "ingot": "rocketnautics_addon:tridymite_ingot",
+      "rod": "moreplates:tridymite_rod"
+    },
+    {
+      "ingot": "nuclearcraft:palladium_ingot",
+      "rod": "moreplates:palladium_rod"
+    },
+    {
+      "ingot": "modernfoundry:knightslime_ingot",
+      "rod": "moreplates:knightslime_rod"
+    },
+    {
+      "ingot": "nuclearcraft:aluminum_ingot",
+      "rod": "moreplates:aluminum_rod"
+    },
+    {
+      "ingot": "nuclearcraft:tough_alloy_ingot",
+      "rod": "moreplates:tough_alloy_rod"
+    },
+    {
+      "ingot": "nuclearcraft:osmiridium_ingot",
+      "rod": "moreplates:osmiridium_rod"
+    },
+    {
+      "ingot": "bigreactors:cyanite_ingot",
+      "rod": "moreplates:cyanite_rod"
+    },
+    {
+      "ingot": "nuclearcraft:beryllium_ingot",
+      "rod": "moreplates:beryllium_rod"
+    },
+    {
+      "ingot": "cataclysm:black_steel_ingot",
+      "rod": "moreplates:black_steel_rod"
+    },
+    {
+      "ingot": "nuclearcraft:thermoconducting_ingot",
+      "rod": "moreplates:thermoconducting_rod"
+    },
+    {
+      "ingot": "nuclearcraft:super_alloy_ingot",
+      "rod": "moreplates:super_alloy_rod"
+    },
+    {
+      "ingot": "stellaris:raw_desh_ingot",
+      "rod": "moreplates:raw_desh_rod"
+    },
+    {
+      "ingot": "nuclearcraft:magnesium_ingot",
+      "rod": "moreplates:magnesium_rod"
+    },
+    {
+      "ingot": "nuclearcraft:zirconium_molybdenum_ingot",
+      "rod": "moreplates:zirconium_molybdenum_rod"
+    },
+    {
+      "ingot": "bigreactors:insanite_ingot",
+      "rod": "moreplates:insanite_rod"
+    },
+    {
+      "ingot": "cataclysm:enderite_ingot",
+      "rod": "moreplates:enderite_rod"
+    },
+    {
+      "ingot": "allthemodium:vibranium_ingot",
+      "rod": "moreplates:vibranium_rod"
+    },
+    {
+      "ingot": "nuclearcraft:tin_silver_ingot",
+      "rod": "moreplates:tin_silver_rod"
+    },
+    {
+      "ingot": "modernfoundry:ingot_cast",
+      "rod": "moreplates:cast_rod"
+    },
+    {
+      "ingot": "bigreactors:inanite_ingot",
+      "rod": "moreplates:inanite_rod"
+    },
+    {
+      "ingot": "irons_spellbooks:pyrium_ingot",
+      "rod": "moreplates:pyrium_rod"
+    },
+    {
+      "ingot": "stellaris:raw_steel_ingot",
+      "rod": "moreplates:raw_steel_rod"
+    },
+    {
+      "ingot": "minecraft:gold_ingot",
+      "rod": "moreplates:gold_rod"
+    },
+    {
+      "ingot": "iceandfire:dragonsteel_fire_ingot",
+      "rod": "moreplates:dragonsteel_fire_rod"
+    },
+    {
+      "ingot": "bigreactors:yellorium_ingot",
+      "rod": "moreplates:yellorium_rod"
+    },
+    {
+      "ingot": "nuclearcraft:ingot_former",
+      "rod": "moreplates:former_rod"
+    },
+    {
+      "ingot": "nuclearcraft:tungsten_ingot",
+      "rod": "moreplates:tungsten_rod"
+    },
+    {
+      "ingot": "mekanism:ingot_refined_obsidian",
+      "rod": "moreplates:refined_obsidian_rod"
+    },
+    {
+      "ingot": "modernfoundry:knightmetal_ingot",
+      "rod": "moreplates:knightmetal_rod"
+    },
+    {
+      "ingot": "stellaris:plutonium_ingot",
+      "rod": "moreplates:plutonium_rod"
+    },
+    {
+      "ingot": "iceandfire:silver_ingot",
+      "rod": "moreplates:silver_rod"
+    },
+    {
+      "ingot": "allthemodium:vibranium_allthemodium_alloy_ingot",
+      "rod": "moreplates:vibranium_allthemodium_alloy_rod"
+    },
+    {
+      "ingot": "nuclearcraft:hafnium_ingot",
+      "rod": "moreplates:hafnium_rod"
+    },
+    {
+      "ingot": "modernfoundry:cinderslime_ingot",
+      "rod": "moreplates:cinderslime_rod"
+    },
+    {
+      "ingot": "modernfoundry:slimesteel_ingot",
+      "rod": "moreplates:slimesteel_rod"
+    },
+    {
+      "ingot": "nuclearcraft:calcium_ingot",
+      "rod": "moreplates:calcium_rod"
+    },
+    {
+      "ingot": "modernfoundry:amethyst_bronze_ingot",
+      "rod": "moreplates:amethyst_bronze_rod"
+    },
+    {
+      "ingot": "nuclearcraft:shibuichi_ingot",
+      "rod": "moreplates:shibuichi_rod"
+    },
+    {
+      "ingot": "nuclearcraft:sic_sic_cmc_ingot",
+      "rod": "moreplates:sic_sic_cmc_rod"
+    },
+    {
+      "ingot": "rocketnautics_addon:hematite_ingot",
+      "rod": "moreplates:hematite_rod"
+    },
+    {
+      "ingot": "cataclysm:witherite_ingot",
+      "rod": "moreplates:witherite_rod"
+    },
+    {
+      "ingot": "createbigcannons:nethersteel_ingot",
+      "rod": "moreplates:nethersteel_rod"
+    },
+    {
+      "ingot": "cataclysm:cursium_ingot",
+      "rod": "moreplates:cursium_rod"
+    },
+    {
+      "ingot": "modernfoundry:cheese_ingot",
+      "rod": "moreplates:cheese_rod"
+    },
+    {
+      "ingot": "nuclearcraft:iridium_ingot",
+      "rod": "moreplates:iridium_rod"
+    },
+    {
+      "ingot": "nuclearcraft:hard_carbon_ingot",
+      "rod": "moreplates:hard_carbon_rod"
+    },
+    {
+      "ingot": "modernfoundry:fake_ingot",
+      "rod": "moreplates:fake_rod"
+    },
+    {
+      "ingot": "nuclearcraft:zircaloy_ingot",
+      "rod": "moreplates:zircaloy_rod"
+    },
+    {
+      "ingot": "allthemodium:allthemodium_ingot",
+      "rod": "moreplates:allthemodium_rod"
+    },
+    {
+      "ingot": "ad_astra:etrium_ingot",
+      "rod": "moreplates:etrium_rod"
+    },
+    {
+      "ingot": "iceandfire:ghost_ingot",
+      "rod": "moreplates:ghost_rod"
+    },
+    {
+      "ingot": "nuclearcraft:yttrium_ingot",
+      "rod": "moreplates:yttrium_rod"
+    },
+    {
+      "ingot": "minecraft:netherite_ingot",
+      "rod": "moreplates:netherite_rod"
+    },
+    {
+      "ingot": "nuclearcraft:manganese_oxide_ingot",
+      "rod": "moreplates:manganese_oxide_rod"
+    },
+    {
+      "ingot": "mekanism:ingot_refined_glowstone",
+      "rod": "moreplates:refined_glowstone_rod"
+    },
+    {
+      "ingot": "modernfoundry:ingot_red_sand_cast",
+      "rod": "moreplates:red_sand_cast_rod"
+    },
+    {
+      "ingot": "allthemodium:unobtainium_vibranium_alloy_ingot",
+      "rod": "moreplates:unobtainium_vibranium_alloy_rod"
+    },
+    {
+      "ingot": "immersiveengineering:ingot_hop_graphite",
+      "rod": "moreplates:hop_graphite_rod"
+    },
+    {
+      "ingot": "nuclearcraft:pyrolitic_carbon_ingot",
+      "rod": "moreplates:pyrolitic_carbon_rod"
+    },
+    {
+      "ingot": "irons_spellbooks:mithril_ingot",
+      "rod": "moreplates:mithril_rod"
+    },
+    {
+      "ingot": "nuclearcraft:thorium_ingot",
+      "rod": "moreplates:thorium_rod"
+    },
+    {
+      "ingot": "nuclearcraft:boron_ingot",
+      "rod": "moreplates:boron_rod"
+    },
+    {
+      "ingot": "createmetallurgy:obdurium_ingot",
+      "rod": "moreplates:obdurium_rod"
+    },
+    {
+      "ingot": "createbigcannons:cast_iron_ingot",
+      "rod": "moreplates:cast_iron_rod"
+    },
+    {
+      "ingot": "cataclysm:ancient_metal_ingot",
+      "rod": "moreplates:ancient_metal_rod"
+    },
+    {
+      "ingot": "nuclearcraft:strontium_ingot",
+      "rod": "moreplates:strontium_rod"
+    },
+    {
+      "ingot": "stellaris:corronium_ingot",
+      "rod": "moreplates:corronium_rod"
+    },
+    {
+      "ingot": "modernfoundry:hepatizon_ingot",
+      "rod": "moreplates:hepatizon_rod"
+    },
+    {
+      "ingot": "modernfoundry:rose_gold_ingot",
+      "rod": "moreplates:rose_gold_rod"
+    },
+    {
+      "ingot": "nuclearcraft:chromium_ingot",
+      "rod": "moreplates:chromium_rod"
+    },
+    {
+      "ingot": "nuclearcraft:lead_platinum_ingot",
+      "rod": "moreplates:lead_platinum_rod"
+    },
+    {
+      "ingot": "iceandfire:dragonsteel_lightning_ingot",
+      "rod": "moreplates:dragonsteel_lightning_rod"
+    },
+    {
+      "ingot": "nuclearcraft:platinum_ingot",
+      "rod": "moreplates:platinum_rod"
+    },
+    {
+      "ingot": "irons_spellbooks:arcane_ingot",
+      "rod": "moreplates:arcane_rod"
+    },
+    {
+      "ingot": "mekanism:ingot_osmium",
+      "rod": "moreplates:osmium_rod"
+    },
+    {
+      "ingot": "stellaris:tharsite_ingot",
+      "rod": "moreplates:tharsite_rod"
+    },
+    {
+      "ingot": "minecraft:quartz",
+      "rod": "moreplates:quartz_rod"
+    },
+    {
+      "ingot": "extendedae:entro_ingot",
+      "rod": "moreplates:entro_rod"
+    },
+    {
+      "ingot": "mekanism:ingot_tin",
+      "rod": "moreplates:tin_rod"
+    },
+    {
+      "ingot": "bigreactors:magentite_ingot",
+      "rod": "moreplates:magentite_rod"
+    },
+    {
+      "ingot": "nuclearcraft:manganese_ingot",
+      "rod": "moreplates:manganese_rod"
+    },
+    {
+      "ingot": "nuclearcraft:zirconium_ingot",
+      "rod": "moreplates:zirconium_rod"
+    },
+    {
+      "ingot": "nuclearcraft:sodium_ingot",
+      "rod": "moreplates:sodium_rod"
+    },
+    {
+      "ingot": "bigreactors:graphite_ingot",
+      "rod": "moreplates:graphite_rod"
+    },
+    {
+      "ingot": "create:brass_ingot",
+      "rod": "moreplates:brass_rod"
+    },
+    {
+      "ingot": "nuclearcraft:magnesium_diboride_ingot",
+      "rod": "moreplates:magnesium_diboride_rod"
+    },
+    {
+      "ingot": "ad_astra:ostrum_ingot",
+      "rod": "moreplates:ostrum_rod"
+    },
+    {
+      "ingot": "bigreactors:ridiculite_ingot",
+      "rod": "moreplates:ridiculite_rod"
+    },
+    {
+      "ingot": "megacells:sky_steel_ingot",
+      "rod": "moreplates:sky_steel_rod"
+    },
+    {
+      "ingot": "megacells:sky_osmium_ingot",
+      "rod": "moreplates:sky_osmium_rod"
+    },
+    {
+      "ingot": "createbigcannons:bronze_ingot",
+      "rod": "moreplates:bronze_rod"
+    },
+    {
+      "ingot": "nuclearcraft:potassium_ingot",
+      "rod": "moreplates:potassium_rod"
+    },
+    {
+      "ingot": "bigreactors:blutonium_ingot",
+      "rod": "moreplates:blutonium_rod"
+    },
+    {
+      "ingot": "nuclearcraft:manganese_dioxide_ingot",
+      "rod": "moreplates:manganese_dioxide_rod"
+    },
+    {
+      "ingot": "create:zinc_ingot",
+      "rod": "moreplates:zinc_rod"
+    },
+    {
+      "ingot": "nuclearcraft:electrum_ingot",
+      "rod": "moreplates:electrum_rod"
+    },
+    {
+      "ingot": "nuclearcraft:niobium_ingot",
+      "rod": "moreplates:niobium_rod"
+    },
+    {
+      "ingot": "minecraft:blaze_powder",
+      "rod": "moreplates:blaze_powder_rod"
+    },
+    {
+      "ingot": "nuclearcraft:hsla_steel_ingot",
+      "rod": "moreplates:hsla_steel_rod"
+    },
+    {
+      "ingot": "modernfoundry:queens_slime_ingot",
+      "rod": "moreplates:queens_slime_rod"
+    },
+    {
+      "ingot": "modernfoundry:ingot_sand_cast",
+      "rod": "moreplates:sand_cast_rod"
+    },
+    {
+      "ingot": "allthemodium:unobtainium_allthemodium_alloy_ingot",
+      "rod": "moreplates:unobtainium_allthemodium_alloy_rod"
+    },
+    {
+      "ingot": "tfmg:nickel_ingot",
+      "rod": "moreplates:nickel_rod"
+    },
+    {
+      "ingot": "modernfoundry:soulsteel_ingot",
+      "rod": "moreplates:soulsteel_rod"
+    },
+    {
+      "ingot": "minecraft:iron_ingot",
+      "rod": "moreplates:iron_rod"
+    },
+    {
+      "ingot": "aquaculture:neptunium_ingot",
+      "rod": "moreplates:neptunium_rod"
+    },
+    {
+      "ingot": "ad_astra:desh_ingot",
+      "rod": "moreplates:desh_rod"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "type": "modernfoundry:melting",
+  "ingredient": {
+    "item": "industrial_colonies:cassiterite"
+  },
+  "result": {
+    "tag": "c:molten_tin",
+    "amount": 3
+  },
+  "temperature": 225,
+  "time": 80,
+  "id": "industrial_colonies:survival/basic_rock/direct_tin"
+}

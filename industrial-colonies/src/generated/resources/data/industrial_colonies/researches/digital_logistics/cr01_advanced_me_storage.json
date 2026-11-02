@@ -1,0 +1,30 @@
+{
+  "branch": "industrial_colonies:tech_tree",
+  "costs": [
+    {
+      "item": "ae2:fluix_smart_dense_cable",
+      "count": 8
+    },
+    {
+      "item": "ae2:io_port",
+      "count": 1
+    },
+    {
+      "item": "ae2:cell_workbench",
+      "count": 1
+    }
+  ],
+  "icon": "ae2:item_storage_cell_256k",
+  "name": "com.industrial_colonies.research.digital_logistics.cr01_advanced_me_storage.name",
+  "no-reset": true,
+  "researchLevel": 3,
+  "sortOrder": 10720,
+  "subtitle": "com.industrial_colonies.research.digital_logistics.cr01_advanced_me_storage.subtitle",
+  "parentResearch": "industrial_colonies:digital_logistics/cr01_enhanced_me_system_upgrade",
+  "requirements": [
+    {
+      "type": "minecolonies:research",
+      "research": "industrial_colonies:digital_logistics/cr01_enhanced_me_system_upgrade"
+    }
+  ]
+}

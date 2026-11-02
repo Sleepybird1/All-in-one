@@ -1,0 +1,30 @@
+{
+  "branch": "industrial_colonies:tech_tree",
+  "costs": [
+    {
+      "item": "mekanism:pellet_plutonium",
+      "count": 12
+    },
+    {
+      "item": "mekanism:reprocessed_fissile_fragment",
+      "count": 8
+    },
+    {
+      "item": "bigreactors:blutonium_block",
+      "count": 4
+    }
+  ],
+  "icon": "bigreactors:reinforced_reactorcasing",
+  "name": "com.industrial_colonies.research.nuclear_fuel_cycle.cr01_advanced_nuclear_fuel.name",
+  "no-reset": true,
+  "researchLevel": 4,
+  "sortOrder": 10002,
+  "subtitle": "com.industrial_colonies.research.nuclear_fuel_cycle.cr01_advanced_nuclear_fuel.subtitle",
+  "parentResearch": "industrial_colonies:nuclear_fuel_cycle/cr01_plutonium_production",
+  "requirements": [
+    {
+      "type": "minecolonies:research",
+      "research": "industrial_colonies:nuclear_fuel_cycle/cr01_plutonium_production"
+    }
+  ]
+}

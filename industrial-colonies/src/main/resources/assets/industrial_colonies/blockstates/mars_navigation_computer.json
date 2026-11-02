@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "industrial_colonies:block/mars_navigation_computer"
+    }
+  }
+}

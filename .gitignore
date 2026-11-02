@@ -32,3 +32,20 @@ local/ftbchunks/
 
 # User-specific client settings/state
 options.txt
+# Local backups, world-specific caches and diagnostics (November 2026 checkpoint)
+_industrial_colonies_backups/
+debug/
+dynamic-data-pack-cache/
+fieldguide_cache/
+particular_cache/
+.cache/
+.sable/
+hs_err_pid*.log
+replay_pid*.log
+win_event*.txt
+servers.dat*
+minecraftinstance.json
+config/jei/world/
+config/chunky/tasks/
+kjsgen/industrial_colonies_sync/project-moves/
+kjsgen/picks.json

@@ -1,0 +1,100 @@
+{
+  "variants": {
+    "appearance=generic": {
+      "model": "industrial_colonies:block/ore_extraction_node"
+    },
+    "appearance=sphalerite": {
+      "model": "industrial_colonies:block/node/sphalerite"
+    },
+    "appearance=chalcopyrite": {
+      "model": "industrial_colonies:block/node/chalcopyrite"
+    },
+    "appearance=hematite": {
+      "model": "industrial_colonies:block/node/hematite"
+    },
+    "appearance=magnetite": {
+      "model": "industrial_colonies:block/node/magnetite"
+    },
+    "appearance=bauxite": {
+      "model": "industrial_colonies:block/node/bauxite"
+    },
+    "appearance=spodumene_rock": {
+      "model": "industrial_colonies:block/node/spodumene_rock"
+    },
+    "appearance=argentite": {
+      "model": "industrial_colonies:block/node/argentite"
+    },
+    "appearance=wolframite_rock": {
+      "model": "industrial_colonies:block/node/wolframite_rock"
+    },
+    "appearance=pentlandite": {
+      "model": "industrial_colonies:block/node/pentlandite"
+    },
+    "appearance=galena": {
+      "model": "industrial_colonies:block/node/galena"
+    },
+    "appearance=dolomite": {
+      "model": "industrial_colonies:block/node/dolomite"
+    },
+    "appearance=graphite_rock": {
+      "model": "industrial_colonies:block/node/graphite_rock"
+    },
+    "appearance=phosphate_rock": {
+      "model": "industrial_colonies:block/node/phosphate_rock"
+    },
+    "appearance=coal": {
+      "model": "industrial_colonies:block/node/coal"
+    },
+    "appearance=diamond": {
+      "model": "industrial_colonies:block/node/diamond"
+    },
+    "appearance=cobalt": {
+      "model": "industrial_colonies:block/node/cobalt"
+    },
+    "appearance=uranium": {
+      "model": "industrial_colonies:block/node/uranium"
+    },
+    "appearance=thorium": {
+      "model": "industrial_colonies:block/node/thorium"
+    },
+    "appearance=ultramafic_rock": {
+      "model": "industrial_colonies:block/node/ultramafic_rock"
+    },
+    "appearance=osmium": {
+      "model": "industrial_colonies:block/node/osmium"
+    },
+    "appearance=iridium": {
+      "model": "industrial_colonies:block/node/iridium"
+    },
+    "appearance=platinum": {
+      "model": "industrial_colonies:block/node/platinum"
+    },
+    "appearance=ilmenite": {
+      "model": "industrial_colonies:block/node/ilmenite"
+    },
+    "appearance=bertrandite": {
+      "model": "industrial_colonies:block/node/bertrandite"
+    },
+    "appearance=borax_rock": {
+      "model": "industrial_colonies:block/node/borax_rock"
+    },
+    "appearance=cassiterite": {
+      "model": "industrial_colonies:block/node/cassiterite"
+    },
+    "appearance=chromite": {
+      "model": "industrial_colonies:block/node/chromite"
+    },
+    "appearance=vibranium": {
+      "model": "industrial_colonies:block/node/vibranium"
+    },
+    "appearance=quartz": {
+      "model": "industrial_colonies:block/node/quartz"
+    },
+    "appearance=ancient_debris": {
+      "model": "industrial_colonies:block/node/ancient_debris"
+    },
+    "appearance=gold": {
+      "model": "industrial_colonies:block/node/gold"
+    }
+  }
+}

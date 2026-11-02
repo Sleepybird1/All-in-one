@@ -1,3 +1,5 @@
+// Original recipe review: registrations retained below, temporarily inactive.
+function IC_originalRecipeReview_skip() {}
 // Industrial Colonies - MEGA radioactive chemical storage compatibility
 //
 // Mega Cells checks for Applied Mekanistics but not Mekanism Generators before
@@ -6,7 +8,7 @@
 // reactor-rated equivalent and makes this cell a natural late-nuclear plus
 // digital-storage intersection without introducing a new progression cycle.
 
-ServerEvents.recipes(event => {
+IC_originalRecipeReview_skip(event => {
   const id = 'megacells:cells/standard/radioactive_chemical_cell'
 
   event.remove({ id: id })

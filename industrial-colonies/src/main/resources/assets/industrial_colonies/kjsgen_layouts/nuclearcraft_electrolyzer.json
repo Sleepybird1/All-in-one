@@ -1,0 +1,91 @@
+{
+  "id": "industrial_colonies:nuclearcraft_electrolyzer",
+  "mod": "nuclearcraft",
+  "icon": "nuclearcraft:electrolyzer",
+  "jei": "nuclearcraft:electrolyzer",
+  "width": 224,
+  "height": 72,
+  "slots": [
+    {
+      "key": "fluid_input0",
+      "role": "INPUT",
+      "x": 8,
+      "y": 12,
+      "required": false,
+      "item": false,
+      "fluid": true,
+      "chemical": false,
+      "tag": true,
+      "count": true
+    },
+    {
+      "key": "fluid_output0",
+      "role": "OUTPUT",
+      "x": 148,
+      "y": 12,
+      "required": false,
+      "item": false,
+      "fluid": true,
+      "chemical": false,
+      "tag": false,
+      "count": true
+    },
+    {
+      "key": "fluid_output1",
+      "role": "OUTPUT",
+      "x": 172,
+      "y": 12,
+      "required": false,
+      "item": false,
+      "fluid": true,
+      "chemical": false,
+      "tag": false,
+      "count": true
+    },
+    {
+      "key": "fluid_output2",
+      "role": "OUTPUT",
+      "x": 196,
+      "y": 12,
+      "required": false,
+      "item": false,
+      "fluid": true,
+      "chemical": false,
+      "tag": false,
+      "count": true
+    },
+    {
+      "key": "fluid_output3",
+      "role": "OUTPUT",
+      "x": 148,
+      "y": 38,
+      "required": false,
+      "item": false,
+      "fluid": true,
+      "chemical": false,
+      "tag": false,
+      "count": true
+    }
+  ],
+  "decorations": [
+    {
+      "type": "ARROW",
+      "x": 108,
+      "y": 26
+    }
+  ],
+  "parameters": [
+    {
+      "key": "energyPerTick",
+      "type": "INT",
+      "default": "50"
+    },
+    {
+      "key": "processTime",
+      "type": "INT",
+      "default": "200"
+    }
+  ],
+  "codegen": "industrial_colonies:nuclearcraft_manufacturing",
+  "requiresMod": "nuclearcraft"
+}

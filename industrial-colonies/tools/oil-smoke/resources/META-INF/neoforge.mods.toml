@@ -1,0 +1,32 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="All Rights Reserved"
+[[mods]]
+modId="ic_oil_smoke"
+version="1.0.0"
+displayName="Industrial Colonies Disposable Native Oil Check"
+description="Development-only native TFMG placement, scanner and finite-reservoir acceptance fixture."
+[[dependencies.ic_oil_smoke]]
+modId="neoforge"
+type="required"
+versionRange="[21.1.248,)"
+ordering="NONE"
+side="BOTH"
+[[dependencies.ic_oil_smoke]]
+modId="minecraft"
+type="required"
+versionRange="[1.21.1,1.21.2)"
+ordering="NONE"
+side="BOTH"
+[[dependencies.ic_oil_smoke]]
+modId="industrial_colonies"
+type="required"
+versionRange="[0.4.0,)"
+ordering="AFTER"
+side="BOTH"
+[[dependencies.ic_oil_smoke]]
+modId="tfmg"
+type="required"
+versionRange="[1.2.0,1.3)"
+ordering="AFTER"
+side="BOTH"

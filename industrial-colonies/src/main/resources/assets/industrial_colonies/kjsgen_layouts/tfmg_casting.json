@@ -1,0 +1,52 @@
+{
+  "id": "industrial_colonies:tfmg_casting",
+  "mod": "tfmg",
+  "icon": "tfmg:casting_basin",
+  "jei": "tfmg:casting",
+  "width": 180,
+  "height": 108,
+  "slots": [
+    {
+      "key": "fluid_input0",
+      "role": "INPUT",
+      "x": 8,
+      "y": 12,
+      "required": true,
+      "item": false,
+      "fluid": true,
+      "chemical": false,
+      "tag": true,
+      "count": true,
+      "chance": false
+    },
+    {
+      "key": "item_output0",
+      "role": "OUTPUT",
+      "x": 118,
+      "y": 12,
+      "required": true,
+      "item": true,
+      "fluid": false,
+      "chemical": false,
+      "tag": false,
+      "count": false,
+      "chance": false
+    }
+  ],
+  "decorations": [
+    {
+      "type": "ARROW",
+      "x": 72,
+      "y": 24
+    }
+  ],
+  "parameters": [
+    {
+      "key": "processingTime",
+      "type": "INT",
+      "default": "200"
+    }
+  ],
+  "codegen": "industrial_colonies:tfmg_native_processing",
+  "requiresMod": "tfmg"
+}

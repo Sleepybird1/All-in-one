@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "block_factorys_bosses:infernal_dragon",
+    "block_factorys_bosses:dragon_guard_sword",
+    "block_factorys_bosses:flaming_skeleton_guard_sword",
+    "block_factorys_bosses:flaming_skeleton_guard_fireball"
+  ]
+}

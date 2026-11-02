@@ -1,0 +1,68 @@
+{
+  "id": "industrial_colonies:mekanism_rotary",
+  "mod": "mekanism",
+  "icon": "mekanism:rotary_condensentrator",
+  "jei": "mekanism:rotary",
+  "width": 142,
+  "height": 76,
+  "slots": [
+    {
+      "key": "fluid_input",
+      "role": "INPUT",
+      "x": 10,
+      "y": 12,
+      "required": false,
+      "item": false,
+      "fluid": true,
+      "chemical": false,
+      "tag": true,
+      "count": true
+    },
+    {
+      "key": "chemical_output",
+      "role": "OUTPUT",
+      "x": 110,
+      "y": 12,
+      "required": false,
+      "item": false,
+      "fluid": false,
+      "chemical": true,
+      "tag": false,
+      "count": true
+    },
+    {
+      "key": "chemical_input",
+      "role": "INPUT",
+      "x": 10,
+      "y": 38,
+      "required": false,
+      "item": false,
+      "fluid": false,
+      "chemical": true,
+      "tag": true,
+      "count": true
+    },
+    {
+      "key": "fluid_output",
+      "role": "OUTPUT",
+      "x": 110,
+      "y": 38,
+      "required": false,
+      "item": false,
+      "fluid": true,
+      "chemical": false,
+      "tag": false,
+      "count": true
+    }
+  ],
+  "decorations": [
+    {
+      "type": "ARROW",
+      "x": 63,
+      "y": 27
+    }
+  ],
+  "parameters": [],
+  "codegen": "industrial_colonies:mekanism_machine",
+  "requiresMod": "mekanism"
+}

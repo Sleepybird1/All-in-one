@@ -1,0 +1,40 @@
+{
+  "status": "EMBEDDED_PACK_REFERENCE_SCAN",
+  "counts": {
+    "json": 1130,
+    "nbt": 31
+  },
+  "archives": [
+    {
+      "name": "[Neoforge]ctov-3.6.3.jar",
+      "sha256": "4815b19b83541f09cba556e222612bc5ddcc31f7c4ba2198f4b4d6376cca8b2e"
+    },
+    {
+      "name": "artifacts-neoforge-13.2.1.jar",
+      "sha256": "4a8e1f4d5702937a707861e478829695e432286bcd9e58f5834d82c6d998eea8"
+    },
+    {
+      "name": "industrial_colonies-0.5.5.jar",
+      "sha256": "31516bb11046a1342babf4680d11622889801ae29f28bcfac05dfa4d0987e199"
+    },
+    {
+      "name": "lithostitched-1.8.0+beta4-neoforge-21.1.jar",
+      "sha256": "f9bed6228565d69166ac85edbe6159e28674a687562964e5424a8c8a477d20c0"
+    },
+    {
+      "name": "Quark-4.1-482.jar",
+      "sha256": "0f69ce0d31caa4f31e1fa4959541120121e27c652cd2d954839af6b5162f0c70"
+    },
+    {
+      "name": "regions-unexplored-0.6.2-neoforge-21.1.jar",
+      "sha256": "ccf32ed714f2724f54406b9e02a8d6f94d87dc5c72397bc39b3d6ed8f32412ea"
+    },
+    {
+      "name": "wwoo-neoforge-2.6.7.jar",
+      "sha256": "db99e41c3dd8f12c795fd00d08ee324308d54f8009bbbc9992055999e891bd0f"
+    }
+  ],
+  "matches": [],
+  "errors": [],
+  "limits": "Non-root embedded data paths in top-level lab archives. Pack activation and resource priority are not inferred; no recipe edits, code execution or production access."
+}

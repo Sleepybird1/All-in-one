@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "stellaris:steel_ore",
+      "required": false
+    },
+    {
+      "id": "stellaris:steel_ore_deepslate",
+      "required": false
+    }
+  ]
+}

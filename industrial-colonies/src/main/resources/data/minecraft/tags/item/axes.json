@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "modernfoundry:hand_axe",
+      "required": false
+    },
+    {
+      "id": "modernfoundry:broad_axe",
+      "required": false
+    },
+    {
+      "id": "modernfoundry:mattock",
+      "required": false
+    },
+    {
+      "id": "modernfoundry:minotaur_axe",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "branch": "industrial_colonies:tech_tree",
+  "costs": [
+    {
+      "item": "tfmg:cast_iron_pipe",
+      "count": 12
+    },
+    {
+      "item": "tfmg:cast_iron_frame",
+      "count": 8
+    },
+    {
+      "item": "create:brass_ingot",
+      "count": 12
+    }
+  ],
+  "icon": "tfmg:surface_scanner",
+  "name": "com.industrial_colonies.research.petroleum_and_engines.cr01_oil_processing.name",
+  "no-reset": true,
+  "researchLevel": 1,
+  "sortOrder": 9758,
+  "subtitle": "com.industrial_colonies.research.petroleum_and_engines.cr01_oil_processing.subtitle",
+  "requirements": [
+    {
+      "type": "minecolonies:research",
+      "research": "industrial_colonies:steel_and_metallurgy/cr01_the_steel_age"
+    }
+  ]
+}

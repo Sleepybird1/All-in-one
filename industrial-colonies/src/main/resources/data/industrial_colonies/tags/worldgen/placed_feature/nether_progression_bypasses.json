@@ -1,0 +1,74 @@
+{
+  "replace": false,
+  "values": [
+    "#industrial_colonies:geology/default_ore_features",
+    {
+      "id": "allthemodium:vibranium_ore",
+      "required": false
+    },
+    {
+      "id": "createmetallurgy:wolframite_ore",
+      "required": false
+    },
+    {
+      "id": "createreautomated:nether_gold_node_placed",
+      "required": false
+    },
+    {
+      "id": "industrial_colonies:geology/regions_unexplored",
+      "required": false
+    },
+    {
+      "id": "minecraft:ore_gold_deltas",
+      "required": false
+    },
+    {
+      "id": "minecraft:ore_gold_nether",
+      "required": false
+    },
+    {
+      "id": "modernfoundry:cobalt_ore_large",
+      "required": false
+    },
+    {
+      "id": "modernfoundry:cobalt_ore_small",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:nether/large_pointed_redstone",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:nether/pointed_redstone",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:nether/pointed_redstone_cluster",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:patch/redstone_bud",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:patch/redstone_bulb",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:special/large_pointed_redstone",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:special/ore_redstone_large",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:special/pointed_redstone",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:special/pointed_redstone_cluster",
+      "required": false
+    }
+  ]
+}

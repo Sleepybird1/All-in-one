@@ -1,0 +1,139 @@
+// Final development-only layer. Apply after the staged geology-smoke.init.gradle
+// and terrain-smoke.init.gradle; do not also apply the separate controlled/trace/oil layers.
+// Seven tests: four candidate tests, controlled placement, trace/depth regression, native oil.
+// Historical final-a1 mistake: TerrainGameTests explicitly used industrial_colonies
+// as its template namespace, so the first combined attempt selected eight tests.
+// The inherited report property overwrote historical terrain-report-a.json. Do not
+// treat that current file as the original failed A/B report; fixed1 reports remain
+// preserved. This corrected layer requires the dedicated ic_terrain_smoke alias,
+// checks source selection, and reserves a unique defensive terrain report per run.
+// Use a fresh revision (a2 or later); do not reuse the generated final-a1 world.
+gradle.projectsEvaluated {
+    def p = gradle.rootProject
+    def stage = p.file('isolated-runtime/geology-gametest-20260909-001051-895').canonicalFile
+    def revision = (p.findProperty('finalRevision') ?: 'a1').toString()
+    if (!(revision ==~ /[a-z0-9][a-z0-9-]*/)) throw new GradleException('Invalid finalRevision')
+    def universe = new File(stage, 'final-acceptance-worlds').canonicalFile
+    def world = new File(universe, 'final-' + revision).canonicalFile
+    def reports = ['controlled', 'trace', 'oil'].collectEntries { suite ->
+        [(suite): new File(stage, 'final-' + suite + '-' + revision + '.json').canonicalFile]
+    }
+    def unexpectedTerrain = new File(stage, 'final-unexpected-terrain-' + revision + '.json').canonicalFile
+    def enabledNamespaces = ['industrial_colonies', 'ic_controlled_smoke', 'ic_trace_smoke', 'ic_oil_smoke']
+    if (!world.toPath().startsWith(stage.toPath())
+            || reports.values().any { !it.toPath().startsWith(stage.toPath()) })
+        throw new GradleException('Final acceptance fixture/report escapes the isolated stage')
+
+    def candidate = new File(stage, 'mods/industrial_colonies-0.4.0.jar')
+    def expectedCandidate = '5A4CCD0BA37629225EE88996281FCA7F1A1B704E9E1EE5DC712ECB363EEFFFBA'
+    def verifyCandidate = {
+        if (!candidate.isFile()) throw new GradleException('Missing staged final candidate: ' + candidate)
+        def actual = java.security.MessageDigest.getInstance('SHA-256').digest(candidate.bytes).encodeHex().toString().toUpperCase(java.util.Locale.ROOT)
+        if (actual != expectedCandidate || candidate.length() != 1695276L)
+            throw new GradleException('Staged candidate differs from the fixed final acceptance build: ' + actual)
+    }
+    // Static preflight complements, not replaces, the actual server's seven-test count.
+    // Explicit templateNamespace overrides @GameTestHolder for NeoForge selection.
+    def verifyTemplateSelection = {
+        def files = [
+            'src/main/java/dev/godpc/industrialcolonies/geology/GeologyGameTests.java',
+            'tools/terrain-smoke/src/dev/godpc/industrialcolonies/terraincheck/ControlledGeologyGameTests.java',
+            'tools/terrain-smoke/src/dev/godpc/industrialcolonies/terraincheck/TraceGameTests.java',
+            'tools/terrain-smoke/src/dev/godpc/industrialcolonies/terraincheck/TerrainGameTests.java',
+            'tools/oil-smoke/src/dev/godpc/industrialcolonies/oilcheck/OilGameTests.java'
+        ]
+        int selected = 0
+        files.each { path ->
+            def source = p.file(path).getText('UTF-8')
+            def holder = source =~ /@GameTestHolder\s*\(\s*"([^"]+)"\s*\)/
+            if (!holder.find()) throw new GradleException('Missing test holder in ' + path)
+            def defaultNamespace = holder.group(1)
+            def annotations = source =~ /(?s)@GameTest\s*\((.*?)\)/
+            while (annotations.find()) {
+                def explicit = annotations.group(1) =~ /templateNamespace\s*=\s*"([^"]+)"/
+                def namespace = explicit.find() ? explicit.group(1) : defaultNamespace
+                if (path.endsWith('/TerrainGameTests.java') && namespace != 'ic_terrain_smoke')
+                    throw new GradleException('Natural terrain test must use its isolated template namespace')
+                if (enabledNamespaces.contains(namespace)) selected++
+            }
+        }
+        if (selected != 7) throw new GradleException('Expected seven selected final tests, found ' + selected)
+    }
+    def ensureFresh = {
+        if (['level.dat', 'level.dat_old', 'region', 'entities', 'poi', 'dimensions', 'data'].any {
+                new File(world, it).exists()
+            } || reports.values().any { it.exists() } || unexpectedTerrain.exists())
+            throw new GradleException('Refusing generated final world/report reuse; choose a new -PfinalRevision: ' + world)
+        verifyCandidate()
+        verifyTemplateSelection()
+    }
+    def fixture = p.tasks.register('prepareFinalAcceptanceFixture') {
+        doLast {
+            ensureFresh()
+            p.copy {
+                from p.file('tools/terrain-smoke/world-template')
+                into new File(world, 'datapacks/ic_normal_terrain')
+            }
+        }
+    }
+
+    def neoForge = p.extensions.getByName('neoForge')
+    def terrainSourceSet = p.sourceSets.getByName('terrainSmoke')
+    def terrainAddon = neoForge.mods.getByName('ic_terrain_smoke')
+    // Template namespaces, not just @GameTestHolder values, control NeoForge selection.
+    p.tasks.named(terrainSourceSet.processResourcesTaskName) {
+        ['ic_controlled_smoke', 'ic_trace_smoke'].each { namespace ->
+            from(p.file('src/main/resources/data/industrial_colonies/structure/geology_smoke_empty.nbt')) {
+                into 'data/' + namespace + '/structure'
+            }
+        }
+    }
+
+    // Same source/resource/dependency registration as tools/oil-smoke/oil-smoke.init.gradle.
+    def ss = p.sourceSets.create('oilSmoke')
+    ss.java.setSrcDirs([p.file('tools/oil-smoke/src')])
+    ss.resources.setSrcDirs([p.file('tools/oil-smoke/resources')])
+    p.tasks.named(ss.processResourcesTaskName) {
+        from(p.file('src/main/resources/data/industrial_colonies/structure/geology_smoke_empty.nbt')) {
+            into 'data/ic_oil_smoke/structure'
+        }
+    }
+    neoForge.addModdingDependenciesTo(ss)
+    p.dependencies.add(ss.compileOnlyConfigurationName, p.files(
+        candidate,
+        new File(stage, 'mods/tfmg-1.2.0.jar'),
+        p.file('libs/create-1.21.1-6.0.10.jar'),
+        p.file('build/generated/compile-jars/ponder-neoforge-1.0.82+mc1.21.1.jar')
+    ))
+    p.dependencies.add(ss.runtimeOnlyConfigurationName, 'net.neoforged:DevLaunch:1.0.2')
+    p.tasks.named(ss.compileJavaTaskName) {
+        options.encoding = 'UTF-8'
+        options.fork = true
+        options.forkOptions.executable = p.javaToolchains.compilerFor {
+            languageVersion = org.gradle.jvm.toolchain.JavaLanguageVersion.of(21)
+        }.get().executablePath.asFile.absolutePath
+    }
+    def oilAddon = neoForge.mods.create('ic_oil_smoke')
+    oilAddon.sourceSet(ss)
+
+    def run = neoForge.runs.getByName('gameTestServer')
+    run.sourceSet.set(terrainSourceSet)
+    run.loadedMods.set([terrainAddon, oilAddon])
+    run.systemProperty('neoforge.enabledGameTestNamespaces', enabledNamespaces.join(','))
+    reports.each { suite, report -> run.systemProperty('ic.' + suite + '.report', report.absolutePath) }
+    // Never let an accidental future selector regression overwrite natural A/B evidence.
+    run.systemProperty('ic.terrain.report', unexpectedTerrain.absolutePath)
+    run.systemProperty('ic.terrain.reverse', 'false')
+    run.programArguments.set([
+        '--nogui', '--allowUpdates', 'false',
+        '--universe', universe.absolutePath,
+        '--world', world.name
+    ])
+    // Test cases execute on the server thread. Controlled/trace restore before yielding;
+    // oil mutates and cleans its remote well in one callback. No global config is changed.
+    p.tasks.named('runGameTestServer') {
+        dependsOn fixture
+        dependsOn p.tasks.named(terrainSourceSet.classesTaskName), p.tasks.named(ss.classesTaskName)
+        doFirst { ensureFresh() }
+    }
+}

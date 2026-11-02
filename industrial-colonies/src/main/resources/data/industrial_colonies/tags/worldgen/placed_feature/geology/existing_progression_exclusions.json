@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "bigreactors:yellorite_ore",
+      "required": false
+    },
+    {
+      "id": "bigreactors:yellorite_deepslate_ore",
+      "required": false
+    },
+    {
+      "id": "allthemodium:allthemodium_ore",
+      "required": false
+    }
+  ]
+}

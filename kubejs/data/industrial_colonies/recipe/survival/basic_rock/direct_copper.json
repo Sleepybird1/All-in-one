@@ -1,0 +1,13 @@
+{
+  "type": "modernfoundry:melting",
+  "ingredient": {
+    "item": "industrial_colonies:chalcopyrite"
+  },
+  "result": {
+    "tag": "c:molten_copper",
+    "amount": 4
+  },
+  "temperature": 500,
+  "time": 80,
+  "id": "industrial_colonies:survival/basic_rock/direct_copper"
+}

@@ -106,9 +106,6 @@
   "createlowheated": {
     "basic_burner_info": true
   },
-  "betternether": {
-    "plant_growth": true
-  },
   "mekanism": {
     "chemical": true,
     "remove_builtin": true,
@@ -121,9 +118,6 @@
   },
   "gravestone": {
     "grave": true
-  },
-  "exposure_space": {
-    "analyzer": true
   },
   "appliedcreate": {
     "grid_node_state": true,
@@ -146,6 +140,12 @@
   "apotheosis": {
     "adventure": true
   },
+  "iceandfire": {
+    "dragon_egg_entity": true,
+    "multipart": true,
+    "dragon": true,
+    "dragon_egg_block": true
+  },
   "apothic_enchanting": {
     "ench": true
   },
@@ -159,10 +159,15 @@
     "lightroom": true,
     "photograph_frame": true
   },
-  "betterend": {
-    "plant_growth": true
+  "industrial_colonies_natural_trees": {
+    "resin_pump": true,
+    "natural_tree": true
   },
   "supplementaries": {
     "hat_stand": true
+  },
+  "item_descriptions": {
+    "block_descriptions": true,
+    "entity_descriptions": true
   }
 }

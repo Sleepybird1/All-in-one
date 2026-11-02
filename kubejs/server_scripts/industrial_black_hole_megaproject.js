@@ -1,10 +1,12 @@
+// Original recipe review: registrations retained below, temporarily inactive.
+function IC_originalRecipeReview_skip() {}
 // Industrial Colonies - post-nuclear Black Hole megaproject
 //
 // Each input is the highest (9x) AllTheCompressed tier of a factory-renewable
 // bulk material. The recipe intentionally stays a normal 3x3 crafting grid:
 // the difficulty is producing the mass, not finding a special workstation.
 
-ServerEvents.recipes(event => {
+IC_originalRecipeReview_skip(event => {
   event.shaped(
     Item.of('industrial_colonies:black_hole'),
     [

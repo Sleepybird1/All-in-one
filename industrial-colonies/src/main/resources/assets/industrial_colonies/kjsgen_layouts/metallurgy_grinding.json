@@ -1,0 +1,50 @@
+{
+  "id": "industrial_colonies:metallurgy_grinding",
+  "jei": "createmetallurgy:grinding",
+  "mod": "createmetallurgy",
+  "icon": "createmetallurgy:mechanical_belt_grinder",
+  "width": 176,
+  "height": 64,
+  "slots": [
+    {
+      "key": "ingredients",
+      "role": "INPUT",
+      "x": 0,
+      "y": 4,
+      "required": true,
+      "item": true,
+      "tag": true,
+      "fluid": false,
+      "count": true,
+      "list": true
+    },
+    {
+      "key": "results",
+      "role": "OUTPUT",
+      "x": 116,
+      "y": 4,
+      "required": true,
+      "item": true,
+      "fluid": false,
+      "count": true,
+      "chance": true,
+      "list": true
+    }
+  ],
+  "decorations": [
+    {
+      "type": "ARROW",
+      "x": 78,
+      "y": 20
+    }
+  ],
+  "parameters": [
+    {
+      "key": "processingTime",
+      "type": "INT",
+      "default": "100"
+    }
+  ],
+  "codegen": "industrial_colonies:metallurgy",
+  "requiresMod": "createmetallurgy"
+}

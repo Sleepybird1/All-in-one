@@ -1,0 +1,63 @@
+===========================
+README - Guia de Uso do Mod
+===========================
+
+📂 Estrutura
+------------
+A pasta "MustJS" contém todas as funções necessárias.
+- Use apenas como biblioteca para criar suas receitas.
+- NÃO edite diretamente, pois ela é atualizada várias vezes durante a gameplay.
+
+🛠️ Criando Novas Receitas
+--------------------------
+Para iniciar um novo evento de receitas, gere um novo arquivo .js e utilize:
+
+ServerEvents.recipes(event => {
+    // suas receitas aqui
+})
+
+IMPORTANTE: As funções de geração de receitas precisam que o "event" seja enviado para funcionar corretamente.
+
+📜 Lista de Funções
+-------------------
+
+=== CreateBaseFunctions ===
+- compacting (e, output, inputs, heat)
+- crushing (e, output, input, time)
+- cutting (e, output, input, time)
+- deploying (e, output, held, base, keep)
+- emptying (e, output_item, output_fluid, input)
+- filling (e, output, input, fluid)
+- haunting (e, output, input)
+- item_application (e, output, input_block, input_item)
+- mechanical_crafting (e, output, input, pattern)
+- milling (e, output, input, time)
+- mixing (e, output, input, heat)
+- pressing (e, output, input)
+- polishing (e, output, input)
+- splashing (e, output, input)
+- sequenced_assembly (e, output, input, transitional, loops, processing)
+
+=== Auxiliary processing for sequenced assembly ===
+- cuttingS (output, input, time)
+- deployingS (output, held, base, keep)
+- fillingS (output, input, fluid)
+- pressingS (output, input)
+
+=== FluidManipulator ===
+- fluidOutput (fluid_id, fluid_amount)
+- fluidInput (fluid_id, fluid_amount)
+
+=== ItemManipulator ===
+- itemOutput (id)
+- itemOutputStack (id, count)
+- itemOutputChance (id, chance)
+- itemOutputChanceStack (id, chance, count)
+- itemInput (item)
+- itemInputTag (tag)
+- itemInputKey (symbol, id)
+- itemInputTagKey (symbol, tag)
+
+===========================
+Fim do README
+===========================

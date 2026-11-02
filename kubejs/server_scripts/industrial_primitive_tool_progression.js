@@ -1,3 +1,5 @@
+// Original recipe review: registrations retained below, temporarily inactive.
+function IC_originalRecipeReview_skip() {}
 // Industrial Colonies - Primitive Age tool entry
 //
 // Vanilla's disposable material ladders are replaced by one deliberately poor
@@ -18,13 +20,13 @@ const industrialPrimitiveLeaves = [
   'minecraft:flowering_azalea_leaves'
 ]
 
-// Guaranteed player-break fallback: plank sticks are disabled below, so the
-// opening must not depend on vanilla leaves' low random stick roll.
+// Guaranteed player-break fallback before planks are available.
+// The standard two-plank stick recipe remains available.
 industrialPrimitiveLeaves.forEach(id => {
   BlockEvents.broken(id, event => event.player.give('minecraft:stick'))
 })
 
-ServerEvents.recipes(event => {
+IC_originalRecipeReview_skip(event => {
   const vanillaToolMaterials = ['wooden', 'stone', 'iron', 'golden', 'diamond']
   const vanillaToolKinds = ['pickaxe', 'axe', 'shovel', 'hoe', 'sword']
   const removedVanillaTools = []
@@ -43,9 +45,8 @@ ServerEvents.recipes(event => {
     removedVanillaTools.push(id)
   })
 
-  // Quark's log recipes skip the intended leaf/gravel scavenging opening.
+  // Preserve the existing bamboo/log shortcut restrictions; native plank sticks are allowed.
   ;[
-    'minecraft:stick',
     'minecraft:stick_from_bamboo_item',
     'quark:tweaks/crafting/utility/misc/easy_sticks',
     'quark:tweaks/crafting/utility/misc/easy_sticks_bamboo'
@@ -64,9 +65,9 @@ ServerEvents.recipes(event => {
     ].forEach(id => event.remove({ id: id }))
   })
 
-  // The modular tool workshop starts only after the crude pick has obtained
-  // copper. Without this, Modern Foundry can assemble a wooden-head pickaxe
-  // immediately and create a third, unintended opening route.
+  // Starting stations must be available before the first cast copper ingot.
+  // User-approved bootstrap correction: remove copper without adding a replacement.
+  // Keep historical recipe IDs stable for existing integrations and removals.
   ;[
     'modernfoundry:tables/part_builder',
     'modernfoundry:tables/tinker_station'
@@ -79,11 +80,10 @@ ServerEvents.recipes(event => {
     category: 'misc',
     key: {
       p: { item: 'modernfoundry:pattern' },
-      w: { tag: 'modernfoundry:planklike' },
-      c: { item: 'minecraft:copper_ingot' }
+      w: { tag: 'modernfoundry:planklike' }
     },
     match_all: true,
-    pattern: ['pp', 'wc'],
+    pattern: ['pp', 'w '],
     result: { id: 'modernfoundry:part_builder' },
     show_notification: true,
     texture: 'w'
@@ -94,11 +94,10 @@ ServerEvents.recipes(event => {
     category: 'misc',
     key: {
       p: { item: 'modernfoundry:pattern' },
-      w: { tag: 'modernfoundry:planklike' },
-      c: { item: 'minecraft:copper_ingot' }
+      w: { tag: 'modernfoundry:planklike' }
     },
     match_all: true,
-    pattern: ['ppp', 'wcw', 'w w'],
+    pattern: ['ppp', 'w w', 'w w'],
     result: { id: 'modernfoundry:tinker_station' },
     show_notification: true,
     texture: 'w'

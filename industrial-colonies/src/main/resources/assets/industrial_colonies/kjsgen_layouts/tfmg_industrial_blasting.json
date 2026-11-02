@@ -1,0 +1,80 @@
+{
+  "id": "industrial_colonies:tfmg_industrial_blasting",
+  "mod": "tfmg",
+  "icon": "tfmg:blast_furnace_output",
+  "width": 190,
+  "height": 178,
+  "slots": [
+    {
+      "key": "input1",
+      "role": "INPUT",
+      "x": 25,
+      "y": 13,
+      "required": true,
+      "item": true,
+      "tag": true,
+      "count": true
+    },
+    {
+      "key": "input2",
+      "role": "INPUT",
+      "x": 5,
+      "y": 13,
+      "required": false,
+      "item": true,
+      "tag": true,
+      "count": true
+    },
+    {
+      "key": "output1",
+      "role": "OUTPUT",
+      "x": 140,
+      "y": 117,
+      "required": true,
+      "fluid": true
+    },
+    {
+      "key": "output2",
+      "role": "OUTPUT",
+      "x": 160,
+      "y": 117,
+      "required": true,
+      "fluid": true
+    },
+    {
+      "key": "output3",
+      "role": "OUTPUT",
+      "x": 140,
+      "y": 150,
+      "required": false,
+      "fluid": true
+    }
+  ],
+  "decorations": [
+    {
+      "type": "TEXT",
+      "x": 160,
+      "y": 154,
+      "text": "Gas"
+    }
+  ],
+  "parameters": [
+    {
+      "key": "processingTime",
+      "type": "INT",
+      "default": "200"
+    },
+    {
+      "key": "hotAirUsage",
+      "type": "INT",
+      "default": "20"
+    },
+    {
+      "key": "__template",
+      "type": "STRING",
+      "default": "event.recipes.tfmg.industrial_blasting([{inputs}], [{outputs}], {param:processingTime}).hotAirUsage({param:hotAirUsage})"
+    }
+  ],
+  "codegen": "kjsgen:template",
+  "requiresMod": "tfmg"
+}

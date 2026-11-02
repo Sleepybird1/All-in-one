@@ -1,0 +1,6 @@
+{
+  "enabled": true,
+  "maximumDistance": 2000,
+  "note": "Ordinary matching clues within2000 horizontal blocks; cinnabar within4000. Clues use stone surfaces at any valid world height, without deposit mountain/Y200..300 restrictions. Historical actual source observations only; no ore-stock guarantee or terrain scans.",
+  "cinnabarMaximumDistance": 4000
+}

@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "industrial_colonies:diamond_ore",
+    "industrial_colonies:cobalt_ore",
+    "industrial_colonies:uraninite",
+    "industrial_colonies:thorium_ore"
+  ]
+}

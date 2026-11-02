@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:shipwreck",
+  "biomes": {
+    "type": "neoforge:and",
+    "values": [
+      "#minecraft:has_structure/shipwreck",
+      "#minecraft:is_overworld"
+    ]
+  },
+  "is_beached": false,
+  "spawn_overrides": {},
+  "step": "surface_structures"
+}

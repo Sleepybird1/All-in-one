@@ -1,7 +1,9 @@
+// Original recipe review: show registered alternatives.
+function IC_originalRecipeReview_skip() {}
 // Hide registered legacy petroleum entries after their survival production
 // paths have been disabled. The registry objects remain for world-save safety.
 
-RecipeViewerEvents.removeEntries('fluid', event => {
+IC_originalRecipeReview_skip('fluid', event => {
   ;[
     'createdieselgenerators:crude_oil',
     'createdieselgenerators:diesel',
@@ -10,7 +12,7 @@ RecipeViewerEvents.removeEntries('fluid', event => {
   ].forEach(fluid => event.remove(fluid))
 })
 
-RecipeViewerEvents.removeEntries('item', event => {
+IC_originalRecipeReview_skip('item', event => {
   ;[
     'createdieselgenerators:crude_oil_bucket',
     'createdieselgenerators:diesel_bucket',

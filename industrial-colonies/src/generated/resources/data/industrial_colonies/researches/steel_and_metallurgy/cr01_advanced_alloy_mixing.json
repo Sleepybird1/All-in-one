@@ -1,0 +1,30 @@
+{
+  "branch": "industrial_colonies:tech_tree",
+  "costs": [
+    {
+      "item": "tfmg:sulfuric_acid_bucket",
+      "count": 4
+    },
+    {
+      "item": "tfmg:steel_chemical_vat",
+      "count": 2
+    },
+    {
+      "item": "tfmg:steel_ingot",
+      "count": 12
+    }
+  ],
+  "icon": "createmetallurgy:industrial_crucible",
+  "name": "com.industrial_colonies.research.steel_and_metallurgy.cr01_advanced_alloy_mixing.name",
+  "no-reset": true,
+  "researchLevel": 4,
+  "sortOrder": 10120,
+  "subtitle": "com.industrial_colonies.research.steel_and_metallurgy.cr01_advanced_alloy_mixing.subtitle",
+  "parentResearch": "industrial_colonies:steel_and_metallurgy/cr01_chemical_processing",
+  "requirements": [
+    {
+      "type": "minecolonies:research",
+      "research": "industrial_colonies:steel_and_metallurgy/cr01_chemical_processing"
+    }
+  ]
+}

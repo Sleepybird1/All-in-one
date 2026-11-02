@@ -1,0 +1,30 @@
+{
+  "branch": "industrial_colonies:tech_tree",
+  "costs": [
+    {
+      "item": "mekanism:basic_tier_installer",
+      "count": 2
+    },
+    {
+      "item": "mekanism:basic_control_circuit",
+      "count": 8
+    },
+    {
+      "item": "tfmg:steel_frame",
+      "count": 8
+    }
+  ],
+  "icon": "mekanism:advanced_tier_installer",
+  "name": "com.industrial_colonies.research.factory_engineering.cr01_reinforced_systems.name",
+  "no-reset": true,
+  "researchLevel": 5,
+  "sortOrder": 10310,
+  "subtitle": "com.industrial_colonies.research.factory_engineering.cr01_reinforced_systems.subtitle",
+  "parentResearch": "industrial_colonies:factory_engineering/cr01_modular_machinery",
+  "requirements": [
+    {
+      "type": "minecolonies:research",
+      "research": "industrial_colonies:factory_engineering/cr01_modular_machinery"
+    }
+  ]
+}

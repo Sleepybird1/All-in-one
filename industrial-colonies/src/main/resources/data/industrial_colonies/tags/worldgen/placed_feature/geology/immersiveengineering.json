@@ -1,0 +1,33 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "immersiveengineering:bauxite",
+      "required": false
+    },
+    {
+      "id": "immersiveengineering:deep_nickel",
+      "required": false
+    },
+    {
+      "id": "immersiveengineering:lead",
+      "required": false
+    },
+    {
+      "id": "immersiveengineering:nickel",
+      "required": false
+    },
+    {
+      "id": "immersiveengineering:silver",
+      "required": false
+    },
+    {
+      "id": "immersiveengineering:uranium",
+      "required": false
+    },
+    {
+      "id": "immersiveengineering:mineral_veins",
+      "required": false
+    }
+  ]
+}

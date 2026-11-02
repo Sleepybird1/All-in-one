@@ -1,0 +1,48 @@
+[
+  {
+    "id": "tfmg:filling/carbon_dioxide_tank",
+    "recipeClass": "com.simibubi.create.content.fluids.transfer.FillingRecipe",
+    "beforeSHA256": "c71e355c394bb0f6711603824d4c2b6f44c0b067ff919fbb2ebcb5f3161a1f7f",
+    "field": "ingredients",
+    "index": 1,
+    "input": {
+      "type": "neoforge:single",
+      "fluid": "tfmg:carbon_dioxide",
+      "amount": 1000
+    }
+  },
+  {
+    "id": "tfmg:filling/filled_fire_extinguisher",
+    "recipeClass": "com.simibubi.create.content.fluids.transfer.FillingRecipe",
+    "beforeSHA256": "50a7588790581cc57b86fbfa57b158414eb32811c36246df7252eaf654f47702",
+    "field": "ingredients",
+    "index": 1,
+    "input": {
+      "type": "neoforge:single",
+      "fluid": "tfmg:carbon_dioxide",
+      "amount": 1000
+    }
+  },
+  {
+    "id": "nuclearcraft:centrifuge/carbon_dioxide",
+    "recipeClass": "igentuman.nc.recipe.UniversalProcessorRecipe",
+    "beforeSHA256": "6a5d3a265d1726231216d94fe600f3ed3aa7af76b84231d5e42cfcbd6ac64284",
+    "field": "fluid_inputs",
+    "index": 0,
+    "input": {
+      "fluid": "tfmg:carbon_dioxide",
+      "amount": 1000
+    }
+  },
+  {
+    "id": "nuclearcraft:chemical_reactor/carbon_shift",
+    "recipeClass": "igentuman.nc.recipe.UniversalProcessorRecipe",
+    "beforeSHA256": "99147749113501f1435f6418a8ed27c557be12461c0a6047114509bb2746bc30",
+    "field": "fluid_inputs",
+    "index": 0,
+    "input": {
+      "fluid": "tfmg:carbon_dioxide",
+      "amount": 250
+    }
+  }
+]

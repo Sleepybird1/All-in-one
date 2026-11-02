@@ -1,0 +1,4202 @@
+{
+  "schema_version": 1,
+  "branch": "industrial_colonies:tech_tree",
+  "drawio_source_sha256": "d941f52c1bdd8e0ab2fd30011a48b339abc526524cb6a3e314493e60a59560b5",
+  "rendered_svg_sha256": "8f7749d4d9c79b625a3f23e68e79a532e7de5467e8ed59e945c9de62f60bbcf2",
+  "canvas": {
+    "width": 5364,
+    "height": 1023
+  },
+  "scale": 0.6,
+  "margin": 24,
+  "node_width": 175,
+  "node_height": 50,
+  "nodes": [
+    {
+      "research": "industrial_colonies:mechanical_foundations/cr01_we_dont_read_manuals",
+      "drawio_id": "QKQJw9uIXbZkpuNljyOK-2",
+      "label": "CR01 — We Don’t Read Manuals",
+      "x": 45,
+      "y": 227,
+      "center_x": 132,
+      "center_y": 252
+    },
+    {
+      "research": "industrial_colonies:mechanical_foundations/the_andesite_age",
+      "drawio_id": "sv5Kl_QyDaTnQ6QyCYRa-1",
+      "label": "CR01 -- The Andesite Age",
+      "x": 313,
+      "y": 227,
+      "center_x": 400,
+      "center_y": 252
+    },
+    {
+      "research": "industrial_colonies:mechanical_foundations/cr01_liquid_tech",
+      "drawio_id": "sv5Kl_QyDaTnQ6QyCYRa-3",
+      "label": "CR01 — Liquid Tech",
+      "x": 584,
+      "y": 154,
+      "center_x": 671,
+      "center_y": 179
+    },
+    {
+      "research": "industrial_colonies:mechanical_foundations/the_brass_age",
+      "drawio_id": "sv5Kl_QyDaTnQ6QyCYRa-2",
+      "label": "CR03 -- The Brass Age",
+      "x": 584,
+      "y": 227,
+      "center_x": 671,
+      "center_y": 252
+    },
+    {
+      "research": "industrial_colonies:mechanical_foundations/cr01_mechanical_technology",
+      "drawio_id": "sv5Kl_QyDaTnQ6QyCYRa-4",
+      "label": "CR01 — Mechanical Technology",
+      "x": 584,
+      "y": 300,
+      "center_x": 671,
+      "center_y": 325
+    },
+    {
+      "research": "industrial_colonies:mechanical_foundations/cr01_advanced_redstone",
+      "drawio_id": "sv5Kl_QyDaTnQ6QyCYRa-5",
+      "label": "CR01 — Advanced Redstone",
+      "x": 584,
+      "y": 373,
+      "center_x": 671,
+      "center_y": 398
+    },
+    {
+      "research": "industrial_colonies:mechanical_foundations/cr01_advanced_storage_technology",
+      "drawio_id": "sv5Kl_QyDaTnQ6QyCYRa-18",
+      "label": "CR01 — Advanced Storage Technology",
+      "x": 834,
+      "y": 19,
+      "center_x": 921,
+      "center_y": 44
+    },
+    {
+      "research": "industrial_colonies:mechanical_foundations/cr01_storage_technology",
+      "drawio_id": "sv5Kl_QyDaTnQ6QyCYRa-9",
+      "label": "CR01 — Storage Technology",
+      "x": 834,
+      "y": 154,
+      "center_x": 921,
+      "center_y": 179
+    },
+    {
+      "research": "industrial_colonies:mechanical_foundations/cr01_advanced_mechanical_technology",
+      "drawio_id": "sv5Kl_QyDaTnQ6QyCYRa-6",
+      "label": "CR01 — Advanced Mechanical Technology",
+      "x": 834,
+      "y": 300,
+      "center_x": 921,
+      "center_y": 325
+    },
+    {
+      "research": "industrial_colonies:steam_and_rail/cr01_cart_technology",
+      "drawio_id": "sv5Kl_QyDaTnQ6QyCYRa-17",
+      "label": "CR01 — Cart Technology",
+      "x": 1084,
+      "y": 19,
+      "center_x": 1171,
+      "center_y": 44
+    },
+    {
+      "research": "industrial_colonies:steam_and_rail/cr01_train_power",
+      "drawio_id": "sv5Kl_QyDaTnQ6QyCYRa-16",
+      "label": "CR01 — Train Power",
+      "x": 1084,
+      "y": 87,
+      "center_x": 1171,
+      "center_y": 112
+    },
+    {
+      "research": "industrial_colonies:steam_and_rail/cr01_steam_power",
+      "drawio_id": "sv5Kl_QyDaTnQ6QyCYRa-10",
+      "label": "CR01 — Steam Power",
+      "x": 1084,
+      "y": 154,
+      "center_x": 1171,
+      "center_y": 179
+    },
+    {
+      "research": "industrial_colonies:mechanical_foundations/cr01_early_crushing_technology",
+      "drawio_id": "sv5Kl_QyDaTnQ6QyCYRa-8",
+      "label": "CR01 — Early Crushing Technology",
+      "x": 1084,
+      "y": 300,
+      "center_x": 1171,
+      "center_y": 325
+    },
+    {
+      "research": "industrial_colonies:petroleum_and_engines/cr01_oil_processing",
+      "drawio_id": "sv5Kl_QyDaTnQ6QyCYRa-11",
+      "label": "CR01 — Oil processing",
+      "x": 1334,
+      "y": 162,
+      "center_x": 1421,
+      "center_y": 187
+    },
+    {
+      "research": "industrial_colonies:steel_and_metallurgy/cr01_the_steel_age",
+      "drawio_id": "sv5Kl_QyDaTnQ6QyCYRa-13",
+      "label": "CR01 — The Steel Age",
+      "x": 1334,
+      "y": 226,
+      "center_x": 1421,
+      "center_y": 251
+    },
+    {
+      "research": "industrial_colonies:industrial_electronics/cr01_early_electricity_technology",
+      "drawio_id": "sv5Kl_QyDaTnQ6QyCYRa-19",
+      "label": "CR01 — Early Electricity Technology",
+      "x": 1334,
+      "y": 374,
+      "center_x": 1421,
+      "center_y": 399
+    },
+    {
+      "research": "industrial_colonies:industrial_electronics/cr01_electronics_manufacturing",
+      "drawio_id": "sv5Kl_QyDaTnQ6QyCYRa-20",
+      "label": "CR01 — Electronics Manufacturing",
+      "x": 1334,
+      "y": 440,
+      "center_x": 1421,
+      "center_y": 465
+    },
+    {
+      "research": "industrial_colonies:electrical_grid/cr01_early_power_cables",
+      "drawio_id": "2ABv8Bv4OHED41jCkFc--70",
+      "label": "CR01 — Early Power Cables",
+      "x": 1580,
+      "y": 374,
+      "center_x": 1667,
+      "center_y": 399
+    },
+    {
+      "research": "industrial_colonies:industrial_electronics/cr01_early_circuitry",
+      "drawio_id": "sv5Kl_QyDaTnQ6QyCYRa-21",
+      "label": "CR01 — Early Circuitry",
+      "x": 1580,
+      "y": 440,
+      "center_x": 1667,
+      "center_y": 465
+    },
+    {
+      "research": "industrial_colonies:industrial_electronics/cr01_advanced_electronics_manufacturing",
+      "drawio_id": "sv5Kl_QyDaTnQ6QyCYRa-22",
+      "label": "CR01 — Advanced Electronics Manufacturing",
+      "x": 1580,
+      "y": 814,
+      "center_x": 1667,
+      "center_y": 839
+    },
+    {
+      "research": "industrial_colonies:steel_and_metallurgy/cr01_blast_furnace",
+      "drawio_id": "sv5Kl_QyDaTnQ6QyCYRa-14",
+      "label": "CR01 — Blast Furnace",
+      "x": 1726,
+      "y": 226,
+      "center_x": 1813,
+      "center_y": 251
+    },
+    {
+      "research": "industrial_colonies:electrical_grid/cr01_grid_engineering",
+      "drawio_id": "oai-staging-grid-engineering",
+      "label": "CR01 — Grid Engineering",
+      "x": 1805,
+      "y": 440,
+      "center_x": 1892,
+      "center_y": 465
+    },
+    {
+      "research": "industrial_colonies:industrial_electronics/cr01_advanced_circuitry",
+      "drawio_id": "sv5Kl_QyDaTnQ6QyCYRa-24",
+      "label": "CR01 — Advanced Circuitry",
+      "x": 1826,
+      "y": 814,
+      "center_x": 1913,
+      "center_y": 839
+    },
+    {
+      "research": "industrial_colonies:factory_engineering/cr01_early_electronics",
+      "drawio_id": "sv5Kl_QyDaTnQ6QyCYRa-23",
+      "label": "CR01 — Early Electronics",
+      "x": 1828,
+      "y": 739,
+      "center_x": 1915,
+      "center_y": 764
+    },
+    {
+      "research": "industrial_colonies:factory_engineering/cr01_control_electronics",
+      "drawio_id": "oai-staging-control-electronics",
+      "label": "CR01 — Control Electronics",
+      "x": 1936,
+      "y": 671,
+      "center_x": 2023,
+      "center_y": 696
+    },
+    {
+      "research": "industrial_colonies:petroleum_and_engines/cr01_early_combusion_engines",
+      "drawio_id": "2ABv8Bv4OHED41jCkFc--32",
+      "label": "CR01 — Early Combusion Engines",
+      "x": 1984,
+      "y": 162,
+      "center_x": 2071,
+      "center_y": 187
+    },
+    {
+      "research": "industrial_colonies:steel_and_metallurgy/cr01_chemical_processing",
+      "drawio_id": "sv5Kl_QyDaTnQ6QyCYRa-15",
+      "label": "CR01 — Chemical Processing",
+      "x": 1984,
+      "y": 226,
+      "center_x": 2071,
+      "center_y": 251
+    },
+    {
+      "research": "industrial_colonies:steel_and_metallurgy/cr01_advanced_alloy_mixing",
+      "drawio_id": "2ABv8Bv4OHED41jCkFc--48",
+      "label": "CR01 — Advanced Alloy Mixing",
+      "x": 1984,
+      "y": 379,
+      "center_x": 2071,
+      "center_y": 404
+    },
+    {
+      "research": "industrial_colonies:industrial_electronics/cr01_early_chips",
+      "drawio_id": "sv5Kl_QyDaTnQ6QyCYRa-25",
+      "label": "CR01 — Early Chips",
+      "x": 2071,
+      "y": 814,
+      "center_x": 2158,
+      "center_y": 839
+    },
+    {
+      "research": "industrial_colonies:digital_computing/cr01_me_system_basics",
+      "drawio_id": "sv5Kl_QyDaTnQ6QyCYRa-26",
+      "label": "CR01 — ME System Basics",
+      "x": 2071,
+      "y": 885,
+      "center_x": 2158,
+      "center_y": 910
+    },
+    {
+      "research": "industrial_colonies:factory_engineering/cr01_infusion_technology",
+      "drawio_id": "oai-staging-infusion-technology",
+      "label": "CR01 — Infusion Technology",
+      "x": 2196,
+      "y": 671,
+      "center_x": 2283,
+      "center_y": 696
+    },
+    {
+      "research": "industrial_colonies:petroleum_and_engines/cr01_sea_transport",
+      "drawio_id": "2ABv8Bv4OHED41jCkFc--23",
+      "label": "CR01 — Sea Transport",
+      "x": 2246,
+      "y": 82,
+      "center_x": 2333,
+      "center_y": 107
+    },
+    {
+      "research": "industrial_colonies:petroleum_and_engines/cr01_diesel_engines",
+      "drawio_id": "2ABv8Bv4OHED41jCkFc--35",
+      "label": "CR01 — Diesel Engines",
+      "x": 2246,
+      "y": 162,
+      "center_x": 2333,
+      "center_y": 187
+    },
+    {
+      "research": "industrial_colonies:petroleum_and_engines/cr01_diesel_processing",
+      "drawio_id": "2ABv8Bv4OHED41jCkFc--39",
+      "label": "CR01 — Diesel Processing",
+      "x": 2246,
+      "y": 226,
+      "center_x": 2333,
+      "center_y": 251
+    },
+    {
+      "research": "industrial_colonies:steel_and_metallurgy/cr01_advanced_metallurgy",
+      "drawio_id": "oai-staging-advanced-metallurgy",
+      "label": "CR01 — Advanced Metallurgy",
+      "x": 2246,
+      "y": 379,
+      "center_x": 2333,
+      "center_y": 404
+    },
+    {
+      "research": "industrial_colonies:electrical_grid/cr01_high_voltage_systems",
+      "drawio_id": "oai-staging-high-voltage-systems",
+      "label": "CR01 — High-Voltage Systems",
+      "x": 2246,
+      "y": 440,
+      "center_x": 2333,
+      "center_y": 465
+    },
+    {
+      "research": "industrial_colonies:digital_computing/cr01_advanced_processors",
+      "drawio_id": "sv5Kl_QyDaTnQ6QyCYRa-47",
+      "label": "CR01 — Advanced Processors",
+      "x": 2317,
+      "y": 814,
+      "center_x": 2404,
+      "center_y": 839
+    },
+    {
+      "research": "industrial_colonies:petroleum_and_engines/cr01_heavy_diesel_engines",
+      "drawio_id": "2ABv8Bv4OHED41jCkFc--42",
+      "label": "CR01 — Heavy Diesel Engines",
+      "x": 2498,
+      "y": 162,
+      "center_x": 2585,
+      "center_y": 187
+    },
+    {
+      "research": "industrial_colonies:steel_and_metallurgy/cr01_exotic_metallurgy",
+      "drawio_id": "oai-staging-exotic-metallurgy",
+      "label": "CR01 — Exotic Metallurgy",
+      "x": 2552,
+      "y": 379,
+      "center_x": 2639,
+      "center_y": 404
+    },
+    {
+      "research": "industrial_colonies:electrical_grid/cr01_extreme_power_transmission",
+      "drawio_id": "oai-staging-extreme-power-transmission",
+      "label": "CR01 — Extreme Power Transmission",
+      "x": 2552,
+      "y": 440,
+      "center_x": 2639,
+      "center_y": 465
+    },
+    {
+      "research": "industrial_colonies:factory_engineering/cr01_reinforced_systems",
+      "drawio_id": "oai-staging-reinforced-systems",
+      "label": "CR01 — Reinforced Systems",
+      "x": 2553,
+      "y": 493,
+      "center_x": 2640,
+      "center_y": 518
+    },
+    {
+      "research": "industrial_colonies:factory_engineering/cr01_modular_machinery",
+      "drawio_id": "oai-staging-modular-machinery",
+      "label": "CR01 — Modular Machinery",
+      "x": 2553,
+      "y": 671,
+      "center_x": 2640,
+      "center_y": 696
+    },
+    {
+      "research": "industrial_colonies:digital_computing/cr01_advanced_electronics",
+      "drawio_id": "sv5Kl_QyDaTnQ6QyCYRa-56",
+      "label": "CR01 — Advanced Electronics",
+      "x": 2553,
+      "y": 739,
+      "center_x": 2640,
+      "center_y": 764
+    },
+    {
+      "research": "industrial_colonies:digital_computing/cr01_me_system_advanced",
+      "drawio_id": "sv5Kl_QyDaTnQ6QyCYRa-59",
+      "label": "CR01 — ME System Advanced",
+      "x": 2553,
+      "y": 885,
+      "center_x": 2640,
+      "center_y": 910
+    },
+    {
+      "research": "industrial_colonies:digital_computing/cr01_early_digital_crafting",
+      "drawio_id": "sv5Kl_QyDaTnQ6QyCYRa-62",
+      "label": "CR01 — Early Digital Crafting",
+      "x": 2553,
+      "y": 953,
+      "center_x": 2640,
+      "center_y": 978
+    },
+    {
+      "research": "industrial_colonies:petroleum_and_engines/cr01_air_transport",
+      "drawio_id": "2ABv8Bv4OHED41jCkFc--46",
+      "label": "CR01 — Air Transport",
+      "x": 2749,
+      "y": 82,
+      "center_x": 2836,
+      "center_y": 107
+    },
+    {
+      "research": "industrial_colonies:petroleum_and_engines/cr01_radial_engines",
+      "drawio_id": "2ABv8Bv4OHED41jCkFc--44",
+      "label": "CR01 — Radial Engines",
+      "x": 2749,
+      "y": 162,
+      "center_x": 2836,
+      "center_y": 187
+    },
+    {
+      "research": "industrial_colonies:nuclear_engineering/cr01_yellorium_refinement",
+      "drawio_id": "oai-staging-yellorium-refinement",
+      "label": "CR01 — Yellorium Refinement",
+      "x": 2803,
+      "y": 379,
+      "center_x": 2890,
+      "center_y": 404
+    },
+    {
+      "research": "industrial_colonies:digital_logistics/cr01_early_digital_chemical_storage",
+      "drawio_id": "2ABv8Bv4OHED41jCkFc--51",
+      "label": "CR01 — Early Digital Chemical Storage",
+      "x": 2804,
+      "y": 671,
+      "center_x": 2891,
+      "center_y": 696
+    },
+    {
+      "research": "industrial_colonies:digital_logistics/cr01_advanced_perhipherals",
+      "drawio_id": "sv5Kl_QyDaTnQ6QyCYRa-63",
+      "label": "CR01 — Advanced Perhipherals",
+      "x": 2804,
+      "y": 739,
+      "center_x": 2891,
+      "center_y": 764
+    },
+    {
+      "research": "industrial_colonies:factory_engineering/cr01_electrochemical_engineering",
+      "drawio_id": "oai-staging-electrochemical-engineering",
+      "label": "CR01 — Electrochemical Engineering",
+      "x": 2806,
+      "y": 554,
+      "center_x": 2893,
+      "center_y": 579
+    },
+    {
+      "research": "industrial_colonies:digital_logistics/cr01_p2p_tunneling_technology",
+      "drawio_id": "2ABv8Bv4OHED41jCkFc--3",
+      "label": "CR01 — P2P Tunneling Technology",
+      "x": 3055,
+      "y": 676,
+      "center_x": 3142,
+      "center_y": 701
+    },
+    {
+      "research": "industrial_colonies:digital_logistics/cr01_enhanced_me_system_upgrade",
+      "drawio_id": "2ABv8Bv4OHED41jCkFc--2",
+      "label": "CR01 — Enhanced ME System Upgrade",
+      "x": 3055,
+      "y": 739,
+      "center_x": 3142,
+      "center_y": 764
+    },
+    {
+      "research": "industrial_colonies:digital_logistics/cr01_early_me_bus_technology",
+      "drawio_id": "2ABv8Bv4OHED41jCkFc--11",
+      "label": "CR01 — Early ME BUS Technology",
+      "x": 3055,
+      "y": 885,
+      "center_x": 3142,
+      "center_y": 910
+    },
+    {
+      "research": "industrial_colonies:digital_computing/cr01_advanced_digital_crafting",
+      "drawio_id": "2ABv8Bv4OHED41jCkFc--9",
+      "label": "CR01 — Advanced Digital Crafting",
+      "x": 3055,
+      "y": 953,
+      "center_x": 3142,
+      "center_y": 978
+    },
+    {
+      "research": "industrial_colonies:nuclear_engineering/cr01_the_nuclear_age",
+      "drawio_id": "oai-staging-the-nuclear-age",
+      "label": "CR01 — The Nuclear Age",
+      "x": 3305,
+      "y": 308,
+      "center_x": 3392,
+      "center_y": 333
+    },
+    {
+      "research": "industrial_colonies:factory_engineering/cr01_high_energy_distribution",
+      "drawio_id": "oai-staging-high-energy-distribution",
+      "label": "CR01 — High-Energy Distribution",
+      "x": 3305,
+      "y": 440,
+      "center_x": 3392,
+      "center_y": 465
+    },
+    {
+      "research": "industrial_colonies:factory_engineering/cr01_precision_engineering",
+      "drawio_id": "oai-staging-precision-engineering",
+      "label": "CR01 — Precision Engineering",
+      "x": 3305,
+      "y": 493,
+      "center_x": 3392,
+      "center_y": 518
+    },
+    {
+      "research": "industrial_colonies:factory_engineering/cr01_chemical_separation",
+      "drawio_id": "oai-staging-chemical-separation",
+      "label": "CR01 — Chemical Separation",
+      "x": 3305,
+      "y": 554,
+      "center_x": 3392,
+      "center_y": 579
+    },
+    {
+      "research": "industrial_colonies:digital_logistics/cr01_improved_digital_chemical_storage",
+      "drawio_id": "2ABv8Bv4OHED41jCkFc--56",
+      "label": "CR01 — Improved Digital Chemical Storage",
+      "x": 3305,
+      "y": 612,
+      "center_x": 3392,
+      "center_y": 637
+    },
+    {
+      "research": "industrial_colonies:digital_logistics/cr01_advanced_me_storage",
+      "drawio_id": "2ABv8Bv4OHED41jCkFc--6",
+      "label": "CR01 — Advanced ME Storage",
+      "x": 3305,
+      "y": 739,
+      "center_x": 3392,
+      "center_y": 764
+    },
+    {
+      "research": "industrial_colonies:digital_logistics/cr01_advanced_me_bus_technology",
+      "drawio_id": "2ABv8Bv4OHED41jCkFc--14",
+      "label": "CR01 — Advanced ME BUS Technology",
+      "x": 3305,
+      "y": 885,
+      "center_x": 3392,
+      "center_y": 910
+    },
+    {
+      "research": "industrial_colonies:digital_logistics/cr01_overclocked_processors",
+      "drawio_id": "1mlMBtlIvCZDlexHoxKP-1",
+      "label": "CR01 — Overclocked Processors",
+      "x": 3305,
+      "y": 953,
+      "center_x": 3392,
+      "center_y": 978
+    },
+    {
+      "research": "industrial_colonies:digital_logistics/cr01_spacial_storage_tech",
+      "drawio_id": "2ABv8Bv4OHED41jCkFc--7",
+      "label": "CR01 — Spacial Storage Tech",
+      "x": 3532,
+      "y": 819,
+      "center_x": 3619,
+      "center_y": 844
+    },
+    {
+      "research": "industrial_colonies:nuclear_engineering/cr01_containment_engineering",
+      "drawio_id": "oai-staging-containment-engineering",
+      "label": "CR01 — Containment Engineering",
+      "x": 3571,
+      "y": 242,
+      "center_x": 3658,
+      "center_y": 267
+    },
+    {
+      "research": "industrial_colonies:nuclear_engineering/cr01_core_engineering",
+      "drawio_id": "oai-staging-core-engineering",
+      "label": "CR01 — Core Engineering",
+      "x": 3571,
+      "y": 308,
+      "center_x": 3658,
+      "center_y": 333
+    },
+    {
+      "research": "industrial_colonies:nuclear_engineering/cr01_isotope_materials",
+      "drawio_id": "oai-staging-isotope-materials",
+      "label": "CR01 — Isotope Materials",
+      "x": 3571,
+      "y": 379,
+      "center_x": 3658,
+      "center_y": 404
+    },
+    {
+      "research": "industrial_colonies:digital_logistics/cr01_world_loading_technology",
+      "drawio_id": "2ABv8Bv4OHED41jCkFc--8",
+      "label": "CR01 — World Loading Technology",
+      "x": 3782,
+      "y": 819,
+      "center_x": 3869,
+      "center_y": 844
+    },
+    {
+      "research": "industrial_colonies:nuclear_engineering/cr01_reactor_instrumentation",
+      "drawio_id": "oai-staging-reactor-instrumentation",
+      "label": "CR01 — Reactor Instrumentation",
+      "x": 3836,
+      "y": 308,
+      "center_x": 3923,
+      "center_y": 333
+    },
+    {
+      "research": "industrial_colonies:nuclear_engineering/cr01_uranium_processing",
+      "drawio_id": "oai-staging-uranium-processing",
+      "label": "CR01 — Uranium Processing",
+      "x": 3836,
+      "y": 379,
+      "center_x": 3923,
+      "center_y": 404
+    },
+    {
+      "research": "industrial_colonies:digital_logistics/cr01_enhanced_me_crafting_upgrade",
+      "drawio_id": "2ABv8Bv4OHED41jCkFc--15",
+      "label": "CR01 — Enhanced ME Crafting Upgrade",
+      "x": 4031,
+      "y": 953,
+      "center_x": 4118,
+      "center_y": 978
+    },
+    {
+      "research": "industrial_colonies:nuclear_engineering/cr01_first_criticality",
+      "drawio_id": "oai-staging-first-criticality",
+      "label": "CR01 — First Criticality",
+      "x": 4102,
+      "y": 308,
+      "center_x": 4189,
+      "center_y": 333
+    },
+    {
+      "research": "industrial_colonies:nuclear_engineering/cr01_early_nuclear_fuel",
+      "drawio_id": "oai-staging-early-nuclear-fuel",
+      "label": "CR01 — Early Nuclear Fuel",
+      "x": 4102,
+      "y": 379,
+      "center_x": 4189,
+      "center_y": 404
+    },
+    {
+      "research": "industrial_colonies:nuclear_fuel_cycle/cr01_fuel_reprocessing",
+      "drawio_id": "oai-staging-fuel-reprocessing",
+      "label": "CR01 — Fuel Reprocessing",
+      "x": 4368,
+      "y": 308,
+      "center_x": 4455,
+      "center_y": 333
+    },
+    {
+      "research": "industrial_colonies:nuclear_fuel_cycle/cr01_actinide_chemistry",
+      "drawio_id": "oai-staging-actinide-chemistry",
+      "label": "CR01 — Actinide Chemistry",
+      "x": 4627,
+      "y": 308,
+      "center_x": 4714,
+      "center_y": 333
+    },
+    {
+      "research": "industrial_colonies:nuclear_fuel_cycle/cr01_plutonium_production",
+      "drawio_id": "oai-staging-plutonium-production",
+      "label": "CR01 — Plutonium Production",
+      "x": 4885,
+      "y": 308,
+      "center_x": 4972,
+      "center_y": 333
+    },
+    {
+      "research": "industrial_colonies:nuclear_fuel_cycle/cr01_advanced_nuclear_fuel",
+      "drawio_id": "oai-staging-advanced-nuclear-fuel",
+      "label": "CR01 — Advanced Nuclear Fuel",
+      "x": 5144,
+      "y": 308,
+      "center_x": 5231,
+      "center_y": 333
+    }
+  ],
+  "edges": [
+    {
+      "drawio_id": "sv5Kl_QyDaTnQ6QyCYRa-27",
+      "from": "industrial_colonies:mechanical_foundations/cr01_we_dont_read_manuals",
+      "to": "industrial_colonies:mechanical_foundations/the_andesite_age",
+      "points": [
+        {
+          "x": 220,
+          "y": 252
+        },
+        {
+          "x": 240,
+          "y": 252
+        },
+        {
+          "x": 288,
+          "y": 252
+        },
+        {
+          "x": 313,
+          "y": 252
+        }
+      ],
+      "drawio_points": [
+        {
+          "x": 240,
+          "y": 252
+        },
+        {
+          "x": 288,
+          "y": 252
+        }
+      ]
+    },
+    {
+      "drawio_id": "sv5Kl_QyDaTnQ6QyCYRa-28",
+      "from": "industrial_colonies:mechanical_foundations/the_andesite_age",
+      "to": "industrial_colonies:mechanical_foundations/the_brass_age",
+      "points": [
+        {
+          "x": 488,
+          "y": 252
+        },
+        {
+          "x": 508,
+          "y": 252
+        },
+        {
+          "x": 559,
+          "y": 252
+        },
+        {
+          "x": 584,
+          "y": 252
+        }
+      ],
+      "drawio_points": [
+        {
+          "x": 508,
+          "y": 252
+        },
+        {
+          "x": 559,
+          "y": 252
+        }
+      ]
+    },
+    {
+      "drawio_id": "sv5Kl_QyDaTnQ6QyCYRa-29",
+      "from": "industrial_colonies:mechanical_foundations/the_brass_age",
+      "to": "industrial_colonies:mechanical_foundations/cr01_liquid_tech",
+      "points": [
+        {
+          "x": 671,
+          "y": 227
+        },
+        {
+          "x": 671,
+          "y": 232
+        },
+        {
+          "x": 671,
+          "y": 203
+        },
+        {
+          "x": 671,
+          "y": 204
+        }
+      ],
+      "drawio_points": [
+        {
+          "x": 671,
+          "y": 232
+        },
+        {
+          "x": 671,
+          "y": 203
+        }
+      ]
+    },
+    {
+      "drawio_id": "sv5Kl_QyDaTnQ6QyCYRa-30",
+      "from": "industrial_colonies:mechanical_foundations/the_brass_age",
+      "to": "industrial_colonies:mechanical_foundations/cr01_mechanical_technology",
+      "points": [
+        {
+          "x": 671,
+          "y": 277
+        },
+        {
+          "x": 671,
+          "y": 272
+        },
+        {
+          "x": 671,
+          "y": 302
+        },
+        {
+          "x": 671,
+          "y": 300
+        }
+      ],
+      "drawio_points": [
+        {
+          "x": 671,
+          "y": 272
+        },
+        {
+          "x": 671,
+          "y": 302
+        }
+      ]
+    },
+    {
+      "drawio_id": "zC7MLBPZkGJalRFxATF7-5",
+      "from": "industrial_colonies:mechanical_foundations/the_brass_age",
+      "to": "industrial_colonies:steel_and_metallurgy/cr01_the_steel_age",
+      "points": [
+        {
+          "x": 759,
+          "y": 252
+        },
+        {
+          "x": 779,
+          "y": 252
+        },
+        {
+          "x": 1046,
+          "y": 252
+        },
+        {
+          "x": 1046,
+          "y": 251
+        },
+        {
+          "x": 1310,
+          "y": 251
+        },
+        {
+          "x": 1334,
+          "y": 251
+        }
+      ],
+      "drawio_points": [
+        {
+          "x": 779,
+          "y": 252
+        },
+        {
+          "x": 1046,
+          "y": 252
+        },
+        {
+          "x": 1046,
+          "y": 251
+        },
+        {
+          "x": 1310,
+          "y": 251
+        }
+      ]
+    },
+    {
+      "drawio_id": "sv5Kl_QyDaTnQ6QyCYRa-34",
+      "from": "industrial_colonies:mechanical_foundations/cr01_liquid_tech",
+      "to": "industrial_colonies:mechanical_foundations/cr01_storage_technology",
+      "points": [
+        {
+          "x": 759,
+          "y": 179
+        },
+        {
+          "x": 779,
+          "y": 179
+        },
+        {
+          "x": 809,
+          "y": 179
+        },
+        {
+          "x": 834,
+          "y": 179
+        }
+      ],
+      "drawio_points": [
+        {
+          "x": 779,
+          "y": 179
+        },
+        {
+          "x": 809,
+          "y": 179
+        }
+      ]
+    },
+    {
+      "drawio_id": "sv5Kl_QyDaTnQ6QyCYRa-31",
+      "from": "industrial_colonies:mechanical_foundations/cr01_mechanical_technology",
+      "to": "industrial_colonies:mechanical_foundations/cr01_advanced_redstone",
+      "points": [
+        {
+          "x": 671,
+          "y": 350
+        },
+        {
+          "x": 671,
+          "y": 345
+        },
+        {
+          "x": 671,
+          "y": 375
+        },
+        {
+          "x": 671,
+          "y": 373
+        }
+      ],
+      "drawio_points": [
+        {
+          "x": 671,
+          "y": 345
+        },
+        {
+          "x": 671,
+          "y": 375
+        }
+      ]
+    },
+    {
+      "drawio_id": "sv5Kl_QyDaTnQ6QyCYRa-32",
+      "from": "industrial_colonies:mechanical_foundations/cr01_mechanical_technology",
+      "to": "industrial_colonies:mechanical_foundations/cr01_advanced_mechanical_technology",
+      "points": [
+        {
+          "x": 759,
+          "y": 325
+        },
+        {
+          "x": 779,
+          "y": 325
+        },
+        {
+          "x": 809,
+          "y": 325
+        },
+        {
+          "x": 834,
+          "y": 325
+        }
+      ],
+      "drawio_points": [
+        {
+          "x": 779,
+          "y": 325
+        },
+        {
+          "x": 809,
+          "y": 325
+        }
+      ]
+    },
+    {
+      "drawio_id": "sv5Kl_QyDaTnQ6QyCYRa-40",
+      "from": "industrial_colonies:mechanical_foundations/cr01_advanced_redstone",
+      "to": "industrial_colonies:industrial_electronics/cr01_early_electricity_technology",
+      "points": [
+        {
+          "x": 759,
+          "y": 398
+        },
+        {
+          "x": 779,
+          "y": 398
+        },
+        {
+          "x": 1046,
+          "y": 398
+        },
+        {
+          "x": 1046,
+          "y": 399
+        },
+        {
+          "x": 1310,
+          "y": 399
+        },
+        {
+          "x": 1334,
+          "y": 399
+        }
+      ],
+      "drawio_points": [
+        {
+          "x": 779,
+          "y": 398
+        },
+        {
+          "x": 1046,
+          "y": 398
+        },
+        {
+          "x": 1046,
+          "y": 399
+        },
+        {
+          "x": 1310,
+          "y": 399
+        }
+      ]
+    },
+    {
+      "drawio_id": "sv5Kl_QyDaTnQ6QyCYRa-33",
+      "from": "industrial_colonies:mechanical_foundations/cr01_advanced_mechanical_technology",
+      "to": "industrial_colonies:mechanical_foundations/cr01_early_crushing_technology",
+      "points": [
+        {
+          "x": 1009,
+          "y": 325
+        },
+        {
+          "x": 1029,
+          "y": 325
+        },
+        {
+          "x": 1059,
+          "y": 325
+        },
+        {
+          "x": 1084,
+          "y": 325
+        }
+      ],
+      "drawio_points": [
+        {
+          "x": 1029,
+          "y": 325
+        },
+        {
+          "x": 1059,
+          "y": 325
+        }
+      ]
+    },
+    {
+      "drawio_id": "sv5Kl_QyDaTnQ6QyCYRa-35",
+      "from": "industrial_colonies:mechanical_foundations/cr01_storage_technology",
+      "to": "industrial_colonies:mechanical_foundations/cr01_advanced_storage_technology",
+      "points": [
+        {
+          "x": 921,
+          "y": 154
+        },
+        {
+          "x": 921,
+          "y": 160
+        },
+        {
+          "x": 921,
+          "y": 67
+        },
+        {
+          "x": 921,
+          "y": 69
+        }
+      ],
+      "drawio_points": [
+        {
+          "x": 921,
+          "y": 160
+        },
+        {
+          "x": 921,
+          "y": 67
+        }
+      ]
+    },
+    {
+      "drawio_id": "zC7MLBPZkGJalRFxATF7-1",
+      "from": "industrial_colonies:mechanical_foundations/cr01_storage_technology",
+      "to": "industrial_colonies:steam_and_rail/cr01_steam_power",
+      "points": [
+        {
+          "x": 1009,
+          "y": 179
+        },
+        {
+          "x": 1029,
+          "y": 179
+        },
+        {
+          "x": 1059,
+          "y": 179
+        },
+        {
+          "x": 1084,
+          "y": 179
+        }
+      ],
+      "drawio_points": [
+        {
+          "x": 1029,
+          "y": 179
+        },
+        {
+          "x": 1059,
+          "y": 179
+        }
+      ]
+    },
+    {
+      "drawio_id": "sv5Kl_QyDaTnQ6QyCYRa-36",
+      "from": "industrial_colonies:steam_and_rail/cr01_steam_power",
+      "to": "industrial_colonies:steam_and_rail/cr01_train_power",
+      "points": [
+        {
+          "x": 1171,
+          "y": 154
+        },
+        {
+          "x": 1171,
+          "y": 160
+        },
+        {
+          "x": 1171,
+          "y": 135
+        },
+        {
+          "x": 1171,
+          "y": 137
+        }
+      ],
+      "drawio_points": [
+        {
+          "x": 1171,
+          "y": 160
+        },
+        {
+          "x": 1171,
+          "y": 135
+        }
+      ]
+    },
+    {
+      "drawio_id": "zC7MLBPZkGJalRFxATF7-6",
+      "from": "industrial_colonies:steam_and_rail/cr01_steam_power",
+      "to": "industrial_colonies:steel_and_metallurgy/cr01_the_steel_age",
+      "points": [
+        {
+          "x": 1171,
+          "y": 204
+        },
+        {
+          "x": 1171,
+          "y": 199
+        },
+        {
+          "x": 1171,
+          "y": 242
+        },
+        {
+          "x": 1310,
+          "y": 242
+        },
+        {
+          "x": 1334,
+          "y": 244
+        }
+      ],
+      "drawio_points": [
+        {
+          "x": 1171,
+          "y": 199
+        },
+        {
+          "x": 1171,
+          "y": 242
+        },
+        {
+          "x": 1310,
+          "y": 242
+        }
+      ]
+    },
+    {
+      "drawio_id": "2ABv8Bv4OHED41jCkFc--33",
+      "from": "industrial_colonies:petroleum_and_engines/cr01_oil_processing",
+      "to": "industrial_colonies:petroleum_and_engines/cr01_early_combusion_engines",
+      "points": [
+        {
+          "x": 1509,
+          "y": 187
+        },
+        {
+          "x": 1529,
+          "y": 187
+        },
+        {
+          "x": 1959,
+          "y": 187
+        },
+        {
+          "x": 1984,
+          "y": 187
+        }
+      ],
+      "drawio_points": [
+        {
+          "x": 1529,
+          "y": 187
+        },
+        {
+          "x": 1959,
+          "y": 187
+        }
+      ]
+    },
+    {
+      "drawio_id": "sv5Kl_QyDaTnQ6QyCYRa-39",
+      "from": "industrial_colonies:steel_and_metallurgy/cr01_the_steel_age",
+      "to": "industrial_colonies:petroleum_and_engines/cr01_oil_processing",
+      "points": [
+        {
+          "x": 1421,
+          "y": 226
+        },
+        {
+          "x": 1421,
+          "y": 232
+        },
+        {
+          "x": 1421,
+          "y": 210
+        },
+        {
+          "x": 1421,
+          "y": 212
+        }
+      ],
+      "drawio_points": [
+        {
+          "x": 1421,
+          "y": 232
+        },
+        {
+          "x": 1421,
+          "y": 210
+        }
+      ]
+    },
+    {
+      "drawio_id": "2ABv8Bv4OHED41jCkFc--75",
+      "from": "industrial_colonies:steel_and_metallurgy/cr01_the_steel_age",
+      "to": "industrial_colonies:steel_and_metallurgy/cr01_blast_furnace",
+      "points": [
+        {
+          "x": 1509,
+          "y": 251
+        },
+        {
+          "x": 1529,
+          "y": 251
+        },
+        {
+          "x": 1701,
+          "y": 251
+        },
+        {
+          "x": 1726,
+          "y": 251
+        }
+      ],
+      "drawio_points": [
+        {
+          "x": 1529,
+          "y": 251
+        },
+        {
+          "x": 1701,
+          "y": 251
+        }
+      ]
+    },
+    {
+      "drawio_id": "2ABv8Bv4OHED41jCkFc--88",
+      "from": "industrial_colonies:steel_and_metallurgy/cr01_the_steel_age",
+      "to": "industrial_colonies:electrical_grid/cr01_early_power_cables",
+      "points": [
+        {
+          "x": 1509,
+          "y": 259
+        },
+        {
+          "x": 1529,
+          "y": 261
+        },
+        {
+          "x": 1667,
+          "y": 261
+        },
+        {
+          "x": 1667,
+          "y": 375
+        },
+        {
+          "x": 1667,
+          "y": 374
+        }
+      ],
+      "drawio_points": [
+        {
+          "x": 1529,
+          "y": 261
+        },
+        {
+          "x": 1667,
+          "y": 261
+        },
+        {
+          "x": 1667,
+          "y": 375
+        }
+      ]
+    },
+    {
+      "drawio_id": "2ABv8Bv4OHED41jCkFc--76",
+      "from": "industrial_colonies:steel_and_metallurgy/cr01_blast_furnace",
+      "to": "industrial_colonies:steel_and_metallurgy/cr01_chemical_processing",
+      "points": [
+        {
+          "x": 1901,
+          "y": 251
+        },
+        {
+          "x": 1921,
+          "y": 251
+        },
+        {
+          "x": 1959,
+          "y": 251
+        },
+        {
+          "x": 1984,
+          "y": 251
+        }
+      ],
+      "drawio_points": [
+        {
+          "x": 1921,
+          "y": 251
+        },
+        {
+          "x": 1959,
+          "y": 251
+        }
+      ]
+    },
+    {
+      "drawio_id": "HFB_ljQ9eOuzNTE88xCk-60",
+      "from": "industrial_colonies:steel_and_metallurgy/cr01_chemical_processing",
+      "to": "industrial_colonies:electrical_grid/cr01_grid_engineering",
+      "points": [
+        {
+          "x": 2004,
+          "y": 276
+        },
+        {
+          "x": 2017,
+          "y": 271
+        },
+        {
+          "x": 2017,
+          "y": 358
+        },
+        {
+          "x": 1892,
+          "y": 358
+        },
+        {
+          "x": 1892,
+          "y": 441
+        },
+        {
+          "x": 1892,
+          "y": 440
+        }
+      ],
+      "drawio_points": [
+        {
+          "x": 2017,
+          "y": 271
+        },
+        {
+          "x": 2017,
+          "y": 358
+        },
+        {
+          "x": 1892,
+          "y": 358
+        },
+        {
+          "x": 1892,
+          "y": 441
+        }
+      ]
+    },
+    {
+      "drawio_id": "HFB_ljQ9eOuzNTE88xCk-61",
+      "from": "industrial_colonies:steel_and_metallurgy/cr01_chemical_processing",
+      "to": "industrial_colonies:steel_and_metallurgy/cr01_advanced_alloy_mixing",
+      "points": [
+        {
+          "x": 2071,
+          "y": 276
+        },
+        {
+          "x": 2071,
+          "y": 271
+        },
+        {
+          "x": 2071,
+          "y": 380
+        },
+        {
+          "x": 2071,
+          "y": 379
+        }
+      ],
+      "drawio_points": [
+        {
+          "x": 2071,
+          "y": 271
+        },
+        {
+          "x": 2071,
+          "y": 380
+        }
+      ]
+    },
+    {
+      "drawio_id": "HFB_ljQ9eOuzNTE88xCk-63",
+      "from": "industrial_colonies:steel_and_metallurgy/cr01_chemical_processing",
+      "to": "industrial_colonies:petroleum_and_engines/cr01_diesel_processing",
+      "points": [
+        {
+          "x": 2159,
+          "y": 251
+        },
+        {
+          "x": 2179,
+          "y": 251
+        },
+        {
+          "x": 2221,
+          "y": 251
+        },
+        {
+          "x": 2246,
+          "y": 251
+        }
+      ],
+      "drawio_points": [
+        {
+          "x": 2179,
+          "y": 251
+        },
+        {
+          "x": 2221,
+          "y": 251
+        }
+      ]
+    },
+    {
+      "drawio_id": "sv5Kl_QyDaTnQ6QyCYRa-37",
+      "from": "industrial_colonies:steam_and_rail/cr01_train_power",
+      "to": "industrial_colonies:steam_and_rail/cr01_cart_technology",
+      "points": [
+        {
+          "x": 1171,
+          "y": 87
+        },
+        {
+          "x": 1171,
+          "y": 92
+        },
+        {
+          "x": 1171,
+          "y": 67
+        },
+        {
+          "x": 1171,
+          "y": 69
+        }
+      ],
+      "drawio_points": [
+        {
+          "x": 1171,
+          "y": 92
+        },
+        {
+          "x": 1171,
+          "y": 67
+        }
+      ]
+    },
+    {
+      "drawio_id": "sv5Kl_QyDaTnQ6QyCYRa-41",
+      "from": "industrial_colonies:industrial_electronics/cr01_early_electricity_technology",
+      "to": "industrial_colonies:steel_and_metallurgy/cr01_the_steel_age",
+      "points": [
+        {
+          "x": 1421,
+          "y": 374
+        },
+        {
+          "x": 1421,
+          "y": 379
+        },
+        {
+          "x": 1421,
+          "y": 275
+        },
+        {
+          "x": 1421,
+          "y": 276
+        }
+      ],
+      "drawio_points": [
+        {
+          "x": 1421,
+          "y": 379
+        },
+        {
+          "x": 1421,
+          "y": 275
+        }
+      ]
+    },
+    {
+      "drawio_id": "sv5Kl_QyDaTnQ6QyCYRa-42",
+      "from": "industrial_colonies:industrial_electronics/cr01_early_electricity_technology",
+      "to": "industrial_colonies:industrial_electronics/cr01_electronics_manufacturing",
+      "points": [
+        {
+          "x": 1421,
+          "y": 424
+        },
+        {
+          "x": 1421,
+          "y": 419
+        },
+        {
+          "x": 1421,
+          "y": 441
+        },
+        {
+          "x": 1421,
+          "y": 440
+        }
+      ],
+      "drawio_points": [
+        {
+          "x": 1421,
+          "y": 419
+        },
+        {
+          "x": 1421,
+          "y": 441
+        }
+      ]
+    },
+    {
+      "drawio_id": "2ABv8Bv4OHED41jCkFc--73",
+      "from": "industrial_colonies:industrial_electronics/cr01_early_electricity_technology",
+      "to": "industrial_colonies:electrical_grid/cr01_early_power_cables",
+      "points": [
+        {
+          "x": 1509,
+          "y": 399
+        },
+        {
+          "x": 1529,
+          "y": 399
+        },
+        {
+          "x": 1555,
+          "y": 399
+        },
+        {
+          "x": 1580,
+          "y": 399
+        }
+      ],
+      "drawio_points": [
+        {
+          "x": 1529,
+          "y": 399
+        },
+        {
+          "x": 1555,
+          "y": 399
+        }
+      ]
+    },
+    {
+      "drawio_id": "sv5Kl_QyDaTnQ6QyCYRa-43",
+      "from": "industrial_colonies:industrial_electronics/cr01_electronics_manufacturing",
+      "to": "industrial_colonies:industrial_electronics/cr01_early_circuitry",
+      "points": [
+        {
+          "x": 1509,
+          "y": 465
+        },
+        {
+          "x": 1529,
+          "y": 465
+        },
+        {
+          "x": 1555,
+          "y": 465
+        },
+        {
+          "x": 1580,
+          "y": 465
+        }
+      ],
+      "drawio_points": [
+        {
+          "x": 1529,
+          "y": 465
+        },
+        {
+          "x": 1555,
+          "y": 465
+        }
+      ]
+    },
+    {
+      "drawio_id": "sv5Kl_QyDaTnQ6QyCYRa-44",
+      "from": "industrial_colonies:industrial_electronics/cr01_early_circuitry",
+      "to": "industrial_colonies:industrial_electronics/cr01_advanced_electronics_manufacturing",
+      "points": [
+        {
+          "x": 1667,
+          "y": 490
+        },
+        {
+          "x": 1667,
+          "y": 485
+        },
+        {
+          "x": 1667,
+          "y": 816
+        },
+        {
+          "x": 1667,
+          "y": 814
+        }
+      ],
+      "drawio_points": [
+        {
+          "x": 1667,
+          "y": 485
+        },
+        {
+          "x": 1667,
+          "y": 816
+        }
+      ]
+    },
+    {
+      "drawio_id": "2ABv8Bv4OHED41jCkFc--84",
+      "from": "industrial_colonies:industrial_electronics/cr01_early_circuitry",
+      "to": "industrial_colonies:factory_engineering/cr01_early_electronics",
+      "points": [
+        {
+          "x": 1734,
+          "y": 490
+        },
+        {
+          "x": 1721,
+          "y": 485
+        },
+        {
+          "x": 1721,
+          "y": 764
+        },
+        {
+          "x": 1803,
+          "y": 764
+        },
+        {
+          "x": 1828,
+          "y": 764
+        }
+      ],
+      "drawio_points": [
+        {
+          "x": 1721,
+          "y": 485
+        },
+        {
+          "x": 1721,
+          "y": 764
+        },
+        {
+          "x": 1803,
+          "y": 764
+        }
+      ]
+    },
+    {
+      "drawio_id": "sv5Kl_QyDaTnQ6QyCYRa-45",
+      "from": "industrial_colonies:industrial_electronics/cr01_advanced_electronics_manufacturing",
+      "to": "industrial_colonies:industrial_electronics/cr01_advanced_circuitry",
+      "points": [
+        {
+          "x": 1755,
+          "y": 839
+        },
+        {
+          "x": 1775,
+          "y": 839
+        },
+        {
+          "x": 1801,
+          "y": 839
+        },
+        {
+          "x": 1826,
+          "y": 839
+        }
+      ],
+      "drawio_points": [
+        {
+          "x": 1775,
+          "y": 839
+        },
+        {
+          "x": 1801,
+          "y": 839
+        }
+      ]
+    },
+    {
+      "drawio_id": "sv5Kl_QyDaTnQ6QyCYRa-57",
+      "from": "industrial_colonies:factory_engineering/cr01_early_electronics",
+      "to": "industrial_colonies:digital_computing/cr01_advanced_electronics",
+      "points": [
+        {
+          "x": 2003,
+          "y": 764
+        },
+        {
+          "x": 2023,
+          "y": 764
+        },
+        {
+          "x": 2528,
+          "y": 764
+        },
+        {
+          "x": 2553,
+          "y": 764
+        }
+      ],
+      "drawio_points": [
+        {
+          "x": 2023,
+          "y": 764
+        },
+        {
+          "x": 2528,
+          "y": 764
+        }
+      ]
+    },
+    {
+      "drawio_id": "HFB_ljQ9eOuzNTE88xCk-30",
+      "from": "industrial_colonies:factory_engineering/cr01_early_electronics",
+      "to": "industrial_colonies:factory_engineering/cr01_control_electronics",
+      "points": [
+        {
+          "x": 1982,
+          "y": 739
+        },
+        {
+          "x": 1969,
+          "y": 744
+        },
+        {
+          "x": 1969,
+          "y": 720
+        },
+        {
+          "x": 1967,
+          "y": 721
+        }
+      ],
+      "drawio_points": [
+        {
+          "x": 1969,
+          "y": 744
+        },
+        {
+          "x": 1969,
+          "y": 720
+        }
+      ]
+    },
+    {
+      "drawio_id": "sv5Kl_QyDaTnQ6QyCYRa-50",
+      "from": "industrial_colonies:industrial_electronics/cr01_advanced_circuitry",
+      "to": "industrial_colonies:industrial_electronics/cr01_early_chips",
+      "points": [
+        {
+          "x": 2001,
+          "y": 839
+        },
+        {
+          "x": 2021,
+          "y": 839
+        },
+        {
+          "x": 2046,
+          "y": 839
+        },
+        {
+          "x": 2071,
+          "y": 839
+        }
+      ],
+      "drawio_points": [
+        {
+          "x": 2021,
+          "y": 839
+        },
+        {
+          "x": 2046,
+          "y": 839
+        }
+      ]
+    },
+    {
+      "drawio_id": "sv5Kl_QyDaTnQ6QyCYRa-52",
+      "from": "industrial_colonies:industrial_electronics/cr01_early_chips",
+      "to": "industrial_colonies:digital_computing/cr01_me_system_basics",
+      "points": [
+        {
+          "x": 2158,
+          "y": 864
+        },
+        {
+          "x": 2158,
+          "y": 859
+        },
+        {
+          "x": 2158,
+          "y": 887
+        },
+        {
+          "x": 2158,
+          "y": 885
+        }
+      ],
+      "drawio_points": [
+        {
+          "x": 2158,
+          "y": 859
+        },
+        {
+          "x": 2158,
+          "y": 887
+        }
+      ]
+    },
+    {
+      "drawio_id": "sv5Kl_QyDaTnQ6QyCYRa-54",
+      "from": "industrial_colonies:industrial_electronics/cr01_early_chips",
+      "to": "industrial_colonies:digital_computing/cr01_advanced_processors",
+      "points": [
+        {
+          "x": 2246,
+          "y": 839
+        },
+        {
+          "x": 2266,
+          "y": 839
+        },
+        {
+          "x": 2292,
+          "y": 839
+        },
+        {
+          "x": 2317,
+          "y": 839
+        }
+      ],
+      "drawio_points": [
+        {
+          "x": 2266,
+          "y": 839
+        },
+        {
+          "x": 2292,
+          "y": 839
+        }
+      ]
+    },
+    {
+      "drawio_id": "sv5Kl_QyDaTnQ6QyCYRa-60",
+      "from": "industrial_colonies:digital_computing/cr01_me_system_basics",
+      "to": "industrial_colonies:digital_computing/cr01_me_system_advanced",
+      "points": [
+        {
+          "x": 2246,
+          "y": 910
+        },
+        {
+          "x": 2266,
+          "y": 910
+        },
+        {
+          "x": 2528,
+          "y": 910
+        },
+        {
+          "x": 2553,
+          "y": 910
+        }
+      ],
+      "drawio_points": [
+        {
+          "x": 2266,
+          "y": 910
+        },
+        {
+          "x": 2528,
+          "y": 910
+        }
+      ]
+    },
+    {
+      "drawio_id": "zC7MLBPZkGJalRFxATF7-3",
+      "from": "industrial_colonies:digital_computing/cr01_me_system_basics",
+      "to": "industrial_colonies:digital_computing/cr01_advanced_processors",
+      "points": [
+        {
+          "x": 2246,
+          "y": 902
+        },
+        {
+          "x": 2266,
+          "y": 900
+        },
+        {
+          "x": 2404,
+          "y": 900
+        },
+        {
+          "x": 2404,
+          "y": 863
+        },
+        {
+          "x": 2404,
+          "y": 864
+        }
+      ],
+      "drawio_points": [
+        {
+          "x": 2266,
+          "y": 900
+        },
+        {
+          "x": 2404,
+          "y": 900
+        },
+        {
+          "x": 2404,
+          "y": 863
+        }
+      ]
+    },
+    {
+      "drawio_id": "2ABv8Bv4OHED41jCkFc--68",
+      "from": "industrial_colonies:digital_computing/cr01_advanced_processors",
+      "to": "industrial_colonies:digital_computing/cr01_advanced_electronics",
+      "points": [
+        {
+          "x": 2404,
+          "y": 814
+        },
+        {
+          "x": 2404,
+          "y": 820
+        },
+        {
+          "x": 2404,
+          "y": 774
+        },
+        {
+          "x": 2528,
+          "y": 774
+        },
+        {
+          "x": 2553,
+          "y": 772
+        }
+      ],
+      "drawio_points": [
+        {
+          "x": 2404,
+          "y": 820
+        },
+        {
+          "x": 2404,
+          "y": 774
+        },
+        {
+          "x": 2528,
+          "y": 774
+        }
+      ]
+    },
+    {
+      "drawio_id": "sv5Kl_QyDaTnQ6QyCYRa-61",
+      "from": "industrial_colonies:digital_computing/cr01_advanced_electronics",
+      "to": "industrial_colonies:digital_computing/cr01_me_system_advanced",
+      "points": [
+        {
+          "x": 2640,
+          "y": 789
+        },
+        {
+          "x": 2640,
+          "y": 784
+        },
+        {
+          "x": 2640,
+          "y": 887
+        },
+        {
+          "x": 2640,
+          "y": 885
+        }
+      ],
+      "drawio_points": [
+        {
+          "x": 2640,
+          "y": 784
+        },
+        {
+          "x": 2640,
+          "y": 887
+        }
+      ]
+    },
+    {
+      "drawio_id": "sv5Kl_QyDaTnQ6QyCYRa-64",
+      "from": "industrial_colonies:digital_computing/cr01_advanced_electronics",
+      "to": "industrial_colonies:digital_logistics/cr01_advanced_perhipherals",
+      "points": [
+        {
+          "x": 2728,
+          "y": 764
+        },
+        {
+          "x": 2748,
+          "y": 764
+        },
+        {
+          "x": 2779,
+          "y": 764
+        },
+        {
+          "x": 2804,
+          "y": 764
+        }
+      ],
+      "drawio_points": [
+        {
+          "x": 2748,
+          "y": 764
+        },
+        {
+          "x": 2779,
+          "y": 764
+        }
+      ]
+    },
+    {
+      "drawio_id": "HFB_ljQ9eOuzNTE88xCk-12",
+      "from": "industrial_colonies:digital_computing/cr01_advanced_electronics",
+      "to": "industrial_colonies:factory_engineering/cr01_modular_machinery",
+      "points": [
+        {
+          "x": 2640,
+          "y": 739
+        },
+        {
+          "x": 2640,
+          "y": 744
+        },
+        {
+          "x": 2640,
+          "y": 720
+        },
+        {
+          "x": 2640,
+          "y": 721
+        }
+      ],
+      "drawio_points": [
+        {
+          "x": 2640,
+          "y": 744
+        },
+        {
+          "x": 2640,
+          "y": 720
+        }
+      ]
+    },
+    {
+      "drawio_id": "sv5Kl_QyDaTnQ6QyCYRa-65",
+      "from": "industrial_colonies:digital_computing/cr01_me_system_advanced",
+      "to": "industrial_colonies:digital_logistics/cr01_advanced_perhipherals",
+      "points": [
+        {
+          "x": 2728,
+          "y": 910
+        },
+        {
+          "x": 2748,
+          "y": 910
+        },
+        {
+          "x": 2891,
+          "y": 910
+        },
+        {
+          "x": 2891,
+          "y": 787
+        },
+        {
+          "x": 2891,
+          "y": 789
+        }
+      ],
+      "drawio_points": [
+        {
+          "x": 2748,
+          "y": 910
+        },
+        {
+          "x": 2891,
+          "y": 910
+        },
+        {
+          "x": 2891,
+          "y": 787
+        }
+      ]
+    },
+    {
+      "drawio_id": "2ABv8Bv4OHED41jCkFc--1",
+      "from": "industrial_colonies:digital_computing/cr01_me_system_advanced",
+      "to": "industrial_colonies:digital_computing/cr01_early_digital_crafting",
+      "points": [
+        {
+          "x": 2640,
+          "y": 935
+        },
+        {
+          "x": 2640,
+          "y": 930
+        },
+        {
+          "x": 2640,
+          "y": 954
+        },
+        {
+          "x": 2640,
+          "y": 953
+        }
+      ],
+      "drawio_points": [
+        {
+          "x": 2640,
+          "y": 930
+        },
+        {
+          "x": 2640,
+          "y": 954
+        }
+      ]
+    },
+    {
+      "drawio_id": "2ABv8Bv4OHED41jCkFc--10",
+      "from": "industrial_colonies:digital_computing/cr01_early_digital_crafting",
+      "to": "industrial_colonies:digital_computing/cr01_advanced_digital_crafting",
+      "points": [
+        {
+          "x": 2728,
+          "y": 978
+        },
+        {
+          "x": 2748,
+          "y": 978
+        },
+        {
+          "x": 3030,
+          "y": 978
+        },
+        {
+          "x": 3055,
+          "y": 978
+        }
+      ],
+      "drawio_points": [
+        {
+          "x": 2748,
+          "y": 978
+        },
+        {
+          "x": 3030,
+          "y": 978
+        }
+      ]
+    },
+    {
+      "drawio_id": "2ABv8Bv4OHED41jCkFc--4",
+      "from": "industrial_colonies:digital_logistics/cr01_advanced_perhipherals",
+      "to": "industrial_colonies:digital_logistics/cr01_enhanced_me_system_upgrade",
+      "points": [
+        {
+          "x": 2979,
+          "y": 764
+        },
+        {
+          "x": 2999,
+          "y": 764
+        },
+        {
+          "x": 3030,
+          "y": 764
+        },
+        {
+          "x": 3055,
+          "y": 764
+        }
+      ],
+      "drawio_points": [
+        {
+          "x": 2999,
+          "y": 764
+        },
+        {
+          "x": 3030,
+          "y": 764
+        }
+      ]
+    },
+    {
+      "drawio_id": "2ABv8Bv4OHED41jCkFc--85",
+      "from": "industrial_colonies:digital_logistics/cr01_advanced_perhipherals",
+      "to": "industrial_colonies:digital_logistics/cr01_early_digital_chemical_storage",
+      "points": [
+        {
+          "x": 2891,
+          "y": 739
+        },
+        {
+          "x": 2891,
+          "y": 744
+        },
+        {
+          "x": 2891,
+          "y": 720
+        },
+        {
+          "x": 2891,
+          "y": 721
+        }
+      ],
+      "drawio_points": [
+        {
+          "x": 2891,
+          "y": 744
+        },
+        {
+          "x": 2891,
+          "y": 720
+        }
+      ]
+    },
+    {
+      "drawio_id": "2ABv8Bv4OHED41jCkFc--5",
+      "from": "industrial_colonies:digital_logistics/cr01_enhanced_me_system_upgrade",
+      "to": "industrial_colonies:digital_logistics/cr01_p2p_tunneling_technology",
+      "points": [
+        {
+          "x": 3142,
+          "y": 739
+        },
+        {
+          "x": 3142,
+          "y": 744
+        },
+        {
+          "x": 3142,
+          "y": 725
+        },
+        {
+          "x": 3142,
+          "y": 726
+        }
+      ],
+      "drawio_points": [
+        {
+          "x": 3142,
+          "y": 744
+        },
+        {
+          "x": 3142,
+          "y": 725
+        }
+      ]
+    },
+    {
+      "drawio_id": "2ABv8Bv4OHED41jCkFc--12",
+      "from": "industrial_colonies:digital_logistics/cr01_enhanced_me_system_upgrade",
+      "to": "industrial_colonies:digital_logistics/cr01_early_me_bus_technology",
+      "points": [
+        {
+          "x": 3142,
+          "y": 789
+        },
+        {
+          "x": 3142,
+          "y": 784
+        },
+        {
+          "x": 3142,
+          "y": 887
+        },
+        {
+          "x": 3142,
+          "y": 885
+        }
+      ],
+      "drawio_points": [
+        {
+          "x": 3142,
+          "y": 784
+        },
+        {
+          "x": 3142,
+          "y": 887
+        }
+      ]
+    },
+    {
+      "drawio_id": "2ABv8Bv4OHED41jCkFc--22",
+      "from": "industrial_colonies:digital_logistics/cr01_enhanced_me_system_upgrade",
+      "to": "industrial_colonies:digital_logistics/cr01_advanced_me_storage",
+      "points": [
+        {
+          "x": 3230,
+          "y": 764
+        },
+        {
+          "x": 3250,
+          "y": 764
+        },
+        {
+          "x": 3281,
+          "y": 764
+        },
+        {
+          "x": 3305,
+          "y": 764
+        }
+      ],
+      "drawio_points": [
+        {
+          "x": 3250,
+          "y": 764
+        },
+        {
+          "x": 3281,
+          "y": 764
+        }
+      ]
+    },
+    {
+      "drawio_id": "2ABv8Bv4OHED41jCkFc--20",
+      "from": "industrial_colonies:digital_logistics/cr01_advanced_me_storage",
+      "to": "industrial_colonies:digital_logistics/cr01_advanced_me_bus_technology",
+      "points": [
+        {
+          "x": 3392,
+          "y": 789
+        },
+        {
+          "x": 3392,
+          "y": 784
+        },
+        {
+          "x": 3392,
+          "y": 887
+        },
+        {
+          "x": 3392,
+          "y": 885
+        }
+      ],
+      "drawio_points": [
+        {
+          "x": 3392,
+          "y": 784
+        },
+        {
+          "x": 3392,
+          "y": 887
+        }
+      ]
+    },
+    {
+      "drawio_id": "2ABv8Bv4OHED41jCkFc--57",
+      "from": "industrial_colonies:digital_logistics/cr01_advanced_me_storage",
+      "to": "industrial_colonies:digital_logistics/cr01_improved_digital_chemical_storage",
+      "points": [
+        {
+          "x": 3392,
+          "y": 739
+        },
+        {
+          "x": 3392,
+          "y": 744
+        },
+        {
+          "x": 3392,
+          "y": 661
+        },
+        {
+          "x": 3392,
+          "y": 662
+        }
+      ],
+      "drawio_points": [
+        {
+          "x": 3392,
+          "y": 744
+        },
+        {
+          "x": 3392,
+          "y": 661
+        }
+      ]
+    },
+    {
+      "drawio_id": "zC7MLBPZkGJalRFxATF7-4",
+      "from": "industrial_colonies:digital_logistics/cr01_advanced_me_storage",
+      "to": "industrial_colonies:digital_logistics/cr01_spacial_storage_tech",
+      "points": [
+        {
+          "x": 3460,
+          "y": 789
+        },
+        {
+          "x": 3446,
+          "y": 784
+        },
+        {
+          "x": 3446,
+          "y": 844
+        },
+        {
+          "x": 3507,
+          "y": 844
+        },
+        {
+          "x": 3532,
+          "y": 844
+        }
+      ],
+      "drawio_points": [
+        {
+          "x": 3446,
+          "y": 784
+        },
+        {
+          "x": 3446,
+          "y": 844
+        },
+        {
+          "x": 3507,
+          "y": 844
+        }
+      ]
+    },
+    {
+      "drawio_id": "2ABv8Bv4OHED41jCkFc--18",
+      "from": "industrial_colonies:digital_logistics/cr01_spacial_storage_tech",
+      "to": "industrial_colonies:digital_logistics/cr01_world_loading_technology",
+      "points": [
+        {
+          "x": 3707,
+          "y": 844
+        },
+        {
+          "x": 3727,
+          "y": 844
+        },
+        {
+          "x": 3757,
+          "y": 844
+        },
+        {
+          "x": 3782,
+          "y": 844
+        }
+      ],
+      "drawio_points": [
+        {
+          "x": 3727,
+          "y": 844
+        },
+        {
+          "x": 3757,
+          "y": 844
+        }
+      ]
+    },
+    {
+      "drawio_id": "1mlMBtlIvCZDlexHoxKP-2",
+      "from": "industrial_colonies:digital_computing/cr01_advanced_digital_crafting",
+      "to": "industrial_colonies:digital_logistics/cr01_overclocked_processors",
+      "points": [
+        {
+          "x": 3230,
+          "y": 978
+        },
+        {
+          "x": 3250,
+          "y": 978
+        },
+        {
+          "x": 3281,
+          "y": 978
+        },
+        {
+          "x": 3305,
+          "y": 978
+        }
+      ],
+      "drawio_points": [
+        {
+          "x": 3250,
+          "y": 978
+        },
+        {
+          "x": 3281,
+          "y": 978
+        }
+      ]
+    },
+    {
+      "drawio_id": "2ABv8Bv4OHED41jCkFc--13",
+      "from": "industrial_colonies:digital_logistics/cr01_early_me_bus_technology",
+      "to": "industrial_colonies:digital_computing/cr01_advanced_digital_crafting",
+      "points": [
+        {
+          "x": 3142,
+          "y": 935
+        },
+        {
+          "x": 3142,
+          "y": 930
+        },
+        {
+          "x": 3142,
+          "y": 954
+        },
+        {
+          "x": 3142,
+          "y": 953
+        }
+      ],
+      "drawio_points": [
+        {
+          "x": 3142,
+          "y": 930
+        },
+        {
+          "x": 3142,
+          "y": 954
+        }
+      ]
+    },
+    {
+      "drawio_id": "HFB_ljQ9eOuzNTE88xCk-33",
+      "from": "industrial_colonies:digital_logistics/cr01_advanced_me_bus_technology",
+      "to": "industrial_colonies:digital_logistics/cr01_enhanced_me_crafting_upgrade",
+      "points": [
+        {
+          "x": 3480,
+          "y": 910
+        },
+        {
+          "x": 3500,
+          "y": 910
+        },
+        {
+          "x": 3522,
+          "y": 910
+        },
+        {
+          "x": 3522,
+          "y": 968
+        },
+        {
+          "x": 4006,
+          "y": 968
+        },
+        {
+          "x": 4031,
+          "y": 970
+        }
+      ],
+      "drawio_points": [
+        {
+          "x": 3500,
+          "y": 910
+        },
+        {
+          "x": 3522,
+          "y": 910
+        },
+        {
+          "x": 3522,
+          "y": 968
+        },
+        {
+          "x": 4006,
+          "y": 968
+        }
+      ]
+    },
+    {
+      "drawio_id": "2ABv8Bv4OHED41jCkFc--34",
+      "from": "industrial_colonies:petroleum_and_engines/cr01_early_combusion_engines",
+      "to": "industrial_colonies:steel_and_metallurgy/cr01_chemical_processing",
+      "points": [
+        {
+          "x": 2071,
+          "y": 212
+        },
+        {
+          "x": 2071,
+          "y": 206
+        },
+        {
+          "x": 2071,
+          "y": 228
+        },
+        {
+          "x": 2071,
+          "y": 226
+        }
+      ],
+      "drawio_points": [
+        {
+          "x": 2071,
+          "y": 206
+        },
+        {
+          "x": 2071,
+          "y": 228
+        }
+      ]
+    },
+    {
+      "drawio_id": "HFB_ljQ9eOuzNTE88xCk-67",
+      "from": "industrial_colonies:petroleum_and_engines/cr01_early_combusion_engines",
+      "to": "industrial_colonies:petroleum_and_engines/cr01_diesel_engines",
+      "points": [
+        {
+          "x": 2159,
+          "y": 187
+        },
+        {
+          "x": 2179,
+          "y": 187
+        },
+        {
+          "x": 2221,
+          "y": 187
+        },
+        {
+          "x": 2246,
+          "y": 187
+        }
+      ],
+      "drawio_points": [
+        {
+          "x": 2179,
+          "y": 187
+        },
+        {
+          "x": 2221,
+          "y": 187
+        }
+      ]
+    },
+    {
+      "drawio_id": "2ABv8Bv4OHED41jCkFc--45",
+      "from": "industrial_colonies:petroleum_and_engines/cr01_diesel_engines",
+      "to": "industrial_colonies:petroleum_and_engines/cr01_sea_transport",
+      "points": [
+        {
+          "x": 2333,
+          "y": 162
+        },
+        {
+          "x": 2333,
+          "y": 167
+        },
+        {
+          "x": 2333,
+          "y": 131
+        },
+        {
+          "x": 2333,
+          "y": 132
+        }
+      ],
+      "drawio_points": [
+        {
+          "x": 2333,
+          "y": 167
+        },
+        {
+          "x": 2333,
+          "y": 131
+        }
+      ]
+    },
+    {
+      "drawio_id": "HFB_ljQ9eOuzNTE88xCk-66",
+      "from": "industrial_colonies:petroleum_and_engines/cr01_diesel_engines",
+      "to": "industrial_colonies:petroleum_and_engines/cr01_heavy_diesel_engines",
+      "points": [
+        {
+          "x": 2421,
+          "y": 187
+        },
+        {
+          "x": 2441,
+          "y": 187
+        },
+        {
+          "x": 2473,
+          "y": 187
+        },
+        {
+          "x": 2498,
+          "y": 187
+        }
+      ],
+      "drawio_points": [
+        {
+          "x": 2441,
+          "y": 187
+        },
+        {
+          "x": 2473,
+          "y": 187
+        }
+      ]
+    },
+    {
+      "drawio_id": "2ABv8Bv4OHED41jCkFc--41",
+      "from": "industrial_colonies:petroleum_and_engines/cr01_diesel_processing",
+      "to": "industrial_colonies:petroleum_and_engines/cr01_diesel_engines",
+      "points": [
+        {
+          "x": 2333,
+          "y": 226
+        },
+        {
+          "x": 2333,
+          "y": 232
+        },
+        {
+          "x": 2333,
+          "y": 210
+        },
+        {
+          "x": 2333,
+          "y": 212
+        }
+      ],
+      "drawio_points": [
+        {
+          "x": 2333,
+          "y": 232
+        },
+        {
+          "x": 2333,
+          "y": 210
+        }
+      ]
+    },
+    {
+      "drawio_id": "2ABv8Bv4OHED41jCkFc--89",
+      "from": "industrial_colonies:petroleum_and_engines/cr01_heavy_diesel_engines",
+      "to": "industrial_colonies:petroleum_and_engines/cr01_radial_engines",
+      "points": [
+        {
+          "x": 2673,
+          "y": 187
+        },
+        {
+          "x": 2693,
+          "y": 187
+        },
+        {
+          "x": 2724,
+          "y": 187
+        },
+        {
+          "x": 2749,
+          "y": 187
+        }
+      ],
+      "drawio_points": [
+        {
+          "x": 2693,
+          "y": 187
+        },
+        {
+          "x": 2724,
+          "y": 187
+        }
+      ]
+    },
+    {
+      "drawio_id": "HFB_ljQ9eOuzNTE88xCk-65",
+      "from": "industrial_colonies:petroleum_and_engines/cr01_heavy_diesel_engines",
+      "to": "industrial_colonies:nuclear_engineering/cr01_the_nuclear_age",
+      "points": [
+        {
+          "x": 2585,
+          "y": 212
+        },
+        {
+          "x": 2585,
+          "y": 206
+        },
+        {
+          "x": 2585,
+          "y": 323
+        },
+        {
+          "x": 3281,
+          "y": 323
+        },
+        {
+          "x": 3305,
+          "y": 325
+        }
+      ],
+      "drawio_points": [
+        {
+          "x": 2585,
+          "y": 206
+        },
+        {
+          "x": 2585,
+          "y": 323
+        },
+        {
+          "x": 3281,
+          "y": 323
+        }
+      ]
+    },
+    {
+      "drawio_id": "2ABv8Bv4OHED41jCkFc--47",
+      "from": "industrial_colonies:petroleum_and_engines/cr01_radial_engines",
+      "to": "industrial_colonies:petroleum_and_engines/cr01_air_transport",
+      "points": [
+        {
+          "x": 2836,
+          "y": 162
+        },
+        {
+          "x": 2836,
+          "y": 167
+        },
+        {
+          "x": 2836,
+          "y": 131
+        },
+        {
+          "x": 2836,
+          "y": 132
+        }
+      ],
+      "drawio_points": [
+        {
+          "x": 2836,
+          "y": 167
+        },
+        {
+          "x": 2836,
+          "y": 131
+        }
+      ]
+    },
+    {
+      "drawio_id": "HFB_ljQ9eOuzNTE88xCk-23",
+      "from": "industrial_colonies:steel_and_metallurgy/cr01_advanced_alloy_mixing",
+      "to": "industrial_colonies:steel_and_metallurgy/cr01_advanced_metallurgy",
+      "points": [
+        {
+          "x": 2159,
+          "y": 404
+        },
+        {
+          "x": 2179,
+          "y": 404
+        },
+        {
+          "x": 2221,
+          "y": 404
+        },
+        {
+          "x": 2246,
+          "y": 404
+        }
+      ],
+      "drawio_points": [
+        {
+          "x": 2179,
+          "y": 404
+        },
+        {
+          "x": 2221,
+          "y": 404
+        }
+      ]
+    },
+    {
+      "drawio_id": "2ABv8Bv4OHED41jCkFc--86",
+      "from": "industrial_colonies:digital_logistics/cr01_early_digital_chemical_storage",
+      "to": "industrial_colonies:digital_logistics/cr01_improved_digital_chemical_storage",
+      "points": [
+        {
+          "x": 2891,
+          "y": 671
+        },
+        {
+          "x": 2891,
+          "y": 676
+        },
+        {
+          "x": 2891,
+          "y": 637
+        },
+        {
+          "x": 3281,
+          "y": 637
+        },
+        {
+          "x": 3305,
+          "y": 637
+        }
+      ],
+      "drawio_points": [
+        {
+          "x": 2891,
+          "y": 676
+        },
+        {
+          "x": 2891,
+          "y": 637
+        },
+        {
+          "x": 3281,
+          "y": 637
+        }
+      ]
+    },
+    {
+      "drawio_id": "HFB_ljQ9eOuzNTE88xCk-9",
+      "from": "industrial_colonies:electrical_grid/cr01_early_power_cables",
+      "to": "industrial_colonies:electrical_grid/cr01_grid_engineering",
+      "points": [
+        {
+          "x": 1755,
+          "y": 399
+        },
+        {
+          "x": 1775,
+          "y": 399
+        },
+        {
+          "x": 1838,
+          "y": 399
+        },
+        {
+          "x": 1838,
+          "y": 441
+        },
+        {
+          "x": 1836,
+          "y": 440
+        }
+      ],
+      "drawio_points": [
+        {
+          "x": 1775,
+          "y": 399
+        },
+        {
+          "x": 1838,
+          "y": 399
+        },
+        {
+          "x": 1838,
+          "y": 441
+        }
+      ]
+    },
+    {
+      "drawio_id": "1mlMBtlIvCZDlexHoxKP-3",
+      "from": "industrial_colonies:digital_logistics/cr01_overclocked_processors",
+      "to": "industrial_colonies:digital_logistics/cr01_enhanced_me_crafting_upgrade",
+      "points": [
+        {
+          "x": 3480,
+          "y": 978
+        },
+        {
+          "x": 3500,
+          "y": 978
+        },
+        {
+          "x": 4006,
+          "y": 978
+        },
+        {
+          "x": 4031,
+          "y": 978
+        }
+      ],
+      "drawio_points": [
+        {
+          "x": 3500,
+          "y": 978
+        },
+        {
+          "x": 4006,
+          "y": 978
+        }
+      ]
+    },
+    {
+      "drawio_id": "HFB_ljQ9eOuzNTE88xCk-13",
+      "from": "industrial_colonies:factory_engineering/cr01_control_electronics",
+      "to": "industrial_colonies:factory_engineering/cr01_infusion_technology",
+      "points": [
+        {
+          "x": 2111,
+          "y": 696
+        },
+        {
+          "x": 2131,
+          "y": 696
+        },
+        {
+          "x": 2171,
+          "y": 696
+        },
+        {
+          "x": 2196,
+          "y": 696
+        }
+      ],
+      "drawio_points": [
+        {
+          "x": 2131,
+          "y": 696
+        },
+        {
+          "x": 2171,
+          "y": 696
+        }
+      ]
+    },
+    {
+      "drawio_id": "HFB_ljQ9eOuzNTE88xCk-15",
+      "from": "industrial_colonies:factory_engineering/cr01_infusion_technology",
+      "to": "industrial_colonies:factory_engineering/cr01_modular_machinery",
+      "points": [
+        {
+          "x": 2371,
+          "y": 696
+        },
+        {
+          "x": 2391,
+          "y": 696
+        },
+        {
+          "x": 2528,
+          "y": 696
+        },
+        {
+          "x": 2553,
+          "y": 696
+        }
+      ],
+      "drawio_points": [
+        {
+          "x": 2391,
+          "y": 696
+        },
+        {
+          "x": 2528,
+          "y": 696
+        }
+      ]
+    },
+    {
+      "drawio_id": "HFB_ljQ9eOuzNTE88xCk-19",
+      "from": "industrial_colonies:factory_engineering/cr01_modular_machinery",
+      "to": "industrial_colonies:factory_engineering/cr01_reinforced_systems",
+      "points": [
+        {
+          "x": 2640,
+          "y": 671
+        },
+        {
+          "x": 2640,
+          "y": 676
+        },
+        {
+          "x": 2640,
+          "y": 541
+        },
+        {
+          "x": 2640,
+          "y": 543
+        }
+      ],
+      "drawio_points": [
+        {
+          "x": 2640,
+          "y": 676
+        },
+        {
+          "x": 2640,
+          "y": 541
+        }
+      ]
+    },
+    {
+      "drawio_id": "HFB_ljQ9eOuzNTE88xCk-26",
+      "from": "industrial_colonies:factory_engineering/cr01_modular_machinery",
+      "to": "industrial_colonies:digital_logistics/cr01_early_digital_chemical_storage",
+      "points": [
+        {
+          "x": 2728,
+          "y": 696
+        },
+        {
+          "x": 2748,
+          "y": 696
+        },
+        {
+          "x": 2779,
+          "y": 696
+        },
+        {
+          "x": 2804,
+          "y": 696
+        }
+      ],
+      "drawio_points": [
+        {
+          "x": 2748,
+          "y": 696
+        },
+        {
+          "x": 2779,
+          "y": 696
+        }
+      ]
+    },
+    {
+      "drawio_id": "HFB_ljQ9eOuzNTE88xCk-27",
+      "from": "industrial_colonies:factory_engineering/cr01_modular_machinery",
+      "to": "industrial_colonies:factory_engineering/cr01_electrochemical_engineering",
+      "points": [
+        {
+          "x": 2708,
+          "y": 671
+        },
+        {
+          "x": 2694,
+          "y": 676
+        },
+        {
+          "x": 2694,
+          "y": 579
+        },
+        {
+          "x": 2781,
+          "y": 579
+        },
+        {
+          "x": 2806,
+          "y": 579
+        }
+      ],
+      "drawio_points": [
+        {
+          "x": 2694,
+          "y": 676
+        },
+        {
+          "x": 2694,
+          "y": 579
+        },
+        {
+          "x": 2781,
+          "y": 579
+        }
+      ]
+    },
+    {
+      "drawio_id": "HFB_ljQ9eOuzNTE88xCk-68",
+      "from": "industrial_colonies:factory_engineering/cr01_reinforced_systems",
+      "to": "industrial_colonies:factory_engineering/cr01_precision_engineering",
+      "points": [
+        {
+          "x": 2728,
+          "y": 518
+        },
+        {
+          "x": 2748,
+          "y": 518
+        },
+        {
+          "x": 3281,
+          "y": 518
+        },
+        {
+          "x": 3305,
+          "y": 518
+        }
+      ],
+      "drawio_points": [
+        {
+          "x": 2748,
+          "y": 518
+        },
+        {
+          "x": 3281,
+          "y": 518
+        }
+      ]
+    },
+    {
+      "drawio_id": "HFB_ljQ9eOuzNTE88xCk-69",
+      "from": "industrial_colonies:factory_engineering/cr01_precision_engineering",
+      "to": "industrial_colonies:factory_engineering/cr01_high_energy_distribution",
+      "points": [
+        {
+          "x": 3392,
+          "y": 493
+        },
+        {
+          "x": 3392,
+          "y": 498
+        },
+        {
+          "x": 3392,
+          "y": 489
+        },
+        {
+          "x": 3392,
+          "y": 490
+        }
+      ],
+      "drawio_points": [
+        {
+          "x": 3392,
+          "y": 498
+        },
+        {
+          "x": 3392,
+          "y": 489
+        }
+      ]
+    },
+    {
+      "drawio_id": "HFB_ljQ9eOuzNTE88xCk-34",
+      "from": "industrial_colonies:factory_engineering/cr01_electrochemical_engineering",
+      "to": "industrial_colonies:factory_engineering/cr01_chemical_separation",
+      "points": [
+        {
+          "x": 2981,
+          "y": 579
+        },
+        {
+          "x": 3001,
+          "y": 579
+        },
+        {
+          "x": 3281,
+          "y": 579
+        },
+        {
+          "x": 3305,
+          "y": 579
+        }
+      ],
+      "drawio_points": [
+        {
+          "x": 3001,
+          "y": 579
+        },
+        {
+          "x": 3281,
+          "y": 579
+        }
+      ]
+    },
+    {
+      "drawio_id": "HFB_ljQ9eOuzNTE88xCk-55",
+      "from": "industrial_colonies:factory_engineering/cr01_chemical_separation",
+      "to": "industrial_colonies:digital_logistics/cr01_improved_digital_chemical_storage",
+      "points": [
+        {
+          "x": 3392,
+          "y": 604
+        },
+        {
+          "x": 3392,
+          "y": 599
+        },
+        {
+          "x": 3392,
+          "y": 614
+        },
+        {
+          "x": 3392,
+          "y": 612
+        }
+      ],
+      "drawio_points": [
+        {
+          "x": 3392,
+          "y": 599
+        },
+        {
+          "x": 3392,
+          "y": 614
+        }
+      ]
+    },
+    {
+      "drawio_id": "HFB_ljQ9eOuzNTE88xCk-58",
+      "from": "industrial_colonies:factory_engineering/cr01_chemical_separation",
+      "to": "industrial_colonies:factory_engineering/cr01_precision_engineering",
+      "points": [
+        {
+          "x": 3392,
+          "y": 554
+        },
+        {
+          "x": 3392,
+          "y": 559
+        },
+        {
+          "x": 3392,
+          "y": 547
+        },
+        {
+          "x": 3392,
+          "y": 550
+        },
+        {
+          "x": 3392,
+          "y": 541
+        },
+        {
+          "x": 3392,
+          "y": 543
+        }
+      ],
+      "drawio_points": [
+        {
+          "x": 3392,
+          "y": 559
+        },
+        {
+          "x": 3392,
+          "y": 547
+        },
+        {
+          "x": 3392,
+          "y": 550
+        },
+        {
+          "x": 3392,
+          "y": 541
+        }
+      ]
+    },
+    {
+      "drawio_id": "HFB_ljQ9eOuzNTE88xCk-24",
+      "from": "industrial_colonies:steel_and_metallurgy/cr01_advanced_metallurgy",
+      "to": "industrial_colonies:steel_and_metallurgy/cr01_exotic_metallurgy",
+      "points": [
+        {
+          "x": 2421,
+          "y": 404
+        },
+        {
+          "x": 2441,
+          "y": 404
+        },
+        {
+          "x": 2528,
+          "y": 404
+        },
+        {
+          "x": 2552,
+          "y": 404
+        }
+      ],
+      "drawio_points": [
+        {
+          "x": 2441,
+          "y": 404
+        },
+        {
+          "x": 2528,
+          "y": 404
+        }
+      ]
+    },
+    {
+      "drawio_id": "HFB_ljQ9eOuzNTE88xCk-39",
+      "from": "industrial_colonies:steel_and_metallurgy/cr01_exotic_metallurgy",
+      "to": "industrial_colonies:nuclear_engineering/cr01_yellorium_refinement",
+      "points": [
+        {
+          "x": 2727,
+          "y": 404
+        },
+        {
+          "x": 2747,
+          "y": 404
+        },
+        {
+          "x": 2778,
+          "y": 404
+        },
+        {
+          "x": 2803,
+          "y": 404
+        }
+      ],
+      "drawio_points": [
+        {
+          "x": 2747,
+          "y": 404
+        },
+        {
+          "x": 2778,
+          "y": 404
+        }
+      ]
+    },
+    {
+      "drawio_id": "HFB_ljQ9eOuzNTE88xCk-57",
+      "from": "industrial_colonies:nuclear_engineering/cr01_yellorium_refinement",
+      "to": "industrial_colonies:nuclear_engineering/cr01_the_nuclear_age",
+      "points": [
+        {
+          "x": 2978,
+          "y": 404
+        },
+        {
+          "x": 2998,
+          "y": 404
+        },
+        {
+          "x": 3141,
+          "y": 404
+        },
+        {
+          "x": 3141,
+          "y": 343
+        },
+        {
+          "x": 3281,
+          "y": 343
+        },
+        {
+          "x": 3305,
+          "y": 341
+        }
+      ],
+      "drawio_points": [
+        {
+          "x": 2998,
+          "y": 404
+        },
+        {
+          "x": 3141,
+          "y": 404
+        },
+        {
+          "x": 3141,
+          "y": 343
+        },
+        {
+          "x": 3281,
+          "y": 343
+        }
+      ]
+    },
+    {
+      "drawio_id": "HFB_ljQ9eOuzNTE88xCk-11",
+      "from": "industrial_colonies:electrical_grid/cr01_grid_engineering",
+      "to": "industrial_colonies:factory_engineering/cr01_early_electronics",
+      "points": [
+        {
+          "x": 1892,
+          "y": 490
+        },
+        {
+          "x": 1892,
+          "y": 485
+        },
+        {
+          "x": 1892,
+          "y": 614
+        },
+        {
+          "x": 1861,
+          "y": 614
+        },
+        {
+          "x": 1861,
+          "y": 740
+        },
+        {
+          "x": 1859,
+          "y": 739
+        }
+      ],
+      "drawio_points": [
+        {
+          "x": 1892,
+          "y": 485
+        },
+        {
+          "x": 1892,
+          "y": 614
+        },
+        {
+          "x": 1861,
+          "y": 614
+        },
+        {
+          "x": 1861,
+          "y": 740
+        }
+      ]
+    },
+    {
+      "drawio_id": "HFB_ljQ9eOuzNTE88xCk-21",
+      "from": "industrial_colonies:electrical_grid/cr01_grid_engineering",
+      "to": "industrial_colonies:electrical_grid/cr01_high_voltage_systems",
+      "points": [
+        {
+          "x": 1980,
+          "y": 465
+        },
+        {
+          "x": 2000,
+          "y": 465
+        },
+        {
+          "x": 2221,
+          "y": 465
+        },
+        {
+          "x": 2246,
+          "y": 465
+        }
+      ],
+      "drawio_points": [
+        {
+          "x": 2000,
+          "y": 465
+        },
+        {
+          "x": 2221,
+          "y": 465
+        }
+      ]
+    },
+    {
+      "drawio_id": "HFB_ljQ9eOuzNTE88xCk-22",
+      "from": "industrial_colonies:electrical_grid/cr01_high_voltage_systems",
+      "to": "industrial_colonies:electrical_grid/cr01_extreme_power_transmission",
+      "points": [
+        {
+          "x": 2421,
+          "y": 465
+        },
+        {
+          "x": 2441,
+          "y": 465
+        },
+        {
+          "x": 2528,
+          "y": 465
+        },
+        {
+          "x": 2552,
+          "y": 465
+        }
+      ],
+      "drawio_points": [
+        {
+          "x": 2441,
+          "y": 465
+        },
+        {
+          "x": 2528,
+          "y": 465
+        }
+      ]
+    },
+    {
+      "drawio_id": "HFB_ljQ9eOuzNTE88xCk-25",
+      "from": "industrial_colonies:electrical_grid/cr01_extreme_power_transmission",
+      "to": "industrial_colonies:factory_engineering/cr01_high_energy_distribution",
+      "points": [
+        {
+          "x": 2727,
+          "y": 465
+        },
+        {
+          "x": 2747,
+          "y": 465
+        },
+        {
+          "x": 3281,
+          "y": 465
+        },
+        {
+          "x": 3305,
+          "y": 465
+        }
+      ],
+      "drawio_points": [
+        {
+          "x": 2747,
+          "y": 465
+        },
+        {
+          "x": 3281,
+          "y": 465
+        }
+      ]
+    },
+    {
+      "drawio_id": "HFB_ljQ9eOuzNTE88xCk-70",
+      "from": "industrial_colonies:factory_engineering/cr01_high_energy_distribution",
+      "to": "industrial_colonies:nuclear_engineering/cr01_the_nuclear_age",
+      "points": [
+        {
+          "x": 3392,
+          "y": 440
+        },
+        {
+          "x": 3392,
+          "y": 445
+        },
+        {
+          "x": 3392,
+          "y": 357
+        },
+        {
+          "x": 3392,
+          "y": 358
+        }
+      ],
+      "drawio_points": [
+        {
+          "x": 3392,
+          "y": 445
+        },
+        {
+          "x": 3392,
+          "y": 357
+        }
+      ]
+    },
+    {
+      "drawio_id": "HFB_ljQ9eOuzNTE88xCk-41",
+      "from": "industrial_colonies:nuclear_engineering/cr01_the_nuclear_age",
+      "to": "industrial_colonies:nuclear_engineering/cr01_core_engineering",
+      "points": [
+        {
+          "x": 3480,
+          "y": 333
+        },
+        {
+          "x": 3500,
+          "y": 333
+        },
+        {
+          "x": 3546,
+          "y": 333
+        },
+        {
+          "x": 3571,
+          "y": 333
+        }
+      ],
+      "drawio_points": [
+        {
+          "x": 3500,
+          "y": 333
+        },
+        {
+          "x": 3546,
+          "y": 333
+        }
+      ]
+    },
+    {
+      "drawio_id": "HFB_ljQ9eOuzNTE88xCk-42",
+      "from": "industrial_colonies:nuclear_engineering/cr01_the_nuclear_age",
+      "to": "industrial_colonies:nuclear_engineering/cr01_containment_engineering",
+      "points": [
+        {
+          "x": 3460,
+          "y": 308
+        },
+        {
+          "x": 3446,
+          "y": 313
+        },
+        {
+          "x": 3446,
+          "y": 267
+        },
+        {
+          "x": 3546,
+          "y": 267
+        },
+        {
+          "x": 3571,
+          "y": 267
+        }
+      ],
+      "drawio_points": [
+        {
+          "x": 3446,
+          "y": 313
+        },
+        {
+          "x": 3446,
+          "y": 267
+        },
+        {
+          "x": 3546,
+          "y": 267
+        }
+      ]
+    },
+    {
+      "drawio_id": "HFB_ljQ9eOuzNTE88xCk-43",
+      "from": "industrial_colonies:nuclear_engineering/cr01_the_nuclear_age",
+      "to": "industrial_colonies:nuclear_engineering/cr01_isotope_materials",
+      "points": [
+        {
+          "x": 3460,
+          "y": 358
+        },
+        {
+          "x": 3446,
+          "y": 353
+        },
+        {
+          "x": 3446,
+          "y": 404
+        },
+        {
+          "x": 3546,
+          "y": 404
+        },
+        {
+          "x": 3571,
+          "y": 404
+        }
+      ],
+      "drawio_points": [
+        {
+          "x": 3446,
+          "y": 353
+        },
+        {
+          "x": 3446,
+          "y": 404
+        },
+        {
+          "x": 3546,
+          "y": 404
+        }
+      ]
+    },
+    {
+      "drawio_id": "HFB_ljQ9eOuzNTE88xCk-49",
+      "from": "industrial_colonies:nuclear_engineering/cr01_containment_engineering",
+      "to": "industrial_colonies:nuclear_engineering/cr01_first_criticality",
+      "points": [
+        {
+          "x": 3746,
+          "y": 267
+        },
+        {
+          "x": 3766,
+          "y": 267
+        },
+        {
+          "x": 4189,
+          "y": 267
+        },
+        {
+          "x": 4189,
+          "y": 309
+        },
+        {
+          "x": 4189,
+          "y": 308
+        }
+      ],
+      "drawio_points": [
+        {
+          "x": 3766,
+          "y": 267
+        },
+        {
+          "x": 4189,
+          "y": 267
+        },
+        {
+          "x": 4189,
+          "y": 309
+        }
+      ]
+    },
+    {
+      "drawio_id": "HFB_ljQ9eOuzNTE88xCk-44",
+      "from": "industrial_colonies:nuclear_engineering/cr01_core_engineering",
+      "to": "industrial_colonies:nuclear_engineering/cr01_reactor_instrumentation",
+      "points": [
+        {
+          "x": 3746,
+          "y": 333
+        },
+        {
+          "x": 3766,
+          "y": 333
+        },
+        {
+          "x": 3812,
+          "y": 333
+        },
+        {
+          "x": 3836,
+          "y": 333
+        }
+      ],
+      "drawio_points": [
+        {
+          "x": 3766,
+          "y": 333
+        },
+        {
+          "x": 3812,
+          "y": 333
+        }
+      ]
+    },
+    {
+      "drawio_id": "HFB_ljQ9eOuzNTE88xCk-47",
+      "from": "industrial_colonies:nuclear_engineering/cr01_reactor_instrumentation",
+      "to": "industrial_colonies:nuclear_engineering/cr01_first_criticality",
+      "points": [
+        {
+          "x": 4011,
+          "y": 333
+        },
+        {
+          "x": 4031,
+          "y": 333
+        },
+        {
+          "x": 4077,
+          "y": 333
+        },
+        {
+          "x": 4102,
+          "y": 333
+        }
+      ],
+      "drawio_points": [
+        {
+          "x": 4031,
+          "y": 333
+        },
+        {
+          "x": 4077,
+          "y": 333
+        }
+      ]
+    },
+    {
+      "drawio_id": "HFB_ljQ9eOuzNTE88xCk-45",
+      "from": "industrial_colonies:nuclear_engineering/cr01_isotope_materials",
+      "to": "industrial_colonies:nuclear_engineering/cr01_uranium_processing",
+      "points": [
+        {
+          "x": 3746,
+          "y": 404
+        },
+        {
+          "x": 3766,
+          "y": 404
+        },
+        {
+          "x": 3812,
+          "y": 404
+        },
+        {
+          "x": 3836,
+          "y": 404
+        }
+      ],
+      "drawio_points": [
+        {
+          "x": 3766,
+          "y": 404
+        },
+        {
+          "x": 3812,
+          "y": 404
+        }
+      ]
+    },
+    {
+      "drawio_id": "HFB_ljQ9eOuzNTE88xCk-46",
+      "from": "industrial_colonies:nuclear_engineering/cr01_uranium_processing",
+      "to": "industrial_colonies:nuclear_engineering/cr01_early_nuclear_fuel",
+      "points": [
+        {
+          "x": 4011,
+          "y": 404
+        },
+        {
+          "x": 4031,
+          "y": 404
+        },
+        {
+          "x": 4077,
+          "y": 404
+        },
+        {
+          "x": 4102,
+          "y": 404
+        }
+      ],
+      "drawio_points": [
+        {
+          "x": 4031,
+          "y": 404
+        },
+        {
+          "x": 4077,
+          "y": 404
+        }
+      ]
+    },
+    {
+      "drawio_id": "HFB_ljQ9eOuzNTE88xCk-48",
+      "from": "industrial_colonies:nuclear_engineering/cr01_early_nuclear_fuel",
+      "to": "industrial_colonies:nuclear_engineering/cr01_first_criticality",
+      "points": [
+        {
+          "x": 4189,
+          "y": 379
+        },
+        {
+          "x": 4189,
+          "y": 384
+        },
+        {
+          "x": 4189,
+          "y": 357
+        },
+        {
+          "x": 4189,
+          "y": 358
+        }
+      ],
+      "drawio_points": [
+        {
+          "x": 4189,
+          "y": 384
+        },
+        {
+          "x": 4189,
+          "y": 357
+        }
+      ]
+    },
+    {
+      "drawio_id": "HFB_ljQ9eOuzNTE88xCk-50",
+      "from": "industrial_colonies:nuclear_engineering/cr01_first_criticality",
+      "to": "industrial_colonies:nuclear_fuel_cycle/cr01_fuel_reprocessing",
+      "points": [
+        {
+          "x": 4277,
+          "y": 333
+        },
+        {
+          "x": 4297,
+          "y": 333
+        },
+        {
+          "x": 4343,
+          "y": 333
+        },
+        {
+          "x": 4368,
+          "y": 333
+        }
+      ],
+      "drawio_points": [
+        {
+          "x": 4297,
+          "y": 333
+        },
+        {
+          "x": 4343,
+          "y": 333
+        }
+      ]
+    },
+    {
+      "drawio_id": "HFB_ljQ9eOuzNTE88xCk-51",
+      "from": "industrial_colonies:nuclear_fuel_cycle/cr01_fuel_reprocessing",
+      "to": "industrial_colonies:nuclear_fuel_cycle/cr01_actinide_chemistry",
+      "points": [
+        {
+          "x": 4543,
+          "y": 333
+        },
+        {
+          "x": 4563,
+          "y": 333
+        },
+        {
+          "x": 4602,
+          "y": 333
+        },
+        {
+          "x": 4627,
+          "y": 333
+        }
+      ],
+      "drawio_points": [
+        {
+          "x": 4563,
+          "y": 333
+        },
+        {
+          "x": 4602,
+          "y": 333
+        }
+      ]
+    },
+    {
+      "drawio_id": "HFB_ljQ9eOuzNTE88xCk-52",
+      "from": "industrial_colonies:nuclear_fuel_cycle/cr01_actinide_chemistry",
+      "to": "industrial_colonies:nuclear_fuel_cycle/cr01_plutonium_production",
+      "points": [
+        {
+          "x": 4802,
+          "y": 333
+        },
+        {
+          "x": 4822,
+          "y": 333
+        },
+        {
+          "x": 4860,
+          "y": 333
+        },
+        {
+          "x": 4885,
+          "y": 333
+        }
+      ],
+      "drawio_points": [
+        {
+          "x": 4822,
+          "y": 333
+        },
+        {
+          "x": 4860,
+          "y": 333
+        }
+      ]
+    },
+    {
+      "drawio_id": "HFB_ljQ9eOuzNTE88xCk-53",
+      "from": "industrial_colonies:nuclear_fuel_cycle/cr01_plutonium_production",
+      "to": "industrial_colonies:nuclear_fuel_cycle/cr01_advanced_nuclear_fuel",
+      "points": [
+        {
+          "x": 5060,
+          "y": 333
+        },
+        {
+          "x": 5080,
+          "y": 333
+        },
+        {
+          "x": 5119,
+          "y": 333
+        },
+        {
+          "x": 5144,
+          "y": 333
+        }
+      ],
+      "drawio_points": [
+        {
+          "x": 5080,
+          "y": 333
+        },
+        {
+          "x": 5119,
+          "y": 333
+        }
+      ]
+    }
+  ]
+}

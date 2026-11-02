@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "arrived_on_glacio": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "ad_astra:glacio"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "arrived_on_glacio"
+    ]
+  ],
+  "sends_telemetry_event": false
+}

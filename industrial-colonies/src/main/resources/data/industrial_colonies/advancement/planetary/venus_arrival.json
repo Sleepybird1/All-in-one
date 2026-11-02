@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "arrived_on_venus": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "ad_astra:venus"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "arrived_on_venus"
+    ]
+  ],
+  "sends_telemetry_event": false
+}

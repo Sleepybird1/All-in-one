@@ -1,0 +1,63 @@
+{
+  "id": "industrial_colonies:atm_dissolution",
+  "mod": "mekanism",
+  "icon": "mekanism:chemical_dissolution_chamber",
+  "width": 172,
+  "height": 82,
+  "slots": [
+    {
+      "key": "item_input",
+      "role": "INPUT",
+      "x": 8,
+      "y": 12,
+      "required": true,
+      "item": true,
+      "fluid": false,
+      "chemical": false,
+      "count": true
+    },
+    {
+      "key": "chemical_input",
+      "role": "INPUT",
+      "x": 40,
+      "y": 42,
+      "required": true,
+      "item": false,
+      "fluid": false,
+      "chemical": true,
+      "count": true
+    },
+    {
+      "key": "output",
+      "role": "OUTPUT",
+      "x": 136,
+      "y": 28,
+      "required": true,
+      "item": false,
+      "fluid": false,
+      "chemical": true,
+      "count": true
+    }
+  ],
+  "decorations": [
+    {
+      "type": "ARROW",
+      "x": 86,
+      "y": 30
+    }
+  ],
+  "parameters": [
+    {
+      "key": "batchCount",
+      "type": "INT",
+      "default": "15"
+    },
+    {
+      "key": "__template",
+      "type": "STRING",
+      "default": "event.custom({type:'mekanism:dissolution',item_input:{item:Item.of({slot:item_input}).id,count:{param:batchCount}},chemical_input:(function(s){var m=String(s).match(/^(?:(\\d+)x\\s+)?(.+)$/);if(!m)throw new Error('Invalid chemical');return {amount:m[1]?Number(m[1]):1000,chemical:m[2]};})({slot:chemical_input}),output:(function(s){var m=String(s).match(/^(?:(\\d+)x\\s+)?(.+)$/);if(!m)throw new Error('Invalid chemical');return {amount:m[1]?Number(m[1]):1000,id:m[2]};})({slot:output}),per_tick_usage:false})"
+    }
+  ],
+  "codegen": "kjsgen:template",
+  "requiresMod": "mekanism"
+}

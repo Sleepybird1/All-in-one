@@ -1,0 +1,611 @@
+{
+  "schema": "continent-resource-catalog-v1",
+  "status": "PROPOSAL_NOT_INSTALLED",
+  "chartSHA256": "2a760807c5bbd58d3124b7ade66ea58b1b0f608e36cc5a27176c9890940f6264",
+  "definitionsSHA256": "52b58b9f0e032bfd3af668e0a34c9efd6cabfe05aa2a89851e3de36d9043e5fc",
+  "families": [
+    {
+      "resource": "Zinc",
+      "family": "sphalerite",
+      "tiers": [
+        {
+          "oreBlocks": 5000,
+          "weightPercent": 80
+        },
+        {
+          "oreBlocks": 20000,
+          "weightPercent": 18
+        },
+        {
+          "oreBlocks": 75000,
+          "weightPercent": 2
+        }
+      ],
+      "referenceChance": "95%",
+      "biomeChancesStatus": "REQUIRES_EXPLICIT_MAPPING_NO_GLOBAL_FALLBACK",
+      "chartBiomePreferences": {
+        "highest": "Limestone/dolomite plains, river valleys",
+        "medium": "Meadows, sedimentary foothills",
+        "low": "Forests over carbonate rock"
+      },
+      "chartPlacement": "\u221220\u201380",
+      "chartSpacing": "3\u20135k"
+    },
+    {
+      "resource": "Copper",
+      "family": "chalcopyrite",
+      "tiers": [
+        {
+          "oreBlocks": 6000,
+          "weightPercent": 80
+        },
+        {
+          "oreBlocks": 25000,
+          "weightPercent": 18
+        },
+        {
+          "oreBlocks": 90000,
+          "weightPercent": 2
+        }
+      ],
+      "referenceChance": "95%",
+      "biomeChancesStatus": "REQUIRES_EXPLICIT_MAPPING_NO_GLOBAL_FALLBACK",
+      "chartBiomePreferences": {
+        "highest": "Badlands, warm rocky hills, warm mountains, savanna highlands",
+        "medium": "Deserts, temperate mountains, foothills",
+        "low": "Cold mountains"
+      },
+      "chartPlacement": "\u221210\u2013160; mountain ceiling review",
+      "chartSpacing": "3\u20135k"
+    },
+    {
+      "resource": "Magnesium",
+      "family": "dolomite",
+      "tiers": [
+        {
+          "oreBlocks": 4000,
+          "weightPercent": 80
+        },
+        {
+          "oreBlocks": 15000,
+          "weightPercent": 18
+        },
+        {
+          "oreBlocks": 60000,
+          "weightPercent": 2
+        }
+      ],
+      "referenceChance": "90%",
+      "biomeChancesStatus": "REQUIRES_EXPLICIT_MAPPING_NO_GLOBAL_FALLBACK",
+      "chartBiomePreferences": {
+        "highest": "Limestone/dolomite plains, coastal terraces",
+        "medium": "Chalk-cliff districts, river-cut carbonate valleys",
+        "low": "Dry sedimentary plateaus"
+      },
+      "chartPlacement": "30\u2013140",
+      "chartSpacing": "3\u20135k"
+    },
+    {
+      "resource": "Graphite",
+      "family": "graphite_rock",
+      "tiers": [
+        {
+          "oreBlocks": 5000,
+          "weightPercent": 80
+        },
+        {
+          "oreBlocks": 20000,
+          "weightPercent": 18
+        },
+        {
+          "oreBlocks": 80000,
+          "weightPercent": 2
+        }
+      ],
+      "referenceChance": "85%",
+      "biomeChancesStatus": "REQUIRES_EXPLICIT_MAPPING_NO_GLOBAL_FALLBACK",
+      "chartBiomePreferences": {
+        "highest": "Rocky metamorphic highlands",
+        "medium": "Wooded hills over metamorphic rock",
+        "low": "Taiga over metamorphic rock"
+      },
+      "chartPlacement": "30\u2013120; deep diamond-associated exception",
+      "chartSpacing": "3\u20135k"
+    },
+    {
+      "resource": "Magnetite iron",
+      "family": "magnetite",
+      "tiers": [
+        {
+          "oreBlocks": 5000,
+          "weightPercent": 80
+        },
+        {
+          "oreBlocks": 25000,
+          "weightPercent": 19
+        },
+        {
+          "oreBlocks": 100000,
+          "weightPercent": 1
+        }
+      ],
+      "referenceChance": "80%",
+      "biomeChancesStatus": "REQUIRES_EXPLICIT_MAPPING_NO_GLOBAL_FALLBACK",
+      "chartBiomePreferences": {
+        "highest": "Taiga",
+        "medium": "Plains",
+        "low": "Mountains (very low)"
+      },
+      "chartPlacement": "\u221220\u2013100",
+      "chartSpacing": "3\u20135k"
+    },
+    {
+      "resource": "Aluminum",
+      "family": "bauxite",
+      "tiers": [
+        {
+          "oreBlocks": 6000,
+          "weightPercent": 80
+        },
+        {
+          "oreBlocks": 25000,
+          "weightPercent": 18
+        },
+        {
+          "oreBlocks": 90000,
+          "weightPercent": 2
+        }
+      ],
+      "referenceChance": "80%",
+      "biomeChancesStatus": "REQUIRES_EXPLICIT_MAPPING_NO_GLOBAL_FALLBACK",
+      "chartBiomePreferences": {
+        "highest": "Rainforests, jungles on weathered uplands",
+        "medium": "Humid tropical woodland",
+        "low": "Savanna with deep weathered soil"
+      },
+      "chartPlacement": "65\u2013180; near surface",
+      "chartSpacing": "4\u20136k"
+    },
+    {
+      "resource": "Lead",
+      "family": "galena",
+      "tiers": [
+        {
+          "oreBlocks": 3000,
+          "weightPercent": 85
+        },
+        {
+          "oreBlocks": 12000,
+          "weightPercent": 13
+        },
+        {
+          "oreBlocks": 50000,
+          "weightPercent": 2
+        }
+      ],
+      "referenceChance": "80%",
+      "biomeChancesStatus": "REQUIRES_EXPLICIT_MAPPING_NO_GLOBAL_FALLBACK",
+      "chartBiomePreferences": {
+        "highest": "Limestone/dolomite plains, river valleys",
+        "medium": "Sedimentary foothills",
+        "low": "Forests over carbonate rock"
+      },
+      "chartPlacement": "\u221245\u201360; deepslate variant where appropriate",
+      "chartSpacing": "3\u20135k"
+    },
+    {
+      "resource": "Tin",
+      "family": "cassiterite",
+      "tiers": [
+        {
+          "oreBlocks": 2000,
+          "weightPercent": 85
+        },
+        {
+          "oreBlocks": 8000,
+          "weightPercent": 13
+        },
+        {
+          "oreBlocks": 35000,
+          "weightPercent": 2
+        }
+      ],
+      "referenceChance": "75%",
+      "biomeChancesStatus": "REQUIRES_EXPLICIT_MAPPING_NO_GLOBAL_FALLBACK",
+      "chartBiomePreferences": {
+        "highest": "Warm rocky mountains, savanna highlands",
+        "medium": "Temperate granite hills, mountains",
+        "low": "Cold mountains"
+      },
+      "chartPlacement": "0\u2013140; mountain ceiling review",
+      "chartSpacing": "3\u20135k"
+    },
+    {
+      "resource": "Phosphorus",
+      "family": "phosphate_rock",
+      "tiers": [
+        {
+          "oreBlocks": 4000,
+          "weightPercent": 80
+        },
+        {
+          "oreBlocks": 18000,
+          "weightPercent": 18
+        },
+        {
+          "oreBlocks": 70000,
+          "weightPercent": 2
+        }
+      ],
+      "referenceChance": "75%",
+      "biomeChancesStatus": "REQUIRES_EXPLICIT_MAPPING_NO_GLOBAL_FALLBACK",
+      "chartBiomePreferences": {
+        "highest": "Coastal plains, former shallow-sea basins",
+        "medium": "Sedimentary plains",
+        "low": "Exposed sedimentary desert basins"
+      },
+      "chartPlacement": "15\u201390",
+      "chartSpacing": "4\u20136k"
+    },
+    {
+      "resource": "Nickel",
+      "family": "pentlandite",
+      "tiers": [
+        {
+          "oreBlocks": 3000,
+          "weightPercent": 85
+        },
+        {
+          "oreBlocks": 12000,
+          "weightPercent": 14
+        },
+        {
+          "oreBlocks": 50000,
+          "weightPercent": 1
+        }
+      ],
+      "referenceChance": "55%",
+      "biomeChancesStatus": "REQUIRES_EXPLICIT_MAPPING_NO_GLOBAL_FALLBACK",
+      "chartBiomePreferences": {
+        "highest": "Mafic/ultramafic rocky highlands",
+        "medium": "Ashen Woodland over suitable rock",
+        "low": "Other hills over mafic intrusions"
+      },
+      "chartPlacement": "\u221245\u201335",
+      "chartSpacing": "4\u20136k"
+    },
+    {
+      "resource": "Boron",
+      "family": "borax_rock",
+      "tiers": [
+        {
+          "oreBlocks": 1000,
+          "weightPercent": 85
+        },
+        {
+          "oreBlocks": 5000,
+          "weightPercent": 14
+        },
+        {
+          "oreBlocks": 20000,
+          "weightPercent": 1
+        }
+      ],
+      "referenceChance": "55%",
+      "biomeChancesStatus": "REQUIRES_EXPLICIT_MAPPING_NO_GLOBAL_FALLBACK",
+      "chartBiomePreferences": {
+        "highest": "Dry lake beds, closed desert basins",
+        "medium": "Desert basin margins",
+        "low": "Badlands with evaporite beds"
+      },
+      "chartPlacement": "45\u2013120; near basin floor",
+      "chartSpacing": "4\u20136k"
+    },
+    {
+      "resource": "Hematite iron",
+      "family": "hematite",
+      "tiers": [
+        {
+          "oreBlocks": 2000,
+          "weightPercent": 90
+        },
+        {
+          "oreBlocks": 10000,
+          "weightPercent": 9
+        },
+        {
+          "oreBlocks": 50000,
+          "weightPercent": 1
+        }
+      ],
+      "referenceChance": "50%",
+      "biomeChancesStatus": "REQUIRES_EXPLICIT_MAPPING_NO_GLOBAL_FALLBACK",
+      "chartBiomePreferences": {
+        "highest": "Badlands, exposed iron-rich sedimentary hills",
+        "medium": "Dry plateaus, savanna",
+        "low": "Exposed iron-rich mountain strata"
+      },
+      "chartPlacement": "20\u2013160; mountain ceiling review",
+      "chartSpacing": "4\u20136k"
+    },
+    {
+      "resource": "Titanium",
+      "family": "ilmenite",
+      "tiers": [
+        {
+          "oreBlocks": 3000,
+          "weightPercent": 85
+        },
+        {
+          "oreBlocks": 15000,
+          "weightPercent": 14
+        },
+        {
+          "oreBlocks": 65000,
+          "weightPercent": 1
+        }
+      ],
+      "referenceChance": "50%",
+      "biomeChancesStatus": "REQUIRES_EXPLICIT_MAPPING_NO_GLOBAL_FALLBACK",
+      "chartBiomePreferences": {
+        "highest": "Beaches, coastal dunes with heavy-mineral sands",
+        "medium": "Coastal plains, ancient beach beds, river mouths",
+        "low": "River sands downstream of suitable rock"
+      },
+      "chartPlacement": "40\u2013100; near surface",
+      "chartSpacing": "4\u20136k"
+    },
+    {
+      "resource": "Lithium",
+      "family": "spodumene_rock",
+      "tiers": [
+        {
+          "oreBlocks": 1500,
+          "weightPercent": 85
+        },
+        {
+          "oreBlocks": 7000,
+          "weightPercent": 14
+        },
+        {
+          "oreBlocks": 30000,
+          "weightPercent": 1
+        }
+      ],
+      "referenceChance": "50%",
+      "biomeChancesStatus": "REQUIRES_EXPLICIT_MAPPING_NO_GLOBAL_FALLBACK",
+      "chartBiomePreferences": {
+        "highest": "Granite/pegmatite hills",
+        "medium": "Granite highlands, rocky meadows",
+        "low": "Forested terrain over pegmatite"
+      },
+      "chartPlacement": "\u221220\u2013100",
+      "chartSpacing": "4\u20136k"
+    },
+    {
+      "resource": "Chromium",
+      "family": "chromite",
+      "tiers": [
+        {
+          "oreBlocks": 2000,
+          "weightPercent": 85
+        },
+        {
+          "oreBlocks": 10000,
+          "weightPercent": 14
+        },
+        {
+          "oreBlocks": 40000,
+          "weightPercent": 1
+        }
+      ],
+      "referenceChance": "45%",
+      "biomeChancesStatus": "REQUIRES_EXPLICIT_MAPPING_NO_GLOBAL_FALLBACK",
+      "chartBiomePreferences": {
+        "highest": "Ultramafic rocky highlands",
+        "medium": "Exposed ultramafic hills",
+        "low": "Ashen Woodland over ultramafic rock"
+      },
+      "chartPlacement": "\u221240\u201360",
+      "chartSpacing": "4\u20136k"
+    },
+    {
+      "resource": "Silver",
+      "family": "argentite",
+      "tiers": [
+        {
+          "oreBlocks": 1000,
+          "weightPercent": 90
+        },
+        {
+          "oreBlocks": 4000,
+          "weightPercent": 9
+        },
+        {
+          "oreBlocks": 20000,
+          "weightPercent": 1
+        }
+      ],
+      "referenceChance": "45%",
+      "biomeChancesStatus": "REQUIRES_EXPLICIT_MAPPING_NO_GLOBAL_FALLBACK",
+      "chartBiomePreferences": {
+        "highest": "Cold mountains, snowy highlands",
+        "medium": "Cold wooded highlands",
+        "low": "Warmer mountains"
+      },
+      "chartPlacement": "\u221230\u2013200",
+      "chartSpacing": "4\u20136k"
+    },
+    {
+      "resource": "Gold",
+      "family": "gold",
+      "tiers": [
+        {
+          "oreBlocks": 1000,
+          "weightPercent": 90
+        },
+        {
+          "oreBlocks": 5000,
+          "weightPercent": 9
+        },
+        {
+          "oreBlocks": 20000,
+          "weightPercent": 1
+        }
+      ],
+      "referenceChance": "35%",
+      "biomeChancesStatus": "REQUIRES_EXPLICIT_MAPPING_NO_GLOBAL_FALLBACK",
+      "chartBiomePreferences": {
+        "highest": "Cold mountains, taiga mountain districts",
+        "medium": "Taiga, Cold River, Frozen River",
+        "low": "Other cold foothills; warmer access unresolved"
+      },
+      "chartPlacement": "\u221245\u2013100; mountain ceiling review",
+      "chartSpacing": "5\u20137k"
+    },
+    {
+      "resource": "Tungsten",
+      "family": "wolframite_rock",
+      "tiers": [
+        {
+          "oreBlocks": 1500,
+          "weightPercent": 85
+        },
+        {
+          "oreBlocks": 8000,
+          "weightPercent": 14
+        },
+        {
+          "oreBlocks": 35000,
+          "weightPercent": 1
+        }
+      ],
+      "referenceChance": "35%",
+      "biomeChancesStatus": "REQUIRES_EXPLICIT_MAPPING_NO_GLOBAL_FALLBACK",
+      "chartBiomePreferences": {
+        "highest": "Granite mountain slopes, granite foothills",
+        "medium": "Rocky granite highlands",
+        "low": "Wooded terrain over granite veins"
+      },
+      "chartPlacement": "\u221240\u2013100; mountain ceiling review",
+      "chartSpacing": "5\u20137k"
+    },
+    {
+      "resource": "Uranium",
+      "family": "uranium",
+      "tiers": [
+        {
+          "oreBlocks": 750,
+          "weightPercent": 90
+        },
+        {
+          "oreBlocks": 4000,
+          "weightPercent": 9
+        },
+        {
+          "oreBlocks": 20000,
+          "weightPercent": 1
+        }
+      ],
+      "referenceChance": "30%",
+      "biomeChancesStatus": "REQUIRES_EXPLICIT_MAPPING_NO_GLOBAL_FALLBACK",
+      "chartBiomePreferences": {
+        "highest": "Sandstone desert basins, badlands",
+        "medium": "Sedimentary plateaus",
+        "low": "Rocky granitic highlands"
+      },
+      "chartPlacement": "\u221255\u2013\u221210",
+      "chartSpacing": "5\u20137k"
+    },
+    {
+      "resource": "Thorium",
+      "family": "thorium",
+      "tiers": [
+        {
+          "oreBlocks": 1000,
+          "weightPercent": 90
+        },
+        {
+          "oreBlocks": 5000,
+          "weightPercent": 9
+        },
+        {
+          "oreBlocks": 25000,
+          "weightPercent": 1
+        }
+      ],
+      "referenceChance": "30%",
+      "biomeChancesStatus": "REQUIRES_EXPLICIT_MAPPING_NO_GLOBAL_FALLBACK",
+      "chartBiomePreferences": {
+        "highest": "Granitic/alkaline rocky highlands",
+        "medium": "Wooded terrain over suitable rock",
+        "low": "Heavy-mineral coastal sands: separate form"
+      },
+      "chartPlacement": "\u221250\u20130",
+      "chartSpacing": "5\u20137k"
+    },
+    {
+      "resource": "Beryllium",
+      "family": "bertrandite",
+      "tiers": [
+        {
+          "oreBlocks": 500,
+          "weightPercent": 90
+        },
+        {
+          "oreBlocks": 2500,
+          "weightPercent": 9
+        },
+        {
+          "oreBlocks": 15000,
+          "weightPercent": 1
+        }
+      ],
+      "referenceChance": "25%",
+      "biomeChancesStatus": "REQUIRES_EXPLICIT_MAPPING_NO_GLOBAL_FALLBACK",
+      "chartBiomePreferences": {
+        "highest": "Arid volcanic hills with suitable host rock",
+        "medium": "Rocky mineralized highlands",
+        "low": "Desert hills over suitable host rock"
+      },
+      "chartPlacement": "\u221220\u2013100 (new proposal)",
+      "chartSpacing": "5\u20137k"
+    },
+    {
+      "resource": "Osmium / platinum-or-palladium / iridium",
+      "family": "ultramafic_rock",
+      "tiers": [
+        {
+          "oreBlocks": 2000,
+          "weightPercent": 90
+        },
+        {
+          "oreBlocks": 10000,
+          "weightPercent": 9
+        },
+        {
+          "oreBlocks": 50000,
+          "weightPercent": 1
+        }
+      ],
+      "referenceChance": "25%",
+      "biomeChancesStatus": "REQUIRES_EXPLICIT_MAPPING_NO_GLOBAL_FALLBACK",
+      "chartBiomePreferences": {
+        "highest": "Badlands and mountainous regions ONLY",
+        "medium": "Relative weighting undecided",
+        "low": "Other biomes excluded"
+      },
+      "chartPlacement": "Badlands surface; mountains150\u2013300",
+      "chartSpacing": "5\u20137k"
+    }
+  ],
+  "separatePolicies": [
+    "coal minimum supply",
+    "cinnabar mountain-range guarantee",
+    "onshore oil",
+    "offshore oil",
+    "river placer",
+    "deep diamond-associated graphite"
+  ],
+  "limits": "Chart reserve tiers and odds are proposals except explicit user-selected bounds. Counts include rich and associated minerals inside the same budget. Exact biome probabilities must be supplied explicitly; reference chance is never used as a global default. Source catalog uses platinum, not palladium. Native formation fit can refuse; protected media can reduce actual recoverable ore."
+}

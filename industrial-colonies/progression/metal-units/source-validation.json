@@ -1,0 +1,723 @@
+{
+  "status": "PASS",
+  "recipes": 296,
+  "changedFields": 143,
+  "onlyMetalAmountsChanged": true,
+  "changes": [
+    {
+      "field": "industrial_colonies:processing/foundry/iron/ingot/result/amount",
+      "before": 1000,
+      "after": 100
+    },
+    {
+      "field": "industrial_colonies:processing/casting/iron/ingot/fluid/amount",
+      "before": 1000,
+      "after": 100
+    },
+    {
+      "field": "industrial_colonies:processing/foundry/iron/block/result/amount",
+      "before": 9000,
+      "after": 900
+    },
+    {
+      "field": "industrial_colonies:processing/casting/iron/block/fluid/amount",
+      "before": 9000,
+      "after": 900
+    },
+    {
+      "field": "industrial_colonies:processing/foundry/iron/nugget/result/amount",
+      "before": 25,
+      "after": 10
+    },
+    {
+      "field": "industrial_colonies:processing/casting/iron/nugget/fluid/amount",
+      "before": 25,
+      "after": 10
+    },
+    {
+      "field": "industrial_colonies:processing/foundry/copper/ingot/result/amount",
+      "before": 1000,
+      "after": 100
+    },
+    {
+      "field": "industrial_colonies:processing/casting/copper/ingot/fluid/amount",
+      "before": 1000,
+      "after": 100
+    },
+    {
+      "field": "industrial_colonies:processing/foundry/copper/block/result/amount",
+      "before": 9000,
+      "after": 900
+    },
+    {
+      "field": "industrial_colonies:processing/casting/copper/block/fluid/amount",
+      "before": 9000,
+      "after": 900
+    },
+    {
+      "field": "industrial_colonies:processing/foundry/copper/nugget/result/amount",
+      "before": 100,
+      "after": 10
+    },
+    {
+      "field": "industrial_colonies:processing/casting/copper/nugget/fluid/amount",
+      "before": 100,
+      "after": 10
+    },
+    {
+      "field": "industrial_colonies:processing/foundry/gold/ingot/result/amount",
+      "before": 1000,
+      "after": 100
+    },
+    {
+      "field": "industrial_colonies:processing/casting/gold/ingot/fluid/amount",
+      "before": 1000,
+      "after": 100
+    },
+    {
+      "field": "industrial_colonies:processing/foundry/gold/block/result/amount",
+      "before": 9000,
+      "after": 900
+    },
+    {
+      "field": "industrial_colonies:processing/casting/gold/block/fluid/amount",
+      "before": 9000,
+      "after": 900
+    },
+    {
+      "field": "industrial_colonies:processing/foundry/zinc/ingot/result/amount",
+      "before": 1000,
+      "after": 100
+    },
+    {
+      "field": "industrial_colonies:processing/casting/zinc/ingot/fluid/amount",
+      "before": 1000,
+      "after": 100
+    },
+    {
+      "field": "industrial_colonies:processing/foundry/zinc/block/result/amount",
+      "before": 9000,
+      "after": 900
+    },
+    {
+      "field": "industrial_colonies:processing/casting/zinc/block/fluid/amount",
+      "before": 9000,
+      "after": 900
+    },
+    {
+      "field": "industrial_colonies:processing/foundry/zinc/nugget/result/amount",
+      "before": 100,
+      "after": 10
+    },
+    {
+      "field": "industrial_colonies:processing/casting/zinc/nugget/fluid/amount",
+      "before": 100,
+      "after": 10
+    },
+    {
+      "field": "industrial_colonies:processing/foundry/tin/ingot/result/amount",
+      "before": 1000,
+      "after": 100
+    },
+    {
+      "field": "industrial_colonies:processing/casting/tin/ingot/fluid/amount",
+      "before": 1000,
+      "after": 100
+    },
+    {
+      "field": "industrial_colonies:processing/foundry/tin/block/result/amount",
+      "before": 9000,
+      "after": 900
+    },
+    {
+      "field": "industrial_colonies:processing/casting/tin/block/fluid/amount",
+      "before": 9000,
+      "after": 900
+    },
+    {
+      "field": "industrial_colonies:processing/foundry/tin/nugget/result/amount",
+      "before": 100,
+      "after": 10
+    },
+    {
+      "field": "industrial_colonies:processing/casting/tin/nugget/fluid/amount",
+      "before": 100,
+      "after": 10
+    },
+    {
+      "field": "industrial_colonies:processing/foundry/lead/ingot/result/amount",
+      "before": 1000,
+      "after": 100
+    },
+    {
+      "field": "industrial_colonies:processing/casting/lead/ingot/fluid/amount",
+      "before": 1000,
+      "after": 100
+    },
+    {
+      "field": "industrial_colonies:processing/foundry/lead/block/result/amount",
+      "before": 9000,
+      "after": 900
+    },
+    {
+      "field": "industrial_colonies:processing/casting/lead/block/fluid/amount",
+      "before": 9000,
+      "after": 900
+    },
+    {
+      "field": "industrial_colonies:processing/foundry/lead/nugget/result/amount",
+      "before": 100,
+      "after": 10
+    },
+    {
+      "field": "industrial_colonies:processing/casting/lead/nugget/fluid/amount",
+      "before": 100,
+      "after": 10
+    },
+    {
+      "field": "industrial_colonies:processing/foundry/nickel/ingot/result/amount",
+      "before": 1000,
+      "after": 100
+    },
+    {
+      "field": "industrial_colonies:processing/casting/nickel/ingot/fluid/amount",
+      "before": 1000,
+      "after": 100
+    },
+    {
+      "field": "industrial_colonies:processing/foundry/nickel/block/result/amount",
+      "before": 9000,
+      "after": 900
+    },
+    {
+      "field": "industrial_colonies:processing/casting/nickel/block/fluid/amount",
+      "before": 9000,
+      "after": 900
+    },
+    {
+      "field": "industrial_colonies:processing/foundry/nickel/nugget/result/amount",
+      "before": 100,
+      "after": 10
+    },
+    {
+      "field": "industrial_colonies:processing/casting/nickel/nugget/fluid/amount",
+      "before": 100,
+      "after": 10
+    },
+    {
+      "field": "industrial_colonies:processing/foundry/aluminum/ingot/result/amount",
+      "before": 1000,
+      "after": 100
+    },
+    {
+      "field": "industrial_colonies:processing/casting/aluminum/ingot/fluid/amount",
+      "before": 1000,
+      "after": 100
+    },
+    {
+      "field": "industrial_colonies:processing/foundry/aluminum/block/result/amount",
+      "before": 9000,
+      "after": 900
+    },
+    {
+      "field": "industrial_colonies:processing/casting/aluminum/block/fluid/amount",
+      "before": 9000,
+      "after": 900
+    },
+    {
+      "field": "industrial_colonies:processing/foundry/aluminum/nugget/result/amount",
+      "before": 100,
+      "after": 10
+    },
+    {
+      "field": "industrial_colonies:processing/casting/aluminum/nugget/fluid/amount",
+      "before": 100,
+      "after": 10
+    },
+    {
+      "field": "industrial_colonies:processing/foundry/lithium/ingot/result/amount",
+      "before": 1000,
+      "after": 100
+    },
+    {
+      "field": "industrial_colonies:processing/casting/lithium/ingot/fluid/amount",
+      "before": 1000,
+      "after": 100
+    },
+    {
+      "field": "industrial_colonies:processing/foundry/lithium/block/result/amount",
+      "before": 9000,
+      "after": 900
+    },
+    {
+      "field": "industrial_colonies:processing/casting/lithium/block/fluid/amount",
+      "before": 9000,
+      "after": 900
+    },
+    {
+      "field": "industrial_colonies:processing/foundry/lithium/nugget/result/amount",
+      "before": 100,
+      "after": 10
+    },
+    {
+      "field": "industrial_colonies:processing/casting/lithium/nugget/fluid/amount",
+      "before": 100,
+      "after": 10
+    },
+    {
+      "field": "industrial_colonies:processing/foundry/osmium/ingot/result/amount",
+      "before": 1000,
+      "after": 100
+    },
+    {
+      "field": "industrial_colonies:processing/casting/osmium/ingot/fluid/amount",
+      "before": 1000,
+      "after": 100
+    },
+    {
+      "field": "industrial_colonies:processing/foundry/osmium/block/result/amount",
+      "before": 9000,
+      "after": 900
+    },
+    {
+      "field": "industrial_colonies:processing/casting/osmium/block/fluid/amount",
+      "before": 9000,
+      "after": 900
+    },
+    {
+      "field": "industrial_colonies:processing/foundry/osmium/nugget/result/amount",
+      "before": 100,
+      "after": 10
+    },
+    {
+      "field": "industrial_colonies:processing/casting/osmium/nugget/fluid/amount",
+      "before": 100,
+      "after": 10
+    },
+    {
+      "field": "industrial_colonies:processing/foundry/silver/ingot/result/amount",
+      "before": 1000,
+      "after": 100
+    },
+    {
+      "field": "industrial_colonies:processing/casting/silver/ingot/fluid/amount",
+      "before": 1000,
+      "after": 100
+    },
+    {
+      "field": "industrial_colonies:processing/foundry/silver/block/result/amount",
+      "before": 9000,
+      "after": 900
+    },
+    {
+      "field": "industrial_colonies:processing/casting/silver/block/fluid/amount",
+      "before": 9000,
+      "after": 900
+    },
+    {
+      "field": "industrial_colonies:processing/foundry/magnesium/ingot/result/amount",
+      "before": 1000,
+      "after": 100
+    },
+    {
+      "field": "industrial_colonies:processing/casting/magnesium/ingot/fluid/amount",
+      "before": 1000,
+      "after": 100
+    },
+    {
+      "field": "industrial_colonies:processing/foundry/magnesium/block/result/amount",
+      "before": 9000,
+      "after": 900
+    },
+    {
+      "field": "industrial_colonies:processing/casting/magnesium/block/fluid/amount",
+      "before": 9000,
+      "after": 900
+    },
+    {
+      "field": "industrial_colonies:processing/foundry/cobalt/ingot/result/amount",
+      "before": 1000,
+      "after": 100
+    },
+    {
+      "field": "industrial_colonies:processing/casting/cobalt/ingot/fluid/amount",
+      "before": 1000,
+      "after": 100
+    },
+    {
+      "field": "industrial_colonies:processing/foundry/cobalt/block/result/amount",
+      "before": 9000,
+      "after": 900
+    },
+    {
+      "field": "industrial_colonies:processing/casting/cobalt/block/fluid/amount",
+      "before": 9000,
+      "after": 900
+    },
+    {
+      "field": "industrial_colonies:processing/foundry/chromium/ingot/result/amount",
+      "before": 1000,
+      "after": 100
+    },
+    {
+      "field": "industrial_colonies:processing/casting/chromium/ingot/fluid/amount",
+      "before": 1000,
+      "after": 100
+    },
+    {
+      "field": "industrial_colonies:processing/foundry/titanium/ingot/result/amount",
+      "before": 1000,
+      "after": 100
+    },
+    {
+      "field": "industrial_colonies:processing/casting/titanium/ingot/fluid/amount",
+      "before": 1000,
+      "after": 100
+    },
+    {
+      "field": "industrial_colonies:processing/foundry/titanium/block/result/amount",
+      "before": 9000,
+      "after": 900
+    },
+    {
+      "field": "industrial_colonies:processing/casting/titanium/block/fluid/amount",
+      "before": 9000,
+      "after": 900
+    },
+    {
+      "field": "industrial_colonies:processing/foundry/tungsten/ingot/result/amount",
+      "before": 1000,
+      "after": 100
+    },
+    {
+      "field": "industrial_colonies:processing/casting/tungsten/ingot/fluid/amount",
+      "before": 1000,
+      "after": 100
+    },
+    {
+      "field": "industrial_colonies:processing/foundry/tungsten/block/result/amount",
+      "before": 9000,
+      "after": 900
+    },
+    {
+      "field": "industrial_colonies:processing/casting/tungsten/block/fluid/amount",
+      "before": 9000,
+      "after": 900
+    },
+    {
+      "field": "industrial_colonies:processing/foundry/tungsten/nugget/result/amount",
+      "before": 100,
+      "after": 10
+    },
+    {
+      "field": "industrial_colonies:processing/casting/tungsten/nugget/fluid/amount",
+      "before": 100,
+      "after": 10
+    },
+    {
+      "field": "industrial_colonies:processing/foundry/beryllium/ingot/result/amount",
+      "before": 1000,
+      "after": 100
+    },
+    {
+      "field": "industrial_colonies:processing/casting/beryllium/ingot/fluid/amount",
+      "before": 1000,
+      "after": 100
+    },
+    {
+      "field": "industrial_colonies:processing/foundry/beryllium/block/result/amount",
+      "before": 9000,
+      "after": 900
+    },
+    {
+      "field": "industrial_colonies:processing/casting/beryllium/block/fluid/amount",
+      "before": 9000,
+      "after": 900
+    },
+    {
+      "field": "industrial_colonies:processing/foundry/boron/ingot/result/amount",
+      "before": 1000,
+      "after": 100
+    },
+    {
+      "field": "industrial_colonies:processing/casting/boron/ingot/fluid/amount",
+      "before": 1000,
+      "after": 100
+    },
+    {
+      "field": "industrial_colonies:processing/foundry/boron/block/result/amount",
+      "before": 9000,
+      "after": 900
+    },
+    {
+      "field": "industrial_colonies:processing/casting/boron/block/fluid/amount",
+      "before": 9000,
+      "after": 900
+    },
+    {
+      "field": "industrial_colonies:processing/foundry/platinum/ingot/result/amount",
+      "before": 1000,
+      "after": 100
+    },
+    {
+      "field": "industrial_colonies:processing/casting/platinum/ingot/fluid/amount",
+      "before": 1000,
+      "after": 100
+    },
+    {
+      "field": "industrial_colonies:processing/foundry/platinum/block/result/amount",
+      "before": 9000,
+      "after": 900
+    },
+    {
+      "field": "industrial_colonies:processing/casting/platinum/block/fluid/amount",
+      "before": 9000,
+      "after": 900
+    },
+    {
+      "field": "industrial_colonies:processing/foundry/iridium/ingot/result/amount",
+      "before": 1000,
+      "after": 100
+    },
+    {
+      "field": "industrial_colonies:processing/casting/iridium/ingot/fluid/amount",
+      "before": 1000,
+      "after": 100
+    },
+    {
+      "field": "industrial_colonies:processing/foundry/steel/ingot/result/amount",
+      "before": 1000,
+      "after": 100
+    },
+    {
+      "field": "industrial_colonies:processing/casting/steel/ingot/fluid/amount",
+      "before": 1000,
+      "after": 100
+    },
+    {
+      "field": "industrial_colonies:processing/foundry/steel/block/result/amount",
+      "before": 9000,
+      "after": 900
+    },
+    {
+      "field": "industrial_colonies:processing/casting/steel/block/fluid/amount",
+      "before": 9000,
+      "after": 900
+    },
+    {
+      "field": "industrial_colonies:processing/foundry/steel/nugget/result/amount",
+      "before": 100,
+      "after": 10
+    },
+    {
+      "field": "industrial_colonies:processing/casting/steel/nugget/fluid/amount",
+      "before": 100,
+      "after": 10
+    },
+    {
+      "field": "industrial_colonies:processing/foundry/brass/ingot/result/amount",
+      "before": 1000,
+      "after": 100
+    },
+    {
+      "field": "industrial_colonies:processing/casting/brass/ingot/fluid/amount",
+      "before": 1000,
+      "after": 100
+    },
+    {
+      "field": "industrial_colonies:processing/foundry/brass/block/result/amount",
+      "before": 9000,
+      "after": 900
+    },
+    {
+      "field": "industrial_colonies:processing/casting/brass/block/fluid/amount",
+      "before": 9000,
+      "after": 900
+    },
+    {
+      "field": "industrial_colonies:processing/foundry/brass/nugget/result/amount",
+      "before": 100,
+      "after": 10
+    },
+    {
+      "field": "industrial_colonies:processing/casting/brass/nugget/fluid/amount",
+      "before": 100,
+      "after": 10
+    },
+    {
+      "field": "industrial_colonies:processing/foundry/bronze/ingot/result/amount",
+      "before": 1000,
+      "after": 100
+    },
+    {
+      "field": "industrial_colonies:processing/casting/bronze/ingot/fluid/amount",
+      "before": 1000,
+      "after": 100
+    },
+    {
+      "field": "industrial_colonies:processing/foundry/bronze/block/result/amount",
+      "before": 9000,
+      "after": 900
+    },
+    {
+      "field": "industrial_colonies:processing/casting/bronze/block/fluid/amount",
+      "before": 9000,
+      "after": 900
+    },
+    {
+      "field": "industrial_colonies:processing/foundry/bronze/nugget/result/amount",
+      "before": 100,
+      "after": 10
+    },
+    {
+      "field": "industrial_colonies:processing/casting/bronze/nugget/fluid/amount",
+      "before": 100,
+      "after": 10
+    },
+    {
+      "field": "industrial_colonies:processing/raw/iron/result/amount",
+      "before": 200,
+      "after": 20
+    },
+    {
+      "field": "industrial_colonies:processing/raw/iron_block/result/amount",
+      "before": 1800,
+      "after": 180
+    },
+    {
+      "field": "industrial_colonies:processing/raw/copper/result/amount",
+      "before": 125,
+      "after": 13
+    },
+    {
+      "field": "industrial_colonies:processing/raw/copper_block/result/amount",
+      "before": 1125,
+      "after": 113
+    },
+    {
+      "field": "industrial_colonies:processing/raw/gold/result/amount",
+      "before": 100,
+      "after": 10
+    },
+    {
+      "field": "industrial_colonies:processing/raw/gold_block/result/amount",
+      "before": 900,
+      "after": 90
+    },
+    {
+      "field": "industrial_colonies:processing/raw/zinc/result/amount",
+      "before": 125,
+      "after": 13
+    },
+    {
+      "field": "industrial_colonies:processing/raw/zinc_block/result/amount",
+      "before": 1125,
+      "after": 113
+    },
+    {
+      "field": "industrial_colonies:processing/iron/direct_hematite/result/amount",
+      "before": 25,
+      "after": 3
+    },
+    {
+      "field": "industrial_colonies:processing/iron/direct_magnetite/result/amount",
+      "before": 25,
+      "after": 3
+    },
+    {
+      "field": "industrial_colonies:processing/iron/reduced/result/amount",
+      "before": 75,
+      "after": 8
+    },
+    {
+      "field": "industrial_colonies:processing/copper/direct/result/amount",
+      "before": 20,
+      "after": 2
+    },
+    {
+      "field": "industrial_colonies:processing/copper/dust/result/amount",
+      "before": 50,
+      "after": 5
+    },
+    {
+      "field": "industrial_colonies:processing/tin/direct/result/amount",
+      "before": 20,
+      "after": 2
+    },
+    {
+      "field": "industrial_colonies:processing/tin/concentrate/result/amount",
+      "before": 75,
+      "after": 8
+    },
+    {
+      "field": "industrial_colonies:processing/pgm/platinum_fragment/result/amount",
+      "before": 25,
+      "after": 3
+    },
+    {
+      "field": "industrial_colonies:processing/zinc/melt_recovered_dust/result/amount",
+      "before": 75,
+      "after": 8
+    },
+    {
+      "field": "industrial_colonies:processing/zinc/direct_sphalerite/result/amount",
+      "before": 12,
+      "after": 1
+    },
+    {
+      "field": "industrial_colonies:processing/lead/melt_crude/result/amount",
+      "before": 75,
+      "after": 8
+    },
+    {
+      "field": "industrial_colonies:processing/lead/melt_high_purity/result/amount",
+      "before": 75,
+      "after": 8
+    },
+    {
+      "field": "industrial_colonies:processing/lead/direct_galena/result/amount",
+      "before": 15,
+      "after": 2
+    },
+    {
+      "field": "industrial_colonies:processing/nickel/melt_powder/result/amount",
+      "before": 75,
+      "after": 8
+    },
+    {
+      "field": "industrial_colonies:processing/cobalt/melt_powder/result/amount",
+      "before": 100,
+      "after": 10
+    },
+    {
+      "field": "industrial_colonies:processing/aluminum/melt_granules/result/amount",
+      "before": 75,
+      "after": 8
+    },
+    {
+      "field": "industrial_colonies:processing/magnesium/melt_powder/result/amount",
+      "before": 75,
+      "after": 8
+    },
+    {
+      "field": "industrial_colonies:processing/lithium/melt_powder/result/amount",
+      "before": 60,
+      "after": 6
+    },
+    {
+      "field": "industrial_colonies:processing/silver/melt_powder/result/amount",
+      "before": 60,
+      "after": 6
+    },
+    {
+      "field": "industrial_colonies:processing/silver/direct_argentite/result/amount",
+      "before": 12,
+      "after": 1
+    },
+    {
+      "field": "industrial_colonies:processing/beryllium/melt_powder/result/amount",
+      "before": 40,
+      "after": 4
+    }
+  ]
+}

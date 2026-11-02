@@ -1,0 +1,29 @@
+{
+  "status": "APPLIED",
+  "revision": "r1",
+  "files": {
+    "kubejs/server_scripts/zz_industrial_material_processing.js": {
+      "before": "aff6db364732387f83d5078d1be3704bac1732874ee1b2a15a2eb5f5f90e83e6",
+      "after": "f5440b3526461d727bc808733e0ee92b0ee0d2fa90fd483f2fb0c51ed383d95c"
+    },
+    "kubejs/server_scripts/zzzzz_industrial_metal_units.js": {
+      "before": "174245bd82c1d396e894fdb4b6a429de9934bbb56fd739e39331ba0cfb8b4258",
+      "after": "2bfa43cf78f3062fd686c62955471c63f5be0c00e66ddd1290bdc0e2a5d9e6c9"
+    },
+    "kubejs/assets/modernfoundry/hilt/fluid_tooltips/metals.json": {
+      "before": "555a7278342bdb2cdc352a4683905954e1b3df954894851c465043286dbcdc00",
+      "after": "a1e96d87cc2fb9d506babba9ee343d4235e35bd7f6280adfa6592e9e057757ab"
+    }
+  },
+  "jarUnchanged": "d1a60ce6f8869b7c1197eae9d0d2879b8599a38bc34c064d878475e8594efa2e",
+  "savesTouched": false,
+  "liveGameRunning": false,
+  "restartRequired": true,
+  "backup": "C:\\Users\\GodPC\\curseforge\\minecraft\\Instances\\All in one\\_industrial_colonies_backups\\bucket-blocks-20260911-154319",
+  "written": [
+    "kubejs/server_scripts/zz_industrial_material_processing.js",
+    "kubejs/server_scripts/zzzzz_industrial_metal_units.js",
+    "kubejs/assets/modernfoundry/hilt/fluid_tooltips/metals.json"
+  ],
+  "appliedAt": "2026-09-11T15:43:19.182614-04:00"
+}

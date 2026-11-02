@@ -1,0 +1,6 @@
+{
+  "pack": {
+    "pack_format": 48,
+    "description": "Restores only original Minecraft 1.21.1 decorative stone/dirt/gravel definitions over WWOO removeOres. Lava and economic ores are not supplied by this pack."
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "required": false,
+  "minVersion": "0.8",
+  "package": "dev.godpc.industrialcolonies.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "StellarisPlanetDataMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

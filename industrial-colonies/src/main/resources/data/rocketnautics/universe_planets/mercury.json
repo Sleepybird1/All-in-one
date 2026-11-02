@@ -1,0 +1,53 @@
+{
+  "parent": "sol",
+  "acceleration_at_surface": 3.7,
+  "dimension_data": {
+    "allowed_transfer": "all",
+    "apply_gravity_correction_to_entities_in_dimension": false,
+    "atmosphere_composition": {},
+    "dimension_transfer_height": 20000,
+    "entity_drag_multiplier": [
+      {
+        "altitude": 4000.0,
+        "slope": 0.0,
+        "value": 1.0
+      },
+      {
+        "altitude": 7000.0,
+        "slope": -0.0006,
+        "value": 0.0
+      }
+    ],
+    "linked_dimension": "ad_astra:mercury",
+    "render_universe_in_dimension": false
+  },
+  "planet_extras": {
+    "light_source_name": "sol",
+    "has_clouds": false
+  },
+  "name": "mercury",
+  "planet_texture": {
+    "type": "resloc",
+    "texture": "ad_astra:textures/environment/mercury.png"
+  },
+  "position": {
+    "type": "circular_orbit_period",
+    "orbit_axis": {
+      "x": 0.0,
+      "y": 1.0,
+      "z": 0.0
+    },
+    "period_seconds": 145600.0
+  },
+  "priority": 2000,
+  "radius": 1219850.0,
+  "rotation": {
+    "type": "period",
+    "period_seconds": 2930.0,
+    "rotation_axis": {
+      "x": 0.0,
+      "y": -1.0,
+      "z": 0.0
+    }
+  }
+}

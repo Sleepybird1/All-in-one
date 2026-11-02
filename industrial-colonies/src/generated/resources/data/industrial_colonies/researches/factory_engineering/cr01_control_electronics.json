@@ -1,0 +1,30 @@
+{
+  "branch": "industrial_colonies:tech_tree",
+  "costs": [
+    {
+      "item": "createaddition:digital_adapter",
+      "count": 2
+    },
+    {
+      "item": "electroenergetics:copper_wire_spool",
+      "count": 4
+    },
+    {
+      "item": "tfmg:circuit_board",
+      "count": 8
+    }
+  ],
+  "icon": "tfmg:voltage_observer",
+  "name": "com.industrial_colonies.research.factory_engineering.cr01_control_electronics.name",
+  "no-reset": true,
+  "researchLevel": 2,
+  "sortOrder": 10607,
+  "subtitle": "com.industrial_colonies.research.factory_engineering.cr01_control_electronics.subtitle",
+  "parentResearch": "industrial_colonies:factory_engineering/cr01_early_electronics",
+  "requirements": [
+    {
+      "type": "minecolonies:research",
+      "research": "industrial_colonies:factory_engineering/cr01_early_electronics"
+    }
+  ]
+}

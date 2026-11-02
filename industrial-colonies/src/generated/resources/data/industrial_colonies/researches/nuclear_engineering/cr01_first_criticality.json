@@ -1,0 +1,38 @@
+{
+  "branch": "industrial_colonies:tech_tree",
+  "costs": [
+    {
+      "item": "bigreactors:basic_reactorcasing",
+      "count": 12
+    },
+    {
+      "item": "bigreactors:basic_reactorcontroller",
+      "count": 1
+    },
+    {
+      "item": "industrial_colonies:enriched_uranium_fuel_pellet",
+      "count": 12
+    }
+  ],
+  "icon": "bigreactors:basic_reactorcontroller",
+  "name": "com.industrial_colonies.research.nuclear_engineering.cr01_first_criticality.name",
+  "no-reset": true,
+  "researchLevel": 6,
+  "sortOrder": 10002,
+  "subtitle": "com.industrial_colonies.research.nuclear_engineering.cr01_first_criticality.subtitle",
+  "parentResearch": "industrial_colonies:nuclear_engineering/cr01_early_nuclear_fuel",
+  "requirements": [
+    {
+      "type": "minecolonies:research",
+      "research": "industrial_colonies:nuclear_engineering/cr01_containment_engineering"
+    },
+    {
+      "type": "minecolonies:research",
+      "research": "industrial_colonies:nuclear_engineering/cr01_early_nuclear_fuel"
+    },
+    {
+      "type": "minecolonies:research",
+      "research": "industrial_colonies:nuclear_engineering/cr01_reactor_instrumentation"
+    }
+  ]
+}

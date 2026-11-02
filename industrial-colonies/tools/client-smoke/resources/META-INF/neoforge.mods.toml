@@ -1,0 +1,14 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="All Rights Reserved"
+[[mods]]
+modId="ic_client_smoke"
+version="1.0.0"
+displayName="Industrial Colonies Disposable Client Render Check"
+description="Development-only real model/atlas rendering acceptance. Never packaged in the candidate."
+[[dependencies.ic_client_smoke]]
+modId="industrial_colonies"
+type="required"
+versionRange="[0.4.0,)"
+ordering="AFTER"
+side="CLIENT"

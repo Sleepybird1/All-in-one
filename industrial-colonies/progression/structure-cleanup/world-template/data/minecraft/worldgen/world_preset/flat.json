@@ -1,0 +1,130 @@
+{
+  "dimensions": {
+    "minecraft:overworld": {
+      "type": "minecraft:overworld",
+      "generator": {
+        "type": "minecraft:flat",
+        "settings": {
+          "biome": "minecraft:plains",
+          "features": false,
+          "lakes": false,
+          "layers": [
+            {
+              "block": "minecraft:bedrock",
+              "height": 1
+            },
+            {
+              "block": "minecraft:stone",
+              "height": 3
+            }
+          ]
+        }
+      }
+    },
+    "minecraft:the_end": {
+      "type": "minecraft:the_end",
+      "generator": {
+        "type": "minecraft:noise",
+        "biome_source": {
+          "type": "minecraft:the_end"
+        },
+        "settings": "minecraft:end"
+      }
+    },
+    "minecraft:the_nether": {
+      "type": "minecraft:the_nether",
+      "generator": {
+        "type": "minecraft:noise",
+        "biome_source": {
+          "type": "minecraft:multi_noise",
+          "preset": "minecraft:nether"
+        },
+        "settings": "minecraft:nether"
+      }
+    },
+    "rocketnautics:deep_space": {
+      "type": "rocketnautics:deep_space",
+      "generator": {
+        "type": "minecraft:flat",
+        "settings": {
+          "biome": "minecraft:the_void",
+          "features": false,
+          "lakes": false,
+          "layers": []
+        }
+      }
+    },
+    "ad_astra:venus": {
+      "type": "ad_astra:venus",
+      "generator": {
+        "type": "minecraft:noise",
+        "settings": "ad_astra:venus",
+        "biome_source": {
+          "type": "minecraft:multi_noise",
+          "biomes": [
+            {
+              "biome": "ad_astra:venus_wastelands",
+              "parameters": {
+                "temperature": 1,
+                "humidity": -1,
+                "continentalness": 0,
+                "erosion": 0,
+                "weirdness": -0.5,
+                "depth": 0,
+                "offset": 0
+              }
+            },
+            {
+              "biome": "ad_astra:infernal_venus_barrens",
+              "parameters": {
+                "temperature": 0,
+                "humidity": 0,
+                "continentalness": -0.65,
+                "erosion": 0,
+                "weirdness": -1.5,
+                "depth": 0,
+                "offset": 0
+              }
+            }
+          ]
+        }
+      }
+    },
+    "stellaris:venus": {
+      "type": "stellaris:venus",
+      "generator": {
+        "type": "minecraft:noise",
+        "settings": "stellaris:venus",
+        "biome_source": {
+          "type": "minecraft:multi_noise",
+          "biomes": [
+            {
+              "biome": "stellaris:venus_desert",
+              "parameters": {
+                "temperature": 1,
+                "humidity": -1,
+                "continentalness": 0,
+                "erosion": 0,
+                "weirdness": -0.5,
+                "depth": 0,
+                "offset": 0
+              }
+            },
+            {
+              "biome": "stellaris:infernal_venus_barrens",
+              "parameters": {
+                "temperature": 0,
+                "humidity": 0,
+                "continentalness": -0.65,
+                "erosion": 0,
+                "weirdness": -1.5,
+                "depth": 0,
+                "offset": 0
+              }
+            }
+          ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "ad_astra:lunar_wastelands",
+  "features": "industrial_colonies:ad_astra_moon_crystal_ore",
+  "step": "underground_ores"
+}

@@ -1,0 +1,30 @@
+{
+  "branch": "industrial_colonies:tech_tree",
+  "costs": [
+    {
+      "item": "allthemodium:unobtainium_ingot",
+      "count": 4
+    },
+    {
+      "item": "allthemodium:unobtainium_vibranium_alloy_ingot",
+      "count": 2
+    },
+    {
+      "item": "mekanism:ultimate_control_circuit",
+      "count": 4
+    }
+  ],
+  "icon": "mekanism:uranium_ore",
+  "name": "com.industrial_colonies.research.nuclear_engineering.cr01_isotope_materials.name",
+  "no-reset": true,
+  "researchLevel": 3,
+  "sortOrder": 10120,
+  "subtitle": "com.industrial_colonies.research.nuclear_engineering.cr01_isotope_materials.subtitle",
+  "parentResearch": "industrial_colonies:nuclear_engineering/cr01_the_nuclear_age",
+  "requirements": [
+    {
+      "type": "minecolonies:research",
+      "research": "industrial_colonies:nuclear_engineering/cr01_the_nuclear_age"
+    }
+  ]
+}

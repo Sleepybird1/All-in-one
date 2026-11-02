@@ -1,0 +1,67 @@
+{
+  "id": "industrial_colonies:mekanism_nucleosynthesizing",
+  "mod": "mekanism",
+  "icon": "mekanism:antiprotonic_nucleosynthesizer",
+  "jei": "mekanism:nucleosynthesizing",
+  "width": 142,
+  "height": 76,
+  "slots": [
+    {
+      "key": "item_input",
+      "role": "INPUT",
+      "x": 10,
+      "y": 12,
+      "required": true,
+      "item": true,
+      "fluid": false,
+      "chemical": false,
+      "tag": true,
+      "count": true
+    },
+    {
+      "key": "chemical_input",
+      "role": "INPUT",
+      "x": 10,
+      "y": 38,
+      "required": true,
+      "item": false,
+      "fluid": false,
+      "chemical": true,
+      "tag": true,
+      "count": true
+    },
+    {
+      "key": "output",
+      "role": "OUTPUT",
+      "x": 110,
+      "y": 12,
+      "required": true,
+      "item": true,
+      "fluid": false,
+      "chemical": false,
+      "tag": false,
+      "count": true
+    }
+  ],
+  "decorations": [
+    {
+      "type": "ARROW",
+      "x": 63,
+      "y": 27
+    }
+  ],
+  "parameters": [
+    {
+      "key": "duration",
+      "type": "INT",
+      "default": "100"
+    },
+    {
+      "key": "perTickUsage",
+      "type": "BOOL",
+      "default": "false"
+    }
+  ],
+  "codegen": "industrial_colonies:mekanism_machine",
+  "requiresMod": "mekanism"
+}

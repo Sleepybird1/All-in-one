@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    { "id": "tfmg:sulfuric_acid", "required": false },
+    { "id": "tfmg:flowing_sulfuric_acid", "required": false }
+  ]
+}

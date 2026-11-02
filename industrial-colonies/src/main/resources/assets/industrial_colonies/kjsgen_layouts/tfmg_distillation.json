@@ -1,0 +1,111 @@
+{
+  "id": "industrial_colonies:tfmg_distillation",
+  "mod": "tfmg",
+  "icon": "tfmg:steel_distillation_controller",
+  "jei": "tfmg:distillation",
+  "width": 180,
+  "height": 108,
+  "slots": [
+    {
+      "key": "fluid_input0",
+      "role": "INPUT",
+      "x": 8,
+      "y": 12,
+      "required": true,
+      "item": false,
+      "fluid": true,
+      "chemical": false,
+      "tag": true,
+      "count": true,
+      "chance": false
+    },
+    {
+      "key": "fluid_output0",
+      "role": "OUTPUT",
+      "x": 118,
+      "y": 12,
+      "required": true,
+      "item": false,
+      "fluid": true,
+      "chemical": false,
+      "tag": false,
+      "count": true,
+      "chance": false
+    },
+    {
+      "key": "fluid_output1",
+      "role": "OUTPUT",
+      "x": 144,
+      "y": 12,
+      "required": false,
+      "item": false,
+      "fluid": true,
+      "chemical": false,
+      "tag": false,
+      "count": true,
+      "chance": false
+    },
+    {
+      "key": "fluid_output2",
+      "role": "OUTPUT",
+      "x": 118,
+      "y": 38,
+      "required": false,
+      "item": false,
+      "fluid": true,
+      "chemical": false,
+      "tag": false,
+      "count": true,
+      "chance": false
+    },
+    {
+      "key": "fluid_output3",
+      "role": "OUTPUT",
+      "x": 144,
+      "y": 38,
+      "required": false,
+      "item": false,
+      "fluid": true,
+      "chemical": false,
+      "tag": false,
+      "count": true,
+      "chance": false
+    },
+    {
+      "key": "fluid_output4",
+      "role": "OUTPUT",
+      "x": 118,
+      "y": 64,
+      "required": false,
+      "item": false,
+      "fluid": true,
+      "chemical": false,
+      "tag": false,
+      "count": true,
+      "chance": false
+    },
+    {
+      "key": "fluid_output5",
+      "role": "OUTPUT",
+      "x": 144,
+      "y": 64,
+      "required": false,
+      "item": false,
+      "fluid": true,
+      "chemical": false,
+      "tag": false,
+      "count": true,
+      "chance": false
+    }
+  ],
+  "decorations": [
+    {
+      "type": "ARROW",
+      "x": 72,
+      "y": 24
+    }
+  ],
+  "parameters": [],
+  "codegen": "industrial_colonies:tfmg_native_processing",
+  "requiresMod": "tfmg"
+}

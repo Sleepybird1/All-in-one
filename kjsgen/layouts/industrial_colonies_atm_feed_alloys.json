@@ -1,0 +1,97 @@
+{
+  "id": "industrial_colonies:atm_feed_alloys",
+  "mod": "create",
+  "icon": "create:mechanical_crafter",
+  "width": 160,
+  "height": 88,
+  "slots": [
+    {
+      "key": "in0",
+      "role": "INPUT",
+      "x": 8,
+      "y": 8,
+      "required": true,
+      "item": true,
+      "count": false
+    },
+    {
+      "key": "in1",
+      "role": "INPUT",
+      "x": 32,
+      "y": 8,
+      "required": true,
+      "item": true,
+      "count": false
+    },
+    {
+      "key": "in2",
+      "role": "INPUT",
+      "x": 56,
+      "y": 8,
+      "required": true,
+      "item": true,
+      "count": false
+    },
+    {
+      "key": "in3",
+      "role": "INPUT",
+      "x": 8,
+      "y": 32,
+      "required": true,
+      "item": true,
+      "count": false
+    },
+    {
+      "key": "in4",
+      "role": "INPUT",
+      "x": 32,
+      "y": 32,
+      "required": true,
+      "item": true,
+      "count": false
+    },
+    {
+      "key": "in5",
+      "role": "INPUT",
+      "x": 56,
+      "y": 32,
+      "required": true,
+      "item": true,
+      "count": false
+    },
+    {
+      "key": "in6",
+      "role": "INPUT",
+      "x": 8,
+      "y": 56,
+      "required": true,
+      "item": true,
+      "count": false
+    },
+    {
+      "key": "output",
+      "role": "OUTPUT",
+      "x": 132,
+      "y": 32,
+      "required": true,
+      "item": true,
+      "count": false
+    }
+  ],
+  "decorations": [
+    {
+      "type": "ARROW",
+      "x": 104,
+      "y": 32
+    }
+  ],
+  "parameters": [
+    {
+      "key": "__template",
+      "type": "STRING",
+      "default": "event.custom({type:'create:mechanical_crafting',category:'misc',accept_mirrored:false,pattern:[\"ABC\", \"DEF\", \"G  \"],key:{A:{item:Item.of({slot:in0}).id},B:{item:Item.of({slot:in1}).id},C:{item:Item.of({slot:in2}).id},D:{item:Item.of({slot:in3}).id},E:{item:Item.of({slot:in4}).id},F:{item:Item.of({slot:in5}).id},G:{item:Item.of({slot:in6}).id}},result:{id:Item.of({slot:output}).id,count:1,components:{'create:package_contents':[{id:Item.of({slot:in0}).id,count:1},{id:Item.of({slot:in1}).id,count:1},{id:Item.of({slot:in2}).id,count:1},{id:Item.of({slot:in3}).id,count:1},{id:Item.of({slot:in4}).id,count:1},{id:Item.of({slot:in5}).id,count:1},{id:Item.of({slot:in6}).id,count:1}]}},show_notification:false})"
+    }
+  ],
+  "codegen": "kjsgen:template",
+  "requiresMod": "create"
+}

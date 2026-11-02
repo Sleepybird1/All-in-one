@@ -1,0 +1,79 @@
+{
+  "source": "Original Minecraft 1.21.1 client JAR",
+  "sourceSha1": "30C73B1C5DA787909B2F73340419FDF13B9DEF88",
+  "resources": [
+    {
+      "resource": "minecraft:worldgen/configured_feature/ore_andesite.json",
+      "entry": "data/minecraft/worldgen/configured_feature/ore_andesite.json",
+      "sha256": "ADD2247BB7E9E9395DEEB5571F0329FDA9C781D70D1E24641C45BD50984BA009",
+      "bytes": 346
+    },
+    {
+      "resource": "minecraft:worldgen/configured_feature/ore_diorite.json",
+      "entry": "data/minecraft/worldgen/configured_feature/ore_diorite.json",
+      "sha256": "AAFA75748B44EB5C0683AA0806C78E84B3409FC3CE3A0305B6E5F54E9DC83182",
+      "bytes": 345
+    },
+    {
+      "resource": "minecraft:worldgen/configured_feature/ore_granite.json",
+      "entry": "data/minecraft/worldgen/configured_feature/ore_granite.json",
+      "sha256": "8567AE951EAF97D912ECA16E46F19E66A43ACD8E2B4BCC156EDCF092A76A8CC7",
+      "bytes": 345
+    },
+    {
+      "resource": "minecraft:worldgen/configured_feature/ore_dirt.json",
+      "entry": "data/minecraft/worldgen/configured_feature/ore_dirt.json",
+      "sha256": "261065A5CB681653CFE1F78AD214E84DA1B203143E30A65EDC8C3081F4CF166E",
+      "bytes": 342
+    },
+    {
+      "resource": "minecraft:worldgen/configured_feature/ore_gravel.json",
+      "entry": "data/minecraft/worldgen/configured_feature/ore_gravel.json",
+      "sha256": "27D25DD85D2D3FE6F91CC3B7A3B5275E17FF4CAD553402D7C4F781F75447A2DA",
+      "bytes": 344
+    },
+    {
+      "resource": "minecraft:worldgen/placed_feature/ore_andesite_lower.json",
+      "entry": "data/minecraft/worldgen/placed_feature/ore_andesite_lower.json",
+      "sha256": "80ACAD3053CD03E871E36BFF3E03E347ABC2418A2BEFFA0BDF49FB39E38FE977",
+      "bytes": 459
+    },
+    {
+      "resource": "minecraft:worldgen/placed_feature/ore_andesite_upper.json",
+      "entry": "data/minecraft/worldgen/placed_feature/ore_andesite_upper.json",
+      "sha256": "CE18F7C52C3D10AD77E436C2185A6F9E7129F5D6BE5F7725D7CC4B2E4F82FA1D",
+      "bytes": 470
+    },
+    {
+      "resource": "minecraft:worldgen/placed_feature/ore_diorite_lower.json",
+      "entry": "data/minecraft/worldgen/placed_feature/ore_diorite_lower.json",
+      "sha256": "F509765632416A5AC760595D43D1FBA011AB7DCBDE1518F6219F31599B89CBCD",
+      "bytes": 458
+    },
+    {
+      "resource": "minecraft:worldgen/placed_feature/ore_diorite_upper.json",
+      "entry": "data/minecraft/worldgen/placed_feature/ore_diorite_upper.json",
+      "sha256": "82A6FDC8A030F4652DA4479EDA19D0CE769A389645DA747BAB2727DD2C5ED6F4",
+      "bytes": 469
+    },
+    {
+      "resource": "minecraft:worldgen/placed_feature/ore_granite_lower.json",
+      "entry": "data/minecraft/worldgen/placed_feature/ore_granite_lower.json",
+      "sha256": "55252DBF46A51EA5FEF6E4CA0D4AB5391ED23E6759C8E102E4089D156F8C6367",
+      "bytes": 458
+    },
+    {
+      "resource": "minecraft:worldgen/placed_feature/ore_granite_upper.json",
+      "entry": "data/minecraft/worldgen/placed_feature/ore_granite_upper.json",
+      "sha256": "E7BA30AD82F524A524B83D97A156194C84885B11D9E5D695C24E0B817901F40F",
+      "bytes": 469
+    },
+    {
+      "resource": "minecraft:worldgen/placed_feature/ore_dirt.json",
+      "entry": "data/minecraft/worldgen/placed_feature/ore_dirt.json",
+      "sha256": "AC4FC3A1458DFAA73A365797F8DA605AB41E216E19D99CB2E515C21246DFBF02",
+      "bytes": 456
+    }
+  ],
+  "scope": "Exactly five configured and seven placed decorative definitions. No lava, economic ores, biomes, terrain noise, textures or rates."
+}

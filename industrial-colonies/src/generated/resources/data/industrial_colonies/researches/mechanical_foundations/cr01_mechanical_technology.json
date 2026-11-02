@@ -1,0 +1,26 @@
+{
+  "branch": "industrial_colonies:tech_tree",
+  "costs": [
+    {
+      "item": "create:brass_ingot",
+      "count": 8
+    },
+    {
+      "item": "create:mechanical_crafter",
+      "count": 2
+    }
+  ],
+  "icon": "create:millstone",
+  "name": "com.industrial_colonies.research.mechanical_foundations.cr01_mechanical_technology.name",
+  "no-reset": true,
+  "researchLevel": 4,
+  "sortOrder": 9989,
+  "subtitle": "com.industrial_colonies.research.mechanical_foundations.cr01_mechanical_technology.subtitle",
+  "parentResearch": "industrial_colonies:mechanical_foundations/the_brass_age",
+  "requirements": [
+    {
+      "type": "minecolonies:research",
+      "research": "industrial_colonies:mechanical_foundations/the_brass_age"
+    }
+  ]
+}

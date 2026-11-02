@@ -1,0 +1,30 @@
+{
+  "branch": "industrial_colonies:tech_tree",
+  "costs": [
+    {
+      "item": "ae2:fluix_smart_dense_cable",
+      "count": 8
+    },
+    {
+      "item": "ae2:io_port",
+      "count": 1
+    },
+    {
+      "item": "ae2:logic_processor",
+      "count": 8
+    }
+  ],
+  "icon": "ae2:import_bus",
+  "name": "com.industrial_colonies.research.digital_logistics.cr01_early_me_bus_technology.name",
+  "no-reset": true,
+  "researchLevel": 3,
+  "sortOrder": 10964,
+  "subtitle": "com.industrial_colonies.research.digital_logistics.cr01_early_me_bus_technology.subtitle",
+  "parentResearch": "industrial_colonies:digital_logistics/cr01_enhanced_me_system_upgrade",
+  "requirements": [
+    {
+      "type": "minecolonies:research",
+      "research": "industrial_colonies:digital_logistics/cr01_enhanced_me_system_upgrade"
+    }
+  ]
+}

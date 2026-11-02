@@ -1,0 +1,162 @@
+{
+  "parent": "minecraft:block/block",
+  "ambientocclusion": false,
+  "gui_light": "front",
+  "textures": {
+    "particle": "minecraft:block/gold_block",
+    "gold": "minecraft:block/gold_block"
+  },
+  "elements": [
+    {
+      "from": [
+        3,
+        0.025,
+        11
+      ],
+      "to": [
+        4,
+        0.025,
+        12
+      ],
+      "shade": false,
+      "faces": {
+        "up": {
+          "uv": [
+            7,
+            7,
+            8,
+            8
+          ],
+          "texture": "#gold"
+        },
+        "down": {
+          "uv": [
+            7,
+            7,
+            8,
+            8
+          ],
+          "texture": "#gold"
+        }
+      }
+    },
+    {
+      "from": [
+        6,
+        0.025,
+        5
+      ],
+      "to": [
+        7,
+        0.025,
+        6
+      ],
+      "shade": false,
+      "faces": {
+        "up": {
+          "uv": [
+            7,
+            7,
+            8,
+            8
+          ],
+          "texture": "#gold"
+        },
+        "down": {
+          "uv": [
+            7,
+            7,
+            8,
+            8
+          ],
+          "texture": "#gold"
+        }
+      }
+    },
+    {
+      "from": [
+        11,
+        0.025,
+        3
+      ],
+      "to": [
+        12,
+        0.025,
+        4
+      ],
+      "shade": false,
+      "faces": {
+        "up": {
+          "uv": [
+            7,
+            7,
+            8,
+            8
+          ],
+          "texture": "#gold"
+        },
+        "down": {
+          "uv": [
+            7,
+            7,
+            8,
+            8
+          ],
+          "texture": "#gold"
+        }
+      }
+    },
+    {
+      "from": [
+        12,
+        0.025,
+        12
+      ],
+      "to": [
+        13,
+        0.025,
+        13
+      ],
+      "shade": false,
+      "faces": {
+        "up": {
+          "uv": [
+            7,
+            7,
+            8,
+            8
+          ],
+          "texture": "#gold"
+        },
+        "down": {
+          "uv": [
+            7,
+            7,
+            8,
+            8
+          ],
+          "texture": "#gold"
+        }
+      }
+    }
+  ],
+  "display": {
+    "gui": {
+      "rotation": [
+        90,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    }
+  }
+}

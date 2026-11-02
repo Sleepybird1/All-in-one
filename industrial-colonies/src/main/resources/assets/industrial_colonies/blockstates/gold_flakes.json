@@ -1,0 +1,66 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "industrial_colonies:block/gold_flakes",
+        "y": 0,
+        "weight": 1
+      },
+      {
+        "model": "industrial_colonies:block/gold_flakes",
+        "y": 90,
+        "weight": 1
+      },
+      {
+        "model": "industrial_colonies:block/gold_flakes",
+        "y": 180,
+        "weight": 1
+      },
+      {
+        "model": "industrial_colonies:block/gold_flakes",
+        "y": 270,
+        "weight": 1
+      },
+      {
+        "model": "industrial_colonies:block/gold_flakes_scatter_b",
+        "y": 0,
+        "weight": 1
+      },
+      {
+        "model": "industrial_colonies:block/gold_flakes_scatter_b",
+        "y": 90,
+        "weight": 1
+      },
+      {
+        "model": "industrial_colonies:block/gold_flakes_scatter_b",
+        "y": 180,
+        "weight": 1
+      },
+      {
+        "model": "industrial_colonies:block/gold_flakes_scatter_b",
+        "y": 270,
+        "weight": 1
+      },
+      {
+        "model": "industrial_colonies:block/gold_flakes_scatter_c",
+        "y": 0,
+        "weight": 1
+      },
+      {
+        "model": "industrial_colonies:block/gold_flakes_scatter_c",
+        "y": 90,
+        "weight": 1
+      },
+      {
+        "model": "industrial_colonies:block/gold_flakes_scatter_c",
+        "y": 180,
+        "weight": 1
+      },
+      {
+        "model": "industrial_colonies:block/gold_flakes_scatter_c",
+        "y": 270,
+        "weight": 1
+      }
+    ]
+  }
+}

@@ -1,3 +1,5 @@
+// Original recipe review: registrations retained below, temporarily inactive.
+function IC_originalRecipeReview_skip() {}
 // Industrial Colonies - canonical actinide chemistry bridge.
 //
 // Managed KJSGen owns the Radioactive Waste Barrel and Solar Neutron
@@ -5,7 +7,7 @@
 // from this pack, however, so its reactor cannot supply Mekanism Nuclear Waste.
 // Route spent Extreme Reactors fuel forward through the existing TFMG acid and
 // Mekanism chemical-processing chain instead.
-ServerEvents.recipes(event => {
+IC_originalRecipeReview_skip(event => {
   event.custom({
     type: 'mekanism:dissolution',
     chemical_input: { amount: 1, chemical: 'mekanism:sulfuric_acid' },

@@ -1,10 +1,12 @@
+// Original recipe review: registrations retained below, temporarily inactive.
+function IC_originalRecipeReview_skip() {}
 // Industrial Colonies - base-pack capstone artifact.
 //
 // The Black Hole proves bulk production. The Reserve Core proves sustained
 // chemical/fuel throughput. The three alloy families prove that the
 // manufactured Allthemodium currency chain has also reached completion.
 
-ServerEvents.recipes(event => {
+IC_originalRecipeReview_skip(event => {
   event.custom({
     type: 'industrial_colonies:creative_mechanical_crafting',
     accept_mirrored: false,

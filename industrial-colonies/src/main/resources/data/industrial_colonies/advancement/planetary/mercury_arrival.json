@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "arrived_on_mercury": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "ad_astra:mercury"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "arrived_on_mercury"
+    ]
+  ],
+  "sends_telemetry_event": false
+}

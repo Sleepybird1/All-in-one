@@ -1,0 +1,27 @@
+// Development-only third layer after staged geology-smoke.init.gradle and terrain-smoke.init.gradle.
+gradle.projectsEvaluated {
+    def p = gradle.rootProject
+    def stage = p.file('isolated-runtime/geology-gametest-20260909-001051-895').canonicalFile
+    def revision = (p.findProperty('traceRevision') ?: 'a1').toString()
+    if (!(revision ==~ /[a-z0-9][a-z0-9-]*/)) throw new GradleException('Invalid traceRevision')
+    def universe = new File(stage, 'trace-worlds').canonicalFile
+    def world = new File(universe, 'trace-world-' + revision).canonicalFile
+    def report = new File(stage, 'trace-report-' + revision + '.json').canonicalFile
+    if (!world.toPath().startsWith(stage.toPath()) || !report.toPath().startsWith(stage.toPath())) throw new GradleException('Trace fixture escapes stage')
+    def ensureFresh = {
+        if (new File(world, 'level.dat').exists() || new File(world, 'level.dat_old').exists()
+                || new File(world, 'region').exists() || new File(world, 'dimensions').exists() || report.exists())
+            throw new GradleException('Refusing generated trace world/report reuse; choose a new -PtraceRevision: ' + world)
+    }
+    def fixture = p.tasks.register('prepareTraceGeologyFixture') {
+        doLast { ensureFresh(); p.copy { from p.file('tools/terrain-smoke/world-template'); into new File(world, 'datapacks/ic_normal_terrain') } }
+    }
+    p.tasks.named('processTerrainSmokeResources') {
+        from(p.file('src/main/resources/data/industrial_colonies/structure/geology_smoke_empty.nbt')) { into 'data/ic_trace_smoke/structure' }
+    }
+    def run = p.extensions.getByName('neoForge').runs.getByName('gameTestServer')
+    run.systemProperty('neoforge.enabledGameTestNamespaces', 'ic_trace_smoke')
+    run.systemProperty('ic.trace.report', report.absolutePath)
+    run.programArguments.set(['--nogui','--allowUpdates','false','--universe',universe.absolutePath,'--world',world.name])
+    p.tasks.named('runGameTestServer') { dependsOn fixture; doFirst { ensureFresh() } }
+}

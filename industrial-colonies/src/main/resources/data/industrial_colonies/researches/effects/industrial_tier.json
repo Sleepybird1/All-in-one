@@ -1,0 +1,12 @@
+{
+  "effect": true,
+  "name": "com.industrial_colonies.research.effects.industrial_tier.description",
+  "subtitle": "com.industrial_colonies.research.effects.industrial_tier.subtitle",
+  "levels": [
+    1.0,
+    2.0,
+    3.0,
+    4.0,
+    5.0
+  ]
+}

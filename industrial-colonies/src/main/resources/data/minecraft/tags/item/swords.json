@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "modernfoundry:sword",
+      "required": false
+    },
+    {
+      "id": "modernfoundry:cleaver",
+      "required": false
+    },
+    {
+      "id": "modernfoundry:dagger",
+      "required": false
+    }
+  ]
+}

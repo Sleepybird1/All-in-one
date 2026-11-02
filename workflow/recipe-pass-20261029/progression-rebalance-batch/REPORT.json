@@ -1,0 +1,26 @@
+{
+  "redesignedProgressionCards": 69,
+  "correctedRejectedMaterialCards": 1,
+  "defaultRestorationRecordsCleared": 397,
+  "nativeDefaultsRestored": 85,
+  "runtimeRestoredOutputs": 67,
+  "nativeDefaultTagsPreserved": true,
+  "newDraftTags": 0,
+  "duplicateCardRemoved": 1,
+  "fluidTankCardsDisabled": 3,
+  "fusionControlUnitExactUnchanged": true,
+  "fuelReprocessorLayoutPreserved": true,
+  "approvedAndPersonalProjectsUnchanged": true,
+  "skippedConcurrentEdits": [],
+  "nativeGenerationValidation": "PASS",
+  "reviewGate": "PASS",
+  "gameplayDraftExported": false,
+  "nativeReloadVerification": "NOT_RUN",
+  "changedProjects": [
+    "Progression_Review.json",
+    "rejected_recipes.json",
+    "Material_Processing_Review.json",
+    "disabled_recipes.json"
+  ],
+  "backup": "C:\\Users\\GodPC\\curseforge\\minecraft\\Instances\\All in one\\_industrial_colonies_backups\\whole-review-rebalance-20261030-053513"
+}

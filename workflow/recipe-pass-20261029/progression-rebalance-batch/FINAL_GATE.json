@@ -1,0 +1,492 @@
+[
+  {
+    "recipeId": "industrial_colonies:balanced_review/ad_astra/nasa_workbench",
+    "target": "Progression_Review.json",
+    "semanticSha256": "3831b6a2a78c5c786572c6583a0302e1c9460aee90e6ad35abf2373ffd850aee",
+    "status": "PASS",
+    "reasons": []
+  },
+  {
+    "recipeId": "industrial_colonies:balanced_review/advanced_ae/small_adv_pattern_provider",
+    "target": "Progression_Review.json",
+    "semanticSha256": "698dc85bbadfdf5d06d1b281dc23fee31b48277fc856d2ef04da6fb16231de74",
+    "status": "PASS",
+    "reasons": []
+  },
+  {
+    "recipeId": "industrial_colonies:balanced_review/ae2/chest",
+    "target": "Progression_Review.json",
+    "semanticSha256": "755d0e76f81b156b6ef55d1c058fe9841f1da0a855f01adf0d056538d82b5ee1",
+    "status": "PASS",
+    "reasons": []
+  },
+  {
+    "recipeId": "industrial_colonies:balanced_review/appliedcreate/andesite_pattern_provider",
+    "target": "Progression_Review.json",
+    "semanticSha256": "c9a2559a0744f69bd65d36a638665940f29c09db88582ed359b9e6db1b3fdf4f",
+    "status": "PASS",
+    "reasons": []
+  },
+  {
+    "recipeId": "industrial_colonies:balanced_review/appliedcreate/brass_pattern_provider",
+    "target": "Progression_Review.json",
+    "semanticSha256": "fa00beffe21fd837c1985be04d3534c144759a6dd3ea5aa4f674eaed561814ea",
+    "status": "PASS",
+    "reasons": []
+  },
+  {
+    "recipeId": "industrial_colonies:balanced_review/create/mechanical_crafter",
+    "target": "Progression_Review.json",
+    "semanticSha256": "c96816656c7e77f21236d5c3fcdc086f0133402449b457bb50c35d2fb108d3f6",
+    "status": "PASS",
+    "reasons": []
+  },
+  {
+    "recipeId": "industrial_colonies:balanced_review/createcasing/zinc_fluid_valve",
+    "target": "Progression_Review.json",
+    "semanticSha256": "23be856bfd94feedf4154f94184db55a8d60edd695cd1afbe004dd7a290ffa21",
+    "status": "PASS",
+    "reasons": []
+  },
+  {
+    "recipeId": "industrial_colonies:authoring_review/createreautomated/extractor",
+    "target": "Progression_Review.json",
+    "semanticSha256": "4a2cae9a0bbefa44d11f50f8a36d68f02076876655dca99c84b6539292c0ac60",
+    "status": "PASS",
+    "reasons": []
+  },
+  {
+    "recipeId": "industrial_colonies:balanced_review/createreautomated/advanced_extractor",
+    "target": "Progression_Review.json",
+    "semanticSha256": "ad5e5daaa6c5a65683ad4cccfc9e9cea8b5f4244abf9eda8ff2799553af667b5",
+    "status": "PASS",
+    "reasons": []
+  },
+  {
+    "recipeId": "industrial_colonies:balanced_review/nuclearcraft/redstone_heat_sink",
+    "target": "Progression_Review.json",
+    "semanticSha256": "1eac2f1659b8c3411e37fe9cfa88bfbc2f0bffef1b7f555bb88570b2f0920227",
+    "status": "PASS",
+    "reasons": []
+  },
+  {
+    "recipeId": "industrial_colonies:balanced_review/nuclearcraft/active_redstone_heat_sink",
+    "target": "Progression_Review.json",
+    "semanticSha256": "bbb4f32f907dd076583be592edb7e1d38423bdd45b9e1dbf532e47bf629d7bd9",
+    "status": "PASS",
+    "reasons": []
+  },
+  {
+    "recipeId": "industrial_colonies:balanced_review/stellaris/solar_panel",
+    "target": "Progression_Review.json",
+    "semanticSha256": "21bc49cb221c9c9188a29fd69d25f7e99bd099719b2ddae6afcafd605c16a032",
+    "status": "PASS",
+    "reasons": []
+  },
+  {
+    "recipeId": "industrial_colonies:mekanism_pre_nuclear/modification_station",
+    "target": "Progression_Review.json",
+    "semanticSha256": "c9d70c9e43de36cda8919e622126e9f541ccec08dc7792aeb052a2281f765cd6",
+    "status": "PASS",
+    "reasons": []
+  },
+  {
+    "recipeId": "industrial_colonies:mekanism_pre_nuclear/seismic_vibrator",
+    "target": "Progression_Review.json",
+    "semanticSha256": "35282197cd8f1b0246194b35d0829e5be39ede3a73eed652237958e938efaa6e",
+    "status": "PASS",
+    "reasons": []
+  },
+  {
+    "recipeId": "industrial_colonies:outer_station/atmospheric_scoop",
+    "target": "Progression_Review.json",
+    "semanticSha256": "88bf2fc725a048d1ce792a0fe8684ba42616db63b92165db16800a1041de8470",
+    "status": "PASS",
+    "reasons": []
+  },
+  {
+    "recipeId": "nuclearcraft:manufactory",
+    "target": "Progression_Review.json",
+    "semanticSha256": "705ec08cb5b4a8066cafaddbe636758a24a6e56da064430ae35932ef5f1e5f5d",
+    "status": "PASS",
+    "reasons": []
+  },
+  {
+    "recipeId": "industrial_colonies:authoring_review/aeronautics/propeller_bearing",
+    "target": "Progression_Review.json",
+    "semanticSha256": "08b63666b65fc8cbc0558a1782d380210d12dcc473b22f14f967ce62bcec9325",
+    "status": "PASS",
+    "reasons": []
+  },
+  {
+    "recipeId": "industrial_colonies:authoring_review/aeronautics/smart_propeller",
+    "target": "Progression_Review.json",
+    "semanticSha256": "82620a4367bbe5d2197fe75b555e76501a0671979a31abf5a2ea7aea14ca8862",
+    "status": "PASS",
+    "reasons": []
+  },
+  {
+    "recipeId": "industrial_colonies:authoring_review/createcasing/crafting/depot/shadow_steel",
+    "target": "Progression_Review.json",
+    "semanticSha256": "cf3525933d7189e31db7d48938393388de8b8e9ce98600afdc755d0ebeb29218",
+    "status": "PASS",
+    "reasons": []
+  },
+  {
+    "recipeId": "industrial_colonies:authoring_review/createcasing/crafting/encased_fan/shadow_steel",
+    "target": "Progression_Review.json",
+    "semanticSha256": "36e203d1b13a945b4347b68d847c211aca5dee6f74b4987d5be676ca4afd9723",
+    "status": "PASS",
+    "reasons": []
+  },
+  {
+    "recipeId": "industrial_colonies:authoring_review/industrial_colonies/machine_inventory/industrial_colonies/station_services_controller",
+    "target": "Progression_Review.json",
+    "semanticSha256": "758df0c28e858df36b3595379de689d2bc171275ec9d5f5c11b88d01d2dfcb6c",
+    "status": "PASS",
+    "reasons": []
+  },
+  {
+    "recipeId": "industrial_colonies:authoring_review/nuclearcraft/basic_lithium_ion_battery",
+    "target": "Progression_Review.json",
+    "semanticSha256": "ef647e7f3e199eca6953dcbe2471464493b39c67a5e0cb75b0be2a24081a24d3",
+    "status": "PASS",
+    "reasons": []
+  },
+  {
+    "recipeId": "industrial_colonies:authoring_review/nuclearcraft/advanced_lithium_ion_battery",
+    "target": "Progression_Review.json",
+    "semanticSha256": "47b4548c49663a6649942c23003dee6f7bc79b5cae305353bc186b121a462f20",
+    "status": "PASS",
+    "reasons": []
+  },
+  {
+    "recipeId": "industrial_colonies:authoring_review/nuclearcraft/du_lithium_ion_battery",
+    "target": "Progression_Review.json",
+    "semanticSha256": "f973fbde5a6b74cb9f2d4992aaf2ce8fed5583b14d626e9eb453f4af63adb241",
+    "status": "PASS",
+    "reasons": []
+  },
+  {
+    "recipeId": "industrial_colonies:authoring_review/nuclearcraft/elite_lithium_ion_battery",
+    "target": "Progression_Review.json",
+    "semanticSha256": "e131513dd70c79bdcd06f04768a9d9aab2e3908cf348e13fd3c9dab129efbb0a",
+    "status": "PASS",
+    "reasons": []
+  },
+  {
+    "recipeId": "industrial_colonies:authoring_review/nuclearcraft/basic_voltaic_pile",
+    "target": "Progression_Review.json",
+    "semanticSha256": "c035b877ffe0f3b781ff348249a5cf97019b311d2e9626f5d5303dc88b01868b",
+    "status": "PASS",
+    "reasons": []
+  },
+  {
+    "recipeId": "industrial_colonies:authoring_review/nuclearcraft/du_voltaic_pile",
+    "target": "Progression_Review.json",
+    "semanticSha256": "7824aba677ae024c6fff68f25153aeee74eddf58a3be084658441200ce6a0202",
+    "status": "PASS",
+    "reasons": []
+  },
+  {
+    "recipeId": "industrial_colonies:authoring_review/nuclearcraft/elite_voltaic_pile",
+    "target": "Progression_Review.json",
+    "semanticSha256": "e78d9863398bc3529639da991de393193734bd76f8769109010132d4a8203064",
+    "status": "PASS",
+    "reasons": []
+  },
+  {
+    "recipeId": "industrial_colonies:authoring_review/nuclearcraft/fission_reactor_designer",
+    "target": "Progression_Review.json",
+    "semanticSha256": "b92f99a71ff1b660f0f689bc311ce355b2c2ec92b5711a8e000062b3336f527d",
+    "status": "PASS",
+    "reasons": []
+  },
+  {
+    "recipeId": "industrial_colonies:authoring_review/nuclearcraft/fission_reactor_glass",
+    "target": "Progression_Review.json",
+    "semanticSha256": "8a388dce292f1f77d8df6674c71ce80872a550905c5542f529c6f8206632e332",
+    "status": "PASS",
+    "reasons": []
+  },
+  {
+    "recipeId": "industrial_colonies:authoring_review/nuclearcraft/fission_reactor_solid_fuel_cell",
+    "target": "Progression_Review.json",
+    "semanticSha256": "18f0684c8f901dfb2bf961d535cc1bb19c70afa97e87ed549003e34d49f5f67f",
+    "status": "PASS",
+    "reasons": []
+  },
+  {
+    "recipeId": "industrial_colonies:authoring_review/nuclearcraft/fuel_reprocessor",
+    "target": "Progression_Review.json",
+    "semanticSha256": "659b8561ff0d5311293bf6eea576559f242105238ab0782bafc4ac3ddd460214",
+    "status": "PASS",
+    "reasons": []
+  },
+  {
+    "recipeId": "industrial_colonies:authoring_review/nuclearcraft/heat_exchanger_cold_coolant_port",
+    "target": "Progression_Review.json",
+    "semanticSha256": "20bd36f23a64eb31b9ae66f8507b2c4d6f7bf59d090f2b24cb86c4db5acf1215",
+    "status": "PASS",
+    "reasons": []
+  },
+  {
+    "recipeId": "industrial_colonies:authoring_review/nuclearcraft/heat_exchanger_hot_coolant_port",
+    "target": "Progression_Review.json",
+    "semanticSha256": "1981bfd08ada660ed25a113ad6babefc21674ed7f5d554e59cb2833f52ec5b5a",
+    "status": "PASS",
+    "reasons": []
+  },
+  {
+    "recipeId": "industrial_colonies:authoring_review/nuclearcraft/isotope_separator",
+    "target": "Progression_Review.json",
+    "semanticSha256": "14704f439d3d5bd55f8de1fc543520d6b3aa4ff2cad2a578abe2f9ce9d926fd0",
+    "status": "PASS",
+    "reasons": []
+  },
+  {
+    "recipeId": "industrial_colonies:authoring_review/nuclearcraft/multiblock_builder",
+    "target": "Progression_Review.json",
+    "semanticSha256": "e1051c86868adc8e7909cb2f0337a7be37bbf24556bcc8c35371fba934d89965",
+    "status": "PASS",
+    "reasons": []
+  },
+  {
+    "recipeId": "industrial_colonies:authoring_review/nuclearcraft/turbine_aluminum_coil",
+    "target": "Progression_Review.json",
+    "semanticSha256": "70874c0a9cdd8e94b157f4a92bd235ff3e16d39218c4c6a2987e17e5e54d251e",
+    "status": "PASS",
+    "reasons": []
+  },
+  {
+    "recipeId": "industrial_colonies:balanced_review/nuclearcraft/turbine_copper_coil",
+    "target": "Progression_Review.json",
+    "semanticSha256": "9472b8448cbcc9492e72a1a72d8323aa56e810ea715e71a5a36cc8f0cff05387",
+    "status": "PASS",
+    "reasons": []
+  },
+  {
+    "recipeId": "industrial_colonies:authoring_review/nuclearcraft/turbine_gold_coil",
+    "target": "Progression_Review.json",
+    "semanticSha256": "20de5dcb1b7bef1b6969af78f7910dd4102dbcd6592496feff38ede4287bad9b",
+    "status": "PASS",
+    "reasons": []
+  },
+  {
+    "recipeId": "industrial_colonies:authoring_review/nuclearcraft/turbine_silver_coil",
+    "target": "Progression_Review.json",
+    "semanticSha256": "2d7a974dbbffc68b077b50ac716aaaa9e8f83e58818cba6d3f5d26945778b114",
+    "status": "PASS",
+    "reasons": []
+  },
+  {
+    "recipeId": "industrial_colonies:authoring_review/nuclearcraft/turbine_magnesium_coil",
+    "target": "Progression_Review.json",
+    "semanticSha256": "ed3f02c09cdd7fa9b5e69fb83912b6b29b9e1bf97827a21332703d53287a5173",
+    "status": "PASS",
+    "reasons": []
+  },
+  {
+    "recipeId": "industrial_colonies:authoring_review/nuclearcraft/turbine_beryllium_coil",
+    "target": "Progression_Review.json",
+    "semanticSha256": "758545d00d469e8cf17f2514ca66854b7ea0a6f95737ac30c83746385fe01fae",
+    "status": "PASS",
+    "reasons": []
+  },
+  {
+    "recipeId": "industrial_colonies:authoring_review/nuclearcraft/turbine_basic_rotor_blade",
+    "target": "Progression_Review.json",
+    "semanticSha256": "203aee98557abfc6e390ed20d4be1085e6e1dbf44c73e77034cbb35dd5f93861",
+    "status": "PASS",
+    "reasons": []
+  },
+  {
+    "recipeId": "industrial_colonies:authoring_review/nuclearcraft/turbine_steel_rotor_blade",
+    "target": "Progression_Review.json",
+    "semanticSha256": "ce6d81e90afa77d31a82133ca13490dcad7f3019777cdd37b6398ef47a2af51d",
+    "status": "PASS",
+    "reasons": []
+  },
+  {
+    "recipeId": "industrial_colonies:authoring_review/nuclearcraft/turbine_extreme_rotor_blade",
+    "target": "Progression_Review.json",
+    "semanticSha256": "722fbea02cf1b1c4c3ec41ddac9f151e02a409625bdc2029ca85bbad3fb0dbdc",
+    "status": "PASS",
+    "reasons": []
+  },
+  {
+    "recipeId": "industrial_colonies:authoring_review/nuclearcraft/turbine_sic_sic_cmc_rotor_blade",
+    "target": "Progression_Review.json",
+    "semanticSha256": "e4a6af4680756acb8788b317da7d6d5192692877a53e524041ee75aac45f5c16",
+    "status": "PASS",
+    "reasons": []
+  },
+  {
+    "recipeId": "industrial_colonies:authoring_review/nuclearcraft/turbine_bearing",
+    "target": "Progression_Review.json",
+    "semanticSha256": "0d2eeea399fa38b3c680b50b73f1d66597219f9ac97c58d16d5ed9ee46c774ec",
+    "status": "PASS",
+    "reasons": []
+  },
+  {
+    "recipeId": "industrial_colonies:authoring_review/nuclearcraft/turbine_glass",
+    "target": "Progression_Review.json",
+    "semanticSha256": "6a1162052917de9e9243802168a9646a341f14a899ffe9020ad845574434c2a0",
+    "status": "PASS",
+    "reasons": []
+  },
+  {
+    "recipeId": "industrial_colonies:authoring_review/nuclearcraft/turbine_port",
+    "target": "Progression_Review.json",
+    "semanticSha256": "b1ba728618727a7f4c1b8cab360c4e0e4806b09438c9545a01cd7732e9b4e29b",
+    "status": "PASS",
+    "reasons": []
+  },
+  {
+    "recipeId": "industrial_colonies:authoring_review/nuclearcraft/turbine_rotor_shaft",
+    "target": "Progression_Review.json",
+    "semanticSha256": "498301a084c0e8bde415073e48318f0a4c234f490b5080ffaa7df1302ca8b9a6",
+    "status": "PASS",
+    "reasons": []
+  },
+  {
+    "recipeId": "industrial_colonies:authoring_review/offroad/wheel_mount",
+    "target": "Progression_Review.json",
+    "semanticSha256": "4fa7f3736128e0fe8cd7f69226518ca4d3977f5b26149363d28d64c7d6d2b1d8",
+    "status": "PASS",
+    "reasons": []
+  },
+  {
+    "recipeId": "industrial_colonies:authoring_review/offroad/rockcutting_wheel",
+    "target": "Progression_Review.json",
+    "semanticSha256": "964f0dad2cd2cfbae9f16f87a87a8b68b1eb4e919ffeebcb2352055fea97beb0",
+    "status": "PASS",
+    "reasons": []
+  },
+  {
+    "recipeId": "industrial_colonies:authoring_review/offroad/borehead_bearing",
+    "target": "Progression_Review.json",
+    "semanticSha256": "3fb504dd146c46dd6720ad22ed3079b18af1bef96d7ea984b5d62a3440be855e",
+    "status": "PASS",
+    "reasons": []
+  },
+  {
+    "recipeId": "industrial_colonies:authoring_review/stellaris/misc/rocket_station_block",
+    "target": "Progression_Review.json",
+    "semanticSha256": "4f380c61fbfe7308ecc2664d15968bc996f32ed12c7a028fba2351dbbf961faa",
+    "status": "PASS",
+    "reasons": []
+  },
+  {
+    "recipeId": "industrial_colonies:authoring_review/stellaris/misc/upgrade_station_block",
+    "target": "Progression_Review.json",
+    "semanticSha256": "8abf149928c070b87055b6fee15cc82733870c27ef533dc799d223f7ae0b1cca",
+    "status": "PASS",
+    "reasons": []
+  },
+  {
+    "recipeId": "industrial_colonies:authoring_review/stellaris/misc/vacuumator",
+    "target": "Progression_Review.json",
+    "semanticSha256": "ddc7a2bd38410668b3234b2ce38b079cf120b2ca3bcd99e0d5bb77595f221ed0",
+    "status": "PASS",
+    "reasons": []
+  },
+  {
+    "recipeId": "industrial_colonies:authoring_review/stellaris/misc/water_separator",
+    "target": "Progression_Review.json",
+    "semanticSha256": "5132b2aea03f75fa700f19b4f86a46ab63c9e42b23edc79c7b4dc8d7ff50acdf",
+    "status": "PASS",
+    "reasons": []
+  },
+  {
+    "recipeId": "industrial_colonies:authoring_review/tfmg/crafting/materials/converter",
+    "target": "Progression_Review.json",
+    "semanticSha256": "b98ab5c24980e4ce00b30a36897ee7f302c084a9f17d7bb9c23109d0b997a4d8",
+    "status": "PASS",
+    "reasons": []
+  },
+  {
+    "recipeId": "industrial_colonies:authoring_review/industrial_colonies/machine_inventory/tfmg/potentiometer",
+    "target": "Progression_Review.json",
+    "semanticSha256": "e3916f8c97dc28c10bc3172d77564a20c1601c48da4b889020cb55433590d078",
+    "status": "PASS",
+    "reasons": []
+  },
+  {
+    "recipeId": "industrial_colonies:authoring_review/tfmg/crafting/materials/accumulator",
+    "target": "Progression_Review.json",
+    "semanticSha256": "6c983f8fd8422d966aaea2fa8dda61cd70018efd66b0db7c701ca5d8ca2b1506",
+    "status": "PASS",
+    "reasons": []
+  },
+  {
+    "recipeId": "industrial_colonies:fusion_rebalance/basic_rf_amplifier",
+    "target": "Progression_Review.json",
+    "semanticSha256": "cd838325a15a8f318c29b1288b87c362ae41bb3f4a1cf808734642baa85c1967",
+    "status": "PASS",
+    "reasons": []
+  },
+  {
+    "recipeId": "industrial_colonies:fusion_rebalance/magnesium_diboride_rf_amplifier",
+    "target": "Progression_Review.json",
+    "semanticSha256": "cd320db419869c651ed7fd8b80e8655fee611a21c7f2d14a6a5c932d16963683",
+    "status": "PASS",
+    "reasons": []
+  },
+  {
+    "recipeId": "industrial_colonies:fusion_rebalance/niobium_tin_rf_amplifier",
+    "target": "Progression_Review.json",
+    "semanticSha256": "df0cccbfbefb3a46b938f0fa2e396a3c6a535426f0a953fc7cdbaa6eab8f3a61",
+    "status": "PASS",
+    "reasons": []
+  },
+  {
+    "recipeId": "industrial_colonies:fusion_rebalance/niobium_titanium_rf_amplifier",
+    "target": "Progression_Review.json",
+    "semanticSha256": "8326fb2378f997b565dfe2d98acddba77eed5f186fd9845afff04d64c95443c0",
+    "status": "PASS",
+    "reasons": []
+  },
+  {
+    "recipeId": "industrial_colonies:fusion_rebalance/bscco_rf_amplifier",
+    "target": "Progression_Review.json",
+    "semanticSha256": "fb55cf7bb1178a796cac25208738b36a8d5d2d27222a361877d76f2e8af626ca",
+    "status": "PASS",
+    "reasons": []
+  },
+  {
+    "recipeId": "industrial_colonies:fusion_rebalance/magnesium_diboride_electromagnet",
+    "target": "Progression_Review.json",
+    "semanticSha256": "2cdf95d697947ead4715e1a5ff3a01464bf87e193a139d1abeec809e494df8ea",
+    "status": "PASS",
+    "reasons": []
+  },
+  {
+    "recipeId": "industrial_colonies:custom_progression/nuclearcraft/msr_controller",
+    "target": "Progression_Review.json",
+    "semanticSha256": "01266fcfe807b0a4a3613ef19ad5b39013776aa41c7706884e571c5ad67a0772",
+    "status": "PASS",
+    "reasons": []
+  },
+  {
+    "recipeId": "industrial_colonies:authoring_review/nuclearcraft/msr_fuel_cell",
+    "target": "Progression_Review.json",
+    "semanticSha256": "a516b517036021bf0ea152771343cc2be4b844d81eebaa56b4f47c5c0f750b72",
+    "status": "PASS",
+    "reasons": []
+  },
+  {
+    "recipeId": "industrial_colonies:authoring_review/nuclearcraft/msr_port",
+    "target": "Progression_Review.json",
+    "semanticSha256": "89805be9c3a64751c75fc95171407f4025d8c86c8e1dbb768208fa9cb45bbb33",
+    "status": "PASS",
+    "reasons": []
+  },
+  {
+    "recipeId": "industrial_colonies:v3_ae2/quantum_processor",
+    "target": "Material_Processing_Review.json",
+    "semanticSha256": "accdf09ab35d56e17fb96280ad39157f7068882ba0e25fe2a9912c69e6546942",
+    "status": "PASS",
+    "reasons": []
+  }
+]

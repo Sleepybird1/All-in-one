@@ -1,3 +1,5 @@
+// Original recipe review: registrations retained below, temporarily inactive.
+function IC_originalRecipeReview_skip() {}
 // Industrial Colonies - manufactured Allthemodium research currencies
 //
 // The stock mod treats Allthemodium, Vibranium, and Unobtainium as mined
@@ -200,7 +202,7 @@ const atmPressing = (tier, transitional) => ({
   results: [{ id: transitional }]
 })
 
-ServerEvents.tags('item', event => {
+IC_originalRecipeReview_skip('item', event => {
   const ores = {
     allthemodium: [
       'allthemodium:allthemodium_ore',
@@ -279,7 +281,7 @@ ServerEvents.tags('block', event => {
   event.remove('c:ores_in_ground/end_stone', 'allthemodium:unobtainium_ore')
 })
 
-ServerEvents.recipes(event => {
+IC_originalRecipeReview_skip(event => {
   // Remove all 54 active non-Mekanism producers from the audited ATM JAR.
   // Conditional TConstruct producers are closed by exact recipe type below.
   ATM_STOCK_PRODUCER_IDS.forEach(id => event.remove({ id: id }))

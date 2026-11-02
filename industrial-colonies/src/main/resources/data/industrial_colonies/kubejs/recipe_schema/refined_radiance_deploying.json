@@ -1,0 +1,15 @@
+{
+  "parent": "create:deploying",
+  "keys": [
+    {
+      "name": "processing_time",
+      "role": "input",
+      "type": "int",
+      "optional": 0
+    }
+  ],
+  "merge": {
+    "keys": true,
+    "functions": true
+  }
+}

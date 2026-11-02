@@ -1,0 +1,27 @@
+gradle.projectsEvaluated {
+    def p=gradle.rootProject
+    def stage=p.file('isolated-runtime/advanced-fluid-client-01')
+    def cache=p.file('isolated-runtime/advanced-semiconductors-01')
+    p.repositories.maven {
+        url=p.uri(new File(cache,'offline-maven'))
+        content {includeModule('io.netty','netty-transport-native-epoll');includeModule('net.neoforged','DevLaunch')}
+        metadataSources {gradleMetadata();mavenPom();artifact()}
+    }
+    p.tasks.named('downloadAssets'){enabled=false}
+    p.tasks.named('prepareClientRun') {
+        assetProperties.set(new File(cache,'offline-assets.properties'))
+        runTypeTemplatesSource.setFrom(p.file('C:/Users/GodPC/Documents/Codex/2026-08-16/ok/work/gradle-user-home/caches/modules-2/files-2.1/net.neoforged/neoforge/21.1.248/dab61062b17c39eb246328576ae1bcbd59ee780b/neoforge-21.1.248-userdev.jar'))
+    }
+    def ss=p.sourceSets.create('fluidClient')
+    ss.java.setSrcDirs([p.file('tools/fluid-client/src')]);ss.resources.setSrcDirs([p.file('tools/fluid-client/resources')])
+    def neo=p.extensions.getByName('neoForge');neo.addModdingDependenciesTo(ss)
+    p.dependencies.add(ss.compileOnlyConfigurationName,p.files('build/libs/industrial_colonies-0.5.3.jar','libs/kjsgen-neoforge-2.0.5+mc1.21.1.jar'))
+    p.dependencies.add(ss.runtimeOnlyConfigurationName,'net.neoforged:DevLaunch:1.0.2')
+    def addon=neo.mods.create('ic_fluid_client');addon.sourceSet(ss)
+    def run=neo.runs.getByName('client');run.sourceSet.set(ss);run.loadedMods.set([addon]);run.gameDirectory.set(stage)
+    def clean=p.file('C:/Users/GodPC/Documents/Codex/2026-08-16/ok/work/gradle-user-home/caches/neoformruntime/intermediate_results/rename_3f859ecde63343fee4a46c3fa3b7c05c19de9bf2_output.jar')
+    if(!clean.isFile()||java.security.MessageDigest.getInstance('SHA-256').digest(clean.bytes).encodeHex().toString()!='bc811b3368ca4e056672ab7425682247a68ab72210f14b0ba68b91eeae040ce3')throw new GradleException('Missing verified clean Connector input')
+    run.systemProperty('connector.clean.path',clean.absolutePath);run.logLevel=org.slf4j.event.Level.INFO
+    run.jvmArgument('-Xmx8G');run.programArguments.set(['--username','SurfaceSmoke','--accessToken','0','--uuid','00000000-0000-0000-0000-000000000002','--width','1280','--height','720'])
+    p.tasks.named('runClient') {dependsOn p.tasks.named(ss.classesTaskName);doFirst{if(new File(stage,'fluid-slots.png').exists())throw new GradleException('Fresh client evidence required')}}
+}

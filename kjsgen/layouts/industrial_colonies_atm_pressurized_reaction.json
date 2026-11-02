@@ -1,0 +1,95 @@
+{
+  "id": "industrial_colonies:atm_pressurized_reaction",
+  "mod": "mekanism",
+  "icon": "mekanism:pressurized_reaction_chamber",
+  "width": 172,
+  "height": 82,
+  "slots": [
+    {
+      "key": "item_input",
+      "role": "INPUT",
+      "x": 8,
+      "y": 8,
+      "required": true,
+      "item": true,
+      "fluid": false,
+      "chemical": false,
+      "count": true
+    },
+    {
+      "key": "water",
+      "role": "INPUT",
+      "x": 8,
+      "y": 34,
+      "required": true,
+      "item": false,
+      "fluid": true,
+      "chemical": false,
+      "count": true
+    },
+    {
+      "key": "chemical_input",
+      "role": "INPUT",
+      "x": 40,
+      "y": 34,
+      "required": true,
+      "item": false,
+      "fluid": false,
+      "chemical": true,
+      "count": true
+    },
+    {
+      "key": "item_output",
+      "role": "OUTPUT",
+      "x": 136,
+      "y": 8,
+      "required": true,
+      "item": true,
+      "fluid": false,
+      "chemical": false,
+      "count": true
+    },
+    {
+      "key": "chemical_output",
+      "role": "OUTPUT",
+      "x": 136,
+      "y": 42,
+      "required": true,
+      "item": false,
+      "fluid": false,
+      "chemical": true,
+      "count": true
+    }
+  ],
+  "decorations": [
+    {
+      "type": "ARROW",
+      "x": 86,
+      "y": 30
+    }
+  ],
+  "parameters": [
+    {
+      "key": "batchCount",
+      "type": "INT",
+      "default": "15"
+    },
+    {
+      "key": "duration",
+      "type": "INT",
+      "default": "1200"
+    },
+    {
+      "key": "energyRequired",
+      "type": "INT",
+      "default": "16000"
+    },
+    {
+      "key": "__template",
+      "type": "STRING",
+      "default": "event.custom({type:'mekanism:reaction',item_input:{item:Item.of({slot:item_input}).id,count:{param:batchCount}},fluid_input:{fluid:({slot:water}).id,amount:({slot:water}).amount},chemical_input:(function(s){var m=String(s).match(/^(?:(\\d+)x\\s+)?(.+)$/);if(!m)throw new Error('Invalid chemical');return {amount:m[1]?Number(m[1]):1000,chemical:m[2]};})({slot:chemical_input}),item_output:{id:Item.of({slot:item_output}).id,count:Item.of({slot:item_output}).count},chemical_output:(function(s){var m=String(s).match(/^(?:(\\d+)x\\s+)?(.+)$/);if(!m)throw new Error('Invalid chemical');return {amount:m[1]?Number(m[1]):1000,id:m[2]};})({slot:chemical_output}),duration:{param:duration},energy_required:{param:energyRequired}})"
+    }
+  ],
+  "codegen": "kjsgen:template",
+  "requiresMod": "mekanism"
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "industrial_colonies:interstellar_navigation_computer"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "industrial_colonies:blocks/interstellar_navigation_computer"
+}

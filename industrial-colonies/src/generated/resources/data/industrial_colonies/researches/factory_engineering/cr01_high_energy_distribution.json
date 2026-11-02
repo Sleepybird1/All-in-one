@@ -1,0 +1,33 @@
+{
+  "branch": "industrial_colonies:tech_tree",
+  "costs": [
+    {
+      "item": "mekanism:elite_control_circuit",
+      "count": 8
+    },
+    {
+      "item": "mekanism:alloy_atomic",
+      "count": 8
+    },
+    {
+      "item": "electroenergetics:heavily_insulated_wire_spool",
+      "count": 8
+    }
+  ],
+  "icon": "mekanism:ultimate_tier_installer",
+  "name": "com.industrial_colonies.research.factory_engineering.cr01_high_energy_distribution.name",
+  "no-reset": true,
+  "researchLevel": 1,
+  "sortOrder": 10222,
+  "subtitle": "com.industrial_colonies.research.factory_engineering.cr01_high_energy_distribution.subtitle",
+  "requirements": [
+    {
+      "type": "minecolonies:research",
+      "research": "industrial_colonies:electrical_grid/cr01_extreme_power_transmission"
+    },
+    {
+      "type": "minecolonies:research",
+      "research": "industrial_colonies:factory_engineering/cr01_precision_engineering"
+    }
+  ]
+}

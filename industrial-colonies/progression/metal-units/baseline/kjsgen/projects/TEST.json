@@ -1,0 +1,38 @@
+{
+  "format": 1,
+  "name": "TEST",
+  "defaultTargetFile": "TEMP FILE REMOVE RECIPE AFTER",
+  "exportComments": true,
+  "reloadOnExport": false,
+  "recipes": [
+    {
+      "uid": "c51c0291-0358-40a8-9af2-34485e106cff",
+      "type": "kjsgen:create_sequenced_assembly",
+      "replaceRecipe": false,
+      "slots": {
+        "input": {
+          "kind": "ITEM",
+          "id": "create:refined_radiance_casing"
+        },
+        "transitional": {
+          "kind": "ITEM",
+          "id": "ae2:printed_logic_processor"
+        },
+        "output0": {
+          "kind": "ITEM",
+          "id": "advanced_ae:quantum_processor"
+        },
+        "seqItem0": {
+          "kind": "ITEM",
+          "id": "tfmg:steel_frame"
+        }
+      },
+      "params": {
+        "seq0": "deploying",
+        "__seqLen": "2",
+        "seq1": "pressing"
+      }
+    }
+  ],
+  "removals": []
+}

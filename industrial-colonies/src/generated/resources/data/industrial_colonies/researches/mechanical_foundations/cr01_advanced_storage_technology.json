@@ -1,0 +1,30 @@
+{
+  "branch": "industrial_colonies:tech_tree",
+  "costs": [
+    {
+      "item": "create:chute",
+      "count": 8
+    },
+    {
+      "item": "create:andesite_funnel",
+      "count": 8
+    },
+    {
+      "item": "create:precision_mechanism",
+      "count": 4
+    }
+  ],
+  "icon": "create:item_vault",
+  "name": "com.industrial_colonies.research.mechanical_foundations.cr01_advanced_storage_technology.name",
+  "no-reset": true,
+  "researchLevel": 6,
+  "sortOrder": 9520,
+  "subtitle": "com.industrial_colonies.research.mechanical_foundations.cr01_advanced_storage_technology.subtitle",
+  "parentResearch": "industrial_colonies:mechanical_foundations/cr01_storage_technology",
+  "requirements": [
+    {
+      "type": "minecolonies:research",
+      "research": "industrial_colonies:mechanical_foundations/cr01_storage_technology"
+    }
+  ]
+}

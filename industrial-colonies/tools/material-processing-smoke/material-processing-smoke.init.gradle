@@ -1,0 +1,99 @@
+// Layer AFTER the explicitly prepared disposable stage's base init script.
+// Never loads the main source set: runtime production classes come from the staged candidate JAR.
+gradle.projectsEvaluated {
+    def p = gradle.rootProject
+    def stageArg = p.findProperty('materialStage')
+    def revision = p.findProperty('materialRevision')?.toString()
+    if (!stageArg || !revision || !(revision ==~ /[a-z0-9][a-z0-9-]*/))
+        throw new GradleException('Required: -PmaterialStage=<isolated-runtime/stage> -PmaterialRevision=<fresh lowercase revision>')
+    def stage = p.file(stageArg).canonicalFile
+    def isolated = p.file('isolated-runtime').canonicalFile
+    if (!stage.toPath().startsWith(isolated.toPath()) || stage == isolated || !new File(stage, 'mods').isDirectory())
+        throw new GradleException('materialStage must be an existing disposable stage beneath project isolated-runtime')
+    def universe = new File(stage, 'material-processing-worlds').canonicalFile
+    def worldName = 'world-material-' + revision
+    def world = new File(universe, worldName).canonicalFile
+    def report = new File(stage, 'material-processing-report-' + revision + '.json').canonicalFile
+    def exportReport = new File(stage, 'material-processing-export-' + revision + '.json').canonicalFile
+    def mergedProject = new File(stage, 'kjsgen/projects/default.json').canonicalFile
+    def requiredJar = { pattern ->
+        def files = p.fileTree(new File(stage, 'mods')) { include pattern }.files
+        if (files.size() != 1) throw new GradleException('Expected one staged dependency: ' + pattern + ', found ' + files.size())
+        files.first()
+    }
+    def candidate = requiredJar('industrial_colonies-*.jar')
+    def catalog = p.file(p.findProperty('materialCatalog') ?: 'processing/material_processing_catalog.json').canonicalFile
+    if (!candidate.isFile() || !catalog.isFile() || !mergedProject.isFile())
+        throw new GradleException('The staged candidate JAR, merged default project and generated material catalog must exist')
+    def sha256 = { file -> java.security.MessageDigest.getInstance('SHA-256').digest(file.bytes).encodeHex().toString() }
+    def catalogHash = sha256(catalog)
+    def candidateHash = sha256(candidate)
+    def projectHash = sha256(mergedProject)
+    def ensureFresh = {
+        if (!world.toPath().startsWith(universe.toPath()) || !report.toPath().startsWith(stage.toPath()))
+            throw new GradleException('Material fixture path escaped its disposable stage')
+        if (['level.dat', 'level.dat_old', 'region', 'entities', 'dimensions'].any { new File(world, it).exists() } || report.exists() || exportReport.exists())
+            throw new GradleException('Refusing to overwrite material-processing world/report; choose a fresh materialRevision')
+        if (sha256(candidate) != candidateHash || sha256(catalog) != catalogHash || sha256(mergedProject) != projectHash)
+            throw new GradleException('Candidate/catalog/project changed after task configuration; restart with a fresh invocation')
+    }
+    // GameTest's built-in flat preset omits Cosmonautics' required deep-space
+    // level. Reuse the independently verified disposable normal-world fixture;
+    // never remove that gameplay mod or change its production event handlers.
+    def fixture = p.tasks.register('prepareMaterialWorldFixture') {
+        doLast {
+            ensureFresh()
+            p.copy {
+                from p.file(p.findProperty('materialWorldTemplate') ?: 'tools/terrain-smoke/world-template')
+                into new File(world, 'datapacks/ic_normal_terrain')
+            }
+        }
+    }
+    def ss = p.sourceSets.create('materialSmoke')
+    ss.java.setSrcDirs([p.file('tools/material-processing-smoke/src')])
+    ss.resources.setSrcDirs([p.file('tools/material-processing-smoke/resources')])
+    p.tasks.named(ss.processResourcesTaskName) {
+        from(p.file('src/main/resources/data/industrial_colonies/structure/geology_smoke_empty.nbt')) {
+            into 'data/ic_material_smoke/structure'
+        }
+    }
+    p.extensions.getByName('neoForge').addModdingDependenciesTo(ss)
+    p.dependencies.add(ss.compileOnlyConfigurationName, p.files(
+        candidate,
+        requiredJar('tfmg-*.jar'),
+        requiredJar('ImmersiveEngineering-*.jar'),
+        requiredJar('kjsgen-neoforge-*.jar'),
+        p.file('libs/create-1.21.1-6.0.10.jar'),
+        p.file('build/generated/compile-jars/ponder-neoforge-1.0.82+mc1.21.1.jar')
+    ))
+    p.dependencies.add(ss.runtimeOnlyConfigurationName, 'net.neoforged:DevLaunch:1.0.2')
+    p.tasks.named(ss.compileJavaTaskName) {
+        options.encoding = 'UTF-8'
+        options.fork = true
+        options.forkOptions.executable = p.javaToolchains.compilerFor {
+            languageVersion = org.gradle.jvm.toolchain.JavaLanguageVersion.of(21)
+        }.get().executablePath.asFile.absolutePath
+    }
+    def addon = p.extensions.getByName('neoForge').mods.create('ic_material_smoke')
+    addon.sourceSet(ss)
+    def run = p.extensions.getByName('neoForge').runs.getByName('gameTestServer')
+    run.sourceSet.set(ss)
+    run.loadedMods.set([addon])
+    run.gameDirectory.set(stage)
+    run.systemProperty('neoforge.enabledGameTestNamespaces', 'ic_material_smoke')
+    run.systemProperty('ic.material.catalog', catalog.absolutePath)
+    run.systemProperty('ic.material.catalogSha256', catalogHash)
+    run.systemProperty('ic.material.candidate', candidate.absolutePath)
+    run.systemProperty('ic.material.candidateSha256', candidateHash)
+    run.systemProperty('ic.material.report', report.absolutePath)
+    run.systemProperty('ic.material.requireStageRoot', stage.absolutePath)
+    run.systemProperty('ic.material.projectSha256', projectHash)
+    run.systemProperty('ic.material.exportReport', exportReport.absolutePath)
+    run.systemProperty('mixin.debug.verbose', 'false')
+    run.systemProperty('bsl.debug', 'false')
+    run.programArguments.set(['--nogui', '--allowUpdates', 'false', '--universe', universe.absolutePath, '--world', worldName])
+    p.tasks.named('runGameTestServer') {
+        dependsOn fixture
+        doFirst { ensureFresh() }
+    }
+}

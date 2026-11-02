@@ -1,0 +1,30 @@
+{
+  "branch": "industrial_colonies:tech_tree",
+  "costs": [
+    {
+      "item": "create:deployer",
+      "count": 2
+    },
+    {
+      "item": "create:precision_mechanism",
+      "count": 6
+    },
+    {
+      "item": "create:andesite_alloy",
+      "count": 12
+    }
+  ],
+  "icon": "create:crushing_wheel",
+  "name": "com.industrial_colonies.research.mechanical_foundations.cr01_early_crushing_technology.name",
+  "no-reset": true,
+  "researchLevel": 6,
+  "sortOrder": 9989,
+  "subtitle": "com.industrial_colonies.research.mechanical_foundations.cr01_early_crushing_technology.subtitle",
+  "parentResearch": "industrial_colonies:mechanical_foundations/cr01_advanced_mechanical_technology",
+  "requirements": [
+    {
+      "type": "minecolonies:research",
+      "research": "industrial_colonies:mechanical_foundations/cr01_advanced_mechanical_technology"
+    }
+  ]
+}

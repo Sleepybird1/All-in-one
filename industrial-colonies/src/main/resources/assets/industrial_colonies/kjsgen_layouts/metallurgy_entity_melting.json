@@ -1,0 +1,53 @@
+{
+  "id": "industrial_colonies:metallurgy_entity_melting",
+  "jei": "createmetallurgy:entity_melting",
+  "mod": "createmetallurgy",
+  "icon": "createmetallurgy:industrial_crucible",
+  "width": 176,
+  "height": 64,
+  "slots": [
+    {
+      "key": "results",
+      "role": "OUTPUT",
+      "x": 116,
+      "y": 4,
+      "required": true,
+      "item": true,
+      "fluid": true,
+      "count": true,
+      "chance": true,
+      "list": true
+    }
+  ],
+  "decorations": [
+    {
+      "type": "ARROW",
+      "x": 78,
+      "y": 20
+    }
+  ],
+  "parameters": [
+    {
+      "key": "minHeat",
+      "type": "INT",
+      "default": "-25"
+    },
+    {
+      "key": "maxHeat",
+      "type": "INT",
+      "default": "50"
+    },
+    {
+      "key": "entityId",
+      "type": "STRING",
+      "default": "minecraft:iron_golem"
+    },
+    {
+      "key": "entityDamage",
+      "type": "INT",
+      "default": "6"
+    }
+  ],
+  "codegen": "industrial_colonies:metallurgy",
+  "requiresMod": "createmetallurgy"
+}

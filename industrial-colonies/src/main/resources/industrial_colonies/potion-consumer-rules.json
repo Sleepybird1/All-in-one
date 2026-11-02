@@ -1,0 +1,32 @@
+[
+  {
+    "id": "irons_spellbooks:alchemist_cauldron/brew_evasion_elixir",
+    "beforeSHA256": "c9f8407e404fb802e01dfd4de9a5ac9234930bd65c157ade1e1209c60b939e95",
+    "afterSHA256": "d7239b2f3bfca5c9d3802f150cce365880c84e56d715fd88b1a6411f33ef7f9c"
+  },
+  {
+    "id": "irons_spellbooks:alchemist_cauldron/brew_greater_healing_elixir",
+    "beforeSHA256": "e13c2f49a816ccf4ffe01465c6b79e70ef2043e9c45c844e2fa46767316f0744",
+    "afterSHA256": "53eb2b99b252e7f11c3928cf9acd5744e3401996c7d8406e4f45181f2f6ef879"
+  },
+  {
+    "id": "irons_spellbooks:alchemist_cauldron/brew_invisibility_elixir",
+    "beforeSHA256": "d5a9ca4ae356fd198bc9c7f2d9922c0cd874435a22a53de238c5978e954bd28b",
+    "afterSHA256": "3041d5aac1d805318aef33c0eaf32f354adf4f50c6f6b1bbc4ddb21556867560"
+  },
+  {
+    "id": "irons_spellbooks:alchemist_cauldron/brew_oakskin_elixir",
+    "beforeSHA256": "affe4749025ce4e2c3dc185df6136602ec061742d06fe87ec1a0cbea0e7e704d",
+    "afterSHA256": "7435ad3481be69612c377120792aabc7248d36753c614e6ab6a9f69820b44da4"
+  },
+  {
+    "id": "irons_spellbooks:alchemist_cauldron/brew_timeless_slurry",
+    "beforeSHA256": "a08f98432ebb691ce657dfc196237532f214594120d9027d1239fd55d23bc5a3",
+    "afterSHA256": "7a0ae0eb35bb8f226629041159a708f044a44daaf616a80ee667e5ee50eabbf4"
+  },
+  {
+    "id": "immersiveengineering:refinery/high_power_biodiesel",
+    "beforeSHA256": "e84e61bfc8b73afbf6e323091d1487ec366bdea1a9c790920b1c04eb46fcbbe5",
+    "afterSHA256": "4c7cca3b9c811a292287e967d692c6992fb349a0c3cd18213a8909f7d09797ea"
+  }
+]

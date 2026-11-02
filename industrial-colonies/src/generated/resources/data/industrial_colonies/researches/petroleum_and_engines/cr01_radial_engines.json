@@ -1,0 +1,30 @@
+{
+  "branch": "industrial_colonies:tech_tree",
+  "costs": [
+    {
+      "item": "createdieselgenerators:engine_turbocharger",
+      "count": 4
+    },
+    {
+      "item": "tfmg:turbine_engine",
+      "count": 1
+    },
+    {
+      "item": "tfmg:steel_mechanism",
+      "count": 8
+    }
+  ],
+  "icon": "tfmg:radial_engine",
+  "name": "com.industrial_colonies.research.petroleum_and_engines.cr01_radial_engines.name",
+  "no-reset": true,
+  "researchLevel": 4,
+  "sortOrder": 9758,
+  "subtitle": "com.industrial_colonies.research.petroleum_and_engines.cr01_radial_engines.subtitle",
+  "parentResearch": "industrial_colonies:petroleum_and_engines/cr01_heavy_diesel_engines",
+  "requirements": [
+    {
+      "type": "minecolonies:research",
+      "research": "industrial_colonies:petroleum_and_engines/cr01_heavy_diesel_engines"
+    }
+  ]
+}

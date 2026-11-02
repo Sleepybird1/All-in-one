@@ -1,0 +1,1390 @@
+Compiled from "BlastFurnaceOutputBlockEntity.java"
+public class com.drmangotea.tfmg.content.machinery.metallurgy.blast_furnace.BlastFurnaceOutputBlockEntity extends com.simibubi.create.foundation.blockEntity.SmartBlockEntity implements com.simibubi.create.api.equipment.goggles.IHaveGoggleInformation {
+  public com.simibubi.create.foundation.item.SmartInventory inputInventory;
+
+  public com.simibubi.create.foundation.item.SmartInventory fluxInventory;
+
+  public net.neoforged.neoforge.fluids.capability.templates.FluidTank primaryTank;
+
+  public net.neoforged.neoforge.fluids.capability.templates.FluidTank secondaryTank;
+
+  protected net.neoforged.neoforge.fluids.capability.IFluidHandler fluidCapability;
+
+  public net.neoforged.neoforge.items.IItemHandlerModifiable itemCapability;
+
+  public int fuel;
+
+  public int fuelConsumeTimer;
+
+  public float duration;
+
+  public int timer;
+
+  public net.minecraft.core.BlockPos tuyerePos;
+
+  public com.drmangotea.tfmg.content.machinery.metallurgy.blast_furnace.BlastFurnaceHatchBlockEntity tuyereBE;
+
+  public static final int STORAGE_SPACE;
+
+  public net.createmod.catnip.animation.LerpedFloat coalCokeHeight;
+
+  boolean isReinforced;
+
+  public com.drmangotea.tfmg.content.machinery.metallurgy.blast_furnace.BlastFurnaceOutputBlockEntity(net.minecraft.world.level.block.entity.BlockEntityType<?>, net.minecraft.core.BlockPos, net.minecraft.world.level.block.state.BlockState);
+    Code:
+       0: aload_0
+       1: aload_1
+       2: aload_2
+       3: aload_3
+       4: invokespecial #1                  // Method com/simibubi/create/foundation/blockEntity/SmartBlockEntity."<init>":(Lnet/minecraft/world/level/block/entity/BlockEntityType;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)V
+       7: aload_0
+       8: iconst_0
+       9: putfield      #7                  // Field fuel:I
+      12: aload_0
+      13: iconst_0
+      14: putfield      #13                 // Field fuelConsumeTimer:I
+      17: aload_0
+      18: iconst_m1
+      19: putfield      #16                 // Field timer:I
+      22: aload_0
+      23: aconst_null
+      24: putfield      #19                 // Field tuyereBE:Lcom/drmangotea/tfmg/content/machinery/metallurgy/blast_furnace/BlastFurnaceHatchBlockEntity;
+      27: aload_0
+      28: invokestatic  #23                 // Method net/createmod/catnip/animation/LerpedFloat.linear:()Lnet/createmod/catnip/animation/LerpedFloat;
+      31: putfield      #29                 // Field coalCokeHeight:Lnet/createmod/catnip/animation/LerpedFloat;
+      34: aload_0
+      35: iconst_0
+      36: putfield      #33                 // Field isReinforced:Z
+      39: aload_0
+      40: bipush        10
+      42: invokevirtual #37                 // Method setLazyTickRate:(I)V
+      45: aload_0
+      46: new           #41                 // class com/simibubi/create/foundation/item/SmartInventory
+      49: dup
+      50: iconst_1
+      51: aload_0
+      52: invokespecial #43                 // Method com/simibubi/create/foundation/item/SmartInventory."<init>":(ILcom/simibubi/create/foundation/blockEntity/SyncedBlockEntity;)V
+      55: invokevirtual #46                 // Method com/simibubi/create/foundation/item/SmartInventory.forbidInsertion:()Lcom/simibubi/create/foundation/item/SmartInventory;
+      58: invokevirtual #50                 // Method com/simibubi/create/foundation/item/SmartInventory.forbidExtraction:()Lcom/simibubi/create/foundation/item/SmartInventory;
+      61: bipush        64
+      63: invokevirtual #53                 // Method com/simibubi/create/foundation/item/SmartInventory.withMaxStackSize:(I)Lcom/simibubi/create/foundation/item/SmartInventory;
+      66: putfield      #57                 // Field inputInventory:Lcom/simibubi/create/foundation/item/SmartInventory;
+      69: aload_0
+      70: new           #41                 // class com/simibubi/create/foundation/item/SmartInventory
+      73: dup
+      74: iconst_1
+      75: aload_0
+      76: invokespecial #43                 // Method com/simibubi/create/foundation/item/SmartInventory."<init>":(ILcom/simibubi/create/foundation/blockEntity/SyncedBlockEntity;)V
+      79: invokevirtual #46                 // Method com/simibubi/create/foundation/item/SmartInventory.forbidInsertion:()Lcom/simibubi/create/foundation/item/SmartInventory;
+      82: invokevirtual #50                 // Method com/simibubi/create/foundation/item/SmartInventory.forbidExtraction:()Lcom/simibubi/create/foundation/item/SmartInventory;
+      85: bipush        64
+      87: invokevirtual #53                 // Method com/simibubi/create/foundation/item/SmartInventory.withMaxStackSize:(I)Lcom/simibubi/create/foundation/item/SmartInventory;
+      90: aload_0
+      91: invokedynamic #61,  0             // InvokeDynamic #0:accept:(Lcom/drmangotea/tfmg/content/machinery/metallurgy/blast_furnace/BlastFurnaceOutputBlockEntity;)Ljava/util/function/Consumer;
+      96: invokevirtual #65                 // Method com/simibubi/create/foundation/item/SmartInventory.whenContentsChanged:(Ljava/util/function/Consumer;)Lcom/simibubi/create/foundation/item/SmartInventory;
+      99: putfield      #69                 // Field fluxInventory:Lcom/simibubi/create/foundation/item/SmartInventory;
+     102: aload_0
+     103: new           #72                 // class com/simibubi/create/foundation/fluid/SmartFluidTank
+     106: dup
+     107: sipush        4000
+     110: aload_0
+     111: invokedynamic #74,  0             // InvokeDynamic #1:accept:(Lcom/drmangotea/tfmg/content/machinery/metallurgy/blast_furnace/BlastFurnaceOutputBlockEntity;)Ljava/util/function/Consumer;
+     116: invokespecial #75                 // Method com/simibubi/create/foundation/fluid/SmartFluidTank."<init>":(ILjava/util/function/Consumer;)V
+     119: putfield      #78                 // Field primaryTank:Lnet/neoforged/neoforge/fluids/capability/templates/FluidTank;
+     122: aload_0
+     123: new           #72                 // class com/simibubi/create/foundation/fluid/SmartFluidTank
+     126: dup
+     127: sipush        4000
+     130: aload_0
+     131: invokedynamic #74,  0             // InvokeDynamic #1:accept:(Lcom/drmangotea/tfmg/content/machinery/metallurgy/blast_furnace/BlastFurnaceOutputBlockEntity;)Ljava/util/function/Consumer;
+     136: invokespecial #75                 // Method com/simibubi/create/foundation/fluid/SmartFluidTank."<init>":(ILjava/util/function/Consumer;)V
+     139: putfield      #82                 // Field secondaryTank:Lnet/neoforged/neoforge/fluids/capability/templates/FluidTank;
+     142: aload_0
+     143: new           #85                 // class net/neoforged/neoforge/items/wrapper/CombinedInvWrapper
+     146: dup
+     147: iconst_2
+     148: anewarray     #87                 // class net/neoforged/neoforge/items/IItemHandlerModifiable
+     151: dup
+     152: iconst_0
+     153: aload_0
+     154: getfield      #57                 // Field inputInventory:Lcom/simibubi/create/foundation/item/SmartInventory;
+     157: aastore
+     158: dup
+     159: iconst_1
+     160: aload_0
+     161: getfield      #69                 // Field fluxInventory:Lcom/simibubi/create/foundation/item/SmartInventory;
+     164: aastore
+     165: invokespecial #89                 // Method net/neoforged/neoforge/items/wrapper/CombinedInvWrapper."<init>":([Lnet/neoforged/neoforge/items/IItemHandlerModifiable;)V
+     168: putfield      #92                 // Field itemCapability:Lnet/neoforged/neoforge/items/IItemHandlerModifiable;
+     171: aload_0
+     172: new           #96                 // class com/simibubi/create/foundation/fluid/CombinedTankWrapper
+     175: dup
+     176: iconst_2
+     177: anewarray     #98                 // class net/neoforged/neoforge/fluids/capability/IFluidHandler
+     180: dup
+     181: iconst_0
+     182: aload_0
+     183: getfield      #78                 // Field primaryTank:Lnet/neoforged/neoforge/fluids/capability/templates/FluidTank;
+     186: aastore
+     187: dup
+     188: iconst_1
+     189: aload_0
+     190: getfield      #82                 // Field secondaryTank:Lnet/neoforged/neoforge/fluids/capability/templates/FluidTank;
+     193: aastore
+     194: invokespecial #100                // Method com/simibubi/create/foundation/fluid/CombinedTankWrapper."<init>":([Lnet/neoforged/neoforge/fluids/capability/IFluidHandler;)V
+     197: putfield      #103                // Field fluidCapability:Lnet/neoforged/neoforge/fluids/capability/IFluidHandler;
+     200: return
+
+  public static void registerCapabilities(net.neoforged.neoforge.capabilities.RegisterCapabilitiesEvent);
+    Code:
+       0: aload_0
+       1: getstatic     #107                // Field net/neoforged/neoforge/capabilities/Capabilities$FluidHandler.BLOCK:Lnet/neoforged/neoforge/capabilities/BlockCapability;
+       4: getstatic     #113                // Field com/drmangotea/tfmg/registry/TFMGBlockEntities.BLAST_FURNACE_OUTPUT:Lcom/tterrag/registrate/util/entry/BlockEntityEntry;
+       7: invokevirtual #119                // Method com/tterrag/registrate/util/entry/BlockEntityEntry.get:()Ljava/lang/Object;
+      10: checkcast     #125                // class net/minecraft/world/level/block/entity/BlockEntityType
+      13: invokedynamic #127,  0            // InvokeDynamic #2:getCapability:()Lnet/neoforged/neoforge/capabilities/ICapabilityProvider;
+      18: invokevirtual #131                // Method net/neoforged/neoforge/capabilities/RegisterCapabilitiesEvent.registerBlockEntity:(Lnet/neoforged/neoforge/capabilities/BlockCapability;Lnet/minecraft/world/level/block/entity/BlockEntityType;Lnet/neoforged/neoforge/capabilities/ICapabilityProvider;)V
+      21: aload_0
+      22: getstatic     #137                // Field net/neoforged/neoforge/capabilities/Capabilities$ItemHandler.BLOCK:Lnet/neoforged/neoforge/capabilities/BlockCapability;
+      25: getstatic     #113                // Field com/drmangotea/tfmg/registry/TFMGBlockEntities.BLAST_FURNACE_OUTPUT:Lcom/tterrag/registrate/util/entry/BlockEntityEntry;
+      28: invokevirtual #119                // Method com/tterrag/registrate/util/entry/BlockEntityEntry.get:()Ljava/lang/Object;
+      31: checkcast     #125                // class net/minecraft/world/level/block/entity/BlockEntityType
+      34: invokedynamic #140,  0            // InvokeDynamic #3:getCapability:()Lnet/neoforged/neoforge/capabilities/ICapabilityProvider;
+      39: invokevirtual #131                // Method net/neoforged/neoforge/capabilities/RegisterCapabilitiesEvent.registerBlockEntity:(Lnet/neoforged/neoforge/capabilities/BlockCapability;Lnet/minecraft/world/level/block/entity/BlockEntityType;Lnet/neoforged/neoforge/capabilities/ICapabilityProvider;)V
+      42: return
+
+  public void addBehaviours(java.util.List<com.simibubi.create.foundation.blockEntity.behaviour.BlockEntityBehaviour>);
+    Code:
+       0: return
+
+  private void onFluidChanged(net.neoforged.neoforge.fluids.FluidStack);
+    Code:
+       0: aload_0
+       1: invokevirtual #141                // Method hasLevel:()Z
+       4: ifne          8
+       7: return
+       8: aload_0
+       9: getfield      #145                // Field level:Lnet/minecraft/world/level/Level;
+      12: getfield      #149                // Field net/minecraft/world/level/Level.isClientSide:Z
+      15: ifne          26
+      18: aload_0
+      19: invokevirtual #154                // Method setChanged:()V
+      22: aload_0
+      23: invokevirtual #158                // Method sendData:()V
+      26: return
+
+  public void onContentsChanged();
+    Code:
+       0: aload_0
+       1: getfield      #57                 // Field inputInventory:Lcom/simibubi/create/foundation/item/SmartInventory;
+       4: invokevirtual #161                // Method com/simibubi/create/foundation/item/SmartInventory.isEmpty:()Z
+       7: ifne          22
+      10: aload_0
+      11: getfield      #16                 // Field timer:I
+      14: iconst_m1
+      15: if_icmpne     22
+      18: aload_0
+      19: invokevirtual #164                // Method executeRecipe:()V
+      22: return
+
+  public boolean addToGoggleTooltip(java.util.List<net.minecraft.network.chat.Component>, boolean);
+    Code:
+       0: aload_0
+       1: getfield      #57                 // Field inputInventory:Lcom/simibubi/create/foundation/item/SmartInventory;
+       4: iconst_0
+       5: invokevirtual #167                // Method com/simibubi/create/foundation/item/SmartInventory.getStackInSlot:(I)Lnet/minecraft/world/item/ItemStack;
+       8: invokevirtual #171                // Method net/minecraft/world/item/ItemStack.getCount:()I
+      11: invokestatic  #177                // Method com/drmangotea/tfmg/base/lang/TFMGTexts$BlastFurnace.stats:(I)Lnet/createmod/catnip/lang/LangBuilder;
+      14: aload_1
+      15: iconst_1
+      16: invokevirtual #183                // Method net/createmod/catnip/lang/LangBuilder.forGoggles:(Ljava/util/List;I)V
+      19: aload_0
+      20: invokevirtual #189                // Method getSize:()I
+      23: invokestatic  #192                // Method com/drmangotea/tfmg/base/lang/TFMGTexts$BlastFurnace.height:(I)Lnet/createmod/catnip/lang/LangBuilder;
+      26: aload_1
+      27: iconst_1
+      28: invokevirtual #183                // Method net/createmod/catnip/lang/LangBuilder.forGoggles:(Ljava/util/List;I)V
+      31: aload_0
+      32: getfield      #7                  // Field fuel:I
+      35: invokestatic  #195                // Method com/drmangotea/tfmg/base/lang/TFMGTexts$BlastFurnace.fuelAmount:(I)Lnet/createmod/catnip/lang/LangBuilder;
+      38: aload_1
+      39: iconst_1
+      40: invokevirtual #183                // Method net/createmod/catnip/lang/LangBuilder.forGoggles:(Ljava/util/List;I)V
+      43: aload_0
+      44: getfield      #16                 // Field timer:I
+      47: iconst_m1
+      48: if_icmpeq     63
+      51: aload_0
+      52: getfield      #16                 // Field timer:I
+      55: invokestatic  #198                // Method com/drmangotea/tfmg/base/lang/TFMGTexts$BlastFurnace.timer:(I)Lnet/createmod/catnip/lang/LangBuilder;
+      58: aload_1
+      59: iconst_1
+      60: invokevirtual #183                // Method net/createmod/catnip/lang/LangBuilder.forGoggles:(Ljava/util/List;I)V
+      63: aload_0
+      64: getfield      #33                 // Field isReinforced:Z
+      67: ifeq          77
+      70: invokestatic  #200                // Method com/drmangotea/tfmg/base/lang/TFMGTexts$BlastFurnace.reinforced:()Lnet/createmod/catnip/lang/LangBuilder;
+      73: aload_1
+      74: invokevirtual #204                // Method net/createmod/catnip/lang/LangBuilder.forGoggles:(Ljava/util/List;)V
+      77: aload_0
+      78: aload_1
+      79: invokestatic  #207                // Method com/drmangotea/tfmg/base/TFMGUtils.createFluidTooltip:(Lnet/minecraft/world/level/block/entity/BlockEntity;Ljava/util/List;)Z
+      82: pop
+      83: aload_0
+      84: aload_1
+      85: invokestatic  #213                // Method com/drmangotea/tfmg/base/TFMGUtils.createItemTooltip:(Lnet/minecraft/world/level/block/entity/BlockEntity;Ljava/util/List;)Z
+      88: pop
+      89: iconst_1
+      90: ireturn
+
+  public void executeRecipe();
+    Code:
+       0: new           #216                // class net/neoforged/neoforge/items/wrapper/RecipeWrapper
+       3: dup
+       4: aload_0
+       5: getfield      #57                 // Field inputInventory:Lcom/simibubi/create/foundation/item/SmartInventory;
+       8: invokespecial #218                // Method net/neoforged/neoforge/items/wrapper/RecipeWrapper."<init>":(Lnet/neoforged/neoforge/items/IItemHandler;)V
+      11: astore_1
+      12: getstatic     #221                // Field com/drmangotea/tfmg/registry/TFMGRecipeTypes.INDUSTRIAL_BLASTING:Lcom/drmangotea/tfmg/registry/TFMGRecipeTypes;
+      15: aload_1
+      16: aload_0
+      17: getfield      #145                // Field level:Lnet/minecraft/world/level/Level;
+      20: invokevirtual #227                // Method com/drmangotea/tfmg/registry/TFMGRecipeTypes.find:(Lnet/minecraft/world/item/crafting/RecipeInput;Lnet/minecraft/world/level/Level;)Ljava/util/Optional;
+      23: astore_2
+      24: aload_2
+      25: invokevirtual #231                // Method java/util/Optional.isEmpty:()Z
+      28: ifeq          32
+      31: return
+      32: aload_2
+      33: invokevirtual #234                // Method java/util/Optional.get:()Ljava/lang/Object;
+      36: checkcast     #235                // class net/minecraft/world/item/crafting/RecipeHolder
+      39: invokevirtual #237                // Method net/minecraft/world/item/crafting/RecipeHolder.value:()Lnet/minecraft/world/item/crafting/Recipe;
+      42: checkcast     #241                // class com/drmangotea/tfmg/recipes/IndustrialBlastingRecipe
+      45: astore_3
+      46: aload_3
+      47: invokevirtual #243                // Method com/drmangotea/tfmg/recipes/IndustrialBlastingRecipe.getIngredients:()Lnet/minecraft/core/NonNullList;
+      50: invokevirtual #247                // Method net/minecraft/core/NonNullList.size:()I
+      53: iconst_1
+      54: if_icmple     83
+      57: aload_3
+      58: invokevirtual #243                // Method com/drmangotea/tfmg/recipes/IndustrialBlastingRecipe.getIngredients:()Lnet/minecraft/core/NonNullList;
+      61: iconst_1
+      62: invokevirtual #252                // Method net/minecraft/core/NonNullList.get:(I)Ljava/lang/Object;
+      65: checkcast     #255                // class net/minecraft/world/item/crafting/Ingredient
+      68: aload_0
+      69: getfield      #69                 // Field fluxInventory:Lcom/simibubi/create/foundation/item/SmartInventory;
+      72: iconst_0
+      73: invokevirtual #257                // Method com/simibubi/create/foundation/item/SmartInventory.getItem:(I)Lnet/minecraft/world/item/ItemStack;
+      76: invokevirtual #260                // Method net/minecraft/world/item/crafting/Ingredient.test:(Lnet/minecraft/world/item/ItemStack;)Z
+      79: ifne          83
+      82: return
+      83: aload_0
+      84: getfield      #69                 // Field fluxInventory:Lcom/simibubi/create/foundation/item/SmartInventory;
+      87: iconst_0
+      88: invokevirtual #257                // Method com/simibubi/create/foundation/item/SmartInventory.getItem:(I)Lnet/minecraft/world/item/ItemStack;
+      91: invokevirtual #171                // Method net/minecraft/world/item/ItemStack.getCount:()I
+      94: aload_3
+      95: invokevirtual #243                // Method com/drmangotea/tfmg/recipes/IndustrialBlastingRecipe.getIngredients:()Lnet/minecraft/core/NonNullList;
+      98: invokevirtual #247                // Method net/minecraft/core/NonNullList.size:()I
+     101: iconst_1
+     102: isub
+     103: if_icmpge     107
+     106: return
+     107: aload_3
+     108: invokevirtual #264                // Method com/drmangotea/tfmg/recipes/IndustrialBlastingRecipe.getProcessingDuration:()I
+     111: bipush        20
+     113: imul
+     114: istore        4
+     116: aload_0
+     117: invokevirtual #189                // Method getSize:()I
+     120: istore        5
+     122: invokestatic  #267                // Method com/drmangotea/tfmg/config/TFMGConfigs.common:()Lcom/drmangotea/tfmg/config/TFMGCommonConfig;
+     125: getfield      #273                // Field com/drmangotea/tfmg/config/TFMGCommonConfig.machines:Lcom/drmangotea/tfmg/config/MachineConfig;
+     128: getfield      #279                // Field com/drmangotea/tfmg/config/MachineConfig.blastFurnaceMaxHeight:Lnet/createmod/catnip/config/ConfigBase$ConfigInt;
+     131: invokevirtual #285                // Method net/createmod/catnip/config/ConfigBase$ConfigInt.get:()Ljava/lang/Object;
+     134: checkcast     #288                // class java/lang/Integer
+     137: invokevirtual #290                // Method java/lang/Integer.intValue:()I
+     140: istore        6
+     142: invokestatic  #267                // Method com/drmangotea/tfmg/config/TFMGConfigs.common:()Lcom/drmangotea/tfmg/config/TFMGCommonConfig;
+     145: getfield      #273                // Field com/drmangotea/tfmg/config/TFMGCommonConfig.machines:Lcom/drmangotea/tfmg/config/MachineConfig;
+     148: getfield      #293                // Field com/drmangotea/tfmg/config/MachineConfig.blastFurnaceHeightSpeedModifier:Lnet/createmod/catnip/config/ConfigBase$ConfigFloat;
+     151: invokevirtual #297                // Method net/createmod/catnip/config/ConfigBase$ConfigFloat.get:()Ljava/lang/Object;
+     154: checkcast     #300                // class java/lang/Double
+     157: invokevirtual #302                // Method java/lang/Double.doubleValue:()D
+     160: dstore        7
+     162: iload         6
+     164: i2d
+     165: iload         4
+     167: iconst_2
+     168: idiv
+     169: i2d
+     170: dload         7
+     172: dmul
+     173: ddiv
+     174: dstore        9
+     176: aload_0
+     177: iload         4
+     179: i2d
+     180: iload         5
+     182: i2d
+     183: dload         9
+     185: ddiv
+     186: dsub
+     187: d2i
+     188: putfield      #16                 // Field timer:I
+     191: aload_0
+     192: getfield      #33                 // Field isReinforced:Z
+     195: ifeq          208
+     198: aload_0
+     199: dup
+     200: getfield      #16                 // Field timer:I
+     203: iconst_2
+     204: idiv
+     205: putfield      #16                 // Field timer:I
+     208: return
+
+  public void tick();
+    Code:
+       0: aload_0
+       1: invokespecial #306                // Method com/simibubi/create/foundation/blockEntity/SmartBlockEntity.tick:()V
+       4: aload_0
+       5: getfield      #145                // Field level:Lnet/minecraft/world/level/Level;
+       8: getfield      #149                // Field net/minecraft/world/level/Level.isClientSide:Z
+      11: ifeq          57
+      14: aload_0
+      15: getfield      #29                 // Field coalCokeHeight:Lnet/createmod/catnip/animation/LerpedFloat;
+      18: aload_0
+      19: getfield      #7                  // Field fuel:I
+      22: aload_0
+      23: getfield      #57                 // Field inputInventory:Lcom/simibubi/create/foundation/item/SmartInventory;
+      26: iconst_0
+      27: invokevirtual #167                // Method com/simibubi/create/foundation/item/SmartInventory.getStackInSlot:(I)Lnet/minecraft/world/item/ItemStack;
+      30: invokevirtual #171                // Method net/minecraft/world/item/ItemStack.getCount:()I
+      33: iadd
+      34: bipush        24
+      36: invokestatic  #309                // Method java/lang/Math.min:(II)I
+      39: i2d
+      40: ldc2_w        #315                // double 0.10000000149011612d
+      43: getstatic     #317                // Field net/createmod/catnip/animation/LerpedFloat$Chaser.EXP:Lnet/createmod/catnip/animation/LerpedFloat$Chaser;
+      46: invokevirtual #323                // Method net/createmod/catnip/animation/LerpedFloat.chase:(DDLnet/createmod/catnip/animation/LerpedFloat$Chaser;)Lnet/createmod/catnip/animation/LerpedFloat;
+      49: pop
+      50: aload_0
+      51: getfield      #29                 // Field coalCokeHeight:Lnet/createmod/catnip/animation/LerpedFloat;
+      54: invokevirtual #327                // Method net/createmod/catnip/animation/LerpedFloat.tickChaser:()V
+      57: aload_0
+      58: getfield      #57                 // Field inputInventory:Lcom/simibubi/create/foundation/item/SmartInventory;
+      61: invokevirtual #161                // Method com/simibubi/create/foundation/item/SmartInventory.isEmpty:()Z
+      64: ifeq          68
+      67: return
+      68: aload_0
+      69: invokevirtual #189                // Method getSize:()I
+      72: iconst_3
+      73: if_icmpge     77
+      76: return
+      77: aload_0
+      78: getfield      #13                 // Field fuelConsumeTimer:I
+      81: invokestatic  #267                // Method com/drmangotea/tfmg/config/TFMGConfigs.common:()Lcom/drmangotea/tfmg/config/TFMGCommonConfig;
+      84: getfield      #273                // Field com/drmangotea/tfmg/config/TFMGCommonConfig.machines:Lcom/drmangotea/tfmg/config/MachineConfig;
+      87: getfield      #330                // Field com/drmangotea/tfmg/config/MachineConfig.blastFurnaceFuelConsumption:Lnet/createmod/catnip/config/ConfigBase$ConfigInt;
+      90: invokevirtual #285                // Method net/createmod/catnip/config/ConfigBase$ConfigInt.get:()Ljava/lang/Object;
+      93: checkcast     #288                // class java/lang/Integer
+      96: invokevirtual #290                // Method java/lang/Integer.intValue:()I
+      99: if_icmplt     124
+     102: aload_0
+     103: getfield      #7                  // Field fuel:I
+     106: ifle          124
+     109: aload_0
+     110: iconst_0
+     111: putfield      #13                 // Field fuelConsumeTimer:I
+     114: aload_0
+     115: dup
+     116: getfield      #7                  // Field fuel:I
+     119: iconst_1
+     120: isub
+     121: putfield      #7                  // Field fuel:I
+     124: aload_0
+     125: getfield      #16                 // Field timer:I
+     128: iconst_m1
+     129: if_icmple     670
+     132: new           #216                // class net/neoforged/neoforge/items/wrapper/RecipeWrapper
+     135: dup
+     136: aload_0
+     137: getfield      #57                 // Field inputInventory:Lcom/simibubi/create/foundation/item/SmartInventory;
+     140: invokespecial #218                // Method net/neoforged/neoforge/items/wrapper/RecipeWrapper."<init>":(Lnet/neoforged/neoforge/items/IItemHandler;)V
+     143: astore_1
+     144: getstatic     #221                // Field com/drmangotea/tfmg/registry/TFMGRecipeTypes.INDUSTRIAL_BLASTING:Lcom/drmangotea/tfmg/registry/TFMGRecipeTypes;
+     147: aload_1
+     148: aload_0
+     149: getfield      #145                // Field level:Lnet/minecraft/world/level/Level;
+     152: invokevirtual #227                // Method com/drmangotea/tfmg/registry/TFMGRecipeTypes.find:(Lnet/minecraft/world/item/crafting/RecipeInput;Lnet/minecraft/world/level/Level;)Ljava/util/Optional;
+     155: astore_2
+     156: aload_2
+     157: invokevirtual #231                // Method java/util/Optional.isEmpty:()Z
+     160: ifeq          169
+     163: aload_0
+     164: iconst_m1
+     165: putfield      #16                 // Field timer:I
+     168: return
+     169: aload_2
+     170: invokevirtual #234                // Method java/util/Optional.get:()Ljava/lang/Object;
+     173: checkcast     #235                // class net/minecraft/world/item/crafting/RecipeHolder
+     176: invokevirtual #237                // Method net/minecraft/world/item/crafting/RecipeHolder.value:()Lnet/minecraft/world/item/crafting/Recipe;
+     179: checkcast     #241                // class com/drmangotea/tfmg/recipes/IndustrialBlastingRecipe
+     182: astore_3
+     183: aload_0
+     184: getfield      #16                 // Field timer:I
+     187: ifne          348
+     190: aload_0
+     191: aload_3
+     192: invokevirtual #333                // Method canProcess:(Lcom/drmangotea/tfmg/recipes/IndustrialBlastingRecipe;)Z
+     195: ifeq          348
+     198: iconst_1
+     199: istore        4
+     201: iconst_1
+     202: istore        5
+     204: aload_0
+     205: getfield      #78                 // Field primaryTank:Lnet/neoforged/neoforge/fluids/capability/templates/FluidTank;
+     208: invokevirtual #337                // Method net/neoforged/neoforge/fluids/capability/templates/FluidTank.getSpace:()I
+     211: aload_3
+     212: invokevirtual #342                // Method com/drmangotea/tfmg/recipes/IndustrialBlastingRecipe.getPrimaryResult:()Lnet/neoforged/neoforge/fluids/FluidStack;
+     215: invokevirtual #346                // Method net/neoforged/neoforge/fluids/FluidStack.getAmount:()I
+     218: if_icmpge     222
+     221: return
+     222: aload_3
+     223: invokevirtual #351                // Method com/drmangotea/tfmg/recipes/IndustrialBlastingRecipe.getFluidResults:()Lnet/minecraft/core/NonNullList;
+     226: invokevirtual #247                // Method net/minecraft/core/NonNullList.size:()I
+     229: iconst_1
+     230: if_icmple     251
+     233: aload_0
+     234: getfield      #82                 // Field secondaryTank:Lnet/neoforged/neoforge/fluids/capability/templates/FluidTank;
+     237: invokevirtual #337                // Method net/neoforged/neoforge/fluids/capability/templates/FluidTank.getSpace:()I
+     240: aload_3
+     241: invokevirtual #354                // Method com/drmangotea/tfmg/recipes/IndustrialBlastingRecipe.getSecondaryResult:()Lnet/neoforged/neoforge/fluids/FluidStack;
+     244: invokevirtual #346                // Method net/neoforged/neoforge/fluids/FluidStack.getAmount:()I
+     247: if_icmpge     251
+     250: return
+     251: aload_0
+     252: getfield      #57                 // Field inputInventory:Lcom/simibubi/create/foundation/item/SmartInventory;
+     255: iconst_0
+     256: invokevirtual #257                // Method com/simibubi/create/foundation/item/SmartInventory.getItem:(I)Lnet/minecraft/world/item/ItemStack;
+     259: iconst_1
+     260: invokevirtual #357                // Method net/minecraft/world/item/ItemStack.shrink:(I)V
+     263: aload_3
+     264: invokevirtual #243                // Method com/drmangotea/tfmg/recipes/IndustrialBlastingRecipe.getIngredients:()Lnet/minecraft/core/NonNullList;
+     267: invokevirtual #247                // Method net/minecraft/core/NonNullList.size:()I
+     270: iconst_1
+     271: if_icmple     294
+     274: aload_0
+     275: getfield      #69                 // Field fluxInventory:Lcom/simibubi/create/foundation/item/SmartInventory;
+     278: iconst_0
+     279: invokevirtual #257                // Method com/simibubi/create/foundation/item/SmartInventory.getItem:(I)Lnet/minecraft/world/item/ItemStack;
+     282: aload_3
+     283: invokevirtual #243                // Method com/drmangotea/tfmg/recipes/IndustrialBlastingRecipe.getIngredients:()Lnet/minecraft/core/NonNullList;
+     286: invokevirtual #247                // Method net/minecraft/core/NonNullList.size:()I
+     289: iconst_1
+     290: isub
+     291: invokevirtual #357                // Method net/minecraft/world/item/ItemStack.shrink:(I)V
+     294: aload_0
+     295: getfield      #78                 // Field primaryTank:Lnet/neoforged/neoforge/fluids/capability/templates/FluidTank;
+     298: aload_3
+     299: invokevirtual #342                // Method com/drmangotea/tfmg/recipes/IndustrialBlastingRecipe.getPrimaryResult:()Lnet/neoforged/neoforge/fluids/FluidStack;
+     302: getstatic     #360                // Field net/neoforged/neoforge/fluids/capability/IFluidHandler$FluidAction.EXECUTE:Lnet/neoforged/neoforge/fluids/capability/IFluidHandler$FluidAction;
+     305: invokevirtual #366                // Method net/neoforged/neoforge/fluids/capability/templates/FluidTank.fill:(Lnet/neoforged/neoforge/fluids/FluidStack;Lnet/neoforged/neoforge/fluids/capability/IFluidHandler$FluidAction;)I
+     308: pop
+     309: aload_3
+     310: invokevirtual #351                // Method com/drmangotea/tfmg/recipes/IndustrialBlastingRecipe.getFluidResults:()Lnet/minecraft/core/NonNullList;
+     313: invokevirtual #247                // Method net/minecraft/core/NonNullList.size:()I
+     316: iconst_1
+     317: if_icmple     335
+     320: aload_0
+     321: getfield      #82                 // Field secondaryTank:Lnet/neoforged/neoforge/fluids/capability/templates/FluidTank;
+     324: aload_3
+     325: invokevirtual #354                // Method com/drmangotea/tfmg/recipes/IndustrialBlastingRecipe.getSecondaryResult:()Lnet/neoforged/neoforge/fluids/FluidStack;
+     328: getstatic     #360                // Field net/neoforged/neoforge/fluids/capability/IFluidHandler$FluidAction.EXECUTE:Lnet/neoforged/neoforge/fluids/capability/IFluidHandler$FluidAction;
+     331: invokevirtual #366                // Method net/neoforged/neoforge/fluids/capability/templates/FluidTank.fill:(Lnet/neoforged/neoforge/fluids/FluidStack;Lnet/neoforged/neoforge/fluids/capability/IFluidHandler$FluidAction;)I
+     334: pop
+     335: aload_0
+     336: iconst_m1
+     337: putfield      #16                 // Field timer:I
+     340: aload_0
+     341: invokevirtual #158                // Method sendData:()V
+     344: aload_0
+     345: invokevirtual #154                // Method setChanged:()V
+     348: aload_0
+     349: getfield      #16                 // Field timer:I
+     352: ifle          670
+     355: aload_0
+     356: getfield      #7                  // Field fuel:I
+     359: ifle          670
+     362: aload_3
+     363: getfield      #370                // Field com/drmangotea/tfmg/recipes/IndustrialBlastingRecipe.hotAirUsage:I
+     366: ifle          408
+     369: aload_0
+     370: getfield      #373                // Field tuyerePos:Lnet/minecraft/core/BlockPos;
+     373: ifnull        402
+     376: aload_0
+     377: getfield      #145                // Field level:Lnet/minecraft/world/level/Level;
+     380: aload_0
+     381: getfield      #373                // Field tuyerePos:Lnet/minecraft/core/BlockPos;
+     384: invokevirtual #377                // Method net/minecraft/world/level/Level.getBlockState:(Lnet/minecraft/core/BlockPos;)Lnet/minecraft/world/level/block/state/BlockState;
+     387: getstatic     #381                // Field com/drmangotea/tfmg/registry/TFMGBlocks.BLAST_FURNACE_HATCH:Lcom/tterrag/registrate/util/entry/BlockEntry;
+     390: invokevirtual #387                // Method com/tterrag/registrate/util/entry/BlockEntry.get:()Ljava/lang/Object;
+     393: checkcast     #390                // class net/minecraft/world/level/block/Block
+     396: invokevirtual #392                // Method net/minecraft/world/level/block/state/BlockState.is:(Lnet/minecraft/world/level/block/Block;)Z
+     399: ifne          408
+     402: aload_0
+     403: aconst_null
+     404: putfield      #19                 // Field tuyereBE:Lcom/drmangotea/tfmg/content/machinery/metallurgy/blast_furnace/BlastFurnaceHatchBlockEntity;
+     407: return
+     408: aload_0
+     409: getfield      #19                 // Field tuyereBE:Lcom/drmangotea/tfmg/content/machinery/metallurgy/blast_furnace/BlastFurnaceHatchBlockEntity;
+     412: ifnonnull     440
+     415: aload_0
+     416: getfield      #373                // Field tuyerePos:Lnet/minecraft/core/BlockPos;
+     419: ifnull        440
+     422: aload_0
+     423: aload_0
+     424: getfield      #145                // Field level:Lnet/minecraft/world/level/Level;
+     427: aload_0
+     428: getfield      #373                // Field tuyerePos:Lnet/minecraft/core/BlockPos;
+     431: invokevirtual #398                // Method net/minecraft/world/level/Level.getBlockEntity:(Lnet/minecraft/core/BlockPos;)Lnet/minecraft/world/level/block/entity/BlockEntity;
+     434: checkcast     #402                // class com/drmangotea/tfmg/content/machinery/metallurgy/blast_furnace/BlastFurnaceHatchBlockEntity
+     437: putfield      #19                 // Field tuyereBE:Lcom/drmangotea/tfmg/content/machinery/metallurgy/blast_furnace/BlastFurnaceHatchBlockEntity;
+     440: aload_0
+     441: getfield      #19                 // Field tuyereBE:Lcom/drmangotea/tfmg/content/machinery/metallurgy/blast_furnace/BlastFurnaceHatchBlockEntity;
+     444: ifnull        490
+     447: aload_0
+     448: getfield      #19                 // Field tuyereBE:Lcom/drmangotea/tfmg/content/machinery/metallurgy/blast_furnace/BlastFurnaceHatchBlockEntity;
+     451: getfield      #404                // Field com/drmangotea/tfmg/content/machinery/metallurgy/blast_furnace/BlastFurnaceHatchBlockEntity.tank:Lnet/neoforged/neoforge/fluids/capability/templates/FluidTank;
+     454: invokevirtual #407                // Method net/neoforged/neoforge/fluids/capability/templates/FluidTank.getFluidAmount:()I
+     457: aload_3
+     458: getfield      #370                // Field com/drmangotea/tfmg/recipes/IndustrialBlastingRecipe.hotAirUsage:I
+     461: if_icmplt     489
+     464: aload_0
+     465: getfield      #19                 // Field tuyereBE:Lcom/drmangotea/tfmg/content/machinery/metallurgy/blast_furnace/BlastFurnaceHatchBlockEntity;
+     468: getfield      #404                // Field com/drmangotea/tfmg/content/machinery/metallurgy/blast_furnace/BlastFurnaceHatchBlockEntity.tank:Lnet/neoforged/neoforge/fluids/capability/templates/FluidTank;
+     471: invokevirtual #410                // Method net/neoforged/neoforge/fluids/capability/templates/FluidTank.getFluid:()Lnet/neoforged/neoforge/fluids/FluidStack;
+     474: invokevirtual #413                // Method net/neoforged/neoforge/fluids/FluidStack.getFluid:()Lnet/minecraft/world/level/material/Fluid;
+     477: getstatic     #416                // Field com/drmangotea/tfmg/registry/TFMGFluids.HOT_AIR:Lcom/tterrag/registrate/util/entry/FluidEntry;
+     480: invokevirtual #422                // Method com/tterrag/registrate/util/entry/FluidEntry.getSource:()Lnet/neoforged/neoforge/fluids/BaseFlowingFluid;
+     483: invokevirtual #428                // Method net/minecraft/world/level/material/Fluid.isSame:(Lnet/minecraft/world/level/material/Fluid;)Z
+     486: ifne          490
+     489: return
+     490: aload_0
+     491: getfield      #19                 // Field tuyereBE:Lcom/drmangotea/tfmg/content/machinery/metallurgy/blast_furnace/BlastFurnaceHatchBlockEntity;
+     494: ifnull        534
+     497: aload_0
+     498: getfield      #19                 // Field tuyereBE:Lcom/drmangotea/tfmg/content/machinery/metallurgy/blast_furnace/BlastFurnaceHatchBlockEntity;
+     501: getfield      #404                // Field com/drmangotea/tfmg/content/machinery/metallurgy/blast_furnace/BlastFurnaceHatchBlockEntity.tank:Lnet/neoforged/neoforge/fluids/capability/templates/FluidTank;
+     504: iconst_0
+     505: invokevirtual #434                // Method net/neoforged/neoforge/fluids/capability/templates/FluidTank.getFluidInTank:(I)Lnet/neoforged/neoforge/fluids/FluidStack;
+     508: aload_0
+     509: getfield      #19                 // Field tuyereBE:Lcom/drmangotea/tfmg/content/machinery/metallurgy/blast_furnace/BlastFurnaceHatchBlockEntity;
+     512: getfield      #404                // Field com/drmangotea/tfmg/content/machinery/metallurgy/blast_furnace/BlastFurnaceHatchBlockEntity.tank:Lnet/neoforged/neoforge/fluids/capability/templates/FluidTank;
+     515: iconst_0
+     516: invokevirtual #434                // Method net/neoforged/neoforge/fluids/capability/templates/FluidTank.getFluidInTank:(I)Lnet/neoforged/neoforge/fluids/FluidStack;
+     519: invokevirtual #346                // Method net/neoforged/neoforge/fluids/FluidStack.getAmount:()I
+     522: aload_3
+     523: getfield      #370                // Field com/drmangotea/tfmg/recipes/IndustrialBlastingRecipe.hotAirUsage:I
+     526: isub
+     527: iconst_0
+     528: invokestatic  #438                // Method java/lang/Math.max:(II)I
+     531: invokevirtual #441                // Method net/neoforged/neoforge/fluids/FluidStack.setAmount:(I)V
+     534: aload_3
+     535: invokevirtual #444                // Method com/drmangotea/tfmg/recipes/IndustrialBlastingRecipe.getGasByproduct:()Lnet/neoforged/neoforge/fluids/FluidStack;
+     538: invokevirtual #447                // Method net/neoforged/neoforge/fluids/FluidStack.isEmpty:()Z
+     541: ifne          614
+     544: aload_0
+     545: getfield      #145                // Field level:Lnet/minecraft/world/level/Level;
+     548: aload_0
+     549: invokevirtual #448                // Method getBlockPos:()Lnet/minecraft/core/BlockPos;
+     552: aload_0
+     553: invokevirtual #452                // Method getBlockState:()Lnet/minecraft/world/level/block/state/BlockState;
+     556: getstatic     #455                // Field net/minecraft/world/level/block/HorizontalDirectionalBlock.FACING:Lnet/minecraft/world/level/block/state/properties/DirectionProperty;
+     559: invokevirtual #461                // Method net/minecraft/world/level/block/state/BlockState.getValue:(Lnet/minecraft/world/level/block/state/properties/Property;)Ljava/lang/Comparable;
+     562: checkcast     #465                // class net/minecraft/core/Direction
+     565: invokevirtual #467                // Method net/minecraft/core/Direction.getOpposite:()Lnet/minecraft/core/Direction;
+     568: invokevirtual #471                // Method net/minecraft/core/BlockPos.relative:(Lnet/minecraft/core/Direction;)Lnet/minecraft/core/BlockPos;
+     571: aload_0
+     572: invokevirtual #189                // Method getSize:()I
+     575: invokevirtual #477                // Method net/minecraft/core/BlockPos.above:(I)Lnet/minecraft/core/BlockPos;
+     578: invokevirtual #398                // Method net/minecraft/world/level/Level.getBlockEntity:(Lnet/minecraft/core/BlockPos;)Lnet/minecraft/world/level/block/entity/BlockEntity;
+     581: astore        5
+     583: aload         5
+     585: instanceof    #402                // class com/drmangotea/tfmg/content/machinery/metallurgy/blast_furnace/BlastFurnaceHatchBlockEntity
+     588: ifeq          614
+     591: aload         5
+     593: checkcast     #402                // class com/drmangotea/tfmg/content/machinery/metallurgy/blast_furnace/BlastFurnaceHatchBlockEntity
+     596: astore        4
+     598: aload         4
+     600: getfield      #404                // Field com/drmangotea/tfmg/content/machinery/metallurgy/blast_furnace/BlastFurnaceHatchBlockEntity.tank:Lnet/neoforged/neoforge/fluids/capability/templates/FluidTank;
+     603: aload_3
+     604: invokevirtual #444                // Method com/drmangotea/tfmg/recipes/IndustrialBlastingRecipe.getGasByproduct:()Lnet/neoforged/neoforge/fluids/FluidStack;
+     607: getstatic     #360                // Field net/neoforged/neoforge/fluids/capability/IFluidHandler$FluidAction.EXECUTE:Lnet/neoforged/neoforge/fluids/capability/IFluidHandler$FluidAction;
+     610: invokevirtual #366                // Method net/neoforged/neoforge/fluids/capability/templates/FluidTank.fill:(Lnet/neoforged/neoforge/fluids/FluidStack;Lnet/neoforged/neoforge/fluids/capability/IFluidHandler$FluidAction;)I
+     613: pop
+     614: aload_0
+     615: getfield      #145                // Field level:Lnet/minecraft/world/level/Level;
+     618: invokevirtual #481                // Method net/minecraft/world/level/Level.isClientSide:()Z
+     621: ifeq          628
+     624: aload_0
+     625: invokevirtual #483                // Method makeParticles:()V
+     628: aload_0
+     629: invokevirtual #486                // Method hurtEntities:()V
+     632: aload_0
+     633: dup
+     634: getfield      #16                 // Field timer:I
+     637: iconst_1
+     638: isub
+     639: putfield      #16                 // Field timer:I
+     642: aload_0
+     643: dup
+     644: getfield      #13                 // Field fuelConsumeTimer:I
+     647: iconst_1
+     648: iadd
+     649: putfield      #13                 // Field fuelConsumeTimer:I
+     652: aload_0
+     653: getfield      #145                // Field level:Lnet/minecraft/world/level/Level;
+     656: getfield      #149                // Field net/minecraft/world/level/Level.isClientSide:Z
+     659: ifne          670
+     662: aload_0
+     663: invokevirtual #154                // Method setChanged:()V
+     666: aload_0
+     667: invokevirtual #158                // Method sendData:()V
+     670: return
+
+  public void makeParticles();
+    Code:
+       0: getstatic     #489                // Field com/simibubi/create/Create.RANDOM:Ljava/util/Random;
+       3: astore_1
+       4: aload_0
+       5: invokevirtual #452                // Method getBlockState:()Lnet/minecraft/world/level/block/state/BlockState;
+       8: getstatic     #455                // Field net/minecraft/world/level/block/HorizontalDirectionalBlock.FACING:Lnet/minecraft/world/level/block/state/properties/DirectionProperty;
+      11: invokevirtual #461                // Method net/minecraft/world/level/block/state/BlockState.getValue:(Lnet/minecraft/world/level/block/state/properties/Property;)Ljava/lang/Comparable;
+      14: checkcast     #465                // class net/minecraft/core/Direction
+      17: invokevirtual #467                // Method net/minecraft/core/Direction.getOpposite:()Lnet/minecraft/core/Direction;
+      20: astore_2
+      21: aload_0
+      22: invokevirtual #448                // Method getBlockPos:()Lnet/minecraft/core/BlockPos;
+      25: invokevirtual #495                // Method net/minecraft/core/BlockPos.above:()Lnet/minecraft/core/BlockPos;
+      28: aload_2
+      29: invokevirtual #471                // Method net/minecraft/core/BlockPos.relative:(Lnet/minecraft/core/Direction;)Lnet/minecraft/core/BlockPos;
+      32: astore_3
+      33: aload_1
+      34: bipush        7
+      36: invokevirtual #497                // Method java/util/Random.nextInt:(I)I
+      39: istore        4
+      41: iload         4
+      43: ifne          104
+      46: aload_0
+      47: getfield      #145                // Field level:Lnet/minecraft/world/level/Level;
+      50: getstatic     #503                // Field net/minecraft/core/particles/ParticleTypes.CAMPFIRE_SIGNAL_SMOKE:Lnet/minecraft/core/particles/SimpleParticleType;
+      53: aload_3
+      54: invokevirtual #509                // Method net/minecraft/core/BlockPos.getX:()I
+      57: i2f
+      58: aload_1
+      59: ldc_w         #512                // float 0.6f
+      62: invokevirtual #513                // Method java/util/Random.nextFloat:(F)F
+      65: fadd
+      66: f2d
+      67: ldc2_w        #517                // double 0.2d
+      70: dadd
+      71: aload_3
+      72: invokevirtual #519                // Method net/minecraft/core/BlockPos.getY:()I
+      75: iconst_1
+      76: iadd
+      77: i2d
+      78: aload_3
+      79: invokevirtual #522                // Method net/minecraft/core/BlockPos.getZ:()I
+      82: i2f
+      83: aload_1
+      84: ldc_w         #512                // float 0.6f
+      87: invokevirtual #513                // Method java/util/Random.nextFloat:(F)F
+      90: fadd
+      91: f2d
+      92: ldc2_w        #517                // double 0.2d
+      95: dadd
+      96: dconst_0
+      97: ldc2_w        #525                // double 0.08d
+     100: dconst_0
+     101: invokevirtual #527                // Method net/minecraft/world/level/Level.addParticle:(Lnet/minecraft/core/particles/ParticleOptions;DDDDDD)V
+     104: return
+
+  private boolean canProcess(com.drmangotea.tfmg.recipes.IndustrialBlastingRecipe);
+    Code:
+       0: aload_0
+       1: getfield      #7                  // Field fuel:I
+       4: ifne          9
+       7: iconst_0
+       8: ireturn
+       9: aload_0
+      10: getfield      #78                 // Field primaryTank:Lnet/neoforged/neoforge/fluids/capability/templates/FluidTank;
+      13: invokevirtual #410                // Method net/neoforged/neoforge/fluids/capability/templates/FluidTank.getFluid:()Lnet/neoforged/neoforge/fluids/FluidStack;
+      16: invokevirtual #447                // Method net/neoforged/neoforge/fluids/FluidStack.isEmpty:()Z
+      19: ifne          47
+      22: aload_0
+      23: getfield      #78                 // Field primaryTank:Lnet/neoforged/neoforge/fluids/capability/templates/FluidTank;
+      26: invokevirtual #410                // Method net/neoforged/neoforge/fluids/capability/templates/FluidTank.getFluid:()Lnet/neoforged/neoforge/fluids/FluidStack;
+      29: invokevirtual #413                // Method net/neoforged/neoforge/fluids/FluidStack.getFluid:()Lnet/minecraft/world/level/material/Fluid;
+      32: aload_1
+      33: invokevirtual #342                // Method com/drmangotea/tfmg/recipes/IndustrialBlastingRecipe.getPrimaryResult:()Lnet/neoforged/neoforge/fluids/FluidStack;
+      36: invokevirtual #413                // Method net/neoforged/neoforge/fluids/FluidStack.getFluid:()Lnet/minecraft/world/level/material/Fluid;
+      39: invokevirtual #428                // Method net/minecraft/world/level/material/Fluid.isSame:(Lnet/minecraft/world/level/material/Fluid;)Z
+      42: ifne          47
+      45: iconst_0
+      46: ireturn
+      47: aload_0
+      48: getfield      #82                 // Field secondaryTank:Lnet/neoforged/neoforge/fluids/capability/templates/FluidTank;
+      51: invokevirtual #410                // Method net/neoforged/neoforge/fluids/capability/templates/FluidTank.getFluid:()Lnet/neoforged/neoforge/fluids/FluidStack;
+      54: invokevirtual #447                // Method net/neoforged/neoforge/fluids/FluidStack.isEmpty:()Z
+      57: ifne          85
+      60: aload_0
+      61: getfield      #82                 // Field secondaryTank:Lnet/neoforged/neoforge/fluids/capability/templates/FluidTank;
+      64: invokevirtual #410                // Method net/neoforged/neoforge/fluids/capability/templates/FluidTank.getFluid:()Lnet/neoforged/neoforge/fluids/FluidStack;
+      67: invokevirtual #413                // Method net/neoforged/neoforge/fluids/FluidStack.getFluid:()Lnet/minecraft/world/level/material/Fluid;
+      70: aload_1
+      71: invokevirtual #354                // Method com/drmangotea/tfmg/recipes/IndustrialBlastingRecipe.getSecondaryResult:()Lnet/neoforged/neoforge/fluids/FluidStack;
+      74: invokevirtual #413                // Method net/neoforged/neoforge/fluids/FluidStack.getFluid:()Lnet/minecraft/world/level/material/Fluid;
+      77: invokevirtual #428                // Method net/minecraft/world/level/material/Fluid.isSame:(Lnet/minecraft/world/level/material/Fluid;)Z
+      80: ifne          85
+      83: iconst_0
+      84: ireturn
+      85: iconst_1
+      86: ireturn
+
+  public void lazyTick();
+    Code:
+       0: aload_0
+       1: invokespecial #531                // Method com/simibubi/create/foundation/blockEntity/SmartBlockEntity.lazyTick:()V
+       4: aload_0
+       5: invokevirtual #534                // Method onContentsChanged:()V
+       8: aload_0
+       9: invokevirtual #537                // Method collectItems:()V
+      12: return
+
+  public net.minecraft.world.phys.AABB getRenderBoundingBox();
+    Code:
+       0: new           #540                // class net/minecraft/world/phys/AABB
+       3: dup
+       4: aload_0
+       5: invokevirtual #448                // Method getBlockPos:()Lnet/minecraft/core/BlockPos;
+       8: invokespecial #542                // Method net/minecraft/world/phys/AABB."<init>":(Lnet/minecraft/core/BlockPos;)V
+      11: aload_0
+      12: invokevirtual #448                // Method getBlockPos:()Lnet/minecraft/core/BlockPos;
+      15: invokevirtual #519                // Method net/minecraft/core/BlockPos.getY:()I
+      18: iconst_2
+      19: iadd
+      20: i2d
+      21: invokevirtual #545                // Method net/minecraft/world/phys/AABB.setMaxY:(D)Lnet/minecraft/world/phys/AABB;
+      24: areturn
+
+  public void hurtEntities();
+    Code:
+       0: aload_0
+       1: getfield      #145                // Field level:Lnet/minecraft/world/level/Level;
+       4: ldc_w         #549                // class net/minecraft/world/entity/LivingEntity
+       7: new           #540                // class net/minecraft/world/phys/AABB
+      10: dup
+      11: aload_0
+      12: invokevirtual #448                // Method getBlockPos:()Lnet/minecraft/core/BlockPos;
+      15: aload_0
+      16: invokevirtual #452                // Method getBlockState:()Lnet/minecraft/world/level/block/state/BlockState;
+      19: getstatic     #455                // Field net/minecraft/world/level/block/HorizontalDirectionalBlock.FACING:Lnet/minecraft/world/level/block/state/properties/DirectionProperty;
+      22: invokevirtual #461                // Method net/minecraft/world/level/block/state/BlockState.getValue:(Lnet/minecraft/world/level/block/state/properties/Property;)Ljava/lang/Comparable;
+      25: checkcast     #465                // class net/minecraft/core/Direction
+      28: invokevirtual #467                // Method net/minecraft/core/Direction.getOpposite:()Lnet/minecraft/core/Direction;
+      31: invokevirtual #471                // Method net/minecraft/core/BlockPos.relative:(Lnet/minecraft/core/Direction;)Lnet/minecraft/core/BlockPos;
+      34: invokevirtual #495                // Method net/minecraft/core/BlockPos.above:()Lnet/minecraft/core/BlockPos;
+      37: invokespecial #542                // Method net/minecraft/world/phys/AABB."<init>":(Lnet/minecraft/core/BlockPos;)V
+      40: invokevirtual #551                // Method net/minecraft/world/level/Level.getEntitiesOfClass:(Ljava/lang/Class;Lnet/minecraft/world/phys/AABB;)Ljava/util/List;
+      43: astore_1
+      44: aload_1
+      45: invokeinterface #555,  1          // InterfaceMethod java/util/List.iterator:()Ljava/util/Iterator;
+      50: astore_2
+      51: aload_2
+      52: invokeinterface #561,  1          // InterfaceMethod java/util/Iterator.hasNext:()Z
+      57: ifeq          128
+      60: aload_2
+      61: invokeinterface #566,  1          // InterfaceMethod java/util/Iterator.next:()Ljava/lang/Object;
+      66: checkcast     #549                // class net/minecraft/world/entity/LivingEntity
+      69: astore_3
+      70: aload_3
+      71: invokevirtual #569                // Method net/minecraft/world/entity/LivingEntity.fireImmune:()Z
+      74: ifne          125
+      77: aload_3
+      78: bipush        15
+      80: invokevirtual #572                // Method net/minecraft/world/entity/LivingEntity.setRemainingFireTicks:(I)V
+      83: aload_3
+      84: aload_0
+      85: getfield      #145                // Field level:Lnet/minecraft/world/level/Level;
+      88: invokestatic  #575                // Method com/drmangotea/tfmg/datagen/TFMGDamageSources.blastFurnace:(Lnet/minecraft/world/level/Level;)Lnet/minecraft/world/damagesource/DamageSource;
+      91: ldc_w         #581                // float 4.0f
+      94: invokevirtual #582                // Method net/minecraft/world/entity/LivingEntity.hurt:(Lnet/minecraft/world/damagesource/DamageSource;F)Z
+      97: ifeq          125
+     100: aload_3
+     101: getstatic     #586                // Field net/minecraft/sounds/SoundEvents.GENERIC_BURN:Lnet/minecraft/sounds/SoundEvent;
+     104: ldc_w         #592                // float 0.4f
+     107: fconst_2
+     108: aload_3
+     109: invokevirtual #593                // Method net/minecraft/world/entity/LivingEntity.getRandom:()Lnet/minecraft/util/RandomSource;
+     112: invokeinterface #597,  1          // InterfaceMethod net/minecraft/util/RandomSource.nextFloat:()F
+     117: ldc_w         #592                // float 0.4f
+     120: fmul
+     121: fadd
+     122: invokevirtual #602                // Method net/minecraft/world/entity/LivingEntity.playSound:(Lnet/minecraft/sounds/SoundEvent;FF)V
+     125: goto          51
+     128: return
+
+  public void collectItems();
+    Code:
+       0: aload_0
+       1: getfield      #145                // Field level:Lnet/minecraft/world/level/Level;
+       4: ldc_w         #606                // class net/minecraft/world/entity/item/ItemEntity
+       7: new           #540                // class net/minecraft/world/phys/AABB
+      10: dup
+      11: aload_0
+      12: invokevirtual #448                // Method getBlockPos:()Lnet/minecraft/core/BlockPos;
+      15: aload_0
+      16: invokevirtual #452                // Method getBlockState:()Lnet/minecraft/world/level/block/state/BlockState;
+      19: getstatic     #455                // Field net/minecraft/world/level/block/HorizontalDirectionalBlock.FACING:Lnet/minecraft/world/level/block/state/properties/DirectionProperty;
+      22: invokevirtual #461                // Method net/minecraft/world/level/block/state/BlockState.getValue:(Lnet/minecraft/world/level/block/state/properties/Property;)Ljava/lang/Comparable;
+      25: checkcast     #465                // class net/minecraft/core/Direction
+      28: invokevirtual #467                // Method net/minecraft/core/Direction.getOpposite:()Lnet/minecraft/core/Direction;
+      31: invokevirtual #471                // Method net/minecraft/core/BlockPos.relative:(Lnet/minecraft/core/Direction;)Lnet/minecraft/core/BlockPos;
+      34: invokevirtual #495                // Method net/minecraft/core/BlockPos.above:()Lnet/minecraft/core/BlockPos;
+      37: invokespecial #542                // Method net/minecraft/world/phys/AABB."<init>":(Lnet/minecraft/core/BlockPos;)V
+      40: invokevirtual #551                // Method net/minecraft/world/level/Level.getEntitiesOfClass:(Ljava/lang/Class;Lnet/minecraft/world/phys/AABB;)Ljava/util/List;
+      43: astore_1
+      44: aload_1
+      45: invokeinterface #608,  1          // InterfaceMethod java/util/List.isEmpty:()Z
+      50: ifeq          54
+      53: return
+      54: aload_1
+      55: iconst_0
+      56: invokeinterface #609,  2          // InterfaceMethod java/util/List.get:(I)Ljava/lang/Object;
+      61: checkcast     #606                // class net/minecraft/world/entity/item/ItemEntity
+      64: invokevirtual #610                // Method net/minecraft/world/entity/item/ItemEntity.getItem:()Lnet/minecraft/world/item/ItemStack;
+      67: astore_2
+      68: iconst_0
+      69: istore_3
+      70: iload_3
+      71: bipush        64
+      73: if_icmpge     312
+      76: aload_2
+      77: invokevirtual #613                // Method net/minecraft/world/item/ItemStack.isEmpty:()Z
+      80: ifeq          84
+      83: return
+      84: aload_2
+      85: getstatic     #614                // Field com/drmangotea/tfmg/registry/TFMGTags$TFMGItemTags.BLAST_FURNACE_FUEL:Lcom/drmangotea/tfmg/registry/TFMGTags$TFMGItemTags;
+      88: getfield      #620                // Field com/drmangotea/tfmg/registry/TFMGTags$TFMGItemTags.tag:Lnet/minecraft/tags/TagKey;
+      91: invokevirtual #624                // Method net/minecraft/world/item/ItemStack.is:(Lnet/minecraft/tags/TagKey;)Z
+      94: ifeq          124
+      97: aload_0
+      98: getfield      #7                  // Field fuel:I
+     101: bipush        64
+     103: if_icmpge     124
+     106: aload_0
+     107: dup
+     108: getfield      #7                  // Field fuel:I
+     111: iconst_1
+     112: iadd
+     113: putfield      #7                  // Field fuel:I
+     116: aload_2
+     117: iconst_1
+     118: invokevirtual #357                // Method net/minecraft/world/item/ItemStack.shrink:(I)V
+     121: goto          306
+     124: aload_2
+     125: getstatic     #627                // Field com/drmangotea/tfmg/registry/TFMGTags$TFMGItemTags.FLUX:Lcom/drmangotea/tfmg/registry/TFMGTags$TFMGItemTags;
+     128: getfield      #620                // Field com/drmangotea/tfmg/registry/TFMGTags$TFMGItemTags.tag:Lnet/minecraft/tags/TagKey;
+     131: invokevirtual #624                // Method net/minecraft/world/item/ItemStack.is:(Lnet/minecraft/tags/TagKey;)Z
+     134: ifeq          223
+     137: aload_0
+     138: getfield      #69                 // Field fluxInventory:Lcom/simibubi/create/foundation/item/SmartInventory;
+     141: iconst_0
+     142: invokevirtual #257                // Method com/simibubi/create/foundation/item/SmartInventory.getItem:(I)Lnet/minecraft/world/item/ItemStack;
+     145: invokevirtual #171                // Method net/minecraft/world/item/ItemStack.getCount:()I
+     148: aload_2
+     149: invokevirtual #630                // Method net/minecraft/world/item/ItemStack.getMaxStackSize:()I
+     152: if_icmpge     223
+     155: aload_0
+     156: getfield      #69                 // Field fluxInventory:Lcom/simibubi/create/foundation/item/SmartInventory;
+     159: invokevirtual #161                // Method com/simibubi/create/foundation/item/SmartInventory.isEmpty:()Z
+     162: ifne          183
+     165: aload_0
+     166: getfield      #69                 // Field fluxInventory:Lcom/simibubi/create/foundation/item/SmartInventory;
+     169: iconst_0
+     170: invokevirtual #257                // Method com/simibubi/create/foundation/item/SmartInventory.getItem:(I)Lnet/minecraft/world/item/ItemStack;
+     173: aload_2
+     174: invokevirtual #633                // Method net/minecraft/world/item/ItemStack.getItem:()Lnet/minecraft/world/item/Item;
+     177: invokevirtual #636                // Method net/minecraft/world/item/ItemStack.is:(Lnet/minecraft/world/item/Item;)Z
+     180: ifeq          223
+     183: aload_0
+     184: getfield      #69                 // Field fluxInventory:Lcom/simibubi/create/foundation/item/SmartInventory;
+     187: iconst_0
+     188: new           #172                // class net/minecraft/world/item/ItemStack
+     191: dup
+     192: aload_2
+     193: invokevirtual #633                // Method net/minecraft/world/item/ItemStack.getItem:()Lnet/minecraft/world/item/Item;
+     196: aload_0
+     197: getfield      #69                 // Field fluxInventory:Lcom/simibubi/create/foundation/item/SmartInventory;
+     200: iconst_0
+     201: invokevirtual #257                // Method com/simibubi/create/foundation/item/SmartInventory.getItem:(I)Lnet/minecraft/world/item/ItemStack;
+     204: invokevirtual #171                // Method net/minecraft/world/item/ItemStack.getCount:()I
+     207: iconst_1
+     208: iadd
+     209: invokespecial #639                // Method net/minecraft/world/item/ItemStack."<init>":(Lnet/minecraft/world/level/ItemLike;I)V
+     212: invokevirtual #642                // Method com/simibubi/create/foundation/item/SmartInventory.setItem:(ILnet/minecraft/world/item/ItemStack;)V
+     215: aload_2
+     216: iconst_1
+     217: invokevirtual #357                // Method net/minecraft/world/item/ItemStack.shrink:(I)V
+     220: goto          306
+     223: aload_0
+     224: getfield      #57                 // Field inputInventory:Lcom/simibubi/create/foundation/item/SmartInventory;
+     227: iconst_0
+     228: invokevirtual #257                // Method com/simibubi/create/foundation/item/SmartInventory.getItem:(I)Lnet/minecraft/world/item/ItemStack;
+     231: invokevirtual #171                // Method net/minecraft/world/item/ItemStack.getCount:()I
+     234: aload_2
+     235: invokevirtual #630                // Method net/minecraft/world/item/ItemStack.getMaxStackSize:()I
+     238: if_icmpge     306
+     241: aload_0
+     242: getfield      #57                 // Field inputInventory:Lcom/simibubi/create/foundation/item/SmartInventory;
+     245: invokevirtual #161                // Method com/simibubi/create/foundation/item/SmartInventory.isEmpty:()Z
+     248: ifne          269
+     251: aload_0
+     252: getfield      #57                 // Field inputInventory:Lcom/simibubi/create/foundation/item/SmartInventory;
+     255: iconst_0
+     256: invokevirtual #257                // Method com/simibubi/create/foundation/item/SmartInventory.getItem:(I)Lnet/minecraft/world/item/ItemStack;
+     259: aload_2
+     260: invokevirtual #633                // Method net/minecraft/world/item/ItemStack.getItem:()Lnet/minecraft/world/item/Item;
+     263: invokevirtual #636                // Method net/minecraft/world/item/ItemStack.is:(Lnet/minecraft/world/item/Item;)Z
+     266: ifeq          306
+     269: aload_0
+     270: getfield      #57                 // Field inputInventory:Lcom/simibubi/create/foundation/item/SmartInventory;
+     273: iconst_0
+     274: new           #172                // class net/minecraft/world/item/ItemStack
+     277: dup
+     278: aload_2
+     279: invokevirtual #633                // Method net/minecraft/world/item/ItemStack.getItem:()Lnet/minecraft/world/item/Item;
+     282: aload_0
+     283: getfield      #57                 // Field inputInventory:Lcom/simibubi/create/foundation/item/SmartInventory;
+     286: iconst_0
+     287: invokevirtual #257                // Method com/simibubi/create/foundation/item/SmartInventory.getItem:(I)Lnet/minecraft/world/item/ItemStack;
+     290: invokevirtual #171                // Method net/minecraft/world/item/ItemStack.getCount:()I
+     293: iconst_1
+     294: iadd
+     295: invokespecial #639                // Method net/minecraft/world/item/ItemStack."<init>":(Lnet/minecraft/world/level/ItemLike;I)V
+     298: invokevirtual #642                // Method com/simibubi/create/foundation/item/SmartInventory.setItem:(ILnet/minecraft/world/item/ItemStack;)V
+     301: aload_2
+     302: iconst_1
+     303: invokevirtual #357                // Method net/minecraft/world/item/ItemStack.shrink:(I)V
+     306: iinc          3, 1
+     309: goto          70
+     312: return
+
+  protected void read(net.minecraft.nbt.CompoundTag, net.minecraft.core.HolderLookup$Provider, boolean);
+    Code:
+       0: aload_0
+       1: aload_1
+       2: aload_2
+       3: iload_3
+       4: invokespecial #646                // Method com/simibubi/create/foundation/blockEntity/SmartBlockEntity.read:(Lnet/minecraft/nbt/CompoundTag;Lnet/minecraft/core/HolderLookup$Provider;Z)V
+       7: aload_0
+       8: aload_1
+       9: ldc_w         #650                // String IsReinforce
+      12: invokevirtual #652                // Method net/minecraft/nbt/CompoundTag.getBoolean:(Ljava/lang/String;)Z
+      15: putfield      #33                 // Field isReinforced:Z
+      18: aload_0
+      19: getfield      #57                 // Field inputInventory:Lcom/simibubi/create/foundation/item/SmartInventory;
+      22: aload_2
+      23: aload_1
+      24: ldc_w         #658                // String InputItems
+      27: invokevirtual #660                // Method net/minecraft/nbt/CompoundTag.getCompound:(Ljava/lang/String;)Lnet/minecraft/nbt/CompoundTag;
+      30: invokevirtual #664                // Method com/simibubi/create/foundation/item/SmartInventory.deserializeNBT:(Lnet/minecraft/core/HolderLookup$Provider;Lnet/minecraft/nbt/CompoundTag;)V
+      33: aload_0
+      34: getfield      #69                 // Field fluxInventory:Lcom/simibubi/create/foundation/item/SmartInventory;
+      37: aload_2
+      38: aload_1
+      39: ldc_w         #668                // String Flux
+      42: invokevirtual #660                // Method net/minecraft/nbt/CompoundTag.getCompound:(Ljava/lang/String;)Lnet/minecraft/nbt/CompoundTag;
+      45: invokevirtual #664                // Method com/simibubi/create/foundation/item/SmartInventory.deserializeNBT:(Lnet/minecraft/core/HolderLookup$Provider;Lnet/minecraft/nbt/CompoundTag;)V
+      48: aload_0
+      49: aload_1
+      50: ldc_w         #670                // String Timer
+      53: invokevirtual #672                // Method net/minecraft/nbt/CompoundTag.getInt:(Ljava/lang/String;)I
+      56: putfield      #16                 // Field timer:I
+      59: aload_0
+      60: aload_1
+      61: ldc_w         #676                // String Fuel
+      64: invokevirtual #672                // Method net/minecraft/nbt/CompoundTag.getInt:(Ljava/lang/String;)I
+      67: putfield      #7                  // Field fuel:I
+      70: aload_0
+      71: aload_1
+      72: ldc_w         #678                // String FuelConsumeTimer
+      75: invokevirtual #672                // Method net/minecraft/nbt/CompoundTag.getInt:(Ljava/lang/String;)I
+      78: putfield      #13                 // Field fuelConsumeTimer:I
+      81: aload_0
+      82: getfield      #78                 // Field primaryTank:Lnet/neoforged/neoforge/fluids/capability/templates/FluidTank;
+      85: aload_2
+      86: aload_1
+      87: ldc_w         #680                // String PrimaryTankContent
+      90: invokevirtual #660                // Method net/minecraft/nbt/CompoundTag.getCompound:(Ljava/lang/String;)Lnet/minecraft/nbt/CompoundTag;
+      93: invokevirtual #682                // Method net/neoforged/neoforge/fluids/capability/templates/FluidTank.readFromNBT:(Lnet/minecraft/core/HolderLookup$Provider;Lnet/minecraft/nbt/CompoundTag;)Lnet/neoforged/neoforge/fluids/capability/templates/FluidTank;
+      96: pop
+      97: aload_0
+      98: getfield      #82                 // Field secondaryTank:Lnet/neoforged/neoforge/fluids/capability/templates/FluidTank;
+     101: aload_2
+     102: aload_1
+     103: ldc_w         #686                // String SecondaryTankContent
+     106: invokevirtual #660                // Method net/minecraft/nbt/CompoundTag.getCompound:(Ljava/lang/String;)Lnet/minecraft/nbt/CompoundTag;
+     109: invokevirtual #682                // Method net/neoforged/neoforge/fluids/capability/templates/FluidTank.readFromNBT:(Lnet/minecraft/core/HolderLookup$Provider;Lnet/minecraft/nbt/CompoundTag;)Lnet/neoforged/neoforge/fluids/capability/templates/FluidTank;
+     112: pop
+     113: return
+
+  public void write(net.minecraft.nbt.CompoundTag, net.minecraft.core.HolderLookup$Provider, boolean);
+    Code:
+       0: aload_0
+       1: aload_1
+       2: aload_2
+       3: iload_3
+       4: invokespecial #688                // Method com/simibubi/create/foundation/blockEntity/SmartBlockEntity.write:(Lnet/minecraft/nbt/CompoundTag;Lnet/minecraft/core/HolderLookup$Provider;Z)V
+       7: aload_1
+       8: ldc_w         #650                // String IsReinforce
+      11: aload_0
+      12: getfield      #33                 // Field isReinforced:Z
+      15: invokevirtual #691                // Method net/minecraft/nbt/CompoundTag.putBoolean:(Ljava/lang/String;Z)V
+      18: aload_1
+      19: ldc_w         #658                // String InputItems
+      22: aload_0
+      23: getfield      #57                 // Field inputInventory:Lcom/simibubi/create/foundation/item/SmartInventory;
+      26: aload_2
+      27: invokevirtual #695                // Method com/simibubi/create/foundation/item/SmartInventory.serializeNBT:(Lnet/minecraft/core/HolderLookup$Provider;)Lnet/minecraft/nbt/CompoundTag;
+      30: invokevirtual #699                // Method net/minecraft/nbt/CompoundTag.put:(Ljava/lang/String;Lnet/minecraft/nbt/Tag;)Lnet/minecraft/nbt/Tag;
+      33: pop
+      34: aload_1
+      35: ldc_w         #668                // String Flux
+      38: aload_0
+      39: getfield      #69                 // Field fluxInventory:Lcom/simibubi/create/foundation/item/SmartInventory;
+      42: aload_2
+      43: invokevirtual #695                // Method com/simibubi/create/foundation/item/SmartInventory.serializeNBT:(Lnet/minecraft/core/HolderLookup$Provider;)Lnet/minecraft/nbt/CompoundTag;
+      46: invokevirtual #699                // Method net/minecraft/nbt/CompoundTag.put:(Ljava/lang/String;Lnet/minecraft/nbt/Tag;)Lnet/minecraft/nbt/Tag;
+      49: pop
+      50: aload_1
+      51: ldc_w         #670                // String Timer
+      54: aload_0
+      55: getfield      #16                 // Field timer:I
+      58: invokevirtual #703                // Method net/minecraft/nbt/CompoundTag.putInt:(Ljava/lang/String;I)V
+      61: aload_1
+      62: ldc_w         #676                // String Fuel
+      65: aload_0
+      66: getfield      #7                  // Field fuel:I
+      69: invokevirtual #703                // Method net/minecraft/nbt/CompoundTag.putInt:(Ljava/lang/String;I)V
+      72: aload_1
+      73: ldc_w         #678                // String FuelConsumeTimer
+      76: aload_0
+      77: getfield      #13                 // Field fuelConsumeTimer:I
+      80: invokevirtual #703                // Method net/minecraft/nbt/CompoundTag.putInt:(Ljava/lang/String;I)V
+      83: aload_1
+      84: ldc_w         #680                // String PrimaryTankContent
+      87: aload_0
+      88: getfield      #78                 // Field primaryTank:Lnet/neoforged/neoforge/fluids/capability/templates/FluidTank;
+      91: aload_2
+      92: new           #653                // class net/minecraft/nbt/CompoundTag
+      95: dup
+      96: invokespecial #707                // Method net/minecraft/nbt/CompoundTag."<init>":()V
+      99: invokevirtual #709                // Method net/neoforged/neoforge/fluids/capability/templates/FluidTank.writeToNBT:(Lnet/minecraft/core/HolderLookup$Provider;Lnet/minecraft/nbt/CompoundTag;)Lnet/minecraft/nbt/CompoundTag;
+     102: invokevirtual #699                // Method net/minecraft/nbt/CompoundTag.put:(Ljava/lang/String;Lnet/minecraft/nbt/Tag;)Lnet/minecraft/nbt/Tag;
+     105: pop
+     106: aload_1
+     107: ldc_w         #686                // String SecondaryTankContent
+     110: aload_0
+     111: getfield      #82                 // Field secondaryTank:Lnet/neoforged/neoforge/fluids/capability/templates/FluidTank;
+     114: aload_2
+     115: new           #653                // class net/minecraft/nbt/CompoundTag
+     118: dup
+     119: invokespecial #707                // Method net/minecraft/nbt/CompoundTag."<init>":()V
+     122: invokevirtual #709                // Method net/neoforged/neoforge/fluids/capability/templates/FluidTank.writeToNBT:(Lnet/minecraft/core/HolderLookup$Provider;Lnet/minecraft/nbt/CompoundTag;)Lnet/minecraft/nbt/CompoundTag;
+     125: invokevirtual #699                // Method net/minecraft/nbt/CompoundTag.put:(Ljava/lang/String;Lnet/minecraft/nbt/Tag;)Lnet/minecraft/nbt/Tag;
+     128: pop
+     129: return
+
+  public void destroy();
+    Code:
+       0: aload_0
+       1: invokespecial #713                // Method com/simibubi/create/foundation/blockEntity/SmartBlockEntity.destroy:()V
+       4: aload_0
+       5: getfield      #145                // Field level:Lnet/minecraft/world/level/Level;
+       8: aload_0
+       9: getfield      #716                // Field worldPosition:Lnet/minecraft/core/BlockPos;
+      12: aload_0
+      13: getfield      #57                 // Field inputInventory:Lcom/simibubi/create/foundation/item/SmartInventory;
+      16: invokestatic  #719                // Method com/simibubi/create/foundation/item/ItemHelper.dropContents:(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/neoforged/neoforge/items/IItemHandler;)V
+      19: aload_0
+      20: getfield      #145                // Field level:Lnet/minecraft/world/level/Level;
+      23: aload_0
+      24: getfield      #716                // Field worldPosition:Lnet/minecraft/core/BlockPos;
+      27: aload_0
+      28: getfield      #69                 // Field fluxInventory:Lcom/simibubi/create/foundation/item/SmartInventory;
+      31: invokestatic  #719                // Method com/simibubi/create/foundation/item/ItemHelper.dropContents:(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/neoforged/neoforge/items/IItemHandler;)V
+      34: return
+
+  public int getSize();
+    Code:
+       0: aload_0
+       1: invokevirtual #448                // Method getBlockPos:()Lnet/minecraft/core/BlockPos;
+       4: aload_0
+       5: invokevirtual #452                // Method getBlockState:()Lnet/minecraft/world/level/block/state/BlockState;
+       8: getstatic     #455                // Field net/minecraft/world/level/block/HorizontalDirectionalBlock.FACING:Lnet/minecraft/world/level/block/state/properties/DirectionProperty;
+      11: invokevirtual #461                // Method net/minecraft/world/level/block/state/BlockState.getValue:(Lnet/minecraft/world/level/block/state/properties/Property;)Ljava/lang/Comparable;
+      14: checkcast     #465                // class net/minecraft/core/Direction
+      17: invokevirtual #467                // Method net/minecraft/core/Direction.getOpposite:()Lnet/minecraft/core/Direction;
+      20: invokevirtual #471                // Method net/minecraft/core/BlockPos.relative:(Lnet/minecraft/core/Direction;)Lnet/minecraft/core/BlockPos;
+      23: astore_1
+      24: aload_0
+      25: aconst_null
+      26: putfield      #373                // Field tuyerePos:Lnet/minecraft/core/BlockPos;
+      29: aload_0
+      30: aload_1
+      31: invokevirtual #725                // Method isValidWall:(Lnet/minecraft/core/BlockPos;)Lcom/drmangotea/tfmg/content/machinery/metallurgy/blast_furnace/BlastFurnaceOutputBlockEntity$FurnaceBlockType;
+      34: getstatic     #729                // Field com/drmangotea/tfmg/content/machinery/metallurgy/blast_furnace/BlastFurnaceOutputBlockEntity$FurnaceBlockType.NONE:Lcom/drmangotea/tfmg/content/machinery/metallurgy/blast_furnace/BlastFurnaceOutputBlockEntity$FurnaceBlockType;
+      37: if_acmpne     42
+      40: iconst_0
+      41: ireturn
+      42: iconst_0
+      43: istore_2
+      44: iconst_0
+      45: istore_3
+      46: iconst_0
+      47: istore        4
+      49: iconst_0
+      50: istore        5
+      52: iload         5
+      54: invokestatic  #267                // Method com/drmangotea/tfmg/config/TFMGConfigs.common:()Lcom/drmangotea/tfmg/config/TFMGCommonConfig;
+      57: getfield      #273                // Field com/drmangotea/tfmg/config/TFMGCommonConfig.machines:Lcom/drmangotea/tfmg/config/MachineConfig;
+      60: getfield      #279                // Field com/drmangotea/tfmg/config/MachineConfig.blastFurnaceMaxHeight:Lnet/createmod/catnip/config/ConfigBase$ConfigInt;
+      63: invokevirtual #285                // Method net/createmod/catnip/config/ConfigBase$ConfigInt.get:()Ljava/lang/Object;
+      66: checkcast     #288                // class java/lang/Integer
+      69: invokevirtual #290                // Method java/lang/Integer.intValue:()I
+      72: if_icmpge     390
+      75: aload_1
+      76: iload         5
+      78: invokevirtual #477                // Method net/minecraft/core/BlockPos.above:(I)Lnet/minecraft/core/BlockPos;
+      81: invokevirtual #735                // Method net/minecraft/core/BlockPos.east:()Lnet/minecraft/core/BlockPos;
+      84: invokevirtual #738                // Method net/minecraft/core/BlockPos.south:()Lnet/minecraft/core/BlockPos;
+      87: astore        6
+      89: iconst_0
+      90: istore        7
+      92: iload         7
+      94: iconst_3
+      95: if_icmpge     381
+      98: iconst_0
+      99: istore        8
+     101: iload         8
+     103: iconst_3
+     104: if_icmpge     360
+     107: aload_0
+     108: aload         6
+     110: invokevirtual #725                // Method isValidWall:(Lnet/minecraft/core/BlockPos;)Lcom/drmangotea/tfmg/content/machinery/metallurgy/blast_furnace/BlastFurnaceOutputBlockEntity$FurnaceBlockType;
+     113: astore        9
+     115: aload_0
+     116: aload         6
+     118: invokevirtual #741                // Method isValidSupport:(Lnet/minecraft/core/BlockPos;)Lcom/drmangotea/tfmg/content/machinery/metallurgy/blast_furnace/BlastFurnaceOutputBlockEntity$FurnaceBlockType;
+     121: astore        10
+     123: aload         6
+     125: invokevirtual #509                // Method net/minecraft/core/BlockPos.getX:()I
+     128: aload_1
+     129: invokevirtual #509                // Method net/minecraft/core/BlockPos.getX:()I
+     132: if_icmpne     139
+     135: iconst_1
+     136: goto          140
+     139: iconst_0
+     140: aload         6
+     142: invokevirtual #522                // Method net/minecraft/core/BlockPos.getZ:()I
+     145: aload_1
+     146: invokevirtual #522                // Method net/minecraft/core/BlockPos.getZ:()I
+     149: if_icmpne     156
+     152: iconst_1
+     153: goto          157
+     156: iconst_0
+     157: ixor
+     158: ifeq          238
+     161: iload         5
+     163: ifne          190
+     166: aload_0
+     167: getfield      #145                // Field level:Lnet/minecraft/world/level/Level;
+     170: aload         6
+     172: invokevirtual #377                // Method net/minecraft/world/level/Level.getBlockState:(Lnet/minecraft/core/BlockPos;)Lnet/minecraft/world/level/block/state/BlockState;
+     175: getstatic     #744                // Field com/drmangotea/tfmg/registry/TFMGBlocks.BLAST_FURNACE_OUTPUT:Lcom/tterrag/registrate/util/entry/BlockEntry;
+     178: invokevirtual #387                // Method com/tterrag/registrate/util/entry/BlockEntry.get:()Ljava/lang/Object;
+     181: checkcast     #390                // class net/minecraft/world/level/block/Block
+     184: invokevirtual #392                // Method net/minecraft/world/level/block/state/BlockState.is:(Lnet/minecraft/world/level/block/Block;)Z
+     187: ifne          347
+     190: aload         9
+     192: getstatic     #729                // Field com/drmangotea/tfmg/content/machinery/metallurgy/blast_furnace/BlastFurnaceOutputBlockEntity$FurnaceBlockType.NONE:Lcom/drmangotea/tfmg/content/machinery/metallurgy/blast_furnace/BlastFurnaceOutputBlockEntity$FurnaceBlockType;
+     195: if_acmpne     218
+     198: aload_0
+     199: iload_3
+     200: ifne          212
+     203: iload         4
+     205: ifle          212
+     208: iconst_1
+     209: goto          213
+     212: iconst_0
+     213: putfield      #33                 // Field isReinforced:Z
+     216: iload_2
+     217: ireturn
+     218: aload         9
+     220: getstatic     #746                // Field com/drmangotea/tfmg/content/machinery/metallurgy/blast_furnace/BlastFurnaceOutputBlockEntity$FurnaceBlockType.REGULAR:Lcom/drmangotea/tfmg/content/machinery/metallurgy/blast_furnace/BlastFurnaceOutputBlockEntity$FurnaceBlockType;
+     223: if_acmpne     232
+     226: iinc          3, 1
+     229: goto          347
+     232: iinc          4, 1
+     235: goto          347
+     238: aload         6
+     240: invokevirtual #509                // Method net/minecraft/core/BlockPos.getX:()I
+     243: aload_1
+     244: invokevirtual #509                // Method net/minecraft/core/BlockPos.getX:()I
+     247: if_icmpne     302
+     250: aload         6
+     252: invokevirtual #522                // Method net/minecraft/core/BlockPos.getZ:()I
+     255: aload_1
+     256: invokevirtual #522                // Method net/minecraft/core/BlockPos.getZ:()I
+     259: if_icmpne     302
+     262: aload_0
+     263: getfield      #145                // Field level:Lnet/minecraft/world/level/Level;
+     266: aload         6
+     268: invokevirtual #377                // Method net/minecraft/world/level/Level.getBlockState:(Lnet/minecraft/core/BlockPos;)Lnet/minecraft/world/level/block/state/BlockState;
+     271: invokevirtual #749                // Method net/minecraft/world/level/block/state/BlockState.isAir:()Z
+     274: ifne          347
+     277: iload         5
+     279: ifeq          347
+     282: aload_0
+     283: iload_3
+     284: ifne          296
+     287: iload         4
+     289: ifle          296
+     292: iconst_1
+     293: goto          297
+     296: iconst_0
+     297: putfield      #33                 // Field isReinforced:Z
+     300: iload_2
+     301: ireturn
+     302: aload         10
+     304: getstatic     #729                // Field com/drmangotea/tfmg/content/machinery/metallurgy/blast_furnace/BlastFurnaceOutputBlockEntity$FurnaceBlockType.NONE:Lcom/drmangotea/tfmg/content/machinery/metallurgy/blast_furnace/BlastFurnaceOutputBlockEntity$FurnaceBlockType;
+     307: if_acmpne     330
+     310: aload_0
+     311: iload_3
+     312: ifne          324
+     315: iload         4
+     317: ifle          324
+     320: iconst_1
+     321: goto          325
+     324: iconst_0
+     325: putfield      #33                 // Field isReinforced:Z
+     328: iload_2
+     329: ireturn
+     330: aload         10
+     332: getstatic     #746                // Field com/drmangotea/tfmg/content/machinery/metallurgy/blast_furnace/BlastFurnaceOutputBlockEntity$FurnaceBlockType.REGULAR:Lcom/drmangotea/tfmg/content/machinery/metallurgy/blast_furnace/BlastFurnaceOutputBlockEntity$FurnaceBlockType;
+     335: if_acmpne     344
+     338: iinc          3, 1
+     341: goto          347
+     344: iinc          4, 1
+     347: aload         6
+     349: invokevirtual #752                // Method net/minecraft/core/BlockPos.west:()Lnet/minecraft/core/BlockPos;
+     352: astore        6
+     354: iinc          8, 1
+     357: goto          101
+     360: aload         6
+     362: invokevirtual #755                // Method net/minecraft/core/BlockPos.north:()Lnet/minecraft/core/BlockPos;
+     365: astore        6
+     367: aload         6
+     369: iconst_3
+     370: invokevirtual #758                // Method net/minecraft/core/BlockPos.east:(I)Lnet/minecraft/core/BlockPos;
+     373: astore        6
+     375: iinc          7, 1
+     378: goto          92
+     381: iinc          2, 1
+     384: iinc          5, 1
+     387: goto          52
+     390: iload_2
+     391: ireturn
+
+  public com.drmangotea.tfmg.content.machinery.metallurgy.blast_furnace.BlastFurnaceOutputBlockEntity$FurnaceBlockType isValidWall(net.minecraft.core.BlockPos);
+    Code:
+       0: aload_0
+       1: getfield      #145                // Field level:Lnet/minecraft/world/level/Level;
+       4: aload_1
+       5: invokevirtual #377                // Method net/minecraft/world/level/Level.getBlockState:(Lnet/minecraft/core/BlockPos;)Lnet/minecraft/world/level/block/state/BlockState;
+       8: astore_2
+       9: aload_2
+      10: getstatic     #381                // Field com/drmangotea/tfmg/registry/TFMGBlocks.BLAST_FURNACE_HATCH:Lcom/tterrag/registrate/util/entry/BlockEntry;
+      13: invokevirtual #387                // Method com/tterrag/registrate/util/entry/BlockEntry.get:()Ljava/lang/Object;
+      16: checkcast     #390                // class net/minecraft/world/level/block/Block
+      19: invokevirtual #392                // Method net/minecraft/world/level/block/state/BlockState.is:(Lnet/minecraft/world/level/block/Block;)Z
+      22: ifeq          41
+      25: aload_0
+      26: getfield      #373                // Field tuyerePos:Lnet/minecraft/core/BlockPos;
+      29: ifnull        36
+      32: getstatic     #729                // Field com/drmangotea/tfmg/content/machinery/metallurgy/blast_furnace/BlastFurnaceOutputBlockEntity$FurnaceBlockType.NONE:Lcom/drmangotea/tfmg/content/machinery/metallurgy/blast_furnace/BlastFurnaceOutputBlockEntity$FurnaceBlockType;
+      35: areturn
+      36: aload_0
+      37: aload_1
+      38: putfield      #373                // Field tuyerePos:Lnet/minecraft/core/BlockPos;
+      41: aload_2
+      42: getstatic     #760                // Field com/drmangotea/tfmg/registry/TFMGTags$TFMGBlockTags.REINFORCED_BLAST_FURNACE_WALL:Lcom/drmangotea/tfmg/registry/TFMGTags$TFMGBlockTags;
+      45: getfield      #766                // Field com/drmangotea/tfmg/registry/TFMGTags$TFMGBlockTags.tag:Lnet/minecraft/tags/TagKey;
+      48: invokevirtual #767                // Method net/minecraft/world/level/block/state/BlockState.is:(Lnet/minecraft/tags/TagKey;)Z
+      51: ifeq          58
+      54: getstatic     #768                // Field com/drmangotea/tfmg/content/machinery/metallurgy/blast_furnace/BlastFurnaceOutputBlockEntity$FurnaceBlockType.REINFORCED:Lcom/drmangotea/tfmg/content/machinery/metallurgy/blast_furnace/BlastFurnaceOutputBlockEntity$FurnaceBlockType;
+      57: areturn
+      58: aload_2
+      59: getstatic     #771                // Field com/drmangotea/tfmg/registry/TFMGTags$TFMGBlockTags.BLAST_FURNACE_WALL:Lcom/drmangotea/tfmg/registry/TFMGTags$TFMGBlockTags;
+      62: getfield      #766                // Field com/drmangotea/tfmg/registry/TFMGTags$TFMGBlockTags.tag:Lnet/minecraft/tags/TagKey;
+      65: invokevirtual #767                // Method net/minecraft/world/level/block/state/BlockState.is:(Lnet/minecraft/tags/TagKey;)Z
+      68: ifeq          75
+      71: getstatic     #746                // Field com/drmangotea/tfmg/content/machinery/metallurgy/blast_furnace/BlastFurnaceOutputBlockEntity$FurnaceBlockType.REGULAR:Lcom/drmangotea/tfmg/content/machinery/metallurgy/blast_furnace/BlastFurnaceOutputBlockEntity$FurnaceBlockType;
+      74: areturn
+      75: getstatic     #729                // Field com/drmangotea/tfmg/content/machinery/metallurgy/blast_furnace/BlastFurnaceOutputBlockEntity$FurnaceBlockType.NONE:Lcom/drmangotea/tfmg/content/machinery/metallurgy/blast_furnace/BlastFurnaceOutputBlockEntity$FurnaceBlockType;
+      78: areturn
+
+  public com.drmangotea.tfmg.content.machinery.metallurgy.blast_furnace.BlastFurnaceOutputBlockEntity$FurnaceBlockType isValidSupport(net.minecraft.core.BlockPos);
+    Code:
+       0: aload_0
+       1: getfield      #145                // Field level:Lnet/minecraft/world/level/Level;
+       4: aload_1
+       5: invokevirtual #377                // Method net/minecraft/world/level/Level.getBlockState:(Lnet/minecraft/core/BlockPos;)Lnet/minecraft/world/level/block/state/BlockState;
+       8: astore_2
+       9: aload_2
+      10: getstatic     #774                // Field com/drmangotea/tfmg/registry/TFMGTags$TFMGBlockTags.REINFORCED_BLAST_FURNACE_SUPPORT:Lcom/drmangotea/tfmg/registry/TFMGTags$TFMGBlockTags;
+      13: getfield      #766                // Field com/drmangotea/tfmg/registry/TFMGTags$TFMGBlockTags.tag:Lnet/minecraft/tags/TagKey;
+      16: invokevirtual #767                // Method net/minecraft/world/level/block/state/BlockState.is:(Lnet/minecraft/tags/TagKey;)Z
+      19: ifeq          26
+      22: getstatic     #768                // Field com/drmangotea/tfmg/content/machinery/metallurgy/blast_furnace/BlastFurnaceOutputBlockEntity$FurnaceBlockType.REINFORCED:Lcom/drmangotea/tfmg/content/machinery/metallurgy/blast_furnace/BlastFurnaceOutputBlockEntity$FurnaceBlockType;
+      25: areturn
+      26: aload_2
+      27: getstatic     #777                // Field com/drmangotea/tfmg/registry/TFMGTags$TFMGBlockTags.BLAST_FURNACE_SUPPORT:Lcom/drmangotea/tfmg/registry/TFMGTags$TFMGBlockTags;
+      30: getfield      #766                // Field com/drmangotea/tfmg/registry/TFMGTags$TFMGBlockTags.tag:Lnet/minecraft/tags/TagKey;
+      33: invokevirtual #767                // Method net/minecraft/world/level/block/state/BlockState.is:(Lnet/minecraft/tags/TagKey;)Z
+      36: ifeq          43
+      39: getstatic     #746                // Field com/drmangotea/tfmg/content/machinery/metallurgy/blast_furnace/BlastFurnaceOutputBlockEntity$FurnaceBlockType.REGULAR:Lcom/drmangotea/tfmg/content/machinery/metallurgy/blast_furnace/BlastFurnaceOutputBlockEntity$FurnaceBlockType;
+      42: areturn
+      43: getstatic     #729                // Field com/drmangotea/tfmg/content/machinery/metallurgy/blast_furnace/BlastFurnaceOutputBlockEntity$FurnaceBlockType.NONE:Lcom/drmangotea/tfmg/content/machinery/metallurgy/blast_furnace/BlastFurnaceOutputBlockEntity$FurnaceBlockType;
+      46: areturn
+
+  private static net.neoforged.neoforge.items.IItemHandler lambda$registerCapabilities$2(com.drmangotea.tfmg.content.machinery.metallurgy.blast_furnace.BlastFurnaceOutputBlockEntity, net.minecraft.core.Direction);
+    Code:
+       0: aload_0
+       1: getfield      #92                 // Field itemCapability:Lnet/neoforged/neoforge/items/IItemHandlerModifiable;
+       4: areturn
+
+  private static net.neoforged.neoforge.fluids.capability.IFluidHandler lambda$registerCapabilities$1(com.drmangotea.tfmg.content.machinery.metallurgy.blast_furnace.BlastFurnaceOutputBlockEntity, net.minecraft.core.Direction);
+    Code:
+       0: aload_0
+       1: getfield      #103                // Field fluidCapability:Lnet/neoforged/neoforge/fluids/capability/IFluidHandler;
+       4: areturn
+
+  private void lambda$new$0(java.lang.Integer);
+    Code:
+       0: aload_0
+       1: invokevirtual #534                // Method onContentsChanged:()V
+       4: return
+}

@@ -1,0 +1,7 @@
+// Full source compilation avoids stale incremental classpath snapshots in the
+// offline Windows/JDK ZipFS environment. Does not delete outputs or caches.
+gradle.projectsEvaluated {
+    gradle.rootProject.tasks.withType(JavaCompile).configureEach {
+        options.incremental = false
+    }
+}

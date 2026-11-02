@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    "#industrial_colonies:geology/vanilla",
+    "#industrial_colonies:geology/create",
+    "#industrial_colonies:geology/tfmg",
+    "#industrial_colonies:geology/mekanism",
+    "#industrial_colonies:geology/nuclearcraft",
+    "#industrial_colonies:geology/immersiveengineering",
+    "#industrial_colonies:geology/regions_unexplored",
+    "#industrial_colonies:geology/alexscaves",
+    "#industrial_colonies:geology/wwoo",
+    "#industrial_colonies:geology/rocketnautics",
+    "#industrial_colonies:geology/stellaris",
+    "#industrial_colonies:geology/existing_progression_exclusions"
+  ]
+}

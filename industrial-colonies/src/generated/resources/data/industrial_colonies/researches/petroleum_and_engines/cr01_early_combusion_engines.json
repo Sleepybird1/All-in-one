@@ -1,0 +1,30 @@
+{
+  "branch": "industrial_colonies:tech_tree",
+  "costs": [
+    {
+      "item": "tfmg:pumpjack_crank",
+      "count": 4
+    },
+    {
+      "item": "tfmg:cast_iron_pipe",
+      "count": 12
+    },
+    {
+      "item": "tfmg:oil_can",
+      "count": 8
+    }
+  ],
+  "icon": "tfmg:engine_controller",
+  "name": "com.industrial_colonies.research.petroleum_and_engines.cr01_early_combusion_engines.name",
+  "no-reset": true,
+  "researchLevel": 2,
+  "sortOrder": 9758,
+  "subtitle": "com.industrial_colonies.research.petroleum_and_engines.cr01_early_combusion_engines.subtitle",
+  "parentResearch": "industrial_colonies:petroleum_and_engines/cr01_oil_processing",
+  "requirements": [
+    {
+      "type": "minecolonies:research",
+      "research": "industrial_colonies:petroleum_and_engines/cr01_oil_processing"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "branch": "industrial_colonies:tech_tree",
+  "costs": [
+    {
+      "item": "allthemodium:unobtainium_allthemodium_alloy_ingot",
+      "count": 2
+    },
+    {
+      "item": "tfmg:steel_mechanism",
+      "count": 8
+    },
+    {
+      "item": "industrial_colonies:yellorium_compound",
+      "count": 8
+    }
+  ],
+  "icon": "bigreactors:basic_reactorfuelrod",
+  "name": "com.industrial_colonies.research.nuclear_engineering.cr01_core_engineering.name",
+  "no-reset": true,
+  "researchLevel": 3,
+  "sortOrder": 10002,
+  "subtitle": "com.industrial_colonies.research.nuclear_engineering.cr01_core_engineering.subtitle",
+  "parentResearch": "industrial_colonies:nuclear_engineering/cr01_the_nuclear_age",
+  "requirements": [
+    {
+      "type": "minecolonies:research",
+      "research": "industrial_colonies:nuclear_engineering/cr01_the_nuclear_age"
+    }
+  ]
+}

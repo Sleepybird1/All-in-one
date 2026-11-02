@@ -1,0 +1,49 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "nuclearcraft:boron_ore",
+      "required": false
+    },
+    {
+      "id": "nuclearcraft:cobalt_ore",
+      "required": false
+    },
+    {
+      "id": "nuclearcraft:lead_ore",
+      "required": false
+    },
+    {
+      "id": "nuclearcraft:lithium_ore",
+      "required": false
+    },
+    {
+      "id": "nuclearcraft:magnesium_ore",
+      "required": false
+    },
+    {
+      "id": "nuclearcraft:platinum_ore",
+      "required": false
+    },
+    {
+      "id": "nuclearcraft:silver_ore",
+      "required": false
+    },
+    {
+      "id": "nuclearcraft:thorium_ore",
+      "required": false
+    },
+    {
+      "id": "nuclearcraft:tin_ore",
+      "required": false
+    },
+    {
+      "id": "nuclearcraft:uranium_ore",
+      "required": false
+    },
+    {
+      "id": "nuclearcraft:zinc_ore",
+      "required": false
+    }
+  ]
+}

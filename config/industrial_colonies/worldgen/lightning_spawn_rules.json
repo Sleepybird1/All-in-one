@@ -1,0 +1,6 @@
+{
+  "enabled": true,
+  "mode": "biome-climate-v1",
+  "minimumSurfaceY": 500,
+  "maximumBaseTemperature": 1.0
+}

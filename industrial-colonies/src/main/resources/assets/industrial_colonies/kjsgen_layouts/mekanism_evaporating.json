@@ -1,0 +1,44 @@
+{
+  "id": "industrial_colonies:mekanism_evaporating",
+  "mod": "mekanism",
+  "icon": "mekanism:thermal_evaporation_controller",
+  "jei": "mekanism:evaporating",
+  "width": 142,
+  "height": 64,
+  "slots": [
+    {
+      "key": "input",
+      "role": "INPUT",
+      "x": 10,
+      "y": 12,
+      "required": true,
+      "item": false,
+      "fluid": true,
+      "chemical": false,
+      "tag": true,
+      "count": true
+    },
+    {
+      "key": "output",
+      "role": "OUTPUT",
+      "x": 110,
+      "y": 12,
+      "required": true,
+      "item": false,
+      "fluid": true,
+      "chemical": false,
+      "tag": false,
+      "count": true
+    }
+  ],
+  "decorations": [
+    {
+      "type": "ARROW",
+      "x": 63,
+      "y": 27
+    }
+  ],
+  "parameters": [],
+  "codegen": "industrial_colonies:mekanism_machine",
+  "requiresMod": "mekanism"
+}

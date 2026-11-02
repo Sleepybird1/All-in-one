@@ -1,0 +1,4114 @@
+{
+  "changed": {
+    "industrial_colonies:processing/foundry/iron/ingot": {
+      "before": {
+        "type": "modernfoundry:melting",
+        "ingredient": {
+          "tag": "c:ingots/iron"
+        },
+        "result": {
+          "fluid": "modernfoundry:molten_iron",
+          "amount": 1000
+        },
+        "temperature": 800,
+        "time": 80,
+        "id": "industrial_colonies:processing/foundry/iron/ingot"
+      },
+      "after": {
+        "type": "modernfoundry:melting",
+        "ingredient": {
+          "tag": "c:ingots/iron"
+        },
+        "result": {
+          "fluid": "modernfoundry:molten_iron",
+          "amount": 100
+        },
+        "temperature": 800,
+        "time": 80,
+        "id": "industrial_colonies:processing/foundry/iron/ingot"
+      }
+    },
+    "industrial_colonies:processing/casting/iron/ingot": {
+      "before": {
+        "type": "modernfoundry:casting_table",
+        "fluid": {
+          "fluid": "modernfoundry:molten_iron",
+          "amount": 1000
+        },
+        "result": {
+          "item": "minecraft:iron_ingot"
+        },
+        "cooling_time": 40,
+        "cast": {
+          "tag": "modernfoundry:casts/multi_use/ingot"
+        },
+        "id": "industrial_colonies:processing/casting/iron/ingot"
+      },
+      "after": {
+        "type": "modernfoundry:casting_table",
+        "fluid": {
+          "fluid": "modernfoundry:molten_iron",
+          "amount": 100
+        },
+        "result": {
+          "item": "minecraft:iron_ingot"
+        },
+        "cooling_time": 40,
+        "cast": {
+          "tag": "modernfoundry:casts/multi_use/ingot"
+        },
+        "id": "industrial_colonies:processing/casting/iron/ingot"
+      }
+    },
+    "industrial_colonies:processing/foundry/iron/block": {
+      "before": {
+        "type": "modernfoundry:melting",
+        "ingredient": {
+          "tag": "c:storage_blocks/iron"
+        },
+        "result": {
+          "fluid": "modernfoundry:molten_iron",
+          "amount": 9000
+        },
+        "temperature": 800,
+        "time": 80,
+        "id": "industrial_colonies:processing/foundry/iron/block"
+      },
+      "after": {
+        "type": "modernfoundry:melting",
+        "ingredient": {
+          "tag": "c:storage_blocks/iron"
+        },
+        "result": {
+          "fluid": "modernfoundry:molten_iron",
+          "amount": 900
+        },
+        "temperature": 800,
+        "time": 80,
+        "id": "industrial_colonies:processing/foundry/iron/block"
+      }
+    },
+    "industrial_colonies:processing/casting/iron/block": {
+      "before": {
+        "type": "modernfoundry:casting_basin",
+        "fluid": {
+          "fluid": "modernfoundry:molten_iron",
+          "amount": 9000
+        },
+        "result": {
+          "item": "minecraft:iron_block"
+        },
+        "cooling_time": 160,
+        "id": "industrial_colonies:processing/casting/iron/block"
+      },
+      "after": {
+        "type": "modernfoundry:casting_basin",
+        "fluid": {
+          "fluid": "modernfoundry:molten_iron",
+          "amount": 900
+        },
+        "result": {
+          "item": "minecraft:iron_block"
+        },
+        "cooling_time": 160,
+        "id": "industrial_colonies:processing/casting/iron/block"
+      }
+    },
+    "industrial_colonies:processing/foundry/iron/nugget": {
+      "before": {
+        "type": "modernfoundry:melting",
+        "ingredient": {
+          "tag": "c:nuggets/iron"
+        },
+        "result": {
+          "fluid": "modernfoundry:molten_iron",
+          "amount": 25
+        },
+        "temperature": 800,
+        "time": 80,
+        "id": "industrial_colonies:processing/foundry/iron/nugget"
+      },
+      "after": {
+        "type": "modernfoundry:melting",
+        "ingredient": {
+          "tag": "c:nuggets/iron"
+        },
+        "result": {
+          "fluid": "modernfoundry:molten_iron",
+          "amount": 10
+        },
+        "temperature": 800,
+        "time": 80,
+        "id": "industrial_colonies:processing/foundry/iron/nugget"
+      }
+    },
+    "industrial_colonies:processing/casting/iron/nugget": {
+      "before": {
+        "type": "modernfoundry:casting_table",
+        "fluid": {
+          "fluid": "modernfoundry:molten_iron",
+          "amount": 25
+        },
+        "result": {
+          "item": "minecraft:iron_nugget"
+        },
+        "cooling_time": 40,
+        "cast": {
+          "tag": "modernfoundry:casts/multi_use/nugget"
+        },
+        "id": "industrial_colonies:processing/casting/iron/nugget"
+      },
+      "after": {
+        "type": "modernfoundry:casting_table",
+        "fluid": {
+          "fluid": "modernfoundry:molten_iron",
+          "amount": 10
+        },
+        "result": {
+          "item": "minecraft:iron_nugget"
+        },
+        "cooling_time": 40,
+        "cast": {
+          "tag": "modernfoundry:casts/multi_use/nugget"
+        },
+        "id": "industrial_colonies:processing/casting/iron/nugget"
+      }
+    },
+    "industrial_colonies:processing/foundry/copper/ingot": {
+      "before": {
+        "type": "modernfoundry:melting",
+        "ingredient": {
+          "tag": "c:ingots/copper"
+        },
+        "result": {
+          "fluid": "modernfoundry:molten_copper",
+          "amount": 1000
+        },
+        "temperature": 500,
+        "time": 80,
+        "id": "industrial_colonies:processing/foundry/copper/ingot"
+      },
+      "after": {
+        "type": "modernfoundry:melting",
+        "ingredient": {
+          "tag": "c:ingots/copper"
+        },
+        "result": {
+          "fluid": "modernfoundry:molten_copper",
+          "amount": 100
+        },
+        "temperature": 500,
+        "time": 80,
+        "id": "industrial_colonies:processing/foundry/copper/ingot"
+      }
+    },
+    "industrial_colonies:processing/casting/copper/ingot": {
+      "before": {
+        "type": "modernfoundry:casting_table",
+        "fluid": {
+          "fluid": "modernfoundry:molten_copper",
+          "amount": 1000
+        },
+        "result": {
+          "item": "minecraft:copper_ingot"
+        },
+        "cooling_time": 40,
+        "cast": {
+          "tag": "modernfoundry:casts/multi_use/ingot"
+        },
+        "id": "industrial_colonies:processing/casting/copper/ingot"
+      },
+      "after": {
+        "type": "modernfoundry:casting_table",
+        "fluid": {
+          "fluid": "modernfoundry:molten_copper",
+          "amount": 100
+        },
+        "result": {
+          "item": "minecraft:copper_ingot"
+        },
+        "cooling_time": 40,
+        "cast": {
+          "tag": "modernfoundry:casts/multi_use/ingot"
+        },
+        "id": "industrial_colonies:processing/casting/copper/ingot"
+      }
+    },
+    "industrial_colonies:processing/foundry/copper/block": {
+      "before": {
+        "type": "modernfoundry:melting",
+        "ingredient": {
+          "tag": "c:storage_blocks/copper"
+        },
+        "result": {
+          "fluid": "modernfoundry:molten_copper",
+          "amount": 9000
+        },
+        "temperature": 500,
+        "time": 80,
+        "id": "industrial_colonies:processing/foundry/copper/block"
+      },
+      "after": {
+        "type": "modernfoundry:melting",
+        "ingredient": {
+          "tag": "c:storage_blocks/copper"
+        },
+        "result": {
+          "fluid": "modernfoundry:molten_copper",
+          "amount": 900
+        },
+        "temperature": 500,
+        "time": 80,
+        "id": "industrial_colonies:processing/foundry/copper/block"
+      }
+    },
+    "industrial_colonies:processing/casting/copper/block": {
+      "before": {
+        "type": "modernfoundry:casting_basin",
+        "fluid": {
+          "fluid": "modernfoundry:molten_copper",
+          "amount": 9000
+        },
+        "result": {
+          "item": "minecraft:copper_block"
+        },
+        "cooling_time": 160,
+        "id": "industrial_colonies:processing/casting/copper/block"
+      },
+      "after": {
+        "type": "modernfoundry:casting_basin",
+        "fluid": {
+          "fluid": "modernfoundry:molten_copper",
+          "amount": 900
+        },
+        "result": {
+          "item": "minecraft:copper_block"
+        },
+        "cooling_time": 160,
+        "id": "industrial_colonies:processing/casting/copper/block"
+      }
+    },
+    "industrial_colonies:processing/foundry/copper/nugget": {
+      "before": {
+        "type": "modernfoundry:melting",
+        "ingredient": {
+          "tag": "c:nuggets/copper"
+        },
+        "result": {
+          "fluid": "modernfoundry:molten_copper",
+          "amount": 100
+        },
+        "temperature": 500,
+        "time": 80,
+        "id": "industrial_colonies:processing/foundry/copper/nugget"
+      },
+      "after": {
+        "type": "modernfoundry:melting",
+        "ingredient": {
+          "tag": "c:nuggets/copper"
+        },
+        "result": {
+          "fluid": "modernfoundry:molten_copper",
+          "amount": 10
+        },
+        "temperature": 500,
+        "time": 80,
+        "id": "industrial_colonies:processing/foundry/copper/nugget"
+      }
+    },
+    "industrial_colonies:processing/casting/copper/nugget": {
+      "before": {
+        "type": "modernfoundry:casting_table",
+        "fluid": {
+          "fluid": "modernfoundry:molten_copper",
+          "amount": 100
+        },
+        "result": {
+          "item": "create:copper_nugget"
+        },
+        "cooling_time": 40,
+        "cast": {
+          "tag": "modernfoundry:casts/multi_use/nugget"
+        },
+        "id": "industrial_colonies:processing/casting/copper/nugget"
+      },
+      "after": {
+        "type": "modernfoundry:casting_table",
+        "fluid": {
+          "fluid": "modernfoundry:molten_copper",
+          "amount": 10
+        },
+        "result": {
+          "item": "create:copper_nugget"
+        },
+        "cooling_time": 40,
+        "cast": {
+          "tag": "modernfoundry:casts/multi_use/nugget"
+        },
+        "id": "industrial_colonies:processing/casting/copper/nugget"
+      }
+    },
+    "industrial_colonies:processing/foundry/gold/ingot": {
+      "before": {
+        "type": "modernfoundry:melting",
+        "ingredient": {
+          "tag": "c:ingots/gold"
+        },
+        "result": {
+          "fluid": "modernfoundry:molten_gold",
+          "amount": 1000
+        },
+        "temperature": 700,
+        "time": 80,
+        "id": "industrial_colonies:processing/foundry/gold/ingot"
+      },
+      "after": {
+        "type": "modernfoundry:melting",
+        "ingredient": {
+          "tag": "c:ingots/gold"
+        },
+        "result": {
+          "fluid": "modernfoundry:molten_gold",
+          "amount": 100
+        },
+        "temperature": 700,
+        "time": 80,
+        "id": "industrial_colonies:processing/foundry/gold/ingot"
+      }
+    },
+    "industrial_colonies:processing/casting/gold/ingot": {
+      "before": {
+        "type": "modernfoundry:casting_table",
+        "fluid": {
+          "fluid": "modernfoundry:molten_gold",
+          "amount": 1000
+        },
+        "result": {
+          "item": "minecraft:gold_ingot"
+        },
+        "cooling_time": 40,
+        "cast": {
+          "tag": "modernfoundry:casts/multi_use/ingot"
+        },
+        "id": "industrial_colonies:processing/casting/gold/ingot"
+      },
+      "after": {
+        "type": "modernfoundry:casting_table",
+        "fluid": {
+          "fluid": "modernfoundry:molten_gold",
+          "amount": 100
+        },
+        "result": {
+          "item": "minecraft:gold_ingot"
+        },
+        "cooling_time": 40,
+        "cast": {
+          "tag": "modernfoundry:casts/multi_use/ingot"
+        },
+        "id": "industrial_colonies:processing/casting/gold/ingot"
+      }
+    },
+    "industrial_colonies:processing/foundry/gold/block": {
+      "before": {
+        "type": "modernfoundry:melting",
+        "ingredient": {
+          "tag": "c:storage_blocks/gold"
+        },
+        "result": {
+          "fluid": "modernfoundry:molten_gold",
+          "amount": 9000
+        },
+        "temperature": 700,
+        "time": 80,
+        "id": "industrial_colonies:processing/foundry/gold/block"
+      },
+      "after": {
+        "type": "modernfoundry:melting",
+        "ingredient": {
+          "tag": "c:storage_blocks/gold"
+        },
+        "result": {
+          "fluid": "modernfoundry:molten_gold",
+          "amount": 900
+        },
+        "temperature": 700,
+        "time": 80,
+        "id": "industrial_colonies:processing/foundry/gold/block"
+      }
+    },
+    "industrial_colonies:processing/casting/gold/block": {
+      "before": {
+        "type": "modernfoundry:casting_basin",
+        "fluid": {
+          "fluid": "modernfoundry:molten_gold",
+          "amount": 9000
+        },
+        "result": {
+          "item": "minecraft:gold_block"
+        },
+        "cooling_time": 160,
+        "id": "industrial_colonies:processing/casting/gold/block"
+      },
+      "after": {
+        "type": "modernfoundry:casting_basin",
+        "fluid": {
+          "fluid": "modernfoundry:molten_gold",
+          "amount": 900
+        },
+        "result": {
+          "item": "minecraft:gold_block"
+        },
+        "cooling_time": 160,
+        "id": "industrial_colonies:processing/casting/gold/block"
+      }
+    },
+    "industrial_colonies:processing/foundry/zinc/ingot": {
+      "before": {
+        "type": "modernfoundry:melting",
+        "ingredient": {
+          "tag": "c:ingots/zinc"
+        },
+        "result": {
+          "fluid": "modernfoundry:molten_zinc",
+          "amount": 1000
+        },
+        "temperature": 420,
+        "time": 80,
+        "id": "industrial_colonies:processing/foundry/zinc/ingot"
+      },
+      "after": {
+        "type": "modernfoundry:melting",
+        "ingredient": {
+          "tag": "c:ingots/zinc"
+        },
+        "result": {
+          "fluid": "modernfoundry:molten_zinc",
+          "amount": 100
+        },
+        "temperature": 420,
+        "time": 80,
+        "id": "industrial_colonies:processing/foundry/zinc/ingot"
+      }
+    },
+    "industrial_colonies:processing/casting/zinc/ingot": {
+      "before": {
+        "type": "modernfoundry:casting_table",
+        "fluid": {
+          "fluid": "modernfoundry:molten_zinc",
+          "amount": 1000
+        },
+        "result": {
+          "item": "create:zinc_ingot"
+        },
+        "cooling_time": 40,
+        "cast": {
+          "tag": "modernfoundry:casts/multi_use/ingot"
+        },
+        "id": "industrial_colonies:processing/casting/zinc/ingot"
+      },
+      "after": {
+        "type": "modernfoundry:casting_table",
+        "fluid": {
+          "fluid": "modernfoundry:molten_zinc",
+          "amount": 100
+        },
+        "result": {
+          "item": "create:zinc_ingot"
+        },
+        "cooling_time": 40,
+        "cast": {
+          "tag": "modernfoundry:casts/multi_use/ingot"
+        },
+        "id": "industrial_colonies:processing/casting/zinc/ingot"
+      }
+    },
+    "industrial_colonies:processing/foundry/zinc/block": {
+      "before": {
+        "type": "modernfoundry:melting",
+        "ingredient": {
+          "tag": "c:storage_blocks/zinc"
+        },
+        "result": {
+          "fluid": "modernfoundry:molten_zinc",
+          "amount": 9000
+        },
+        "temperature": 420,
+        "time": 80,
+        "id": "industrial_colonies:processing/foundry/zinc/block"
+      },
+      "after": {
+        "type": "modernfoundry:melting",
+        "ingredient": {
+          "tag": "c:storage_blocks/zinc"
+        },
+        "result": {
+          "fluid": "modernfoundry:molten_zinc",
+          "amount": 900
+        },
+        "temperature": 420,
+        "time": 80,
+        "id": "industrial_colonies:processing/foundry/zinc/block"
+      }
+    },
+    "industrial_colonies:processing/casting/zinc/block": {
+      "before": {
+        "type": "modernfoundry:casting_basin",
+        "fluid": {
+          "fluid": "modernfoundry:molten_zinc",
+          "amount": 9000
+        },
+        "result": {
+          "item": "create:zinc_block"
+        },
+        "cooling_time": 160,
+        "id": "industrial_colonies:processing/casting/zinc/block"
+      },
+      "after": {
+        "type": "modernfoundry:casting_basin",
+        "fluid": {
+          "fluid": "modernfoundry:molten_zinc",
+          "amount": 900
+        },
+        "result": {
+          "item": "create:zinc_block"
+        },
+        "cooling_time": 160,
+        "id": "industrial_colonies:processing/casting/zinc/block"
+      }
+    },
+    "industrial_colonies:processing/foundry/zinc/nugget": {
+      "before": {
+        "type": "modernfoundry:melting",
+        "ingredient": {
+          "tag": "c:nuggets/zinc"
+        },
+        "result": {
+          "fluid": "modernfoundry:molten_zinc",
+          "amount": 100
+        },
+        "temperature": 420,
+        "time": 80,
+        "id": "industrial_colonies:processing/foundry/zinc/nugget"
+      },
+      "after": {
+        "type": "modernfoundry:melting",
+        "ingredient": {
+          "tag": "c:nuggets/zinc"
+        },
+        "result": {
+          "fluid": "modernfoundry:molten_zinc",
+          "amount": 10
+        },
+        "temperature": 420,
+        "time": 80,
+        "id": "industrial_colonies:processing/foundry/zinc/nugget"
+      }
+    },
+    "industrial_colonies:processing/casting/zinc/nugget": {
+      "before": {
+        "type": "modernfoundry:casting_table",
+        "fluid": {
+          "fluid": "modernfoundry:molten_zinc",
+          "amount": 100
+        },
+        "result": {
+          "item": "create:zinc_nugget"
+        },
+        "cooling_time": 40,
+        "cast": {
+          "tag": "modernfoundry:casts/multi_use/nugget"
+        },
+        "id": "industrial_colonies:processing/casting/zinc/nugget"
+      },
+      "after": {
+        "type": "modernfoundry:casting_table",
+        "fluid": {
+          "fluid": "modernfoundry:molten_zinc",
+          "amount": 10
+        },
+        "result": {
+          "item": "create:zinc_nugget"
+        },
+        "cooling_time": 40,
+        "cast": {
+          "tag": "modernfoundry:casts/multi_use/nugget"
+        },
+        "id": "industrial_colonies:processing/casting/zinc/nugget"
+      }
+    },
+    "industrial_colonies:processing/foundry/tin/ingot": {
+      "before": {
+        "type": "modernfoundry:melting",
+        "ingredient": {
+          "tag": "c:ingots/tin"
+        },
+        "result": {
+          "fluid": "modernfoundry:molten_tin",
+          "amount": 1000
+        },
+        "temperature": 225,
+        "time": 80,
+        "id": "industrial_colonies:processing/foundry/tin/ingot"
+      },
+      "after": {
+        "type": "modernfoundry:melting",
+        "ingredient": {
+          "tag": "c:ingots/tin"
+        },
+        "result": {
+          "fluid": "modernfoundry:molten_tin",
+          "amount": 100
+        },
+        "temperature": 225,
+        "time": 80,
+        "id": "industrial_colonies:processing/foundry/tin/ingot"
+      }
+    },
+    "industrial_colonies:processing/casting/tin/ingot": {
+      "before": {
+        "type": "modernfoundry:casting_table",
+        "fluid": {
+          "fluid": "modernfoundry:molten_tin",
+          "amount": 1000
+        },
+        "result": {
+          "item": "mekanism:ingot_tin"
+        },
+        "cooling_time": 40,
+        "cast": {
+          "tag": "modernfoundry:casts/multi_use/ingot"
+        },
+        "id": "industrial_colonies:processing/casting/tin/ingot"
+      },
+      "after": {
+        "type": "modernfoundry:casting_table",
+        "fluid": {
+          "fluid": "modernfoundry:molten_tin",
+          "amount": 100
+        },
+        "result": {
+          "item": "mekanism:ingot_tin"
+        },
+        "cooling_time": 40,
+        "cast": {
+          "tag": "modernfoundry:casts/multi_use/ingot"
+        },
+        "id": "industrial_colonies:processing/casting/tin/ingot"
+      }
+    },
+    "industrial_colonies:processing/foundry/tin/block": {
+      "before": {
+        "type": "modernfoundry:melting",
+        "ingredient": {
+          "tag": "c:storage_blocks/tin"
+        },
+        "result": {
+          "fluid": "modernfoundry:molten_tin",
+          "amount": 9000
+        },
+        "temperature": 225,
+        "time": 80,
+        "id": "industrial_colonies:processing/foundry/tin/block"
+      },
+      "after": {
+        "type": "modernfoundry:melting",
+        "ingredient": {
+          "tag": "c:storage_blocks/tin"
+        },
+        "result": {
+          "fluid": "modernfoundry:molten_tin",
+          "amount": 900
+        },
+        "temperature": 225,
+        "time": 80,
+        "id": "industrial_colonies:processing/foundry/tin/block"
+      }
+    },
+    "industrial_colonies:processing/casting/tin/block": {
+      "before": {
+        "type": "modernfoundry:casting_basin",
+        "fluid": {
+          "fluid": "modernfoundry:molten_tin",
+          "amount": 9000
+        },
+        "result": {
+          "item": "mekanism:block_tin"
+        },
+        "cooling_time": 160,
+        "id": "industrial_colonies:processing/casting/tin/block"
+      },
+      "after": {
+        "type": "modernfoundry:casting_basin",
+        "fluid": {
+          "fluid": "modernfoundry:molten_tin",
+          "amount": 900
+        },
+        "result": {
+          "item": "mekanism:block_tin"
+        },
+        "cooling_time": 160,
+        "id": "industrial_colonies:processing/casting/tin/block"
+      }
+    },
+    "industrial_colonies:processing/foundry/tin/nugget": {
+      "before": {
+        "type": "modernfoundry:melting",
+        "ingredient": {
+          "tag": "c:nuggets/tin"
+        },
+        "result": {
+          "fluid": "modernfoundry:molten_tin",
+          "amount": 100
+        },
+        "temperature": 225,
+        "time": 80,
+        "id": "industrial_colonies:processing/foundry/tin/nugget"
+      },
+      "after": {
+        "type": "modernfoundry:melting",
+        "ingredient": {
+          "tag": "c:nuggets/tin"
+        },
+        "result": {
+          "fluid": "modernfoundry:molten_tin",
+          "amount": 10
+        },
+        "temperature": 225,
+        "time": 80,
+        "id": "industrial_colonies:processing/foundry/tin/nugget"
+      }
+    },
+    "industrial_colonies:processing/casting/tin/nugget": {
+      "before": {
+        "type": "modernfoundry:casting_table",
+        "fluid": {
+          "fluid": "modernfoundry:molten_tin",
+          "amount": 100
+        },
+        "result": {
+          "item": "mekanism:nugget_tin"
+        },
+        "cooling_time": 40,
+        "cast": {
+          "tag": "modernfoundry:casts/multi_use/nugget"
+        },
+        "id": "industrial_colonies:processing/casting/tin/nugget"
+      },
+      "after": {
+        "type": "modernfoundry:casting_table",
+        "fluid": {
+          "fluid": "modernfoundry:molten_tin",
+          "amount": 10
+        },
+        "result": {
+          "item": "mekanism:nugget_tin"
+        },
+        "cooling_time": 40,
+        "cast": {
+          "tag": "modernfoundry:casts/multi_use/nugget"
+        },
+        "id": "industrial_colonies:processing/casting/tin/nugget"
+      }
+    },
+    "industrial_colonies:processing/foundry/lead/ingot": {
+      "before": {
+        "type": "modernfoundry:melting",
+        "ingredient": {
+          "tag": "c:ingots/lead"
+        },
+        "result": {
+          "fluid": "modernfoundry:molten_lead",
+          "amount": 1000
+        },
+        "temperature": 330,
+        "time": 80,
+        "id": "industrial_colonies:processing/foundry/lead/ingot"
+      },
+      "after": {
+        "type": "modernfoundry:melting",
+        "ingredient": {
+          "tag": "c:ingots/lead"
+        },
+        "result": {
+          "fluid": "modernfoundry:molten_lead",
+          "amount": 100
+        },
+        "temperature": 330,
+        "time": 80,
+        "id": "industrial_colonies:processing/foundry/lead/ingot"
+      }
+    },
+    "industrial_colonies:processing/casting/lead/ingot": {
+      "before": {
+        "type": "modernfoundry:casting_table",
+        "fluid": {
+          "fluid": "modernfoundry:molten_lead",
+          "amount": 1000
+        },
+        "result": {
+          "item": "tfmg:lead_ingot"
+        },
+        "cooling_time": 40,
+        "cast": {
+          "tag": "modernfoundry:casts/multi_use/ingot"
+        },
+        "id": "industrial_colonies:processing/casting/lead/ingot"
+      },
+      "after": {
+        "type": "modernfoundry:casting_table",
+        "fluid": {
+          "fluid": "modernfoundry:molten_lead",
+          "amount": 100
+        },
+        "result": {
+          "item": "tfmg:lead_ingot"
+        },
+        "cooling_time": 40,
+        "cast": {
+          "tag": "modernfoundry:casts/multi_use/ingot"
+        },
+        "id": "industrial_colonies:processing/casting/lead/ingot"
+      }
+    },
+    "industrial_colonies:processing/foundry/lead/block": {
+      "before": {
+        "type": "modernfoundry:melting",
+        "ingredient": {
+          "tag": "c:storage_blocks/lead"
+        },
+        "result": {
+          "fluid": "modernfoundry:molten_lead",
+          "amount": 9000
+        },
+        "temperature": 330,
+        "time": 80,
+        "id": "industrial_colonies:processing/foundry/lead/block"
+      },
+      "after": {
+        "type": "modernfoundry:melting",
+        "ingredient": {
+          "tag": "c:storage_blocks/lead"
+        },
+        "result": {
+          "fluid": "modernfoundry:molten_lead",
+          "amount": 900
+        },
+        "temperature": 330,
+        "time": 80,
+        "id": "industrial_colonies:processing/foundry/lead/block"
+      }
+    },
+    "industrial_colonies:processing/casting/lead/block": {
+      "before": {
+        "type": "modernfoundry:casting_basin",
+        "fluid": {
+          "fluid": "modernfoundry:molten_lead",
+          "amount": 9000
+        },
+        "result": {
+          "item": "tfmg:lead_block"
+        },
+        "cooling_time": 160,
+        "id": "industrial_colonies:processing/casting/lead/block"
+      },
+      "after": {
+        "type": "modernfoundry:casting_basin",
+        "fluid": {
+          "fluid": "modernfoundry:molten_lead",
+          "amount": 900
+        },
+        "result": {
+          "item": "tfmg:lead_block"
+        },
+        "cooling_time": 160,
+        "id": "industrial_colonies:processing/casting/lead/block"
+      }
+    },
+    "industrial_colonies:processing/foundry/lead/nugget": {
+      "before": {
+        "type": "modernfoundry:melting",
+        "ingredient": {
+          "tag": "c:nuggets/lead"
+        },
+        "result": {
+          "fluid": "modernfoundry:molten_lead",
+          "amount": 100
+        },
+        "temperature": 330,
+        "time": 80,
+        "id": "industrial_colonies:processing/foundry/lead/nugget"
+      },
+      "after": {
+        "type": "modernfoundry:melting",
+        "ingredient": {
+          "tag": "c:nuggets/lead"
+        },
+        "result": {
+          "fluid": "modernfoundry:molten_lead",
+          "amount": 10
+        },
+        "temperature": 330,
+        "time": 80,
+        "id": "industrial_colonies:processing/foundry/lead/nugget"
+      }
+    },
+    "industrial_colonies:processing/casting/lead/nugget": {
+      "before": {
+        "type": "modernfoundry:casting_table",
+        "fluid": {
+          "fluid": "modernfoundry:molten_lead",
+          "amount": 100
+        },
+        "result": {
+          "item": "tfmg:lead_nugget"
+        },
+        "cooling_time": 40,
+        "cast": {
+          "tag": "modernfoundry:casts/multi_use/nugget"
+        },
+        "id": "industrial_colonies:processing/casting/lead/nugget"
+      },
+      "after": {
+        "type": "modernfoundry:casting_table",
+        "fluid": {
+          "fluid": "modernfoundry:molten_lead",
+          "amount": 10
+        },
+        "result": {
+          "item": "tfmg:lead_nugget"
+        },
+        "cooling_time": 40,
+        "cast": {
+          "tag": "modernfoundry:casts/multi_use/nugget"
+        },
+        "id": "industrial_colonies:processing/casting/lead/nugget"
+      }
+    },
+    "industrial_colonies:processing/foundry/nickel/ingot": {
+      "before": {
+        "type": "modernfoundry:melting",
+        "ingredient": {
+          "tag": "c:ingots/nickel"
+        },
+        "result": {
+          "fluid": "modernfoundry:molten_nickel",
+          "amount": 1000
+        },
+        "temperature": 950,
+        "time": 80,
+        "id": "industrial_colonies:processing/foundry/nickel/ingot"
+      },
+      "after": {
+        "type": "modernfoundry:melting",
+        "ingredient": {
+          "tag": "c:ingots/nickel"
+        },
+        "result": {
+          "fluid": "modernfoundry:molten_nickel",
+          "amount": 100
+        },
+        "temperature": 950,
+        "time": 80,
+        "id": "industrial_colonies:processing/foundry/nickel/ingot"
+      }
+    },
+    "industrial_colonies:processing/casting/nickel/ingot": {
+      "before": {
+        "type": "modernfoundry:casting_table",
+        "fluid": {
+          "fluid": "modernfoundry:molten_nickel",
+          "amount": 1000
+        },
+        "result": {
+          "item": "tfmg:nickel_ingot"
+        },
+        "cooling_time": 40,
+        "cast": {
+          "tag": "modernfoundry:casts/multi_use/ingot"
+        },
+        "id": "industrial_colonies:processing/casting/nickel/ingot"
+      },
+      "after": {
+        "type": "modernfoundry:casting_table",
+        "fluid": {
+          "fluid": "modernfoundry:molten_nickel",
+          "amount": 100
+        },
+        "result": {
+          "item": "tfmg:nickel_ingot"
+        },
+        "cooling_time": 40,
+        "cast": {
+          "tag": "modernfoundry:casts/multi_use/ingot"
+        },
+        "id": "industrial_colonies:processing/casting/nickel/ingot"
+      }
+    },
+    "industrial_colonies:processing/foundry/nickel/block": {
+      "before": {
+        "type": "modernfoundry:melting",
+        "ingredient": {
+          "tag": "c:storage_blocks/nickel"
+        },
+        "result": {
+          "fluid": "modernfoundry:molten_nickel",
+          "amount": 9000
+        },
+        "temperature": 950,
+        "time": 80,
+        "id": "industrial_colonies:processing/foundry/nickel/block"
+      },
+      "after": {
+        "type": "modernfoundry:melting",
+        "ingredient": {
+          "tag": "c:storage_blocks/nickel"
+        },
+        "result": {
+          "fluid": "modernfoundry:molten_nickel",
+          "amount": 900
+        },
+        "temperature": 950,
+        "time": 80,
+        "id": "industrial_colonies:processing/foundry/nickel/block"
+      }
+    },
+    "industrial_colonies:processing/casting/nickel/block": {
+      "before": {
+        "type": "modernfoundry:casting_basin",
+        "fluid": {
+          "fluid": "modernfoundry:molten_nickel",
+          "amount": 9000
+        },
+        "result": {
+          "item": "tfmg:nickel_block"
+        },
+        "cooling_time": 160,
+        "id": "industrial_colonies:processing/casting/nickel/block"
+      },
+      "after": {
+        "type": "modernfoundry:casting_basin",
+        "fluid": {
+          "fluid": "modernfoundry:molten_nickel",
+          "amount": 900
+        },
+        "result": {
+          "item": "tfmg:nickel_block"
+        },
+        "cooling_time": 160,
+        "id": "industrial_colonies:processing/casting/nickel/block"
+      }
+    },
+    "industrial_colonies:processing/foundry/nickel/nugget": {
+      "before": {
+        "type": "modernfoundry:melting",
+        "ingredient": {
+          "tag": "c:nuggets/nickel"
+        },
+        "result": {
+          "fluid": "modernfoundry:molten_nickel",
+          "amount": 100
+        },
+        "temperature": 950,
+        "time": 80,
+        "id": "industrial_colonies:processing/foundry/nickel/nugget"
+      },
+      "after": {
+        "type": "modernfoundry:melting",
+        "ingredient": {
+          "tag": "c:nuggets/nickel"
+        },
+        "result": {
+          "fluid": "modernfoundry:molten_nickel",
+          "amount": 10
+        },
+        "temperature": 950,
+        "time": 80,
+        "id": "industrial_colonies:processing/foundry/nickel/nugget"
+      }
+    },
+    "industrial_colonies:processing/casting/nickel/nugget": {
+      "before": {
+        "type": "modernfoundry:casting_table",
+        "fluid": {
+          "fluid": "modernfoundry:molten_nickel",
+          "amount": 100
+        },
+        "result": {
+          "item": "tfmg:nickel_nugget"
+        },
+        "cooling_time": 40,
+        "cast": {
+          "tag": "modernfoundry:casts/multi_use/nugget"
+        },
+        "id": "industrial_colonies:processing/casting/nickel/nugget"
+      },
+      "after": {
+        "type": "modernfoundry:casting_table",
+        "fluid": {
+          "fluid": "modernfoundry:molten_nickel",
+          "amount": 10
+        },
+        "result": {
+          "item": "tfmg:nickel_nugget"
+        },
+        "cooling_time": 40,
+        "cast": {
+          "tag": "modernfoundry:casts/multi_use/nugget"
+        },
+        "id": "industrial_colonies:processing/casting/nickel/nugget"
+      }
+    },
+    "industrial_colonies:processing/foundry/aluminum/ingot": {
+      "before": {
+        "type": "modernfoundry:melting",
+        "ingredient": {
+          "tag": "c:ingots/aluminum"
+        },
+        "result": {
+          "fluid": "modernfoundry:molten_aluminum",
+          "amount": 1000
+        },
+        "temperature": 425,
+        "time": 80,
+        "id": "industrial_colonies:processing/foundry/aluminum/ingot"
+      },
+      "after": {
+        "type": "modernfoundry:melting",
+        "ingredient": {
+          "tag": "c:ingots/aluminum"
+        },
+        "result": {
+          "fluid": "modernfoundry:molten_aluminum",
+          "amount": 100
+        },
+        "temperature": 425,
+        "time": 80,
+        "id": "industrial_colonies:processing/foundry/aluminum/ingot"
+      }
+    },
+    "industrial_colonies:processing/casting/aluminum/ingot": {
+      "before": {
+        "type": "modernfoundry:casting_table",
+        "fluid": {
+          "fluid": "modernfoundry:molten_aluminum",
+          "amount": 1000
+        },
+        "result": {
+          "item": "tfmg:aluminum_ingot"
+        },
+        "cooling_time": 40,
+        "cast": {
+          "tag": "modernfoundry:casts/multi_use/ingot"
+        },
+        "id": "industrial_colonies:processing/casting/aluminum/ingot"
+      },
+      "after": {
+        "type": "modernfoundry:casting_table",
+        "fluid": {
+          "fluid": "modernfoundry:molten_aluminum",
+          "amount": 100
+        },
+        "result": {
+          "item": "tfmg:aluminum_ingot"
+        },
+        "cooling_time": 40,
+        "cast": {
+          "tag": "modernfoundry:casts/multi_use/ingot"
+        },
+        "id": "industrial_colonies:processing/casting/aluminum/ingot"
+      }
+    },
+    "industrial_colonies:processing/foundry/aluminum/block": {
+      "before": {
+        "type": "modernfoundry:melting",
+        "ingredient": {
+          "tag": "c:storage_blocks/aluminum"
+        },
+        "result": {
+          "fluid": "modernfoundry:molten_aluminum",
+          "amount": 9000
+        },
+        "temperature": 425,
+        "time": 80,
+        "id": "industrial_colonies:processing/foundry/aluminum/block"
+      },
+      "after": {
+        "type": "modernfoundry:melting",
+        "ingredient": {
+          "tag": "c:storage_blocks/aluminum"
+        },
+        "result": {
+          "fluid": "modernfoundry:molten_aluminum",
+          "amount": 900
+        },
+        "temperature": 425,
+        "time": 80,
+        "id": "industrial_colonies:processing/foundry/aluminum/block"
+      }
+    },
+    "industrial_colonies:processing/casting/aluminum/block": {
+      "before": {
+        "type": "modernfoundry:casting_basin",
+        "fluid": {
+          "fluid": "modernfoundry:molten_aluminum",
+          "amount": 9000
+        },
+        "result": {
+          "item": "tfmg:aluminum_block"
+        },
+        "cooling_time": 160,
+        "id": "industrial_colonies:processing/casting/aluminum/block"
+      },
+      "after": {
+        "type": "modernfoundry:casting_basin",
+        "fluid": {
+          "fluid": "modernfoundry:molten_aluminum",
+          "amount": 900
+        },
+        "result": {
+          "item": "tfmg:aluminum_block"
+        },
+        "cooling_time": 160,
+        "id": "industrial_colonies:processing/casting/aluminum/block"
+      }
+    },
+    "industrial_colonies:processing/foundry/aluminum/nugget": {
+      "before": {
+        "type": "modernfoundry:melting",
+        "ingredient": {
+          "tag": "c:nuggets/aluminum"
+        },
+        "result": {
+          "fluid": "modernfoundry:molten_aluminum",
+          "amount": 100
+        },
+        "temperature": 425,
+        "time": 80,
+        "id": "industrial_colonies:processing/foundry/aluminum/nugget"
+      },
+      "after": {
+        "type": "modernfoundry:melting",
+        "ingredient": {
+          "tag": "c:nuggets/aluminum"
+        },
+        "result": {
+          "fluid": "modernfoundry:molten_aluminum",
+          "amount": 10
+        },
+        "temperature": 425,
+        "time": 80,
+        "id": "industrial_colonies:processing/foundry/aluminum/nugget"
+      }
+    },
+    "industrial_colonies:processing/casting/aluminum/nugget": {
+      "before": {
+        "type": "modernfoundry:casting_table",
+        "fluid": {
+          "fluid": "modernfoundry:molten_aluminum",
+          "amount": 100
+        },
+        "result": {
+          "item": "tfmg:aluminum_nugget"
+        },
+        "cooling_time": 40,
+        "cast": {
+          "tag": "modernfoundry:casts/multi_use/nugget"
+        },
+        "id": "industrial_colonies:processing/casting/aluminum/nugget"
+      },
+      "after": {
+        "type": "modernfoundry:casting_table",
+        "fluid": {
+          "fluid": "modernfoundry:molten_aluminum",
+          "amount": 10
+        },
+        "result": {
+          "item": "tfmg:aluminum_nugget"
+        },
+        "cooling_time": 40,
+        "cast": {
+          "tag": "modernfoundry:casts/multi_use/nugget"
+        },
+        "id": "industrial_colonies:processing/casting/aluminum/nugget"
+      }
+    },
+    "industrial_colonies:processing/foundry/lithium/ingot": {
+      "before": {
+        "type": "modernfoundry:melting",
+        "ingredient": {
+          "tag": "c:ingots/lithium"
+        },
+        "result": {
+          "fluid": "nuclearcraft:molten_lithium",
+          "amount": 1000
+        },
+        "temperature": 1000,
+        "time": 80,
+        "id": "industrial_colonies:processing/foundry/lithium/ingot"
+      },
+      "after": {
+        "type": "modernfoundry:melting",
+        "ingredient": {
+          "tag": "c:ingots/lithium"
+        },
+        "result": {
+          "fluid": "nuclearcraft:molten_lithium",
+          "amount": 100
+        },
+        "temperature": 1000,
+        "time": 80,
+        "id": "industrial_colonies:processing/foundry/lithium/ingot"
+      }
+    },
+    "industrial_colonies:processing/casting/lithium/ingot": {
+      "before": {
+        "type": "modernfoundry:casting_table",
+        "fluid": {
+          "fluid": "nuclearcraft:molten_lithium",
+          "amount": 1000
+        },
+        "result": {
+          "item": "tfmg:lithium_ingot"
+        },
+        "cooling_time": 40,
+        "cast": {
+          "tag": "modernfoundry:casts/multi_use/ingot"
+        },
+        "id": "industrial_colonies:processing/casting/lithium/ingot"
+      },
+      "after": {
+        "type": "modernfoundry:casting_table",
+        "fluid": {
+          "fluid": "nuclearcraft:molten_lithium",
+          "amount": 100
+        },
+        "result": {
+          "item": "tfmg:lithium_ingot"
+        },
+        "cooling_time": 40,
+        "cast": {
+          "tag": "modernfoundry:casts/multi_use/ingot"
+        },
+        "id": "industrial_colonies:processing/casting/lithium/ingot"
+      }
+    },
+    "industrial_colonies:processing/foundry/lithium/block": {
+      "before": {
+        "type": "modernfoundry:melting",
+        "ingredient": {
+          "tag": "c:storage_blocks/lithium"
+        },
+        "result": {
+          "fluid": "nuclearcraft:molten_lithium",
+          "amount": 9000
+        },
+        "temperature": 1000,
+        "time": 80,
+        "id": "industrial_colonies:processing/foundry/lithium/block"
+      },
+      "after": {
+        "type": "modernfoundry:melting",
+        "ingredient": {
+          "tag": "c:storage_blocks/lithium"
+        },
+        "result": {
+          "fluid": "nuclearcraft:molten_lithium",
+          "amount": 900
+        },
+        "temperature": 1000,
+        "time": 80,
+        "id": "industrial_colonies:processing/foundry/lithium/block"
+      }
+    },
+    "industrial_colonies:processing/casting/lithium/block": {
+      "before": {
+        "type": "modernfoundry:casting_basin",
+        "fluid": {
+          "fluid": "nuclearcraft:molten_lithium",
+          "amount": 9000
+        },
+        "result": {
+          "item": "tfmg:lithium_block"
+        },
+        "cooling_time": 160,
+        "id": "industrial_colonies:processing/casting/lithium/block"
+      },
+      "after": {
+        "type": "modernfoundry:casting_basin",
+        "fluid": {
+          "fluid": "nuclearcraft:molten_lithium",
+          "amount": 900
+        },
+        "result": {
+          "item": "tfmg:lithium_block"
+        },
+        "cooling_time": 160,
+        "id": "industrial_colonies:processing/casting/lithium/block"
+      }
+    },
+    "industrial_colonies:processing/foundry/lithium/nugget": {
+      "before": {
+        "type": "modernfoundry:melting",
+        "ingredient": {
+          "tag": "c:nuggets/lithium"
+        },
+        "result": {
+          "fluid": "nuclearcraft:molten_lithium",
+          "amount": 100
+        },
+        "temperature": 1000,
+        "time": 80,
+        "id": "industrial_colonies:processing/foundry/lithium/nugget"
+      },
+      "after": {
+        "type": "modernfoundry:melting",
+        "ingredient": {
+          "tag": "c:nuggets/lithium"
+        },
+        "result": {
+          "fluid": "nuclearcraft:molten_lithium",
+          "amount": 10
+        },
+        "temperature": 1000,
+        "time": 80,
+        "id": "industrial_colonies:processing/foundry/lithium/nugget"
+      }
+    },
+    "industrial_colonies:processing/casting/lithium/nugget": {
+      "before": {
+        "type": "modernfoundry:casting_table",
+        "fluid": {
+          "fluid": "nuclearcraft:molten_lithium",
+          "amount": 100
+        },
+        "result": {
+          "item": "tfmg:lithium_nugget"
+        },
+        "cooling_time": 40,
+        "cast": {
+          "tag": "modernfoundry:casts/multi_use/nugget"
+        },
+        "id": "industrial_colonies:processing/casting/lithium/nugget"
+      },
+      "after": {
+        "type": "modernfoundry:casting_table",
+        "fluid": {
+          "fluid": "nuclearcraft:molten_lithium",
+          "amount": 10
+        },
+        "result": {
+          "item": "tfmg:lithium_nugget"
+        },
+        "cooling_time": 40,
+        "cast": {
+          "tag": "modernfoundry:casts/multi_use/nugget"
+        },
+        "id": "industrial_colonies:processing/casting/lithium/nugget"
+      }
+    },
+    "industrial_colonies:processing/foundry/osmium/ingot": {
+      "before": {
+        "type": "modernfoundry:melting",
+        "ingredient": {
+          "tag": "c:ingots/osmium"
+        },
+        "result": {
+          "fluid": "modernfoundry:molten_osmium",
+          "amount": 1000
+        },
+        "temperature": 975,
+        "time": 80,
+        "id": "industrial_colonies:processing/foundry/osmium/ingot"
+      },
+      "after": {
+        "type": "modernfoundry:melting",
+        "ingredient": {
+          "tag": "c:ingots/osmium"
+        },
+        "result": {
+          "fluid": "modernfoundry:molten_osmium",
+          "amount": 100
+        },
+        "temperature": 975,
+        "time": 80,
+        "id": "industrial_colonies:processing/foundry/osmium/ingot"
+      }
+    },
+    "industrial_colonies:processing/casting/osmium/ingot": {
+      "before": {
+        "type": "modernfoundry:casting_table",
+        "fluid": {
+          "fluid": "modernfoundry:molten_osmium",
+          "amount": 1000
+        },
+        "result": {
+          "item": "mekanism:ingot_osmium"
+        },
+        "cooling_time": 40,
+        "cast": {
+          "tag": "modernfoundry:casts/multi_use/ingot"
+        },
+        "id": "industrial_colonies:processing/casting/osmium/ingot"
+      },
+      "after": {
+        "type": "modernfoundry:casting_table",
+        "fluid": {
+          "fluid": "modernfoundry:molten_osmium",
+          "amount": 100
+        },
+        "result": {
+          "item": "mekanism:ingot_osmium"
+        },
+        "cooling_time": 40,
+        "cast": {
+          "tag": "modernfoundry:casts/multi_use/ingot"
+        },
+        "id": "industrial_colonies:processing/casting/osmium/ingot"
+      }
+    },
+    "industrial_colonies:processing/foundry/osmium/block": {
+      "before": {
+        "type": "modernfoundry:melting",
+        "ingredient": {
+          "tag": "c:storage_blocks/osmium"
+        },
+        "result": {
+          "fluid": "modernfoundry:molten_osmium",
+          "amount": 9000
+        },
+        "temperature": 975,
+        "time": 80,
+        "id": "industrial_colonies:processing/foundry/osmium/block"
+      },
+      "after": {
+        "type": "modernfoundry:melting",
+        "ingredient": {
+          "tag": "c:storage_blocks/osmium"
+        },
+        "result": {
+          "fluid": "modernfoundry:molten_osmium",
+          "amount": 900
+        },
+        "temperature": 975,
+        "time": 80,
+        "id": "industrial_colonies:processing/foundry/osmium/block"
+      }
+    },
+    "industrial_colonies:processing/casting/osmium/block": {
+      "before": {
+        "type": "modernfoundry:casting_basin",
+        "fluid": {
+          "fluid": "modernfoundry:molten_osmium",
+          "amount": 9000
+        },
+        "result": {
+          "item": "mekanism:block_osmium"
+        },
+        "cooling_time": 160,
+        "id": "industrial_colonies:processing/casting/osmium/block"
+      },
+      "after": {
+        "type": "modernfoundry:casting_basin",
+        "fluid": {
+          "fluid": "modernfoundry:molten_osmium",
+          "amount": 900
+        },
+        "result": {
+          "item": "mekanism:block_osmium"
+        },
+        "cooling_time": 160,
+        "id": "industrial_colonies:processing/casting/osmium/block"
+      }
+    },
+    "industrial_colonies:processing/foundry/osmium/nugget": {
+      "before": {
+        "type": "modernfoundry:melting",
+        "ingredient": {
+          "tag": "c:nuggets/osmium"
+        },
+        "result": {
+          "fluid": "modernfoundry:molten_osmium",
+          "amount": 100
+        },
+        "temperature": 975,
+        "time": 80,
+        "id": "industrial_colonies:processing/foundry/osmium/nugget"
+      },
+      "after": {
+        "type": "modernfoundry:melting",
+        "ingredient": {
+          "tag": "c:nuggets/osmium"
+        },
+        "result": {
+          "fluid": "modernfoundry:molten_osmium",
+          "amount": 10
+        },
+        "temperature": 975,
+        "time": 80,
+        "id": "industrial_colonies:processing/foundry/osmium/nugget"
+      }
+    },
+    "industrial_colonies:processing/casting/osmium/nugget": {
+      "before": {
+        "type": "modernfoundry:casting_table",
+        "fluid": {
+          "fluid": "modernfoundry:molten_osmium",
+          "amount": 100
+        },
+        "result": {
+          "item": "mekanism:nugget_osmium"
+        },
+        "cooling_time": 40,
+        "cast": {
+          "tag": "modernfoundry:casts/multi_use/nugget"
+        },
+        "id": "industrial_colonies:processing/casting/osmium/nugget"
+      },
+      "after": {
+        "type": "modernfoundry:casting_table",
+        "fluid": {
+          "fluid": "modernfoundry:molten_osmium",
+          "amount": 10
+        },
+        "result": {
+          "item": "mekanism:nugget_osmium"
+        },
+        "cooling_time": 40,
+        "cast": {
+          "tag": "modernfoundry:casts/multi_use/nugget"
+        },
+        "id": "industrial_colonies:processing/casting/osmium/nugget"
+      }
+    },
+    "industrial_colonies:processing/foundry/silver/ingot": {
+      "before": {
+        "type": "modernfoundry:melting",
+        "ingredient": {
+          "tag": "c:ingots/silver"
+        },
+        "result": {
+          "fluid": "modernfoundry:molten_silver",
+          "amount": 1000
+        },
+        "temperature": 790,
+        "time": 80,
+        "id": "industrial_colonies:processing/foundry/silver/ingot"
+      },
+      "after": {
+        "type": "modernfoundry:melting",
+        "ingredient": {
+          "tag": "c:ingots/silver"
+        },
+        "result": {
+          "fluid": "modernfoundry:molten_silver",
+          "amount": 100
+        },
+        "temperature": 790,
+        "time": 80,
+        "id": "industrial_colonies:processing/foundry/silver/ingot"
+      }
+    },
+    "industrial_colonies:processing/casting/silver/ingot": {
+      "before": {
+        "type": "modernfoundry:casting_table",
+        "fluid": {
+          "fluid": "modernfoundry:molten_silver",
+          "amount": 1000
+        },
+        "result": {
+          "item": "nuclearcraft:silver_ingot"
+        },
+        "cooling_time": 40,
+        "cast": {
+          "tag": "modernfoundry:casts/multi_use/ingot"
+        },
+        "id": "industrial_colonies:processing/casting/silver/ingot"
+      },
+      "after": {
+        "type": "modernfoundry:casting_table",
+        "fluid": {
+          "fluid": "modernfoundry:molten_silver",
+          "amount": 100
+        },
+        "result": {
+          "item": "nuclearcraft:silver_ingot"
+        },
+        "cooling_time": 40,
+        "cast": {
+          "tag": "modernfoundry:casts/multi_use/ingot"
+        },
+        "id": "industrial_colonies:processing/casting/silver/ingot"
+      }
+    },
+    "industrial_colonies:processing/foundry/silver/block": {
+      "before": {
+        "type": "modernfoundry:melting",
+        "ingredient": {
+          "tag": "c:storage_blocks/silver"
+        },
+        "result": {
+          "fluid": "modernfoundry:molten_silver",
+          "amount": 9000
+        },
+        "temperature": 790,
+        "time": 80,
+        "id": "industrial_colonies:processing/foundry/silver/block"
+      },
+      "after": {
+        "type": "modernfoundry:melting",
+        "ingredient": {
+          "tag": "c:storage_blocks/silver"
+        },
+        "result": {
+          "fluid": "modernfoundry:molten_silver",
+          "amount": 900
+        },
+        "temperature": 790,
+        "time": 80,
+        "id": "industrial_colonies:processing/foundry/silver/block"
+      }
+    },
+    "industrial_colonies:processing/casting/silver/block": {
+      "before": {
+        "type": "modernfoundry:casting_basin",
+        "fluid": {
+          "fluid": "modernfoundry:molten_silver",
+          "amount": 9000
+        },
+        "result": {
+          "item": "nuclearcraft:silver_block"
+        },
+        "cooling_time": 160,
+        "id": "industrial_colonies:processing/casting/silver/block"
+      },
+      "after": {
+        "type": "modernfoundry:casting_basin",
+        "fluid": {
+          "fluid": "modernfoundry:molten_silver",
+          "amount": 900
+        },
+        "result": {
+          "item": "nuclearcraft:silver_block"
+        },
+        "cooling_time": 160,
+        "id": "industrial_colonies:processing/casting/silver/block"
+      }
+    },
+    "industrial_colonies:processing/foundry/magnesium/ingot": {
+      "before": {
+        "type": "modernfoundry:melting",
+        "ingredient": {
+          "tag": "c:ingots/magnesium"
+        },
+        "result": {
+          "fluid": "nuclearcraft:molten_magnesium",
+          "amount": 1000
+        },
+        "temperature": 1000,
+        "time": 80,
+        "id": "industrial_colonies:processing/foundry/magnesium/ingot"
+      },
+      "after": {
+        "type": "modernfoundry:melting",
+        "ingredient": {
+          "tag": "c:ingots/magnesium"
+        },
+        "result": {
+          "fluid": "nuclearcraft:molten_magnesium",
+          "amount": 100
+        },
+        "temperature": 1000,
+        "time": 80,
+        "id": "industrial_colonies:processing/foundry/magnesium/ingot"
+      }
+    },
+    "industrial_colonies:processing/casting/magnesium/ingot": {
+      "before": {
+        "type": "modernfoundry:casting_table",
+        "fluid": {
+          "fluid": "nuclearcraft:molten_magnesium",
+          "amount": 1000
+        },
+        "result": {
+          "item": "nuclearcraft:magnesium_ingot"
+        },
+        "cooling_time": 40,
+        "cast": {
+          "tag": "modernfoundry:casts/multi_use/ingot"
+        },
+        "id": "industrial_colonies:processing/casting/magnesium/ingot"
+      },
+      "after": {
+        "type": "modernfoundry:casting_table",
+        "fluid": {
+          "fluid": "nuclearcraft:molten_magnesium",
+          "amount": 100
+        },
+        "result": {
+          "item": "nuclearcraft:magnesium_ingot"
+        },
+        "cooling_time": 40,
+        "cast": {
+          "tag": "modernfoundry:casts/multi_use/ingot"
+        },
+        "id": "industrial_colonies:processing/casting/magnesium/ingot"
+      }
+    },
+    "industrial_colonies:processing/foundry/magnesium/block": {
+      "before": {
+        "type": "modernfoundry:melting",
+        "ingredient": {
+          "tag": "c:storage_blocks/magnesium"
+        },
+        "result": {
+          "fluid": "nuclearcraft:molten_magnesium",
+          "amount": 9000
+        },
+        "temperature": 1000,
+        "time": 80,
+        "id": "industrial_colonies:processing/foundry/magnesium/block"
+      },
+      "after": {
+        "type": "modernfoundry:melting",
+        "ingredient": {
+          "tag": "c:storage_blocks/magnesium"
+        },
+        "result": {
+          "fluid": "nuclearcraft:molten_magnesium",
+          "amount": 900
+        },
+        "temperature": 1000,
+        "time": 80,
+        "id": "industrial_colonies:processing/foundry/magnesium/block"
+      }
+    },
+    "industrial_colonies:processing/casting/magnesium/block": {
+      "before": {
+        "type": "modernfoundry:casting_basin",
+        "fluid": {
+          "fluid": "nuclearcraft:molten_magnesium",
+          "amount": 9000
+        },
+        "result": {
+          "item": "nuclearcraft:magnesium_block"
+        },
+        "cooling_time": 160,
+        "id": "industrial_colonies:processing/casting/magnesium/block"
+      },
+      "after": {
+        "type": "modernfoundry:casting_basin",
+        "fluid": {
+          "fluid": "nuclearcraft:molten_magnesium",
+          "amount": 900
+        },
+        "result": {
+          "item": "nuclearcraft:magnesium_block"
+        },
+        "cooling_time": 160,
+        "id": "industrial_colonies:processing/casting/magnesium/block"
+      }
+    },
+    "industrial_colonies:processing/foundry/cobalt/ingot": {
+      "before": {
+        "type": "modernfoundry:melting",
+        "ingredient": {
+          "tag": "c:ingots/cobalt"
+        },
+        "result": {
+          "fluid": "modernfoundry:molten_cobalt",
+          "amount": 1000
+        },
+        "temperature": 950,
+        "time": 80,
+        "id": "industrial_colonies:processing/foundry/cobalt/ingot"
+      },
+      "after": {
+        "type": "modernfoundry:melting",
+        "ingredient": {
+          "tag": "c:ingots/cobalt"
+        },
+        "result": {
+          "fluid": "modernfoundry:molten_cobalt",
+          "amount": 100
+        },
+        "temperature": 950,
+        "time": 80,
+        "id": "industrial_colonies:processing/foundry/cobalt/ingot"
+      }
+    },
+    "industrial_colonies:processing/casting/cobalt/ingot": {
+      "before": {
+        "type": "modernfoundry:casting_table",
+        "fluid": {
+          "fluid": "modernfoundry:molten_cobalt",
+          "amount": 1000
+        },
+        "result": {
+          "item": "nuclearcraft:cobalt_ingot"
+        },
+        "cooling_time": 40,
+        "cast": {
+          "tag": "modernfoundry:casts/multi_use/ingot"
+        },
+        "id": "industrial_colonies:processing/casting/cobalt/ingot"
+      },
+      "after": {
+        "type": "modernfoundry:casting_table",
+        "fluid": {
+          "fluid": "modernfoundry:molten_cobalt",
+          "amount": 100
+        },
+        "result": {
+          "item": "nuclearcraft:cobalt_ingot"
+        },
+        "cooling_time": 40,
+        "cast": {
+          "tag": "modernfoundry:casts/multi_use/ingot"
+        },
+        "id": "industrial_colonies:processing/casting/cobalt/ingot"
+      }
+    },
+    "industrial_colonies:processing/foundry/cobalt/block": {
+      "before": {
+        "type": "modernfoundry:melting",
+        "ingredient": {
+          "tag": "c:storage_blocks/cobalt"
+        },
+        "result": {
+          "fluid": "modernfoundry:molten_cobalt",
+          "amount": 9000
+        },
+        "temperature": 950,
+        "time": 80,
+        "id": "industrial_colonies:processing/foundry/cobalt/block"
+      },
+      "after": {
+        "type": "modernfoundry:melting",
+        "ingredient": {
+          "tag": "c:storage_blocks/cobalt"
+        },
+        "result": {
+          "fluid": "modernfoundry:molten_cobalt",
+          "amount": 900
+        },
+        "temperature": 950,
+        "time": 80,
+        "id": "industrial_colonies:processing/foundry/cobalt/block"
+      }
+    },
+    "industrial_colonies:processing/casting/cobalt/block": {
+      "before": {
+        "type": "modernfoundry:casting_basin",
+        "fluid": {
+          "fluid": "modernfoundry:molten_cobalt",
+          "amount": 9000
+        },
+        "result": {
+          "item": "nuclearcraft:cobalt_block"
+        },
+        "cooling_time": 160,
+        "id": "industrial_colonies:processing/casting/cobalt/block"
+      },
+      "after": {
+        "type": "modernfoundry:casting_basin",
+        "fluid": {
+          "fluid": "modernfoundry:molten_cobalt",
+          "amount": 900
+        },
+        "result": {
+          "item": "nuclearcraft:cobalt_block"
+        },
+        "cooling_time": 160,
+        "id": "industrial_colonies:processing/casting/cobalt/block"
+      }
+    },
+    "industrial_colonies:processing/foundry/chromium/ingot": {
+      "before": {
+        "type": "modernfoundry:melting",
+        "ingredient": {
+          "tag": "c:ingots/chromium"
+        },
+        "result": {
+          "fluid": "modernfoundry:molten_chromium",
+          "amount": 1000
+        },
+        "temperature": 1500,
+        "time": 80,
+        "id": "industrial_colonies:processing/foundry/chromium/ingot"
+      },
+      "after": {
+        "type": "modernfoundry:melting",
+        "ingredient": {
+          "tag": "c:ingots/chromium"
+        },
+        "result": {
+          "fluid": "modernfoundry:molten_chromium",
+          "amount": 100
+        },
+        "temperature": 1500,
+        "time": 80,
+        "id": "industrial_colonies:processing/foundry/chromium/ingot"
+      }
+    },
+    "industrial_colonies:processing/casting/chromium/ingot": {
+      "before": {
+        "type": "modernfoundry:casting_table",
+        "fluid": {
+          "fluid": "modernfoundry:molten_chromium",
+          "amount": 1000
+        },
+        "result": {
+          "item": "nuclearcraft:chromium_ingot"
+        },
+        "cooling_time": 40,
+        "cast": {
+          "tag": "modernfoundry:casts/multi_use/ingot"
+        },
+        "id": "industrial_colonies:processing/casting/chromium/ingot"
+      },
+      "after": {
+        "type": "modernfoundry:casting_table",
+        "fluid": {
+          "fluid": "modernfoundry:molten_chromium",
+          "amount": 100
+        },
+        "result": {
+          "item": "nuclearcraft:chromium_ingot"
+        },
+        "cooling_time": 40,
+        "cast": {
+          "tag": "modernfoundry:casts/multi_use/ingot"
+        },
+        "id": "industrial_colonies:processing/casting/chromium/ingot"
+      }
+    },
+    "industrial_colonies:processing/foundry/titanium/ingot": {
+      "before": {
+        "type": "modernfoundry:melting",
+        "ingredient": {
+          "tag": "c:ingots/titanium"
+        },
+        "result": {
+          "fluid": "industrial_colonies:molten_titanium",
+          "amount": 1000
+        },
+        "temperature": 1500,
+        "time": 80,
+        "id": "industrial_colonies:processing/foundry/titanium/ingot"
+      },
+      "after": {
+        "type": "modernfoundry:melting",
+        "ingredient": {
+          "tag": "c:ingots/titanium"
+        },
+        "result": {
+          "fluid": "industrial_colonies:molten_titanium",
+          "amount": 100
+        },
+        "temperature": 1500,
+        "time": 80,
+        "id": "industrial_colonies:processing/foundry/titanium/ingot"
+      }
+    },
+    "industrial_colonies:processing/casting/titanium/ingot": {
+      "before": {
+        "type": "modernfoundry:casting_table",
+        "fluid": {
+          "fluid": "industrial_colonies:molten_titanium",
+          "amount": 1000
+        },
+        "result": {
+          "item": "nuclearcraft:titanium_ingot"
+        },
+        "cooling_time": 40,
+        "cast": {
+          "tag": "modernfoundry:casts/multi_use/ingot"
+        },
+        "id": "industrial_colonies:processing/casting/titanium/ingot"
+      },
+      "after": {
+        "type": "modernfoundry:casting_table",
+        "fluid": {
+          "fluid": "industrial_colonies:molten_titanium",
+          "amount": 100
+        },
+        "result": {
+          "item": "nuclearcraft:titanium_ingot"
+        },
+        "cooling_time": 40,
+        "cast": {
+          "tag": "modernfoundry:casts/multi_use/ingot"
+        },
+        "id": "industrial_colonies:processing/casting/titanium/ingot"
+      }
+    },
+    "industrial_colonies:processing/foundry/titanium/block": {
+      "before": {
+        "type": "modernfoundry:melting",
+        "ingredient": {
+          "tag": "c:storage_blocks/titanium"
+        },
+        "result": {
+          "fluid": "industrial_colonies:molten_titanium",
+          "amount": 9000
+        },
+        "temperature": 1500,
+        "time": 80,
+        "id": "industrial_colonies:processing/foundry/titanium/block"
+      },
+      "after": {
+        "type": "modernfoundry:melting",
+        "ingredient": {
+          "tag": "c:storage_blocks/titanium"
+        },
+        "result": {
+          "fluid": "industrial_colonies:molten_titanium",
+          "amount": 900
+        },
+        "temperature": 1500,
+        "time": 80,
+        "id": "industrial_colonies:processing/foundry/titanium/block"
+      }
+    },
+    "industrial_colonies:processing/casting/titanium/block": {
+      "before": {
+        "type": "modernfoundry:casting_basin",
+        "fluid": {
+          "fluid": "industrial_colonies:molten_titanium",
+          "amount": 9000
+        },
+        "result": {
+          "item": "rocketnautics:titanium_block"
+        },
+        "cooling_time": 160,
+        "id": "industrial_colonies:processing/casting/titanium/block"
+      },
+      "after": {
+        "type": "modernfoundry:casting_basin",
+        "fluid": {
+          "fluid": "industrial_colonies:molten_titanium",
+          "amount": 900
+        },
+        "result": {
+          "item": "rocketnautics:titanium_block"
+        },
+        "cooling_time": 160,
+        "id": "industrial_colonies:processing/casting/titanium/block"
+      }
+    },
+    "industrial_colonies:processing/foundry/tungsten/ingot": {
+      "before": {
+        "type": "modernfoundry:melting",
+        "ingredient": {
+          "tag": "c:ingots/tungsten"
+        },
+        "result": {
+          "fluid": "modernfoundry:molten_tungsten",
+          "amount": 1000
+        },
+        "temperature": 1500,
+        "time": 80,
+        "id": "industrial_colonies:processing/foundry/tungsten/ingot"
+      },
+      "after": {
+        "type": "modernfoundry:melting",
+        "ingredient": {
+          "tag": "c:ingots/tungsten"
+        },
+        "result": {
+          "fluid": "modernfoundry:molten_tungsten",
+          "amount": 100
+        },
+        "temperature": 1500,
+        "time": 80,
+        "id": "industrial_colonies:processing/foundry/tungsten/ingot"
+      }
+    },
+    "industrial_colonies:processing/casting/tungsten/ingot": {
+      "before": {
+        "type": "modernfoundry:casting_table",
+        "fluid": {
+          "fluid": "modernfoundry:molten_tungsten",
+          "amount": 1000
+        },
+        "result": {
+          "item": "nuclearcraft:tungsten_ingot"
+        },
+        "cooling_time": 40,
+        "cast": {
+          "tag": "modernfoundry:casts/multi_use/ingot"
+        },
+        "id": "industrial_colonies:processing/casting/tungsten/ingot"
+      },
+      "after": {
+        "type": "modernfoundry:casting_table",
+        "fluid": {
+          "fluid": "modernfoundry:molten_tungsten",
+          "amount": 100
+        },
+        "result": {
+          "item": "nuclearcraft:tungsten_ingot"
+        },
+        "cooling_time": 40,
+        "cast": {
+          "tag": "modernfoundry:casts/multi_use/ingot"
+        },
+        "id": "industrial_colonies:processing/casting/tungsten/ingot"
+      }
+    },
+    "industrial_colonies:processing/foundry/tungsten/block": {
+      "before": {
+        "type": "modernfoundry:melting",
+        "ingredient": {
+          "tag": "c:storage_blocks/tungsten"
+        },
+        "result": {
+          "fluid": "modernfoundry:molten_tungsten",
+          "amount": 9000
+        },
+        "temperature": 1500,
+        "time": 80,
+        "id": "industrial_colonies:processing/foundry/tungsten/block"
+      },
+      "after": {
+        "type": "modernfoundry:melting",
+        "ingredient": {
+          "tag": "c:storage_blocks/tungsten"
+        },
+        "result": {
+          "fluid": "modernfoundry:molten_tungsten",
+          "amount": 900
+        },
+        "temperature": 1500,
+        "time": 80,
+        "id": "industrial_colonies:processing/foundry/tungsten/block"
+      }
+    },
+    "industrial_colonies:processing/casting/tungsten/block": {
+      "before": {
+        "type": "modernfoundry:casting_basin",
+        "fluid": {
+          "fluid": "modernfoundry:molten_tungsten",
+          "amount": 9000
+        },
+        "result": {
+          "item": "createmetallurgy:tungsten_block"
+        },
+        "cooling_time": 160,
+        "id": "industrial_colonies:processing/casting/tungsten/block"
+      },
+      "after": {
+        "type": "modernfoundry:casting_basin",
+        "fluid": {
+          "fluid": "modernfoundry:molten_tungsten",
+          "amount": 900
+        },
+        "result": {
+          "item": "createmetallurgy:tungsten_block"
+        },
+        "cooling_time": 160,
+        "id": "industrial_colonies:processing/casting/tungsten/block"
+      }
+    },
+    "industrial_colonies:processing/foundry/tungsten/nugget": {
+      "before": {
+        "type": "modernfoundry:melting",
+        "ingredient": {
+          "tag": "c:nuggets/tungsten"
+        },
+        "result": {
+          "fluid": "modernfoundry:molten_tungsten",
+          "amount": 100
+        },
+        "temperature": 1500,
+        "time": 80,
+        "id": "industrial_colonies:processing/foundry/tungsten/nugget"
+      },
+      "after": {
+        "type": "modernfoundry:melting",
+        "ingredient": {
+          "tag": "c:nuggets/tungsten"
+        },
+        "result": {
+          "fluid": "modernfoundry:molten_tungsten",
+          "amount": 10
+        },
+        "temperature": 1500,
+        "time": 80,
+        "id": "industrial_colonies:processing/foundry/tungsten/nugget"
+      }
+    },
+    "industrial_colonies:processing/casting/tungsten/nugget": {
+      "before": {
+        "type": "modernfoundry:casting_table",
+        "fluid": {
+          "fluid": "modernfoundry:molten_tungsten",
+          "amount": 100
+        },
+        "result": {
+          "item": "createmetallurgy:tungsten_nugget"
+        },
+        "cooling_time": 40,
+        "cast": {
+          "tag": "modernfoundry:casts/multi_use/nugget"
+        },
+        "id": "industrial_colonies:processing/casting/tungsten/nugget"
+      },
+      "after": {
+        "type": "modernfoundry:casting_table",
+        "fluid": {
+          "fluid": "modernfoundry:molten_tungsten",
+          "amount": 10
+        },
+        "result": {
+          "item": "createmetallurgy:tungsten_nugget"
+        },
+        "cooling_time": 40,
+        "cast": {
+          "tag": "modernfoundry:casts/multi_use/nugget"
+        },
+        "id": "industrial_colonies:processing/casting/tungsten/nugget"
+      }
+    },
+    "industrial_colonies:processing/foundry/beryllium/ingot": {
+      "before": {
+        "type": "modernfoundry:melting",
+        "ingredient": {
+          "tag": "c:ingots/beryllium"
+        },
+        "result": {
+          "fluid": "nuclearcraft:molten_beryllium",
+          "amount": 1000
+        },
+        "temperature": 1000,
+        "time": 80,
+        "id": "industrial_colonies:processing/foundry/beryllium/ingot"
+      },
+      "after": {
+        "type": "modernfoundry:melting",
+        "ingredient": {
+          "tag": "c:ingots/beryllium"
+        },
+        "result": {
+          "fluid": "nuclearcraft:molten_beryllium",
+          "amount": 100
+        },
+        "temperature": 1000,
+        "time": 80,
+        "id": "industrial_colonies:processing/foundry/beryllium/ingot"
+      }
+    },
+    "industrial_colonies:processing/casting/beryllium/ingot": {
+      "before": {
+        "type": "modernfoundry:casting_table",
+        "fluid": {
+          "fluid": "nuclearcraft:molten_beryllium",
+          "amount": 1000
+        },
+        "result": {
+          "item": "nuclearcraft:beryllium_ingot"
+        },
+        "cooling_time": 40,
+        "cast": {
+          "tag": "modernfoundry:casts/multi_use/ingot"
+        },
+        "id": "industrial_colonies:processing/casting/beryllium/ingot"
+      },
+      "after": {
+        "type": "modernfoundry:casting_table",
+        "fluid": {
+          "fluid": "nuclearcraft:molten_beryllium",
+          "amount": 100
+        },
+        "result": {
+          "item": "nuclearcraft:beryllium_ingot"
+        },
+        "cooling_time": 40,
+        "cast": {
+          "tag": "modernfoundry:casts/multi_use/ingot"
+        },
+        "id": "industrial_colonies:processing/casting/beryllium/ingot"
+      }
+    },
+    "industrial_colonies:processing/foundry/beryllium/block": {
+      "before": {
+        "type": "modernfoundry:melting",
+        "ingredient": {
+          "tag": "c:storage_blocks/beryllium"
+        },
+        "result": {
+          "fluid": "nuclearcraft:molten_beryllium",
+          "amount": 9000
+        },
+        "temperature": 1000,
+        "time": 80,
+        "id": "industrial_colonies:processing/foundry/beryllium/block"
+      },
+      "after": {
+        "type": "modernfoundry:melting",
+        "ingredient": {
+          "tag": "c:storage_blocks/beryllium"
+        },
+        "result": {
+          "fluid": "nuclearcraft:molten_beryllium",
+          "amount": 900
+        },
+        "temperature": 1000,
+        "time": 80,
+        "id": "industrial_colonies:processing/foundry/beryllium/block"
+      }
+    },
+    "industrial_colonies:processing/casting/beryllium/block": {
+      "before": {
+        "type": "modernfoundry:casting_basin",
+        "fluid": {
+          "fluid": "nuclearcraft:molten_beryllium",
+          "amount": 9000
+        },
+        "result": {
+          "item": "nuclearcraft:beryllium_block"
+        },
+        "cooling_time": 160,
+        "id": "industrial_colonies:processing/casting/beryllium/block"
+      },
+      "after": {
+        "type": "modernfoundry:casting_basin",
+        "fluid": {
+          "fluid": "nuclearcraft:molten_beryllium",
+          "amount": 900
+        },
+        "result": {
+          "item": "nuclearcraft:beryllium_block"
+        },
+        "cooling_time": 160,
+        "id": "industrial_colonies:processing/casting/beryllium/block"
+      }
+    },
+    "industrial_colonies:processing/foundry/boron/ingot": {
+      "before": {
+        "type": "modernfoundry:melting",
+        "ingredient": {
+          "tag": "c:ingots/boron"
+        },
+        "result": {
+          "fluid": "nuclearcraft:molten_boron",
+          "amount": 1000
+        },
+        "temperature": 1000,
+        "time": 80,
+        "id": "industrial_colonies:processing/foundry/boron/ingot"
+      },
+      "after": {
+        "type": "modernfoundry:melting",
+        "ingredient": {
+          "tag": "c:ingots/boron"
+        },
+        "result": {
+          "fluid": "nuclearcraft:molten_boron",
+          "amount": 100
+        },
+        "temperature": 1000,
+        "time": 80,
+        "id": "industrial_colonies:processing/foundry/boron/ingot"
+      }
+    },
+    "industrial_colonies:processing/casting/boron/ingot": {
+      "before": {
+        "type": "modernfoundry:casting_table",
+        "fluid": {
+          "fluid": "nuclearcraft:molten_boron",
+          "amount": 1000
+        },
+        "result": {
+          "item": "nuclearcraft:boron_ingot"
+        },
+        "cooling_time": 40,
+        "cast": {
+          "tag": "modernfoundry:casts/multi_use/ingot"
+        },
+        "id": "industrial_colonies:processing/casting/boron/ingot"
+      },
+      "after": {
+        "type": "modernfoundry:casting_table",
+        "fluid": {
+          "fluid": "nuclearcraft:molten_boron",
+          "amount": 100
+        },
+        "result": {
+          "item": "nuclearcraft:boron_ingot"
+        },
+        "cooling_time": 40,
+        "cast": {
+          "tag": "modernfoundry:casts/multi_use/ingot"
+        },
+        "id": "industrial_colonies:processing/casting/boron/ingot"
+      }
+    },
+    "industrial_colonies:processing/foundry/boron/block": {
+      "before": {
+        "type": "modernfoundry:melting",
+        "ingredient": {
+          "tag": "c:storage_blocks/boron"
+        },
+        "result": {
+          "fluid": "nuclearcraft:molten_boron",
+          "amount": 9000
+        },
+        "temperature": 1000,
+        "time": 80,
+        "id": "industrial_colonies:processing/foundry/boron/block"
+      },
+      "after": {
+        "type": "modernfoundry:melting",
+        "ingredient": {
+          "tag": "c:storage_blocks/boron"
+        },
+        "result": {
+          "fluid": "nuclearcraft:molten_boron",
+          "amount": 900
+        },
+        "temperature": 1000,
+        "time": 80,
+        "id": "industrial_colonies:processing/foundry/boron/block"
+      }
+    },
+    "industrial_colonies:processing/casting/boron/block": {
+      "before": {
+        "type": "modernfoundry:casting_basin",
+        "fluid": {
+          "fluid": "nuclearcraft:molten_boron",
+          "amount": 9000
+        },
+        "result": {
+          "item": "nuclearcraft:boron_block"
+        },
+        "cooling_time": 160,
+        "id": "industrial_colonies:processing/casting/boron/block"
+      },
+      "after": {
+        "type": "modernfoundry:casting_basin",
+        "fluid": {
+          "fluid": "nuclearcraft:molten_boron",
+          "amount": 900
+        },
+        "result": {
+          "item": "nuclearcraft:boron_block"
+        },
+        "cooling_time": 160,
+        "id": "industrial_colonies:processing/casting/boron/block"
+      }
+    },
+    "industrial_colonies:processing/foundry/platinum/ingot": {
+      "before": {
+        "type": "modernfoundry:melting",
+        "ingredient": {
+          "tag": "c:ingots/platinum"
+        },
+        "result": {
+          "fluid": "modernfoundry:molten_platinum",
+          "amount": 1000
+        },
+        "temperature": 970,
+        "time": 80,
+        "id": "industrial_colonies:processing/foundry/platinum/ingot"
+      },
+      "after": {
+        "type": "modernfoundry:melting",
+        "ingredient": {
+          "tag": "c:ingots/platinum"
+        },
+        "result": {
+          "fluid": "modernfoundry:molten_platinum",
+          "amount": 100
+        },
+        "temperature": 970,
+        "time": 80,
+        "id": "industrial_colonies:processing/foundry/platinum/ingot"
+      }
+    },
+    "industrial_colonies:processing/casting/platinum/ingot": {
+      "before": {
+        "type": "modernfoundry:casting_table",
+        "fluid": {
+          "fluid": "modernfoundry:molten_platinum",
+          "amount": 1000
+        },
+        "result": {
+          "item": "nuclearcraft:platinum_ingot"
+        },
+        "cooling_time": 40,
+        "cast": {
+          "tag": "modernfoundry:casts/multi_use/ingot"
+        },
+        "id": "industrial_colonies:processing/casting/platinum/ingot"
+      },
+      "after": {
+        "type": "modernfoundry:casting_table",
+        "fluid": {
+          "fluid": "modernfoundry:molten_platinum",
+          "amount": 100
+        },
+        "result": {
+          "item": "nuclearcraft:platinum_ingot"
+        },
+        "cooling_time": 40,
+        "cast": {
+          "tag": "modernfoundry:casts/multi_use/ingot"
+        },
+        "id": "industrial_colonies:processing/casting/platinum/ingot"
+      }
+    },
+    "industrial_colonies:processing/foundry/platinum/block": {
+      "before": {
+        "type": "modernfoundry:melting",
+        "ingredient": {
+          "tag": "c:storage_blocks/platinum"
+        },
+        "result": {
+          "fluid": "modernfoundry:molten_platinum",
+          "amount": 9000
+        },
+        "temperature": 970,
+        "time": 80,
+        "id": "industrial_colonies:processing/foundry/platinum/block"
+      },
+      "after": {
+        "type": "modernfoundry:melting",
+        "ingredient": {
+          "tag": "c:storage_blocks/platinum"
+        },
+        "result": {
+          "fluid": "modernfoundry:molten_platinum",
+          "amount": 900
+        },
+        "temperature": 970,
+        "time": 80,
+        "id": "industrial_colonies:processing/foundry/platinum/block"
+      }
+    },
+    "industrial_colonies:processing/casting/platinum/block": {
+      "before": {
+        "type": "modernfoundry:casting_basin",
+        "fluid": {
+          "fluid": "modernfoundry:molten_platinum",
+          "amount": 9000
+        },
+        "result": {
+          "item": "nuclearcraft:platinum_block"
+        },
+        "cooling_time": 160,
+        "id": "industrial_colonies:processing/casting/platinum/block"
+      },
+      "after": {
+        "type": "modernfoundry:casting_basin",
+        "fluid": {
+          "fluid": "modernfoundry:molten_platinum",
+          "amount": 900
+        },
+        "result": {
+          "item": "nuclearcraft:platinum_block"
+        },
+        "cooling_time": 160,
+        "id": "industrial_colonies:processing/casting/platinum/block"
+      }
+    },
+    "industrial_colonies:processing/foundry/iridium/ingot": {
+      "before": {
+        "type": "modernfoundry:melting",
+        "ingredient": {
+          "tag": "c:ingots/iridium"
+        },
+        "result": {
+          "fluid": "industrial_colonies:molten_iridium",
+          "amount": 1000
+        },
+        "temperature": 1500,
+        "time": 80,
+        "id": "industrial_colonies:processing/foundry/iridium/ingot"
+      },
+      "after": {
+        "type": "modernfoundry:melting",
+        "ingredient": {
+          "tag": "c:ingots/iridium"
+        },
+        "result": {
+          "fluid": "industrial_colonies:molten_iridium",
+          "amount": 100
+        },
+        "temperature": 1500,
+        "time": 80,
+        "id": "industrial_colonies:processing/foundry/iridium/ingot"
+      }
+    },
+    "industrial_colonies:processing/casting/iridium/ingot": {
+      "before": {
+        "type": "modernfoundry:casting_table",
+        "fluid": {
+          "fluid": "industrial_colonies:molten_iridium",
+          "amount": 1000
+        },
+        "result": {
+          "item": "nuclearcraft:iridium_ingot"
+        },
+        "cooling_time": 40,
+        "cast": {
+          "tag": "modernfoundry:casts/multi_use/ingot"
+        },
+        "id": "industrial_colonies:processing/casting/iridium/ingot"
+      },
+      "after": {
+        "type": "modernfoundry:casting_table",
+        "fluid": {
+          "fluid": "industrial_colonies:molten_iridium",
+          "amount": 100
+        },
+        "result": {
+          "item": "nuclearcraft:iridium_ingot"
+        },
+        "cooling_time": 40,
+        "cast": {
+          "tag": "modernfoundry:casts/multi_use/ingot"
+        },
+        "id": "industrial_colonies:processing/casting/iridium/ingot"
+      }
+    },
+    "industrial_colonies:processing/foundry/steel/ingot": {
+      "before": {
+        "type": "modernfoundry:melting",
+        "ingredient": {
+          "tag": "c:ingots/steel"
+        },
+        "result": {
+          "fluid": "modernfoundry:molten_steel",
+          "amount": 1000
+        },
+        "temperature": 950,
+        "time": 80,
+        "id": "industrial_colonies:processing/foundry/steel/ingot"
+      },
+      "after": {
+        "type": "modernfoundry:melting",
+        "ingredient": {
+          "tag": "c:ingots/steel"
+        },
+        "result": {
+          "fluid": "modernfoundry:molten_steel",
+          "amount": 100
+        },
+        "temperature": 950,
+        "time": 80,
+        "id": "industrial_colonies:processing/foundry/steel/ingot"
+      }
+    },
+    "industrial_colonies:processing/casting/steel/ingot": {
+      "before": {
+        "type": "modernfoundry:casting_table",
+        "fluid": {
+          "fluid": "modernfoundry:molten_steel",
+          "amount": 1000
+        },
+        "result": {
+          "item": "tfmg:steel_ingot"
+        },
+        "cooling_time": 40,
+        "cast": {
+          "tag": "modernfoundry:casts/multi_use/ingot"
+        },
+        "id": "industrial_colonies:processing/casting/steel/ingot"
+      },
+      "after": {
+        "type": "modernfoundry:casting_table",
+        "fluid": {
+          "fluid": "modernfoundry:molten_steel",
+          "amount": 100
+        },
+        "result": {
+          "item": "tfmg:steel_ingot"
+        },
+        "cooling_time": 40,
+        "cast": {
+          "tag": "modernfoundry:casts/multi_use/ingot"
+        },
+        "id": "industrial_colonies:processing/casting/steel/ingot"
+      }
+    },
+    "industrial_colonies:processing/foundry/steel/block": {
+      "before": {
+        "type": "modernfoundry:melting",
+        "ingredient": {
+          "tag": "c:storage_blocks/steel"
+        },
+        "result": {
+          "fluid": "modernfoundry:molten_steel",
+          "amount": 9000
+        },
+        "temperature": 950,
+        "time": 80,
+        "id": "industrial_colonies:processing/foundry/steel/block"
+      },
+      "after": {
+        "type": "modernfoundry:melting",
+        "ingredient": {
+          "tag": "c:storage_blocks/steel"
+        },
+        "result": {
+          "fluid": "modernfoundry:molten_steel",
+          "amount": 900
+        },
+        "temperature": 950,
+        "time": 80,
+        "id": "industrial_colonies:processing/foundry/steel/block"
+      }
+    },
+    "industrial_colonies:processing/casting/steel/block": {
+      "before": {
+        "type": "modernfoundry:casting_basin",
+        "fluid": {
+          "fluid": "modernfoundry:molten_steel",
+          "amount": 9000
+        },
+        "result": {
+          "item": "tfmg:steel_block"
+        },
+        "cooling_time": 160,
+        "id": "industrial_colonies:processing/casting/steel/block"
+      },
+      "after": {
+        "type": "modernfoundry:casting_basin",
+        "fluid": {
+          "fluid": "modernfoundry:molten_steel",
+          "amount": 900
+        },
+        "result": {
+          "item": "tfmg:steel_block"
+        },
+        "cooling_time": 160,
+        "id": "industrial_colonies:processing/casting/steel/block"
+      }
+    },
+    "industrial_colonies:processing/foundry/steel/nugget": {
+      "before": {
+        "type": "modernfoundry:melting",
+        "ingredient": {
+          "tag": "c:nuggets/steel"
+        },
+        "result": {
+          "fluid": "modernfoundry:molten_steel",
+          "amount": 100
+        },
+        "temperature": 950,
+        "time": 80,
+        "id": "industrial_colonies:processing/foundry/steel/nugget"
+      },
+      "after": {
+        "type": "modernfoundry:melting",
+        "ingredient": {
+          "tag": "c:nuggets/steel"
+        },
+        "result": {
+          "fluid": "modernfoundry:molten_steel",
+          "amount": 10
+        },
+        "temperature": 950,
+        "time": 80,
+        "id": "industrial_colonies:processing/foundry/steel/nugget"
+      }
+    },
+    "industrial_colonies:processing/casting/steel/nugget": {
+      "before": {
+        "type": "modernfoundry:casting_table",
+        "fluid": {
+          "fluid": "modernfoundry:molten_steel",
+          "amount": 100
+        },
+        "result": {
+          "item": "tfmg:steel_nugget"
+        },
+        "cooling_time": 40,
+        "cast": {
+          "tag": "modernfoundry:casts/multi_use/nugget"
+        },
+        "id": "industrial_colonies:processing/casting/steel/nugget"
+      },
+      "after": {
+        "type": "modernfoundry:casting_table",
+        "fluid": {
+          "fluid": "modernfoundry:molten_steel",
+          "amount": 10
+        },
+        "result": {
+          "item": "tfmg:steel_nugget"
+        },
+        "cooling_time": 40,
+        "cast": {
+          "tag": "modernfoundry:casts/multi_use/nugget"
+        },
+        "id": "industrial_colonies:processing/casting/steel/nugget"
+      }
+    },
+    "industrial_colonies:processing/foundry/brass/ingot": {
+      "before": {
+        "type": "modernfoundry:melting",
+        "ingredient": {
+          "tag": "c:ingots/brass"
+        },
+        "result": {
+          "fluid": "modernfoundry:molten_brass",
+          "amount": 1000
+        },
+        "temperature": 605,
+        "time": 80,
+        "id": "industrial_colonies:processing/foundry/brass/ingot"
+      },
+      "after": {
+        "type": "modernfoundry:melting",
+        "ingredient": {
+          "tag": "c:ingots/brass"
+        },
+        "result": {
+          "fluid": "modernfoundry:molten_brass",
+          "amount": 100
+        },
+        "temperature": 605,
+        "time": 80,
+        "id": "industrial_colonies:processing/foundry/brass/ingot"
+      }
+    },
+    "industrial_colonies:processing/casting/brass/ingot": {
+      "before": {
+        "type": "modernfoundry:casting_table",
+        "fluid": {
+          "fluid": "modernfoundry:molten_brass",
+          "amount": 1000
+        },
+        "result": {
+          "item": "create:brass_ingot"
+        },
+        "cooling_time": 40,
+        "cast": {
+          "tag": "modernfoundry:casts/multi_use/ingot"
+        },
+        "id": "industrial_colonies:processing/casting/brass/ingot"
+      },
+      "after": {
+        "type": "modernfoundry:casting_table",
+        "fluid": {
+          "fluid": "modernfoundry:molten_brass",
+          "amount": 100
+        },
+        "result": {
+          "item": "create:brass_ingot"
+        },
+        "cooling_time": 40,
+        "cast": {
+          "tag": "modernfoundry:casts/multi_use/ingot"
+        },
+        "id": "industrial_colonies:processing/casting/brass/ingot"
+      }
+    },
+    "industrial_colonies:processing/foundry/brass/block": {
+      "before": {
+        "type": "modernfoundry:melting",
+        "ingredient": {
+          "tag": "c:storage_blocks/brass"
+        },
+        "result": {
+          "fluid": "modernfoundry:molten_brass",
+          "amount": 9000
+        },
+        "temperature": 605,
+        "time": 80,
+        "id": "industrial_colonies:processing/foundry/brass/block"
+      },
+      "after": {
+        "type": "modernfoundry:melting",
+        "ingredient": {
+          "tag": "c:storage_blocks/brass"
+        },
+        "result": {
+          "fluid": "modernfoundry:molten_brass",
+          "amount": 900
+        },
+        "temperature": 605,
+        "time": 80,
+        "id": "industrial_colonies:processing/foundry/brass/block"
+      }
+    },
+    "industrial_colonies:processing/casting/brass/block": {
+      "before": {
+        "type": "modernfoundry:casting_basin",
+        "fluid": {
+          "fluid": "modernfoundry:molten_brass",
+          "amount": 9000
+        },
+        "result": {
+          "item": "create:brass_block"
+        },
+        "cooling_time": 160,
+        "id": "industrial_colonies:processing/casting/brass/block"
+      },
+      "after": {
+        "type": "modernfoundry:casting_basin",
+        "fluid": {
+          "fluid": "modernfoundry:molten_brass",
+          "amount": 900
+        },
+        "result": {
+          "item": "create:brass_block"
+        },
+        "cooling_time": 160,
+        "id": "industrial_colonies:processing/casting/brass/block"
+      }
+    },
+    "industrial_colonies:processing/foundry/brass/nugget": {
+      "before": {
+        "type": "modernfoundry:melting",
+        "ingredient": {
+          "tag": "c:nuggets/brass"
+        },
+        "result": {
+          "fluid": "modernfoundry:molten_brass",
+          "amount": 100
+        },
+        "temperature": 605,
+        "time": 80,
+        "id": "industrial_colonies:processing/foundry/brass/nugget"
+      },
+      "after": {
+        "type": "modernfoundry:melting",
+        "ingredient": {
+          "tag": "c:nuggets/brass"
+        },
+        "result": {
+          "fluid": "modernfoundry:molten_brass",
+          "amount": 10
+        },
+        "temperature": 605,
+        "time": 80,
+        "id": "industrial_colonies:processing/foundry/brass/nugget"
+      }
+    },
+    "industrial_colonies:processing/casting/brass/nugget": {
+      "before": {
+        "type": "modernfoundry:casting_table",
+        "fluid": {
+          "fluid": "modernfoundry:molten_brass",
+          "amount": 100
+        },
+        "result": {
+          "item": "create:brass_nugget"
+        },
+        "cooling_time": 40,
+        "cast": {
+          "tag": "modernfoundry:casts/multi_use/nugget"
+        },
+        "id": "industrial_colonies:processing/casting/brass/nugget"
+      },
+      "after": {
+        "type": "modernfoundry:casting_table",
+        "fluid": {
+          "fluid": "modernfoundry:molten_brass",
+          "amount": 10
+        },
+        "result": {
+          "item": "create:brass_nugget"
+        },
+        "cooling_time": 40,
+        "cast": {
+          "tag": "modernfoundry:casts/multi_use/nugget"
+        },
+        "id": "industrial_colonies:processing/casting/brass/nugget"
+      }
+    },
+    "industrial_colonies:processing/foundry/bronze/ingot": {
+      "before": {
+        "type": "modernfoundry:melting",
+        "ingredient": {
+          "tag": "c:ingots/bronze"
+        },
+        "result": {
+          "fluid": "modernfoundry:molten_bronze",
+          "amount": 1000
+        },
+        "temperature": 700,
+        "time": 80,
+        "id": "industrial_colonies:processing/foundry/bronze/ingot"
+      },
+      "after": {
+        "type": "modernfoundry:melting",
+        "ingredient": {
+          "tag": "c:ingots/bronze"
+        },
+        "result": {
+          "fluid": "modernfoundry:molten_bronze",
+          "amount": 100
+        },
+        "temperature": 700,
+        "time": 80,
+        "id": "industrial_colonies:processing/foundry/bronze/ingot"
+      }
+    },
+    "industrial_colonies:processing/casting/bronze/ingot": {
+      "before": {
+        "type": "modernfoundry:casting_table",
+        "fluid": {
+          "fluid": "modernfoundry:molten_bronze",
+          "amount": 1000
+        },
+        "result": {
+          "item": "mekanism:ingot_bronze"
+        },
+        "cooling_time": 40,
+        "cast": {
+          "tag": "modernfoundry:casts/multi_use/ingot"
+        },
+        "id": "industrial_colonies:processing/casting/bronze/ingot"
+      },
+      "after": {
+        "type": "modernfoundry:casting_table",
+        "fluid": {
+          "fluid": "modernfoundry:molten_bronze",
+          "amount": 100
+        },
+        "result": {
+          "item": "mekanism:ingot_bronze"
+        },
+        "cooling_time": 40,
+        "cast": {
+          "tag": "modernfoundry:casts/multi_use/ingot"
+        },
+        "id": "industrial_colonies:processing/casting/bronze/ingot"
+      }
+    },
+    "industrial_colonies:processing/foundry/bronze/block": {
+      "before": {
+        "type": "modernfoundry:melting",
+        "ingredient": {
+          "tag": "c:storage_blocks/bronze"
+        },
+        "result": {
+          "fluid": "modernfoundry:molten_bronze",
+          "amount": 9000
+        },
+        "temperature": 700,
+        "time": 80,
+        "id": "industrial_colonies:processing/foundry/bronze/block"
+      },
+      "after": {
+        "type": "modernfoundry:melting",
+        "ingredient": {
+          "tag": "c:storage_blocks/bronze"
+        },
+        "result": {
+          "fluid": "modernfoundry:molten_bronze",
+          "amount": 900
+        },
+        "temperature": 700,
+        "time": 80,
+        "id": "industrial_colonies:processing/foundry/bronze/block"
+      }
+    },
+    "industrial_colonies:processing/casting/bronze/block": {
+      "before": {
+        "type": "modernfoundry:casting_basin",
+        "fluid": {
+          "fluid": "modernfoundry:molten_bronze",
+          "amount": 9000
+        },
+        "result": {
+          "item": "mekanism:block_bronze"
+        },
+        "cooling_time": 160,
+        "id": "industrial_colonies:processing/casting/bronze/block"
+      },
+      "after": {
+        "type": "modernfoundry:casting_basin",
+        "fluid": {
+          "fluid": "modernfoundry:molten_bronze",
+          "amount": 900
+        },
+        "result": {
+          "item": "mekanism:block_bronze"
+        },
+        "cooling_time": 160,
+        "id": "industrial_colonies:processing/casting/bronze/block"
+      }
+    },
+    "industrial_colonies:processing/foundry/bronze/nugget": {
+      "before": {
+        "type": "modernfoundry:melting",
+        "ingredient": {
+          "tag": "c:nuggets/bronze"
+        },
+        "result": {
+          "fluid": "modernfoundry:molten_bronze",
+          "amount": 100
+        },
+        "temperature": 700,
+        "time": 80,
+        "id": "industrial_colonies:processing/foundry/bronze/nugget"
+      },
+      "after": {
+        "type": "modernfoundry:melting",
+        "ingredient": {
+          "tag": "c:nuggets/bronze"
+        },
+        "result": {
+          "fluid": "modernfoundry:molten_bronze",
+          "amount": 10
+        },
+        "temperature": 700,
+        "time": 80,
+        "id": "industrial_colonies:processing/foundry/bronze/nugget"
+      }
+    },
+    "industrial_colonies:processing/casting/bronze/nugget": {
+      "before": {
+        "type": "modernfoundry:casting_table",
+        "fluid": {
+          "fluid": "modernfoundry:molten_bronze",
+          "amount": 100
+        },
+        "result": {
+          "item": "mekanism:nugget_bronze"
+        },
+        "cooling_time": 40,
+        "cast": {
+          "tag": "modernfoundry:casts/multi_use/nugget"
+        },
+        "id": "industrial_colonies:processing/casting/bronze/nugget"
+      },
+      "after": {
+        "type": "modernfoundry:casting_table",
+        "fluid": {
+          "fluid": "modernfoundry:molten_bronze",
+          "amount": 10
+        },
+        "result": {
+          "item": "mekanism:nugget_bronze"
+        },
+        "cooling_time": 40,
+        "cast": {
+          "tag": "modernfoundry:casts/multi_use/nugget"
+        },
+        "id": "industrial_colonies:processing/casting/bronze/nugget"
+      }
+    },
+    "industrial_colonies:processing/raw/iron": {
+      "before": {
+        "type": "modernfoundry:melting",
+        "ingredient": {
+          "item": "minecraft:raw_iron"
+        },
+        "result": {
+          "fluid": "modernfoundry:molten_iron",
+          "amount": 200
+        },
+        "temperature": 800,
+        "time": 80,
+        "id": "industrial_colonies:processing/raw/iron"
+      },
+      "after": {
+        "type": "modernfoundry:melting",
+        "ingredient": {
+          "item": "minecraft:raw_iron"
+        },
+        "result": {
+          "fluid": "modernfoundry:molten_iron",
+          "amount": 20
+        },
+        "temperature": 800,
+        "time": 80,
+        "id": "industrial_colonies:processing/raw/iron"
+      }
+    },
+    "industrial_colonies:processing/raw/iron_block": {
+      "before": {
+        "type": "modernfoundry:melting",
+        "ingredient": {
+          "tag": "c:storage_blocks/raw_iron"
+        },
+        "result": {
+          "fluid": "modernfoundry:molten_iron",
+          "amount": 1800
+        },
+        "temperature": 800,
+        "time": 80,
+        "id": "industrial_colonies:processing/raw/iron_block"
+      },
+      "after": {
+        "type": "modernfoundry:melting",
+        "ingredient": {
+          "tag": "c:storage_blocks/raw_iron"
+        },
+        "result": {
+          "fluid": "modernfoundry:molten_iron",
+          "amount": 180
+        },
+        "temperature": 800,
+        "time": 80,
+        "id": "industrial_colonies:processing/raw/iron_block"
+      }
+    },
+    "industrial_colonies:processing/raw/copper": {
+      "before": {
+        "type": "modernfoundry:melting",
+        "ingredient": {
+          "item": "minecraft:raw_copper"
+        },
+        "result": {
+          "fluid": "modernfoundry:molten_copper",
+          "amount": 125
+        },
+        "temperature": 500,
+        "time": 80,
+        "id": "industrial_colonies:processing/raw/copper"
+      },
+      "after": {
+        "type": "modernfoundry:melting",
+        "ingredient": {
+          "item": "minecraft:raw_copper"
+        },
+        "result": {
+          "fluid": "modernfoundry:molten_copper",
+          "amount": 13
+        },
+        "temperature": 500,
+        "time": 80,
+        "id": "industrial_colonies:processing/raw/copper"
+      }
+    },
+    "industrial_colonies:processing/raw/copper_block": {
+      "before": {
+        "type": "modernfoundry:melting",
+        "ingredient": {
+          "tag": "c:storage_blocks/raw_copper"
+        },
+        "result": {
+          "fluid": "modernfoundry:molten_copper",
+          "amount": 1125
+        },
+        "temperature": 500,
+        "time": 80,
+        "id": "industrial_colonies:processing/raw/copper_block"
+      },
+      "after": {
+        "type": "modernfoundry:melting",
+        "ingredient": {
+          "tag": "c:storage_blocks/raw_copper"
+        },
+        "result": {
+          "fluid": "modernfoundry:molten_copper",
+          "amount": 113
+        },
+        "temperature": 500,
+        "time": 80,
+        "id": "industrial_colonies:processing/raw/copper_block"
+      }
+    },
+    "industrial_colonies:processing/raw/gold": {
+      "before": {
+        "type": "modernfoundry:melting",
+        "ingredient": {
+          "item": "minecraft:raw_gold"
+        },
+        "result": {
+          "fluid": "modernfoundry:molten_gold",
+          "amount": 100
+        },
+        "temperature": 700,
+        "time": 80,
+        "id": "industrial_colonies:processing/raw/gold"
+      },
+      "after": {
+        "type": "modernfoundry:melting",
+        "ingredient": {
+          "item": "minecraft:raw_gold"
+        },
+        "result": {
+          "fluid": "modernfoundry:molten_gold",
+          "amount": 10
+        },
+        "temperature": 700,
+        "time": 80,
+        "id": "industrial_colonies:processing/raw/gold"
+      }
+    },
+    "industrial_colonies:processing/raw/gold_block": {
+      "before": {
+        "type": "modernfoundry:melting",
+        "ingredient": {
+          "tag": "c:storage_blocks/raw_gold"
+        },
+        "result": {
+          "fluid": "modernfoundry:molten_gold",
+          "amount": 900
+        },
+        "temperature": 700,
+        "time": 80,
+        "id": "industrial_colonies:processing/raw/gold_block"
+      },
+      "after": {
+        "type": "modernfoundry:melting",
+        "ingredient": {
+          "tag": "c:storage_blocks/raw_gold"
+        },
+        "result": {
+          "fluid": "modernfoundry:molten_gold",
+          "amount": 90
+        },
+        "temperature": 700,
+        "time": 80,
+        "id": "industrial_colonies:processing/raw/gold_block"
+      }
+    },
+    "industrial_colonies:processing/raw/zinc": {
+      "before": {
+        "type": "modernfoundry:melting",
+        "ingredient": {
+          "item": "create:raw_zinc"
+        },
+        "result": {
+          "fluid": "modernfoundry:molten_zinc",
+          "amount": 125
+        },
+        "temperature": 420,
+        "time": 80,
+        "id": "industrial_colonies:processing/raw/zinc"
+      },
+      "after": {
+        "type": "modernfoundry:melting",
+        "ingredient": {
+          "item": "create:raw_zinc"
+        },
+        "result": {
+          "fluid": "modernfoundry:molten_zinc",
+          "amount": 13
+        },
+        "temperature": 420,
+        "time": 80,
+        "id": "industrial_colonies:processing/raw/zinc"
+      }
+    },
+    "industrial_colonies:processing/raw/zinc_block": {
+      "before": {
+        "type": "modernfoundry:melting",
+        "ingredient": {
+          "tag": "c:storage_blocks/raw_zinc"
+        },
+        "result": {
+          "fluid": "modernfoundry:molten_zinc",
+          "amount": 1125
+        },
+        "temperature": 420,
+        "time": 80,
+        "id": "industrial_colonies:processing/raw/zinc_block"
+      },
+      "after": {
+        "type": "modernfoundry:melting",
+        "ingredient": {
+          "tag": "c:storage_blocks/raw_zinc"
+        },
+        "result": {
+          "fluid": "modernfoundry:molten_zinc",
+          "amount": 113
+        },
+        "temperature": 420,
+        "time": 80,
+        "id": "industrial_colonies:processing/raw/zinc_block"
+      }
+    },
+    "industrial_colonies:processing/iron/direct_hematite": {
+      "before": {
+        "type": "modernfoundry:melting",
+        "ingredient": {
+          "item": "industrial_colonies:hematite"
+        },
+        "result": {
+          "fluid": "modernfoundry:molten_iron",
+          "amount": 25
+        },
+        "temperature": 800,
+        "time": 80,
+        "id": "industrial_colonies:processing/iron/direct_hematite"
+      },
+      "after": {
+        "type": "modernfoundry:melting",
+        "ingredient": {
+          "item": "industrial_colonies:hematite"
+        },
+        "result": {
+          "fluid": "modernfoundry:molten_iron",
+          "amount": 3
+        },
+        "temperature": 800,
+        "time": 80,
+        "id": "industrial_colonies:processing/iron/direct_hematite"
+      }
+    },
+    "industrial_colonies:processing/iron/direct_magnetite": {
+      "before": {
+        "type": "modernfoundry:melting",
+        "ingredient": {
+          "item": "industrial_colonies:magnetite"
+        },
+        "result": {
+          "fluid": "modernfoundry:molten_iron",
+          "amount": 25
+        },
+        "temperature": 800,
+        "time": 80,
+        "id": "industrial_colonies:processing/iron/direct_magnetite"
+      },
+      "after": {
+        "type": "modernfoundry:melting",
+        "ingredient": {
+          "item": "industrial_colonies:magnetite"
+        },
+        "result": {
+          "fluid": "modernfoundry:molten_iron",
+          "amount": 3
+        },
+        "temperature": 800,
+        "time": 80,
+        "id": "industrial_colonies:processing/iron/direct_magnetite"
+      }
+    },
+    "industrial_colonies:processing/iron/reduced": {
+      "before": {
+        "type": "modernfoundry:melting",
+        "ingredient": {
+          "item": "industrial_colonies:reduced_iron_fraction"
+        },
+        "result": {
+          "fluid": "modernfoundry:molten_iron",
+          "amount": 75
+        },
+        "temperature": 800,
+        "time": 80,
+        "id": "industrial_colonies:processing/iron/reduced"
+      },
+      "after": {
+        "type": "modernfoundry:melting",
+        "ingredient": {
+          "item": "industrial_colonies:reduced_iron_fraction"
+        },
+        "result": {
+          "fluid": "modernfoundry:molten_iron",
+          "amount": 8
+        },
+        "temperature": 800,
+        "time": 80,
+        "id": "industrial_colonies:processing/iron/reduced"
+      }
+    },
+    "industrial_colonies:processing/copper/direct": {
+      "before": {
+        "type": "modernfoundry:melting",
+        "ingredient": {
+          "item": "industrial_colonies:chalcopyrite"
+        },
+        "result": {
+          "fluid": "modernfoundry:molten_copper",
+          "amount": 20
+        },
+        "temperature": 500,
+        "time": 80,
+        "id": "industrial_colonies:processing/copper/direct"
+      },
+      "after": {
+        "type": "modernfoundry:melting",
+        "ingredient": {
+          "item": "industrial_colonies:chalcopyrite"
+        },
+        "result": {
+          "fluid": "modernfoundry:molten_copper",
+          "amount": 2
+        },
+        "temperature": 500,
+        "time": 80,
+        "id": "industrial_colonies:processing/copper/direct"
+      }
+    },
+    "industrial_colonies:processing/copper/dust": {
+      "before": {
+        "type": "modernfoundry:melting",
+        "ingredient": {
+          "item": "mekanism:dust_copper"
+        },
+        "result": {
+          "fluid": "modernfoundry:molten_copper",
+          "amount": 50
+        },
+        "temperature": 500,
+        "time": 80,
+        "id": "industrial_colonies:processing/copper/dust"
+      },
+      "after": {
+        "type": "modernfoundry:melting",
+        "ingredient": {
+          "item": "mekanism:dust_copper"
+        },
+        "result": {
+          "fluid": "modernfoundry:molten_copper",
+          "amount": 5
+        },
+        "temperature": 500,
+        "time": 80,
+        "id": "industrial_colonies:processing/copper/dust"
+      }
+    },
+    "industrial_colonies:processing/tin/direct": {
+      "before": {
+        "type": "modernfoundry:melting",
+        "ingredient": {
+          "item": "industrial_colonies:cassiterite"
+        },
+        "result": {
+          "fluid": "modernfoundry:molten_tin",
+          "amount": 20
+        },
+        "temperature": 225,
+        "time": 80,
+        "id": "industrial_colonies:processing/tin/direct"
+      },
+      "after": {
+        "type": "modernfoundry:melting",
+        "ingredient": {
+          "item": "industrial_colonies:cassiterite"
+        },
+        "result": {
+          "fluid": "modernfoundry:molten_tin",
+          "amount": 2
+        },
+        "temperature": 225,
+        "time": 80,
+        "id": "industrial_colonies:processing/tin/direct"
+      }
+    },
+    "industrial_colonies:processing/tin/concentrate": {
+      "before": {
+        "type": "modernfoundry:melting",
+        "ingredient": {
+          "item": "industrial_colonies:heavy_cassiterite_concentrate"
+        },
+        "result": {
+          "fluid": "modernfoundry:molten_tin",
+          "amount": 75
+        },
+        "temperature": 225,
+        "time": 80,
+        "id": "industrial_colonies:processing/tin/concentrate"
+      },
+      "after": {
+        "type": "modernfoundry:melting",
+        "ingredient": {
+          "item": "industrial_colonies:heavy_cassiterite_concentrate"
+        },
+        "result": {
+          "fluid": "modernfoundry:molten_tin",
+          "amount": 8
+        },
+        "temperature": 225,
+        "time": 80,
+        "id": "industrial_colonies:processing/tin/concentrate"
+      }
+    },
+    "industrial_colonies:processing/pgm/platinum_fragment": {
+      "before": {
+        "type": "modernfoundry:melting",
+        "ingredient": {
+          "item": "industrial_colonies:platinum_trace_fragment"
+        },
+        "result": {
+          "fluid": "modernfoundry:molten_platinum",
+          "amount": 25
+        },
+        "temperature": 970,
+        "time": 80,
+        "id": "industrial_colonies:processing/pgm/platinum_fragment"
+      },
+      "after": {
+        "type": "modernfoundry:melting",
+        "ingredient": {
+          "item": "industrial_colonies:platinum_trace_fragment"
+        },
+        "result": {
+          "fluid": "modernfoundry:molten_platinum",
+          "amount": 3
+        },
+        "temperature": 970,
+        "time": 80,
+        "id": "industrial_colonies:processing/pgm/platinum_fragment"
+      }
+    },
+    "industrial_colonies:processing/zinc/melt_recovered_dust": {
+      "before": {
+        "type": "modernfoundry:melting",
+        "ingredient": {
+          "item": "nuclearcraft:zinc_dust"
+        },
+        "result": {
+          "fluid": "modernfoundry:molten_zinc",
+          "amount": 75
+        },
+        "temperature": 550,
+        "time": 80,
+        "id": "industrial_colonies:processing/zinc/melt_recovered_dust"
+      },
+      "after": {
+        "type": "modernfoundry:melting",
+        "ingredient": {
+          "item": "nuclearcraft:zinc_dust"
+        },
+        "result": {
+          "fluid": "modernfoundry:molten_zinc",
+          "amount": 8
+        },
+        "temperature": 550,
+        "time": 80,
+        "id": "industrial_colonies:processing/zinc/melt_recovered_dust"
+      }
+    },
+    "industrial_colonies:processing/zinc/direct_sphalerite": {
+      "before": {
+        "type": "modernfoundry:melting",
+        "ingredient": {
+          "item": "industrial_colonies:sphalerite"
+        },
+        "result": {
+          "fluid": "modernfoundry:molten_zinc",
+          "amount": 12
+        },
+        "temperature": 420,
+        "time": 80,
+        "id": "industrial_colonies:processing/zinc/direct_sphalerite"
+      },
+      "after": {
+        "type": "modernfoundry:melting",
+        "ingredient": {
+          "item": "industrial_colonies:sphalerite"
+        },
+        "result": {
+          "fluid": "modernfoundry:molten_zinc",
+          "amount": 1
+        },
+        "temperature": 420,
+        "time": 80,
+        "id": "industrial_colonies:processing/zinc/direct_sphalerite"
+      }
+    },
+    "industrial_colonies:processing/lead/melt_crude": {
+      "before": {
+        "type": "modernfoundry:melting",
+        "ingredient": {
+          "item": "industrial_colonies:crude_lead_granules"
+        },
+        "result": {
+          "fluid": "modernfoundry:molten_lead",
+          "amount": 75
+        },
+        "temperature": 700,
+        "time": 80,
+        "id": "industrial_colonies:processing/lead/melt_crude"
+      },
+      "after": {
+        "type": "modernfoundry:melting",
+        "ingredient": {
+          "item": "industrial_colonies:crude_lead_granules"
+        },
+        "result": {
+          "fluid": "modernfoundry:molten_lead",
+          "amount": 8
+        },
+        "temperature": 700,
+        "time": 80,
+        "id": "industrial_colonies:processing/lead/melt_crude"
+      }
+    },
+    "industrial_colonies:processing/lead/melt_high_purity": {
+      "before": {
+        "type": "modernfoundry:melting",
+        "ingredient": {
+          "item": "industrial_colonies:high_purity_lead"
+        },
+        "result": {
+          "fluid": "modernfoundry:molten_lead",
+          "amount": 75
+        },
+        "temperature": 700,
+        "time": 80,
+        "id": "industrial_colonies:processing/lead/melt_high_purity"
+      },
+      "after": {
+        "type": "modernfoundry:melting",
+        "ingredient": {
+          "item": "industrial_colonies:high_purity_lead"
+        },
+        "result": {
+          "fluid": "modernfoundry:molten_lead",
+          "amount": 8
+        },
+        "temperature": 700,
+        "time": 80,
+        "id": "industrial_colonies:processing/lead/melt_high_purity"
+      }
+    },
+    "industrial_colonies:processing/lead/direct_galena": {
+      "before": {
+        "type": "modernfoundry:melting",
+        "ingredient": {
+          "item": "industrial_colonies:galena"
+        },
+        "result": {
+          "fluid": "modernfoundry:molten_lead",
+          "amount": 15
+        },
+        "temperature": 700,
+        "time": 80,
+        "id": "industrial_colonies:processing/lead/direct_galena"
+      },
+      "after": {
+        "type": "modernfoundry:melting",
+        "ingredient": {
+          "item": "industrial_colonies:galena"
+        },
+        "result": {
+          "fluid": "modernfoundry:molten_lead",
+          "amount": 2
+        },
+        "temperature": 700,
+        "time": 80,
+        "id": "industrial_colonies:processing/lead/direct_galena"
+      }
+    },
+    "industrial_colonies:processing/nickel/melt_powder": {
+      "before": {
+        "type": "modernfoundry:melting",
+        "ingredient": {
+          "item": "immersiveengineering:dust_nickel"
+        },
+        "result": {
+          "fluid": "modernfoundry:molten_nickel",
+          "amount": 75
+        },
+        "temperature": 1400,
+        "time": 80,
+        "id": "industrial_colonies:processing/nickel/melt_powder"
+      },
+      "after": {
+        "type": "modernfoundry:melting",
+        "ingredient": {
+          "item": "immersiveengineering:dust_nickel"
+        },
+        "result": {
+          "fluid": "modernfoundry:molten_nickel",
+          "amount": 8
+        },
+        "temperature": 1400,
+        "time": 80,
+        "id": "industrial_colonies:processing/nickel/melt_powder"
+      }
+    },
+    "industrial_colonies:processing/cobalt/melt_powder": {
+      "before": {
+        "type": "modernfoundry:melting",
+        "ingredient": {
+          "item": "nuclearcraft:cobalt_dust"
+        },
+        "result": {
+          "fluid": "modernfoundry:molten_cobalt",
+          "amount": 100
+        },
+        "temperature": 1400,
+        "time": 80,
+        "id": "industrial_colonies:processing/cobalt/melt_powder"
+      },
+      "after": {
+        "type": "modernfoundry:melting",
+        "ingredient": {
+          "item": "nuclearcraft:cobalt_dust"
+        },
+        "result": {
+          "fluid": "modernfoundry:molten_cobalt",
+          "amount": 10
+        },
+        "temperature": 1400,
+        "time": 80,
+        "id": "industrial_colonies:processing/cobalt/melt_powder"
+      }
+    },
+    "industrial_colonies:processing/aluminum/melt_granules": {
+      "before": {
+        "type": "modernfoundry:melting",
+        "ingredient": {
+          "item": "industrial_colonies:electrolytic_aluminum_granules"
+        },
+        "result": {
+          "fluid": "modernfoundry:molten_aluminum",
+          "amount": 75
+        },
+        "temperature": 1000,
+        "time": 80,
+        "id": "industrial_colonies:processing/aluminum/melt_granules"
+      },
+      "after": {
+        "type": "modernfoundry:melting",
+        "ingredient": {
+          "item": "industrial_colonies:electrolytic_aluminum_granules"
+        },
+        "result": {
+          "fluid": "modernfoundry:molten_aluminum",
+          "amount": 8
+        },
+        "temperature": 1000,
+        "time": 80,
+        "id": "industrial_colonies:processing/aluminum/melt_granules"
+      }
+    },
+    "industrial_colonies:processing/magnesium/melt_powder": {
+      "before": {
+        "type": "modernfoundry:melting",
+        "ingredient": {
+          "item": "nuclearcraft:magnesium_dust"
+        },
+        "result": {
+          "fluid": "nuclearcraft:molten_magnesium",
+          "amount": 75
+        },
+        "temperature": 1000,
+        "time": 80,
+        "id": "industrial_colonies:processing/magnesium/melt_powder"
+      },
+      "after": {
+        "type": "modernfoundry:melting",
+        "ingredient": {
+          "item": "nuclearcraft:magnesium_dust"
+        },
+        "result": {
+          "fluid": "nuclearcraft:molten_magnesium",
+          "amount": 8
+        },
+        "temperature": 1000,
+        "time": 80,
+        "id": "industrial_colonies:processing/magnesium/melt_powder"
+      }
+    },
+    "industrial_colonies:processing/lithium/melt_powder": {
+      "before": {
+        "type": "modernfoundry:melting",
+        "ingredient": {
+          "item": "nuclearcraft:lithium_dust"
+        },
+        "result": {
+          "fluid": "nuclearcraft:molten_lithium",
+          "amount": 60
+        },
+        "temperature": 700,
+        "time": 80,
+        "id": "industrial_colonies:processing/lithium/melt_powder"
+      },
+      "after": {
+        "type": "modernfoundry:melting",
+        "ingredient": {
+          "item": "nuclearcraft:lithium_dust"
+        },
+        "result": {
+          "fluid": "nuclearcraft:molten_lithium",
+          "amount": 6
+        },
+        "temperature": 700,
+        "time": 80,
+        "id": "industrial_colonies:processing/lithium/melt_powder"
+      }
+    },
+    "industrial_colonies:processing/silver/melt_powder": {
+      "before": {
+        "type": "modernfoundry:melting",
+        "ingredient": {
+          "item": "nuclearcraft:silver_dust"
+        },
+        "result": {
+          "fluid": "modernfoundry:molten_silver",
+          "amount": 60
+        },
+        "temperature": 1100,
+        "time": 80,
+        "id": "industrial_colonies:processing/silver/melt_powder"
+      },
+      "after": {
+        "type": "modernfoundry:melting",
+        "ingredient": {
+          "item": "nuclearcraft:silver_dust"
+        },
+        "result": {
+          "fluid": "modernfoundry:molten_silver",
+          "amount": 6
+        },
+        "temperature": 1100,
+        "time": 80,
+        "id": "industrial_colonies:processing/silver/melt_powder"
+      }
+    },
+    "industrial_colonies:processing/silver/direct_argentite": {
+      "before": {
+        "type": "modernfoundry:melting",
+        "ingredient": {
+          "item": "industrial_colonies:argentite"
+        },
+        "result": {
+          "fluid": "modernfoundry:molten_silver",
+          "amount": 12
+        },
+        "temperature": 1000,
+        "time": 80,
+        "id": "industrial_colonies:processing/silver/direct_argentite"
+      },
+      "after": {
+        "type": "modernfoundry:melting",
+        "ingredient": {
+          "item": "industrial_colonies:argentite"
+        },
+        "result": {
+          "fluid": "modernfoundry:molten_silver",
+          "amount": 1
+        },
+        "temperature": 1000,
+        "time": 80,
+        "id": "industrial_colonies:processing/silver/direct_argentite"
+      }
+    },
+    "industrial_colonies:processing/beryllium/melt_powder": {
+      "before": {
+        "type": "modernfoundry:melting",
+        "ingredient": {
+          "item": "nuclearcraft:beryllium_dust"
+        },
+        "result": {
+          "fluid": "nuclearcraft:molten_beryllium",
+          "amount": 40
+        },
+        "temperature": 1400,
+        "time": 80,
+        "id": "industrial_colonies:processing/beryllium/melt_powder"
+      },
+      "after": {
+        "type": "modernfoundry:melting",
+        "ingredient": {
+          "item": "nuclearcraft:beryllium_dust"
+        },
+        "result": {
+          "fluid": "nuclearcraft:molten_beryllium",
+          "amount": 4
+        },
+        "temperature": 1400,
+        "time": 80,
+        "id": "industrial_colonies:processing/beryllium/melt_powder"
+      }
+    }
+  },
+  "ingotMb": 100,
+  "blockMb": 900,
+  "nuggetMb": 10,
+  "minimumTraceMb": 1
+}

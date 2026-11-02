@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "tfmg:lead_ore",
+      "required": false
+    },
+    {
+      "id": "tfmg:lithium_ore",
+      "required": false
+    },
+    {
+      "id": "tfmg:nickel_ore",
+      "required": false
+    },
+    {
+      "id": "tfmg:tfmg_striated_ores_overworld",
+      "required": false
+    }
+  ]
+}

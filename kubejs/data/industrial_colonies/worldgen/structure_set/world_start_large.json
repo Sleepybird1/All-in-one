@@ -1,0 +1,83 @@
+{
+  "structures": [
+    {
+      "structure": "betterdungeons:skeleton_dungeon",
+      "weight": 10
+    },
+    {
+      "structure": "betterdungeons:spider_dungeon",
+      "weight": 10
+    },
+    {
+      "structure": "betterdungeons:zombie_dungeon",
+      "weight": 10
+    },
+    {
+      "structure": "cataclysm:acropolis",
+      "weight": 10
+    },
+    {
+      "structure": "cataclysm:ancient_factory",
+      "weight": 10
+    },
+    {
+      "structure": "cataclysm:cursed_pyramid",
+      "weight": 10
+    },
+    {
+      "structure": "cataclysm:frosted_prison",
+      "weight": 10
+    },
+    {
+      "structure": "cataclysm:sunken_city",
+      "weight": 10
+    },
+    {
+      "structure": "dungeoncrawl:dungeon",
+      "weight": 10
+    },
+    {
+      "structure": "dungeonnowloading:labyrinth",
+      "weight": 10
+    },
+    {
+      "structure": "dungeonnowloading:temple_of_duality",
+      "weight": 10
+    },
+    {
+      "structure": "irons_spellbooks:catacombs",
+      "weight": 10
+    },
+    {
+      "structure": "irons_spellbooks:evoker_fort",
+      "weight": 10
+    },
+    {
+      "structure": "irons_spellbooks:ice_spider_den",
+      "weight": 10
+    },
+    {
+      "structure": "minecraft:ancient_city",
+      "weight": 10
+    },
+    {
+      "structure": "minecraft:mansion",
+      "weight": 20
+    },
+    {
+      "structure": "minecraft:monument",
+      "weight": 10
+    },
+    {
+      "structure": "mowziesmobs:monastery",
+      "weight": 10
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 196109123,
+    "spacing": 384,
+    "separation": 256,
+    "frequency": 0.5
+  }
+}

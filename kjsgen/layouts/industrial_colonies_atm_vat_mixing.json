@@ -1,0 +1,86 @@
+{
+  "id": "industrial_colonies:atm_vat_mixing",
+  "mod": "tfmg",
+  "icon": "tfmg:fireproof_chemical_vat",
+  "width": 190,
+  "height": 88,
+  "slots": [
+    {
+      "key": "packageA",
+      "role": "INPUT",
+      "x": 8,
+      "y": 8,
+      "required": true,
+      "item": true,
+      "count": false
+    },
+    {
+      "key": "packageB",
+      "role": "INPUT",
+      "x": 32,
+      "y": 8,
+      "required": true,
+      "item": true,
+      "count": false
+    },
+    {
+      "key": "invar",
+      "role": "INPUT",
+      "x": 56,
+      "y": 8,
+      "required": true,
+      "item": false,
+      "fluid": true,
+      "count": true
+    },
+    {
+      "key": "dirty",
+      "role": "OUTPUT",
+      "x": 130,
+      "y": 8,
+      "required": true,
+      "item": true,
+      "count": true
+    },
+    {
+      "key": "graphite",
+      "role": "OUTPUT",
+      "x": 154,
+      "y": 8,
+      "required": true,
+      "item": true,
+      "count": false
+    }
+  ],
+  "decorations": [
+    {
+      "type": "ARROW",
+      "x": 96,
+      "y": 8
+    }
+  ],
+  "parameters": [
+    {
+      "key": "holdExport",
+      "type": "BOOL",
+      "default": "true"
+    },
+    {
+      "key": "processingTime",
+      "type": "INT",
+      "default": "2400"
+    },
+    {
+      "key": "minSize",
+      "type": "INT",
+      "default": "27"
+    },
+    {
+      "key": "__template",
+      "type": "STRING",
+      "default": "if (!{param:holdExport}) event.custom({type:'tfmg:vat_machine_recipe',ingredients:[{type:'neoforge:components',items:[Item.of({slot:packageA}).id],components:{'create:package_contents':[{\"id\":\"mekanism:dust_bronze\",\"count\":1},{\"id\":\"rocketnautics:titanium_alloy\",\"count\":1},{\"id\":\"tfmg:magnetic_alloy_ingot\",\"count\":1},{\"id\":\"nuclearcraft:thermoconducting_dust\",\"count\":1},{\"id\":\"immersiveengineering:dust_electrum\",\"count\":1},{\"id\":\"nuclearcraft:lead_platinum_dust\",\"count\":1},{\"id\":\"nuclearcraft:osmiridium_ingot\",\"count\":1}]},strict:false},{type:'neoforge:components',items:[Item.of({slot:packageB}).id],components:{'create:package_contents':[{\"id\":\"immersiveengineering:dust_aluminum\",\"count\":1},{\"id\":\"nuclearcraft:cobalt_dust\",\"count\":1},{\"id\":\"nuclearcraft:chromium_dust\",\"count\":1},{\"id\":\"nuclearcraft:magnesium_dust\",\"count\":1},{\"id\":\"nuclearcraft:tungsten_dust\",\"count\":1},{\"id\":\"mekanism:dust_uranium\",\"count\":1},{\"id\":\"mekanism:dust_diamond\",\"count\":1},{\"id\":\"create:refined_radiance\",\"count\":1}]},strict:false},{type:'neoforge:single',fluid:({slot:invar}).id,amount:({slot:invar}).amount}],results:[{id:Item.of({slot:dirty}).id,count:Item.of({slot:dirty}).count},{id:Item.of({slot:graphite}).id,count:Item.of({slot:graphite}).count}],allowed_vat_types:['tfmg:firebrick_lined_vat'],machines:['tfmg:mixing'],heat_level:0,min_size:{param:minSize},processing_time:{param:processingTime},heat_requirement:'none'})"
+    }
+  ],
+  "codegen": "kjsgen:template",
+  "requiresMod": "tfmg"
+}

@@ -1,0 +1,30 @@
+{
+  "branch": "industrial_colonies:tech_tree",
+  "costs": [
+    {
+      "item": "tfmg:coal_coke",
+      "count": 12
+    },
+    {
+      "item": "tfmg:cast_iron_ingot",
+      "count": 12
+    },
+    {
+      "item": "tfmg:cast_iron_frame",
+      "count": 4
+    }
+  ],
+  "icon": "tfmg:blast_stove",
+  "name": "com.industrial_colonies.research.steel_and_metallurgy.cr01_blast_furnace.name",
+  "no-reset": true,
+  "researchLevel": 2,
+  "sortOrder": 9866,
+  "subtitle": "com.industrial_colonies.research.steel_and_metallurgy.cr01_blast_furnace.subtitle",
+  "parentResearch": "industrial_colonies:steel_and_metallurgy/cr01_the_steel_age",
+  "requirements": [
+    {
+      "type": "minecolonies:research",
+      "research": "industrial_colonies:steel_and_metallurgy/cr01_the_steel_age"
+    }
+  ]
+}

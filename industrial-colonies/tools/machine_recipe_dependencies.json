@@ -1,0 +1,843 @@
+{
+  "source": "Explicit ingredient manifests for rewritten major-machine recipes. Exact items are validated against authoritative Draw.io ancestry; listed tags are foundational raw-material inputs.",
+  "recipes": [
+    {
+      "output": "tfmg:winding_machine",
+      "node": "CR01 — Electronics Manufacturing",
+      "script": "industrial_electronics_progression.js",
+      "recipe_id": "industrial_colonies:electronics_manufacturing/winding_machine",
+      "ingredients": ["create:brass_casing", "tfmg:electric_motor", "create:precision_mechanism", "create:shaft"],
+      "foundational_tags": ["#c:plates/copper"]
+    },
+    {
+      "output": "tfmg:voltmeter",
+      "node": "CR01 — Electronics Manufacturing",
+      "script": "industrial_electronics_progression.js",
+      "recipe_id": "industrial_colonies:electronics_manufacturing/voltmeter",
+      "ingredients": ["minecraft:compass"],
+      "foundational_tags": ["#c:plates/copper", "#c:dusts/redstone", "#c:ingots/zinc"]
+    },
+    {
+      "output": "tfmg:polarizer",
+      "node": "CR01 — Electronics Manufacturing",
+      "script": "industrial_electronics_progression.js",
+      "recipe_id": "industrial_colonies:electronics_manufacturing/polarizer",
+      "ingredients": ["create:brass_casing", "tfmg:copper_spool", "tfmg:generator", "create:precision_mechanism", "tfmg:voltmeter", "tfmg:winding_machine"],
+      "foundational_tags": []
+    },
+    {
+      "output": "tfmg:electrode_holder",
+      "node": "CR01 — Electronics Manufacturing",
+      "script": "industrial_electronics_progression.js",
+      "recipe_id": "industrial_colonies:electronics_manufacturing/electrode_holder",
+      "ingredients": [],
+      "foundational_tags": ["#c:plates/brass", "#c:wires/copper", "#c:ingots/iron"]
+    },
+    {
+      "output": "tfmg:industrial_mixer",
+      "node": "CR01 — Advanced Electronics Manufacturing",
+      "script": "industrial_electronics_progression.js",
+      "recipe_id": "industrial_colonies:advanced_electronics/industrial_mixer",
+      "ingredients": ["create:brass_casing", "tfmg:circuit_board", "create:large_cogwheel", "tfmg:electric_motor", "create:precision_mechanism", "create:shaft"],
+      "foundational_tags": []
+    },
+    {
+      "output": "ae2:drive",
+      "node": "CR01 — ME System Basics",
+      "script": "industrial_ae2_me_basics.js",
+      "recipe_id": "industrial_colonies:ae2/me_system_basics/drive",
+      "ingredients": ["create:precision_mechanism", "ae2:fluix_glass_cable", "ae2:logic_processor"],
+      "foundational_tags": ["#c:plates/iron"]
+    },
+    {
+      "output": "ae2:item_storage_cell_4k",
+      "node": "CR01 — ME System Basics",
+      "script": "industrial_ae2_me_basics.js",
+      "recipe_id": "industrial_colonies:ae2/me_system_basics/item_storage_cell_4k",
+      "ingredients": ["ae2:logic_processor", "ae2:item_cell_housing", "ae2:printed_silicon"],
+      "foundational_tags": ["#c:gems/certus_quartz", "#c:dusts/redstone"]
+    },
+    {
+      "output": "mekanism:metallurgic_infuser",
+      "node": "CR01 — Infusion Technology",
+      "script": "industrial_machine_construction_01.js",
+      "recipe_id": "industrial_colonies:machine/metallurgic_infuser",
+      "ingredients": ["tfmg:capacitor_item", "tfmg:circuit_board", "tfmg:steel_casing", "create:precision_mechanism", "tfmg:transformer", "tfmg:steel_chemical_vat"],
+      "foundational_tags": ["#c:ingots/osmium", "#c:dusts/redstone"]
+    },
+    {
+      "output": "mekanism:basic_tier_installer",
+      "node": "CR01 — Modular Machinery",
+      "script": "industrial_machine_construction_02.js",
+      "recipe_id": "industrial_colonies:machine/modular/basic_tier_installer",
+      "ingredients": ["tfmg:coated_circuit_board", "mekanism:basic_control_circuit", "mekanism:alloy_infused"],
+      "foundational_tags": []
+    },
+    {
+      "output": "mekanism:enrichment_chamber",
+      "node": "CR01 — Modular Machinery",
+      "script": "industrial_machine_construction_02.js",
+      "recipe_id": "industrial_colonies:machine/modular/enrichment_chamber",
+      "ingredients": ["tfmg:steel_frame", "mekanism:basic_control_circuit", "mekanism:alloy_infused", "create:precision_mechanism", "tfmg:circuit_board"],
+      "foundational_tags": []
+    },
+    {
+      "output": "mekanism:combiner",
+      "node": "CR01 — Modular Machinery",
+      "script": "industrial_machine_construction_02.js",
+      "recipe_id": "industrial_colonies:machine/modular/combiner",
+      "ingredients": ["tfmg:steel_frame", "tfmg:steel_chemical_vat", "mekanism:basic_control_circuit", "mekanism:alloy_infused", "create:precision_mechanism"],
+      "foundational_tags": []
+    },
+    {
+      "output": "mekanism:osmium_compressor",
+      "node": "CR01 — Modular Machinery",
+      "script": "industrial_machine_construction_02.js",
+      "recipe_id": "industrial_colonies:machine/modular/osmium_compressor",
+      "ingredients": ["tfmg:steel_frame", "tfmg:steel_chemical_vat", "mekanism:basic_control_circuit", "tfmg:transformer", "create:mechanical_pump"],
+      "foundational_tags": []
+    },
+    {
+      "output": "mekanism:electrolytic_separator",
+      "node": "CR01 — Electrochemical Engineering",
+      "script": "industrial_machine_construction_03.js",
+      "recipe_id": "industrial_colonies:machine/electrochemical/electrolytic_separator",
+      "ingredients": ["mekanism:basic_control_circuit", "tfmg:copper_electrode", "create:precision_mechanism", "tfmg:circuit_board", "create:mechanical_pump", "tfmg:transformer", "tfmg:steel_chemical_vat", "tfmg:zinc_electrode"],
+      "foundational_tags": ["#c:ingots/osmium"]
+    },
+    {
+      "output": "mekanism:chemical_oxidizer",
+      "node": "CR01 — Electrochemical Engineering",
+      "script": "industrial_machine_construction_03.js",
+      "recipe_id": "industrial_colonies:machine/electrochemical/chemical_oxidizer",
+      "ingredients": ["tfmg:steel_frame", "tfmg:steel_chemical_vat", "mekanism:basic_control_circuit", "tfmg:circuit_board", "create:encased_fan"],
+      "foundational_tags": []
+    },
+    {
+      "output": "mekanism:chemical_infuser",
+      "node": "CR01 — Electrochemical Engineering",
+      "script": "industrial_machine_construction_03.js",
+      "recipe_id": "industrial_colonies:machine/electrochemical/chemical_infuser",
+      "ingredients": ["mekanism:basic_control_circuit", "tfmg:steel_frame", "tfmg:circuit_board", "create:mechanical_pump", "tfmg:transformer", "tfmg:steel_chemical_vat"],
+      "foundational_tags": ["#c:ingots/osmium"]
+    },
+    {
+      "output": "mekanism:rotary_condensentrator",
+      "node": "CR01 — Electrochemical Engineering",
+      "script": "industrial_machine_construction_03.js",
+      "recipe_id": "industrial_colonies:machine/electrochemical/rotary_condensentrator",
+      "ingredients": ["tfmg:steel_frame", "tfmg:steel_chemical_vat", "mekanism:basic_control_circuit", "create:mechanical_pump", "tfmg:capacitor_item"],
+      "foundational_tags": []
+    },
+    {
+      "output": "mekanism:purification_chamber",
+      "node": "CR01 — Chemical Separation",
+      "script": "industrial_machine_construction_04.js",
+      "recipe_id": "industrial_colonies:machine/chemical_separation/purification_chamber",
+      "ingredients": ["mekanism:enrichment_chamber", "mekanism:basic_control_circuit", "mekanism:alloy_infused", "tfmg:steel_chemical_vat", "ae2:calculation_processor"],
+      "foundational_tags": []
+    },
+    {
+      "output": "mekanism:chemical_injection_chamber",
+      "node": "CR01 — Chemical Separation",
+      "script": "industrial_machine_construction_04.js",
+      "recipe_id": "industrial_colonies:machine/chemical_separation/chemical_injection_chamber",
+      "ingredients": ["mekanism:purification_chamber", "mekanism:basic_control_circuit", "mekanism:alloy_infused", "tfmg:transformer", "ae2:engineering_processor", "create:mechanical_pump"],
+      "foundational_tags": []
+    },
+    {
+      "output": "mekanism:chemical_dissolution_chamber",
+      "node": "CR01 — Chemical Separation",
+      "script": "industrial_machine_construction_04.js",
+      "recipe_id": "industrial_colonies:machine/chemical_separation/chemical_dissolution_chamber",
+      "ingredients": ["mekanism:basic_control_circuit", "tfmg:steel_frame", "mekanism:chemical_infuser", "ae2:engineering_processor", "create:mechanical_pump", "tfmg:transformer", "tfmg:steel_chemical_vat"],
+      "foundational_tags": ["#c:ingots/osmium"]
+    },
+    {
+      "output": "mekanism:chemical_washer",
+      "node": "CR01 — Chemical Separation",
+      "script": "industrial_machine_construction_04.js",
+      "recipe_id": "industrial_colonies:machine/chemical_separation/chemical_washer",
+      "ingredients": ["ae2:calculation_processor", "mekanism:basic_control_circuit", "tfmg:steel_frame", "create:mechanical_pump", "tfmg:transformer", "tfmg:steel_chemical_vat"],
+      "foundational_tags": ["#c:ingots/osmium"]
+    },
+    {
+      "output": "mekanism:chemical_crystallizer",
+      "node": "CR01 — Chemical Separation",
+      "script": "industrial_machine_construction_04.js",
+      "recipe_id": "industrial_colonies:machine/chemical_separation/chemical_crystallizer",
+      "ingredients": ["mekanism:basic_control_circuit", "tfmg:steel_frame", "tfmg:electrode_holder", "ae2:engineering_processor", "create:precision_mechanism", "tfmg:transformer", "tfmg:steel_chemical_vat"],
+      "foundational_tags": ["#c:gems/fluorite"]
+    },
+    {
+      "output": "mekanism:isotopic_centrifuge",
+      "node": "CR01 — Uranium Processing",
+      "script": "industrial_machine_construction_05.js",
+      "recipe_id": "industrial_colonies:machine/uranium_processing/isotopic_centrifuge",
+      "ingredients": ["tfmg:steel_frame", "ae2:engineering_processor", "createcasing:refined_radiance_encased_fan", "createcasing:refined_radiance_mixer", "createcasing:refined_radiance_press", "create:refined_radiance_casing", "tfmg:transformer", "mekanism:ultimate_control_circuit", "tfmg:steel_chemical_vat"],
+      "foundational_tags": ["#c:ingots/lead"]
+    },
+    {
+      "output": "mekanism:advanced_tier_installer",
+      "node": "CR01 — Reinforced Systems",
+      "script": "industrial_tier_installer_construction.js",
+      "recipe_id": "industrial_colonies:machine/installer/advanced",
+      "ingredients": ["mekanism:basic_tier_installer", "mekanism:advanced_control_circuit", "mekanism:alloy_reinforced", "tfmg:steel_mechanism"],
+      "foundational_tags": []
+    },
+    {
+      "output": "mekanism:elite_tier_installer",
+      "node": "CR01 — Precision Engineering",
+      "script": "industrial_tier_installer_construction.js",
+      "recipe_id": "industrial_colonies:machine/installer/elite",
+      "ingredients": ["mekanism:advanced_tier_installer", "mekanism:elite_control_circuit", "mekanism:alloy_atomic", "ae2:engineering_processor", "create:precision_mechanism"],
+      "foundational_tags": []
+    },
+    {
+      "output": "mekanism:ultimate_tier_installer",
+      "node": "CR01 — High-Energy Distribution",
+      "script": "industrial_tier_installer_construction.js",
+      "recipe_id": "industrial_colonies:machine/installer/ultimate",
+      "ingredients": ["mekanism:alloy_atomic", "mekanism:ultimate_control_circuit", "ae2:engineering_processor", "mekanism:elite_tier_installer", "electroenergetics:transformer", "electroenergetics:high_voltage_capacitor", "electroenergetics:heavily_insulated_wire_spool"],
+      "foundational_tags": []
+    },
+    {
+      "output": "bigreactors:yellorium",
+      "node": "CR01 — Advanced Alloy Mixing",
+      "script": "industrial_yellorium_refinement.js",
+      "recipe_id": "industrial_colonies:materials/yellorium/molten_alloy",
+      "recipe_type": "createmetallurgy:alloying",
+      "ingredients": [],
+      "foundational_tags": ["#c:ingots/lead", "#c:ingots/gold"]
+    },
+    {
+      "output": "bigreactors:yellorium_ingot",
+      "node": "CR01 — Advanced Metallurgy",
+      "script": "industrial_yellorium_refinement.js",
+      "recipe_id": "industrial_colonies:materials/yellorium/ingot_casting",
+      "recipe_type": "createmetallurgy:casting_in_table",
+      "ingredients": ["bigreactors:yellorium", "createmetallurgy:graphite_ingot_mold"],
+      "foundational_tags": []
+    },
+    {
+      "output": "industrial_colonies:yellorium_compound",
+      "node": "CR01 — Yellorium Refinement",
+      "script": "industrial_yellorium_refinement.js",
+      "recipe_id": "industrial_colonies:materials/yellorium_compound",
+      "recipe_type": "create:crushing",
+      "ingredients": ["bigreactors:yellorium_ingot"],
+      "foundational_tags": []
+    },
+    {
+      "output": "mekanism:raw_uranium",
+      "node": "CR01 — Isotope Materials",
+      "script": "industrial_uranium_yellorium_separation.js",
+      "recipe_id": "industrial_colonies:materials/uranium/raw_from_yellorium_compound",
+      "recipe_type": "mekanism:enriching",
+      "ingredients": ["industrial_colonies:yellorium_compound"],
+      "foundational_tags": []
+    },
+    {
+      "output": "mekanism:ingot_uranium",
+      "node": "CR01 — Isotope Materials",
+      "script": "industrial_uranium_yellorium_separation.js",
+      "recipe_id": "industrial_colonies:materials/uranium/osmium_compressed_ingot",
+      "recipe_type": "mekanism:compressing",
+      "ingredients": ["mekanism:dust_uranium"],
+      "foundational_tags": []
+    },
+    {
+      "output": "create:refined_radiance_casing",
+      "node": "CR01 — The Nuclear Age",
+      "script": "industrial_nuclear_construction_01.js",
+      "recipe_id": "industrial_colonies:machine/nuclear_age/refined_radiance_casing",
+      "ingredients": ["tfmg:steel_casing", "create:refined_radiance", "industrial_colonies:yellorium_compound", "mekanism:ultimate_control_circuit", "ae2:engineering_processor"],
+      "foundational_tags": []
+    },
+    {
+      "output": "createcasing:refined_radiance_deployer",
+      "node": "CR01 — The Nuclear Age",
+      "script": "industrial_nuclear_construction_01.js",
+      "recipe_id": "industrial_colonies:machine/nuclear_age/refined_radiance_deployer",
+      "ingredients": ["create:precision_mechanism", "create:refined_radiance_casing", "industrial_colonies:yellorium_compound", "mekanism:ultimate_control_circuit", "ae2:engineering_processor"],
+      "foundational_tags": []
+    },
+    {
+      "output": "createcasing:refined_radiance_press",
+      "node": "CR01 — The Nuclear Age",
+      "script": "industrial_nuclear_construction_01.js",
+      "recipe_id": "industrial_colonies:machine/nuclear_age/refined_radiance_press",
+      "ingredients": ["create:mechanical_press", "create:refined_radiance_casing", "industrial_colonies:yellorium_compound", "tfmg:steel_mechanism", "create:precision_mechanism"],
+      "foundational_tags": []
+    },
+    {
+      "output": "createcasing:refined_radiance_mixer",
+      "node": "CR01 — The Nuclear Age",
+      "script": "industrial_nuclear_construction_01.js",
+      "recipe_id": "industrial_colonies:machine/nuclear_age/refined_radiance_mixer",
+      "ingredients": ["create:mechanical_mixer", "create:refined_radiance_casing", "industrial_colonies:yellorium_compound", "tfmg:industrial_mixer", "mekanism:ultimate_control_circuit"],
+      "foundational_tags": []
+    },
+    {
+      "output": "createcasing:refined_radiance_mechanical_roller",
+      "node": "CR01 — The Nuclear Age",
+      "script": "industrial_nuclear_construction_01.js",
+      "recipe_id": "industrial_colonies:machine/nuclear_age/refined_radiance_mechanical_roller",
+      "ingredients": ["tfmg:steel_mechanism", "create:refined_radiance_casing", "industrial_colonies:yellorium_compound", "tfmg:industrial_mixer", "create:precision_mechanism"],
+      "foundational_tags": []
+    },
+    {
+      "output": "createcasing:refined_radiance_encased_fan",
+      "node": "CR01 — The Nuclear Age",
+      "script": "industrial_nuclear_construction_01.js",
+      "recipe_id": "industrial_colonies:machine/nuclear_age/refined_radiance_encased_fan",
+      "ingredients": ["create:encased_fan", "create:refined_radiance_casing", "industrial_colonies:yellorium_compound", "tfmg:electric_motor", "tfmg:transformer"],
+      "foundational_tags": []
+    },
+    {
+      "output": "bigreactors:basic_reactorcasing",
+      "node": "CR01 — Containment Engineering",
+      "script": "industrial_nuclear_construction_02.js",
+      "recipe_id": "industrial_colonies:machine/containment/basic_reactor_casing",
+      "ingredients": ["create:refined_radiance_casing", "tfmg:steel_mechanism", "industrial_colonies:yellorium_compound", "tfmg:steel_casing"],
+      "foundational_tags": ["#c:plates/lead"]
+    },
+    {
+      "output": "bigreactors:basic_reactorglass",
+      "node": "CR01 — Containment Engineering",
+      "script": "industrial_nuclear_construction_02.js",
+      "recipe_id": "industrial_colonies:machine/containment/basic_reactor_glass",
+      "ingredients": ["bigreactors:basic_reactorcasing"],
+      "foundational_tags": ["#c:glass_blocks"]
+    },
+    {
+      "output": "bigreactors:basic_reactorsolidaccessport",
+      "node": "CR01 — Containment Engineering",
+      "script": "industrial_nuclear_construction_02.js",
+      "recipe_id": "industrial_colonies:machine/containment/basic_solid_access_port",
+      "ingredients": ["bigreactors:basic_reactorcasing", "create:chute", "create:content_observer", "mekanism:ultimate_control_circuit", "create:refined_radiance_casing"],
+      "foundational_tags": []
+    },
+    {
+      "output": "bigreactors:basic_reactorfuelrod",
+      "node": "CR01 — Core Engineering",
+      "script": "industrial_nuclear_construction_03.js",
+      "recipe_id": "industrial_colonies:machine/core/basic_reactor_fuel_rod",
+      "ingredients": ["tfmg:steel_casing", "create:refined_radiance_casing", "industrial_colonies:yellorium_compound", "tfmg:steel_mechanism"],
+      "foundational_tags": ["#c:ingots/graphite", "#c:plates/lead"]
+    },
+    {
+      "output": "bigreactors:basic_reactorcontrolrod",
+      "node": "CR01 — Core Engineering",
+      "script": "industrial_nuclear_construction_03.js",
+      "recipe_id": "industrial_colonies:machine/core/basic_reactor_control_rod",
+      "ingredients": ["mekanism:alloy_atomic", "tfmg:steel_casing", "ae2:engineering_processor", "tfmg:steel_mechanism", "create:precision_mechanism", "create:refined_radiance_casing", "electroenergetics:transformer", "mekanism:ultimate_control_circuit", "industrial_colonies:yellorium_compound"],
+      "foundational_tags": []
+    },
+    {
+      "output": "bigreactors:basic_reactorcontroller",
+      "node": "CR01 — Reactor Instrumentation",
+      "script": "industrial_nuclear_construction_04.js",
+      "recipe_id": "industrial_colonies:machine/instrumentation/basic_reactor_controller",
+      "ingredients": ["bigreactors:basic_reactorcontrolrod", "computercraft:computer_advanced", "computercraft:monitor_advanced", "ae2:engineering_processor", "tfmg:generator", "tfmg:circuit_board", "tfmg:steel_mechanism", "create:refined_radiance_casing", "electroenergetics:transformer", "mekanism:ultimate_control_circuit", "industrial_colonies:yellorium_compound"],
+      "foundational_tags": []
+    },
+    {
+      "output": "bigreactors:basic_reactorredstoneport",
+      "node": "CR01 — Reactor Instrumentation",
+      "script": "industrial_nuclear_construction_04.js",
+      "recipe_id": "industrial_colonies:machine/instrumentation/basic_reactor_redstone_port",
+      "ingredients": ["create:content_observer", "computercraft:redstone_relay", "create:refined_radiance_casing", "mekanism:ultimate_control_circuit", "ae2:logic_processor", "tfmg:circuit_board"],
+      "foundational_tags": []
+    },
+    {
+      "output": "bigreactors:basic_reactorpowertapfe_passive",
+      "node": "CR01 — Reactor Instrumentation",
+      "script": "industrial_nuclear_construction_04.js",
+      "recipe_id": "industrial_colonies:machine/instrumentation/basic_reactor_power_tap",
+      "ingredients": ["electroenergetics:connector", "create:refined_radiance_casing", "mekanism:ultimate_universal_cable", "tfmg:generator", "electroenergetics:transformer", "mekanism:alloy_atomic"],
+      "foundational_tags": []
+    },
+    {
+      "output": "industrial_colonies:enriched_uranium_fuel_pellet",
+      "node": "CR01 — Early Nuclear Fuel",
+      "script": "industrial_nuclear_fuel_01.js",
+      "recipe_id": "industrial_colonies:fuel/early_nuclear/enriched_uranium_fuel_pellet",
+      "recipe_type": "mekanism:crystallizing",
+      "ingredients": ["mekanism:fissile_fuel"],
+      "foundational_tags": []
+    },
+    {
+      "output": "bigreactors:reprocessorcasing",
+      "node": "CR01 — Fuel Reprocessing",
+      "script": "industrial_nuclear_reprocessing_01.js",
+      "recipe_id": "industrial_colonies:machine/fuel_reprocessing/reprocessor_casing",
+      "ingredients": ["bigreactors:basic_reactorcasing", "create:refined_radiance_casing", "bigreactors:cyanite_ingot", "tfmg:steel_mechanism"],
+      "foundational_tags": ["#c:plates/lead"]
+    },
+    {
+      "output": "bigreactors:reprocessorglass",
+      "node": "CR01 — Fuel Reprocessing",
+      "script": "industrial_nuclear_reprocessing_01.js",
+      "recipe_id": "industrial_colonies:machine/fuel_reprocessing/reprocessor_glass",
+      "ingredients": ["bigreactors:reprocessorcasing"],
+      "foundational_tags": ["#c:glass_blocks"]
+    },
+    {
+      "output": "bigreactors:reprocessorcontroller",
+      "node": "CR01 — Fuel Reprocessing",
+      "script": "industrial_nuclear_reprocessing_01.js",
+      "recipe_id": "industrial_colonies:machine/fuel_reprocessing/reprocessor_controller",
+      "ingredients": ["mekanism:alloy_atomic", "bigreactors:cyanite_ingot", "ae2:engineering_processor", "mekanism:chemical_crystallizer", "tfmg:steel_mechanism", "computercraft:computer_advanced", "computercraft:monitor_advanced", "create:refined_radiance_casing", "bigreactors:reprocessorcasing", "mekanism:ultimate_control_circuit", "bigreactors:basic_reactorcontroller", "bigreactors:yellorium_ingot"],
+      "foundational_tags": []
+    },
+    {
+      "output": "bigreactors:reprocessorwasteinjector",
+      "node": "CR01 — Fuel Reprocessing",
+      "script": "industrial_nuclear_reprocessing_01.js",
+      "recipe_id": "industrial_colonies:machine/fuel_reprocessing/reprocessor_waste_injector",
+      "ingredients": ["bigreactors:reprocessorcasing", "create:chute", "mekanism:chemical_oxidizer", "bigreactors:cyanite_ingot", "mekanism:ultimate_control_circuit"],
+      "foundational_tags": []
+    },
+    {
+      "output": "bigreactors:reprocessorfluidinjector",
+      "node": "CR01 — Fuel Reprocessing",
+      "script": "industrial_nuclear_reprocessing_01.js",
+      "recipe_id": "industrial_colonies:machine/fuel_reprocessing/reprocessor_fluid_injector",
+      "ingredients": ["bigreactors:reprocessorcasing", "create:mechanical_pump", "create:fluid_pipe", "tfmg:steel_chemical_vat", "mekanism:ultimate_control_circuit"],
+      "foundational_tags": []
+    },
+    {
+      "output": "bigreactors:reprocessorcollector",
+      "node": "CR01 — Fuel Reprocessing",
+      "script": "industrial_nuclear_reprocessing_01.js",
+      "recipe_id": "industrial_colonies:machine/fuel_reprocessing/reprocessor_collector",
+      "ingredients": ["bigreactors:reprocessorcasing", "create:chute", "create:depot", "create:content_observer", "bigreactors:cyanite_ingot"],
+      "foundational_tags": []
+    },
+    {
+      "output": "bigreactors:reprocessoroutputport",
+      "node": "CR01 — Fuel Reprocessing",
+      "script": "industrial_nuclear_reprocessing_01.js",
+      "recipe_id": "industrial_colonies:machine/fuel_reprocessing/reprocessor_output_port",
+      "ingredients": ["bigreactors:reprocessorcasing", "create:chute", "create:precision_mechanism", "create:content_observer", "mekanism:ultimate_control_circuit"],
+      "foundational_tags": []
+    },
+    {
+      "output": "bigreactors:reprocessorpowerport",
+      "node": "CR01 — Fuel Reprocessing",
+      "script": "industrial_nuclear_reprocessing_01.js",
+      "recipe_id": "industrial_colonies:machine/fuel_reprocessing/reprocessor_power_port",
+      "ingredients": ["bigreactors:reprocessorcasing", "electroenergetics:connector", "mekanism:ultimate_universal_cable", "tfmg:generator", "tfmg:transformer"],
+      "foundational_tags": []
+    },
+    {
+      "output": "mekanism:pressurized_reaction_chamber",
+      "node": "CR01 — Electrochemical Engineering",
+      "script": "industrial_machine_construction_06.js",
+      "recipe_id": "industrial_colonies:machine/electrochemical/pressurized_reaction_chamber",
+      "ingredients": ["tfmg:steel_frame", "tfmg:steel_chemical_vat", "create:mechanical_pump", "mekanism:basic_control_circuit", "tfmg:transformer", "create:precision_mechanism"],
+      "foundational_tags": []
+    },
+    {
+      "output": "mekanism:radioactive_waste_barrel",
+      "node": "CR01 — Actinide Chemistry",
+      "script": "industrial_nuclear_actinides_01.js",
+      "recipe_id": "industrial_colonies:machine/actinide_chemistry/radioactive_waste_barrel",
+      "ingredients": ["bigreactors:reprocessorcasing", "bigreactors:cyanite_ingot", "tfmg:steel_mechanism", "mekanism:ultimate_control_circuit"],
+      "foundational_tags": ["#c:plates/lead"]
+    },
+    {
+      "output": "mekanism:solar_neutron_activator",
+      "node": "CR01 — Actinide Chemistry",
+      "script": "industrial_nuclear_actinides_01.js",
+      "recipe_id": "industrial_colonies:machine/actinide_chemistry/solar_neutron_activator",
+      "ingredients": ["electroenergetics:connector", "minecraft:daylight_detector", "ae2:engineering_processor", "bigreactors:reprocessorglass", "tfmg:steel_mechanism", "bigreactors:cyanite_ingot", "create:refined_radiance_casing", "mekanism:ultimate_control_circuit", "mekanism:radioactive_waste_barrel"],
+      "foundational_tags": ["#c:plates/lead"]
+    },
+    {
+      "output": "mekanism:nuclear_waste",
+      "node": "CR01 — Actinide Chemistry",
+      "script": "industrial_nuclear_actinides_01.js",
+      "recipe_id": "industrial_colonies:chemistry/actinide/nuclear_waste_from_blutonium",
+      "ingredients": ["mekanism:sulfuric_acid", "bigreactors:blutonium_ingot"],
+      "foundational_tags": []
+    },
+    {
+      "output": "mekanism:plutonium",
+      "node": "CR01 — Plutonium Production",
+      "script": "industrial_nuclear_plutonium_01.js",
+      "recipe_id": "industrial_colonies:chemistry/plutonium/from_nuclear_waste",
+      "ingredients": ["mekanism:nuclear_waste"],
+      "foundational_tags": []
+    },
+    {
+      "output": "mekanism:pellet_plutonium",
+      "node": "CR01 — Plutonium Production",
+      "script": "industrial_nuclear_plutonium_01.js",
+      "recipe_id": "industrial_colonies:chemistry/plutonium/pellet_from_reaction",
+      "ingredients": ["mekanism:plutonium"],
+      "foundational_tags": ["#minecraft:water", "#c:dusts/fluorite"]
+    },
+    {
+      "output": "mekanism:spent_nuclear_waste",
+      "node": "CR01 — Plutonium Production",
+      "script": "industrial_nuclear_plutonium_01.js",
+      "recipe_id": "industrial_colonies:chemistry/plutonium/pellet_from_reaction",
+      "ingredients": ["mekanism:plutonium"],
+      "foundational_tags": ["#minecraft:water", "#c:dusts/fluorite"]
+    },
+    {
+      "output": "bigreactors:reinforced_reactorcasing",
+      "node": "CR01 — Advanced Nuclear Fuel",
+      "script": "industrial_nuclear_advanced_fuel_01.js",
+      "recipe_id": "industrial_colonies:machine/advanced_nuclear/reinforced_reactor_casing",
+      "ingredients": ["bigreactors:reprocessorcasing", "mekanism:pellet_plutonium", "create:refined_radiance_casing", "mekanism:alloy_atomic", "tfmg:steel_mechanism"],
+      "foundational_tags": ["#c:plates/lead"]
+    },
+    {
+      "output": "bigreactors:reinforced_reactorglass",
+      "node": "CR01 — Advanced Nuclear Fuel",
+      "script": "industrial_nuclear_advanced_fuel_01.js",
+      "recipe_id": "industrial_colonies:machine/advanced_nuclear/reinforced_reactor_glass",
+      "ingredients": ["bigreactors:reinforced_reactorcasing", "mekanism:pellet_plutonium"],
+      "foundational_tags": ["#c:glass_blocks"]
+    },
+    {
+      "output": "bigreactors:reinforced_reactorfuelrod",
+      "node": "CR01 — Advanced Nuclear Fuel",
+      "script": "industrial_nuclear_advanced_fuel_01.js",
+      "recipe_id": "industrial_colonies:machine/advanced_nuclear/reinforced_reactor_fuel_rod",
+      "ingredients": ["bigreactors:basic_reactorfuelrod", "mekanism:pellet_plutonium", "mekanism:alloy_atomic", "tfmg:steel_mechanism", "create:refined_radiance_casing"],
+      "foundational_tags": ["#c:plates/lead"]
+    },
+    {
+      "output": "bigreactors:reinforced_reactorcontrolrod",
+      "node": "CR01 — Advanced Nuclear Fuel",
+      "script": "industrial_nuclear_advanced_fuel_01.js",
+      "recipe_id": "industrial_colonies:machine/advanced_nuclear/reinforced_reactor_control_rod",
+      "ingredients": ["mekanism:alloy_atomic", "bigreactors:basic_reactorcontrolrod", "bigreactors:reinforced_reactorcasing", "ae2:engineering_processor", "mekanism:pellet_plutonium", "mekanism:ultimate_control_circuit"],
+      "foundational_tags": []
+    },
+    {
+      "output": "bigreactors:reinforced_reactorcontroller",
+      "node": "CR01 — Advanced Nuclear Fuel",
+      "script": "industrial_nuclear_advanced_fuel_01.js",
+      "recipe_id": "industrial_colonies:machine/advanced_nuclear/reinforced_reactor_controller",
+      "ingredients": ["mekanism:alloy_atomic", "bigreactors:basic_reactorcontroller", "bigreactors:reinforced_reactorcasing", "computercraft:computer_advanced", "computercraft:monitor_advanced", "ae2:engineering_processor", "mekanism:pellet_plutonium", "create:refined_radiance_casing", "mekanism:ultimate_control_circuit", "bigreactors:reprocessorcontroller"],
+      "foundational_tags": []
+    },
+    {
+      "output": "bigreactors:reinforced_reactorsolidaccessport",
+      "node": "CR01 — Advanced Nuclear Fuel",
+      "script": "industrial_nuclear_advanced_fuel_01.js",
+      "recipe_id": "industrial_colonies:machine/advanced_nuclear/reinforced_solid_access_port",
+      "ingredients": ["bigreactors:reinforced_reactorcasing", "mekanism:pellet_plutonium", "bigreactors:basic_reactorsolidaccessport", "bigreactors:reprocessoroutputport", "create:chute", "mekanism:ultimate_control_circuit"],
+      "foundational_tags": []
+    },
+    {
+      "output": "bigreactors:reinforced_reactorfluidaccessport",
+      "node": "CR01 — Advanced Nuclear Fuel",
+      "script": "industrial_nuclear_advanced_fuel_01.js",
+      "recipe_id": "industrial_colonies:machine/advanced_nuclear/reinforced_fluid_access_port",
+      "ingredients": ["bigreactors:reinforced_reactorcasing", "mekanism:pellet_plutonium", "bigreactors:reprocessorfluidinjector", "bigreactors:reprocessoroutputport", "create:mechanical_pump", "mekanism:rotary_condensentrator", "mekanism:ultimate_control_circuit"],
+      "foundational_tags": []
+    },
+    {
+      "output": "bigreactors:reinforced_reactorpowertapfe_passive",
+      "node": "CR01 — Advanced Nuclear Fuel",
+      "script": "industrial_nuclear_advanced_fuel_01.js",
+      "recipe_id": "industrial_colonies:machine/advanced_nuclear/reinforced_power_tap_passive",
+      "ingredients": ["bigreactors:reinforced_reactorcasing", "mekanism:pellet_plutonium", "bigreactors:basic_reactorpowertapfe_passive", "bigreactors:reprocessorpowerport", "electroenergetics:connector", "mekanism:ultimate_universal_cable", "tfmg:transformer"],
+      "foundational_tags": []
+    },
+    {
+      "output": "bigreactors:reinforced_reactorpowertapfe_active",
+      "node": "CR01 — Advanced Nuclear Fuel",
+      "script": "industrial_nuclear_advanced_fuel_01.js",
+      "recipe_id": "industrial_colonies:machine/advanced_nuclear/reinforced_power_tap_active",
+      "ingredients": ["bigreactors:reinforced_reactorpowertapfe_passive", "mekanism:pellet_plutonium", "create:content_observer", "mekanism:ultimate_control_circuit", "tfmg:generator"],
+      "foundational_tags": []
+    },
+    {
+      "output": "bigreactors:reinforced_reactorchargingportfe",
+      "node": "CR01 — Advanced Nuclear Fuel",
+      "script": "industrial_nuclear_advanced_fuel_01.js",
+      "recipe_id": "industrial_colonies:machine/advanced_nuclear/reinforced_charging_port",
+      "ingredients": ["bigreactors:reinforced_reactorpowertapfe_active", "mekanism:pellet_plutonium", "mekanism:ultimate_induction_cell", "ae2:engineering_processor", "create:refined_radiance_casing"],
+      "foundational_tags": []
+    },
+    {
+      "output": "bigreactors:reinforced_reactorredstoneport",
+      "node": "CR01 — Advanced Nuclear Fuel",
+      "script": "industrial_nuclear_advanced_fuel_01.js",
+      "recipe_id": "industrial_colonies:machine/advanced_nuclear/reinforced_redstone_port",
+      "ingredients": ["bigreactors:reinforced_reactorcasing", "mekanism:pellet_plutonium", "bigreactors:basic_reactorredstoneport", "create:content_observer", "tfmg:circuit_board", "mekanism:ultimate_control_circuit"],
+      "foundational_tags": []
+    },
+    {
+      "output": "bigreactors:reinforced_reactorcomputerport",
+      "node": "CR01 — Advanced Nuclear Fuel",
+      "script": "industrial_nuclear_advanced_fuel_01.js",
+      "recipe_id": "industrial_colonies:machine/advanced_nuclear/reinforced_computer_port",
+      "ingredients": ["bigreactors:reinforced_reactorcasing", "mekanism:pellet_plutonium", "createaddition:digital_adapter", "computercraft:computer_advanced", "computercraft:wired_modem", "create:refined_radiance_casing", "ae2:engineering_processor", "tfmg:etched_circuit_board", "mekanism:ultimate_control_circuit"],
+      "foundational_tags": []
+    },
+    {
+      "output": "er2create:reinforced_reactordisplaysource",
+      "node": "CR01 — Advanced Nuclear Fuel",
+      "script": "industrial_nuclear_advanced_fuel_01.js",
+      "recipe_id": "industrial_colonies:machine/advanced_nuclear/reinforced_display_source",
+      "ingredients": ["bigreactors:reinforced_reactorcasing", "mekanism:pellet_plutonium", "computercraft:monitor_advanced", "create:refined_radiance_casing", "createaddition:digital_adapter", "create:content_observer", "ae2:engineering_processor", "tfmg:steel_mechanism"],
+      "foundational_tags": []
+    },
+    {
+      "output": "bigreactors:reinforced_reactorfluidport_forge_passive",
+      "node": "CR01 — Advanced Nuclear Fuel",
+      "script": "industrial_nuclear_advanced_fuel_01.js",
+      "recipe_id": "industrial_colonies:machine/advanced_nuclear/reinforced_fluid_port_forge_passive",
+      "ingredients": ["bigreactors:reinforced_reactorcasing", "mekanism:pellet_plutonium", "create:mechanical_pump", "create:fluid_pipe", "bigreactors:reprocessorfluidinjector", "create:refined_radiance_casing"],
+      "foundational_tags": []
+    },
+    {
+      "output": "bigreactors:reinforced_reactorfluidport_forge_active",
+      "node": "CR01 — Advanced Nuclear Fuel",
+      "script": "industrial_nuclear_advanced_fuel_01.js",
+      "recipe_id": "industrial_colonies:machine/advanced_nuclear/reinforced_fluid_port_forge_active",
+      "ingredients": ["bigreactors:reinforced_reactorfluidport_forge_passive", "mekanism:pellet_plutonium", "create:content_observer", "mekanism:ultimate_control_circuit", "create:mechanical_pump"],
+      "foundational_tags": []
+    },
+    {
+      "output": "bigreactors:reinforced_reactorfluidport_mekanism_passive",
+      "node": "CR01 — Advanced Nuclear Fuel",
+      "script": "industrial_nuclear_advanced_fuel_01.js",
+      "recipe_id": "industrial_colonies:machine/advanced_nuclear/reinforced_fluid_port_mekanism_passive",
+      "ingredients": ["bigreactors:reinforced_reactorcasing", "mekanism:pellet_plutonium", "mekanism:rotary_condensentrator", "mekanism:chemical_washer", "bigreactors:reprocessorfluidinjector", "mekanism:ultimate_control_circuit"],
+      "foundational_tags": []
+    },
+    {
+      "output": "tfmg:surface_scanner",
+      "node": "CR01 — Oil processing",
+      "script": "industrial_oil_field_construction.js",
+      "recipe_id": "industrial_colonies:machine/oil_processing/surface_scanner",
+      "ingredients": ["create:brass_casing", "tfmg:cast_iron_frame", "create:content_observer", "create:precision_mechanism"],
+      "foundational_tags": []
+    },
+    {
+      "output": "tfmg:pumpjack_base",
+      "node": "CR01 — Oil processing",
+      "script": "industrial_oil_field_construction.js",
+      "recipe_id": "industrial_colonies:machine/oil_processing/pumpjack_base",
+      "ingredients": ["create:precision_mechanism", "create:brass_casing", "tfmg:cast_iron_mechanical_pump", "tfmg:cast_iron_pipe", "tfmg:cast_iron_fluid_tank"],
+      "foundational_tags": ["#c:strings"]
+    },
+    {
+      "output": "tfmg:pumpjack_crank",
+      "node": "CR01 — Oil processing",
+      "script": "industrial_oil_field_construction.js",
+      "recipe_id": "industrial_colonies:machine/oil_processing/pumpjack_crank",
+      "ingredients": ["create:brass_casing", "create:shaft", "create:precision_mechanism", "tfmg:cast_iron_truss"],
+      "foundational_tags": ["#c:strings"]
+    },
+    {
+      "output": "tfmg:pumpjack_hammer",
+      "node": "CR01 — Oil processing",
+      "script": "industrial_oil_field_construction.js",
+      "recipe_id": "industrial_colonies:machine/oil_processing/pumpjack_hammer",
+      "ingredients": ["create:brass_casing", "tfmg:cast_iron_frame", "tfmg:cast_iron_ingot", "tfmg:cast_iron_truss"],
+      "foundational_tags": []
+    },
+    {
+      "output": "tfmg:pumpjack_hammer_part",
+      "node": "CR01 — Oil processing",
+      "script": "industrial_oil_field_construction.js",
+      "recipe_id": "industrial_colonies:machine/oil_processing/pumpjack_hammer_part",
+      "ingredients": ["tfmg:cast_iron_block"],
+      "foundational_tags": []
+    },
+    {
+      "output": "tfmg:large_pumpjack_hammer_part",
+      "node": "CR01 — Oil processing",
+      "script": "industrial_oil_field_construction.js",
+      "recipe_id": "industrial_colonies:machine/oil_processing/large_pumpjack_hammer_part",
+      "ingredients": ["tfmg:cast_iron_block"],
+      "foundational_tags": []
+    },
+    {
+      "output": "tfmg:pumpjack_hammer_connector",
+      "node": "CR01 — Oil processing",
+      "script": "industrial_oil_field_construction.js",
+      "recipe_id": "industrial_colonies:machine/oil_processing/pumpjack_hammer_connector",
+      "ingredients": ["create:brass_ingot", "tfmg:pumpjack_hammer_part"],
+      "foundational_tags": []
+    },
+    {
+      "output": "tfmg:large_pumpjack_hammer_connector",
+      "node": "CR01 — Oil processing",
+      "script": "industrial_oil_field_construction.js",
+      "recipe_id": "industrial_colonies:machine/oil_processing/large_pumpjack_hammer_connector",
+      "ingredients": ["create:brass_ingot", "tfmg:large_pumpjack_hammer_part"],
+      "foundational_tags": []
+    },
+    {
+      "output": "tfmg:pumpjack_hammer_head",
+      "node": "CR01 — Oil processing",
+      "script": "industrial_oil_field_construction.js",
+      "recipe_id": "industrial_colonies:machine/oil_processing/pumpjack_hammer_head",
+      "ingredients": ["tfmg:cast_iron_block", "tfmg:cast_iron_sheet"],
+      "foundational_tags": []
+    },
+    {
+      "output": "tfmg:large_pumpjack_hammer_head",
+      "node": "CR01 — Oil processing",
+      "script": "industrial_oil_field_construction.js",
+      "recipe_id": "industrial_colonies:machine/oil_processing/large_pumpjack_hammer_head",
+      "ingredients": ["tfmg:cast_iron_block", "tfmg:cast_iron_sheet"],
+      "foundational_tags": []
+    },
+    {
+      "output": "tfmg:oil_hammer",
+      "node": "CR01 — Oil processing",
+      "script": "industrial_oil_field_construction.js",
+      "recipe_id": "industrial_colonies:machine/oil_processing/oil_hammer",
+      "ingredients": ["create:brass_ingot", "tfmg:cast_iron_ingot"],
+      "foundational_tags": ["#c:rods/wooden"]
+    },
+    {
+      "output": "tfmg:oil_can",
+      "node": "CR01 — Oil processing",
+      "script": "industrial_oil_field_construction.js",
+      "recipe_id": "industrial_colonies:machine/oil_processing/oil_can",
+      "ingredients": ["create:brass_ingot", "tfmg:cast_iron_nugget"],
+      "foundational_tags": []
+    },
+    {
+      "output": "tfmg:engine_controller",
+      "node": "CR01 — Early Combusion Engines",
+      "script": "industrial_oil_field_construction.js",
+      "recipe_id": "industrial_colonies:machine/early_combustion/engine_controller",
+      "ingredients": ["create:brass_casing", "tfmg:cast_iron_frame", "tfmg:generator", "tfmg:pumpjack_crank", "create:precision_mechanism", "create:shaft"],
+      "foundational_tags": ["#c:dusts/redstone", "#c:wires/copper"]
+    },
+    {
+      "output": "electroenergetics:empty_spool",
+      "node": "CR01 — Grid Engineering",
+      "script": "industrial_grid_engineering_construction.js",
+      "recipe_id": "industrial_colonies:grid/empty_spool",
+      "ingredients": ["tfmg:cast_iron_nugget"],
+      "foundational_tags": ["#c:rods/wooden", "#minecraft:wooden_slabs"]
+    },
+    {
+      "output": "electroenergetics:connector",
+      "node": "CR01 — Grid Engineering",
+      "script": "industrial_grid_engineering_construction.js",
+      "recipe_id": "industrial_colonies:grid/connector",
+      "ingredients": ["create:brass_casing", "tfmg:cable_connector", "tfmg:copper_cable_hub", "tfmg:cast_iron_sheet"],
+      "foundational_tags": []
+    },
+    {
+      "output": "electroenergetics:copper_wire_spool",
+      "node": "CR01 — Grid Engineering",
+      "script": "industrial_grid_engineering_construction.js",
+      "recipe_id": "industrial_colonies:grid/copper_wire_spool",
+      "ingredients": ["electroenergetics:empty_spool"],
+      "foundational_tags": ["#c:wires/copper"]
+    },
+    {
+      "output": "electroenergetics:accumulator",
+      "node": "CR01 — Grid Engineering",
+      "script": "industrial_grid_engineering_construction.js",
+      "recipe_id": "industrial_colonies:grid/accumulator",
+      "ingredients": ["tfmg:accumulator", "create:brass_casing", "electroenergetics:connector", "tfmg:steel_casing", "electroenergetics:copper_wire_spool"],
+      "foundational_tags": []
+    },
+    {
+      "output": "electroenergetics:alternator_rotor",
+      "node": "CR01 — Grid Engineering",
+      "script": "industrial_grid_engineering_construction.js",
+      "recipe_id": "industrial_colonies:grid/alternator_rotor",
+      "ingredients": ["tfmg:generator", "tfmg:cast_iron_ingot", "tfmg:steel_mechanism", "create:shaft", "electroenergetics:copper_wire_spool"],
+      "foundational_tags": []
+    },
+    {
+      "output": "electroenergetics:alternator_brushes",
+      "node": "CR01 — Grid Engineering",
+      "script": "industrial_grid_engineering_construction.js",
+      "recipe_id": "industrial_colonies:grid/alternator_brushes",
+      "ingredients": ["tfmg:copper_cable_hub", "electroenergetics:connector", "create:shaft", "tfmg:cast_iron_sheet", "create:brass_casing"],
+      "foundational_tags": []
+    },
+    {
+      "output": "electroenergetics:resistor",
+      "node": "CR01 — Grid Engineering",
+      "script": "industrial_grid_engineering_construction.js",
+      "recipe_id": "industrial_colonies:grid/resistor",
+      "ingredients": ["electroenergetics:connector", "tfmg:cast_iron_sheet"],
+      "foundational_tags": []
+    },
+    {
+      "output": "tfmg:generator",
+      "node": "CR01 — Early Electricity Technology",
+      "script": "industrial_early_electricity_construction.js",
+      "recipe_id": "industrial_colonies:early_electricity/generator",
+      "ingredients": ["create:brass_casing", "create:precision_mechanism", "create:shaft"],
+      "foundational_tags": ["#c:plates/copper", "#c:wires/copper"]
+    },
+    {
+      "output": "tfmg:electric_motor",
+      "node": "CR01 — Early Electricity Technology",
+      "script": "industrial_early_electricity_construction.js",
+      "recipe_id": "industrial_colonies:early_electricity/electric_motor",
+      "ingredients": ["create:brass_casing", "tfmg:generator", "create:precision_mechanism", "create:shaft"],
+      "foundational_tags": ["#c:wires/copper", "#c:plates/iron"]
+    },
+    {
+      "output": "tfmg:accumulator",
+      "node": "CR01 — Chemical Processing",
+      "script": "industrial_early_electricity_construction.js",
+      "recipe_id": "industrial_colonies:chemical_processing/accumulator",
+      "ingredients": ["tfmg:steel_casing", "tfmg:sulfuric_acid_bucket"],
+      "foundational_tags": ["#c:storage_blocks/lead", "#c:plates/lead", "#c:wires/copper"]
+    },
+    {
+      "output": "tfmg:cable_connector",
+      "node": "CR01 — Early Power Cables",
+      "script": "industrial_early_electricity_construction.js",
+      "recipe_id": "industrial_colonies:early_power_cables/cable_connector",
+      "ingredients": [],
+      "foundational_tags": ["#c:plates/brass", "#c:wires/copper", "#c:nuggets/iron"]
+    },
+    {
+      "output": "tfmg:cable_tube",
+      "node": "CR01 — Chemical Processing",
+      "script": "industrial_early_electricity_construction.js",
+      "recipe_id": "industrial_colonies:chemical_processing/cable_tube",
+      "ingredients": ["tfmg:rubber_sheet"],
+      "foundational_tags": ["#c:wires/copper", "#c:nuggets/steel"]
+    },
+    {
+      "output": "tfmg:copper_cable_hub",
+      "node": "CR01 — Early Power Cables",
+      "script": "industrial_early_electricity_construction.js",
+      "recipe_id": "industrial_colonies:early_power_cables/copper_cable_hub",
+      "ingredients": [],
+      "foundational_tags": ["#c:ingots/copper", "#c:wires/copper"]
+    },
+    {
+      "output": "createaddition:redstone_relay",
+      "node": "CR01 — Early Power Cables",
+      "script": "industrial_early_electricity_construction.js",
+      "recipe_id": "industrial_colonies:early_power_cables/redstone_relay",
+      "ingredients": ["tfmg:cable_connector", "create:precision_mechanism"],
+      "foundational_tags": ["#c:dusts/redstone", "#c:stones"]
+    },
+    {
+      "output": "createaddition:small_light_connector",
+      "node": "CR01 — Early Power Cables",
+      "script": "industrial_early_electricity_construction.js",
+      "recipe_id": "industrial_colonies:early_power_cables/small_light_connector",
+      "ingredients": ["tfmg:cable_connector"],
+      "foundational_tags": ["#c:wires/iron", "#c:glass_blocks"]
+    }
+  ]
+}

@@ -1,0 +1,893 @@
+[
+  {
+    "id": "ad_astra:lunar_tower",
+    "type": "minecraft:jigsaw",
+    "biomes": "#ad_astra:has_structure/lunarian_village"
+  },
+  {
+    "id": "ad_astra:lunarian_village",
+    "type": "minecraft:jigsaw",
+    "biomes": "#ad_astra:has_structure/lunarian_village"
+  },
+  {
+    "id": "ad_astra:mars_temple",
+    "type": "minecraft:jigsaw",
+    "biomes": "#ad_astra:has_structure/mars_temple"
+  },
+  {
+    "id": "ad_astra:moon_dungeon",
+    "type": "ad_astra:large_jigsaw_structure",
+    "biomes": "#ad_astra:has_structure/moon_dungeon"
+  },
+  {
+    "id": "ad_astra:oil_well",
+    "type": "minecraft:jigsaw",
+    "biomes": "#ad_astra:has_structure/oil_well"
+  },
+  {
+    "id": "ad_astra:pygro_tower",
+    "type": "minecraft:jigsaw",
+    "biomes": "#ad_astra:has_structure/pygro_tower"
+  },
+  {
+    "id": "ad_astra:pygro_village",
+    "type": "ad_astra:large_jigsaw_structure",
+    "biomes": "#ad_astra:has_structure/pygro_village"
+  },
+  {
+    "id": "ad_astra:venus_bullet",
+    "type": "minecraft:jigsaw",
+    "biomes": "#ad_astra:has_structure/venus_bullet"
+  },
+  {
+    "id": "allthemodium:ancient_pyramid",
+    "type": "minecraft:jigsaw",
+    "biomes": "#allthemodium:has_structure/ancient_pyramid_biomes"
+  },
+  {
+    "id": "allthemodium:dungeon",
+    "type": "minecraft:jigsaw",
+    "biomes": "#allthemodium:has_structure/dungeon_biomes"
+  },
+  {
+    "id": "apotheosis:tower_leaf",
+    "type": "minecraft:jigsaw",
+    "biomes": {
+      "type": "neoforge:and",
+      "values": [
+        "#apotheosis:tower_leaf",
+        {
+          "type": "neoforge:not",
+          "value": "#minecraft:is_ocean"
+        }
+      ]
+    }
+  },
+  {
+    "id": "apotheosis:tower_main",
+    "type": "minecraft:jigsaw",
+    "biomes": {
+      "type": "neoforge:and",
+      "values": [
+        "#apotheosis:tower_main",
+        {
+          "type": "neoforge:not",
+          "value": "#minecraft:is_ocean"
+        }
+      ]
+    }
+  },
+  {
+    "id": "apotheosis:tower_sand",
+    "type": "minecraft:jigsaw",
+    "biomes": {
+      "type": "neoforge:and",
+      "values": [
+        "#apotheosis:tower_sand",
+        {
+          "type": "neoforge:not",
+          "value": "#minecraft:is_ocean"
+        }
+      ]
+    }
+  },
+  {
+    "id": "apotheosis:tower_spruce",
+    "type": "minecraft:jigsaw",
+    "biomes": {
+      "type": "neoforge:and",
+      "values": [
+        "#apotheosis:tower_spruce",
+        {
+          "type": "neoforge:not",
+          "value": "#minecraft:is_ocean"
+        }
+      ]
+    }
+  },
+  {
+    "id": "block_factorys_bosses:sandworm_nest",
+    "type": "minecraft:jigsaw",
+    "biomes": "#block_factorys_bosses:sandworm_nest"
+  },
+  {
+    "id": "block_factorys_bosses:dragon_tower",
+    "type": "block_factorys_bosses:dragon_tower",
+    "biomes": "#block_factorys_bosses:dragon_tower"
+  },
+  {
+    "id": "block_factorys_bosses:yeti_hideout",
+    "type": "minecraft:jigsaw",
+    "biomes": "#block_factorys_bosses:yeti_hideout"
+  },
+  {
+    "id": "block_factorys_bosses:kraken_ship",
+    "type": "block_factorys_bosses:kraken_ship",
+    "biomes": "#block_factorys_bosses:kraken_ship"
+  },
+  {
+    "id": "bosses_of_mass_destruction:lich_tower",
+    "type": "minecraft:jigsaw",
+    "biomes": "#bosses_of_mass_destruction:has_structure/lich_tower"
+  },
+  {
+    "id": "bosses_of_mass_destruction:obsidilith_arena",
+    "type": "minecraft:jigsaw",
+    "biomes": "#bosses_of_mass_destruction:has_structure/obsidilith_arena"
+  },
+  {
+    "id": "bosses_of_mass_destruction:void_blossom",
+    "type": "bosses_of_mass_destruction:void_blossom",
+    "biomes": "#bosses_of_mass_destruction:has_structure/void_blossom"
+  },
+  {
+    "id": "dungeonnowloading:labyrinth",
+    "type": "dungeonnowloading:generic_jigsaw_structure",
+    "biomes": "#dungeonnowloading:has_structure/labyrinth"
+  },
+  {
+    "id": "friendsandfoes:iceologer_cabin",
+    "type": "friendsandfoes:iceologer_cabin_structure",
+    "biomes": "#friendsandfoes:has_structure/iceologer_cabin"
+  },
+  {
+    "id": "friendsandfoes:illusioner_shack",
+    "type": "friendsandfoes:illusioner_shack_structure",
+    "biomes": "#friendsandfoes:has_structure/illusioner_shack"
+  },
+  {
+    "id": "friendsandfoes:illusioner_training_grounds",
+    "type": "friendsandfoes:illusioner_training_grounds_structure",
+    "biomes": "#friendsandfoes:has_structure/illusioner_training_grounds"
+  },
+  {
+    "id": "cataclysm:abandoned_spire",
+    "type": "minecraft:jigsaw",
+    "biomes": "#cataclysm:has_structure/frosted_prison_biomes"
+  },
+  {
+    "id": "cataclysm:abandoned_temple",
+    "type": "minecraft:jigsaw",
+    "biomes": "#cataclysm:has_structure/frosted_prison_biomes"
+  },
+  {
+    "id": "cataclysm:abandoned_village",
+    "type": "minecraft:jigsaw",
+    "biomes": "#cataclysm:has_structure/frosted_prison_biomes"
+  },
+  {
+    "id": "cataclysm:acropolis",
+    "type": "cataclysm:cataclysm_jigsaw",
+    "biomes": "#cataclysm:has_structure/acropolis_biomes"
+  },
+  {
+    "id": "cataclysm:burning_arena",
+    "type": "cataclysm:burning_arena",
+    "biomes": "#cataclysm:has_structure/burning_arena_biomes"
+  },
+  {
+    "id": "cataclysm:cursed_pyramid",
+    "type": "cataclysm:cursed_pyramid",
+    "biomes": "#cataclysm:has_structure/cursed_pyramid_biomes"
+  },
+  {
+    "id": "cataclysm:desert_occupied_village",
+    "type": "minecraft:jigsaw",
+    "biomes": "#cataclysm:has_structure/cursed_pyramid_biomes"
+  },
+  {
+    "id": "cataclysm:desert_site",
+    "type": "minecraft:jigsaw",
+    "biomes": "#cataclysm:has_structure/cursed_pyramid_biomes"
+  },
+  {
+    "id": "cataclysm:desert_temple",
+    "type": "minecraft:jigsaw",
+    "biomes": "#cataclysm:has_structure/cursed_pyramid_biomes"
+  },
+  {
+    "id": "cataclysm:frosted_prison",
+    "type": "cataclysm:cataclysm_jigsaw",
+    "biomes": "#cataclysm:has_structure/frosted_prison_biomes"
+  },
+  {
+    "id": "cataclysm:ruined_citadel",
+    "type": "cataclysm:ruined_citadel",
+    "biomes": "#cataclysm:has_structure/ruined_citadel_biomes"
+  },
+  {
+    "id": "cataclysm:soul_black_smith",
+    "type": "cataclysm:cataclysm_jigsaw",
+    "biomes": "#cataclysm:has_structure/soul_black_smith_biomes"
+  },
+  {
+    "id": "cataclysm:sunken_city",
+    "type": "cataclysm:sunken_city",
+    "biomes": "#cataclysm:has_structure/sunken_city_biomes"
+  },
+  {
+    "id": "minecolonies:medieval_spruce_colony",
+    "type": "minecolonies:empty_colony",
+    "biomes": "#minecolonies:has_structure/medieval_spruce_colony"
+  },
+  {
+    "id": "minecolonies:medieval_dark_oak_colony",
+    "type": "minecolonies:empty_colony",
+    "biomes": "#minecolonies:has_structure/medieval_dark_oak_colony"
+  },
+  {
+    "id": "minecolonies:warpednetherlands_colony",
+    "type": "minecolonies:empty_colony",
+    "biomes": "#minecolonies:has_structure/warpednetherlands_colony"
+  },
+  {
+    "id": "minecolonies:barbarian_camp",
+    "type": "minecraft:jigsaw",
+    "biomes": "#minecolonies:has_structure/barbarian_camp"
+  },
+  {
+    "id": "minecolonies:medieval_birch_colony",
+    "type": "minecolonies:empty_colony",
+    "biomes": "#minecolonies:has_structure/medieval_birch_colony"
+  },
+  {
+    "id": "minecolonies:medieval_oak_colony",
+    "type": "minecolonies:empty_colony",
+    "biomes": "#minecolonies:has_structure/medieval_oak_colony"
+  },
+  {
+    "id": "minecolonies:shire_colony",
+    "type": "minecolonies:empty_colony",
+    "biomes": "#minecolonies:has_structure/shire_colony"
+  },
+  {
+    "id": "minecolonies:incan_colony",
+    "type": "minecolonies:empty_colony",
+    "biomes": "#minecolonies:has_structure/incan_colony"
+  },
+  {
+    "id": "minecolonies:desert_camp",
+    "type": "minecraft:jigsaw",
+    "biomes": "#minecolonies:has_structure/desert_camp"
+  },
+  {
+    "id": "minecolonies:asian_colony",
+    "type": "minecolonies:empty_colony",
+    "biomes": "#minecolonies:has_structure/asian_colony"
+  },
+  {
+    "id": "minecolonies:colonial_colony",
+    "type": "minecolonies:empty_colony",
+    "biomes": "#minecolonies:has_structure/colonial_colony"
+  },
+  {
+    "id": "minecolonies:desertoasis_colony",
+    "type": "minecolonies:empty_colony",
+    "biomes": "#minecolonies:has_structure/desertoasis_colony"
+  },
+  {
+    "id": "minecolonies:caledonia_colony",
+    "type": "minecolonies:empty_colony",
+    "biomes": "#minecolonies:has_structure/caledonia_colony"
+  },
+  {
+    "id": "minecolonies:amazon_camp",
+    "type": "minecraft:jigsaw",
+    "biomes": "#minecolonies:has_structure/amazon_camp"
+  },
+  {
+    "id": "minecolonies:lostmesacity_colony",
+    "type": "minecolonies:empty_colony",
+    "biomes": "#minecolonies:has_structure/lostmesacity_colony"
+  },
+  {
+    "id": "minecolonies:ship",
+    "type": "minecraft:jigsaw",
+    "biomes": "#minecolonies:has_structure/ship"
+  },
+  {
+    "id": "modernfoundry:clay_island",
+    "type": "modernfoundry:island",
+    "biomes": "#modernfoundry:islands/clay"
+  },
+  {
+    "id": "modernfoundry:earth_slime_island",
+    "type": "modernfoundry:island",
+    "biomes": "#modernfoundry:islands/earthslime"
+  },
+  {
+    "id": "modernfoundry:end_slime_island",
+    "type": "modernfoundry:island",
+    "biomes": "#modernfoundry:islands/enderslime"
+  },
+  {
+    "id": "modernfoundry:ocean_skyslime_island",
+    "type": "modernfoundry:island",
+    "biomes": "#modernfoundry:islands/earthslime"
+  },
+  {
+    "id": "modernfoundry:sky_slime_island",
+    "type": "modernfoundry:island",
+    "biomes": "#modernfoundry:islands/skyslime"
+  },
+  {
+    "id": "mowziesmobs:frostmaw_spawn",
+    "type": "mowziesmobs:frostmaw_spawn",
+    "biomes": "#mowziesmobs:has_structure/has_mowzie_structure"
+  },
+  {
+    "id": "mowziesmobs:monastery",
+    "type": "mowziesmobs:monastery",
+    "biomes": "#mowziesmobs:has_structure/has_mowzie_structure"
+  },
+  {
+    "id": "mowziesmobs:umvuthana_grove",
+    "type": "mowziesmobs:umvuthana_grove",
+    "biomes": "#mowziesmobs:has_structure/has_mowzie_structure"
+  },
+  {
+    "id": "mowziesmobs:wrought_chamber",
+    "type": "mowziesmobs:wrought_chamber",
+    "biomes": "#mowziesmobs:has_structure/has_mowzie_structure"
+  },
+  {
+    "id": "nuclearcraft:wasteland_village",
+    "type": "minecraft:jigsaw",
+    "biomes": "#nuclearcraft:has_structure/wasteland_village"
+  },
+  {
+    "id": "stellaris:earth_satellite",
+    "type": "minecraft:jigsaw",
+    "biomes": "#stellaris:has_structure/earth_biomes"
+  },
+  {
+    "id": "stellaris:mars_main_temple",
+    "type": "minecraft:jigsaw",
+    "biomes": "#stellaris:mars_biomes"
+  },
+  {
+    "id": "stellaris:mars_ruins",
+    "type": "minecraft:jigsaw",
+    "biomes": "#stellaris:mars_biomes"
+  },
+  {
+    "id": "stellaris:mars_temple",
+    "type": "minecraft:jigsaw",
+    "biomes": "#stellaris:mars_biomes"
+  },
+  {
+    "id": "stellaris:mars_tower",
+    "type": "minecraft:jigsaw",
+    "biomes": "#stellaris:mars_biomes"
+  },
+  {
+    "id": "stellaris:mercury_big_castle",
+    "type": "minecraft:jigsaw",
+    "biomes": "#stellaris:has_structure/mercury_biomes"
+  },
+  {
+    "id": "stellaris:mercury_factory",
+    "type": "minecraft:jigsaw",
+    "biomes": "#stellaris:has_structure/mercury_biomes"
+  },
+  {
+    "id": "stellaris:mercury_mining_ship",
+    "type": "minecraft:jigsaw",
+    "biomes": "#stellaris:has_structure/mercury_biomes"
+  },
+  {
+    "id": "stellaris:mercury_quarry",
+    "type": "minecraft:jigsaw",
+    "biomes": "#stellaris:has_structure/mercury_biomes"
+  },
+  {
+    "id": "stellaris:mercury_small_castle",
+    "type": "minecraft:jigsaw",
+    "biomes": "#stellaris:has_structure/mercury_biomes"
+  },
+  {
+    "id": "stellaris:mercury_temple",
+    "type": "minecraft:jigsaw",
+    "biomes": "#stellaris:has_structure/mercury_biomes"
+  },
+  {
+    "id": "stellaris:mercury_volcano",
+    "type": "minecraft:jigsaw",
+    "biomes": "#stellaris:has_structure/mercury_biomes"
+  },
+  {
+    "id": "stellaris:meteor",
+    "type": "minecraft:jigsaw",
+    "biomes": "#stellaris:has_structure/meteor_biomes"
+  },
+  {
+    "id": "stellaris:moon_destroyed_spaceship",
+    "type": "minecraft:jigsaw",
+    "biomes": "#stellaris:moon_biomes"
+  },
+  {
+    "id": "stellaris:moon_destroyed_village",
+    "type": "minecraft:jigsaw",
+    "biomes": "#stellaris:moon_biomes"
+  },
+  {
+    "id": "stellaris:moon_first_landing",
+    "type": "minecraft:jigsaw",
+    "biomes": "#stellaris:moon_biomes"
+  },
+  {
+    "id": "stellaris:moon_launchpad",
+    "type": "minecraft:jigsaw",
+    "biomes": "#stellaris:moon_biomes"
+  },
+  {
+    "id": "stellaris:moon_space_base",
+    "type": "minecraft:jigsaw",
+    "biomes": "#stellaris:moon_biomes"
+  },
+  {
+    "id": "stellaris:moon_sphere",
+    "type": "minecraft:jigsaw",
+    "biomes": "#stellaris:moon_biomes"
+  },
+  {
+    "id": "stellaris:moon_village",
+    "type": "minecraft:jigsaw",
+    "biomes": "#stellaris:moon_biomes"
+  },
+  {
+    "id": "stellaris:venus_catacombs",
+    "type": "minecraft:jigsaw",
+    "biomes": "#stellaris:has_structure/venus_biomes"
+  },
+  {
+    "id": "stellaris:venus_crash_site",
+    "type": "minecraft:jigsaw",
+    "biomes": "#stellaris:has_structure/venus_biomes"
+  },
+  {
+    "id": "stellaris:venus_lava_outpost",
+    "type": "minecraft:jigsaw",
+    "biomes": "#stellaris:has_structure/venus_biomes"
+  },
+  {
+    "id": "stellaris:venus_outpost",
+    "type": "minecraft:jigsaw",
+    "biomes": "#stellaris:has_structure/venus_biomes"
+  },
+  {
+    "id": "stellaris:venus_outpost_dungeon",
+    "type": "minecraft:jigsaw",
+    "biomes": "#stellaris:has_structure/venus_biomes"
+  },
+  {
+    "id": "stellaris:venus_plaza",
+    "type": "minecraft:jigsaw",
+    "biomes": "#stellaris:has_structure/venus_biomes"
+  },
+  {
+    "id": "stellaris:venus_ruins",
+    "type": "minecraft:jigsaw",
+    "biomes": "#stellaris:has_structure/venus_biomes"
+  },
+  {
+    "id": "stellaris:venus_tower",
+    "type": "minecraft:jigsaw",
+    "biomes": "#stellaris:has_structure/venus_biomes"
+  },
+  {
+    "id": "supplementaries:galleon",
+    "type": "supplementaries:galleon",
+    "biomes": "#supplementaries:has_galleons"
+  },
+  {
+    "id": "ctov:large/village_beach",
+    "type": "lithostitched:jigsaw",
+    "biomes": "#minecraft:is_beach"
+  },
+  {
+    "id": "ctov:large/village_christmas",
+    "type": "lithostitched:jigsaw",
+    "biomes": "#minecraft:has_structure/village_snowy"
+  },
+  {
+    "id": "ctov:large/village_dark_forest",
+    "type": "lithostitched:jigsaw",
+    "biomes": "#minecraft:has_structure/woodland_mansion"
+  },
+  {
+    "id": "ctov:large/village_desert",
+    "type": "lithostitched:jigsaw",
+    "biomes": "#minecraft:has_structure/village_desert"
+  },
+  {
+    "id": "ctov:large/village_desert_oasis",
+    "type": "lithostitched:jigsaw",
+    "biomes": "#minecraft:has_structure/village_desert"
+  },
+  {
+    "id": "ctov:large/village_jungle",
+    "type": "lithostitched:jigsaw",
+    "biomes": "#minecraft:is_jungle"
+  },
+  {
+    "id": "ctov:large/village_jungle_tree",
+    "type": "lithostitched:jigsaw",
+    "biomes": "#minecraft:is_jungle"
+  },
+  {
+    "id": "ctov:large/village_mesa",
+    "type": "lithostitched:jigsaw",
+    "biomes": "#minecraft:is_badlands"
+  },
+  {
+    "id": "ctov:large/village_mesa_fortified",
+    "type": "lithostitched:jigsaw",
+    "biomes": "#minecraft:is_badlands"
+  },
+  {
+    "id": "ctov:large/village_mountain",
+    "type": "lithostitched:jigsaw",
+    "biomes": "#minecraft:is_mountain"
+  },
+  {
+    "id": "ctov:large/village_mountain_alpine",
+    "type": "lithostitched:jigsaw",
+    "biomes": "#minecraft:is_mountain"
+  },
+  {
+    "id": "ctov:large/village_mushroom",
+    "type": "lithostitched:jigsaw",
+    "biomes": "minecraft:mushroom_fields"
+  },
+  {
+    "id": "ctov:large/village_plains",
+    "type": "lithostitched:jigsaw",
+    "biomes": "#minecraft:has_structure/village_plains"
+  },
+  {
+    "id": "ctov:large/village_plains_fortified",
+    "type": "lithostitched:jigsaw",
+    "biomes": "#minecraft:has_structure/village_plains"
+  },
+  {
+    "id": "ctov:large/village_savanna",
+    "type": "lithostitched:jigsaw",
+    "biomes": "#minecraft:has_structure/village_savanna"
+  },
+  {
+    "id": "ctov:large/village_savanna_na",
+    "type": "lithostitched:jigsaw",
+    "biomes": "#minecraft:has_structure/village_savanna"
+  },
+  {
+    "id": "ctov:large/village_snowy_igloo",
+    "type": "lithostitched:jigsaw",
+    "biomes": "#minecraft:has_structure/village_snowy"
+  },
+  {
+    "id": "ctov:large/village_swamp",
+    "type": "lithostitched:jigsaw",
+    "biomes": "#minecraft:has_structure/ruined_portal_swamp"
+  },
+  {
+    "id": "ctov:large/village_swamp_fortified",
+    "type": "lithostitched:jigsaw",
+    "biomes": "#minecraft:has_structure/ruined_portal_swamp"
+  },
+  {
+    "id": "ctov:large/village_taiga",
+    "type": "lithostitched:jigsaw",
+    "biomes": "#minecraft:has_structure/village_taiga"
+  },
+  {
+    "id": "ctov:large/village_taiga_fortified",
+    "type": "lithostitched:jigsaw",
+    "biomes": "#minecraft:has_structure/village_taiga"
+  },
+  {
+    "id": "ctov:large/village_underground",
+    "type": "lithostitched:jigsaw",
+    "biomes": "#minecraft:has_structure/village_plains"
+  },
+  {
+    "id": "ctov:medium/village_beach",
+    "type": "lithostitched:jigsaw",
+    "biomes": "#minecraft:is_beach"
+  },
+  {
+    "id": "ctov:medium/village_christmas",
+    "type": "lithostitched:jigsaw",
+    "biomes": "#minecraft:has_structure/village_snowy"
+  },
+  {
+    "id": "ctov:medium/village_dark_forest",
+    "type": "lithostitched:jigsaw",
+    "biomes": "#minecraft:has_structure/woodland_mansion"
+  },
+  {
+    "id": "ctov:medium/village_desert",
+    "type": "lithostitched:jigsaw",
+    "biomes": "#minecraft:has_structure/village_desert"
+  },
+  {
+    "id": "ctov:medium/village_desert_oasis",
+    "type": "lithostitched:jigsaw",
+    "biomes": "#minecraft:has_structure/village_desert"
+  },
+  {
+    "id": "ctov:medium/village_jungle",
+    "type": "lithostitched:jigsaw",
+    "biomes": "#minecraft:is_jungle"
+  },
+  {
+    "id": "ctov:medium/village_jungle_tree",
+    "type": "lithostitched:jigsaw",
+    "biomes": "#minecraft:is_jungle"
+  },
+  {
+    "id": "ctov:medium/village_mesa",
+    "type": "lithostitched:jigsaw",
+    "biomes": "#minecraft:is_badlands"
+  },
+  {
+    "id": "ctov:medium/village_mesa_fortified",
+    "type": "lithostitched:jigsaw",
+    "biomes": "#minecraft:is_badlands"
+  },
+  {
+    "id": "ctov:medium/village_mountain",
+    "type": "lithostitched:jigsaw",
+    "biomes": "#minecraft:is_mountain"
+  },
+  {
+    "id": "ctov:medium/village_mountain_alpine",
+    "type": "lithostitched:jigsaw",
+    "biomes": "#minecraft:is_mountain"
+  },
+  {
+    "id": "ctov:medium/village_mushroom",
+    "type": "lithostitched:jigsaw",
+    "biomes": "minecraft:mushroom_fields"
+  },
+  {
+    "id": "ctov:medium/village_plains",
+    "type": "lithostitched:jigsaw",
+    "biomes": "#minecraft:has_structure/village_plains"
+  },
+  {
+    "id": "ctov:medium/village_plains_fortified",
+    "type": "lithostitched:jigsaw",
+    "biomes": "#minecraft:has_structure/village_plains"
+  },
+  {
+    "id": "ctov:medium/village_savanna",
+    "type": "lithostitched:jigsaw",
+    "biomes": "#minecraft:has_structure/village_savanna"
+  },
+  {
+    "id": "ctov:medium/village_savanna_na",
+    "type": "lithostitched:jigsaw",
+    "biomes": "#minecraft:has_structure/village_savanna"
+  },
+  {
+    "id": "ctov:medium/village_snowy_igloo",
+    "type": "lithostitched:jigsaw",
+    "biomes": "#minecraft:has_structure/village_snowy"
+  },
+  {
+    "id": "ctov:medium/village_swamp",
+    "type": "lithostitched:jigsaw",
+    "biomes": "#minecraft:has_structure/ruined_portal_swamp"
+  },
+  {
+    "id": "ctov:medium/village_swamp_fortified",
+    "type": "lithostitched:jigsaw",
+    "biomes": "#minecraft:has_structure/ruined_portal_swamp"
+  },
+  {
+    "id": "ctov:medium/village_taiga",
+    "type": "lithostitched:jigsaw",
+    "biomes": "#minecraft:has_structure/village_taiga"
+  },
+  {
+    "id": "ctov:medium/village_taiga_fortified",
+    "type": "lithostitched:jigsaw",
+    "biomes": "#minecraft:has_structure/village_taiga"
+  },
+  {
+    "id": "ctov:medium/village_underground",
+    "type": "lithostitched:jigsaw",
+    "biomes": "#minecraft:has_structure/village_plains"
+  },
+  {
+    "id": "ctov:pillager_outpost_badlands",
+    "type": "minecraft:jigsaw",
+    "biomes": "#minecraft:is_badlands"
+  },
+  {
+    "id": "ctov:pillager_outpost_beach",
+    "type": "minecraft:jigsaw",
+    "biomes": "#minecraft:is_beach"
+  },
+  {
+    "id": "ctov:pillager_outpost_dark_forest",
+    "type": "minecraft:jigsaw",
+    "biomes": "#minecraft:has_structure/woodland_mansion"
+  },
+  {
+    "id": "ctov:pillager_outpost_desert",
+    "type": "minecraft:jigsaw",
+    "biomes": "#minecraft:has_structure/village_desert"
+  },
+  {
+    "id": "ctov:pillager_outpost_jungle",
+    "type": "minecraft:jigsaw",
+    "biomes": "#minecraft:is_jungle"
+  },
+  {
+    "id": "ctov:pillager_outpost_mesa",
+    "type": "minecraft:jigsaw",
+    "biomes": "#minecraft:is_badlands"
+  },
+  {
+    "id": "ctov:pillager_outpost_mountain",
+    "type": "minecraft:jigsaw",
+    "biomes": "#minecraft:is_mountain"
+  },
+  {
+    "id": "ctov:pillager_outpost_plains",
+    "type": "minecraft:jigsaw",
+    "biomes": "#minecraft:has_structure/village_plains"
+  },
+  {
+    "id": "ctov:pillager_outpost_savanna",
+    "type": "minecraft:jigsaw",
+    "biomes": "#minecraft:has_structure/village_savanna"
+  },
+  {
+    "id": "ctov:pillager_outpost_snowy",
+    "type": "minecraft:jigsaw",
+    "biomes": "#minecraft:has_structure/village_snowy"
+  },
+  {
+    "id": "ctov:pillager_outpost_swamp",
+    "type": "minecraft:jigsaw",
+    "biomes": "#minecraft:has_structure/ruined_portal_swamp"
+  },
+  {
+    "id": "ctov:pillager_outpost_taiga",
+    "type": "minecraft:jigsaw",
+    "biomes": "#minecraft:has_structure/village_taiga"
+  },
+  {
+    "id": "ctov:small/village_beach",
+    "type": "lithostitched:jigsaw",
+    "biomes": "#minecraft:is_beach"
+  },
+  {
+    "id": "ctov:small/village_christmas",
+    "type": "lithostitched:jigsaw",
+    "biomes": "#minecraft:has_structure/village_snowy"
+  },
+  {
+    "id": "ctov:small/village_dark_forest",
+    "type": "lithostitched:jigsaw",
+    "biomes": "#minecraft:has_structure/woodland_mansion"
+  },
+  {
+    "id": "ctov:small/village_desert",
+    "type": "lithostitched:jigsaw",
+    "biomes": "#minecraft:has_structure/village_desert"
+  },
+  {
+    "id": "ctov:small/village_desert_oasis",
+    "type": "lithostitched:jigsaw",
+    "biomes": "#minecraft:has_structure/village_desert"
+  },
+  {
+    "id": "ctov:small/village_jungle",
+    "type": "lithostitched:jigsaw",
+    "biomes": "#minecraft:is_jungle"
+  },
+  {
+    "id": "ctov:small/village_jungle_tree",
+    "type": "lithostitched:jigsaw",
+    "biomes": "#minecraft:is_jungle"
+  },
+  {
+    "id": "ctov:small/village_mesa",
+    "type": "lithostitched:jigsaw",
+    "biomes": "#minecraft:is_badlands"
+  },
+  {
+    "id": "ctov:small/village_mesa_fortified",
+    "type": "lithostitched:jigsaw",
+    "biomes": "#minecraft:is_badlands"
+  },
+  {
+    "id": "ctov:small/village_mountain",
+    "type": "lithostitched:jigsaw",
+    "biomes": "#minecraft:is_mountain"
+  },
+  {
+    "id": "ctov:small/village_mountain_alpine",
+    "type": "lithostitched:jigsaw",
+    "biomes": "#minecraft:is_mountain"
+  },
+  {
+    "id": "ctov:small/village_mushroom",
+    "type": "lithostitched:jigsaw",
+    "biomes": "minecraft:mushroom_fields"
+  },
+  {
+    "id": "ctov:small/village_plains",
+    "type": "lithostitched:jigsaw",
+    "biomes": "#minecraft:has_structure/village_plains"
+  },
+  {
+    "id": "ctov:small/village_plains_fortified",
+    "type": "lithostitched:jigsaw",
+    "biomes": "#minecraft:has_structure/village_plains"
+  },
+  {
+    "id": "ctov:small/village_savanna",
+    "type": "lithostitched:jigsaw",
+    "biomes": "#minecraft:has_structure/village_savanna"
+  },
+  {
+    "id": "ctov:small/village_savanna_na",
+    "type": "lithostitched:jigsaw",
+    "biomes": "#minecraft:has_structure/village_savanna"
+  },
+  {
+    "id": "ctov:small/village_snowy_igloo",
+    "type": "lithostitched:jigsaw",
+    "biomes": "#minecraft:has_structure/village_snowy"
+  },
+  {
+    "id": "ctov:small/village_swamp",
+    "type": "lithostitched:jigsaw",
+    "biomes": "#minecraft:has_structure/ruined_portal_swamp"
+  },
+  {
+    "id": "ctov:small/village_swamp_fortified",
+    "type": "lithostitched:jigsaw",
+    "biomes": "#minecraft:has_structure/ruined_portal_swamp"
+  },
+  {
+    "id": "ctov:small/village_taiga",
+    "type": "lithostitched:jigsaw",
+    "biomes": "#minecraft:has_structure/village_taiga"
+  },
+  {
+    "id": "ctov:small/village_taiga_fortified",
+    "type": "lithostitched:jigsaw",
+    "biomes": "#minecraft:has_structure/village_taiga"
+  },
+  {
+    "id": "ctov:small/village_underground",
+    "type": "lithostitched:jigsaw",
+    "biomes": "#minecraft:has_structure/village_plains"
+  }
+]

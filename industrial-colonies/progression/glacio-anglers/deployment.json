@@ -1,0 +1,1292 @@
+{
+  "status": "APPLIED",
+  "revision": "r13",
+  "savesTouched": false,
+  "files": {
+    "kubejs/data/industrial_colonies/neoforge/biome_modifier/remove_earth_anglers.json": {
+      "before": null,
+      "after": "77bb30726ccd0d55523b9e2515c15371870513f7f6397cfb28e4273c7ee79e05"
+    },
+    "kubejs/data/industrial_colonies/neoforge/biome_modifier/glacio_anglers.json": {
+      "before": null,
+      "after": "354b6ca473457ac4c104c48c57a6c6af519509f89b2e8ca5020bd9963458688e"
+    },
+    "kubejs/data/ad_astra/tags/entity_type/can_survive_extreme_cold.json": {
+      "before": null,
+      "after": "8f17b2fe86baf792e01fb7bfdc2fdac931a06aeab6b0fad4a3ada85afd1d4717"
+    },
+    "kubejs/data/ad_astra/worldgen/noise_settings/glacio.json": {
+      "before": null,
+      "after": "9ed95fc9997b177a11bfaffe94dba12d2d0281dfa19afd7453324a0e9f5adc7f"
+    },
+    "kubejs/data/cataclysm/structure/sunken_city_entrance2.nbt": {
+      "before": null,
+      "after": "7f8a5542843c0d22f589a8bcbff275a3ce749aa77428e49bc0645ffc119d149d"
+    },
+    "kubejs/data/cataclysm/structure/sunken_city_lower_east.nbt": {
+      "before": null,
+      "after": "2199fdc69c1a0221daeb1e42435d241086c7065ff54e1a909f9b1df5e391a9f1"
+    },
+    "kubejs/data/cataclysm/structure/sunken_city_lower_southwest.nbt": {
+      "before": null,
+      "after": "de42b17d0dbd4d6f41fd042ff52db18df8176e6c3458d43209082657438b7390"
+    },
+    "kubejs/data/cataclysm/structure/sunken_city_lower_west.nbt": {
+      "before": null,
+      "after": "57cbe5f1c24f531738aa70ee43b9e8f4f7509bdfad7aab54cea64dffc294b355"
+    },
+    "kubejs/data/cataclysm/structure/sunken_city_mid_east.nbt": {
+      "before": null,
+      "after": "be36f9eb039fffe02a4dc685b01e89c73101fc396681aea88d2d7f4128e2f463"
+    },
+    "kubejs/data/cataclysm/structure/sunken_city_mid_northwest.nbt": {
+      "before": null,
+      "after": "a155d8f95a4021dd9b3cb8e3da1930404c6342361e367a918d204b548206a757"
+    },
+    "kubejs/data/cataclysm/structure/sunken_city_mid_south.nbt": {
+      "before": null,
+      "after": "dd542181c1a08c50f0f999b3b5f6b68fb29b7d3077014b42fa97a2e62bf8202f"
+    },
+    "kubejs/data/cataclysm/structure/sunken_city_mid_southwest.nbt": {
+      "before": null,
+      "after": "bdc5f98c0704db4427c5837bfbf6f763693f9cc7d3cd722263659c8dc5240334"
+    },
+    "kubejs/data/cataclysm/structure/sunken_city_mid_west.nbt": {
+      "before": null,
+      "after": "674ccafb7ad6c039d6464e902d4c13dad447389eec87de9729aaf3abee9618c3"
+    },
+    "kubejs/data/cataclysm/structure/sunken_city_temple1.nbt": {
+      "before": null,
+      "after": "54f9e6d9e79d9b7dc67a2d0583eb6fd977d63478b253dd9b19aac5527d57248c"
+    },
+    "mods/industrial_colonies-0.5.3.jar": {
+      "before": "742db6d9890b17c47b6d2c0c029ec93cb66e15477e9436f48605df23c2991f17",
+      "after": null
+    },
+    "mods/industrial_colonies-0.5.4.jar": {
+      "before": null,
+      "after": "2009aee2d38785bed3d950782ab58b58a8ec460ed1d29d996717ac003fa44385"
+    },
+    "kubejs/data/industrial_colonies/tags/worldgen/biome/vanilla_village_biomes.json": {
+      "before": null,
+      "after": "acc0c033ab841621ce007921b12b9c1c76f0011953dce43eb76347ccfb35bc78"
+    },
+    "kubejs/data/minecraft/worldgen/structure/village_plains.json": {
+      "before": null,
+      "after": "ae0b42e6181fd1088d92c74d59fd8f4e6ab34d561b4274d30d5207f80512a809"
+    },
+    "kubejs/data/minecraft/worldgen/structure/village_desert.json": {
+      "before": null,
+      "after": "31ebce5490d3c4eee6e3788a283976f77b75c4423ed8974445694d6c93999427"
+    },
+    "kubejs/data/minecraft/worldgen/structure/village_savanna.json": {
+      "before": null,
+      "after": "e3611820e2b5dfc509d95add07ec6cff6c7e27f468981c1ac99698a3fc61d5bb"
+    },
+    "kubejs/data/minecraft/worldgen/structure/village_snowy.json": {
+      "before": null,
+      "after": "223b06b1f9d1634d8819e0431397c2e2fa11d99bad66e1732544380835dff258"
+    },
+    "kubejs/data/minecraft/worldgen/structure/village_taiga.json": {
+      "before": null,
+      "after": "e1ef6e13d1b5f73b94d2fe8c6be56d4891377c3a42065d13cc6d6c289e8ec93e"
+    },
+    "kubejs/data/cataclysm/worldgen/structure/abandoned_village.json": {
+      "before": null,
+      "after": "25beee041b660b9b91ab2ac4cb8d096fdcb2d65a89576e0d223cb2bbb70510aa"
+    },
+    "kubejs/data/cataclysm/worldgen/structure/desert_occupied_village.json": {
+      "before": null,
+      "after": "8018e01641b42be31f9cecf32f198184ecc8eb5ff395aa4c4e60badee8e30463"
+    },
+    "kubejs/data/minecolonies/worldgen/structure/medieval_spruce_colony.json": {
+      "before": null,
+      "after": "6c9ee0a622ced3179b1f3a296471cdc3dd458cb12c25efdb60168ad4eb81d807"
+    },
+    "kubejs/data/minecolonies/worldgen/structure/medieval_dark_oak_colony.json": {
+      "before": null,
+      "after": "846f4b469af0277e2f751d84af3de4a51c82cefb626a53a80823a0f43cad903c"
+    },
+    "kubejs/data/minecolonies/worldgen/structure/barbarian_camp.json": {
+      "before": null,
+      "after": "753d57a8a6504954a17ddf442c7591b4c88cda5af00eb55cfa4c097326e59903"
+    },
+    "kubejs/data/minecolonies/worldgen/structure/medieval_birch_colony.json": {
+      "before": null,
+      "after": "153e5494147d780de5a0db543d52ecf38d5569ba02afae8e30a8c134ebafef1c"
+    },
+    "kubejs/data/minecolonies/worldgen/structure/medieval_oak_colony.json": {
+      "before": null,
+      "after": "9f51eb7e07557535f5d6c804e6cb80e2fcb0f0526433ac0b240b76601e641e43"
+    },
+    "kubejs/data/minecolonies/worldgen/structure/shire_colony.json": {
+      "before": null,
+      "after": "a730fad60dce4433f9641a0a4dc246790c62604c2b6baa74f377334b8269a0a8"
+    },
+    "kubejs/data/minecolonies/worldgen/structure/incan_colony.json": {
+      "before": null,
+      "after": "190b41cd2cb3346e1b538dc3494042178bf5de4319c36a00f3fab6918d67eed4"
+    },
+    "kubejs/data/minecolonies/worldgen/structure/desert_camp.json": {
+      "before": null,
+      "after": "d392e5d021a0ce92018cc76b7ce7854ead7a492568b32eb80c230641a9f6db05"
+    },
+    "kubejs/data/minecolonies/worldgen/structure/asian_colony.json": {
+      "before": null,
+      "after": "a50424a327bf0c1b49c6c09276552e14d093491814627eecef093a68eb2447d1"
+    },
+    "kubejs/data/minecolonies/worldgen/structure/colonial_colony.json": {
+      "before": null,
+      "after": "dbe21e9c0fbcaeb2b82293d054298e051e3b073c9eaf677e1935231d0eb7c2cd"
+    },
+    "kubejs/data/minecolonies/worldgen/structure/desertoasis_colony.json": {
+      "before": null,
+      "after": "0878edd752866b5090dee4eb4a3eb862f0b1a20fd62a8bd1a77d4016632acef2"
+    },
+    "kubejs/data/minecolonies/worldgen/structure/caledonia_colony.json": {
+      "before": null,
+      "after": "ec05bda9fe87dedc5354993b580389d46031560440d5b9849aeb7ee27375e53c"
+    },
+    "kubejs/data/minecolonies/worldgen/structure/amazon_camp.json": {
+      "before": null,
+      "after": "aea55536bab398cfde8bed21f0a401ae6fef12eef21b90179bf28201a68ba99e"
+    },
+    "kubejs/data/minecolonies/worldgen/structure/lostmesacity_colony.json": {
+      "before": null,
+      "after": "5a1a9d73d61081c2f6e19a60ee24db568b13ef7b35a26bc43dcacabdb5b04add"
+    },
+    "kubejs/data/nuclearcraft/worldgen/structure/wasteland_village.json": {
+      "before": null,
+      "after": "60336f2171606a21a85d0d827fd30723043791c635578127bb4ea59d3a635d65"
+    },
+    "kubejs/data/ctov/worldgen/structure/large/village_beach.json": {
+      "before": null,
+      "after": "73a06e5b218455e962ecdeed3905a4976a4d7e7d94fcaffc6777aa609b398286"
+    },
+    "kubejs/data/ctov/worldgen/structure/large/village_christmas.json": {
+      "before": null,
+      "after": "e9863aee2d4c5d78f0ed29d1b71a00f90390d68890b5523c93695d59888bfd76"
+    },
+    "kubejs/data/ctov/worldgen/structure/large/village_dark_forest.json": {
+      "before": null,
+      "after": "489d78cce8b49627fb6e8b097e844d30476cfe7bc9d171ce122832c6183b9e61"
+    },
+    "kubejs/data/ctov/worldgen/structure/large/village_desert.json": {
+      "before": null,
+      "after": "8f3b50f7b5355655cccbfaa83f11e4e2c8c61436eba4324c44fb38dca607ae2e"
+    },
+    "kubejs/data/ctov/worldgen/structure/large/village_desert_oasis.json": {
+      "before": null,
+      "after": "14047e10224ef2069bfe9b76cdb045cf411943a6e6c4b34c51f0311630a9de46"
+    },
+    "kubejs/data/ctov/worldgen/structure/large/village_jungle.json": {
+      "before": "e41d1e39e4cb1b6627445b07feb15f6ea87b162839c1721a2400a07addcda8e9",
+      "after": "7c05f8f51ffd42a5b910d94c9450ccb99c7cd92c46e6d18682364e5d2441fff1"
+    },
+    "kubejs/data/ctov/worldgen/structure/large/village_jungle_tree.json": {
+      "before": "9dc1722b55f5c00c4621f2683885149fd3a1141526be88a9f74798f1b5a6f056",
+      "after": "ba77004f34576923007ea516b026ec6725ade588a8baaf7615809b953cd91793"
+    },
+    "kubejs/data/ctov/worldgen/structure/large/village_mesa.json": {
+      "before": null,
+      "after": "8cf887fd076207604d6bbe6fb2a7f4d8e400b0702aa56f150053f3d3a9aa6ecf"
+    },
+    "kubejs/data/ctov/worldgen/structure/large/village_mesa_fortified.json": {
+      "before": null,
+      "after": "0232361619ec8af50e0fad686059e31f63a4e9c29940554820756996398a815f"
+    },
+    "kubejs/data/ctov/worldgen/structure/large/village_mountain.json": {
+      "before": null,
+      "after": "a21f75fe79e52751aa7b8e6c1df8790cc016a8ceed0ed441ef03944c20b44430"
+    },
+    "kubejs/data/ctov/worldgen/structure/large/village_mountain_alpine.json": {
+      "before": null,
+      "after": "40ac45907b046cc5f232fb477e7b327265e93e2ba5575b780366242fccf17ee4"
+    },
+    "kubejs/data/ctov/worldgen/structure/large/village_mushroom.json": {
+      "before": null,
+      "after": "0948184b4d7b362696fc33199e39b67b3e4c10b185a60b1ce62a0fc6d7229b23"
+    },
+    "kubejs/data/ctov/worldgen/structure/large/village_plains.json": {
+      "before": null,
+      "after": "d70f1d7f74b4f457cfd2a069102c711324d20ce790b65f1e4884c69ee096a4fa"
+    },
+    "kubejs/data/ctov/worldgen/structure/large/village_plains_fortified.json": {
+      "before": null,
+      "after": "31366f8cde5e159bdf8066edf950558d32fdadf57935f79c2916afe54e8a5dac"
+    },
+    "kubejs/data/ctov/worldgen/structure/large/village_savanna.json": {
+      "before": null,
+      "after": "415c29bb22ac291c56dd35a092847b1437abc02bfc380cd8c79b7c8d61b21422"
+    },
+    "kubejs/data/ctov/worldgen/structure/large/village_savanna_na.json": {
+      "before": null,
+      "after": "f31c8fc3237e33bad145688e07a30a74770b12f569c99df14691da8d8817c5b7"
+    },
+    "kubejs/data/ctov/worldgen/structure/large/village_snowy_igloo.json": {
+      "before": null,
+      "after": "9db900fdd04f1d3b12ecc85e3220ac87e131421e97a641c193befee2a3fef278"
+    },
+    "kubejs/data/ctov/worldgen/structure/large/village_swamp.json": {
+      "before": null,
+      "after": "f42aab11a583c572b7b700f843eb747858e9aeeb99cbbcdf4bc195ecfc721de6"
+    },
+    "kubejs/data/ctov/worldgen/structure/large/village_swamp_fortified.json": {
+      "before": null,
+      "after": "81312985d1a731b06361e3d03627fdb00298be0c153397290a5b7aefdc40f202"
+    },
+    "kubejs/data/ctov/worldgen/structure/large/village_taiga.json": {
+      "before": null,
+      "after": "41806a750d63a8e7a0e42d1d6e42d4902f2fac80bc2fdde943ec1d2481912ebd"
+    },
+    "kubejs/data/ctov/worldgen/structure/large/village_taiga_fortified.json": {
+      "before": null,
+      "after": "7f590dc503c631edf9d934365584eb0c1ea30e2723a9baf381594573e13bac1b"
+    },
+    "kubejs/data/ctov/worldgen/structure/large/village_underground.json": {
+      "before": null,
+      "after": "27a0d165d8c7fa05731c58dbf9a6e6486716ad673bf0e5e579149e577d5a9be7"
+    },
+    "kubejs/data/ctov/worldgen/structure/medium/village_beach.json": {
+      "before": null,
+      "after": "a9e4b76081132df940e4aa3f31974abef1435aa724769e6ca490bd4419495eb2"
+    },
+    "kubejs/data/ctov/worldgen/structure/medium/village_christmas.json": {
+      "before": null,
+      "after": "84445187d513c259edcc192c3ec180ea472b6ab6ca2afc8271c81a5a9decf3f0"
+    },
+    "kubejs/data/ctov/worldgen/structure/medium/village_dark_forest.json": {
+      "before": null,
+      "after": "6f455db3dfb67c4aa325bc9dd45dbcc3d83e23b6918eda0281c25494806eff78"
+    },
+    "kubejs/data/ctov/worldgen/structure/medium/village_desert.json": {
+      "before": null,
+      "after": "5a4862310511b395f3659d74448c124cbd598f3da734f5855155be52490f8132"
+    },
+    "kubejs/data/ctov/worldgen/structure/medium/village_desert_oasis.json": {
+      "before": null,
+      "after": "57dfacd088eada23d6926f1963386e62bb31741b93edc5b0c5e11a95db3f2570"
+    },
+    "kubejs/data/ctov/worldgen/structure/medium/village_jungle.json": {
+      "before": "db2ed0c5eff5fa22580742496518b9f77c49beb62edc8f7617209c9192985580",
+      "after": "facc58d35e65937e735dfa9b133d765f0260b3d259ce02fed431378e83ba7717"
+    },
+    "kubejs/data/ctov/worldgen/structure/medium/village_jungle_tree.json": {
+      "before": "ae066f8eeaed7b4d4505ff2e3e6a2a576bf1057651c0fbdd74afc752d593e41e",
+      "after": "bbabb432959ffb4debcd9947bf0129805e801292fa3a17c70463f1160777aedc"
+    },
+    "kubejs/data/ctov/worldgen/structure/medium/village_mesa.json": {
+      "before": null,
+      "after": "7c110b3abd5e73041d3054b8b23338cc4c10a24ce9d9e9a8bdcb250d74d6bbba"
+    },
+    "kubejs/data/ctov/worldgen/structure/medium/village_mesa_fortified.json": {
+      "before": null,
+      "after": "e7896dda37b6b0639f07796f6273d38c675261c948ac1d5093523026764eef43"
+    },
+    "kubejs/data/ctov/worldgen/structure/medium/village_mountain.json": {
+      "before": null,
+      "after": "0ad9d2151fa50a00f9c5e177cac1b877dadba2db5acd793330e547a27e02c97e"
+    },
+    "kubejs/data/ctov/worldgen/structure/medium/village_mountain_alpine.json": {
+      "before": null,
+      "after": "911c1d0257dfc25f221b8051647688ef8f2e54f9df4530bf43d4e44e9c0689d3"
+    },
+    "kubejs/data/ctov/worldgen/structure/medium/village_mushroom.json": {
+      "before": null,
+      "after": "d26556c770f71be86b5ca63a2443bf461c20efb94b9d766cc47c0cadc8277a63"
+    },
+    "kubejs/data/ctov/worldgen/structure/medium/village_plains.json": {
+      "before": null,
+      "after": "1f990c3ec5cc41afd919e7cb382265a876a57b448dcb674fea1e21bb6b5a96ca"
+    },
+    "kubejs/data/ctov/worldgen/structure/medium/village_plains_fortified.json": {
+      "before": null,
+      "after": "8e33e34acdd924a8dce2f4a747cb5109fa374a05fc349aa6348b6297d27998ce"
+    },
+    "kubejs/data/ctov/worldgen/structure/medium/village_savanna.json": {
+      "before": null,
+      "after": "b5a4202ebb177786997325d8dbf4f77d758cbc7004df2a55119eafba9cbf61bb"
+    },
+    "kubejs/data/ctov/worldgen/structure/medium/village_savanna_na.json": {
+      "before": null,
+      "after": "fd697ecab7f085d5c698758513c2b9e8228c1374d095731dfb004cd425247dca"
+    },
+    "kubejs/data/ctov/worldgen/structure/medium/village_snowy_igloo.json": {
+      "before": null,
+      "after": "06c9eac5e07664bae0f840c8ffbbbe8efcaf008d86b1f038077ec0895afa6309"
+    },
+    "kubejs/data/ctov/worldgen/structure/medium/village_swamp.json": {
+      "before": null,
+      "after": "94fed48b24439a53b51403c05e5e93dbf9cef8af68d9de0743537d4098ec0505"
+    },
+    "kubejs/data/ctov/worldgen/structure/medium/village_swamp_fortified.json": {
+      "before": null,
+      "after": "9b299cf6e42f917f93af8e63590cfe344ffc6a8378cada575d574763c37134b7"
+    },
+    "kubejs/data/ctov/worldgen/structure/medium/village_taiga.json": {
+      "before": null,
+      "after": "df4a8e54e343f33fd84e6d3070674ffc1fc1a0b08e35261e8b0d6834de7c802f"
+    },
+    "kubejs/data/ctov/worldgen/structure/medium/village_taiga_fortified.json": {
+      "before": null,
+      "after": "40a0e488a0bcd9f0f479244a8e32cd5312c8eada1ae04597fdf955964a6f10d9"
+    },
+    "kubejs/data/ctov/worldgen/structure/medium/village_underground.json": {
+      "before": null,
+      "after": "0b0f900f236dc042b50bdfa82900ccd41658e8f525f3aa2d6811ef35396393c0"
+    },
+    "kubejs/data/ctov/worldgen/structure/small/village_beach.json": {
+      "before": null,
+      "after": "147d245483ed2e408f22ce74321bdb07f0e9a380e5fdb51beb9275d49c64ca92"
+    },
+    "kubejs/data/ctov/worldgen/structure/small/village_christmas.json": {
+      "before": null,
+      "after": "c5ba9c2c37683a3d2a9d9d249cc63a156303bda5f4fb508a66ff7d931047cd58"
+    },
+    "kubejs/data/ctov/worldgen/structure/small/village_dark_forest.json": {
+      "before": null,
+      "after": "ccdb753e7e09d3b20aa949defd8a3975858c91017aac7a9224b750818f487272"
+    },
+    "kubejs/data/ctov/worldgen/structure/small/village_desert.json": {
+      "before": null,
+      "after": "f5af2cd6c5a7ce16f23c4d7c634c8550b72810a2664eabe5333a9605459dc215"
+    },
+    "kubejs/data/ctov/worldgen/structure/small/village_desert_oasis.json": {
+      "before": null,
+      "after": "cc35eb89a13e7787fbe50c1081bc4ad49df479ed030fbc112c91a503155ad0f5"
+    },
+    "kubejs/data/ctov/worldgen/structure/small/village_jungle.json": {
+      "before": "827dc2752d0d6d036cab6d0b4ee8e1628ad11f3afc342c817c3c418657b963c3",
+      "after": "fce1fda16a08deb381dabd6cb8f228fc83594d3f8442cf7366aaf828ca26dc0e"
+    },
+    "kubejs/data/ctov/worldgen/structure/small/village_jungle_tree.json": {
+      "before": "c39f939a5cc618cf2ae23fbd0fbe503f14083b0c8b65c2a25458e35853696768",
+      "after": "000b8324b00bb4ce77a3edd193292f4c5538c03798273e9810cbea562a7d1c48"
+    },
+    "kubejs/data/ctov/worldgen/structure/small/village_mesa.json": {
+      "before": null,
+      "after": "d1cb03e96914a0d08d129046616032bdbdb9f04eeac694f7cb595fa133f7b228"
+    },
+    "kubejs/data/ctov/worldgen/structure/small/village_mesa_fortified.json": {
+      "before": null,
+      "after": "0f5084665e0417798b69ee7f8bd1e3d9c7ee591538848e41e733ac13137e4242"
+    },
+    "kubejs/data/ctov/worldgen/structure/small/village_mountain.json": {
+      "before": null,
+      "after": "d151529cd3f103a741421ae8a16068cd4806877e5dfad9e1175717a528f7f2f9"
+    },
+    "kubejs/data/ctov/worldgen/structure/small/village_mountain_alpine.json": {
+      "before": null,
+      "after": "a8721b46c8094865b4b442b55cb8a7fcece16529329caf6f698d81f73e268ae9"
+    },
+    "kubejs/data/ctov/worldgen/structure/small/village_mushroom.json": {
+      "before": null,
+      "after": "86f6ad07e429e87b49a555a3bc0e06425a82ff1b1ee92d25fdb6d6faa7879c4a"
+    },
+    "kubejs/data/ctov/worldgen/structure/small/village_plains.json": {
+      "before": null,
+      "after": "2c62eb046059fb164fc94fb89b5e22af3a6841adfa93f1fa859119098ee1a939"
+    },
+    "kubejs/data/ctov/worldgen/structure/small/village_plains_fortified.json": {
+      "before": null,
+      "after": "2c46c2b0be66c49c0ac3023a0d9e3e6e9550bb26d4aac5071d5104bca34941f6"
+    },
+    "kubejs/data/ctov/worldgen/structure/small/village_savanna.json": {
+      "before": null,
+      "after": "dfb610fe5076178beb54d86b424c22617f22454c629b7f272a7597f980a83bc5"
+    },
+    "kubejs/data/ctov/worldgen/structure/small/village_savanna_na.json": {
+      "before": null,
+      "after": "22b73dfb64cb4859fca641f026e75af6f50be30420647acef9545cda68827a97"
+    },
+    "kubejs/data/ctov/worldgen/structure/small/village_snowy_igloo.json": {
+      "before": null,
+      "after": "a989dc2d4fdfbb57163f7c141637dc606033e5c64e05a14177419665d923e9f7"
+    },
+    "kubejs/data/ctov/worldgen/structure/small/village_swamp.json": {
+      "before": null,
+      "after": "4be7ac8599517e4a5ec117c7f003d4c5fc5ee1b865d602aa85193983d8560cf8"
+    },
+    "kubejs/data/ctov/worldgen/structure/small/village_swamp_fortified.json": {
+      "before": null,
+      "after": "3af84fdc405a69fba0cac2e55b7f78f483d567a77e45584a457cb36d3a7ef842"
+    },
+    "kubejs/data/ctov/worldgen/structure/small/village_taiga.json": {
+      "before": null,
+      "after": "be933317ce727aad11d72a4af70b05ade784524d5892cab6dce5b3a6c028e5be"
+    },
+    "kubejs/data/ctov/worldgen/structure/small/village_taiga_fortified.json": {
+      "before": null,
+      "after": "0ef348a7bd73485300cd691356560a5d612a2414f5b59083e9a08eb8e6046256"
+    },
+    "kubejs/data/ctov/worldgen/structure/small/village_underground.json": {
+      "before": null,
+      "after": "0b0f900f236dc042b50bdfa82900ccd41658e8f525f3aa2d6811ef35396393c0"
+    },
+    "config/ctov-common.toml": {
+      "before": "2c0654454a476aacf2f9ccfe5dfbea063e7538f105dfade02249e5edad061e68",
+      "after": "ef0918a682b8ee1b712da62292af72a9f123604180054aad02d5798b48b59f37"
+    },
+    "kubejs/data/minecraft/worldgen/structure/desert_pyramid.json": {
+      "before": null,
+      "after": "0863d7b27236c8bb66f079062d5e6f859ce6ff77af0775a2994d8be8313a6b27"
+    },
+    "kubejs/data/minecraft/worldgen/structure/jungle_pyramid.json": {
+      "before": null,
+      "after": "1648605321c2e9cf3cd7cc618443d9e3de612b20b46bcae24ce3be483d5abe04"
+    },
+    "kubejs/data/minecraft/worldgen/structure/igloo.json": {
+      "before": null,
+      "after": "ea8560457c2a7d80302f9f85211558cf9c73d3cd9d8f3eee6de1bec0e6c4a28c"
+    },
+    "kubejs/data/minecraft/worldgen/structure/swamp_hut.json": {
+      "before": null,
+      "after": "dbee238f879128a4faf29fbabf35be4d8f1c9ffde8a2774d7be2aa6f4f6e2afa"
+    },
+    "kubejs/data/minecraft/worldgen/structure/ocean_ruin_cold.json": {
+      "before": null,
+      "after": "2c57ce38487c8872307457e019bbf62369165bb05df303b9d5604a6569a5bd1b"
+    },
+    "kubejs/data/minecraft/worldgen/structure/ocean_ruin_warm.json": {
+      "before": null,
+      "after": "4da5fc76f789b959ff973fc0868bbcb95568ec407ebfc1e573323379e767bdfa"
+    },
+    "kubejs/data/minecraft/worldgen/structure/pillager_outpost.json": {
+      "before": null,
+      "after": "73ca6be5903d7ebe19f227344f7f2ceaf48318c900c54727990a8b5bc794d431"
+    },
+    "kubejs/data/minecraft/worldgen/structure/ruined_portal.json": {
+      "before": null,
+      "after": "008f351e3c6b601a6da7094f6e52d27ac2b0bfa89c4c9b31e32573268f816c64"
+    },
+    "kubejs/data/minecraft/worldgen/structure/ruined_portal_desert.json": {
+      "before": null,
+      "after": "ce0ff6d8fc90dd0076626c357f7eb47ae9ec5a06eb0b2ccc5d6158c434969671"
+    },
+    "kubejs/data/minecraft/worldgen/structure/ruined_portal_jungle.json": {
+      "before": null,
+      "after": "a3a3ef3e8605197e83c5d0f519140a3d7e39875cab0981f5ee7c97725d4e48ea"
+    },
+    "kubejs/data/minecraft/worldgen/structure/ruined_portal_mountain.json": {
+      "before": null,
+      "after": "69e0e5accb7f2deae8395876c77caf7e0915c4fc47411b502f1ef72e2226509a"
+    },
+    "kubejs/data/minecraft/worldgen/structure/ruined_portal_ocean.json": {
+      "before": null,
+      "after": "4b0cdd16dbd0d9167f92d8fa61a32016d799f6453027cee0d05a0935da4076ad"
+    },
+    "kubejs/data/minecraft/worldgen/structure/ruined_portal_swamp.json": {
+      "before": null,
+      "after": "d96ebafb6575b89e9993adfb8b6fef199ffdfdf4d2d683eef5b0d4bc49705a9f"
+    },
+    "kubejs/data/apotheosis/worldgen/structure/tower_leaf.json": {
+      "before": null,
+      "after": "97b8938e09aef58f272e5d6db5bf79f3a1440af03139c0d1afebb45b8169c3ae"
+    },
+    "kubejs/data/apotheosis/worldgen/structure/tower_main.json": {
+      "before": null,
+      "after": "cfdcf3fac2ca29766c80eac628034836fb6ecafaac5bdf03f3b898f23c7b48f8"
+    },
+    "kubejs/data/apotheosis/worldgen/structure/tower_sand.json": {
+      "before": null,
+      "after": "a0eb62b85601549c669ec6a5b483aae946da8fc2a8b396cbcb4aef611f66127c"
+    },
+    "kubejs/data/apotheosis/worldgen/structure/tower_spruce.json": {
+      "before": null,
+      "after": "f1e9dcf263a310ac3ac1eaf3a5d474d112cc8254179a781c5d3d3876d2c251b9"
+    },
+    "kubejs/data/block_factorys_bosses/worldgen/structure/sandworm_nest.json": {
+      "before": null,
+      "after": "86618b342f07fac01909c5d42d045fb261edba0c9cb402c46e27d5ae4524c663"
+    },
+    "kubejs/data/block_factorys_bosses/worldgen/structure/yeti_hideout.json": {
+      "before": null,
+      "after": "8e40b6dffed7a9a99e229f41417dcb8d2f51ec43d32366f1b8b947f56c7d9c0d"
+    },
+    "kubejs/data/bosses_of_mass_destruction/worldgen/structure/lich_tower.json": {
+      "before": null,
+      "after": "51aa598eff04bf740509289b3190d730ee66fac5c541ecdc19039caba62a9eba"
+    },
+    "kubejs/data/bosses_of_mass_destruction/worldgen/structure/void_blossom.json": {
+      "before": null,
+      "after": "44fb3734d20348610cbb386d1145a589c84a883fc55f334b99e3f726f4feeb76"
+    },
+    "kubejs/data/friendsandfoes/worldgen/structure/iceologer_cabin.json": {
+      "before": null,
+      "after": "574c160a47aad1a0c395ef6f02c1d6ece724146ca4b45100068309958b8960a5"
+    },
+    "kubejs/data/friendsandfoes/worldgen/structure/illusioner_shack.json": {
+      "before": null,
+      "after": "92addf93dc21126778a865c688a7417b0db425bcd5f095c0f8a6305ed5416ec4"
+    },
+    "kubejs/data/friendsandfoes/worldgen/structure/illusioner_training_grounds.json": {
+      "before": null,
+      "after": "5b6724a729faf72429ae1daed33fbae188498fcd06413d63fd41c96bac5f2d69"
+    },
+    "kubejs/data/irons_spellbooks/worldgen/structure/mangrove_hut.json": {
+      "before": null,
+      "after": "0da578ad94db15ab21163afa87d1d3ca577d0c86337b4948893b3a43d1330226"
+    },
+    "kubejs/data/irons_spellbooks/worldgen/structure/mountain_tower.json": {
+      "before": null,
+      "after": "a9088cd258bfbe092e77a0682d893482e352202c5ec89939f3f5931b74383bb4"
+    },
+    "kubejs/data/cataclysm/worldgen/structure/abandoned_spire.json": {
+      "before": null,
+      "after": "4e5a812252310937d9b00fed78c2fd90e112c88534b5e7e211003a13bec5c102"
+    },
+    "kubejs/data/cataclysm/worldgen/structure/abandoned_temple.json": {
+      "before": null,
+      "after": "dc88620795324fa7814b8859475fe9e4ef49e0a6a91312a434d0f58b328de5d1"
+    },
+    "kubejs/data/cataclysm/worldgen/structure/desert_site.json": {
+      "before": null,
+      "after": "9db9b5f9cce448ad8dbf8603624995e96db5afecea9f5a7f1132a59eb5621787"
+    },
+    "kubejs/data/cataclysm/worldgen/structure/desert_temple.json": {
+      "before": null,
+      "after": "d641093eede727d9c246a1ab818941539327b9ffa4b433f67d258a32452644ab"
+    },
+    "kubejs/data/cataclysm/worldgen/structure/amethyst_nest.json": {
+      "before": null,
+      "after": "1079cfdecc168b57cf9bb5d112346a78c35c880c9c717c401f30e3e14c31338e"
+    },
+    "kubejs/data/mowziesmobs/worldgen/structure/frostmaw_spawn.json": {
+      "before": null,
+      "after": "bbf0778f03945e44edbc3085835cb30443e3214546e02ff17be2b1b29799bd27"
+    },
+    "kubejs/data/mowziesmobs/worldgen/structure/umvuthana_grove.json": {
+      "before": null,
+      "after": "2bac2187c395c662c23b35ec78fda27a98b39a4737628f347666cedb8421c704"
+    },
+    "kubejs/data/mowziesmobs/worldgen/structure/wrought_chamber.json": {
+      "before": null,
+      "after": "ed6539164e38c379460a874298378e4e90218eb728ccb6a4129c7351c76043a3"
+    },
+    "kubejs/data/betterdungeons/worldgen/structure/small_dungeon.json": {
+      "before": null,
+      "after": "91f6721fb93b65744d036bdc88701cdddbb7ed2dcd8d9cea2193f93d8c3e46e2"
+    },
+    "kubejs/data/ctov/worldgen/structure/pillager_outpost_badlands.json": {
+      "before": null,
+      "after": "90400d1e770efd8b2a3ee6b90c8d1cc4f8a91fe9c0132ac615802587de6c40ca"
+    },
+    "kubejs/data/ctov/worldgen/structure/pillager_outpost_beach.json": {
+      "before": null,
+      "after": "b4b59077266503eb18eb9cd6b5976e7e783891fe178ab2d87053a1bc1aae9063"
+    },
+    "kubejs/data/ctov/worldgen/structure/pillager_outpost_dark_forest.json": {
+      "before": null,
+      "after": "bedcc1493589e1c7b4426affa7db9390896930cf0f680c8b76dd3f03c20b430d"
+    },
+    "kubejs/data/ctov/worldgen/structure/pillager_outpost_desert.json": {
+      "before": null,
+      "after": "d09e0d9440906b912ed0678f73cc72596e20944d2d60d0a195d3f93e59f3dd8d"
+    },
+    "kubejs/data/ctov/worldgen/structure/pillager_outpost_jungle.json": {
+      "before": null,
+      "after": "ecf9edb7363e2a293d13c7067f264cbcf88d2f39ce29ada0708f3caec36a1cbe"
+    },
+    "kubejs/data/ctov/worldgen/structure/pillager_outpost_mesa.json": {
+      "before": null,
+      "after": "90400d1e770efd8b2a3ee6b90c8d1cc4f8a91fe9c0132ac615802587de6c40ca"
+    },
+    "kubejs/data/ctov/worldgen/structure/pillager_outpost_mountain.json": {
+      "before": null,
+      "after": "cc927e453973ebcca4063552e7c49048c03b9de9851857ff51c163e32fbd3f93"
+    },
+    "kubejs/data/ctov/worldgen/structure/pillager_outpost_plains.json": {
+      "before": null,
+      "after": "a7dab668339aa0134e63f482cf7f9e259eec8d221fc0449da14848304acfa1b7"
+    },
+    "kubejs/data/ctov/worldgen/structure/pillager_outpost_savanna.json": {
+      "before": null,
+      "after": "533e32ab404a684929054dbc2dddfa55c94aa3de6d9c06559eac327a2d6f9a5d"
+    },
+    "kubejs/data/ctov/worldgen/structure/pillager_outpost_snowy.json": {
+      "before": null,
+      "after": "e12811bb72f15dc228cc2f04caffe97ab433436000e835be9de21968c8567f99"
+    },
+    "kubejs/data/ctov/worldgen/structure/pillager_outpost_swamp.json": {
+      "before": null,
+      "after": "3601798cf73402007780d7941c1d12acaa8380fcfb4cbbc28af74413da8418f2"
+    },
+    "kubejs/data/ctov/worldgen/structure/pillager_outpost_taiga.json": {
+      "before": null,
+      "after": "5c44db7e3e2b4267a9e197e822517a1e04275f517b88621a476f9b001b67cc10"
+    },
+    "kubejs/data/minecraft/worldgen/structure/mansion.json": {
+      "before": null,
+      "after": "c9bd6220e1189a44c48e97c69a01f8d76867d20a1616afa0db0b05959a9fa391"
+    },
+    "kubejs/data/minecraft/worldgen/structure/monument.json": {
+      "before": null,
+      "after": "46164181c8f209f3590658dc690dc69f3efa478d9148b508b40228bd45cb9ecf"
+    },
+    "kubejs/data/minecraft/worldgen/structure/ancient_city.json": {
+      "before": null,
+      "after": "cb90e4c5e521039e1e6847caa0ecb99e6ee776d03c4e416725d34c17f8531ec9"
+    },
+    "kubejs/data/dungeoncrawl/worldgen/structure/dungeon.json": {
+      "before": null,
+      "after": "d9cdceb916ea0250f8a4694f258e14d1a60ce4ed025708eca25aaca80ab1c532"
+    },
+    "kubejs/data/dungeonnowloading/worldgen/structure/temple_of_duality.json": {
+      "before": null,
+      "after": "3770f77cfb5674af65d0ebc91cd8b869ae5302d9214cfae2ac634cffcd7f57ba"
+    },
+    "kubejs/data/dungeonnowloading/worldgen/structure/labyrinth.json": {
+      "before": null,
+      "after": "eec198480e01d80c97ea194ca7239d294ab6e0352d9350bfa4acaec6ad19f73a"
+    },
+    "kubejs/data/irons_spellbooks/worldgen/structure/catacombs.json": {
+      "before": null,
+      "after": "af82a2220d677d8e6bb72f56c201a8899bdf5709a0dc8e83a3acea53643e0a41"
+    },
+    "kubejs/data/irons_spellbooks/worldgen/structure/evoker_fort.json": {
+      "before": null,
+      "after": "e697755bc60db47ced836a497077d70a6ea212e71bfb51cd8da72341fdd47080"
+    },
+    "kubejs/data/irons_spellbooks/worldgen/structure/ice_spider_den.json": {
+      "before": null,
+      "after": "06976e01db939270264453c2e62c3bbbb82e19cf30c726be04965dc7b6283469"
+    },
+    "kubejs/data/cataclysm/worldgen/structure/acropolis.json": {
+      "before": null,
+      "after": "15404557d2d293a7e77ff30d6855ff69bff01737f05cbca3926798e8cb470a4b"
+    },
+    "kubejs/data/cataclysm/worldgen/structure/ancient_factory.json": {
+      "before": null,
+      "after": "549d6d334403827cd78079bd482962d2847fbda227b3e19690cb2d1342c6722f"
+    },
+    "kubejs/data/cataclysm/worldgen/structure/cursed_pyramid.json": {
+      "before": null,
+      "after": "7f5d126cc9b3da862a5fc2c3446bbf5e8847587937dc53f87ad6d6266a5ff2e7"
+    },
+    "kubejs/data/cataclysm/worldgen/structure/frosted_prison.json": {
+      "before": null,
+      "after": "d0ef90c8814c7ad08bde89730c83c38f8bdc9f536d1ea9ae06d24220b912107e"
+    },
+    "kubejs/data/cataclysm/worldgen/structure/sunken_city.json": {
+      "before": null,
+      "after": "68c851b0fd353a19dd28db1975261488dd283a68bfd8ba5c384368dc2feb1e8c"
+    },
+    "kubejs/data/mowziesmobs/worldgen/structure/monastery.json": {
+      "before": null,
+      "after": "379cd477c7e4b464f79bcf60b5698447b997496b7d8ac049e6e8eb486a65cf46"
+    },
+    "kubejs/data/betterdungeons/worldgen/structure/skeleton_dungeon.json": {
+      "before": null,
+      "after": "2db8adc166d5add23304ea4ef81f5652296db2dbc930c8fbb95a9ac9dbfe0083"
+    },
+    "kubejs/data/betterdungeons/worldgen/structure/spider_dungeon.json": {
+      "before": null,
+      "after": "e2f55e41d3712dc1e1a5cf64f3d5a3f3425ff2712dde648bdfc04428a3791c53"
+    },
+    "kubejs/data/betterdungeons/worldgen/structure/zombie_dungeon.json": {
+      "before": null,
+      "after": "4c87fbf583b92ec73f6b15cc9f6da3115730f17744040b0600c1b10d619172ec"
+    },
+    "kubejs/data/minecraft/worldgen/structure/shipwreck.json": {
+      "before": null,
+      "after": "3fc57fd13774169d3710bc47c45841b854d5070daeb22a551841a1adb2493547"
+    },
+    "kubejs/data/minecraft/worldgen/structure/shipwreck_beached.json": {
+      "before": null,
+      "after": "9eb56758fe104335164017a69a54b094158d19b81fef8cb63a9608b50008fa5b"
+    },
+    "kubejs/data/minecolonies/worldgen/structure/ship.json": {
+      "before": null,
+      "after": "81795b3a9f57f430e98993e2de475057d19c4e0f0ba9d75bb38ef1410918b389"
+    },
+    "kubejs/data/block_factorys_bosses/worldgen/structure/kraken_ship.json": {
+      "before": null,
+      "after": "da47a6f9f0ccabd23d41442dde2bb7951b5f9d9502bdb612ff57225c8fd1ce52"
+    },
+    "kubejs/data/irons_spellbooks/worldgen/structure/impaled_icebreaker.json": {
+      "before": null,
+      "after": "24808fa78815c6774cb508ab3e5c9d3547a3db5f72939ea4716e09628c7258cb"
+    },
+    "kubejs/data/supplementaries/worldgen/structure/galleon.json": {
+      "before": null,
+      "after": "32928b13d296f978983f8bb76f19324b30acfb61f01b11ebf49d4687065be88c"
+    },
+    "kubejs/data/ae2/worldgen/structure/meteorite.json": {
+      "before": null,
+      "after": "412dc86b8d0aa1fc65b6aed206f9801a6992ef792a7765514be82afb226ec733"
+    },
+    "kubejs/data/supplementaries/worldgen/structure/road_sign.json": {
+      "before": null,
+      "after": "b783e77fc143d1df8952b9de04699daca7ec983ad15239fc3381841600dcf110"
+    },
+    "kubejs/data/apotheosis/worldgen/structure_set/towers.json": {
+      "before": null,
+      "after": "2c9db8f58a4ecdaebc44a5088f1e49b7c9abd51157ec30767b8eddd8916cb827"
+    },
+    "kubejs/data/ae2/worldgen/structure_set/meteorite.json": {
+      "before": null,
+      "after": "419b242240db2bfaf45b885be087e4689e9eb66b8181790c876c0a28a4bbd523"
+    },
+    "kubejs/data/block_factorys_bosses/worldgen/structure_set/sandworm_nest.json": {
+      "before": null,
+      "after": "44f003779dce4e9b38a8bb3ee24decef40bb7042d13cebcd51715456f009d83d"
+    },
+    "kubejs/data/block_factorys_bosses/worldgen/structure_set/yeti_hideout.json": {
+      "before": null,
+      "after": "ecf47f860ae8fed08cdd3a678b53bde17d289f8060e90fb16dfbb107b7ec2b92"
+    },
+    "kubejs/data/block_factorys_bosses/worldgen/structure_set/kraken_ship.json": {
+      "before": "682b69269384fe06e278519d403963eee7fb3480bc5d6cc57693245d5d55c85e",
+      "after": "ce9f63d1e4a75a4b3f02a161a5b86ea6165250f7aa44e318cadc252530770533"
+    },
+    "kubejs/data/bosses_of_mass_destruction/worldgen/structure_set/lich_tower.json": {
+      "before": null,
+      "after": "ad067f277e6c094ca328bdf4235e010cd8da5131acd3684ef535c26cee3f6e20"
+    },
+    "kubejs/data/bosses_of_mass_destruction/worldgen/structure_set/void_blossom.json": {
+      "before": null,
+      "after": "1dd84e7e9147df19e016bc33bd7819269da84d2697e67dffa8f491d8350ec14f"
+    },
+    "kubejs/data/dungeoncrawl/worldgen/structure_set/dungeons.json": {
+      "before": null,
+      "after": "477c382b2eb9c7c2a58c68a6ca1bb008c47a01b8f8f3b2b26e3183ba4add8452"
+    },
+    "kubejs/data/dungeonnowloading/worldgen/structure_set/temple_of_duality.json": {
+      "before": null,
+      "after": "82b461530929c26a694ca47a090e2756a890a4aa000f81019f80172be8ec0c12"
+    },
+    "kubejs/data/dungeonnowloading/worldgen/structure_set/labyrinth.json": {
+      "before": null,
+      "after": "6861d3888b1b7708d67c41e5a6cb0c8dd23c44cab34478692224cce6285f0460"
+    },
+    "kubejs/data/friendsandfoes/worldgen/structure_set/iceologer_cabin.json": {
+      "before": null,
+      "after": "8d026665124453e136117cb6f2c06b06b3fed5361e8e4b36b33cfe51ba9024dd"
+    },
+    "kubejs/data/friendsandfoes/worldgen/structure_set/illusioner_shack.json": {
+      "before": null,
+      "after": "eb56f9e677c05b23bfa1b14fd5ccfa0838467624f6774e96a02b21b668c7a3e6"
+    },
+    "kubejs/data/friendsandfoes/worldgen/structure_set/illusioner_training_grounds.json": {
+      "before": null,
+      "after": "d0f4f85a40c2e2b70cfa702345805992e5df13a1e52b07f495d345729bde54c8"
+    },
+    "kubejs/data/irons_spellbooks/worldgen/structure_set/catacombs.json": {
+      "before": null,
+      "after": "5b50570272cd3550d18466587994593610fd0b3ecb09824cbaef653814c9a8f2"
+    },
+    "kubejs/data/irons_spellbooks/worldgen/structure_set/evoker_fort.json": {
+      "before": null,
+      "after": "7b79d2473f019c774294cfaa8897987a5fe7fa23c358fabf4f6deb02262e81e4"
+    },
+    "kubejs/data/irons_spellbooks/worldgen/structure_set/ice_spider_den.json": {
+      "before": null,
+      "after": "ab62fba83b3293351d073652e905cad89bc0787e422483cceb973e521a64c6ff"
+    },
+    "kubejs/data/irons_spellbooks/worldgen/structure_set/impaled_icebreaker.json": {
+      "before": "da6e04a4f7aa78e16d46346a64365ee48702ca0a2c020c5135c8e2faa007a27e",
+      "after": "ea0268220af927d3fbf72eac4a7e0ee8a0c1e1c45e358c0106b7f5d607a749f5"
+    },
+    "kubejs/data/irons_spellbooks/worldgen/structure_set/mangrove_hut.json": {
+      "before": null,
+      "after": "5ee251df30bc4aac86b231702a9d1218d2ee8c7615ef7c588ff0f58cba660f75"
+    },
+    "kubejs/data/irons_spellbooks/worldgen/structure_set/mountain_tower.json": {
+      "before": null,
+      "after": "da48a814188e70b2329e8e14e0968c994c66ba7b2014626a8bef0e4a37bb4317"
+    },
+    "kubejs/data/cataclysm/worldgen/structure_set/abandoned_structures.json": {
+      "before": null,
+      "after": "065513e099efba758c367da4a470f249117c885c098e1c2d52095367f5c1262e"
+    },
+    "kubejs/data/cataclysm/worldgen/structure_set/acropolis.json": {
+      "before": null,
+      "after": "67d8f235976e8ec87161fb82b27d374a85572537391c6a5543c385119e12f939"
+    },
+    "kubejs/data/cataclysm/worldgen/structure_set/amethyst_nest.json": {
+      "before": null,
+      "after": "d4d4981792efe2d118f516b462b584bd50a8fbfb20bcebab78d5e343e0941f13"
+    },
+    "kubejs/data/cataclysm/worldgen/structure_set/ancient_factory.json": {
+      "before": null,
+      "after": "a3c103a25dae755996864ac80710980fa44b4211fc6caf8bcd8a222d72db52ae"
+    },
+    "kubejs/data/cataclysm/worldgen/structure_set/cursed_pyramid.json": {
+      "before": null,
+      "after": "b8ba0b94d310b2fcbefe07b6a5075eb6c04118fa6ee5fe5098e6212a1b5bd727"
+    },
+    "kubejs/data/cataclysm/worldgen/structure_set/desert_structures.json": {
+      "before": null,
+      "after": "4d1b64d541d1089eb1e25389c0d555a205e0bd9796edcfcadb2c3d25859e7172"
+    },
+    "kubejs/data/cataclysm/worldgen/structure_set/frosted_prison.json": {
+      "before": null,
+      "after": "d015eeeefa934c76f7328e831c05a30a50dfc3466642973c88fac82e49fd5ff4"
+    },
+    "kubejs/data/cataclysm/worldgen/structure_set/sunken_city.json": {
+      "before": null,
+      "after": "c16fff1a508e9851319050974d0afb867097015ac970f6ed62078c29adfee4c2"
+    },
+    "kubejs/data/minecolonies/worldgen/structure_set/barbarian_camp.json": {
+      "before": null,
+      "after": "28351ab781bb92a47e668205e8ae8b3a29d914f04dd0e2bbfc8163dff3332d37"
+    },
+    "kubejs/data/minecolonies/worldgen/structure_set/desert_camp.json": {
+      "before": null,
+      "after": "eb68780f725ab4dc5b7dd3be9a573bcadc014cf7225ca4399bfc62df6d356b21"
+    },
+    "kubejs/data/minecolonies/worldgen/structure_set/empty_colony.json": {
+      "before": null,
+      "after": "8a15fa8b6768dbd33d8bd036b099246bef8889bbc4198aeda20bdd3a9f6f35b5"
+    },
+    "kubejs/data/minecolonies/worldgen/structure_set/amazon_camp.json": {
+      "before": null,
+      "after": "7d0f9af448e74b7128d910c45166f801d0e2540ae7d03e0859339073665597c1"
+    },
+    "kubejs/data/minecolonies/worldgen/structure_set/ship.json": {
+      "before": "39d296d36c93f35b3c9bda8e41b9ed7c924c329d83754c161f3b5a405ea78128",
+      "after": "15561a818ac1e745ad07f771fc249fa4046f4f490ecd5f3f4b3a0bbe2a4a7252"
+    },
+    "kubejs/data/modernfoundry/worldgen/structure_set/overworld_ocean_island.json": {
+      "before": "82be9bef00c8b78beb802742624900ce7b40ff37bf8ba8beaf72c94354599407",
+      "after": "0e70a5c3e55e76885082bed506d4e73b85df45db358950a2c67683ca6ff17513"
+    },
+    "kubejs/data/modernfoundry/worldgen/structure_set/overworld_sky_island.json": {
+      "before": "a5107c7ea27284eadb884e1028cf56b5cf071b991790ac48b0f0a0849b8760b0",
+      "after": "cfaec16cb8136352afaa4d741e46aad4ab177be16b3167970511377a9d8f25a7"
+    },
+    "kubejs/data/mowziesmobs/worldgen/structure_set/frostmaw_spawns.json": {
+      "before": null,
+      "after": "39d979438c5944023093fb124e0362610cb3eedcc58652333b8bd3942af7d97d"
+    },
+    "kubejs/data/mowziesmobs/worldgen/structure_set/monasteries.json": {
+      "before": null,
+      "after": "aea806e5337e5ce0c4f3ab24d21baecf0fb0bec04cf0ecb632421d55cf532f39"
+    },
+    "kubejs/data/mowziesmobs/worldgen/structure_set/umvuthana_groves.json": {
+      "before": null,
+      "after": "fb322063922932e6cecd5a300f68200532358ddb081e497965d3435182204036"
+    },
+    "kubejs/data/mowziesmobs/worldgen/structure_set/wrought_chambers.json": {
+      "before": null,
+      "after": "d4b1d8522964330354ecac69c28e86e483d1f44e87891f879d6084843a06207e"
+    },
+    "kubejs/data/nuclearcraft/worldgen/structure_set/wasteland_village.json": {
+      "before": null,
+      "after": "1c794d11d1d5bc2861342b47b5da2744ff2dda28949d649a0f0a22d8c29ee0fd"
+    },
+    "kubejs/data/supplementaries/worldgen/structure_set/galleons.json": {
+      "before": null,
+      "after": "12bc1ba89acb0b861d4c94699b7334ce53c4b3f39e74c9b86d2e835f156401c9"
+    },
+    "kubejs/data/supplementaries/worldgen/structure_set/road_signs.json": {
+      "before": null,
+      "after": "02b9eea4cf2121a83dd56a353e3fd3f0f53f40c7f1213b6d831340eb440ee3b4"
+    },
+    "kubejs/data/betterdungeons/worldgen/structure_set/skeleton_dungeons.json": {
+      "before": null,
+      "after": "7dddfffd5569142dfb19691e3231622f4c0453825aa1958f7c0cb47bf791f146"
+    },
+    "kubejs/data/betterdungeons/worldgen/structure_set/small_dungeons.json": {
+      "before": null,
+      "after": "952d0d5c26cda940a835cc0e16d6d7397d1849d3fd2f9e842b28386dbda8aa55"
+    },
+    "kubejs/data/betterdungeons/worldgen/structure_set/spider_dungeons.json": {
+      "before": null,
+      "after": "6b44b37f665513c272b366f4d25bbac120745e95b18ff610160234dfa5e88b06"
+    },
+    "kubejs/data/betterdungeons/worldgen/structure_set/zombie_dungeons.json": {
+      "before": null,
+      "after": "eb681094cbe545aee9d8d5acdbbb0347b76fff8bb25c94bdb76725557eb9aadd"
+    },
+    "kubejs/data/minecraft/worldgen/structure_set/desert_pyramids.json": {
+      "before": null,
+      "after": "eb0cb4e6beafad362febb176aa4a99bddcf518377d5624457147b383f11310d4"
+    },
+    "kubejs/data/minecraft/worldgen/structure_set/swamp_huts.json": {
+      "before": null,
+      "after": "bfdcfdced40ac0075eb343b140e109ac33539bcaa16c87e5d0723d5ac4f7e7a9"
+    },
+    "kubejs/data/minecraft/worldgen/structure_set/ancient_cities.json": {
+      "before": null,
+      "after": "22310959163233daaa9714ce415d89b7aa4ca96dc29b265aff4e51e4e9fd0bd8"
+    },
+    "kubejs/data/minecraft/worldgen/structure_set/pillager_outposts.json": {
+      "before": null,
+      "after": "d6c23bdb61e000052c3e929f8730788e3117c6c50adaae9db68d3156ad259bc2"
+    },
+    "kubejs/data/minecraft/worldgen/structure_set/villages.json": {
+      "before": null,
+      "after": "f6d79a77c0a4970b0033ab183e77c3a2fcf41c3f632fe03f5a164d43ba01a792"
+    },
+    "kubejs/data/minecraft/worldgen/structure_set/ruined_portals.json": {
+      "before": null,
+      "after": "ea79ed4d60a2553bd92481e2136563267319afd605cc9785143f509eb6296a20"
+    },
+    "kubejs/data/minecraft/worldgen/structure_set/jungle_temples.json": {
+      "before": null,
+      "after": "d3f74e6e80da4fb3b86d59043d7080f6645619e3a75e8c405d0a3702a293d590"
+    },
+    "kubejs/data/minecraft/worldgen/structure_set/shipwrecks.json": {
+      "before": null,
+      "after": "c331b10ec9053c27bf0e7c93ede81bef276af1709d9b98cdf7f5d19acb9afb91"
+    },
+    "kubejs/data/minecraft/worldgen/structure_set/ocean_ruins.json": {
+      "before": null,
+      "after": "9d1a7c31769835f7b75ae72f180309b2b2ec2a2f7b6ed86e2d54c30539dc46c0"
+    },
+    "kubejs/data/minecraft/worldgen/structure_set/igloos.json": {
+      "before": null,
+      "after": "7fd0ff69ecefa138bc5eb589b61d71349f51d52db5e01d2af7cf9cee8f69ef30"
+    },
+    "kubejs/data/minecraft/worldgen/structure_set/woodland_mansions.json": {
+      "before": null,
+      "after": "6dfbd4e02a2bd9cd386e6f97511b6ada0050e14ff1f2f1080ba9d90d7209c102"
+    },
+    "kubejs/data/minecraft/worldgen/structure_set/ocean_monuments.json": {
+      "before": null,
+      "after": "5dfbe0d1b17180201475edbb733ef3b2295536e9cae0ec386727baa4d570aa76"
+    },
+    "kubejs/data/industrial_colonies/worldgen/structure_set/rare_maritime_sites.json": {
+      "before": "66eb993878ed6418d85a17a325e102e8628c0b1e093571dc8742d6fd418b9750",
+      "after": "81e091958afb97e71a7f5044162118ca7d58f32ba9161196fb36ee0000fc791f"
+    },
+    "kubejs/data/industrial_colonies/worldgen/structure_set/global_landmarks.json": {
+      "before": null,
+      "after": "a208f418b72e57ff079194ac2bd1ef94336a0c6c96f8f4dfd8fcf8f918b65a42"
+    },
+    "kubejs/server_scripts/zz_industrial_material_processing.js": {
+      "before": "f5440b3526461d727bc808733e0ee92b0ee0d2fa90fd483f2fb0c51ed383d95c",
+      "after": "904490dc8e5e92e82bcba02ea389c4c0f08b0a94563515d106d8d843d917cf8e"
+    }
+  },
+  "preservedFiles": {
+    "kjsgen/projects/default.json": "4f4639a055d7a2527237d3e9f6313453f4a38a88b47314f6a7808307b76ca78e",
+    "kubejs/server_scripts/kjsgen_recipes.js": "8bd8f78f1215c5e457e80ddc971b0dc07a22f31a9facd356161d8b97e08c7a75",
+    "kubejs/server_scripts/zzzz_industrial_semiconductors.js": "78405be50cb6f7159f99e50c4504cfa21685202fbed757a6757a89957fdca42d",
+    "kubejs/assets/industrial_colonies/lang/en_us.json": "1497dcd2d6b20b49dfc04371c50795c9f97393cce195663dda1eb31bb7108e86",
+    "kubejs/assets/tfmg/lang/en_us.json": "f9d13dbec22f36e6064e4203d4594326b8c8feeca267e8d73d9eb919dbe1674c",
+    "kubejs/data/block_factorys_bosses/tags/worldgen/biome/dragon_tower.json": "29ce007197f1de89c4f519bd5796f473c07915c2fba8f4da46acc792cec2b9a8",
+    "kubejs/data/industrial_colonies/tags/worldgen/biome/disabled_jungle_villages.json": "da190105bc91c8d1370b26d87d4f0cb2ec06a05355fdcd05590b56766c908589",
+    "kubejs/data/ad_astra/tags/entity_type/can_survive_in_space.json": "6bf921ca01059a8116841d648f163e83163553c4b2bb847fa26d0a7c91d7cfeb",
+    "kubejs/data/ad_astra/tags/entity_type/can_survive_extreme_heat.json": "6bf921ca01059a8116841d648f163e83163553c4b2bb847fa26d0a7c91d7cfeb",
+    "kubejs/data/ad_astra/tags/entity_type/can_survive_in_acid_rain.json": "6bf921ca01059a8116841d648f163e83163553c4b2bb847fa26d0a7c91d7cfeb",
+    "kubejs/data/ad_astra/tags/entity_type/lives_without_oxygen.json": "6bf921ca01059a8116841d648f163e83163553c4b2bb847fa26d0a7c91d7cfeb",
+    "kubejs/data/stellaris/tags/entity_type/no_oxygen_needed.json": "6bf921ca01059a8116841d648f163e83163553c4b2bb847fa26d0a7c91d7cfeb",
+    "kubejs/data/block_factorys_bosses/loot_table/chests/dragon_tower_common.json": "7c0c4d5c012bce020185bee4f47f88add069974fd5459dd2f037840f8551e12e",
+    "kubejs/data/block_factorys_bosses/loot_table/chests/dragon_tower.json": "9f4a00bdf82e37006c568f703d60931e00416eb22130893b860fcfe944cf1229",
+    "kubejs/data/block_factorys_bosses/loot_table/entities/infernal_dragon.json": "bf0b5a82001a488cae2080db5abf0796604a0a0c293ad07187d06828c0843c64",
+    "mods/industrial_colonies-0.5.2.jar": null,
+    "kubejs/data/ad_astra/worldgen/structure_set/oil_well.json": "417474012c15e5f53ba180496f64bcc37b5f94139781ac5309c2e6c988446272",
+    "kubejs/data/ad_astra/tags/worldgen/biome/has_structure/oil_well.json": "bef4d172fc1bfb34d342e79090726c4a0c272dd404783c3ea022b992e0e0415e",
+    "kjsgen/projects/approved_recipes.json": "f26ed21cff64e08ed6427fe42afd495faa008ed74d258b2d81c45078a698f1a7",
+    "kjsgen/projects/Deferred.json": "60fff4fb34d95c77fe69bf570974c012f4c17c06ec1dc5a74315e3f22131eff8",
+    "kjsgen/projects/disabled_recipes.json": "f8f3fac36678c5082865676f66d27c2ae8d01ff847616ce461d458c08a18633a",
+    "kjsgen/projects/maybe_recipes.json": "cbfc23a64e084fb3f3164384730cd0a35d07111e4f26c17e2c1aafe7a37ee1aa",
+    "kjsgen/projects/rejected_recipes.json": "95f54b018d0b50e0f17bd349aebf4a4323a32e41f4a88d73c37026d68058f9aa",
+    "kjsgen/projects/TEST.json": "ca3d8755cc41b01e613d3dff9f081d63246bec200d8380bd3e542b10c4552fc9",
+    "kubejs/server_scripts/industrial_ae2_me_basics.js": "8bb0382ccad650bff4087b3753d10d35a18db6a2c62a8ab28c0c775a334b06ed",
+    "kubejs/server_scripts/industrial_ae2_processor_construction.js": "14f1f544685261b9c6250c7de93616a736cd195b165fccaab21b1ef3d6af2429",
+    "kubejs/server_scripts/industrial_allthemodium_currency.js": "392f1e5bbd7b91e66d3ebc5f86214583ac47c77ef3493fbe29d4f4adcc166045",
+    "kubejs/server_scripts/industrial_appliedcreate_kinetic_network.js": "b46f7d57dac9f0a78c1bbd4aa81680bfecbe0f3c01b2b8f6444fbfc144145ce9",
+    "kubejs/server_scripts/industrial_black_hole_megaproject.js": "6091d70ed61487af36e23c5d16d24391e32ce9d30df62be20d1e5f340dd05f3a",
+    "kubejs/server_scripts/industrial_cast_iron_canonicalization.js": "c613b14647defab196a2495a1d81a03d3bed0c7eafe62ee3b9ffc2683d11af4e",
+    "kubejs/server_scripts/industrial_computercraft_hardware.js": "1710e36a873bb8e989a9d268afbb1aff92ba1eecac589d6d49ac3c947953a3dc",
+    "kubejs/server_scripts/industrial_copper_wire_canonicalization.js": "b4062308a4ad8fd36854d57f513c9ca8b2b78e5e51e6cf4673f0705f6eb787d8",
+    "kubejs/server_scripts/industrial_early_electricity_construction.js": "3392b2e80379245dddd028f788c3e921b04723d9a19d1a53dcbb5e8f558a2d52",
+    "kubejs/server_scripts/industrial_electronics_progression.js": "100377230ef69e77c461587969689cdbac24915a208eafb918497c50a7a10c0a",
+    "kubejs/server_scripts/industrial_factory_installer_progression.js": "eccc3b6119bd4d10fa145fbe615dfaaca1f9f91e6bc715a8ced7e55a8834e2c7",
+    "kubejs/server_scripts/industrial_grid_engineering_construction.js": "d9bbbfaaebbebbc072099c68a0c59260568d6419f632f2fc4683dcef92cd62ad",
+    "kubejs/server_scripts/industrial_lead_canonicalization.js": "540dbd4a9fcea500c2b61641940bc417b4460e4e9fb909c003aeb9597660a37c",
+    "kubejs/server_scripts/industrial_machine_construction_01.js": "b98725717d5bf2ed7b92618970c2dfa2b34fb06be2a80db604b3a56953deabf0",
+    "kubejs/server_scripts/industrial_machine_construction_02.js": "7a2dca4e958c3e3f72d3174749e25bcdb7078f18e0aaf2f3882c14665a5e42d6",
+    "kubejs/server_scripts/industrial_machine_construction_03.js": "53bb438da8f23f5f76f5a6c031521df49d3bdcac518a5ed471ea2c57738044b0",
+    "kubejs/server_scripts/industrial_machine_construction_04.js": "cfea4bfedbc34ba3c0223561118530a3384a8bc615b880327c4c5cc60f3ed881",
+    "kubejs/server_scripts/industrial_machine_construction_05.js": "899a4290d1605109b30e99d3b8fccbebca33aec5886af487b511d6d442182073",
+    "kubejs/server_scripts/industrial_machine_construction_06.js": "c238aef64d2617f632c67bc12c235b38c984e16cc88760b4c0ffc41147866931",
+    "kubejs/server_scripts/industrial_machine_retirement_01.js": "8a53e038d2d1b18bc900d51a09f68e759f9e25020872a0ed185397c69b65818c",
+    "kubejs/server_scripts/industrial_megacells_radioactive_compat.js": "965e711551ccdd6822d09e73fc5b1152f2a59052526bee3859bd6830525946a7",
+    "kubejs/server_scripts/industrial_mekanism_physical_progression.js": "4791c3feb9a26c1515856a2748c4556aea7f7902777f6b55a4b9de3daf1fe630",
+    "kubejs/server_scripts/industrial_metallurgy_casting_compat.js": "2446473652fef688a1f99db59b0fe179a1783209f3b16ddc66e9e4e086cf4931",
+    "kubejs/server_scripts/industrial_nuclear_actinides_01.js": "4f50a49fbd127507240a06530e3106899952bd9e9d53e9fd6318f763ba4a959f",
+    "kubejs/server_scripts/industrial_nuclear_advanced_fuel_01.js": "d2fd86d6329dc16456431fa41908d5671f1743ef24380c32b4b9c10542f848f6",
+    "kubejs/server_scripts/industrial_nuclear_construction_01.js": "0157fa58c63e49f670f8c085461690151c9e4387ef04f1a7b4a02a04ec932245",
+    "kubejs/server_scripts/industrial_nuclear_construction_02.js": "dd3a551e38fe1377f7be2911c2de23221c0649122ee441aa9a8219fc6bfaadb0",
+    "kubejs/server_scripts/industrial_nuclear_construction_03.js": "031c1244329c0ce95a98c4f0839ea54bcb3c51026328825afd2136173e0c2c7b",
+    "kubejs/server_scripts/industrial_nuclear_construction_04.js": "0d4ac37d829fe8d54ae48c84fdc5a766493fe9667d7b1c67d892b2b2b535caf0",
+    "kubejs/server_scripts/industrial_nuclear_fuel_01.js": "3163ba8843cc8fc68e6cb0041400c4c849eabbb0b580f95b3b129cd05526bd88",
+    "kubejs/server_scripts/industrial_nuclear_plutonium_01.js": "ed78df628f44292042b77606a8ae23f7fe821439ceaed30008ae451537ac2def",
+    "kubejs/server_scripts/industrial_nuclear_reprocessing_01.js": "de2715e06c22896a2d58ec3816f44f69318050559e1a2113e64685b5eed84e9a",
+    "kubejs/server_scripts/industrial_oil_field_construction.js": "adc1ed3ea31f857d4b83c77f240a01c52a0130e729c2edf409b3f7d970199be2",
+    "kubejs/server_scripts/industrial_petroleum_canonicalization.js": "dcf1574506a374f0838bd6d38fdbdfb5555785a92df368c359c2f1f382475142",
+    "kubejs/server_scripts/industrial_primitive_tool_progression.js": "7c84965924a379884057afe2d1bbe0e09b67d12ea28a04a182f543debfe2e926",
+    "kubejs/server_scripts/industrial_reserve_core_megaproject.js": "ac962aa3a360b20d4d140c38ff5b5527d225a1ddad76d59e1b5c19e5e91eba08",
+    "kubejs/server_scripts/industrial_space_entry_deferred.js": "850aef5c14b93778edc0d1fa58cea526f52a0b05581d261fb0ca88704b261437",
+    "kubejs/server_scripts/industrial_star_megaproject.js": "b2ae10d88b570ad0be71fb5d7cfbedf6becc6bb9640d92a9ccccae11d3e2cdf1",
+    "kubejs/server_scripts/industrial_steel_canonicalization.js": "f9fbc1359e2b278706fd7b16034ac42ac57ec3139bf6ff2cf2fd93be77278321",
+    "kubejs/server_scripts/industrial_sulfur_canonicalization.js": "b5556cb81c2a03ac79ed4214f35c072cd01196c1e79af986fce9768edfcf0d0e",
+    "kubejs/server_scripts/industrial_tier_installer_construction.js": "dc0feb1f3e7a2a345eb995781d3c05010b3b42458f4e2204da88f6679c7bc23a",
+    "kubejs/server_scripts/industrial_uranium_yellorium_separation.js": "b97f0103a6d6a6b6f3d2bf29782948dece277f6744a6561fe33dbb0ee89009a6",
+    "kubejs/server_scripts/industrial_yellorium_refinement.js": "139ff22af9f4b19bfa5da45c85a82a30e6494c3671b1a894efa415d1dcd4b24c",
+    "kubejs/server_scripts/main.js": "dae099ae3be7f033c0c190ee8c3b023b42f6b235d9d0591be5926e8435dbd67f",
+    "kubejs/server_scripts/TEMP_FILE_REMOVE_RECIPE_AFTER.js": "e43fc36d21f85663c95d353be22624279e36541a0876e1ed109b4d45624c3545",
+    "kubejs/server_scripts/zzzzz_industrial_metal_units.js": "2bfa43cf78f3062fd686c62955471c63f5be0c00e66ddd1290bdc0e2a5d9e6c9",
+    "kubejs/server_scripts/zzz_industrial_ownership.js": "0c00fe8ad9baa1faf5238dfbcac01ad580fd03aaf4d1e96b29504d58694c3e45",
+    "kubejs/assets/kubejs/textures/block/example_block.png": "783d78bd1ee61d3b32273670dff9d82c34cd74c5ae899a10f104f473828d5bbc",
+    "kubejs/assets/kubejs/textures/item/example_item.png": "45a5f56eba6066ad05c70988a32b72c50cfeb6e35857739bd582007011ea002b",
+    "kubejs/assets/modernfoundry/hilt/fluid_tooltips/ingots.json": "b7942d9dd6c3a211ac988c62d1a6c9c3745a72ba6510897a124d939bfac95fea",
+    "kubejs/assets/modernfoundry/hilt/fluid_tooltips/metals.json": "a1e96d87cc2fb9d506babba9ee343d4235e35bd7f6280adfa6592e9e057757ab"
+  },
+  "jarChanges": [
+    "META-INF/neoforge.mods.toml",
+    "data/industrial_colonies/tags/worldgen/structure/terrain_fitting_exempt.json",
+    "dev/godpc/industrialcolonies/mixin/SurfaceStructureTerrainMixin.class",
+    "dev/godpc/industrialcolonies/worldgen/SurfaceStructureTerrain$Ground.class",
+    "dev/godpc/industrialcolonies/worldgen/SurfaceStructureTerrain$GroundReader.class",
+    "dev/godpc/industrialcolonies/worldgen/SurfaceStructureTerrain.class",
+    "industrial_colonies.mixins.json"
+  ],
+  "backup": "C:\\Users\\GodPC\\curseforge\\minecraft\\Instances\\All in one\\_industrial_colonies_backups\\glacio-terrain-20260912-023040",
+  "written": [
+    "kubejs/data/industrial_colonies/neoforge/biome_modifier/remove_earth_anglers.json",
+    "kubejs/data/industrial_colonies/neoforge/biome_modifier/glacio_anglers.json",
+    "kubejs/data/ad_astra/tags/entity_type/can_survive_extreme_cold.json",
+    "kubejs/data/ad_astra/worldgen/noise_settings/glacio.json",
+    "kubejs/data/cataclysm/structure/sunken_city_entrance2.nbt",
+    "kubejs/data/cataclysm/structure/sunken_city_lower_east.nbt",
+    "kubejs/data/cataclysm/structure/sunken_city_lower_southwest.nbt",
+    "kubejs/data/cataclysm/structure/sunken_city_lower_west.nbt",
+    "kubejs/data/cataclysm/structure/sunken_city_mid_east.nbt",
+    "kubejs/data/cataclysm/structure/sunken_city_mid_northwest.nbt",
+    "kubejs/data/cataclysm/structure/sunken_city_mid_south.nbt",
+    "kubejs/data/cataclysm/structure/sunken_city_mid_southwest.nbt",
+    "kubejs/data/cataclysm/structure/sunken_city_mid_west.nbt",
+    "kubejs/data/cataclysm/structure/sunken_city_temple1.nbt",
+    "mods/industrial_colonies-0.5.3.jar",
+    "mods/industrial_colonies-0.5.4.jar",
+    "kubejs/data/industrial_colonies/tags/worldgen/biome/vanilla_village_biomes.json",
+    "kubejs/data/minecraft/worldgen/structure/village_plains.json",
+    "kubejs/data/minecraft/worldgen/structure/village_desert.json",
+    "kubejs/data/minecraft/worldgen/structure/village_savanna.json",
+    "kubejs/data/minecraft/worldgen/structure/village_snowy.json",
+    "kubejs/data/minecraft/worldgen/structure/village_taiga.json",
+    "kubejs/data/cataclysm/worldgen/structure/abandoned_village.json",
+    "kubejs/data/cataclysm/worldgen/structure/desert_occupied_village.json",
+    "kubejs/data/minecolonies/worldgen/structure/medieval_spruce_colony.json",
+    "kubejs/data/minecolonies/worldgen/structure/medieval_dark_oak_colony.json",
+    "kubejs/data/minecolonies/worldgen/structure/barbarian_camp.json",
+    "kubejs/data/minecolonies/worldgen/structure/medieval_birch_colony.json",
+    "kubejs/data/minecolonies/worldgen/structure/medieval_oak_colony.json",
+    "kubejs/data/minecolonies/worldgen/structure/shire_colony.json",
+    "kubejs/data/minecolonies/worldgen/structure/incan_colony.json",
+    "kubejs/data/minecolonies/worldgen/structure/desert_camp.json",
+    "kubejs/data/minecolonies/worldgen/structure/asian_colony.json",
+    "kubejs/data/minecolonies/worldgen/structure/colonial_colony.json",
+    "kubejs/data/minecolonies/worldgen/structure/desertoasis_colony.json",
+    "kubejs/data/minecolonies/worldgen/structure/caledonia_colony.json",
+    "kubejs/data/minecolonies/worldgen/structure/amazon_camp.json",
+    "kubejs/data/minecolonies/worldgen/structure/lostmesacity_colony.json",
+    "kubejs/data/nuclearcraft/worldgen/structure/wasteland_village.json",
+    "kubejs/data/ctov/worldgen/structure/large/village_beach.json",
+    "kubejs/data/ctov/worldgen/structure/large/village_christmas.json",
+    "kubejs/data/ctov/worldgen/structure/large/village_dark_forest.json",
+    "kubejs/data/ctov/worldgen/structure/large/village_desert.json",
+    "kubejs/data/ctov/worldgen/structure/large/village_desert_oasis.json",
+    "kubejs/data/ctov/worldgen/structure/large/village_jungle.json",
+    "kubejs/data/ctov/worldgen/structure/large/village_jungle_tree.json",
+    "kubejs/data/ctov/worldgen/structure/large/village_mesa.json",
+    "kubejs/data/ctov/worldgen/structure/large/village_mesa_fortified.json",
+    "kubejs/data/ctov/worldgen/structure/large/village_mountain.json",
+    "kubejs/data/ctov/worldgen/structure/large/village_mountain_alpine.json",
+    "kubejs/data/ctov/worldgen/structure/large/village_mushroom.json",
+    "kubejs/data/ctov/worldgen/structure/large/village_plains.json",
+    "kubejs/data/ctov/worldgen/structure/large/village_plains_fortified.json",
+    "kubejs/data/ctov/worldgen/structure/large/village_savanna.json",
+    "kubejs/data/ctov/worldgen/structure/large/village_savanna_na.json",
+    "kubejs/data/ctov/worldgen/structure/large/village_snowy_igloo.json",
+    "kubejs/data/ctov/worldgen/structure/large/village_swamp.json",
+    "kubejs/data/ctov/worldgen/structure/large/village_swamp_fortified.json",
+    "kubejs/data/ctov/worldgen/structure/large/village_taiga.json",
+    "kubejs/data/ctov/worldgen/structure/large/village_taiga_fortified.json",
+    "kubejs/data/ctov/worldgen/structure/large/village_underground.json",
+    "kubejs/data/ctov/worldgen/structure/medium/village_beach.json",
+    "kubejs/data/ctov/worldgen/structure/medium/village_christmas.json",
+    "kubejs/data/ctov/worldgen/structure/medium/village_dark_forest.json",
+    "kubejs/data/ctov/worldgen/structure/medium/village_desert.json",
+    "kubejs/data/ctov/worldgen/structure/medium/village_desert_oasis.json",
+    "kubejs/data/ctov/worldgen/structure/medium/village_jungle.json",
+    "kubejs/data/ctov/worldgen/structure/medium/village_jungle_tree.json",
+    "kubejs/data/ctov/worldgen/structure/medium/village_mesa.json",
+    "kubejs/data/ctov/worldgen/structure/medium/village_mesa_fortified.json",
+    "kubejs/data/ctov/worldgen/structure/medium/village_mountain.json",
+    "kubejs/data/ctov/worldgen/structure/medium/village_mountain_alpine.json",
+    "kubejs/data/ctov/worldgen/structure/medium/village_mushroom.json",
+    "kubejs/data/ctov/worldgen/structure/medium/village_plains.json",
+    "kubejs/data/ctov/worldgen/structure/medium/village_plains_fortified.json",
+    "kubejs/data/ctov/worldgen/structure/medium/village_savanna.json",
+    "kubejs/data/ctov/worldgen/structure/medium/village_savanna_na.json",
+    "kubejs/data/ctov/worldgen/structure/medium/village_snowy_igloo.json",
+    "kubejs/data/ctov/worldgen/structure/medium/village_swamp.json",
+    "kubejs/data/ctov/worldgen/structure/medium/village_swamp_fortified.json",
+    "kubejs/data/ctov/worldgen/structure/medium/village_taiga.json",
+    "kubejs/data/ctov/worldgen/structure/medium/village_taiga_fortified.json",
+    "kubejs/data/ctov/worldgen/structure/medium/village_underground.json",
+    "kubejs/data/ctov/worldgen/structure/small/village_beach.json",
+    "kubejs/data/ctov/worldgen/structure/small/village_christmas.json",
+    "kubejs/data/ctov/worldgen/structure/small/village_dark_forest.json",
+    "kubejs/data/ctov/worldgen/structure/small/village_desert.json",
+    "kubejs/data/ctov/worldgen/structure/small/village_desert_oasis.json",
+    "kubejs/data/ctov/worldgen/structure/small/village_jungle.json",
+    "kubejs/data/ctov/worldgen/structure/small/village_jungle_tree.json",
+    "kubejs/data/ctov/worldgen/structure/small/village_mesa.json",
+    "kubejs/data/ctov/worldgen/structure/small/village_mesa_fortified.json",
+    "kubejs/data/ctov/worldgen/structure/small/village_mountain.json",
+    "kubejs/data/ctov/worldgen/structure/small/village_mountain_alpine.json",
+    "kubejs/data/ctov/worldgen/structure/small/village_mushroom.json",
+    "kubejs/data/ctov/worldgen/structure/small/village_plains.json",
+    "kubejs/data/ctov/worldgen/structure/small/village_plains_fortified.json",
+    "kubejs/data/ctov/worldgen/structure/small/village_savanna.json",
+    "kubejs/data/ctov/worldgen/structure/small/village_savanna_na.json",
+    "kubejs/data/ctov/worldgen/structure/small/village_snowy_igloo.json",
+    "kubejs/data/ctov/worldgen/structure/small/village_swamp.json",
+    "kubejs/data/ctov/worldgen/structure/small/village_swamp_fortified.json",
+    "kubejs/data/ctov/worldgen/structure/small/village_taiga.json",
+    "kubejs/data/ctov/worldgen/structure/small/village_taiga_fortified.json",
+    "kubejs/data/ctov/worldgen/structure/small/village_underground.json",
+    "config/ctov-common.toml",
+    "kubejs/data/minecraft/worldgen/structure/desert_pyramid.json",
+    "kubejs/data/minecraft/worldgen/structure/jungle_pyramid.json",
+    "kubejs/data/minecraft/worldgen/structure/igloo.json",
+    "kubejs/data/minecraft/worldgen/structure/swamp_hut.json",
+    "kubejs/data/minecraft/worldgen/structure/ocean_ruin_cold.json",
+    "kubejs/data/minecraft/worldgen/structure/ocean_ruin_warm.json",
+    "kubejs/data/minecraft/worldgen/structure/pillager_outpost.json",
+    "kubejs/data/minecraft/worldgen/structure/ruined_portal.json",
+    "kubejs/data/minecraft/worldgen/structure/ruined_portal_desert.json",
+    "kubejs/data/minecraft/worldgen/structure/ruined_portal_jungle.json",
+    "kubejs/data/minecraft/worldgen/structure/ruined_portal_mountain.json",
+    "kubejs/data/minecraft/worldgen/structure/ruined_portal_ocean.json",
+    "kubejs/data/minecraft/worldgen/structure/ruined_portal_swamp.json",
+    "kubejs/data/apotheosis/worldgen/structure/tower_leaf.json",
+    "kubejs/data/apotheosis/worldgen/structure/tower_main.json",
+    "kubejs/data/apotheosis/worldgen/structure/tower_sand.json",
+    "kubejs/data/apotheosis/worldgen/structure/tower_spruce.json",
+    "kubejs/data/block_factorys_bosses/worldgen/structure/sandworm_nest.json",
+    "kubejs/data/block_factorys_bosses/worldgen/structure/yeti_hideout.json",
+    "kubejs/data/bosses_of_mass_destruction/worldgen/structure/lich_tower.json",
+    "kubejs/data/bosses_of_mass_destruction/worldgen/structure/void_blossom.json",
+    "kubejs/data/friendsandfoes/worldgen/structure/iceologer_cabin.json",
+    "kubejs/data/friendsandfoes/worldgen/structure/illusioner_shack.json",
+    "kubejs/data/friendsandfoes/worldgen/structure/illusioner_training_grounds.json",
+    "kubejs/data/irons_spellbooks/worldgen/structure/mangrove_hut.json",
+    "kubejs/data/irons_spellbooks/worldgen/structure/mountain_tower.json",
+    "kubejs/data/cataclysm/worldgen/structure/abandoned_spire.json",
+    "kubejs/data/cataclysm/worldgen/structure/abandoned_temple.json",
+    "kubejs/data/cataclysm/worldgen/structure/desert_site.json",
+    "kubejs/data/cataclysm/worldgen/structure/desert_temple.json",
+    "kubejs/data/cataclysm/worldgen/structure/amethyst_nest.json",
+    "kubejs/data/mowziesmobs/worldgen/structure/frostmaw_spawn.json",
+    "kubejs/data/mowziesmobs/worldgen/structure/umvuthana_grove.json",
+    "kubejs/data/mowziesmobs/worldgen/structure/wrought_chamber.json",
+    "kubejs/data/betterdungeons/worldgen/structure/small_dungeon.json",
+    "kubejs/data/ctov/worldgen/structure/pillager_outpost_badlands.json",
+    "kubejs/data/ctov/worldgen/structure/pillager_outpost_beach.json",
+    "kubejs/data/ctov/worldgen/structure/pillager_outpost_dark_forest.json",
+    "kubejs/data/ctov/worldgen/structure/pillager_outpost_desert.json",
+    "kubejs/data/ctov/worldgen/structure/pillager_outpost_jungle.json",
+    "kubejs/data/ctov/worldgen/structure/pillager_outpost_mesa.json",
+    "kubejs/data/ctov/worldgen/structure/pillager_outpost_mountain.json",
+    "kubejs/data/ctov/worldgen/structure/pillager_outpost_plains.json",
+    "kubejs/data/ctov/worldgen/structure/pillager_outpost_savanna.json",
+    "kubejs/data/ctov/worldgen/structure/pillager_outpost_snowy.json",
+    "kubejs/data/ctov/worldgen/structure/pillager_outpost_swamp.json",
+    "kubejs/data/ctov/worldgen/structure/pillager_outpost_taiga.json",
+    "kubejs/data/minecraft/worldgen/structure/mansion.json",
+    "kubejs/data/minecraft/worldgen/structure/monument.json",
+    "kubejs/data/minecraft/worldgen/structure/ancient_city.json",
+    "kubejs/data/dungeoncrawl/worldgen/structure/dungeon.json",
+    "kubejs/data/dungeonnowloading/worldgen/structure/temple_of_duality.json",
+    "kubejs/data/dungeonnowloading/worldgen/structure/labyrinth.json",
+    "kubejs/data/irons_spellbooks/worldgen/structure/catacombs.json",
+    "kubejs/data/irons_spellbooks/worldgen/structure/evoker_fort.json",
+    "kubejs/data/irons_spellbooks/worldgen/structure/ice_spider_den.json",
+    "kubejs/data/cataclysm/worldgen/structure/acropolis.json",
+    "kubejs/data/cataclysm/worldgen/structure/ancient_factory.json",
+    "kubejs/data/cataclysm/worldgen/structure/cursed_pyramid.json",
+    "kubejs/data/cataclysm/worldgen/structure/frosted_prison.json",
+    "kubejs/data/cataclysm/worldgen/structure/sunken_city.json",
+    "kubejs/data/mowziesmobs/worldgen/structure/monastery.json",
+    "kubejs/data/betterdungeons/worldgen/structure/skeleton_dungeon.json",
+    "kubejs/data/betterdungeons/worldgen/structure/spider_dungeon.json",
+    "kubejs/data/betterdungeons/worldgen/structure/zombie_dungeon.json",
+    "kubejs/data/minecraft/worldgen/structure/shipwreck.json",
+    "kubejs/data/minecraft/worldgen/structure/shipwreck_beached.json",
+    "kubejs/data/minecolonies/worldgen/structure/ship.json",
+    "kubejs/data/block_factorys_bosses/worldgen/structure/kraken_ship.json",
+    "kubejs/data/irons_spellbooks/worldgen/structure/impaled_icebreaker.json",
+    "kubejs/data/supplementaries/worldgen/structure/galleon.json",
+    "kubejs/data/ae2/worldgen/structure/meteorite.json",
+    "kubejs/data/supplementaries/worldgen/structure/road_sign.json",
+    "kubejs/data/apotheosis/worldgen/structure_set/towers.json",
+    "kubejs/data/ae2/worldgen/structure_set/meteorite.json",
+    "kubejs/data/block_factorys_bosses/worldgen/structure_set/sandworm_nest.json",
+    "kubejs/data/block_factorys_bosses/worldgen/structure_set/yeti_hideout.json",
+    "kubejs/data/block_factorys_bosses/worldgen/structure_set/kraken_ship.json",
+    "kubejs/data/bosses_of_mass_destruction/worldgen/structure_set/lich_tower.json",
+    "kubejs/data/bosses_of_mass_destruction/worldgen/structure_set/void_blossom.json",
+    "kubejs/data/dungeoncrawl/worldgen/structure_set/dungeons.json",
+    "kubejs/data/dungeonnowloading/worldgen/structure_set/temple_of_duality.json",
+    "kubejs/data/dungeonnowloading/worldgen/structure_set/labyrinth.json",
+    "kubejs/data/friendsandfoes/worldgen/structure_set/iceologer_cabin.json",
+    "kubejs/data/friendsandfoes/worldgen/structure_set/illusioner_shack.json",
+    "kubejs/data/friendsandfoes/worldgen/structure_set/illusioner_training_grounds.json",
+    "kubejs/data/irons_spellbooks/worldgen/structure_set/catacombs.json",
+    "kubejs/data/irons_spellbooks/worldgen/structure_set/evoker_fort.json",
+    "kubejs/data/irons_spellbooks/worldgen/structure_set/ice_spider_den.json",
+    "kubejs/data/irons_spellbooks/worldgen/structure_set/impaled_icebreaker.json",
+    "kubejs/data/irons_spellbooks/worldgen/structure_set/mangrove_hut.json",
+    "kubejs/data/irons_spellbooks/worldgen/structure_set/mountain_tower.json",
+    "kubejs/data/cataclysm/worldgen/structure_set/abandoned_structures.json",
+    "kubejs/data/cataclysm/worldgen/structure_set/acropolis.json",
+    "kubejs/data/cataclysm/worldgen/structure_set/amethyst_nest.json",
+    "kubejs/data/cataclysm/worldgen/structure_set/ancient_factory.json",
+    "kubejs/data/cataclysm/worldgen/structure_set/cursed_pyramid.json",
+    "kubejs/data/cataclysm/worldgen/structure_set/desert_structures.json",
+    "kubejs/data/cataclysm/worldgen/structure_set/frosted_prison.json",
+    "kubejs/data/cataclysm/worldgen/structure_set/sunken_city.json",
+    "kubejs/data/minecolonies/worldgen/structure_set/barbarian_camp.json",
+    "kubejs/data/minecolonies/worldgen/structure_set/desert_camp.json",
+    "kubejs/data/minecolonies/worldgen/structure_set/empty_colony.json",
+    "kubejs/data/minecolonies/worldgen/structure_set/amazon_camp.json",
+    "kubejs/data/minecolonies/worldgen/structure_set/ship.json",
+    "kubejs/data/modernfoundry/worldgen/structure_set/overworld_ocean_island.json",
+    "kubejs/data/modernfoundry/worldgen/structure_set/overworld_sky_island.json",
+    "kubejs/data/mowziesmobs/worldgen/structure_set/frostmaw_spawns.json",
+    "kubejs/data/mowziesmobs/worldgen/structure_set/monasteries.json",
+    "kubejs/data/mowziesmobs/worldgen/structure_set/umvuthana_groves.json",
+    "kubejs/data/mowziesmobs/worldgen/structure_set/wrought_chambers.json",
+    "kubejs/data/nuclearcraft/worldgen/structure_set/wasteland_village.json",
+    "kubejs/data/supplementaries/worldgen/structure_set/galleons.json",
+    "kubejs/data/supplementaries/worldgen/structure_set/road_signs.json",
+    "kubejs/data/betterdungeons/worldgen/structure_set/skeleton_dungeons.json",
+    "kubejs/data/betterdungeons/worldgen/structure_set/small_dungeons.json",
+    "kubejs/data/betterdungeons/worldgen/structure_set/spider_dungeons.json",
+    "kubejs/data/betterdungeons/worldgen/structure_set/zombie_dungeons.json",
+    "kubejs/data/minecraft/worldgen/structure_set/desert_pyramids.json",
+    "kubejs/data/minecraft/worldgen/structure_set/swamp_huts.json",
+    "kubejs/data/minecraft/worldgen/structure_set/ancient_cities.json",
+    "kubejs/data/minecraft/worldgen/structure_set/pillager_outposts.json",
+    "kubejs/data/minecraft/worldgen/structure_set/villages.json",
+    "kubejs/data/minecraft/worldgen/structure_set/ruined_portals.json",
+    "kubejs/data/minecraft/worldgen/structure_set/jungle_temples.json",
+    "kubejs/data/minecraft/worldgen/structure_set/shipwrecks.json",
+    "kubejs/data/minecraft/worldgen/structure_set/ocean_ruins.json",
+    "kubejs/data/minecraft/worldgen/structure_set/igloos.json",
+    "kubejs/data/minecraft/worldgen/structure_set/woodland_mansions.json",
+    "kubejs/data/minecraft/worldgen/structure_set/ocean_monuments.json",
+    "kubejs/data/industrial_colonies/worldgen/structure_set/rare_maritime_sites.json",
+    "kubejs/data/industrial_colonies/worldgen/structure_set/global_landmarks.json",
+    "kubejs/server_scripts/zz_industrial_material_processing.js"
+  ],
+  "appliedAt": "2026-09-12T02:30:42.050066-04:00"
+}

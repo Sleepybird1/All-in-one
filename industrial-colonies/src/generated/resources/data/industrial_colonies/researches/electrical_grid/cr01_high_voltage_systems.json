@@ -1,0 +1,30 @@
+{
+  "branch": "industrial_colonies:tech_tree",
+  "costs": [
+    {
+      "item": "electroenergetics:copper_wire_spool",
+      "count": 8
+    },
+    {
+      "item": "electroenergetics:alternator_rotor",
+      "count": 2
+    },
+    {
+      "item": "electroenergetics:accumulator",
+      "count": 2
+    }
+  ],
+  "icon": "electroenergetics:transformer_core_lamination",
+  "name": "com.industrial_colonies.research.electrical_grid.cr01_high_voltage_systems.name",
+  "no-reset": true,
+  "researchLevel": 3,
+  "sortOrder": 10222,
+  "subtitle": "com.industrial_colonies.research.electrical_grid.cr01_high_voltage_systems.subtitle",
+  "parentResearch": "industrial_colonies:electrical_grid/cr01_grid_engineering",
+  "requirements": [
+    {
+      "type": "minecolonies:research",
+      "research": "industrial_colonies:electrical_grid/cr01_grid_engineering"
+    }
+  ]
+}

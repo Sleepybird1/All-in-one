@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    "industrial_colonies:rich_sphalerite",
+    "industrial_colonies:rich_copper_ore",
+    "industrial_colonies:spodumene_ore",
+    "industrial_colonies:rich_silver_ore",
+    "industrial_colonies:rich_wolframite_ore",
+    "industrial_colonies:rich_bauxite",
+    "industrial_colonies:rich_nickel_ore",
+    "industrial_colonies:rich_hematite",
+    "industrial_colonies:rich_magnetite",
+    "industrial_colonies:rich_galena_ore",
+    "industrial_colonies:rich_osmium_ore",
+    "industrial_colonies:rich_iridium_ore",
+    "industrial_colonies:rich_platinum_ore",
+    "industrial_colonies:rich_ilmenite_ore",
+    "industrial_colonies:rich_tin_ore",
+    "industrial_colonies:rich_chromium_ore"
+  ]
+}

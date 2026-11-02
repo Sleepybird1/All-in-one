@@ -1,0 +1,653 @@
+Compiled from "CMMobSpawnBiomeModifier.java"
+public class com.github.L_Ender.cataclysm.world.CMMobSpawnBiomeModifier implements net.neoforged.neoforge.common.world.BiomeModifier {
+  public static final com.github.L_Ender.cataclysm.world.CMMobSpawnBiomeModifier INSTANCE;
+
+  public com.github.L_Ender.cataclysm.world.CMMobSpawnBiomeModifier();
+    Code:
+       0: aload_0
+       1: invokespecial #1                  // Method java/lang/Object."<init>":()V
+       4: return
+
+  public void modify(net.minecraft.core.Holder<net.minecraft.world.level.biome.Biome>, net.neoforged.neoforge.common.world.BiomeModifier$Phase, net.neoforged.neoforge.common.world.ModifiableBiomeInfo$BiomeInfo$Builder);
+    Code:
+       0: aload_2
+       1: getstatic     #7                  // Field net/neoforged/neoforge/common/world/BiomeModifier$Phase.ADD:Lnet/neoforged/neoforge/common/world/BiomeModifier$Phase;
+       4: if_acmpne     12
+       7: aload_1
+       8: aload_3
+       9: invokestatic  #13                 // Method com/github/L_Ender/cataclysm/world/CMWorldRegistry.addBiomeSpawns:(Lnet/minecraft/core/Holder;Lnet/neoforged/neoforge/common/world/ModifiableBiomeInfo$BiomeInfo$Builder;)V
+      12: return
+
+  public com.mojang.serialization.MapCodec<? extends net.neoforged.neoforge.common.world.BiomeModifier> codec();
+    Code:
+       0: getstatic     #19                 // Field com/github/L_Ender/cataclysm/init/ModBiomeModifiers.CM_MOB_SPAWN_BIOME_MODIFIER_TYPE:Lnet/neoforged/neoforge/registries/DeferredHolder;
+       3: invokevirtual #25                 // Method net/neoforged/neoforge/registries/DeferredHolder.get:()Ljava/lang/Object;
+       6: checkcast     #31                 // class com/mojang/serialization/MapCodec
+       9: areturn
+
+  static {};
+    Code:
+       0: new           #33                 // class com/github/L_Ender/cataclysm/world/CMMobSpawnBiomeModifier
+       3: dup
+       4: invokespecial #35                 // Method "<init>":()V
+       7: putstatic     #36                 // Field INSTANCE:Lcom/github/L_Ender/cataclysm/world/CMMobSpawnBiomeModifier;
+      10: return
+}
+Compiled from "CMMobSpawnStructureModifier.java"
+public class com.github.L_Ender.cataclysm.world.CMMobSpawnStructureModifier implements net.neoforged.neoforge.common.world.StructureModifier {
+  public static final com.github.L_Ender.cataclysm.world.CMMobSpawnStructureModifier INSTANCE;
+
+  public com.github.L_Ender.cataclysm.world.CMMobSpawnStructureModifier();
+    Code:
+       0: aload_0
+       1: invokespecial #1                  // Method java/lang/Object."<init>":()V
+       4: return
+
+  public void modify(net.minecraft.core.Holder<net.minecraft.world.level.levelgen.structure.Structure>, net.neoforged.neoforge.common.world.StructureModifier$Phase, net.neoforged.neoforge.common.world.ModifiableStructureInfo$StructureInfo$Builder);
+    Code:
+       0: aload_2
+       1: getstatic     #7                  // Field net/neoforged/neoforge/common/world/StructureModifier$Phase.ADD:Lnet/neoforged/neoforge/common/world/StructureModifier$Phase;
+       4: if_acmpne     12
+       7: aload_1
+       8: aload_3
+       9: invokestatic  #13                 // Method com/github/L_Ender/cataclysm/world/CMWorldRegistry.modifyStructure:(Lnet/minecraft/core/Holder;Lnet/neoforged/neoforge/common/world/ModifiableStructureInfo$StructureInfo$Builder;)V
+      12: return
+
+  public com.mojang.serialization.MapCodec<? extends net.neoforged.neoforge.common.world.StructureModifier> codec();
+    Code:
+       0: getstatic     #19                 // Field com/github/L_Ender/cataclysm/init/ModStructureModifiers.ADD_SPAWNS_STRUCTURE_MODIFIER_TYPE:Lnet/neoforged/neoforge/registries/DeferredHolder;
+       3: invokevirtual #25                 // Method net/neoforged/neoforge/registries/DeferredHolder.get:()Ljava/lang/Object;
+       6: checkcast     #31                 // class com/mojang/serialization/MapCodec
+       9: areturn
+
+  static {};
+    Code:
+       0: new           #33                 // class com/github/L_Ender/cataclysm/world/CMMobSpawnStructureModifier
+       3: dup
+       4: invokespecial #35                 // Method "<init>":()V
+       7: putstatic     #36                 // Field INSTANCE:Lcom/github/L_Ender/cataclysm/world/CMMobSpawnStructureModifier;
+      10: return
+}
+Compiled from "Deepling_Angler_Entity.java"
+public class com.github.L_Ender.cataclysm.entity.Deepling.Deepling_Angler_Entity extends com.github.L_Ender.cataclysm.entity.Deepling.AbstractDeepling {
+  boolean searchingForLand;
+
+  public static final com.github.L_Ender.lionfishapi.server.animation.Animation DEEPLING_MELEE;
+
+  public static final com.github.L_Ender.lionfishapi.server.animation.Animation DEEPLING_HUG;
+
+  private static final net.minecraft.world.entity.EntityDimensions SWIMMING_SIZE;
+
+  private int hugcooldown;
+
+  public static final int HUG_COOLDOWN;
+
+  public com.github.L_Ender.cataclysm.entity.Deepling.Deepling_Angler_Entity(net.minecraft.world.entity.EntityType, net.minecraft.world.level.Level);
+    Code:
+       0: aload_0
+       1: aload_1
+       2: aload_2
+       3: invokespecial #1                  // Method com/github/L_Ender/cataclysm/entity/Deepling/AbstractDeepling."<init>":(Lnet/minecraft/world/entity/EntityType;Lnet/minecraft/world/level/Level;)V
+       6: aload_0
+       7: bipush        100
+       9: putfield      #7                  // Field hugcooldown:I
+      12: aload_0
+      13: new           #13                 // class com/github/L_Ender/cataclysm/entity/Deepling/Deepling_Angler_Entity$DeeplingMoveControl
+      16: dup
+      17: aload_0
+      18: fconst_2
+      19: invokespecial #15                 // Method com/github/L_Ender/cataclysm/entity/Deepling/Deepling_Angler_Entity$DeeplingMoveControl."<init>":(Lcom/github/L_Ender/cataclysm/entity/Deepling/Deepling_Angler_Entity;F)V
+      22: putfield      #18                 // Field moveControl:Lnet/minecraft/world/entity/ai/control/MoveControl;
+      25: aload_0
+      26: iconst_0
+      27: invokevirtual #22                 // Method switchNavigator:(Z)V
+      30: aload_0
+      31: bipush        8
+      33: putfield      #26                 // Field xpReward:I
+      36: return
+
+  protected void registerGoals();
+    Code:
+       0: aload_0
+       1: invokespecial #29                 // Method com/github/L_Ender/cataclysm/entity/Deepling/AbstractDeepling.registerGoals:()V
+       4: aload_0
+       5: getfield      #33                 // Field goalSelector:Lnet/minecraft/world/entity/ai/goal/GoalSelector;
+       8: iconst_5
+       9: new           #37                 // class com/github/L_Ender/cataclysm/entity/Deepling/Deepling_Angler_Entity$DeeplingGoToBeachGoal
+      12: dup
+      13: aload_0
+      14: dconst_1
+      15: invokespecial #39                 // Method com/github/L_Ender/cataclysm/entity/Deepling/Deepling_Angler_Entity$DeeplingGoToBeachGoal."<init>":(Lcom/github/L_Ender/cataclysm/entity/Deepling/Deepling_Angler_Entity;D)V
+      18: invokevirtual #42                 // Method net/minecraft/world/entity/ai/goal/GoalSelector.addGoal:(ILnet/minecraft/world/entity/ai/goal/Goal;)V
+      21: aload_0
+      22: getfield      #33                 // Field goalSelector:Lnet/minecraft/world/entity/ai/goal/GoalSelector;
+      25: bipush        6
+      27: new           #48                 // class com/github/L_Ender/cataclysm/entity/Deepling/Deepling_Angler_Entity$DeeplingSwimUpGoal
+      30: dup
+      31: aload_0
+      32: dconst_1
+      33: aload_0
+      34: invokevirtual #50                 // Method level:()Lnet/minecraft/world/level/Level;
+      37: invokevirtual #54                 // Method net/minecraft/world/level/Level.getSeaLevel:()I
+      40: invokespecial #60                 // Method com/github/L_Ender/cataclysm/entity/Deepling/Deepling_Angler_Entity$DeeplingSwimUpGoal."<init>":(Lcom/github/L_Ender/cataclysm/entity/Deepling/Deepling_Angler_Entity;DI)V
+      43: invokevirtual #42                 // Method net/minecraft/world/entity/ai/goal/GoalSelector.addGoal:(ILnet/minecraft/world/entity/ai/goal/Goal;)V
+      46: aload_0
+      47: getfield      #63                 // Field targetSelector:Lnet/minecraft/world/entity/ai/goal/GoalSelector;
+      50: iconst_1
+      51: new           #66                 // class net/minecraft/world/entity/ai/goal/target/HurtByTargetGoal
+      54: dup
+      55: aload_0
+      56: iconst_0
+      57: anewarray     #68                 // class java/lang/Class
+      60: invokespecial #70                 // Method net/minecraft/world/entity/ai/goal/target/HurtByTargetGoal."<init>":(Lnet/minecraft/world/entity/PathfinderMob;[Ljava/lang/Class;)V
+      63: iconst_0
+      64: anewarray     #68                 // class java/lang/Class
+      67: invokevirtual #73                 // Method net/minecraft/world/entity/ai/goal/target/HurtByTargetGoal.setAlertOthers:([Ljava/lang/Class;)Lnet/minecraft/world/entity/ai/goal/target/HurtByTargetGoal;
+      70: invokevirtual #42                 // Method net/minecraft/world/entity/ai/goal/GoalSelector.addGoal:(ILnet/minecraft/world/entity/ai/goal/Goal;)V
+      73: aload_0
+      74: getfield      #33                 // Field goalSelector:Lnet/minecraft/world/entity/ai/goal/GoalSelector;
+      77: iconst_3
+      78: new           #77                 // class com/github/L_Ender/cataclysm/entity/Deepling/Deepling_Angler_Entity$AnimationMeleeAttackGoal
+      81: dup
+      82: aload_0
+      83: dconst_1
+      84: iconst_0
+      85: invokespecial #79                 // Method com/github/L_Ender/cataclysm/entity/Deepling/Deepling_Angler_Entity$AnimationMeleeAttackGoal."<init>":(Lcom/github/L_Ender/cataclysm/entity/Deepling/Deepling_Angler_Entity;DZ)V
+      88: invokevirtual #42                 // Method net/minecraft/world/entity/ai/goal/GoalSelector.addGoal:(ILnet/minecraft/world/entity/ai/goal/Goal;)V
+      91: return
+
+  public static net.minecraft.world.entity.ai.attributes.AttributeSupplier$Builder deepling();
+    Code:
+       0: invokestatic  #82                 // Method net/minecraft/world/entity/monster/Monster.createMonsterAttributes:()Lnet/minecraft/world/entity/ai/attributes/AttributeSupplier$Builder;
+       3: getstatic     #88                 // Field net/minecraft/world/entity/ai/attributes/Attributes.MOVEMENT_SPEED:Lnet/minecraft/core/Holder;
+       6: ldc2_w        #94                 // double 0.27000001072883606d
+       9: invokevirtual #96                 // Method net/minecraft/world/entity/ai/attributes/AttributeSupplier$Builder.add:(Lnet/minecraft/core/Holder;D)Lnet/minecraft/world/entity/ai/attributes/AttributeSupplier$Builder;
+      12: getstatic     #102                // Field net/minecraft/world/entity/ai/attributes/Attributes.ATTACK_DAMAGE:Lnet/minecraft/core/Holder;
+      15: ldc2_w        #105                // double 4.0d
+      18: invokevirtual #96                 // Method net/minecraft/world/entity/ai/attributes/AttributeSupplier$Builder.add:(Lnet/minecraft/core/Holder;D)Lnet/minecraft/world/entity/ai/attributes/AttributeSupplier$Builder;
+      21: getstatic     #107                // Field net/minecraft/world/entity/ai/attributes/Attributes.MAX_HEALTH:Lnet/minecraft/core/Holder;
+      24: ldc2_w        #110                // double 30.0d
+      27: invokevirtual #96                 // Method net/minecraft/world/entity/ai/attributes/AttributeSupplier$Builder.add:(Lnet/minecraft/core/Holder;D)Lnet/minecraft/world/entity/ai/attributes/AttributeSupplier$Builder;
+      30: getstatic     #112                // Field net/minecraft/world/entity/ai/attributes/Attributes.FOLLOW_RANGE:Lnet/minecraft/core/Holder;
+      33: ldc2_w        #115                // double 20.0d
+      36: invokevirtual #96                 // Method net/minecraft/world/entity/ai/attributes/AttributeSupplier$Builder.add:(Lnet/minecraft/core/Holder;D)Lnet/minecraft/world/entity/ai/attributes/AttributeSupplier$Builder;
+      39: getstatic     #117                // Field net/minecraft/world/entity/ai/attributes/Attributes.KNOCKBACK_RESISTANCE:Lnet/minecraft/core/Holder;
+      42: ldc2_w        #120                // double 0.25d
+      45: invokevirtual #96                 // Method net/minecraft/world/entity/ai/attributes/AttributeSupplier$Builder.add:(Lnet/minecraft/core/Holder;D)Lnet/minecraft/world/entity/ai/attributes/AttributeSupplier$Builder;
+      48: areturn
+
+  protected void defineSynchedData(net.minecraft.network.syncher.SynchedEntityData$Builder);
+    Code:
+       0: aload_0
+       1: aload_1
+       2: invokespecial #122                // Method com/github/L_Ender/cataclysm/entity/Deepling/AbstractDeepling.defineSynchedData:(Lnet/minecraft/network/syncher/SynchedEntityData$Builder;)V
+       5: return
+
+  protected net.minecraft.world.entity.ai.navigation.PathNavigation createNavigation(net.minecraft.world.level.Level);
+    Code:
+       0: new           #126                // class net/minecraft/world/entity/ai/navigation/WaterBoundPathNavigation
+       3: dup
+       4: aload_0
+       5: aload_1
+       6: invokespecial #128                // Method net/minecraft/world/entity/ai/navigation/WaterBoundPathNavigation."<init>":(Lnet/minecraft/world/entity/Mob;Lnet/minecraft/world/level/Level;)V
+       9: areturn
+
+  public void addAdditionalSaveData(net.minecraft.nbt.CompoundTag);
+    Code:
+       0: aload_0
+       1: aload_1
+       2: invokespecial #131                // Method com/github/L_Ender/cataclysm/entity/Deepling/AbstractDeepling.addAdditionalSaveData:(Lnet/minecraft/nbt/CompoundTag;)V
+       5: return
+
+  public void readAdditionalSaveData(net.minecraft.nbt.CompoundTag);
+    Code:
+       0: aload_0
+       1: aload_1
+       2: invokespecial #135                // Method com/github/L_Ender/cataclysm/entity/Deepling/AbstractDeepling.readAdditionalSaveData:(Lnet/minecraft/nbt/CompoundTag;)V
+       5: return
+
+  protected void populateDefaultEquipmentSlots(net.minecraft.util.RandomSource, net.minecraft.world.DifficultyInstance);
+    Code:
+       0: aload_0
+       1: getstatic     #138                // Field net/minecraft/world/entity/EquipmentSlot.MAINHAND:Lnet/minecraft/world/entity/EquipmentSlot;
+       4: new           #144                // class net/minecraft/world/item/ItemStack
+       7: dup
+       8: getstatic     #146                // Field net/minecraft/world/item/Items.FISHING_ROD:Lnet/minecraft/world/item/Item;
+      11: invokespecial #152                // Method net/minecraft/world/item/ItemStack."<init>":(Lnet/minecraft/world/level/ItemLike;)V
+      14: invokevirtual #155                // Method setItemSlot:(Lnet/minecraft/world/entity/EquipmentSlot;Lnet/minecraft/world/item/ItemStack;)V
+      17: return
+
+  protected net.minecraft.sounds.SoundEvent getAmbientSound();
+    Code:
+       0: getstatic     #159                // Field com/github/L_Ender/cataclysm/init/ModSounds.DEEPLING_IDLE:Lnet/neoforged/neoforge/registries/DeferredHolder;
+       3: invokevirtual #165                // Method net/neoforged/neoforge/registries/DeferredHolder.get:()Ljava/lang/Object;
+       6: checkcast     #171                // class net/minecraft/sounds/SoundEvent
+       9: areturn
+
+  protected net.minecraft.sounds.SoundEvent getHurtSound(net.minecraft.world.damagesource.DamageSource);
+    Code:
+       0: getstatic     #173                // Field com/github/L_Ender/cataclysm/init/ModSounds.DEEPLING_HURT:Lnet/neoforged/neoforge/registries/DeferredHolder;
+       3: invokevirtual #165                // Method net/neoforged/neoforge/registries/DeferredHolder.get:()Ljava/lang/Object;
+       6: checkcast     #171                // class net/minecraft/sounds/SoundEvent
+       9: areturn
+
+  protected net.minecraft.sounds.SoundEvent getDeathSound();
+    Code:
+       0: getstatic     #176                // Field com/github/L_Ender/cataclysm/init/ModSounds.DEEPLING_DEATH:Lnet/neoforged/neoforge/registries/DeferredHolder;
+       3: invokevirtual #165                // Method net/neoforged/neoforge/registries/DeferredHolder.get:()Ljava/lang/Object;
+       6: checkcast     #171                // class net/minecraft/sounds/SoundEvent
+       9: areturn
+
+  protected void playStepSound(net.minecraft.core.BlockPos, net.minecraft.world.level.block.state.BlockState);
+    Code:
+       0: aload_0
+       1: getstatic     #159                // Field com/github/L_Ender/cataclysm/init/ModSounds.DEEPLING_IDLE:Lnet/neoforged/neoforge/registries/DeferredHolder;
+       4: invokevirtual #165                // Method net/neoforged/neoforge/registries/DeferredHolder.get:()Ljava/lang/Object;
+       7: checkcast     #171                // class net/minecraft/sounds/SoundEvent
+      10: ldc           #179                // float 0.15f
+      12: ldc           #180                // float 0.6f
+      14: invokevirtual #181                // Method playSound:(Lnet/minecraft/sounds/SoundEvent;FF)V
+      17: return
+
+  public boolean checkSpawnRules(net.minecraft.world.level.LevelAccessor, net.minecraft.world.entity.MobSpawnType);
+    Code:
+       0: getstatic     #185                // Field com/github/L_Ender/cataclysm/config/CMCommonConfig$Spawning.DeeplingAnglerSpawnRolls:I
+       3: aload_0
+       4: invokevirtual #190                // Method getRandom:()Lnet/minecraft/util/RandomSource;
+       7: aload_2
+       8: invokestatic  #194                // Method com/github/L_Ender/cataclysm/init/ModEntities.rollSpawn:(ILnet/minecraft/util/RandomSource;Lnet/minecraft/world/entity/MobSpawnType;)Z
+      11: ireturn
+
+  public net.minecraft.world.entity.SpawnGroupData finalizeSpawn(net.minecraft.world.level.ServerLevelAccessor, net.minecraft.world.DifficultyInstance, net.minecraft.world.entity.MobSpawnType, net.minecraft.world.entity.SpawnGroupData);
+    Code:
+       0: aload_0
+       1: aload_1
+       2: aload_2
+       3: aload_3
+       4: aload         4
+       6: invokespecial #200                // Method com/github/L_Ender/cataclysm/entity/Deepling/AbstractDeepling.finalizeSpawn:(Lnet/minecraft/world/level/ServerLevelAccessor;Lnet/minecraft/world/DifficultyInstance;Lnet/minecraft/world/entity/MobSpawnType;Lnet/minecraft/world/entity/SpawnGroupData;)Lnet/minecraft/world/entity/SpawnGroupData;
+       9: astore        5
+      11: aload_1
+      12: invokeinterface #204,  1          // InterfaceMethod net/minecraft/world/level/ServerLevelAccessor.getRandom:()Lnet/minecraft/util/RandomSource;
+      17: astore        6
+      19: aload_0
+      20: aload         6
+      22: aload_2
+      23: invokevirtual #207                // Method populateDefaultEquipmentSlots:(Lnet/minecraft/util/RandomSource;Lnet/minecraft/world/DifficultyInstance;)V
+      26: getstatic     #211                // Field com/github/L_Ender/cataclysm/init/ModEntities.LIONFISH:Lnet/neoforged/neoforge/registries/DeferredHolder;
+      29: invokevirtual #165                // Method net/neoforged/neoforge/registries/DeferredHolder.get:()Ljava/lang/Object;
+      32: checkcast     #214                // class net/minecraft/world/entity/EntityType
+      35: aload_0
+      36: invokevirtual #50                 // Method level:()Lnet/minecraft/world/level/Level;
+      39: invokevirtual #216                // Method net/minecraft/world/entity/EntityType.create:(Lnet/minecraft/world/level/Level;)Lnet/minecraft/world/entity/Entity;
+      42: checkcast     #220                // class com/github/L_Ender/cataclysm/entity/Deepling/Lionfish_Entity
+      45: astore        7
+      47: aload         7
+      49: aload_1
+      50: aload_2
+      51: aload_3
+      52: aload         4
+      54: invokevirtual #222                // Method com/github/L_Ender/cataclysm/entity/Deepling/Lionfish_Entity.finalizeSpawn:(Lnet/minecraft/world/level/ServerLevelAccessor;Lnet/minecraft/world/DifficultyInstance;Lnet/minecraft/world/entity/MobSpawnType;Lnet/minecraft/world/entity/SpawnGroupData;)Lnet/minecraft/world/entity/SpawnGroupData;
+      57: pop
+      58: aload         7
+      60: aload_0
+      61: invokevirtual #223                // Method com/github/L_Ender/cataclysm/entity/Deepling/Lionfish_Entity.copyPosition:(Lnet/minecraft/world/entity/Entity;)V
+      64: aload         7
+      66: aload_0
+      67: iconst_1
+      68: invokevirtual #227                // Method com/github/L_Ender/cataclysm/entity/Deepling/Lionfish_Entity.setLeashedTo:(Lnet/minecraft/world/entity/Entity;Z)V
+      71: aload_1
+      72: aload         7
+      74: invokeinterface #231,  2          // InterfaceMethod net/minecraft/world/level/ServerLevelAccessor.addFreshEntity:(Lnet/minecraft/world/entity/Entity;)Z
+      79: pop
+      80: aload         5
+      82: areturn
+
+  public boolean checkSpawnObstruction(net.minecraft.world.level.LevelReader);
+    Code:
+       0: aload_1
+       1: aload_0
+       2: invokeinterface #235,  2          // InterfaceMethod net/minecraft/world/level/LevelReader.isUnobstructed:(Lnet/minecraft/world/entity/Entity;)Z
+       7: ireturn
+
+  public static boolean candeeplingSpawn(net.minecraft.world.entity.EntityType<? extends com.github.L_Ender.cataclysm.entity.Deepling.Deepling_Angler_Entity>, net.minecraft.world.level.LevelAccessor, net.minecraft.world.entity.MobSpawnType, net.minecraft.core.BlockPos, net.minecraft.util.RandomSource);
+    Code:
+       0: aload_1
+       1: invokeinterface #240,  1          // InterfaceMethod net/minecraft/world/level/LevelAccessor.getDifficulty:()Lnet/minecraft/world/Difficulty;
+       6: getstatic     #246                // Field net/minecraft/world/Difficulty.PEACEFUL:Lnet/minecraft/world/Difficulty;
+       9: if_acmpeq     39
+      12: aload_2
+      13: invokestatic  #252                // Method net/minecraft/world/entity/MobSpawnType.isSpawner:(Lnet/minecraft/world/entity/MobSpawnType;)Z
+      16: ifne          35
+      19: aload_1
+      20: aload_3
+      21: invokeinterface #258,  2          // InterfaceMethod net/minecraft/world/level/LevelAccessor.getFluidState:(Lnet/minecraft/core/BlockPos;)Lnet/minecraft/world/level/material/FluidState;
+      26: getstatic     #262                // Field net/minecraft/tags/FluidTags.WATER:Lnet/minecraft/tags/TagKey;
+      29: invokevirtual #268                // Method net/minecraft/world/level/material/FluidState.is:(Lnet/minecraft/tags/TagKey;)Z
+      32: ifeq          39
+      35: iconst_1
+      36: goto          40
+      39: iconst_0
+      40: ireturn
+
+  public com.github.L_Ender.lionfishapi.server.animation.Animation[] getAnimations();
+    Code:
+       0: iconst_3
+       1: anewarray     #274                // class com/github/L_Ender/lionfishapi/server/animation/Animation
+       4: dup
+       5: iconst_0
+       6: getstatic     #276                // Field NO_ANIMATION:Lcom/github/L_Ender/lionfishapi/server/animation/Animation;
+       9: aastore
+      10: dup
+      11: iconst_1
+      12: getstatic     #280                // Field DEEPLING_MELEE:Lcom/github/L_Ender/lionfishapi/server/animation/Animation;
+      15: aastore
+      16: dup
+      17: iconst_2
+      18: getstatic     #283                // Field DEEPLING_HUG:Lcom/github/L_Ender/lionfishapi/server/animation/Animation;
+      21: aastore
+      22: areturn
+
+  public void tick();
+    Code:
+       0: aload_0
+       1: invokespecial #286                // Method com/github/L_Ender/cataclysm/entity/Deepling/AbstractDeepling.tick:()V
+       4: aload_0
+       5: invokevirtual #289                // Method getTarget:()Lnet/minecraft/world/entity/LivingEntity;
+       8: astore_1
+       9: aload_0
+      10: getfield      #7                  // Field hugcooldown:I
+      13: ifle          26
+      16: aload_0
+      17: dup
+      18: getfield      #7                  // Field hugcooldown:I
+      21: iconst_1
+      22: isub
+      23: putfield      #7                  // Field hugcooldown:I
+      26: aload_0
+      27: invokevirtual #293                // Method isAlive:()Z
+      30: ifeq          237
+      33: aload_0
+      34: invokevirtual #297                // Method getAnimation:()Lcom/github/L_Ender/lionfishapi/server/animation/Animation;
+      37: getstatic     #280                // Field DEEPLING_MELEE:Lcom/github/L_Ender/lionfishapi/server/animation/Animation;
+      40: if_acmpne     123
+      43: aload_0
+      44: invokevirtual #301                // Method getAnimationTick:()I
+      47: iconst_5
+      48: if_icmpne     123
+      51: aload_0
+      52: getstatic     #304                // Field com/github/L_Ender/cataclysm/init/ModSounds.DEEPLING_SWING:Lnet/neoforged/neoforge/registries/DeferredHolder;
+      55: invokevirtual #165                // Method net/neoforged/neoforge/registries/DeferredHolder.get:()Ljava/lang/Object;
+      58: checkcast     #171                // class net/minecraft/sounds/SoundEvent
+      61: fconst_1
+      62: fconst_1
+      63: aload_0
+      64: invokevirtual #190                // Method getRandom:()Lnet/minecraft/util/RandomSource;
+      67: invokeinterface #307,  1          // InterfaceMethod net/minecraft/util/RandomSource.nextFloat:()F
+      72: ldc_w         #313                // float 0.4f
+      75: fmul
+      76: ldc_w         #314                // float 0.8f
+      79: fadd
+      80: fdiv
+      81: invokevirtual #181                // Method playSound:(Lnet/minecraft/sounds/SoundEvent;FF)V
+      84: aload_1
+      85: ifnull        123
+      88: aload_0
+      89: aload_1
+      90: invokevirtual #315                // Method distanceTo:(Lnet/minecraft/world/entity/Entity;)F
+      93: ldc_w         #319                // float 3.0f
+      96: fcmpg
+      97: ifge          123
+     100: aload_0
+     101: getstatic     #102                // Field net/minecraft/world/entity/ai/attributes/Attributes.ATTACK_DAMAGE:Lnet/minecraft/core/Holder;
+     104: invokevirtual #320                // Method getAttributeValue:(Lnet/minecraft/core/Holder;)D
+     107: d2f
+     108: fstore_2
+     109: aload_1
+     110: aload_0
+     111: invokevirtual #324                // Method damageSources:()Lnet/minecraft/world/damagesource/DamageSources;
+     114: aload_0
+     115: invokevirtual #328                // Method net/minecraft/world/damagesource/DamageSources.mobAttack:(Lnet/minecraft/world/entity/LivingEntity;)Lnet/minecraft/world/damagesource/DamageSource;
+     118: fload_2
+     119: invokevirtual #334                // Method net/minecraft/world/entity/LivingEntity.hurt:(Lnet/minecraft/world/damagesource/DamageSource;F)Z
+     122: pop
+     123: aload_0
+     124: invokevirtual #297                // Method getAnimation:()Lcom/github/L_Ender/lionfishapi/server/animation/Animation;
+     127: getstatic     #283                // Field DEEPLING_HUG:Lcom/github/L_Ender/lionfishapi/server/animation/Animation;
+     130: if_acmpne     237
+     133: aload_0
+     134: invokevirtual #301                // Method getAnimationTick:()I
+     137: bipush        9
+     139: if_icmpne     237
+     142: aload_0
+     143: getstatic     #304                // Field com/github/L_Ender/cataclysm/init/ModSounds.DEEPLING_SWING:Lnet/neoforged/neoforge/registries/DeferredHolder;
+     146: invokevirtual #165                // Method net/neoforged/neoforge/registries/DeferredHolder.get:()Ljava/lang/Object;
+     149: checkcast     #171                // class net/minecraft/sounds/SoundEvent
+     152: fconst_1
+     153: fconst_1
+     154: aload_0
+     155: invokevirtual #190                // Method getRandom:()Lnet/minecraft/util/RandomSource;
+     158: invokeinterface #307,  1          // InterfaceMethod net/minecraft/util/RandomSource.nextFloat:()F
+     163: ldc_w         #313                // float 0.4f
+     166: fmul
+     167: ldc_w         #314                // float 0.8f
+     170: fadd
+     171: fdiv
+     172: invokevirtual #181                // Method playSound:(Lnet/minecraft/sounds/SoundEvent;FF)V
+     175: aload_1
+     176: ifnull        237
+     179: aload_0
+     180: aload_1
+     181: invokevirtual #315                // Method distanceTo:(Lnet/minecraft/world/entity/Entity;)F
+     184: ldc_w         #319                // float 3.0f
+     187: fcmpg
+     188: ifge          237
+     191: aload_0
+     192: getstatic     #102                // Field net/minecraft/world/entity/ai/attributes/Attributes.ATTACK_DAMAGE:Lnet/minecraft/core/Holder;
+     195: invokevirtual #320                // Method getAttributeValue:(Lnet/minecraft/core/Holder;)D
+     198: d2f
+     199: fstore_2
+     200: aload_1
+     201: aload_0
+     202: invokevirtual #324                // Method damageSources:()Lnet/minecraft/world/damagesource/DamageSources;
+     205: aload_0
+     206: invokevirtual #328                // Method net/minecraft/world/damagesource/DamageSources.mobAttack:(Lnet/minecraft/world/entity/LivingEntity;)Lnet/minecraft/world/damagesource/DamageSource;
+     209: fload_2
+     210: invokevirtual #334                // Method net/minecraft/world/entity/LivingEntity.hurt:(Lnet/minecraft/world/damagesource/DamageSource;F)Z
+     213: istore_3
+     214: iload_3
+     215: ifeq          237
+     218: aload_1
+     219: new           #340                // class net/minecraft/world/effect/MobEffectInstance
+     222: dup
+     223: getstatic     #342                // Field net/minecraft/world/effect/MobEffects.POISON:Lnet/minecraft/core/Holder;
+     226: bipush        60
+     228: iconst_1
+     229: invokespecial #347                // Method net/minecraft/world/effect/MobEffectInstance."<init>":(Lnet/minecraft/core/Holder;II)V
+     232: aload_0
+     233: invokevirtual #350                // Method net/minecraft/world/entity/LivingEntity.addEffect:(Lnet/minecraft/world/effect/MobEffectInstance;Lnet/minecraft/world/entity/Entity;)Z
+     236: pop
+     237: return
+
+  boolean wantsToSwim();
+    Code:
+       0: aload_0
+       1: getfield      #354                // Field searchingForLand:Z
+       4: ifeq          9
+       7: iconst_1
+       8: ireturn
+       9: aload_0
+      10: invokevirtual #289                // Method getTarget:()Lnet/minecraft/world/entity/LivingEntity;
+      13: astore_1
+      14: aload_1
+      15: ifnull        29
+      18: aload_1
+      19: invokevirtual #358                // Method net/minecraft/world/entity/LivingEntity.isInWater:()Z
+      22: ifeq          29
+      25: iconst_1
+      26: goto          30
+      29: iconst_0
+      30: ireturn
+
+  public net.minecraft.world.entity.EntityDimensions getSwimmingSize();
+    Code:
+       0: getstatic     #361                // Field SWIMMING_SIZE:Lnet/minecraft/world/entity/EntityDimensions;
+       3: areturn
+
+  public net.minecraft.world.phys.AABB getSwimmingBox();
+    Code:
+       0: new           #365                // class net/minecraft/world/phys/AABB
+       3: dup
+       4: aload_0
+       5: invokevirtual #367                // Method getX:()D
+       8: ldc2_w        #371                // double 1.225000023841858d
+      11: dsub
+      12: aload_0
+      13: invokevirtual #373                // Method getY:()D
+      16: aload_0
+      17: invokevirtual #376                // Method getZ:()D
+      20: ldc2_w        #371                // double 1.225000023841858d
+      23: dsub
+      24: aload_0
+      25: invokevirtual #367                // Method getX:()D
+      28: ldc2_w        #371                // double 1.225000023841858d
+      31: dadd
+      32: aload_0
+      33: invokevirtual #373                // Method getY:()D
+      36: ldc2_w        #379                // double 0.6499999761581421d
+      39: dadd
+      40: aload_0
+      41: invokevirtual #376                // Method getZ:()D
+      44: ldc2_w        #371                // double 1.225000023841858d
+      47: dadd
+      48: invokespecial #381                // Method net/minecraft/world/phys/AABB."<init>":(DDDDDD)V
+      51: areturn
+
+  public net.minecraft.world.phys.AABB getNormalBox();
+    Code:
+       0: new           #365                // class net/minecraft/world/phys/AABB
+       3: dup
+       4: aload_0
+       5: invokevirtual #367                // Method getX:()D
+       8: ldc2_w        #379                // double 0.6499999761581421d
+      11: dsub
+      12: aload_0
+      13: invokevirtual #373                // Method getY:()D
+      16: aload_0
+      17: invokevirtual #376                // Method getZ:()D
+      20: ldc2_w        #379                // double 0.6499999761581421d
+      23: dsub
+      24: aload_0
+      25: invokevirtual #367                // Method getX:()D
+      28: ldc2_w        #379                // double 0.6499999761581421d
+      31: dadd
+      32: aload_0
+      33: invokevirtual #373                // Method getY:()D
+      36: ldc2_w        #384                // double 2.450000047683716d
+      39: dadd
+      40: aload_0
+      41: invokevirtual #376                // Method getZ:()D
+      44: ldc2_w        #379                // double 0.6499999761581421d
+      47: dadd
+      48: invokespecial #381                // Method net/minecraft/world/phys/AABB."<init>":(DDDDDD)V
+      51: areturn
+
+  public void travel(net.minecraft.world.phys.Vec3);
+    Code:
+       0: aload_0
+       1: invokevirtual #386                // Method isEffectiveAi:()Z
+       4: ifeq          57
+       7: aload_0
+       8: invokevirtual #389                // Method isInWater:()Z
+      11: ifeq          57
+      14: aload_0
+      15: invokevirtual #390                // Method wantsToSwim:()Z
+      18: ifeq          57
+      21: aload_0
+      22: ldc_w         #393                // float 0.01f
+      25: aload_1
+      26: invokevirtual #394                // Method moveRelative:(FLnet/minecraft/world/phys/Vec3;)V
+      29: aload_0
+      30: getstatic     #398                // Field net/minecraft/world/entity/MoverType.SELF:Lnet/minecraft/world/entity/MoverType;
+      33: aload_0
+      34: invokevirtual #404                // Method getDeltaMovement:()Lnet/minecraft/world/phys/Vec3;
+      37: invokevirtual #408                // Method move:(Lnet/minecraft/world/entity/MoverType;Lnet/minecraft/world/phys/Vec3;)V
+      40: aload_0
+      41: aload_0
+      42: invokevirtual #404                // Method getDeltaMovement:()Lnet/minecraft/world/phys/Vec3;
+      45: ldc2_w        #412                // double 0.9d
+      48: invokevirtual #414                // Method net/minecraft/world/phys/Vec3.scale:(D)Lnet/minecraft/world/phys/Vec3;
+      51: invokevirtual #420                // Method setDeltaMovement:(Lnet/minecraft/world/phys/Vec3;)V
+      54: goto          62
+      57: aload_0
+      58: aload_1
+      59: invokespecial #424                // Method com/github/L_Ender/cataclysm/entity/Deepling/AbstractDeepling.travel:(Lnet/minecraft/world/phys/Vec3;)V
+      62: return
+
+  protected net.minecraft.world.phys.AABB getAttackBoundingBox();
+    Code:
+       0: aload_0
+       1: invokespecial #427                // Method com/github/L_Ender/cataclysm/entity/Deepling/AbstractDeepling.getAttackBoundingBox:()Lnet/minecraft/world/phys/AABB;
+       4: astore_1
+       5: aload_1
+       6: ldc2_w        #431                // double 0.05d
+       9: dconst_0
+      10: ldc2_w        #431                // double 0.05d
+      13: invokevirtual #433                // Method net/minecraft/world/phys/AABB.deflate:(DDD)Lnet/minecraft/world/phys/AABB;
+      16: areturn
+
+  protected boolean closeToNextPos();
+    Code:
+       0: aload_0
+       1: invokevirtual #437                // Method getNavigation:()Lnet/minecraft/world/entity/ai/navigation/PathNavigation;
+       4: invokevirtual #441                // Method net/minecraft/world/entity/ai/navigation/PathNavigation.getPath:()Lnet/minecraft/world/level/pathfinder/Path;
+       7: astore_1
+       8: aload_1
+       9: ifnull        51
+      12: aload_1
+      13: invokevirtual #447                // Method net/minecraft/world/level/pathfinder/Path.getTarget:()Lnet/minecraft/core/BlockPos;
+      16: astore_2
+      17: aload_2
+      18: ifnull        51
+      21: aload_0
+      22: aload_2
+      23: invokevirtual #452                // Method net/minecraft/core/BlockPos.getX:()I
+      26: i2d
+      27: aload_2
+      28: invokevirtual #456                // Method net/minecraft/core/BlockPos.getY:()I
+      31: i2d
+      32: aload_2
+      33: invokevirtual #458                // Method net/minecraft/core/BlockPos.getZ:()I
+      36: i2d
+      37: invokevirtual #460                // Method distanceToSqr:(DDD)D
+      40: dstore_3
+      41: dload_3
+      42: ldc2_w        #105                // double 4.0d
+      45: dcmpg
+      46: ifge          51
+      49: iconst_1
+      50: ireturn
+      51: iconst_0
+      52: ireturn
+
+  public void setSearchingForLand(boolean);
+    Code:
+       0: aload_0
+       1: iload_1
+       2: putfield      #354                // Field searchingForLand:Z
+       5: return
+
+  static {};
+    Code:
+       0: bipush        20
+       2: invokestatic  #464                // Method com/github/L_Ender/lionfishapi/server/animation/Animation.create:(I)Lcom/github/L_Ender/lionfishapi/server/animation/Animation;
+       5: putstatic     #280                // Field DEEPLING_MELEE:Lcom/github/L_Ender/lionfishapi/server/animation/Animation;
+       8: bipush        20
+      10: invokestatic  #464                // Method com/github/L_Ender/lionfishapi/server/animation/Animation.create:(I)Lcom/github/L_Ender/lionfishapi/server/animation/Animation;
+      13: putstatic     #283                // Field DEEPLING_HUG:Lcom/github/L_Ender/lionfishapi/server/animation/Animation;
+      16: ldc_w         #467                // float 1.225f
+      19: ldc_w         #468                // float 0.65f
+      22: invokestatic  #469                // Method net/minecraft/world/entity/EntityDimensions.fixed:(FF)Lnet/minecraft/world/entity/EntityDimensions;
+      25: putstatic     #361                // Field SWIMMING_SIZE:Lnet/minecraft/world/entity/EntityDimensions;
+      28: return
+}

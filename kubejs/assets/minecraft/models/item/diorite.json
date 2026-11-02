@@ -1,0 +1,11 @@
+{
+  "parent": "minecraft:block/diorite",
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 1054301
+      },
+      "model": "industrial_colonies:item/fusion_control_bearing_inventory"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "structures": [
+    {
+      "structure": "block_factorys_bosses:kraken_ship",
+      "weight": 300
+    },
+    {
+      "structure": "irons_spellbooks:impaled_icebreaker",
+      "weight": 300
+    },
+    {
+      "structure": "minecolonies:ship",
+      "weight": 300
+    },
+    {
+      "structure": "minecraft:shipwreck",
+      "weight": 300
+    },
+    {
+      "structure": "minecraft:shipwreck_beached",
+      "weight": 300
+    },
+    {
+      "structure": "supplementaries:galleon",
+      "weight": 300
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 196109124,
+    "spacing": 125,
+    "separation": 63,
+    "frequency": 1.0
+  }
+}

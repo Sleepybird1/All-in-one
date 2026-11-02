@@ -1,0 +1,64 @@
+// Layer only after the NEW stage's generated geology-smoke.init.gradle.
+// Never combine with a historical terrain/final init or select an old evidence stage.
+gradle.projectsEvaluated {
+    def p=gradle.rootProject
+    def supplied=p.findProperty('compatStage')
+    if (!supplied) throw new GradleException('-PcompatStage must identify a new prepared Lithosphere stage')
+    def stage=p.file(supplied.toString()).canonicalFile
+    def allowed=p.file('isolated-runtime').canonicalFile.toPath()
+    if (!stage.toPath().startsWith(allowed) || stage.toPath()==allowed) throw new GradleException('Stage must stay under workspace isolated-runtime')
+    def preparation=new File(stage,'lithosphere-preparation.json')
+    if (!preparation.isFile()) throw new GradleException('Not a newly prepared Lithosphere stage')
+    def metadata=new groovy.json.JsonSlurper().parse(preparation)
+    if (metadata.kind!='lithosphere_wwoo_compatibility' || !metadata.candidateContainsCompatibility) throw new GradleException('Invalid Lithosphere preparation metadata')
+    def candidateName=metadata.candidateFileName?.toString()
+    if (!candidateName || !(candidateName==~ /industrial_colonies-[A-Za-z0-9._+-]+\.jar/)) throw new GradleException('Invalid/missing candidate filename in new-stage metadata')
+    def candidate=new File(stage,'mods/'+candidateName)
+    if (!candidate.isFile()) throw new GradleException('Staged candidate is absent: '+candidate)
+    if (!metadata.requestedServerSubset || metadata.activeJarCount!=metadata.installedJarCount-6) throw new GradleException('Prepare the explicitly approved server-compatible subset first; full client stack is not a GameTestServer')
+    def order=(p.findProperty('terrainOrder') ?: 'a').toString()
+    def revision=(p.findProperty('compatRevision') ?: 'r1').toString()
+    if (!(order in ['a','b']) || !(revision==~ /[a-z0-9][a-z0-9-]*/)) throw new GradleException('Invalid order/revision')
+    def label=order+'-lithosphere-'+revision
+    def universe=new File(stage,'lithosphere-worlds')
+    def world=new File(universe,'terrain-'+label)
+    def terrainReport=new File(stage,'terrain-report-'+label+'.json')
+    def compatReport=new File(stage,'compatibility-report-'+label+'.json')
+    def ensureFresh={
+        if (['level.dat','level.dat_old','region','entities','dimensions','data','poi'].any{new File(world,it).exists()} || terrainReport.exists() || compatReport.exists())
+            throw new GradleException('Refusing generated compatibility world/report reuse; choose another revision')
+        def hash=java.security.MessageDigest.getInstance('SHA-256').digest(candidate.bytes).encodeHex().toString()
+        if (!hash.equalsIgnoreCase(metadata.candidateSha256.toString())) throw new GradleException('Candidate changed after stage preparation')
+    }
+    def fixture=p.tasks.register('prepareLithosphereWorldFixture') {
+        doLast { ensureFresh();p.copy{from p.file('tools/terrain-smoke/world-template');into new File(world,'datapacks/ic_normal_terrain')} }
+    }
+    def ss=p.sourceSets.create('terrainSmoke')
+    ss.java.setSrcDirs([p.file('tools/terrain-smoke/src'),p.file('tools/lithosphere-compat/src')])
+    ss.resources.setSrcDirs([p.file('tools/terrain-smoke/resources')])
+    p.tasks.named(ss.processResourcesTaskName) {
+        ['ic_terrain_smoke','ic_lithosphere_smoke'].each { namespace ->
+            from(p.file('src/main/resources/data/industrial_colonies/structure/geology_smoke_empty.nbt')){into 'data/'+namespace+'/structure'}
+        }
+    }
+    def neo=p.extensions.getByName('neoForge')
+    neo.addModdingDependenciesTo(ss)
+    p.dependencies.add(ss.compileOnlyConfigurationName,p.files(candidate))
+    p.dependencies.add(ss.runtimeOnlyConfigurationName,'net.neoforged:DevLaunch:1.0.2')
+    p.tasks.named(ss.compileJavaTaskName){options.encoding='UTF-8'}
+    def addon=neo.mods.create('ic_terrain_smoke');addon.sourceSet(ss)
+    def run=neo.runs.getByName('gameTestServer')
+    run.sourceSet.set(ss);run.loadedMods.set([addon])
+    run.systemProperty('neoforge.enabledGameTestNamespaces','industrial_colonies,ic_terrain_smoke,ic_lithosphere_smoke')
+    run.systemProperty('ic.terrain.report',terrainReport.absolutePath)
+    run.systemProperty('ic.lithosphere.report',compatReport.absolutePath)
+    run.systemProperty('ic.terrain.reverse',order=='b'?'true':'false')
+    run.systemProperty('ic.terrain.expectedTerrainMod','mr_lithosphere')
+    run.systemProperty('ic.terrain.expectedProvider','lithosphere')
+    run.systemProperty('ic.terrain.expectedMinY','-64')
+    run.systemProperty('ic.terrain.expectedHeight','576')
+    run.systemProperty('ic.terrain.expectedNoiseSha256',metadata.expectedNoiseSha256.toString())
+    run.systemProperty('mixin.debug.verbose','false');run.systemProperty('bsl.debug','false')
+    run.programArguments.set(['--nogui','--allowUpdates','false','--universe',universe.absolutePath,'--world',world.name])
+    p.tasks.named('runGameTestServer'){dependsOn fixture;dependsOn p.tasks.named(ss.classesTaskName);doFirst{ensureFresh()}}
+}

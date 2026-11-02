@@ -1,0 +1,245 @@
+Compiled from "MixinStructure.java"
+public class raccoonman.reterraforged.mixin.MixinStructure {
+  public raccoonman.reterraforged.mixin.MixinStructure();
+    Code:
+       0: aload_0
+       1: invokespecial #35                 // Method java/lang/Object."<init>":()V
+       4: return
+
+  private static void isValidBiome(net.minecraft.world.level.levelgen.structure.Structure$GenerationStub, net.minecraft.world.level.levelgen.structure.Structure$GenerationContext, org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable<java.lang.Boolean>);
+    Code:
+       0: aload_1
+       1: invokevirtual #55                 // Method net/minecraft/world/level/levelgen/structure/Structure$GenerationContext.registryAccess:()Lnet/minecraft/core/RegistryAccess;
+       4: astore_3
+       5: aload_3
+       6: getstatic     #61                 // Field raccoonman/reterraforged/registries/RTFRegistries.STRUCTURE_RULE:Lnet/minecraft/resources/ResourceKey;
+       9: invokeinterface #67,  2           // InterfaceMethod net/minecraft/core/RegistryAccess.lookupOrThrow:(Lnet/minecraft/resources/ResourceKey;)Lnet/minecraft/core/HolderLookup$RegistryLookup;
+      14: astore        4
+      16: aload         4
+      18: invokeinterface #71,  1           // InterfaceMethod net/minecraft/core/HolderLookup$RegistryLookup.listElements:()Ljava/util/stream/Stream;
+      23: invokedynamic #90,  0             // InvokeDynamic #0:apply:()Ljava/util/function/Function;
+      28: invokeinterface #96,  2           // InterfaceMethod java/util/stream/Stream.map:(Ljava/util/function/Function;)Ljava/util/stream/Stream;
+      33: invokeinterface #100,  1          // InterfaceMethod java/util/stream/Stream.toList:()Ljava/util/List;
+      38: invokeinterface #106,  1          // InterfaceMethod java/util/List.iterator:()Ljava/util/Iterator;
+      43: astore        5
+      45: aload         5
+      47: invokeinterface #112,  1          // InterfaceMethod java/util/Iterator.hasNext:()Z
+      52: ifeq          96
+      55: aload         5
+      57: invokeinterface #115,  1          // InterfaceMethod java/util/Iterator.next:()Ljava/lang/Object;
+      62: checkcast     #117                // class raccoonman/reterraforged/world/worldgen/structure/rule/StructureRule
+      65: astore        6
+      67: aload         6
+      69: aload_1
+      70: invokevirtual #121                // Method net/minecraft/world/level/levelgen/structure/Structure$GenerationContext.randomState:()Lnet/minecraft/world/level/levelgen/RandomState;
+      73: aload_0
+      74: invokevirtual #125                // Method net/minecraft/world/level/levelgen/structure/Structure$GenerationStub.position:()Lnet/minecraft/core/BlockPos;
+      77: invokeinterface #129,  3          // InterfaceMethod raccoonman/reterraforged/world/worldgen/structure/rule/StructureRule.test:(Lnet/minecraft/world/level/levelgen/RandomState;Lnet/minecraft/core/BlockPos;)Z
+      82: ifne          93
+      85: aload_2
+      86: iconst_0
+      87: invokestatic  #135                // Method java/lang/Boolean.valueOf:(Z)Ljava/lang/Boolean;
+      90: invokevirtual #141                // Method org/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable.setReturnValue:(Ljava/lang/Object;)V
+      93: goto          45
+      96: return
+}
+Compiled from "MixinNoiseBasedChunkGenerator.java"
+abstract class raccoonman.reterraforged.mixin.MixinNoiseBasedChunkGenerator extends net.minecraft.world.level.chunk.ChunkGenerator {
+  private net.minecraft.core.Holder<net.minecraft.world.level.levelgen.NoiseGeneratorSettings> settings;
+
+  public raccoonman.reterraforged.mixin.MixinNoiseBasedChunkGenerator(net.minecraft.world.level.biome.BiomeSource, java.util.function.Function<net.minecraft.core.Holder<net.minecraft.world.level.biome.Biome>, net.minecraft.world.level.biome.BiomeGenerationSettings>);
+    Code:
+       0: aload_0
+       1: aload_1
+       2: aload_2
+       3: invokespecial #35                 // Method net/minecraft/world/level/chunk/ChunkGenerator."<init>":(Lnet/minecraft/world/level/biome/BiomeSource;Ljava/util/function/Function;)V
+       6: return
+
+  public void doCreateBiomes(net.minecraft.world.level.levelgen.blending.Blender, net.minecraft.world.level.levelgen.RandomState, net.minecraft.world.level.StructureManager, net.minecraft.world.level.chunk.ChunkAccess, org.spongepowered.asm.mixin.injection.callback.CallbackInfo);
+    Code:
+       0: aload_2
+       1: checkcast     #55                 // class raccoonman/reterraforged/world/worldgen/RTFRandomState
+       4: astore        6
+       6: aload         6
+       8: invokeinterface #59,  1           // InterfaceMethod raccoonman/reterraforged/world/worldgen/RTFRandomState.generatorContext:()Lraccoonman/reterraforged/world/worldgen/GeneratorContext;
+      13: astore        7
+      15: aload         7
+      17: ifnonnull     21
+      20: return
+      21: aload         4
+      23: checkcast     #63                 // class raccoonman/reterraforged/world/worldgen/RTFChunk
+      26: astore        8
+      28: aload         4
+      30: invokevirtual #69                 // Method net/minecraft/world/level/chunk/ChunkAccess.getPos:()Lnet/minecraft/world/level/ChunkPos;
+      33: astore        9
+      35: aload         7
+      37: getfield      #73                 // Field raccoonman/reterraforged/world/worldgen/GeneratorContext.cache:Lraccoonman/reterraforged/world/worldgen/densityfunction/tile/TileCache;
+      40: aload         9
+      42: getfield      #79                 // Field net/minecraft/world/level/ChunkPos.x:I
+      45: aload         9
+      47: getfield      #82                 // Field net/minecraft/world/level/ChunkPos.z:I
+      50: invokevirtual #88                 // Method raccoonman/reterraforged/world/worldgen/densityfunction/tile/TileCache.provideAtChunk:(II)Lraccoonman/reterraforged/world/worldgen/densityfunction/tile/Tile;
+      53: astore        10
+      55: aload         10
+      57: aload         9
+      59: getfield      #79                 // Field net/minecraft/world/level/ChunkPos.x:I
+      62: aload         9
+      64: getfield      #82                 // Field net/minecraft/world/level/ChunkPos.z:I
+      67: invokevirtual #92                 // Method raccoonman/reterraforged/world/worldgen/densityfunction/tile/Tile.getChunkReader:(II)Lraccoonman/reterraforged/world/worldgen/densityfunction/tile/Tile$Chunk;
+      70: astore        11
+      72: ldc           #93                 // float 1.4E-45f
+      74: fstore        12
+      76: iconst_0
+      77: istore        13
+      79: iload         13
+      81: bipush        16
+      83: if_icmpge     137
+      86: iconst_0
+      87: istore        14
+      89: iload         14
+      91: bipush        16
+      93: if_icmpge     131
+      96: aload         11
+      98: iload         13
+     100: iload         14
+     102: invokevirtual #105                // Method raccoonman/reterraforged/world/worldgen/densityfunction/tile/Tile$Chunk.getCell:(II)Lraccoonman/reterraforged/world/worldgen/cell/Cell;
+     105: getfield      #111                // Field raccoonman/reterraforged/world/worldgen/cell/Cell.height:F
+     108: ldc           #112                // float 256.0f
+     110: fmul
+     111: fstore        15
+     113: fload         15
+     115: fload         12
+     117: fcmpl
+     118: ifle          125
+     121: fload         15
+     123: fstore        12
+     125: iinc          14, 1
+     128: goto          89
+     131: iinc          13, 1
+     134: goto          79
+     137: aload         8
+     139: fload         12
+     141: invokestatic  #118                // Method net/minecraft/util/Mth.ceil:(F)I
+     144: invokeinterface #122,  2          // InterfaceMethod raccoonman/reterraforged/world/worldgen/RTFChunk.setMaxHeight:(I)V
+     149: return
+
+  public int fillFromNoise(net.minecraft.world.level.levelgen.NoiseSettings, net.minecraft.world.level.levelgen.blending.Blender, net.minecraft.world.level.levelgen.RandomState, net.minecraft.world.level.StructureManager, net.minecraft.world.level.chunk.ChunkAccess);
+    Code:
+       0: aload         5
+       2: checkcast     #63                 // class raccoonman/reterraforged/world/worldgen/RTFChunk
+       5: astore        6
+       7: aload         6
+       9: invokeinterface #152,  1          // InterfaceMethod raccoonman/reterraforged/world/worldgen/RTFChunk.getMaxHeight:()Ljava/util/OptionalInt;
+      14: aload_1
+      15: dup
+      16: invokestatic  #158                // Method java/util/Objects.requireNonNull:(Ljava/lang/Object;)Ljava/lang/Object;
+      19: pop
+      20: invokedynamic #176,  0            // InvokeDynamic #0:getAsInt:(Lnet/minecraft/world/level/levelgen/NoiseSettings;)Ljava/util/function/IntSupplier;
+      25: invokevirtual #182                // Method java/util/OptionalInt.orElseGet:(Ljava/util/function/IntSupplier;)I
+      28: istore        7
+      30: aload         5
+      32: invokevirtual #69                 // Method net/minecraft/world/level/chunk/ChunkAccess.getPos:()Lnet/minecraft/world/level/ChunkPos;
+      35: iload         7
+      37: aload_0
+      38: getfield      #184                // Field settings:Lnet/minecraft/core/Holder;
+      41: invokeinterface #189,  1          // InterfaceMethod net/minecraft/core/Holder.value:()Ljava/lang/Object;
+      46: checkcast     #191                // class net/minecraft/world/level/levelgen/NoiseGeneratorSettings
+      49: aload_1
+      50: aload         4
+      52: invokestatic  #196                // Method raccoonman/reterraforged/world/worldgen/MaxHeightUtil.getMaxHeight:(Lnet/minecraft/world/level/ChunkPos;ILnet/minecraft/world/level/levelgen/NoiseGeneratorSettings;Lnet/minecraft/world/level/levelgen/NoiseSettings;Lnet/minecraft/world/level/StructureManager;)I
+      55: istore        7
+      57: iload         7
+      59: ireturn
+
+  private void createNoiseChunk(net.minecraft.world.level.chunk.ChunkAccess, net.minecraft.world.level.StructureManager, net.minecraft.world.level.levelgen.blending.Blender, net.minecraft.world.level.levelgen.RandomState, org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable<net.minecraft.world.level.levelgen.NoiseChunk>);
+    Code:
+       0: aload_1
+       1: invokestatic  #208                // Method raccoonman/reterraforged/world/worldgen/ActiveChunk.set:(Lnet/minecraft/world/level/chunk/ChunkAccess;)V
+       4: return
+
+  private net.minecraft.world.level.levelgen.NoiseSettings iterateNoiseColumn(net.minecraft.world.level.levelgen.NoiseSettings, net.minecraft.world.level.LevelHeightAccessor, net.minecraft.world.level.LevelHeightAccessor, net.minecraft.world.level.levelgen.RandomState, int, int, org.apache.commons.lang3.mutable.MutableObject<net.minecraft.world.level.NoiseColumn>, java.util.function.Predicate<net.minecraft.world.level.block.state.BlockState>);
+    Code:
+       0: aload_1
+       1: aload_2
+       2: invokevirtual #227                // Method net/minecraft/world/level/levelgen/NoiseSettings.clampToHeightAccessor:(Lnet/minecraft/world/level/LevelHeightAccessor;)Lnet/minecraft/world/level/levelgen/NoiseSettings;
+       5: astore        9
+       7: aload         4
+       9: astore        12
+      11: aload         12
+      13: instanceof    #55                 // class raccoonman/reterraforged/world/worldgen/RTFRandomState
+      16: ifeq          67
+      19: aload         12
+      21: checkcast     #55                 // class raccoonman/reterraforged/world/worldgen/RTFRandomState
+      24: astore        11
+      26: aload         11
+      28: invokeinterface #59,  1           // InterfaceMethod raccoonman/reterraforged/world/worldgen/RTFRandomState.generatorContext:()Lraccoonman/reterraforged/world/worldgen/GeneratorContext;
+      33: dup
+      34: astore        10
+      36: ifnull        67
+      39: aload         9
+      41: aload_0
+      42: getfield      #184                // Field settings:Lnet/minecraft/core/Holder;
+      45: invokeinterface #189,  1          // InterfaceMethod net/minecraft/core/Holder.value:()Ljava/lang/Object;
+      50: checkcast     #191                // class net/minecraft/world/level/levelgen/NoiseGeneratorSettings
+      53: aload         10
+      55: getfield      #231                // Field raccoonman/reterraforged/world/worldgen/GeneratorContext.lookup:Lraccoonman/reterraforged/world/worldgen/cell/heightmap/WorldLookup;
+      58: iload         5
+      60: iload         6
+      62: invokestatic  #235                // Method raccoonman/reterraforged/world/worldgen/MaxHeightUtil.capNoiseSettingsForColumn:(Lnet/minecraft/world/level/levelgen/NoiseSettings;Lnet/minecraft/world/level/levelgen/NoiseGeneratorSettings;Lraccoonman/reterraforged/world/worldgen/cell/heightmap/WorldLookup;II)Lnet/minecraft/world/level/levelgen/NoiseSettings;
+      65: astore        9
+      67: aload         9
+      69: areturn
+
+  private void fillBiomesFromNoise(net.minecraft.world.level.chunk.ChunkAccess, net.minecraft.world.level.biome.BiomeResolver, net.minecraft.world.level.biome.Climate$Sampler, net.minecraft.world.level.levelgen.blending.Blender, net.minecraft.world.level.levelgen.RandomState, net.minecraft.world.level.StructureManager, net.minecraft.world.level.chunk.ChunkAccess);
+    Code:
+       0: aload         5
+       2: checkcast     #55                 // class raccoonman/reterraforged/world/worldgen/RTFRandomState
+       5: astore        8
+       7: aload         8
+       9: invokeinterface #59,  1           // InterfaceMethod raccoonman/reterraforged/world/worldgen/RTFRandomState.generatorContext:()Lraccoonman/reterraforged/world/worldgen/GeneratorContext;
+      14: ifnull        104
+      17: aload         4
+      19: invokestatic  #256                // Method net/minecraft/world/level/levelgen/blending/Blender.empty:()Lnet/minecraft/world/level/levelgen/blending/Blender;
+      22: if_acmpne     104
+      25: aload_1
+      26: invokevirtual #260                // Method net/minecraft/world/level/chunk/ChunkAccess.isUpgrading:()Z
+      29: ifne          104
+      32: aload_1
+      33: checkcast     #63                 // class raccoonman/reterraforged/world/worldgen/RTFChunk
+      36: invokeinterface #152,  1          // InterfaceMethod raccoonman/reterraforged/world/worldgen/RTFChunk.getMaxHeight:()Ljava/util/OptionalInt;
+      41: dup
+      42: astore        9
+      44: invokevirtual #263                // Method java/util/OptionalInt.isPresent:()Z
+      47: ifeq          104
+      50: aload_0
+      51: getfield      #184                // Field settings:Lnet/minecraft/core/Holder;
+      54: invokeinterface #189,  1          // InterfaceMethod net/minecraft/core/Holder.value:()Ljava/lang/Object;
+      59: checkcast     #191                // class net/minecraft/world/level/levelgen/NoiseGeneratorSettings
+      62: invokevirtual #266                // Method net/minecraft/world/level/levelgen/NoiseGeneratorSettings.seaLevel:()I
+      65: istore        10
+      67: iload         10
+      69: aload         9
+      71: invokevirtual #268                // Method java/util/OptionalInt.getAsInt:()I
+      74: iconst_1
+      75: iadd
+      76: invokestatic  #274                // Method java/lang/Math.max:(II)I
+      79: bipush        8
+      81: iadd
+      82: istore        11
+      84: iload         11
+      86: invokestatic  #280                // Method net/minecraft/core/QuartPos.fromBlock:(I)I
+      89: iconst_1
+      90: iadd
+      91: istore        12
+      93: new           #282                // class raccoonman/reterraforged/world/worldgen/biome/ColumnCachedBiomeResolver
+      96: dup
+      97: aload_2
+      98: iload         12
+     100: invokespecial #285                // Method raccoonman/reterraforged/world/worldgen/biome/ColumnCachedBiomeResolver."<init>":(Lnet/minecraft/world/level/biome/BiomeResolver;I)V
+     103: astore_2
+     104: aload_1
+     105: aload_2
+     106: aload_3
+     107: invokevirtual #290                // Method net/minecraft/world/level/chunk/ChunkAccess.fillBiomesFromNoise:(Lnet/minecraft/world/level/biome/BiomeResolver;Lnet/minecraft/world/level/biome/Climate$Sampler;)V
+     110: return
+}

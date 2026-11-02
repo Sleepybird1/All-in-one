@@ -1,0 +1,26 @@
+{
+  "replace": false,
+  "values": [
+    {"id":"minecraft:shipwreck","required":false},
+    {"id":"minecraft:shipwreck_beached","required":false},
+    {"id":"minecraft:monument","required":false},
+    {"id":"minecraft:ocean_ruin_cold","required":false},
+    {"id":"minecraft:ocean_ruin_warm","required":false},
+    {"id":"minecolonies:ship","required":false},
+    {"id":"block_factorys_bosses:kraken_ship","required":false},
+    {"id":"irons_spellbooks:impaled_icebreaker","required":false},
+    {"id":"supplementaries:galleon","required":false},
+    {"id":"cataclysm:sunken_city","required":false},
+    {"id":"modernfoundry:clay_island","required":false},
+    {"id":"modernfoundry:earth_slime_island","required":false},
+    {"id":"modernfoundry:end_slime_island","required":false},
+    {"id":"modernfoundry:ocean_skyslime_island","required":false},
+    {"id":"modernfoundry:sky_slime_island","required":false},
+    {"id":"allthemodium:dungeon","required":false},
+    {"id":"bosses_of_mass_destruction:void_blossom","required":false},
+    {"id":"mowziesmobs:wrought_chamber","required":false},
+    {"id":"ctov:small/village_underground","required":false},
+    {"id":"ctov:medium/village_underground","required":false},
+    {"id":"ctov:large/village_underground","required":false}
+  ]
+}

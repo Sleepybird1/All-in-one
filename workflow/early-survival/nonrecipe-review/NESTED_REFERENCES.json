@@ -1,0 +1,1730 @@
+{
+  "status": "NESTED_STATIC_REFERENCE_SCAN",
+  "archiveOccurrences": 286,
+  "uniqueArchives": 265,
+  "counts": {
+    "json": 1960,
+    "nbt": 6
+  },
+  "archives": [
+    {
+      "origin": "adastra-1.21.1-1.16.22-neoforge.jar!/META-INF/jars/jlayer-1.0.1.jar",
+      "sha256": "850508c837454a1b06017c32a36876fae516de1e89a829f725fee1e6dcc52000",
+      "bytes": 143624,
+      "duplicateContent": false
+    },
+    {
+      "origin": "AdvancedAE-1.6.12-1.21.1.jar!/META-INF/jarjar/ae2addonlib-1.0.3-1.21.1.jar",
+      "sha256": "1d065b46db71addeb7e04aff4981b424531d40123fe2b0c1d2a2cc9af81319fe",
+      "bytes": 198113,
+      "duplicateContent": false
+    },
+    {
+      "origin": "AdvancedAE-1.6.12-1.21.1.jar!/META-INF/jarjar/ae2wtlib_api-19.2.5.jar",
+      "sha256": "c6ceaa29f847f37f050fe0cb18963d68f27c69e7b395aa361497cf9796460a2c",
+      "bytes": 76691,
+      "duplicateContent": false
+    },
+    {
+      "origin": "ae2wtlib-19.5.1.jar!/META-INF/jarjar/de.mari_023.ae2wtlib_api-19.5.1.jar",
+      "sha256": "e674205f18eb2d07ce33cda69d46cdba63a6230e7dabbe2abf98064991d6b3c4",
+      "bytes": 81626,
+      "duplicateContent": false
+    },
+    {
+      "origin": "AeroIE-1.0.1.jar!/META-INF/jarjar/mixinextras-neoforge-0.5.0.jar",
+      "sha256": "9c617719248f8b89847348fc7ea5e705739c147ae5e172551264d225bc9f2507",
+      "bytes": 722959,
+      "duplicateContent": false
+    },
+    {
+      "origin": "apothic_cataclysm-1.2.0.jar!/META-INF/jarjar/Registrate-MC1.21-1.3.0+63.jar",
+      "sha256": "b0d863adf4bc45b7ac2c468f06079fff71ed73ad2969c4d632c1b7016bdfcdea",
+      "bytes": 181144,
+      "duplicateContent": false
+    },
+    {
+      "origin": "apothic_cataclysm-1.2.0.jar!/META-INF/jarjar/l2core-3.0.8+8.jar",
+      "sha256": "3c311763c5ba67ee1ed001308316258be0390cbddd8823c223a84ff1cdfde6d0",
+      "bytes": 394533,
+      "duplicateContent": false
+    },
+    {
+      "origin": "apothic_cataclysm-1.2.0.jar!/META-INF/jarjar/l2serial-3.1.1.jar",
+      "sha256": "b46849a50e743560a71d9fdd62f05209a7fb444f087b9631a5e6eb4bbb736f2d",
+      "bytes": 118554,
+      "duplicateContent": false
+    },
+    {
+      "origin": "apothic_cataclysm-1.2.0.jar!/META-INF/jarjar/mob_weapon_api-3.0.2.jar",
+      "sha256": "5da248c5243ee2c8bc708196f8c5052b0ab8555fe123ce95ab31748382d558ba",
+      "bytes": 146449,
+      "duplicateContent": false
+    },
+    {
+      "origin": "artifacts-neoforge-13.2.1.jar!/META-INF/jars/expandability-neoforge-12.0.0.jar",
+      "sha256": "ce57418a4fc1a7d8d2390fcd3a0789d4290c11c96383c55b672519fe08d53195",
+      "bytes": 46804,
+      "duplicateContent": false
+    },
+    {
+      "origin": "balm-neoforge-1.21.1-21.0.65.jar!/META-INF/jarjar/kuma-api-neoforge-21.0.8+1.21.jar",
+      "sha256": "cf04355de63f96a84a10309d1c985200eb54b7bc614c7c3b556b39209e829f40",
+      "bytes": 32710,
+      "duplicateContent": false
+    },
+    {
+      "origin": "bettercombat-neoforge-2.4.0+1.21.1.jar!/META-INF/jars/tiny-config-3.1.0-neoforge.jar",
+      "sha256": "1a2b15d937d4df12038d660eaea9508d3f4765be9593e0762c809fcfd5df3c5b",
+      "bytes": 28309,
+      "duplicateContent": false
+    },
+    {
+      "origin": "BOMD-NeoForge-1.21-1.3.3.jar!/META-INF/jars/mixinextras-neoforge-0.4.1.jar",
+      "sha256": "ab762113342bd73d65c5678d52f687a74d2f9cc7909bddcd3c807efbd9f56e86",
+      "bytes": 207768,
+      "duplicateContent": false
+    },
+    {
+      "origin": "c2me-neoforge-mc1.21.1-0.4.0-alpha.0.120.jar!/META-INF/jars/asyncutil-0.1.0.jar",
+      "sha256": "2842e2cf609f39759a1a8b971be6183141283526a40f90d2f09bb3ea0ed848ab",
+      "bytes": 307223,
+      "duplicateContent": false
+    },
+    {
+      "origin": "c2me-neoforge-mc1.21.1-0.4.0-alpha.0.120.jar!/META-INF/jars/c2me-neoforge-base-mc1.21.1-0.4.0-alpha.0.120-all.jar",
+      "sha256": "412f52df6ee2986669ad9b65980d66ad7a00e8f83b2fdcb527333617e0e17b92",
+      "bytes": 448973,
+      "duplicateContent": false
+    },
+    {
+      "origin": "c2me-neoforge-mc1.21.1-0.4.0-alpha.0.120.jar!/META-INF/jars/c2me-neoforge-client-uncapvd-mc1.21.1-0.4.0-alpha.0.120.jar",
+      "sha256": "c79df826a48bfa828ddf262ebeddd28f5e5cf74ec3bcadd492e8f32d34856550",
+      "bytes": 28254,
+      "duplicateContent": false
+    },
+    {
+      "origin": "c2me-neoforge-mc1.21.1-0.4.0-alpha.0.120.jar!/META-INF/jars/c2me-neoforge-fixes-chunkio-threading-issues-mc1.21.1-0.4.0-alpha.0.120.jar",
+      "sha256": "2788aef754a3a2798dd4fbd4eecb25b901e0b59b1457388c3dd4bc0747f0ca3f",
+      "bytes": 12207,
+      "duplicateContent": false
+    },
+    {
+      "origin": "c2me-neoforge-mc1.21.1-0.4.0-alpha.0.120.jar!/META-INF/jars/c2me-neoforge-fixes-general-threading-issues-mc1.21.1-0.4.0-alpha.0.120.jar",
+      "sha256": "0ba8adfd831d00a5f1d56415d6d30579c3c9971b5f9c30d9b695126bd9d08321",
+      "bytes": 14691,
+      "duplicateContent": false
+    },
+    {
+      "origin": "c2me-neoforge-mc1.21.1-0.4.0-alpha.0.120.jar!/META-INF/jars/c2me-neoforge-fixes-worldgen-threading-issues-mc1.21.1-0.4.0-alpha.0.120.jar",
+      "sha256": "fedccf928c61d7d21f3658d17b68b0ed11e44103ed355adcddc0d540567c99ef",
+      "bytes": 135660,
+      "duplicateContent": false
+    },
+    {
+      "origin": "c2me-neoforge-mc1.21.1-0.4.0-alpha.0.120.jar!/META-INF/jars/c2me-neoforge-fixes-worldgen-vanilla-bugs-mc1.21.1-0.4.0-alpha.0.120.jar",
+      "sha256": "81b0c95394bfc0897e5d5cd32c0b152a55e3adb3e9618ff1de30d730f87ccc55",
+      "bytes": 10421,
+      "duplicateContent": false
+    },
+    {
+      "origin": "c2me-neoforge-mc1.21.1-0.4.0-alpha.0.120.jar!/META-INF/jars/c2me-neoforge-notickvd-mc1.21.1-0.4.0-alpha.0.120.jar",
+      "sha256": "66e247af2a05bd0a20fed51f023638e9867c1118dc653fd8cac3d1dbb845907c",
+      "bytes": 100261,
+      "duplicateContent": false
+    },
+    {
+      "origin": "c2me-neoforge-mc1.21.1-0.4.0-alpha.0.120.jar!/META-INF/jars/c2me-neoforge-opts-allocs-mc1.21.1-0.4.0-alpha.0.120.jar",
+      "sha256": "070174f779c8dff67c849c9425a9b8c6be910112c39d02b628e84d300a21af1c",
+      "bytes": 48212,
+      "duplicateContent": false
+    },
+    {
+      "origin": "c2me-neoforge-mc1.21.1-0.4.0-alpha.0.120.jar!/META-INF/jars/c2me-neoforge-opts-chunkio-mc1.21.1-0.4.0-alpha.0.120.jar",
+      "sha256": "05522df5b766ba21e36521b48396677a4936a4798b57cfd8203e2c9688e94375",
+      "bytes": 13883,
+      "duplicateContent": false
+    },
+    {
+      "origin": "c2me-neoforge-mc1.21.1-0.4.0-alpha.0.120.jar!/META-INF/jars/c2me-neoforge-opts-dfc-mc1.21.1-0.4.0-alpha.0.120.jar",
+      "sha256": "b6918052e1b5af9dfab1005cbc1ed3dda5144cf635955e41127f46595433b747",
+      "bytes": 768402,
+      "duplicateContent": false
+    },
+    {
+      "origin": "c2me-neoforge-mc1.21.1-0.4.0-alpha.0.120.jar!/META-INF/jars/c2me-neoforge-opts-math-mc1.21.1-0.4.0-alpha.0.120.jar",
+      "sha256": "fdbb7001607a412b9c624144815e72a0841450b6cde63e6ccd00a75985553f3b",
+      "bytes": 12267,
+      "duplicateContent": false
+    },
+    {
+      "origin": "c2me-neoforge-mc1.21.1-0.4.0-alpha.0.120.jar!/META-INF/jars/c2me-neoforge-opts-natives-math-mc1.21.1-0.4.0-alpha.0.120.jar",
+      "sha256": "4d204cc91ec3551163f53c70fa0def6c61f4c7682072fb52bef1887f6f96a0f4",
+      "bytes": 2793572,
+      "duplicateContent": false
+    },
+    {
+      "origin": "c2me-neoforge-mc1.21.1-0.4.0-alpha.0.120.jar!/META-INF/jars/c2me-neoforge-opts-scheduling-mc1.21.1-0.4.0-alpha.0.120.jar",
+      "sha256": "d48567560a99104488747924ba1d0d7178e1b9552c5176d03c0e9429c08e81c1",
+      "bytes": 53837,
+      "duplicateContent": false
+    },
+    {
+      "origin": "c2me-neoforge-mc1.21.1-0.4.0-alpha.0.120.jar!/META-INF/jars/c2me-neoforge-opts-worldgen-general-mc1.21.1-0.4.0-alpha.0.120.jar",
+      "sha256": "366eb91cf48f9099ab50726dd60b903ddeb96544b6d46ef99b70f040242122c3",
+      "bytes": 17331,
+      "duplicateContent": false
+    },
+    {
+      "origin": "c2me-neoforge-mc1.21.1-0.4.0-alpha.0.120.jar!/META-INF/jars/c2me-neoforge-opts-worldgen-vanilla-mc1.21.1-0.4.0-alpha.0.120.jar",
+      "sha256": "a9463a58794e6d2aec29a7cacb2c873c73b76a43bfea0a5f3ff3d1d6e334b2e4",
+      "bytes": 42517,
+      "duplicateContent": false
+    },
+    {
+      "origin": "c2me-neoforge-mc1.21.1-0.4.0-alpha.0.120.jar!/META-INF/jars/c2me-neoforge-rewrites-chunk-system-mc1.21.1-0.4.0-alpha.0.120.jar",
+      "sha256": "3a0cd8b64e651ba223a82277c8eee96bce815f04d872544d6af489c9346cc58c",
+      "bytes": 338448,
+      "duplicateContent": false
+    },
+    {
+      "origin": "c2me-neoforge-mc1.21.1-0.4.0-alpha.0.120.jar!/META-INF/jars/c2me-neoforge-rewrites-chunkio-mc1.21.1-0.4.0-alpha.0.120.jar",
+      "sha256": "452f42a3096035043f71db4c9b91de7ebce0eda10399fbfb8178c196f07e6144",
+      "bytes": 55540,
+      "duplicateContent": false
+    },
+    {
+      "origin": "c2me-neoforge-mc1.21.1-0.4.0-alpha.0.120.jar!/META-INF/jars/c2me-neoforge-server-utils-mc1.21.1-0.4.0-alpha.0.120.jar",
+      "sha256": "903fb03e171e55f24a2c786b9f748e8c42f32e5d054c385fe0da518df5aa3a95",
+      "bytes": 11554,
+      "duplicateContent": false
+    },
+    {
+      "origin": "c2me-neoforge-mc1.21.1-0.4.0-alpha.0.120.jar!/META-INF/jars/c2me-neoforge-threading-lighting-mc1.21.1-0.4.0-alpha.0.120.jar",
+      "sha256": "a3fba7bfdb14daf299153f9cb7b56f4b8f3ac403e3d5d633e5d3e214884df447",
+      "bytes": 15193,
+      "duplicateContent": false
+    },
+    {
+      "origin": "c2me-neoforge-mc1.21.1-0.4.0-alpha.0.120.jar!/META-INF/jars/caffeine-3.2.1.jar",
+      "sha256": "e77b6e37b8d80340f68b128c38641ec0cdd1c1c467e27988de9f5350d601069a",
+      "bytes": 2213320,
+      "duplicateContent": false
+    },
+    {
+      "origin": "c2me-neoforge-mc1.21.1-0.4.0-alpha.0.120.jar!/META-INF/jars/exp4j-0.4.8.jar",
+      "sha256": "89210ae0f11e446b80720018f6b4aa18c3a20ad4df3930cc5c795283edda679a",
+      "bytes": 88385,
+      "duplicateContent": false
+    },
+    {
+      "origin": "c2me-neoforge-mc1.21.1-0.4.0-alpha.0.120.jar!/META-INF/jars/jctools-core-4.0.5.jar",
+      "sha256": "06d32638a0e589adcc52e7356e1a21cc2362b55546cdedf0b3bad2cb5a77bd28",
+      "bytes": 1128074,
+      "duplicateContent": false
+    },
+    {
+      "origin": "c2me-neoforge-mc1.21.1-0.4.0-alpha.0.120.jar!/META-INF/jars/mixinsquared-neoforge-0.3.7-beta.1.jar",
+      "sha256": "7941b049dd72b121172c714b08f04ae0f542c51dcf30647cabcb8f0a1e1659c5",
+      "bytes": 127156,
+      "duplicateContent": false
+    },
+    {
+      "origin": "c2me-neoforge-mc1.21.1-0.4.0-alpha.0.120.jar!/META-INF/jars/mixinsquared-neoforge-0.3.7-beta.1.jar!/META-INF/jars/MixinSquared-0.3.7-beta.1.jar",
+      "sha256": "f0d8b5cc8e2c07b20b50eb6469d3d7229ef81875f2df3923cfb848772cbb5c2f",
+      "bytes": 119040,
+      "duplicateContent": false
+    },
+    {
+      "origin": "c2me-neoforge-mc1.21.1-0.4.0-alpha.0.120.jar!/META-INF/jars/reactive-streams-1.0.4.jar",
+      "sha256": "1a9b7b21a23396bef9130d051b27505cdabd178489329fa218389a802e05af93",
+      "bytes": 25200,
+      "duplicateContent": false
+    },
+    {
+      "origin": "c2me-neoforge-mc1.21.1-0.4.0-alpha.0.120.jar!/META-INF/jars/rxjava-3.1.12.jar",
+      "sha256": "3900307bc132e76b5a540b10b27b4de13d8037b5327b8488638fef1bb2ef3884",
+      "bytes": 6531262,
+      "duplicateContent": false
+    },
+    {
+      "origin": "cc-tweaked-1.21.1-forge-1.120.0.jar!/META-INF/jarjar/cobalt-0.9.9.jar",
+      "sha256": "aca9fe1a2cab3ea7e296a72a1a6f667e29ddfdbab7af7cee35420bc2cc6e6929",
+      "bytes": 357787,
+      "duplicateContent": false
+    },
+    {
+      "origin": "cc-tweaked-1.21.1-forge-1.120.0.jar!/META-INF/jarjar/jzlib-1.1.3.jar",
+      "sha256": "89b1360f407381bf61fde411019d8cbd009ebb10cff715f3669017a031027560",
+      "bytes": 71976,
+      "duplicateContent": false
+    },
+    {
+      "origin": "cccbridge-mc1.21.1-v1.7.3-neoforge.jar!/META-INF/jarjar/kaleido-config-0.3.3+1.3.2.jar",
+      "sha256": "168b40cde9a066679ce9544169d2be5186d2a8b4cdf84cb3a5fb45782cd2cbc6",
+      "bytes": 309687,
+      "duplicateContent": false
+    },
+    {
+      "origin": "comforts-neoforge-9.0.5+1.21.1.jar!/META-INF/jarjar/spectrelib-neoforge-0.17.2+1.21.jar",
+      "sha256": "5be2f580af278c5707679ceb079aee46d13ffbe6c2f5138c86598a8e90ca3969",
+      "bytes": 125137,
+      "duplicateContent": false
+    },
+    {
+      "origin": "common-storage-lib-neoforge-1.21.1-0.0.10.jar!/META-INF/jars/common-storage-lib-data-neoforge-1.21.1-0.0.10.jar",
+      "sha256": "3d2c2ddada08ed68ffdef3a77c386d7151b3c17226123579b5f7611b6c808d42",
+      "bytes": 36646,
+      "duplicateContent": false
+    },
+    {
+      "origin": "common-storage-lib-neoforge-1.21.1-0.0.10.jar!/META-INF/jars/common-storage-lib-lookup-neoforge-1.21.1-0.0.10.jar",
+      "sha256": "e47e9ab127d6a15e53210b78affa045c1e24f39ca128f6e09794d669c440e801",
+      "bytes": 23517,
+      "duplicateContent": false
+    },
+    {
+      "origin": "common-storage-lib-neoforge-1.21.1-0.0.10.jar!/META-INF/jars/common-storage-lib-resources-neoforge-1.21.1-0.0.10.jar",
+      "sha256": "f8912dc82f149d29ef5f0c178d7641a968bc668ef8559a0b1df362e1f6186cff",
+      "bytes": 107168,
+      "duplicateContent": false
+    },
+    {
+      "origin": "connector-2.0.0-beta.17+1.21.1-full.jar!/META-INF/jarjar/org.sinytra.connector-2.0.0-beta.17+1.21.1-mod.jar",
+      "sha256": "faa7b2953421237b1029d865a52e403101237aca68eca0bd8651c5dfbe0440b8",
+      "bytes": 113345,
+      "duplicateContent": false
+    },
+    {
+      "origin": "connector-2.0.0-beta.17+1.21.1-full.jar!/META-INF/jarjar/runtime-1.0.0+1.21.1.jar",
+      "sha256": "36de91a417138f01a1801b7e2ae59bb1052c8ddb23b1352d3fe952b3d33a5e06",
+      "bytes": 6547,
+      "duplicateContent": false
+    },
+    {
+      "origin": "cosmowarp-1.0.1.jar!/META-INF/jarjar/sable-companion-common-1.21.1-1.6.0.jar",
+      "sha256": "873633e35046e3761b277ff8a1ecad0d55d9a3014fa81a0b084c9aecba1f3bed",
+      "bytes": 35444,
+      "duplicateContent": false
+    },
+    {
+      "origin": "CrashAssistant-neoforge-1.20.6-1.21.4-1.11.12.jar!/META-INF/jarjar/app.jar",
+      "sha256": "5cbea8d7739e699ca130fcaed7457ca34955f43fb2c8db52bcab60af50efdce1",
+      "bytes": 1945681,
+      "duplicateContent": false
+    },
+    {
+      "origin": "CrashAssistant-neoforge-1.20.6-1.21.4-1.11.12.jar!/META-INF/jarjar/crash_assistant-neoforge.jar",
+      "sha256": "9f186899dfddb93648e01f5b7591ddc5cbf9d6e684add1181a9da6e8a6704389",
+      "bytes": 56109,
+      "duplicateContent": false
+    },
+    {
+      "origin": "create-1.21.1-6.0.10.jar!/META-INF/jarjar/flywheel-neoforge-1.21.1-1.0.6.jar",
+      "sha256": "31dda15c205eb596d3b3449ef03f6af7363a6cd35b3da4bfe916b304f9e5337e",
+      "bytes": 873570,
+      "duplicateContent": false
+    },
+    {
+      "origin": "create-1.21.1-6.0.10.jar!/META-INF/jarjar/ponder-neoforge-1.0.82+mc1.21.1.jar",
+      "sha256": "0cf4611ad853042b689ac386184c5bbe02950efcffddb49e5f604e82baddb0dc",
+      "bytes": 820109,
+      "duplicateContent": false
+    },
+    {
+      "origin": "create-1.21.1-6.0.10.jar!/META-INF/jarjar/Registrate-MC1.21-1.3.0+67.jar",
+      "sha256": "510f4041c41739f1d8ea8850ab8364d3e3a5fada8529beed5d9f479e2523db52",
+      "bytes": 181448,
+      "duplicateContent": false
+    },
+    {
+      "origin": "create-aeronautics-bundled-1.21.1-1.3.2.jar!/META-INF/jarjar/dev.eriksonn.aeronautics.aeronautics-neoforge-1.21.1-1.3.2.jar",
+      "sha256": "97fbf1e27f38674145b8521b140613dc8258bea7efca456dc2686e22bd683933",
+      "bytes": 25618663,
+      "duplicateContent": false
+    },
+    {
+      "origin": "create-aeronautics-bundled-1.21.1-1.3.2.jar!/META-INF/jarjar/dev.ryanhcode.offroad.offroad-neoforge-1.21.1-1.3.2.jar",
+      "sha256": "8513726bc5a8383e11f4691f4dbe62d7d03bfc5f2835ec1ca1fbeffefe743f77",
+      "bytes": 830487,
+      "duplicateContent": false
+    },
+    {
+      "origin": "create-aeronautics-bundled-1.21.1-1.3.2.jar!/META-INF/jarjar/dev.simulated_team.simulated.simulated-neoforge-1.21.1-1.3.2.jar",
+      "sha256": "fdf9d250996a084b52fced3a5b0089e879a5cac05dc7bcf295ac1f4ebe5e2bff",
+      "bytes": 6315366,
+      "duplicateContent": false
+    },
+    {
+      "origin": "create-enchantment-industry-2.4.2.jar!/META-INF/jarjar/conditional-mixin-neoforge-0.6.4.jar",
+      "sha256": "0ae7b346d87879e81f276e6a590a6af1e723193e6eb3e94c1f71f7ab5b54d59f",
+      "bytes": 28550,
+      "duplicateContent": false
+    },
+    {
+      "origin": "create_connected-1.3.2-mc1.21.1.jar!/META-INF/jarjar/sable-companion-common-1.21.1-1.6.0.jar",
+      "sha256": "873633e35046e3761b277ff8a1ecad0d55d9a3014fa81a0b084c9aecba1f3bed",
+      "bytes": 35444,
+      "duplicateContent": true
+    },
+    {
+      "origin": "createaddition-1.6.0.jar!/META-INF/jarjar/sable-companion-common-1.21.1-1.6.0.jar",
+      "sha256": "873633e35046e3761b277ff8a1ecad0d55d9a3014fa81a0b084c9aecba1f3bed",
+      "bytes": 35444,
+      "duplicateContent": true
+    },
+    {
+      "origin": "createdieselgenerators-1.21.1-1.3.15.jar!/META-INF/jarjar/sable-companion-common-1.21.1-1.6.0.jar",
+      "sha256": "873633e35046e3761b277ff8a1ecad0d55d9a3014fa81a0b084c9aecba1f3bed",
+      "bytes": 35444,
+      "duplicateContent": true
+    },
+    {
+      "origin": "CreateDragonsPlus-1.11.7b.jar!/META-INF/jarjar/conditional-mixin-neoforge-0.6.4.jar",
+      "sha256": "0ae7b346d87879e81f276e6a590a6af1e723193e6eb3e94c1f71f7ab5b54d59f",
+      "bytes": 28550,
+      "duplicateContent": true
+    },
+    {
+      "origin": "cristellib-neoforge-1.21.1-3.1.7.jar!/META-INF/jars/jankson-1.2.3.jar",
+      "sha256": "16bae7b779763248f5ca596e3f7f44793a635b551359233e982ee8a4072f1670",
+      "bytes": 76959,
+      "duplicateContent": false
+    },
+    {
+      "origin": "DistantHorizons-3.3.2-1.21.1.jar!/META-INF/jars/fabric-api-0.116.11+1.21.1.jar",
+      "sha256": "b791de6f6dce9c58d4ea2af6c713bbcc6dc64d0a5995a8bad6f225ee58cf17d2",
+      "bytes": 2426356,
+      "duplicateContent": false
+    },
+    {
+      "origin": "DistantHorizons-3.3.2-1.21.1.jar!/META-INF/jars/fabric-api-0.116.11+1.21.1.jar!/META-INF/jars/fabric-api-base-0.116.11.jar",
+      "sha256": "b3ac58e17c770a75f10b18147c45a39c9a49d9989097ec57e1ec63bab66720db",
+      "bytes": 31142,
+      "duplicateContent": false
+    },
+    {
+      "origin": "DistantHorizons-3.3.2-1.21.1.jar!/META-INF/jars/fabric-api-0.116.11+1.21.1.jar!/META-INF/jars/fabric-api-lookup-api-v1-0.116.11.jar",
+      "sha256": "7e0142a59cfee53342463361450823f3b2db38850f87a0c032046ab6b6b51534",
+      "bytes": 53266,
+      "duplicateContent": false
+    },
+    {
+      "origin": "DistantHorizons-3.3.2-1.21.1.jar!/META-INF/jars/fabric-api-0.116.11+1.21.1.jar!/META-INF/jars/fabric-biome-api-v1-0.116.11.jar",
+      "sha256": "fcf03554719d8744fce2900f9f5aaf6c8fde81edeb34fd7ed77d3e0f1d3a0ff4",
+      "bytes": 83168,
+      "duplicateContent": false
+    },
+    {
+      "origin": "DistantHorizons-3.3.2-1.21.1.jar!/META-INF/jars/fabric-api-0.116.11+1.21.1.jar!/META-INF/jars/fabric-block-api-v1-0.116.11.jar",
+      "sha256": "75090038d6f40067979dfdbbe38142c2661fc9ce15712c02c2c8196a839586f1",
+      "bytes": 19509,
+      "duplicateContent": false
+    },
+    {
+      "origin": "DistantHorizons-3.3.2-1.21.1.jar!/META-INF/jars/fabric-api-0.116.11+1.21.1.jar!/META-INF/jars/fabric-block-view-api-v2-0.116.11.jar",
+      "sha256": "43bc54d1bfe1c30874d2040c6c32d304b84f6ad179420e066d619092e2b9ba24",
+      "bytes": 24215,
+      "duplicateContent": false
+    },
+    {
+      "origin": "DistantHorizons-3.3.2-1.21.1.jar!/META-INF/jars/fabric-api-0.116.11+1.21.1.jar!/META-INF/jars/fabric-blockrenderlayer-v1-0.116.11.jar",
+      "sha256": "6dcde2c60a22f38e97d45196888ce27b6ce5dabd52a0e667e0d9619f1f292adf",
+      "bytes": 18002,
+      "duplicateContent": false
+    },
+    {
+      "origin": "DistantHorizons-3.3.2-1.21.1.jar!/META-INF/jars/fabric-api-0.116.11+1.21.1.jar!/META-INF/jars/fabric-client-tags-api-v1-0.116.11.jar",
+      "sha256": "d2c784017db20b68fa2270922672b0e8412e07db0eedafa3a77b83f6072e9d79",
+      "bytes": 22467,
+      "duplicateContent": false
+    },
+    {
+      "origin": "DistantHorizons-3.3.2-1.21.1.jar!/META-INF/jars/fabric-api-0.116.11+1.21.1.jar!/META-INF/jars/fabric-command-api-v1-0.116.11.jar",
+      "sha256": "48b7c0cd6e2b5f7c14fa3200a4a1812d07f6b2edaee65b9ecdca674eb75d2069",
+      "bytes": 13863,
+      "duplicateContent": false
+    },
+    {
+      "origin": "DistantHorizons-3.3.2-1.21.1.jar!/META-INF/jars/fabric-api-0.116.11+1.21.1.jar!/META-INF/jars/fabric-command-api-v2-0.116.11.jar",
+      "sha256": "340f67e5f5846726532ecc8bdd0d803324f182bef19a53267b500adda16bfb9e",
+      "bytes": 37865,
+      "duplicateContent": false
+    },
+    {
+      "origin": "DistantHorizons-3.3.2-1.21.1.jar!/META-INF/jars/fabric-api-0.116.11+1.21.1.jar!/META-INF/jars/fabric-commands-v0-0.116.11.jar",
+      "sha256": "b49251ff7c0cc0b4ef2d6de8b937dea6556e90168fc086340d355e4dcef4c8d0",
+      "bytes": 11371,
+      "duplicateContent": false
+    },
+    {
+      "origin": "DistantHorizons-3.3.2-1.21.1.jar!/META-INF/jars/fabric-api-0.116.11+1.21.1.jar!/META-INF/jars/fabric-content-registries-v0-0.116.11.jar",
+      "sha256": "6baf586a2ff2dc40d0035198dcf2ed82e0365f841c6f1f4a3e8647cdb9d0d4e5",
+      "bytes": 60220,
+      "duplicateContent": false
+    },
+    {
+      "origin": "DistantHorizons-3.3.2-1.21.1.jar!/META-INF/jars/fabric-api-0.116.11+1.21.1.jar!/META-INF/jars/fabric-convention-tags-v1-0.116.11.jar",
+      "sha256": "7f1d95ef4b77a0edf11ad36b4e1e49b004b78ba5c1ab96b24ebbfe4a67815593",
+      "bytes": 33814,
+      "duplicateContent": false
+    },
+    {
+      "origin": "DistantHorizons-3.3.2-1.21.1.jar!/META-INF/jars/fabric-api-0.116.11+1.21.1.jar!/META-INF/jars/fabric-convention-tags-v2-0.116.11.jar",
+      "sha256": "22a27b3273aafa09f4110b26626ae0e4454f79ba83c6ac3e9dc7a2d249a94c20",
+      "bytes": 275705,
+      "duplicateContent": false
+    },
+    {
+      "origin": "DistantHorizons-3.3.2-1.21.1.jar!/META-INF/jars/fabric-api-0.116.11+1.21.1.jar!/META-INF/jars/fabric-crash-report-info-v1-0.116.11.jar",
+      "sha256": "d481997202a55454e044c3f3ef29e3e13fd7658de324c241b1e570525ca7bbfc",
+      "bytes": 14248,
+      "duplicateContent": false
+    },
+    {
+      "origin": "DistantHorizons-3.3.2-1.21.1.jar!/META-INF/jars/fabric-api-0.116.11+1.21.1.jar!/META-INF/jars/fabric-data-attachment-api-v1-0.116.11.jar",
+      "sha256": "1a347b8fd04ddd5a6376e623ff6f695d15eb20bf8d5330be9137c0b3b74f4b7f",
+      "bytes": 97223,
+      "duplicateContent": false
+    },
+    {
+      "origin": "DistantHorizons-3.3.2-1.21.1.jar!/META-INF/jars/fabric-api-0.116.11+1.21.1.jar!/META-INF/jars/fabric-data-generation-api-v1-0.116.11.jar",
+      "sha256": "a8fb1d39053c16dd62549af47b2a04ee6419194f6a0d38c17f4d6b988d357bf4",
+      "bytes": 109693,
+      "duplicateContent": false
+    },
+    {
+      "origin": "DistantHorizons-3.3.2-1.21.1.jar!/META-INF/jars/fabric-api-0.116.11+1.21.1.jar!/META-INF/jars/fabric-dimensions-v1-0.116.11.jar",
+      "sha256": "d793526d8efab4cf489ae4f0fb9b85659fd8e2b6f8032adfbf6a84a7cb62a899",
+      "bytes": 22514,
+      "duplicateContent": false
+    },
+    {
+      "origin": "DistantHorizons-3.3.2-1.21.1.jar!/META-INF/jars/fabric-api-0.116.11+1.21.1.jar!/META-INF/jars/fabric-entity-events-v1-0.116.11.jar",
+      "sha256": "2740204b5ef564ef156ad63e51b9870199e4ccb7b240780386212fe28d01b51d",
+      "bytes": 73738,
+      "duplicateContent": false
+    },
+    {
+      "origin": "DistantHorizons-3.3.2-1.21.1.jar!/META-INF/jars/fabric-api-0.116.11+1.21.1.jar!/META-INF/jars/fabric-events-interaction-v0-0.116.11.jar",
+      "sha256": "4ee8e40f73c888df38ece68b191ecafa1c675cca26de7d75904a3e3a41dcbcd7",
+      "bytes": 64954,
+      "duplicateContent": false
+    },
+    {
+      "origin": "DistantHorizons-3.3.2-1.21.1.jar!/META-INF/jars/fabric-api-0.116.11+1.21.1.jar!/META-INF/jars/fabric-game-rule-api-v1-0.116.11.jar",
+      "sha256": "eacab916c1dc857755404ab508df2bb0fa98cb261145c127211fcdf42c80156b",
+      "bytes": 54972,
+      "duplicateContent": false
+    },
+    {
+      "origin": "DistantHorizons-3.3.2-1.21.1.jar!/META-INF/jars/fabric-api-0.116.11+1.21.1.jar!/META-INF/jars/fabric-item-api-v1-0.116.11.jar",
+      "sha256": "82d87ca78df4d2e474805849333cb0c1c865263a1d42672e5410e7baae4281cd",
+      "bytes": 65550,
+      "duplicateContent": false
+    },
+    {
+      "origin": "DistantHorizons-3.3.2-1.21.1.jar!/META-INF/jars/fabric-api-0.116.11+1.21.1.jar!/META-INF/jars/fabric-item-group-api-v1-0.116.11.jar",
+      "sha256": "849c6a6c4978c0d720ff3760045b1f77b5962aa10dec8f6a2b56bda20c37fcf8",
+      "bytes": 60401,
+      "duplicateContent": false
+    },
+    {
+      "origin": "DistantHorizons-3.3.2-1.21.1.jar!/META-INF/jars/fabric-api-0.116.11+1.21.1.jar!/META-INF/jars/fabric-key-binding-api-v1-0.116.11.jar",
+      "sha256": "2fe4e0f3c4be8e8a7018db0a31d2b714b551dee0b1dfa65e6f7e20d0ea9a7ffe",
+      "bytes": 19316,
+      "duplicateContent": false
+    },
+    {
+      "origin": "DistantHorizons-3.3.2-1.21.1.jar!/META-INF/jars/fabric-api-0.116.11+1.21.1.jar!/META-INF/jars/fabric-keybindings-v0-0.116.11.jar",
+      "sha256": "132aab3fa86c9bb6a551442985813f254603873a4ca923c981ea8e256df52087",
+      "bytes": 14194,
+      "duplicateContent": false
+    },
+    {
+      "origin": "DistantHorizons-3.3.2-1.21.1.jar!/META-INF/jars/fabric-api-0.116.11+1.21.1.jar!/META-INF/jars/fabric-lifecycle-events-v1-0.116.11.jar",
+      "sha256": "a185efeec7195abcd66caf4ffa6e4d937bc6027fe63365c07062e5d2b3332720",
+      "bytes": 103866,
+      "duplicateContent": false
+    },
+    {
+      "origin": "DistantHorizons-3.3.2-1.21.1.jar!/META-INF/jars/fabric-api-0.116.11+1.21.1.jar!/META-INF/jars/fabric-loot-api-v2-0.116.11.jar",
+      "sha256": "30b75f02f7ffbbc2710c3ec2fecfec9f457687c6b64902a6eacac0b8a2b6dfe7",
+      "bytes": 24763,
+      "duplicateContent": false
+    },
+    {
+      "origin": "DistantHorizons-3.3.2-1.21.1.jar!/META-INF/jars/fabric-api-0.116.11+1.21.1.jar!/META-INF/jars/fabric-loot-api-v3-0.116.11.jar",
+      "sha256": "10679600e6b1550237d2b9575011cdcf4c5e2b6f8fdadd978d43c69ed0a0e2ef",
+      "bytes": 32873,
+      "duplicateContent": false
+    },
+    {
+      "origin": "DistantHorizons-3.3.2-1.21.1.jar!/META-INF/jars/fabric-api-0.116.11+1.21.1.jar!/META-INF/jars/fabric-message-api-v1-0.116.11.jar",
+      "sha256": "550e602c692f0663c37adcba35901341d3f3cd615c1413b4a1e3ecf2e4ea183d",
+      "bytes": 47910,
+      "duplicateContent": false
+    },
+    {
+      "origin": "DistantHorizons-3.3.2-1.21.1.jar!/META-INF/jars/fabric-api-0.116.11+1.21.1.jar!/META-INF/jars/fabric-model-loading-api-v1-0.116.11.jar",
+      "sha256": "7a51f2f635d0c2e0898d61291340fdc0510187d3cf1dd81e40d97bf0f8c8cc1b",
+      "bytes": 65750,
+      "duplicateContent": false
+    },
+    {
+      "origin": "DistantHorizons-3.3.2-1.21.1.jar!/META-INF/jars/fabric-api-0.116.11+1.21.1.jar!/META-INF/jars/fabric-networking-api-v1-0.116.11.jar",
+      "sha256": "4e8b439896ae5d777bfcce81600cfd8e95cdf72c5d1bf6dd1893c7ce8ed1e557",
+      "bytes": 202886,
+      "duplicateContent": false
+    },
+    {
+      "origin": "DistantHorizons-3.3.2-1.21.1.jar!/META-INF/jars/fabric-api-0.116.11+1.21.1.jar!/META-INF/jars/fabric-object-builder-api-v1-0.116.11.jar",
+      "sha256": "7fa2c2704b1c3188b3c9b50a62c0616122b8c24dae8c4079a32abd5fc7ed442b",
+      "bytes": 92222,
+      "duplicateContent": false
+    },
+    {
+      "origin": "DistantHorizons-3.3.2-1.21.1.jar!/META-INF/jars/fabric-api-0.116.11+1.21.1.jar!/META-INF/jars/fabric-particles-v1-0.116.11.jar",
+      "sha256": "b82ce3fb533f8895d523c1973447c1d21b5bb9149dcda7efad1460f6ecda93d7",
+      "bytes": 33226,
+      "duplicateContent": false
+    },
+    {
+      "origin": "DistantHorizons-3.3.2-1.21.1.jar!/META-INF/jars/fabric-api-0.116.11+1.21.1.jar!/META-INF/jars/fabric-recipe-api-v1-0.116.11.jar",
+      "sha256": "2b23abc770676a56d19f58d6e4be0fdb0bce8326014e70e966aabbdb410fd26f",
+      "bytes": 64561,
+      "duplicateContent": false
+    },
+    {
+      "origin": "DistantHorizons-3.3.2-1.21.1.jar!/META-INF/jars/fabric-api-0.116.11+1.21.1.jar!/META-INF/jars/fabric-registry-sync-v0-0.116.11.jar",
+      "sha256": "e21c543659a80266eac19380f406c007cc227e0752e6c25aca8ef0045ac11d2d",
+      "bytes": 134066,
+      "duplicateContent": false
+    },
+    {
+      "origin": "DistantHorizons-3.3.2-1.21.1.jar!/META-INF/jars/fabric-api-0.116.11+1.21.1.jar!/META-INF/jars/fabric-renderer-api-v1-0.116.11.jar",
+      "sha256": "22a0ae5eec7d59f2f797acb36e6c6c2179ac479fc7a29d70c55bd7a9010972e0",
+      "bytes": 60107,
+      "duplicateContent": false
+    },
+    {
+      "origin": "DistantHorizons-3.3.2-1.21.1.jar!/META-INF/jars/fabric-api-0.116.11+1.21.1.jar!/META-INF/jars/fabric-renderer-indigo-0.116.11.jar",
+      "sha256": "5e6d76593a216119953a5e77fff3c9d15f9cb867ae68dd7e554243111c9d1129",
+      "bytes": 116379,
+      "duplicateContent": false
+    },
+    {
+      "origin": "DistantHorizons-3.3.2-1.21.1.jar!/META-INF/jars/fabric-api-0.116.11+1.21.1.jar!/META-INF/jars/fabric-renderer-registries-v1-0.116.11.jar",
+      "sha256": "5f3c57df3f31cdbaab2807480f0b67b6062a83f596638474d94d243b23638fe6",
+      "bytes": 19025,
+      "duplicateContent": false
+    },
+    {
+      "origin": "DistantHorizons-3.3.2-1.21.1.jar!/META-INF/jars/fabric-api-0.116.11+1.21.1.jar!/META-INF/jars/fabric-rendering-data-attachment-v1-0.116.11.jar",
+      "sha256": "d4fa312de5a70cb00135f3c1f7c41d14fa31a2f4b994335670ffa19bd3b735be",
+      "bytes": 17819,
+      "duplicateContent": false
+    },
+    {
+      "origin": "DistantHorizons-3.3.2-1.21.1.jar!/META-INF/jars/fabric-api-0.116.11+1.21.1.jar!/META-INF/jars/fabric-rendering-fluids-v1-0.116.11.jar",
+      "sha256": "e30f77f76197dede037da5525bbc34c97279471e9d25d98e63d44f8b341e6726",
+      "bytes": 31842,
+      "duplicateContent": false
+    },
+    {
+      "origin": "DistantHorizons-3.3.2-1.21.1.jar!/META-INF/jars/fabric-api-0.116.11+1.21.1.jar!/META-INF/jars/fabric-rendering-v0-0.116.11.jar",
+      "sha256": "36cb89b1730cf1d0c130ba8552ab8c5c77ad573ce8f50298b8b6b244c8ae56b5",
+      "bytes": 17212,
+      "duplicateContent": false
+    },
+    {
+      "origin": "DistantHorizons-3.3.2-1.21.1.jar!/META-INF/jars/fabric-api-0.116.11+1.21.1.jar!/META-INF/jars/fabric-rendering-v1-0.116.11.jar",
+      "sha256": "01ace2e3cad248960c26037a6ae38b01913e2712d8c34b5d16941730c73078af",
+      "bytes": 106647,
+      "duplicateContent": false
+    },
+    {
+      "origin": "DistantHorizons-3.3.2-1.21.1.jar!/META-INF/jars/fabric-api-0.116.11+1.21.1.jar!/META-INF/jars/fabric-resource-conditions-api-v1-0.116.11.jar",
+      "sha256": "7313c298f1a568349b84ae1e759d458f4d32eb00a2e7d6e0253cd684ec9e8174",
+      "bytes": 66775,
+      "duplicateContent": false
+    },
+    {
+      "origin": "DistantHorizons-3.3.2-1.21.1.jar!/META-INF/jars/fabric-api-0.116.11+1.21.1.jar!/META-INF/jars/fabric-resource-loader-v0-0.116.11.jar",
+      "sha256": "6b57ab1f49bda38f4c717915e2ef3355879b8a5c940ba5b41410b3031ccb6d93",
+      "bytes": 119077,
+      "duplicateContent": false
+    },
+    {
+      "origin": "DistantHorizons-3.3.2-1.21.1.jar!/META-INF/jars/fabric-api-0.116.11+1.21.1.jar!/META-INF/jars/fabric-screen-api-v1-0.116.11.jar",
+      "sha256": "471ba4d92be271be572b60007bbce99f0e908e51290804b1e2eeb239b3ea4e66",
+      "bytes": 57957,
+      "duplicateContent": false
+    },
+    {
+      "origin": "DistantHorizons-3.3.2-1.21.1.jar!/META-INF/jars/fabric-api-0.116.11+1.21.1.jar!/META-INF/jars/fabric-screen-handler-api-v1-0.116.11.jar",
+      "sha256": "e721903c6a222d64c30cca9dc79164feba9b79b114ff4615b801f0b91fc921f4",
+      "bytes": 29220,
+      "duplicateContent": false
+    },
+    {
+      "origin": "DistantHorizons-3.3.2-1.21.1.jar!/META-INF/jars/fabric-api-0.116.11+1.21.1.jar!/META-INF/jars/fabric-sound-api-v1-0.116.11.jar",
+      "sha256": "720a8ba83d9fcdea14bbd545a96ed2c5882839e14b4dc8b34dc38651fe98e21b",
+      "bytes": 18598,
+      "duplicateContent": false
+    },
+    {
+      "origin": "DistantHorizons-3.3.2-1.21.1.jar!/META-INF/jars/fabric-api-0.116.11+1.21.1.jar!/META-INF/jars/fabric-transfer-api-v1-0.116.11.jar",
+      "sha256": "9492601587a23726d001b2e2701f21c4594baa80b2d863d10e665c2cec52b01c",
+      "bytes": 202280,
+      "duplicateContent": false
+    },
+    {
+      "origin": "DistantHorizons-3.3.2-1.21.1.jar!/META-INF/jars/fabric-api-0.116.11+1.21.1.jar!/META-INF/jars/fabric-transitive-access-wideners-v1-0.116.11.jar",
+      "sha256": "30d0be5cb2951be646f1ef58009ed12a0a1b994e596b6bfb15054f8aa17a3b19",
+      "bytes": 12080,
+      "duplicateContent": false
+    },
+    {
+      "origin": "DistantHorizons-3.3.2-1.21.1.jar!/META-INF/jars/fabric-api-base-0.4.42+6573ed8c19.jar",
+      "sha256": "6921082d59e5df6a7fb03f4bf57b0bc543fede848d236eb1d2fb85e7a0091505",
+      "bytes": 31142,
+      "duplicateContent": false
+    },
+    {
+      "origin": "DistantHorizons-3.3.2-1.21.1.jar!/META-INF/jars/fabric-api-lookup-api-v1-1.6.72+7b3d111d19.jar",
+      "sha256": "ede176f61e1f1a91e714aefdaea5a01bdc0b27d714d1a354b7217eda8f448104",
+      "bytes": 53266,
+      "duplicateContent": false
+    },
+    {
+      "origin": "DistantHorizons-3.3.2-1.21.1.jar!/META-INF/jars/fabric-biome-api-v1-13.0.31+d527f9fd19.jar",
+      "sha256": "4d5063ea4eb6979bc039a120336d250f83deefb523f83f2749e0bec023e1204d",
+      "bytes": 83168,
+      "duplicateContent": false
+    },
+    {
+      "origin": "DistantHorizons-3.3.2-1.21.1.jar!/META-INF/jars/fabric-block-api-v1-1.1.0+0bc3503219.jar",
+      "sha256": "4a06094427817447ecb9217fe279b52220156eca342f08ac42f99e376c281135",
+      "bytes": 19509,
+      "duplicateContent": false
+    },
+    {
+      "origin": "DistantHorizons-3.3.2-1.21.1.jar!/META-INF/jars/fabric-block-view-api-v2-1.0.11+ebb2264e19.jar",
+      "sha256": "2ee2a5c399cc9c892da0052f129920f6e67afb7c074b6a8e17716cc7c18e8f25",
+      "bytes": 24215,
+      "duplicateContent": false
+    },
+    {
+      "origin": "DistantHorizons-3.3.2-1.21.1.jar!/META-INF/jars/fabric-blockrenderlayer-v1-1.1.52+0af3f5a719.jar",
+      "sha256": "e2fd77dd943c5aaca27c3951217700408a334752a15db4c02303bcf6ef2b3125",
+      "bytes": 18002,
+      "duplicateContent": false
+    },
+    {
+      "origin": "DistantHorizons-3.3.2-1.21.1.jar!/META-INF/jars/fabric-client-tags-api-v1-1.1.15+6573ed8c19.jar",
+      "sha256": "584734d2f22657436be21692997e1114d409fc349794a76b0bae82849f5820d5",
+      "bytes": 22467,
+      "duplicateContent": false
+    },
+    {
+      "origin": "DistantHorizons-3.3.2-1.21.1.jar!/META-INF/jars/fabric-command-api-v1-1.2.49+f71b366f19.jar",
+      "sha256": "ef3a4120c5aad609514f9fcd96806a1a7008759dc90923a1cba36c0263a1fb7c",
+      "bytes": 13863,
+      "duplicateContent": false
+    },
+    {
+      "origin": "DistantHorizons-3.3.2-1.21.1.jar!/META-INF/jars/fabric-command-api-v2-2.2.28+6ced4dd919.jar",
+      "sha256": "94f5b8d729b719ba26c642196067acf1ed7205541d6dda87f136c5d3f1d599d5",
+      "bytes": 37865,
+      "duplicateContent": false
+    },
+    {
+      "origin": "DistantHorizons-3.3.2-1.21.1.jar!/META-INF/jars/fabric-commands-v0-0.2.66+df3654b319.jar",
+      "sha256": "84c0d2a4d72bd94695096a20617f17b14dfebadfeff4eb7fb3f6af23aad569ab",
+      "bytes": 11371,
+      "duplicateContent": false
+    },
+    {
+      "origin": "DistantHorizons-3.3.2-1.21.1.jar!/META-INF/jars/fabric-content-registries-v0-8.0.19+b559734419.jar",
+      "sha256": "3248abe80f1c23b123d10a4e03938f29b2785003f488292bdd97443520a9d8a3",
+      "bytes": 60220,
+      "duplicateContent": false
+    },
+    {
+      "origin": "DistantHorizons-3.3.2-1.21.1.jar!/META-INF/jars/fabric-convention-tags-v1-2.1.7+7f945d5b19.jar",
+      "sha256": "c89967c041d22e86d9fbbd7091254c0579d7db463507a8bde3755069f23a8e3c",
+      "bytes": 33814,
+      "duplicateContent": false
+    },
+    {
+      "origin": "DistantHorizons-3.3.2-1.21.1.jar!/META-INF/jars/fabric-convention-tags-v2-2.12.0+c3656daa19.jar",
+      "sha256": "2044e8869255389b96ed43b7115822bb064f3c7e05a97e48044cb01f1d1e9b03",
+      "bytes": 275705,
+      "duplicateContent": false
+    },
+    {
+      "origin": "DistantHorizons-3.3.2-1.21.1.jar!/META-INF/jars/fabric-crash-report-info-v1-0.2.29+0af3f5a719.jar",
+      "sha256": "78be7ea181e8ab89d5b573b1fb12f05e19c8a3ecfc5847d1ef65514c9fff5e40",
+      "bytes": 14248,
+      "duplicateContent": false
+    },
+    {
+      "origin": "DistantHorizons-3.3.2-1.21.1.jar!/META-INF/jars/fabric-data-attachment-api-v1-1.4.6+5b36e0f719.jar",
+      "sha256": "1a347b8fd04ddd5a6376e623ff6f695d15eb20bf8d5330be9137c0b3b74f4b7f",
+      "bytes": 97223,
+      "duplicateContent": true
+    },
+    {
+      "origin": "DistantHorizons-3.3.2-1.21.1.jar!/META-INF/jars/fabric-data-generation-api-v1-20.2.37+60a6976219.jar",
+      "sha256": "a8fb1d39053c16dd62549af47b2a04ee6419194f6a0d38c17f4d6b988d357bf4",
+      "bytes": 109693,
+      "duplicateContent": true
+    },
+    {
+      "origin": "DistantHorizons-3.3.2-1.21.1.jar!/META-INF/jars/fabric-dimensions-v1-4.0.1+65213ef819.jar",
+      "sha256": "c8e6fc73dba277a9b9ecb4302bb0751dfc833e44c40472d6f9bd2e75d498ab08",
+      "bytes": 22514,
+      "duplicateContent": false
+    },
+    {
+      "origin": "DistantHorizons-3.3.2-1.21.1.jar!/META-INF/jars/fabric-entity-events-v1-1.8.0+2b27e0a419.jar",
+      "sha256": "b45f75511bcf82b989481f1026fdcb7e10b53327e9b50152ad389a932e04049f",
+      "bytes": 73738,
+      "duplicateContent": false
+    },
+    {
+      "origin": "DistantHorizons-3.3.2-1.21.1.jar!/META-INF/jars/fabric-events-interaction-v0-0.7.13+ba9dae0619.jar",
+      "sha256": "4ee8e40f73c888df38ece68b191ecafa1c675cca26de7d75904a3e3a41dcbcd7",
+      "bytes": 64954,
+      "duplicateContent": true
+    },
+    {
+      "origin": "DistantHorizons-3.3.2-1.21.1.jar!/META-INF/jars/fabric-game-rule-api-v1-1.0.53+6ced4dd919.jar",
+      "sha256": "97c25a9c120f163781104aafee942b1519821bcd55d5d15a87268812de9936d4",
+      "bytes": 54972,
+      "duplicateContent": false
+    },
+    {
+      "origin": "DistantHorizons-3.3.2-1.21.1.jar!/META-INF/jars/fabric-item-api-v1-11.2.0+3b3cb2e819.jar",
+      "sha256": "14aa081c96fa3f652a86fd5822b20b9c2d7dacd71629a3d08f13d9de799fee98",
+      "bytes": 65550,
+      "duplicateContent": false
+    },
+    {
+      "origin": "DistantHorizons-3.3.2-1.21.1.jar!/META-INF/jars/fabric-item-group-api-v1-4.1.7+def88e3a19.jar",
+      "sha256": "3ce1ce75d92b9e781ac4a8a847828243f797a31b6fd7652e320fbdb48692524b",
+      "bytes": 60401,
+      "duplicateContent": false
+    },
+    {
+      "origin": "DistantHorizons-3.3.2-1.21.1.jar!/META-INF/jars/fabric-key-binding-api-v1-1.0.47+0af3f5a719.jar",
+      "sha256": "cfd629588c119ac94c135cc1dc1d84acdfe4972800d81b08758b39cc5eee81ee",
+      "bytes": 19316,
+      "duplicateContent": false
+    },
+    {
+      "origin": "DistantHorizons-3.3.2-1.21.1.jar!/META-INF/jars/fabric-keybindings-v0-0.2.45+df3654b319.jar",
+      "sha256": "084e3e874cb68c4ac5b7779c975e750279677fe28e9195363b96258dca18c536",
+      "bytes": 14194,
+      "duplicateContent": false
+    },
+    {
+      "origin": "DistantHorizons-3.3.2-1.21.1.jar!/META-INF/jars/fabric-lifecycle-events-v1-2.6.0+0865547519.jar",
+      "sha256": "ddf50877c45fbeb30374b6d63232bcb553de14a962495aef377303f9fa096d58",
+      "bytes": 103866,
+      "duplicateContent": false
+    },
+    {
+      "origin": "DistantHorizons-3.3.2-1.21.1.jar!/META-INF/jars/fabric-loot-api-v2-3.0.15+3f89f5a519.jar",
+      "sha256": "ce65bca42f73cf5fb3510ae25024add8155cd3fa03e5191b559ca0a2a7fbcdcf",
+      "bytes": 24763,
+      "duplicateContent": false
+    },
+    {
+      "origin": "DistantHorizons-3.3.2-1.21.1.jar!/META-INF/jars/fabric-loot-api-v3-1.0.3+3f89f5a519.jar",
+      "sha256": "7b61b96243de6a769e5be5b389e7bc3461516caa7ab988aa4df3f75052e93320",
+      "bytes": 32873,
+      "duplicateContent": false
+    },
+    {
+      "origin": "DistantHorizons-3.3.2-1.21.1.jar!/META-INF/jars/fabric-message-api-v1-6.0.14+8aaf3aca19.jar",
+      "sha256": "81632da522c3969ba3012110804b391d630f2688e0d8b5617a84fc23779c8ac8",
+      "bytes": 47910,
+      "duplicateContent": false
+    },
+    {
+      "origin": "DistantHorizons-3.3.2-1.21.1.jar!/META-INF/jars/fabric-model-loading-api-v1-2.1.0+b4d813fc19.jar",
+      "sha256": "09b71b2ada73859b725b81ed2437673f3db9203dca35cc5726f5ea245c7982d9",
+      "bytes": 65750,
+      "duplicateContent": false
+    },
+    {
+      "origin": "DistantHorizons-3.3.2-1.21.1.jar!/META-INF/jars/fabric-networking-api-v1-4.3.0+c7469b2119.jar",
+      "sha256": "4e8b439896ae5d777bfcce81600cfd8e95cdf72c5d1bf6dd1893c7ce8ed1e557",
+      "bytes": 202886,
+      "duplicateContent": true
+    },
+    {
+      "origin": "DistantHorizons-3.3.2-1.21.1.jar!/META-INF/jars/fabric-object-builder-api-v1-15.2.1+40875a9319.jar",
+      "sha256": "b8722772cda908a62eca6374cac751bebe09387c6a6ef7ae7b30c58c1e125ca3",
+      "bytes": 92222,
+      "duplicateContent": false
+    },
+    {
+      "origin": "DistantHorizons-3.3.2-1.21.1.jar!/META-INF/jars/fabric-particles-v1-4.0.2+6573ed8c19.jar",
+      "sha256": "356e648e2d420d47de8b723f7e5cf56d6b556ae57e59b7af8c13a16d2652512e",
+      "bytes": 33226,
+      "duplicateContent": false
+    },
+    {
+      "origin": "DistantHorizons-3.3.2-1.21.1.jar!/META-INF/jars/fabric-recipe-api-v1-5.0.15+2475392c19.jar",
+      "sha256": "2b23abc770676a56d19f58d6e4be0fdb0bce8326014e70e966aabbdb410fd26f",
+      "bytes": 64561,
+      "duplicateContent": true
+    },
+    {
+      "origin": "DistantHorizons-3.3.2-1.21.1.jar!/META-INF/jars/fabric-registry-sync-v0-5.3.1+e3eddc2119.jar",
+      "sha256": "e21c543659a80266eac19380f406c007cc227e0752e6c25aca8ef0045ac11d2d",
+      "bytes": 134066,
+      "duplicateContent": true
+    },
+    {
+      "origin": "DistantHorizons-3.3.2-1.21.1.jar!/META-INF/jars/fabric-renderer-api-v1-3.4.1+b4d813fc19.jar",
+      "sha256": "9079df81b45ab2016ca052056b47dd44574146da45557bf73683356386259814",
+      "bytes": 60107,
+      "duplicateContent": false
+    },
+    {
+      "origin": "DistantHorizons-3.3.2-1.21.1.jar!/META-INF/jars/fabric-renderer-indigo-1.7.1+c705a49c19.jar",
+      "sha256": "4bd4e35d4c6c5c9a9c5139021cbbf4ad5efecf758841ad59526a84ce6d2eeebf",
+      "bytes": 116379,
+      "duplicateContent": false
+    },
+    {
+      "origin": "DistantHorizons-3.3.2-1.21.1.jar!/META-INF/jars/fabric-renderer-registries-v1-3.2.69+df3654b319.jar",
+      "sha256": "13ee24e98a45f190ae6aea8dcb2fc18aeee1610454a50368c0e3024d0049f25b",
+      "bytes": 19025,
+      "duplicateContent": false
+    },
+    {
+      "origin": "DistantHorizons-3.3.2-1.21.1.jar!/META-INF/jars/fabric-rendering-data-attachment-v1-0.3.49+73761d2e19.jar",
+      "sha256": "22ab339272a5bdf21c43f108dd8b10a0f4536ed016863490d5996b2394aafac5",
+      "bytes": 17819,
+      "duplicateContent": false
+    },
+    {
+      "origin": "DistantHorizons-3.3.2-1.21.1.jar!/META-INF/jars/fabric-rendering-fluids-v1-3.1.6+1daea21519.jar",
+      "sha256": "bda6b36b477c4de60c7535e9f8944ce5788e2c22724efa773adca6a033b60106",
+      "bytes": 31842,
+      "duplicateContent": false
+    },
+    {
+      "origin": "DistantHorizons-3.3.2-1.21.1.jar!/META-INF/jars/fabric-rendering-v0-1.1.72+df3654b319.jar",
+      "sha256": "c68eea10ea5f9c5313e8776c5d51efd0909a8424bb59b72dd5c8ad036eaea659",
+      "bytes": 17212,
+      "duplicateContent": false
+    },
+    {
+      "origin": "DistantHorizons-3.3.2-1.21.1.jar!/META-INF/jars/fabric-rendering-v1-5.1.0+ab4c25a019.jar",
+      "sha256": "0df95c4bf3e16503b7157e50e7a24451d6c32cb3eb2cf5c16bcf2d3871ead049",
+      "bytes": 106647,
+      "duplicateContent": false
+    },
+    {
+      "origin": "DistantHorizons-3.3.2-1.21.1.jar!/META-INF/jars/fabric-resource-conditions-api-v1-4.3.0+8dc279b119.jar",
+      "sha256": "2d07c42e416d7916b34418d0f741d37534d4f0fbc680ed178f165c24440be303",
+      "bytes": 66775,
+      "duplicateContent": false
+    },
+    {
+      "origin": "DistantHorizons-3.3.2-1.21.1.jar!/META-INF/jars/fabric-resource-loader-v0-1.3.1+5b5275af19.jar",
+      "sha256": "8b87d1d8070d9735923e27f53b9c1fa93767927869b17259ee9e5d880b053005",
+      "bytes": 119077,
+      "duplicateContent": false
+    },
+    {
+      "origin": "DistantHorizons-3.3.2-1.21.1.jar!/META-INF/jars/fabric-screen-api-v1-2.0.25+8b68f1c719.jar",
+      "sha256": "059b805b37a708574f8e4ba0d244e6c2e6d6187a8066c9bde4cb4b73fc99efab",
+      "bytes": 57957,
+      "duplicateContent": false
+    },
+    {
+      "origin": "DistantHorizons-3.3.2-1.21.1.jar!/META-INF/jars/fabric-screen-handler-api-v1-1.3.90+b559734419.jar",
+      "sha256": "e721903c6a222d64c30cca9dc79164feba9b79b114ff4615b801f0b91fc921f4",
+      "bytes": 29220,
+      "duplicateContent": true
+    },
+    {
+      "origin": "DistantHorizons-3.3.2-1.21.1.jar!/META-INF/jars/fabric-sound-api-v1-1.0.23+6573ed8c19.jar",
+      "sha256": "e1b397b3ff11fcf1653ac1bb08c900d8d1360939d486fc9f4d1a569cfd1f4cef",
+      "bytes": 18598,
+      "duplicateContent": false
+    },
+    {
+      "origin": "DistantHorizons-3.3.2-1.21.1.jar!/META-INF/jars/fabric-transfer-api-v1-5.4.4+7b3d111d19.jar",
+      "sha256": "9e13cae5816c1e3175c9737f6a5c876965a709ddbb759bd9e4747af55fb7e070",
+      "bytes": 202280,
+      "duplicateContent": false
+    },
+    {
+      "origin": "DistantHorizons-3.3.2-1.21.1.jar!/META-INF/jars/fabric-transitive-access-wideners-v1-6.2.0+45b9699719.jar",
+      "sha256": "2bc386860849d0814ff42e1435b17211e9578e749d9d41e3b81f604f26f6be08",
+      "bytes": 12080,
+      "duplicateContent": false
+    },
+    {
+      "origin": "electroenergetics-1.21.1-1.1.1.jar!/META-INF/jarjar/sable-companion-common-1.21.1-1.6.0.jar",
+      "sha256": "873633e35046e3761b277ff8a1ecad0d55d9a3014fa81a0b084c9aecba1f3bed",
+      "bytes": 35444,
+      "duplicateContent": true
+    },
+    {
+      "origin": "exposure-neoforge-1.21.1-1.9.18.jar!/META-INF/jars/mixinextras-neoforge-0.4.1.jar",
+      "sha256": "85daddfe8b75b245c28258c32623fa4e4e6a1db59cfb6e078e55e9e979efa935",
+      "bytes": 207768,
+      "duplicateContent": false
+    },
+    {
+      "origin": "ExtendedAE-1.21-2.2.35-neoforge.jar!/META-INF/jarjar/ae2wtlib_api-19.2.0.jar",
+      "sha256": "b3db0454f743f2bc18ce68da540c6af5bb11288f931829a2950675585b4f1c03",
+      "bytes": 75183,
+      "duplicateContent": false
+    },
+    {
+      "origin": "fancymenu_neoforge_3.9.12_MC_1.21.1.jar!/META-INF/jarjar/japng-0.5.3.jar",
+      "sha256": "ac74016549a38eaddbd3533e9746d98ae4cb11adb4ef3ce68c7d040d2d45c8b0",
+      "bytes": 68238,
+      "duplicateContent": false
+    },
+    {
+      "origin": "fancymenu_neoforge_3.9.12_MC_1.21.1.jar!/META-INF/jarjar/animated-gif-lib-for-java-animated-gif-lib-1.7.jar",
+      "sha256": "9bae7c1154cec27d65f0ab91e307255789a2c76b73fd3425c211b52c1de3a343",
+      "bytes": 20816,
+      "duplicateContent": false
+    },
+    {
+      "origin": "forgified-fabric-api-0.116.15+2.3.3+1.21.1.jar!/META-INF/jars/fabric-api-base-0.4.42+d1308ded19.jar",
+      "sha256": "0839e66e082d30d78024ac6c5bd5b724c9f7e65a222377dbd9183ce851969857",
+      "bytes": 35467,
+      "duplicateContent": false
+    },
+    {
+      "origin": "forgified-fabric-api-0.116.15+2.3.3+1.21.1.jar!/META-INF/jars/fabric-api-lookup-api-v1-1.6.72+6244b11119.jar",
+      "sha256": "45cb9da1d267f8a2fde89c031a44b0dc6668a6936cd97c826625ad2da579b71e",
+      "bytes": 53594,
+      "duplicateContent": false
+    },
+    {
+      "origin": "forgified-fabric-api-0.116.15+2.3.3+1.21.1.jar!/META-INF/jars/fabric-biome-api-v1-13.0.31+1e62d33c19.jar",
+      "sha256": "406dfa2ada9984fdc2c80dd38e526e0247c6183d93f378c5d8a7bdd2811199cf",
+      "bytes": 78122,
+      "duplicateContent": false
+    },
+    {
+      "origin": "forgified-fabric-api-0.116.15+2.3.3+1.21.1.jar!/META-INF/jars/fabric-block-api-v1-1.1.0+b0c22bb819.jar",
+      "sha256": "31916eabfd652530a3679dcd4fc56c59df1cce7a3a8df06e7520416ca9f16fcb",
+      "bytes": 20891,
+      "duplicateContent": false
+    },
+    {
+      "origin": "forgified-fabric-api-0.116.15+2.3.3+1.21.1.jar!/META-INF/jars/fabric-block-view-api-v2-1.0.11+e9036fd419.jar",
+      "sha256": "91c40f365389f2cdb885825cdf285fbb74bc4bfd375c7210baa6fa15c780b755",
+      "bytes": 26307,
+      "duplicateContent": false
+    },
+    {
+      "origin": "forgified-fabric-api-0.116.15+2.3.3+1.21.1.jar!/META-INF/jars/fabric-blockrenderlayer-v1-1.1.52+c290471319.jar",
+      "sha256": "cfb654d846828b1243133c413b10d54b34b7d23547151c1f2bf4c2972576cda6",
+      "bytes": 24369,
+      "duplicateContent": false
+    },
+    {
+      "origin": "forgified-fabric-api-0.116.15+2.3.3+1.21.1.jar!/META-INF/jars/fabric-client-tags-api-v1-1.2.0+5adff2d719.jar",
+      "sha256": "e101ba8281dc94180fde9cd2677ede9a1bc0a2705a5b98f2841900de9a3987f0",
+      "bytes": 27875,
+      "duplicateContent": false
+    },
+    {
+      "origin": "forgified-fabric-api-0.116.15+2.3.3+1.21.1.jar!/META-INF/jars/fabric-command-api-v2-2.2.28+36d727be19.jar",
+      "sha256": "e2aaf5039fa33b31e1f7e7d86ad5698eca15ecc9471181d7e19c28e90bbabb58",
+      "bytes": 32529,
+      "duplicateContent": false
+    },
+    {
+      "origin": "forgified-fabric-api-0.116.15+2.3.3+1.21.1.jar!/META-INF/jars/fabric-content-registries-v0-8.0.19+5e0d320019.jar",
+      "sha256": "1d39dd437497677eee6f18ecece455a11e17a8b29ca74254605f641b351dae40",
+      "bytes": 61835,
+      "duplicateContent": false
+    },
+    {
+      "origin": "forgified-fabric-api-0.116.15+2.3.3+1.21.1.jar!/META-INF/jars/fabric-convention-tags-v1-2.1.7+7f945d5b19.jar",
+      "sha256": "02489ea9648e7a22f75a1a41133b3c0bb7c31d2f5f037e56d89fc412b30b7bcf",
+      "bytes": 37761,
+      "duplicateContent": false
+    },
+    {
+      "origin": "forgified-fabric-api-0.116.15+2.3.3+1.21.1.jar!/META-INF/jars/fabric-convention-tags-v2-2.12.0+75d3639619.jar",
+      "sha256": "1391d37588f1e96fe7aa0e0eea5fffb339d83ac13e2970bee4423cf35776fd4c",
+      "bytes": 225525,
+      "duplicateContent": false
+    },
+    {
+      "origin": "forgified-fabric-api-0.116.15+2.3.3+1.21.1.jar!/META-INF/jars/fabric-data-attachment-api-v1-1.4.7+26d408aa19.jar",
+      "sha256": "406eece332dc541851bec047adc1ed9637a8f2058be2196320b595ddc9fbada3",
+      "bytes": 38897,
+      "duplicateContent": false
+    },
+    {
+      "origin": "forgified-fabric-api-0.116.15+2.3.3+1.21.1.jar!/META-INF/jars/fabric-data-generation-api-v1-20.3.0+3e2bcb4b19.jar",
+      "sha256": "2d71b73e26cbf8edbbe467d4d0e08b5874fbb0024bdf7726a0e0323bef378a96",
+      "bytes": 102015,
+      "duplicateContent": false
+    },
+    {
+      "origin": "forgified-fabric-api-0.116.15+2.3.3+1.21.1.jar!/META-INF/jars/fabric-entity-events-v1-1.8.0+e46a02ca19.jar",
+      "sha256": "6a6369ddb7cdde6b73d11d14efaa96e2e6bc6e090f489c8df23560b5193f986d",
+      "bytes": 66396,
+      "duplicateContent": false
+    },
+    {
+      "origin": "forgified-fabric-api-0.116.15+2.3.3+1.21.1.jar!/META-INF/jars/fabric-events-interaction-v0-0.7.14+057f5afd19.jar",
+      "sha256": "7bc119c7ab04c78af63e66d4112ef3ea96b93ba92d17788d5550d3130a70a88a",
+      "bytes": 57928,
+      "duplicateContent": false
+    },
+    {
+      "origin": "forgified-fabric-api-0.116.15+2.3.3+1.21.1.jar!/META-INF/jars/fabric-game-rule-api-v1-1.0.53+36d727be19.jar",
+      "sha256": "3ef686bd132d0be9fae56cb19e224edec281dcbaed149791b1686af000a917ce",
+      "bytes": 52862,
+      "duplicateContent": false
+    },
+    {
+      "origin": "forgified-fabric-api-0.116.15+2.3.3+1.21.1.jar!/META-INF/jars/fabric-gametest-api-v1-2.0.5+29f188ce19.jar",
+      "sha256": "057fe46c7486ace6b7c00dc46f9d9fdbb74b360f6dbe2f55f129556cf5fe5d99",
+      "bytes": 33416,
+      "duplicateContent": false
+    },
+    {
+      "origin": "forgified-fabric-api-0.116.15+2.3.3+1.21.1.jar!/META-INF/jars/fabric-item-api-v1-11.3.0+766f218719.jar",
+      "sha256": "ec5ee1f59555d2d1c4933a50575e073d9460bcac6f09bdafe2222179383f6e1d",
+      "bytes": 61810,
+      "duplicateContent": false
+    },
+    {
+      "origin": "forgified-fabric-api-0.116.15+2.3.3+1.21.1.jar!/META-INF/jars/fabric-item-group-api-v1-4.1.7+e324903319.jar",
+      "sha256": "5fafb97a423c7e5561037b89497c9ee829883bfbcb0dc5426e6de62a48bee747",
+      "bytes": 44928,
+      "duplicateContent": false
+    },
+    {
+      "origin": "forgified-fabric-api-0.116.15+2.3.3+1.21.1.jar!/META-INF/jars/fabric-key-binding-api-v1-1.0.47+62cc7ce119.jar",
+      "sha256": "930a4b5d036168f2061c86925902c76307cd497627744af71e196b0339832e03",
+      "bytes": 22863,
+      "duplicateContent": false
+    },
+    {
+      "origin": "forgified-fabric-api-0.116.15+2.3.3+1.21.1.jar!/META-INF/jars/fabric-lifecycle-events-v1-2.6.0+e40d8add19.jar",
+      "sha256": "0a5e21f79eb4c036e5ed4ac2491717411258054be109718c1da4d15fa073f26e",
+      "bytes": 90121,
+      "duplicateContent": false
+    },
+    {
+      "origin": "forgified-fabric-api-0.116.15+2.3.3+1.21.1.jar!/META-INF/jars/fabric-loot-api-v2-3.0.15+a3ee712d19.jar",
+      "sha256": "9b5fa8fd7e7a73a2baffd068300ddfac027ad482efbb5173317d4564375aa6da",
+      "bytes": 28113,
+      "duplicateContent": false
+    },
+    {
+      "origin": "forgified-fabric-api-0.116.15+2.3.3+1.21.1.jar!/META-INF/jars/fabric-loot-api-v3-1.0.3+333dfad919.jar",
+      "sha256": "6d97e9f27339813f5633146c3bba48acd5af85839edbb8d6871a119c23327e8e",
+      "bytes": 35621,
+      "duplicateContent": false
+    },
+    {
+      "origin": "forgified-fabric-api-0.116.15+2.3.3+1.21.1.jar!/META-INF/jars/fabric-message-api-v1-6.0.14+6a754fce19.jar",
+      "sha256": "e500e2d9bc9b2f10d58764d3da26a19f0b6c24587f76697be43b51c52aeffff6",
+      "bytes": 46595,
+      "duplicateContent": false
+    },
+    {
+      "origin": "forgified-fabric-api-0.116.15+2.3.3+1.21.1.jar!/META-INF/jars/fabric-model-loading-api-v1-2.1.0+6e8f52c719.jar",
+      "sha256": "552bcd88c42ce635073a00c0146b50ec77def8cfcdaec4ca2c81a491a6334ad5",
+      "bytes": 62549,
+      "duplicateContent": false
+    },
+    {
+      "origin": "forgified-fabric-api-0.116.15+2.3.3+1.21.1.jar!/META-INF/jars/fabric-networking-api-v1-4.3.1+7e3d421f19.jar",
+      "sha256": "b66528ca9bf186c468ff53da01307bf4c522e668d11a9fd986190792b72634ea",
+      "bytes": 171950,
+      "duplicateContent": false
+    },
+    {
+      "origin": "forgified-fabric-api-0.116.15+2.3.3+1.21.1.jar!/META-INF/jars/fabric-object-builder-api-v1-15.2.1+cc242efd19.jar",
+      "sha256": "73684c80a570ab7daac8cb3d67cee455087c3c0ddf936bcb20812b6396719800",
+      "bytes": 80737,
+      "duplicateContent": false
+    },
+    {
+      "origin": "forgified-fabric-api-0.116.15+2.3.3+1.21.1.jar!/META-INF/jars/fabric-particles-v1-4.0.2+824f924c19.jar",
+      "sha256": "b1777a47abd98965314e2ae9b505d099fe31740ddaa7e93ccb182821bbf991e9",
+      "bytes": 33756,
+      "duplicateContent": false
+    },
+    {
+      "origin": "forgified-fabric-api-0.116.15+2.3.3+1.21.1.jar!/META-INF/jars/fabric-recipe-api-v1-5.0.16+59440bcc19.jar",
+      "sha256": "ad0cb7ed1ec331d6cffc400043916661447f52197781872fbb8ca483c4ab54b2",
+      "bytes": 55516,
+      "duplicateContent": false
+    },
+    {
+      "origin": "forgified-fabric-api-0.116.15+2.3.3+1.21.1.jar!/META-INF/jars/fabric-registry-sync-v0-5.3.2+f9aace1619.jar",
+      "sha256": "282e04b9ea69b49af9a5c00e440ad4fbbf05959a5f50169bcb6c4ef5e888d055",
+      "bytes": 54264,
+      "duplicateContent": false
+    },
+    {
+      "origin": "forgified-fabric-api-0.116.15+2.3.3+1.21.1.jar!/META-INF/jars/fabric-renderer-api-v1-3.4.1+9125b6dc19.jar",
+      "sha256": "10220eb4cb04a7af0f735e195bafbdbc96608e667ecea7f8a395f737e38561d7",
+      "bytes": 59837,
+      "duplicateContent": false
+    },
+    {
+      "origin": "forgified-fabric-api-0.116.15+2.3.3+1.21.1.jar!/META-INF/jars/fabric-renderer-indigo-1.7.1+9125b6dc19.jar",
+      "sha256": "592392917306e348e02fe47e04b3584dec5924b2fe86b904ccbdf7980f6c3cd8",
+      "bytes": 110869,
+      "duplicateContent": false
+    },
+    {
+      "origin": "forgified-fabric-api-0.116.15+2.3.3+1.21.1.jar!/META-INF/jars/fabric-renderer-registries-v1-3.2.69+df3654b319.jar",
+      "sha256": "25beb4a0897f7128a17524832ad976397b7c8f53e3a3fc683ed999bc109f4cf0",
+      "bytes": 22848,
+      "duplicateContent": false
+    },
+    {
+      "origin": "forgified-fabric-api-0.116.15+2.3.3+1.21.1.jar!/META-INF/jars/fabric-rendering-data-attachment-v1-0.3.49+73761d2e19.jar",
+      "sha256": "ab17cda578b8f7f51c597fa5541820689871631360f426fb03d43623a78f2b2d",
+      "bytes": 21118,
+      "duplicateContent": false
+    },
+    {
+      "origin": "forgified-fabric-api-0.116.15+2.3.3+1.21.1.jar!/META-INF/jars/fabric-rendering-fluids-v1-3.1.6+a51883b219.jar",
+      "sha256": "05593b8cce2d03f600adc576d34ef0693fbfcca09560fa31e77a079f66e254dd",
+      "bytes": 41939,
+      "duplicateContent": false
+    },
+    {
+      "origin": "forgified-fabric-api-0.116.15+2.3.3+1.21.1.jar!/META-INF/jars/fabric-rendering-v1-5.1.0+1a09bd5a19.jar",
+      "sha256": "d625ebf425493fc1f61ab6cb07235edd451d1d183e87c3df932e07044ee1ee4b",
+      "bytes": 92453,
+      "duplicateContent": false
+    },
+    {
+      "origin": "forgified-fabric-api-0.116.15+2.3.3+1.21.1.jar!/META-INF/jars/fabric-resource-conditions-api-v1-4.3.0+5bdd099819.jar",
+      "sha256": "c31a5a2c71ca4bc01a5f4a5ec5ea03495d4d18e6aead182e2023a2d930c3e592",
+      "bytes": 66540,
+      "duplicateContent": false
+    },
+    {
+      "origin": "forgified-fabric-api-0.116.15+2.3.3+1.21.1.jar!/META-INF/jars/fabric-resource-loader-v0-1.3.1+4ea8954419.jar",
+      "sha256": "85a6e70fab0c4e95314fec77d52fd5b0e72658ef00331a132aaab866c43054ab",
+      "bytes": 106751,
+      "duplicateContent": false
+    },
+    {
+      "origin": "forgified-fabric-api-0.116.15+2.3.3+1.21.1.jar!/META-INF/jars/fabric-screen-api-v1-2.0.26+9991ca2f19.jar",
+      "sha256": "6ee0029f80ddf9fdf64c9af2cf21b6ccc7f8963149a479e209812874cdf8a872",
+      "bytes": 51941,
+      "duplicateContent": false
+    },
+    {
+      "origin": "forgified-fabric-api-0.116.15+2.3.3+1.21.1.jar!/META-INF/jars/fabric-screen-handler-api-v1-1.3.91+8dbc56dd19.jar",
+      "sha256": "9a22bcc77cd55d88fcac850084061d1635fb8b6563d377ae000e5763b76fe48b",
+      "bytes": 24206,
+      "duplicateContent": false
+    },
+    {
+      "origin": "forgified-fabric-api-0.116.15+2.3.3+1.21.1.jar!/META-INF/jars/fabric-sound-api-v1-1.0.23+10b84f8419.jar",
+      "sha256": "cb0e8725246b2f14b4d3dc0a8f9fd9f895c3e349c9f4ff7baca5ac8798046ef8",
+      "bytes": 21480,
+      "duplicateContent": false
+    },
+    {
+      "origin": "forgified-fabric-api-0.116.15+2.3.3+1.21.1.jar!/META-INF/jars/fabric-tag-api-v1-1.3.0+3e2bcb4b19.jar",
+      "sha256": "4dfe4cec03469b08b971a151a5f7b02cbfa933e4c1c5c868bdf7fb4596cc7b06",
+      "bytes": 21967,
+      "duplicateContent": false
+    },
+    {
+      "origin": "forgified-fabric-api-0.116.15+2.3.3+1.21.1.jar!/META-INF/jars/fabric-transfer-api-v1-5.4.4+6244b11119.jar",
+      "sha256": "caaec121ffc35b25477c6abc18e7f1e31b76b7960c7e1e51a699aec26280a606",
+      "bytes": 206107,
+      "duplicateContent": false
+    },
+    {
+      "origin": "forgified-fabric-api-0.116.15+2.3.3+1.21.1.jar!/META-INF/jars/fabric-transitive-access-wideners-v1-6.2.0+6c854b6f19.jar",
+      "sha256": "21edb5b3de5d88a6d65dc1902d21e6a7386ef54406031508b75995b874bbc25e",
+      "bytes": 17775,
+      "duplicateContent": false
+    },
+    {
+      "origin": "forgified-fabric-api-0.116.15+2.3.3+1.21.1.jar!/META-INF/jars/forgified-fabric-loader-2.5.68+0.18.4+1.21.1-full.jar",
+      "sha256": "df255aa184d569da20889cd20803ed100f2da7ae9c827cb6aff704acf0ec771e",
+      "bytes": 3539919,
+      "duplicateContent": false
+    },
+    {
+      "origin": "fzzy_config-0.7.6+1.21+neoforge.jar!/META-INF/jars/jankson-1.2.3.jar",
+      "sha256": "7a71dd9c4ac20cea37ce19c35c4aeda15385a40f31836b0058ff18f9e9554aad",
+      "bytes": 74750,
+      "duplicateContent": false
+    },
+    {
+      "origin": "fzzy_config-0.7.6+1.21+neoforge.jar!/META-INF/jars/tomlkt-jvm-0.3.7.jar",
+      "sha256": "c996b2dee0bf7be1d9d962e944d13510331092cf5687fddcc0523aba4eadfe4f",
+      "bytes": 256632,
+      "duplicateContent": false
+    },
+    {
+      "origin": "iceandfire-2.1.3.jar!/META-INF/jarjar/integration-neoforge-0.2.jar",
+      "sha256": "8fe97140dff3c126558cd5aa762f11c1d0f0b0fa9491ba0a9c0cc22473c7c83a",
+      "bytes": 11473,
+      "duplicateContent": false
+    },
+    {
+      "origin": "ImmediatelyFast-NeoForge-1.6.12+1.21.1.jar!/META-INF/jars/Reflect-1.6.2.jar",
+      "sha256": "e46c29dee7f2f7ca0a3c429b0d51bfc0f9505d345b99a2b83b7bc16a89c50c75",
+      "bytes": 222732,
+      "duplicateContent": false
+    },
+    {
+      "origin": "ImmersiveEngineering-1.21.1-12.4.2-194.jar!/META-INF/jarjar/BlockModelSplitter-2.0.1.jar",
+      "sha256": "ab752fbe975e4c6af2679d0f8b85dfb7ebe3da3aa04a73951e3b5bfbc3f40537",
+      "bytes": 37351,
+      "duplicateContent": false
+    },
+    {
+      "origin": "ImmersiveEngineering-1.21.1-12.4.2-194.jar!/META-INF/jarjar/DualCodecs-0.1.2.jar",
+      "sha256": "0bddfcac4d409803a35cbbd5c7b74828f436357ad7b8980fcfbd5a1834c05feb",
+      "bytes": 75598,
+      "duplicateContent": false
+    },
+    {
+      "origin": "immersiveoverlays-1.8.5+1.21.1-neoforge.jar!/META-INF/jarjar/mixinconstraints-1.0.9.jar",
+      "sha256": "756a8b5d17306a03fe5453767269b7623fb4436c41e0649ec1ca9b203f82f75c",
+      "bytes": 27864,
+      "duplicateContent": false
+    },
+    {
+      "origin": "immersiveoverlays-1.8.5+1.21.1-neoforge.jar!/META-INF/jarjar/mru-neoforge-1.0.41+1.21.1.jar",
+      "sha256": "d13f2d4dd2b8c2ca4a65a5a163fc043d5e3e341f15b2fc906cb256dc8e2e4bb5",
+      "bytes": 151039,
+      "duplicateContent": false
+    },
+    {
+      "origin": "iris-neoforge-1.8.14-beta.1+mc1.21.1.jar!/META-INF/jarjar/fabric-api-base-0.4.42+d1308ded19.jar",
+      "sha256": "bdf464c6df587b4aa87df2cbe326acbbb307727d3e27dbaf58d592c429e6eac3",
+      "bytes": 34805,
+      "duplicateContent": false
+    },
+    {
+      "origin": "iris-neoforge-1.8.14-beta.1+mc1.21.1.jar!/META-INF/jarjar/fabric-block-view-api-v2-1.0.10+9afaaf8c19.jar",
+      "sha256": "87da93c4ef283e0ce66f8da67d6cba93d9884c55152014a49c2b6f4f861bec48",
+      "bytes": 25631,
+      "duplicateContent": false
+    },
+    {
+      "origin": "iris-neoforge-1.8.14-beta.1+mc1.21.1.jar!/META-INF/jarjar/fabric-renderer-api-v1-3.4.0+acb05a3919.jar",
+      "sha256": "0a504d27ddf494df91bcf59a3bdc584ef0fd41753323c86bb6e242e4b7958a27",
+      "bytes": 57937,
+      "duplicateContent": false
+    },
+    {
+      "origin": "iris-neoforge-1.8.14-beta.1+mc1.21.1.jar!/META-INF/jarjar/fabric-rendering-data-attachment-v1-0.3.48+73761d2e19.jar",
+      "sha256": "a720c7a1e73583e0fed5110556290df023d158750740bc00e4040d6cd2cb9af1",
+      "bytes": 20497,
+      "duplicateContent": false
+    },
+    {
+      "origin": "iris-neoforge-1.8.14-beta.1+mc1.21.1.jar!/META-INF/jarjar/glsl-transformer-3.0.0-pre3.jar",
+      "sha256": "0d55650fb8e58dad25b714d447a1ed5a713a6b6120a06610ce216c9b26e852d7",
+      "bytes": 722670,
+      "duplicateContent": false
+    },
+    {
+      "origin": "iris-neoforge-1.8.14-beta.1+mc1.21.1.jar!/META-INF/jarjar/jcpp-1.4.14.jar",
+      "sha256": "e47d785bff4d116bf5223b96aabd57a03498a91bd259b4919ded6c511b47cc8c",
+      "bytes": 75595,
+      "duplicateContent": false
+    },
+    {
+      "origin": "item_descriptions-2.8.0+1.21.1-neoforge.jar!/META-INF/jarjar/kaleido-config-0.3.3+1.3.2.jar",
+      "sha256": "168b40cde9a066679ce9544169d2be5186d2a8b4cdf84cb3a5fb45782cd2cbc6",
+      "bytes": 309687,
+      "duplicateContent": true
+    },
+    {
+      "origin": "jamlib-neoforge-1.3.6+1.21.1.jar!/META-INF/jars/jankson-1.2.3.jar",
+      "sha256": "da5295cfdf1f18422d81dcd6bc860a5007bb429ae8181a64d2915ada410dcb0d",
+      "bytes": 75509,
+      "duplicateContent": false
+    },
+    {
+      "origin": "journeymap-neoforge-1.21.1-6.0.5.jar!/META-INF/jarjar/common-networking-neoforge-1.0.21-1.21.1.jar",
+      "sha256": "4f4c0047ec37b17e7a63856a5d180fc194bf8ee8d9e142815426aea0b81f9357",
+      "bytes": 26017,
+      "duplicateContent": false
+    },
+    {
+      "origin": "journeymap-neoforge-1.21.1-6.0.5.jar!/META-INF/jarjar/journeymap-api-neoforge-2.0.0-1.21.1.jar",
+      "sha256": "f8136f135d7476d4a998a777d197fb08bf83a24c4bd892e58bc9af329f9cf919",
+      "bytes": 133667,
+      "duplicateContent": false
+    },
+    {
+      "origin": "journeymap-neoforge-1.21.1-6.0.5.jar!/META-INF/jarjar/pngj-2.1.0.jar",
+      "sha256": "e6b762f15e4891178dddd74e4d57318f518ce278000129efa41f85410b132ccc",
+      "bytes": 167436,
+      "duplicateContent": false
+    },
+    {
+      "origin": "kotlinforforge-5.12.0-all.jar!/META-INF/jarjar/thedarkcolour.kfflib-5.12.0.jar",
+      "sha256": "164ff96d4b9fc1c0b61eff77c39a51a01dedfd6aa427ffd6e11da43c4cd5816d",
+      "bytes": 80715,
+      "duplicateContent": false
+    },
+    {
+      "origin": "kotlinforforge-5.12.0-all.jar!/META-INF/jarjar/kotlin-stdlib-jdk7-2.4.0.jar",
+      "sha256": "5072265564b6b0296f9c7b21fee65edee760c5697436f5ae7427033fa58fc034",
+      "bytes": 946,
+      "duplicateContent": false
+    },
+    {
+      "origin": "kotlinforforge-5.12.0-all.jar!/META-INF/jarjar/kotlin-stdlib-2.4.0.jar",
+      "sha256": "ccb14ff83fabcb11458b798dbc9824748ccdffeec79c9aba789e6ed1cda86b1c",
+      "bytes": 1841929,
+      "duplicateContent": false
+    },
+    {
+      "origin": "kotlinforforge-5.12.0-all.jar!/META-INF/jarjar/thedarkcolour.kfflang-5.12.0.jar",
+      "sha256": "09bf10cdf09b62286482817a06c075dfca2292f8019a1bb2f999b4d3bbdf3f13",
+      "bytes": 46162,
+      "duplicateContent": false
+    },
+    {
+      "origin": "kotlinforforge-5.12.0-all.jar!/META-INF/jarjar/kotlinx-serialization-core-jvm-1.11.0.jar",
+      "sha256": "f4a801c647d4351327cd9e1ac4113e2be9ea37a64ab0abae269c25a52e28f35d",
+      "bytes": 404509,
+      "duplicateContent": false
+    },
+    {
+      "origin": "kotlinforforge-5.12.0-all.jar!/META-INF/jarjar/kotlinx-coroutines-core-jvm-1.11.0.jar",
+      "sha256": "d1d75aa01dffbb4d1c520e67e4c4e7f5f6174718e7cb4632412503f2f0e604fa",
+      "bytes": 1577052,
+      "duplicateContent": false
+    },
+    {
+      "origin": "kotlinforforge-5.12.0-all.jar!/META-INF/jarjar/kotlinx-coroutines-jdk8-1.11.0.jar",
+      "sha256": "1238f179da55360725ec49b887225317f31ae89bd29b652cbe139ff59f5d45cb",
+      "bytes": 1018,
+      "duplicateContent": false
+    },
+    {
+      "origin": "kotlinforforge-5.12.0-all.jar!/META-INF/jarjar/kotlinx-serialization-json-jvm-1.11.0.jar",
+      "sha256": "563a25b4eb5c9128ae9c2479f3d1a5c44dcd176112b91cf03682e906eba5c935",
+      "bytes": 294166,
+      "duplicateContent": false
+    },
+    {
+      "origin": "kotlinforforge-5.12.0-all.jar!/META-INF/jarjar/kotlin-reflect-2.4.0.jar",
+      "sha256": "f0d8e8908624eb4478bb131e9f887366680d2e239741195e548fa5c906963b90",
+      "bytes": 3750099,
+      "duplicateContent": false
+    },
+    {
+      "origin": "kotlinforforge-5.12.0-all.jar!/META-INF/jarjar/kotlin-stdlib-jdk8-2.4.0.jar",
+      "sha256": "d96b4e297136b8a4b2b88c1adcdc64d92e90d52a417e4315cdcf964adede8aa2",
+      "bytes": 952,
+      "duplicateContent": false
+    },
+    {
+      "origin": "kotlinforforge-5.12.0-all.jar!/META-INF/jarjar/thedarkcolour.kffmod-5.12.0.jar",
+      "sha256": "fffaadd2379bd43c2fc3263481b0a2abf1942d1efa053fa8946da78843de1c29",
+      "bytes": 71724,
+      "duplicateContent": false
+    },
+    {
+      "origin": "kubejs-neoforge-2101.7.2-build.368.jar!/META-INF/jarjar/animated-gif-lib-for-java-animated-gif-lib-1.7.jar",
+      "sha256": "9bae7c1154cec27d65f0ab91e307255789a2c76b73fd3425c211b52c1de3a343",
+      "bytes": 20816,
+      "duplicateContent": true
+    },
+    {
+      "origin": "kubejs-neoforge-2101.7.2-build.368.jar!/META-INF/jarjar/better-advanced-tooltips-2101.1.0-build.1.jar",
+      "sha256": "8fe810b03fd212720465956292a5a9b23b59259bbffe86b60fd65fe0558bcf5f",
+      "bytes": 33167,
+      "duplicateContent": false
+    },
+    {
+      "origin": "kubejs-neoforge-2101.7.2-build.368.jar!/META-INF/jarjar/tiny-java-server-1.0.0-build.33.jar",
+      "sha256": "e5eb5d6dd6444cf99ecbbda7db0345e13d619b1e7ca87db7561ddf605d68b6bc",
+      "bytes": 111618,
+      "duplicateContent": false
+    },
+    {
+      "origin": "ldlib2-neoforge-1.21.1-2.2.38.a-all.jar!/META-INF/jarjar/taffy-1.1.4.jar",
+      "sha256": "3ae3b857cbb4392ccb3245778c9b7192522238cf66bd5ac413ead4613fa80425",
+      "bytes": 233581,
+      "duplicateContent": false
+    },
+    {
+      "origin": "ldlib2-neoforge-1.21.1-2.2.38.a-all.jar!/META-INF/jarjar/yoga-1.0.0.jar",
+      "sha256": "bacd086489858ca9fcd438721c75373ce8deab5e9fead23425a42a16fe1dc9a7",
+      "bytes": 139827,
+      "duplicateContent": false
+    },
+    {
+      "origin": "ldlib2-neoforge-1.21.1-2.2.38.a-all.jar!/META-INF/jarjar/kotlin-stdlib-2.4.20-RC2.jar",
+      "sha256": "1697a320cbceeee25123ce07aa8e3b356094601b1bff8a55ac8db39ffbbca0ef",
+      "bytes": 1853317,
+      "duplicateContent": false
+    },
+    {
+      "origin": "lithostitched-1.8.0+beta4-neoforge-21.1.jar!/META-INF/jarjar/apollib-1.2.0-neoforge-21.1.jar",
+      "sha256": "d8ca42902cc4fe7c6c39917bdc2a9ec86c32c5bee3e3c3a551513f601968498b",
+      "bytes": 110989,
+      "duplicateContent": false
+    },
+    {
+      "origin": "lithostitched-1.8.0+beta4-neoforge-21.1.jar!/META-INF/jarjar/apollib-1.2.0-neoforge-21.1.jar!/META-INF/jarjar/json5-java-3.0.0.jar",
+      "sha256": "2e0f73784e6bc4c755e52d485f628d110d397f079d58b118658b903be9aa0533",
+      "bytes": 56460,
+      "duplicateContent": false
+    },
+    {
+      "origin": "moonlight-1.21.1-3.3.4-neoforge.jar!/META-INF/jarjar/codecui-neoforge-1.21.1-1.3.6.jar",
+      "sha256": "85922e5d8641430e0153727c40ea0390d416b1f90e64bd193228078f1bd90fb3",
+      "bytes": 253614,
+      "duplicateContent": false
+    },
+    {
+      "origin": "NuclearCraft-1.21.1-1.3.0-rc1.jar!/META-INF/jarjar/flywheel-neoforge-1.21.1-1.0.6-44.jar",
+      "sha256": "117a68b80ebb5cd9f221385106bf6bb51049a6a131fd0537dd53d770fcafd56c",
+      "bytes": 874593,
+      "duplicateContent": false
+    },
+    {
+      "origin": "NuclearCraft-1.21.1-1.3.0-rc1.jar!/META-INF/jarjar/ponder-neoforge-1.0.87+mc1.21.1.jar",
+      "sha256": "d6b7fdf94359f73dc1fee730eded898d51b3bf0d626710753253becd8e4e6bef",
+      "bytes": 822408,
+      "duplicateContent": false
+    },
+    {
+      "origin": "NuclearRadiation-1.21.1-1.0.14.jar!/META-INF/jarjar/sable-companion-common-1.21.1-1.6.0.jar",
+      "sha256": "873633e35046e3761b277ff8a1ecad0d55d9a3014fa81a0b084c9aecba1f3bed",
+      "bytes": 35444,
+      "duplicateContent": true
+    },
+    {
+      "origin": "OctoLib-NEOFORGE-0.6.2+1.21.jar!/META-INF/jars/snakeyaml-2.2.jar",
+      "sha256": "1024cb02c989cc1cbdaa6da27f8aa0b9bfeef2b6dc06a5572fd70b5eab2a934a",
+      "bytes": 344685,
+      "duplicateContent": false
+    },
+    {
+      "origin": "Quark-4.1-482.jar!/META-INF/jarjar/biolith-neoforge-3.0.10.jar",
+      "sha256": "7f5c86757c61f56c7dccf602b44a2c17ba08d32d7e88cb531cbcd0c7b4789eab",
+      "bytes": 215482,
+      "duplicateContent": false
+    },
+    {
+      "origin": "regions-unexplored-0.6.2-neoforge-21.1.jar!/META-INF/jars/json5-java-3.0.0.jar",
+      "sha256": "2e0f73784e6bc4c755e52d485f628d110d397f079d58b118658b903be9aa0533",
+      "bytes": 56460,
+      "duplicateContent": true
+    },
+    {
+      "origin": "resourcefullib-neoforge-1.21-3.0.12.jar!/META-INF/jars/bytecodecs-1.1.2.jar",
+      "sha256": "3f418220feab93d791c9fdd63a6c6d999f7b2164edad359dee35f08a9ad175cc",
+      "bytes": 77418,
+      "duplicateContent": false
+    },
+    {
+      "origin": "resourcefullib-neoforge-1.21-3.0.12.jar!/META-INF/jars/yabn-1.0.3.jar",
+      "sha256": "bdc5a03a9b577c48bc6d7c06118b2418afd2c537081511c24b3259c561c8355a",
+      "bytes": 31489,
+      "duplicateContent": false
+    },
+    {
+      "origin": "sable-neoforge-1.21.1-2.0.3.jar!/META-INF/jarjar/dev.ryanhcode.sable.sable-sable_rapier-1.21.1-2.0.3.jar",
+      "sha256": "aabd5ed08349821989cd1806122918cbec3c9dfafe4584e0ab012fa015b7749d",
+      "bytes": 7584911,
+      "duplicateContent": false
+    },
+    {
+      "origin": "sable-neoforge-1.21.1-2.0.3.jar!/META-INF/jarjar/sable-companion-common-1.21.1-1.6.0.jar",
+      "sha256": "873633e35046e3761b277ff8a1ecad0d55d9a3014fa81a0b084c9aecba1f3bed",
+      "bytes": 35444,
+      "duplicateContent": true
+    },
+    {
+      "origin": "sable-neoforge-1.21.1-2.0.3.jar!/META-INF/jarjar/veil-neoforge-1.21.1-4.1.4.jar",
+      "sha256": "9c2899086a96339245b5abde82879011753871f25443df9581881f29596a7180",
+      "bytes": 3315123,
+      "duplicateContent": false
+    },
+    {
+      "origin": "sable-neoforge-1.21.1-2.0.3.jar!/META-INF/jarjar/veil-neoforge-1.21.1-4.1.4.jar!/META-INF/jarjar/glsl-processor-0.2.3.jar",
+      "sha256": "f01a11101ce5b4a5230916707b13d89acf6abef6ee3ef6e92f2d788246b3507a",
+      "bytes": 237311,
+      "duplicateContent": false
+    },
+    {
+      "origin": "sable-neoforge-1.21.1-2.0.3.jar!/META-INF/jarjar/veil-neoforge-1.21.1-4.1.4.jar!/META-INF/jarjar/molang-compiler-3.1.1.19.jar",
+      "sha256": "08567ae5964242a7cffa93697cd63de60078d8dd375fb89ce426a390a7634100",
+      "bytes": 108463,
+      "duplicateContent": false
+    },
+    {
+      "origin": "sodium-neoforge-0.8.13+mc1.21.1.jar!/META-INF/jarjar/fabric-api-base-0.4.42+d1308ded19.jar",
+      "sha256": "729aef08d1df36c2f04fbf52ee4d92a7d29e33047865a8a8cf5546ebeac687e0",
+      "bytes": 34805,
+      "duplicateContent": false
+    },
+    {
+      "origin": "sodium-neoforge-0.8.13+mc1.21.1.jar!/META-INF/jarjar/fabric-block-view-api-v2-1.0.10+9afaaf8c19.jar",
+      "sha256": "87da93c4ef283e0ce66f8da67d6cba93d9884c55152014a49c2b6f4f861bec48",
+      "bytes": 25631,
+      "duplicateContent": true
+    },
+    {
+      "origin": "sodium-neoforge-0.8.13+mc1.21.1.jar!/META-INF/jarjar/fabric-renderer-api-v1-3.4.1+9125b6dc19.jar",
+      "sha256": "aba3e2dc8d670eae242a75c5ae961acbb542792ac587ca3a3b4b177bcbb9cda7",
+      "bytes": 58938,
+      "duplicateContent": false
+    },
+    {
+      "origin": "sodium-neoforge-0.8.13+mc1.21.1.jar!/META-INF/jarjar/fabric-rendering-data-attachment-v1-0.3.48+73761d2e19.jar",
+      "sha256": "a720c7a1e73583e0fed5110556290df023d158750740bc00e4040d6cd2cb9af1",
+      "bytes": 20497,
+      "duplicateContent": true
+    },
+    {
+      "origin": "sodium-neoforge-0.8.13+mc1.21.1.jar!/META-INF/jarjar/net.caffeinemc.sodium-neoforge-0.8.13+mc1.21.1-mod.jar",
+      "sha256": "d71acbffafd3d177add7624710114d8570cdd70d5553a2b5c8ab371852c59ce3",
+      "bytes": 1226309,
+      "duplicateContent": false
+    },
+    {
+      "origin": "spell_power-neoforge-1.6.0+1.21.1.jar!/META-INF/jars/tiny-config-3.1.0-neoforge.jar",
+      "sha256": "3bae23d9f7aa45cc06ad3677809006718907fbbfc5ba65cef5e3ebc4d54277e8",
+      "bytes": 28309,
+      "duplicateContent": false
+    },
+    {
+      "origin": "stellaris-1.21-neoforge-1.4.25.jar!/META-INF/jars/sky-aesthetics-neoforge-1.21-2.0.13-beta.jar",
+      "sha256": "72d6b41da41ae3094e99fb80d7e956e9190da9ffce5c9060513e833bd96c1999",
+      "bytes": 216414,
+      "duplicateContent": false
+    },
+    {
+      "origin": "stellaris-1.21-neoforge-1.4.25.jar!/META-INF/jars/sky-aesthetics-neoforge-1.21-2.0.13-beta.jar!/META-INF/jars/exoconfig-neoforge-1.21-0.3.0.jar",
+      "sha256": "f0f8a602c9d792a453c8ca864e3ba8ed81c1a3102f06a86f481eecffc5103815",
+      "bytes": 70947,
+      "duplicateContent": false
+    },
+    {
+      "origin": "SubtleEffects-neoforge-1.21.1-1.14.3.jar!/META-INF/jarjar/mixinconstraints-1.1.0.jar",
+      "sha256": "67e1fca9cb518f8afb356105c7816587e02880c2acca3bbdb6e08c8e967fc1be",
+      "bytes": 28116,
+      "duplicateContent": false
+    },
+    {
+      "origin": "supplementaries-1.21.1-3.8.10-neoforge.jar!/META-INF/jarjar/mixinsquared-forge-0.3.7-beta.3.jar",
+      "sha256": "5638fc5caab00215f2bd5622694b60f6d865f27903fcca7180a67b62cabb4513",
+      "bytes": 111913,
+      "duplicateContent": false
+    },
+    {
+      "origin": "supplementaries-1.21.1-3.8.10-neoforge.jar!/META-INF/jarjar/mixinsquared-forge-0.3.7-beta.3.jar!/META-INF/jars/MixinSquared-0.3.7-beta.3.jar",
+      "sha256": "eae4bd0dc60417ff9c3b927cafe94a8ebfce3a81c91921c65996887cf815feac",
+      "bytes": 120094,
+      "duplicateContent": false
+    },
+    {
+      "origin": "supplementaries-1.21.1-3.8.10-neoforge.jar!/META-INF/jarjar/sable-companion-common-1.21.1-1.6.0.jar",
+      "sha256": "873633e35046e3761b277ff8a1ecad0d55d9a3014fa81a0b084c9aecba1f3bed",
+      "bytes": 35444,
+      "duplicateContent": true
+    },
+    {
+      "origin": "uranus-2.4.1-bugfix-1.21.1-neoforge.jar!/META-INF/jars/architectury-neoforge-13.0.8.jar",
+      "sha256": "9645603ffb637bf4e43676d669c012d3a2808c55c5cbd3be93846a51d4beae90",
+      "bytes": 609154,
+      "duplicateContent": false
+    },
+    {
+      "origin": "xaerominimap-neoforge-1.21.1-26.4.2.jar!/META-INF/jarjar/xaerolib-neoforge-1.21.1-1.7.1.jar",
+      "sha256": "1838f3d36bdf87de9dd749255651313c6dbe517f57f9b01a041191cee7ed3620",
+      "bytes": 568320,
+      "duplicateContent": false
+    },
+    {
+      "origin": "xaeroworldmap-neoforge-1.21.1-1.44.2.jar!/META-INF/jarjar/xaerolib-neoforge-1.21.1-1.7.1.jar",
+      "sha256": "1838f3d36bdf87de9dd749255651313c6dbe517f57f9b01a041191cee7ed3620",
+      "bytes": 568320,
+      "duplicateContent": true
+    },
+    {
+      "origin": "yet_another_config_lib_v3-3.8.2+1.21.1-neoforge.jar!/META-INF/jarjar/common-image-3.12.0.jar",
+      "sha256": "62a3821c724fadfda346c1e2d83b0c506a0c4074be269a52bf4e3192c7dd92bc",
+      "bytes": 79655,
+      "duplicateContent": false
+    },
+    {
+      "origin": "yet_another_config_lib_v3-3.8.2+1.21.1-neoforge.jar!/META-INF/jarjar/common-io-3.12.0.jar",
+      "sha256": "bfacfeb02acac47dbfd1fab0002eaeca65547d04249498b654320c9e0fdf6647",
+      "bytes": 92346,
+      "duplicateContent": false
+    },
+    {
+      "origin": "yet_another_config_lib_v3-3.8.2+1.21.1-neoforge.jar!/META-INF/jarjar/common-lang-3.12.0.jar",
+      "sha256": "5c65e504b5b64d80683e0fa70a1dd154dd83d4de7da37f21e950f5a9c03bc66d",
+      "bytes": 121817,
+      "duplicateContent": false
+    },
+    {
+      "origin": "yet_another_config_lib_v3-3.8.2+1.21.1-neoforge.jar!/META-INF/jarjar/gson-0.2.1.jar",
+      "sha256": "4ef02cf5a6e54cf32ced063002a7a243b6086e2886905274faf2f0a80babf2c9",
+      "bytes": 4409,
+      "duplicateContent": false
+    },
+    {
+      "origin": "yet_another_config_lib_v3-3.8.2+1.21.1-neoforge.jar!/META-INF/jarjar/imageio-core-3.12.0.jar",
+      "sha256": "34c6f91bf3b217ed0115bce8283238fbd0264562aa682b4226a3960d0ede9815",
+      "bytes": 119909,
+      "duplicateContent": false
+    },
+    {
+      "origin": "yet_another_config_lib_v3-3.8.2+1.21.1-neoforge.jar!/META-INF/jarjar/imageio-metadata-3.12.0.jar",
+      "sha256": "797d026b67d07e6d5eb00a1ab53a55acaab6f80a71c5ee325572093eb90c0caa",
+      "bytes": 83615,
+      "duplicateContent": false
+    },
+    {
+      "origin": "yet_another_config_lib_v3-3.8.2+1.21.1-neoforge.jar!/META-INF/jarjar/imageio-webp-3.12.0.jar",
+      "sha256": "43dc447ccfe34c5c5c6f5d31190270e1f9bf65f60375d697ae2a8ff433468526",
+      "bytes": 79713,
+      "duplicateContent": false
+    },
+    {
+      "origin": "yet_another_config_lib_v3-3.8.2+1.21.1-neoforge.jar!/META-INF/jarjar/json-0.2.1.jar",
+      "sha256": "5a9c7d005c7c4b07474b8e07e25f33116a923f7db19c92673f1ac47461f8a57d",
+      "bytes": 23025,
+      "duplicateContent": false
+    }
+  ],
+  "matches": [],
+  "errors": [],
+  "limits": "Data references only. No code-generated trade/acquisition, runtime condition/priority evaluation, source enabling, recipe changes or production access."
+}

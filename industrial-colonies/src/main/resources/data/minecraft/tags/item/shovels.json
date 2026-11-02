@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "modernfoundry:mattock",
+      "required": false
+    },
+    {
+      "id": "modernfoundry:pickadze",
+      "required": false
+    },
+    {
+      "id": "modernfoundry:excavator",
+      "required": false
+    }
+  ]
+}

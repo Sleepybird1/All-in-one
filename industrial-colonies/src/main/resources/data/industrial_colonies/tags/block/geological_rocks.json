@@ -1,0 +1,25 @@
+{
+  "replace": false,
+  "values": [
+    "industrial_colonies:sphalerite",
+    "industrial_colonies:chalcopyrite",
+    "industrial_colonies:hematite",
+    "industrial_colonies:magnetite",
+    "industrial_colonies:bauxite",
+    "industrial_colonies:cinnabar",
+    "industrial_colonies:spodumene_rock",
+    "industrial_colonies:argentite",
+    "industrial_colonies:wolframite_rock",
+    "industrial_colonies:pentlandite",
+    "industrial_colonies:galena",
+    "industrial_colonies:dolomite",
+    "industrial_colonies:graphite_rock",
+    "industrial_colonies:phosphate_rock",
+    "industrial_colonies:ultramafic_rock",
+    "industrial_colonies:ilmenite",
+    "industrial_colonies:bertrandite",
+    "industrial_colonies:borax_rock",
+    "industrial_colonies:cassiterite",
+    "industrial_colonies:chromite"
+  ]
+}

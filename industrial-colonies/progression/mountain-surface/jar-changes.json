@@ -1,0 +1,11 @@
+[
+  "META-INF/neoforge.mods.toml",
+  "data/industrial_colonies/tags/worldgen/structure/summit_only.json",
+  "data/industrial_colonies/tags/worldgen/structure/terrain_fitting_exempt.json",
+  "dev/godpc/industrialcolonies/mixin/MountainSurfaceMixin.class",
+  "dev/godpc/industrialcolonies/mixin/SurfaceStructureTerrainMixin.class",
+  "dev/godpc/industrialcolonies/worldgen/MountainSurface.class",
+  "dev/godpc/industrialcolonies/worldgen/SurfaceStructureTerrain$Ground.class",
+  "dev/godpc/industrialcolonies/worldgen/SurfaceStructureTerrain.class",
+  "industrial_colonies.mixins.json"
+]

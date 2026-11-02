@@ -1,0 +1,143 @@
+{
+  "structures": [
+    {
+      "structure": "betterdungeons:small_dungeon",
+      "weight": 150
+    },
+    {
+      "structure": "block_factorys_bosses:sandworm_nest",
+      "weight": 150
+    },
+    {
+      "structure": "block_factorys_bosses:yeti_hideout",
+      "weight": 150
+    },
+    {
+      "structure": "bosses_of_mass_destruction:lich_tower",
+      "weight": 150
+    },
+    {
+      "structure": "bosses_of_mass_destruction:void_blossom",
+      "weight": 150
+    },
+    {
+      "structure": "cataclysm:abandoned_spire",
+      "weight": 150
+    },
+    {
+      "structure": "cataclysm:abandoned_temple",
+      "weight": 150
+    },
+    {
+      "structure": "cataclysm:amethyst_nest",
+      "weight": 150
+    },
+    {
+      "structure": "cataclysm:desert_site",
+      "weight": 150
+    },
+    {
+      "structure": "cataclysm:desert_temple",
+      "weight": 150
+    },
+    {
+      "structure": "ctov:pillager_outpost_badlands",
+      "weight": 150
+    },
+    {
+      "structure": "ctov:pillager_outpost_beach",
+      "weight": 150
+    },
+    {
+      "structure": "ctov:pillager_outpost_dark_forest",
+      "weight": 150
+    },
+    {
+      "structure": "ctov:pillager_outpost_desert",
+      "weight": 150
+    },
+    {
+      "structure": "ctov:pillager_outpost_jungle",
+      "weight": 150
+    },
+    {
+      "structure": "ctov:pillager_outpost_mesa",
+      "weight": 150
+    },
+    {
+      "structure": "ctov:pillager_outpost_mountain",
+      "weight": 150
+    },
+    {
+      "structure": "ctov:pillager_outpost_plains",
+      "weight": 150
+    },
+    {
+      "structure": "ctov:pillager_outpost_savanna",
+      "weight": 150
+    },
+    {
+      "structure": "ctov:pillager_outpost_snowy",
+      "weight": 150
+    },
+    {
+      "structure": "ctov:pillager_outpost_swamp",
+      "weight": 150
+    },
+    {
+      "structure": "ctov:pillager_outpost_taiga",
+      "weight": 150
+    },
+    {
+      "structure": "friendsandfoes:illusioner_training_grounds",
+      "weight": 150
+    },
+    {
+      "structure": "irons_spellbooks:mountain_tower",
+      "weight": 150
+    },
+    {
+      "structure": "minecraft:desert_pyramid",
+      "weight": 150
+    },
+    {
+      "structure": "minecraft:jungle_pyramid",
+      "weight": 150
+    },
+    {
+      "structure": "minecraft:pillager_outpost",
+      "weight": 150
+    },
+    {
+      "structure": "mowziesmobs:frostmaw_spawn",
+      "weight": 150
+    },
+    {
+      "structure": "mowziesmobs:umvuthana_grove",
+      "weight": 150
+    },
+    {
+      "structure": "mowziesmobs:wrought_chamber",
+      "weight": 150
+    },
+    {
+      "structure": "supplementaries:road_sign",
+      "weight": 5
+    },
+    {
+      "structure": "stellaris:earth_satellite",
+      "weight": 150
+    },
+    {
+      "structure": "stellaris:earth_operation_base",
+      "weight": 150
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 196109122,
+    "spacing": 175,
+    "separation": 125,
+    "frequency": 1.0
+  }
+}

@@ -1,8 +1,10 @@
+// Original recipe review: registrations retained below, temporarily inactive.
+function IC_originalRecipeReview_skip() {}
 // Industrial Colonies - canonical solid cast iron
 // TFMG owns player-facing cast-iron solids. Create Big Cannons keeps its
 // 90 mB molten cast iron and cannon machinery as a compatible processing layer.
 
-ServerEvents.tags('item', event => {
+IC_originalRecipeReview_skip('item', event => {
   const canonicalCastIronTags = {
     'c:ingots/cast_iron': ['tfmg:cast_iron_ingot'],
     'c:nuggets/cast_iron': ['tfmg:cast_iron_nugget'],
@@ -16,7 +18,7 @@ ServerEvents.tags('item', event => {
   })
 })
 
-ServerEvents.recipes(event => {
+IC_originalRecipeReview_skip(event => {
   const removedCastIronDuplicates = [
     'createbigcannons:cast_iron_block',
     'createbigcannons:cast_iron_ingot_from_block',

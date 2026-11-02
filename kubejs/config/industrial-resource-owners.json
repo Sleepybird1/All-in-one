@@ -1,0 +1,4869 @@
+{
+  "rules": [
+    {
+      "form": "sheet",
+      "material": "zinc",
+      "canonical": "createaddition:zinc_sheet",
+      "alternatives": [
+        "createcasing:zinc_sheet"
+      ]
+    },
+    {
+      "form": "ingot",
+      "material": "steel",
+      "canonical": "mekanism:ingot_steel",
+      "alternatives": [
+        "ad_astra:steel_ingot",
+        "createbigcannons:steel_ingot",
+        "createmetallurgy:steel_ingot",
+        "immersiveengineering:ingot_steel",
+        "modernfoundry:steel_ingot",
+        "nuclearcraft:steel_ingot",
+        "stellaris:steel_ingot",
+        "tfmg:steel_ingot"
+      ]
+    },
+    {
+      "form": "ingot",
+      "material": "tin",
+      "canonical": "mekanism:ingot_tin",
+      "alternatives": [
+        "nuclearcraft:tin_ingot"
+      ]
+    },
+    {
+      "form": "ingot",
+      "material": "platinum",
+      "canonical": "rocketnautics_addon:platinum_ingot",
+      "alternatives": [
+        "nuclearcraft:platinum_ingot"
+      ]
+    },
+    {
+      "form": "ingot",
+      "material": "nickel",
+      "canonical": "tfmg:nickel_ingot",
+      "alternatives": [
+        "immersiveengineering:ingot_nickel"
+      ]
+    },
+    {
+      "form": "ingot",
+      "material": "lead",
+      "canonical": "tfmg:lead_ingot",
+      "alternatives": [
+        "immersiveengineering:ingot_lead",
+        "mekanism:ingot_lead",
+        "nuclearcraft:lead_ingot"
+      ]
+    },
+    {
+      "form": "ingot",
+      "material": "lithium",
+      "canonical": "tfmg:lithium_ingot",
+      "alternatives": [
+        "nuclearcraft:lithium_ingot"
+      ]
+    },
+    {
+      "form": "ingot",
+      "material": "aluminum",
+      "canonical": "tfmg:aluminum_ingot",
+      "alternatives": [
+        "immersiveengineering:ingot_aluminum",
+        "nuclearcraft:aluminum_ingot"
+      ]
+    },
+    {
+      "form": "ingot",
+      "material": "electrum",
+      "canonical": "createaddition:electrum_ingot",
+      "alternatives": [
+        "immersiveengineering:ingot_electrum",
+        "nuclearcraft:electrum_ingot"
+      ]
+    },
+    {
+      "form": "ingot",
+      "material": "osmium",
+      "canonical": "mekanism:ingot_osmium",
+      "alternatives": [
+        "nuclearcraft:osmium_ingot"
+      ]
+    },
+    {
+      "form": "ingot",
+      "material": "tungsten",
+      "canonical": "createmetallurgy:tungsten_ingot",
+      "alternatives": [
+        "nuclearcraft:tungsten_ingot"
+      ]
+    },
+    {
+      "form": "sheet",
+      "material": "tungsten",
+      "canonical": "createmetallurgy:tungsten_sheet",
+      "alternatives": []
+    },
+    {
+      "form": "ingot",
+      "material": "bronze",
+      "canonical": "mekanism:ingot_bronze",
+      "alternatives": [
+        "createbigcannons:bronze_ingot",
+        "createmechanisms:bronze",
+        "nuclearcraft:bronze_ingot"
+      ]
+    },
+    {
+      "form": "ingot",
+      "material": "silver",
+      "canonical": "immersiveengineering:ingot_silver",
+      "alternatives": [
+        "iceandfire:silver_ingot",
+        "nuclearcraft:silver_ingot"
+      ]
+    },
+    {
+      "form": "ingot",
+      "material": "titanium",
+      "canonical": "rocketnautics:titanium_ingot",
+      "alternatives": [
+        "nuclearcraft:titanium_ingot"
+      ]
+    },
+    {
+      "form": "ingot",
+      "material": "zinc",
+      "canonical": "create:zinc_ingot",
+      "alternatives": [
+        "nuclearcraft:zinc_ingot"
+      ]
+    },
+    {
+      "form": "ingot",
+      "material": "desh",
+      "canonical": "stellaris:desh_ingot",
+      "alternatives": [
+        "ad_astra:desh_ingot",
+        "rocketnautics_addon:desh_ingot"
+      ]
+    },
+    {
+      "form": "ingot",
+      "material": "cast_iron",
+      "canonical": "tfmg:cast_iron_ingot",
+      "alternatives": [
+        "createbigcannons:cast_iron_ingot"
+      ]
+    },
+    {
+      "form": "ingot",
+      "material": "constantan",
+      "canonical": "tfmg:constantan_ingot",
+      "alternatives": [
+        "immersiveengineering:ingot_constantan"
+      ]
+    },
+    {
+      "form": "ingot",
+      "material": "cobalt",
+      "canonical": "modernfoundry:cobalt_ingot",
+      "alternatives": [
+        "nuclearcraft:cobalt_ingot"
+      ]
+    },
+    {
+      "form": "ingot",
+      "material": "uranium",
+      "canonical": "mekanism:ingot_uranium",
+      "alternatives": [
+        "immersiveengineering:ingot_uranium",
+        "nuclearcraft:uranium_ingot",
+        "stellaris:uranium_ingot"
+      ]
+    },
+    {
+      "form": "raw",
+      "material": "uranium",
+      "canonical": "mekanism:raw_uranium",
+      "alternatives": [
+        "immersiveengineering:raw_uranium",
+        "nuclearcraft:raw_uranium",
+        "stellaris:raw_uranium"
+      ]
+    },
+    {
+      "form": "raw",
+      "material": "lead",
+      "canonical": "tfmg:raw_lead",
+      "alternatives": [
+        "immersiveengineering:raw_lead",
+        "mekanism:raw_lead",
+        "nuclearcraft:raw_lead"
+      ]
+    },
+    {
+      "form": "raw",
+      "material": "nickel",
+      "canonical": "tfmg:raw_nickel",
+      "alternatives": [
+        "immersiveengineering:raw_nickel"
+      ]
+    },
+    {
+      "form": "raw",
+      "material": "lithium",
+      "canonical": "tfmg:raw_lithium",
+      "alternatives": [
+        "nuclearcraft:raw_lithium"
+      ]
+    },
+    {
+      "form": "raw",
+      "material": "tungsten",
+      "canonical": "createmetallurgy:raw_tungsten",
+      "alternatives": []
+    },
+    {
+      "form": "raw",
+      "material": "cobalt",
+      "canonical": "modernfoundry:raw_cobalt",
+      "alternatives": [
+        "nuclearcraft:raw_cobalt"
+      ]
+    },
+    {
+      "form": "raw",
+      "material": "desh",
+      "canonical": "ad_astra:raw_desh",
+      "alternatives": [
+        "rocketnautics_addon:raw_desh",
+        "stellaris:raw_desh_ingot"
+      ]
+    },
+    {
+      "form": "raw",
+      "material": "silver",
+      "canonical": "nuclearcraft:raw_silver",
+      "alternatives": [
+        "iceandfire:raw_silver",
+        "immersiveengineering:raw_silver"
+      ]
+    },
+    {
+      "form": "raw",
+      "material": "tin",
+      "canonical": "mekanism:raw_tin",
+      "alternatives": [
+        "nuclearcraft:raw_tin"
+      ]
+    },
+    {
+      "form": "raw",
+      "material": "zinc",
+      "canonical": "create:raw_zinc",
+      "alternatives": [
+        "nuclearcraft:raw_zinc"
+      ]
+    },
+    {
+      "form": "raw",
+      "material": "platinum",
+      "canonical": "rocketnautics_addon:raw_platinum",
+      "alternatives": [
+        "nuclearcraft:raw_platinum"
+      ]
+    },
+    {
+      "form": "plate",
+      "material": "iron",
+      "canonical": "immersiveengineering:plate_iron",
+      "alternatives": [
+        "ad_astra:iron_plate",
+        "nuclearcraft:iron_plate",
+        "quark:iron_plate",
+        "moreplates:iron_plate"
+      ]
+    },
+    {
+      "form": "plate",
+      "material": "aluminum",
+      "canonical": "immersiveengineering:plate_aluminum",
+      "alternatives": [
+        "nuclearcraft:aluminum_plate",
+        "moreplates:aluminum_plate"
+      ]
+    },
+    {
+      "form": "plate",
+      "material": "electrum",
+      "canonical": "immersiveengineering:plate_electrum",
+      "alternatives": [
+        "nuclearcraft:electrum_plate",
+        "moreplates:electrum_plate"
+      ]
+    },
+    {
+      "form": "plate",
+      "material": "silver",
+      "canonical": "immersiveengineering:plate_silver",
+      "alternatives": [
+        "nuclearcraft:silver_plate",
+        "moreplates:silver_plate"
+      ]
+    },
+    {
+      "form": "plate",
+      "material": "steel",
+      "canonical": "immersiveengineering:plate_steel",
+      "alternatives": [
+        "ad_astra:steel_plate",
+        "nuclearcraft:steel_plate",
+        "moreplates:steel_plate"
+      ]
+    },
+    {
+      "form": "plate",
+      "material": "lead",
+      "canonical": "immersiveengineering:plate_lead",
+      "alternatives": [
+        "nuclearcraft:lead_plate",
+        "moreplates:lead_plate"
+      ]
+    },
+    {
+      "form": "plate",
+      "material": "uranium",
+      "canonical": "immersiveengineering:plate_uranium",
+      "alternatives": [
+        "nuclearcraft:uranium_plate",
+        "moreplates:uranium_plate"
+      ]
+    },
+    {
+      "form": "plate",
+      "material": "copper",
+      "canonical": "immersiveengineering:plate_copper",
+      "alternatives": [
+        "nuclearcraft:copper_plate",
+        "moreplates:copper_plate"
+      ]
+    },
+    {
+      "form": "rod",
+      "material": "iron",
+      "canonical": "createaddition:iron_rod",
+      "alternatives": [
+        "immersiveengineering:stick_iron",
+        "ad_astra:iron_rod",
+        "moreplates:iron_rod"
+      ]
+    },
+    {
+      "form": "rod",
+      "material": "steel",
+      "canonical": "immersiveengineering:stick_steel",
+      "alternatives": [
+        "ad_astra:steel_rod",
+        "moreplates:steel_rod"
+      ]
+    },
+    {
+      "form": "dust",
+      "material": "sulfur",
+      "canonical": "tfmg:sulfur_dust",
+      "alternatives": [
+        "alexscaves:sulfur_dust",
+        "immersiveengineering:dust_sulfur",
+        "mekanism:dust_sulfur",
+        "nuclearcraft:sulfur_dust",
+        "rocketnautics_addon:sulfur_dust"
+      ]
+    },
+    {
+      "form": "rock",
+      "material": "galena",
+      "canonical": "tfmg:galena",
+      "alternatives": [
+        "industrial_colonies:galena"
+      ]
+    },
+    {
+      "form": "crushed",
+      "material": "galena",
+      "canonical": "create:crushed_raw_lead",
+      "alternatives": [
+        "industrial_colonies:galena_dust"
+      ]
+    },
+    {
+      "form": "dust",
+      "material": "uranium",
+      "canonical": "immersiveengineering:dust_uranium",
+      "alternatives": [
+        "nuclearcraft:uranium_dust"
+      ]
+    },
+    {
+      "form": "nugget",
+      "material": "uranium",
+      "canonical": "immersiveengineering:nugget_uranium",
+      "alternatives": [
+        "nuclearcraft:uranium_nugget"
+      ]
+    },
+    {
+      "form": "dust",
+      "material": "silver",
+      "canonical": "immersiveengineering:dust_silver",
+      "alternatives": [
+        "nuclearcraft:silver_dust"
+      ]
+    },
+    {
+      "form": "nugget",
+      "material": "silver",
+      "canonical": "immersiveengineering:nugget_silver",
+      "alternatives": [
+        "nuclearcraft:silver_nugget"
+      ]
+    },
+    {
+      "form": "dust",
+      "material": "lead",
+      "canonical": "immersiveengineering:dust_lead",
+      "alternatives": [
+        "nuclearcraft:lead_dust"
+      ]
+    },
+    {
+      "form": "nugget",
+      "material": "lead",
+      "canonical": "tfmg:lead_nugget",
+      "alternatives": [
+        "nuclearcraft:lead_nugget"
+      ]
+    },
+    {
+      "form": "nugget",
+      "material": "lithium",
+      "canonical": "tfmg:lithium_nugget",
+      "alternatives": [
+        "nuclearcraft:lithium_nugget"
+      ]
+    },
+    {
+      "form": "dust",
+      "material": "steel",
+      "canonical": "immersiveengineering:dust_steel",
+      "alternatives": [
+        "nuclearcraft:steel_dust"
+      ]
+    },
+    {
+      "form": "nugget",
+      "material": "steel",
+      "canonical": "tfmg:steel_nugget",
+      "alternatives": [
+        "nuclearcraft:steel_nugget"
+      ]
+    },
+    {
+      "form": "dust",
+      "material": "electrum",
+      "canonical": "immersiveengineering:dust_electrum",
+      "alternatives": [
+        "nuclearcraft:electrum_dust"
+      ]
+    },
+    {
+      "form": "nugget",
+      "material": "electrum",
+      "canonical": "immersiveengineering:nugget_electrum",
+      "alternatives": [
+        "nuclearcraft:electrum_nugget"
+      ]
+    },
+    {
+      "form": "dust",
+      "material": "aluminum",
+      "canonical": "immersiveengineering:dust_aluminum",
+      "alternatives": [
+        "nuclearcraft:aluminum_dust"
+      ]
+    },
+    {
+      "form": "nugget",
+      "material": "aluminum",
+      "canonical": "tfmg:aluminum_nugget",
+      "alternatives": [
+        "nuclearcraft:aluminum_nugget"
+      ]
+    },
+    {
+      "form": "dust",
+      "material": "copper",
+      "canonical": "immersiveengineering:dust_copper",
+      "alternatives": [
+        "nuclearcraft:copper_dust"
+      ]
+    },
+    {
+      "form": "dust",
+      "material": "iron",
+      "canonical": "immersiveengineering:dust_iron",
+      "alternatives": [
+        "nuclearcraft:iron_dust"
+      ]
+    },
+    {
+      "form": "dust",
+      "material": "gold",
+      "canonical": "immersiveengineering:dust_gold",
+      "alternatives": [
+        "nuclearcraft:gold_dust"
+      ]
+    },
+    {
+      "material": "calorite",
+      "form": "plate",
+      "canonical": "ad_astra:calorite_plate",
+      "alternatives": [
+        "moreplates:calorite_plate"
+      ]
+    },
+    {
+      "material": "calorite",
+      "form": "rod",
+      "canonical": "industrial_colonies:material_parts/calorite_rod",
+      "alternatives": [
+        "moreplates:calorite_rod"
+      ]
+    },
+    {
+      "material": "calorite",
+      "form": "gear",
+      "canonical": "industrial_colonies:material_parts/calorite_gear",
+      "alternatives": [
+        "moreplates:calorite_gear"
+      ]
+    },
+    {
+      "material": "desh",
+      "form": "plate",
+      "canonical": "ad_astra:desh_plate",
+      "alternatives": [
+        "moreplates:desh_plate"
+      ]
+    },
+    {
+      "material": "desh",
+      "form": "rod",
+      "canonical": "industrial_colonies:material_parts/desh_rod",
+      "alternatives": [
+        "moreplates:desh_rod"
+      ]
+    },
+    {
+      "material": "desh",
+      "form": "gear",
+      "canonical": "industrial_colonies:material_parts/desh_gear",
+      "alternatives": [
+        "moreplates:desh_gear"
+      ]
+    },
+    {
+      "material": "etrium",
+      "form": "plate",
+      "canonical": "ad_astra:etrium_plate",
+      "alternatives": [
+        "moreplates:etrium_plate"
+      ]
+    },
+    {
+      "material": "etrium",
+      "form": "rod",
+      "canonical": "ad_astra:etrium_rod",
+      "alternatives": [
+        "moreplates:etrium_rod"
+      ]
+    },
+    {
+      "material": "etrium",
+      "form": "gear",
+      "canonical": "industrial_colonies:material_parts/etrium_gear",
+      "alternatives": [
+        "moreplates:etrium_gear"
+      ]
+    },
+    {
+      "material": "ostrum",
+      "form": "plate",
+      "canonical": "ad_astra:ostrum_plate",
+      "alternatives": [
+        "moreplates:ostrum_plate"
+      ]
+    },
+    {
+      "material": "ostrum",
+      "form": "rod",
+      "canonical": "industrial_colonies:material_parts/ostrum_rod",
+      "alternatives": [
+        "moreplates:ostrum_rod"
+      ]
+    },
+    {
+      "material": "ostrum",
+      "form": "gear",
+      "canonical": "industrial_colonies:material_parts/ostrum_gear",
+      "alternatives": [
+        "moreplates:ostrum_gear"
+      ]
+    },
+    {
+      "material": "allthemodium",
+      "form": "plate",
+      "canonical": "allthemodium:allthemodium_plate",
+      "alternatives": [
+        "moreplates:allthemodium_plate"
+      ]
+    },
+    {
+      "material": "allthemodium",
+      "form": "rod",
+      "canonical": "allthemodium:allthemodium_rod",
+      "alternatives": [
+        "moreplates:allthemodium_rod"
+      ]
+    },
+    {
+      "material": "allthemodium",
+      "form": "gear",
+      "canonical": "allthemodium:allthemodium_gear",
+      "alternatives": [
+        "moreplates:allthemodium_gear"
+      ]
+    },
+    {
+      "material": "unobtainium_allthemodium_alloy",
+      "form": "plate",
+      "canonical": "industrial_colonies:material_parts/unobtainium_allthemodium_alloy_plate",
+      "alternatives": [
+        "moreplates:unobtainium_allthemodium_alloy_plate"
+      ]
+    },
+    {
+      "material": "unobtainium_allthemodium_alloy",
+      "form": "rod",
+      "canonical": "industrial_colonies:material_parts/unobtainium_allthemodium_alloy_rod",
+      "alternatives": [
+        "moreplates:unobtainium_allthemodium_alloy_rod"
+      ]
+    },
+    {
+      "material": "unobtainium_allthemodium_alloy",
+      "form": "gear",
+      "canonical": "industrial_colonies:material_parts/unobtainium_allthemodium_alloy_gear",
+      "alternatives": [
+        "moreplates:unobtainium_allthemodium_alloy_gear"
+      ]
+    },
+    {
+      "material": "unobtainium",
+      "form": "plate",
+      "canonical": "allthemodium:unobtainium_plate",
+      "alternatives": [
+        "moreplates:unobtainium_plate"
+      ]
+    },
+    {
+      "material": "unobtainium",
+      "form": "rod",
+      "canonical": "allthemodium:unobtainium_rod",
+      "alternatives": [
+        "moreplates:unobtainium_rod"
+      ]
+    },
+    {
+      "material": "unobtainium",
+      "form": "gear",
+      "canonical": "allthemodium:unobtainium_gear",
+      "alternatives": [
+        "moreplates:unobtainium_gear"
+      ]
+    },
+    {
+      "material": "unobtainium_vibranium_alloy",
+      "form": "plate",
+      "canonical": "industrial_colonies:material_parts/unobtainium_vibranium_alloy_plate",
+      "alternatives": [
+        "moreplates:unobtainium_vibranium_alloy_plate"
+      ]
+    },
+    {
+      "material": "unobtainium_vibranium_alloy",
+      "form": "rod",
+      "canonical": "industrial_colonies:material_parts/unobtainium_vibranium_alloy_rod",
+      "alternatives": [
+        "moreplates:unobtainium_vibranium_alloy_rod"
+      ]
+    },
+    {
+      "material": "unobtainium_vibranium_alloy",
+      "form": "gear",
+      "canonical": "industrial_colonies:material_parts/unobtainium_vibranium_alloy_gear",
+      "alternatives": [
+        "moreplates:unobtainium_vibranium_alloy_gear"
+      ]
+    },
+    {
+      "material": "vibranium_allthemodium_alloy",
+      "form": "plate",
+      "canonical": "industrial_colonies:material_parts/vibranium_allthemodium_alloy_plate",
+      "alternatives": [
+        "moreplates:vibranium_allthemodium_alloy_plate"
+      ]
+    },
+    {
+      "material": "vibranium_allthemodium_alloy",
+      "form": "rod",
+      "canonical": "industrial_colonies:material_parts/vibranium_allthemodium_alloy_rod",
+      "alternatives": [
+        "moreplates:vibranium_allthemodium_alloy_rod"
+      ]
+    },
+    {
+      "material": "vibranium_allthemodium_alloy",
+      "form": "gear",
+      "canonical": "industrial_colonies:material_parts/vibranium_allthemodium_alloy_gear",
+      "alternatives": [
+        "moreplates:vibranium_allthemodium_alloy_gear"
+      ]
+    },
+    {
+      "material": "vibranium",
+      "form": "plate",
+      "canonical": "allthemodium:vibranium_plate",
+      "alternatives": [
+        "moreplates:vibranium_plate"
+      ]
+    },
+    {
+      "material": "vibranium",
+      "form": "rod",
+      "canonical": "allthemodium:vibranium_rod",
+      "alternatives": [
+        "moreplates:vibranium_rod"
+      ]
+    },
+    {
+      "material": "vibranium",
+      "form": "gear",
+      "canonical": "allthemodium:vibranium_gear",
+      "alternatives": [
+        "moreplates:vibranium_gear"
+      ]
+    },
+    {
+      "material": "neptunium",
+      "form": "plate",
+      "canonical": "industrial_colonies:material_parts/neptunium_plate",
+      "alternatives": [
+        "moreplates:neptunium_plate"
+      ]
+    },
+    {
+      "material": "neptunium",
+      "form": "rod",
+      "canonical": "industrial_colonies:material_parts/neptunium_rod",
+      "alternatives": [
+        "moreplates:neptunium_rod"
+      ]
+    },
+    {
+      "material": "neptunium",
+      "form": "gear",
+      "canonical": "industrial_colonies:material_parts/neptunium_gear",
+      "alternatives": [
+        "moreplates:neptunium_gear"
+      ]
+    },
+    {
+      "material": "blutonium",
+      "form": "plate",
+      "canonical": "industrial_colonies:material_parts/blutonium_plate",
+      "alternatives": [
+        "moreplates:blutonium_plate"
+      ]
+    },
+    {
+      "material": "blutonium",
+      "form": "rod",
+      "canonical": "industrial_colonies:material_parts/blutonium_rod",
+      "alternatives": [
+        "moreplates:blutonium_rod"
+      ]
+    },
+    {
+      "material": "blutonium",
+      "form": "gear",
+      "canonical": "industrial_colonies:material_parts/blutonium_gear",
+      "alternatives": [
+        "moreplates:blutonium_gear"
+      ]
+    },
+    {
+      "material": "cyanite",
+      "form": "plate",
+      "canonical": "industrial_colonies:material_parts/cyanite_plate",
+      "alternatives": [
+        "moreplates:cyanite_plate"
+      ]
+    },
+    {
+      "material": "cyanite",
+      "form": "rod",
+      "canonical": "industrial_colonies:material_parts/cyanite_rod",
+      "alternatives": [
+        "moreplates:cyanite_rod"
+      ]
+    },
+    {
+      "material": "cyanite",
+      "form": "gear",
+      "canonical": "industrial_colonies:material_parts/cyanite_gear",
+      "alternatives": [
+        "moreplates:cyanite_gear"
+      ]
+    },
+    {
+      "material": "graphite",
+      "form": "plate",
+      "canonical": "industrial_colonies:material_parts/graphite_plate",
+      "alternatives": [
+        "moreplates:graphite_plate",
+        "nuclearcraft:graphite_plate"
+      ]
+    },
+    {
+      "material": "graphite",
+      "form": "rod",
+      "canonical": "industrial_colonies:material_parts/graphite_rod",
+      "alternatives": [
+        "moreplates:graphite_rod"
+      ]
+    },
+    {
+      "material": "graphite",
+      "form": "gear",
+      "canonical": "industrial_colonies:material_parts/graphite_gear",
+      "alternatives": [
+        "moreplates:graphite_gear"
+      ]
+    },
+    {
+      "material": "inanite",
+      "form": "plate",
+      "canonical": "industrial_colonies:material_parts/inanite_plate",
+      "alternatives": [
+        "moreplates:inanite_plate"
+      ]
+    },
+    {
+      "material": "inanite",
+      "form": "rod",
+      "canonical": "industrial_colonies:material_parts/inanite_rod",
+      "alternatives": [
+        "moreplates:inanite_rod"
+      ]
+    },
+    {
+      "material": "inanite",
+      "form": "gear",
+      "canonical": "industrial_colonies:material_parts/inanite_gear",
+      "alternatives": [
+        "moreplates:inanite_gear"
+      ]
+    },
+    {
+      "material": "insanite",
+      "form": "plate",
+      "canonical": "industrial_colonies:material_parts/insanite_plate",
+      "alternatives": [
+        "moreplates:insanite_plate"
+      ]
+    },
+    {
+      "material": "insanite",
+      "form": "rod",
+      "canonical": "industrial_colonies:material_parts/insanite_rod",
+      "alternatives": [
+        "moreplates:insanite_rod"
+      ]
+    },
+    {
+      "material": "insanite",
+      "form": "gear",
+      "canonical": "industrial_colonies:material_parts/insanite_gear",
+      "alternatives": [
+        "moreplates:insanite_gear"
+      ]
+    },
+    {
+      "material": "ludicrite",
+      "form": "plate",
+      "canonical": "industrial_colonies:material_parts/ludicrite_plate",
+      "alternatives": [
+        "moreplates:ludicrite_plate"
+      ]
+    },
+    {
+      "material": "ludicrite",
+      "form": "rod",
+      "canonical": "industrial_colonies:material_parts/ludicrite_rod",
+      "alternatives": [
+        "moreplates:ludicrite_rod"
+      ]
+    },
+    {
+      "material": "ludicrite",
+      "form": "gear",
+      "canonical": "industrial_colonies:material_parts/ludicrite_gear",
+      "alternatives": [
+        "moreplates:ludicrite_gear"
+      ]
+    },
+    {
+      "material": "magentite",
+      "form": "plate",
+      "canonical": "industrial_colonies:material_parts/magentite_plate",
+      "alternatives": [
+        "moreplates:magentite_plate"
+      ]
+    },
+    {
+      "material": "magentite",
+      "form": "rod",
+      "canonical": "industrial_colonies:material_parts/magentite_rod",
+      "alternatives": [
+        "moreplates:magentite_rod"
+      ]
+    },
+    {
+      "material": "magentite",
+      "form": "gear",
+      "canonical": "industrial_colonies:material_parts/magentite_gear",
+      "alternatives": [
+        "moreplates:magentite_gear"
+      ]
+    },
+    {
+      "material": "ridiculite",
+      "form": "plate",
+      "canonical": "industrial_colonies:material_parts/ridiculite_plate",
+      "alternatives": [
+        "moreplates:ridiculite_plate"
+      ]
+    },
+    {
+      "material": "ridiculite",
+      "form": "rod",
+      "canonical": "industrial_colonies:material_parts/ridiculite_rod",
+      "alternatives": [
+        "moreplates:ridiculite_rod"
+      ]
+    },
+    {
+      "material": "ridiculite",
+      "form": "gear",
+      "canonical": "industrial_colonies:material_parts/ridiculite_gear",
+      "alternatives": [
+        "moreplates:ridiculite_gear"
+      ]
+    },
+    {
+      "material": "yellorium",
+      "form": "plate",
+      "canonical": "industrial_colonies:material_parts/yellorium_plate",
+      "alternatives": [
+        "moreplates:yellorium_plate"
+      ]
+    },
+    {
+      "material": "yellorium",
+      "form": "rod",
+      "canonical": "industrial_colonies:material_parts/yellorium_rod",
+      "alternatives": [
+        "moreplates:yellorium_rod"
+      ]
+    },
+    {
+      "material": "yellorium",
+      "form": "gear",
+      "canonical": "industrial_colonies:material_parts/yellorium_gear",
+      "alternatives": [
+        "moreplates:yellorium_gear"
+      ]
+    },
+    {
+      "material": "ancient_metal",
+      "form": "plate",
+      "canonical": "industrial_colonies:material_parts/ancient_metal_plate",
+      "alternatives": [
+        "moreplates:ancient_metal_plate"
+      ]
+    },
+    {
+      "material": "ancient_metal",
+      "form": "rod",
+      "canonical": "industrial_colonies:material_parts/ancient_metal_rod",
+      "alternatives": [
+        "moreplates:ancient_metal_rod"
+      ]
+    },
+    {
+      "material": "ancient_metal",
+      "form": "gear",
+      "canonical": "industrial_colonies:material_parts/ancient_metal_gear",
+      "alternatives": [
+        "moreplates:ancient_metal_gear"
+      ]
+    },
+    {
+      "material": "black_steel",
+      "form": "plate",
+      "canonical": "industrial_colonies:material_parts/black_steel_plate",
+      "alternatives": [
+        "moreplates:black_steel_plate"
+      ]
+    },
+    {
+      "material": "black_steel",
+      "form": "rod",
+      "canonical": "industrial_colonies:material_parts/black_steel_rod",
+      "alternatives": [
+        "moreplates:black_steel_rod"
+      ]
+    },
+    {
+      "material": "black_steel",
+      "form": "gear",
+      "canonical": "industrial_colonies:material_parts/black_steel_gear",
+      "alternatives": [
+        "moreplates:black_steel_gear"
+      ]
+    },
+    {
+      "material": "cursium",
+      "form": "plate",
+      "canonical": "industrial_colonies:material_parts/cursium_plate",
+      "alternatives": [
+        "moreplates:cursium_plate"
+      ]
+    },
+    {
+      "material": "cursium",
+      "form": "rod",
+      "canonical": "industrial_colonies:material_parts/cursium_rod",
+      "alternatives": [
+        "moreplates:cursium_rod"
+      ]
+    },
+    {
+      "material": "cursium",
+      "form": "gear",
+      "canonical": "industrial_colonies:material_parts/cursium_gear",
+      "alternatives": [
+        "moreplates:cursium_gear"
+      ]
+    },
+    {
+      "material": "enderite",
+      "form": "plate",
+      "canonical": "industrial_colonies:material_parts/enderite_plate",
+      "alternatives": [
+        "moreplates:enderite_plate"
+      ]
+    },
+    {
+      "material": "enderite",
+      "form": "rod",
+      "canonical": "industrial_colonies:material_parts/enderite_rod",
+      "alternatives": [
+        "moreplates:enderite_rod"
+      ]
+    },
+    {
+      "material": "enderite",
+      "form": "gear",
+      "canonical": "industrial_colonies:material_parts/enderite_gear",
+      "alternatives": [
+        "moreplates:enderite_gear"
+      ]
+    },
+    {
+      "material": "ignitium",
+      "form": "plate",
+      "canonical": "industrial_colonies:material_parts/ignitium_plate",
+      "alternatives": [
+        "moreplates:ignitium_plate"
+      ]
+    },
+    {
+      "material": "ignitium",
+      "form": "rod",
+      "canonical": "industrial_colonies:material_parts/ignitium_rod",
+      "alternatives": [
+        "moreplates:ignitium_rod"
+      ]
+    },
+    {
+      "material": "ignitium",
+      "form": "gear",
+      "canonical": "industrial_colonies:material_parts/ignitium_gear",
+      "alternatives": [
+        "moreplates:ignitium_gear"
+      ]
+    },
+    {
+      "material": "witherite",
+      "form": "plate",
+      "canonical": "industrial_colonies:material_parts/witherite_plate",
+      "alternatives": [
+        "moreplates:witherite_plate"
+      ]
+    },
+    {
+      "material": "witherite",
+      "form": "rod",
+      "canonical": "industrial_colonies:material_parts/witherite_rod",
+      "alternatives": [
+        "moreplates:witherite_rod"
+      ]
+    },
+    {
+      "material": "witherite",
+      "form": "gear",
+      "canonical": "industrial_colonies:material_parts/witherite_gear",
+      "alternatives": [
+        "moreplates:witherite_gear"
+      ]
+    },
+    {
+      "material": "brass",
+      "form": "plate",
+      "canonical": "industrial_colonies:material_parts/brass_plate",
+      "alternatives": [
+        "moreplates:brass_plate"
+      ]
+    },
+    {
+      "material": "brass",
+      "form": "rod",
+      "canonical": "createaddition:brass_rod",
+      "alternatives": [
+        "moreplates:brass_rod"
+      ]
+    },
+    {
+      "material": "brass",
+      "form": "gear",
+      "canonical": "industrial_colonies:material_parts/brass_gear",
+      "alternatives": [
+        "moreplates:brass_gear"
+      ]
+    },
+    {
+      "material": "zinc",
+      "form": "rod",
+      "canonical": "industrial_colonies:material_parts/zinc_rod",
+      "alternatives": [
+        "moreplates:zinc_rod"
+      ]
+    },
+    {
+      "material": "zinc",
+      "form": "gear",
+      "canonical": "industrial_colonies:material_parts/zinc_gear",
+      "alternatives": [
+        "moreplates:zinc_gear"
+      ]
+    },
+    {
+      "material": "bronze",
+      "form": "plate",
+      "canonical": "industrial_colonies:material_parts/bronze_plate",
+      "alternatives": [
+        "moreplates:bronze_plate",
+        "nuclearcraft:bronze_plate"
+      ]
+    },
+    {
+      "material": "bronze",
+      "form": "rod",
+      "canonical": "industrial_colonies:material_parts/bronze_rod",
+      "alternatives": [
+        "moreplates:bronze_rod"
+      ]
+    },
+    {
+      "material": "bronze",
+      "form": "gear",
+      "canonical": "industrial_colonies:material_parts/bronze_gear",
+      "alternatives": [
+        "moreplates:bronze_gear"
+      ]
+    },
+    {
+      "material": "cast_iron",
+      "form": "plate",
+      "canonical": "industrial_colonies:material_parts/cast_iron_plate",
+      "alternatives": [
+        "moreplates:cast_iron_plate"
+      ]
+    },
+    {
+      "material": "cast_iron",
+      "form": "rod",
+      "canonical": "industrial_colonies:material_parts/cast_iron_rod",
+      "alternatives": [
+        "moreplates:cast_iron_rod"
+      ]
+    },
+    {
+      "material": "cast_iron",
+      "form": "gear",
+      "canonical": "industrial_colonies:material_parts/cast_iron_gear",
+      "alternatives": [
+        "moreplates:cast_iron_gear"
+      ]
+    },
+    {
+      "material": "nethersteel",
+      "form": "plate",
+      "canonical": "industrial_colonies:material_parts/nethersteel_plate",
+      "alternatives": [
+        "moreplates:nethersteel_plate"
+      ]
+    },
+    {
+      "material": "nethersteel",
+      "form": "rod",
+      "canonical": "industrial_colonies:material_parts/nethersteel_rod",
+      "alternatives": [
+        "moreplates:nethersteel_rod"
+      ]
+    },
+    {
+      "material": "nethersteel",
+      "form": "gear",
+      "canonical": "industrial_colonies:material_parts/nethersteel_gear",
+      "alternatives": [
+        "moreplates:nethersteel_gear"
+      ]
+    },
+    {
+      "material": "chorium",
+      "form": "plate",
+      "canonical": "industrial_colonies:material_parts/chorium_plate",
+      "alternatives": [
+        "moreplates:chorium_plate"
+      ]
+    },
+    {
+      "material": "chorium",
+      "form": "rod",
+      "canonical": "industrial_colonies:material_parts/chorium_rod",
+      "alternatives": [
+        "moreplates:chorium_rod"
+      ]
+    },
+    {
+      "material": "chorium",
+      "form": "gear",
+      "canonical": "industrial_colonies:material_parts/chorium_gear",
+      "alternatives": [
+        "moreplates:chorium_gear"
+      ]
+    },
+    {
+      "material": "obdurium",
+      "form": "plate",
+      "canonical": "industrial_colonies:material_parts/obdurium_plate",
+      "alternatives": [
+        "moreplates:obdurium_plate"
+      ]
+    },
+    {
+      "material": "obdurium",
+      "form": "rod",
+      "canonical": "industrial_colonies:material_parts/obdurium_rod",
+      "alternatives": [
+        "moreplates:obdurium_rod"
+      ]
+    },
+    {
+      "material": "obdurium",
+      "form": "gear",
+      "canonical": "industrial_colonies:material_parts/obdurium_gear",
+      "alternatives": [
+        "moreplates:obdurium_gear"
+      ]
+    },
+    {
+      "material": "entro",
+      "form": "plate",
+      "canonical": "industrial_colonies:material_parts/entro_plate",
+      "alternatives": [
+        "moreplates:entro_plate"
+      ]
+    },
+    {
+      "material": "entro",
+      "form": "rod",
+      "canonical": "industrial_colonies:material_parts/entro_rod",
+      "alternatives": [
+        "moreplates:entro_rod"
+      ]
+    },
+    {
+      "material": "entro",
+      "form": "gear",
+      "canonical": "industrial_colonies:material_parts/entro_gear",
+      "alternatives": [
+        "moreplates:entro_gear"
+      ]
+    },
+    {
+      "material": "industrial_iron",
+      "form": "plate",
+      "canonical": "industrial_colonies:material_parts/industrial_iron_plate",
+      "alternatives": [
+        "moreplates:industrial_iron_plate"
+      ]
+    },
+    {
+      "material": "industrial_iron",
+      "form": "rod",
+      "canonical": "industrial_colonies:material_parts/industrial_iron_rod",
+      "alternatives": [
+        "moreplates:industrial_iron_rod"
+      ]
+    },
+    {
+      "material": "industrial_iron",
+      "form": "gear",
+      "canonical": "industrial_colonies:material_parts/industrial_iron_gear",
+      "alternatives": [
+        "moreplates:industrial_iron_gear"
+      ]
+    },
+    {
+      "material": "dragonsteel_fire",
+      "form": "plate",
+      "canonical": "industrial_colonies:material_parts/dragonsteel_fire_plate",
+      "alternatives": [
+        "moreplates:dragonsteel_fire_plate"
+      ]
+    },
+    {
+      "material": "dragonsteel_fire",
+      "form": "rod",
+      "canonical": "industrial_colonies:material_parts/dragonsteel_fire_rod",
+      "alternatives": [
+        "moreplates:dragonsteel_fire_rod"
+      ]
+    },
+    {
+      "material": "dragonsteel_fire",
+      "form": "gear",
+      "canonical": "industrial_colonies:material_parts/dragonsteel_fire_gear",
+      "alternatives": [
+        "moreplates:dragonsteel_fire_gear"
+      ]
+    },
+    {
+      "material": "dragonsteel_ice",
+      "form": "plate",
+      "canonical": "industrial_colonies:material_parts/dragonsteel_ice_plate",
+      "alternatives": [
+        "moreplates:dragonsteel_ice_plate"
+      ]
+    },
+    {
+      "material": "dragonsteel_ice",
+      "form": "rod",
+      "canonical": "industrial_colonies:material_parts/dragonsteel_ice_rod",
+      "alternatives": [
+        "moreplates:dragonsteel_ice_rod"
+      ]
+    },
+    {
+      "material": "dragonsteel_ice",
+      "form": "gear",
+      "canonical": "industrial_colonies:material_parts/dragonsteel_ice_gear",
+      "alternatives": [
+        "moreplates:dragonsteel_ice_gear"
+      ]
+    },
+    {
+      "material": "dragonsteel_lightning",
+      "form": "plate",
+      "canonical": "industrial_colonies:material_parts/dragonsteel_lightning_plate",
+      "alternatives": [
+        "moreplates:dragonsteel_lightning_plate"
+      ]
+    },
+    {
+      "material": "dragonsteel_lightning",
+      "form": "rod",
+      "canonical": "industrial_colonies:material_parts/dragonsteel_lightning_rod",
+      "alternatives": [
+        "moreplates:dragonsteel_lightning_rod"
+      ]
+    },
+    {
+      "material": "dragonsteel_lightning",
+      "form": "gear",
+      "canonical": "industrial_colonies:material_parts/dragonsteel_lightning_gear",
+      "alternatives": [
+        "moreplates:dragonsteel_lightning_gear"
+      ]
+    },
+    {
+      "material": "ghost",
+      "form": "plate",
+      "canonical": "industrial_colonies:material_parts/ghost_plate",
+      "alternatives": [
+        "moreplates:ghost_plate"
+      ]
+    },
+    {
+      "material": "ghost",
+      "form": "rod",
+      "canonical": "industrial_colonies:material_parts/ghost_rod",
+      "alternatives": [
+        "moreplates:ghost_rod"
+      ]
+    },
+    {
+      "material": "ghost",
+      "form": "gear",
+      "canonical": "industrial_colonies:material_parts/ghost_gear",
+      "alternatives": [
+        "moreplates:ghost_gear"
+      ]
+    },
+    {
+      "material": "silver",
+      "form": "rod",
+      "canonical": "industrial_colonies:material_parts/silver_rod",
+      "alternatives": [
+        "moreplates:silver_rod"
+      ]
+    },
+    {
+      "material": "silver",
+      "form": "gear",
+      "canonical": "industrial_colonies:material_parts/silver_gear",
+      "alternatives": [
+        "moreplates:silver_gear"
+      ]
+    },
+    {
+      "material": "hop_graphite",
+      "form": "plate",
+      "canonical": "immersiveengineering:plate_hop_graphite",
+      "alternatives": [
+        "moreplates:hop_graphite_plate"
+      ]
+    },
+    {
+      "material": "hop_graphite",
+      "form": "rod",
+      "canonical": "industrial_colonies:material_parts/hop_graphite_rod",
+      "alternatives": [
+        "moreplates:hop_graphite_rod"
+      ]
+    },
+    {
+      "material": "hop_graphite",
+      "form": "gear",
+      "canonical": "industrial_colonies:material_parts/hop_graphite_gear",
+      "alternatives": [
+        "moreplates:hop_graphite_gear"
+      ]
+    },
+    {
+      "material": "arcane",
+      "form": "plate",
+      "canonical": "industrial_colonies:material_parts/arcane_plate",
+      "alternatives": [
+        "moreplates:arcane_plate"
+      ]
+    },
+    {
+      "material": "arcane",
+      "form": "rod",
+      "canonical": "industrial_colonies:material_parts/arcane_rod",
+      "alternatives": [
+        "moreplates:arcane_rod"
+      ]
+    },
+    {
+      "material": "arcane",
+      "form": "gear",
+      "canonical": "industrial_colonies:material_parts/arcane_gear",
+      "alternatives": [
+        "moreplates:arcane_gear"
+      ]
+    },
+    {
+      "material": "mithril",
+      "form": "plate",
+      "canonical": "industrial_colonies:material_parts/mithril_plate",
+      "alternatives": [
+        "moreplates:mithril_plate"
+      ]
+    },
+    {
+      "material": "mithril",
+      "form": "rod",
+      "canonical": "industrial_colonies:material_parts/mithril_rod",
+      "alternatives": [
+        "moreplates:mithril_rod"
+      ]
+    },
+    {
+      "material": "mithril",
+      "form": "gear",
+      "canonical": "industrial_colonies:material_parts/mithril_gear",
+      "alternatives": [
+        "moreplates:mithril_gear"
+      ]
+    },
+    {
+      "material": "pyrium",
+      "form": "plate",
+      "canonical": "industrial_colonies:material_parts/pyrium_plate",
+      "alternatives": [
+        "moreplates:pyrium_plate"
+      ]
+    },
+    {
+      "material": "pyrium",
+      "form": "rod",
+      "canonical": "industrial_colonies:material_parts/pyrium_rod",
+      "alternatives": [
+        "moreplates:pyrium_rod"
+      ]
+    },
+    {
+      "material": "pyrium",
+      "form": "gear",
+      "canonical": "industrial_colonies:material_parts/pyrium_gear",
+      "alternatives": [
+        "moreplates:pyrium_gear"
+      ]
+    },
+    {
+      "material": "sky_bronze",
+      "form": "plate",
+      "canonical": "industrial_colonies:material_parts/sky_bronze_plate",
+      "alternatives": [
+        "moreplates:sky_bronze_plate"
+      ]
+    },
+    {
+      "material": "sky_bronze",
+      "form": "rod",
+      "canonical": "industrial_colonies:material_parts/sky_bronze_rod",
+      "alternatives": [
+        "moreplates:sky_bronze_rod"
+      ]
+    },
+    {
+      "material": "sky_bronze",
+      "form": "gear",
+      "canonical": "industrial_colonies:material_parts/sky_bronze_gear",
+      "alternatives": [
+        "moreplates:sky_bronze_gear"
+      ]
+    },
+    {
+      "material": "sky_osmium",
+      "form": "plate",
+      "canonical": "industrial_colonies:material_parts/sky_osmium_plate",
+      "alternatives": [
+        "moreplates:sky_osmium_plate"
+      ]
+    },
+    {
+      "material": "sky_osmium",
+      "form": "rod",
+      "canonical": "industrial_colonies:material_parts/sky_osmium_rod",
+      "alternatives": [
+        "moreplates:sky_osmium_rod"
+      ]
+    },
+    {
+      "material": "sky_osmium",
+      "form": "gear",
+      "canonical": "industrial_colonies:material_parts/sky_osmium_gear",
+      "alternatives": [
+        "moreplates:sky_osmium_gear"
+      ]
+    },
+    {
+      "material": "sky_steel",
+      "form": "plate",
+      "canonical": "industrial_colonies:material_parts/sky_steel_plate",
+      "alternatives": [
+        "moreplates:sky_steel_plate"
+      ]
+    },
+    {
+      "material": "sky_steel",
+      "form": "rod",
+      "canonical": "industrial_colonies:material_parts/sky_steel_rod",
+      "alternatives": [
+        "moreplates:sky_steel_rod"
+      ]
+    },
+    {
+      "material": "sky_steel",
+      "form": "gear",
+      "canonical": "industrial_colonies:material_parts/sky_steel_gear",
+      "alternatives": [
+        "moreplates:sky_steel_gear"
+      ]
+    },
+    {
+      "material": "lead",
+      "form": "rod",
+      "canonical": "industrial_colonies:material_parts/lead_rod",
+      "alternatives": [
+        "moreplates:lead_rod"
+      ]
+    },
+    {
+      "material": "lead",
+      "form": "gear",
+      "canonical": "industrial_colonies:material_parts/lead_gear",
+      "alternatives": [
+        "moreplates:lead_gear"
+      ]
+    },
+    {
+      "material": "osmium",
+      "form": "plate",
+      "canonical": "industrial_colonies:material_parts/osmium_plate",
+      "alternatives": [
+        "moreplates:osmium_plate"
+      ]
+    },
+    {
+      "material": "osmium",
+      "form": "rod",
+      "canonical": "industrial_colonies:material_parts/osmium_rod",
+      "alternatives": [
+        "moreplates:osmium_rod"
+      ]
+    },
+    {
+      "material": "osmium",
+      "form": "gear",
+      "canonical": "industrial_colonies:material_parts/osmium_gear",
+      "alternatives": [
+        "moreplates:osmium_gear"
+      ]
+    },
+    {
+      "material": "refined_glowstone",
+      "form": "plate",
+      "canonical": "industrial_colonies:material_parts/refined_glowstone_plate",
+      "alternatives": [
+        "moreplates:refined_glowstone_plate"
+      ]
+    },
+    {
+      "material": "refined_glowstone",
+      "form": "rod",
+      "canonical": "industrial_colonies:material_parts/refined_glowstone_rod",
+      "alternatives": [
+        "moreplates:refined_glowstone_rod"
+      ]
+    },
+    {
+      "material": "refined_glowstone",
+      "form": "gear",
+      "canonical": "industrial_colonies:material_parts/refined_glowstone_gear",
+      "alternatives": [
+        "moreplates:refined_glowstone_gear"
+      ]
+    },
+    {
+      "material": "refined_obsidian",
+      "form": "plate",
+      "canonical": "industrial_colonies:material_parts/refined_obsidian_plate",
+      "alternatives": [
+        "moreplates:refined_obsidian_plate"
+      ]
+    },
+    {
+      "material": "refined_obsidian",
+      "form": "rod",
+      "canonical": "industrial_colonies:material_parts/refined_obsidian_rod",
+      "alternatives": [
+        "moreplates:refined_obsidian_rod"
+      ]
+    },
+    {
+      "material": "refined_obsidian",
+      "form": "gear",
+      "canonical": "industrial_colonies:material_parts/refined_obsidian_gear",
+      "alternatives": [
+        "moreplates:refined_obsidian_gear"
+      ]
+    },
+    {
+      "material": "tin",
+      "form": "plate",
+      "canonical": "industrial_colonies:material_parts/tin_plate",
+      "alternatives": [
+        "moreplates:tin_plate",
+        "nuclearcraft:tin_plate"
+      ]
+    },
+    {
+      "material": "tin",
+      "form": "rod",
+      "canonical": "industrial_colonies:material_parts/tin_rod",
+      "alternatives": [
+        "moreplates:tin_rod"
+      ]
+    },
+    {
+      "material": "tin",
+      "form": "gear",
+      "canonical": "industrial_colonies:material_parts/tin_gear",
+      "alternatives": [
+        "moreplates:tin_gear"
+      ]
+    },
+    {
+      "material": "uranium",
+      "form": "rod",
+      "canonical": "industrial_colonies:material_parts/uranium_rod",
+      "alternatives": [
+        "moreplates:uranium_rod"
+      ]
+    },
+    {
+      "material": "uranium",
+      "form": "gear",
+      "canonical": "industrial_colonies:material_parts/uranium_gear",
+      "alternatives": [
+        "moreplates:uranium_gear"
+      ]
+    },
+    {
+      "material": "blaze_powder",
+      "form": "plate",
+      "canonical": "industrial_colonies:material_parts/blaze_powder_plate",
+      "alternatives": [
+        "moreplates:blaze_powder_plate"
+      ]
+    },
+    {
+      "material": "blaze_powder",
+      "form": "rod",
+      "canonical": "industrial_colonies:material_parts/blaze_powder_rod",
+      "alternatives": [
+        "moreplates:blaze_powder_rod"
+      ]
+    },
+    {
+      "material": "blaze_powder",
+      "form": "gear",
+      "canonical": "industrial_colonies:material_parts/blaze_powder_gear",
+      "alternatives": [
+        "moreplates:blaze_powder_gear"
+      ]
+    },
+    {
+      "material": "copper",
+      "form": "rod",
+      "canonical": "createaddition:copper_rod",
+      "alternatives": [
+        "moreplates:copper_rod"
+      ]
+    },
+    {
+      "material": "copper",
+      "form": "gear",
+      "canonical": "industrial_colonies:material_parts/copper_gear",
+      "alternatives": [
+        "moreplates:copper_gear"
+      ]
+    },
+    {
+      "material": "diamond",
+      "form": "plate",
+      "canonical": "industrial_colonies:material_parts/diamond_plate",
+      "alternatives": [
+        "moreplates:diamond_plate"
+      ]
+    },
+    {
+      "material": "diamond",
+      "form": "rod",
+      "canonical": "industrial_colonies:material_parts/diamond_rod",
+      "alternatives": [
+        "moreplates:diamond_rod"
+      ]
+    },
+    {
+      "material": "diamond",
+      "form": "gear",
+      "canonical": "industrial_colonies:material_parts/diamond_gear",
+      "alternatives": [
+        "moreplates:diamond_gear"
+      ]
+    },
+    {
+      "material": "emerald",
+      "form": "plate",
+      "canonical": "industrial_colonies:material_parts/emerald_plate",
+      "alternatives": [
+        "moreplates:emerald_plate"
+      ]
+    },
+    {
+      "material": "emerald",
+      "form": "rod",
+      "canonical": "industrial_colonies:material_parts/emerald_rod",
+      "alternatives": [
+        "moreplates:emerald_rod"
+      ]
+    },
+    {
+      "material": "emerald",
+      "form": "gear",
+      "canonical": "industrial_colonies:material_parts/emerald_gear",
+      "alternatives": [
+        "moreplates:emerald_gear"
+      ]
+    },
+    {
+      "material": "ender_pearl",
+      "form": "plate",
+      "canonical": "industrial_colonies:material_parts/ender_pearl_plate",
+      "alternatives": [
+        "moreplates:ender_pearl_plate"
+      ]
+    },
+    {
+      "material": "ender_pearl",
+      "form": "rod",
+      "canonical": "industrial_colonies:material_parts/ender_pearl_rod",
+      "alternatives": [
+        "moreplates:ender_pearl_rod"
+      ]
+    },
+    {
+      "material": "ender_pearl",
+      "form": "gear",
+      "canonical": "industrial_colonies:material_parts/ender_pearl_gear",
+      "alternatives": [
+        "moreplates:ender_pearl_gear"
+      ]
+    },
+    {
+      "material": "glowstone_dust",
+      "form": "plate",
+      "canonical": "industrial_colonies:material_parts/glowstone_dust_plate",
+      "alternatives": [
+        "moreplates:glowstone_dust_plate"
+      ]
+    },
+    {
+      "material": "glowstone_dust",
+      "form": "rod",
+      "canonical": "industrial_colonies:material_parts/glowstone_dust_rod",
+      "alternatives": [
+        "moreplates:glowstone_dust_rod"
+      ]
+    },
+    {
+      "material": "glowstone_dust",
+      "form": "gear",
+      "canonical": "industrial_colonies:material_parts/glowstone_dust_gear",
+      "alternatives": [
+        "moreplates:glowstone_dust_gear"
+      ]
+    },
+    {
+      "material": "gold",
+      "form": "plate",
+      "canonical": "immersiveengineering:plate_gold",
+      "alternatives": [
+        "moreplates:gold_plate"
+      ]
+    },
+    {
+      "material": "gold",
+      "form": "rod",
+      "canonical": "createaddition:gold_rod",
+      "alternatives": [
+        "moreplates:gold_rod"
+      ]
+    },
+    {
+      "material": "gold",
+      "form": "gear",
+      "canonical": "industrial_colonies:material_parts/gold_gear",
+      "alternatives": [
+        "moreplates:gold_gear"
+      ]
+    },
+    {
+      "material": "iron",
+      "form": "gear",
+      "canonical": "industrial_colonies:material_parts/iron_gear",
+      "alternatives": [
+        "moreplates:iron_gear"
+      ]
+    },
+    {
+      "material": "lapis_lazuli",
+      "form": "plate",
+      "canonical": "industrial_colonies:material_parts/lapis_lazuli_plate",
+      "alternatives": [
+        "moreplates:lapis_lazuli_plate"
+      ]
+    },
+    {
+      "material": "lapis_lazuli",
+      "form": "rod",
+      "canonical": "industrial_colonies:material_parts/lapis_lazuli_rod",
+      "alternatives": [
+        "moreplates:lapis_lazuli_rod"
+      ]
+    },
+    {
+      "material": "lapis_lazuli",
+      "form": "gear",
+      "canonical": "industrial_colonies:material_parts/lapis_lazuli_gear",
+      "alternatives": [
+        "moreplates:lapis_lazuli_gear"
+      ]
+    },
+    {
+      "material": "netherite",
+      "form": "plate",
+      "canonical": "industrial_colonies:material_parts/netherite_plate",
+      "alternatives": [
+        "moreplates:netherite_plate",
+        "nuclearcraft:netherite_plate"
+      ]
+    },
+    {
+      "material": "netherite",
+      "form": "rod",
+      "canonical": "immersiveengineering:stick_netherite",
+      "alternatives": [
+        "moreplates:netherite_rod"
+      ]
+    },
+    {
+      "material": "netherite",
+      "form": "gear",
+      "canonical": "industrial_colonies:material_parts/netherite_gear",
+      "alternatives": [
+        "moreplates:netherite_gear"
+      ]
+    },
+    {
+      "material": "quartz",
+      "form": "plate",
+      "canonical": "industrial_colonies:material_parts/quartz_plate",
+      "alternatives": [
+        "moreplates:quartz_plate"
+      ]
+    },
+    {
+      "material": "quartz",
+      "form": "rod",
+      "canonical": "industrial_colonies:material_parts/quartz_rod",
+      "alternatives": [
+        "moreplates:quartz_rod"
+      ]
+    },
+    {
+      "material": "quartz",
+      "form": "gear",
+      "canonical": "industrial_colonies:material_parts/quartz_gear",
+      "alternatives": [
+        "moreplates:quartz_gear"
+      ]
+    },
+    {
+      "material": "amethyst_bronze",
+      "form": "plate",
+      "canonical": "industrial_colonies:material_parts/amethyst_bronze_plate",
+      "alternatives": [
+        "moreplates:amethyst_bronze_plate"
+      ]
+    },
+    {
+      "material": "amethyst_bronze",
+      "form": "rod",
+      "canonical": "industrial_colonies:material_parts/amethyst_bronze_rod",
+      "alternatives": [
+        "moreplates:amethyst_bronze_rod"
+      ]
+    },
+    {
+      "material": "amethyst_bronze",
+      "form": "gear",
+      "canonical": "industrial_colonies:material_parts/amethyst_bronze_gear",
+      "alternatives": [
+        "moreplates:amethyst_bronze_gear"
+      ]
+    },
+    {
+      "material": "cheese",
+      "form": "plate",
+      "canonical": "industrial_colonies:material_parts/cheese_plate",
+      "alternatives": [
+        "moreplates:cheese_plate"
+      ]
+    },
+    {
+      "material": "cheese",
+      "form": "rod",
+      "canonical": "industrial_colonies:material_parts/cheese_rod",
+      "alternatives": [
+        "moreplates:cheese_rod"
+      ]
+    },
+    {
+      "material": "cheese",
+      "form": "gear",
+      "canonical": "industrial_colonies:material_parts/cheese_gear",
+      "alternatives": [
+        "moreplates:cheese_gear"
+      ]
+    },
+    {
+      "material": "cinderslime",
+      "form": "plate",
+      "canonical": "industrial_colonies:material_parts/cinderslime_plate",
+      "alternatives": [
+        "moreplates:cinderslime_plate"
+      ]
+    },
+    {
+      "material": "cinderslime",
+      "form": "rod",
+      "canonical": "industrial_colonies:material_parts/cinderslime_rod",
+      "alternatives": [
+        "moreplates:cinderslime_rod"
+      ]
+    },
+    {
+      "material": "cinderslime",
+      "form": "gear",
+      "canonical": "industrial_colonies:material_parts/cinderslime_gear",
+      "alternatives": [
+        "moreplates:cinderslime_gear"
+      ]
+    },
+    {
+      "material": "cobalt",
+      "form": "plate",
+      "canonical": "industrial_colonies:material_parts/cobalt_plate",
+      "alternatives": [
+        "moreplates:cobalt_plate",
+        "nuclearcraft:cobalt_plate"
+      ]
+    },
+    {
+      "material": "cobalt",
+      "form": "rod",
+      "canonical": "industrial_colonies:material_parts/cobalt_rod",
+      "alternatives": [
+        "moreplates:cobalt_rod"
+      ]
+    },
+    {
+      "material": "cobalt",
+      "form": "gear",
+      "canonical": "industrial_colonies:material_parts/cobalt_gear",
+      "alternatives": [
+        "moreplates:cobalt_gear"
+      ]
+    },
+    {
+      "material": "hepatizon",
+      "form": "plate",
+      "canonical": "industrial_colonies:material_parts/hepatizon_plate",
+      "alternatives": [
+        "moreplates:hepatizon_plate"
+      ]
+    },
+    {
+      "material": "hepatizon",
+      "form": "rod",
+      "canonical": "industrial_colonies:material_parts/hepatizon_rod",
+      "alternatives": [
+        "moreplates:hepatizon_rod"
+      ]
+    },
+    {
+      "material": "hepatizon",
+      "form": "gear",
+      "canonical": "industrial_colonies:material_parts/hepatizon_gear",
+      "alternatives": [
+        "moreplates:hepatizon_gear"
+      ]
+    },
+    {
+      "material": "knightmetal",
+      "form": "plate",
+      "canonical": "industrial_colonies:material_parts/knightmetal_plate",
+      "alternatives": [
+        "moreplates:knightmetal_plate"
+      ]
+    },
+    {
+      "material": "knightmetal",
+      "form": "rod",
+      "canonical": "industrial_colonies:material_parts/knightmetal_rod",
+      "alternatives": [
+        "moreplates:knightmetal_rod"
+      ]
+    },
+    {
+      "material": "knightmetal",
+      "form": "gear",
+      "canonical": "industrial_colonies:material_parts/knightmetal_gear",
+      "alternatives": [
+        "moreplates:knightmetal_gear"
+      ]
+    },
+    {
+      "material": "knightslime",
+      "form": "plate",
+      "canonical": "industrial_colonies:material_parts/knightslime_plate",
+      "alternatives": [
+        "moreplates:knightslime_plate"
+      ]
+    },
+    {
+      "material": "knightslime",
+      "form": "rod",
+      "canonical": "industrial_colonies:material_parts/knightslime_rod",
+      "alternatives": [
+        "moreplates:knightslime_rod"
+      ]
+    },
+    {
+      "material": "knightslime",
+      "form": "gear",
+      "canonical": "industrial_colonies:material_parts/knightslime_gear",
+      "alternatives": [
+        "moreplates:knightslime_gear"
+      ]
+    },
+    {
+      "material": "manyullyn",
+      "form": "plate",
+      "canonical": "industrial_colonies:material_parts/manyullyn_plate",
+      "alternatives": [
+        "moreplates:manyullyn_plate"
+      ]
+    },
+    {
+      "material": "manyullyn",
+      "form": "rod",
+      "canonical": "industrial_colonies:material_parts/manyullyn_rod",
+      "alternatives": [
+        "moreplates:manyullyn_rod"
+      ]
+    },
+    {
+      "material": "manyullyn",
+      "form": "gear",
+      "canonical": "industrial_colonies:material_parts/manyullyn_gear",
+      "alternatives": [
+        "moreplates:manyullyn_gear"
+      ]
+    },
+    {
+      "material": "pig_iron",
+      "form": "plate",
+      "canonical": "industrial_colonies:material_parts/pig_iron_plate",
+      "alternatives": [
+        "moreplates:pig_iron_plate"
+      ]
+    },
+    {
+      "material": "pig_iron",
+      "form": "rod",
+      "canonical": "industrial_colonies:material_parts/pig_iron_rod",
+      "alternatives": [
+        "moreplates:pig_iron_rod"
+      ]
+    },
+    {
+      "material": "pig_iron",
+      "form": "gear",
+      "canonical": "industrial_colonies:material_parts/pig_iron_gear",
+      "alternatives": [
+        "moreplates:pig_iron_gear"
+      ]
+    },
+    {
+      "material": "queens_slime",
+      "form": "plate",
+      "canonical": "industrial_colonies:material_parts/queens_slime_plate",
+      "alternatives": [
+        "moreplates:queens_slime_plate"
+      ]
+    },
+    {
+      "material": "queens_slime",
+      "form": "rod",
+      "canonical": "industrial_colonies:material_parts/queens_slime_rod",
+      "alternatives": [
+        "moreplates:queens_slime_rod"
+      ]
+    },
+    {
+      "material": "queens_slime",
+      "form": "gear",
+      "canonical": "industrial_colonies:material_parts/queens_slime_gear",
+      "alternatives": [
+        "moreplates:queens_slime_gear"
+      ]
+    },
+    {
+      "material": "rose_gold",
+      "form": "plate",
+      "canonical": "industrial_colonies:material_parts/rose_gold_plate",
+      "alternatives": [
+        "moreplates:rose_gold_plate"
+      ]
+    },
+    {
+      "material": "rose_gold",
+      "form": "rod",
+      "canonical": "industrial_colonies:material_parts/rose_gold_rod",
+      "alternatives": [
+        "moreplates:rose_gold_rod"
+      ]
+    },
+    {
+      "material": "rose_gold",
+      "form": "gear",
+      "canonical": "industrial_colonies:material_parts/rose_gold_gear",
+      "alternatives": [
+        "moreplates:rose_gold_gear"
+      ]
+    },
+    {
+      "material": "slimesteel",
+      "form": "plate",
+      "canonical": "industrial_colonies:material_parts/slimesteel_plate",
+      "alternatives": [
+        "moreplates:slimesteel_plate"
+      ]
+    },
+    {
+      "material": "slimesteel",
+      "form": "rod",
+      "canonical": "industrial_colonies:material_parts/slimesteel_rod",
+      "alternatives": [
+        "moreplates:slimesteel_rod"
+      ]
+    },
+    {
+      "material": "slimesteel",
+      "form": "gear",
+      "canonical": "industrial_colonies:material_parts/slimesteel_gear",
+      "alternatives": [
+        "moreplates:slimesteel_gear"
+      ]
+    },
+    {
+      "material": "soulsteel",
+      "form": "plate",
+      "canonical": "industrial_colonies:material_parts/soulsteel_plate",
+      "alternatives": [
+        "moreplates:soulsteel_plate"
+      ]
+    },
+    {
+      "material": "soulsteel",
+      "form": "rod",
+      "canonical": "industrial_colonies:material_parts/soulsteel_rod",
+      "alternatives": [
+        "moreplates:soulsteel_rod"
+      ]
+    },
+    {
+      "material": "soulsteel",
+      "form": "gear",
+      "canonical": "industrial_colonies:material_parts/soulsteel_gear",
+      "alternatives": [
+        "moreplates:soulsteel_gear"
+      ]
+    },
+    {
+      "material": "steel",
+      "form": "gear",
+      "canonical": "industrial_colonies:material_parts/steel_gear",
+      "alternatives": [
+        "moreplates:steel_gear"
+      ]
+    },
+    {
+      "material": "aluminum",
+      "form": "rod",
+      "canonical": "immersiveengineering:stick_aluminum",
+      "alternatives": [
+        "moreplates:aluminum_rod"
+      ]
+    },
+    {
+      "material": "aluminum",
+      "form": "gear",
+      "canonical": "industrial_colonies:material_parts/aluminum_gear",
+      "alternatives": [
+        "moreplates:aluminum_gear"
+      ]
+    },
+    {
+      "material": "baratol",
+      "form": "plate",
+      "canonical": "industrial_colonies:material_parts/baratol_plate",
+      "alternatives": [
+        "moreplates:baratol_plate"
+      ]
+    },
+    {
+      "material": "baratol",
+      "form": "rod",
+      "canonical": "industrial_colonies:material_parts/baratol_rod",
+      "alternatives": [
+        "moreplates:baratol_rod"
+      ]
+    },
+    {
+      "material": "baratol",
+      "form": "gear",
+      "canonical": "industrial_colonies:material_parts/baratol_gear",
+      "alternatives": [
+        "moreplates:baratol_gear"
+      ]
+    },
+    {
+      "material": "beryllium",
+      "form": "plate",
+      "canonical": "industrial_colonies:material_parts/beryllium_plate",
+      "alternatives": [
+        "moreplates:beryllium_plate",
+        "nuclearcraft:beryllium_plate"
+      ]
+    },
+    {
+      "material": "beryllium",
+      "form": "rod",
+      "canonical": "industrial_colonies:material_parts/beryllium_rod",
+      "alternatives": [
+        "moreplates:beryllium_rod"
+      ]
+    },
+    {
+      "material": "beryllium",
+      "form": "gear",
+      "canonical": "industrial_colonies:material_parts/beryllium_gear",
+      "alternatives": [
+        "moreplates:beryllium_gear"
+      ]
+    },
+    {
+      "material": "boron",
+      "form": "plate",
+      "canonical": "industrial_colonies:material_parts/boron_plate",
+      "alternatives": [
+        "moreplates:boron_plate",
+        "nuclearcraft:boron_plate"
+      ]
+    },
+    {
+      "material": "boron",
+      "form": "rod",
+      "canonical": "industrial_colonies:material_parts/boron_rod",
+      "alternatives": [
+        "moreplates:boron_rod"
+      ]
+    },
+    {
+      "material": "boron",
+      "form": "gear",
+      "canonical": "industrial_colonies:material_parts/boron_gear",
+      "alternatives": [
+        "moreplates:boron_gear"
+      ]
+    },
+    {
+      "material": "calcium",
+      "form": "plate",
+      "canonical": "industrial_colonies:material_parts/calcium_plate",
+      "alternatives": [
+        "moreplates:calcium_plate"
+      ]
+    },
+    {
+      "material": "calcium",
+      "form": "rod",
+      "canonical": "industrial_colonies:material_parts/calcium_rod",
+      "alternatives": [
+        "moreplates:calcium_rod"
+      ]
+    },
+    {
+      "material": "calcium",
+      "form": "gear",
+      "canonical": "industrial_colonies:material_parts/calcium_gear",
+      "alternatives": [
+        "moreplates:calcium_gear"
+      ]
+    },
+    {
+      "material": "carbon_manganese",
+      "form": "plate",
+      "canonical": "industrial_colonies:material_parts/carbon_manganese_plate",
+      "alternatives": [
+        "moreplates:carbon_manganese_plate"
+      ]
+    },
+    {
+      "material": "carbon_manganese",
+      "form": "rod",
+      "canonical": "industrial_colonies:material_parts/carbon_manganese_rod",
+      "alternatives": [
+        "moreplates:carbon_manganese_rod"
+      ]
+    },
+    {
+      "material": "carbon_manganese",
+      "form": "gear",
+      "canonical": "industrial_colonies:material_parts/carbon_manganese_gear",
+      "alternatives": [
+        "moreplates:carbon_manganese_gear"
+      ]
+    },
+    {
+      "material": "chromium",
+      "form": "plate",
+      "canonical": "industrial_colonies:material_parts/chromium_plate",
+      "alternatives": [
+        "moreplates:chromium_plate"
+      ]
+    },
+    {
+      "material": "chromium",
+      "form": "rod",
+      "canonical": "industrial_colonies:material_parts/chromium_rod",
+      "alternatives": [
+        "moreplates:chromium_rod"
+      ]
+    },
+    {
+      "material": "chromium",
+      "form": "gear",
+      "canonical": "industrial_colonies:material_parts/chromium_gear",
+      "alternatives": [
+        "moreplates:chromium_gear"
+      ]
+    },
+    {
+      "material": "electrum",
+      "form": "rod",
+      "canonical": "createaddition:electrum_rod",
+      "alternatives": [
+        "moreplates:electrum_rod"
+      ]
+    },
+    {
+      "material": "electrum",
+      "form": "gear",
+      "canonical": "industrial_colonies:material_parts/electrum_gear",
+      "alternatives": [
+        "moreplates:electrum_gear"
+      ]
+    },
+    {
+      "material": "extreme",
+      "form": "plate",
+      "canonical": "industrial_colonies:material_parts/extreme_plate",
+      "alternatives": [
+        "moreplates:extreme_plate",
+        "nuclearcraft:extreme_plate"
+      ]
+    },
+    {
+      "material": "extreme",
+      "form": "rod",
+      "canonical": "industrial_colonies:material_parts/extreme_rod",
+      "alternatives": [
+        "moreplates:extreme_rod"
+      ]
+    },
+    {
+      "material": "extreme",
+      "form": "gear",
+      "canonical": "industrial_colonies:material_parts/extreme_gear",
+      "alternatives": [
+        "moreplates:extreme_gear"
+      ]
+    },
+    {
+      "material": "ferroboron",
+      "form": "plate",
+      "canonical": "industrial_colonies:material_parts/ferroboron_plate",
+      "alternatives": [
+        "moreplates:ferroboron_plate",
+        "nuclearcraft:ferroboron_plate"
+      ]
+    },
+    {
+      "material": "ferroboron",
+      "form": "rod",
+      "canonical": "industrial_colonies:material_parts/ferroboron_rod",
+      "alternatives": [
+        "moreplates:ferroboron_rod"
+      ]
+    },
+    {
+      "material": "ferroboron",
+      "form": "gear",
+      "canonical": "industrial_colonies:material_parts/ferroboron_gear",
+      "alternatives": [
+        "moreplates:ferroboron_gear"
+      ]
+    },
+    {
+      "material": "hafnium",
+      "form": "plate",
+      "canonical": "industrial_colonies:material_parts/hafnium_plate",
+      "alternatives": [
+        "moreplates:hafnium_plate"
+      ]
+    },
+    {
+      "material": "hafnium",
+      "form": "rod",
+      "canonical": "industrial_colonies:material_parts/hafnium_rod",
+      "alternatives": [
+        "moreplates:hafnium_rod"
+      ]
+    },
+    {
+      "material": "hafnium",
+      "form": "gear",
+      "canonical": "industrial_colonies:material_parts/hafnium_gear",
+      "alternatives": [
+        "moreplates:hafnium_gear"
+      ]
+    },
+    {
+      "material": "hard_carbon",
+      "form": "plate",
+      "canonical": "industrial_colonies:material_parts/hard_carbon_plate",
+      "alternatives": [
+        "moreplates:hard_carbon_plate",
+        "nuclearcraft:hard_carbon_plate"
+      ]
+    },
+    {
+      "material": "hard_carbon",
+      "form": "rod",
+      "canonical": "industrial_colonies:material_parts/hard_carbon_rod",
+      "alternatives": [
+        "moreplates:hard_carbon_rod"
+      ]
+    },
+    {
+      "material": "hard_carbon",
+      "form": "gear",
+      "canonical": "industrial_colonies:material_parts/hard_carbon_gear",
+      "alternatives": [
+        "moreplates:hard_carbon_gear"
+      ]
+    },
+    {
+      "material": "hsla_steel",
+      "form": "plate",
+      "canonical": "industrial_colonies:material_parts/hsla_steel_plate",
+      "alternatives": [
+        "moreplates:hsla_steel_plate",
+        "nuclearcraft:hsla_steel_plate"
+      ]
+    },
+    {
+      "material": "hsla_steel",
+      "form": "rod",
+      "canonical": "industrial_colonies:material_parts/hsla_steel_rod",
+      "alternatives": [
+        "moreplates:hsla_steel_rod"
+      ]
+    },
+    {
+      "material": "hsla_steel",
+      "form": "gear",
+      "canonical": "industrial_colonies:material_parts/hsla_steel_gear",
+      "alternatives": [
+        "moreplates:hsla_steel_gear"
+      ]
+    },
+    {
+      "material": "iridium",
+      "form": "plate",
+      "canonical": "industrial_colonies:material_parts/iridium_plate",
+      "alternatives": [
+        "moreplates:iridium_plate"
+      ]
+    },
+    {
+      "material": "iridium",
+      "form": "rod",
+      "canonical": "industrial_colonies:material_parts/iridium_rod",
+      "alternatives": [
+        "moreplates:iridium_rod"
+      ]
+    },
+    {
+      "material": "iridium",
+      "form": "gear",
+      "canonical": "industrial_colonies:material_parts/iridium_gear",
+      "alternatives": [
+        "moreplates:iridium_gear"
+      ]
+    },
+    {
+      "material": "lead_platinum",
+      "form": "plate",
+      "canonical": "industrial_colonies:material_parts/lead_platinum_plate",
+      "alternatives": [
+        "moreplates:lead_platinum_plate"
+      ]
+    },
+    {
+      "material": "lead_platinum",
+      "form": "rod",
+      "canonical": "industrial_colonies:material_parts/lead_platinum_rod",
+      "alternatives": [
+        "moreplates:lead_platinum_rod"
+      ]
+    },
+    {
+      "material": "lead_platinum",
+      "form": "gear",
+      "canonical": "industrial_colonies:material_parts/lead_platinum_gear",
+      "alternatives": [
+        "moreplates:lead_platinum_gear"
+      ]
+    },
+    {
+      "material": "lithium",
+      "form": "plate",
+      "canonical": "industrial_colonies:material_parts/lithium_plate",
+      "alternatives": [
+        "moreplates:lithium_plate",
+        "nuclearcraft:lithium_plate"
+      ]
+    },
+    {
+      "material": "lithium",
+      "form": "rod",
+      "canonical": "industrial_colonies:material_parts/lithium_rod",
+      "alternatives": [
+        "moreplates:lithium_rod"
+      ]
+    },
+    {
+      "material": "lithium",
+      "form": "gear",
+      "canonical": "industrial_colonies:material_parts/lithium_gear",
+      "alternatives": [
+        "moreplates:lithium_gear"
+      ]
+    },
+    {
+      "material": "lithium_manganese_dioxide",
+      "form": "plate",
+      "canonical": "industrial_colonies:material_parts/lithium_manganese_dioxide_plate",
+      "alternatives": [
+        "moreplates:lithium_manganese_dioxide_plate",
+        "nuclearcraft:lithium_manganese_dioxide_plate"
+      ]
+    },
+    {
+      "material": "lithium_manganese_dioxide",
+      "form": "rod",
+      "canonical": "industrial_colonies:material_parts/lithium_manganese_dioxide_rod",
+      "alternatives": [
+        "moreplates:lithium_manganese_dioxide_rod"
+      ]
+    },
+    {
+      "material": "lithium_manganese_dioxide",
+      "form": "gear",
+      "canonical": "industrial_colonies:material_parts/lithium_manganese_dioxide_gear",
+      "alternatives": [
+        "moreplates:lithium_manganese_dioxide_gear"
+      ]
+    },
+    {
+      "material": "magnesium_diboride",
+      "form": "plate",
+      "canonical": "industrial_colonies:material_parts/magnesium_diboride_plate",
+      "alternatives": [
+        "moreplates:magnesium_diboride_plate"
+      ]
+    },
+    {
+      "material": "magnesium_diboride",
+      "form": "rod",
+      "canonical": "industrial_colonies:material_parts/magnesium_diboride_rod",
+      "alternatives": [
+        "moreplates:magnesium_diboride_rod"
+      ]
+    },
+    {
+      "material": "magnesium_diboride",
+      "form": "gear",
+      "canonical": "industrial_colonies:material_parts/magnesium_diboride_gear",
+      "alternatives": [
+        "moreplates:magnesium_diboride_gear"
+      ]
+    },
+    {
+      "material": "magnesium",
+      "form": "plate",
+      "canonical": "industrial_colonies:material_parts/magnesium_plate",
+      "alternatives": [
+        "moreplates:magnesium_plate",
+        "nuclearcraft:magnesium_plate"
+      ]
+    },
+    {
+      "material": "magnesium",
+      "form": "rod",
+      "canonical": "industrial_colonies:material_parts/magnesium_rod",
+      "alternatives": [
+        "moreplates:magnesium_rod"
+      ]
+    },
+    {
+      "material": "magnesium",
+      "form": "gear",
+      "canonical": "industrial_colonies:material_parts/magnesium_gear",
+      "alternatives": [
+        "moreplates:magnesium_gear"
+      ]
+    },
+    {
+      "material": "manganese_dioxide",
+      "form": "plate",
+      "canonical": "industrial_colonies:material_parts/manganese_dioxide_plate",
+      "alternatives": [
+        "moreplates:manganese_dioxide_plate"
+      ]
+    },
+    {
+      "material": "manganese_dioxide",
+      "form": "rod",
+      "canonical": "industrial_colonies:material_parts/manganese_dioxide_rod",
+      "alternatives": [
+        "moreplates:manganese_dioxide_rod"
+      ]
+    },
+    {
+      "material": "manganese_dioxide",
+      "form": "gear",
+      "canonical": "industrial_colonies:material_parts/manganese_dioxide_gear",
+      "alternatives": [
+        "moreplates:manganese_dioxide_gear"
+      ]
+    },
+    {
+      "material": "manganese",
+      "form": "plate",
+      "canonical": "industrial_colonies:material_parts/manganese_plate",
+      "alternatives": [
+        "moreplates:manganese_plate",
+        "nuclearcraft:manganese_plate"
+      ]
+    },
+    {
+      "material": "manganese",
+      "form": "rod",
+      "canonical": "industrial_colonies:material_parts/manganese_rod",
+      "alternatives": [
+        "moreplates:manganese_rod"
+      ]
+    },
+    {
+      "material": "manganese",
+      "form": "gear",
+      "canonical": "industrial_colonies:material_parts/manganese_gear",
+      "alternatives": [
+        "moreplates:manganese_gear"
+      ]
+    },
+    {
+      "material": "manganese_oxide",
+      "form": "plate",
+      "canonical": "industrial_colonies:material_parts/manganese_oxide_plate",
+      "alternatives": [
+        "moreplates:manganese_oxide_plate"
+      ]
+    },
+    {
+      "material": "manganese_oxide",
+      "form": "rod",
+      "canonical": "industrial_colonies:material_parts/manganese_oxide_rod",
+      "alternatives": [
+        "moreplates:manganese_oxide_rod"
+      ]
+    },
+    {
+      "material": "manganese_oxide",
+      "form": "gear",
+      "canonical": "industrial_colonies:material_parts/manganese_oxide_gear",
+      "alternatives": [
+        "moreplates:manganese_oxide_gear"
+      ]
+    },
+    {
+      "material": "neutronium",
+      "form": "plate",
+      "canonical": "industrial_colonies:material_parts/neutronium_plate",
+      "alternatives": [
+        "moreplates:neutronium_plate"
+      ]
+    },
+    {
+      "material": "neutronium",
+      "form": "rod",
+      "canonical": "industrial_colonies:material_parts/neutronium_rod",
+      "alternatives": [
+        "moreplates:neutronium_rod"
+      ]
+    },
+    {
+      "material": "neutronium",
+      "form": "gear",
+      "canonical": "industrial_colonies:material_parts/neutronium_gear",
+      "alternatives": [
+        "moreplates:neutronium_gear"
+      ]
+    },
+    {
+      "material": "nichrome",
+      "form": "plate",
+      "canonical": "industrial_colonies:material_parts/nichrome_plate",
+      "alternatives": [
+        "moreplates:nichrome_plate"
+      ]
+    },
+    {
+      "material": "nichrome",
+      "form": "rod",
+      "canonical": "industrial_colonies:material_parts/nichrome_rod",
+      "alternatives": [
+        "moreplates:nichrome_rod"
+      ]
+    },
+    {
+      "material": "nichrome",
+      "form": "gear",
+      "canonical": "industrial_colonies:material_parts/nichrome_gear",
+      "alternatives": [
+        "moreplates:nichrome_gear"
+      ]
+    },
+    {
+      "material": "niobium",
+      "form": "plate",
+      "canonical": "industrial_colonies:material_parts/niobium_plate",
+      "alternatives": [
+        "moreplates:niobium_plate"
+      ]
+    },
+    {
+      "material": "niobium",
+      "form": "rod",
+      "canonical": "industrial_colonies:material_parts/niobium_rod",
+      "alternatives": [
+        "moreplates:niobium_rod"
+      ]
+    },
+    {
+      "material": "niobium",
+      "form": "gear",
+      "canonical": "industrial_colonies:material_parts/niobium_gear",
+      "alternatives": [
+        "moreplates:niobium_gear"
+      ]
+    },
+    {
+      "material": "niobium_tin",
+      "form": "plate",
+      "canonical": "industrial_colonies:material_parts/niobium_tin_plate",
+      "alternatives": [
+        "moreplates:niobium_tin_plate"
+      ]
+    },
+    {
+      "material": "niobium_tin",
+      "form": "rod",
+      "canonical": "industrial_colonies:material_parts/niobium_tin_rod",
+      "alternatives": [
+        "moreplates:niobium_tin_rod"
+      ]
+    },
+    {
+      "material": "niobium_tin",
+      "form": "gear",
+      "canonical": "industrial_colonies:material_parts/niobium_tin_gear",
+      "alternatives": [
+        "moreplates:niobium_tin_gear"
+      ]
+    },
+    {
+      "material": "niobium_titanium",
+      "form": "plate",
+      "canonical": "industrial_colonies:material_parts/niobium_titanium_plate",
+      "alternatives": [
+        "moreplates:niobium_titanium_plate"
+      ]
+    },
+    {
+      "material": "niobium_titanium",
+      "form": "rod",
+      "canonical": "industrial_colonies:material_parts/niobium_titanium_rod",
+      "alternatives": [
+        "moreplates:niobium_titanium_rod"
+      ]
+    },
+    {
+      "material": "niobium_titanium",
+      "form": "gear",
+      "canonical": "industrial_colonies:material_parts/niobium_titanium_gear",
+      "alternatives": [
+        "moreplates:niobium_titanium_gear"
+      ]
+    },
+    {
+      "material": "osmiridium",
+      "form": "plate",
+      "canonical": "industrial_colonies:material_parts/osmiridium_plate",
+      "alternatives": [
+        "moreplates:osmiridium_plate"
+      ]
+    },
+    {
+      "material": "osmiridium",
+      "form": "rod",
+      "canonical": "industrial_colonies:material_parts/osmiridium_rod",
+      "alternatives": [
+        "moreplates:osmiridium_rod"
+      ]
+    },
+    {
+      "material": "osmiridium",
+      "form": "gear",
+      "canonical": "industrial_colonies:material_parts/osmiridium_gear",
+      "alternatives": [
+        "moreplates:osmiridium_gear"
+      ]
+    },
+    {
+      "material": "palladium",
+      "form": "plate",
+      "canonical": "industrial_colonies:material_parts/palladium_plate",
+      "alternatives": [
+        "moreplates:palladium_plate",
+        "nuclearcraft:palladium_plate"
+      ]
+    },
+    {
+      "material": "palladium",
+      "form": "rod",
+      "canonical": "industrial_colonies:material_parts/palladium_rod",
+      "alternatives": [
+        "moreplates:palladium_rod"
+      ]
+    },
+    {
+      "material": "palladium",
+      "form": "gear",
+      "canonical": "industrial_colonies:material_parts/palladium_gear",
+      "alternatives": [
+        "moreplates:palladium_gear"
+      ]
+    },
+    {
+      "material": "platinum",
+      "form": "plate",
+      "canonical": "industrial_colonies:material_parts/platinum_plate",
+      "alternatives": [
+        "moreplates:platinum_plate",
+        "nuclearcraft:platinum_plate"
+      ]
+    },
+    {
+      "material": "platinum",
+      "form": "rod",
+      "canonical": "industrial_colonies:material_parts/platinum_rod",
+      "alternatives": [
+        "moreplates:platinum_rod"
+      ]
+    },
+    {
+      "material": "platinum",
+      "form": "gear",
+      "canonical": "industrial_colonies:material_parts/platinum_gear",
+      "alternatives": [
+        "moreplates:platinum_gear"
+      ]
+    },
+    {
+      "material": "potassium",
+      "form": "plate",
+      "canonical": "industrial_colonies:material_parts/potassium_plate",
+      "alternatives": [
+        "moreplates:potassium_plate"
+      ]
+    },
+    {
+      "material": "potassium",
+      "form": "rod",
+      "canonical": "industrial_colonies:material_parts/potassium_rod",
+      "alternatives": [
+        "moreplates:potassium_rod"
+      ]
+    },
+    {
+      "material": "potassium",
+      "form": "gear",
+      "canonical": "industrial_colonies:material_parts/potassium_gear",
+      "alternatives": [
+        "moreplates:potassium_gear"
+      ]
+    },
+    {
+      "material": "pyrolitic_carbon",
+      "form": "plate",
+      "canonical": "industrial_colonies:material_parts/pyrolitic_carbon_plate",
+      "alternatives": [
+        "moreplates:pyrolitic_carbon_plate"
+      ]
+    },
+    {
+      "material": "pyrolitic_carbon",
+      "form": "rod",
+      "canonical": "industrial_colonies:material_parts/pyrolitic_carbon_rod",
+      "alternatives": [
+        "moreplates:pyrolitic_carbon_rod"
+      ]
+    },
+    {
+      "material": "pyrolitic_carbon",
+      "form": "gear",
+      "canonical": "industrial_colonies:material_parts/pyrolitic_carbon_gear",
+      "alternatives": [
+        "moreplates:pyrolitic_carbon_gear"
+      ]
+    },
+    {
+      "material": "shibuichi",
+      "form": "plate",
+      "canonical": "industrial_colonies:material_parts/shibuichi_plate",
+      "alternatives": [
+        "moreplates:shibuichi_plate"
+      ]
+    },
+    {
+      "material": "shibuichi",
+      "form": "rod",
+      "canonical": "industrial_colonies:material_parts/shibuichi_rod",
+      "alternatives": [
+        "moreplates:shibuichi_rod"
+      ]
+    },
+    {
+      "material": "shibuichi",
+      "form": "gear",
+      "canonical": "industrial_colonies:material_parts/shibuichi_gear",
+      "alternatives": [
+        "moreplates:shibuichi_gear"
+      ]
+    },
+    {
+      "material": "sic_sic_cmc",
+      "form": "plate",
+      "canonical": "industrial_colonies:material_parts/sic_sic_cmc_plate",
+      "alternatives": [
+        "moreplates:sic_sic_cmc_plate",
+        "nuclearcraft:sic_sic_cmc_plate"
+      ]
+    },
+    {
+      "material": "sic_sic_cmc",
+      "form": "rod",
+      "canonical": "industrial_colonies:material_parts/sic_sic_cmc_rod",
+      "alternatives": [
+        "moreplates:sic_sic_cmc_rod"
+      ]
+    },
+    {
+      "material": "sic_sic_cmc",
+      "form": "gear",
+      "canonical": "industrial_colonies:material_parts/sic_sic_cmc_gear",
+      "alternatives": [
+        "moreplates:sic_sic_cmc_gear"
+      ]
+    },
+    {
+      "material": "silicon_carbide",
+      "form": "plate",
+      "canonical": "industrial_colonies:material_parts/silicon_carbide_plate",
+      "alternatives": [
+        "moreplates:silicon_carbide_plate"
+      ]
+    },
+    {
+      "material": "silicon_carbide",
+      "form": "rod",
+      "canonical": "industrial_colonies:material_parts/silicon_carbide_rod",
+      "alternatives": [
+        "moreplates:silicon_carbide_rod"
+      ]
+    },
+    {
+      "material": "silicon_carbide",
+      "form": "gear",
+      "canonical": "industrial_colonies:material_parts/silicon_carbide_gear",
+      "alternatives": [
+        "moreplates:silicon_carbide_gear"
+      ]
+    },
+    {
+      "material": "sodium",
+      "form": "plate",
+      "canonical": "industrial_colonies:material_parts/sodium_plate",
+      "alternatives": [
+        "moreplates:sodium_plate"
+      ]
+    },
+    {
+      "material": "sodium",
+      "form": "rod",
+      "canonical": "industrial_colonies:material_parts/sodium_rod",
+      "alternatives": [
+        "moreplates:sodium_rod"
+      ]
+    },
+    {
+      "material": "sodium",
+      "form": "gear",
+      "canonical": "industrial_colonies:material_parts/sodium_gear",
+      "alternatives": [
+        "moreplates:sodium_gear"
+      ]
+    },
+    {
+      "material": "stainless_steel",
+      "form": "plate",
+      "canonical": "industrial_colonies:material_parts/stainless_steel_plate",
+      "alternatives": [
+        "moreplates:stainless_steel_plate"
+      ]
+    },
+    {
+      "material": "stainless_steel",
+      "form": "rod",
+      "canonical": "industrial_colonies:material_parts/stainless_steel_rod",
+      "alternatives": [
+        "moreplates:stainless_steel_rod"
+      ]
+    },
+    {
+      "material": "stainless_steel",
+      "form": "gear",
+      "canonical": "industrial_colonies:material_parts/stainless_steel_gear",
+      "alternatives": [
+        "moreplates:stainless_steel_gear"
+      ]
+    },
+    {
+      "material": "strontium",
+      "form": "plate",
+      "canonical": "industrial_colonies:material_parts/strontium_plate",
+      "alternatives": [
+        "moreplates:strontium_plate"
+      ]
+    },
+    {
+      "material": "strontium",
+      "form": "rod",
+      "canonical": "industrial_colonies:material_parts/strontium_rod",
+      "alternatives": [
+        "moreplates:strontium_rod"
+      ]
+    },
+    {
+      "material": "strontium",
+      "form": "gear",
+      "canonical": "industrial_colonies:material_parts/strontium_gear",
+      "alternatives": [
+        "moreplates:strontium_gear"
+      ]
+    },
+    {
+      "material": "super_alloy",
+      "form": "plate",
+      "canonical": "industrial_colonies:material_parts/super_alloy_plate",
+      "alternatives": [
+        "moreplates:super_alloy_plate"
+      ]
+    },
+    {
+      "material": "super_alloy",
+      "form": "rod",
+      "canonical": "industrial_colonies:material_parts/super_alloy_rod",
+      "alternatives": [
+        "moreplates:super_alloy_rod"
+      ]
+    },
+    {
+      "material": "super_alloy",
+      "form": "gear",
+      "canonical": "industrial_colonies:material_parts/super_alloy_gear",
+      "alternatives": [
+        "moreplates:super_alloy_gear"
+      ]
+    },
+    {
+      "material": "thermoconducting",
+      "form": "plate",
+      "canonical": "industrial_colonies:material_parts/thermoconducting_plate",
+      "alternatives": [
+        "moreplates:thermoconducting_plate",
+        "nuclearcraft:thermoconducting_plate"
+      ]
+    },
+    {
+      "material": "thermoconducting",
+      "form": "rod",
+      "canonical": "industrial_colonies:material_parts/thermoconducting_rod",
+      "alternatives": [
+        "moreplates:thermoconducting_rod"
+      ]
+    },
+    {
+      "material": "thermoconducting",
+      "form": "gear",
+      "canonical": "industrial_colonies:material_parts/thermoconducting_gear",
+      "alternatives": [
+        "moreplates:thermoconducting_gear"
+      ]
+    },
+    {
+      "material": "thorium",
+      "form": "plate",
+      "canonical": "industrial_colonies:material_parts/thorium_plate",
+      "alternatives": [
+        "moreplates:thorium_plate",
+        "nuclearcraft:thorium_plate"
+      ]
+    },
+    {
+      "material": "thorium",
+      "form": "rod",
+      "canonical": "industrial_colonies:material_parts/thorium_rod",
+      "alternatives": [
+        "moreplates:thorium_rod"
+      ]
+    },
+    {
+      "material": "thorium",
+      "form": "gear",
+      "canonical": "industrial_colonies:material_parts/thorium_gear",
+      "alternatives": [
+        "moreplates:thorium_gear"
+      ]
+    },
+    {
+      "material": "tin_silver",
+      "form": "plate",
+      "canonical": "industrial_colonies:material_parts/tin_silver_plate",
+      "alternatives": [
+        "moreplates:tin_silver_plate"
+      ]
+    },
+    {
+      "material": "tin_silver",
+      "form": "rod",
+      "canonical": "industrial_colonies:material_parts/tin_silver_rod",
+      "alternatives": [
+        "moreplates:tin_silver_rod"
+      ]
+    },
+    {
+      "material": "tin_silver",
+      "form": "gear",
+      "canonical": "industrial_colonies:material_parts/tin_silver_gear",
+      "alternatives": [
+        "moreplates:tin_silver_gear"
+      ]
+    },
+    {
+      "material": "titanium",
+      "form": "plate",
+      "canonical": "industrial_colonies:material_parts/titanium_plate",
+      "alternatives": [
+        "moreplates:titanium_plate"
+      ]
+    },
+    {
+      "material": "titanium",
+      "form": "rod",
+      "canonical": "industrial_colonies:material_parts/titanium_rod",
+      "alternatives": [
+        "moreplates:titanium_rod"
+      ]
+    },
+    {
+      "material": "titanium",
+      "form": "gear",
+      "canonical": "industrial_colonies:material_parts/titanium_gear",
+      "alternatives": [
+        "moreplates:titanium_gear"
+      ]
+    },
+    {
+      "material": "tough_alloy",
+      "form": "plate",
+      "canonical": "industrial_colonies:material_parts/tough_alloy_plate",
+      "alternatives": [
+        "moreplates:tough_alloy_plate",
+        "nuclearcraft:tough_alloy_plate"
+      ]
+    },
+    {
+      "material": "tough_alloy",
+      "form": "rod",
+      "canonical": "industrial_colonies:material_parts/tough_alloy_rod",
+      "alternatives": [
+        "moreplates:tough_alloy_rod"
+      ]
+    },
+    {
+      "material": "tough_alloy",
+      "form": "gear",
+      "canonical": "industrial_colonies:material_parts/tough_alloy_gear",
+      "alternatives": [
+        "moreplates:tough_alloy_gear"
+      ]
+    },
+    {
+      "material": "tungsten_carbide",
+      "form": "plate",
+      "canonical": "industrial_colonies:material_parts/tungsten_carbide_plate",
+      "alternatives": [
+        "moreplates:tungsten_carbide_plate"
+      ]
+    },
+    {
+      "material": "tungsten_carbide",
+      "form": "rod",
+      "canonical": "industrial_colonies:material_parts/tungsten_carbide_rod",
+      "alternatives": [
+        "moreplates:tungsten_carbide_rod"
+      ]
+    },
+    {
+      "material": "tungsten_carbide",
+      "form": "gear",
+      "canonical": "industrial_colonies:material_parts/tungsten_carbide_gear",
+      "alternatives": [
+        "moreplates:tungsten_carbide_gear"
+      ]
+    },
+    {
+      "material": "tungsten",
+      "form": "rod",
+      "canonical": "industrial_colonies:material_parts/tungsten_rod",
+      "alternatives": [
+        "moreplates:tungsten_rod"
+      ]
+    },
+    {
+      "material": "tungsten",
+      "form": "gear",
+      "canonical": "industrial_colonies:material_parts/tungsten_gear",
+      "alternatives": [
+        "moreplates:tungsten_gear"
+      ]
+    },
+    {
+      "material": "yttrium",
+      "form": "plate",
+      "canonical": "industrial_colonies:material_parts/yttrium_plate",
+      "alternatives": [
+        "moreplates:yttrium_plate"
+      ]
+    },
+    {
+      "material": "yttrium",
+      "form": "rod",
+      "canonical": "industrial_colonies:material_parts/yttrium_rod",
+      "alternatives": [
+        "moreplates:yttrium_rod"
+      ]
+    },
+    {
+      "material": "yttrium",
+      "form": "gear",
+      "canonical": "industrial_colonies:material_parts/yttrium_gear",
+      "alternatives": [
+        "moreplates:yttrium_gear"
+      ]
+    },
+    {
+      "material": "zircaloy",
+      "form": "plate",
+      "canonical": "industrial_colonies:material_parts/zircaloy_plate",
+      "alternatives": [
+        "moreplates:zircaloy_plate"
+      ]
+    },
+    {
+      "material": "zircaloy",
+      "form": "rod",
+      "canonical": "industrial_colonies:material_parts/zircaloy_rod",
+      "alternatives": [
+        "moreplates:zircaloy_rod"
+      ]
+    },
+    {
+      "material": "zircaloy",
+      "form": "gear",
+      "canonical": "industrial_colonies:material_parts/zircaloy_gear",
+      "alternatives": [
+        "moreplates:zircaloy_gear"
+      ]
+    },
+    {
+      "material": "zirconium",
+      "form": "plate",
+      "canonical": "industrial_colonies:material_parts/zirconium_plate",
+      "alternatives": [
+        "moreplates:zirconium_plate",
+        "nuclearcraft:zirconium_plate"
+      ]
+    },
+    {
+      "material": "zirconium",
+      "form": "rod",
+      "canonical": "industrial_colonies:material_parts/zirconium_rod",
+      "alternatives": [
+        "moreplates:zirconium_rod"
+      ]
+    },
+    {
+      "material": "zirconium",
+      "form": "gear",
+      "canonical": "industrial_colonies:material_parts/zirconium_gear",
+      "alternatives": [
+        "moreplates:zirconium_gear"
+      ]
+    },
+    {
+      "material": "zirconium_molybdenum",
+      "form": "plate",
+      "canonical": "industrial_colonies:material_parts/zirconium_molybdenum_plate",
+      "alternatives": [
+        "moreplates:zirconium_molybdenum_plate"
+      ]
+    },
+    {
+      "material": "zirconium_molybdenum",
+      "form": "rod",
+      "canonical": "industrial_colonies:material_parts/zirconium_molybdenum_rod",
+      "alternatives": [
+        "moreplates:zirconium_molybdenum_rod"
+      ]
+    },
+    {
+      "material": "zirconium_molybdenum",
+      "form": "gear",
+      "canonical": "industrial_colonies:material_parts/zirconium_molybdenum_gear",
+      "alternatives": [
+        "moreplates:zirconium_molybdenum_gear"
+      ]
+    },
+    {
+      "material": "hematite",
+      "form": "plate",
+      "canonical": "industrial_colonies:material_parts/hematite_plate",
+      "alternatives": [
+        "moreplates:hematite_plate"
+      ]
+    },
+    {
+      "material": "hematite",
+      "form": "rod",
+      "canonical": "industrial_colonies:material_parts/hematite_rod",
+      "alternatives": [
+        "moreplates:hematite_rod"
+      ]
+    },
+    {
+      "material": "hematite",
+      "form": "gear",
+      "canonical": "industrial_colonies:material_parts/hematite_gear",
+      "alternatives": [
+        "moreplates:hematite_gear"
+      ]
+    },
+    {
+      "material": "siderite",
+      "form": "plate",
+      "canonical": "industrial_colonies:material_parts/siderite_plate",
+      "alternatives": [
+        "moreplates:siderite_plate"
+      ]
+    },
+    {
+      "material": "siderite",
+      "form": "rod",
+      "canonical": "industrial_colonies:material_parts/siderite_rod",
+      "alternatives": [
+        "moreplates:siderite_rod"
+      ]
+    },
+    {
+      "material": "siderite",
+      "form": "gear",
+      "canonical": "industrial_colonies:material_parts/siderite_gear",
+      "alternatives": [
+        "moreplates:siderite_gear"
+      ]
+    },
+    {
+      "material": "tridymite",
+      "form": "plate",
+      "canonical": "industrial_colonies:material_parts/tridymite_plate",
+      "alternatives": [
+        "moreplates:tridymite_plate"
+      ]
+    },
+    {
+      "material": "tridymite",
+      "form": "rod",
+      "canonical": "industrial_colonies:material_parts/tridymite_rod",
+      "alternatives": [
+        "moreplates:tridymite_rod"
+      ]
+    },
+    {
+      "material": "tridymite",
+      "form": "gear",
+      "canonical": "industrial_colonies:material_parts/tridymite_gear",
+      "alternatives": [
+        "moreplates:tridymite_gear"
+      ]
+    },
+    {
+      "material": "corronium",
+      "form": "plate",
+      "canonical": "industrial_colonies:material_parts/corronium_plate",
+      "alternatives": [
+        "moreplates:corronium_plate"
+      ]
+    },
+    {
+      "material": "corronium",
+      "form": "rod",
+      "canonical": "industrial_colonies:material_parts/corronium_rod",
+      "alternatives": [
+        "moreplates:corronium_rod"
+      ]
+    },
+    {
+      "material": "corronium",
+      "form": "gear",
+      "canonical": "industrial_colonies:material_parts/corronium_gear",
+      "alternatives": [
+        "moreplates:corronium_gear"
+      ]
+    },
+    {
+      "material": "heavy_metal",
+      "form": "plate",
+      "canonical": "stellaris:heavy_metal_plate",
+      "alternatives": [
+        "moreplates:heavy_metal_plate"
+      ]
+    },
+    {
+      "material": "heavy_metal",
+      "form": "rod",
+      "canonical": "industrial_colonies:material_parts/heavy_metal_rod",
+      "alternatives": [
+        "moreplates:heavy_metal_rod"
+      ]
+    },
+    {
+      "material": "heavy_metal",
+      "form": "gear",
+      "canonical": "industrial_colonies:material_parts/heavy_metal_gear",
+      "alternatives": [
+        "moreplates:heavy_metal_gear"
+      ]
+    },
+    {
+      "material": "plutonium",
+      "form": "plate",
+      "canonical": "industrial_colonies:material_parts/plutonium_plate",
+      "alternatives": [
+        "moreplates:plutonium_plate"
+      ]
+    },
+    {
+      "material": "plutonium",
+      "form": "rod",
+      "canonical": "industrial_colonies:material_parts/plutonium_rod",
+      "alternatives": [
+        "moreplates:plutonium_rod"
+      ]
+    },
+    {
+      "material": "plutonium",
+      "form": "gear",
+      "canonical": "industrial_colonies:material_parts/plutonium_gear",
+      "alternatives": [
+        "moreplates:plutonium_gear"
+      ]
+    },
+    {
+      "material": "raw_desh",
+      "form": "plate",
+      "canonical": "industrial_colonies:material_parts/raw_desh_plate",
+      "alternatives": [
+        "moreplates:raw_desh_plate"
+      ]
+    },
+    {
+      "material": "raw_desh",
+      "form": "rod",
+      "canonical": "industrial_colonies:material_parts/raw_desh_rod",
+      "alternatives": [
+        "moreplates:raw_desh_rod"
+      ]
+    },
+    {
+      "material": "raw_desh",
+      "form": "gear",
+      "canonical": "industrial_colonies:material_parts/raw_desh_gear",
+      "alternatives": [
+        "moreplates:raw_desh_gear"
+      ]
+    },
+    {
+      "material": "raw_steel",
+      "form": "plate",
+      "canonical": "industrial_colonies:material_parts/raw_steel_plate",
+      "alternatives": [
+        "moreplates:raw_steel_plate"
+      ]
+    },
+    {
+      "material": "raw_steel",
+      "form": "rod",
+      "canonical": "industrial_colonies:material_parts/raw_steel_rod",
+      "alternatives": [
+        "moreplates:raw_steel_rod"
+      ]
+    },
+    {
+      "material": "raw_steel",
+      "form": "gear",
+      "canonical": "industrial_colonies:material_parts/raw_steel_gear",
+      "alternatives": [
+        "moreplates:raw_steel_gear"
+      ]
+    },
+    {
+      "material": "tharsite",
+      "form": "plate",
+      "canonical": "industrial_colonies:material_parts/tharsite_plate",
+      "alternatives": [
+        "moreplates:tharsite_plate"
+      ]
+    },
+    {
+      "material": "tharsite",
+      "form": "rod",
+      "canonical": "industrial_colonies:material_parts/tharsite_rod",
+      "alternatives": [
+        "moreplates:tharsite_rod"
+      ]
+    },
+    {
+      "material": "tharsite",
+      "form": "gear",
+      "canonical": "industrial_colonies:material_parts/tharsite_gear",
+      "alternatives": [
+        "moreplates:tharsite_gear"
+      ]
+    },
+    {
+      "material": "constantan",
+      "form": "plate",
+      "canonical": "immersiveengineering:plate_constantan",
+      "alternatives": [
+        "moreplates:constantan_plate"
+      ]
+    },
+    {
+      "material": "constantan",
+      "form": "rod",
+      "canonical": "industrial_colonies:material_parts/constantan_rod",
+      "alternatives": [
+        "moreplates:constantan_rod"
+      ]
+    },
+    {
+      "material": "constantan",
+      "form": "gear",
+      "canonical": "industrial_colonies:material_parts/constantan_gear",
+      "alternatives": [
+        "moreplates:constantan_gear"
+      ]
+    },
+    {
+      "material": "magnetic_alloy",
+      "form": "plate",
+      "canonical": "industrial_colonies:material_parts/magnetic_alloy_plate",
+      "alternatives": [
+        "moreplates:magnetic_alloy_plate"
+      ]
+    },
+    {
+      "material": "magnetic_alloy",
+      "form": "rod",
+      "canonical": "industrial_colonies:material_parts/magnetic_alloy_rod",
+      "alternatives": [
+        "moreplates:magnetic_alloy_rod"
+      ]
+    },
+    {
+      "material": "magnetic_alloy",
+      "form": "gear",
+      "canonical": "industrial_colonies:material_parts/magnetic_alloy_gear",
+      "alternatives": [
+        "moreplates:magnetic_alloy_gear"
+      ]
+    },
+    {
+      "material": "nickel",
+      "form": "plate",
+      "canonical": "industrial_colonies:material_parts/nickel_plate",
+      "alternatives": [
+        "moreplates:nickel_plate"
+      ]
+    },
+    {
+      "material": "nickel",
+      "form": "rod",
+      "canonical": "industrial_colonies:material_parts/nickel_rod",
+      "alternatives": [
+        "moreplates:nickel_rod"
+      ]
+    },
+    {
+      "material": "nickel",
+      "form": "gear",
+      "canonical": "industrial_colonies:material_parts/nickel_gear",
+      "alternatives": [
+        "moreplates:nickel_gear"
+      ]
+    },
+    {
+      "material": "silicon",
+      "form": "plate",
+      "canonical": "industrial_colonies:material_parts/silicon_plate",
+      "alternatives": [
+        "moreplates:silicon_plate"
+      ]
+    },
+    {
+      "material": "silicon",
+      "form": "rod",
+      "canonical": "industrial_colonies:material_parts/silicon_rod",
+      "alternatives": [
+        "moreplates:silicon_rod"
+      ]
+    },
+    {
+      "material": "silicon",
+      "form": "gear",
+      "canonical": "industrial_colonies:material_parts/silicon_gear",
+      "alternatives": [
+        "moreplates:silicon_gear"
+      ]
+    },
+    {
+      "material": "zinc",
+      "form": "plate",
+      "canonical": "industrial_colonies:material_parts/zinc_plate",
+      "alternatives": [
+        "moreplates:zinc_plate",
+        "nuclearcraft:zinc_plate"
+      ]
+    },
+    {
+      "material": "tungsten",
+      "form": "plate",
+      "canonical": "industrial_colonies:material_parts/tungsten_plate",
+      "alternatives": [
+        "moreplates:tungsten_plate"
+      ]
+    }
+  ],
+  "disabled": [
+    "aquaculture:neptunium_block",
+    "aquaculture:neptunium_ingot",
+    "iceandfire:deepslate_silver_ore",
+    "iceandfire:silver_ore",
+    "immersiveengineering:deepslate_ore_aluminum",
+    "immersiveengineering:ore_aluminum",
+    "immersiveengineering:raw_aluminum",
+    "immersiveengineering:raw_block_aluminum",
+    "stellaris:mars_plutonium_ore",
+    "stellaris:mercury_uranium_ore",
+    "stellaris:neptunium_block",
+    "stellaris:neptunium_ingot",
+    "stellaris:plutonium_block",
+    "stellaris:plutonium_grain",
+    "stellaris:plutonium_ingot",
+    "stellaris:plutonium_nugget",
+    "stellaris:plutonium_piece",
+    "stellaris:raw_uranium",
+    "stellaris:raw_uranium_block",
+    "stellaris:uranium_block",
+    "stellaris:uranium_ingot",
+    "tfmg:bauxite",
+    "tfmg:bauxite_pillar",
+    "tfmg:cut_bauxite",
+    "tfmg:cut_bauxite_brick_slab",
+    "tfmg:cut_bauxite_brick_stairs",
+    "tfmg:cut_bauxite_brick_wall",
+    "tfmg:cut_bauxite_bricks",
+    "tfmg:cut_bauxite_slab",
+    "tfmg:cut_bauxite_stairs",
+    "tfmg:cut_bauxite_wall",
+    "tfmg:layered_bauxite",
+    "tfmg:polished_cut_bauxite",
+    "tfmg:polished_cut_bauxite_slab",
+    "tfmg:polished_cut_bauxite_stairs",
+    "tfmg:polished_cut_bauxite_wall",
+    "tfmg:small_bauxite_brick_slab",
+    "tfmg:small_bauxite_brick_stairs",
+    "tfmg:small_bauxite_brick_wall",
+    "tfmg:small_bauxite_bricks",
+    "industrial_colonies:cinnabar_dust",
+    "industrial_colonies:roasted_cinnabar",
+    "industrial_colonies:chromium_bearing_fraction",
+    "industrial_colonies:fine_silica_dust",
+    "industrial_colonies:high_purity_graphite",
+    "industrial_colonies:high_purity_refractory_lattice",
+    "industrial_colonies:iridium_bearing_refractory_residue",
+    "industrial_colonies:iron_bearing_dust",
+    "industrial_colonies:osmium_bearing_fraction",
+    "industrial_colonies:platinum_bearing_fraction",
+    "industrial_colonies:pressure_conditioned_radiant_composite",
+    "industrial_colonies:purified_silicon_precursor",
+    "industrial_colonies:radiant_precursor",
+    "industrial_colonies:radiant_silicon_substrate",
+    "industrial_colonies:rare_pgm_matrix",
+    "industrial_colonies:rich_iridium_concentrate",
+    "industrial_colonies:thorium_bearing_dust",
+    "industrial_colonies:uranium_bearing_dust",
+    "industrial_colonies:activated_spodumene",
+    "industrial_colonies:alkaline_roasted_chromite",
+    "industrial_colonies:alumina",
+    "industrial_colonies:argentite_dust",
+    "industrial_colonies:bertrandite_dust",
+    "industrial_colonies:beryllium_oxide",
+    "industrial_colonies:beryllium_precipitate",
+    "industrial_colonies:borax_dust",
+    "industrial_colonies:boron_oxide",
+    "industrial_colonies:calcined_dolomite",
+    "industrial_colonies:chromite_dust",
+    "industrial_colonies:chromium_precipitate",
+    "industrial_colonies:cobalt_oxide",
+    "industrial_colonies:cobalt_precipitate",
+    "industrial_colonies:cobalt_rich_concentrate",
+    "industrial_colonies:conditioned_phosphate",
+    "industrial_colonies:crude_lead_granules",
+    "industrial_colonies:crushed_cassiterite",
+    "industrial_colonies:dolomite_dust",
+    "industrial_colonies:electrolytic_aluminum_granules",
+    "industrial_colonies:elemental_phosphorus",
+    "industrial_colonies:galena_dust",
+    "industrial_colonies:graphite_concentrate",
+    "industrial_colonies:heavy_cassiterite_concentrate",
+    "industrial_colonies:high_purity_lead",
+    "industrial_colonies:ilmenite_dust",
+    "industrial_colonies:lithium_precipitate",
+    "industrial_colonies:nickel_only_concentrate",
+    "industrial_colonies:nickel_oxide",
+    "industrial_colonies:nickel_precipitate",
+    "industrial_colonies:pentlandite_dust",
+    "industrial_colonies:phosphate_dust",
+    "industrial_colonies:purified_iridium_fraction",
+    "industrial_colonies:purified_phosphate_compound",
+    "industrial_colonies:refined_thorium_compound",
+    "industrial_colonies:refined_uranium_compound",
+    "industrial_colonies:rich_osmium_concentrate",
+    "industrial_colonies:rich_platinum_concentrate",
+    "industrial_colonies:roasted_argentite",
+    "industrial_colonies:roasted_galena",
+    "industrial_colonies:sphalerite_dust",
+    "industrial_colonies:spodumene_dust",
+    "industrial_colonies:thorium_concentrate",
+    "industrial_colonies:titanium_rich_concentrate",
+    "industrial_colonies:titanium_sponge",
+    "industrial_colonies:tungstate_precipitate",
+    "industrial_colonies:tungsten_oxide",
+    "industrial_colonies:ultramafic_dust",
+    "industrial_colonies:uranium_concentrate",
+    "industrial_colonies:wolframite_dust",
+    "industrial_colonies:zinc_precipitate"
+  ],
+  "retiredOnly": [
+    "aquaculture:neptunium_block",
+    "aquaculture:neptunium_ingot",
+    "iceandfire:deepslate_silver_ore",
+    "iceandfire:silver_ore",
+    "immersiveengineering:deepslate_ore_aluminum",
+    "immersiveengineering:ore_aluminum",
+    "immersiveengineering:raw_aluminum",
+    "immersiveengineering:raw_block_aluminum",
+    "stellaris:mars_plutonium_ore",
+    "stellaris:mercury_uranium_ore",
+    "stellaris:neptunium_block",
+    "stellaris:neptunium_ingot",
+    "stellaris:plutonium_block",
+    "stellaris:plutonium_grain",
+    "stellaris:plutonium_ingot",
+    "stellaris:plutonium_nugget",
+    "stellaris:plutonium_piece",
+    "stellaris:raw_uranium_block",
+    "stellaris:uranium_block",
+    "tfmg:bauxite",
+    "tfmg:bauxite_pillar",
+    "tfmg:cut_bauxite",
+    "tfmg:cut_bauxite_brick_slab",
+    "tfmg:cut_bauxite_brick_stairs",
+    "tfmg:cut_bauxite_brick_wall",
+    "tfmg:cut_bauxite_bricks",
+    "tfmg:cut_bauxite_slab",
+    "tfmg:cut_bauxite_stairs",
+    "tfmg:cut_bauxite_wall",
+    "tfmg:layered_bauxite",
+    "tfmg:polished_cut_bauxite",
+    "tfmg:polished_cut_bauxite_slab",
+    "tfmg:polished_cut_bauxite_stairs",
+    "tfmg:polished_cut_bauxite_wall",
+    "tfmg:small_bauxite_brick_slab",
+    "tfmg:small_bauxite_brick_stairs",
+    "tfmg:small_bauxite_brick_wall",
+    "tfmg:small_bauxite_bricks",
+    "industrial_colonies:cinnabar_dust",
+    "industrial_colonies:roasted_cinnabar",
+    "industrial_colonies:chromium_bearing_fraction",
+    "industrial_colonies:fine_silica_dust",
+    "industrial_colonies:high_purity_graphite",
+    "industrial_colonies:high_purity_refractory_lattice",
+    "industrial_colonies:iridium_bearing_refractory_residue",
+    "industrial_colonies:iron_bearing_dust",
+    "industrial_colonies:osmium_bearing_fraction",
+    "industrial_colonies:platinum_bearing_fraction",
+    "industrial_colonies:pressure_conditioned_radiant_composite",
+    "industrial_colonies:purified_silicon_precursor",
+    "industrial_colonies:radiant_precursor",
+    "industrial_colonies:radiant_silicon_substrate",
+    "industrial_colonies:rare_pgm_matrix",
+    "industrial_colonies:rich_iridium_concentrate",
+    "industrial_colonies:thorium_bearing_dust",
+    "industrial_colonies:uranium_bearing_dust",
+    "industrial_colonies:activated_spodumene",
+    "industrial_colonies:alkaline_roasted_chromite",
+    "industrial_colonies:alumina",
+    "industrial_colonies:argentite_dust",
+    "industrial_colonies:bertrandite_dust",
+    "industrial_colonies:beryllium_oxide",
+    "industrial_colonies:beryllium_precipitate",
+    "industrial_colonies:borax_dust",
+    "industrial_colonies:boron_oxide",
+    "industrial_colonies:calcined_dolomite",
+    "industrial_colonies:chromite_dust",
+    "industrial_colonies:chromium_precipitate",
+    "industrial_colonies:cobalt_oxide",
+    "industrial_colonies:cobalt_precipitate",
+    "industrial_colonies:cobalt_rich_concentrate",
+    "industrial_colonies:conditioned_phosphate",
+    "industrial_colonies:crude_lead_granules",
+    "industrial_colonies:crushed_cassiterite",
+    "industrial_colonies:dolomite_dust",
+    "industrial_colonies:electrolytic_aluminum_granules",
+    "industrial_colonies:elemental_phosphorus",
+    "industrial_colonies:galena_dust",
+    "industrial_colonies:graphite_concentrate",
+    "industrial_colonies:heavy_cassiterite_concentrate",
+    "industrial_colonies:high_purity_lead",
+    "industrial_colonies:ilmenite_dust",
+    "industrial_colonies:lithium_precipitate",
+    "industrial_colonies:nickel_only_concentrate",
+    "industrial_colonies:nickel_oxide",
+    "industrial_colonies:nickel_precipitate",
+    "industrial_colonies:pentlandite_dust",
+    "industrial_colonies:phosphate_dust",
+    "industrial_colonies:purified_iridium_fraction",
+    "industrial_colonies:purified_phosphate_compound",
+    "industrial_colonies:refined_thorium_compound",
+    "industrial_colonies:refined_uranium_compound",
+    "industrial_colonies:rich_osmium_concentrate",
+    "industrial_colonies:rich_platinum_concentrate",
+    "industrial_colonies:roasted_argentite",
+    "industrial_colonies:roasted_galena",
+    "industrial_colonies:sphalerite_dust",
+    "industrial_colonies:spodumene_dust",
+    "industrial_colonies:thorium_concentrate",
+    "industrial_colonies:titanium_rich_concentrate",
+    "industrial_colonies:titanium_sponge",
+    "industrial_colonies:tungstate_precipitate",
+    "industrial_colonies:tungsten_oxide",
+    "industrial_colonies:ultramafic_dust",
+    "industrial_colonies:uranium_concentrate",
+    "industrial_colonies:wolframite_dust",
+    "industrial_colonies:zinc_precipitate"
+  ],
+  "notes": [
+    "Silicon high/low grades are design notes only; no implementation.",
+    "KEEP BOTH Extreme Reactors graphite bar and NuclearCraft graphite ingot; retain Extreme Reactors.",
+    "Retain raw yellorium separately. NuclearCraft isotopes/fuels and blutonium are not ordinary uranium."
+  ],
+  "tagUpdates": [
+    {
+      "tag": "ad_astra:desh_ingots",
+      "old": "ad_astra:desh_ingot",
+      "canonical": "stellaris:desh_ingot"
+    },
+    {
+      "tag": "ad_astra:iron_plates",
+      "old": "ad_astra:iron_plate",
+      "canonical": "immersiveengineering:plate_iron"
+    },
+    {
+      "tag": "ad_astra:iron_rods",
+      "old": "ad_astra:iron_rod",
+      "canonical": "createaddition:iron_rod"
+    },
+    {
+      "tag": "ad_astra:steel_ingots",
+      "old": "ad_astra:steel_ingot",
+      "canonical": "mekanism:ingot_steel"
+    },
+    {
+      "tag": "ad_astra:steel_plates",
+      "old": "ad_astra:steel_plate",
+      "canonical": "immersiveengineering:plate_steel"
+    },
+    {
+      "tag": "ad_astra:steel_rods",
+      "old": "ad_astra:steel_rod",
+      "canonical": "immersiveengineering:stick_steel"
+    },
+    {
+      "tag": "c:dusts",
+      "old": "nuclearcraft:sulfur_dust",
+      "canonical": "tfmg:sulfur_dust"
+    },
+    {
+      "tag": "c:dusts/sulfur",
+      "old": "immersiveengineering:dust_sulfur",
+      "canonical": "tfmg:sulfur_dust"
+    },
+    {
+      "tag": "c:dusts/sulfur",
+      "old": "mekanism:dust_sulfur",
+      "canonical": "tfmg:sulfur_dust"
+    },
+    {
+      "tag": "c:dusts/sulfur",
+      "old": "nuclearcraft:sulfur_dust",
+      "canonical": "tfmg:sulfur_dust"
+    },
+    {
+      "tag": "c:ingots",
+      "old": "createmechanisms:bronze",
+      "canonical": "mekanism:ingot_bronze"
+    },
+    {
+      "tag": "c:ingots",
+      "old": "createmetallurgy:steel_ingot",
+      "canonical": "mekanism:ingot_steel"
+    },
+    {
+      "tag": "c:ingots",
+      "old": "iceandfire:silver_ingot",
+      "canonical": "immersiveengineering:ingot_silver"
+    },
+    {
+      "tag": "c:ingots",
+      "old": "nuclearcraft:aluminum_ingot",
+      "canonical": "tfmg:aluminum_ingot"
+    },
+    {
+      "tag": "c:ingots",
+      "old": "nuclearcraft:bronze_ingot",
+      "canonical": "mekanism:ingot_bronze"
+    },
+    {
+      "tag": "c:ingots",
+      "old": "nuclearcraft:cobalt_ingot",
+      "canonical": "modernfoundry:cobalt_ingot"
+    },
+    {
+      "tag": "c:ingots",
+      "old": "nuclearcraft:electrum_ingot",
+      "canonical": "createaddition:electrum_ingot"
+    },
+    {
+      "tag": "c:ingots",
+      "old": "nuclearcraft:lead_ingot",
+      "canonical": "tfmg:lead_ingot"
+    },
+    {
+      "tag": "c:ingots",
+      "old": "nuclearcraft:lithium_ingot",
+      "canonical": "tfmg:lithium_ingot"
+    },
+    {
+      "tag": "c:ingots",
+      "old": "nuclearcraft:osmium_ingot",
+      "canonical": "mekanism:ingot_osmium"
+    },
+    {
+      "tag": "c:ingots",
+      "old": "nuclearcraft:platinum_ingot",
+      "canonical": "rocketnautics_addon:platinum_ingot"
+    },
+    {
+      "tag": "c:ingots",
+      "old": "nuclearcraft:silver_ingot",
+      "canonical": "immersiveengineering:ingot_silver"
+    },
+    {
+      "tag": "c:ingots",
+      "old": "nuclearcraft:steel_ingot",
+      "canonical": "mekanism:ingot_steel"
+    },
+    {
+      "tag": "c:ingots",
+      "old": "nuclearcraft:tin_ingot",
+      "canonical": "mekanism:ingot_tin"
+    },
+    {
+      "tag": "c:ingots",
+      "old": "nuclearcraft:titanium_ingot",
+      "canonical": "rocketnautics:titanium_ingot"
+    },
+    {
+      "tag": "c:ingots",
+      "old": "nuclearcraft:tungsten_ingot",
+      "canonical": "createmetallurgy:tungsten_ingot"
+    },
+    {
+      "tag": "c:ingots",
+      "old": "nuclearcraft:uranium_ingot",
+      "canonical": "mekanism:ingot_uranium"
+    },
+    {
+      "tag": "c:ingots",
+      "old": "nuclearcraft:zinc_ingot",
+      "canonical": "create:zinc_ingot"
+    },
+    {
+      "tag": "c:ingots",
+      "old": "tfmg:steel_ingot",
+      "canonical": "mekanism:ingot_steel"
+    },
+    {
+      "tag": "c:ingots/aluminum",
+      "old": "immersiveengineering:ingot_aluminum",
+      "canonical": "tfmg:aluminum_ingot"
+    },
+    {
+      "tag": "c:ingots/aluminum",
+      "old": "nuclearcraft:aluminum_ingot",
+      "canonical": "tfmg:aluminum_ingot"
+    },
+    {
+      "tag": "c:ingots/bronze",
+      "old": "createbigcannons:bronze_ingot",
+      "canonical": "mekanism:ingot_bronze"
+    },
+    {
+      "tag": "c:ingots/bronze",
+      "old": "createmechanisms:bronze",
+      "canonical": "mekanism:ingot_bronze"
+    },
+    {
+      "tag": "c:ingots/bronze",
+      "old": "nuclearcraft:bronze_ingot",
+      "canonical": "mekanism:ingot_bronze"
+    },
+    {
+      "tag": "c:ingots/cast_iron",
+      "old": "createbigcannons:cast_iron_ingot",
+      "canonical": "tfmg:cast_iron_ingot"
+    },
+    {
+      "tag": "c:ingots/cobalt",
+      "old": "nuclearcraft:cobalt_ingot",
+      "canonical": "modernfoundry:cobalt_ingot"
+    },
+    {
+      "tag": "c:ingots/constantan",
+      "old": "immersiveengineering:ingot_constantan",
+      "canonical": "tfmg:constantan_ingot"
+    },
+    {
+      "tag": "c:ingots/desh",
+      "old": "ad_astra:desh_ingot",
+      "canonical": "stellaris:desh_ingot"
+    },
+    {
+      "tag": "c:ingots/electrum",
+      "old": "immersiveengineering:ingot_electrum",
+      "canonical": "createaddition:electrum_ingot"
+    },
+    {
+      "tag": "c:ingots/electrum",
+      "old": "nuclearcraft:electrum_ingot",
+      "canonical": "createaddition:electrum_ingot"
+    },
+    {
+      "tag": "c:ingots/lead",
+      "old": "immersiveengineering:ingot_lead",
+      "canonical": "tfmg:lead_ingot"
+    },
+    {
+      "tag": "c:ingots/lead",
+      "old": "mekanism:ingot_lead",
+      "canonical": "tfmg:lead_ingot"
+    },
+    {
+      "tag": "c:ingots/lead",
+      "old": "nuclearcraft:lead_ingot",
+      "canonical": "tfmg:lead_ingot"
+    },
+    {
+      "tag": "c:ingots/lithium",
+      "old": "nuclearcraft:lithium_ingot",
+      "canonical": "tfmg:lithium_ingot"
+    },
+    {
+      "tag": "c:ingots/nickel",
+      "old": "immersiveengineering:ingot_nickel",
+      "canonical": "tfmg:nickel_ingot"
+    },
+    {
+      "tag": "c:ingots/osmium",
+      "old": "nuclearcraft:osmium_ingot",
+      "canonical": "mekanism:ingot_osmium"
+    },
+    {
+      "tag": "c:ingots/platinum",
+      "old": "nuclearcraft:platinum_ingot",
+      "canonical": "rocketnautics_addon:platinum_ingot"
+    },
+    {
+      "tag": "c:ingots/silver",
+      "old": "iceandfire:silver_ingot",
+      "canonical": "immersiveengineering:ingot_silver"
+    },
+    {
+      "tag": "c:ingots/silver",
+      "old": "nuclearcraft:silver_ingot",
+      "canonical": "immersiveengineering:ingot_silver"
+    },
+    {
+      "tag": "c:ingots/steel",
+      "old": "ad_astra:steel_ingot",
+      "canonical": "mekanism:ingot_steel"
+    },
+    {
+      "tag": "c:ingots/steel",
+      "old": "createbigcannons:steel_ingot",
+      "canonical": "mekanism:ingot_steel"
+    },
+    {
+      "tag": "c:ingots/steel",
+      "old": "createmetallurgy:steel_ingot",
+      "canonical": "mekanism:ingot_steel"
+    },
+    {
+      "tag": "c:ingots/steel",
+      "old": "immersiveengineering:ingot_steel",
+      "canonical": "mekanism:ingot_steel"
+    },
+    {
+      "tag": "c:ingots/steel",
+      "old": "modernfoundry:steel_ingot",
+      "canonical": "mekanism:ingot_steel"
+    },
+    {
+      "tag": "c:ingots/steel",
+      "old": "nuclearcraft:steel_ingot",
+      "canonical": "mekanism:ingot_steel"
+    },
+    {
+      "tag": "c:ingots/steel",
+      "old": "stellaris:steel_ingot",
+      "canonical": "mekanism:ingot_steel"
+    },
+    {
+      "tag": "c:ingots/steel",
+      "old": "tfmg:steel_ingot",
+      "canonical": "mekanism:ingot_steel"
+    },
+    {
+      "tag": "c:ingots/tin",
+      "old": "nuclearcraft:tin_ingot",
+      "canonical": "mekanism:ingot_tin"
+    },
+    {
+      "tag": "c:ingots/titanium",
+      "old": "nuclearcraft:titanium_ingot",
+      "canonical": "rocketnautics:titanium_ingot"
+    },
+    {
+      "tag": "c:ingots/tungsten",
+      "old": "nuclearcraft:tungsten_ingot",
+      "canonical": "createmetallurgy:tungsten_ingot"
+    },
+    {
+      "tag": "c:ingots/uranium",
+      "old": "immersiveengineering:ingot_uranium",
+      "canonical": "mekanism:ingot_uranium"
+    },
+    {
+      "tag": "c:ingots/uranium",
+      "old": "nuclearcraft:uranium_ingot",
+      "canonical": "mekanism:ingot_uranium"
+    },
+    {
+      "tag": "c:ingots/uranium",
+      "old": "stellaris:uranium_ingot",
+      "canonical": "mekanism:ingot_uranium"
+    },
+    {
+      "tag": "c:ingots/zinc",
+      "old": "nuclearcraft:zinc_ingot",
+      "canonical": "create:zinc_ingot"
+    },
+    {
+      "tag": "c:plates",
+      "old": "nuclearcraft:aluminum_plate",
+      "canonical": "immersiveengineering:plate_aluminum"
+    },
+    {
+      "tag": "c:plates",
+      "old": "nuclearcraft:copper_plate",
+      "canonical": "immersiveengineering:plate_copper"
+    },
+    {
+      "tag": "c:plates",
+      "old": "nuclearcraft:electrum_plate",
+      "canonical": "immersiveengineering:plate_electrum"
+    },
+    {
+      "tag": "c:plates",
+      "old": "nuclearcraft:iron_plate",
+      "canonical": "immersiveengineering:plate_iron"
+    },
+    {
+      "tag": "c:plates",
+      "old": "nuclearcraft:lead_plate",
+      "canonical": "immersiveengineering:plate_lead"
+    },
+    {
+      "tag": "c:plates",
+      "old": "nuclearcraft:silver_plate",
+      "canonical": "immersiveengineering:plate_silver"
+    },
+    {
+      "tag": "c:plates",
+      "old": "nuclearcraft:steel_plate",
+      "canonical": "immersiveengineering:plate_steel"
+    },
+    {
+      "tag": "c:plates",
+      "old": "nuclearcraft:uranium_plate",
+      "canonical": "immersiveengineering:plate_uranium"
+    },
+    {
+      "tag": "c:plates/aluminum",
+      "old": "nuclearcraft:aluminum_plate",
+      "canonical": "immersiveengineering:plate_aluminum"
+    },
+    {
+      "tag": "c:plates/copper",
+      "old": "nuclearcraft:copper_plate",
+      "canonical": "immersiveengineering:plate_copper"
+    },
+    {
+      "tag": "c:plates/electrum",
+      "old": "nuclearcraft:electrum_plate",
+      "canonical": "immersiveengineering:plate_electrum"
+    },
+    {
+      "tag": "c:plates/iron",
+      "old": "ad_astra:iron_plate",
+      "canonical": "immersiveengineering:plate_iron"
+    },
+    {
+      "tag": "c:plates/iron",
+      "old": "nuclearcraft:iron_plate",
+      "canonical": "immersiveengineering:plate_iron"
+    },
+    {
+      "tag": "c:plates/lead",
+      "old": "nuclearcraft:lead_plate",
+      "canonical": "immersiveengineering:plate_lead"
+    },
+    {
+      "tag": "c:plates/silver",
+      "old": "nuclearcraft:silver_plate",
+      "canonical": "immersiveengineering:plate_silver"
+    },
+    {
+      "tag": "c:plates/steel",
+      "old": "ad_astra:steel_plate",
+      "canonical": "immersiveengineering:plate_steel"
+    },
+    {
+      "tag": "c:plates/steel",
+      "old": "nuclearcraft:steel_plate",
+      "canonical": "immersiveengineering:plate_steel"
+    },
+    {
+      "tag": "c:plates/uranium",
+      "old": "nuclearcraft:uranium_plate",
+      "canonical": "immersiveengineering:plate_uranium"
+    },
+    {
+      "tag": "c:raw_materials",
+      "old": "nuclearcraft:raw_cobalt",
+      "canonical": "modernfoundry:raw_cobalt"
+    },
+    {
+      "tag": "c:raw_materials",
+      "old": "nuclearcraft:raw_lead",
+      "canonical": "tfmg:raw_lead"
+    },
+    {
+      "tag": "c:raw_materials",
+      "old": "nuclearcraft:raw_lithium",
+      "canonical": "tfmg:raw_lithium"
+    },
+    {
+      "tag": "c:raw_materials",
+      "old": "nuclearcraft:raw_platinum",
+      "canonical": "rocketnautics_addon:raw_platinum"
+    },
+    {
+      "tag": "c:raw_materials",
+      "old": "nuclearcraft:raw_tin",
+      "canonical": "mekanism:raw_tin"
+    },
+    {
+      "tag": "c:raw_materials",
+      "old": "nuclearcraft:raw_uranium",
+      "canonical": "mekanism:raw_uranium"
+    },
+    {
+      "tag": "c:raw_materials",
+      "old": "nuclearcraft:raw_zinc",
+      "canonical": "create:raw_zinc"
+    },
+    {
+      "tag": "c:raw_materials/cobalt",
+      "old": "nuclearcraft:raw_cobalt",
+      "canonical": "modernfoundry:raw_cobalt"
+    },
+    {
+      "tag": "c:raw_materials/desh",
+      "old": "stellaris:raw_desh_ingot",
+      "canonical": "ad_astra:raw_desh"
+    },
+    {
+      "tag": "c:raw_materials/lead",
+      "old": "immersiveengineering:raw_lead",
+      "canonical": "tfmg:raw_lead"
+    },
+    {
+      "tag": "c:raw_materials/lead",
+      "old": "mekanism:raw_lead",
+      "canonical": "tfmg:raw_lead"
+    },
+    {
+      "tag": "c:raw_materials/lead",
+      "old": "nuclearcraft:raw_lead",
+      "canonical": "tfmg:raw_lead"
+    },
+    {
+      "tag": "c:raw_materials/lithium",
+      "old": "nuclearcraft:raw_lithium",
+      "canonical": "tfmg:raw_lithium"
+    },
+    {
+      "tag": "c:raw_materials/nickel",
+      "old": "immersiveengineering:raw_nickel",
+      "canonical": "tfmg:raw_nickel"
+    },
+    {
+      "tag": "c:raw_materials/platinum",
+      "old": "nuclearcraft:raw_platinum",
+      "canonical": "rocketnautics_addon:raw_platinum"
+    },
+    {
+      "tag": "c:raw_materials/silver",
+      "old": "iceandfire:raw_silver",
+      "canonical": "nuclearcraft:raw_silver"
+    },
+    {
+      "tag": "c:raw_materials/silver",
+      "old": "immersiveengineering:raw_silver",
+      "canonical": "nuclearcraft:raw_silver"
+    },
+    {
+      "tag": "c:raw_materials/tin",
+      "old": "nuclearcraft:raw_tin",
+      "canonical": "mekanism:raw_tin"
+    },
+    {
+      "tag": "c:raw_materials/uranium",
+      "old": "immersiveengineering:raw_uranium",
+      "canonical": "mekanism:raw_uranium"
+    },
+    {
+      "tag": "c:raw_materials/uranium",
+      "old": "nuclearcraft:raw_uranium",
+      "canonical": "mekanism:raw_uranium"
+    },
+    {
+      "tag": "c:raw_materials/uranium",
+      "old": "stellaris:raw_uranium",
+      "canonical": "mekanism:raw_uranium"
+    },
+    {
+      "tag": "c:raw_materials/zinc",
+      "old": "nuclearcraft:raw_zinc",
+      "canonical": "create:raw_zinc"
+    },
+    {
+      "tag": "c:rods/iron",
+      "old": "ad_astra:iron_rod",
+      "canonical": "createaddition:iron_rod"
+    },
+    {
+      "tag": "c:rods/iron",
+      "old": "immersiveengineering:stick_iron",
+      "canonical": "createaddition:iron_rod"
+    },
+    {
+      "tag": "c:rods/steel",
+      "old": "ad_astra:steel_rod",
+      "canonical": "immersiveengineering:stick_steel"
+    },
+    {
+      "tag": "create:create_ingots",
+      "old": "tfmg:steel_ingot",
+      "canonical": "mekanism:ingot_steel"
+    },
+    {
+      "tag": "industrial_colonies:desh_crushing_feed",
+      "old": "rocketnautics_addon:raw_desh",
+      "canonical": "ad_astra:raw_desh"
+    },
+    {
+      "tag": "industrial_colonies:geological_resources",
+      "old": "industrial_colonies:galena",
+      "canonical": "tfmg:galena"
+    },
+    {
+      "tag": "industrial_colonies:geological_rocks",
+      "old": "industrial_colonies:galena",
+      "canonical": "tfmg:galena"
+    },
+    {
+      "tag": "industrial_colonies:host_rocks/lead",
+      "old": "industrial_colonies:galena",
+      "canonical": "tfmg:galena"
+    },
+    {
+      "tag": "minecraft:beacon_payment_items",
+      "old": "ad_astra:desh_ingot",
+      "canonical": "stellaris:desh_ingot"
+    },
+    {
+      "tag": "minecraft:beacon_payment_items",
+      "old": "ad_astra:steel_ingot",
+      "canonical": "mekanism:ingot_steel"
+    },
+    {
+      "tag": "minecraft:beacon_payment_items",
+      "old": "mekanism:ingot_lead",
+      "canonical": "tfmg:lead_ingot"
+    },
+    {
+      "tag": "stellaris:steel",
+      "old": "stellaris:steel_ingot",
+      "canonical": "mekanism:ingot_steel"
+    }
+  ],
+  "retiredTagRemovals": [
+    {
+      "tag": "c:ingots",
+      "item": "aquaculture:neptunium_ingot"
+    },
+    {
+      "tag": "c:ingots/neptunium",
+      "item": "aquaculture:neptunium_ingot"
+    },
+    {
+      "tag": "c:ingots/neptunium",
+      "item": "stellaris:neptunium_ingot"
+    },
+    {
+      "tag": "c:ingots/plutonium",
+      "item": "stellaris:plutonium_ingot"
+    },
+    {
+      "tag": "c:jolly_boxes/large_present_single_stack",
+      "item": "aquaculture:neptunium_ingot"
+    },
+    {
+      "tag": "c:nuggets/plutonium",
+      "item": "stellaris:plutonium_nugget"
+    },
+    {
+      "tag": "c:ore_rates/singular",
+      "item": "immersiveengineering:deepslate_ore_aluminum"
+    },
+    {
+      "tag": "c:ore_rates/singular",
+      "item": "immersiveengineering:ore_aluminum"
+    },
+    {
+      "tag": "c:ores/aluminum",
+      "item": "immersiveengineering:deepslate_ore_aluminum"
+    },
+    {
+      "tag": "c:ores/aluminum",
+      "item": "immersiveengineering:ore_aluminum"
+    },
+    {
+      "tag": "c:ores/plutonium",
+      "item": "stellaris:mars_plutonium_ore"
+    },
+    {
+      "tag": "c:ores/silver",
+      "item": "iceandfire:deepslate_silver_ore"
+    },
+    {
+      "tag": "c:ores/silver",
+      "item": "iceandfire:silver_ore"
+    },
+    {
+      "tag": "c:ores/uranium",
+      "item": "stellaris:mercury_uranium_ore"
+    },
+    {
+      "tag": "c:ores_in_ground/deepslate",
+      "item": "iceandfire:deepslate_silver_ore"
+    },
+    {
+      "tag": "c:ores_in_ground/deepslate",
+      "item": "immersiveengineering:deepslate_ore_aluminum"
+    },
+    {
+      "tag": "c:ores_in_ground/stone",
+      "item": "iceandfire:silver_ore"
+    },
+    {
+      "tag": "c:ores_in_ground/stone",
+      "item": "immersiveengineering:ore_aluminum"
+    },
+    {
+      "tag": "c:raw_materials/aluminum",
+      "item": "immersiveengineering:raw_aluminum"
+    },
+    {
+      "tag": "c:storage_blocks/neptunium",
+      "item": "aquaculture:neptunium_block"
+    },
+    {
+      "tag": "c:storage_blocks/plutonium",
+      "item": "stellaris:plutonium_block"
+    },
+    {
+      "tag": "c:storage_blocks/raw_aluminum",
+      "item": "immersiveengineering:raw_block_aluminum"
+    },
+    {
+      "tag": "c:storage_blocks/raw_uranium",
+      "item": "stellaris:raw_uranium_block"
+    },
+    {
+      "tag": "c:storage_blocks/uranium",
+      "item": "stellaris:uranium_block"
+    },
+    {
+      "tag": "minecraft:slabs",
+      "item": "tfmg:cut_bauxite_brick_slab"
+    },
+    {
+      "tag": "minecraft:slabs",
+      "item": "tfmg:cut_bauxite_slab"
+    },
+    {
+      "tag": "minecraft:slabs",
+      "item": "tfmg:polished_cut_bauxite_slab"
+    },
+    {
+      "tag": "minecraft:slabs",
+      "item": "tfmg:small_bauxite_brick_slab"
+    },
+    {
+      "tag": "minecraft:stairs",
+      "item": "tfmg:cut_bauxite_brick_stairs"
+    },
+    {
+      "tag": "minecraft:stairs",
+      "item": "tfmg:cut_bauxite_stairs"
+    },
+    {
+      "tag": "minecraft:stairs",
+      "item": "tfmg:polished_cut_bauxite_stairs"
+    },
+    {
+      "tag": "minecraft:stairs",
+      "item": "tfmg:small_bauxite_brick_stairs"
+    },
+    {
+      "tag": "minecraft:walls",
+      "item": "tfmg:cut_bauxite_brick_wall"
+    },
+    {
+      "tag": "minecraft:walls",
+      "item": "tfmg:cut_bauxite_wall"
+    },
+    {
+      "tag": "minecraft:walls",
+      "item": "tfmg:polished_cut_bauxite_wall"
+    },
+    {
+      "tag": "minecraft:walls",
+      "item": "tfmg:small_bauxite_brick_wall"
+    },
+    {
+      "tag": "tfmg:stone_types/bauxite",
+      "item": "tfmg:bauxite"
+    },
+    {
+      "tag": "tfmg:stone_types/bauxite",
+      "item": "tfmg:bauxite_pillar"
+    },
+    {
+      "tag": "tfmg:stone_types/bauxite",
+      "item": "tfmg:cut_bauxite"
+    },
+    {
+      "tag": "tfmg:stone_types/bauxite",
+      "item": "tfmg:cut_bauxite_brick_stairs"
+    },
+    {
+      "tag": "tfmg:stone_types/bauxite",
+      "item": "tfmg:cut_bauxite_brick_wall"
+    },
+    {
+      "tag": "tfmg:stone_types/bauxite",
+      "item": "tfmg:cut_bauxite_bricks"
+    },
+    {
+      "tag": "tfmg:stone_types/bauxite",
+      "item": "tfmg:cut_bauxite_stairs"
+    },
+    {
+      "tag": "tfmg:stone_types/bauxite",
+      "item": "tfmg:cut_bauxite_wall"
+    },
+    {
+      "tag": "tfmg:stone_types/bauxite",
+      "item": "tfmg:layered_bauxite"
+    },
+    {
+      "tag": "tfmg:stone_types/bauxite",
+      "item": "tfmg:polished_cut_bauxite"
+    },
+    {
+      "tag": "tfmg:stone_types/bauxite",
+      "item": "tfmg:polished_cut_bauxite_stairs"
+    },
+    {
+      "tag": "tfmg:stone_types/bauxite",
+      "item": "tfmg:polished_cut_bauxite_wall"
+    },
+    {
+      "tag": "tfmg:stone_types/bauxite",
+      "item": "tfmg:small_bauxite_brick_stairs"
+    },
+    {
+      "tag": "tfmg:stone_types/bauxite",
+      "item": "tfmg:small_bauxite_brick_wall"
+    },
+    {
+      "tag": "tfmg:stone_types/bauxite",
+      "item": "tfmg:small_bauxite_bricks"
+    }
+  ]
+}

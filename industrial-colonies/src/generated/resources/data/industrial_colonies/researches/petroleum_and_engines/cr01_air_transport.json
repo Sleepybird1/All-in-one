@@ -1,0 +1,30 @@
+{
+  "branch": "industrial_colonies:tech_tree",
+  "costs": [
+    {
+      "item": "tfmg:radial_engine",
+      "count": 2
+    },
+    {
+      "item": "createdieselgenerators:engine_turbocharger",
+      "count": 4
+    },
+    {
+      "item": "create:brass_casing",
+      "count": 8
+    }
+  ],
+  "icon": "create:propeller",
+  "name": "com.industrial_colonies.research.petroleum_and_engines.cr01_air_transport.name",
+  "no-reset": true,
+  "researchLevel": 5,
+  "sortOrder": 9626,
+  "subtitle": "com.industrial_colonies.research.petroleum_and_engines.cr01_air_transport.subtitle",
+  "parentResearch": "industrial_colonies:petroleum_and_engines/cr01_radial_engines",
+  "requirements": [
+    {
+      "type": "minecolonies:research",
+      "research": "industrial_colonies:petroleum_and_engines/cr01_radial_engines"
+    }
+  ]
+}

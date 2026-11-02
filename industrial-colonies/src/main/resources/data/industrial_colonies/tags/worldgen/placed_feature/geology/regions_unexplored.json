@@ -1,0 +1,29 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "regions_unexplored:special/ore_redstone_large",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:patch/redstone_bud",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:patch/redstone_bulb",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:special/large_pointed_redstone",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:special/pointed_redstone",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:special/pointed_redstone_cluster",
+      "required": false
+    }
+  ]
+}

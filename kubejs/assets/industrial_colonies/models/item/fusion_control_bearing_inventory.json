@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "industrial_colonies:item/fusion_control_bearing_inventory"
+  }
+}

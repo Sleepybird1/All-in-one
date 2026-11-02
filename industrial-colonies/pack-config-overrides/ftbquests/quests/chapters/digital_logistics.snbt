@@ -1,0 +1,241 @@
+{
+  "id": "4577312E188BD84D",
+  "group": "",
+  "order_index": -70,
+  "filename": "digital_logistics",
+  "default_quest_shape": "rsquare",
+  "default_quest_size": 1.0,
+  "default_hide_dependency_lines": false,
+  "progression_mode": "default",
+  "quests": [
+    {
+      "id": "4C92188778A511FE",
+      "x": 0.0,
+      "y": 0.0,
+      "icon": {
+        "id": "ae2:charger"
+      },
+      "disable_toast": true,
+      "tags": [
+        "industrial_colonies:physical_guidance",
+        "industrial_colonies:physical_guidance/phase/digital_logistics",
+        "industrial_colonies:physical_guidance/inscription_hardware"
+      ],
+      "dependencies": [
+        "72079119200F4E33"
+      ],
+      "tasks": [
+        {
+          "id": "72CCEF9B6840BD49",
+          "type": "item",
+          "item": {
+            "id": "ae2:charger"
+          },
+          "count": 1
+        },
+        {
+          "id": "7E1015A2C7481326",
+          "type": "item",
+          "item": {
+            "id": "ae2:inscriber"
+          },
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "61A18A651CB4E6B3",
+      "x": 3.0,
+      "y": -2.0,
+      "icon": {
+        "id": "ae2:logic_processor"
+      },
+      "disable_toast": true,
+      "tags": [
+        "industrial_colonies:physical_guidance",
+        "industrial_colonies:physical_guidance/phase/digital_logistics",
+        "industrial_colonies:physical_guidance/logic_and_stress_processors"
+      ],
+      "dependencies": [
+        "4C92188778A511FE"
+      ],
+      "tasks": [
+        {
+          "id": "5604DA580DF0484F",
+          "type": "item",
+          "item": {
+            "id": "ae2:logic_processor"
+          },
+          "count": 4
+        },
+        {
+          "id": "5DD99795B3022A7D",
+          "type": "item",
+          "item": {
+            "id": "appliedcreate:advanced_stress_processor"
+          },
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "37C1696E32511946",
+      "x": 3.0,
+      "y": 2.0,
+      "icon": {
+        "id": "ae2:energy_acceptor"
+      },
+      "disable_toast": true,
+      "tags": [
+        "industrial_colonies:physical_guidance",
+        "industrial_colonies:physical_guidance/phase/digital_logistics",
+        "industrial_colonies:physical_guidance/starter_me_network"
+      ],
+      "dependencies": [
+        "4C92188778A511FE"
+      ],
+      "tasks": [
+        {
+          "id": "26D1965736833237",
+          "type": "item",
+          "item": {
+            "id": "ae2:energy_acceptor"
+          },
+          "count": 1
+        },
+        {
+          "id": "3AD6597D168DFA7D",
+          "type": "item",
+          "item": {
+            "id": "ae2:terminal"
+          },
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "226A04656BFB827E",
+      "x": 6.0,
+      "y": 2.0,
+      "icon": {
+        "id": "ae2:drive"
+      },
+      "disable_toast": true,
+      "tags": [
+        "industrial_colonies:physical_guidance",
+        "industrial_colonies:physical_guidance/phase/digital_logistics",
+        "industrial_colonies:physical_guidance/starter_me_storage"
+      ],
+      "dependencies": [
+        "37C1696E32511946"
+      ],
+      "tasks": [
+        {
+          "id": "291B93CB98A8B750",
+          "type": "item",
+          "item": {
+            "id": "ae2:drive"
+          },
+          "count": 1
+        },
+        {
+          "id": "546BFC72CDED99DD",
+          "type": "item",
+          "item": {
+            "id": "ae2:item_storage_cell_4k"
+          },
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "4A5F56050103C954",
+      "x": 6.0,
+      "y": -2.0,
+      "icon": {
+        "id": "computercraft:computer_normal"
+      },
+      "disable_toast": true,
+      "tags": [
+        "industrial_colonies:physical_guidance",
+        "industrial_colonies:physical_guidance/phase/digital_logistics",
+        "industrial_colonies:physical_guidance/computer_control_station"
+      ],
+      "dependencies": [
+        "61A18A651CB4E6B3"
+      ],
+      "tasks": [
+        {
+          "id": "436E1AE778F558D8",
+          "type": "item",
+          "item": {
+            "id": "computercraft:computer_normal"
+          },
+          "count": 1
+        },
+        {
+          "id": "5EE55F00E2D0D213",
+          "type": "item",
+          "item": {
+            "id": "computercraft:monitor_normal"
+          },
+          "count": 1
+        },
+        {
+          "id": "717683DE47BC4C35",
+          "type": "item",
+          "item": {
+            "id": "computercraft:wired_modem"
+          },
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "6D8FEEBB98B4136F",
+      "x": 9.0,
+      "y": 0.0,
+      "icon": {
+        "id": "ae2:crafting_unit"
+      },
+      "disable_toast": true,
+      "tags": [
+        "industrial_colonies:physical_guidance",
+        "industrial_colonies:physical_guidance/phase/digital_logistics",
+        "industrial_colonies:physical_guidance/first_autocrafting_cell"
+      ],
+      "dependencies": [
+        "61A18A651CB4E6B3",
+        "226A04656BFB827E"
+      ],
+      "tasks": [
+        {
+          "id": "6840F2130738A768",
+          "type": "item",
+          "item": {
+            "id": "ae2:crafting_unit"
+          },
+          "count": 1
+        },
+        {
+          "id": "3F08C72EDF16DB9A",
+          "type": "item",
+          "item": {
+            "id": "ae2:molecular_assembler"
+          },
+          "count": 1
+        },
+        {
+          "id": "68EA6545F5A982F0",
+          "type": "item",
+          "item": {
+            "id": "ae2:import_bus"
+          },
+          "count": 1
+        }
+      ]
+    }
+  ],
+  "quest_links": [],
+  "images": []
+}

@@ -1,0 +1,2386 @@
+[
+  {
+    "id": "createbigcannons:melting/melt_steel_block",
+    "class": "rbasamoyai.createbigcannons.crafting.foundry.MeltingRecipe",
+    "beforeSHA256": "33f6a90734e5cd68d3d5880418908f006e9f6cf4cb79e069eb1041514b6e7ae6",
+    "afterSHA256": "347a339309b66241f4f9a5afa015d40f054e536ad5b4b1792bef717f8faa2661",
+    "changes": [
+      {
+        "pointer": "/results/0/id",
+        "before": "createbigcannons:molten_steel",
+        "after": "tfmg:molten_steel",
+        "amount": 810,
+        "role": "OUTPUT",
+        "registry": "fluid"
+      }
+    ]
+  },
+  {
+    "id": "createmetallurgy:melting/steel/plate",
+    "class": "fr.lucreeper74.createmetallurgy.content.blocks.foundry_lid.MeltingRecipe",
+    "beforeSHA256": "43a1776af3d80b899ca6a2484212fb5333e68acf803126e1fe91fbcc3fecc4a1",
+    "afterSHA256": "a2d0c2418959d328dbc281e6d26e7932854d367fee77a957dd2409508954b827",
+    "changes": [
+      {
+        "pointer": "/results/0/id",
+        "before": "createmetallurgy:molten_steel",
+        "after": "tfmg:molten_steel",
+        "amount": 90,
+        "role": "OUTPUT",
+        "registry": "fluid"
+      }
+    ]
+  },
+  {
+    "id": "nuclearcraft:chemical_reactor/ferroboron_molten",
+    "class": "igentuman.nc.recipe.UniversalProcessorRecipe",
+    "beforeSHA256": "a424ec3722148bd0078647a0cb61585506b366a802af4009bc70c1e52cbeded6",
+    "afterSHA256": "1712ee4279f0971d00b361e81bc037b2c0060abae7293382d61ff4126e41c57a",
+    "changes": [
+      {
+        "pointer": "/fluid_inputs/1/fluid",
+        "before": "nuclearcraft:molten_steel",
+        "after": "tfmg:molten_steel",
+        "amount": 90,
+        "role": "INPUT",
+        "registry": "fluid"
+      }
+    ]
+  },
+  {
+    "id": "createmetallurgy:casting_in_table/steel/rod",
+    "class": "fr.lucreeper74.createmetallurgy.content.blocks.casting.recipe.CastingTableRecipe",
+    "beforeSHA256": "841eef372908fe5e8ff70ad7035c6f215f0d5beed669544016f097d86948c971",
+    "afterSHA256": "e977b28822d7619c57f9fd36070a3adb45d6ac317852e3213c0fc958005462bc",
+    "changes": [
+      {
+        "pointer": "/ingredients/0/fluid",
+        "before": "createmetallurgy:molten_steel",
+        "after": "tfmg:molten_steel",
+        "amount": 45,
+        "role": "INPUT",
+        "registry": "fluid"
+      }
+    ]
+  },
+  {
+    "id": "nuclearcraft:ingot_former/steel",
+    "class": "igentuman.nc.recipe.UniversalProcessorRecipe",
+    "beforeSHA256": "2365e9acdf3b5656c57f2c9aae9b20b89dfdeb5cf7947d87073a1c939e471d8e",
+    "afterSHA256": "5e62c31a8ba3752168f81c1e8ca56ae89544f2e7e2578f47379832aa0f1bd0eb",
+    "changes": [
+      {
+        "pointer": "/fluid_inputs/0/fluid",
+        "before": "nuclearcraft:molten_steel",
+        "after": "tfmg:molten_steel",
+        "amount": 90,
+        "role": "INPUT",
+        "registry": "fluid"
+      }
+    ]
+  },
+  {
+    "id": "createmetallurgy:bulk_melting/steel/raw_block",
+    "class": "fr.lucreeper74.createmetallurgy.content.blocks.industrial_crucible.foundry.recipes.BulkMeltingRecipe",
+    "beforeSHA256": "efddecca63a2e270e66902da3ce2a34ce4d04c979672c3d200821ba0f51e8e40",
+    "afterSHA256": "3a8e61954125d34f20ef9f09a4ceaf1a973d4cf12aca4dcc43fc4a9293f82e19",
+    "changes": [
+      {
+        "pointer": "/results/0/id",
+        "before": "createmetallurgy:molten_steel",
+        "after": "tfmg:molten_steel",
+        "amount": 810,
+        "role": "OUTPUT",
+        "registry": "fluid"
+      }
+    ]
+  },
+  {
+    "id": "createmetallurgy:alloying/steel",
+    "class": "fr.lucreeper74.createmetallurgy.content.blocks.foundry_mixer.AlloyingRecipe",
+    "beforeSHA256": "bb42931f2b03f2be231439fc96ff435c705ae5da3ecbe34dc81a6e8227f5cf5e",
+    "afterSHA256": "cb4ea254e9d98857dda3683c37b1c1165d013c589968a2ce09573ae3e2af7e28",
+    "changes": [
+      {
+        "pointer": "/results/0/id",
+        "before": "createmetallurgy:molten_steel",
+        "after": "tfmg:molten_steel",
+        "amount": 270,
+        "role": "OUTPUT",
+        "registry": "fluid"
+      }
+    ]
+  },
+  {
+    "id": "createmetallurgy:melting/steel/wire",
+    "class": "fr.lucreeper74.createmetallurgy.content.blocks.foundry_lid.MeltingRecipe",
+    "beforeSHA256": "8180720bcd84977f08bdec08f41c50ddbce72deb831ce5577fc6d643048e36f6",
+    "afterSHA256": "00b6ec1c2003f32c018e87a04d24a823977c225cf1f7a2bc3458ff44678f5bf7",
+    "changes": [
+      {
+        "pointer": "/results/0/id",
+        "before": "createmetallurgy:molten_steel",
+        "after": "tfmg:molten_steel",
+        "amount": 45,
+        "role": "OUTPUT",
+        "registry": "fluid"
+      }
+    ]
+  },
+  {
+    "id": "createmetallurgy:melting/steel/nugget",
+    "class": "fr.lucreeper74.createmetallurgy.content.blocks.foundry_lid.MeltingRecipe",
+    "beforeSHA256": "d2cc3117ba541d8c3123e80955b7db2362178702f5d4a5d154ecd377c9581e64",
+    "afterSHA256": "1efa3106fc51d3d16e821869f4c57e027601786cc7de9270500f4b2380444f19",
+    "changes": [
+      {
+        "pointer": "/results/0/id",
+        "before": "createmetallurgy:molten_steel",
+        "after": "tfmg:molten_steel",
+        "amount": 10,
+        "role": "OUTPUT",
+        "registry": "fluid"
+      }
+    ]
+  },
+  {
+    "id": "createbigcannons:melting/melt_steel_nugget",
+    "class": "rbasamoyai.createbigcannons.crafting.foundry.MeltingRecipe",
+    "beforeSHA256": "15157bec20ab4443720fc25810f2e8bee46a30f815e33e0d7251426ef8b4a4eb",
+    "afterSHA256": "ffeef293dcf4cb7b48fbb18fb8ee6143f85f51adbcf0e207e5ef2a7446906fe1",
+    "changes": [
+      {
+        "pointer": "/results/0/id",
+        "before": "createbigcannons:molten_steel",
+        "after": "tfmg:molten_steel",
+        "amount": 10,
+        "role": "OUTPUT",
+        "registry": "fluid"
+      }
+    ]
+  },
+  {
+    "id": "createmetallurgy:melting/steel/ingot",
+    "class": "fr.lucreeper74.createmetallurgy.content.blocks.foundry_lid.MeltingRecipe",
+    "beforeSHA256": "42083d6e45a07d4665e79463e56b88336d9bc4be71ceddc193fe5af46cc8f9f3",
+    "afterSHA256": "cf3d941ed8682722fb293e770cf5cbd1d6e9be92461a9dada4a642c04be6d04f",
+    "changes": [
+      {
+        "pointer": "/results/0/id",
+        "before": "createmetallurgy:molten_steel",
+        "after": "tfmg:molten_steel",
+        "amount": 90,
+        "role": "OUTPUT",
+        "registry": "fluid"
+      }
+    ]
+  },
+  {
+    "id": "mekanism:rotary/sulfuric_acid",
+    "class": "mekanism.api.recipes.basic.BasicRotaryRecipe",
+    "beforeSHA256": "e44f692aeaadcd1cc1c1e74d62df65f249642e4455c087d27bf3c025073615e1",
+    "afterSHA256": "e1b0a4226bc520e587708513935bc6f1dc6039279e5b01943f915c959be7f24b",
+    "changes": [
+      {
+        "pointer": "/fluid_output/id",
+        "before": "mekanism:sulfuric_acid",
+        "after": "tfmg:sulfuric_acid",
+        "amount": 1,
+        "role": "OUTPUT",
+        "registry": "fluid"
+      }
+    ]
+  },
+  {
+    "id": "createmetallurgy:melting/steel/rod",
+    "class": "fr.lucreeper74.createmetallurgy.content.blocks.foundry_lid.MeltingRecipe",
+    "beforeSHA256": "1119b176c6b384bf0a7fef03dfbcbfcec47fabd1dd7e0fbbd9f0c0d55b982af8",
+    "afterSHA256": "09d1fddb69e0a5a11e442a2957fbda1df8125059d249ab5a2ee71ed9348d5a57",
+    "changes": [
+      {
+        "pointer": "/results/0/id",
+        "before": "createmetallurgy:molten_steel",
+        "after": "tfmg:molten_steel",
+        "amount": 45,
+        "role": "OUTPUT",
+        "registry": "fluid"
+      }
+    ]
+  },
+  {
+    "id": "createmetallurgy:casting_in_table/steel/plate",
+    "class": "fr.lucreeper74.createmetallurgy.content.blocks.casting.recipe.CastingTableRecipe",
+    "beforeSHA256": "63783b923996aa1c18c82618b917f7395f3e853711ca6298a3f6db7600c20184",
+    "afterSHA256": "98e12c73029a6e5b470709cb6bde7492839a170f67dd840c1faea6f769033b84",
+    "changes": [
+      {
+        "pointer": "/ingredients/0/fluid",
+        "before": "createmetallurgy:molten_steel",
+        "after": "tfmg:molten_steel",
+        "amount": 90,
+        "role": "INPUT",
+        "registry": "fluid"
+      }
+    ]
+  },
+  {
+    "id": "nuclearcraft:melter/steel_dust",
+    "class": "igentuman.nc.recipe.UniversalProcessorRecipe",
+    "beforeSHA256": "c6f96a8ce0094e0dd5f60554d1a340c22f9ead961417b69b13a81fe4fa9e86cb",
+    "afterSHA256": "32b09b8e4c06b8c54318b2254a48785fbc75ac1d00c149627b76501ae3331172",
+    "changes": [
+      {
+        "pointer": "/fluid_outputs/0/fluid",
+        "before": "nuclearcraft:molten_steel",
+        "after": "tfmg:molten_steel",
+        "amount": 90,
+        "role": "OUTPUT",
+        "registry": "fluid"
+      }
+    ]
+  },
+  {
+    "id": "createmetallurgy:melting/steel/raw_material",
+    "class": "fr.lucreeper74.createmetallurgy.content.blocks.foundry_lid.MeltingRecipe",
+    "beforeSHA256": "a0fc8ddef6140787e0e62c666b0c1fd439d60baaea42504f0be9f34f3849ec80",
+    "afterSHA256": "8a63206654bff4cf76909e656f4136dcc8c7307921e461ca79b64a81af063281",
+    "changes": [
+      {
+        "pointer": "/results/0/id",
+        "before": "createmetallurgy:molten_steel",
+        "after": "tfmg:molten_steel",
+        "amount": 90,
+        "role": "OUTPUT",
+        "registry": "fluid"
+      }
+    ]
+  },
+  {
+    "id": "createbigcannons:melting/melt_steel_ingot",
+    "class": "rbasamoyai.createbigcannons.crafting.foundry.MeltingRecipe",
+    "beforeSHA256": "921e866b1f0982baa40257d74c3c9419e398030e93452a178118db4ad271afab",
+    "afterSHA256": "49d1eb40beabe6e6dfa07461e3cd6ecc5ffc965aab066ffddd9f4e9a0996d28f",
+    "changes": [
+      {
+        "pointer": "/results/0/id",
+        "before": "createbigcannons:molten_steel",
+        "after": "tfmg:molten_steel",
+        "amount": 90,
+        "role": "OUTPUT",
+        "registry": "fluid"
+      }
+    ]
+  },
+  {
+    "id": "nuclearcraft:melter/steel_ingot",
+    "class": "igentuman.nc.recipe.UniversalProcessorRecipe",
+    "beforeSHA256": "ab0aa5c9dc37428bd8da8aaa7b00c3ccce41ae942bc26da876a6c5d66d9c997c",
+    "afterSHA256": "f920cfa6a872c37923c527eab2ed1a6286f9cfce290f4f1023ff3a1c5523ee8b",
+    "changes": [
+      {
+        "pointer": "/fluid_outputs/0/fluid",
+        "before": "nuclearcraft:molten_steel",
+        "after": "tfmg:molten_steel",
+        "amount": 90,
+        "role": "OUTPUT",
+        "registry": "fluid"
+      }
+    ]
+  },
+  {
+    "id": "nuclearcraft:chemical_reactor/sulfuric_acid",
+    "class": "igentuman.nc.recipe.UniversalProcessorRecipe",
+    "beforeSHA256": "01ddf4b6e5129628be1aff516963ff0b18c26e416f33a3c830b5ce2d88493d95",
+    "afterSHA256": "8803bf44d539db816cb313c3b34f57cbf929cfba912d9a9ab14ae3dba20bde1b",
+    "changes": [
+      {
+        "pointer": "/fluid_outputs/0/fluid",
+        "before": "nuclearcraft:sulfuric_acid",
+        "after": "tfmg:sulfuric_acid",
+        "amount": 250,
+        "role": "OUTPUT",
+        "registry": "fluid"
+      },
+      {
+        "pointer": "/fluid_inputs/0/fluid",
+        "before": "nuclearcraft:sulfur_trioxide",
+        "after": "mekanism:sulfur_trioxide",
+        "amount": 250,
+        "role": "INPUT",
+        "registry": "fluid"
+      }
+    ]
+  },
+  {
+    "id": "createmetallurgy:bulk_melting/steel/block",
+    "class": "fr.lucreeper74.createmetallurgy.content.blocks.industrial_crucible.foundry.recipes.BulkMeltingRecipe",
+    "beforeSHA256": "ec5656448a2af50be99ebd9b50ea590ac4933f48505f3aa81f4c0f9f44f9b744",
+    "afterSHA256": "85f9e492e2840d41f2618478b49501e0ec43b35040d2ed18fedaa065844fe9e3",
+    "changes": [
+      {
+        "pointer": "/results/0/id",
+        "before": "createmetallurgy:molten_steel",
+        "after": "tfmg:molten_steel",
+        "amount": 810,
+        "role": "OUTPUT",
+        "registry": "fluid"
+      }
+    ]
+  },
+  {
+    "id": "createmetallurgy:casting_in_basin/steel/block",
+    "class": "fr.lucreeper74.createmetallurgy.content.blocks.casting.recipe.CastingBasinRecipe",
+    "beforeSHA256": "ae756e8c2b2b31851a9c171c358942c99dfec4f790a7ca984d212bf7048e17e5",
+    "afterSHA256": "17b75adee54acc2b4127aeccdcc7807c8a5c17a2afd217435dede9da4c8d52e9",
+    "changes": [
+      {
+        "pointer": "/ingredients/0/fluid",
+        "before": "createmetallurgy:molten_steel",
+        "after": "tfmg:molten_steel",
+        "amount": 810,
+        "role": "INPUT",
+        "registry": "fluid"
+      }
+    ]
+  },
+  {
+    "id": "createmetallurgy:melting/steel/dust",
+    "class": "fr.lucreeper74.createmetallurgy.content.blocks.foundry_lid.MeltingRecipe",
+    "beforeSHA256": "d49ccdf5e605c3c4e5f7414362c721360ebe7bc0f117b85442a2684b94d97818",
+    "afterSHA256": "e99fbe8dfd33ee5d13a8eaef60522f10867a6a1d2878e4d9631863e80eef3dee",
+    "changes": [
+      {
+        "pointer": "/results/0/id",
+        "before": "createmetallurgy:molten_steel",
+        "after": "tfmg:molten_steel",
+        "amount": 90,
+        "role": "OUTPUT",
+        "registry": "fluid"
+      }
+    ]
+  },
+  {
+    "id": "createmetallurgy:entity_melting/wither_skeleton",
+    "class": "fr.lucreeper74.createmetallurgy.content.blocks.industrial_crucible.foundry.recipes.MobMeltingRecipe",
+    "beforeSHA256": "f152d77b1a55207fa3bb79854d471ca7abe74c7b3d1ee625f68be6f1031bd0b6",
+    "afterSHA256": "02e107a90b13438048dccf0126a4c689bcd70addeee34afcd18765387171a9a4",
+    "changes": [
+      {
+        "pointer": "/results/0/id",
+        "before": "createmetallurgy:molten_steel",
+        "after": "tfmg:molten_steel",
+        "amount": 270,
+        "role": "OUTPUT",
+        "registry": "fluid"
+      }
+    ]
+  },
+  {
+    "id": "createmetallurgy:casting_in_table/steel/ingot",
+    "class": "fr.lucreeper74.createmetallurgy.content.blocks.casting.recipe.CastingTableRecipe",
+    "beforeSHA256": "ea065932f8a9e6918e0f4b7be4b7056f0aea1c23a690d992cb96bafb41251dd3",
+    "afterSHA256": "626109fd252693bc113d053f4ba8f129e1625babd64bf4e824a72aa14ef06c4a",
+    "changes": [
+      {
+        "pointer": "/ingredients/0/fluid",
+        "before": "createmetallurgy:molten_steel",
+        "after": "tfmg:molten_steel",
+        "amount": 90,
+        "role": "INPUT",
+        "registry": "fluid"
+      }
+    ]
+  },
+  {
+    "id": "createmetallurgy:casting_in_table/steel/nugget",
+    "class": "fr.lucreeper74.createmetallurgy.content.blocks.casting.recipe.CastingTableRecipe",
+    "beforeSHA256": "69f51f13f4f2f29cef8948f822e461c7c86d3afb86bdc42ed367b55f27efc5b4",
+    "afterSHA256": "2d7c2166ffc5764d34b8ce57da3408b7ff6f046d2429d55616797f0bcca18dfe",
+    "changes": [
+      {
+        "pointer": "/ingredients/0/fluid",
+        "before": "createmetallurgy:molten_steel",
+        "after": "tfmg:molten_steel",
+        "amount": 10,
+        "role": "INPUT",
+        "registry": "fluid"
+      }
+    ]
+  },
+  {
+    "id": "nuclearcraft:electrolyzer/hydrofluoric_acid",
+    "class": "igentuman.nc.recipe.UniversalProcessorRecipe",
+    "beforeSHA256": "05994fd4f5f592a450fbd2089882390ac8d93028d9ba017cfc9717203532a39d",
+    "afterSHA256": "5f56d0a0123711cfdf8e7d483b269979fe509880a7a2ccd84e7936c90d9fb8d0",
+    "changes": [
+      {
+        "pointer": "/fluid_inputs/0/fluid",
+        "before": "nuclearcraft:hydrofluoric_acid",
+        "after": "mekanism:hydrofluoric_acid",
+        "amount": 250,
+        "role": "INPUT",
+        "registry": "fluid"
+      },
+      {
+        "pointer": "/fluid_outputs/0/fluid",
+        "before": "nuclearcraft:hydrogen",
+        "after": "mekanism:hydrogen",
+        "amount": 250,
+        "role": "OUTPUT",
+        "registry": "fluid"
+      }
+    ]
+  },
+  {
+    "id": "nuclearcraft:chemical_reactor/oxygen_difluoride_sulfur",
+    "class": "igentuman.nc.recipe.UniversalProcessorRecipe",
+    "beforeSHA256": "e68796d369d1874519d93037c82eac8bef1d8e213d130b45ac60dccf6a24dc89",
+    "afterSHA256": "30ae21b8f2b118e4b6fcd2c5f6140d2c670e5de9e5f3f158abd1f44e1c1a4cfa",
+    "changes": [
+      {
+        "pointer": "/fluid_inputs/1/fluid",
+        "before": "nuclearcraft:sulfur_dioxide",
+        "after": "mekanism:sulfur_dioxide",
+        "amount": 250,
+        "role": "INPUT",
+        "registry": "fluid"
+      },
+      {
+        "pointer": "/fluid_outputs/0/fluid",
+        "before": "nuclearcraft:sulfur_trioxide",
+        "after": "mekanism:sulfur_trioxide",
+        "amount": 250,
+        "role": "OUTPUT",
+        "registry": "fluid"
+      }
+    ]
+  },
+  {
+  "id": "nuclearcraft:centrifuge/carbon_dioxide",
+  "class": "igentuman.nc.recipe.UniversalProcessorRecipe",
+  "beforeSHA256": "07057c9c6f68ac9c4bfa4c61dd8cbe12a3cfcc9da36410c44d4b2aa2eb1d36cb",
+  "afterSHA256": "6a5d3a265d1726231216d94fe600f3ed3aa7af76b84231d5e42cfcbd6ac64284",
+  "changes": [
+    {
+      "pointer": "/fluid_outputs/3/fluid",
+      "before": "nuclearcraft:oxygen",
+      "after": "mekanism:oxygen",
+      "amount": 375,
+      "role": "OUTPUT",
+      "registry": "fluid"
+    },
+    {
+      "pointer": "/fluid_inputs/0/fluid",
+      "before": "nuclearcraft:carbon_dioxide",
+      "after": "tfmg:carbon_dioxide",
+      "amount": 1000,
+      "role": "INPUT",
+      "registry": "fluid"
+    },
+    {
+      "pointer": "/fluid_outputs/0/fluid",
+      "before": "nuclearcraft:carbon_dioxide",
+      "after": "tfmg:carbon_dioxide",
+      "amount": 125,
+      "role": "OUTPUT",
+      "registry": "fluid"
+    }
+  ]
+},
+  {
+    "id": "nuclearcraft:centrifuge/technical_water",
+    "class": "igentuman.nc.recipe.UniversalProcessorRecipe",
+    "beforeSHA256": "c83995fdbdb70a697649a27e7fda17ee8abb1818d6b5f9800e0d6e1ca97e0376",
+    "afterSHA256": "116d5e52755265425eee4f9811f0dc7f7e9200e5e617ebe84a18ef15910f0cf4",
+    "changes": [
+      {
+        "pointer": "/fluid_outputs/1/fluid",
+        "before": "nuclearcraft:oxygen",
+        "after": "mekanism:oxygen",
+        "amount": 250,
+        "role": "OUTPUT",
+        "registry": "fluid"
+      }
+    ]
+  },
+  {
+    "id": "nuclearcraft:chemical_reactor/ammonia_oxidation",
+    "class": "igentuman.nc.recipe.UniversalProcessorRecipe",
+    "beforeSHA256": "5432b2ce3339e46f61467b62eece840e0c6f493f72dfb910457e160d6e5b738e",
+    "afterSHA256": "20b735dec1bc9d25a9b551d9c0b99f48e1e529ec333bbfb08563b628c9649ea5",
+    "changes": [
+      {
+        "pointer": "/fluid_inputs/1/fluid",
+        "before": "nuclearcraft:oxygen",
+        "after": "mekanism:oxygen",
+        "amount": 650,
+        "role": "INPUT",
+        "registry": "fluid"
+      }
+    ]
+  },
+  {
+    "id": "nuclearcraft:chemical_reactor/no_oxidation",
+    "class": "igentuman.nc.recipe.UniversalProcessorRecipe",
+    "beforeSHA256": "9d306f804743ae3fdf88453864ae2f26f273514739ab71098d87e2009477f82b",
+    "afterSHA256": "e4273193b2bf114e41842ee992311a464cda2705d239fcf23939ed2cc7d2dd31",
+    "changes": [
+      {
+        "pointer": "/fluid_inputs/1/fluid",
+        "before": "nuclearcraft:oxygen",
+        "after": "mekanism:oxygen",
+        "amount": 250,
+        "role": "INPUT",
+        "registry": "fluid"
+      }
+    ]
+  },
+  {
+    "id": "nuclearcraft:electrolyzer/water",
+    "class": "igentuman.nc.recipe.UniversalProcessorRecipe",
+    "beforeSHA256": "d0c5caed3470cca4e436758ffecc32dc008afd0a9ffb0c9870a891c502e4e5b8",
+    "afterSHA256": "a639583da86482bf162e9d3b5d7493ef8bf5ee19abd54583243d96882e549605",
+    "changes": [
+      {
+        "pointer": "/fluid_outputs/1/fluid",
+        "before": "nuclearcraft:oxygen",
+        "after": "mekanism:oxygen",
+        "amount": 250,
+        "role": "OUTPUT",
+        "registry": "fluid"
+      },
+      {
+        "pointer": "/fluid_outputs/0/fluid",
+        "before": "nuclearcraft:hydrogen",
+        "after": "mekanism:hydrogen",
+        "amount": 500,
+        "role": "OUTPUT",
+        "registry": "fluid"
+      }
+    ]
+  },
+  {
+    "id": "nuclearcraft:fluid_infuser/americium_241_ox",
+    "class": "igentuman.nc.recipe.UniversalProcessorRecipe",
+    "beforeSHA256": "22ba35291217a6023f6acd411e35c68afbce12977e435a708095b383197d1542",
+    "afterSHA256": "a5864ce8c333c83480b08f3009575f5d04a9aa5e1de0976210e09a64e6172a5f",
+    "changes": [
+      {
+        "pointer": "/fluid_inputs/0/fluid",
+        "before": "nuclearcraft:oxygen",
+        "after": "mekanism:oxygen",
+        "amount": 100,
+        "role": "INPUT",
+        "registry": "fluid"
+      }
+    ]
+  },
+  {
+    "id": "nuclearcraft:fluid_infuser/americium_242_ox",
+    "class": "igentuman.nc.recipe.UniversalProcessorRecipe",
+    "beforeSHA256": "40aa03df8a3620fb0c2582e97ba989cc5bf1edb2202facb108d14cf1c2bbb7fe",
+    "afterSHA256": "1f820bc26babf6da2c18ad7c4c11259970e7edaead491646aa4d472fd790b13f",
+    "changes": [
+      {
+        "pointer": "/fluid_inputs/0/fluid",
+        "before": "nuclearcraft:oxygen",
+        "after": "mekanism:oxygen",
+        "amount": 100,
+        "role": "INPUT",
+        "registry": "fluid"
+      }
+    ]
+  },
+  {
+    "id": "nuclearcraft:fluid_infuser/americium_243_ox",
+    "class": "igentuman.nc.recipe.UniversalProcessorRecipe",
+    "beforeSHA256": "cc29042e96d390c3463fbe4d06fdbd3eef7e4991c8d2e23c6e1c5b386c1d7485",
+    "afterSHA256": "f30b1168b374766e925f1a1e8acd18cf62e575f5b1f3c668eafbe6e364bd160b",
+    "changes": [
+      {
+        "pointer": "/fluid_inputs/0/fluid",
+        "before": "nuclearcraft:oxygen",
+        "after": "mekanism:oxygen",
+        "amount": 100,
+        "role": "INPUT",
+        "registry": "fluid"
+      }
+    ]
+  },
+  {
+    "id": "nuclearcraft:fluid_infuser/americium_hea_242_ox",
+    "class": "igentuman.nc.recipe.UniversalProcessorRecipe",
+    "beforeSHA256": "11d6a52688b125af0abc1d2962c473011dd13879c8d867ae61d618fe46ab3d2c",
+    "afterSHA256": "1df66dd46b108aa85dfbdb012c7ac3603ec7de28516b627431ec93642058eca9",
+    "changes": [
+      {
+        "pointer": "/fluid_inputs/0/fluid",
+        "before": "nuclearcraft:oxygen",
+        "after": "mekanism:oxygen",
+        "amount": 1000,
+        "role": "INPUT",
+        "registry": "fluid"
+      }
+    ]
+  },
+  {
+    "id": "nuclearcraft:fluid_infuser/americium_lea_242_ox",
+    "class": "igentuman.nc.recipe.UniversalProcessorRecipe",
+    "beforeSHA256": "6d46175800eae2b3b5051d9058a58d31c56b76c449156ff22aad0dd3998b61b5",
+    "afterSHA256": "881aa82b9c5839519c2dcae7350db873c8ac24f68a6a3835c485f8becb809b63",
+    "changes": [
+      {
+        "pointer": "/fluid_inputs/0/fluid",
+        "before": "nuclearcraft:oxygen",
+        "after": "mekanism:oxygen",
+        "amount": 1000,
+        "role": "INPUT",
+        "registry": "fluid"
+      }
+    ]
+  },
+  {
+    "id": "nuclearcraft:fluid_infuser/berkelium_247_ox",
+    "class": "igentuman.nc.recipe.UniversalProcessorRecipe",
+    "beforeSHA256": "04b22f6c258888f9c44c6ca0ec09454c5bb1413c6c6de6accbf3e14072e1c34b",
+    "afterSHA256": "be5769112f0b0ab6fbda259b39f93749566ec0cd420afdd541e652741d9b7545",
+    "changes": [
+      {
+        "pointer": "/fluid_inputs/0/fluid",
+        "before": "nuclearcraft:oxygen",
+        "after": "mekanism:oxygen",
+        "amount": 100,
+        "role": "INPUT",
+        "registry": "fluid"
+      }
+    ]
+  },
+  {
+    "id": "nuclearcraft:fluid_infuser/berkelium_248_ox",
+    "class": "igentuman.nc.recipe.UniversalProcessorRecipe",
+    "beforeSHA256": "4aa1742a291b9cf8fbdca93556774472106973d6e72bcff27dc34b23ad6facfd",
+    "afterSHA256": "14ac1c40110493ef5973086929fdc37309d9a39b33e809ba74cb380be07988a5",
+    "changes": [
+      {
+        "pointer": "/fluid_inputs/0/fluid",
+        "before": "nuclearcraft:oxygen",
+        "after": "mekanism:oxygen",
+        "amount": 100,
+        "role": "INPUT",
+        "registry": "fluid"
+      }
+    ]
+  },
+  {
+    "id": "nuclearcraft:fluid_infuser/berkelium_heb_248_ox",
+    "class": "igentuman.nc.recipe.UniversalProcessorRecipe",
+    "beforeSHA256": "b51eed5b21b81452028835426d063ad04d0f8b3395bab97dcbe9f2db8ce645f2",
+    "afterSHA256": "cca7966a3711fad1845acf3e3bef6c9c4fe35c6b29a16618d6d845bf2b504528",
+    "changes": [
+      {
+        "pointer": "/fluid_inputs/0/fluid",
+        "before": "nuclearcraft:oxygen",
+        "after": "mekanism:oxygen",
+        "amount": 1000,
+        "role": "INPUT",
+        "registry": "fluid"
+      }
+    ]
+  },
+  {
+    "id": "nuclearcraft:fluid_infuser/berkelium_leb_248_ox",
+    "class": "igentuman.nc.recipe.UniversalProcessorRecipe",
+    "beforeSHA256": "60ec60afebe46100c4f6906fa0d6bfea2f27ce21f8808e2fe3d704d427e4a786",
+    "afterSHA256": "5ba58a25e19969c22b0449ae2bcbcaa579d98159d71888b45608050928afedbd",
+    "changes": [
+      {
+        "pointer": "/fluid_inputs/0/fluid",
+        "before": "nuclearcraft:oxygen",
+        "after": "mekanism:oxygen",
+        "amount": 1000,
+        "role": "INPUT",
+        "registry": "fluid"
+      }
+    ]
+  },
+  {
+    "id": "nuclearcraft:fluid_infuser/boron_10_ox",
+    "class": "igentuman.nc.recipe.UniversalProcessorRecipe",
+    "beforeSHA256": "8824f660956658c427321f8431aa0b0348310459d73d69fd83c6d4230f1c113f",
+    "afterSHA256": "33b151e978c7edad4b1caaeebeda26f8067f51be5f80416596c5450e42ba4c2f",
+    "changes": [
+      {
+        "pointer": "/fluid_inputs/0/fluid",
+        "before": "nuclearcraft:oxygen",
+        "after": "mekanism:oxygen",
+        "amount": 100,
+        "role": "INPUT",
+        "registry": "fluid"
+      }
+    ]
+  },
+  {
+    "id": "nuclearcraft:fluid_infuser/boron_11_ox",
+    "class": "igentuman.nc.recipe.UniversalProcessorRecipe",
+    "beforeSHA256": "238f994d439a7e655a57a7cb2092f6837eaf8c9da974eacd5396f56cb8636149",
+    "afterSHA256": "af162561876122dc08291d97fbae7962582cb236c1ef016820dbf95559e19715",
+    "changes": [
+      {
+        "pointer": "/fluid_inputs/0/fluid",
+        "before": "nuclearcraft:oxygen",
+        "after": "mekanism:oxygen",
+        "amount": 100,
+        "role": "INPUT",
+        "registry": "fluid"
+      }
+    ]
+  },
+  {
+    "id": "nuclearcraft:fluid_infuser/californium_249_ox",
+    "class": "igentuman.nc.recipe.UniversalProcessorRecipe",
+    "beforeSHA256": "42289c315349d211989e8a3ff4bc1fd559f35156cb8f9bd1a4bd349746e96f25",
+    "afterSHA256": "0b1464b23ae3c2c5dd4fa067ad7c08db33bb6c5e2499f028f7f109d3367c1309",
+    "changes": [
+      {
+        "pointer": "/fluid_inputs/0/fluid",
+        "before": "nuclearcraft:oxygen",
+        "after": "mekanism:oxygen",
+        "amount": 100,
+        "role": "INPUT",
+        "registry": "fluid"
+      }
+    ]
+  },
+  {
+    "id": "nuclearcraft:fluid_infuser/californium_250_ox",
+    "class": "igentuman.nc.recipe.UniversalProcessorRecipe",
+    "beforeSHA256": "b640263d1624e5657284ccba3544bdd632934a9e04ffa98d12c4f907bf4a2f13",
+    "afterSHA256": "c44935588ceb1f73c412394f6b6bbbcebb016a2161f8fe3acf7f1d2b7713cf95",
+    "changes": [
+      {
+        "pointer": "/fluid_inputs/0/fluid",
+        "before": "nuclearcraft:oxygen",
+        "after": "mekanism:oxygen",
+        "amount": 100,
+        "role": "INPUT",
+        "registry": "fluid"
+      }
+    ]
+  },
+  {
+    "id": "nuclearcraft:fluid_infuser/californium_251_ox",
+    "class": "igentuman.nc.recipe.UniversalProcessorRecipe",
+    "beforeSHA256": "5ff340033dc9b58fac92901a2477d34dede66ac86d2f63ef62b8db1da041ba26",
+    "afterSHA256": "b43bcefa1ec03220537d2aba6c4458614f576cdaeadcc546f583065d4a171173",
+    "changes": [
+      {
+        "pointer": "/fluid_inputs/0/fluid",
+        "before": "nuclearcraft:oxygen",
+        "after": "mekanism:oxygen",
+        "amount": 100,
+        "role": "INPUT",
+        "registry": "fluid"
+      }
+    ]
+  },
+  {
+    "id": "nuclearcraft:fluid_infuser/californium_252_ox",
+    "class": "igentuman.nc.recipe.UniversalProcessorRecipe",
+    "beforeSHA256": "93983423785cb1979551f66c2a19e279b12e980a727fea94fab301492b6b0c0e",
+    "afterSHA256": "f0defb785e0f1fe8983b058491ccd0b3ca736e25c23578205c87a73f2b1473e0",
+    "changes": [
+      {
+        "pointer": "/fluid_inputs/0/fluid",
+        "before": "nuclearcraft:oxygen",
+        "after": "mekanism:oxygen",
+        "amount": 100,
+        "role": "INPUT",
+        "registry": "fluid"
+      }
+    ]
+  },
+  {
+    "id": "nuclearcraft:fluid_infuser/californium_hecf_249_ox",
+    "class": "igentuman.nc.recipe.UniversalProcessorRecipe",
+    "beforeSHA256": "35a02db10ab0ec7ef4887c7d994fdee0544fd6662f6befb6358635a0082aa254",
+    "afterSHA256": "259adc0fd0c6200d8d23a487f6b6ec22a9f95f963478cba699409829de014393",
+    "changes": [
+      {
+        "pointer": "/fluid_inputs/0/fluid",
+        "before": "nuclearcraft:oxygen",
+        "after": "mekanism:oxygen",
+        "amount": 1000,
+        "role": "INPUT",
+        "registry": "fluid"
+      }
+    ]
+  },
+  {
+    "id": "nuclearcraft:fluid_infuser/californium_hecf_251_ox",
+    "class": "igentuman.nc.recipe.UniversalProcessorRecipe",
+    "beforeSHA256": "033587c55fefef72f5de655d8805caee6a04d51ddd04fa819fc850232649ead6",
+    "afterSHA256": "c9015d883fbe93b03d578c7e3ac7ad0680191e4aae7068d3bf885214eafc7711",
+    "changes": [
+      {
+        "pointer": "/fluid_inputs/0/fluid",
+        "before": "nuclearcraft:oxygen",
+        "after": "mekanism:oxygen",
+        "amount": 1000,
+        "role": "INPUT",
+        "registry": "fluid"
+      }
+    ]
+  },
+  {
+    "id": "nuclearcraft:fluid_infuser/californium_lecf_249_ox",
+    "class": "igentuman.nc.recipe.UniversalProcessorRecipe",
+    "beforeSHA256": "9973aae33f89b02deedbae04caa79325425c43e033ed438c8f973ac044c1f9bd",
+    "afterSHA256": "5e492b87dda78c33980781825e878602b25952f7b7d954297273edfaa9cd7748",
+    "changes": [
+      {
+        "pointer": "/fluid_inputs/0/fluid",
+        "before": "nuclearcraft:oxygen",
+        "after": "mekanism:oxygen",
+        "amount": 1000,
+        "role": "INPUT",
+        "registry": "fluid"
+      }
+    ]
+  },
+  {
+    "id": "nuclearcraft:fluid_infuser/californium_lecf_251_ox",
+    "class": "igentuman.nc.recipe.UniversalProcessorRecipe",
+    "beforeSHA256": "4492ccd88650202319c18f07c8dd24416a35c34b62b4e043e30e5b2ba346df0d",
+    "afterSHA256": "0fe1b3384903da93574bcfee5b4fe232aee3cff0738d4d46af1e215927718b7d",
+    "changes": [
+      {
+        "pointer": "/fluid_inputs/0/fluid",
+        "before": "nuclearcraft:oxygen",
+        "after": "mekanism:oxygen",
+        "amount": 1000,
+        "role": "INPUT",
+        "registry": "fluid"
+      }
+    ]
+  },
+  {
+    "id": "nuclearcraft:fluid_infuser/copernicium_291_ox",
+    "class": "igentuman.nc.recipe.UniversalProcessorRecipe",
+    "beforeSHA256": "bd28e5b3d2d2018fabc899bfd1082bf8483be5aea0309e066ae019da8d55cef7",
+    "afterSHA256": "dccb84b351e1d8447859b7eb457c2540f928896cbf613c36b48cceecfa74dab4",
+    "changes": [
+      {
+        "pointer": "/fluid_inputs/0/fluid",
+        "before": "nuclearcraft:oxygen",
+        "after": "mekanism:oxygen",
+        "amount": 100,
+        "role": "INPUT",
+        "registry": "fluid"
+      }
+    ]
+  },
+  {
+    "id": "nuclearcraft:fluid_infuser/curium_243_ox",
+    "class": "igentuman.nc.recipe.UniversalProcessorRecipe",
+    "beforeSHA256": "34352852aea8215fb011a1bf6a4ec401af9a68a0de1f865a87d056ccd64068bd",
+    "afterSHA256": "a2ffd236be4fe8f5ad542ba6e139de92fb0deee96d979b987cba9a42a5c41dda",
+    "changes": [
+      {
+        "pointer": "/fluid_inputs/0/fluid",
+        "before": "nuclearcraft:oxygen",
+        "after": "mekanism:oxygen",
+        "amount": 100,
+        "role": "INPUT",
+        "registry": "fluid"
+      }
+    ]
+  },
+  {
+    "id": "nuclearcraft:fluid_infuser/curium_245_ox",
+    "class": "igentuman.nc.recipe.UniversalProcessorRecipe",
+    "beforeSHA256": "a362252c56804a80c21f61a10ef3de984d766d63431571596128d9c02179be5d",
+    "afterSHA256": "e3d1cce8e94ad337ce573f09000288fcde5292b2530e1c56c24b578cfe09591e",
+    "changes": [
+      {
+        "pointer": "/fluid_inputs/0/fluid",
+        "before": "nuclearcraft:oxygen",
+        "after": "mekanism:oxygen",
+        "amount": 100,
+        "role": "INPUT",
+        "registry": "fluid"
+      }
+    ]
+  },
+  {
+    "id": "nuclearcraft:fluid_infuser/curium_246_ox",
+    "class": "igentuman.nc.recipe.UniversalProcessorRecipe",
+    "beforeSHA256": "e246d641d2474f2be6177628f004a90609231c6851b060c6429fd83c647c77b3",
+    "afterSHA256": "a31efd509558705916266595548afcf193b88b0310805c29383a7a95037148a7",
+    "changes": [
+      {
+        "pointer": "/fluid_inputs/0/fluid",
+        "before": "nuclearcraft:oxygen",
+        "after": "mekanism:oxygen",
+        "amount": 100,
+        "role": "INPUT",
+        "registry": "fluid"
+      }
+    ]
+  },
+  {
+    "id": "nuclearcraft:fluid_infuser/curium_247_ox",
+    "class": "igentuman.nc.recipe.UniversalProcessorRecipe",
+    "beforeSHA256": "d3ccdc33a11c13b9002e1974e7ad313093dbd3b41bf41f03f078b59c1d151cf0",
+    "afterSHA256": "09201915df7fbdd8ed3a3ff1348acc054d9ad32ab3e966d9e3e8837c7ac599e2",
+    "changes": [
+      {
+        "pointer": "/fluid_inputs/0/fluid",
+        "before": "nuclearcraft:oxygen",
+        "after": "mekanism:oxygen",
+        "amount": 100,
+        "role": "INPUT",
+        "registry": "fluid"
+      }
+    ]
+  },
+  {
+    "id": "nuclearcraft:fluid_infuser/curium_hecm_243_ox",
+    "class": "igentuman.nc.recipe.UniversalProcessorRecipe",
+    "beforeSHA256": "a05dac1c26d37f1a86a8660f3f81284f69aab2ca0e80e3bf87fb2b1ade295312",
+    "afterSHA256": "f40267c1748b69ffc905c718f76c071ddbfb8429390049935d26b701cf55a08a",
+    "changes": [
+      {
+        "pointer": "/fluid_inputs/0/fluid",
+        "before": "nuclearcraft:oxygen",
+        "after": "mekanism:oxygen",
+        "amount": 1000,
+        "role": "INPUT",
+        "registry": "fluid"
+      }
+    ]
+  },
+  {
+    "id": "nuclearcraft:fluid_infuser/curium_hecm_245_ox",
+    "class": "igentuman.nc.recipe.UniversalProcessorRecipe",
+    "beforeSHA256": "7c0a9ced889719406049e2c0fb2a956e2809e6439726d139c34ae1f290e25dda",
+    "afterSHA256": "e0c7fdc8012324f8e123f07d75ad6ca5c08432503b42a8d0a3b2f471d9f7fd73",
+    "changes": [
+      {
+        "pointer": "/fluid_inputs/0/fluid",
+        "before": "nuclearcraft:oxygen",
+        "after": "mekanism:oxygen",
+        "amount": 1000,
+        "role": "INPUT",
+        "registry": "fluid"
+      }
+    ]
+  },
+  {
+    "id": "nuclearcraft:fluid_infuser/curium_hecm_247_ox",
+    "class": "igentuman.nc.recipe.UniversalProcessorRecipe",
+    "beforeSHA256": "27740bc327fe9af88c796c0615ff38fa75b1942b5da7e5765eaaf257fd54d486",
+    "afterSHA256": "275e60acc3df323875eccde0991d9e1801a8dbd7bd521a115156f385cf9621de",
+    "changes": [
+      {
+        "pointer": "/fluid_inputs/0/fluid",
+        "before": "nuclearcraft:oxygen",
+        "after": "mekanism:oxygen",
+        "amount": 1000,
+        "role": "INPUT",
+        "registry": "fluid"
+      }
+    ]
+  },
+  {
+    "id": "nuclearcraft:fluid_infuser/curium_lecm_243_ox",
+    "class": "igentuman.nc.recipe.UniversalProcessorRecipe",
+    "beforeSHA256": "e085cf6ace18d62131d74161f48dc94880c21c4da5acfb5750699d8fa22390a4",
+    "afterSHA256": "548e10342d9d059b34f72edadb583d8d5f64e7061b51d1da9a1ebcc732f4564f",
+    "changes": [
+      {
+        "pointer": "/fluid_inputs/0/fluid",
+        "before": "nuclearcraft:oxygen",
+        "after": "mekanism:oxygen",
+        "amount": 1000,
+        "role": "INPUT",
+        "registry": "fluid"
+      }
+    ]
+  },
+  {
+    "id": "nuclearcraft:fluid_infuser/curium_lecm_245_ox",
+    "class": "igentuman.nc.recipe.UniversalProcessorRecipe",
+    "beforeSHA256": "bee645706d2bdd5902ddcfff7ae5222e8c0c5ab8c1c0db114da7b79dc6a85a53",
+    "afterSHA256": "9f38c4240dea3c0f8ced215cb5b3033f1848d715fa189d7b6ff1c26fbba865af",
+    "changes": [
+      {
+        "pointer": "/fluid_inputs/0/fluid",
+        "before": "nuclearcraft:oxygen",
+        "after": "mekanism:oxygen",
+        "amount": 1000,
+        "role": "INPUT",
+        "registry": "fluid"
+      }
+    ]
+  },
+  {
+    "id": "nuclearcraft:fluid_infuser/curium_lecm_247_ox",
+    "class": "igentuman.nc.recipe.UniversalProcessorRecipe",
+    "beforeSHA256": "633940afc9ee407ef193af7c10fc5c17d4cb7f4cd9d6700a6446a9a11fd085d7",
+    "afterSHA256": "71f0fefa44de8f4da31431fd07ca31419bab230b9ea7d721e66bf647d0ed0232",
+    "changes": [
+      {
+        "pointer": "/fluid_inputs/0/fluid",
+        "before": "nuclearcraft:oxygen",
+        "after": "mekanism:oxygen",
+        "amount": 1000,
+        "role": "INPUT",
+        "registry": "fluid"
+      }
+    ]
+  },
+  {
+    "id": "nuclearcraft:fluid_infuser/lithium_6_ox",
+    "class": "igentuman.nc.recipe.UniversalProcessorRecipe",
+    "beforeSHA256": "b6385568cc66793eddedb81c942cabd3ed7c59af7536522694a03938194470ac",
+    "afterSHA256": "1f29295bfd34864344019ba980f17a4f34a74bf919c7319544268d91301b6db9",
+    "changes": [
+      {
+        "pointer": "/fluid_inputs/0/fluid",
+        "before": "nuclearcraft:oxygen",
+        "after": "mekanism:oxygen",
+        "amount": 100,
+        "role": "INPUT",
+        "registry": "fluid"
+      }
+    ]
+  },
+  {
+    "id": "nuclearcraft:fluid_infuser/lithium_7_ox",
+    "class": "igentuman.nc.recipe.UniversalProcessorRecipe",
+    "beforeSHA256": "545c88c7220e12e73ce3643630367f08c9a2ebfd4e362f7d6b80aefdeeb44830",
+    "afterSHA256": "b1715865af7fc1f628890b96da9b4da419a1cdb05bbbaeb5bbdaf480fd4bab4d",
+    "changes": [
+      {
+        "pointer": "/fluid_inputs/0/fluid",
+        "before": "nuclearcraft:oxygen",
+        "after": "mekanism:oxygen",
+        "amount": 100,
+        "role": "INPUT",
+        "registry": "fluid"
+      }
+    ]
+  },
+  {
+    "id": "nuclearcraft:fluid_infuser/manganese_dioxide_dust",
+    "class": "igentuman.nc.recipe.UniversalProcessorRecipe",
+    "beforeSHA256": "9643d2a511c2839b2b1374073a4be74d391f15230278ffeceb4a0be176da0055",
+    "afterSHA256": "f8c193f5dcb9b4ba222739a4c90791cbcf77b3d8c6bfde2ca427b9652b301120",
+    "changes": [
+      {
+        "pointer": "/fluid_inputs/0/fluid",
+        "before": "nuclearcraft:oxygen",
+        "after": "mekanism:oxygen",
+        "amount": 1000,
+        "role": "INPUT",
+        "registry": "fluid"
+      }
+    ]
+  },
+  {
+    "id": "nuclearcraft:fluid_infuser/manganese_dioxide_ingot",
+    "class": "igentuman.nc.recipe.UniversalProcessorRecipe",
+    "beforeSHA256": "3e8bdbb20fc9290604d1f281443b7859045a394f77e64b7bcb8bc650a3e62d59",
+    "afterSHA256": "8c9d454d4fbed5d297267a9f99d3e2088e57819509355d79dc4b41b990a5db72",
+    "changes": [
+      {
+        "pointer": "/fluid_inputs/0/fluid",
+        "before": "nuclearcraft:oxygen",
+        "after": "mekanism:oxygen",
+        "amount": 1000,
+        "role": "INPUT",
+        "registry": "fluid"
+      }
+    ]
+  },
+  {
+    "id": "nuclearcraft:fluid_infuser/mixed_mix_239_ox",
+    "class": "igentuman.nc.recipe.UniversalProcessorRecipe",
+    "beforeSHA256": "5a3c8ad00cddabaaa770aecaf4b2e7262dacc4587c27571e68018a93e619c644",
+    "afterSHA256": "b62c3d130be0ead86af247b092f865e5ce362e455047297813d71a3ddcd7c66d",
+    "changes": [
+      {
+        "pointer": "/fluid_inputs/0/fluid",
+        "before": "nuclearcraft:oxygen",
+        "after": "mekanism:oxygen",
+        "amount": 1000,
+        "role": "INPUT",
+        "registry": "fluid"
+      }
+    ]
+  },
+  {
+    "id": "nuclearcraft:fluid_infuser/mixed_mix_241_ox",
+    "class": "igentuman.nc.recipe.UniversalProcessorRecipe",
+    "beforeSHA256": "5acb045795f38089ed1f55c63ff7f359031fcaba2cd47c8277182e18c21f098b",
+    "afterSHA256": "bb05cd869d7047b2f4fa44a33941cb6f104b251b284982341a83b0c6c0c840f6",
+    "changes": [
+      {
+        "pointer": "/fluid_inputs/0/fluid",
+        "before": "nuclearcraft:oxygen",
+        "after": "mekanism:oxygen",
+        "amount": 1000,
+        "role": "INPUT",
+        "registry": "fluid"
+      }
+    ]
+  },
+  {
+    "id": "nuclearcraft:fluid_infuser/neptunium_236_ox",
+    "class": "igentuman.nc.recipe.UniversalProcessorRecipe",
+    "beforeSHA256": "402e69e8c7537d669bb9277a8c508a81856b64ae4bb526c7a19e4cee67daba09",
+    "afterSHA256": "4543b51e758ee792c483fea5f5c07c8964dc2dac540fe08e3fa27ee08c1053a2",
+    "changes": [
+      {
+        "pointer": "/fluid_inputs/0/fluid",
+        "before": "nuclearcraft:oxygen",
+        "after": "mekanism:oxygen",
+        "amount": 100,
+        "role": "INPUT",
+        "registry": "fluid"
+      }
+    ]
+  },
+  {
+    "id": "nuclearcraft:fluid_infuser/neptunium_237_ox",
+    "class": "igentuman.nc.recipe.UniversalProcessorRecipe",
+    "beforeSHA256": "b0c27844d5f32adca4b6792968069287e1af8ef674ca355dde1e1feed825ed63",
+    "afterSHA256": "769ed8e1d3b75825b7a4cbb6523aa3ebc797906679dec006e6a9c04af486af44",
+    "changes": [
+      {
+        "pointer": "/fluid_inputs/0/fluid",
+        "before": "nuclearcraft:oxygen",
+        "after": "mekanism:oxygen",
+        "amount": 100,
+        "role": "INPUT",
+        "registry": "fluid"
+      }
+    ]
+  },
+  {
+    "id": "nuclearcraft:fluid_infuser/neptunium_hen_236_ox",
+    "class": "igentuman.nc.recipe.UniversalProcessorRecipe",
+    "beforeSHA256": "816962ea6f85e1c2e3872c647b700b97618e419d87f9d3517dc4fda2eefa7b76",
+    "afterSHA256": "7ac42e42c0cb5975d8bb55bb20ae4efc4e2097674cd5f4681a038cea9493626b",
+    "changes": [
+      {
+        "pointer": "/fluid_inputs/0/fluid",
+        "before": "nuclearcraft:oxygen",
+        "after": "mekanism:oxygen",
+        "amount": 1000,
+        "role": "INPUT",
+        "registry": "fluid"
+      }
+    ]
+  },
+  {
+    "id": "nuclearcraft:fluid_infuser/neptunium_len_236_ox",
+    "class": "igentuman.nc.recipe.UniversalProcessorRecipe",
+    "beforeSHA256": "353fd2483b2e6181a84b4479ef342d61b5f6ba7ad413cc39fa2dc029f9bf4c2a",
+    "afterSHA256": "7aced32898c65fc9f62f92f095567f92eca7b910a3e73a52fd304cad8130870c",
+    "changes": [
+      {
+        "pointer": "/fluid_inputs/0/fluid",
+        "before": "nuclearcraft:oxygen",
+        "after": "mekanism:oxygen",
+        "amount": 1000,
+        "role": "INPUT",
+        "registry": "fluid"
+      }
+    ]
+  },
+  {
+    "id": "nuclearcraft:fluid_infuser/plutonium_238_ox",
+    "class": "igentuman.nc.recipe.UniversalProcessorRecipe",
+    "beforeSHA256": "9ef980df00def70e4c6f59608b16679c12c5cbcf21581909c98b4f7ac73f0688",
+    "afterSHA256": "249c87eda6c21dee8e8ff6d62b3ff21cd49cef202e198dc41528376c5fb9c97f",
+    "changes": [
+      {
+        "pointer": "/fluid_inputs/0/fluid",
+        "before": "nuclearcraft:oxygen",
+        "after": "mekanism:oxygen",
+        "amount": 100,
+        "role": "INPUT",
+        "registry": "fluid"
+      }
+    ]
+  },
+  {
+    "id": "nuclearcraft:fluid_infuser/plutonium_239_ox",
+    "class": "igentuman.nc.recipe.UniversalProcessorRecipe",
+    "beforeSHA256": "a1449c2fa5bfedd4d43efff81b1663faad260786d0ed4339e32f1b497697ede9",
+    "afterSHA256": "cd562aaa5f3512b30daa163f8ea6a448774ba827ec791f1d30ab45814625eaf8",
+    "changes": [
+      {
+        "pointer": "/fluid_inputs/0/fluid",
+        "before": "nuclearcraft:oxygen",
+        "after": "mekanism:oxygen",
+        "amount": 100,
+        "role": "INPUT",
+        "registry": "fluid"
+      }
+    ]
+  },
+  {
+    "id": "nuclearcraft:fluid_infuser/plutonium_241_ox",
+    "class": "igentuman.nc.recipe.UniversalProcessorRecipe",
+    "beforeSHA256": "758ad2350256eb8d4e5215d1ad2452a6ea55d2e7903f6dd1be3d5603813504b0",
+    "afterSHA256": "aafe25e08a870695cbf6e8c2ae6dd78733c984504ed8b8c37f9a331de2e6e94a",
+    "changes": [
+      {
+        "pointer": "/fluid_inputs/0/fluid",
+        "before": "nuclearcraft:oxygen",
+        "after": "mekanism:oxygen",
+        "amount": 100,
+        "role": "INPUT",
+        "registry": "fluid"
+      }
+    ]
+  },
+  {
+    "id": "nuclearcraft:fluid_infuser/plutonium_242_ox",
+    "class": "igentuman.nc.recipe.UniversalProcessorRecipe",
+    "beforeSHA256": "3c70f3a1e4059e54110c0c3e57f974c039ccc9c787c68620dc3e406dbcca1a39",
+    "afterSHA256": "cbbc13874d5b5c821d389d9ae3844bbd639556e723e92744be4c6e2c23363734",
+    "changes": [
+      {
+        "pointer": "/fluid_inputs/0/fluid",
+        "before": "nuclearcraft:oxygen",
+        "after": "mekanism:oxygen",
+        "amount": 100,
+        "role": "INPUT",
+        "registry": "fluid"
+      }
+    ]
+  },
+  {
+    "id": "nuclearcraft:fluid_infuser/plutonium_hep_239_ox",
+    "class": "igentuman.nc.recipe.UniversalProcessorRecipe",
+    "beforeSHA256": "fdd036be615713f379c9044d6db8a197fc05845c0e8a9e9a84c02aefa4b45461",
+    "afterSHA256": "f3fd9a7d7bb660225a4895acac7a562475a6856063b10a81fcceefd839ad85d0",
+    "changes": [
+      {
+        "pointer": "/fluid_inputs/0/fluid",
+        "before": "nuclearcraft:oxygen",
+        "after": "mekanism:oxygen",
+        "amount": 1000,
+        "role": "INPUT",
+        "registry": "fluid"
+      }
+    ]
+  },
+  {
+    "id": "nuclearcraft:fluid_infuser/plutonium_hep_241_ox",
+    "class": "igentuman.nc.recipe.UniversalProcessorRecipe",
+    "beforeSHA256": "97e42b3ffe48ff6cb82b68b867b7ab26c6e726613996b83846466fee2eae74a3",
+    "afterSHA256": "cced6a6ab8ffd680504265211ece2a16f59c84101a3651e3dbe23d1a553f05bc",
+    "changes": [
+      {
+        "pointer": "/fluid_inputs/0/fluid",
+        "before": "nuclearcraft:oxygen",
+        "after": "mekanism:oxygen",
+        "amount": 1000,
+        "role": "INPUT",
+        "registry": "fluid"
+      }
+    ]
+  },
+  {
+    "id": "nuclearcraft:fluid_infuser/plutonium_lep_239_ox",
+    "class": "igentuman.nc.recipe.UniversalProcessorRecipe",
+    "beforeSHA256": "4f25eb72b674ea31e257b0ee3a03dbbc7e988fb90504bad270096f0683b12926",
+    "afterSHA256": "3ca4daf8e58d829730e8b640b04a84e01d6d9c062c42945226a79207fb2113c7",
+    "changes": [
+      {
+        "pointer": "/fluid_inputs/0/fluid",
+        "before": "nuclearcraft:oxygen",
+        "after": "mekanism:oxygen",
+        "amount": 1000,
+        "role": "INPUT",
+        "registry": "fluid"
+      }
+    ]
+  },
+  {
+    "id": "nuclearcraft:fluid_infuser/plutonium_lep_241_ox",
+    "class": "igentuman.nc.recipe.UniversalProcessorRecipe",
+    "beforeSHA256": "672f2e61de59a232e694f0a9e3d7f57b4cc808da9d02e00c86686bf674f8864a",
+    "afterSHA256": "dd314b7b283cdda4bf9628785df997bda9cd8090c6cbe5e0a41f82db5755f4d8",
+    "changes": [
+      {
+        "pointer": "/fluid_inputs/0/fluid",
+        "before": "nuclearcraft:oxygen",
+        "after": "mekanism:oxygen",
+        "amount": 1000,
+        "role": "INPUT",
+        "registry": "fluid"
+      }
+    ]
+  },
+  {
+    "id": "nuclearcraft:fluid_infuser/thorium_230_ox",
+    "class": "igentuman.nc.recipe.UniversalProcessorRecipe",
+    "beforeSHA256": "dfc297d0fa751cc520857fcd6339c008e1b2acadeaaf8a843e6e65b467955ff5",
+    "afterSHA256": "c699210e8ba94de17fca2af8d01a7463abdcf768774a62f114e7f1bfd83db4b7",
+    "changes": [
+      {
+        "pointer": "/fluid_inputs/0/fluid",
+        "before": "nuclearcraft:oxygen",
+        "after": "mekanism:oxygen",
+        "amount": 100,
+        "role": "INPUT",
+        "registry": "fluid"
+      }
+    ]
+  },
+  {
+    "id": "nuclearcraft:fluid_infuser/thorium_232_ox",
+    "class": "igentuman.nc.recipe.UniversalProcessorRecipe",
+    "beforeSHA256": "8e5ff76e9794a42f1c771e6013fab2e403c0b56d5f5a98414d86c6c6e30e9031",
+    "afterSHA256": "c885358927218f36b6f99958d0933e418420434b12131096836c66f4b3a8e758",
+    "changes": [
+      {
+        "pointer": "/fluid_inputs/0/fluid",
+        "before": "nuclearcraft:oxygen",
+        "after": "mekanism:oxygen",
+        "amount": 100,
+        "role": "INPUT",
+        "registry": "fluid"
+      }
+    ]
+  },
+  {
+    "id": "nuclearcraft:fluid_infuser/thorium_tbu_ox",
+    "class": "igentuman.nc.recipe.UniversalProcessorRecipe",
+    "beforeSHA256": "3d47eddce1b70cfdf292cab4d8e404f423f2864bc1ef1f3ccadd4b1ad4bf01c4",
+    "afterSHA256": "cff3a77b8657112554af666dc3983f4fc2cacb9c8d0b3ee79b5348287bf837c1",
+    "changes": [
+      {
+        "pointer": "/fluid_inputs/0/fluid",
+        "before": "nuclearcraft:oxygen",
+        "after": "mekanism:oxygen",
+        "amount": 1000,
+        "role": "INPUT",
+        "registry": "fluid"
+      }
+    ]
+  },
+  {
+    "id": "nuclearcraft:fluid_infuser/uranium_233_ox",
+    "class": "igentuman.nc.recipe.UniversalProcessorRecipe",
+    "beforeSHA256": "7ef28e807285a427d98373b7926b2f7a86e03c0482f1d7825a6e528451460566",
+    "afterSHA256": "1eebe28ae250888dc10c511677bdbc6ff85130cc2fce89fa109ea97358e4bf81",
+    "changes": [
+      {
+        "pointer": "/fluid_inputs/0/fluid",
+        "before": "nuclearcraft:oxygen",
+        "after": "mekanism:oxygen",
+        "amount": 100,
+        "role": "INPUT",
+        "registry": "fluid"
+      }
+    ]
+  },
+  {
+    "id": "nuclearcraft:fluid_infuser/uranium_234_ox",
+    "class": "igentuman.nc.recipe.UniversalProcessorRecipe",
+    "beforeSHA256": "79ce92784d29e72445167ae7c9d8effde28d3672475ef1b99243cc1b1f72b6bd",
+    "afterSHA256": "b4414197b45f2c04aa2713f5003303bcb53e6aeeefcb840069a00da4999525f6",
+    "changes": [
+      {
+        "pointer": "/fluid_inputs/0/fluid",
+        "before": "nuclearcraft:oxygen",
+        "after": "mekanism:oxygen",
+        "amount": 100,
+        "role": "INPUT",
+        "registry": "fluid"
+      }
+    ]
+  },
+  {
+    "id": "nuclearcraft:fluid_infuser/uranium_235_ox",
+    "class": "igentuman.nc.recipe.UniversalProcessorRecipe",
+    "beforeSHA256": "e78cb94c935d4dce015887e4e6be23d0b8d993e0ade8931121015bcb675e15c1",
+    "afterSHA256": "7d43a0992d167dc0395d7e7a56a73059780a387652f5eff4e8348c8e59a0f35d",
+    "changes": [
+      {
+        "pointer": "/fluid_inputs/0/fluid",
+        "before": "nuclearcraft:oxygen",
+        "after": "mekanism:oxygen",
+        "amount": 100,
+        "role": "INPUT",
+        "registry": "fluid"
+      }
+    ]
+  },
+  {
+    "id": "nuclearcraft:fluid_infuser/uranium_238_ox",
+    "class": "igentuman.nc.recipe.UniversalProcessorRecipe",
+    "beforeSHA256": "377534ff1986afe8bdac2d1db547ee505c37e794769ea25e831cbcd05457d563",
+    "afterSHA256": "ad35e62179cced551c18ec647557db8e485b95caf7e196ce6aa14170b246ae09",
+    "changes": [
+      {
+        "pointer": "/fluid_inputs/0/fluid",
+        "before": "nuclearcraft:oxygen",
+        "after": "mekanism:oxygen",
+        "amount": 100,
+        "role": "INPUT",
+        "registry": "fluid"
+      }
+    ]
+  },
+  {
+    "id": "nuclearcraft:fluid_infuser/uranium_heu_233_ox",
+    "class": "igentuman.nc.recipe.UniversalProcessorRecipe",
+    "beforeSHA256": "d2596d2e09aba3d78fe221d8669d3813075163d723a0ee3642ec14b4ff78b71f",
+    "afterSHA256": "54e592d81f043326f4916a72001e38b854f5b2e644461534a9c981b0a3431261",
+    "changes": [
+      {
+        "pointer": "/fluid_inputs/0/fluid",
+        "before": "nuclearcraft:oxygen",
+        "after": "mekanism:oxygen",
+        "amount": 1000,
+        "role": "INPUT",
+        "registry": "fluid"
+      }
+    ]
+  },
+  {
+    "id": "nuclearcraft:fluid_infuser/uranium_heu_235_ox",
+    "class": "igentuman.nc.recipe.UniversalProcessorRecipe",
+    "beforeSHA256": "9d0cfad198c5e0993ddc9b56a948a17b838baa8695594be765fbb4bcd200bee6",
+    "afterSHA256": "387902311f5e9fad6a1bef9d96d9c0f42a84a3232acf74d621dc91bd6dd34436",
+    "changes": [
+      {
+        "pointer": "/fluid_inputs/0/fluid",
+        "before": "nuclearcraft:oxygen",
+        "after": "mekanism:oxygen",
+        "amount": 1000,
+        "role": "INPUT",
+        "registry": "fluid"
+      }
+    ]
+  },
+  {
+    "id": "nuclearcraft:fluid_infuser/uranium_leu_233_ox",
+    "class": "igentuman.nc.recipe.UniversalProcessorRecipe",
+    "beforeSHA256": "1dc31ae9a93d6de0278cf72373a002f23bcb09580c733f5ab0262b4678a495e2",
+    "afterSHA256": "4e904c02e5086197d37c54c669f63c16b5ecf92aa07181dd0c8ad9ebaa4600be",
+    "changes": [
+      {
+        "pointer": "/fluid_inputs/0/fluid",
+        "before": "nuclearcraft:oxygen",
+        "after": "mekanism:oxygen",
+        "amount": 1000,
+        "role": "INPUT",
+        "registry": "fluid"
+      }
+    ]
+  },
+  {
+    "id": "nuclearcraft:fluid_infuser/uranium_leu_235_ox",
+    "class": "igentuman.nc.recipe.UniversalProcessorRecipe",
+    "beforeSHA256": "bd6f0a3bbfde94774258ddbef9a469dc2ff066e449ff59381b15e7af47ab71be",
+    "afterSHA256": "4a148b3a313374b2e802630a6c49d3e3a4e45f2a880186249c6e3b3900fbc30e",
+    "changes": [
+      {
+        "pointer": "/fluid_inputs/0/fluid",
+        "before": "nuclearcraft:oxygen",
+        "after": "mekanism:oxygen",
+        "amount": 1000,
+        "role": "INPUT",
+        "registry": "fluid"
+      }
+    ]
+  },
+  {
+    "id": "nuclearcraft:chemical_reactor/ammonia_synthesis",
+    "class": "igentuman.nc.recipe.UniversalProcessorRecipe",
+    "beforeSHA256": "9244391da9bb3c2bf98150cf65acf9b73ad184be7576fe3f63ddc03d62510b49",
+    "afterSHA256": "4c6e51aa24d2da9bd56190c31e90e0915c482915738f4b272b0daabf42329e26",
+    "changes": [
+      {
+        "pointer": "/fluid_inputs/1/fluid",
+        "before": "nuclearcraft:hydrogen",
+        "after": "mekanism:hydrogen",
+        "amount": 750,
+        "role": "INPUT",
+        "registry": "fluid"
+      }
+    ]
+  },
+  {
+    "id": "nuclearcraft:chemical_reactor/boric_acid",
+    "class": "igentuman.nc.recipe.UniversalProcessorRecipe",
+    "beforeSHA256": "92c57887370ed242db0722b71f4c7aeec3eef0ff7977e94ad1a5b954ce91c78a",
+    "afterSHA256": "375e144060d504c22e749c19d4302672805d8d6bb56882e49a43dccd189244bf",
+    "changes": [
+      {
+        "pointer": "/fluid_outputs/1/fluid",
+        "before": "nuclearcraft:hydrogen",
+        "after": "mekanism:hydrogen",
+        "amount": 500,
+        "role": "OUTPUT",
+        "registry": "fluid"
+      }
+    ]
+  },
+  {
+  "id": "nuclearcraft:chemical_reactor/carbon_shift",
+  "class": "igentuman.nc.recipe.UniversalProcessorRecipe",
+  "beforeSHA256": "81f5482e0bdefa24c64d3b896fef94b9706f53c8f4019a47e8a27a965be3a4ad",
+  "afterSHA256": "99147749113501f1435f6418a8ed27c557be12461c0a6047114509bb2746bc30",
+  "changes": [
+    {
+      "pointer": "/fluid_inputs/1/fluid",
+      "before": "nuclearcraft:hydrogen",
+      "after": "mekanism:hydrogen",
+      "amount": 250,
+      "role": "INPUT",
+      "registry": "fluid"
+    },
+    {
+      "pointer": "/fluid_inputs/0/fluid",
+      "before": "nuclearcraft:carbon_dioxide",
+      "after": "tfmg:carbon_dioxide",
+      "amount": 250,
+      "role": "INPUT",
+      "registry": "fluid"
+    }
+  ]
+},
+  {
+    "id": "nuclearcraft:chemical_reactor/diborane",
+    "class": "igentuman.nc.recipe.UniversalProcessorRecipe",
+    "beforeSHA256": "0a8123bba71a36697eb08945d9d34d90585dcc0222a460fd5603480cb221d368",
+    "afterSHA256": "6dba1ad63b38a5e6fa715212791565075935ff9114d0322a59331fa1b3f256fd",
+    "changes": [
+      {
+        "pointer": "/fluid_inputs/1/fluid",
+        "before": "nuclearcraft:hydrogen",
+        "after": "mekanism:hydrogen",
+        "amount": 666,
+        "role": "INPUT",
+        "registry": "fluid"
+      }
+    ]
+  },
+  {
+    "id": "nuclearcraft:fission_boiling/water_steam",
+    "class": "igentuman.nc.recipe.fission.BoilingRecipe",
+    "beforeSHA256": "ddece422de729775b7ca92eb968f6b2d01498d0fce2a319053510268ed35274d",
+    "afterSHA256": "3b63c7325e51aca253f7ed40285aaf1894fc8b37d253764984897f35a2f38e53",
+    "changes": [
+      {
+        "pointer": "/output_fluid/fluid",
+        "before": "nuclearcraft:steam",
+        "after": "mekanism:steam",
+        "amount": 10,
+        "role": "OUTPUT",
+        "registry": "fluid"
+      }
+    ]
+  },
+  {
+    "id": "nuclearcraft:fusion_coolant/water",
+    "class": "igentuman.nc.recipe.fusion.FusionCoolantRecipe",
+    "beforeSHA256": "b9d787e09b588181487012a5a37dbe9e4c3323c3393b6c791697b4fbb2af3a35",
+    "afterSHA256": "dad0ae0438c90a2b535fce90f5ef12e8b8dbc92754aee69b61279f278a10419e",
+    "changes": [
+      {
+        "pointer": "/output_fluid/fluid",
+        "before": "nuclearcraft:steam",
+        "after": "mekanism:steam",
+        "amount": 1000,
+        "role": "OUTPUT",
+        "registry": "fluid",
+        "amountBasis": "NC_FLUID_OUTPUT_CODEC_DEFAULT_1000"
+      }
+    ]
+  },
+  {
+    "id": "nuclearcraft:fusion_reactor/deuterium_helium3",
+    "class": "igentuman.nc.recipe.fusion.FusionRecipe",
+    "beforeSHA256": "22c67bafce5b8d3a79d5d8d549a50a82b312799fdc14bb09aa132456bd7f29cf",
+    "afterSHA256": "58d71a6d5e7a7754f82f854ca4c9ac2502f23c699126e1934d41478a52ab1521",
+    "changes": [
+      {
+        "pointer": "/outputs/0/fluid",
+        "before": "nuclearcraft:hydrogen",
+        "after": "mekanism:hydrogen",
+        "amount": 500,
+        "role": "OUTPUT",
+        "registry": "fluid"
+      },
+      {
+        "pointer": "/outputs/1/fluid",
+        "before": "nuclearcraft:hydrogen",
+        "after": "mekanism:hydrogen",
+        "amount": 500,
+        "role": "OUTPUT",
+        "registry": "fluid"
+      }
+    ]
+  },
+  {
+    "id": "nuclearcraft:fusion_reactor/deuterium_hydrogen",
+    "class": "igentuman.nc.recipe.fusion.FusionRecipe",
+    "beforeSHA256": "5f5814456726a6908d76966110589b272e073a4e5240b9f1dea41431d3d576d2",
+    "afterSHA256": "b798d241e5f88617a61ecfa2e683ea519fa87bce7047b8790f443533b3dcadb0",
+    "changes": [
+      {
+        "pointer": "/input_b/fluid",
+        "before": "nuclearcraft:hydrogen",
+        "after": "mekanism:hydrogen",
+        "amount": 1000,
+        "role": "INPUT",
+        "registry": "fluid"
+      }
+    ]
+  },
+  {
+    "id": "nuclearcraft:fusion_reactor/helium3_lithium6",
+    "class": "igentuman.nc.recipe.fusion.FusionRecipe",
+    "beforeSHA256": "fa59f434948e65c8576c793e6c6556427fdacb6a7e5bcca367b8a1e4ac66e6e9",
+    "afterSHA256": "d88a205556c04e749a9b94abd1a3d27333b90fc7e4a8c3c88b64398fa19d77ff",
+    "changes": [
+      {
+        "pointer": "/outputs/0/fluid",
+        "before": "nuclearcraft:hydrogen",
+        "after": "mekanism:hydrogen",
+        "amount": 500,
+        "role": "OUTPUT",
+        "registry": "fluid"
+      },
+      {
+        "pointer": "/outputs/1/fluid",
+        "before": "nuclearcraft:hydrogen",
+        "after": "mekanism:hydrogen",
+        "amount": 500,
+        "role": "OUTPUT",
+        "registry": "fluid"
+      }
+    ]
+  },
+  {
+    "id": "nuclearcraft:fusion_reactor/hydrogen_helium3",
+    "class": "igentuman.nc.recipe.fusion.FusionRecipe",
+    "beforeSHA256": "944a97275804a71bd5a32877b1a4d3ad38111c92e0aa4dbc29c83889148645d6",
+    "afterSHA256": "0aab156beb385dd9d2b0338073ec7fbfea161f00ee8573c2acaa07517eda1199",
+    "changes": [
+      {
+        "pointer": "/input_a/fluid",
+        "before": "nuclearcraft:hydrogen",
+        "after": "mekanism:hydrogen",
+        "amount": 1000,
+        "role": "INPUT",
+        "registry": "fluid"
+      }
+    ]
+  },
+  {
+    "id": "nuclearcraft:fusion_reactor/hydrogen_lithium6",
+    "class": "igentuman.nc.recipe.fusion.FusionRecipe",
+    "beforeSHA256": "a679b117fdb879daa29a2be57211806d607abdb9895ce9e55f6be02fde64c271",
+    "afterSHA256": "c87690d920d0b443c29c7b8a5b3155017be89a218153d779d67b1b4e680a6c13",
+    "changes": [
+      {
+        "pointer": "/input_a/fluid",
+        "before": "nuclearcraft:hydrogen",
+        "after": "mekanism:hydrogen",
+        "amount": 1000,
+        "role": "INPUT",
+        "registry": "fluid"
+      }
+    ]
+  },
+  {
+    "id": "nuclearcraft:fusion_reactor/hydrogen_lithium7",
+    "class": "igentuman.nc.recipe.fusion.FusionRecipe",
+    "beforeSHA256": "fdea499c9a60f045805855aedb20964606e47d0b94b51f73d3eb179bc85c1d8e",
+    "afterSHA256": "f36faebf12d81d09ac6e5f21595d6e6d52c7d0d18c5bfe0fe9b461fe5ba9e93a",
+    "changes": [
+      {
+        "pointer": "/input_a/fluid",
+        "before": "nuclearcraft:hydrogen",
+        "after": "mekanism:hydrogen",
+        "amount": 1000,
+        "role": "INPUT",
+        "registry": "fluid"
+      }
+    ]
+  },
+  {
+    "id": "nuclearcraft:fusion_reactor/hydrogen_quantite",
+    "class": "igentuman.nc.recipe.fusion.FusionRecipe",
+    "beforeSHA256": "c37af7fac05d06499bfb7464c998b1eaafecd44a4e5b7d71b611bd4d50e671f9",
+    "afterSHA256": "6bc9a2f141e24f94edc6db831e00cea1d32750e90f855e8a3b3b81faac62d920",
+    "changes": [
+      {
+        "pointer": "/input_a/fluid",
+        "before": "nuclearcraft:hydrogen",
+        "after": "mekanism:hydrogen",
+        "amount": 1000,
+        "role": "INPUT",
+        "registry": "fluid"
+      }
+    ]
+  },
+  {
+    "id": "nuclearcraft:fusion_reactor/hydrogen_tritium",
+    "class": "igentuman.nc.recipe.fusion.FusionRecipe",
+    "beforeSHA256": "be8d92e8e604a37063de7086c3e544778e57d785c32932b383b486b52091b640",
+    "afterSHA256": "064a24d7bc94df4e1796639057906123782b8ef33b812b3464b0ad28832e0830",
+    "changes": [
+      {
+        "pointer": "/input_a/fluid",
+        "before": "nuclearcraft:hydrogen",
+        "after": "mekanism:hydrogen",
+        "amount": 1000,
+        "role": "INPUT",
+        "registry": "fluid"
+      }
+    ]
+  },
+  {
+    "id": "nuclearcraft:heat_exchanger/water",
+    "class": "igentuman.nc.recipe.heat_exchanger.HeatExchangerRecipe",
+    "beforeSHA256": "f40d7edd623794adf487ad23005bd942847361b25023c9b0a057977db0b5bd2c",
+    "afterSHA256": "fe8dacb07a1b58181843cb0aa8f0ac80b98ca6e8f5f66f3c257fd0e28d1fc0b4",
+    "changes": [
+      {
+        "pointer": "/output_fluid/fluid",
+        "before": "nuclearcraft:steam",
+        "after": "mekanism:steam",
+        "amount": 10,
+        "role": "OUTPUT",
+        "registry": "fluid"
+      }
+    ]
+  },
+  {
+    "id": "nuclearcraft:steam_turbine/steam",
+    "class": "igentuman.nc.recipe.UniversalProcessorRecipe",
+    "beforeSHA256": "7886402090c0b744d38569638b75eadcede646a6f29a56735e3a56b48b664f8f",
+    "afterSHA256": "2ecf2134a884b4cd71d5d0f8892c7032557d2c31679f0833bd101022a7e71647",
+    "changes": [
+      {
+        "pointer": "/fluid_inputs/0/fluid",
+        "before": "nuclearcraft:steam",
+        "after": "mekanism:steam",
+        "amount": 100,
+        "role": "INPUT",
+        "registry": "fluid"
+      }
+    ]
+  },
+  {
+    "id": "nuclearcraft:turbine/steam",
+    "class": "igentuman.nc.recipe.turbine.TurbineRecipe",
+    "beforeSHA256": "1d25473cde19ba080bb4bb19bc2c00043d029db10301aa635904b45442ca9436",
+    "afterSHA256": "060a694fb95f3aef71c13d50a9aaeee282e11e36b916453e2d4d15a1106ed662",
+    "changes": [
+      {
+        "pointer": "/input_fluid/fluid",
+        "before": "nuclearcraft:steam",
+        "after": "mekanism:steam",
+        "amount": 10,
+        "role": "INPUT",
+        "registry": "fluid"
+      }
+    ]
+  },
+
+  {
+    "id": "farmersdelight:integration/immersiveengineering/fermenter/tomato",
+    "class": "blusunrize.immersiveengineering.api.crafting.FermenterRecipe",
+    "before": {
+      "fluid": {
+        "id": "immersiveengineering:ethanol",
+        "amount": 80
+      },
+      "input": {
+        "tag": "c:crops/tomato"
+      },
+      "energy": 6400,
+      "type": "immersiveengineering:fermenter"
+    },
+    "after": {
+      "energy": 6400,
+      "fluid": {
+        "amount": 80,
+        "id": "createdieselgenerators:ethanol"
+      },
+      "input": {
+        "tag": "c:crops/tomato"
+      },
+      "type": "immersiveengineering:fermenter"
+    },
+    "beforeSHA256": "5b7fff2c98a7387a62aedfe8d19aeaded804a4851e46281022670246ce01b4d5",
+    "afterSHA256": "8fe6da4e128d22c77bf83d5bffb1d8da769a4cb12aac713a6fdf04d107e307e1",
+    "changes": [
+      {
+        "pointer": "/fluid/id",
+        "before": "immersiveengineering:ethanol",
+        "after": "createdieselgenerators:ethanol",
+        "amount": 80,
+        "role": "OUTPUT",
+        "registry": "fluid"
+      }
+    ]
+  },
+  {
+    "id": "immersiveengineering:fermenter/apple",
+    "class": "blusunrize.immersiveengineering.api.crafting.FermenterRecipe",
+    "before": {
+      "fluid": {
+        "id": "immersiveengineering:ethanol",
+        "amount": 80
+      },
+      "input": {
+        "item": "minecraft:apple"
+      },
+      "energy": 6400,
+      "type": "immersiveengineering:fermenter"
+    },
+    "after": {
+      "energy": 6400,
+      "fluid": {
+        "amount": 80,
+        "id": "createdieselgenerators:ethanol"
+      },
+      "input": {
+        "item": "minecraft:apple"
+      },
+      "type": "immersiveengineering:fermenter"
+    },
+    "beforeSHA256": "c6e6a28bfb179843f332f6377dc1f28b0a674bf3ee16d66eea7b49c575d829bd",
+    "afterSHA256": "b61ac973346d235f5834ba2558be733e129d52ac95d0745a6524c90d1948c1ed",
+    "changes": [
+      {
+        "pointer": "/fluid/id",
+        "before": "immersiveengineering:ethanol",
+        "after": "createdieselgenerators:ethanol",
+        "amount": 80,
+        "role": "OUTPUT",
+        "registry": "fluid"
+      }
+    ]
+  },
+  {
+    "id": "immersiveengineering:fermenter/beetroot",
+    "class": "blusunrize.immersiveengineering.api.crafting.FermenterRecipe",
+    "before": {
+      "fluid": {
+        "id": "immersiveengineering:ethanol",
+        "amount": 40
+      },
+      "input": {
+        "tag": "c:crops/beetroot"
+      },
+      "energy": 6400,
+      "type": "immersiveengineering:fermenter"
+    },
+    "after": {
+      "energy": 6400,
+      "fluid": {
+        "amount": 40,
+        "id": "createdieselgenerators:ethanol"
+      },
+      "input": {
+        "tag": "c:crops/beetroot"
+      },
+      "type": "immersiveengineering:fermenter"
+    },
+    "beforeSHA256": "1b9c9862f6f47cdf3bfad6cb57e7aa9d940175d181a11bbbb2e11928e544ba06",
+    "afterSHA256": "bee9ac48a0e6ebb75d433cc2445fddbe305cc7c0b755812f36cb26a94f223833",
+    "changes": [
+      {
+        "pointer": "/fluid/id",
+        "before": "immersiveengineering:ethanol",
+        "after": "createdieselgenerators:ethanol",
+        "amount": 40,
+        "role": "OUTPUT",
+        "registry": "fluid"
+      }
+    ]
+  },
+  {
+    "id": "immersiveengineering:fermenter/glow_berries",
+    "class": "blusunrize.immersiveengineering.api.crafting.FermenterRecipe",
+    "before": {
+      "fluid": {
+        "id": "immersiveengineering:ethanol",
+        "amount": 100
+      },
+      "input": {
+        "item": "minecraft:glow_berries"
+      },
+      "energy": 6400,
+      "type": "immersiveengineering:fermenter"
+    },
+    "after": {
+      "energy": 6400,
+      "fluid": {
+        "amount": 100,
+        "id": "createdieselgenerators:ethanol"
+      },
+      "input": {
+        "item": "minecraft:glow_berries"
+      },
+      "type": "immersiveengineering:fermenter"
+    },
+    "beforeSHA256": "ac17d405979864eacbdfc1cac0b2bf205e0d48c2ff460de639cf06f7e796b667",
+    "afterSHA256": "bf3e641402b803612168a0b524edf69c183e6438d5ce8a9a9bc0459880690b90",
+    "changes": [
+      {
+        "pointer": "/fluid/id",
+        "before": "immersiveengineering:ethanol",
+        "after": "createdieselgenerators:ethanol",
+        "amount": 100,
+        "role": "OUTPUT",
+        "registry": "fluid"
+      }
+    ]
+  },
+  {
+    "id": "immersiveengineering:fermenter/honey",
+    "class": "blusunrize.immersiveengineering.api.crafting.FermenterRecipe",
+    "before": {
+      "fluid": {
+        "id": "immersiveengineering:ethanol",
+        "amount": 250
+      },
+      "result": {
+        "id": "minecraft:glass_bottle"
+      },
+      "input": {
+        "item": "minecraft:honey_bottle"
+      },
+      "energy": 6400,
+      "type": "immersiveengineering:fermenter"
+    },
+    "after": {
+      "energy": 6400,
+      "fluid": {
+        "amount": 250,
+        "id": "createdieselgenerators:ethanol"
+      },
+      "input": {
+        "item": "minecraft:honey_bottle"
+      },
+      "result": {
+        "id": "minecraft:glass_bottle"
+      },
+      "type": "immersiveengineering:fermenter"
+    },
+    "beforeSHA256": "f38226031588f481bf0da9cd9fc9dc5a35478e140b68672bfdb3b4f5240c756f",
+    "afterSHA256": "29660bb6086a11541ccbcac4ccb960c7f5b533c43292d098d5529192b33cfa1a",
+    "changes": [
+      {
+        "pointer": "/fluid/id",
+        "before": "immersiveengineering:ethanol",
+        "after": "createdieselgenerators:ethanol",
+        "amount": 250,
+        "role": "OUTPUT",
+        "registry": "fluid"
+      }
+    ]
+  },
+  {
+    "id": "immersiveengineering:fermenter/melon_slice",
+    "class": "blusunrize.immersiveengineering.api.crafting.FermenterRecipe",
+    "before": {
+      "fluid": {
+        "id": "immersiveengineering:ethanol",
+        "amount": 20
+      },
+      "input": {
+        "item": "minecraft:melon_slice"
+      },
+      "energy": 6400,
+      "type": "immersiveengineering:fermenter"
+    },
+    "after": {
+      "energy": 6400,
+      "fluid": {
+        "amount": 20,
+        "id": "createdieselgenerators:ethanol"
+      },
+      "input": {
+        "item": "minecraft:melon_slice"
+      },
+      "type": "immersiveengineering:fermenter"
+    },
+    "beforeSHA256": "8faffbd05e442b9d05f07db45101e5df1910051d093ba74a53347a0d4d80a0ee",
+    "afterSHA256": "c05504d681bffb87f3596bd550306f936519a6df7bc08620c588cbf12d434501",
+    "changes": [
+      {
+        "pointer": "/fluid/id",
+        "before": "immersiveengineering:ethanol",
+        "after": "createdieselgenerators:ethanol",
+        "amount": 20,
+        "role": "OUTPUT",
+        "registry": "fluid"
+      }
+    ]
+  },
+  {
+    "id": "immersiveengineering:fermenter/potato",
+    "class": "blusunrize.immersiveengineering.api.crafting.FermenterRecipe",
+    "before": {
+      "fluid": {
+        "id": "immersiveengineering:ethanol",
+        "amount": 80
+      },
+      "input": {
+        "tag": "c:crops/potato"
+      },
+      "energy": 6400,
+      "type": "immersiveengineering:fermenter"
+    },
+    "after": {
+      "energy": 6400,
+      "fluid": {
+        "amount": 80,
+        "id": "createdieselgenerators:ethanol"
+      },
+      "input": {
+        "tag": "c:crops/potato"
+      },
+      "type": "immersiveengineering:fermenter"
+    },
+    "beforeSHA256": "bc7c76dce839583a8525ae58fd2762afcdbe27977e8897adee8a0981bfa87bca",
+    "afterSHA256": "4ce5b2285842956ba3a370d3d22489ea026c72fb05b96a39aa877da2890290ec",
+    "changes": [
+      {
+        "pointer": "/fluid/id",
+        "before": "immersiveengineering:ethanol",
+        "after": "createdieselgenerators:ethanol",
+        "amount": 80,
+        "role": "OUTPUT",
+        "registry": "fluid"
+      }
+    ]
+  },
+  {
+    "id": "immersiveengineering:fermenter/sugar_cane",
+    "class": "blusunrize.immersiveengineering.api.crafting.FermenterRecipe",
+    "before": {
+      "fluid": {
+        "id": "immersiveengineering:ethanol",
+        "amount": 80
+      },
+      "input": {
+        "item": "minecraft:sugar_cane"
+      },
+      "energy": 6400,
+      "type": "immersiveengineering:fermenter"
+    },
+    "after": {
+      "energy": 6400,
+      "fluid": {
+        "amount": 80,
+        "id": "createdieselgenerators:ethanol"
+      },
+      "input": {
+        "item": "minecraft:sugar_cane"
+      },
+      "type": "immersiveengineering:fermenter"
+    },
+    "beforeSHA256": "8d547b5cd013b5f7bcb55a06fc22df420d6e55dcde017a66a5ae63e685f636bb",
+    "afterSHA256": "2f714a09f90da06e4da1a447498c2cbebe69247254af8ab8fbc9402a945ada3b",
+    "changes": [
+      {
+        "pointer": "/fluid/id",
+        "before": "immersiveengineering:ethanol",
+        "after": "createdieselgenerators:ethanol",
+        "amount": 80,
+        "role": "OUTPUT",
+        "registry": "fluid"
+      }
+    ]
+  },
+  {
+    "id": "immersiveengineering:fermenter/sweet_berries",
+    "class": "blusunrize.immersiveengineering.api.crafting.FermenterRecipe",
+    "before": {
+      "fluid": {
+        "id": "immersiveengineering:ethanol",
+        "amount": 50
+      },
+      "input": {
+        "item": "minecraft:sweet_berries"
+      },
+      "energy": 6400,
+      "type": "immersiveengineering:fermenter"
+    },
+    "after": {
+      "energy": 6400,
+      "fluid": {
+        "amount": 50,
+        "id": "createdieselgenerators:ethanol"
+      },
+      "input": {
+        "item": "minecraft:sweet_berries"
+      },
+      "type": "immersiveengineering:fermenter"
+    },
+    "beforeSHA256": "85fa1f9f9d73b49e41818a20574a69b7e6c73eb1aac04420a492924a4352a944",
+    "afterSHA256": "cb2437a53d88233e6869f11436bcda0dee425f84493cad33c89240635589bd50",
+    "changes": [
+      {
+        "pointer": "/fluid/id",
+        "before": "immersiveengineering:ethanol",
+        "after": "createdieselgenerators:ethanol",
+        "amount": 50,
+        "role": "OUTPUT",
+        "registry": "fluid"
+      }
+    ]
+  },
+{
+  "id": "electroenergetics:compacting/plant_oil",
+  "class": "com.simibubi.create.content.kinetics.mixer.CompactingRecipe",
+  "before": {
+    "ingredients": [
+      {
+        "tag": "c:seeds"
+      }
+    ],
+    "results": [
+      {
+        "id": "electroenergetics:plant_oil",
+        "amount": 100
+      }
+    ],
+    "type": "create:compacting"
+  },
+  "after": {
+    "ingredients": [
+      {
+        "tag": "c:seeds"
+      }
+    ],
+    "results": [
+      {
+        "amount": 100,
+        "id": "createdieselgenerators:plant_oil"
+      }
+    ],
+    "type": "create:compacting"
+  },
+  "beforeSHA256": "93bfaf27655c0079bb943c2a12026d3172599b42a6816483200a132329395208",
+  "afterSHA256": "0a56478fb03a3d9498a2b6d72caf7af0b6480f339b055db23de2769dea4acde2",
+  "changes": [
+    {
+      "pointer": "/results/0/id",
+      "before": "electroenergetics:plant_oil",
+      "after": "createdieselgenerators:plant_oil",
+      "amount": 100,
+      "role": "OUTPUT",
+      "registry": "fluid"
+    }
+  ]
+},
+{
+  "id": "immersiveengineering:refinery/biodiesel",
+  "class": "blusunrize.immersiveengineering.api.crafting.RefineryRecipe",
+  "before": {
+    "result": {
+      "id": "immersiveengineering:biodiesel",
+      "amount": 16
+    },
+    "input0": {
+      "tag": "c:plantoil",
+      "amount": 8
+    },
+    "input1": {
+      "tag": "c:ethanol",
+      "amount": 8
+    },
+    "catalyst": {
+      "tag": "c:dusts/saltpeter"
+    },
+    "energy": 80,
+    "type": "immersiveengineering:refinery"
+  },
+  "after": {
+    "catalyst": {
+      "tag": "c:dusts/saltpeter"
+    },
+    "energy": 80,
+    "input0": {
+      "amount": 8,
+      "tag": "c:plantoil"
+    },
+    "input1": {
+      "amount": 8,
+      "tag": "c:ethanol"
+    },
+    "result": {
+      "amount": 16,
+      "id": "createdieselgenerators:biodiesel"
+    },
+    "type": "immersiveengineering:refinery"
+  },
+  "beforeSHA256": "af370c11c9ce970c3c02438f5642f0afc08dae6e635d7d3c7cbda66c04d74973",
+  "afterSHA256": "78f41ca32b2d21d6f748d69fb9778e7641fdb10a71d4ecbbd542295f660dd540",
+  "changes": [
+    {
+      "pointer": "/result/id",
+      "before": "immersiveengineering:biodiesel",
+      "after": "createdieselgenerators:biodiesel",
+      "amount": 16,
+      "role": "OUTPUT",
+      "registry": "fluid"
+    }
+  ]
+},
+{
+  "id": "createdieselgenerators:distillation/crude_oil",
+  "class": "com.jesz.createdieselgenerators.content.distillation.DistillationRecipe",
+  "before": {
+    "ingredients": [
+      {
+        "type": "neoforge:tag",
+        "tag": "c:crude_oil",
+        "amount": 100
+      }
+    ],
+    "results": [
+      {
+        "id": "createdieselgenerators:diesel",
+        "amount": 50
+      },
+      {
+        "id": "createdieselgenerators:gasoline",
+        "amount": 50
+      }
+    ],
+    "processing_time": 60,
+    "heat_requirement": "heated",
+    "type": "createdieselgenerators:distillation"
+  },
+  "after": {
+    "heat_requirement": "heated",
+    "ingredients": [
+      {
+        "amount": 100,
+        "tag": "c:crude_oil",
+        "type": "neoforge:tag"
+      }
+    ],
+    "processing_time": 60,
+    "results": [
+      {
+        "amount": 50,
+        "id": "tfmg:diesel"
+      },
+      {
+        "amount": 50,
+        "id": "tfmg:gasoline"
+      }
+    ],
+    "type": "createdieselgenerators:distillation"
+  },
+  "beforeSHA256": "e17e7af27290f3e06f8cf39caf28a03d37c3d9e1719e5e6bd7b46fc59bae6b2c",
+  "afterSHA256": "47dbd0d018f2ba5983ce88be30f25e29a5e828883ec40f99866ff7f095a068e0",
+  "changes": [
+    {
+      "pointer": "/results/0/id",
+      "before": "createdieselgenerators:diesel",
+      "after": "tfmg:diesel",
+      "amount": 50,
+      "role": "OUTPUT",
+      "registry": "fluid"
+    },
+    {
+      "pointer": "/results/1/id",
+      "before": "createdieselgenerators:gasoline",
+      "after": "tfmg:gasoline",
+      "amount": 50,
+      "role": "OUTPUT",
+      "registry": "fluid"
+    }
+  ]
+},
+{
+  "id": "createdieselgenerators:distillation/superheated_crude_oil",
+  "class": "com.jesz.createdieselgenerators.content.distillation.DistillationRecipe",
+  "before": {
+    "ingredients": [
+      {
+        "type": "neoforge:tag",
+        "tag": "c:crude_oil",
+        "amount": 100
+      }
+    ],
+    "results": [
+      {
+        "id": "createdieselgenerators:diesel",
+        "amount": 75
+      },
+      {
+        "id": "createdieselgenerators:gasoline",
+        "amount": 75
+      }
+    ],
+    "processing_time": 40,
+    "heat_requirement": "superheated",
+    "type": "createdieselgenerators:distillation"
+  },
+  "after": {
+    "heat_requirement": "superheated",
+    "ingredients": [
+      {
+        "amount": 100,
+        "tag": "c:crude_oil",
+        "type": "neoforge:tag"
+      }
+    ],
+    "processing_time": 40,
+    "results": [
+      {
+        "amount": 75,
+        "id": "tfmg:diesel"
+      },
+      {
+        "amount": 75,
+        "id": "tfmg:gasoline"
+      }
+    ],
+    "type": "createdieselgenerators:distillation"
+  },
+  "beforeSHA256": "a08568cd801ee40a2a3e41a10d05daba1f93761525e74e4727f1ac2033e072bb",
+  "afterSHA256": "85818e890ac9ca396445287b67b4d175bce0718b5f4335087bf77096e2ac5f58",
+  "changes": [
+    {
+      "pointer": "/results/0/id",
+      "before": "createdieselgenerators:diesel",
+      "after": "tfmg:diesel",
+      "amount": 75,
+      "role": "OUTPUT",
+      "registry": "fluid"
+    },
+    {
+      "pointer": "/results/1/id",
+      "before": "createdieselgenerators:gasoline",
+      "after": "tfmg:gasoline",
+      "amount": 75,
+      "role": "OUTPUT",
+      "registry": "fluid"
+    }
+  ]
+}
+]

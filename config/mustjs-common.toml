@@ -1,0 +1,14 @@
+#Generate the functions for creating Create mod recipes
+generateBase = true
+#Generate the functions for item manipulation in recipes
+generateItemManipulator = true
+#Generate the functions for fluid manipulation in recipes
+generateFluidManipulator = true
+#Generate the functions for Applied Energistics 2 recipes
+generateApplied = true
+#Generate the extra functions for Create mod recipes
+generateExtraCreate = true
+#Generate the functions for Minecraft recipes and item tags
+generateMinecraft = true
+#Generate the functions for removing and replacing recipes
+generateRemove = true

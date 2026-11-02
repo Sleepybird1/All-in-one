@@ -1,0 +1,87 @@
+{
+  "structures": [
+    {
+      "structure": "ae2:meteorite",
+      "weight": 30
+    },
+    {
+      "structure": "apotheosis:tower_leaf",
+      "weight": 150
+    },
+    {
+      "structure": "apotheosis:tower_main",
+      "weight": 150
+    },
+    {
+      "structure": "apotheosis:tower_sand",
+      "weight": 150
+    },
+    {
+      "structure": "apotheosis:tower_spruce",
+      "weight": 150
+    },
+    {
+      "structure": "friendsandfoes:iceologer_cabin",
+      "weight": 150
+    },
+    {
+      "structure": "friendsandfoes:illusioner_shack",
+      "weight": 150
+    },
+    {
+      "structure": "irons_spellbooks:mangrove_hut",
+      "weight": 150
+    },
+    {
+      "structure": "minecraft:igloo",
+      "weight": 150
+    },
+    {
+      "structure": "minecraft:ocean_ruin_cold",
+      "weight": 150
+    },
+    {
+      "structure": "minecraft:ocean_ruin_warm",
+      "weight": 150
+    },
+    {
+      "structure": "minecraft:ruined_portal",
+      "weight": 150
+    },
+    {
+      "structure": "minecraft:ruined_portal_desert",
+      "weight": 150
+    },
+    {
+      "structure": "minecraft:ruined_portal_jungle",
+      "weight": 150
+    },
+    {
+      "structure": "minecraft:ruined_portal_mountain",
+      "weight": 150
+    },
+    {
+      "structure": "minecraft:ruined_portal_ocean",
+      "weight": 150
+    },
+    {
+      "structure": "minecraft:ruined_portal_swamp",
+      "weight": 150
+    },
+    {
+      "structure": "minecraft:swamp_hut",
+      "weight": 150
+    },
+    {
+      "structure": "industrial_colonies:stellaris_overworld_meteor",
+      "weight": 30
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 196109121,
+    "spacing": 125,
+    "separation": 63,
+    "frequency": 1.0
+  }
+}

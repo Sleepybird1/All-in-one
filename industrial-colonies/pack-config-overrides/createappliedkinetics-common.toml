@@ -1,0 +1,5 @@
+# Keep AE2's native printed-circuit and press-duplication recipes. Industrial
+# Colonies replaces finished processors with its own tiered sequenced assembly
+# and rebuilds the Inscriber as a 5x5 Brass-tier machine; letting this addon
+# overwrite AE2 would reintroduce unbalanced alternate routes.
+overwrite_ae2_recipes = false

@@ -1,0 +1,30 @@
+{
+  "branch": "industrial_colonies:tech_tree",
+  "costs": [
+    {
+      "item": "mekanism:dust_uranium",
+      "count": 8
+    },
+    {
+      "item": "mekanism:yellow_cake_uranium",
+      "count": 4
+    },
+    {
+      "item": "allthemodium:unobtainium_allthemodium_alloy_ingot",
+      "count": 2
+    }
+  ],
+  "icon": "mekanism:isotopic_centrifuge",
+  "name": "com.industrial_colonies.research.nuclear_engineering.cr01_uranium_processing.name",
+  "no-reset": true,
+  "researchLevel": 4,
+  "sortOrder": 10120,
+  "subtitle": "com.industrial_colonies.research.nuclear_engineering.cr01_uranium_processing.subtitle",
+  "parentResearch": "industrial_colonies:nuclear_engineering/cr01_isotope_materials",
+  "requirements": [
+    {
+      "type": "minecolonies:research",
+      "research": "industrial_colonies:nuclear_engineering/cr01_isotope_materials"
+    }
+  ]
+}

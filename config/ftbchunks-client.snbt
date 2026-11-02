@@ -138,31 +138,52 @@
 		# Default: true
 		entity_heads: true
 		entity_icon: {
+			"minecraft:enderman": true
+			"minecraft:skeleton": true
+			"aquaculture:pollock": false
+			"minecraft:sheep": true
+			"minecraft:rabbit": true
+			"minecraft:axolotl": true
+			"aquaculture:brown_trout": false
+			"iceandfire:sea_serpent": true
+			"minecraft:tropical_fish": false
+			"minecraft:cod": false
+			"minecraft:wolf": true
+			"aquaculture:red_grouper": false
+			"aquaculture:bluegill": false
+			"aquaculture:minnow": false
+			"minecraft:spider": true
+			"friendsandfoes:crab": true
+			"aquaculture:blackfish": false
+			"minecraft:squid": true
+			"minecraft:cow": true
+			"aquaculture:gar": false
+			"minecraft:bee": true
+			"minecolonies:citizen": true
+			"minecraft:bat": true
+			"aquaculture:perch": false
+			"friendsandfoes:glare": true
+			"mowziesmobs:ferrous_wroughtnaut": true
+			"minecraft:panda": true
+			"minecraft:horse": true
 			"artifacts:mimic": true
 			"minecraft:zombie": true
-			"minecraft:sheep": true
-			"aquaculture:gar": false
-			"mowziesmobs:ferrous_wroughtnaut": true
-			"minecraft:bee": true
-			"minecraft:creeper": true
-			"aquaculture:carp": false
+			"aquaculture:atlantic_herring": false
+			"minecraft:fox": true
+			"aquaculture:rainbow_trout": false
+			"aquaculture:atlantic_cod": false
+			"aquaculture:jellyfish": false
 			"minecraft:cat": true
-			"minecraft:cow": true
-			"minecraft:glow_squid": true
-			"minecraft:skeleton": true
-			"aquaculture:bluegill": false
-			"minecraft:zombie_villager": true
+			"iceandfire:hippocampus": true
 			"minecraft:pig": true
-			"minecraft:bat": true
-			"minecraft:salmon": false
-			"minecolonies:citizen": true
-			"minecraft:enderman": true
-			"minecraft:panda": true
-			"minecraft:spider": true
-			"aquaculture:minnow": false
-			"aquaculture:brown_trout": false
+			"minecraft:pufferfish": false
 			"minecraft:chicken": true
-			"friendsandfoes:glare": true
+			"minecraft:creeper": true
+			"minecraft:salmon": false
+			"iceandfire:fire_dragon": true
+			"minecraft:zombie_villager": true
+			"aquaculture:carp": false
+			"minecraft:glow_squid": true
 		}
 		
 		# Minimap font scaling (values not a multiple of 0.5 may look bad)

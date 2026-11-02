@@ -1,3 +1,5 @@
+// Original recipe review: registrations retained below, temporarily inactive.
+function IC_originalRecipeReview_skip() {}
 // Industrial Colonies - Yellorium-to-uranium enrichment boundary.
 //
 // Extreme Reactors intentionally places Yellorite, Raw Yellorium, Yellorium
@@ -6,7 +8,7 @@
 // ReactorGameData. In this pack those two ITEM tags must therefore stay empty:
 // otherwise a physical Mekanism Uranium Ingot bypasses the enrichment chain.
 
-ServerEvents.tags('item', event => {
+IC_originalRecipeReview_skip('item', event => {
   const disabledYelloriteOres = [
     'bigreactors:yellorite_ore',
     'bigreactors:deepslate_yellorite_ore'
@@ -76,7 +78,7 @@ ServerEvents.tags('block', event => {
   })
 })
 
-ServerEvents.tags('fluid', event => {
+IC_originalRecipeReview_skip('fluid', event => {
   // ReactorGameData registers c:yellorium as fluid reactor fuel. Molten
   // Yellorium is an early alloying intermediate in this pack, so that common
   // tag must be empty. The dedicated enriched pellet is the only first-tier
@@ -84,7 +86,7 @@ ServerEvents.tags('fluid', event => {
   event.removeAll('c:yellorium')
 })
 
-ServerEvents.recipes(event => {
+IC_originalRecipeReview_skip(event => {
   // Furnace recipes cannot currently resolve an owning FTB Team. Remove the
   // direct ore/raw/dust cooking routes and use team-gated Create/Mekanism
   // processing instead. This also closes the Create crushed-uranium shortcut

@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "revision": "r14",
+  "reterraforgedVersion": "0.0.6",
+  "jarSha256": "691d922125703fc652f5ee4b3369bc06ab935e4fb42f14cad7e0e52d79da47d4",
+  "requiredTestsPassed": 4,
+  "materialRecipesVerified": 300,
+  "coverage": [
+    "mod loading",
+    "global landmark registry and spacing",
+    "dry/flat land structure checks",
+    "Glacio habitat and angler survival",
+    "Venus tower",
+    "ore recovery and native TFMG processing",
+    "semiconductor and ownership regressions"
+  ],
+  "limitation": "Coexistence tested with the established world fixture; ReTerraForged custom terrain preset and client preset UI were not exercised."
+}

@@ -1,0 +1,2468 @@
+[
+  {
+    "id": "ae2:misc/chests_smooth_sky_stone",
+    "json": {
+      "type": "minecraft:crafting_shaped",
+      "category": "misc",
+      "key": {
+        "a": {
+          "item": "ae2:smooth_sky_stone_block"
+        }
+      },
+      "pattern": [
+        "aaa",
+        "a a",
+        "aaa"
+      ],
+      "result": {
+        "count": 1,
+        "id": "ae2:smooth_sky_stone_chest"
+      }
+    },
+    "source": "appliedenergistics2-19.2.17.jar",
+    "outputs": [
+      "ae2:smooth_sky_stone_chest"
+    ]
+  },
+  {
+    "id": "createcasing:crafting/clutch/weathered_iron",
+    "json": {
+      "type": "minecraft:crafting_shapeless",
+      "category": "misc",
+      "ingredients": [
+        {
+          "item": "create:weathered_iron_block"
+        },
+        {
+          "item": "create:shaft"
+        },
+        {
+          "tag": "c:dusts/redstone"
+        }
+      ],
+      "result": {
+        "count": 1,
+        "id": "createcasing:weathered_iron_clutch"
+      }
+    },
+    "source": "Create Encased-1.21.1-1.9.0-ht3.jar",
+    "outputs": [
+      "createcasing:weathered_iron_clutch"
+    ]
+  },
+  {
+    "id": "createcasing:crafting/chain_drive/weathered_iron",
+    "json": {
+      "type": "minecraft:crafting_shapeless",
+      "category": "misc",
+      "ingredients": [
+        {
+          "item": "create:weathered_iron_block"
+        },
+        {
+          "tag": "c:nuggets/iron"
+        },
+        {
+          "tag": "c:nuggets/iron"
+        },
+        {
+          "tag": "c:nuggets/iron"
+        }
+      ],
+      "result": {
+        "count": 1,
+        "id": "createcasing:weathered_iron_encased_chain_drive"
+      }
+    },
+    "source": "Create Encased-1.21.1-1.9.0-ht3.jar",
+    "outputs": [
+      "createcasing:weathered_iron_encased_chain_drive"
+    ]
+  },
+  {
+    "id": "createcasing:crafting/auto_clutch/weathered_iron",
+    "json": {
+      "type": "minecraft:crafting_shapeless",
+      "category": "misc",
+      "ingredients": [
+        {
+          "item": "create:weathered_iron_block"
+        },
+        {
+          "item": "create:shaft"
+        },
+        {
+          "item": "minecraft:compass"
+        }
+      ],
+      "result": {
+        "count": 1,
+        "id": "createcasing:weathered_iron_automatic_clutch"
+      }
+    },
+    "source": "Create Encased-1.21.1-1.9.0-ht3.jar",
+    "outputs": [
+      "createcasing:weathered_iron_automatic_clutch"
+    ]
+  },
+  {
+    "id": "createcasing:crafting/configurable_gearbox/weathered_iron",
+    "json": {
+      "type": "minecraft:crafting_shaped",
+      "category": "misc",
+      "key": {
+        "A": {
+          "item": "create:weathered_iron_block"
+        },
+        "C": {
+          "item": "create:large_cogwheel"
+        }
+      },
+      "pattern": [
+        " C ",
+        "CAC",
+        " C "
+      ],
+      "result": {
+        "count": 1,
+        "id": "createcasing:weathered_iron_configurable_gearbox"
+      }
+    },
+    "source": "Create Encased-1.21.1-1.9.0-ht3.jar",
+    "outputs": [
+      "createcasing:weathered_iron_configurable_gearbox"
+    ]
+  },
+  {
+    "id": "createcasing:crafting/configurable_gearbox/brass",
+    "json": {
+      "type": "minecraft:crafting_shaped",
+      "category": "misc",
+      "key": {
+        "A": {
+          "item": "create:brass_casing"
+        },
+        "C": {
+          "item": "create:large_cogwheel"
+        }
+      },
+      "pattern": [
+        " C ",
+        "CAC",
+        " C "
+      ],
+      "result": {
+        "count": 1,
+        "id": "createcasing:brass_configurable_gearbox"
+      }
+    },
+    "source": "Create Encased-1.21.1-1.9.0-ht3.jar",
+    "outputs": [
+      "createcasing:brass_configurable_gearbox"
+    ]
+  },
+  {
+    "id": "createcasing:crafting/adjustable_chain_drive/weathered_iron",
+    "json": {
+      "type": "minecraft:crafting_shapeless",
+      "category": "misc",
+      "ingredients": [
+        {
+          "item": "createcasing:weathered_iron_encased_chain_drive"
+        },
+        {
+          "item": "create:electron_tube"
+        }
+      ],
+      "result": {
+        "count": 1,
+        "id": "createcasing:weathered_iron_adjustable_chain_gearshift"
+      }
+    },
+    "source": "Create Encased-1.21.1-1.9.0-ht3.jar",
+    "outputs": [
+      "createcasing:weathered_iron_adjustable_chain_gearshift"
+    ]
+  },
+  {
+    "id": "createcasing:crafting/gearshift/weathered_iron",
+    "json": {
+      "type": "minecraft:crafting_shapeless",
+      "category": "misc",
+      "ingredients": [
+        {
+          "item": "create:weathered_iron_block"
+        },
+        {
+          "item": "create:cogwheel"
+        },
+        {
+          "tag": "c:dusts/redstone"
+        }
+      ],
+      "result": {
+        "count": 1,
+        "id": "createcasing:weathered_iron_gearshift"
+      }
+    },
+    "source": "Create Encased-1.21.1-1.9.0-ht3.jar",
+    "outputs": [
+      "createcasing:weathered_iron_gearshift"
+    ]
+  },
+  {
+    "id": "createcasing:crafting/roller/industrial_iron",
+    "json": {
+      "type": "minecraft:crafting_shaped",
+      "category": "misc",
+      "key": {
+        "B": {
+          "item": "create:electron_tube"
+        },
+        "C": {
+          "item": "create:industrial_iron_block"
+        },
+        "I": {
+          "item": "create:crushing_wheel"
+        }
+      },
+      "pattern": [
+        "B",
+        "C",
+        "I"
+      ],
+      "result": {
+        "count": 1,
+        "id": "createcasing:industrial_iron_mechanical_roller"
+      }
+    },
+    "source": "Create Encased-1.21.1-1.9.0-ht3.jar",
+    "outputs": [
+      "createcasing:industrial_iron_mechanical_roller"
+    ]
+  },
+  {
+    "id": "createcasing:crafting/roller/weathered_iron",
+    "json": {
+      "type": "minecraft:crafting_shaped",
+      "category": "misc",
+      "key": {
+        "B": {
+          "item": "create:electron_tube"
+        },
+        "C": {
+          "item": "create:weathered_iron_block"
+        },
+        "I": {
+          "item": "create:crushing_wheel"
+        }
+      },
+      "pattern": [
+        "B",
+        "C",
+        "I"
+      ],
+      "result": {
+        "count": 1,
+        "id": "createcasing:weathered_iron_mechanical_roller"
+      }
+    },
+    "source": "Create Encased-1.21.1-1.9.0-ht3.jar",
+    "outputs": [
+      "createcasing:weathered_iron_mechanical_roller"
+    ]
+  },
+  {
+    "id": "createcasing:crafting/roller/refined_radiance",
+    "json": {
+      "type": "minecraft:crafting_shaped",
+      "category": "misc",
+      "key": {
+        "B": {
+          "item": "create:electron_tube"
+        },
+        "C": {
+          "item": "create:refined_radiance_casing"
+        },
+        "I": {
+          "item": "create:crushing_wheel"
+        }
+      },
+      "pattern": [
+        "B",
+        "C",
+        "I"
+      ],
+      "result": {
+        "count": 1,
+        "id": "createcasing:refined_radiance_mechanical_roller"
+      }
+    },
+    "source": "Create Encased-1.21.1-1.9.0-ht3.jar",
+    "outputs": [
+      "createcasing:refined_radiance_mechanical_roller"
+    ]
+  },
+  {
+    "id": "createcasing:crafting/roller/copper",
+    "json": {
+      "type": "minecraft:crafting_shaped",
+      "category": "misc",
+      "key": {
+        "B": {
+          "item": "create:electron_tube"
+        },
+        "C": {
+          "item": "create:copper_casing"
+        },
+        "I": {
+          "item": "create:crushing_wheel"
+        }
+      },
+      "pattern": [
+        "B",
+        "C",
+        "I"
+      ],
+      "result": {
+        "count": 1,
+        "id": "createcasing:copper_mechanical_roller"
+      }
+    },
+    "source": "Create Encased-1.21.1-1.9.0-ht3.jar",
+    "outputs": [
+      "createcasing:copper_mechanical_roller"
+    ]
+  },
+  {
+    "id": "createcasing:crafting/roller/railway",
+    "json": {
+      "type": "minecraft:crafting_shaped",
+      "category": "misc",
+      "key": {
+        "B": {
+          "item": "create:electron_tube"
+        },
+        "C": {
+          "item": "create:railway_casing"
+        },
+        "I": {
+          "item": "create:crushing_wheel"
+        }
+      },
+      "pattern": [
+        "B",
+        "C",
+        "I"
+      ],
+      "result": {
+        "count": 1,
+        "id": "createcasing:railway_mechanical_roller"
+      }
+    },
+    "source": "Create Encased-1.21.1-1.9.0-ht3.jar",
+    "outputs": [
+      "createcasing:railway_mechanical_roller"
+    ]
+  },
+  {
+    "id": "createcasing:crafting/roller/brass",
+    "json": {
+      "type": "minecraft:crafting_shaped",
+      "category": "misc",
+      "key": {
+        "B": {
+          "item": "create:electron_tube"
+        },
+        "C": {
+          "item": "create:brass_casing"
+        },
+        "I": {
+          "item": "create:crushing_wheel"
+        }
+      },
+      "pattern": [
+        "B",
+        "C",
+        "I"
+      ],
+      "result": {
+        "count": 1,
+        "id": "createcasing:brass_mechanical_roller"
+      }
+    },
+    "source": "Create Encased-1.21.1-1.9.0-ht3.jar",
+    "outputs": [
+      "createcasing:brass_mechanical_roller"
+    ]
+  },
+  {
+    "id": "createcasing:crafting/gearbox/weathered_iron",
+    "json": {
+      "type": "minecraft:crafting_shaped",
+      "category": "misc",
+      "key": {
+        "B": {
+          "item": "create:cogwheel"
+        },
+        "C": {
+          "item": "create:weathered_iron_block"
+        }
+      },
+      "pattern": [
+        " B ",
+        "BCB",
+        " B "
+      ],
+      "result": {
+        "count": 1,
+        "id": "createcasing:weathered_iron_gearbox"
+      }
+    },
+    "source": "Create Encased-1.21.1-1.9.0-ht3.jar",
+    "outputs": [
+      "createcasing:weathered_iron_gearbox"
+    ]
+  },
+  {
+    "id": "createcasing:crafting/gearbox/weathered_iron_from_conversion",
+    "json": {
+      "type": "minecraft:crafting_shapeless",
+      "category": "misc",
+      "ingredients": [
+        {
+          "item": "createcasing:vertical_weathered_iron_gearbox"
+        }
+      ],
+      "result": {
+        "count": 1,
+        "id": "createcasing:weathered_iron_gearbox"
+      }
+    },
+    "source": "Create Encased-1.21.1-1.9.0-ht3.jar",
+    "outputs": [
+      "createcasing:weathered_iron_gearbox"
+    ]
+  },
+  {
+    "id": "createcasing:crafting/gearbox/brass_from_conversion",
+    "json": {
+      "type": "minecraft:crafting_shapeless",
+      "category": "misc",
+      "ingredients": [
+        {
+          "item": "createcasing:vertical_brass_gearbox"
+        }
+      ],
+      "result": {
+        "count": 1,
+        "id": "createcasing:brass_gearbox"
+      }
+    },
+    "source": "Create Encased-1.21.1-1.9.0-ht3.jar",
+    "outputs": [
+      "createcasing:brass_gearbox"
+    ]
+  },
+  {
+    "id": "createcasing:crafting/gearbox/brass",
+    "json": {
+      "type": "minecraft:crafting_shaped",
+      "category": "misc",
+      "key": {
+        "B": {
+          "item": "create:cogwheel"
+        },
+        "C": {
+          "item": "create:brass_casing"
+        }
+      },
+      "pattern": [
+        " B ",
+        "BCB",
+        " B "
+      ],
+      "result": {
+        "count": 1,
+        "id": "createcasing:brass_gearbox"
+      }
+    },
+    "source": "Create Encased-1.21.1-1.9.0-ht3.jar",
+    "outputs": [
+      "createcasing:brass_gearbox"
+    ]
+  },
+  {
+    "id": "createcasing:crafting/portable_storage_interface/weathered_iron",
+    "json": {
+      "type": "minecraft:crafting_shapeless",
+      "category": "misc",
+      "ingredients": [
+        {
+          "item": "create:weathered_iron_block"
+        },
+        {
+          "item": "create:chute"
+        }
+      ],
+      "result": {
+        "count": 1,
+        "id": "createcasing:weathered_iron_portable_storage_interface"
+      }
+    },
+    "source": "Create Encased-1.21.1-1.9.0-ht3.jar",
+    "outputs": [
+      "createcasing:weathered_iron_portable_storage_interface"
+    ]
+  },
+  {
+    "id": "createcasing:cutting/brass_ingot",
+    "json": {
+      "type": "create:cutting",
+      "ingredients": [
+        {
+          "tag": "c:ingots/brass"
+        }
+      ],
+      "processingTime": 200,
+      "results": [
+        {
+          "count": 6,
+          "id": "createcasing:brass_shaft"
+        }
+      ]
+    },
+    "source": "Create Encased-1.21.1-1.9.0-ht3.jar",
+    "outputs": [
+      "createcasing:brass_shaft"
+    ]
+  },
+  {
+    "id": "create:deploying/cogwheel",
+    "json": {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create:shaft"
+        },
+        {
+          "tag": "minecraft:planks"
+        }
+      ],
+      "results": [
+        {
+          "id": "create:cogwheel"
+        }
+      ]
+    },
+    "source": "create-1.21.1-6.0.10.jar",
+    "outputs": [
+      "create:cogwheel"
+    ]
+  },
+  {
+    "id": "create:deploying/large_cogwheel",
+    "json": {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create:cogwheel"
+        },
+        {
+          "tag": "minecraft:planks"
+        }
+      ],
+      "results": [
+        {
+          "id": "create:large_cogwheel"
+        }
+      ]
+    },
+    "source": "create-1.21.1-6.0.10.jar",
+    "outputs": [
+      "create:large_cogwheel"
+    ]
+  },
+  {
+    "id": "create:cutting/andesite_alloy",
+    "json": {
+      "type": "create:cutting",
+      "ingredients": [
+        {
+          "item": "create:andesite_alloy"
+        }
+      ],
+      "processing_time": 200,
+      "results": [
+        {
+          "count": 6,
+          "id": "create:shaft"
+        }
+      ]
+    },
+    "source": "create-1.21.1-6.0.10.jar",
+    "outputs": [
+      "create:shaft"
+    ]
+  },
+  {
+    "id": "create:crafting/kinetics/cogwheel",
+    "json": {
+      "type": "minecraft:crafting_shapeless",
+      "category": "misc",
+      "ingredients": [
+        {
+          "item": "create:shaft"
+        },
+        {
+          "tag": "minecraft:planks"
+        }
+      ],
+      "result": {
+        "count": 1,
+        "id": "create:cogwheel"
+      }
+    },
+    "source": "create-1.21.1-6.0.10.jar",
+    "outputs": [
+      "create:cogwheel"
+    ]
+  },
+  {
+    "id": "create:crafting/kinetics/smart_chute",
+    "json": {
+      "type": "minecraft:crafting_shaped",
+      "category": "misc",
+      "key": {
+        "I": {
+          "tag": "c:plates/brass"
+        },
+        "P": {
+          "item": "create:electron_tube"
+        },
+        "S": {
+          "item": "create:chute"
+        }
+      },
+      "pattern": [
+        "I",
+        "S",
+        "P"
+      ],
+      "result": {
+        "count": 1,
+        "id": "create:smart_chute"
+      }
+    },
+    "source": "create-1.21.1-6.0.10.jar",
+    "outputs": [
+      "create:smart_chute"
+    ]
+  },
+  {
+    "id": "create:crafting/kinetics/chute",
+    "json": {
+      "type": "minecraft:crafting_shaped",
+      "category": "misc",
+      "key": {
+        "A": {
+          "tag": "c:plates/iron"
+        },
+        "I": {
+          "tag": "c:ingots/iron"
+        }
+      },
+      "pattern": [
+        "A",
+        "I",
+        "A"
+      ],
+      "result": {
+        "count": 4,
+        "id": "create:chute"
+      }
+    },
+    "source": "create-1.21.1-6.0.10.jar",
+    "outputs": [
+      "create:chute"
+    ]
+  },
+  {
+    "id": "create:crafting/kinetics/gearbox",
+    "json": {
+      "type": "minecraft:crafting_shaped",
+      "category": "misc",
+      "key": {
+        "B": {
+          "item": "create:andesite_casing"
+        },
+        "C": {
+          "item": "create:cogwheel"
+        }
+      },
+      "pattern": [
+        " C ",
+        "CBC",
+        " C "
+      ],
+      "result": {
+        "count": 1,
+        "id": "create:gearbox"
+      }
+    },
+    "source": "create-1.21.1-6.0.10.jar",
+    "outputs": [
+      "create:gearbox"
+    ]
+  },
+  {
+    "id": "create:crafting/kinetics/encased_chain_drive",
+    "json": {
+      "type": "minecraft:crafting_shapeless",
+      "category": "misc",
+      "ingredients": [
+        {
+          "item": "create:andesite_casing"
+        },
+        {
+          "tag": "c:nuggets/iron"
+        },
+        {
+          "tag": "c:nuggets/iron"
+        },
+        {
+          "tag": "c:nuggets/iron"
+        }
+      ],
+      "result": {
+        "count": 1,
+        "id": "create:encased_chain_drive"
+      }
+    },
+    "source": "create-1.21.1-6.0.10.jar",
+    "outputs": [
+      "create:encased_chain_drive"
+    ]
+  },
+  {
+    "id": "create:crafting/kinetics/gearshift",
+    "json": {
+      "type": "minecraft:crafting_shapeless",
+      "category": "misc",
+      "ingredients": [
+        {
+          "item": "create:andesite_casing"
+        },
+        {
+          "item": "create:cogwheel"
+        },
+        {
+          "tag": "c:dusts/redstone"
+        }
+      ],
+      "result": {
+        "count": 1,
+        "id": "create:gearshift"
+      }
+    },
+    "source": "create-1.21.1-6.0.10.jar",
+    "outputs": [
+      "create:gearshift"
+    ]
+  },
+  {
+    "id": "create:crafting/kinetics/large_cogwheel",
+    "json": {
+      "type": "minecraft:crafting_shapeless",
+      "category": "misc",
+      "ingredients": [
+        {
+          "item": "create:shaft"
+        },
+        {
+          "tag": "minecraft:planks"
+        },
+        {
+          "tag": "minecraft:planks"
+        }
+      ],
+      "result": {
+        "count": 1,
+        "id": "create:large_cogwheel"
+      }
+    },
+    "source": "create-1.21.1-6.0.10.jar",
+    "outputs": [
+      "create:large_cogwheel"
+    ]
+  },
+  {
+    "id": "create:crafting/kinetics/speedometer",
+    "json": {
+      "type": "minecraft:crafting_shaped",
+      "category": "misc",
+      "key": {
+        "A": {
+          "item": "create:andesite_casing"
+        },
+        "C": {
+          "item": "minecraft:compass"
+        }
+      },
+      "pattern": [
+        "C",
+        "A"
+      ],
+      "result": {
+        "count": 1,
+        "id": "create:speedometer"
+      }
+    },
+    "source": "create-1.21.1-6.0.10.jar",
+    "outputs": [
+      "create:speedometer"
+    ]
+  },
+  {
+    "id": "create:crafting/kinetics/turntable",
+    "json": {
+      "type": "minecraft:crafting_shaped",
+      "category": "misc",
+      "key": {
+        "P": {
+          "tag": "minecraft:wooden_slabs"
+        },
+        "S": {
+          "item": "create:shaft"
+        }
+      },
+      "pattern": [
+        "P",
+        "S"
+      ],
+      "result": {
+        "count": 1,
+        "id": "create:turntable"
+      }
+    },
+    "source": "create-1.21.1-6.0.10.jar",
+    "outputs": [
+      "create:turntable"
+    ]
+  },
+  {
+    "id": "create:crafting/kinetics/contraption_controls",
+    "json": {
+      "type": "minecraft:crafting_shaped",
+      "category": "misc",
+      "key": {
+        "B": {
+          "tag": "minecraft:buttons"
+        },
+        "C": {
+          "item": "create:andesite_casing"
+        },
+        "I": {
+          "item": "create:electron_tube"
+        }
+      },
+      "pattern": [
+        "B",
+        "C",
+        "I"
+      ],
+      "result": {
+        "count": 1,
+        "id": "create:contraption_controls"
+      }
+    },
+    "source": "create-1.21.1-6.0.10.jar",
+    "outputs": [
+      "create:contraption_controls"
+    ]
+  },
+  {
+    "id": "create:crafting/kinetics/mechanical_bearing",
+    "json": {
+      "type": "minecraft:crafting_shaped",
+      "category": "misc",
+      "key": {
+        "B": {
+          "tag": "minecraft:wooden_slabs"
+        },
+        "C": {
+          "item": "create:andesite_casing"
+        },
+        "I": {
+          "item": "create:shaft"
+        }
+      },
+      "pattern": [
+        "B",
+        "C",
+        "I"
+      ],
+      "result": {
+        "count": 1,
+        "id": "create:mechanical_bearing"
+      }
+    },
+    "source": "create-1.21.1-6.0.10.jar",
+    "outputs": [
+      "create:mechanical_bearing"
+    ]
+  },
+  {
+    "id": "create:crafting/kinetics/mechanical_piston",
+    "json": {
+      "type": "minecraft:crafting_shaped",
+      "category": "misc",
+      "key": {
+        "B": {
+          "tag": "minecraft:wooden_slabs"
+        },
+        "C": {
+          "item": "create:andesite_casing"
+        },
+        "I": {
+          "item": "create:piston_extension_pole"
+        }
+      },
+      "pattern": [
+        "B",
+        "C",
+        "I"
+      ],
+      "result": {
+        "count": 1,
+        "id": "create:mechanical_piston"
+      }
+    },
+    "source": "create-1.21.1-6.0.10.jar",
+    "outputs": [
+      "create:mechanical_piston"
+    ]
+  },
+  {
+    "id": "create:crafting/kinetics/gearbox_from_conversion",
+    "json": {
+      "type": "minecraft:crafting_shapeless",
+      "category": "misc",
+      "ingredients": [
+        {
+          "item": "create:vertical_gearbox"
+        }
+      ],
+      "result": {
+        "count": 1,
+        "id": "create:gearbox"
+      }
+    },
+    "source": "create-1.21.1-6.0.10.jar",
+    "outputs": [
+      "create:gearbox"
+    ]
+  },
+  {
+    "id": "create:crafting/kinetics/analog_lever",
+    "json": {
+      "type": "minecraft:crafting_shaped",
+      "category": "misc",
+      "key": {
+        "P": {
+          "tag": "c:rods/wooden"
+        },
+        "S": {
+          "item": "create:andesite_casing"
+        }
+      },
+      "pattern": [
+        "P",
+        "S"
+      ],
+      "result": {
+        "count": 1,
+        "id": "create:analog_lever"
+      }
+    },
+    "source": "create-1.21.1-6.0.10.jar",
+    "outputs": [
+      "create:analog_lever"
+    ]
+  },
+  {
+    "id": "create:crafting/kinetics/large_cogwheel_from_little",
+    "json": {
+      "type": "minecraft:crafting_shapeless",
+      "category": "misc",
+      "ingredients": [
+        {
+          "item": "create:cogwheel"
+        },
+        {
+          "tag": "minecraft:planks"
+        }
+      ],
+      "result": {
+        "count": 1,
+        "id": "create:large_cogwheel"
+      }
+    },
+    "source": "create-1.21.1-6.0.10.jar",
+    "outputs": [
+      "create:large_cogwheel"
+    ]
+  },
+  {
+    "id": "create:crafting/kinetics/shaft",
+    "json": {
+      "type": "minecraft:crafting_shaped",
+      "category": "misc",
+      "key": {
+        "A": {
+          "item": "create:andesite_alloy"
+        }
+      },
+      "pattern": [
+        "A",
+        "A"
+      ],
+      "result": {
+        "count": 8,
+        "id": "create:shaft"
+      }
+    },
+    "source": "create-1.21.1-6.0.10.jar",
+    "outputs": [
+      "create:shaft"
+    ]
+  },
+  {
+    "id": "create:crafting/kinetics/stressometer_from_conversion",
+    "json": {
+      "type": "minecraft:crafting_shapeless",
+      "category": "misc",
+      "ingredients": [
+        {
+          "item": "create:speedometer"
+        }
+      ],
+      "result": {
+        "count": 1,
+        "id": "create:stressometer"
+      }
+    },
+    "source": "create-1.21.1-6.0.10.jar",
+    "outputs": [
+      "create:stressometer"
+    ]
+  },
+  {
+    "id": "create:crafting/kinetics/copper_valve_handle_from_others",
+    "json": {
+      "type": "minecraft:crafting_shapeless",
+      "category": "misc",
+      "ingredients": [
+        {
+          "tag": "create:valve_handles"
+        }
+      ],
+      "result": {
+        "count": 1,
+        "id": "create:copper_valve_handle"
+      }
+    },
+    "source": "create-1.21.1-6.0.10.jar",
+    "outputs": [
+      "create:copper_valve_handle"
+    ]
+  },
+  {
+    "id": "create:crafting/kinetics/clutch",
+    "json": {
+      "type": "minecraft:crafting_shapeless",
+      "category": "misc",
+      "ingredients": [
+        {
+          "item": "create:andesite_casing"
+        },
+        {
+          "item": "create:shaft"
+        },
+        {
+          "tag": "c:dusts/redstone"
+        }
+      ],
+      "result": {
+        "count": 1,
+        "id": "create:clutch"
+      }
+    },
+    "source": "create-1.21.1-6.0.10.jar",
+    "outputs": [
+      "create:clutch"
+    ]
+  },
+  {
+    "id": "create:crafting/kinetics/basin",
+    "json": {
+      "type": "minecraft:crafting_shaped",
+      "category": "misc",
+      "key": {
+        "A": {
+          "item": "create:andesite_alloy"
+        }
+      },
+      "pattern": [
+        "A A",
+        "AAA"
+      ],
+      "result": {
+        "count": 1,
+        "id": "create:basin"
+      }
+    },
+    "source": "create-1.21.1-6.0.10.jar",
+    "outputs": [
+      "create:basin"
+    ]
+  },
+  {
+    "id": "create:crafting/kinetics/encased_chain_drive_from_zinc",
+    "json": {
+      "type": "minecraft:crafting_shapeless",
+      "category": "misc",
+      "ingredients": [
+        {
+          "item": "create:andesite_casing"
+        },
+        {
+          "tag": "c:nuggets/zinc"
+        },
+        {
+          "tag": "c:nuggets/zinc"
+        },
+        {
+          "tag": "c:nuggets/zinc"
+        }
+      ],
+      "result": {
+        "count": 1,
+        "id": "create:encased_chain_drive"
+      }
+    },
+    "source": "create-1.21.1-6.0.10.jar",
+    "outputs": [
+      "create:encased_chain_drive"
+    ]
+  },
+  {
+    "id": "create:crafting/kinetics/speedometer_from_conversion",
+    "json": {
+      "type": "minecraft:crafting_shapeless",
+      "category": "misc",
+      "ingredients": [
+        {
+          "item": "create:stressometer"
+        }
+      ],
+      "result": {
+        "count": 1,
+        "id": "create:speedometer"
+      }
+    },
+    "source": "create-1.21.1-6.0.10.jar",
+    "outputs": [
+      "create:speedometer"
+    ]
+  },
+  {
+    "id": "create:crafting/kinetics/copper_valve_handle",
+    "json": {
+      "type": "minecraft:crafting_shaped",
+      "category": "misc",
+      "key": {
+        "C": {
+          "tag": "c:plates/copper"
+        },
+        "S": {
+          "item": "create:andesite_alloy"
+        }
+      },
+      "pattern": [
+        "CCC",
+        " S "
+      ],
+      "result": {
+        "count": 1,
+        "id": "create:copper_valve_handle"
+      }
+    },
+    "source": "create-1.21.1-6.0.10.jar",
+    "outputs": [
+      "create:copper_valve_handle"
+    ]
+  },
+  {
+    "id": "create:crafting/logistics/brass_tunnel",
+    "json": {
+      "type": "minecraft:crafting_shaped",
+      "category": "misc",
+      "key": {
+        "A": {
+          "tag": "c:ingots/brass"
+        },
+        "E": {
+          "item": "create:electron_tube"
+        },
+        "K": {
+          "item": "minecraft:dried_kelp"
+        }
+      },
+      "pattern": [
+        "E ",
+        "AA",
+        "KK"
+      ],
+      "result": {
+        "count": 2,
+        "id": "create:brass_tunnel"
+      }
+    },
+    "source": "create-1.21.1-6.0.10.jar",
+    "outputs": [
+      "create:brass_tunnel"
+    ]
+  },
+  {
+    "id": "create:crafting/logistics/andesite_funnel",
+    "json": {
+      "type": "minecraft:crafting_shaped",
+      "category": "misc",
+      "key": {
+        "A": {
+          "item": "create:andesite_alloy"
+        },
+        "K": {
+          "item": "minecraft:dried_kelp"
+        }
+      },
+      "pattern": [
+        "A",
+        "K"
+      ],
+      "result": {
+        "count": 2,
+        "id": "create:andesite_funnel"
+      }
+    },
+    "source": "create-1.21.1-6.0.10.jar",
+    "outputs": [
+      "create:andesite_funnel"
+    ]
+  },
+  {
+    "id": "create:crafting/logistics/stockpile_switch",
+    "json": {
+      "type": "minecraft:crafting_shaped",
+      "category": "misc",
+      "key": {
+        "B": {
+          "item": "create:brass_casing"
+        },
+        "I": {
+          "item": "minecraft:comparator"
+        },
+        "R": {
+          "item": "create:electron_tube"
+        }
+      },
+      "pattern": [
+        "R",
+        "B",
+        "I"
+      ],
+      "result": {
+        "count": 1,
+        "id": "create:stockpile_switch"
+      }
+    },
+    "source": "create-1.21.1-6.0.10.jar",
+    "outputs": [
+      "create:stockpile_switch"
+    ]
+  },
+  {
+    "id": "create:crafting/logistics/brass_funnel",
+    "json": {
+      "type": "minecraft:crafting_shaped",
+      "category": "misc",
+      "key": {
+        "A": {
+          "tag": "c:ingots/brass"
+        },
+        "E": {
+          "item": "create:electron_tube"
+        },
+        "K": {
+          "item": "minecraft:dried_kelp"
+        }
+      },
+      "pattern": [
+        "E",
+        "A",
+        "K"
+      ],
+      "result": {
+        "count": 2,
+        "id": "create:brass_funnel"
+      }
+    },
+    "source": "create-1.21.1-6.0.10.jar",
+    "outputs": [
+      "create:brass_funnel"
+    ]
+  },
+  {
+    "id": "create:sequenced_assembly/precision_mechanism",
+    "json": {
+      "type": "create:sequenced_assembly",
+      "ingredient": {
+        "tag": "c:plates/gold"
+      },
+      "loops": 5,
+      "results": [
+        {
+          "chance": 120.0,
+          "id": "create:precision_mechanism"
+        },
+        {
+          "chance": 8.0,
+          "id": "create:golden_sheet"
+        },
+        {
+          "chance": 8.0,
+          "id": "create:andesite_alloy"
+        },
+        {
+          "chance": 5.0,
+          "id": "create:cogwheel"
+        },
+        {
+          "chance": 3.0,
+          "id": "minecraft:gold_nugget"
+        },
+        {
+          "chance": 2.0,
+          "id": "create:shaft"
+        },
+        {
+          "chance": 2.0,
+          "id": "create:crushed_raw_gold"
+        },
+        {
+          "id": "minecraft:iron_ingot"
+        },
+        {
+          "id": "minecraft:clock"
+        }
+      ],
+      "sequence": [
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "create:incomplete_precision_mechanism"
+            },
+            {
+              "item": "create:cogwheel"
+            }
+          ],
+          "results": [
+            {
+              "id": "create:incomplete_precision_mechanism"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "create:incomplete_precision_mechanism"
+            },
+            {
+              "item": "create:large_cogwheel"
+            }
+          ],
+          "results": [
+            {
+              "id": "create:incomplete_precision_mechanism"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "create:incomplete_precision_mechanism"
+            },
+            {
+              "tag": "c:nuggets/iron"
+            }
+          ],
+          "results": [
+            {
+              "id": "create:incomplete_precision_mechanism"
+            }
+          ]
+        }
+      ],
+      "transitional_item": {
+        "id": "create:incomplete_precision_mechanism"
+      }
+    },
+    "source": "create-1.21.1-6.0.10.jar",
+    "outputs": [
+      "create:precision_mechanism",
+      "create:golden_sheet",
+      "create:andesite_alloy",
+      "create:cogwheel",
+      "minecraft:gold_nugget",
+      "create:shaft",
+      "create:crushed_raw_gold",
+      "minecraft:iron_ingot",
+      "minecraft:clock"
+    ]
+  },
+  {
+    "id": "createbigcannons:fixed_cannon_mount",
+    "json": {
+      "type": "minecraft:crafting_shaped",
+      "category": "misc",
+      "key": {
+        "C": {
+          "item": "create:andesite_casing"
+        },
+        "G": {
+          "tag": "createbigcannons:gunpowder"
+        },
+        "I": {
+          "tag": "c:plates/iron"
+        }
+      },
+      "pattern": [
+        " I ",
+        "GCG"
+      ],
+      "result": {
+        "count": 1,
+        "id": "createbigcannons:fixed_cannon_mount"
+      }
+    },
+    "source": "createbigcannons-5.11.7+mc.1.21.1.jar",
+    "outputs": [
+      "createbigcannons:fixed_cannon_mount"
+    ]
+  },
+  {
+    "id": "createdieselgenerators:crafting/basin_lid",
+    "json": {
+      "type": "minecraft:crafting_shaped",
+      "pattern": [
+        " C ",
+        "AAA"
+      ],
+      "key": {
+        "A": {
+          "item": "create:andesite_alloy"
+        },
+        "C": {
+          "item": "minecraft:clock"
+        }
+      },
+      "result": {
+        "id": "createdieselgenerators:basin_lid"
+      }
+    },
+    "source": "createdieselgenerators-1.21.1-1.3.15.jar",
+    "outputs": [
+      "createdieselgenerators:basin_lid"
+    ]
+  },
+  {
+    "id": "create_dragons_plus:crafting/fluid_hatch",
+    "json": {
+      "neoforge:conditions": [
+        {
+          "type": "create_dragons_plus:config_feature",
+          "feature": "create_dragons_plus:block/fluid_hatch"
+        }
+      ],
+      "type": "minecraft:crafting_shapeless",
+      "category": "misc",
+      "ingredients": [
+        {
+          "tag": "c:ingots/copper"
+        },
+        {
+          "item": "create:item_drain"
+        }
+      ],
+      "result": {
+        "count": 1,
+        "id": "create_dragons_plus:fluid_hatch"
+      }
+    },
+    "source": "CreateDragonsPlus-1.11.7b.jar",
+    "outputs": [
+      "create_dragons_plus:fluid_hatch"
+    ]
+  },
+  {
+    "id": "create_connected:crafting/kinetics/brass_chute",
+    "json": {
+      "neoforge:conditions": [
+        {
+          "type": "create_connected:feature_enabled",
+          "tag": "create_connected:brass_chute"
+        }
+      ],
+      "type": "minecraft:crafting_shaped",
+      "category": "misc",
+      "key": {
+        "I": {
+          "item": "create:brass_ingot"
+        },
+        "S": {
+          "item": "create:brass_sheet"
+        }
+      },
+      "pattern": [
+        "S",
+        "I",
+        "S"
+      ],
+      "result": {
+        "count": 4,
+        "id": "create_connected:brass_chute"
+      }
+    },
+    "source": "create_connected-1.3.2-mc1.21.1.jar",
+    "outputs": [
+      "create_connected:brass_chute"
+    ]
+  },
+  {
+    "id": "create_connected:crafting/kinetics/brass_gearbox",
+    "json": {
+      "neoforge:conditions": [
+        {
+          "type": "create_connected:feature_enabled",
+          "tag": "create_connected:brass_gearbox"
+        }
+      ],
+      "type": "minecraft:crafting_shaped",
+      "category": "misc",
+      "key": {
+        "c": {
+          "item": "create:cogwheel"
+        },
+        "s": {
+          "item": "create:rotation_speed_controller"
+        }
+      },
+      "pattern": [
+        " c ",
+        "csc",
+        " c "
+      ],
+      "result": {
+        "count": 1,
+        "id": "create_connected:brass_gearbox"
+      }
+    },
+    "source": "create_connected-1.3.2-mc1.21.1.jar",
+    "outputs": [
+      "create_connected:brass_gearbox"
+    ]
+  },
+  {
+    "id": "create_connected:crafting/kinetics/brass_gearbox_from_conversion",
+    "json": {
+      "neoforge:conditions": [
+        {
+          "type": "create_connected:feature_enabled",
+          "tag": "create_connected:vertical_brass_gearbox"
+        },
+        {
+          "type": "create_connected:feature_enabled",
+          "tag": "create_connected:brass_gearbox"
+        }
+      ],
+      "type": "minecraft:crafting_shapeless",
+      "category": "misc",
+      "ingredients": [
+        {
+          "item": "create_connected:vertical_brass_gearbox"
+        }
+      ],
+      "result": {
+        "count": 1,
+        "id": "create_connected:brass_gearbox"
+      }
+    },
+    "source": "create_connected-1.3.2-mc1.21.1.jar",
+    "outputs": [
+      "create_connected:brass_gearbox"
+    ]
+  },
+  {
+    "id": "create_connected:crafting/kinetics/clutch_from_conversion",
+    "json": {
+      "neoforge:conditions": [
+        {
+          "type": "create_connected:feature_enabled",
+          "tag": "create_connected:inverted_clutch"
+        },
+        {
+          "type": "create_connected:feature_enabled",
+          "tag": "create:clutch"
+        }
+      ],
+      "type": "minecraft:crafting_shapeless",
+      "category": "misc",
+      "ingredients": [
+        {
+          "item": "create_connected:inverted_clutch"
+        }
+      ],
+      "result": {
+        "count": 1,
+        "id": "create:clutch"
+      }
+    },
+    "source": "create_connected-1.3.2-mc1.21.1.jar",
+    "outputs": [
+      "create:clutch"
+    ]
+  },
+  {
+    "id": "create_connected:crafting/kinetics/cross_connector",
+    "json": {
+      "neoforge:conditions": [
+        {
+          "type": "create_connected:feature_enabled",
+          "tag": "create_connected:cross_connector"
+        }
+      ],
+      "type": "minecraft:crafting_shaped",
+      "category": "misc",
+      "key": {
+        "g": {
+          "item": "create:gearbox"
+        },
+        "s": {
+          "item": "create:shaft"
+        }
+      },
+      "pattern": [
+        " s ",
+        "sgs",
+        " s "
+      ],
+      "result": {
+        "count": 1,
+        "id": "create_connected:cross_connector"
+      }
+    },
+    "source": "create_connected-1.3.2-mc1.21.1.jar",
+    "outputs": [
+      "create_connected:cross_connector"
+    ]
+  },
+  {
+    "id": "create_connected:crafting/kinetics/encased_chain_cogwheel",
+    "json": {
+      "neoforge:conditions": [
+        {
+          "type": "create_connected:feature_enabled",
+          "tag": "create_connected:encased_chain_cogwheel"
+        }
+      ],
+      "type": "minecraft:crafting_shapeless",
+      "category": "misc",
+      "ingredients": [
+        {
+          "item": "create:encased_chain_drive"
+        },
+        {
+          "item": "create:cogwheel"
+        }
+      ],
+      "result": {
+        "count": 1,
+        "id": "create_connected:encased_chain_cogwheel"
+      }
+    },
+    "source": "create_connected-1.3.2-mc1.21.1.jar",
+    "outputs": [
+      "create_connected:encased_chain_cogwheel"
+    ]
+  },
+  {
+    "id": "create_connected:crafting/kinetics/gearshift_from_conversion",
+    "json": {
+      "neoforge:conditions": [
+        {
+          "type": "create_connected:feature_enabled",
+          "tag": "create_connected:inverted_gearshift"
+        },
+        {
+          "type": "create_connected:feature_enabled",
+          "tag": "create:gearshift"
+        }
+      ],
+      "type": "minecraft:crafting_shapeless",
+      "category": "misc",
+      "ingredients": [
+        {
+          "item": "create_connected:inverted_gearshift"
+        }
+      ],
+      "result": {
+        "count": 1,
+        "id": "create:gearshift"
+      }
+    },
+    "source": "create_connected-1.3.2-mc1.21.1.jar",
+    "outputs": [
+      "create:gearshift"
+    ]
+  },
+  {
+    "id": "create_connected:crafting/kinetics/parallel_gearbox",
+    "json": {
+      "neoforge:conditions": [
+        {
+          "type": "create_connected:feature_enabled",
+          "tag": "create_connected:parallel_gearbox"
+        }
+      ],
+      "type": "minecraft:crafting_shapeless",
+      "category": "misc",
+      "ingredients": [
+        {
+          "item": "create:gearbox"
+        },
+        {
+          "item": "create:large_cogwheel"
+        }
+      ],
+      "result": {
+        "count": 1,
+        "id": "create_connected:parallel_gearbox"
+      }
+    },
+    "source": "create_connected-1.3.2-mc1.21.1.jar",
+    "outputs": [
+      "create_connected:parallel_gearbox"
+    ]
+  },
+  {
+    "id": "create_connected:crafting/kinetics/parallel_gearbox_from_conversion",
+    "json": {
+      "neoforge:conditions": [
+        {
+          "type": "create_connected:feature_enabled",
+          "tag": "create_connected:vertical_parallel_gearbox"
+        },
+        {
+          "type": "create_connected:feature_enabled",
+          "tag": "create_connected:parallel_gearbox"
+        }
+      ],
+      "type": "minecraft:crafting_shapeless",
+      "category": "misc",
+      "ingredients": [
+        {
+          "item": "create_connected:vertical_parallel_gearbox"
+        }
+      ],
+      "result": {
+        "count": 1,
+        "id": "create_connected:parallel_gearbox"
+      }
+    },
+    "source": "create_connected-1.3.2-mc1.21.1.jar",
+    "outputs": [
+      "create_connected:parallel_gearbox"
+    ]
+  },
+  {
+    "id": "create_connected:crafting/kinetics/six_way_gearbox",
+    "json": {
+      "neoforge:conditions": [
+        {
+          "type": "create_connected:feature_enabled",
+          "tag": "create_connected:six_way_gearbox"
+        }
+      ],
+      "type": "minecraft:crafting_shaped",
+      "category": "misc",
+      "key": {
+        "c": {
+          "item": "create:cogwheel"
+        },
+        "l": {
+          "item": "create:large_cogwheel"
+        },
+        "s": {
+          "item": "create:andesite_casing"
+        }
+      },
+      "pattern": [
+        "lc ",
+        "csc",
+        " cl"
+      ],
+      "result": {
+        "count": 1,
+        "id": "create_connected:six_way_gearbox"
+      }
+    },
+    "source": "create_connected-1.3.2-mc1.21.1.jar",
+    "outputs": [
+      "create_connected:six_way_gearbox"
+    ]
+  },
+  {
+    "id": "create_connected:crafting/kinetics/six_way_gearbox_from_conversion",
+    "json": {
+      "neoforge:conditions": [
+        {
+          "type": "create_connected:feature_enabled",
+          "tag": "create_connected:vertical_six_way_gearbox"
+        },
+        {
+          "type": "create_connected:feature_enabled",
+          "tag": "create_connected:six_way_gearbox"
+        }
+      ],
+      "type": "minecraft:crafting_shapeless",
+      "category": "misc",
+      "ingredients": [
+        {
+          "item": "create_connected:vertical_six_way_gearbox"
+        }
+      ],
+      "result": {
+        "count": 1,
+        "id": "create_connected:six_way_gearbox"
+      }
+    },
+    "source": "create_connected-1.3.2-mc1.21.1.jar",
+    "outputs": [
+      "create_connected:six_way_gearbox"
+    ]
+  },
+  {
+    "id": "create_connected:crafting/kinetics/six_way_gearbox_from_gearbox",
+    "json": {
+      "neoforge:conditions": [
+        {
+          "type": "create_connected:feature_enabled",
+          "tag": "create_connected:six_way_gearbox"
+        }
+      ],
+      "type": "minecraft:crafting_shapeless",
+      "category": "misc",
+      "ingredients": [
+        {
+          "item": "create:gearbox"
+        },
+        {
+          "item": "create:large_cogwheel"
+        },
+        {
+          "item": "create:large_cogwheel"
+        }
+      ],
+      "result": {
+        "count": 1,
+        "id": "create_connected:six_way_gearbox"
+      }
+    },
+    "source": "create_connected-1.3.2-mc1.21.1.jar",
+    "outputs": [
+      "create_connected:six_way_gearbox"
+    ]
+  },
+  {
+    "id": "create_connected:crafting/kinetics/six_way_gearbox_from_parallel",
+    "json": {
+      "neoforge:conditions": [
+        {
+          "type": "create_connected:feature_enabled",
+          "tag": "create_connected:six_way_gearbox"
+        },
+        {
+          "type": "create_connected:feature_enabled",
+          "tag": "create_connected:parallel_gearbox"
+        }
+      ],
+      "type": "minecraft:crafting_shapeless",
+      "category": "misc",
+      "ingredients": [
+        {
+          "item": "create_connected:parallel_gearbox"
+        },
+        {
+          "item": "create:large_cogwheel"
+        }
+      ],
+      "result": {
+        "count": 1,
+        "id": "create_connected:six_way_gearbox"
+      }
+    },
+    "source": "create_connected-1.3.2-mc1.21.1.jar",
+    "outputs": [
+      "create_connected:six_way_gearbox"
+    ]
+  },
+  {
+    "id": "tfmg:mechanical_crafting/rotor",
+    "json": {
+      "type": "create:mechanical_crafting",
+      "accept_mirrored": false,
+      "category": "misc",
+      "key": {
+        "A": {
+          "tag": "c:ingots/aluminum"
+        },
+        "C": {
+          "item": "tfmg:electromagnetic_coil"
+        },
+        "S": {
+          "tag": "c:storage_blocks/steel"
+        }
+      },
+      "pattern": [
+        " CCC ",
+        "CAAAC",
+        "CASAC",
+        "CAAAC",
+        " CCC "
+      ],
+      "result": {
+        "count": 1,
+        "id": "tfmg:rotor"
+      },
+      "show_notification": false
+    },
+    "source": "tfmg-1.2.0.jar",
+    "outputs": [
+      "tfmg:rotor"
+    ]
+  },
+  {
+    "id": "tfmg:winding/resistor",
+    "json": {
+      "type": "tfmg:winding",
+      "ingredients": [
+        {
+          "item": "tfmg:unfinished_resistor"
+        },
+        {
+          "item": "tfmg:constantan_spool"
+        }
+      ],
+      "processing_time": 50,
+      "results": [
+        {
+          "components": {
+            "tfmg:resistance": 10
+          },
+          "id": "tfmg:resistor"
+        }
+      ]
+    },
+    "source": "tfmg-1.2.0.jar",
+    "outputs": [
+      "tfmg:resistor"
+    ]
+  },
+  {
+    "id": "minecraft:brewing_stand",
+    "json": {
+      "type": "minecraft:crafting_shaped",
+      "category": "misc",
+      "key": {
+        "#": {
+          "tag": "minecraft:stone_crafting_materials"
+        },
+        "B": {
+          "item": "minecraft:blaze_rod"
+        }
+      },
+      "pattern": [
+        " B ",
+        "###"
+      ],
+      "result": {
+        "count": 1,
+        "id": "minecraft:brewing_stand"
+      }
+    },
+    "source": "neoforge-21.1.248-client-extra-aka-minecraft-resources.jar",
+    "outputs": [
+      "minecraft:brewing_stand"
+    ]
+  },
+  {
+    "id": "minecraft:campfire",
+    "json": {
+      "type": "minecraft:crafting_shaped",
+      "category": "misc",
+      "key": {
+        "C": {
+          "tag": "minecraft:coals"
+        },
+        "L": {
+          "tag": "minecraft:logs"
+        },
+        "S": {
+          "item": "minecraft:stick"
+        }
+      },
+      "pattern": [
+        " S ",
+        "SCS",
+        "LLL"
+      ],
+      "result": {
+        "count": 1,
+        "id": "minecraft:campfire"
+      }
+    },
+    "source": "neoforge-21.1.248-client-extra-aka-minecraft-resources.jar",
+    "outputs": [
+      "minecraft:campfire"
+    ]
+  },
+  {
+    "id": "minecraft:comparator",
+    "json": {
+      "type": "minecraft:crafting_shaped",
+      "category": "redstone",
+      "key": {
+        "#": {
+          "item": "minecraft:redstone_torch"
+        },
+        "I": {
+          "item": "minecraft:stone"
+        },
+        "X": {
+          "item": "minecraft:quartz"
+        }
+      },
+      "pattern": [
+        " # ",
+        "#X#",
+        "III"
+      ],
+      "result": {
+        "count": 1,
+        "id": "minecraft:comparator"
+      }
+    },
+    "source": "neoforge-21.1.248-client-extra-aka-minecraft-resources.jar",
+    "outputs": [
+      "minecraft:comparator"
+    ]
+  },
+  {
+    "id": "minecraft:crafting_table",
+    "json": {
+      "type": "minecraft:crafting_shaped",
+      "category": "misc",
+      "key": {
+        "#": {
+          "tag": "minecraft:planks"
+        }
+      },
+      "pattern": [
+        "##",
+        "##"
+      ],
+      "result": {
+        "count": 1,
+        "id": "minecraft:crafting_table"
+      },
+      "show_notification": false
+    },
+    "source": "neoforge-21.1.248-client-extra-aka-minecraft-resources.jar",
+    "outputs": [
+      "minecraft:crafting_table"
+    ]
+  },
+  {
+    "id": "minecraft:daylight_detector",
+    "json": {
+      "type": "minecraft:crafting_shaped",
+      "category": "redstone",
+      "key": {
+        "G": {
+          "item": "minecraft:glass"
+        },
+        "Q": {
+          "item": "minecraft:quartz"
+        },
+        "W": {
+          "tag": "minecraft:wooden_slabs"
+        }
+      },
+      "pattern": [
+        "GGG",
+        "QQQ",
+        "WWW"
+      ],
+      "result": {
+        "count": 1,
+        "id": "minecraft:daylight_detector"
+      }
+    },
+    "source": "neoforge-21.1.248-client-extra-aka-minecraft-resources.jar",
+    "outputs": [
+      "minecraft:daylight_detector"
+    ]
+  },
+  {
+    "id": "minecraft:dispenser",
+    "json": {
+      "type": "minecraft:crafting_shaped",
+      "category": "redstone",
+      "key": {
+        "#": {
+          "item": "minecraft:cobblestone"
+        },
+        "R": {
+          "item": "minecraft:redstone"
+        },
+        "X": {
+          "item": "minecraft:bow"
+        }
+      },
+      "pattern": [
+        "###",
+        "#X#",
+        "#R#"
+      ],
+      "result": {
+        "count": 1,
+        "id": "minecraft:dispenser"
+      }
+    },
+    "source": "neoforge-21.1.248-client-extra-aka-minecraft-resources.jar",
+    "outputs": [
+      "minecraft:dispenser"
+    ]
+  },
+  {
+    "id": "minecraft:enchanting_table",
+    "json": {
+      "type": "minecraft:crafting_shaped",
+      "category": "misc",
+      "key": {
+        "#": {
+          "item": "minecraft:obsidian"
+        },
+        "B": {
+          "item": "minecraft:book"
+        },
+        "D": {
+          "item": "minecraft:diamond"
+        }
+      },
+      "pattern": [
+        " B ",
+        "D#D",
+        "###"
+      ],
+      "result": {
+        "count": 1,
+        "id": "minecraft:enchanting_table"
+      }
+    },
+    "source": "neoforge-21.1.248-client-extra-aka-minecraft-resources.jar",
+    "outputs": [
+      "minecraft:enchanting_table"
+    ]
+  },
+  {
+    "id": "minecraft:furnace",
+    "json": {
+      "type": "minecraft:crafting_shaped",
+      "category": "misc",
+      "key": {
+        "#": {
+          "tag": "minecraft:stone_crafting_materials"
+        }
+      },
+      "pattern": [
+        "###",
+        "# #",
+        "###"
+      ],
+      "result": {
+        "count": 1,
+        "id": "minecraft:furnace"
+      }
+    },
+    "source": "neoforge-21.1.248-client-extra-aka-minecraft-resources.jar",
+    "outputs": [
+      "minecraft:furnace"
+    ]
+  },
+  {
+    "id": "minecraft:hopper",
+    "json": {
+      "type": "minecraft:crafting_shaped",
+      "category": "redstone",
+      "key": {
+        "C": {
+          "item": "minecraft:chest"
+        },
+        "I": {
+          "item": "minecraft:iron_ingot"
+        }
+      },
+      "pattern": [
+        "I I",
+        "ICI",
+        " I "
+      ],
+      "result": {
+        "count": 1,
+        "id": "minecraft:hopper"
+      }
+    },
+    "source": "neoforge-21.1.248-client-extra-aka-minecraft-resources.jar",
+    "outputs": [
+      "minecraft:hopper"
+    ]
+  },
+  {
+    "id": "minecraft:lever",
+    "json": {
+      "type": "minecraft:crafting_shaped",
+      "category": "redstone",
+      "key": {
+        "#": {
+          "item": "minecraft:cobblestone"
+        },
+        "X": {
+          "item": "minecraft:stick"
+        }
+      },
+      "pattern": [
+        "X",
+        "#"
+      ],
+      "result": {
+        "count": 1,
+        "id": "minecraft:lever"
+      }
+    },
+    "source": "neoforge-21.1.248-client-extra-aka-minecraft-resources.jar",
+    "outputs": [
+      "minecraft:lever"
+    ]
+  },
+  {
+    "id": "minecraft:observer",
+    "json": {
+      "type": "minecraft:crafting_shaped",
+      "category": "redstone",
+      "key": {
+        "#": {
+          "item": "minecraft:cobblestone"
+        },
+        "Q": {
+          "item": "minecraft:quartz"
+        },
+        "R": {
+          "item": "minecraft:redstone"
+        }
+      },
+      "pattern": [
+        "###",
+        "RRQ",
+        "###"
+      ],
+      "result": {
+        "count": 1,
+        "id": "minecraft:observer"
+      }
+    },
+    "source": "neoforge-21.1.248-client-extra-aka-minecraft-resources.jar",
+    "outputs": [
+      "minecraft:observer"
+    ]
+  },
+  {
+    "id": "minecraft:piston",
+    "json": {
+      "type": "minecraft:crafting_shaped",
+      "category": "redstone",
+      "key": {
+        "#": {
+          "item": "minecraft:cobblestone"
+        },
+        "R": {
+          "item": "minecraft:redstone"
+        },
+        "T": {
+          "tag": "minecraft:planks"
+        },
+        "X": {
+          "item": "minecraft:iron_ingot"
+        }
+      },
+      "pattern": [
+        "TTT",
+        "#X#",
+        "#R#"
+      ],
+      "result": {
+        "count": 1,
+        "id": "minecraft:piston"
+      }
+    },
+    "source": "neoforge-21.1.248-client-extra-aka-minecraft-resources.jar",
+    "outputs": [
+      "minecraft:piston"
+    ]
+  },
+  {
+    "id": "minecraft:redstone_torch",
+    "json": {
+      "type": "minecraft:crafting_shaped",
+      "category": "redstone",
+      "key": {
+        "#": {
+          "item": "minecraft:stick"
+        },
+        "X": {
+          "item": "minecraft:redstone"
+        }
+      },
+      "pattern": [
+        "X",
+        "#"
+      ],
+      "result": {
+        "count": 1,
+        "id": "minecraft:redstone_torch"
+      }
+    },
+    "source": "neoforge-21.1.248-client-extra-aka-minecraft-resources.jar",
+    "outputs": [
+      "minecraft:redstone_torch"
+    ]
+  },
+  {
+    "id": "minecraft:repeater",
+    "json": {
+      "type": "minecraft:crafting_shaped",
+      "category": "redstone",
+      "key": {
+        "#": {
+          "item": "minecraft:redstone_torch"
+        },
+        "I": {
+          "item": "minecraft:stone"
+        },
+        "X": {
+          "item": "minecraft:redstone"
+        }
+      },
+      "pattern": [
+        "#X#",
+        "III"
+      ],
+      "result": {
+        "count": 1,
+        "id": "minecraft:repeater"
+      }
+    },
+    "source": "neoforge-21.1.248-client-extra-aka-minecraft-resources.jar",
+    "outputs": [
+      "minecraft:repeater"
+    ]
+  },
+  {
+    "id": "minecraft:sticky_piston",
+    "json": {
+      "type": "minecraft:crafting_shaped",
+      "category": "redstone",
+      "key": {
+        "P": {
+          "item": "minecraft:piston"
+        },
+        "S": {
+          "item": "minecraft:slime_ball"
+        }
+      },
+      "pattern": [
+        "S",
+        "P"
+      ],
+      "result": {
+        "count": 1,
+        "id": "minecraft:sticky_piston"
+      }
+    },
+    "source": "neoforge-21.1.248-client-extra-aka-minecraft-resources.jar",
+    "outputs": [
+      "minecraft:sticky_piston"
+    ]
+  },
+  {
+    "id": "simulated:redstone_accumulator",
+    "json": {
+      "key": {
+        "B": {
+          "tag": "c:plates/brass"
+        },
+        "Q": {
+          "item": "create:polished_rose_quartz"
+        },
+        "R": {
+          "tag": "c:dusts/redstone"
+        },
+        "S": {
+          "tag": "c:stones"
+        },
+        "T": {
+          "item": "minecraft:redstone_torch"
+        }
+      },
+      "pattern": [
+        " Q ",
+        "RBT",
+        "SSS"
+      ],
+      "result": {
+        "id": "simulated:redstone_accumulator",
+        "count": 1
+      },
+      "category": "misc",
+      "type": "minecraft:crafting_shaped"
+    },
+    "source": "unmodified native loaded snapshot (original resource not found in top-level current jars)",
+    "outputs": [
+      "simulated:redstone_accumulator"
+    ]
+  }
+]

@@ -1,0 +1,196 @@
+{
+  "textures": {
+    "north": "industrial_colonies:block/node/argentite",
+    "east": "industrial_colonies:block/node/argentite",
+    "south": "industrial_colonies:block/node/argentite",
+    "west": "industrial_colonies:block/node/argentite",
+    "up": "industrial_colonies:block/node/argentite",
+    "down": "industrial_colonies:block/node/argentite",
+    "particle": "#north",
+    "center": "industrial_colonies:block/node/center"
+  },
+  "elements": [
+    {
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        16,
+        16,
+        16
+      ],
+      "faces": {
+        "north": {
+          "texture": "#north",
+          "cullface": "north"
+        },
+        "east": {
+          "texture": "#east",
+          "cullface": "east"
+        },
+        "south": {
+          "texture": "#south",
+          "cullface": "south"
+        },
+        "west": {
+          "texture": "#west",
+          "cullface": "west"
+        },
+        "up": {
+          "texture": "#up",
+          "cullface": "up"
+        },
+        "down": {
+          "texture": "#down",
+          "cullface": "down"
+        }
+      }
+    },
+    {
+      "from": [
+        4,
+        4,
+        -0.01
+      ],
+      "to": [
+        12,
+        12,
+        -0.01
+      ],
+      "faces": {
+        "north": {
+          "texture": "#center",
+          "uv": [
+            4,
+            4,
+            12,
+            12
+          ],
+          "cullface": "north"
+        }
+      }
+    },
+    {
+      "from": [
+        4,
+        4,
+        16.01
+      ],
+      "to": [
+        12,
+        12,
+        16.01
+      ],
+      "faces": {
+        "south": {
+          "texture": "#center",
+          "uv": [
+            4,
+            4,
+            12,
+            12
+          ],
+          "cullface": "south"
+        }
+      }
+    },
+    {
+      "from": [
+        16.01,
+        4,
+        4
+      ],
+      "to": [
+        16.01,
+        12,
+        12
+      ],
+      "faces": {
+        "east": {
+          "texture": "#center",
+          "uv": [
+            4,
+            4,
+            12,
+            12
+          ],
+          "cullface": "east"
+        }
+      }
+    },
+    {
+      "from": [
+        -0.01,
+        4,
+        4
+      ],
+      "to": [
+        -0.01,
+        12,
+        12
+      ],
+      "faces": {
+        "west": {
+          "texture": "#center",
+          "uv": [
+            4,
+            4,
+            12,
+            12
+          ],
+          "cullface": "west"
+        }
+      }
+    },
+    {
+      "from": [
+        4,
+        16.01,
+        4
+      ],
+      "to": [
+        12,
+        16.01,
+        12
+      ],
+      "faces": {
+        "up": {
+          "texture": "#center",
+          "uv": [
+            4,
+            4,
+            12,
+            12
+          ],
+          "cullface": "up"
+        }
+      }
+    },
+    {
+      "from": [
+        4,
+        -0.01,
+        4
+      ],
+      "to": [
+        12,
+        -0.01,
+        12
+      ],
+      "faces": {
+        "down": {
+          "texture": "#center",
+          "uv": [
+            4,
+            4,
+            12,
+            12
+          ],
+          "cullface": "down"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="All Rights Reserved"
+[[mods]]
+modId="ic_terrain_smoke"
+version="1.0.0"
+displayName="Industrial Colonies Disposable Terrain Checks"
+description="Development-only bounded world-generation acceptance tests. Not production content."
+[[dependencies.ic_terrain_smoke]]
+modId="neoforge"
+type="required"
+versionRange="[21.1.248,)"
+ordering="NONE"
+side="BOTH"
+[[dependencies.ic_terrain_smoke]]
+modId="minecraft"
+type="required"
+versionRange="[1.21.1,1.21.2)"
+ordering="NONE"
+side="BOTH"
+[[dependencies.ic_terrain_smoke]]
+modId="industrial_colonies"
+type="required"
+versionRange="[0.4.0,)"
+ordering="AFTER"
+side="BOTH"

@@ -1,3 +1,5 @@
+// Original recipe review: registrations retained below, temporarily inactive.
+function IC_originalRecipeReview_skip() {}
 // Industrial Colonies - manufactured Yellorium alloy and refinement
 //
 // Yellorium is an alloy in this pack, not a naturally smelted uranium alias.
@@ -6,7 +8,7 @@
 // Extreme Reactors' reactor-fluid tag by the uranium boundary script; casting
 // it creates a construction metal, not reactor fuel.
 
-ServerEvents.recipes(event => {
+IC_originalRecipeReview_skip(event => {
   event.custom({
     type: 'createmetallurgy:alloying',
     heat_requirement: 'heated',

@@ -2275,6 +2275,11 @@
 		"reason": "Raw feedstock must enter its owned processing chain"
 	},
 	{
+		"id": "iceandfire:copper_nuggets_to_ingot",
+		"action": "remove",
+		"reason": "Nugget crafting violates fixed mB values; use Foundry"
+	},
+	{
 		"id": "modernfoundry:smeltery/melting/metal/iron/horse_armor",
 		"action": "remove",
 		"reason": "Unverified scrap remelting under fixed metal values"
@@ -2964,6 +2969,11 @@
 		"reason": "Assigned machine-family ownership"
 	},
 	{
+		"id": "iceandfire:silver_nugget_to_silver_ingot",
+		"action": "remove",
+		"reason": "Nugget crafting violates fixed mB values; use Foundry"
+	},
+	{
 		"id": "mekanism:oxidizing/lithium",
 		"action": "remove",
 		"reason": "Raw feedstock must enter its owned processing chain"
@@ -2990,6 +3000,11 @@
 	},
 	{
 		"id": "mekanism:processing/tin/slurry/dirty/from_raw_block",
+		"action": "remove",
+		"reason": "Raw feedstock must enter its owned processing chain"
+	},
+	{
+		"id": "iceandfire:furnace/deepslate_silver_ingot",
 		"action": "remove",
 		"reason": "Raw feedstock must enter its owned processing chain"
 	},
@@ -3121,6 +3136,11 @@
 	{
 		"id": "modernfoundry:smeltery/casts/gold/chestplate_plating",
 		"action": "normalize-metal-fluid"
+	},
+	{
+		"id": "create:smelting/silver_ingot_compat_iceandfire",
+		"action": "remove",
+		"reason": "Raw feedstock must enter its owned processing chain"
 	},
 	{
 		"id": "mekanism:crushing/quartz/slab_to_smooth_slab",
@@ -3673,6 +3693,11 @@
 		"reason": "Raw feedstock must enter its owned processing chain"
 	},
 	{
+		"id": "create:splashing/iceandfire/crushed_raw_silver",
+		"action": "remove",
+		"reason": "Raw feedstock must enter its owned processing chain"
+	},
+	{
 		"id": "createmetallurgy:melting/lead/dust",
 		"action": "remove",
 		"reason": "Assigned machine-family ownership"
@@ -4043,11 +4068,6 @@
 	{
 		"id": "modernfoundry:smeltery/melting/metal/bronze/block",
 		"action": "normalize-metal-fluid"
-	},
-	{
-		"id": "create:splashing/immersiveengineering/crushed_raw_silver",
-		"action": "remove",
-		"reason": "Raw feedstock must enter its owned processing chain"
 	},
 	{
 		"id": "createmetallurgy:melting/osmium/ingot",
@@ -4489,11 +4509,6 @@
 		"id": "createmetallurgy:casting_in_table/copper/ingot",
 		"action": "remove",
 		"reason": "Assigned machine-family ownership"
-	},
-	{
-		"id": "create:smelting/ingot_silver_compat_immersiveengineering",
-		"action": "remove",
-		"reason": "Raw feedstock must enter its owned processing chain"
 	},
 	{
 		"id": "modernfoundry:smeltery/melting/metal/silver/raw",
@@ -5199,6 +5214,11 @@
 		"reason": "Raw feedstock must enter its owned processing chain"
 	},
 	{
+		"id": "iceandfire:silver_ingot_from_blasting_raw_silver",
+		"action": "remove",
+		"reason": "Raw feedstock must enter its owned processing chain"
+	},
+	{
 		"id": "mekanism:processing/bronze/dust/from_ingot",
 		"action": "remove",
 		"reason": "Assigned machine-family ownership"
@@ -5304,6 +5324,11 @@
 		"id": "mekanism:compat/ae2/decorative/sky_stone/crushing/smooth_slab_to_slab",
 		"action": "remove",
 		"reason": "Assigned machine-family ownership"
+	},
+	{
+		"id": "iceandfire:furnace/deepslate_silver_ingot_blasting",
+		"action": "remove",
+		"reason": "Raw feedstock must enter its owned processing chain"
 	},
 	{
 		"id": "nuclearcraft:alloy_smelter/electrum",
@@ -7098,6 +7123,11 @@
 		"reason": "Nugget crafting violates fixed mB values; use Foundry"
 	},
 	{
+		"id": "iceandfire:raw_silver_to_raw_silver_block",
+		"action": "remove",
+		"reason": "Raw feedstock must enter its owned processing chain"
+	},
+	{
 		"id": "nuclearcraft:melter/tin_dust",
 		"action": "remove",
 		"reason": "Raw feedstock must enter its owned processing chain"
@@ -7818,6 +7848,11 @@
 		"reason": "Raw feedstock must enter its owned processing chain"
 	},
 	{
+		"id": "create:blasting/silver_ingot_compat_iceandfire",
+		"action": "remove",
+		"reason": "Raw feedstock must enter its owned processing chain"
+	},
+	{
 		"id": "modernfoundry:smeltery/melting/metal/iron/sheetmetal",
 		"action": "remove",
 		"reason": "Unverified scrap remelting under fixed metal values"
@@ -8207,6 +8242,11 @@
 	},
 	{
 		"id": "create:crushing/nickel_ore",
+		"action": "remove",
+		"reason": "Raw feedstock must enter its owned processing chain"
+	},
+	{
+		"id": "iceandfire:silver_ingot_from_smelting_raw_silver",
 		"action": "remove",
 		"reason": "Raw feedstock must enter its owned processing chain"
 	},
@@ -8602,11 +8642,6 @@
 		"id": "immersiveengineering:crusher/ore_lapis",
 		"action": "remove",
 		"reason": "Assigned machine-family ownership"
-	},
-	{
-		"id": "create:blasting/ingot_silver_compat_immersiveengineering",
-		"action": "remove",
-		"reason": "Raw feedstock must enter its owned processing chain"
 	},
 	{
 		"id": "create:splashing/mekanism/crushed_raw_tin",

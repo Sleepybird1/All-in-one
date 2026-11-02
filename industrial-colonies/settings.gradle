@@ -1,0 +1,16 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+    }
+    // Resolve the implementation module directly. This keeps local pack builds
+    // reproducible/offline when Gradle's plugin-marker metadata is unavailable.
+    resolutionStrategy {
+        eachPlugin {
+            if (requested.id.id == 'net.neoforged.moddev') {
+                useModule("net.neoforged:moddev-gradle:${requested.version}")
+            }
+        }
+    }
+}
+
+rootProject.name = 'industrial-colonies'

@@ -1,0 +1,30 @@
+{
+  "branch": "industrial_colonies:tech_tree",
+  "costs": [
+    {
+      "item": "mekanism:substrate",
+      "count": 8
+    },
+    {
+      "item": "mekanism:hdpe_sheet",
+      "count": 8
+    },
+    {
+      "item": "mekanism:chemical_oxidizer",
+      "count": 1
+    }
+  ],
+  "icon": "mekanism:purification_chamber",
+  "name": "com.industrial_colonies.research.factory_engineering.cr01_chemical_separation.name",
+  "no-reset": true,
+  "researchLevel": 2,
+  "sortOrder": 10412,
+  "subtitle": "com.industrial_colonies.research.factory_engineering.cr01_chemical_separation.subtitle",
+  "parentResearch": "industrial_colonies:factory_engineering/cr01_electrochemical_engineering",
+  "requirements": [
+    {
+      "type": "minecolonies:research",
+      "research": "industrial_colonies:factory_engineering/cr01_electrochemical_engineering"
+    }
+  ]
+}

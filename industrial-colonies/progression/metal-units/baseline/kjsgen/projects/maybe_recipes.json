@@ -1,0 +1,9 @@
+{
+  "format": 1,
+  "name": "maybe recipes",
+  "defaultTargetFile": "kjsgen_recipes",
+  "exportComments": true,
+  "reloadOnExport": false,
+  "recipes": [],
+  "removals": []
+}

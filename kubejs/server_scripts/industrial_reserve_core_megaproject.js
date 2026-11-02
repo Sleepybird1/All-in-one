@@ -1,3 +1,5 @@
+// Original recipe review: registrations retained below, temporarily inactive.
+function IC_originalRecipeReview_skip() {}
 // Industrial Colonies - physical factory-scale reserve proof.
 //
 // One completed core consumes, through 512 sequenced-assembly loops:
@@ -8,7 +10,7 @@
 // The large loop count is intentional: the item is a sustained-throughput
 // objective, not a one-off expensive crafting table recipe.
 
-ServerEvents.recipes(event => {
+IC_originalRecipeReview_skip(event => {
   const transitional = 'industrial_colonies:unfinished_industrial_reserve_core'
 
   const deploying = ingredient => ({

@@ -1,8 +1,10 @@
+// Original recipe review: registrations retained below, temporarily inactive.
+function IC_originalRecipeReview_skip() {}
 // Industrial Colonies - canonical solid steel
 // TFMG steel is the only player-facing ingot, nugget, and storage block.
 // Later metallurgy mods retain their unique machines and molten processes.
 
-ServerEvents.tags('item', event => {
+IC_originalRecipeReview_skip('item', event => {
   const canonicalSteelTags = {
     'c:ingots/steel': ['tfmg:steel_ingot'],
     'c:nuggets/steel': ['tfmg:steel_nugget'],
@@ -15,7 +17,7 @@ ServerEvents.tags('item', event => {
   })
 })
 
-ServerEvents.recipes(event => {
+IC_originalRecipeReview_skip(event => {
   const removedSteelBypasses = [
     // Create Big Cannons: early heated-mixer steel and alternate solid forms.
     'createbigcannons:mixing/alloy_steel',

@@ -1,5 +1,5 @@
 {
-  "enabled": true,
+  "enabled": false,
   "minY": -60,
   "maxY": 503,
   "minimumCover": 8,
@@ -9,11 +9,26 @@
   "minPatchSize": 1,
   "maxPatchSize": 3,
   "resources": [
-    {"block": "minecraft:coal_ore", "weight": 35},
-    {"block": "industrial_colonies:hematite", "weight": 30},
-    {"block": "industrial_colonies:sphalerite", "weight": 15},
-    {"block": "industrial_colonies:cassiterite", "weight": 15},
-    {"block": "industrial_colonies:chalcopyrite", "weight": 5}
+    {
+      "block": "minecraft:coal_ore",
+      "weight": 35
+    },
+    {
+      "block": "industrial_colonies:hematite",
+      "weight": 30
+    },
+    {
+      "block": "industrial_colonies:sphalerite",
+      "weight": 15
+    },
+    {
+      "block": "industrial_colonies:cassiterite",
+      "weight": 15
+    },
+    {
+      "block": "industrial_colonies:chalcopyrite",
+      "weight": 5
+    }
   ],
   "note": "Small air-exposed cave patches. Weights select patches, not guaranteed block percentages. Only new chunks; restart after editing. Major deposits remain the bulk resource source."
 }

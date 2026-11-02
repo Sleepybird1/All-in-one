@@ -1,0 +1,30 @@
+{
+  "branch": "industrial_colonies:tech_tree",
+  "costs": [
+    {
+      "item": "electroenergetics:transformer_core",
+      "count": 4
+    },
+    {
+      "item": "electroenergetics:insulated_wire",
+      "count": 8
+    },
+    {
+      "item": "electroenergetics:voltage_regulator",
+      "count": 2
+    }
+  ],
+  "icon": "electroenergetics:heavily_insulated_wire_spool",
+  "name": "com.industrial_colonies.research.electrical_grid.cr01_extreme_power_transmission.name",
+  "no-reset": true,
+  "researchLevel": 4,
+  "sortOrder": 10222,
+  "subtitle": "com.industrial_colonies.research.electrical_grid.cr01_extreme_power_transmission.subtitle",
+  "parentResearch": "industrial_colonies:electrical_grid/cr01_high_voltage_systems",
+  "requirements": [
+    {
+      "type": "minecolonies:research",
+      "research": "industrial_colonies:electrical_grid/cr01_high_voltage_systems"
+    }
+  ]
+}

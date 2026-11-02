@@ -1,0 +1,64 @@
+{
+  "id": "industrial_colonies:modernfoundry_casting_table",
+  "jei": "modernfoundry:casting_table",
+  "mod": "modernfoundry",
+  "icon": "modernfoundry:seared_table",
+  "width": 176,
+  "height": 82,
+  "slots": [
+    {
+      "key": "fluid",
+      "role": "INPUT",
+      "x": 4,
+      "y": 5,
+      "required": true,
+      "item": false,
+      "tag": false,
+      "fluid": true,
+      "count": true
+    },
+    {
+      "key": "cast",
+      "role": "CATALYST",
+      "x": 35,
+      "y": 39,
+      "required": true,
+      "item": true,
+      "tag": false,
+      "fluid": false,
+      "count": false
+    },
+    {
+      "key": "output",
+      "role": "OUTPUT",
+      "x": 133,
+      "y": 20,
+      "required": true,
+      "item": true,
+      "tag": false,
+      "fluid": false,
+      "count": false
+    }
+  ],
+  "decorations": [
+    {
+      "type": "ARROW",
+      "x": 82,
+      "y": 22
+    }
+  ],
+  "parameters": [
+    {
+      "key": "coolingTime",
+      "type": "INT",
+      "default": "200"
+    },
+    {
+      "key": "__template",
+      "type": "STRING",
+      "default": "event.custom({type:'modernfoundry:casting_table', fluid:{fluid:Fluid.of({slot:fluid}).id,amount:Fluid.of({slot:fluid}).amount}, cast:{item:Item.of({slot:cast}).id}, result:{item:Item.of({slot:output}).id}, cooling_time:{param:coolingTime},cast_consumed:false})"
+    }
+  ],
+  "codegen": "kjsgen:template",
+  "requiresMod": "modernfoundry"
+}

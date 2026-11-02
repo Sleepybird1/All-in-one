@@ -1,0 +1,37 @@
+{
+  "status": "PREPARED",
+  "biomes": [
+    "ad_astra:glacio_ice_peaks",
+    "ad_astra:glacio_snowy_barrens"
+  ],
+  "templates": {
+    "data/cataclysm/structure/sunken_city_entrance2.nbt": 1,
+    "data/cataclysm/structure/sunken_city_lower_east.nbt": 2,
+    "data/cataclysm/structure/sunken_city_lower_southwest.nbt": 1,
+    "data/cataclysm/structure/sunken_city_lower_west.nbt": 1,
+    "data/cataclysm/structure/sunken_city_mid_east.nbt": 1,
+    "data/cataclysm/structure/sunken_city_mid_northwest.nbt": 4,
+    "data/cataclysm/structure/sunken_city_mid_south.nbt": 3,
+    "data/cataclysm/structure/sunken_city_mid_southwest.nbt": 1,
+    "data/cataclysm/structure/sunken_city_mid_west.nbt": 2,
+    "data/cataclysm/structure/sunken_city_temple1.nbt": 1
+  },
+  "files": [
+    "kubejs/data/industrial_colonies/neoforge/biome_modifier/remove_earth_anglers.json",
+    "kubejs/data/industrial_colonies/neoforge/biome_modifier/glacio_anglers.json",
+    "kubejs/data/ad_astra/tags/entity_type/can_survive_extreme_cold.json",
+    "kubejs/data/ad_astra/worldgen/noise_settings/glacio.json",
+    "kubejs/data/cataclysm/structure/sunken_city_entrance2.nbt",
+    "kubejs/data/cataclysm/structure/sunken_city_lower_east.nbt",
+    "kubejs/data/cataclysm/structure/sunken_city_lower_southwest.nbt",
+    "kubejs/data/cataclysm/structure/sunken_city_lower_west.nbt",
+    "kubejs/data/cataclysm/structure/sunken_city_mid_east.nbt",
+    "kubejs/data/cataclysm/structure/sunken_city_mid_northwest.nbt",
+    "kubejs/data/cataclysm/structure/sunken_city_mid_south.nbt",
+    "kubejs/data/cataclysm/structure/sunken_city_mid_southwest.nbt",
+    "kubejs/data/cataclysm/structure/sunken_city_mid_west.nbt",
+    "kubejs/data/cataclysm/structure/sunken_city_temple1.nbt"
+  ],
+  "habitat": "Glacio water-filled lower caverns below Y=0; native ice/snow surface and terrain density retained",
+  "existingEntitiesAndSpawnersUnchanged": true
+}

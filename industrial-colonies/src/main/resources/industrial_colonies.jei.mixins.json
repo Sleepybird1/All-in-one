@@ -1,0 +1,21 @@
+{
+  "required": false,
+  "minVersion": "0.8",
+  "package": "dev.godpc.industrialcolonies.mixin.jei",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "CreateRecipeCategoryBuilderMixin",
+    "CreateRecipeCategoryMachineMixin",
+    "ExactMachineUsesFocusMixin",
+    "ExactMachineRecipeLookupMixin",
+    "BoundCreateMachineAnimationMixin",
+    "BoundFanMachineAnimationMixin",
+    "SequencedAssemblyMachineContextMixin",
+    "JeiInfuserSelectionTraceMixin",
+    "ElectroEnergeticsJeiAliasesMixin",
+    "TFMGPotionSubtypeMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

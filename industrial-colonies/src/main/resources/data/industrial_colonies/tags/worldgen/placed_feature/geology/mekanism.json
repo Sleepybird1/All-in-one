@@ -1,0 +1,69 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "mekanism:ore_lead_normal",
+      "required": false
+    },
+    {
+      "id": "mekanism:ore_lead_normal_retrogen",
+      "required": false
+    },
+    {
+      "id": "mekanism:ore_osmium_middle",
+      "required": false
+    },
+    {
+      "id": "mekanism:ore_osmium_middle_retrogen",
+      "required": false
+    },
+    {
+      "id": "mekanism:ore_osmium_small",
+      "required": false
+    },
+    {
+      "id": "mekanism:ore_osmium_small_retrogen",
+      "required": false
+    },
+    {
+      "id": "mekanism:ore_osmium_upper",
+      "required": false
+    },
+    {
+      "id": "mekanism:ore_osmium_upper_retrogen",
+      "required": false
+    },
+    {
+      "id": "mekanism:ore_tin_large",
+      "required": false
+    },
+    {
+      "id": "mekanism:ore_tin_large_retrogen",
+      "required": false
+    },
+    {
+      "id": "mekanism:ore_tin_small",
+      "required": false
+    },
+    {
+      "id": "mekanism:ore_tin_small_retrogen",
+      "required": false
+    },
+    {
+      "id": "mekanism:ore_uranium_buried",
+      "required": false
+    },
+    {
+      "id": "mekanism:ore_uranium_buried_retrogen",
+      "required": false
+    },
+    {
+      "id": "mekanism:ore_uranium_small",
+      "required": false
+    },
+    {
+      "id": "mekanism:ore_uranium_small_retrogen",
+      "required": false
+    }
+  ]
+}

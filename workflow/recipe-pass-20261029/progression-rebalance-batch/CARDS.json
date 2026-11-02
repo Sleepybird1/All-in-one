@@ -1,0 +1,4110 @@
+[
+  {
+    "uid": "d7ee45a6-ab45-554c-9bff-ce396a420c00",
+    "type": "kjsgen:create_mechanical_crafting",
+    "recipeId": "industrial_colonies:balanced_review/ad_astra/nasa_workbench",
+    "group": "Rebalanced progression / ad_astra",
+    "comment": "Rocket assembly workbench: guarded top diagnostics, wired board deck, paired Railway handling arms around Radiance forming/tool station, aluminum foundation and titanium-alloy work bed. Actual assembly machinery replaces a plain crafting table. Exact registered items only; plates/sheets/rods remain distinct, Heavy Plate never substitutes for Steel Plate. Explicit user-requested whole visible review redesign; pending review, not gameplay export.",
+    "replaceRecipe": false,
+    "slots": {
+      "output": {
+        "kind": "ITEM",
+        "id": "ad_astra:nasa_workbench"
+      },
+      "cell_0_0": {
+        "kind": "ITEM",
+        "id": "minecraft:glass_pane"
+      },
+      "cell_0_2": {
+        "kind": "ITEM",
+        "id": "ae2:engineering_processor"
+      },
+      "cell_0_4": {
+        "kind": "ITEM",
+        "id": "minecraft:glass_pane"
+      },
+      "cell_1_0": {
+        "kind": "ITEM",
+        "id": "tfmg:plastic_sheet"
+      },
+      "cell_1_1": {
+        "kind": "ITEM",
+        "id": "tfmg:circuit_board"
+      },
+      "cell_1_2": {
+        "kind": "ITEM",
+        "id": "create:mechanical_crafter"
+      },
+      "cell_1_3": {
+        "kind": "ITEM",
+        "id": "tfmg:circuit_board"
+      },
+      "cell_1_4": {
+        "kind": "ITEM",
+        "id": "tfmg:plastic_sheet"
+      },
+      "cell_2_0": {
+        "kind": "ITEM",
+        "id": "createcasing:railway_deployer"
+      },
+      "cell_2_1": {
+        "kind": "ITEM",
+        "id": "createcasing:refined_radiance_press"
+      },
+      "cell_2_2": {
+        "kind": "ITEM",
+        "id": "createcasing:refined_radiance_deployer"
+      },
+      "cell_2_3": {
+        "kind": "ITEM",
+        "id": "createcasing:refined_radiance_press"
+      },
+      "cell_2_4": {
+        "kind": "ITEM",
+        "id": "createcasing:railway_deployer"
+      },
+      "cell_3_0": {
+        "kind": "ITEM",
+        "id": "immersiveengineering:wire_electrum"
+      },
+      "cell_3_2": {
+        "kind": "ITEM",
+        "id": "tfmg:aluminum_frame"
+      },
+      "cell_3_4": {
+        "kind": "ITEM",
+        "id": "immersiveengineering:wire_electrum"
+      },
+      "cell_4_0": {
+        "kind": "ITEM",
+        "id": "rocketnautics:titanium_alloy_sheet"
+      },
+      "cell_4_1": {
+        "kind": "ITEM",
+        "id": "rocketnautics:titanium_alloy_sheet"
+      },
+      "cell_4_2": {
+        "kind": "ITEM",
+        "id": "tfmg:electric_motor"
+      },
+      "cell_4_3": {
+        "kind": "ITEM",
+        "id": "rocketnautics:titanium_alloy_sheet"
+      },
+      "cell_4_4": {
+        "kind": "ITEM",
+        "id": "rocketnautics:titanium_alloy_sheet"
+      }
+    },
+    "params": {
+      "gridW": "5",
+      "gridH": "5"
+    }
+  },
+  {
+    "uid": "e5e2290f-97f5-5a8d-811e-09f3f68b1929",
+    "type": "kjsgen:create_mechanical_crafting",
+    "recipeId": "industrial_colonies:balanced_review/advanced_ae/small_adv_pattern_provider",
+    "group": "Rebalanced progression / advanced_ae",
+    "comment": "Dense pattern provider: one existing provider supplies the network core, processor/board banks decode patterns, aluminum structure and insulated electrum bus carry expansion. Balanced symmetrical electronics layout. Exact registered items only; plates/sheets/rods remain distinct, Heavy Plate never substitutes for Steel Plate. Explicit user-requested whole visible review redesign; pending review, not gameplay export.",
+    "replaceRecipe": false,
+    "slots": {
+      "output": {
+        "kind": "ITEM",
+        "id": "advanced_ae:small_adv_pattern_provider"
+      },
+      "cell_0_0": {
+        "kind": "ITEM",
+        "id": "tfmg:plastic_sheet"
+      },
+      "cell_0_1": {
+        "kind": "ITEM",
+        "id": "ae2:quartz_glass"
+      },
+      "cell_0_2": {
+        "kind": "ITEM",
+        "id": "ae2:logic_processor"
+      },
+      "cell_0_3": {
+        "kind": "ITEM",
+        "id": "ae2:quartz_glass"
+      },
+      "cell_0_4": {
+        "kind": "ITEM",
+        "id": "tfmg:plastic_sheet"
+      },
+      "cell_1_0": {
+        "kind": "ITEM",
+        "id": "immersiveengineering:wire_electrum"
+      },
+      "cell_1_1": {
+        "kind": "ITEM",
+        "id": "ae2:engineering_processor"
+      },
+      "cell_1_2": {
+        "kind": "ITEM",
+        "id": "ae2:pattern_provider"
+      },
+      "cell_1_3": {
+        "kind": "ITEM",
+        "id": "ae2:engineering_processor"
+      },
+      "cell_1_4": {
+        "kind": "ITEM",
+        "id": "immersiveengineering:wire_electrum"
+      },
+      "cell_2_0": {
+        "kind": "ITEM",
+        "id": "tfmg:plastic_sheet"
+      },
+      "cell_2_1": {
+        "kind": "ITEM",
+        "id": "tfmg:circuit_board"
+      },
+      "cell_2_2": {
+        "kind": "ITEM",
+        "id": "tfmg:aluminum_frame"
+      },
+      "cell_2_3": {
+        "kind": "ITEM",
+        "id": "tfmg:circuit_board"
+      },
+      "cell_2_4": {
+        "kind": "ITEM",
+        "id": "tfmg:plastic_sheet"
+      },
+      "cell_3_0": {
+        "kind": "ITEM",
+        "id": "immersiveengineering:wire_electrum"
+      },
+      "cell_3_2": {
+        "kind": "ITEM",
+        "id": "ae2:logic_processor"
+      },
+      "cell_3_4": {
+        "kind": "ITEM",
+        "id": "immersiveengineering:wire_electrum"
+      },
+      "cell_4_0": {
+        "kind": "ITEM",
+        "id": "tfmg:aluminum_sheet"
+      },
+      "cell_4_1": {
+        "kind": "ITEM",
+        "id": "tfmg:aluminum_sheet"
+      },
+      "cell_4_2": {
+        "kind": "ITEM",
+        "id": "extendedae:concurrent_processor"
+      },
+      "cell_4_3": {
+        "kind": "ITEM",
+        "id": "tfmg:aluminum_sheet"
+      },
+      "cell_4_4": {
+        "kind": "ITEM",
+        "id": "tfmg:aluminum_sheet"
+      }
+    },
+    "params": {
+      "gridW": "5",
+      "gridH": "5"
+    }
+  },
+  {
+    "uid": "6544bbed-735d-543d-85a3-105af75f482d",
+    "type": "kjsgen:shaped",
+    "recipeId": "industrial_colonies:balanced_review/ae2/chest",
+    "group": "Rebalanced progression / ae2",
+    "comment": "Actual storage housing and one1kcomponent form the middle and lower storage bay; terminal/glass provide access, fluix side cables connect it, aluminum plates enclose it. No empty center or generic iron lumps. Exact registered items only; plates/sheets/rods remain distinct, Heavy Plate never substitutes for Steel Plate. Explicit user-requested whole visible review redesign; pending review, not gameplay export.",
+    "replaceRecipe": false,
+    "slots": {
+      "output": {
+        "kind": "ITEM",
+        "id": "ae2:chest"
+      },
+      "in0": {
+        "kind": "ITEM",
+        "id": "ae2:quartz_glass"
+      },
+      "in1": {
+        "kind": "ITEM",
+        "id": "ae2:terminal"
+      },
+      "in2": {
+        "kind": "ITEM",
+        "id": "ae2:quartz_glass"
+      },
+      "in3": {
+        "kind": "ITEM",
+        "id": "ae2:fluix_glass_cable"
+      },
+      "in4": {
+        "kind": "ITEM",
+        "id": "ae2:item_cell_housing"
+      },
+      "in5": {
+        "kind": "ITEM",
+        "id": "ae2:fluix_glass_cable"
+      },
+      "in6": {
+        "kind": "ITEM",
+        "id": "tfmg:aluminum_sheet"
+      },
+      "in7": {
+        "kind": "ITEM",
+        "id": "ae2:cell_component_1k"
+      },
+      "in8": {
+        "kind": "ITEM",
+        "id": "tfmg:aluminum_sheet"
+      }
+    },
+    "params": {}
+  },
+  {
+    "uid": "44cdbd25-9765-52b8-891f-3ecf46976cf9",
+    "type": "kjsgen:create_mechanical_crafting",
+    "recipeId": "industrial_colonies:balanced_review/appliedcreate/andesite_pattern_provider",
+    "group": "Rebalanced progression / appliedcreate",
+    "comment": "Mechanical crafting interface built around a genuine AE2 Pattern Provider so the casing variant cannot bypass AE infrastructure. Dedicated processor, insulated signal wiring, material-matched frame and shaft output form a compact symmetric adapter; no two full interfaces charged. Exact registered items only; plates/sheets/rods remain distinct, Heavy Plate never substitutes for Steel Plate. Explicit user-requested whole visible review redesign; pending review, not gameplay export.",
+    "replaceRecipe": false,
+    "slots": {
+      "output": {
+        "kind": "ITEM",
+        "id": "appliedcreate:andesite_pattern_provider"
+      },
+      "cell_0_0": {
+        "kind": "ITEM",
+        "id": "ae2:quartz_glass"
+      },
+      "cell_0_1": {
+        "kind": "ITEM",
+        "id": "ae2:logic_processor"
+      },
+      "cell_0_2": {
+        "kind": "ITEM",
+        "id": "ae2:quartz_glass"
+      },
+      "cell_1_0": {
+        "kind": "ITEM",
+        "id": "tfmg:copper_wire"
+      },
+      "cell_1_1": {
+        "kind": "ITEM",
+        "id": "ae2:pattern_provider"
+      },
+      "cell_1_2": {
+        "kind": "ITEM",
+        "id": "tfmg:copper_wire"
+      },
+      "cell_2_0": {
+        "kind": "ITEM",
+        "id": "tfmg:plastic_sheet"
+      },
+      "cell_2_1": {
+        "kind": "ITEM",
+        "id": "tfmg:copper_frame"
+      },
+      "cell_2_2": {
+        "kind": "ITEM",
+        "id": "tfmg:plastic_sheet"
+      },
+      "cell_3_0": {
+        "kind": "ITEM",
+        "id": "create:shaft"
+      },
+      "cell_3_1": {
+        "kind": "ITEM",
+        "id": "create:andesite_casing"
+      },
+      "cell_3_2": {
+        "kind": "ITEM",
+        "id": "create:shaft"
+      }
+    },
+    "params": {
+      "gridW": "3",
+      "gridH": "4"
+    }
+  },
+  {
+    "uid": "bcf63823-4050-526a-b1f0-a81807824eba",
+    "type": "kjsgen:create_mechanical_crafting",
+    "recipeId": "industrial_colonies:balanced_review/appliedcreate/brass_pattern_provider",
+    "group": "Rebalanced progression / appliedcreate",
+    "comment": "Mechanical crafting interface built around a genuine AE2 Pattern Provider so the casing variant cannot bypass AE infrastructure. Dedicated processor, insulated signal wiring, material-matched frame and shaft output form a compact symmetric adapter; no two full interfaces charged. Exact registered items only; plates/sheets/rods remain distinct, Heavy Plate never substitutes for Steel Plate. Explicit user-requested whole visible review redesign; pending review, not gameplay export.",
+    "replaceRecipe": false,
+    "slots": {
+      "output": {
+        "kind": "ITEM",
+        "id": "appliedcreate:brass_pattern_provider"
+      },
+      "cell_0_0": {
+        "kind": "ITEM",
+        "id": "ae2:quartz_glass"
+      },
+      "cell_0_1": {
+        "kind": "ITEM",
+        "id": "ae2:engineering_processor"
+      },
+      "cell_0_2": {
+        "kind": "ITEM",
+        "id": "ae2:quartz_glass"
+      },
+      "cell_1_0": {
+        "kind": "ITEM",
+        "id": "immersiveengineering:wire_electrum"
+      },
+      "cell_1_1": {
+        "kind": "ITEM",
+        "id": "ae2:pattern_provider"
+      },
+      "cell_1_2": {
+        "kind": "ITEM",
+        "id": "immersiveengineering:wire_electrum"
+      },
+      "cell_2_0": {
+        "kind": "ITEM",
+        "id": "tfmg:plastic_sheet"
+      },
+      "cell_2_1": {
+        "kind": "ITEM",
+        "id": "tfmg:brass_frame"
+      },
+      "cell_2_2": {
+        "kind": "ITEM",
+        "id": "tfmg:plastic_sheet"
+      },
+      "cell_3_0": {
+        "kind": "ITEM",
+        "id": "create:shaft"
+      },
+      "cell_3_1": {
+        "kind": "ITEM",
+        "id": "create:brass_casing"
+      },
+      "cell_3_2": {
+        "kind": "ITEM",
+        "id": "create:shaft"
+      }
+    },
+    "params": {
+      "gridW": "3",
+      "gridH": "4"
+    }
+  },
+  {
+    "uid": "5abed8b7-a4a5-5c6a-b41e-fbe77cfc791b",
+    "type": "kjsgen:shaped",
+    "recipeId": "industrial_colonies:balanced_review/create/mechanical_crafter",
+    "group": "Rebalanced progression / create",
+    "comment": "Early brass crafting actuator: paired handling fingers, electron-tube control, existing precision drive and brass casing. Avoid late AE processors or plastic-board requirements on the machine that builds early mechanical crafting. Batch of three retains baseline utility. Exact registered items only; plates/sheets/rods remain distinct, Heavy Plate never substitutes for Steel Plate. Explicit user-requested whole visible review redesign; pending review, not gameplay export.",
+    "replaceRecipe": false,
+    "slots": {
+      "output": {
+        "kind": "ITEM",
+        "id": "create:mechanical_crafter",
+        "count": 3
+      },
+      "in1": {
+        "kind": "ITEM",
+        "id": "create:electron_tube"
+      },
+      "in3": {
+        "kind": "ITEM",
+        "id": "create:brass_hand"
+      },
+      "in4": {
+        "kind": "ITEM",
+        "id": "create:brass_casing"
+      },
+      "in5": {
+        "kind": "ITEM",
+        "id": "create:brass_hand"
+      },
+      "in6": {
+        "kind": "ITEM",
+        "id": "create:shaft"
+      },
+      "in7": {
+        "kind": "ITEM",
+        "id": "create:precision_mechanism"
+      },
+      "in8": {
+        "kind": "ITEM",
+        "id": "create:shaft"
+      }
+    },
+    "params": {}
+  },
+  {
+    "uid": "15c0094c-84f0-51f6-8746-d14484561b96",
+    "type": "kjsgen:shaped",
+    "recipeId": "industrial_colonies:balanced_review/createcasing/zinc_fluid_valve",
+    "group": "Rebalanced progression / createcasing",
+    "comment": "Zinc valve jacket on a working native fluid valve with pipe connections and actuation shaft. Zinc sheet is a cover, not an unrelated iron plate charge. Exact registered items only; plates/sheets/rods remain distinct, Heavy Plate never substitutes for Steel Plate. Explicit user-requested whole visible review redesign; pending review, not gameplay export.",
+    "replaceRecipe": false,
+    "slots": {
+      "output": {
+        "kind": "ITEM",
+        "id": "createcasing:zinc_fluid_valve"
+      },
+      "in1": {
+        "kind": "ITEM",
+        "id": "createaddition:zinc_sheet"
+      },
+      "in3": {
+        "kind": "ITEM",
+        "id": "create:fluid_pipe"
+      },
+      "in4": {
+        "kind": "ITEM",
+        "id": "create:fluid_valve"
+      },
+      "in5": {
+        "kind": "ITEM",
+        "id": "create:fluid_pipe"
+      },
+      "in7": {
+        "kind": "ITEM",
+        "id": "create:shaft"
+      }
+    },
+    "params": {}
+  },
+  {
+    "uid": "056e16c5-0bce-5219-be70-c879a4ebffbd",
+    "type": "kjsgen:shaped",
+    "recipeId": "industrial_colonies:authoring_review/createreautomated/extractor",
+    "group": "Rebalanced progression / createreautomated",
+    "comment": "Powered extraction head over geared drive and cast-iron support. Kinetic gear/shaft path supplies power rather than anonymous rings of andesite alloy. Exact registered items only; plates/sheets/rods remain distinct, Heavy Plate never substitutes for Steel Plate. Explicit user-requested whole visible review redesign; pending review, not gameplay export.",
+    "replaceRecipe": false,
+    "slots": {
+      "output": {
+        "kind": "ITEM",
+        "id": "createreautomated:extractor"
+      },
+      "in1": {
+        "kind": "ITEM",
+        "id": "create:mechanical_drill"
+      },
+      "in3": {
+        "kind": "ITEM",
+        "id": "create:cogwheel"
+      },
+      "in4": {
+        "kind": "ITEM",
+        "id": "create:gearbox"
+      },
+      "in5": {
+        "kind": "ITEM",
+        "id": "create:cogwheel"
+      },
+      "in6": {
+        "kind": "ITEM",
+        "id": "create:andesite_casing"
+      },
+      "in7": {
+        "kind": "ITEM",
+        "id": "tfmg:cast_iron_frame"
+      },
+      "in8": {
+        "kind": "ITEM",
+        "id": "create:andesite_casing"
+      }
+    },
+    "params": {}
+  },
+  {
+    "uid": "b4701be5-0b6e-5d37-a416-d3b36acaec48",
+    "type": "kjsgen:create_mechanical_crafting",
+    "recipeId": "industrial_colonies:balanced_review/createreautomated/advanced_extractor",
+    "group": "Rebalanced progression / createreautomated",
+    "comment": "Upgrade one working extractor with a sensor-aligned handling head, nickel support and Tough Alloy wear faces. Electrum/electric drive adds real controlled actuation; no decorative fluid tank. Exact registered items only; plates/sheets/rods remain distinct, Heavy Plate never substitutes for Steel Plate. Explicit user-requested whole visible review redesign; pending review, not gameplay export.",
+    "replaceRecipe": false,
+    "slots": {
+      "output": {
+        "kind": "ITEM",
+        "id": "createreautomated:advanced_extractor"
+      },
+      "cell_0_1": {
+        "kind": "ITEM",
+        "id": "simulated:optical_sensor"
+      },
+      "cell_1_0": {
+        "kind": "ITEM",
+        "id": "create:brass_hand"
+      },
+      "cell_1_1": {
+        "kind": "ITEM",
+        "id": "createreautomated:extractor"
+      },
+      "cell_1_2": {
+        "kind": "ITEM",
+        "id": "create:brass_hand"
+      },
+      "cell_2_0": {
+        "kind": "ITEM",
+        "id": "industrial_colonies:material_parts/tough_alloy_plate"
+      },
+      "cell_2_1": {
+        "kind": "ITEM",
+        "id": "tfmg:nickel_frame"
+      },
+      "cell_2_2": {
+        "kind": "ITEM",
+        "id": "industrial_colonies:material_parts/tough_alloy_plate"
+      },
+      "cell_3_0": {
+        "kind": "ITEM",
+        "id": "immersiveengineering:wire_electrum"
+      },
+      "cell_3_1": {
+        "kind": "ITEM",
+        "id": "tfmg:electric_motor"
+      },
+      "cell_3_2": {
+        "kind": "ITEM",
+        "id": "immersiveengineering:wire_electrum"
+      }
+    },
+    "params": {
+      "gridW": "3",
+      "gridH": "4"
+    }
+  },
+  {
+    "uid": "e8681210-fbf9-55bb-8e71-b2380ec23065",
+    "type": "kjsgen:shaped",
+    "recipeId": "industrial_colonies:balanced_review/nuclearcraft/redstone_heat_sink",
+    "group": "Rebalanced progression / nuclearcraft",
+    "comment": "Redstone thermal insert with copper spreaders around the actual empty heat-sink body. Contains redstone explicitly, not unrelated circuit boards. Exact registered items only; plates/sheets/rods remain distinct, Heavy Plate never substitutes for Steel Plate. Explicit user-requested whole visible review redesign; pending review, not gameplay export.",
+    "replaceRecipe": false,
+    "slots": {
+      "output": {
+        "kind": "ITEM",
+        "id": "nuclearcraft:redstone_heat_sink"
+      },
+      "in0": {
+        "kind": "ITEM",
+        "id": "create:copper_sheet"
+      },
+      "in1": {
+        "kind": "ITEM",
+        "id": "minecraft:redstone"
+      },
+      "in2": {
+        "kind": "ITEM",
+        "id": "create:copper_sheet"
+      },
+      "in3": {
+        "kind": "ITEM",
+        "id": "minecraft:redstone"
+      },
+      "in4": {
+        "kind": "ITEM",
+        "id": "nuclearcraft:empty_heat_sink"
+      },
+      "in5": {
+        "kind": "ITEM",
+        "id": "minecraft:redstone"
+      },
+      "in6": {
+        "kind": "ITEM",
+        "id": "create:copper_sheet"
+      },
+      "in7": {
+        "kind": "ITEM",
+        "id": "minecraft:redstone"
+      },
+      "in8": {
+        "kind": "ITEM",
+        "id": "create:copper_sheet"
+      }
+    },
+    "params": {}
+  },
+  {
+    "uid": "4f49f0ba-893d-5a80-a153-7205234e48ea",
+    "type": "kjsgen:shaped",
+    "recipeId": "industrial_colonies:balanced_review/nuclearcraft/active_redstone_heat_sink",
+    "group": "Rebalanced progression / nuclearcraft",
+    "comment": "Active version upgrades the redstone heat sink itself with a real valve, pump and servo flow control. Do not charge four general circuit boards for redstone identity. Exact registered items only; plates/sheets/rods remain distinct, Heavy Plate never substitutes for Steel Plate. Explicit user-requested whole visible review redesign; pending review, not gameplay export.",
+    "replaceRecipe": false,
+    "slots": {
+      "output": {
+        "kind": "ITEM",
+        "id": "nuclearcraft:active_redstone_heat_sink"
+      },
+      "in1": {
+        "kind": "ITEM",
+        "id": "tfmg:steel_fluid_valve"
+      },
+      "in3": {
+        "kind": "ITEM",
+        "id": "nuclearcraft:servo"
+      },
+      "in4": {
+        "kind": "ITEM",
+        "id": "nuclearcraft:redstone_heat_sink"
+      },
+      "in5": {
+        "kind": "ITEM",
+        "id": "nuclearcraft:servo"
+      },
+      "in7": {
+        "kind": "ITEM",
+        "id": "tfmg:brass_mechanical_pump"
+      }
+    },
+    "params": {}
+  },
+  {
+    "uid": "1c294810-fb45-5d41-bc81-82dda2458e34",
+    "type": "kjsgen:create_sequenced_assembly",
+    "recipeId": "industrial_colonies:balanced_review/stellaris/solar_panel",
+    "group": "Rebalanced progression / stellaris",
+    "comment": "Solar-panel fabrication: insulating back sheet, copper collection bus, actual P/N semiconductor cells, contact seating and protective glass. Aluminum frame carries the panel; no amethyst-block light converter. Exact registered items only; plates/sheets/rods remain distinct, Heavy Plate never substitutes for Steel Plate. Explicit user-requested whole visible review redesign; pending review, not gameplay export.",
+    "replaceRecipe": false,
+    "slots": {
+      "input": {
+        "kind": "ITEM",
+        "id": "tfmg:aluminum_frame"
+      },
+      "transitional": {
+        "kind": "ITEM",
+        "id": "stellaris:solar_panel"
+      },
+      "output0": {
+        "kind": "ITEM",
+        "id": "stellaris:solar_panel"
+      },
+      "__machine_step_0_deploying": {
+        "kind": "ITEM",
+        "id": "createcasing:brass_deployer"
+      },
+      "seqItem0": {
+        "kind": "ITEM",
+        "id": "tfmg:plastic_sheet"
+      },
+      "__machine_step_1_deploying": {
+        "kind": "ITEM",
+        "id": "createcasing:brass_deployer"
+      },
+      "seqItem1": {
+        "kind": "ITEM",
+        "id": "tfmg:copper_wire"
+      },
+      "__machine_step_2_deploying": {
+        "kind": "ITEM",
+        "id": "createcasing:brass_deployer"
+      },
+      "seqItem2": {
+        "kind": "ITEM",
+        "id": "tfmg:p_semiconductor"
+      },
+      "__machine_step_3_deploying": {
+        "kind": "ITEM",
+        "id": "createcasing:brass_deployer"
+      },
+      "seqItem3": {
+        "kind": "ITEM",
+        "id": "tfmg:p_semiconductor"
+      },
+      "__machine_step_4_deploying": {
+        "kind": "ITEM",
+        "id": "createcasing:railway_deployer"
+      },
+      "seqItem4": {
+        "kind": "ITEM",
+        "id": "tfmg:n_semiconductor"
+      },
+      "__machine_step_5_pressing": {
+        "kind": "ITEM",
+        "id": "createcasing:railway_press"
+      },
+      "__machine_step_6_deploying": {
+        "kind": "ITEM",
+        "id": "createcasing:brass_deployer"
+      },
+      "seqItem6": {
+        "kind": "ITEM",
+        "id": "minecraft:glass_pane"
+      },
+      "__machine_step_7_pressing": {
+        "kind": "ITEM",
+        "id": "createcasing:railway_press"
+      }
+    },
+    "params": {
+      "loops": "1",
+      "__seqLen": "8",
+      "seq0": "deploying",
+      "seq1": "deploying",
+      "seq2": "deploying",
+      "seq3": "deploying",
+      "seq4": "deploying",
+      "seq5": "pressing",
+      "seq6": "deploying",
+      "seq7": "pressing"
+    }
+  },
+  {
+    "uid": "88dab727-abb0-538c-ac12-c064d7c9e5e0",
+    "type": "kjsgen:create_mechanical_crafting",
+    "recipeId": "industrial_colonies:mekanism_pre_nuclear/modification_station",
+    "comment": "Module programming bench: pattern/processor deck, paired precise Railway tool arms around the module fixture, aluminum chassis and insulated power/control floor. One coherent workspace replaces lopsided stacks of mechanisms. Exact registered items only; plates/sheets/rods remain distinct, Heavy Plate never substitutes for Steel Plate. Explicit user-requested whole visible review redesign; pending review, not gameplay export.",
+    "replaceRecipe": false,
+    "slots": {
+      "output": {
+        "kind": "ITEM",
+        "id": "mekanism:modification_station"
+      },
+      "cell_0_0": {
+        "kind": "ITEM",
+        "id": "minecraft:glass_pane"
+      },
+      "cell_0_2": {
+        "kind": "ITEM",
+        "id": "simulated:optical_sensor"
+      },
+      "cell_0_4": {
+        "kind": "ITEM",
+        "id": "minecraft:glass_pane"
+      },
+      "cell_1_0": {
+        "kind": "ITEM",
+        "id": "tfmg:plastic_sheet"
+      },
+      "cell_1_1": {
+        "kind": "ITEM",
+        "id": "tfmg:circuit_board"
+      },
+      "cell_1_2": {
+        "kind": "ITEM",
+        "id": "mekanism:crafting_formula"
+      },
+      "cell_1_3": {
+        "kind": "ITEM",
+        "id": "tfmg:circuit_board"
+      },
+      "cell_1_4": {
+        "kind": "ITEM",
+        "id": "tfmg:plastic_sheet"
+      },
+      "cell_2_0": {
+        "kind": "ITEM",
+        "id": "createcasing:railway_deployer"
+      },
+      "cell_2_2": {
+        "kind": "ITEM",
+        "id": "mekanism:module_base"
+      },
+      "cell_2_4": {
+        "kind": "ITEM",
+        "id": "createcasing:railway_deployer"
+      },
+      "cell_3_0": {
+        "kind": "ITEM",
+        "id": "immersiveengineering:wire_electrum"
+      },
+      "cell_3_1": {
+        "kind": "ITEM",
+        "id": "ae2:engineering_processor"
+      },
+      "cell_3_2": {
+        "kind": "ITEM",
+        "id": "tfmg:aluminum_frame"
+      },
+      "cell_3_3": {
+        "kind": "ITEM",
+        "id": "ae2:engineering_processor"
+      },
+      "cell_3_4": {
+        "kind": "ITEM",
+        "id": "immersiveengineering:wire_electrum"
+      },
+      "cell_4_0": {
+        "kind": "ITEM",
+        "id": "tfmg:aluminum_sheet"
+      },
+      "cell_4_1": {
+        "kind": "ITEM",
+        "id": "tfmg:aluminum_sheet"
+      },
+      "cell_4_2": {
+        "kind": "ITEM",
+        "id": "mekanism:advanced_control_circuit"
+      },
+      "cell_4_3": {
+        "kind": "ITEM",
+        "id": "tfmg:aluminum_sheet"
+      },
+      "cell_4_4": {
+        "kind": "ITEM",
+        "id": "tfmg:aluminum_sheet"
+      }
+    },
+    "params": {
+      "gridW": "5",
+      "gridH": "5"
+    },
+    "group": "Rebalanced progression / mekanism"
+  },
+  {
+    "uid": "db02ae42-63f5-5590-81cf-666e0a030eea",
+    "type": "kjsgen:create_mechanical_crafting",
+    "recipeId": "industrial_colonies:mekanism_pre_nuclear/seismic_vibrator",
+    "comment": "Preserve the praised seismic drive geometry and real Heavy Plate reaction bed. Cast-iron mounting frames carry vibration loads; two tungsten-carbide contact faces replace only two wear positions. Exact steel plates and Heavy Plates stay separate. Exact registered items only; plates/sheets/rods remain distinct, Heavy Plate never substitutes for Steel Plate. Explicit user-requested whole visible review redesign; pending review, not gameplay export.",
+    "replaceRecipe": false,
+    "slots": {
+      "output": {
+        "kind": "ITEM",
+        "id": "mekanism:seismic_vibrator"
+      },
+      "cell_0_1": {
+        "kind": "ITEM",
+        "id": "tfmg:electric_motor"
+      },
+      "cell_0_3": {
+        "kind": "ITEM",
+        "id": "tfmg:electric_motor"
+      },
+      "cell_1_1": {
+        "kind": "ITEM",
+        "id": "tfmg:laminated_magnetic_alloy_block"
+      },
+      "cell_1_2": {
+        "kind": "ITEM",
+        "id": "tfmg:rotor"
+      },
+      "cell_1_3": {
+        "kind": "ITEM",
+        "id": "tfmg:laminated_magnetic_alloy_block"
+      },
+      "cell_2_1": {
+        "kind": "ITEM",
+        "id": "tfmg:cast_iron_frame"
+      },
+      "cell_2_2": {
+        "kind": "ITEM",
+        "id": "tfmg:steel_mechanism"
+      },
+      "cell_2_3": {
+        "kind": "ITEM",
+        "id": "tfmg:cast_iron_frame"
+      },
+      "cell_3_0": {
+        "kind": "ITEM",
+        "id": "industrial_colonies:material_parts/tungsten_carbide_plate"
+      },
+      "cell_3_1": {
+        "kind": "ITEM",
+        "id": "industrial_colonies:material_parts/tungsten_carbide_plate"
+      },
+      "cell_3_2": {
+        "kind": "ITEM",
+        "id": "tfmg:heavy_plate"
+      },
+      "cell_3_3": {
+        "kind": "ITEM",
+        "id": "tfmg:heavy_plate"
+      },
+      "cell_3_4": {
+        "kind": "ITEM",
+        "id": "tfmg:heavy_plate"
+      },
+      "cell_4_1": {
+        "kind": "ITEM",
+        "id": "ae2:calculation_processor"
+      },
+      "cell_4_3": {
+        "kind": "ITEM",
+        "id": "mekanism:advanced_control_circuit"
+      }
+    },
+    "params": {
+      "gridW": "5",
+      "gridH": "5"
+    },
+    "group": "Rebalanced progression / mekanism"
+  },
+  {
+    "uid": "de2db30c-dfb6-5e61-b1ea-53ea48c7925c",
+    "type": "kjsgen:create_mechanical_crafting",
+    "recipeId": "industrial_colonies:outer_station/atmospheric_scoop",
+    "comment": "Late7x7gas-giant harvester with intake fans/filter throat, hot-face titanium/tungsten shell, paired pumps and pipe risers, station interlock/control deck, nickel support and nozzle bed. Heavy Plates only at the actual load bed; no arbitrary duplicate heavy casings. Exact registered items only; plates/sheets/rods remain distinct, Heavy Plate never substitutes for Steel Plate. Explicit user-requested whole visible review redesign; pending review, not gameplay export.",
+    "replaceRecipe": false,
+    "slots": {
+      "output": {
+        "kind": "ITEM",
+        "id": "industrial_colonies:atmospheric_scoop"
+      },
+      "cell_0_2": {
+        "kind": "ITEM",
+        "id": "ad_astra:fan"
+      },
+      "cell_0_3": {
+        "kind": "ITEM",
+        "id": "simulated:optical_sensor"
+      },
+      "cell_0_4": {
+        "kind": "ITEM",
+        "id": "ad_astra:fan"
+      },
+      "cell_1_1": {
+        "kind": "ITEM",
+        "id": "rocketnautics:titanium_alloy_sheet"
+      },
+      "cell_1_2": {
+        "kind": "ITEM",
+        "id": "industrial_colonies:material_parts/tungsten_plate"
+      },
+      "cell_1_3": {
+        "kind": "ITEM",
+        "id": "rocketnautics:titanium_alloy_sheet"
+      },
+      "cell_1_4": {
+        "kind": "ITEM",
+        "id": "industrial_colonies:material_parts/tungsten_plate"
+      },
+      "cell_1_5": {
+        "kind": "ITEM",
+        "id": "rocketnautics:titanium_alloy_sheet"
+      },
+      "cell_2_1": {
+        "kind": "ITEM",
+        "id": "tfmg:industrial_pipe"
+      },
+      "cell_2_3": {
+        "kind": "ITEM",
+        "id": "ad_astra:large_gas_tank"
+      },
+      "cell_2_5": {
+        "kind": "ITEM",
+        "id": "tfmg:industrial_pipe"
+      },
+      "cell_3_0": {
+        "kind": "ITEM",
+        "id": "immersiveengineering:wire_electrum"
+      },
+      "cell_3_1": {
+        "kind": "ITEM",
+        "id": "tfmg:electric_pump"
+      },
+      "cell_3_2": {
+        "kind": "ITEM",
+        "id": "electroenergetics:voltage_regulator"
+      },
+      "cell_3_3": {
+        "kind": "ITEM",
+        "id": "industrial_colonies:station_services_controller"
+      },
+      "cell_3_4": {
+        "kind": "ITEM",
+        "id": "electroenergetics:voltage_regulator"
+      },
+      "cell_3_5": {
+        "kind": "ITEM",
+        "id": "tfmg:electric_pump"
+      },
+      "cell_3_6": {
+        "kind": "ITEM",
+        "id": "immersiveengineering:wire_electrum"
+      },
+      "cell_4_1": {
+        "kind": "ITEM",
+        "id": "ae2:engineering_processor"
+      },
+      "cell_4_3": {
+        "kind": "ITEM",
+        "id": "industrial_colonies:station_services_controller"
+      },
+      "cell_4_5": {
+        "kind": "ITEM",
+        "id": "ae2:engineering_processor"
+      },
+      "cell_5_1": {
+        "kind": "ITEM",
+        "id": "industrial_colonies:material_parts/tough_alloy_plate"
+      },
+      "cell_5_3": {
+        "kind": "ITEM",
+        "id": "tfmg:nickel_frame"
+      },
+      "cell_5_5": {
+        "kind": "ITEM",
+        "id": "industrial_colonies:material_parts/tough_alloy_plate"
+      },
+      "cell_6_2": {
+        "kind": "ITEM",
+        "id": "tfmg:heavy_plate"
+      },
+      "cell_6_3": {
+        "kind": "ITEM",
+        "id": "rocketnautics:engine_nozzle"
+      },
+      "cell_6_4": {
+        "kind": "ITEM",
+        "id": "tfmg:heavy_plate"
+      }
+    },
+    "params": {
+      "gridW": "7",
+      "gridH": "7"
+    },
+    "group": "Rebalanced progression / industrial_colonies"
+  },
+  {
+    "uid": "3ddf05af-6305-5ba9-9687-60ee93bebf64",
+    "type": "kjsgen:create_mechanical_crafting",
+    "recipeId": "nuclearcraft:manufactory",
+    "group": "Rebalanced progression / nuclearcraft",
+    "comment": "Industrial Iron grinding/cutting machine: complete tiered saw head, steel guides, carbide wear teeth, electric drive and a compact heavy bed. No lead-ingot/redstone/flint default or generic chassis. Exact registered items only; plates/sheets/rods remain distinct, Heavy Plate never substitutes for Steel Plate. Explicit user-requested whole visible review redesign; pending review, not gameplay export.",
+    "replaceRecipe": false,
+    "slots": {
+      "output": {
+        "kind": "ITEM",
+        "id": "nuclearcraft:manufactory"
+      },
+      "cell_0_1": {
+        "kind": "ITEM",
+        "id": "createcasing:industrial_iron_mechanical_saw"
+      },
+      "cell_1_0": {
+        "kind": "ITEM",
+        "id": "immersiveengineering:stick_steel"
+      },
+      "cell_1_1": {
+        "kind": "ITEM",
+        "id": "tfmg:cast_iron_frame"
+      },
+      "cell_1_2": {
+        "kind": "ITEM",
+        "id": "immersiveengineering:stick_steel"
+      },
+      "cell_2_0": {
+        "kind": "ITEM",
+        "id": "industrial_colonies:material_parts/tungsten_carbide_plate"
+      },
+      "cell_2_1": {
+        "kind": "ITEM",
+        "id": "tfmg:electric_motor"
+      },
+      "cell_2_2": {
+        "kind": "ITEM",
+        "id": "industrial_colonies:material_parts/tungsten_carbide_plate"
+      },
+      "cell_3_0": {
+        "kind": "ITEM",
+        "id": "tfmg:heavy_plate"
+      },
+      "cell_3_1": {
+        "kind": "ITEM",
+        "id": "create:industrial_iron_block"
+      },
+      "cell_3_2": {
+        "kind": "ITEM",
+        "id": "tfmg:heavy_plate"
+      }
+    },
+    "params": {
+      "gridW": "3",
+      "gridH": "4"
+    }
+  },
+  {
+    "uid": "b6771dab-e4ff-5773-be94-db17f5dbc7ae",
+    "type": "kjsgen:shaped",
+    "recipeId": "industrial_colonies:authoring_review/aeronautics/propeller_bearing",
+    "group": "Rebalanced progression / aeronautics",
+    "comment": "Propeller support reuses a genuine mechanical bearing and steel guide axis, enclosed in light aluminum plates/frame. No arbitrary wooden slab or late electronics on a passive bearing. Exact registered items only; plates/sheets/rods remain distinct, Heavy Plate never substitutes for Steel Plate. Explicit user-requested whole visible review redesign; pending review, not gameplay export.",
+    "replaceRecipe": false,
+    "slots": {
+      "output": {
+        "kind": "ITEM",
+        "id": "aeronautics:propeller_bearing"
+      },
+      "in1": {
+        "kind": "ITEM",
+        "id": "create:shaft"
+      },
+      "in3": {
+        "kind": "ITEM",
+        "id": "immersiveengineering:stick_steel"
+      },
+      "in4": {
+        "kind": "ITEM",
+        "id": "create:mechanical_bearing"
+      },
+      "in5": {
+        "kind": "ITEM",
+        "id": "immersiveengineering:stick_steel"
+      },
+      "in6": {
+        "kind": "ITEM",
+        "id": "tfmg:aluminum_sheet"
+      },
+      "in7": {
+        "kind": "ITEM",
+        "id": "tfmg:aluminum_frame"
+      },
+      "in8": {
+        "kind": "ITEM",
+        "id": "tfmg:aluminum_sheet"
+      }
+    },
+    "params": {}
+  },
+  {
+    "uid": "69949bf8-1a11-53e4-b37f-40af4c1ea182",
+    "type": "kjsgen:create_sequenced_assembly",
+    "recipeId": "industrial_colonies:authoring_review/aeronautics/smart_propeller",
+    "group": "Rebalanced progression / aeronautics",
+    "comment": "Balanced propeller control unit assembled onto its real bearing: board and wiring first, gyro/alignment feedback, propeller and aluminum guard, then seat. Supports physical function without a random pile of expensive processors. Exact registered items only; plates/sheets/rods remain distinct, Heavy Plate never substitutes for Steel Plate. Explicit user-requested whole visible review redesign; pending review, not gameplay export.",
+    "replaceRecipe": false,
+    "slots": {
+      "input": {
+        "kind": "ITEM",
+        "id": "aeronautics:propeller_bearing"
+      },
+      "transitional": {
+        "kind": "ITEM",
+        "id": "aeronautics:smart_propeller"
+      },
+      "output0": {
+        "kind": "ITEM",
+        "id": "aeronautics:smart_propeller"
+      },
+      "__machine_step_0_deploying": {
+        "kind": "ITEM",
+        "id": "createcasing:brass_deployer"
+      },
+      "seqItem0": {
+        "kind": "ITEM",
+        "id": "tfmg:circuit_board"
+      },
+      "__machine_step_1_deploying": {
+        "kind": "ITEM",
+        "id": "createcasing:brass_deployer"
+      },
+      "seqItem1": {
+        "kind": "ITEM",
+        "id": "tfmg:copper_wire"
+      },
+      "__machine_step_2_deploying": {
+        "kind": "ITEM",
+        "id": "createcasing:railway_deployer"
+      },
+      "seqItem2": {
+        "kind": "ITEM",
+        "id": "simulated:gyroscopic_mechanism"
+      },
+      "__machine_step_3_deploying": {
+        "kind": "ITEM",
+        "id": "createcasing:railway_deployer"
+      },
+      "seqItem3": {
+        "kind": "ITEM",
+        "id": "simulated:optical_sensor"
+      },
+      "__machine_step_4_deploying": {
+        "kind": "ITEM",
+        "id": "createcasing:brass_deployer"
+      },
+      "seqItem4": {
+        "kind": "ITEM",
+        "id": "create:propeller"
+      },
+      "__machine_step_5_deploying": {
+        "kind": "ITEM",
+        "id": "createcasing:brass_deployer"
+      },
+      "seqItem5": {
+        "kind": "ITEM",
+        "id": "tfmg:aluminum_sheet"
+      },
+      "__machine_step_6_pressing": {
+        "kind": "ITEM",
+        "id": "createcasing:railway_press"
+      }
+    },
+    "params": {
+      "loops": "1",
+      "__seqLen": "7",
+      "seq0": "deploying",
+      "seq1": "deploying",
+      "seq2": "deploying",
+      "seq3": "deploying",
+      "seq4": "deploying",
+      "seq5": "deploying",
+      "seq6": "pressing"
+    }
+  },
+  {
+    "uid": "24763231-451a-55c9-82d4-f0d8bc87f96a",
+    "type": "kjsgen:create_sequenced_assembly",
+    "recipeId": "industrial_colonies:authoring_review/createcasing/crafting/depot/shadow_steel",
+    "group": "Rebalanced progression / createcasing",
+    "comment": "Endgame precision work platform: carbide work surface and Shadow Steel skin on an existing depot, optical workpiece check and computing interlock with signal wiring. No duplicate Allthemodium support cost or forced full deployer ingredient. Exact registered items only; plates/sheets/rods remain distinct, Heavy Plate never substitutes for Steel Plate. Explicit user-requested whole visible review redesign; pending review, not gameplay export.",
+    "replaceRecipe": false,
+    "slots": {
+      "input": {
+        "kind": "ITEM",
+        "id": "create:depot"
+      },
+      "transitional": {
+        "kind": "ITEM",
+        "id": "createcasing:shadow_steel_depot"
+      },
+      "output0": {
+        "kind": "ITEM",
+        "id": "createcasing:shadow_steel_depot"
+      },
+      "__machine_step_0_deploying": {
+        "kind": "ITEM",
+        "id": "createcasing:refined_radiance_deployer"
+      },
+      "seqItem0": {
+        "kind": "ITEM",
+        "id": "industrial_colonies:material_parts/tungsten_carbide_plate"
+      },
+      "__machine_step_1_deploying": {
+        "kind": "ITEM",
+        "id": "createcasing:refined_radiance_deployer"
+      },
+      "seqItem1": {
+        "kind": "ITEM",
+        "id": "create:shadow_steel"
+      },
+      "__machine_step_2_pressing": {
+        "kind": "ITEM",
+        "id": "createcasing:refined_radiance_press"
+      },
+      "__machine_step_3_deploying": {
+        "kind": "ITEM",
+        "id": "createcasing:railway_deployer"
+      },
+      "seqItem3": {
+        "kind": "ITEM",
+        "id": "simulated:optical_sensor"
+      },
+      "__machine_step_4_deploying": {
+        "kind": "ITEM",
+        "id": "createcasing:refined_radiance_deployer"
+      },
+      "seqItem4": {
+        "kind": "ITEM",
+        "id": "createmechanisms:computing_mechanism"
+      },
+      "__machine_step_5_deploying": {
+        "kind": "ITEM",
+        "id": "createcasing:railway_deployer"
+      },
+      "seqItem5": {
+        "kind": "ITEM",
+        "id": "immersiveengineering:wire_electrum"
+      },
+      "__machine_step_6_pressing": {
+        "kind": "ITEM",
+        "id": "createcasing:refined_radiance_press"
+      }
+    },
+    "params": {
+      "loops": "1",
+      "__seqLen": "7",
+      "seq0": "deploying",
+      "seq1": "deploying",
+      "seq2": "pressing",
+      "seq3": "deploying",
+      "seq4": "deploying",
+      "seq5": "deploying",
+      "seq6": "pressing"
+    }
+  },
+  {
+    "uid": "67f9b3d0-5f7b-5964-8cca-99e5219565ba",
+    "type": "kjsgen:create_mechanical_crafting",
+    "recipeId": "industrial_colonies:authoring_review/createcasing/crafting/encased_fan/shadow_steel",
+    "group": "Rebalanced progression / createcasing",
+    "comment": "High-tier fan keeps its real impeller/shaft airflow path. Tungsten hot faces and Shadow Steel enclosure surround controlled speed electronics instead of merely swapping a cheap casing. No generated gears. Exact registered items only; plates/sheets/rods remain distinct, Heavy Plate never substitutes for Steel Plate. Explicit user-requested whole visible review redesign; pending review, not gameplay export.",
+    "replaceRecipe": false,
+    "slots": {
+      "output": {
+        "kind": "ITEM",
+        "id": "createcasing:shadow_steel_encased_fan"
+      },
+      "cell_0_1": {
+        "kind": "ITEM",
+        "id": "create:propeller"
+      },
+      "cell_1_0": {
+        "kind": "ITEM",
+        "id": "industrial_colonies:material_parts/tungsten_plate"
+      },
+      "cell_1_1": {
+        "kind": "ITEM",
+        "id": "create:encased_fan"
+      },
+      "cell_1_2": {
+        "kind": "ITEM",
+        "id": "industrial_colonies:material_parts/tungsten_plate"
+      },
+      "cell_2_0": {
+        "kind": "ITEM",
+        "id": "immersiveengineering:wire_electrum"
+      },
+      "cell_2_1": {
+        "kind": "ITEM",
+        "id": "createmechanisms:computing_mechanism"
+      },
+      "cell_2_2": {
+        "kind": "ITEM",
+        "id": "immersiveengineering:wire_electrum"
+      },
+      "cell_3_0": {
+        "kind": "ITEM",
+        "id": "create:shadow_steel"
+      },
+      "cell_3_1": {
+        "kind": "ITEM",
+        "id": "create:shaft"
+      },
+      "cell_3_2": {
+        "kind": "ITEM",
+        "id": "create:shadow_steel"
+      }
+    },
+    "params": {
+      "gridW": "3",
+      "gridH": "4"
+    }
+  },
+  {
+    "uid": "123a7a3b-437d-5dd3-9c86-3399fe309724",
+    "type": "kjsgen:create_mechanical_crafting",
+    "recipeId": "industrial_colonies:authoring_review/industrial_colonies/machine_inventory/industrial_colonies/station_services_controller",
+    "group": "Rebalanced progression / industrial_colonies",
+    "comment": "Station utility interlock: one oxygen service device and advanced computer supervise wired engineering/control boards, paired voltage regulation and coolant valve in a titanium/aluminum panel. Removes planet-specific navigation computer, Ultimate Energy Cube and gravity-machine charges from a service controller. Exact registered items only; plates/sheets/rods remain distinct, Heavy Plate never substitutes for Steel Plate. Explicit user-requested whole visible review redesign; pending review, not gameplay export.",
+    "replaceRecipe": false,
+    "slots": {
+      "output": {
+        "kind": "ITEM",
+        "id": "industrial_colonies:station_services_controller"
+      },
+      "cell_0_0": {
+        "kind": "ITEM",
+        "id": "minecraft:glass_pane"
+      },
+      "cell_0_2": {
+        "kind": "ITEM",
+        "id": "ad_astra:oxygen_distributor"
+      },
+      "cell_0_4": {
+        "kind": "ITEM",
+        "id": "minecraft:glass_pane"
+      },
+      "cell_1_0": {
+        "kind": "ITEM",
+        "id": "immersiveengineering:wire_electrum"
+      },
+      "cell_1_2": {
+        "kind": "ITEM",
+        "id": "computercraft:computer_advanced"
+      },
+      "cell_1_4": {
+        "kind": "ITEM",
+        "id": "immersiveengineering:wire_electrum"
+      },
+      "cell_2_0": {
+        "kind": "ITEM",
+        "id": "tfmg:plastic_sheet"
+      },
+      "cell_2_1": {
+        "kind": "ITEM",
+        "id": "tfmg:circuit_board"
+      },
+      "cell_2_2": {
+        "kind": "ITEM",
+        "id": "ae2:engineering_processor"
+      },
+      "cell_2_3": {
+        "kind": "ITEM",
+        "id": "tfmg:circuit_board"
+      },
+      "cell_2_4": {
+        "kind": "ITEM",
+        "id": "tfmg:plastic_sheet"
+      },
+      "cell_3_0": {
+        "kind": "ITEM",
+        "id": "electroenergetics:voltage_regulator"
+      },
+      "cell_3_2": {
+        "kind": "ITEM",
+        "id": "tfmg:aluminum_frame"
+      },
+      "cell_3_4": {
+        "kind": "ITEM",
+        "id": "electroenergetics:voltage_regulator"
+      },
+      "cell_4_0": {
+        "kind": "ITEM",
+        "id": "rocketnautics:titanium_alloy_sheet"
+      },
+      "cell_4_1": {
+        "kind": "ITEM",
+        "id": "rocketnautics:titanium_alloy_sheet"
+      },
+      "cell_4_2": {
+        "kind": "ITEM",
+        "id": "tfmg:steel_fluid_valve"
+      },
+      "cell_4_3": {
+        "kind": "ITEM",
+        "id": "rocketnautics:titanium_alloy_sheet"
+      },
+      "cell_4_4": {
+        "kind": "ITEM",
+        "id": "rocketnautics:titanium_alloy_sheet"
+      }
+    },
+    "params": {
+      "gridW": "5",
+      "gridH": "5"
+    }
+  },
+  {
+    "uid": "29c734a1-2034-5d85-b072-c031a659a0c7",
+    "type": "kjsgen:shaped",
+    "recipeId": "industrial_colonies:authoring_review/nuclearcraft/basic_lithium_ion_battery",
+    "group": "Rebalanced progression / nuclearcraft",
+    "comment": "Chemistry-specific basic lithium ion battery: one lower-tier battery/pile (or initial active cell), matched electrode material, two collector contacts, current bus and regulation inside material-matched formed casing. No threefold lower-unit inflation or superconducting magnet coil on every battery. Exact registered items only; plates/sheets/rods remain distinct, Heavy Plate never substitutes for Steel Plate. Explicit user-requested whole visible review redesign; pending review, not gameplay export.",
+    "replaceRecipe": false,
+    "slots": {
+      "output": {
+        "kind": "ITEM",
+        "id": "nuclearcraft:basic_lithium_ion_battery"
+      },
+      "in0": {
+        "kind": "ITEM",
+        "id": "immersiveengineering:plate_lead"
+      },
+      "in1": {
+        "kind": "ITEM",
+        "id": "nuclearcraft:lithium_ion_cell"
+      },
+      "in2": {
+        "kind": "ITEM",
+        "id": "immersiveengineering:plate_lead"
+      },
+      "in3": {
+        "kind": "ITEM",
+        "id": "tfmg:copper_wire"
+      },
+      "in4": {
+        "kind": "ITEM",
+        "id": "nuclearcraft:lithium_ion_cell"
+      },
+      "in5": {
+        "kind": "ITEM",
+        "id": "tfmg:copper_wire"
+      },
+      "in6": {
+        "kind": "ITEM",
+        "id": "nuclearcraft:lithium_manganese_dioxide_ingot"
+      },
+      "in7": {
+        "kind": "ITEM",
+        "id": "tfmg:transistor_item"
+      },
+      "in8": {
+        "kind": "ITEM",
+        "id": "nuclearcraft:lithium_manganese_dioxide_ingot"
+      }
+    },
+    "params": {}
+  },
+  {
+    "uid": "9a84de29-0b03-5d30-acd8-ddd8ad210ab9",
+    "type": "kjsgen:shaped",
+    "recipeId": "industrial_colonies:authoring_review/nuclearcraft/advanced_lithium_ion_battery",
+    "group": "Rebalanced progression / nuclearcraft",
+    "comment": "Chemistry-specific advanced lithium ion battery: one lower-tier battery/pile (or initial active cell), matched electrode material, two collector contacts, current bus and regulation inside material-matched formed casing. No threefold lower-unit inflation or superconducting magnet coil on every battery. Exact registered items only; plates/sheets/rods remain distinct, Heavy Plate never substitutes for Steel Plate. Explicit user-requested whole visible review redesign; pending review, not gameplay export.",
+    "replaceRecipe": false,
+    "slots": {
+      "output": {
+        "kind": "ITEM",
+        "id": "nuclearcraft:advanced_lithium_ion_battery"
+      },
+      "in0": {
+        "kind": "ITEM",
+        "id": "immersiveengineering:plate_aluminum"
+      },
+      "in1": {
+        "kind": "ITEM",
+        "id": "nuclearcraft:lithium_ion_cell"
+      },
+      "in2": {
+        "kind": "ITEM",
+        "id": "immersiveengineering:plate_aluminum"
+      },
+      "in3": {
+        "kind": "ITEM",
+        "id": "immersiveengineering:wire_electrum"
+      },
+      "in4": {
+        "kind": "ITEM",
+        "id": "nuclearcraft:basic_lithium_ion_battery"
+      },
+      "in5": {
+        "kind": "ITEM",
+        "id": "immersiveengineering:wire_electrum"
+      },
+      "in6": {
+        "kind": "ITEM",
+        "id": "nuclearcraft:lithium_manganese_dioxide_ingot"
+      },
+      "in7": {
+        "kind": "ITEM",
+        "id": "tfmg:transistor_item"
+      },
+      "in8": {
+        "kind": "ITEM",
+        "id": "nuclearcraft:lithium_manganese_dioxide_ingot"
+      }
+    },
+    "params": {}
+  },
+  {
+    "uid": "d093b3bf-febd-5aa7-a105-a68d2809b1b2",
+    "type": "kjsgen:shaped",
+    "recipeId": "industrial_colonies:authoring_review/nuclearcraft/du_lithium_ion_battery",
+    "group": "Rebalanced progression / nuclearcraft",
+    "comment": "Chemistry-specific du lithium ion battery: one lower-tier battery/pile (or initial active cell), matched electrode material, two collector contacts, current bus and regulation inside material-matched formed casing. No threefold lower-unit inflation or superconducting magnet coil on every battery. Exact registered items only; plates/sheets/rods remain distinct, Heavy Plate never substitutes for Steel Plate. Explicit user-requested whole visible review redesign; pending review, not gameplay export.",
+    "replaceRecipe": false,
+    "slots": {
+      "output": {
+        "kind": "ITEM",
+        "id": "nuclearcraft:du_lithium_ion_battery"
+      },
+      "in0": {
+        "kind": "ITEM",
+        "id": "industrial_colonies:material_parts/hsla_steel_plate"
+      },
+      "in1": {
+        "kind": "ITEM",
+        "id": "nuclearcraft:lithium_ion_cell"
+      },
+      "in2": {
+        "kind": "ITEM",
+        "id": "industrial_colonies:material_parts/hsla_steel_plate"
+      },
+      "in3": {
+        "kind": "ITEM",
+        "id": "immersiveengineering:wire_electrum"
+      },
+      "in4": {
+        "kind": "ITEM",
+        "id": "nuclearcraft:advanced_lithium_ion_battery"
+      },
+      "in5": {
+        "kind": "ITEM",
+        "id": "immersiveengineering:wire_electrum"
+      },
+      "in6": {
+        "kind": "ITEM",
+        "id": "nuclearcraft:lithium_manganese_dioxide_ingot"
+      },
+      "in7": {
+        "kind": "ITEM",
+        "id": "electroenergetics:voltage_regulator"
+      },
+      "in8": {
+        "kind": "ITEM",
+        "id": "nuclearcraft:lithium_manganese_dioxide_ingot"
+      }
+    },
+    "params": {}
+  },
+  {
+    "uid": "5e14a204-8090-580a-bde0-0c0534d63759",
+    "type": "kjsgen:shaped",
+    "recipeId": "industrial_colonies:authoring_review/nuclearcraft/elite_lithium_ion_battery",
+    "group": "Rebalanced progression / nuclearcraft",
+    "comment": "Chemistry-specific elite lithium ion battery: one lower-tier battery/pile (or initial active cell), matched electrode material, two collector contacts, current bus and regulation inside material-matched formed casing. No threefold lower-unit inflation or superconducting magnet coil on every battery. Exact registered items only; plates/sheets/rods remain distinct, Heavy Plate never substitutes for Steel Plate. Explicit user-requested whole visible review redesign; pending review, not gameplay export.",
+    "replaceRecipe": false,
+    "slots": {
+      "output": {
+        "kind": "ITEM",
+        "id": "nuclearcraft:elite_lithium_ion_battery"
+      },
+      "in0": {
+        "kind": "ITEM",
+        "id": "industrial_colonies:material_parts/cobalt_plate"
+      },
+      "in1": {
+        "kind": "ITEM",
+        "id": "nuclearcraft:lithium_ion_cell"
+      },
+      "in2": {
+        "kind": "ITEM",
+        "id": "industrial_colonies:material_parts/cobalt_plate"
+      },
+      "in3": {
+        "kind": "ITEM",
+        "id": "immersiveengineering:wire_electrum"
+      },
+      "in4": {
+        "kind": "ITEM",
+        "id": "nuclearcraft:du_lithium_ion_battery"
+      },
+      "in5": {
+        "kind": "ITEM",
+        "id": "immersiveengineering:wire_electrum"
+      },
+      "in6": {
+        "kind": "ITEM",
+        "id": "nuclearcraft:lithium_manganese_dioxide_ingot"
+      },
+      "in7": {
+        "kind": "ITEM",
+        "id": "electroenergetics:voltage_regulator"
+      },
+      "in8": {
+        "kind": "ITEM",
+        "id": "nuclearcraft:lithium_manganese_dioxide_ingot"
+      }
+    },
+    "params": {}
+  },
+  {
+    "uid": "c0e8b0db-95f3-55ae-ace8-048047297270",
+    "type": "kjsgen:shaped",
+    "recipeId": "industrial_colonies:authoring_review/nuclearcraft/basic_voltaic_pile",
+    "group": "Rebalanced progression / nuclearcraft",
+    "comment": "Chemistry-specific basic voltaic pile: one lower-tier battery/pile (or initial active cell), matched electrode material, two collector contacts, current bus and regulation inside material-matched formed casing. No threefold lower-unit inflation or superconducting magnet coil on every battery. Exact registered items only; plates/sheets/rods remain distinct, Heavy Plate never substitutes for Steel Plate. Explicit user-requested whole visible review redesign; pending review, not gameplay export.",
+    "replaceRecipe": false,
+    "slots": {
+      "output": {
+        "kind": "ITEM",
+        "id": "nuclearcraft:basic_voltaic_pile"
+      },
+      "in0": {
+        "kind": "ITEM",
+        "id": "immersiveengineering:plate_lead"
+      },
+      "in1": {
+        "kind": "ITEM",
+        "id": "createmetallurgy:graphite"
+      },
+      "in2": {
+        "kind": "ITEM",
+        "id": "immersiveengineering:plate_lead"
+      },
+      "in3": {
+        "kind": "ITEM",
+        "id": "tfmg:copper_wire"
+      },
+      "in4": {
+        "kind": "ITEM",
+        "id": "nuclearcraft:magnesium_ingot"
+      },
+      "in5": {
+        "kind": "ITEM",
+        "id": "tfmg:copper_wire"
+      },
+      "in6": {
+        "kind": "ITEM",
+        "id": "nuclearcraft:magnesium_ingot"
+      },
+      "in7": {
+        "kind": "ITEM",
+        "id": "tfmg:transistor_item"
+      },
+      "in8": {
+        "kind": "ITEM",
+        "id": "nuclearcraft:magnesium_ingot"
+      }
+    },
+    "params": {}
+  },
+  {
+    "uid": "44cc9965-cbb4-59ed-89b3-f326cc23be06",
+    "type": "kjsgen:shaped",
+    "recipeId": "industrial_colonies:authoring_review/nuclearcraft/du_voltaic_pile",
+    "group": "Rebalanced progression / nuclearcraft",
+    "comment": "Chemistry-specific du voltaic pile: one lower-tier battery/pile (or initial active cell), matched electrode material, two collector contacts, current bus and regulation inside material-matched formed casing. No threefold lower-unit inflation or superconducting magnet coil on every battery. Exact registered items only; plates/sheets/rods remain distinct, Heavy Plate never substitutes for Steel Plate. Explicit user-requested whole visible review redesign; pending review, not gameplay export.",
+    "replaceRecipe": false,
+    "slots": {
+      "output": {
+        "kind": "ITEM",
+        "id": "nuclearcraft:du_voltaic_pile"
+      },
+      "in0": {
+        "kind": "ITEM",
+        "id": "industrial_colonies:material_parts/hsla_steel_plate"
+      },
+      "in1": {
+        "kind": "ITEM",
+        "id": "createmetallurgy:graphite"
+      },
+      "in2": {
+        "kind": "ITEM",
+        "id": "industrial_colonies:material_parts/hsla_steel_plate"
+      },
+      "in3": {
+        "kind": "ITEM",
+        "id": "immersiveengineering:wire_electrum"
+      },
+      "in4": {
+        "kind": "ITEM",
+        "id": "nuclearcraft:advanced_voltaic_pile"
+      },
+      "in5": {
+        "kind": "ITEM",
+        "id": "immersiveengineering:wire_electrum"
+      },
+      "in6": {
+        "kind": "ITEM",
+        "id": "nuclearcraft:magnesium_ingot"
+      },
+      "in7": {
+        "kind": "ITEM",
+        "id": "electroenergetics:voltage_regulator"
+      },
+      "in8": {
+        "kind": "ITEM",
+        "id": "nuclearcraft:magnesium_ingot"
+      }
+    },
+    "params": {}
+  },
+  {
+    "uid": "45f891bb-fecb-5e26-ab51-8ab2cf7f7718",
+    "type": "kjsgen:shaped",
+    "recipeId": "industrial_colonies:authoring_review/nuclearcraft/elite_voltaic_pile",
+    "group": "Rebalanced progression / nuclearcraft",
+    "comment": "Chemistry-specific elite voltaic pile: one lower-tier battery/pile (or initial active cell), matched electrode material, two collector contacts, current bus and regulation inside material-matched formed casing. No threefold lower-unit inflation or superconducting magnet coil on every battery. Exact registered items only; plates/sheets/rods remain distinct, Heavy Plate never substitutes for Steel Plate. Explicit user-requested whole visible review redesign; pending review, not gameplay export.",
+    "replaceRecipe": false,
+    "slots": {
+      "output": {
+        "kind": "ITEM",
+        "id": "nuclearcraft:elite_voltaic_pile"
+      },
+      "in0": {
+        "kind": "ITEM",
+        "id": "industrial_colonies:material_parts/cobalt_plate"
+      },
+      "in1": {
+        "kind": "ITEM",
+        "id": "createmetallurgy:graphite"
+      },
+      "in2": {
+        "kind": "ITEM",
+        "id": "industrial_colonies:material_parts/cobalt_plate"
+      },
+      "in3": {
+        "kind": "ITEM",
+        "id": "immersiveengineering:wire_electrum"
+      },
+      "in4": {
+        "kind": "ITEM",
+        "id": "nuclearcraft:du_voltaic_pile"
+      },
+      "in5": {
+        "kind": "ITEM",
+        "id": "immersiveengineering:wire_electrum"
+      },
+      "in6": {
+        "kind": "ITEM",
+        "id": "nuclearcraft:magnesium_ingot"
+      },
+      "in7": {
+        "kind": "ITEM",
+        "id": "electroenergetics:voltage_regulator"
+      },
+      "in8": {
+        "kind": "ITEM",
+        "id": "nuclearcraft:magnesium_ingot"
+      }
+    },
+    "params": {}
+  },
+  {
+    "uid": "16bdf587-5390-57f2-8dad-1998577b61ca",
+    "type": "kjsgen:shaped",
+    "recipeId": "industrial_colonies:authoring_review/nuclearcraft/fission_reactor_designer",
+    "group": "Rebalanced progression / nuclearcraft",
+    "comment": "Reactor-design instrument: analyzer/optical diagnostics on a genuine aluminum frame with paired circuit boards and zirconium equipment supports. It is a computerized design tool, not a block made from four retired Basic Plating sheets. Exact registered items only; plates/sheets/rods remain distinct, Heavy Plate never substitutes for Steel Plate. Explicit user-requested whole visible review redesign; pending review, not gameplay export.",
+    "replaceRecipe": false,
+    "slots": {
+      "output": {
+        "kind": "ITEM",
+        "id": "nuclearcraft:fission_reactor_designer"
+      },
+      "in0": {
+        "kind": "ITEM",
+        "id": "nuclearcraft:fission_reactor_glass"
+      },
+      "in1": {
+        "kind": "ITEM",
+        "id": "simulated:optical_sensor"
+      },
+      "in2": {
+        "kind": "ITEM",
+        "id": "nuclearcraft:fission_reactor_glass"
+      },
+      "in3": {
+        "kind": "ITEM",
+        "id": "tfmg:circuit_board"
+      },
+      "in4": {
+        "kind": "ITEM",
+        "id": "nuclearcraft:analyzer"
+      },
+      "in5": {
+        "kind": "ITEM",
+        "id": "tfmg:circuit_board"
+      },
+      "in6": {
+        "kind": "ITEM",
+        "id": "industrial_colonies:material_parts/zirconium_plate"
+      },
+      "in7": {
+        "kind": "ITEM",
+        "id": "tfmg:aluminum_frame"
+      },
+      "in8": {
+        "kind": "ITEM",
+        "id": "industrial_colonies:material_parts/zirconium_plate"
+      }
+    },
+    "params": {}
+  },
+  {
+    "uid": "ae922e10-2eb9-5940-aff8-bc30ac9f61b3",
+    "type": "kjsgen:shaped",
+    "recipeId": "industrial_colonies:authoring_review/nuclearcraft/fission_reactor_glass",
+    "group": "Rebalanced progression / nuclearcraft",
+    "comment": "Shielded reactor window: lead-graphite edge supports and ordinary glass form four repeated windows per batch. No whole fission casing consumed per individual pane. Exact registered items only; plates/sheets/rods remain distinct, Heavy Plate never substitutes for Steel Plate. Explicit user-requested whole visible review redesign; pending review, not gameplay export.",
+    "replaceRecipe": false,
+    "slots": {
+      "output": {
+        "kind": "ITEM",
+        "id": "nuclearcraft:fission_reactor_glass",
+        "count": 4
+      },
+      "in0": {
+        "kind": "ITEM",
+        "id": "industrial_colonies:material_parts/lead_graphite_composite_plate"
+      },
+      "in1": {
+        "kind": "ITEM",
+        "id": "minecraft:glass"
+      },
+      "in2": {
+        "kind": "ITEM",
+        "id": "industrial_colonies:material_parts/lead_graphite_composite_plate"
+      },
+      "in3": {
+        "kind": "ITEM",
+        "id": "minecraft:glass"
+      },
+      "in5": {
+        "kind": "ITEM",
+        "id": "minecraft:glass"
+      },
+      "in6": {
+        "kind": "ITEM",
+        "id": "industrial_colonies:material_parts/lead_graphite_composite_plate"
+      },
+      "in7": {
+        "kind": "ITEM",
+        "id": "minecraft:glass"
+      },
+      "in8": {
+        "kind": "ITEM",
+        "id": "industrial_colonies:material_parts/lead_graphite_composite_plate"
+      }
+    },
+    "params": {}
+  },
+  {
+    "uid": "51c53108-9043-55cf-b215-0b04110d394d",
+    "type": "kjsgen:create_sequenced_assembly",
+    "recipeId": "industrial_colonies:authoring_review/nuclearcraft/fission_reactor_solid_fuel_cell",
+    "group": "Rebalanced progression / nuclearcraft",
+    "comment": "Form the zirconium channel first, install reactor-glass inspection section and two Zircaloy supports, then seat the solid-fuel holder. No ordinary-glass/ingot ring; no spent fuel required to build its own first cell. Exact registered items only; plates/sheets/rods remain distinct, Heavy Plate never substitutes for Steel Plate. Explicit user-requested whole visible review redesign; pending review, not gameplay export.",
+    "replaceRecipe": false,
+    "slots": {
+      "input": {
+        "kind": "ITEM",
+        "id": "industrial_colonies:material_parts/zirconium_plate"
+      },
+      "transitional": {
+        "kind": "ITEM",
+        "id": "nuclearcraft:fission_reactor_solid_fuel_cell"
+      },
+      "output0": {
+        "kind": "ITEM",
+        "id": "nuclearcraft:fission_reactor_solid_fuel_cell"
+      },
+      "__machine_step_0_cutting": {
+        "kind": "ITEM",
+        "id": "createcasing:industrial_iron_mechanical_saw"
+      },
+      "__machine_step_1_deploying": {
+        "kind": "ITEM",
+        "id": "createcasing:industrial_iron_deployer"
+      },
+      "seqItem1": {
+        "kind": "ITEM",
+        "id": "nuclearcraft:fission_reactor_glass"
+      },
+      "__machine_step_2_deploying": {
+        "kind": "ITEM",
+        "id": "createcasing:industrial_iron_deployer"
+      },
+      "seqItem2": {
+        "kind": "ITEM",
+        "id": "industrial_colonies:material_parts/zircaloy_rod"
+      },
+      "__machine_step_3_deploying": {
+        "kind": "ITEM",
+        "id": "createcasing:industrial_iron_deployer"
+      },
+      "seqItem3": {
+        "kind": "ITEM",
+        "id": "industrial_colonies:material_parts/zircaloy_rod"
+      },
+      "__machine_step_4_pressing": {
+        "kind": "ITEM",
+        "id": "createcasing:industrial_iron_press"
+      }
+    },
+    "params": {
+      "loops": "1",
+      "__seqLen": "5",
+      "seq0": "cutting",
+      "seq1": "deploying",
+      "seq2": "deploying",
+      "seq3": "deploying",
+      "seq4": "pressing"
+    }
+  },
+  {
+    "uid": "300b24dd-4aa2-55de-8b28-5366b67792a6",
+    "type": "kjsgen:create_mechanical_crafting",
+    "recipeId": "industrial_colonies:authoring_review/nuclearcraft/fuel_reprocessor",
+    "group": "Rebalanced progression / nuclearcraft",
+    "comment": "Preserve the user-liked5x5Fuel Reprocessor structure and all working hardware. Upgrade its four shield corners to accepted Advanced Plating and replace only lower insulating edge slots with paired Advanced Control Circuits. These formed-composite/control prerequisites strengthen the fabrication tier without requiring spent fuel or an earlier operating reactor. No layout redesign. Exact registered items only; plates/sheets/rods remain distinct, Heavy Plate never substitutes for Steel Plate. Explicit user-requested whole visible review redesign; pending review, not gameplay export.",
+    "replaceRecipe": false,
+    "slots": {
+      "output": {
+        "kind": "ITEM",
+        "id": "nuclearcraft:fuel_reprocessor"
+      },
+      "cell_0_0": {
+        "kind": "ITEM",
+        "id": "nuclearcraft:plate_advanced"
+      },
+      "cell_0_1": {
+        "kind": "ITEM",
+        "id": "industrial_colonies:material_parts/zircaloy_plate"
+      },
+      "cell_0_2": {
+        "kind": "ITEM",
+        "id": "nuclearcraft:fission_reactor_glass"
+      },
+      "cell_0_3": {
+        "kind": "ITEM",
+        "id": "industrial_colonies:material_parts/zircaloy_plate"
+      },
+      "cell_0_4": {
+        "kind": "ITEM",
+        "id": "nuclearcraft:plate_advanced"
+      },
+      "cell_1_0": {
+        "kind": "ITEM",
+        "id": "tfmg:plastic_sheet"
+      },
+      "cell_1_1": {
+        "kind": "ITEM",
+        "id": "tfmg:steel_fluid_valve"
+      },
+      "cell_1_2": {
+        "kind": "ITEM",
+        "id": "tfmg:circuit_board"
+      },
+      "cell_1_3": {
+        "kind": "ITEM",
+        "id": "tfmg:steel_fluid_valve"
+      },
+      "cell_1_4": {
+        "kind": "ITEM",
+        "id": "tfmg:plastic_sheet"
+      },
+      "cell_2_0": {
+        "kind": "ITEM",
+        "id": "industrial_colonies:material_parts/zircaloy_plate"
+      },
+      "cell_2_1": {
+        "kind": "ITEM",
+        "id": "nuclearcraft:servo"
+      },
+      "cell_2_2": {
+        "kind": "ITEM",
+        "id": "tfmg:steel_frame"
+      },
+      "cell_2_3": {
+        "kind": "ITEM",
+        "id": "nuclearcraft:servo"
+      },
+      "cell_2_4": {
+        "kind": "ITEM",
+        "id": "industrial_colonies:material_parts/zircaloy_plate"
+      },
+      "cell_3_0": {
+        "kind": "ITEM",
+        "id": "mekanism:advanced_control_circuit"
+      },
+      "cell_3_1": {
+        "kind": "ITEM",
+        "id": "immersiveengineering:wire_electrum"
+      },
+      "cell_3_2": {
+        "kind": "ITEM",
+        "id": "ae2:engineering_processor"
+      },
+      "cell_3_3": {
+        "kind": "ITEM",
+        "id": "immersiveengineering:wire_electrum"
+      },
+      "cell_3_4": {
+        "kind": "ITEM",
+        "id": "mekanism:advanced_control_circuit"
+      },
+      "cell_4_0": {
+        "kind": "ITEM",
+        "id": "nuclearcraft:plate_advanced"
+      },
+      "cell_4_1": {
+        "kind": "ITEM",
+        "id": "industrial_colonies:material_parts/zircaloy_plate"
+      },
+      "cell_4_2": {
+        "kind": "ITEM",
+        "id": "tfmg:electric_motor"
+      },
+      "cell_4_3": {
+        "kind": "ITEM",
+        "id": "industrial_colonies:material_parts/zircaloy_plate"
+      },
+      "cell_4_4": {
+        "kind": "ITEM",
+        "id": "nuclearcraft:plate_advanced"
+      }
+    },
+    "params": {
+      "gridW": "5",
+      "gridH": "5"
+    }
+  },
+  {
+    "uid": "e3b4d159-3bfe-58a8-a05e-8923b4a056b9",
+    "type": "kjsgen:shaped",
+    "recipeId": "industrial_colonies:authoring_review/nuclearcraft/heat_exchanger_cold_coolant_port",
+    "group": "Rebalanced progression / nuclearcraft",
+    "comment": "Coolant service port: controlled valve, twin servos, heat-exchanger wall and real circulation pump. Nickel formed faces suit its inlet/outlet duty; no cauldron surrounded by unrelated ingots. Exact registered items only; plates/sheets/rods remain distinct, Heavy Plate never substitutes for Steel Plate. Explicit user-requested whole visible review redesign; pending review, not gameplay export.",
+    "replaceRecipe": false,
+    "slots": {
+      "output": {
+        "kind": "ITEM",
+        "id": "nuclearcraft:heat_exchanger_cold_coolant_port"
+      },
+      "in0": {
+        "kind": "ITEM",
+        "id": "industrial_colonies:material_parts/nickel_plate"
+      },
+      "in1": {
+        "kind": "ITEM",
+        "id": "tfmg:steel_fluid_valve"
+      },
+      "in2": {
+        "kind": "ITEM",
+        "id": "industrial_colonies:material_parts/nickel_plate"
+      },
+      "in3": {
+        "kind": "ITEM",
+        "id": "nuclearcraft:servo"
+      },
+      "in4": {
+        "kind": "ITEM",
+        "id": "nuclearcraft:heat_exchanger_casing"
+      },
+      "in5": {
+        "kind": "ITEM",
+        "id": "nuclearcraft:servo"
+      },
+      "in6": {
+        "kind": "ITEM",
+        "id": "industrial_colonies:material_parts/nickel_plate"
+      },
+      "in7": {
+        "kind": "ITEM",
+        "id": "tfmg:steel_mechanical_pump"
+      },
+      "in8": {
+        "kind": "ITEM",
+        "id": "industrial_colonies:material_parts/nickel_plate"
+      }
+    },
+    "params": {}
+  },
+  {
+    "uid": "9db01f49-2558-56c1-a5c0-ad7370e31673",
+    "type": "kjsgen:shaped",
+    "recipeId": "industrial_colonies:authoring_review/nuclearcraft/heat_exchanger_hot_coolant_port",
+    "group": "Rebalanced progression / nuclearcraft",
+    "comment": "Coolant service port: controlled valve, twin servos, heat-exchanger wall and real circulation pump. Zircaloy formed faces suit its inlet/outlet duty; no cauldron surrounded by unrelated ingots. Exact registered items only; plates/sheets/rods remain distinct, Heavy Plate never substitutes for Steel Plate. Explicit user-requested whole visible review redesign; pending review, not gameplay export.",
+    "replaceRecipe": false,
+    "slots": {
+      "output": {
+        "kind": "ITEM",
+        "id": "nuclearcraft:heat_exchanger_hot_coolant_port"
+      },
+      "in0": {
+        "kind": "ITEM",
+        "id": "industrial_colonies:material_parts/zircaloy_plate"
+      },
+      "in1": {
+        "kind": "ITEM",
+        "id": "tfmg:steel_fluid_valve"
+      },
+      "in2": {
+        "kind": "ITEM",
+        "id": "industrial_colonies:material_parts/zircaloy_plate"
+      },
+      "in3": {
+        "kind": "ITEM",
+        "id": "nuclearcraft:servo"
+      },
+      "in4": {
+        "kind": "ITEM",
+        "id": "nuclearcraft:heat_exchanger_casing"
+      },
+      "in5": {
+        "kind": "ITEM",
+        "id": "nuclearcraft:servo"
+      },
+      "in6": {
+        "kind": "ITEM",
+        "id": "industrial_colonies:material_parts/zircaloy_plate"
+      },
+      "in7": {
+        "kind": "ITEM",
+        "id": "tfmg:steel_mechanical_pump"
+      },
+      "in8": {
+        "kind": "ITEM",
+        "id": "industrial_colonies:material_parts/zircaloy_plate"
+      }
+    },
+    "params": {}
+  },
+  {
+    "uid": "711754c7-fc77-5695-9cd6-af13289c3951",
+    "type": "kjsgen:create_mechanical_crafting",
+    "recipeId": "industrial_colonies:authoring_review/nuclearcraft/isotope_separator",
+    "group": "Rebalanced progression / nuclearcraft",
+    "comment": "Shielded isotope separation column: motor-driven spindle between stainless guides, zirconium process faces and steel frame, glass observation, shield caps and wired calculation control. Existing motor/frame function replaces obsolete chassis/basic plate ingredients. Exact registered items only; plates/sheets/rods remain distinct, Heavy Plate never substitutes for Steel Plate. Explicit user-requested whole visible review redesign; pending review, not gameplay export.",
+    "replaceRecipe": false,
+    "slots": {
+      "output": {
+        "kind": "ITEM",
+        "id": "nuclearcraft:isotope_separator"
+      },
+      "cell_0_0": {
+        "kind": "ITEM",
+        "id": "industrial_colonies:material_parts/lead_graphite_composite_plate"
+      },
+      "cell_0_1": {
+        "kind": "ITEM",
+        "id": "nuclearcraft:fission_reactor_glass"
+      },
+      "cell_0_2": {
+        "kind": "ITEM",
+        "id": "industrial_colonies:material_parts/lead_graphite_composite_plate"
+      },
+      "cell_1_0": {
+        "kind": "ITEM",
+        "id": "industrial_colonies:material_parts/stainless_steel_rod"
+      },
+      "cell_1_1": {
+        "kind": "ITEM",
+        "id": "tfmg:electric_motor"
+      },
+      "cell_1_2": {
+        "kind": "ITEM",
+        "id": "industrial_colonies:material_parts/stainless_steel_rod"
+      },
+      "cell_2_0": {
+        "kind": "ITEM",
+        "id": "industrial_colonies:material_parts/zirconium_plate"
+      },
+      "cell_2_1": {
+        "kind": "ITEM",
+        "id": "tfmg:steel_frame"
+      },
+      "cell_2_2": {
+        "kind": "ITEM",
+        "id": "industrial_colonies:material_parts/zirconium_plate"
+      },
+      "cell_3_0": {
+        "kind": "ITEM",
+        "id": "immersiveengineering:wire_electrum"
+      },
+      "cell_3_1": {
+        "kind": "ITEM",
+        "id": "ae2:calculation_processor"
+      },
+      "cell_3_2": {
+        "kind": "ITEM",
+        "id": "immersiveengineering:wire_electrum"
+      }
+    },
+    "params": {
+      "gridW": "3",
+      "gridH": "4"
+    }
+  },
+  {
+    "uid": "52480906-4926-5afa-a0c5-7c9d5ef5c3c0",
+    "type": "kjsgen:create_mechanical_crafting",
+    "recipeId": "industrial_colonies:authoring_review/nuclearcraft/multiblock_builder",
+    "group": "Rebalanced progression / nuclearcraft",
+    "comment": "Construction assistant with analyzer/sensor view, paired Railway placement arms and lightweight aluminum support, driven by wired engineering control. No four basic processors around an obsolete NuclearCraft frame. Exact registered items only; plates/sheets/rods remain distinct, Heavy Plate never substitutes for Steel Plate. Explicit user-requested whole visible review redesign; pending review, not gameplay export.",
+    "replaceRecipe": false,
+    "slots": {
+      "output": {
+        "kind": "ITEM",
+        "id": "nuclearcraft:multiblock_builder"
+      },
+      "cell_0_0": {
+        "kind": "ITEM",
+        "id": "minecraft:glass_pane"
+      },
+      "cell_0_1": {
+        "kind": "ITEM",
+        "id": "nuclearcraft:analyzer"
+      },
+      "cell_0_2": {
+        "kind": "ITEM",
+        "id": "minecraft:glass_pane"
+      },
+      "cell_1_0": {
+        "kind": "ITEM",
+        "id": "createcasing:railway_deployer"
+      },
+      "cell_1_1": {
+        "kind": "ITEM",
+        "id": "simulated:optical_sensor"
+      },
+      "cell_1_2": {
+        "kind": "ITEM",
+        "id": "createcasing:railway_deployer"
+      },
+      "cell_2_0": {
+        "kind": "ITEM",
+        "id": "tfmg:aluminum_sheet"
+      },
+      "cell_2_1": {
+        "kind": "ITEM",
+        "id": "tfmg:aluminum_frame"
+      },
+      "cell_2_2": {
+        "kind": "ITEM",
+        "id": "tfmg:aluminum_sheet"
+      },
+      "cell_3_0": {
+        "kind": "ITEM",
+        "id": "immersiveengineering:wire_electrum"
+      },
+      "cell_3_1": {
+        "kind": "ITEM",
+        "id": "ae2:engineering_processor"
+      },
+      "cell_3_2": {
+        "kind": "ITEM",
+        "id": "immersiveengineering:wire_electrum"
+      }
+    },
+    "params": {
+      "gridW": "3",
+      "gridH": "4"
+    }
+  },
+  {
+    "uid": "c66d4620-8b14-524f-99ad-7daf38ccf199",
+    "type": "industrial_colonies:tfmg_winding",
+    "recipeId": "industrial_colonies:authoring_review/nuclearcraft/turbine_aluminum_coil",
+    "group": "Rebalanced progression / nuclearcraft",
+    "comment": "Wind actual aluminum conductor onto a laminated magnetic core using the installed TFMG Winding Machine. Native spool/workpiece inputs; substantial processing duration. No assumption that foreign or nonexistent spools work in this machine. Exact registered items only; plates/sheets/rods remain distinct, Heavy Plate never substitutes for Steel Plate. Explicit user-requested whole visible review redesign; pending review, not gameplay export.",
+    "replaceRecipe": false,
+    "slots": {
+      "item_input0": {
+        "kind": "ITEM",
+        "id": "tfmg:laminated_magnetic_alloy_block"
+      },
+      "item_input1": {
+        "kind": "ITEM",
+        "id": "tfmg:aluminum_spool"
+      },
+      "item_output0": {
+        "kind": "ITEM",
+        "id": "nuclearcraft:turbine_aluminum_coil"
+      }
+    },
+    "params": {
+      "processingTime": "640"
+    }
+  },
+  {
+    "uid": "5f4553dc-e38b-558c-9f69-d18c3a8269d7",
+    "type": "industrial_colonies:tfmg_winding",
+    "recipeId": "industrial_colonies:balanced_review/nuclearcraft/turbine_copper_coil",
+    "group": "Rebalanced progression / nuclearcraft",
+    "comment": "Wind actual copper conductor onto a laminated magnetic core using the installed TFMG Winding Machine. Native spool/workpiece inputs; substantial processing duration. No assumption that foreign or nonexistent spools work in this machine. Exact registered items only; plates/sheets/rods remain distinct, Heavy Plate never substitutes for Steel Plate. Explicit user-requested whole visible review redesign; pending review, not gameplay export.",
+    "replaceRecipe": false,
+    "slots": {
+      "item_input0": {
+        "kind": "ITEM",
+        "id": "tfmg:laminated_magnetic_alloy_block"
+      },
+      "item_input1": {
+        "kind": "ITEM",
+        "id": "tfmg:copper_spool"
+      },
+      "item_output0": {
+        "kind": "ITEM",
+        "id": "nuclearcraft:turbine_copper_coil"
+      }
+    },
+    "params": {
+      "processingTime": "800"
+    }
+  },
+  {
+    "uid": "88323597-9ee3-5dad-8cf5-897a7f2b9924",
+    "type": "kjsgen:create_sequenced_assembly",
+    "recipeId": "industrial_colonies:authoring_review/nuclearcraft/turbine_gold_coil",
+    "group": "Rebalanced progression / nuclearcraft",
+    "comment": "Gold turbine winding: insulated laminated core, four applications of material-specific conductor stock, stainless retaining sheet and seating press. Uses exact installed conductor form; no nonexistent gold TFMG spool is invented. Rod applications abstract formed winding segments where no wire item exists. Exact registered items only; plates/sheets/rods remain distinct, Heavy Plate never substitutes for Steel Plate. Explicit user-requested whole visible review redesign; pending review, not gameplay export.",
+    "replaceRecipe": false,
+    "slots": {
+      "input": {
+        "kind": "ITEM",
+        "id": "tfmg:laminated_magnetic_alloy_block"
+      },
+      "transitional": {
+        "kind": "ITEM",
+        "id": "nuclearcraft:turbine_gold_coil"
+      },
+      "output0": {
+        "kind": "ITEM",
+        "id": "nuclearcraft:turbine_gold_coil"
+      },
+      "__machine_step_0_deploying": {
+        "kind": "ITEM",
+        "id": "createcasing:brass_deployer"
+      },
+      "seqItem0": {
+        "kind": "ITEM",
+        "id": "tfmg:plastic_sheet"
+      },
+      "__machine_step_1_deploying": {
+        "kind": "ITEM",
+        "id": "createcasing:railway_deployer"
+      },
+      "seqItem1": {
+        "kind": "ITEM",
+        "id": "createaddition:gold_wire"
+      },
+      "__machine_step_2_deploying": {
+        "kind": "ITEM",
+        "id": "createcasing:railway_deployer"
+      },
+      "seqItem2": {
+        "kind": "ITEM",
+        "id": "createaddition:gold_wire"
+      },
+      "__machine_step_3_deploying": {
+        "kind": "ITEM",
+        "id": "createcasing:railway_deployer"
+      },
+      "seqItem3": {
+        "kind": "ITEM",
+        "id": "createaddition:gold_wire"
+      },
+      "__machine_step_4_deploying": {
+        "kind": "ITEM",
+        "id": "createcasing:railway_deployer"
+      },
+      "seqItem4": {
+        "kind": "ITEM",
+        "id": "createaddition:gold_wire"
+      },
+      "__machine_step_5_deploying": {
+        "kind": "ITEM",
+        "id": "createcasing:railway_deployer"
+      },
+      "seqItem5": {
+        "kind": "ITEM",
+        "id": "industrial_colonies:material_parts/stainless_steel_plate"
+      },
+      "__machine_step_6_pressing": {
+        "kind": "ITEM",
+        "id": "createcasing:railway_press"
+      }
+    },
+    "params": {
+      "loops": "1",
+      "__seqLen": "7",
+      "seq0": "deploying",
+      "seq1": "deploying",
+      "seq2": "deploying",
+      "seq3": "deploying",
+      "seq4": "deploying",
+      "seq5": "deploying",
+      "seq6": "pressing"
+    }
+  },
+  {
+    "uid": "1fe120ed-c7d9-5ee3-be3b-79be9f974c4e",
+    "type": "kjsgen:create_sequenced_assembly",
+    "recipeId": "industrial_colonies:authoring_review/nuclearcraft/turbine_silver_coil",
+    "group": "Rebalanced progression / nuclearcraft",
+    "comment": "Silver turbine winding: insulated laminated core, four applications of material-specific conductor stock, stainless retaining sheet and seating press. Uses exact installed conductor form; no nonexistent silver TFMG spool is invented. Rod applications abstract formed winding segments where no wire item exists. Exact registered items only; plates/sheets/rods remain distinct, Heavy Plate never substitutes for Steel Plate. Explicit user-requested whole visible review redesign; pending review, not gameplay export.",
+    "replaceRecipe": false,
+    "slots": {
+      "input": {
+        "kind": "ITEM",
+        "id": "tfmg:laminated_magnetic_alloy_block"
+      },
+      "transitional": {
+        "kind": "ITEM",
+        "id": "nuclearcraft:turbine_silver_coil"
+      },
+      "output0": {
+        "kind": "ITEM",
+        "id": "nuclearcraft:turbine_silver_coil"
+      },
+      "__machine_step_0_deploying": {
+        "kind": "ITEM",
+        "id": "createcasing:brass_deployer"
+      },
+      "seqItem0": {
+        "kind": "ITEM",
+        "id": "tfmg:plastic_sheet"
+      },
+      "__machine_step_1_deploying": {
+        "kind": "ITEM",
+        "id": "createcasing:railway_deployer"
+      },
+      "seqItem1": {
+        "kind": "ITEM",
+        "id": "industrial_colonies:material_parts/silver_rod"
+      },
+      "__machine_step_2_deploying": {
+        "kind": "ITEM",
+        "id": "createcasing:railway_deployer"
+      },
+      "seqItem2": {
+        "kind": "ITEM",
+        "id": "industrial_colonies:material_parts/silver_rod"
+      },
+      "__machine_step_3_deploying": {
+        "kind": "ITEM",
+        "id": "createcasing:railway_deployer"
+      },
+      "seqItem3": {
+        "kind": "ITEM",
+        "id": "industrial_colonies:material_parts/silver_rod"
+      },
+      "__machine_step_4_deploying": {
+        "kind": "ITEM",
+        "id": "createcasing:railway_deployer"
+      },
+      "seqItem4": {
+        "kind": "ITEM",
+        "id": "industrial_colonies:material_parts/silver_rod"
+      },
+      "__machine_step_5_deploying": {
+        "kind": "ITEM",
+        "id": "createcasing:railway_deployer"
+      },
+      "seqItem5": {
+        "kind": "ITEM",
+        "id": "industrial_colonies:material_parts/stainless_steel_plate"
+      },
+      "__machine_step_6_pressing": {
+        "kind": "ITEM",
+        "id": "createcasing:railway_press"
+      }
+    },
+    "params": {
+      "loops": "1",
+      "__seqLen": "7",
+      "seq0": "deploying",
+      "seq1": "deploying",
+      "seq2": "deploying",
+      "seq3": "deploying",
+      "seq4": "deploying",
+      "seq5": "deploying",
+      "seq6": "pressing"
+    }
+  },
+  {
+    "uid": "b9e48062-d118-539e-948d-e7c7b9c0c6ad",
+    "type": "kjsgen:create_sequenced_assembly",
+    "recipeId": "industrial_colonies:authoring_review/nuclearcraft/turbine_magnesium_coil",
+    "group": "Rebalanced progression / nuclearcraft",
+    "comment": "Magnesium turbine winding: insulated laminated core, four applications of material-specific conductor stock, stainless retaining sheet and seating press. Uses exact installed conductor form; no nonexistent magnesium TFMG spool is invented. Rod applications abstract formed winding segments where no wire item exists. Exact registered items only; plates/sheets/rods remain distinct, Heavy Plate never substitutes for Steel Plate. Explicit user-requested whole visible review redesign; pending review, not gameplay export.",
+    "replaceRecipe": false,
+    "slots": {
+      "input": {
+        "kind": "ITEM",
+        "id": "tfmg:laminated_magnetic_alloy_block"
+      },
+      "transitional": {
+        "kind": "ITEM",
+        "id": "nuclearcraft:turbine_magnesium_coil"
+      },
+      "output0": {
+        "kind": "ITEM",
+        "id": "nuclearcraft:turbine_magnesium_coil"
+      },
+      "__machine_step_0_deploying": {
+        "kind": "ITEM",
+        "id": "createcasing:brass_deployer"
+      },
+      "seqItem0": {
+        "kind": "ITEM",
+        "id": "tfmg:plastic_sheet"
+      },
+      "__machine_step_1_deploying": {
+        "kind": "ITEM",
+        "id": "createcasing:railway_deployer"
+      },
+      "seqItem1": {
+        "kind": "ITEM",
+        "id": "industrial_colonies:material_parts/magnesium_rod"
+      },
+      "__machine_step_2_deploying": {
+        "kind": "ITEM",
+        "id": "createcasing:railway_deployer"
+      },
+      "seqItem2": {
+        "kind": "ITEM",
+        "id": "industrial_colonies:material_parts/magnesium_rod"
+      },
+      "__machine_step_3_deploying": {
+        "kind": "ITEM",
+        "id": "createcasing:railway_deployer"
+      },
+      "seqItem3": {
+        "kind": "ITEM",
+        "id": "industrial_colonies:material_parts/magnesium_rod"
+      },
+      "__machine_step_4_deploying": {
+        "kind": "ITEM",
+        "id": "createcasing:railway_deployer"
+      },
+      "seqItem4": {
+        "kind": "ITEM",
+        "id": "industrial_colonies:material_parts/magnesium_rod"
+      },
+      "__machine_step_5_deploying": {
+        "kind": "ITEM",
+        "id": "createcasing:railway_deployer"
+      },
+      "seqItem5": {
+        "kind": "ITEM",
+        "id": "industrial_colonies:material_parts/stainless_steel_plate"
+      },
+      "__machine_step_6_pressing": {
+        "kind": "ITEM",
+        "id": "createcasing:railway_press"
+      }
+    },
+    "params": {
+      "loops": "1",
+      "__seqLen": "7",
+      "seq0": "deploying",
+      "seq1": "deploying",
+      "seq2": "deploying",
+      "seq3": "deploying",
+      "seq4": "deploying",
+      "seq5": "deploying",
+      "seq6": "pressing"
+    }
+  },
+  {
+    "uid": "4b7d6241-c042-5d72-bbdb-f96cfb42296d",
+    "type": "kjsgen:create_sequenced_assembly",
+    "recipeId": "industrial_colonies:authoring_review/nuclearcraft/turbine_beryllium_coil",
+    "group": "Rebalanced progression / nuclearcraft",
+    "comment": "Beryllium turbine winding: insulated laminated core, four applications of material-specific conductor stock, stainless retaining sheet and seating press. Uses exact installed conductor form; no nonexistent beryllium TFMG spool is invented. Rod applications abstract formed winding segments where no wire item exists. Exact registered items only; plates/sheets/rods remain distinct, Heavy Plate never substitutes for Steel Plate. Explicit user-requested whole visible review redesign; pending review, not gameplay export.",
+    "replaceRecipe": false,
+    "slots": {
+      "input": {
+        "kind": "ITEM",
+        "id": "tfmg:laminated_magnetic_alloy_block"
+      },
+      "transitional": {
+        "kind": "ITEM",
+        "id": "nuclearcraft:turbine_beryllium_coil"
+      },
+      "output0": {
+        "kind": "ITEM",
+        "id": "nuclearcraft:turbine_beryllium_coil"
+      },
+      "__machine_step_0_deploying": {
+        "kind": "ITEM",
+        "id": "createcasing:brass_deployer"
+      },
+      "seqItem0": {
+        "kind": "ITEM",
+        "id": "tfmg:plastic_sheet"
+      },
+      "__machine_step_1_deploying": {
+        "kind": "ITEM",
+        "id": "createcasing:railway_deployer"
+      },
+      "seqItem1": {
+        "kind": "ITEM",
+        "id": "industrial_colonies:material_parts/beryllium_rod"
+      },
+      "__machine_step_2_deploying": {
+        "kind": "ITEM",
+        "id": "createcasing:railway_deployer"
+      },
+      "seqItem2": {
+        "kind": "ITEM",
+        "id": "industrial_colonies:material_parts/beryllium_rod"
+      },
+      "__machine_step_3_deploying": {
+        "kind": "ITEM",
+        "id": "createcasing:railway_deployer"
+      },
+      "seqItem3": {
+        "kind": "ITEM",
+        "id": "industrial_colonies:material_parts/beryllium_rod"
+      },
+      "__machine_step_4_deploying": {
+        "kind": "ITEM",
+        "id": "createcasing:railway_deployer"
+      },
+      "seqItem4": {
+        "kind": "ITEM",
+        "id": "industrial_colonies:material_parts/beryllium_rod"
+      },
+      "__machine_step_5_deploying": {
+        "kind": "ITEM",
+        "id": "createcasing:railway_deployer"
+      },
+      "seqItem5": {
+        "kind": "ITEM",
+        "id": "industrial_colonies:material_parts/stainless_steel_plate"
+      },
+      "__machine_step_6_pressing": {
+        "kind": "ITEM",
+        "id": "createcasing:railway_press"
+      }
+    },
+    "params": {
+      "loops": "1",
+      "__seqLen": "7",
+      "seq0": "deploying",
+      "seq1": "deploying",
+      "seq2": "deploying",
+      "seq3": "deploying",
+      "seq4": "deploying",
+      "seq5": "deploying",
+      "seq6": "pressing"
+    }
+  },
+  {
+    "uid": "2a7e49cd-0255-54cc-aa26-3703ba3cc7a2",
+    "type": "kjsgen:create_sequenced_assembly",
+    "recipeId": "industrial_colonies:authoring_review/nuclearcraft/turbine_basic_rotor_blade",
+    "group": "Rebalanced progression / nuclearcraft",
+    "comment": "Profile one basic blade face, fit its stainless root tang, then seat the airfoil. Exact formed plate rather than interchangeable tags; later composite blades require Radiance forming. Exact registered items only; plates/sheets/rods remain distinct, Heavy Plate never substitutes for Steel Plate. Explicit user-requested whole visible review redesign; pending review, not gameplay export.",
+    "replaceRecipe": false,
+    "slots": {
+      "input": {
+        "kind": "ITEM",
+        "id": "immersiveengineering:plate_iron"
+      },
+      "transitional": {
+        "kind": "ITEM",
+        "id": "nuclearcraft:turbine_basic_rotor_blade"
+      },
+      "output0": {
+        "kind": "ITEM",
+        "id": "nuclearcraft:turbine_basic_rotor_blade",
+        "count": 2
+      },
+      "__machine_step_0_cutting": {
+        "kind": "ITEM",
+        "id": "createcasing:industrial_iron_mechanical_saw"
+      },
+      "__machine_step_1_deploying": {
+        "kind": "ITEM",
+        "id": "createcasing:industrial_iron_deployer"
+      },
+      "seqItem1": {
+        "kind": "ITEM",
+        "id": "industrial_colonies:material_parts/stainless_steel_rod"
+      },
+      "__machine_step_2_pressing": {
+        "kind": "ITEM",
+        "id": "createcasing:industrial_iron_press"
+      }
+    },
+    "params": {
+      "loops": "1",
+      "__seqLen": "3",
+      "seq0": "cutting",
+      "seq1": "deploying",
+      "seq2": "pressing"
+    }
+  },
+  {
+    "uid": "221c7eb8-c626-5033-acd6-56e5524be24e",
+    "type": "kjsgen:create_sequenced_assembly",
+    "recipeId": "industrial_colonies:authoring_review/nuclearcraft/turbine_steel_rotor_blade",
+    "group": "Rebalanced progression / nuclearcraft",
+    "comment": "Profile one steel blade face, fit its stainless root tang, then seat the airfoil. Exact formed plate rather than interchangeable tags; later composite blades require Radiance forming. Exact registered items only; plates/sheets/rods remain distinct, Heavy Plate never substitutes for Steel Plate. Explicit user-requested whole visible review redesign; pending review, not gameplay export.",
+    "replaceRecipe": false,
+    "slots": {
+      "input": {
+        "kind": "ITEM",
+        "id": "immersiveengineering:plate_steel"
+      },
+      "transitional": {
+        "kind": "ITEM",
+        "id": "nuclearcraft:turbine_steel_rotor_blade"
+      },
+      "output0": {
+        "kind": "ITEM",
+        "id": "nuclearcraft:turbine_steel_rotor_blade",
+        "count": 2
+      },
+      "__machine_step_0_cutting": {
+        "kind": "ITEM",
+        "id": "createcasing:industrial_iron_mechanical_saw"
+      },
+      "__machine_step_1_deploying": {
+        "kind": "ITEM",
+        "id": "createcasing:industrial_iron_deployer"
+      },
+      "seqItem1": {
+        "kind": "ITEM",
+        "id": "industrial_colonies:material_parts/stainless_steel_rod"
+      },
+      "__machine_step_2_pressing": {
+        "kind": "ITEM",
+        "id": "createcasing:industrial_iron_press"
+      }
+    },
+    "params": {
+      "loops": "1",
+      "__seqLen": "3",
+      "seq0": "cutting",
+      "seq1": "deploying",
+      "seq2": "pressing"
+    }
+  },
+  {
+    "uid": "ca5a0cc8-2fc7-5d98-b76c-78ecbff0006f",
+    "type": "kjsgen:create_sequenced_assembly",
+    "recipeId": "industrial_colonies:authoring_review/nuclearcraft/turbine_extreme_rotor_blade",
+    "group": "Rebalanced progression / nuclearcraft",
+    "comment": "Profile one extreme blade face, fit its stainless root tang, then seat the airfoil. Exact formed plate rather than interchangeable tags; later composite blades require Radiance forming. Exact registered items only; plates/sheets/rods remain distinct, Heavy Plate never substitutes for Steel Plate. Explicit user-requested whole visible review redesign; pending review, not gameplay export.",
+    "replaceRecipe": false,
+    "slots": {
+      "input": {
+        "kind": "ITEM",
+        "id": "nuclearcraft:plate_extreme"
+      },
+      "transitional": {
+        "kind": "ITEM",
+        "id": "nuclearcraft:turbine_extreme_rotor_blade"
+      },
+      "output0": {
+        "kind": "ITEM",
+        "id": "nuclearcraft:turbine_extreme_rotor_blade",
+        "count": 2
+      },
+      "__machine_step_0_cutting": {
+        "kind": "ITEM",
+        "id": "createcasing:refined_radiance_mechanical_saw"
+      },
+      "__machine_step_1_deploying": {
+        "kind": "ITEM",
+        "id": "createcasing:refined_radiance_deployer"
+      },
+      "seqItem1": {
+        "kind": "ITEM",
+        "id": "industrial_colonies:material_parts/stainless_steel_rod"
+      },
+      "__machine_step_2_pressing": {
+        "kind": "ITEM",
+        "id": "createcasing:refined_radiance_press"
+      }
+    },
+    "params": {
+      "loops": "1",
+      "__seqLen": "3",
+      "seq0": "cutting",
+      "seq1": "deploying",
+      "seq2": "pressing"
+    }
+  },
+  {
+    "uid": "2ae7d15f-4f0a-580f-81fd-66d62341b90b",
+    "type": "kjsgen:create_sequenced_assembly",
+    "recipeId": "industrial_colonies:authoring_review/nuclearcraft/turbine_sic_sic_cmc_rotor_blade",
+    "group": "Rebalanced progression / nuclearcraft",
+    "comment": "Profile one sic sic cmc blade face, fit its stainless root tang, then seat the airfoil. Exact formed plate rather than interchangeable tags; later composite blades require Radiance forming. Exact registered items only; plates/sheets/rods remain distinct, Heavy Plate never substitutes for Steel Plate. Explicit user-requested whole visible review redesign; pending review, not gameplay export.",
+    "replaceRecipe": false,
+    "slots": {
+      "input": {
+        "kind": "ITEM",
+        "id": "industrial_colonies:material_parts/sic_sic_cmc_plate"
+      },
+      "transitional": {
+        "kind": "ITEM",
+        "id": "nuclearcraft:turbine_sic_sic_cmc_rotor_blade"
+      },
+      "output0": {
+        "kind": "ITEM",
+        "id": "nuclearcraft:turbine_sic_sic_cmc_rotor_blade",
+        "count": 2
+      },
+      "__machine_step_0_cutting": {
+        "kind": "ITEM",
+        "id": "createcasing:refined_radiance_mechanical_saw"
+      },
+      "__machine_step_1_deploying": {
+        "kind": "ITEM",
+        "id": "createcasing:refined_radiance_deployer"
+      },
+      "seqItem1": {
+        "kind": "ITEM",
+        "id": "industrial_colonies:material_parts/stainless_steel_rod"
+      },
+      "__machine_step_2_pressing": {
+        "kind": "ITEM",
+        "id": "createcasing:refined_radiance_press"
+      }
+    },
+    "params": {
+      "loops": "1",
+      "__seqLen": "3",
+      "seq0": "cutting",
+      "seq1": "deploying",
+      "seq2": "pressing"
+    }
+  },
+  {
+    "uid": "ec518a48-af72-55f4-87f7-1155e01d861b",
+    "type": "kjsgen:shaped",
+    "recipeId": "industrial_colonies:authoring_review/nuclearcraft/turbine_bearing",
+    "group": "Rebalanced progression / nuclearcraft",
+    "comment": "Real rotating bearing and stainless journal held between two HSLA support plates. Removes eight gold ingots unrelated to the bearing race. Exact registered items only; plates/sheets/rods remain distinct, Heavy Plate never substitutes for Steel Plate. Explicit user-requested whole visible review redesign; pending review, not gameplay export.",
+    "replaceRecipe": false,
+    "slots": {
+      "output": {
+        "kind": "ITEM",
+        "id": "nuclearcraft:turbine_bearing"
+      },
+      "in1": {
+        "kind": "ITEM",
+        "id": "industrial_colonies:material_parts/hsla_steel_plate"
+      },
+      "in3": {
+        "kind": "ITEM",
+        "id": "industrial_colonies:material_parts/stainless_steel_rod"
+      },
+      "in4": {
+        "kind": "ITEM",
+        "id": "create:mechanical_bearing"
+      },
+      "in5": {
+        "kind": "ITEM",
+        "id": "industrial_colonies:material_parts/stainless_steel_rod"
+      },
+      "in7": {
+        "kind": "ITEM",
+        "id": "industrial_colonies:material_parts/hsla_steel_plate"
+      }
+    },
+    "params": {}
+  },
+  {
+    "uid": "b7e912a9-7824-5e83-8fca-9bd8ee782609",
+    "type": "kjsgen:shaped",
+    "recipeId": "industrial_colonies:authoring_review/nuclearcraft/turbine_glass",
+    "group": "Rebalanced progression / nuclearcraft",
+    "comment": "Repeated turbine inspection windows: stainless trim and glass, four per batch, rather than spending a full turbine casing on each window. Exact registered items only; plates/sheets/rods remain distinct, Heavy Plate never substitutes for Steel Plate. Explicit user-requested whole visible review redesign; pending review, not gameplay export.",
+    "replaceRecipe": false,
+    "slots": {
+      "output": {
+        "kind": "ITEM",
+        "id": "nuclearcraft:turbine_glass",
+        "count": 4
+      },
+      "in0": {
+        "kind": "ITEM",
+        "id": "industrial_colonies:material_parts/stainless_steel_plate"
+      },
+      "in1": {
+        "kind": "ITEM",
+        "id": "minecraft:glass"
+      },
+      "in2": {
+        "kind": "ITEM",
+        "id": "industrial_colonies:material_parts/stainless_steel_plate"
+      },
+      "in3": {
+        "kind": "ITEM",
+        "id": "minecraft:glass"
+      },
+      "in5": {
+        "kind": "ITEM",
+        "id": "minecraft:glass"
+      },
+      "in6": {
+        "kind": "ITEM",
+        "id": "industrial_colonies:material_parts/stainless_steel_plate"
+      },
+      "in7": {
+        "kind": "ITEM",
+        "id": "minecraft:glass"
+      },
+      "in8": {
+        "kind": "ITEM",
+        "id": "industrial_colonies:material_parts/stainless_steel_plate"
+      }
+    },
+    "params": {}
+  },
+  {
+    "uid": "a7e4a902-1381-5fcc-8843-ba95fef77f2a",
+    "type": "kjsgen:shaped",
+    "recipeId": "industrial_colonies:authoring_review/nuclearcraft/turbine_port",
+    "group": "Rebalanced progression / nuclearcraft",
+    "comment": "Turbine flow port has a casing bulkhead, valve, paired actuators and pump connection inside stainless faces. No zinc/HSLA-ingot cauldron ring. Exact registered items only; plates/sheets/rods remain distinct, Heavy Plate never substitutes for Steel Plate. Explicit user-requested whole visible review redesign; pending review, not gameplay export.",
+    "replaceRecipe": false,
+    "slots": {
+      "output": {
+        "kind": "ITEM",
+        "id": "nuclearcraft:turbine_port"
+      },
+      "in0": {
+        "kind": "ITEM",
+        "id": "industrial_colonies:material_parts/stainless_steel_plate"
+      },
+      "in1": {
+        "kind": "ITEM",
+        "id": "tfmg:steel_fluid_valve"
+      },
+      "in2": {
+        "kind": "ITEM",
+        "id": "industrial_colonies:material_parts/stainless_steel_plate"
+      },
+      "in3": {
+        "kind": "ITEM",
+        "id": "nuclearcraft:servo"
+      },
+      "in4": {
+        "kind": "ITEM",
+        "id": "nuclearcraft:turbine_casing"
+      },
+      "in5": {
+        "kind": "ITEM",
+        "id": "nuclearcraft:servo"
+      },
+      "in6": {
+        "kind": "ITEM",
+        "id": "industrial_colonies:material_parts/stainless_steel_plate"
+      },
+      "in7": {
+        "kind": "ITEM",
+        "id": "tfmg:steel_mechanical_pump"
+      },
+      "in8": {
+        "kind": "ITEM",
+        "id": "industrial_colonies:material_parts/stainless_steel_plate"
+      }
+    },
+    "params": {}
+  },
+  {
+    "uid": "7f37622a-133b-5efe-bb02-01f994a96ed1",
+    "type": "kjsgen:create_sequenced_assembly",
+    "recipeId": "industrial_colonies:authoring_review/nuclearcraft/turbine_rotor_shaft",
+    "group": "Rebalanced progression / nuclearcraft",
+    "comment": "Build the HSLA shaft length, fit a stainless coupling collar, seat and machine its journal. No zinc ingots pretending to be a shaft. Exact registered items only; plates/sheets/rods remain distinct, Heavy Plate never substitutes for Steel Plate. Explicit user-requested whole visible review redesign; pending review, not gameplay export.",
+    "replaceRecipe": false,
+    "slots": {
+      "input": {
+        "kind": "ITEM",
+        "id": "industrial_colonies:material_parts/hsla_steel_rod"
+      },
+      "transitional": {
+        "kind": "ITEM",
+        "id": "nuclearcraft:turbine_rotor_shaft"
+      },
+      "output0": {
+        "kind": "ITEM",
+        "id": "nuclearcraft:turbine_rotor_shaft"
+      },
+      "__machine_step_0_deploying": {
+        "kind": "ITEM",
+        "id": "createcasing:industrial_iron_deployer"
+      },
+      "seqItem0": {
+        "kind": "ITEM",
+        "id": "industrial_colonies:material_parts/hsla_steel_rod"
+      },
+      "__machine_step_1_deploying": {
+        "kind": "ITEM",
+        "id": "createcasing:industrial_iron_deployer"
+      },
+      "seqItem1": {
+        "kind": "ITEM",
+        "id": "industrial_colonies:material_parts/stainless_steel_plate"
+      },
+      "__machine_step_2_pressing": {
+        "kind": "ITEM",
+        "id": "createcasing:industrial_iron_press"
+      },
+      "__machine_step_3_cutting": {
+        "kind": "ITEM",
+        "id": "createcasing:industrial_iron_mechanical_saw"
+      }
+    },
+    "params": {
+      "loops": "1",
+      "__seqLen": "4",
+      "seq0": "deploying",
+      "seq1": "deploying",
+      "seq2": "pressing",
+      "seq3": "cutting"
+    }
+  },
+  {
+    "uid": "522f5a33-c6b1-51f4-a933-65853e2cb3d9",
+    "type": "kjsgen:shaped",
+    "recipeId": "industrial_colonies:authoring_review/offroad/wheel_mount",
+    "group": "Rebalanced progression / offroad",
+    "comment": "Suspended wheel mount: paired springs around a bearing, steel top mounting plate and cast-iron bracket. No opaque andesite casing as the whole suspension. Exact registered items only; plates/sheets/rods remain distinct, Heavy Plate never substitutes for Steel Plate. Explicit user-requested whole visible review redesign; pending review, not gameplay export.",
+    "replaceRecipe": false,
+    "slots": {
+      "output": {
+        "kind": "ITEM",
+        "id": "offroad:wheel_mount"
+      },
+      "in1": {
+        "kind": "ITEM",
+        "id": "immersiveengineering:plate_steel"
+      },
+      "in3": {
+        "kind": "ITEM",
+        "id": "simulated:spring"
+      },
+      "in4": {
+        "kind": "ITEM",
+        "id": "create:mechanical_bearing"
+      },
+      "in5": {
+        "kind": "ITEM",
+        "id": "simulated:spring"
+      },
+      "in7": {
+        "kind": "ITEM",
+        "id": "tfmg:cast_iron_frame"
+      }
+    },
+    "params": {}
+  },
+  {
+    "uid": "7e71dbf9-f4e4-5972-bf1c-766550d0e310",
+    "type": "kjsgen:shaped",
+    "recipeId": "industrial_colonies:authoring_review/offroad/rockcutting_wheel",
+    "group": "Rebalanced progression / offroad",
+    "comment": "Carbide cutting rim over twin crushing/cutting wheel bodies and an actual driven gearbox/steel axle. Material roles are wear face, tool body and drive, not miscellaneous iron plates. Exact registered items only; plates/sheets/rods remain distinct, Heavy Plate never substitutes for Steel Plate. Explicit user-requested whole visible review redesign; pending review, not gameplay export.",
+    "replaceRecipe": false,
+    "slots": {
+      "output": {
+        "kind": "ITEM",
+        "id": "offroad:rockcutting_wheel"
+      },
+      "in1": {
+        "kind": "ITEM",
+        "id": "industrial_colonies:material_parts/tungsten_carbide_plate"
+      },
+      "in3": {
+        "kind": "ITEM",
+        "id": "create:crushing_wheel"
+      },
+      "in4": {
+        "kind": "ITEM",
+        "id": "create:gearbox"
+      },
+      "in5": {
+        "kind": "ITEM",
+        "id": "create:crushing_wheel"
+      },
+      "in7": {
+        "kind": "ITEM",
+        "id": "immersiveengineering:stick_steel"
+      }
+    },
+    "params": {}
+  },
+  {
+    "uid": "98ab63d5-2895-5860-b4ff-ba5224d4b1d0",
+    "type": "kjsgen:shaped",
+    "recipeId": "industrial_colonies:authoring_review/offroad/borehead_bearing",
+    "group": "Rebalanced progression / offroad",
+    "comment": "Bore-head support uses real rotating bearing, steel guide rods, cast-iron cheek plates and support frame with drive shaft. No wooden slab foundation. Exact registered items only; plates/sheets/rods remain distinct, Heavy Plate never substitutes for Steel Plate. Explicit user-requested whole visible review redesign; pending review, not gameplay export.",
+    "replaceRecipe": false,
+    "slots": {
+      "output": {
+        "kind": "ITEM",
+        "id": "offroad:borehead_bearing"
+      },
+      "in0": {
+        "kind": "ITEM",
+        "id": "immersiveengineering:stick_steel"
+      },
+      "in1": {
+        "kind": "ITEM",
+        "id": "create:mechanical_bearing"
+      },
+      "in2": {
+        "kind": "ITEM",
+        "id": "immersiveengineering:stick_steel"
+      },
+      "in3": {
+        "kind": "ITEM",
+        "id": "industrial_colonies:material_parts/cast_iron_plate"
+      },
+      "in4": {
+        "kind": "ITEM",
+        "id": "tfmg:cast_iron_frame"
+      },
+      "in5": {
+        "kind": "ITEM",
+        "id": "industrial_colonies:material_parts/cast_iron_plate"
+      },
+      "in7": {
+        "kind": "ITEM",
+        "id": "create:shaft"
+      }
+    },
+    "params": {}
+  },
+  {
+    "uid": "1abdd894-7841-56ee-96ee-307ff71ba1af",
+    "type": "kjsgen:create_mechanical_crafting",
+    "recipeId": "industrial_colonies:authoring_review/stellaris/misc/rocket_station_block",
+    "group": "Rebalanced progression / stellaris",
+    "comment": "Service/upgrade fixture: optical alignment and processor/board control over paired Radiance tool arms, aluminum foundation and titanium-alloy mounting bed. No generic heavy-metal/lapis block ring. Exact registered items only; plates/sheets/rods remain distinct, Heavy Plate never substitutes for Steel Plate. Explicit user-requested whole visible review redesign; pending review, not gameplay export.",
+    "replaceRecipe": false,
+    "slots": {
+      "output": {
+        "kind": "ITEM",
+        "id": "stellaris:rocket_station"
+      },
+      "cell_0_0": {
+        "kind": "ITEM",
+        "id": "minecraft:glass_pane"
+      },
+      "cell_0_1": {
+        "kind": "ITEM",
+        "id": "simulated:optical_sensor"
+      },
+      "cell_0_2": {
+        "kind": "ITEM",
+        "id": "minecraft:glass_pane"
+      },
+      "cell_1_0": {
+        "kind": "ITEM",
+        "id": "tfmg:circuit_board"
+      },
+      "cell_1_1": {
+        "kind": "ITEM",
+        "id": "ae2:engineering_processor"
+      },
+      "cell_1_2": {
+        "kind": "ITEM",
+        "id": "tfmg:circuit_board"
+      },
+      "cell_2_0": {
+        "kind": "ITEM",
+        "id": "createcasing:refined_radiance_deployer"
+      },
+      "cell_2_1": {
+        "kind": "ITEM",
+        "id": "tfmg:aluminum_frame"
+      },
+      "cell_2_2": {
+        "kind": "ITEM",
+        "id": "createcasing:refined_radiance_deployer"
+      },
+      "cell_3_0": {
+        "kind": "ITEM",
+        "id": "rocketnautics:titanium_alloy_sheet"
+      },
+      "cell_3_1": {
+        "kind": "ITEM",
+        "id": "tfmg:electric_motor"
+      },
+      "cell_3_2": {
+        "kind": "ITEM",
+        "id": "rocketnautics:titanium_alloy_sheet"
+      }
+    },
+    "params": {
+      "gridW": "3",
+      "gridH": "4"
+    }
+  },
+  {
+    "uid": "963f955e-8672-54e8-853d-0cc7d8716f85",
+    "type": "kjsgen:create_mechanical_crafting",
+    "recipeId": "industrial_colonies:authoring_review/stellaris/misc/upgrade_station_block",
+    "group": "Rebalanced progression / stellaris",
+    "comment": "Service/upgrade fixture: optical alignment and processor/board control over paired Railway tool arms, aluminum foundation and titanium-alloy mounting bed. No generic heavy-metal/lapis block ring. Exact registered items only; plates/sheets/rods remain distinct, Heavy Plate never substitutes for Steel Plate. Explicit user-requested whole visible review redesign; pending review, not gameplay export.",
+    "replaceRecipe": false,
+    "slots": {
+      "output": {
+        "kind": "ITEM",
+        "id": "stellaris:upgrade_station"
+      },
+      "cell_0_0": {
+        "kind": "ITEM",
+        "id": "minecraft:glass_pane"
+      },
+      "cell_0_1": {
+        "kind": "ITEM",
+        "id": "simulated:optical_sensor"
+      },
+      "cell_0_2": {
+        "kind": "ITEM",
+        "id": "minecraft:glass_pane"
+      },
+      "cell_1_0": {
+        "kind": "ITEM",
+        "id": "tfmg:circuit_board"
+      },
+      "cell_1_1": {
+        "kind": "ITEM",
+        "id": "ae2:engineering_processor"
+      },
+      "cell_1_2": {
+        "kind": "ITEM",
+        "id": "tfmg:circuit_board"
+      },
+      "cell_2_0": {
+        "kind": "ITEM",
+        "id": "createcasing:railway_deployer"
+      },
+      "cell_2_1": {
+        "kind": "ITEM",
+        "id": "tfmg:aluminum_frame"
+      },
+      "cell_2_2": {
+        "kind": "ITEM",
+        "id": "createcasing:railway_deployer"
+      },
+      "cell_3_0": {
+        "kind": "ITEM",
+        "id": "rocketnautics:titanium_alloy_sheet"
+      },
+      "cell_3_1": {
+        "kind": "ITEM",
+        "id": "tfmg:electric_motor"
+      },
+      "cell_3_2": {
+        "kind": "ITEM",
+        "id": "rocketnautics:titanium_alloy_sheet"
+      }
+    },
+    "params": {
+      "gridW": "3",
+      "gridH": "4"
+    }
+  },
+  {
+    "uid": "3e35ce40-ddb8-5b6c-a3f7-f01dce7ea035",
+    "type": "kjsgen:shaped",
+    "recipeId": "industrial_colonies:authoring_review/stellaris/misc/vacuumator",
+    "group": "Rebalanced progression / stellaris",
+    "comment": "Vacuum assembly: real extraction pump and paired isolation valves, sensor and nickel-supported stainless chamber. No water bucket or lapis as a pressure mechanism. Exact registered items only; plates/sheets/rods remain distinct, Heavy Plate never substitutes for Steel Plate. Explicit user-requested whole visible review redesign; pending review, not gameplay export.",
+    "replaceRecipe": false,
+    "slots": {
+      "output": {
+        "kind": "ITEM",
+        "id": "stellaris:vacuumator"
+      },
+      "in1": {
+        "kind": "ITEM",
+        "id": "tfmg:electric_pump"
+      },
+      "in3": {
+        "kind": "ITEM",
+        "id": "tfmg:steel_fluid_valve"
+      },
+      "in4": {
+        "kind": "ITEM",
+        "id": "simulated:optical_sensor"
+      },
+      "in5": {
+        "kind": "ITEM",
+        "id": "tfmg:steel_fluid_valve"
+      },
+      "in6": {
+        "kind": "ITEM",
+        "id": "industrial_colonies:material_parts/stainless_steel_plate"
+      },
+      "in7": {
+        "kind": "ITEM",
+        "id": "tfmg:nickel_frame"
+      },
+      "in8": {
+        "kind": "ITEM",
+        "id": "industrial_colonies:material_parts/stainless_steel_plate"
+      }
+    },
+    "params": {}
+  },
+  {
+    "uid": "dbdd717f-48df-535e-a66a-afee61897f27",
+    "type": "kjsgen:shaped",
+    "recipeId": "industrial_colonies:authoring_review/stellaris/misc/water_separator",
+    "group": "Rebalanced progression / stellaris",
+    "comment": "Wet separator with paired pump/feed paths and visible separation chamber around a nickel support. Removes oxygen equipment from a water-service machine. Exact registered items only; plates/sheets/rods remain distinct, Heavy Plate never substitutes for Steel Plate. Explicit user-requested whole visible review redesign; pending review, not gameplay export.",
+    "replaceRecipe": false,
+    "slots": {
+      "output": {
+        "kind": "ITEM",
+        "id": "stellaris:water_separator"
+      },
+      "in1": {
+        "kind": "ITEM",
+        "id": "tfmg:steel_fluid_valve"
+      },
+      "in3": {
+        "kind": "ITEM",
+        "id": "tfmg:steel_mechanical_pump"
+      },
+      "in4": {
+        "kind": "ITEM",
+        "id": "tfmg:nickel_frame"
+      },
+      "in5": {
+        "kind": "ITEM",
+        "id": "tfmg:steel_mechanical_pump"
+      },
+      "in6": {
+        "kind": "ITEM",
+        "id": "create:fluid_pipe"
+      },
+      "in7": {
+        "kind": "ITEM",
+        "id": "create:framed_glass"
+      },
+      "in8": {
+        "kind": "ITEM",
+        "id": "create:fluid_pipe"
+      }
+    },
+    "params": {}
+  },
+  {
+    "uid": "452dafd2-6f1c-5e67-971b-cf78bac28e65",
+    "type": "kjsgen:shaped",
+    "recipeId": "industrial_colonies:authoring_review/tfmg/crafting/materials/converter",
+    "group": "Rebalanced progression / tfmg",
+    "comment": "Transformer-based electrical converter: transistor switching pair, capacitor smoothing, insulated electrum leads and circuit-board control enclosed by lead faces. Actual conversion hardware replaces repeated redstone dust. Exact registered items only; plates/sheets/rods remain distinct, Heavy Plate never substitutes for Steel Plate. Explicit user-requested whole visible review redesign; pending review, not gameplay export.",
+    "replaceRecipe": false,
+    "slots": {
+      "output": {
+        "kind": "ITEM",
+        "id": "tfmg:converter"
+      },
+      "in0": {
+        "kind": "ITEM",
+        "id": "immersiveengineering:plate_lead"
+      },
+      "in1": {
+        "kind": "ITEM",
+        "id": "tfmg:capacitor_item"
+      },
+      "in2": {
+        "kind": "ITEM",
+        "id": "immersiveengineering:plate_lead"
+      },
+      "in3": {
+        "kind": "ITEM",
+        "id": "immersiveengineering:wire_electrum"
+      },
+      "in4": {
+        "kind": "ITEM",
+        "id": "tfmg:transformer"
+      },
+      "in5": {
+        "kind": "ITEM",
+        "id": "immersiveengineering:wire_electrum"
+      },
+      "in6": {
+        "kind": "ITEM",
+        "id": "tfmg:transistor_item"
+      },
+      "in7": {
+        "kind": "ITEM",
+        "id": "tfmg:circuit_board"
+      },
+      "in8": {
+        "kind": "ITEM",
+        "id": "tfmg:transistor_item"
+      }
+    },
+    "params": {}
+  },
+  {
+    "uid": "73cd5911-d1f9-56ff-b659-98492c0a1cbd",
+    "type": "kjsgen:shaped",
+    "recipeId": "industrial_colonies:authoring_review/industrial_colonies/machine_inventory/tfmg/potentiometer",
+    "group": "Rebalanced progression / tfmg",
+    "comment": "Adjustable resistor assembly on a copper support frame, with shaft wiper, two resistor tracks and exact copper terminals. Frame adds structure without making a small control an expensive machine. Exact registered items only; plates/sheets/rods remain distinct, Heavy Plate never substitutes for Steel Plate. Explicit user-requested whole visible review redesign; pending review, not gameplay export.",
+    "replaceRecipe": false,
+    "slots": {
+      "output": {
+        "kind": "ITEM",
+        "id": "tfmg:potentiometer"
+      },
+      "in1": {
+        "kind": "ITEM",
+        "id": "create:shaft"
+      },
+      "in3": {
+        "kind": "ITEM",
+        "id": "tfmg:resistor"
+      },
+      "in4": {
+        "kind": "ITEM",
+        "id": "tfmg:empty_circuit_board"
+      },
+      "in5": {
+        "kind": "ITEM",
+        "id": "tfmg:resistor"
+      },
+      "in6": {
+        "kind": "ITEM",
+        "id": "tfmg:copper_wire"
+      },
+      "in7": {
+        "kind": "ITEM",
+        "id": "tfmg:copper_frame"
+      },
+      "in8": {
+        "kind": "ITEM",
+        "id": "tfmg:copper_wire"
+      }
+    },
+    "params": {}
+  },
+  {
+    "uid": "60654b08-e73d-5a25-be33-bdbf17f080bf",
+    "type": "kjsgen:shaped",
+    "recipeId": "industrial_colonies:authoring_review/tfmg/crafting/materials/accumulator",
+    "group": "Rebalanced progression / tfmg",
+    "comment": "Preserve the actual lead-acid chemistry: formed lead electrodes, sulfuric acid electrolyte, copper bus and aluminum enclosure. Removes the whole lead block; no lithium/cobalt charge on a lead-acid accumulator. Exact registered items only; plates/sheets/rods remain distinct, Heavy Plate never substitutes for Steel Plate. Explicit user-requested whole visible review redesign; pending review, not gameplay export.",
+    "replaceRecipe": false,
+    "slots": {
+      "output": {
+        "kind": "ITEM",
+        "id": "tfmg:accumulator"
+      },
+      "in0": {
+        "kind": "ITEM",
+        "id": "immersiveengineering:plate_lead"
+      },
+      "in1": {
+        "kind": "ITEM",
+        "id": "tfmg:capacitor_item"
+      },
+      "in2": {
+        "kind": "ITEM",
+        "id": "immersiveengineering:plate_lead"
+      },
+      "in3": {
+        "kind": "ITEM",
+        "id": "tfmg:copper_wire"
+      },
+      "in4": {
+        "kind": "ITEM",
+        "id": "tfmg:sulfuric_acid_bucket"
+      },
+      "in5": {
+        "kind": "ITEM",
+        "id": "tfmg:copper_wire"
+      },
+      "in6": {
+        "kind": "ITEM",
+        "id": "immersiveengineering:plate_lead"
+      },
+      "in7": {
+        "kind": "ITEM",
+        "id": "tfmg:industrial_aluminum_casing"
+      },
+      "in8": {
+        "kind": "ITEM",
+        "id": "immersiveengineering:plate_lead"
+      }
+    },
+    "params": {}
+  },
+  {
+    "uid": "41393d0f-136a-59a1-a34e-66ba8b37cd77",
+    "type": "kjsgen:shaped",
+    "recipeId": "industrial_colonies:fusion_rebalance/basic_rf_amplifier",
+    "group": "Rebalanced progression / nuclearcraft",
+    "comment": "Starter RF amplifier: one wound LV inductor, matched capacitor, copper spreader plates, signal board and wired terminals. Keep it affordable relative to specialized superconducting branches. Exact registered items only; plates/sheets/rods remain distinct, Heavy Plate never substitutes for Steel Plate. Explicit user-requested whole visible review redesign; pending review, not gameplay export.",
+    "replaceRecipe": false,
+    "slots": {
+      "output": {
+        "kind": "ITEM",
+        "id": "nuclearcraft:basic_rf_amplifier"
+      },
+      "in1": {
+        "kind": "ITEM",
+        "id": "immersiveengineering:coil_lv"
+      },
+      "in3": {
+        "kind": "ITEM",
+        "id": "create:copper_sheet"
+      },
+      "in4": {
+        "kind": "ITEM",
+        "id": "tfmg:capacitor_item"
+      },
+      "in5": {
+        "kind": "ITEM",
+        "id": "create:copper_sheet"
+      },
+      "in6": {
+        "kind": "ITEM",
+        "id": "tfmg:copper_wire"
+      },
+      "in7": {
+        "kind": "ITEM",
+        "id": "tfmg:etched_circuit_board"
+      },
+      "in8": {
+        "kind": "ITEM",
+        "id": "tfmg:copper_wire"
+      }
+    },
+    "params": {}
+  },
+  {
+    "uid": "4ef8585e-675c-52b8-af1c-f641cb5842bc",
+    "type": "kjsgen:shaped",
+    "recipeId": "industrial_colonies:fusion_rebalance/magnesium_diboride_rf_amplifier",
+    "group": "Rebalanced progression / nuclearcraft",
+    "comment": "Upgrade one basic RF driver with four magnesium diboride conductor assemblies, one stainless thermal face, plastic electrical isolation and a real control board. Preserves specialized branch materials without treating plain ingots as the entire amplifier. Exact registered items only; plates/sheets/rods remain distinct, Heavy Plate never substitutes for Steel Plate. Explicit user-requested whole visible review redesign; pending review, not gameplay export.",
+    "replaceRecipe": false,
+    "slots": {
+      "output": {
+        "kind": "ITEM",
+        "id": "nuclearcraft:magnesium_diboride_rf_amplifier"
+      },
+      "in0": {
+        "kind": "ITEM",
+        "id": "nuclearcraft:coil_magnesium_diboride"
+      },
+      "in1": {
+        "kind": "ITEM",
+        "id": "industrial_colonies:material_parts/stainless_steel_plate"
+      },
+      "in2": {
+        "kind": "ITEM",
+        "id": "nuclearcraft:coil_magnesium_diboride"
+      },
+      "in3": {
+        "kind": "ITEM",
+        "id": "tfmg:plastic_sheet"
+      },
+      "in4": {
+        "kind": "ITEM",
+        "id": "nuclearcraft:basic_rf_amplifier"
+      },
+      "in5": {
+        "kind": "ITEM",
+        "id": "tfmg:plastic_sheet"
+      },
+      "in6": {
+        "kind": "ITEM",
+        "id": "nuclearcraft:coil_magnesium_diboride"
+      },
+      "in7": {
+        "kind": "ITEM",
+        "id": "tfmg:etched_circuit_board"
+      },
+      "in8": {
+        "kind": "ITEM",
+        "id": "nuclearcraft:coil_magnesium_diboride"
+      }
+    },
+    "params": {}
+  },
+  {
+    "uid": "7a27c1aa-8bf7-5606-a545-6f178496fb8e",
+    "type": "kjsgen:shaped",
+    "recipeId": "industrial_colonies:fusion_rebalance/niobium_tin_rf_amplifier",
+    "group": "Rebalanced progression / nuclearcraft",
+    "comment": "Upgrade one basic RF driver with four niobium tin conductor assemblies, one stainless thermal face, plastic electrical isolation and a real control board. Preserves specialized branch materials without treating plain ingots as the entire amplifier. Exact registered items only; plates/sheets/rods remain distinct, Heavy Plate never substitutes for Steel Plate. Explicit user-requested whole visible review redesign; pending review, not gameplay export.",
+    "replaceRecipe": false,
+    "slots": {
+      "output": {
+        "kind": "ITEM",
+        "id": "nuclearcraft:niobium_tin_rf_amplifier"
+      },
+      "in0": {
+        "kind": "ITEM",
+        "id": "industrial_colonies:material_parts/niobium_tin_rod"
+      },
+      "in1": {
+        "kind": "ITEM",
+        "id": "industrial_colonies:material_parts/stainless_steel_plate"
+      },
+      "in2": {
+        "kind": "ITEM",
+        "id": "industrial_colonies:material_parts/niobium_tin_rod"
+      },
+      "in3": {
+        "kind": "ITEM",
+        "id": "tfmg:plastic_sheet"
+      },
+      "in4": {
+        "kind": "ITEM",
+        "id": "nuclearcraft:basic_rf_amplifier"
+      },
+      "in5": {
+        "kind": "ITEM",
+        "id": "tfmg:plastic_sheet"
+      },
+      "in6": {
+        "kind": "ITEM",
+        "id": "industrial_colonies:material_parts/niobium_tin_rod"
+      },
+      "in7": {
+        "kind": "ITEM",
+        "id": "tfmg:etched_circuit_board"
+      },
+      "in8": {
+        "kind": "ITEM",
+        "id": "industrial_colonies:material_parts/niobium_tin_rod"
+      }
+    },
+    "params": {}
+  },
+  {
+    "uid": "c91d9bc4-d474-5020-9684-e672426c5c99",
+    "type": "kjsgen:shaped",
+    "recipeId": "industrial_colonies:fusion_rebalance/niobium_titanium_rf_amplifier",
+    "group": "Rebalanced progression / nuclearcraft",
+    "comment": "Upgrade one basic RF driver with four niobium titanium conductor assemblies, one stainless thermal face, plastic electrical isolation and a real control board. Preserves specialized branch materials without treating plain ingots as the entire amplifier. Exact registered items only; plates/sheets/rods remain distinct, Heavy Plate never substitutes for Steel Plate. Explicit user-requested whole visible review redesign; pending review, not gameplay export.",
+    "replaceRecipe": false,
+    "slots": {
+      "output": {
+        "kind": "ITEM",
+        "id": "nuclearcraft:niobium_titanium_rf_amplifier"
+      },
+      "in0": {
+        "kind": "ITEM",
+        "id": "industrial_colonies:material_parts/niobium_titanium_rod"
+      },
+      "in1": {
+        "kind": "ITEM",
+        "id": "industrial_colonies:material_parts/stainless_steel_plate"
+      },
+      "in2": {
+        "kind": "ITEM",
+        "id": "industrial_colonies:material_parts/niobium_titanium_rod"
+      },
+      "in3": {
+        "kind": "ITEM",
+        "id": "tfmg:plastic_sheet"
+      },
+      "in4": {
+        "kind": "ITEM",
+        "id": "nuclearcraft:basic_rf_amplifier"
+      },
+      "in5": {
+        "kind": "ITEM",
+        "id": "tfmg:plastic_sheet"
+      },
+      "in6": {
+        "kind": "ITEM",
+        "id": "industrial_colonies:material_parts/niobium_titanium_rod"
+      },
+      "in7": {
+        "kind": "ITEM",
+        "id": "tfmg:etched_circuit_board"
+      },
+      "in8": {
+        "kind": "ITEM",
+        "id": "industrial_colonies:material_parts/niobium_titanium_rod"
+      }
+    },
+    "params": {}
+  },
+  {
+    "uid": "e1a7b0da-ae73-520e-b6c0-4aa9eecf4700",
+    "type": "kjsgen:shaped",
+    "recipeId": "industrial_colonies:fusion_rebalance/bscco_rf_amplifier",
+    "group": "Rebalanced progression / nuclearcraft",
+    "comment": "Upgrade one basic RF driver with four bscco conductor assemblies, one stainless thermal face, plastic electrical isolation and a real control board. Preserves specialized branch materials without treating plain ingots as the entire amplifier. Exact registered items only; plates/sheets/rods remain distinct, Heavy Plate never substitutes for Steel Plate. Explicit user-requested whole visible review redesign; pending review, not gameplay export.",
+    "replaceRecipe": false,
+    "slots": {
+      "output": {
+        "kind": "ITEM",
+        "id": "nuclearcraft:bscco_rf_amplifier"
+      },
+      "in0": {
+        "kind": "ITEM",
+        "id": "nuclearcraft:coil_bscco"
+      },
+      "in1": {
+        "kind": "ITEM",
+        "id": "industrial_colonies:material_parts/stainless_steel_plate"
+      },
+      "in2": {
+        "kind": "ITEM",
+        "id": "nuclearcraft:coil_bscco"
+      },
+      "in3": {
+        "kind": "ITEM",
+        "id": "tfmg:plastic_sheet"
+      },
+      "in4": {
+        "kind": "ITEM",
+        "id": "nuclearcraft:basic_rf_amplifier"
+      },
+      "in5": {
+        "kind": "ITEM",
+        "id": "tfmg:plastic_sheet"
+      },
+      "in6": {
+        "kind": "ITEM",
+        "id": "nuclearcraft:coil_bscco"
+      },
+      "in7": {
+        "kind": "ITEM",
+        "id": "tfmg:etched_circuit_board"
+      },
+      "in8": {
+        "kind": "ITEM",
+        "id": "nuclearcraft:coil_bscco"
+      }
+    },
+    "params": {}
+  },
+  {
+    "uid": "9a468377-ba9d-52a9-b5ff-e06a91279147",
+    "type": "kjsgen:shaped",
+    "recipeId": "industrial_colonies:fusion_rebalance/magnesium_diboride_electromagnet",
+    "group": "Rebalanced progression / nuclearcraft",
+    "comment": "Specialized MgB2 winding on one basic magnetic yoke, rubber isolation and stainless support plate. Native material distinction retained, no global most-expensive-magnet cost ladder. Exact registered items only; plates/sheets/rods remain distinct, Heavy Plate never substitutes for Steel Plate. Explicit user-requested whole visible review redesign; pending review, not gameplay export.",
+    "replaceRecipe": false,
+    "slots": {
+      "output": {
+        "kind": "ITEM",
+        "id": "nuclearcraft:magnesium_diboride_electromagnet"
+      },
+      "in1": {
+        "kind": "ITEM",
+        "id": "nuclearcraft:coil_magnesium_diboride"
+      },
+      "in3": {
+        "kind": "ITEM",
+        "id": "tfmg:rubber_sheet"
+      },
+      "in4": {
+        "kind": "ITEM",
+        "id": "nuclearcraft:basic_electromagnet"
+      },
+      "in5": {
+        "kind": "ITEM",
+        "id": "tfmg:rubber_sheet"
+      },
+      "in7": {
+        "kind": "ITEM",
+        "id": "industrial_colonies:material_parts/stainless_steel_plate"
+      }
+    },
+    "params": {}
+  },
+  {
+    "uid": "9a27f1f2-1304-535b-8b09-2a505a49fcef",
+    "type": "kjsgen:create_sequenced_assembly",
+    "recipeId": "industrial_colonies:custom_progression/nuclearcraft/msr_controller",
+    "group": "Rebalanced progression / nuclearcraft",
+    "comment": "Molten-salt controller built around a nickel chassis: zirconium-alloy service support and valve first, board/bus laminated before processing electronics, voltage feedback/regulation and DU composite shielding. No mandatory prior-reactor or spent-fuel ingredient. Economic tier progression remains the selected power-cost design, not falsely implemented by this card. Exact registered items only; plates/sheets/rods remain distinct, Heavy Plate never substitutes for Steel Plate. Explicit user-requested whole visible review redesign; pending review, not gameplay export. User explicitly emphasizes MSR progression: DU composite cover, specialized regulation/HV capacitor and Radiance final assembly form its material/machine gate; no compulsory earlier running reactor.",
+    "replaceRecipe": false,
+    "slots": {
+      "input": {
+        "kind": "ITEM",
+        "id": "tfmg:nickel_frame"
+      },
+      "transitional": {
+        "kind": "ITEM",
+        "id": "nuclearcraft:msr_controller"
+      },
+      "output0": {
+        "kind": "ITEM",
+        "id": "nuclearcraft:msr_controller"
+      },
+      "__machine_step_0_deploying": {
+        "kind": "ITEM",
+        "id": "createcasing:industrial_iron_deployer"
+      },
+      "seqItem0": {
+        "kind": "ITEM",
+        "id": "industrial_colonies:material_parts/zircaloy_plate"
+      },
+      "__machine_step_1_deploying": {
+        "kind": "ITEM",
+        "id": "createcasing:industrial_iron_deployer"
+      },
+      "seqItem1": {
+        "kind": "ITEM",
+        "id": "tfmg:steel_fluid_valve"
+      },
+      "__machine_step_2_deploying": {
+        "kind": "ITEM",
+        "id": "createcasing:railway_deployer"
+      },
+      "seqItem2": {
+        "kind": "ITEM",
+        "id": "tfmg:circuit_board"
+      },
+      "__machine_step_3_deploying": {
+        "kind": "ITEM",
+        "id": "createcasing:railway_deployer"
+      },
+      "seqItem3": {
+        "kind": "ITEM",
+        "id": "immersiveengineering:wire_electrum"
+      },
+      "__machine_step_4_pressing": {
+        "kind": "ITEM",
+        "id": "createcasing:railway_press"
+      },
+      "__machine_step_5_deploying": {
+        "kind": "ITEM",
+        "id": "createcasing:railway_deployer"
+      },
+      "seqItem5": {
+        "kind": "ITEM",
+        "id": "extendedae:concurrent_processor"
+      },
+      "__machine_step_6_deploying": {
+        "kind": "ITEM",
+        "id": "createcasing:railway_deployer"
+      },
+      "seqItem6": {
+        "kind": "ITEM",
+        "id": "ae2:engineering_processor"
+      },
+      "__machine_step_7_deploying": {
+        "kind": "ITEM",
+        "id": "createcasing:refined_radiance_deployer"
+      },
+      "seqItem7": {
+        "kind": "ITEM",
+        "id": "createmechanisms:computing_mechanism"
+      },
+      "__machine_step_8_deploying": {
+        "kind": "ITEM",
+        "id": "createcasing:railway_deployer"
+      },
+      "seqItem8": {
+        "kind": "ITEM",
+        "id": "tfmg:voltage_observer"
+      },
+      "__machine_step_9_deploying": {
+        "kind": "ITEM",
+        "id": "createcasing:refined_radiance_deployer"
+      },
+      "seqItem9": {
+        "kind": "ITEM",
+        "id": "electroenergetics:voltage_regulator"
+      },
+      "__machine_step_10_deploying": {
+        "kind": "ITEM",
+        "id": "createcasing:refined_radiance_deployer"
+      },
+      "seqItem10": {
+        "kind": "ITEM",
+        "id": "electroenergetics:high_voltage_capacitor"
+      },
+      "__machine_step_11_deploying": {
+        "kind": "ITEM",
+        "id": "createcasing:refined_radiance_deployer"
+      },
+      "seqItem11": {
+        "kind": "ITEM",
+        "id": "nuclearcraft:plate_du"
+      },
+      "__machine_step_12_pressing": {
+        "kind": "ITEM",
+        "id": "createcasing:refined_radiance_press"
+      }
+    },
+    "params": {
+      "loops": "1",
+      "__seqLen": "13",
+      "seq0": "deploying",
+      "seq1": "deploying",
+      "seq2": "deploying",
+      "seq3": "deploying",
+      "seq4": "pressing",
+      "seq5": "deploying",
+      "seq6": "deploying",
+      "seq7": "deploying",
+      "seq8": "deploying",
+      "seq9": "deploying",
+      "seq10": "deploying",
+      "seq11": "deploying",
+      "seq12": "pressing"
+    }
+  },
+  {
+    "uid": "32bd3efd-1381-56a1-a3e0-4cdab3567051",
+    "type": "kjsgen:create_sequenced_assembly",
+    "recipeId": "industrial_colonies:authoring_review/nuclearcraft/msr_fuel_cell",
+    "group": "Rebalanced progression / nuclearcraft",
+    "comment": "Machine the Zircaloy channel, install reactor-glass inspection and actual flow valve, fit its service seal and seat the salt fuel-cell assembly. Repeated reactor plumbing stays free of controller electronics. Exact registered items only; plates/sheets/rods remain distinct, Heavy Plate never substitutes for Steel Plate. Explicit user-requested whole visible review redesign; pending review, not gameplay export.",
+    "replaceRecipe": false,
+    "slots": {
+      "input": {
+        "kind": "ITEM",
+        "id": "industrial_colonies:material_parts/zircaloy_plate"
+      },
+      "transitional": {
+        "kind": "ITEM",
+        "id": "nuclearcraft:msr_fuel_cell"
+      },
+      "output0": {
+        "kind": "ITEM",
+        "id": "nuclearcraft:msr_fuel_cell"
+      },
+      "__machine_step_0_cutting": {
+        "kind": "ITEM",
+        "id": "createcasing:industrial_iron_mechanical_saw"
+      },
+      "__machine_step_1_deploying": {
+        "kind": "ITEM",
+        "id": "createcasing:industrial_iron_deployer"
+      },
+      "seqItem1": {
+        "kind": "ITEM",
+        "id": "nuclearcraft:fission_reactor_glass"
+      },
+      "__machine_step_2_deploying": {
+        "kind": "ITEM",
+        "id": "createcasing:industrial_iron_deployer"
+      },
+      "seqItem2": {
+        "kind": "ITEM",
+        "id": "tfmg:steel_fluid_valve"
+      },
+      "__machine_step_3_deploying": {
+        "kind": "ITEM",
+        "id": "createcasing:brass_deployer"
+      },
+      "seqItem3": {
+        "kind": "ITEM",
+        "id": "tfmg:rubber_sheet"
+      },
+      "__machine_step_4_pressing": {
+        "kind": "ITEM",
+        "id": "createcasing:industrial_iron_press"
+      }
+    },
+    "params": {
+      "loops": "1",
+      "__seqLen": "5",
+      "seq0": "cutting",
+      "seq1": "deploying",
+      "seq2": "deploying",
+      "seq3": "deploying",
+      "seq4": "pressing"
+    }
+  },
+  {
+    "uid": "538d7fd6-2ec2-50ec-b2c8-912f51b5fc34",
+    "type": "kjsgen:shaped",
+    "recipeId": "industrial_colonies:authoring_review/nuclearcraft/msr_port",
+    "group": "Rebalanced progression / nuclearcraft",
+    "comment": "Salt service bulkhead with formed Tough Alloy corner protection, one valve, paired control servos and real circulation pump. Material-matched repeated service hardware rather than duplicate buckets. Exact registered items only; plates/sheets/rods remain distinct, Heavy Plate never substitutes for Steel Plate. Explicit user-requested whole visible review redesign; pending review, not gameplay export.",
+    "replaceRecipe": false,
+    "slots": {
+      "output": {
+        "kind": "ITEM",
+        "id": "nuclearcraft:msr_port"
+      },
+      "in0": {
+        "kind": "ITEM",
+        "id": "industrial_colonies:material_parts/tough_alloy_plate"
+      },
+      "in1": {
+        "kind": "ITEM",
+        "id": "tfmg:steel_fluid_valve"
+      },
+      "in2": {
+        "kind": "ITEM",
+        "id": "industrial_colonies:material_parts/tough_alloy_plate"
+      },
+      "in3": {
+        "kind": "ITEM",
+        "id": "nuclearcraft:servo"
+      },
+      "in4": {
+        "kind": "ITEM",
+        "id": "nuclearcraft:fission_reactor_casing"
+      },
+      "in5": {
+        "kind": "ITEM",
+        "id": "nuclearcraft:servo"
+      },
+      "in7": {
+        "kind": "ITEM",
+        "id": "tfmg:steel_mechanical_pump"
+      }
+    },
+    "params": {}
+  }
+]

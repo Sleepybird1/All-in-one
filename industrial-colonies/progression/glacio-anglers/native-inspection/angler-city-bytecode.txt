@@ -1,0 +1,274 @@
+Compiled from "Sunken_City_Structure.java"
+public class com.github.L_Ender.cataclysm.structures.Sunken_City_Structure$Piece extends net.minecraft.world.level.levelgen.structure.TemplateStructurePiece {
+  public com.github.L_Ender.cataclysm.structures.Sunken_City_Structure$Piece(net.minecraft.world.level.levelgen.structure.templatesystem.StructureTemplateManager, net.minecraft.resources.ResourceLocation, net.minecraft.core.BlockPos, net.minecraft.world.level.block.Rotation);
+    Code:
+       0: aload_0
+       1: getstatic     #1                  // Field com/github/L_Ender/cataclysm/init/ModStructures.SCP:Lnet/neoforged/neoforge/registries/DeferredHolder;
+       4: invokevirtual #7                  // Method net/neoforged/neoforge/registries/DeferredHolder.get:()Ljava/lang/Object;
+       7: checkcast     #13                 // class net/minecraft/world/level/levelgen/structure/pieces/StructurePieceType
+      10: iconst_0
+      11: aload_1
+      12: aload_2
+      13: aload_2
+      14: invokevirtual #15                 // Method net/minecraft/resources/ResourceLocation.toString:()Ljava/lang/String;
+      17: aload         4
+      19: invokestatic  #21                 // Method makeSettings:(Lnet/minecraft/world/level/block/Rotation;)Lnet/minecraft/world/level/levelgen/structure/templatesystem/StructurePlaceSettings;
+      22: aload_2
+      23: aload_3
+      24: invokestatic  #27                 // Method makePosition:(Lnet/minecraft/resources/ResourceLocation;Lnet/minecraft/core/BlockPos;)Lnet/minecraft/core/BlockPos;
+      27: invokespecial #31                 // Method net/minecraft/world/level/levelgen/structure/TemplateStructurePiece."<init>":(Lnet/minecraft/world/level/levelgen/structure/pieces/StructurePieceType;ILnet/minecraft/world/level/levelgen/structure/templatesystem/StructureTemplateManager;Lnet/minecraft/resources/ResourceLocation;Ljava/lang/String;Lnet/minecraft/world/level/levelgen/structure/templatesystem/StructurePlaceSettings;Lnet/minecraft/core/BlockPos;)V
+      30: return
+
+  public com.github.L_Ender.cataclysm.structures.Sunken_City_Structure$Piece(net.minecraft.world.level.levelgen.structure.templatesystem.StructureTemplateManager, net.minecraft.nbt.CompoundTag);
+    Code:
+       0: aload_0
+       1: getstatic     #1                  // Field com/github/L_Ender/cataclysm/init/ModStructures.SCP:Lnet/neoforged/neoforge/registries/DeferredHolder;
+       4: invokevirtual #7                  // Method net/neoforged/neoforge/registries/DeferredHolder.get:()Ljava/lang/Object;
+       7: checkcast     #13                 // class net/minecraft/world/level/levelgen/structure/pieces/StructurePieceType
+      10: aload_2
+      11: aload_1
+      12: aload_2
+      13: invokedynamic #37,  0             // InvokeDynamic #0:apply:(Lnet/minecraft/nbt/CompoundTag;)Ljava/util/function/Function;
+      18: invokespecial #41                 // Method net/minecraft/world/level/levelgen/structure/TemplateStructurePiece."<init>":(Lnet/minecraft/world/level/levelgen/structure/pieces/StructurePieceType;Lnet/minecraft/nbt/CompoundTag;Lnet/minecraft/world/level/levelgen/structure/templatesystem/StructureTemplateManager;Ljava/util/function/Function;)V
+      21: return
+
+  public com.github.L_Ender.cataclysm.structures.Sunken_City_Structure$Piece(net.minecraft.world.level.levelgen.structure.pieces.StructurePieceSerializationContext, net.minecraft.nbt.CompoundTag);
+    Code:
+       0: aload_0
+       1: aload_1
+       2: invokevirtual #44                 // Method net/minecraft/world/level/levelgen/structure/pieces/StructurePieceSerializationContext.structureTemplateManager:()Lnet/minecraft/world/level/levelgen/structure/templatesystem/StructureTemplateManager;
+       5: aload_2
+       6: invokespecial #50                 // Method "<init>":(Lnet/minecraft/world/level/levelgen/structure/templatesystem/StructureTemplateManager;Lnet/minecraft/nbt/CompoundTag;)V
+       9: return
+
+  private static net.minecraft.world.level.levelgen.structure.templatesystem.StructurePlaceSettings makeSettings(net.minecraft.world.level.block.Rotation);
+    Code:
+       0: getstatic     #53                 // Field net/minecraft/world/level/levelgen/structure/templatesystem/BlockIgnoreProcessor.STRUCTURE_BLOCK:Lnet/minecraft/world/level/levelgen/structure/templatesystem/BlockIgnoreProcessor;
+       3: astore_1
+       4: new           #59                 // class net/minecraft/world/level/levelgen/structure/templatesystem/StructurePlaceSettings
+       7: dup
+       8: invokespecial #61                 // Method net/minecraft/world/level/levelgen/structure/templatesystem/StructurePlaceSettings."<init>":()V
+      11: aload_0
+      12: invokevirtual #64                 // Method net/minecraft/world/level/levelgen/structure/templatesystem/StructurePlaceSettings.setRotation:(Lnet/minecraft/world/level/block/Rotation;)Lnet/minecraft/world/level/levelgen/structure/templatesystem/StructurePlaceSettings;
+      15: getstatic     #67                 // Field net/minecraft/world/level/block/Mirror.NONE:Lnet/minecraft/world/level/block/Mirror;
+      18: invokevirtual #73                 // Method net/minecraft/world/level/levelgen/structure/templatesystem/StructurePlaceSettings.setMirror:(Lnet/minecraft/world/level/block/Mirror;)Lnet/minecraft/world/level/levelgen/structure/templatesystem/StructurePlaceSettings;
+      21: aload_1
+      22: invokevirtual #77                 // Method net/minecraft/world/level/levelgen/structure/templatesystem/StructurePlaceSettings.addProcessor:(Lnet/minecraft/world/level/levelgen/structure/templatesystem/StructureProcessor;)Lnet/minecraft/world/level/levelgen/structure/templatesystem/StructurePlaceSettings;
+      25: getstatic     #81                 // Field net/minecraft/world/level/levelgen/structure/templatesystem/LiquidSettings.IGNORE_WATERLOGGING:Lnet/minecraft/world/level/levelgen/structure/templatesystem/LiquidSettings;
+      28: invokevirtual #87                 // Method net/minecraft/world/level/levelgen/structure/templatesystem/StructurePlaceSettings.setLiquidSettings:(Lnet/minecraft/world/level/levelgen/structure/templatesystem/LiquidSettings;)Lnet/minecraft/world/level/levelgen/structure/templatesystem/StructurePlaceSettings;
+      31: new           #91                 // class net/minecraft/world/level/levelgen/structure/templatesystem/ProtectedBlockProcessor
+      34: dup
+      35: getstatic     #93                 // Field com/github/L_Ender/cataclysm/init/ModTag.SUNKEN_CITY_MATERIAL:Lnet/minecraft/tags/TagKey;
+      38: invokespecial #99                 // Method net/minecraft/world/level/levelgen/structure/templatesystem/ProtectedBlockProcessor."<init>":(Lnet/minecraft/tags/TagKey;)V
+      41: invokevirtual #77                 // Method net/minecraft/world/level/levelgen/structure/templatesystem/StructurePlaceSettings.addProcessor:(Lnet/minecraft/world/level/levelgen/structure/templatesystem/StructureProcessor;)Lnet/minecraft/world/level/levelgen/structure/templatesystem/StructurePlaceSettings;
+      44: astore_2
+      45: aload_2
+      46: areturn
+
+  private static net.minecraft.core.BlockPos makePosition(net.minecraft.resources.ResourceLocation, net.minecraft.core.BlockPos);
+    Code:
+       0: aload_1
+       1: getstatic     #102                // Field com/github/L_Ender/cataclysm/structures/Sunken_City_Structure.OFFSET:Ljava/util/Map;
+       4: aload_0
+       5: invokeinterface #108,  2          // InterfaceMethod java/util/Map.get:(Ljava/lang/Object;)Ljava/lang/Object;
+      10: checkcast     #113                // class net/minecraft/core/Vec3i
+      13: invokevirtual #115                // Method net/minecraft/core/BlockPos.offset:(Lnet/minecraft/core/Vec3i;)Lnet/minecraft/core/BlockPos;
+      16: areturn
+
+  protected void addAdditionalSaveData(net.minecraft.world.level.levelgen.structure.pieces.StructurePieceSerializationContext, net.minecraft.nbt.CompoundTag);
+    Code:
+       0: aload_0
+       1: aload_1
+       2: aload_2
+       3: invokespecial #121                // Method net/minecraft/world/level/levelgen/structure/TemplateStructurePiece.addAdditionalSaveData:(Lnet/minecraft/world/level/levelgen/structure/pieces/StructurePieceSerializationContext;Lnet/minecraft/nbt/CompoundTag;)V
+       6: aload_2
+       7: ldc           #125                // String Rot
+       9: aload_0
+      10: getfield      #127                // Field placeSettings:Lnet/minecraft/world/level/levelgen/structure/templatesystem/StructurePlaceSettings;
+      13: invokevirtual #131                // Method net/minecraft/world/level/levelgen/structure/templatesystem/StructurePlaceSettings.getRotation:()Lnet/minecraft/world/level/block/Rotation;
+      16: invokevirtual #135                // Method net/minecraft/world/level/block/Rotation.name:()Ljava/lang/String;
+      19: invokevirtual #140                // Method net/minecraft/nbt/CompoundTag.putString:(Ljava/lang/String;Ljava/lang/String;)V
+      22: return
+
+  protected void handleDataMarker(java.lang.String, net.minecraft.core.BlockPos, net.minecraft.world.level.ServerLevelAccessor, net.minecraft.util.RandomSource, net.minecraft.world.level.levelgen.structure.BoundingBox);
+    Code:
+       0: new           #146                // class java/util/ArrayList
+       3: dup
+       4: invokespecial #148                // Method java/util/ArrayList."<init>":()V
+       7: astore        6
+       9: aload_1
+      10: astore        7
+      12: iconst_m1
+      13: istore        8
+      15: aload         7
+      17: invokevirtual #149                // Method java/lang/String.hashCode:()I
+      20: lookupswitch  { // 5
+           -1740503684: 136
+            -207609927: 72
+                114257: 120
+             629233378: 104
+            2121278972: 88
+               default: 149
+          }
+      72: aload         7
+      74: ldc           #155                // String deepling_brute
+      76: invokevirtual #157                // Method java/lang/String.equals:(Ljava/lang/Object;)Z
+      79: ifeq          149
+      82: iconst_0
+      83: istore        8
+      85: goto          149
+      88: aload         7
+      90: ldc           #161                // String deepling_angler
+      92: invokevirtual #157                // Method java/lang/String.equals:(Ljava/lang/Object;)Z
+      95: ifeq          149
+      98: iconst_1
+      99: istore        8
+     101: goto          149
+     104: aload         7
+     106: ldc           #163                // String deepling
+     108: invokevirtual #157                // Method java/lang/String.equals:(Ljava/lang/Object;)Z
+     111: ifeq          149
+     114: iconst_2
+     115: istore        8
+     117: goto          149
+     120: aload         7
+     122: ldc           #165                // String sus
+     124: invokevirtual #157                // Method java/lang/String.equals:(Ljava/lang/Object;)Z
+     127: ifeq          149
+     130: iconst_3
+     131: istore        8
+     133: goto          149
+     136: aload         7
+     138: ldc           #167                // String deepling_priest
+     140: invokevirtual #157                // Method java/lang/String.equals:(Ljava/lang/Object;)Z
+     143: ifeq          149
+     146: iconst_4
+     147: istore        8
+     149: iload         8
+     151: tableswitch   { // 0 to 4
+                     0: 184
+                     1: 216
+                     2: 248
+                     3: 280
+                     4: 312
+               default: 386
+          }
+     184: aload         6
+     186: getstatic     #169                // Field com/github/L_Ender/cataclysm/init/ModEntities.DEEPLING_BRUTE:Lnet/neoforged/neoforge/registries/DeferredHolder;
+     189: invokevirtual #7                  // Method net/neoforged/neoforge/registries/DeferredHolder.get:()Ljava/lang/Object;
+     192: checkcast     #174                // class net/minecraft/world/entity/EntityType
+     195: aload_3
+     196: invokeinterface #176,  1          // InterfaceMethod net/minecraft/world/level/ServerLevelAccessor.getLevel:()Lnet/minecraft/server/level/ServerLevel;
+     201: invokevirtual #182                // Method net/minecraft/world/entity/EntityType.create:(Lnet/minecraft/world/level/Level;)Lnet/minecraft/world/entity/Entity;
+     204: checkcast     #186                // class net/minecraft/world/entity/Mob
+     207: invokeinterface #188,  2          // InterfaceMethod java/util/List.add:(Ljava/lang/Object;)Z
+     212: pop
+     213: goto          387
+     216: aload         6
+     218: getstatic     #193                // Field com/github/L_Ender/cataclysm/init/ModEntities.DEEPLING_ANGLER:Lnet/neoforged/neoforge/registries/DeferredHolder;
+     221: invokevirtual #7                  // Method net/neoforged/neoforge/registries/DeferredHolder.get:()Ljava/lang/Object;
+     224: checkcast     #174                // class net/minecraft/world/entity/EntityType
+     227: aload_3
+     228: invokeinterface #176,  1          // InterfaceMethod net/minecraft/world/level/ServerLevelAccessor.getLevel:()Lnet/minecraft/server/level/ServerLevel;
+     233: invokevirtual #182                // Method net/minecraft/world/entity/EntityType.create:(Lnet/minecraft/world/level/Level;)Lnet/minecraft/world/entity/Entity;
+     236: checkcast     #186                // class net/minecraft/world/entity/Mob
+     239: invokeinterface #188,  2          // InterfaceMethod java/util/List.add:(Ljava/lang/Object;)Z
+     244: pop
+     245: goto          387
+     248: aload         6
+     250: getstatic     #196                // Field com/github/L_Ender/cataclysm/init/ModEntities.DEEPLING:Lnet/neoforged/neoforge/registries/DeferredHolder;
+     253: invokevirtual #7                  // Method net/neoforged/neoforge/registries/DeferredHolder.get:()Ljava/lang/Object;
+     256: checkcast     #174                // class net/minecraft/world/entity/EntityType
+     259: aload_3
+     260: invokeinterface #176,  1          // InterfaceMethod net/minecraft/world/level/ServerLevelAccessor.getLevel:()Lnet/minecraft/server/level/ServerLevel;
+     265: invokevirtual #182                // Method net/minecraft/world/entity/EntityType.create:(Lnet/minecraft/world/level/Level;)Lnet/minecraft/world/entity/Entity;
+     268: checkcast     #186                // class net/minecraft/world/entity/Mob
+     271: invokeinterface #188,  2          // InterfaceMethod java/util/List.add:(Ljava/lang/Object;)Z
+     276: pop
+     277: goto          387
+     280: aload         6
+     282: getstatic     #199                // Field com/github/L_Ender/cataclysm/init/ModEntities.CORALSSUS:Lnet/neoforged/neoforge/registries/DeferredHolder;
+     285: invokevirtual #7                  // Method net/neoforged/neoforge/registries/DeferredHolder.get:()Ljava/lang/Object;
+     288: checkcast     #174                // class net/minecraft/world/entity/EntityType
+     291: aload_3
+     292: invokeinterface #176,  1          // InterfaceMethod net/minecraft/world/level/ServerLevelAccessor.getLevel:()Lnet/minecraft/server/level/ServerLevel;
+     297: invokevirtual #182                // Method net/minecraft/world/entity/EntityType.create:(Lnet/minecraft/world/level/Level;)Lnet/minecraft/world/entity/Entity;
+     300: checkcast     #186                // class net/minecraft/world/entity/Mob
+     303: invokeinterface #188,  2          // InterfaceMethod java/util/List.add:(Ljava/lang/Object;)Z
+     308: pop
+     309: goto          387
+     312: aload         4
+     314: invokeinterface #202,  1          // InterfaceMethod net/minecraft/util/RandomSource.nextBoolean:()Z
+     319: ifeq          354
+     322: aload         6
+     324: getstatic     #208                // Field com/github/L_Ender/cataclysm/init/ModEntities.DEEPLING_PRIEST:Lnet/neoforged/neoforge/registries/DeferredHolder;
+     327: invokevirtual #7                  // Method net/neoforged/neoforge/registries/DeferredHolder.get:()Ljava/lang/Object;
+     330: checkcast     #174                // class net/minecraft/world/entity/EntityType
+     333: aload_3
+     334: invokeinterface #176,  1          // InterfaceMethod net/minecraft/world/level/ServerLevelAccessor.getLevel:()Lnet/minecraft/server/level/ServerLevel;
+     339: invokevirtual #182                // Method net/minecraft/world/entity/EntityType.create:(Lnet/minecraft/world/level/Level;)Lnet/minecraft/world/entity/Entity;
+     342: checkcast     #186                // class net/minecraft/world/entity/Mob
+     345: invokeinterface #188,  2          // InterfaceMethod java/util/List.add:(Ljava/lang/Object;)Z
+     350: pop
+     351: goto          387
+     354: aload         6
+     356: getstatic     #211                // Field com/github/L_Ender/cataclysm/init/ModEntities.DEEPLING_WARLOCK:Lnet/neoforged/neoforge/registries/DeferredHolder;
+     359: invokevirtual #7                  // Method net/neoforged/neoforge/registries/DeferredHolder.get:()Ljava/lang/Object;
+     362: checkcast     #174                // class net/minecraft/world/entity/EntityType
+     365: aload_3
+     366: invokeinterface #176,  1          // InterfaceMethod net/minecraft/world/level/ServerLevelAccessor.getLevel:()Lnet/minecraft/server/level/ServerLevel;
+     371: invokevirtual #182                // Method net/minecraft/world/entity/EntityType.create:(Lnet/minecraft/world/level/Level;)Lnet/minecraft/world/entity/Entity;
+     374: checkcast     #186                // class net/minecraft/world/entity/Mob
+     377: invokeinterface #188,  2          // InterfaceMethod java/util/List.add:(Ljava/lang/Object;)Z
+     382: pop
+     383: goto          387
+     386: return
+     387: aload         6
+     389: invokeinterface #214,  1          // InterfaceMethod java/util/List.iterator:()Ljava/util/Iterator;
+     394: astore        7
+     396: aload         7
+     398: invokeinterface #218,  1          // InterfaceMethod java/util/Iterator.hasNext:()Z
+     403: ifeq          479
+     406: aload         7
+     408: invokeinterface #223,  1          // InterfaceMethod java/util/Iterator.next:()Ljava/lang/Object;
+     413: checkcast     #186                // class net/minecraft/world/entity/Mob
+     416: astore        8
+     418: aload         8
+     420: invokevirtual #226                // Method net/minecraft/world/entity/Mob.setPersistenceRequired:()V
+     423: aload         8
+     425: aload_2
+     426: fconst_0
+     427: fconst_0
+     428: invokevirtual #229                // Method net/minecraft/world/entity/Mob.moveTo:(Lnet/minecraft/core/BlockPos;FF)V
+     431: aload         8
+     433: aload_3
+     434: aload_3
+     435: aload         8
+     437: invokevirtual #233                // Method net/minecraft/world/entity/Mob.blockPosition:()Lnet/minecraft/core/BlockPos;
+     440: invokeinterface #237,  2          // InterfaceMethod net/minecraft/world/level/ServerLevelAccessor.getCurrentDifficultyAt:(Lnet/minecraft/core/BlockPos;)Lnet/minecraft/world/DifficultyInstance;
+     445: getstatic     #241                // Field net/minecraft/world/entity/MobSpawnType.STRUCTURE:Lnet/minecraft/world/entity/MobSpawnType;
+     448: aconst_null
+     449: invokevirtual #247                // Method net/minecraft/world/entity/Mob.finalizeSpawn:(Lnet/minecraft/world/level/ServerLevelAccessor;Lnet/minecraft/world/DifficultyInstance;Lnet/minecraft/world/entity/MobSpawnType;Lnet/minecraft/world/entity/SpawnGroupData;)Lnet/minecraft/world/entity/SpawnGroupData;
+     452: pop
+     453: aload_3
+     454: aload         8
+     456: invokeinterface #251,  2          // InterfaceMethod net/minecraft/world/level/ServerLevelAccessor.addFreshEntityWithPassengers:(Lnet/minecraft/world/entity/Entity;)V
+     461: aload_3
+     462: aload_2
+     463: getstatic     #255                // Field net/minecraft/world/level/block/Blocks.AIR:Lnet/minecraft/world/level/block/Block;
+     466: invokevirtual #261                // Method net/minecraft/world/level/block/Block.defaultBlockState:()Lnet/minecraft/world/level/block/state/BlockState;
+     469: iconst_2
+     470: invokeinterface #267,  4          // InterfaceMethod net/minecraft/world/level/ServerLevelAccessor.setBlock:(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;I)Z
+     475: pop
+     476: goto          396
+     479: return
+
+  private static net.minecraft.world.level.levelgen.structure.templatesystem.StructurePlaceSettings lambda$new$0(net.minecraft.nbt.CompoundTag, net.minecraft.resources.ResourceLocation);
+    Code:
+       0: aload_0
+       1: ldc           #125                // String Rot
+       3: invokevirtual #271                // Method net/minecraft/nbt/CompoundTag.getString:(Ljava/lang/String;)Ljava/lang/String;
+       6: invokestatic  #275                // Method net/minecraft/world/level/block/Rotation.valueOf:(Ljava/lang/String;)Lnet/minecraft/world/level/block/Rotation;
+       9: invokestatic  #21                 // Method makeSettings:(Lnet/minecraft/world/level/block/Rotation;)Lnet/minecraft/world/level/levelgen/structure/templatesystem/StructurePlaceSettings;
+      12: areturn
+}

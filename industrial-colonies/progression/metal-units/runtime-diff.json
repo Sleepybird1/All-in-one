@@ -1,0 +1,430 @@
+{
+  "changedRecipes": 791,
+  "removedRecipes": [
+    "aquaculture:neptunium_ingot_from_nuggets",
+    "createaddition:crafting/electrum_ingot_from_nugget",
+    "createbigcannons:nethersteel_ingot_from_nuggets",
+    "immersiveengineering:crafting/nugget_netherite_to_netherite_ingot",
+    "immersiveengineering:crafting/nugget_uranium_to_ingot_uranium",
+    "industrial_colonies:currency/allthemodium/ingot_from_nuggets",
+    "industrial_colonies:currency/unobtainium/ingot_from_nuggets",
+    "industrial_colonies:currency/vibranium/ingot_from_nuggets",
+    "mekanism:processing/refined_glowstone/ingot/from_nuggets",
+    "mekanism:processing/refined_obsidian/ingot/from_nuggets",
+    "modernfoundry:common/materials/amethyst_bronze_ingot_from_nuggets",
+    "modernfoundry:common/materials/cinderslime_ingot_from_nuggets",
+    "modernfoundry:common/materials/hepatizon_ingot_from_nuggets",
+    "modernfoundry:common/materials/knightmetal_ingot_from_nuggets",
+    "modernfoundry:common/materials/knightslime_ingot_from_nuggets",
+    "modernfoundry:common/materials/manyullyn_ingot_from_nuggets",
+    "modernfoundry:common/materials/netherite_ingot_from_nuggets",
+    "modernfoundry:common/materials/netherite_scrap_from_nuggets",
+    "modernfoundry:common/materials/pig_iron_ingot_from_nuggets",
+    "modernfoundry:common/materials/queens_slime_ingot_from_nuggets",
+    "modernfoundry:common/materials/rose_gold_ingot_from_nuggets",
+    "modernfoundry:common/materials/slimesteel_ingot_from_nuggets",
+    "nuclearcraft:electrum_ingot_from_nugget",
+    "nuclearcraft:thorium_ingot_from_nugget",
+    "nuclearcraft:uranium_ingot_from_nugget",
+    "nuclearcraft:uranium_nugget_from_ingot",
+    "nuclearcraft:zirconium_ingot_from_nugget",
+    "rocketnautics:crafting/materials/titanium_alloy_from_compacting",
+    "stellaris:misc/heavy_metal_ingot_from_nugget",
+    "stellaris:misc/plutonium_ingot_from_nugget",
+    "tfmg:crafting/materials/cast_iron_ingot_from_compacting",
+    "tfmg:crafting/materials/constantan_ingot_from_compacting"
+  ],
+  "newRecipes": [],
+  "unexpectedChanges": [
+    {
+      "path": "modernfoundry:smeltery/entity_melting/strength/entity/types/0",
+      "before": "minecraft:ravager",
+      "after": "minecraft:panda"
+    },
+    {
+      "path": "modernfoundry:smeltery/entity_melting/strength/entity/types/1",
+      "before": "minecraft:polar_bear",
+      "after": "minecraft:zoglin"
+    },
+    {
+      "path": "modernfoundry:smeltery/entity_melting/strength/entity/types/2",
+      "before": "minecraft:zoglin",
+      "after": "minecraft:polar_bear"
+    },
+    {
+      "path": "modernfoundry:smeltery/entity_melting/strength/entity/types/3",
+      "before": "minecraft:panda",
+      "after": "minecraft:ravager"
+    },
+    {
+      "path": "nuclearcraft:melter/lead_ingot/fluid_outputs/0",
+      "before": {
+        "fluid": "nuclearcraft:molten_lead"
+      },
+      "after": {
+        "fluid": "nuclearcraft:molten_lead",
+        "amount": 100
+      }
+    },
+    {
+      "path": "nuclearcraft:melter/bronze_ingot/fluid_outputs/0",
+      "before": {
+        "fluid": "nuclearcraft:molten_bronze"
+      },
+      "after": {
+        "fluid": "nuclearcraft:molten_bronze",
+        "amount": 100
+      }
+    },
+    {
+      "path": "nuclearcraft:melter/zinc_ingot/fluid_outputs/0",
+      "before": {
+        "fluid": "nuclearcraft:molten_zinc"
+      },
+      "after": {
+        "fluid": "nuclearcraft:molten_zinc",
+        "amount": 100
+      }
+    },
+    {
+      "path": "modernfoundry:smeltery/entity_melting/night_vision/entity/types/0",
+      "before": "minecraft:bat",
+      "after": "minecraft:glow_squid"
+    },
+    {
+      "path": "modernfoundry:smeltery/entity_melting/night_vision/entity/types/1",
+      "before": "minecraft:glow_squid",
+      "after": "minecraft:bat"
+    },
+    {
+      "path": "modernfoundry:smeltery/entity_melting/swiftness/entity/types/0",
+      "before": "minecraft:donkey",
+      "after": "minecraft:llama"
+    },
+    {
+      "path": "modernfoundry:smeltery/entity_melting/swiftness/entity/types/1",
+      "before": "minecraft:fox",
+      "after": "minecraft:dolphin"
+    },
+    {
+      "path": "modernfoundry:smeltery/entity_melting/swiftness/entity/types/2",
+      "before": "minecraft:horse",
+      "after": "minecraft:ocelot"
+    },
+    {
+      "path": "modernfoundry:smeltery/entity_melting/swiftness/entity/types/3",
+      "before": "minecraft:trader_llama",
+      "after": "minecraft:mule"
+    },
+    {
+      "path": "modernfoundry:smeltery/entity_melting/swiftness/entity/types/4",
+      "before": "minecraft:mule",
+      "after": "minecraft:trader_llama"
+    },
+    {
+      "path": "modernfoundry:smeltery/entity_melting/swiftness/entity/types/5",
+      "before": "minecraft:ocelot",
+      "after": "minecraft:horse"
+    },
+    {
+      "path": "modernfoundry:smeltery/entity_melting/swiftness/entity/types/6",
+      "before": "minecraft:dolphin",
+      "after": "minecraft:fox"
+    },
+    {
+      "path": "modernfoundry:smeltery/entity_melting/swiftness/entity/types/7",
+      "before": "minecraft:llama",
+      "after": "minecraft:donkey"
+    },
+    {
+      "path": "modernfoundry:smeltery/entity_melting/water_breathing/entity/types/0",
+      "before": "minecraft:squid",
+      "after": "minecraft:pufferfish"
+    },
+    {
+      "path": "modernfoundry:smeltery/entity_melting/water_breathing/entity/types/1",
+      "before": "minecraft:pufferfish",
+      "after": "minecraft:squid"
+    },
+    {
+      "path": "modernfoundry:smeltery/entity_melting/ender/entity/types/0",
+      "before": "minecraft:enderman",
+      "after": "minecraft:ender_dragon"
+    },
+    {
+      "path": "modernfoundry:smeltery/entity_melting/ender/entity/types/2",
+      "before": "minecraft:ender_dragon",
+      "after": "minecraft:enderman"
+    },
+    {
+      "path": "modernfoundry:tools/severing/guardian_shard/entity/types/0",
+      "before": "minecraft:guardian",
+      "after": "minecraft:elder_guardian"
+    },
+    {
+      "path": "modernfoundry:tools/severing/guardian_shard/entity/types/1",
+      "before": "minecraft:elder_guardian",
+      "after": "minecraft:guardian"
+    },
+    {
+      "path": "modernfoundry:smeltery/entity_melting/zombie/entity/types/0",
+      "before": "minecraft:zombie",
+      "after": "minecraft:zombie_horse"
+    },
+    {
+      "path": "modernfoundry:smeltery/entity_melting/zombie/entity/types/2",
+      "before": "minecraft:zombie_horse",
+      "after": "minecraft:zombie"
+    },
+    {
+      "path": "modernfoundry:smeltery/entity_melting/spider/entity/types/0",
+      "before": "minecraft:cave_spider",
+      "after": "minecraft:spider"
+    },
+    {
+      "path": "modernfoundry:smeltery/entity_melting/spider/entity/types/1",
+      "before": "minecraft:spider",
+      "after": "minecraft:cave_spider"
+    },
+    {
+      "path": "nuclearcraft:melter/cobalt_ingot/fluid_outputs/0",
+      "before": {
+        "fluid": "nuclearcraft:molten_cobalt"
+      },
+      "after": {
+        "fluid": "nuclearcraft:molten_cobalt",
+        "amount": 100
+      }
+    },
+    {
+      "path": "modernfoundry:smeltery/entity_melting/regeneration/entity/types/0",
+      "before": "minecraft:axolotl",
+      "after": "minecraft:ghast"
+    },
+    {
+      "path": "modernfoundry:smeltery/entity_melting/regeneration/entity/types/1",
+      "before": "minecraft:ghast",
+      "after": "minecraft:axolotl"
+    },
+    {
+      "path": "modernfoundry:tools/severing/spider_eye/entity/types/0",
+      "before": "minecraft:cave_spider",
+      "after": "minecraft:spider"
+    },
+    {
+      "path": "modernfoundry:tools/severing/spider_eye/entity/types/1",
+      "before": "minecraft:spider",
+      "after": "minecraft:cave_spider"
+    },
+    {
+      "path": "nuclearcraft:melter/platinum_ingot/fluid_outputs/0",
+      "before": {
+        "fluid": "nuclearcraft:molten_platinum"
+      },
+      "after": {
+        "fluid": "nuclearcraft:molten_platinum",
+        "amount": 100
+      }
+    },
+    {
+      "path": "modernfoundry:smeltery/entity_melting/meat_soup/entity/types/0",
+      "before": "minecraft:salmon",
+      "after": "minecraft:pig"
+    },
+    {
+      "path": "modernfoundry:smeltery/entity_melting/meat_soup/entity/types/1",
+      "before": "minecraft:cod",
+      "after": "minecraft:rabbit"
+    },
+    {
+      "path": "modernfoundry:smeltery/entity_melting/meat_soup/entity/types/2",
+      "before": "minecraft:sheep",
+      "after": "minecraft:goat"
+    },
+    {
+      "path": "modernfoundry:smeltery/entity_melting/meat_soup/entity/types/3",
+      "before": "minecraft:cow",
+      "after": "minecraft:hoglin"
+    },
+    {
+      "path": "modernfoundry:smeltery/entity_melting/meat_soup/entity/types/4",
+      "before": "minecraft:tropical_fish",
+      "after": "minecraft:chicken"
+    },
+    {
+      "path": "modernfoundry:smeltery/entity_melting/meat_soup/entity/types/6",
+      "before": "minecraft:chicken",
+      "after": "minecraft:tropical_fish"
+    },
+    {
+      "path": "modernfoundry:smeltery/entity_melting/meat_soup/entity/types/7",
+      "before": "minecraft:hoglin",
+      "after": "minecraft:cow"
+    },
+    {
+      "path": "modernfoundry:smeltery/entity_melting/meat_soup/entity/types/8",
+      "before": "minecraft:goat",
+      "after": "minecraft:sheep"
+    },
+    {
+      "path": "modernfoundry:smeltery/entity_melting/meat_soup/entity/types/9",
+      "before": "minecraft:rabbit",
+      "after": "minecraft:cod"
+    },
+    {
+      "path": "modernfoundry:smeltery/entity_melting/meat_soup/entity/types/10",
+      "before": "minecraft:pig",
+      "after": "minecraft:salmon"
+    },
+    {
+      "path": "nuclearcraft:melter/aluminum_ingot/fluid_outputs/0",
+      "before": {
+        "fluid": "nuclearcraft:molten_aluminum"
+      },
+      "after": {
+        "fluid": "nuclearcraft:molten_aluminum",
+        "amount": 100
+      }
+    },
+    {
+      "path": "nuclearcraft:melter/copper_ingot/fluid_outputs/0",
+      "before": {
+        "fluid": "nuclearcraft:molten_copper"
+      },
+      "after": {
+        "fluid": "nuclearcraft:molten_copper",
+        "amount": 100
+      }
+    },
+    {
+      "path": "modernfoundry:smeltery/entity_melting/guardian/entity/types/0",
+      "before": "minecraft:guardian",
+      "after": "minecraft:elder_guardian"
+    },
+    {
+      "path": "modernfoundry:smeltery/entity_melting/guardian/entity/types/1",
+      "before": "minecraft:elder_guardian",
+      "after": "minecraft:guardian"
+    },
+    {
+      "path": "nuclearcraft:melter/tin_ingot/fluid_outputs/0",
+      "before": {
+        "fluid": "nuclearcraft:molten_tin"
+      },
+      "after": {
+        "fluid": "nuclearcraft:molten_tin",
+        "amount": 100
+      }
+    },
+    {
+      "path": "nuclearcraft:melter/steel_ingot/fluid_outputs/0",
+      "before": {
+        "fluid": "nuclearcraft:molten_steel"
+      },
+      "after": {
+        "fluid": "nuclearcraft:molten_steel",
+        "amount": 100
+      }
+    },
+    {
+      "path": "modernfoundry:smeltery/entity_melting/piglin/entity/types/0",
+      "before": "minecraft:zombified_piglin",
+      "after": "minecraft:piglin"
+    },
+    {
+      "path": "modernfoundry:smeltery/entity_melting/piglin/entity/types/2",
+      "before": "minecraft:piglin",
+      "after": "minecraft:zombified_piglin"
+    },
+    {
+      "path": "nuclearcraft:melter/beryllium_ingot/fluid_outputs/0",
+      "before": {
+        "fluid": "nuclearcraft:molten_beryllium"
+      },
+      "after": {
+        "fluid": "nuclearcraft:molten_beryllium",
+        "amount": 100
+      }
+    },
+    {
+      "path": "nuclearcraft:melter/boron_ingot/fluid_outputs/0",
+      "before": {
+        "fluid": "nuclearcraft:molten_boron"
+      },
+      "after": {
+        "fluid": "nuclearcraft:molten_boron",
+        "amount": 100
+      }
+    },
+    {
+      "path": "nuclearcraft:melter/silver_ingot/fluid_outputs/0",
+      "before": {
+        "fluid": "nuclearcraft:molten_silver"
+      },
+      "after": {
+        "fluid": "nuclearcraft:molten_silver",
+        "amount": 100
+      }
+    },
+    {
+      "path": "nuclearcraft:melter/iron_ingot/fluid_outputs/0",
+      "before": {
+        "fluid": "nuclearcraft:molten_iron"
+      },
+      "after": {
+        "fluid": "nuclearcraft:molten_iron",
+        "amount": 100
+      }
+    },
+    {
+      "path": "modernfoundry:tools/severing/cobweb/entity/types/0",
+      "before": "minecraft:cave_spider",
+      "after": "minecraft:spider"
+    },
+    {
+      "path": "modernfoundry:tools/severing/cobweb/entity/types/1",
+      "before": "minecraft:spider",
+      "after": "minecraft:cave_spider"
+    },
+    {
+      "path": "nuclearcraft:melter/magnesium_ingot/fluid_outputs/0",
+      "before": {
+        "fluid": "nuclearcraft:molten_magnesium"
+      },
+      "after": {
+        "fluid": "nuclearcraft:molten_magnesium",
+        "amount": 100
+      }
+    },
+    {
+      "path": "nuclearcraft:melter/lithium_ingot/fluid_outputs/0",
+      "before": {
+        "fluid": "nuclearcraft:molten_lithium"
+      },
+      "after": {
+        "fluid": "nuclearcraft:molten_lithium",
+        "amount": 100
+      }
+    },
+    {
+      "path": "nuclearcraft:melter/gold_ingot/fluid_outputs/0",
+      "before": {
+        "fluid": "nuclearcraft:molten_gold"
+      },
+      "after": {
+        "fluid": "nuclearcraft:molten_gold",
+        "amount": 100
+      }
+    },
+    {
+      "path": "modernfoundry:tools/severing/skeleton_bone/entity/types/0",
+      "before": "minecraft:skeleton",
+      "after": "minecraft:stray"
+    },
+    {
+      "path": "modernfoundry:tools/severing/skeleton_bone/entity/types/2",
+      "before": "minecraft:stray",
+      "after": "minecraft:skeleton"
+    }
+  ]
+}

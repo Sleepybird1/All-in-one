@@ -1,0 +1,16 @@
+{
+  "kubejs/data/industrial_colonies/neoforge/biome_modifier/remove_earth_anglers.json": null,
+  "kubejs/data/industrial_colonies/neoforge/biome_modifier/glacio_anglers.json": null,
+  "kubejs/data/ad_astra/tags/entity_type/can_survive_extreme_cold.json": null,
+  "kubejs/data/ad_astra/worldgen/noise_settings/glacio.json": null,
+  "kubejs/data/cataclysm/structure/sunken_city_entrance2.nbt": null,
+  "kubejs/data/cataclysm/structure/sunken_city_lower_east.nbt": null,
+  "kubejs/data/cataclysm/structure/sunken_city_lower_southwest.nbt": null,
+  "kubejs/data/cataclysm/structure/sunken_city_lower_west.nbt": null,
+  "kubejs/data/cataclysm/structure/sunken_city_mid_east.nbt": null,
+  "kubejs/data/cataclysm/structure/sunken_city_mid_northwest.nbt": null,
+  "kubejs/data/cataclysm/structure/sunken_city_mid_south.nbt": null,
+  "kubejs/data/cataclysm/structure/sunken_city_mid_southwest.nbt": null,
+  "kubejs/data/cataclysm/structure/sunken_city_mid_west.nbt": null,
+  "kubejs/data/cataclysm/structure/sunken_city_temple1.nbt": null
+}

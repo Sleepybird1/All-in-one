@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "files": 23,
+  "islandDensityReductionPercent": [
+    99.02,
+    99.25
+  ],
+  "jungleStylesDisabled": 2,
+  "towerOverworldBiomes": 0,
+  "bossRewardsRequirePlayerKill": true
+}

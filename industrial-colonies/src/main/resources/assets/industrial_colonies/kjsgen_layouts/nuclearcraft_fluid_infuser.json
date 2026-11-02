@@ -1,0 +1,58 @@
+{
+  "id": "industrial_colonies:nuclearcraft_fluid_infuser",
+  "mod": "nuclearcraft",
+  "icon": "nuclearcraft:fluid_infuser",
+  "width": 156,
+  "height": 62,
+  "slots": [
+    {
+      "key": "in0",
+      "role": "INPUT",
+      "x": 8,
+      "y": 8,
+      "required": true,
+      "item": true,
+      "count": true
+    },
+    {
+      "key": "fluid",
+      "role": "INPUT",
+      "x": 8,
+      "y": 34,
+      "required": true,
+      "item": false,
+      "fluid": true,
+      "count": true
+    },
+    {
+      "key": "output",
+      "role": "OUTPUT",
+      "x": 130,
+      "y": 20,
+      "required": true,
+      "item": true,
+      "count": true
+    }
+  ],
+  "decorations": [
+    {
+      "type": "ARROW",
+      "x": 94,
+      "y": 20
+    }
+  ],
+  "parameters": [
+    {
+      "key": "energyPerTick",
+      "type": "INT",
+      "default": "50"
+    },
+    {
+      "key": "processTime",
+      "type": "INT",
+      "default": "200"
+    }
+  ],
+  "codegen": "industrial_colonies:nuclearcraft_manufacturing",
+  "requiresMod": "nuclearcraft"
+}

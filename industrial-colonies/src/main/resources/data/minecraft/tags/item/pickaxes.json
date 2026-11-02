@@ -1,0 +1,26 @@
+{
+  "replace": false,
+  "values": [
+    "industrial_colonies:crude_flint_pickaxe",
+    {
+      "id": "modernfoundry:pickaxe",
+      "required": false
+    },
+    {
+      "id": "modernfoundry:pickadze",
+      "required": false
+    },
+    {
+      "id": "modernfoundry:sledge_hammer",
+      "required": false
+    },
+    {
+      "id": "modernfoundry:vein_hammer",
+      "required": false
+    },
+    {
+      "id": "modernfoundry:war_pick",
+      "required": false
+    }
+  ]
+}

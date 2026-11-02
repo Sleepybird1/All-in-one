@@ -1,0 +1,19 @@
+{
+  "branch": "industrial_colonies:tech_tree",
+  "costs": [
+    {
+      "item": "minecraft:andesite",
+      "count": 16
+    },
+    {
+      "item": "minecraft:iron_ingot",
+      "count": 8
+    }
+  ],
+  "icon": "create:andesite_alloy",
+  "name": "com.industrial_colonies.research.mechanical_foundations.cr01_we_dont_read_manuals.name",
+  "no-reset": true,
+  "researchLevel": 1,
+  "sortOrder": 9867,
+  "subtitle": "com.industrial_colonies.research.mechanical_foundations.cr01_we_dont_read_manuals.subtitle"
+}

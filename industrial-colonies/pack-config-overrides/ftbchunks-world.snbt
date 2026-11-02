@@ -1,0 +1,180 @@
+# Server-specific configuration for FTB Chunks
+# Modpack defaults should be defined in <instance>/config/ftbchunks-world.snbt
+#   (may be overwritten on modpack update)
+# Server admins may locally override this by copying into <instance>/world/serverconfig/ftbchunks-world.snbt
+#   (will NOT be overwritten on modpack update)
+
+{
+	# Forced modes won't let players change their ally settings
+	# Default: "default"
+	# Valid values: "default", "forced_all", "forced_none"
+	ally_mode: "default"
+	
+	# Keep land claims and their normal protection behavior enabled.
+	# Default: false
+	disable_protection: false
+	
+	# If true, fire is prevented from spreading across claims owned by different teams.
+	# Default: false
+	fire_spread_protection: false
+	
+	# If true, fluids are prevented from flowing horizontally across claims owned by different teams.
+	# Default: false
+	flowing_fluid_protection: false
+	
+	# Minimap for clients connecting to this server will be disabled
+	# Default: false
+	force_disable_minimap: false
+	
+	# If true, "Location Visibility" team settings are ignored.
+	# Default: false
+	location_mode_override: false
+	
+	# Interval in ticks for long-range player tracking; 0 disables it.
+	# Default: 20
+	# Range: 0 ~ 2147483647
+	long_range_tracker_interval: 20
+	
+	# Requires claiming chunks in order to edit and interact with blocks.
+	# Default: false
+	no_wilderness: false
+	
+	# Dimensions where the no_wilderness rule is enforced.
+	# Default: []
+	no_wilderness_dimensions: [ ]
+	
+	# Prevent pistons crossing claim boundaries.
+	# Default: true
+	piston_protection: true
+	
+	# Protect claimed chunks from explosions with an unknown source.
+	# Default: true
+	protect_unknown_explosions: true
+	
+	# Default: "always"
+	# Valid values: "always", "never", "per_team"
+	pvp_mode: "always"
+	
+	# Require a game stage to use the map and minimap.
+	# Default: false
+	require_game_stage: false
+	claiming: {
+		# Dimensions where chunks may not be claimed.
+		# Default: []
+		claim_dimension_blacklist: [ ]
+		
+		# If non-empty, chunks may be claimed only in these dimensions.
+		# Default: []
+		claim_dimension_whitelist: [ ]
+		
+		# 0 means no additional hard team limit.
+		# Default: 0
+		hard_team_claim_limit: 0
+		
+		# Preserve normal chunk claiming; only free force-loading is removed.
+		# Default: 500
+		max_claimed_chunks: 500
+		
+		# 0 means claims never expire because of inactivity.
+		# Default: 0.0
+		max_idle_days_before_unclaim: 0.0d
+		
+		# Default: "largest"
+		# Valid values: "largest", "owner", "sum", "average"
+		party_limit_mode: "largest"
+	}
+	dev: {
+		# Enable dev commands
+		# Default: false
+		commands: false
+	}
+	fake_players: {
+		# Default: "check"
+		# Valid values: "check", "deny", "allow"
+		fake_players: "check"
+		
+		# Default: 7
+		max_prevented_log_age: 7
+	}
+	force_loading: {
+		# Keep FTB Chunks' standard online/offline mode; the zero quota below is the gate.
+		# Default: "default"
+		# Valid values: "default", "always", "never"
+		force_load_mode: "default"
+		
+		# In FTB Chunks, 0 here means "no additional hard cap", not a zero quota.
+		# The zero player quota is enforced by max_force_loaded_chunks below.
+		# Default: 0
+		hard_team_force_limit: 0
+		
+		# No free FTB Chunks force-loaded chunks. Purpose-built gated machines must
+		# provide persistent loading instead. FTB Ranks/admin grants remain explicit overrides.
+		# Default: 25
+		max_force_loaded_chunks: 0
+		
+		# 0 means existing force-load marks do not expire because of inactivity.
+		# Existing marks must be cleared separately during migration; see WORLD_LOADING_PROGRESSION.md.
+		# Default: 0.0
+		max_idle_days_before_unforce: 0.0d
+	}
+	team_prop_defaults: {
+		# Default: false
+		def_allow_explosions: false
+		
+		# NeoForge block editing mode.
+		# Default: "allies"
+		# Valid values: "allies", "private", "public"
+		def_block_edit: "allies"
+		
+		# Fabric combined edit/interact mode; retained for config parity.
+		# Default: "allies"
+		# Valid values: "allies", "private", "public"
+		def_block_edit_interact: "allies"
+		
+		# NeoForge block interaction mode.
+		# Default: "allies"
+		# Valid values: "allies", "private", "public"
+		def_block_interact: "allies"
+		
+		# Default: "public"
+		# Valid values: "allies", "private", "public"
+		def_claim_visibility: "public"
+		
+		# Default: "allies"
+		# Valid values: "allies", "private", "public"
+		def_entity_attack: "allies"
+		
+		# Default: "allies"
+		# Valid values: "allies", "private", "public"
+		def_entity_interact: "allies"
+		
+		# Default: true
+		def_fake_player_ids: true
+		
+		# Default: false
+		def_fake_players: false
+		
+		# Default: false
+		def_mob_griefing: false
+		
+		# Default: []
+		def_named_fake_players: [ ]
+		
+		# Default: "allies"
+		# Valid values: "allies", "private", "public"
+		def_player_visibility: "allies"
+		
+		# Default: true
+		def_pvp: true
+	}
+	waypoint_sharing: {
+		# Default: true
+		waypoint_sharing_party: true
+		
+		# Default: true
+		waypoint_sharing_players: true
+		
+		# Default: true
+		waypoint_sharing_server: true
+	}
+}

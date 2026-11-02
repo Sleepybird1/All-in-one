@@ -1,0 +1,50 @@
+{
+  "id": "industrial_colonies:nuclearcraft_supercooler",
+  "mod": "nuclearcraft",
+  "icon": "nuclearcraft:supercooler",
+  "width": 120,
+  "height": 44,
+  "slots": [
+    {
+      "key": "input",
+      "role": "INPUT",
+      "x": 8,
+      "y": 12,
+      "required": true,
+      "item": false,
+      "fluid": true,
+      "count": true
+    },
+    {
+      "key": "output",
+      "role": "OUTPUT",
+      "x": 94,
+      "y": 12,
+      "required": true,
+      "item": false,
+      "fluid": true,
+      "count": true
+    }
+  ],
+  "decorations": [
+    {
+      "type": "ARROW",
+      "x": 56,
+      "y": 12
+    }
+  ],
+  "parameters": [
+    {
+      "key": "energyPerTick",
+      "type": "INT",
+      "default": "50"
+    },
+    {
+      "key": "processTime",
+      "type": "INT",
+      "default": "200"
+    }
+  ],
+  "codegen": "industrial_colonies:nuclearcraft_manufacturing",
+  "requiresMod": "nuclearcraft"
+}

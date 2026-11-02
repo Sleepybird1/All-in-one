@@ -1,0 +1,588 @@
+{
+  "ingot_gear_pairs": [
+    {
+      "ingot": "nuclearcraft:aluminum_ingot",
+      "gear": "moreplates:aluminum_gear"
+    },
+    {
+      "ingot": "minecraft:glowstone_dust",
+      "gear": "moreplates:glowstone_dust_gear"
+    },
+    {
+      "ingot": "extendedae:entro_ingot",
+      "gear": "moreplates:entro_gear"
+    },
+    {
+      "ingot": "nuclearcraft:magnesium_diboride_ingot",
+      "gear": "moreplates:magnesium_diboride_gear"
+    },
+    {
+      "ingot": "bigreactors:inanite_ingot",
+      "gear": "moreplates:inanite_gear"
+    },
+    {
+      "ingot": "minecraft:lapis_lazuli",
+      "gear": "moreplates:lapis_lazuli_gear"
+    },
+    {
+      "ingot": "modernfoundry:manyullyn_ingot",
+      "gear": "moreplates:manyullyn_gear"
+    },
+    {
+      "ingot": "nuclearcraft:stainless_steel_ingot",
+      "gear": "moreplates:stainless_steel_gear"
+    },
+    {
+      "ingot": "nuclearcraft:titanium_ingot",
+      "gear": "moreplates:titanium_gear"
+    },
+    {
+      "ingot": "mekanism:ingot_refined_glowstone",
+      "gear": "moreplates:refined_glowstone_gear"
+    },
+    {
+      "ingot": "nuclearcraft:pyrolitic_carbon_ingot",
+      "gear": "moreplates:pyrolitic_carbon_gear"
+    },
+    {
+      "ingot": "rocketnautics_addon:tridymite_ingot",
+      "gear": "moreplates:tridymite_gear"
+    },
+    {
+      "ingot": "modernfoundry:cobalt_ingot",
+      "gear": "moreplates:cobalt_gear"
+    },
+    {
+      "ingot": "bigreactors:graphite_ingot",
+      "gear": "moreplates:graphite_gear"
+    },
+    {
+      "ingot": "minecraft:copper_ingot",
+      "gear": "moreplates:copper_gear"
+    },
+    {
+      "ingot": "ad_astra:calorite_ingot",
+      "gear": "moreplates:calorite_gear"
+    },
+    {
+      "ingot": "minecraft:diamond",
+      "gear": "moreplates:diamond_gear"
+    },
+    {
+      "ingot": "modernfoundry:knightmetal_ingot",
+      "gear": "moreplates:knightmetal_gear"
+    },
+    {
+      "ingot": "modernfoundry:hepatizon_ingot",
+      "gear": "moreplates:hepatizon_gear"
+    },
+    {
+      "ingot": "minecraft:quartz",
+      "gear": "moreplates:quartz_gear"
+    },
+    {
+      "ingot": "nuclearcraft:manganese_ingot",
+      "gear": "moreplates:manganese_gear"
+    },
+    {
+      "ingot": "nuclearcraft:osmiridium_ingot",
+      "gear": "moreplates:osmiridium_gear"
+    },
+    {
+      "ingot": "nuclearcraft:tungsten_carbide_ingot",
+      "gear": "moreplates:tungsten_carbide_gear"
+    },
+    {
+      "ingot": "stellaris:corronium_ingot",
+      "gear": "moreplates:corronium_gear"
+    },
+    {
+      "ingot": "tfmg:nickel_ingot",
+      "gear": "moreplates:nickel_gear"
+    },
+    {
+      "ingot": "nuclearcraft:lithium_ingot",
+      "gear": "moreplates:lithium_gear"
+    },
+    {
+      "ingot": "modernfoundry:knightslime_ingot",
+      "gear": "moreplates:knightslime_gear"
+    },
+    {
+      "ingot": "minecraft:emerald",
+      "gear": "moreplates:emerald_gear"
+    },
+    {
+      "ingot": "modernfoundry:amethyst_bronze_ingot",
+      "gear": "moreplates:amethyst_bronze_gear"
+    },
+    {
+      "ingot": "nuclearcraft:thorium_ingot",
+      "gear": "moreplates:thorium_gear"
+    },
+    {
+      "ingot": "mekanism:ingot_osmium",
+      "gear": "moreplates:osmium_gear"
+    },
+    {
+      "ingot": "allthemodium:unobtainium_vibranium_alloy_ingot",
+      "gear": "moreplates:unobtainium_vibranium_alloy_gear"
+    },
+    {
+      "ingot": "createmetallurgy:obdurium_ingot",
+      "gear": "moreplates:obdurium_gear"
+    },
+    {
+      "ingot": "nuclearcraft:zirconium_ingot",
+      "gear": "moreplates:zirconium_gear"
+    },
+    {
+      "ingot": "create:zinc_ingot",
+      "gear": "moreplates:zinc_gear"
+    },
+    {
+      "ingot": "nuclearcraft:chromium_ingot",
+      "gear": "moreplates:chromium_gear"
+    },
+    {
+      "ingot": "modernfoundry:pig_iron_ingot",
+      "gear": "moreplates:pig_iron_gear"
+    },
+    {
+      "ingot": "nuclearcraft:silicon_carbide_ingot",
+      "gear": "moreplates:silicon_carbide_gear"
+    },
+    {
+      "ingot": "bigreactors:insanite_ingot",
+      "gear": "moreplates:insanite_gear"
+    },
+    {
+      "ingot": "nuclearcraft:zirconium_molybdenum_ingot",
+      "gear": "moreplates:zirconium_molybdenum_gear"
+    },
+    {
+      "ingot": "nuclearcraft:strontium_ingot",
+      "gear": "moreplates:strontium_gear"
+    },
+    {
+      "ingot": "stellaris:raw_steel_ingot",
+      "gear": "moreplates:raw_steel_gear"
+    },
+    {
+      "ingot": "nuclearcraft:hsla_steel_ingot",
+      "gear": "moreplates:hsla_steel_gear"
+    },
+    {
+      "ingot": "mekanism:ingot_lead",
+      "gear": "moreplates:lead_gear"
+    },
+    {
+      "ingot": "nuclearcraft:beryllium_ingot",
+      "gear": "moreplates:beryllium_gear"
+    },
+    {
+      "ingot": "irons_spellbooks:mithril_ingot",
+      "gear": "moreplates:mithril_gear"
+    },
+    {
+      "ingot": "allthemodium:vibranium_allthemodium_alloy_ingot",
+      "gear": "moreplates:vibranium_allthemodium_alloy_gear"
+    },
+    {
+      "ingot": "nuclearcraft:baratol_ingot",
+      "gear": "moreplates:baratol_gear"
+    },
+    {
+      "ingot": "cataclysm:witherite_ingot",
+      "gear": "moreplates:witherite_gear"
+    },
+    {
+      "ingot": "nuclearcraft:thermoconducting_ingot",
+      "gear": "moreplates:thermoconducting_gear"
+    },
+    {
+      "ingot": "i_architecture:industrial_iron_ingot",
+      "gear": "moreplates:industrial_iron_gear"
+    },
+    {
+      "ingot": "nuclearcraft:sodium_ingot",
+      "gear": "moreplates:sodium_gear"
+    },
+    {
+      "ingot": "megacells:sky_steel_ingot",
+      "gear": "moreplates:sky_steel_gear"
+    },
+    {
+      "ingot": "nuclearcraft:manganese_dioxide_ingot",
+      "gear": "moreplates:manganese_dioxide_gear"
+    },
+    {
+      "ingot": "mekanism:ingot_tin",
+      "gear": "moreplates:tin_gear"
+    },
+    {
+      "ingot": "nuclearcraft:yttrium_ingot",
+      "gear": "moreplates:yttrium_gear"
+    },
+    {
+      "ingot": "aquaculture:neptunium_ingot",
+      "gear": "moreplates:neptunium_gear"
+    },
+    {
+      "ingot": "allthemodium:vibranium_ingot",
+      "gear": "moreplates:vibranium_gear"
+    },
+    {
+      "ingot": "minecraft:netherite_ingot",
+      "gear": "moreplates:netherite_gear"
+    },
+    {
+      "ingot": "cataclysm:ignitium_ingot",
+      "gear": "moreplates:ignitium_gear"
+    },
+    {
+      "ingot": "nuclearcraft:lithium_manganese_dioxide_ingot",
+      "gear": "moreplates:lithium_manganese_dioxide_gear"
+    },
+    {
+      "ingot": "modernfoundry:ingot_red_sand_cast",
+      "gear": "moreplates:red_sand_cast_gear"
+    },
+    {
+      "ingot": "allthemodium:unobtainium_ingot",
+      "gear": "moreplates:unobtainium_gear"
+    },
+    {
+      "ingot": "nuclearcraft:ferroboron_ingot",
+      "gear": "moreplates:ferroboron_gear"
+    },
+    {
+      "ingot": "bigreactors:ludicrite_ingot",
+      "gear": "moreplates:ludicrite_gear"
+    },
+    {
+      "ingot": "nuclearcraft:nichrome_ingot",
+      "gear": "moreplates:nichrome_gear"
+    },
+    {
+      "ingot": "nuclearcraft:neutronium_ingot",
+      "gear": "moreplates:neutronium_gear"
+    },
+    {
+      "ingot": "nuclearcraft:potassium_ingot",
+      "gear": "moreplates:potassium_gear"
+    },
+    {
+      "ingot": "tfmg:silicon_ingot",
+      "gear": "moreplates:silicon_gear"
+    },
+    {
+      "ingot": "ad_astra:etrium_ingot",
+      "gear": "moreplates:etrium_gear"
+    },
+    {
+      "ingot": "nuclearcraft:carbon_manganese_ingot",
+      "gear": "moreplates:carbon_manganese_gear"
+    },
+    {
+      "ingot": "createbigcannons:cast_iron_ingot",
+      "gear": "moreplates:cast_iron_gear"
+    },
+    {
+      "ingot": "megacells:sky_osmium_ingot",
+      "gear": "moreplates:sky_osmium_gear"
+    },
+    {
+      "ingot": "modernfoundry:ingot_cast",
+      "gear": "moreplates:cast_gear"
+    },
+    {
+      "ingot": "stellaris:plutonium_ingot",
+      "gear": "moreplates:plutonium_gear"
+    },
+    {
+      "ingot": "createbigcannons:bronze_ingot",
+      "gear": "moreplates:bronze_gear"
+    },
+    {
+      "ingot": "cataclysm:cursium_ingot",
+      "gear": "moreplates:cursium_gear"
+    },
+    {
+      "ingot": "modernfoundry:ingot_sand_cast",
+      "gear": "moreplates:sand_cast_gear"
+    },
+    {
+      "ingot": "allthemodium:unobtainium_allthemodium_alloy_ingot",
+      "gear": "moreplates:unobtainium_allthemodium_alloy_gear"
+    },
+    {
+      "ingot": "modernfoundry:queens_slime_ingot",
+      "gear": "moreplates:queens_slime_gear"
+    },
+    {
+      "ingot": "nuclearcraft:niobium_titanium_ingot",
+      "gear": "moreplates:niobium_titanium_gear"
+    },
+    {
+      "ingot": "modernfoundry:cinderslime_ingot",
+      "gear": "moreplates:cinderslime_gear"
+    },
+    {
+      "ingot": "nuclearcraft:tough_alloy_ingot",
+      "gear": "moreplates:tough_alloy_gear"
+    },
+    {
+      "ingot": "nuclearcraft:boron_ingot",
+      "gear": "moreplates:boron_gear"
+    },
+    {
+      "ingot": "createbigcannons:nethersteel_ingot",
+      "gear": "moreplates:nethersteel_gear"
+    },
+    {
+      "ingot": "iceandfire:ghost_ingot",
+      "gear": "moreplates:ghost_gear"
+    },
+    {
+      "ingot": "nuclearcraft:hard_carbon_ingot",
+      "gear": "moreplates:hard_carbon_gear"
+    },
+    {
+      "ingot": "minecraft:iron_ingot",
+      "gear": "moreplates:iron_gear"
+    },
+    {
+      "ingot": "megacells:sky_bronze_ingot",
+      "gear": "moreplates:sky_bronze_gear"
+    },
+    {
+      "ingot": "cataclysm:enderite_ingot",
+      "gear": "moreplates:enderite_gear"
+    },
+    {
+      "ingot": "bigreactors:ridiculite_ingot",
+      "gear": "moreplates:ridiculite_gear"
+    },
+    {
+      "ingot": "mekanism:ingot_refined_obsidian",
+      "gear": "moreplates:refined_obsidian_gear"
+    },
+    {
+      "ingot": "minecraft:blaze_powder",
+      "gear": "moreplates:blaze_powder_gear"
+    },
+    {
+      "ingot": "nuclearcraft:extreme_ingot",
+      "gear": "moreplates:extreme_gear"
+    },
+    {
+      "ingot": "nuclearcraft:manganese_oxide_ingot",
+      "gear": "moreplates:manganese_oxide_gear"
+    },
+    {
+      "ingot": "nuclearcraft:ingot_former",
+      "gear": "moreplates:former_gear"
+    },
+    {
+      "ingot": "nuclearcraft:platinum_ingot",
+      "gear": "moreplates:platinum_gear"
+    },
+    {
+      "ingot": "nuclearcraft:tungsten_ingot",
+      "gear": "moreplates:tungsten_gear"
+    },
+    {
+      "ingot": "nuclearcraft:palladium_ingot",
+      "gear": "moreplates:palladium_gear"
+    },
+    {
+      "ingot": "mekanism:ingot_uranium",
+      "gear": "moreplates:uranium_gear"
+    },
+    {
+      "ingot": "stellaris:heavy_metal_ingot",
+      "gear": "moreplates:heavy_metal_gear"
+    },
+    {
+      "ingot": "bigreactors:yellorium_ingot",
+      "gear": "moreplates:yellorium_gear"
+    },
+    {
+      "ingot": "iceandfire:silver_ingot",
+      "gear": "moreplates:silver_gear"
+    },
+    {
+      "ingot": "nuclearcraft:electrum_ingot",
+      "gear": "moreplates:electrum_gear"
+    },
+    {
+      "ingot": "modernfoundry:slimesteel_ingot",
+      "gear": "moreplates:slimesteel_gear"
+    },
+    {
+      "ingot": "minecraft:gold_ingot",
+      "gear": "moreplates:gold_gear"
+    },
+    {
+      "ingot": "nuclearcraft:magnesium_ingot",
+      "gear": "moreplates:magnesium_gear"
+    },
+    {
+      "ingot": "rocketnautics_addon:siderite_ingot",
+      "gear": "moreplates:siderite_gear"
+    },
+    {
+      "ingot": "ad_astra:ostrum_ingot",
+      "gear": "moreplates:ostrum_gear"
+    },
+    {
+      "ingot": "tfmg:constantan_ingot",
+      "gear": "moreplates:constantan_gear"
+    },
+    {
+      "ingot": "nuclearcraft:lead_platinum_ingot",
+      "gear": "moreplates:lead_platinum_gear"
+    },
+    {
+      "ingot": "nuclearcraft:iridium_ingot",
+      "gear": "moreplates:iridium_gear"
+    },
+    {
+      "ingot": "cataclysm:black_steel_ingot",
+      "gear": "moreplates:black_steel_gear"
+    },
+    {
+      "ingot": "nuclearcraft:hafnium_ingot",
+      "gear": "moreplates:hafnium_gear"
+    },
+    {
+      "ingot": "create:brass_ingot",
+      "gear": "moreplates:brass_gear"
+    },
+    {
+      "ingot": "iceandfire:dragonsteel_fire_ingot",
+      "gear": "moreplates:dragonsteel_fire_gear"
+    },
+    {
+      "ingot": "tfmg:magnetic_alloy_ingot",
+      "gear": "moreplates:magnetic_alloy_gear"
+    },
+    {
+      "ingot": "ad_astra:desh_ingot",
+      "gear": "moreplates:desh_gear"
+    },
+    {
+      "ingot": "iceandfire:dragonsteel_ice_ingot",
+      "gear": "moreplates:dragonsteel_ice_gear"
+    },
+    {
+      "ingot": "bigreactors:blutonium_ingot",
+      "gear": "moreplates:blutonium_gear"
+    },
+    {
+      "ingot": "stellaris:raw_desh_ingot",
+      "gear": "moreplates:raw_desh_gear"
+    },
+    {
+      "ingot": "iceandfire:dragonsteel_lightning_ingot",
+      "gear": "moreplates:dragonsteel_lightning_gear"
+    },
+    {
+      "ingot": "createcasing:chorium_ingot",
+      "gear": "moreplates:chorium_gear"
+    },
+    {
+      "ingot": "nuclearcraft:zircaloy_ingot",
+      "gear": "moreplates:zircaloy_gear"
+    },
+    {
+      "ingot": "bigreactors:cyanite_ingot",
+      "gear": "moreplates:cyanite_gear"
+    },
+    {
+      "ingot": "irons_spellbooks:arcane_ingot",
+      "gear": "moreplates:arcane_gear"
+    },
+    {
+      "ingot": "modernfoundry:rose_gold_ingot",
+      "gear": "moreplates:rose_gold_gear"
+    },
+    {
+      "ingot": "nuclearcraft:niobium_tin_ingot",
+      "gear": "moreplates:niobium_tin_gear"
+    },
+    {
+      "ingot": "immersiveengineering:ingot_hop_graphite",
+      "gear": "moreplates:hop_graphite_gear"
+    },
+    {
+      "ingot": "modernfoundry:cheese_ingot",
+      "gear": "moreplates:cheese_gear"
+    },
+    {
+      "ingot": "nuclearcraft:niobium_ingot",
+      "gear": "moreplates:niobium_gear"
+    },
+    {
+      "ingot": "modernfoundry:steel_ingot",
+      "gear": "moreplates:steel_gear"
+    },
+    {
+      "ingot": "nuclearcraft:shibuichi_ingot",
+      "gear": "moreplates:shibuichi_gear"
+    },
+    {
+      "ingot": "allthemodium:allthemodium_ingot",
+      "gear": "moreplates:allthemodium_gear"
+    },
+    {
+      "ingot": "modernfoundry:fake_ingot",
+      "gear": "moreplates:fake_gear"
+    },
+    {
+      "ingot": "minecraft:ender_pearl",
+      "gear": "moreplates:ender_pearl_gear"
+    },
+    {
+      "ingot": "rocketnautics_addon:hematite_ingot",
+      "gear": "moreplates:hematite_gear"
+    },
+    {
+      "ingot": "cataclysm:ancient_metal_ingot",
+      "gear": "moreplates:ancient_metal_gear"
+    },
+    {
+      "ingot": "nuclearcraft:calcium_ingot",
+      "gear": "moreplates:calcium_gear"
+    },
+    {
+      "ingot": "stellaris:tharsite_ingot",
+      "gear": "moreplates:tharsite_gear"
+    },
+    {
+      "ingot": "nuclearcraft:tin_silver_ingot",
+      "gear": "moreplates:tin_silver_gear"
+    },
+    {
+      "ingot": "irons_spellbooks:pyrium_ingot",
+      "gear": "moreplates:pyrium_gear"
+    },
+    {
+      "ingot": "nuclearcraft:super_alloy_ingot",
+      "gear": "moreplates:super_alloy_gear"
+    },
+    {
+      "ingot": "bigreactors:magentite_ingot",
+      "gear": "moreplates:magentite_gear"
+    },
+    {
+      "ingot": "modernfoundry:soulsteel_ingot",
+      "gear": "moreplates:soulsteel_gear"
+    },
+    {
+      "ingot": "nuclearcraft:sic_sic_cmc_ingot",
+      "gear": "moreplates:sic_sic_cmc_gear"
+    }
+  ]
+}

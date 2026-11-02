@@ -1,0 +1,17 @@
+{
+  "id": "industrial_colonies:create_item_application",
+  "mod": "create",
+  "icon": "create:andesite_casing",
+  "jei": "create:item_application",
+  "width": 122,
+  "height": 60,
+  "slots": [
+    {"key":"base","role":"INPUT","x":8,"y":8,"required":true,"item":true,"tag":true},
+    {"key":"held","role":"INPUT","x":8,"y":34,"required":true,"item":true,"tag":true},
+    {"key":"output","role":"OUTPUT","x":96,"y":20,"required":true,"item":true,"count":true}
+  ],
+  "decorations": [{"type":"ARROW","x":52,"y":20}],
+  "parameters": [{"key":"keepHeldItem","type":"BOOL","default":"false"}],
+  "codegen": "industrial_colonies:create_item_application",
+  "requiresMod": "create"
+}

@@ -1,0 +1,33 @@
+{
+  "parent": "mekanism:steel_ingot",
+  "criteria": {
+    "steel_frame": {
+      "conditions": {
+        "items": [
+          {
+            "items": "tfmg:steel_frame"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "text": "Build a TFMG steel frame for Mekanism machinery."
+    },
+    "icon": {
+      "count": 1,
+      "id": "tfmg:steel_frame"
+    },
+    "title": {
+      "text": "Steel Framework"
+    }
+  },
+  "requirements": [
+    [
+      "steel_frame"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

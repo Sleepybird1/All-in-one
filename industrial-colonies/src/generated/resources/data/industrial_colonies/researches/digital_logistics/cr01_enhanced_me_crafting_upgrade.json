@@ -1,0 +1,34 @@
+{
+  "branch": "industrial_colonies:tech_tree",
+  "costs": [
+    {
+      "item": "megacells:accumulation_processor",
+      "count": 8
+    },
+    {
+      "item": "ae2:crafting_card",
+      "count": 4
+    },
+    {
+      "item": "ae2:item_storage_cell_256k",
+      "count": 2
+    }
+  ],
+  "icon": "megacells:mega_crafting_unit",
+  "name": "com.industrial_colonies.research.digital_logistics.cr01_enhanced_me_crafting_upgrade.name",
+  "no-reset": true,
+  "researchLevel": 2,
+  "sortOrder": 11077,
+  "subtitle": "com.industrial_colonies.research.digital_logistics.cr01_enhanced_me_crafting_upgrade.subtitle",
+  "parentResearch": "industrial_colonies:digital_logistics/cr01_overclocked_processors",
+  "requirements": [
+    {
+      "type": "minecolonies:research",
+      "research": "industrial_colonies:digital_logistics/cr01_advanced_me_bus_technology"
+    },
+    {
+      "type": "minecolonies:research",
+      "research": "industrial_colonies:digital_logistics/cr01_overclocked_processors"
+    }
+  ]
+}

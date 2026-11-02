@@ -1,0 +1,64 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {"type": "minecraft:uniform", "min": 1.0, "max": 3.0},
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "ad_astra:raw_desh",
+          "weight": 8
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {"type": "minecraft:uniform", "min": 1.0, "max": 4.0},
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:iron_ingot",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {"type": "minecraft:uniform", "min": 2.0, "max": 6.0},
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:coal",
+          "weight": 12
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {"type": "minecraft:uniform", "min": 2.0, "max": 5.0},
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:redstone",
+          "weight": 6
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond",
+          "weight": 2
+        }
+      ],
+      "rolls": {"type": "minecraft:uniform", "min": 2.0, "max": 5.0}
+    }
+  ]
+}

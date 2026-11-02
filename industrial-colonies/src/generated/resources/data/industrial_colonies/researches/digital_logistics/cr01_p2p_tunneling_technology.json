@@ -1,0 +1,30 @@
+{
+  "branch": "industrial_colonies:tech_tree",
+  "costs": [
+    {
+      "item": "ae2:fluix_smart_dense_cable",
+      "count": 8
+    },
+    {
+      "item": "ae2:engineering_processor",
+      "count": 8
+    },
+    {
+      "item": "advancedperipherals:me_bridge",
+      "count": 1
+    }
+  ],
+  "icon": "ae2:me_p2p_tunnel",
+  "name": "com.industrial_colonies.research.digital_logistics.cr01_p2p_tunneling_technology.name",
+  "no-reset": true,
+  "researchLevel": 3,
+  "sortOrder": 10616,
+  "subtitle": "com.industrial_colonies.research.digital_logistics.cr01_p2p_tunneling_technology.subtitle",
+  "parentResearch": "industrial_colonies:digital_logistics/cr01_enhanced_me_system_upgrade",
+  "requirements": [
+    {
+      "type": "minecolonies:research",
+      "research": "industrial_colonies:digital_logistics/cr01_enhanced_me_system_upgrade"
+    }
+  ]
+}

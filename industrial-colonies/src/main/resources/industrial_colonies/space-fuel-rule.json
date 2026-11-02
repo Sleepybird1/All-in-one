@@ -1,0 +1,26 @@
+{
+  "id": "stellaris:fuel_refining",
+  "class": "com.st0x0ef.stellaris.common.data.recipes.FuelRefineryRecipe",
+  "beforeSHA256": "6ee506f353d43647dda2120239400e5b23554ee352ef917df7b664c0f5de639f",
+  "afterSHA256": "6aa6466f3c1750c2efb0318dbf1498822d99396332da950f6777db46f6a7cc8d",
+  "changes": [
+    {
+      "pointer": "/ingredient/id",
+      "before": "stellaris:oil",
+      "after": "ad_astra:oil",
+      "registry": "fluid"
+    },
+    {
+      "pointer": "/fuel/id",
+      "before": "stellaris:fuel",
+      "after": "ad_astra:fuel",
+      "registry": "fluid"
+    },
+    {
+      "pointer": "/diesel/id",
+      "before": "stellaris:diesel",
+      "after": "tfmg:diesel",
+      "registry": "fluid"
+    }
+  ]
+}

@@ -1,3 +1,5 @@
+// Original recipe review: registrations retained below, temporarily inactive.
+function IC_originalRecipeReview_skip() {}
 // Industrial Colonies - deferred spaceflight entry
 //
 // Space is the post-Star progression expansion. Keep raw space materials and
@@ -6,7 +8,7 @@
 // Cosmonautics block-built ships before their industrial replacements exist.
 // Exact IDs are intentional: never wipe a complete mod or output namespace.
 
-ServerEvents.recipes(event => {
+IC_originalRecipeReview_skip(event => {
   const deferredAdAstraRecipes = [
     'ad_astra:nasa_workbench',
     'ad_astra:launch_pad',

@@ -1,0 +1,152 @@
+{
+  "files": [
+    "kubejs/data/modernfoundry/worldgen/structure_set/overworld_ocean_island.json",
+    "kubejs/data/modernfoundry/worldgen/structure_set/overworld_sky_island.json",
+    "kubejs/data/minecolonies/worldgen/structure_set/ship.json",
+    "kubejs/data/block_factorys_bosses/worldgen/structure_set/kraken_ship.json",
+    "kubejs/data/irons_spellbooks/worldgen/structure_set/impaled_icebreaker.json",
+    "kubejs/data/industrial_colonies/worldgen/structure_set/rare_maritime_sites.json",
+    "kubejs/data/block_factorys_bosses/tags/worldgen/biome/dragon_tower.json",
+    "kubejs/data/industrial_colonies/tags/worldgen/biome/disabled_jungle_villages.json",
+    "kubejs/data/ctov/worldgen/structure/small/village_jungle.json",
+    "kubejs/data/ctov/worldgen/structure/small/village_jungle_tree.json",
+    "kubejs/data/ctov/worldgen/structure/medium/village_jungle.json",
+    "kubejs/data/ctov/worldgen/structure/medium/village_jungle_tree.json",
+    "kubejs/data/ctov/worldgen/structure/large/village_jungle.json",
+    "kubejs/data/ctov/worldgen/structure/large/village_jungle_tree.json",
+    "kubejs/data/ad_astra/tags/entity_type/can_survive_in_space.json",
+    "kubejs/data/ad_astra/tags/entity_type/can_survive_extreme_heat.json",
+    "kubejs/data/ad_astra/tags/entity_type/can_survive_in_acid_rain.json",
+    "kubejs/data/ad_astra/tags/entity_type/lives_without_oxygen.json",
+    "kubejs/data/stellaris/tags/entity_type/no_oxygen_needed.json",
+    "kubejs/data/block_factorys_bosses/loot_table/chests/dragon_tower_common.json",
+    "kubejs/data/block_factorys_bosses/loot_table/chests/dragon_tower.json",
+    "kubejs/data/block_factorys_bosses/loot_table/entities/infernal_dragon.json",
+    "config/ctov-common.toml"
+  ],
+  "placements": [
+    {
+      "id": "modernfoundry:overworld_ocean_island",
+      "before": {
+        "type": "minecraft:random_spread",
+        "frequency": 0.5,
+        "salt": 25988585,
+        "separation": 9,
+        "spacing": 30
+      },
+      "after": {
+        "type": "minecraft:random_spread",
+        "frequency": 0.05,
+        "salt": 25988585,
+        "separation": 48,
+        "spacing": 96
+      },
+      "candidateDensityRatio": 0.009765625
+    },
+    {
+      "id": "modernfoundry:overworld_sky_island",
+      "before": {
+        "type": "minecraft:random_spread",
+        "frequency": 0.5,
+        "salt": 14357800,
+        "separation": 4,
+        "spacing": 35
+      },
+      "after": {
+        "type": "minecraft:random_spread",
+        "frequency": 0.05,
+        "salt": 14357800,
+        "separation": 64,
+        "spacing": 128
+      },
+      "candidateDensityRatio": 0.007476806640625
+    },
+    {
+      "id": "minecolonies:ship",
+      "before": {
+        "salt": 1225566777,
+        "spacing": 55,
+        "separation": 25,
+        "type": "minecraft:random_spread"
+      },
+      "after": {
+        "salt": 1225566777,
+        "spacing": 110,
+        "separation": 55,
+        "type": "minecraft:random_spread",
+        "frequency": 0.0
+      },
+      "candidateDensityRatio": 0.0,
+      "replacement": "industrial_colonies:rare_maritime_sites"
+    },
+    {
+      "id": "block_factorys_bosses:kraken_ship",
+      "before": {
+        "type": "minecraft:random_spread",
+        "spacing": 52,
+        "separation": 24,
+        "salt": 496078896
+      },
+      "after": {
+        "type": "minecraft:random_spread",
+        "spacing": 128,
+        "separation": 64,
+        "salt": 496078896,
+        "frequency": 0.0
+      },
+      "candidateDensityRatio": 0.0,
+      "replacement": "industrial_colonies:rare_maritime_sites"
+    },
+    {
+      "id": "irons_spellbooks:impaled_icebreaker",
+      "before": {
+        "salt": 87959402,
+        "spacing": 75,
+        "separation": 50,
+        "type": "minecraft:random_spread"
+      },
+      "after": {
+        "salt": 87959402,
+        "spacing": 150,
+        "separation": 75,
+        "type": "minecraft:random_spread",
+        "frequency": 0.0
+      },
+      "candidateDensityRatio": 0.0,
+      "replacement": "industrial_colonies:rare_maritime_sites"
+    }
+  ],
+  "sharedShipSet": "industrial_colonies:rare_maritime_sites",
+  "shipStructures": [
+    "minecolonies:ship",
+    "block_factorys_bosses:kraken_ship",
+    "irons_spellbooks:impaled_icebreaker"
+  ],
+  "shipSpacing": 128,
+  "shipSeparation": 64,
+  "disabledVillages": [
+    "ctov:small/village_jungle",
+    "ctov:small/village_jungle_tree",
+    "ctov:medium/village_jungle",
+    "ctov:medium/village_jungle_tree",
+    "ctov:large/village_jungle",
+    "ctov:large/village_jungle_tree"
+  ],
+  "towerBiomes": [
+    "ad_astra:venus_wastelands",
+    "ad_astra:infernal_venus_barrens",
+    "stellaris:venus_desert",
+    "stellaris:infernal_venus_barrens"
+  ],
+  "towerDenizens": [
+    "block_factorys_bosses:infernal_dragon",
+    "block_factorys_bosses:dragon_guard_sword",
+    "block_factorys_bosses:flaming_skeleton_guard_sword",
+    "block_factorys_bosses:flaming_skeleton_guard_fireball"
+  ],
+  "rewardDimensions": [
+    "ad_astra:venus",
+    "stellaris:venus"
+  ],
+  "existingChunksUntouched": true
+}

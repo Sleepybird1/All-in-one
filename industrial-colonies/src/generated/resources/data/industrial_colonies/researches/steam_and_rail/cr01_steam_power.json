@@ -1,0 +1,29 @@
+{
+  "branch": "industrial_colonies:tech_tree",
+  "costs": [
+    {
+      "item": "create:fluid_tank",
+      "count": 8
+    },
+    {
+      "item": "create:mechanical_pump",
+      "count": 2
+    },
+    {
+      "item": "create:brass_ingot",
+      "count": 8
+    }
+  ],
+  "icon": "create:steam_engine",
+  "name": "com.industrial_colonies.research.steam_and_rail.cr01_steam_power.name",
+  "no-reset": true,
+  "researchLevel": 1,
+  "sortOrder": 9746,
+  "subtitle": "com.industrial_colonies.research.steam_and_rail.cr01_steam_power.subtitle",
+  "requirements": [
+    {
+      "type": "minecolonies:research",
+      "research": "industrial_colonies:mechanical_foundations/cr01_storage_technology"
+    }
+  ]
+}

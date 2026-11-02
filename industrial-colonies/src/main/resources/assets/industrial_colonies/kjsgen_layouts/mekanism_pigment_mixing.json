@@ -1,0 +1,56 @@
+{
+  "id": "industrial_colonies:mekanism_pigment_mixing",
+  "mod": "mekanism",
+  "icon": "mekanism:pigment_mixer",
+  "jei": "mekanism:pigment_mixing",
+  "width": 142,
+  "height": 76,
+  "slots": [
+    {
+      "key": "left_input",
+      "role": "INPUT",
+      "x": 10,
+      "y": 12,
+      "required": true,
+      "item": false,
+      "fluid": false,
+      "chemical": true,
+      "tag": true,
+      "count": true
+    },
+    {
+      "key": "right_input",
+      "role": "INPUT",
+      "x": 10,
+      "y": 38,
+      "required": true,
+      "item": false,
+      "fluid": false,
+      "chemical": true,
+      "tag": true,
+      "count": true
+    },
+    {
+      "key": "output",
+      "role": "OUTPUT",
+      "x": 110,
+      "y": 12,
+      "required": true,
+      "item": false,
+      "fluid": false,
+      "chemical": true,
+      "tag": false,
+      "count": true
+    }
+  ],
+  "decorations": [
+    {
+      "type": "ARROW",
+      "x": 63,
+      "y": 27
+    }
+  ],
+  "parameters": [],
+  "codegen": "industrial_colonies:mekanism_machine",
+  "requiresMod": "mekanism"
+}

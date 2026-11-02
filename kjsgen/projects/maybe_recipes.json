@@ -6,522 +6,5106 @@
   "reloadOnExport": false,
   "recipes": [
     {
-      "uid": "03ffc205-bded-50dc-9aec-8946a3bad252",
-      "type": "kjsgen:create_mechanical_crafting",
-      "recipeId": "industrial_colonies:fluid_infrastructure/fireproof_chemical_vat",
-      "comment": "[Pre-semiconductor ownership] Mechanical components precede final factory assembly.",
+      "uid": "23a04133-2986-5e3e-aa68-ab1c63e4fd0b",
+      "type": "kjsgen:shaped",
+      "recipeId": "industrial_colonies:priority/create_connected/six_way_gearbox",
+      "comment": "[6-way Gearbox] Native ingredient/output baseline from create_connected:crafting/kinetics/six_way_gearbox. Draft progression/cost review; not gameplay-exported. Preserve recognizable mechanics.",
       "replaceRecipe": false,
       "slots": {
-        "cell_0_0": {
-          "kind": "ITEM",
-          "id": "tfmg:steel_frame"
-        },
-        "cell_0_1": {
-          "kind": "ITEM",
-          "id": "tfmg:screw"
-        },
-        "cell_0_3": {
-          "kind": "ITEM",
-          "id": "tfmg:screw"
-        },
-        "cell_0_4": {
-          "kind": "ITEM",
-          "id": "tfmg:steel_frame"
-        },
-        "cell_1_0": {
-          "kind": "ITEM",
-          "id": "tfmg:heavy_plate"
-        },
-        "cell_1_2": {
-          "kind": "ITEM",
-          "id": "tfmg:steel_mechanism"
-        },
-        "cell_1_4": {
-          "kind": "ITEM",
-          "id": "tfmg:heavy_plate"
-        },
-        "cell_2_0": {
-          "kind": "ITEM",
-          "id": "tfmg:screw"
-        },
-        "cell_2_2": {
-          "kind": "ITEM",
-          "id": "tfmg:steel_chemical_vat"
-        },
-        "cell_2_4": {
-          "kind": "ITEM",
-          "id": "tfmg:screw"
-        },
-        "cell_3_0": {
-          "kind": "ITEM",
-          "id": "tfmg:heavy_plate"
-        },
-        "cell_3_2": {
-          "kind": "ITEM",
-          "id": "tfmg:fireproof_bricks"
-        },
-        "cell_3_4": {
-          "kind": "ITEM",
-          "id": "tfmg:heavy_plate"
-        },
-        "cell_4_0": {
-          "kind": "ITEM",
-          "id": "tfmg:steel_frame"
-        },
-        "cell_4_1": {
-          "kind": "ITEM",
-          "id": "tfmg:heavy_plate"
-        },
-        "cell_4_2": {
-          "kind": "ITEM",
-          "id": "tfmg:steel_pipe"
-        },
-        "cell_4_3": {
-          "kind": "ITEM",
-          "id": "tfmg:heavy_plate"
-        },
-        "cell_4_4": {
-          "kind": "ITEM",
-          "id": "tfmg:steel_frame"
-        },
         "output": {
           "kind": "ITEM",
-          "id": "tfmg:fireproof_chemical_vat"
-        }
-      },
-      "params": {
-        "gridW": "5",
-        "gridH": "5"
-      }
-    },
-    {
-      "uid": "95e3a596-ed4c-55ca-9ab3-cda2d9756296",
-      "type": "kjsgen:create_compacting",
-      "recipeId": "industrial_colonies:fluid_infrastructure/industrial_pipe",
-      "comment": "[Weathered Iron] Structural forming for the first industrial plant.",
-      "replaceRecipe": false,
-      "slots": {
-        "__machine_process_compacting": {
-          "kind": "ITEM",
-          "id": "createcasing:weathered_iron_press"
-        },
-        "output": {
-          "kind": "ITEM",
-          "id": "tfmg:industrial_pipe",
-          "count": 8
+          "id": "create_connected:six_way_gearbox"
         },
         "in0": {
           "kind": "ITEM",
-          "id": "tfmg:steel_pipe"
+          "id": "create:large_cogwheel"
         },
         "in1": {
           "kind": "ITEM",
-          "id": "tfmg:steel_pipe"
-        },
-        "in2": {
-          "kind": "ITEM",
-          "id": "tfmg:heavy_plate"
+          "id": "create:cogwheel"
         },
         "in3": {
           "kind": "ITEM",
-          "id": "tfmg:heavy_plate"
+          "id": "create:cogwheel"
         },
         "in4": {
-          "kind": "ITEM_TAG",
-          "id": "c:ingots/steel"
+          "kind": "ITEM",
+          "id": "create:andesite_casing"
         },
         "in5": {
           "kind": "ITEM",
-          "id": "tfmg:steel_mechanism"
+          "id": "create:cogwheel"
         },
-        "in6": {
-          "kind": "ITEM_TAG",
-          "id": "c:ingots/steel"
+        "in7": {
+          "kind": "ITEM",
+          "id": "create:cogwheel"
+        },
+        "in8": {
+          "kind": "ITEM",
+          "id": "create:large_cogwheel"
         }
       },
       "params": {
-        "heat": "none"
+        "__nativeConditions": "[{\"type\":\"create_connected:feature_enabled\",\"tag\":\"create_connected:six_way_gearbox\"}]"
       }
     },
     {
-      "uid": "f7cb1779-e59d-5319-a78a-826a048bdda3",
-      "type": "kjsgen:create_mechanical_crafting",
-      "recipeId": "industrial_colonies:fluid_infrastructure/steel_chemical_vat",
-      "comment": "[Pre-semiconductor ownership] Mechanical components precede final factory assembly.",
+      "uid": "d41516b7-6991-5f76-884e-09c3da4b4215",
+      "type": "kjsgen:shaped",
+      "recipeId": "industrial_colonies:priority/create_connected/brass_gearbox",
+      "comment": "[Brass Gearbox] Native ingredient/output baseline from create_connected:crafting/kinetics/brass_gearbox. Draft progression/cost review; not gameplay-exported. Preserve recognizable mechanics.",
       "replaceRecipe": false,
       "slots": {
-        "cell_0_0": {
-          "kind": "ITEM",
-          "id": "tfmg:steel_frame"
-        },
-        "cell_0_4": {
-          "kind": "ITEM",
-          "id": "tfmg:steel_frame"
-        },
-        "cell_1_0": {
-          "kind": "ITEM",
-          "id": "tfmg:heavy_plate"
-        },
-        "cell_1_2": {
-          "kind": "ITEM",
-          "id": "tfmg:steel_mechanism"
-        },
-        "cell_1_4": {
-          "kind": "ITEM",
-          "id": "tfmg:heavy_plate"
-        },
-        "cell_2_0": {
-          "kind": "ITEM",
-          "id": "tfmg:screw"
-        },
-        "cell_2_2": {
-          "kind": "ITEM",
-          "id": "tfmg:cast_iron_chemical_vat"
-        },
-        "cell_3_0": {
-          "kind": "ITEM",
-          "id": "tfmg:heavy_plate"
-        },
-        "cell_3_2": {
-          "kind": "ITEM",
-          "id": "tfmg:nickel_sheet"
-        },
-        "cell_3_4": {
-          "kind": "ITEM",
-          "id": "tfmg:heavy_plate"
-        },
-        "cell_4_0": {
-          "kind": "ITEM",
-          "id": "tfmg:steel_frame"
-        },
-        "cell_4_1": {
-          "kind": "ITEM",
-          "id": "tfmg:heavy_plate"
-        },
-        "cell_4_3": {
-          "kind": "ITEM",
-          "id": "tfmg:heavy_plate"
-        },
-        "cell_4_4": {
-          "kind": "ITEM",
-          "id": "tfmg:steel_frame"
-        },
         "output": {
           "kind": "ITEM",
-          "id": "tfmg:steel_chemical_vat"
-        },
-        "cell_4_2": {
-          "kind": "ITEM",
-          "id": "tfmg:steel_pipe"
-        },
-        "cell_0_2": {
-          "kind": "ITEM",
-          "id": "tfmg:steel_pipe"
-        },
-        "cell_0_1": {
-          "kind": "ITEM",
-          "id": "tfmg:screw"
-        },
-        "cell_0_3": {
-          "kind": "ITEM",
-          "id": "tfmg:screw"
-        },
-        "cell_2_4": {
-          "kind": "ITEM",
-          "id": "tfmg:screw"
-        }
-      },
-      "params": {
-        "gridW": "5",
-        "gridH": "5"
-      }
-    },
-    {
-      "uid": "7475b89e-3bf3-5551-9105-2cc8453640b6",
-      "type": "kjsgen:create_compacting",
-      "recipeId": "industrial_colonies:foundry_routes/modern_scorched_drain",
-      "comment": "[Digital Logistics] Review correction: retain the scorched refractory construction and form it on the Weathered Iron press, as requested.",
-      "replaceRecipe": false,
-      "slots": {
-        "__machine_process_compacting": {
-          "kind": "ITEM",
-          "id": "createcasing:weathered_iron_press"
-        },
-        "in0": {
-          "kind": "ITEM",
-          "id": "modernfoundry:scorched_brick",
-          "count": 4
+          "id": "create_connected:brass_gearbox"
         },
         "in1": {
           "kind": "ITEM",
-          "id": "modernfoundry:obsidian_pane",
-          "count": 2
-        },
-        "in2": {
-          "kind": "ITEM",
-          "id": "tfmg:steel_pipe",
-          "count": 2
+          "id": "create:cogwheel"
         },
         "in3": {
           "kind": "ITEM",
-          "id": "tfmg:steel_fluid_tank"
+          "id": "create:cogwheel"
         },
         "in4": {
           "kind": "ITEM",
-          "id": "tfmg:screw"
+          "id": "create:rotation_speed_controller"
         },
-        "output": {
+        "in5": {
           "kind": "ITEM",
-          "id": "modernfoundry:scorched_drain"
+          "id": "create:cogwheel"
+        },
+        "in7": {
+          "kind": "ITEM",
+          "id": "create:cogwheel"
         }
       },
       "params": {
-        "heat": "none"
+        "__nativeConditions": "[{\"type\":\"create_connected:feature_enabled\",\"tag\":\"create_connected:brass_gearbox\"}]"
       }
     },
     {
-      "uid": "3f2a5be7-d45d-5f11-ab98-ea26f7fe8537",
-      "type": "kjsgen:create_compacting",
-      "recipeId": "industrial_colonies:foundry_routes/modern_scorched_table",
-      "comment": "[Digital Logistics] Review correction: retain the scorched refractory construction and form it on the Weathered Iron press, as requested.",
+      "uid": "4bbbaa32-6c70-5f29-80ec-56daa79aa319",
+      "type": "kjsgen:shapeless",
+      "recipeId": "industrial_colonies:priority/create_connected/parallel_gearbox",
+      "comment": "[Parallel Gearbox] Native ingredient/output baseline from create_connected:crafting/kinetics/parallel_gearbox. Draft progression/cost review; not gameplay-exported. Preserve recognizable mechanics.",
       "replaceRecipe": false,
       "slots": {
-        "__machine_process_compacting": {
+        "output": {
           "kind": "ITEM",
-          "id": "createcasing:weathered_iron_press"
+          "id": "create_connected:parallel_gearbox"
         },
         "in0": {
           "kind": "ITEM",
-          "id": "createmetallurgy:casting_table"
+          "id": "create:gearbox"
         },
         "in1": {
           "kind": "ITEM",
-          "id": "modernfoundry:scorched_brick",
-          "count": 4
-        },
-        "in2": {
-          "kind": "ITEM",
-          "id": "modernfoundry:gold_bars"
-        },
-        "in3": {
-          "kind": "ITEM",
-          "id": "tfmg:heavy_plate"
-        },
-        "in4": {
-          "kind": "ITEM",
-          "id": "tfmg:screw"
-        },
-        "output": {
-          "kind": "ITEM",
-          "id": "modernfoundry:scorched_table"
+          "id": "create:large_cogwheel"
         }
       },
       "params": {
-        "heat": "none"
+        "__nativeConditions": "[{\"type\":\"create_connected:feature_enabled\",\"tag\":\"create_connected:parallel_gearbox\"}]"
       }
     },
     {
-      "uid": "9f50de24-7dd6-53f5-8232-7dc1e2313a4e",
-      "type": "kjsgen:create_mechanical_crafting",
-      "recipeId": "industrial_colonies:grid/alternator_brushes",
-      "comment": "[Digital Logistics] Review correction: functional hardware now uses Mechanical Crafting. The working parts, connections and structural support are assembled in the shown layout; the former sequenced assembly is replaced, not added as an alternative.",
+      "uid": "3fa03695-f218-57e1-8c24-bd11e2eacc20",
+      "type": "industrial_colonies:tfmg_chemical_vat_machine",
+      "recipeId": "industrial_colonies:review/exotics/unobtainium_crystal_growth",
+      "group": "Exotic metallurgy / acquisition and purification",
+      "comment": "[Unobtainium4/5] Use2000mB LIQUID helium to draw heat from the90mB melt during seeded crystal growth. The2000mB returned output is warm ordinary helium GAS, not liquid coolant. Native Supercooler1000gas→100liquid means it supplies only200mB of the next2000mB liquid charge;18000mB fresh gas and20cooler operations are still needed. At the basic collector/cooler settings that is560000FE steady supply,600000FE initially, before Vat mixing power. Output gas handling is useful recycling, not a free coolant loop. Native game volumes are not physical gas expansion; no maximum-cold temperature is enforced by heat:none.",
       "replaceRecipe": false,
       "slots": {
+        "input1": {
+          "kind": "FLUID",
+          "id": "allthemodium:molten_unobtainium",
+          "amount": 90
+        },
+        "input2": {
+          "kind": "FLUID",
+          "id": "nuclearcraft:liquid_helium",
+          "amount": 2000
+        },
+        "input3": {
+          "kind": "ITEM",
+          "id": "nuclearcraft:graphite_dust"
+        },
+        "output1": {
+          "kind": "ITEM",
+          "id": "allthemodium:unobtainium_crystal"
+        },
+        "output2": {
+          "kind": "FLUID",
+          "id": "nuclearcraft:helium",
+          "amount": 2000
+        }
+      },
+      "params": {
+        "allowedVatTypes": "\u0027tfmg:firebrick_lined_vat\u0027",
+        "machineSetup": "\u0027tfmg:mixing\u0027",
+        "processingTime": "2400",
+        "heat": "none",
+        "heatLevel": "0",
+        "minSize": "27"
+      }
+    },
+    {
+      "uid": "138506dd-3cb1-5616-805a-54687458f557",
+      "type": "kjsgen:create_compacting",
+      "recipeId": "industrial_colonies:review/exotics/unobtainium_consolidate",
+      "group": "Exotic metallurgy / acquisition and purification",
+      "comment": "[Unobtainium5/5] Hot pressure-bond one grown Unobtainium crystal with one existing SiC/SiC CMC powder on the final Shadow Steel Press. The ceramic composite is structural reinforcement, not a random chip. This differentiates the final material from Radiance-finished Vibranium and preserves one ingot per crystal. Revised first Shadow housing/tool bills use Vibranium, earlier Radiance machinery and first Quantum electronics, with no base/combined Unobtainium feed; the first-source audit is recorded separately. Never move first Quantum/Allthemodium to Shadow, which would recreate a cycle.",
+      "replaceRecipe": false,
+      "slots": {
+        "in0": {
+          "kind": "ITEM",
+          "id": "allthemodium:unobtainium_crystal"
+        },
+        "in1": {
+          "kind": "ITEM",
+          "id": "nuclearcraft:sic_sic_cmc_dust"
+        },
+        "output": {
+          "kind": "ITEM",
+          "id": "allthemodium:unobtainium_ingot"
+        },
+        "__machine_process_compacting": {
+          "kind": "ITEM",
+          "id": "createcasing:shadow_steel_press"
+        }
+      },
+      "params": {
+        "heat": "superheated"
+      }
+    },
+    {
+      "uid": "f9041dda-0864-548e-a266-b3a95cc3f78c",
+      "type": "kjsgen:create_mechanical_crafting",
+      "recipeId": "industrial_colonies:mekanism_pre_nuclear/pigment_extractor",
+      "comment": "Review revision 2026-10-28: Extracts Mekanism pigment chemicals from supported colored materials. Feeds the painting machine; it is a color-processing utility, not an ore extractor.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "mekanism:pigment_extractor"
+        },
         "cell_0_1": {
           "kind": "ITEM",
-          "id": "electroenergetics:connector"
+          "id": "create:millstone"
         },
         "cell_1_0": {
           "kind": "ITEM",
-          "id": "tfmg:cast_iron_sheet"
+          "id": "create:mechanical_pump"
         },
         "cell_1_1": {
           "kind": "ITEM",
-          "id": "create:shaft"
+          "id": "tfmg:steel_chemical_vat"
         },
         "cell_1_2": {
           "kind": "ITEM",
-          "id": "tfmg:cast_iron_sheet"
+          "id": "mekanism:basic_chemical_tank"
         },
         "cell_2_0": {
           "kind": "ITEM",
-          "id": "tfmg:copper_cable_hub"
+          "id": "tfmg:steel_frame"
         },
         "cell_2_1": {
           "kind": "ITEM",
-          "id": "create:brass_casing"
+          "id": "tfmg:electric_motor"
         },
         "cell_2_2": {
           "kind": "ITEM",
-          "id": "tfmg:copper_cable_hub"
+          "id": "tfmg:steel_frame"
         },
-        "output": {
+        "cell_3_0": {
           "kind": "ITEM",
-          "id": "electroenergetics:alternator_brushes"
+          "id": "mekanism:basic_control_circuit"
+        },
+        "cell_3_1": {
+          "kind": "ITEM",
+          "id": "tfmg:circuit_board"
+        },
+        "cell_3_2": {
+          "kind": "ITEM",
+          "id": "mekanism:basic_control_circuit"
         }
       },
       "params": {
         "gridW": "3",
-        "gridH": "3"
-      }
-    },
-    {
-      "uid": "4664ab9e-73f4-5288-bf62-3e668ee71079",
-      "type": "kjsgen:create_mechanical_crafting",
-      "recipeId": "industrial_colonies:grid/alternator_rotor",
-      "comment": "[Digital Logistics] Review correction: a laminated magnetic rotor and reinforced shaft enclosed in real windings, rather than paying for unrelated processors.",
-      "replaceRecipe": false,
-      "slots": {
-        "cell_0_1": {
-          "kind": "ITEM",
-          "id": "tfmg:copper_spool"
-        },
-        "cell_0_2": {
-          "kind": "ITEM",
-          "id": "tfmg:copper_spool"
-        },
-        "cell_1_0": {
-          "kind": "ITEM",
-          "id": "tfmg:copper_spool"
-        },
-        "cell_1_1": {
-          "kind": "ITEM",
-          "id": "tfmg:laminated_magnetic_alloy_block"
-        },
-        "cell_1_2": {
-          "kind": "ITEM",
-          "id": "create:shaft"
-        },
-        "cell_1_3": {
-          "kind": "ITEM",
-          "id": "tfmg:copper_spool"
-        },
-        "cell_2_0": {
-          "kind": "ITEM",
-          "id": "tfmg:copper_spool"
-        },
-        "cell_2_1": {
-          "kind": "ITEM",
-          "id": "tfmg:steel_mechanism"
-        },
-        "cell_2_2": {
-          "kind": "ITEM",
-          "id": "create:shaft"
-        },
-        "cell_2_3": {
-          "kind": "ITEM",
-          "id": "tfmg:copper_spool"
-        },
-        "cell_3_1": {
-          "kind": "ITEM",
-          "id": "tfmg:copper_spool"
-        },
-        "cell_3_2": {
-          "kind": "ITEM",
-          "id": "tfmg:copper_spool"
-        },
-        "output": {
-          "kind": "ITEM",
-          "id": "electroenergetics:alternator_rotor"
-        }
-      },
-      "params": {
-        "gridW": "4",
         "gridH": "4"
       }
     },
     {
-      "uid": "2adabefb-d5a0-5b94-a12c-ea08f0615d58",
+      "uid": "0b977524-e5e6-5ce2-9481-d79289c2cec4",
       "type": "kjsgen:create_mechanical_crafting",
-      "recipeId": "industrial_colonies:heavy_industry/industrial_mixer",
-      "comment": "[Pre-semiconductor ownership] Mechanical components precede final factory assembly.",
+      "recipeId": "industrial_colonies:mekanism_pre_nuclear/painting_machine",
+      "comment": "Review revision 2026-10-28: Consumes Mekanism pigments to recolor supported items/blocks. Companion to pigment extraction; optional decoration processing, not a required metallurgical machine.",
       "replaceRecipe": false,
       "slots": {
-        "cell_0_0": {
-          "kind": "ITEM",
-          "id": "tfmg:steel_frame"
-        },
-        "cell_0_3": {
-          "kind": "ITEM",
-          "id": "tfmg:screw"
-        },
-        "cell_0_4": {
-          "kind": "ITEM",
-          "id": "tfmg:steel_frame"
-        },
-        "cell_1_0": {
-          "kind": "ITEM",
-          "id": "tfmg:heavy_plate"
-        },
-        "cell_1_2": {
-          "kind": "ITEM",
-          "id": "tfmg:steel_mechanism"
-        },
-        "cell_1_4": {
-          "kind": "ITEM",
-          "id": "tfmg:heavy_plate"
-        },
-        "cell_2_0": {
-          "kind": "ITEM",
-          "id": "tfmg:screw"
-        },
-        "cell_2_4": {
-          "kind": "ITEM",
-          "id": "tfmg:screw"
-        },
-        "cell_3_0": {
-          "kind": "ITEM",
-          "id": "tfmg:heavy_plate"
-        },
-        "cell_3_2": {
-          "kind": "ITEM",
-          "id": "tfmg:mixer_blade"
-        },
-        "cell_3_4": {
-          "kind": "ITEM",
-          "id": "tfmg:heavy_plate"
-        },
-        "cell_4_0": {
-          "kind": "ITEM",
-          "id": "tfmg:steel_frame"
-        },
-        "cell_4_1": {
-          "kind": "ITEM",
-          "id": "tfmg:heavy_plate"
-        },
-        "cell_4_2": {
-          "kind": "ITEM",
-          "id": "tfmg:steel_pipe"
-        },
-        "cell_4_3": {
-          "kind": "ITEM",
-          "id": "tfmg:heavy_plate"
-        },
-        "cell_4_4": {
-          "kind": "ITEM",
-          "id": "tfmg:steel_frame"
-        },
         "output": {
           "kind": "ITEM",
-          "id": "tfmg:industrial_mixer"
+          "id": "mekanism:painting_machine"
         },
         "cell_0_1": {
           "kind": "ITEM",
-          "id": "tfmg:screw"
+          "id": "mekanism:basic_chemical_tank"
         },
-        "cell_0_2": {
+        "cell_1_0": {
           "kind": "ITEM",
-          "id": "tfmg:heavy_machinery_casing"
+          "id": "create:mechanical_pump"
+        },
+        "cell_1_1": {
+          "kind": "ITEM",
+          "id": "create:deployer"
+        },
+        "cell_1_2": {
+          "kind": "ITEM",
+          "id": "tfmg:steel_pipe"
+        },
+        "cell_2_0": {
+          "kind": "ITEM",
+          "id": "tfmg:steel_frame"
         },
         "cell_2_2": {
           "kind": "ITEM",
+          "id": "tfmg:electric_motor"
+        },
+        "cell_3_0": {
+          "kind": "ITEM",
+          "id": "mekanism:basic_control_circuit"
+        },
+        "cell_3_1": {
+          "kind": "ITEM",
+          "id": "tfmg:circuit_board"
+        },
+        "cell_3_2": {
+          "kind": "ITEM",
+          "id": "mekanism:basic_control_circuit"
+        }
+      },
+      "params": {
+        "gridW": "3",
+        "gridH": "4"
+      }
+    },
+    {
+      "uid": "ec4b7bf8-b352-5caa-b681-ec97730ef32f",
+      "type": "kjsgen:shaped",
+      "recipeId": "aquaculture:tackle_box",
+      "group": "Machine inventory / aquaculture",
+      "comment": "Existing registered recipe, unchanged baseline for machine review. Source: aquaculture:tackle_box.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "aquaculture:tackle_box"
+        },
+        "in0": {
+          "kind": "ITEM_TAG",
+          "id": "aquaculture:tackle_box_green"
+        },
+        "in1": {
+          "kind": "ITEM_TAG",
+          "id": "c:ingots/iron"
+        },
+        "in2": {
+          "kind": "ITEM_TAG",
+          "id": "aquaculture:tackle_box_green"
+        },
+        "in3": {
+          "kind": "ITEM_TAG",
+          "id": "c:ingots/iron"
+        },
+        "in4": {
+          "kind": "ITEM_TAG",
+          "id": "c:chests"
+        },
+        "in5": {
+          "kind": "ITEM_TAG",
+          "id": "c:ingots/iron"
+        },
+        "in6": {
+          "kind": "ITEM_TAG",
+          "id": "c:ingots/iron"
+        },
+        "in7": {
+          "kind": "ITEM_TAG",
+          "id": "c:storage_blocks/iron"
+        },
+        "in8": {
+          "kind": "ITEM_TAG",
+          "id": "c:ingots/iron"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "45b46972-09dc-5197-a4ba-2406898135ff",
+      "type": "kjsgen:shaped",
+      "recipeId": "bigreactors:fluidizer/glass",
+      "group": "Machine inventory / bigreactors",
+      "comment": "Existing registered recipe, unchanged baseline for machine review. Source: bigreactors:fluidizer/glass.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "bigreactors:fluidizerglass"
+        },
+        "in0": {
+          "kind": "ITEM_TAG",
+          "id": "c:glass_blocks"
+        },
+        "in1": {
+          "kind": "ITEM",
+          "id": "bigreactors:fluidizercasing"
+        },
+        "in2": {
+          "kind": "ITEM_TAG",
+          "id": "c:glass_blocks"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "e03fe07f-6540-5c7f-9e67-459cd4c8795a",
+      "type": "kjsgen:shaped",
+      "recipeId": "bigreactors:reprocessor/glass",
+      "group": "Machine inventory / bigreactors",
+      "comment": "Existing registered recipe, unchanged baseline for machine review. Source: bigreactors:reprocessor/glass.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "bigreactors:reprocessorglass"
+        },
+        "in0": {
+          "kind": "ITEM_TAG",
+          "id": "c:glass_blocks"
+        },
+        "in1": {
+          "kind": "ITEM",
+          "id": "bigreactors:reprocessorcasing"
+        },
+        "in2": {
+          "kind": "ITEM_TAG",
+          "id": "c:glass_blocks"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "91f8a53c-63fb-5e29-9d5e-97de7187a528",
+      "type": "kjsgen:shaped",
+      "recipeId": "bosses_of_mass_destruction:mob_ward",
+      "group": "Machine inventory / bosses_of_mass_destruction",
+      "comment": "Existing registered recipe, unchanged baseline for machine review. Source: bosses_of_mass_destruction:mob_ward.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "bosses_of_mass_destruction:mob_ward"
+        },
+        "in0": {
+          "kind": "ITEM",
+          "id": "bosses_of_mass_destruction:ancient_anima"
+        },
+        "in3": {
+          "kind": "ITEM",
+          "id": "bosses_of_mass_destruction:obsidian_heart"
+        },
+        "in6": {
+          "kind": "ITEM",
+          "id": "minecraft:obsidian"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "743a11a5-558a-56f0-ab33-68c6e8d931e2",
+      "type": "kjsgen:shaped",
+      "recipeId": "create:crafting/kinetics/smart_fluid_pipe",
+      "group": "Machine inventory / create",
+      "comment": "Existing registered recipe, unchanged baseline for machine review. Source: create:crafting/kinetics/smart_fluid_pipe.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "create:smart_fluid_pipe"
+        },
+        "in0": {
+          "kind": "ITEM_TAG",
+          "id": "c:plates/brass"
+        },
+        "in3": {
+          "kind": "ITEM",
+          "id": "create:fluid_pipe"
+        },
+        "in6": {
+          "kind": "ITEM",
+          "id": "create:electron_tube"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "27d99ad8-54eb-5b9e-b31b-31e3af455c38",
+      "type": "kjsgen:shaped",
+      "recipeId": "create:crafting/kinetics/spout",
+      "group": "Machine inventory / create",
+      "comment": "Existing registered recipe, unchanged baseline for machine review. Source: create:crafting/kinetics/spout.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "create:spout"
+        },
+        "in0": {
+          "kind": "ITEM",
+          "id": "create:copper_casing"
+        },
+        "in3": {
+          "kind": "ITEM",
+          "id": "minecraft:dried_kelp"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "c47e0e01-c847-5b2e-83cf-4fb58ece7e4c",
+      "type": "kjsgen:shaped",
+      "recipeId": "create:crafting/kinetics/steam_engine",
+      "group": "Machine inventory / create",
+      "comment": "Existing registered recipe, unchanged baseline for machine review. Source: create:crafting/kinetics/steam_engine.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "create:steam_engine"
+        },
+        "in0": {
+          "kind": "ITEM_TAG",
+          "id": "c:plates/gold"
+        },
+        "in3": {
+          "kind": "ITEM",
+          "id": "create:andesite_alloy"
+        },
+        "in6": {
+          "kind": "ITEM_TAG",
+          "id": "c:storage_blocks/copper"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "f3429778-b462-5fd5-bbc1-e8f88b89b261",
+      "type": "kjsgen:shaped",
+      "recipeId": "create:crafting/kinetics/sticker",
+      "group": "Machine inventory / create",
+      "comment": "Existing registered recipe, unchanged baseline for machine review. Source: create:crafting/kinetics/sticker.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "create:sticker"
+        },
+        "in0": {
+          "kind": "ITEM",
+          "id": "create:andesite_alloy"
+        },
+        "in1": {
+          "kind": "ITEM_TAG",
+          "id": "c:slimeballs"
+        },
+        "in2": {
+          "kind": "ITEM",
+          "id": "create:andesite_alloy"
+        },
+        "in3": {
+          "kind": "ITEM_TAG",
+          "id": "c:cobblestones"
+        },
+        "in4": {
+          "kind": "ITEM_TAG",
+          "id": "c:dusts/redstone"
+        },
+        "in5": {
+          "kind": "ITEM_TAG",
+          "id": "c:cobblestones"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "06c307f0-972f-51da-a276-8366eeb28a4c",
+      "type": "kjsgen:shapeless",
+      "recipeId": "create_aeronautics_automated_logistics:airship_station",
+      "group": "Machine inventory / create_aeronautics_automated_logistics",
+      "comment": "Existing registered recipe, unchanged baseline for machine review. Source: create_aeronautics_automated_logistics:airship_station.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "create_aeronautics_automated_logistics:airship_station"
+        },
+        "in0": {
+          "kind": "ITEM",
+          "id": "create:track_station"
+        },
+        "in1": {
+          "kind": "ITEM",
+          "id": "simulated:physics_assembler"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "6453a5e1-49ae-5c03-b102-574d3ec0a3df",
+      "type": "kjsgen:shaped",
+      "recipeId": "create_aeronautics_automated_logistics:logistics_terminal",
+      "group": "Machine inventory / create_aeronautics_automated_logistics",
+      "comment": "Existing registered recipe, unchanged baseline for machine review. Source: create_aeronautics_automated_logistics:logistics_terminal.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "create_aeronautics_automated_logistics:logistics_terminal"
+        },
+        "in0": {
+          "kind": "ITEM",
+          "id": "minecraft:map"
+        },
+        "in1": {
+          "kind": "ITEM",
+          "id": "minecraft:map"
+        },
+        "in2": {
+          "kind": "ITEM",
+          "id": "minecraft:map"
+        },
+        "in3": {
+          "kind": "ITEM",
+          "id": "create:andesite_casing"
+        },
+        "in4": {
+          "kind": "ITEM",
+          "id": "create:display_board"
+        },
+        "in5": {
+          "kind": "ITEM",
+          "id": "create:andesite_casing"
+        },
+        "in6": {
+          "kind": "ITEM",
+          "id": "create:sturdy_sheet"
+        },
+        "in7": {
+          "kind": "ITEM",
+          "id": "create:sturdy_sheet"
+        },
+        "in8": {
+          "kind": "ITEM",
+          "id": "create:sturdy_sheet"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "92a12ad5-2379-551b-940b-844850f7f346",
+      "type": "kjsgen:shapeless",
+      "recipeId": "create_aeronautics_automated_logistics:train_station",
+      "group": "Machine inventory / create_aeronautics_automated_logistics",
+      "comment": "Existing registered recipe, unchanged baseline for machine review. Source: create_aeronautics_automated_logistics:train_station.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "create_aeronautics_automated_logistics:train_station"
+        },
+        "in0": {
+          "kind": "ITEM",
+          "id": "create_aeronautics_automated_logistics:airship_station"
+        },
+        "in1": {
+          "kind": "ITEM",
+          "id": "create:track"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "06ca609e-4836-5719-b5fe-7771846d74df",
+      "type": "kjsgen:create_mechanical_crafting",
+      "recipeId": "createbigcannons:fluid_shell",
+      "group": "Machine inventory / createbigcannons",
+      "comment": "Existing registered recipe, unchanged baseline for machine review. Source: createbigcannons:fluid_shell.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "createbigcannons:fluid_shell"
+        },
+        "cell_0_1": {
+          "kind": "ITEM_TAG",
+          "id": "c:ingots/iron"
+        },
+        "cell_1_0": {
+          "kind": "ITEM_TAG",
+          "id": "c:ingots/iron"
+        },
+        "cell_1_1": {
+          "kind": "ITEM",
+          "id": "create:fluid_pipe"
+        },
+        "cell_1_2": {
+          "kind": "ITEM_TAG",
+          "id": "c:ingots/iron"
+        },
+        "cell_2_0": {
+          "kind": "ITEM_TAG",
+          "id": "c:ingots/iron"
+        },
+        "cell_2_1": {
+          "kind": "ITEM",
+          "id": "create:fluid_pipe"
+        },
+        "cell_2_2": {
+          "kind": "ITEM_TAG",
+          "id": "c:ingots/iron"
+        },
+        "cell_3_1": {
+          "kind": "ITEM_TAG",
+          "id": "minecraft:wooden_slabs"
+        }
+      },
+      "params": {
+        "gridW": "3",
+        "gridH": "4",
+        "__nativeCraftingType": "create:mechanical_crafting",
+        "__acceptMirrored": "true"
+      }
+    },
+    {
+      "uid": "3ed82326-a316-5928-8c53-1b4d79ebd636",
+      "type": "kjsgen:shapeless",
+      "recipeId": "createcasing:crafting/cogwheels/andesite_alloy",
+      "group": "Machine inventory / createcasing",
+      "comment": "Existing registered recipe, unchanged baseline for machine review. Source: createcasing:crafting/cogwheels/andesite_alloy.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "createcasing:andesite_cogwheel"
+        },
+        "in0": {
+          "kind": "ITEM",
+          "id": "create:shaft"
+        },
+        "in1": {
+          "kind": "ITEM",
+          "id": "create:andesite_alloy"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "2b44cb67-9458-5fa4-a66c-396f7b06ca40",
+      "type": "kjsgen:shapeless",
+      "recipeId": "createcasing:crafting/cogwheels/brass",
+      "group": "Machine inventory / createcasing",
+      "comment": "Existing registered recipe, unchanged baseline for machine review. Source: createcasing:crafting/cogwheels/brass.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "createcasing:brass_cogwheel"
+        },
+        "in0": {
+          "kind": "ITEM",
+          "id": "create:shaft"
+        },
+        "in1": {
+          "kind": "ITEM_TAG",
+          "id": "c:ingots/brass"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "e5fab26c-3a87-5573-a6c3-b8102b797a31",
+      "type": "kjsgen:shapeless",
+      "recipeId": "createcasing:crafting/fluid_valve/brass",
+      "group": "Machine inventory / createcasing",
+      "comment": "Existing registered recipe, unchanged baseline for machine review. Source: createcasing:crafting/fluid_valve/brass.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "createcasing:brass_fluid_valve"
+        },
+        "in0": {
+          "kind": "ITEM",
+          "id": "createcasing:brass_fluid_pipe"
+        },
+        "in1": {
+          "kind": "ITEM_TAG",
+          "id": "c:plates/iron"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "50550383-661f-5e4a-9d04-386376123872",
+      "type": "kjsgen:shapeless",
+      "recipeId": "createcasing:crafting/large_cogwheels/brass",
+      "group": "Machine inventory / createcasing",
+      "comment": "Existing registered recipe, unchanged baseline for machine review. Source: createcasing:crafting/large_cogwheels/brass.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "createcasing:brass_large_cogwheel"
+        },
+        "in0": {
+          "kind": "ITEM",
+          "id": "create:shaft"
+        },
+        "in1": {
+          "kind": "ITEM_TAG",
+          "id": "c:ingots/brass"
+        },
+        "in2": {
+          "kind": "ITEM_TAG",
+          "id": "c:ingots/brass"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "c9f6ff8b-35ea-541c-b34b-7ac62b9e6af3",
+      "type": "kjsgen:shaped",
+      "recipeId": "createcasing:crafting/smart_fluid_pipe/brass",
+      "group": "Machine inventory / createcasing",
+      "comment": "Existing registered recipe, unchanged baseline for machine review. Source: createcasing:crafting/smart_fluid_pipe/brass.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "createcasing:brass_smart_fluid_pipe"
+        },
+        "in0": {
+          "kind": "ITEM_TAG",
+          "id": "c:plates/brass"
+        },
+        "in3": {
+          "kind": "ITEM",
+          "id": "createcasing:brass_fluid_pipe"
+        },
+        "in6": {
+          "kind": "ITEM",
+          "id": "create:electron_tube"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "fb44d997-c6f4-5da0-9245-87bb476bf089",
+      "type": "kjsgen:shaped",
+      "recipeId": "createcasing:crafting/spout/brass",
+      "group": "Machine inventory / createcasing",
+      "comment": "Existing registered recipe, unchanged baseline for machine review. Source: createcasing:crafting/spout/brass.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "createcasing:brass_spout"
+        },
+        "in0": {
+          "kind": "ITEM",
+          "id": "create:brass_casing"
+        },
+        "in3": {
+          "kind": "ITEM",
+          "id": "minecraft:dried_kelp"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "2fdddcba-eae6-539c-a0bf-c56e3a2fe16d",
+      "type": "kjsgen:shapeless",
+      "recipeId": "createcasing:crafting/cogwheels/copper",
+      "group": "Machine inventory / createcasing",
+      "comment": "Existing registered recipe, unchanged baseline for machine review. Source: createcasing:crafting/cogwheels/copper.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "createcasing:copper_cogwheel"
+        },
+        "in0": {
+          "kind": "ITEM",
+          "id": "create:shaft"
+        },
+        "in1": {
+          "kind": "ITEM_TAG",
+          "id": "c:ingots/copper"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "0b857b13-5f22-5269-abcd-20e59dd92e8d",
+      "type": "kjsgen:shapeless",
+      "recipeId": "createcasing:crafting/large_cogwheels/copper",
+      "group": "Machine inventory / createcasing",
+      "comment": "Existing registered recipe, unchanged baseline for machine review. Source: createcasing:crafting/large_cogwheels/copper.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "createcasing:copper_large_cogwheel"
+        },
+        "in0": {
+          "kind": "ITEM",
+          "id": "create:shaft"
+        },
+        "in1": {
+          "kind": "ITEM_TAG",
+          "id": "c:ingots/copper"
+        },
+        "in2": {
+          "kind": "ITEM_TAG",
+          "id": "c:ingots/copper"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "dd0777b4-e183-557a-9f5a-9899830bb934",
+      "type": "kjsgen:shaped",
+      "recipeId": "createcasing:crafting/shafts/glass_shaft",
+      "group": "Machine inventory / createcasing",
+      "comment": "Existing registered recipe, unchanged baseline for machine review. Source: createcasing:crafting/shafts/glass_shaft.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "createcasing:glass_shaft",
+          "count": 8
+        },
+        "in0": {
+          "kind": "ITEM",
+          "id": "minecraft:glass"
+        },
+        "in3": {
+          "kind": "ITEM",
+          "id": "minecraft:glass"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "842fe5ed-e908-5312-afc5-f5941dd04c27",
+      "type": "kjsgen:shapeless",
+      "recipeId": "createcasing:crafting/portable_storage_interface/railway",
+      "group": "Machine inventory / createcasing",
+      "comment": "Existing registered recipe, unchanged baseline for machine review. Source: createcasing:crafting/portable_storage_interface/railway.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "createcasing:railway_portable_storage_interface"
+        },
+        "in0": {
+          "kind": "ITEM",
+          "id": "create:railway_casing"
+        },
+        "in1": {
+          "kind": "ITEM",
+          "id": "create:chute"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "79450181-6043-5587-89fb-dcf352806e98",
+      "type": "kjsgen:shapeless",
+      "recipeId": "createcasing:crafting/cogwheels/zinc",
+      "group": "Machine inventory / createcasing",
+      "comment": "Existing registered recipe, unchanged baseline for machine review. Source: createcasing:crafting/cogwheels/zinc.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "createcasing:zinc_cogwheel"
+        },
+        "in0": {
+          "kind": "ITEM",
+          "id": "create:shaft"
+        },
+        "in1": {
+          "kind": "ITEM_TAG",
+          "id": "c:ingots/zinc"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "07499021-e798-5363-af77-a2f6510624e5",
+      "type": "kjsgen:shapeless",
+      "recipeId": "createcasing:crafting/fluid_valve/zinc",
+      "group": "Machine inventory / createcasing",
+      "comment": "Existing registered recipe, unchanged baseline for machine review. Source: createcasing:crafting/fluid_valve/zinc.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "createcasing:zinc_fluid_valve"
+        },
+        "in0": {
+          "kind": "ITEM",
+          "id": "createcasing:zinc_fluid_pipe"
+        },
+        "in1": {
+          "kind": "ITEM_TAG",
+          "id": "c:plates/iron"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "b914f78e-58b7-50c6-9610-9bdab85fe01b",
+      "type": "kjsgen:shapeless",
+      "recipeId": "createcasing:crafting/large_cogwheels/zinc",
+      "group": "Machine inventory / createcasing",
+      "comment": "Existing registered recipe, unchanged baseline for machine review. Source: createcasing:crafting/large_cogwheels/zinc.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "createcasing:zinc_large_cogwheel"
+        },
+        "in0": {
+          "kind": "ITEM",
+          "id": "create:shaft"
+        },
+        "in1": {
+          "kind": "ITEM_TAG",
+          "id": "c:ingots/zinc"
+        },
+        "in2": {
+          "kind": "ITEM_TAG",
+          "id": "c:ingots/zinc"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "70ac1a22-b5c4-5808-921d-8fa460a592bc",
+      "type": "kjsgen:shapeless",
+      "recipeId": "createcasing:crafting/fluid_pump/zinc",
+      "group": "Machine inventory / createcasing",
+      "comment": "Existing registered recipe, unchanged baseline for machine review. Source: createcasing:crafting/fluid_pump/zinc.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "createcasing:zinc_mechanical_pump"
+        },
+        "in0": {
+          "kind": "ITEM",
+          "id": "create:cogwheel"
+        },
+        "in1": {
+          "kind": "ITEM",
+          "id": "createcasing:zinc_fluid_pipe"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "159b1217-ccb3-5474-a447-55f1a60a484b",
+      "type": "kjsgen:shaped",
+      "recipeId": "createcasing:crafting/smart_fluid_pipe/zinc",
+      "group": "Machine inventory / createcasing",
+      "comment": "Existing registered recipe, unchanged baseline for machine review. Source: createcasing:crafting/smart_fluid_pipe/zinc.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "createcasing:zinc_smart_fluid_pipe"
+        },
+        "in0": {
+          "kind": "ITEM_TAG",
+          "id": "c:plates/brass"
+        },
+        "in3": {
+          "kind": "ITEM",
+          "id": "createcasing:zinc_fluid_pipe"
+        },
+        "in6": {
+          "kind": "ITEM",
+          "id": "create:electron_tube"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "a4ca4f4c-c5b4-5f56-9839-0574a07aa9ce",
+      "type": "kjsgen:shaped",
+      "recipeId": "createdieselgenerators:crafting/chemical_turret",
+      "group": "Machine inventory / createdieselgenerators",
+      "comment": "Existing registered recipe, unchanged baseline for machine review. Source: createdieselgenerators:crafting/chemical_turret.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "createdieselgenerators:chemical_turret"
+        },
+        "in0": {
+          "kind": "ITEM",
+          "id": "create:precision_mechanism"
+        },
+        "in1": {
+          "kind": "ITEM_TAG",
+          "id": "c:plates/copper"
+        },
+        "in2": {
+          "kind": "ITEM",
+          "id": "createdieselgenerators:chemical_sprayer"
+        },
+        "in4": {
+          "kind": "ITEM",
+          "id": "create:cogwheel"
+        },
+        "in6": {
+          "kind": "ITEM_TAG",
+          "id": "c:plates/copper"
+        },
+        "in7": {
+          "kind": "ITEM",
+          "id": "create:copper_casing"
+        },
+        "in8": {
+          "kind": "ITEM_TAG",
+          "id": "c:plates/copper"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "35dc07de-5d1f-5853-b4cb-8c24ec2aa49d",
+      "type": "kjsgen:shaped",
+      "recipeId": "createmetallurgy:crafting/content/mechanical_belt_grinder",
+      "group": "Machine inventory / createmetallurgy",
+      "comment": "Existing registered recipe, unchanged baseline for machine review. Source: createmetallurgy:crafting/content/mechanical_belt_grinder.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "createmetallurgy:mechanical_belt_grinder"
+        },
+        "in0": {
+          "kind": "ITEM",
+          "id": "createmetallurgy:sandpaper_belt"
+        },
+        "in3": {
+          "kind": "ITEM",
+          "id": "create:andesite_casing"
+        },
+        "in6": {
+          "kind": "ITEM",
+          "id": "create:shaft"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "67b9f9b1-7b5b-5719-bdd4-debcedb6c2d5",
+      "type": "kjsgen:shapeless",
+      "recipeId": "electroenergetics:crafting/black_electrical_panel",
+      "group": "Machine inventory / electroenergetics",
+      "comment": "Existing registered recipe, unchanged baseline for machine review. Source: electroenergetics:crafting/black_electrical_panel.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "electroenergetics:black_electrical_panel"
+        },
+        "in0": {
+          "kind": "ITEM",
+          "id": "electroenergetics:electrical_panel"
+        },
+        "in1": {
+          "kind": "ITEM",
+          "id": "minecraft:black_dye"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "fc14c529-2518-504e-ba44-8b46ec77aec4",
+      "type": "kjsgen:shaped",
+      "recipeId": "electroenergetics:crafting/bulb",
+      "group": "Machine inventory / electroenergetics",
+      "comment": "Existing registered recipe, unchanged baseline for machine review. Source: electroenergetics:crafting/bulb.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "electroenergetics:bulb"
+        },
+        "in1": {
+          "kind": "ITEM",
+          "id": "minecraft:glass"
+        },
+        "in4": {
+          "kind": "ITEM",
+          "id": "tfmg:copper_wire"
+        },
+        "in6": {
+          "kind": "ITEM",
+          "id": "electroenergetics:connector"
+        },
+        "in7": {
+          "kind": "ITEM",
+          "id": "create:andesite_alloy"
+        },
+        "in8": {
+          "kind": "ITEM",
+          "id": "electroenergetics:connector"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "cc776578-eefb-522d-9c9d-4830c043cf85",
+      "type": "kjsgen:shaped",
+      "recipeId": "electroenergetics:crafting/buzzer",
+      "group": "Machine inventory / electroenergetics",
+      "comment": "Existing registered recipe, unchanged baseline for machine review. Source: electroenergetics:crafting/buzzer.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "electroenergetics:buzzer"
+        },
+        "in1": {
+          "kind": "ITEM_TAG",
+          "id": "c:plates/iron"
+        },
+        "in3": {
+          "kind": "ITEM",
+          "id": "electroenergetics:connector"
+        },
+        "in4": {
+          "kind": "ITEM",
+          "id": "electroenergetics:wire_spool"
+        },
+        "in5": {
+          "kind": "ITEM",
+          "id": "electroenergetics:connector"
+        },
+        "in7": {
+          "kind": "ITEM",
+          "id": "create:andesite_alloy"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "c39dc42b-66f8-55c9-9a81-855fa26bf55b",
+      "type": "kjsgen:shaped",
+      "recipeId": "electroenergetics:crafting/capacitor",
+      "group": "Machine inventory / electroenergetics",
+      "comment": "Existing registered recipe, unchanged baseline for machine review. Source: electroenergetics:crafting/capacitor.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "electroenergetics:capacitor"
+        },
+        "in0": {
+          "kind": "ITEM_TAG",
+          "id": "c:plates/iron"
+        },
+        "in1": {
+          "kind": "ITEM_TAG",
+          "id": "c:plates/copper"
+        },
+        "in2": {
+          "kind": "ITEM_TAG",
+          "id": "c:plates/iron"
+        },
+        "in3": {
+          "kind": "ITEM_TAG",
+          "id": "c:plates/iron"
+        },
+        "in4": {
+          "kind": "ITEM_TAG",
+          "id": "c:ingots/zinc"
+        },
+        "in5": {
+          "kind": "ITEM_TAG",
+          "id": "c:plates/iron"
+        },
+        "in6": {
+          "kind": "ITEM",
+          "id": "electroenergetics:connector"
+        },
+        "in8": {
+          "kind": "ITEM",
+          "id": "electroenergetics:connector"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "195b1172-1851-5d73-8e2b-c1eb66002fe1",
+      "type": "kjsgen:shaped",
+      "recipeId": "electroenergetics:crafting/catenary_holder",
+      "group": "Machine inventory / electroenergetics",
+      "comment": "Existing registered recipe, unchanged baseline for machine review. Source: electroenergetics:crafting/catenary_holder.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "electroenergetics:catenary_holder",
+          "count": 4
+        },
+        "in0": {
+          "kind": "ITEM_TAG",
+          "id": "c:ingots/iron"
+        },
+        "in1": {
+          "kind": "ITEM_TAG",
+          "id": "c:ingots/iron"
+        },
+        "in2": {
+          "kind": "ITEM_TAG",
+          "id": "c:ingots/iron"
+        },
+        "in4": {
+          "kind": "ITEM_TAG",
+          "id": "c:nuggets/iron"
+        },
+        "in6": {
+          "kind": "ITEM_TAG",
+          "id": "c:ingots/iron"
+        },
+        "in7": {
+          "kind": "ITEM_TAG",
+          "id": "c:ingots/iron"
+        },
+        "in8": {
+          "kind": "ITEM_TAG",
+          "id": "c:ingots/iron"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "27ddf84a-351c-529f-8296-92fc798ebc88",
+      "type": "kjsgen:shapeless",
+      "recipeId": "electroenergetics:crafting/double_connector",
+      "group": "Machine inventory / electroenergetics",
+      "comment": "Existing registered recipe, unchanged baseline for machine review. Source: electroenergetics:crafting/double_connector.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "electroenergetics:double_connector"
+        },
+        "in0": {
+          "kind": "ITEM",
+          "id": "electroenergetics:connector"
+        },
+        "in1": {
+          "kind": "ITEM",
+          "id": "electroenergetics:connector"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "30eafd4b-38b7-565a-acdf-9c8f3522001e",
+      "type": "kjsgen:shaped",
+      "recipeId": "electroenergetics:crafting/double_switch",
+      "group": "Machine inventory / electroenergetics",
+      "comment": "Existing registered recipe, unchanged baseline for machine review. Source: electroenergetics:crafting/double_switch.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "electroenergetics:double_switch"
+        },
+        "in0": {
+          "kind": "ITEM",
+          "id": "electroenergetics:cut_off_switch"
+        },
+        "in1": {
+          "kind": "ITEM",
+          "id": "create:andesite_alloy"
+        },
+        "in2": {
+          "kind": "ITEM",
+          "id": "electroenergetics:cut_off_switch"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "a157c59f-e8d3-5d05-896c-cf8ce6b1c80e",
+      "type": "kjsgen:shaped",
+      "recipeId": "electroenergetics:crafting/fuse",
+      "group": "Machine inventory / electroenergetics",
+      "comment": "Existing registered recipe, unchanged baseline for machine review. Source: electroenergetics:crafting/fuse.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "electroenergetics:fuse"
+        },
+        "in0": {
+          "kind": "ITEM",
+          "id": "create:andesite_alloy"
+        },
+        "in1": {
+          "kind": "ITEM",
+          "id": "minecraft:glass"
+        },
+        "in2": {
+          "kind": "ITEM",
+          "id": "create:andesite_alloy"
+        },
+        "in3": {
+          "kind": "ITEM",
+          "id": "electroenergetics:connector"
+        },
+        "in4": {
+          "kind": "ITEM",
+          "id": "tfmg:copper_wire"
+        },
+        "in5": {
+          "kind": "ITEM",
+          "id": "electroenergetics:connector"
+        },
+        "in6": {
+          "kind": "ITEM",
+          "id": "create:andesite_alloy"
+        },
+        "in7": {
+          "kind": "ITEM",
+          "id": "minecraft:glass"
+        },
+        "in8": {
+          "kind": "ITEM",
+          "id": "create:andesite_alloy"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "23866618-28bd-58f1-95fd-0f17b009e8d1",
+      "type": "kjsgen:shaped",
+      "recipeId": "electroenergetics:crafting/indicator_bulb",
+      "group": "Machine inventory / electroenergetics",
+      "comment": "Existing registered recipe, unchanged baseline for machine review. Source: electroenergetics:crafting/indicator_bulb.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "electroenergetics:indicator_bulb"
+        },
+        "in0": {
+          "kind": "ITEM",
+          "id": "electroenergetics:connector"
+        },
+        "in1": {
+          "kind": "ITEM",
+          "id": "create:electron_tube"
+        },
+        "in2": {
+          "kind": "ITEM",
+          "id": "electroenergetics:connector"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "75129b90-5f92-5823-a591-de9e96b1faed",
+      "type": "kjsgen:shaped",
+      "recipeId": "electroenergetics:crafting/momentary_switch",
+      "group": "Machine inventory / electroenergetics",
+      "comment": "Existing registered recipe, unchanged baseline for machine review. Source: electroenergetics:crafting/momentary_switch.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "electroenergetics:momentary_switch"
+        },
+        "in1": {
+          "kind": "ITEM",
+          "id": "minecraft:dried_kelp"
+        },
+        "in4": {
+          "kind": "ITEM_TAG",
+          "id": "minecraft:buttons"
+        },
+        "in6": {
+          "kind": "ITEM",
+          "id": "electroenergetics:connector"
+        },
+        "in7": {
+          "kind": "ITEM",
+          "id": "create:andesite_alloy"
+        },
+        "in8": {
+          "kind": "ITEM",
+          "id": "electroenergetics:connector"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "b0cf3f00-3ee1-50cd-9a80-376e3b59c3c5",
+      "type": "kjsgen:shaped",
+      "recipeId": "electroenergetics:crafting/potentiometer",
+      "group": "Machine inventory / electroenergetics",
+      "comment": "Existing registered recipe, unchanged baseline for machine review. Source: electroenergetics:crafting/potentiometer.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "electroenergetics:potentiometer"
+        },
+        "in1": {
+          "kind": "ITEM",
+          "id": "create:shaft"
+        },
+        "in3": {
+          "kind": "ITEM_TAG",
+          "id": "minecraft:terracotta"
+        },
+        "in4": {
+          "kind": "ITEM",
+          "id": "minecraft:coal"
+        },
+        "in5": {
+          "kind": "ITEM_TAG",
+          "id": "minecraft:terracotta"
+        },
+        "in6": {
+          "kind": "ITEM_TAG",
+          "id": "c:nuggets/copper"
+        },
+        "in7": {
+          "kind": "ITEM_TAG",
+          "id": "c:nuggets/copper"
+        },
+        "in8": {
+          "kind": "ITEM_TAG",
+          "id": "c:nuggets/copper"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "27405b62-92aa-5186-8528-a037d84ce5c9",
+      "type": "kjsgen:shapeless",
+      "recipeId": "electroenergetics:crafting/quad_connector",
+      "group": "Machine inventory / electroenergetics",
+      "comment": "Existing registered recipe, unchanged baseline for machine review. Source: electroenergetics:crafting/quad_connector.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "electroenergetics:quad_connector"
+        },
+        "in0": {
+          "kind": "ITEM",
+          "id": "electroenergetics:connector"
+        },
+        "in1": {
+          "kind": "ITEM",
+          "id": "electroenergetics:connector"
+        },
+        "in2": {
+          "kind": "ITEM",
+          "id": "electroenergetics:connector"
+        },
+        "in3": {
+          "kind": "ITEM",
+          "id": "electroenergetics:connector"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "9d32679b-f9cd-5d31-9db7-d181780330d2",
+      "type": "kjsgen:shaped",
+      "recipeId": "electroenergetics:crafting/redstone_potentiometer",
+      "group": "Machine inventory / electroenergetics",
+      "comment": "Existing registered recipe, unchanged baseline for machine review. Source: electroenergetics:crafting/redstone_potentiometer.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "electroenergetics:redstone_potentiometer"
+        },
+        "in0": {
+          "kind": "ITEM",
+          "id": "electroenergetics:potentiometer"
+        },
+        "in3": {
+          "kind": "ITEM",
+          "id": "minecraft:redstone_torch"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "95cf8b1d-cabc-53e5-bc6c-3f3f8a34df44",
+      "type": "kjsgen:shaped",
+      "recipeId": "electroenergetics:crafting/redstone_variac",
+      "group": "Machine inventory / electroenergetics",
+      "comment": "Existing registered recipe, unchanged baseline for machine review. Source: electroenergetics:crafting/redstone_variac.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "electroenergetics:redstone_variac"
+        },
+        "in0": {
+          "kind": "ITEM",
+          "id": "electroenergetics:variac"
+        },
+        "in3": {
+          "kind": "ITEM",
+          "id": "minecraft:redstone_torch"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "1b6411d4-17ef-5d75-b8b5-9b35ce8f20dd",
+      "type": "kjsgen:create_mechanical_crafting",
+      "recipeId": "industrial_colonies:machine_inventory/electroenergetics/transformer_core",
+      "group": "Machine inventory / electroenergetics",
+      "comment": "[High-Energy Grid] Review correction: functional hardware now uses Mechanical Crafting. The working parts, connections and structural support are assembled in the shown layout; the former sequenced assembly is replaced, not added as an alternative.\nExisting recipe copied unchanged for the user-requested full functional-block review. Original card and decision retained.",
+      "replaceRecipe": false,
+      "slots": {
+        "cell_0_1": {
+          "kind": "ITEM",
+          "id": "tfmg:copper_spool"
+        },
+        "cell_0_2": {
+          "kind": "ITEM",
+          "id": "tfmg:copper_spool"
+        },
+        "cell_1_0": {
+          "kind": "ITEM",
+          "id": "electroenergetics:transformer_core_lamination"
+        },
+        "cell_1_1": {
+          "kind": "ITEM",
+          "id": "electroenergetics:transformer_core_lamination"
+        },
+        "cell_1_2": {
+          "kind": "ITEM",
+          "id": "electroenergetics:transformer_core_lamination"
+        },
+        "cell_1_3": {
+          "kind": "ITEM",
+          "id": "electroenergetics:transformer_core_lamination"
+        },
+        "cell_2_1": {
+          "kind": "ITEM",
+          "id": "tfmg:copper_spool"
+        },
+        "cell_2_2": {
+          "kind": "ITEM",
+          "id": "tfmg:copper_spool"
+        },
+        "output": {
+          "kind": "ITEM",
+          "id": "electroenergetics:transformer_core"
+        }
+      },
+      "params": {
+        "gridW": "4",
+        "gridH": "3"
+      }
+    },
+    {
+      "uid": "a331e617-88a0-5a94-a61b-32b8bedd2060",
+      "type": "kjsgen:shapeless",
+      "recipeId": "electroenergetics:crafting/triple_connector",
+      "group": "Machine inventory / electroenergetics",
+      "comment": "Existing registered recipe, unchanged baseline for machine review. Source: electroenergetics:crafting/triple_connector.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "electroenergetics:triple_connector"
+        },
+        "in0": {
+          "kind": "ITEM",
+          "id": "electroenergetics:connector"
+        },
+        "in1": {
+          "kind": "ITEM",
+          "id": "electroenergetics:connector"
+        },
+        "in2": {
+          "kind": "ITEM",
+          "id": "electroenergetics:connector"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "f91debcf-a30e-5c8b-84b7-8b891d30eeb3",
+      "type": "kjsgen:shaped",
+      "recipeId": "electroenergetics:crafting/voltmeter",
+      "group": "Machine inventory / electroenergetics",
+      "comment": "Existing registered recipe, unchanged baseline for machine review. Source: electroenergetics:crafting/voltmeter.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "electroenergetics:voltmeter"
+        },
+        "in1": {
+          "kind": "ITEM",
+          "id": "minecraft:compass"
+        },
+        "in3": {
+          "kind": "ITEM",
+          "id": "electroenergetics:connector"
+        },
+        "in4": {
+          "kind": "ITEM",
+          "id": "create:andesite_alloy_block"
+        },
+        "in5": {
+          "kind": "ITEM",
+          "id": "electroenergetics:connector"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "435410c1-3d93-5d56-9f6a-732ae27e41be",
+      "type": "industrial_colonies:crystal_assembler",
+      "recipeId": "extendedae:assembler/ex_charger",
+      "group": "Machine inventory / extendedae",
+      "comment": "Existing registered recipe, unchanged baseline for machine review. Source: extendedae:assembler/ex_charger.",
+      "replaceRecipe": false,
+      "slots": {
+        "in0": {
+          "kind": "ITEM",
+          "id": "ae2:charger"
+        },
+        "in1": {
+          "kind": "ITEM",
+          "id": "ae2:capacity_card"
+        },
+        "in2": {
+          "kind": "ITEM",
+          "id": "extendedae:concurrent_processor"
+        },
+        "output": {
+          "kind": "ITEM",
+          "id": "extendedae:ex_charger"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "bfd6d21c-da84-52c5-a4ba-adcdae0240ed",
+      "type": "industrial_colonies:crystal_assembler",
+      "recipeId": "extendedae:assembler/ex_io_port",
+      "group": "Machine inventory / extendedae",
+      "comment": "Existing registered recipe, unchanged baseline for machine review. Source: extendedae:assembler/ex_io_port.",
+      "replaceRecipe": false,
+      "slots": {
+        "in0": {
+          "kind": "ITEM",
+          "id": "ae2:io_port"
+        },
+        "in1": {
+          "kind": "ITEM",
+          "id": "ae2:speed_card",
+          "count": 4
+        },
+        "in2": {
+          "kind": "ITEM",
+          "id": "ae2:logic_processor",
+          "count": 3
+        },
+        "in3": {
+          "kind": "ITEM",
+          "id": "extendedae:concurrent_processor",
+          "count": 2
+        },
+        "output": {
+          "kind": "ITEM",
+          "id": "extendedae:ex_io_port"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "6c84bb18-440f-5a40-83e6-19cc510d3084",
+      "type": "industrial_colonies:crystal_assembler",
+      "recipeId": "extendedae:assembler/wireless_connector",
+      "group": "Machine inventory / extendedae",
+      "comment": "Existing registered recipe, unchanged baseline for machine review. Source: extendedae:assembler/wireless_connector.",
+      "replaceRecipe": false,
+      "slots": {
+        "in0": {
+          "kind": "ITEM",
+          "id": "extendedae:machine_frame"
+        },
+        "in1": {
+          "kind": "ITEM_TAG",
+          "id": "ae2:smart_dense_cable",
+          "count": 2
+        },
+        "in2": {
+          "kind": "ITEM",
+          "id": "ae2:wireless_receiver",
+          "count": 2
+        },
+        "in3": {
+          "kind": "ITEM",
+          "id": "ae2:wireless_booster",
+          "count": 3
+        },
+        "output": {
+          "kind": "ITEM",
+          "id": "extendedae:wireless_connect",
+          "count": 2
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "002ab655-ff64-5c78-9d12-5468c7ba8f88",
+      "type": "kjsgen:shaped",
+      "recipeId": "immersiveengineering:crafting/connector_bundled",
+      "group": "Machine inventory / immersiveengineering",
+      "comment": "Existing registered recipe, unchanged baseline for machine review. Source: immersiveengineering:crafting/connector_bundled.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:connector_bundled"
+        },
+        "in1": {
+          "kind": "ITEM_TAG",
+          "id": "c:wires/aluminum"
+        },
+        "in3": {
+          "kind": "ITEM_TAG",
+          "id": "c:wires/aluminum"
+        },
+        "in4": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:connector_redstone"
+        },
+        "in5": {
+          "kind": "ITEM_TAG",
+          "id": "c:wires/aluminum"
+        },
+        "in7": {
+          "kind": "ITEM_TAG",
+          "id": "c:wires/aluminum"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "4ed39f82-af29-50de-8a30-8fa17ae72dc3",
+      "type": "kjsgen:shaped",
+      "recipeId": "immersiveengineering:crafting/connector_hv",
+      "group": "Machine inventory / immersiveengineering",
+      "comment": "Existing registered recipe, unchanged baseline for machine review. Source: immersiveengineering:crafting/connector_hv.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:connector_hv",
+          "count": 4
+        },
+        "in1": {
+          "kind": "ITEM_TAG",
+          "id": "c:ingots/aluminum"
+        },
+        "in3": {
+          "kind": "ITEM_TAG",
+          "id": "immersiveengineering:connector_insulator"
+        },
+        "in4": {
+          "kind": "ITEM_TAG",
+          "id": "c:ingots/aluminum"
+        },
+        "in5": {
+          "kind": "ITEM_TAG",
+          "id": "immersiveengineering:connector_insulator"
+        },
+        "in6": {
+          "kind": "ITEM_TAG",
+          "id": "immersiveengineering:connector_insulator"
+        },
+        "in7": {
+          "kind": "ITEM_TAG",
+          "id": "c:ingots/aluminum"
+        },
+        "in8": {
+          "kind": "ITEM_TAG",
+          "id": "immersiveengineering:connector_insulator"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "0eb0d1a4-1f7b-5f81-afdc-2489eb817eef",
+      "type": "kjsgen:shaped",
+      "recipeId": "immersiveengineering:crafting/connector_lv",
+      "group": "Machine inventory / immersiveengineering",
+      "comment": "Existing registered recipe, unchanged baseline for machine review. Source: immersiveengineering:crafting/connector_lv.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:connector_lv",
+          "count": 4
+        },
+        "in1": {
+          "kind": "ITEM_TAG",
+          "id": "c:ingots/copper"
+        },
+        "in3": {
+          "kind": "ITEM_TAG",
+          "id": "immersiveengineering:connector_insulator"
+        },
+        "in4": {
+          "kind": "ITEM_TAG",
+          "id": "c:ingots/copper"
+        },
+        "in5": {
+          "kind": "ITEM_TAG",
+          "id": "immersiveengineering:connector_insulator"
+        },
+        "in6": {
+          "kind": "ITEM_TAG",
+          "id": "immersiveengineering:connector_insulator"
+        },
+        "in7": {
+          "kind": "ITEM_TAG",
+          "id": "c:ingots/copper"
+        },
+        "in8": {
+          "kind": "ITEM_TAG",
+          "id": "immersiveengineering:connector_insulator"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "4a29f6e3-69db-5bcb-9713-11934fc02109",
+      "type": "kjsgen:shaped",
+      "recipeId": "immersiveengineering:crafting/connector_lv_relay",
+      "group": "Machine inventory / immersiveengineering",
+      "comment": "Existing registered recipe, unchanged baseline for machine review. Source: immersiveengineering:crafting/connector_lv_relay.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:connector_lv_relay",
+          "count": 8
+        },
+        "in1": {
+          "kind": "ITEM_TAG",
+          "id": "c:ingots/copper"
+        },
+        "in3": {
+          "kind": "ITEM_TAG",
+          "id": "immersiveengineering:connector_insulator"
+        },
+        "in4": {
+          "kind": "ITEM_TAG",
+          "id": "c:ingots/copper"
+        },
+        "in5": {
+          "kind": "ITEM_TAG",
+          "id": "immersiveengineering:connector_insulator"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "873b7934-658e-52f4-ad9c-3ad2c15f1f5f",
+      "type": "kjsgen:shaped",
+      "recipeId": "immersiveengineering:crafting/connector_mv",
+      "group": "Machine inventory / immersiveengineering",
+      "comment": "Existing registered recipe, unchanged baseline for machine review. Source: immersiveengineering:crafting/connector_mv.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:connector_mv",
+          "count": 4
+        },
+        "in1": {
+          "kind": "ITEM_TAG",
+          "id": "c:ingots/electrum"
+        },
+        "in3": {
+          "kind": "ITEM_TAG",
+          "id": "immersiveengineering:connector_insulator"
+        },
+        "in4": {
+          "kind": "ITEM_TAG",
+          "id": "c:ingots/electrum"
+        },
+        "in5": {
+          "kind": "ITEM_TAG",
+          "id": "immersiveengineering:connector_insulator"
+        },
+        "in6": {
+          "kind": "ITEM_TAG",
+          "id": "immersiveengineering:connector_insulator"
+        },
+        "in7": {
+          "kind": "ITEM_TAG",
+          "id": "c:ingots/electrum"
+        },
+        "in8": {
+          "kind": "ITEM_TAG",
+          "id": "immersiveengineering:connector_insulator"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "6b0f0c08-7080-5684-9b85-17c634e1a384",
+      "type": "kjsgen:shaped",
+      "recipeId": "immersiveengineering:crafting/connector_mv_relay",
+      "group": "Machine inventory / immersiveengineering",
+      "comment": "Existing registered recipe, unchanged baseline for machine review. Source: immersiveengineering:crafting/connector_mv_relay.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:connector_mv_relay",
+          "count": 8
+        },
+        "in1": {
+          "kind": "ITEM_TAG",
+          "id": "c:ingots/electrum"
+        },
+        "in3": {
+          "kind": "ITEM_TAG",
+          "id": "immersiveengineering:connector_insulator"
+        },
+        "in4": {
+          "kind": "ITEM_TAG",
+          "id": "c:ingots/electrum"
+        },
+        "in5": {
+          "kind": "ITEM_TAG",
+          "id": "immersiveengineering:connector_insulator"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "c02ff542-4e96-5489-a153-7cf5f62e640d",
+      "type": "kjsgen:shaped",
+      "recipeId": "immersiveengineering:crafting/connector_probe",
+      "group": "Machine inventory / immersiveengineering",
+      "comment": "Existing registered recipe, unchanged baseline for machine review. Source: immersiveengineering:crafting/connector_probe.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:connector_probe"
+        },
+        "in1": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:connector_redstone"
+        },
+        "in3": {
+          "kind": "ITEM_TAG",
+          "id": "c:glass_panes"
+        },
+        "in4": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:component_electronic"
+        },
+        "in5": {
+          "kind": "ITEM_TAG",
+          "id": "c:glass_panes"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "3869960e-71c3-5a13-925c-8a4629dcc2d5",
+      "type": "kjsgen:shaped",
+      "recipeId": "immersiveengineering:crafting/connector_redstone",
+      "group": "Machine inventory / immersiveengineering",
+      "comment": "Existing registered recipe, unchanged baseline for machine review. Source: immersiveengineering:crafting/connector_redstone.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:connector_redstone",
+          "count": 4
+        },
+        "in0": {
+          "kind": "ITEM_TAG",
+          "id": "c:nuggets/electrum"
+        },
+        "in1": {
+          "kind": "ITEM_TAG",
+          "id": "c:nuggets/electrum"
+        },
+        "in2": {
+          "kind": "ITEM_TAG",
+          "id": "c:nuggets/electrum"
+        },
+        "in3": {
+          "kind": "ITEM_TAG",
+          "id": "immersiveengineering:connector_insulator"
+        },
+        "in4": {
+          "kind": "ITEM_TAG",
+          "id": "c:dusts/redstone"
+        },
+        "in5": {
+          "kind": "ITEM_TAG",
+          "id": "immersiveengineering:connector_insulator"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "c49f16c9-7be1-5905-bfac-20fcc13726ce",
+      "type": "kjsgen:shaped",
+      "recipeId": "immersiveengineering:crafting/connector_structural",
+      "group": "Machine inventory / immersiveengineering",
+      "comment": "Existing registered recipe, unchanged baseline for machine review. Source: immersiveengineering:crafting/connector_structural.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:connector_structural",
+          "count": 8
+        },
+        "in0": {
+          "kind": "ITEM_TAG",
+          "id": "c:ingots/steel"
+        },
+        "in1": {
+          "kind": "ITEM_TAG",
+          "id": "c:rods/steel"
+        },
+        "in2": {
+          "kind": "ITEM_TAG",
+          "id": "c:ingots/steel"
+        },
+        "in3": {
+          "kind": "ITEM_TAG",
+          "id": "c:ingots/steel"
+        },
+        "in5": {
+          "kind": "ITEM_TAG",
+          "id": "c:ingots/steel"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "de7d7fd1-1216-50b4-b0b5-ea8d9628feaf",
+      "type": "kjsgen:shaped",
+      "recipeId": "immersiveengineering:crafting/conveyor_redstone",
+      "group": "Machine inventory / immersiveengineering",
+      "comment": "Existing registered recipe, unchanged baseline for machine review. Source: immersiveengineering:crafting/conveyor_redstone.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:conveyor_redstone"
+        },
+        "in0": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:conveyor_basic"
+        },
+        "in3": {
+          "kind": "ITEM",
+          "id": "minecraft:redstone_torch"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "25d063af-dce2-5ec3-aa91-f5aa415c38c3",
+      "type": "kjsgen:shaped",
+      "recipeId": "immersiveengineering:crafting/craftingtable",
+      "group": "Machine inventory / immersiveengineering",
+      "comment": "Existing registered recipe, unchanged baseline for machine review. Source: immersiveengineering:crafting/craftingtable.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:craftingtable"
+        },
+        "in0": {
+          "kind": "ITEM_TAG",
+          "id": "immersiveengineering:treated_wood_slab"
+        },
+        "in1": {
+          "kind": "ITEM_TAG",
+          "id": "immersiveengineering:treated_wood_slab"
+        },
+        "in2": {
+          "kind": "ITEM_TAG",
+          "id": "immersiveengineering:treated_wood_slab"
+        },
+        "in3": {
+          "kind": "ITEM_TAG",
+          "id": "c:rods/treated_wood"
+        },
+        "in4": {
+          "kind": "ITEM",
+          "id": "minecraft:crafting_table"
+        },
+        "in5": {
+          "kind": "ITEM_TAG",
+          "id": "c:rods/treated_wood"
+        },
+        "in6": {
+          "kind": "ITEM_TAG",
+          "id": "c:rods/treated_wood"
+        },
+        "in8": {
+          "kind": "ITEM_TAG",
+          "id": "c:rods/treated_wood"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "55deca0c-637c-546f-920c-f49e1fb5d129",
+      "type": "kjsgen:shaped",
+      "recipeId": "immersiveengineering:crafting/current_transformer",
+      "group": "Machine inventory / immersiveengineering",
+      "comment": "Existing registered recipe, unchanged baseline for machine review. Source: immersiveengineering:crafting/current_transformer.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:current_transformer"
+        },
+        "in1": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:voltmeter"
+        },
+        "in4": {
+          "kind": "ITEM_TAG",
+          "id": "immersiveengineering:connector_insulator"
+        },
+        "in6": {
+          "kind": "ITEM_TAG",
+          "id": "c:ingots/iron"
+        },
+        "in7": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:component_electronic"
+        },
+        "in8": {
+          "kind": "ITEM_TAG",
+          "id": "c:ingots/iron"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "e761a318-eec3-5c31-93af-1d05478960c5",
+      "type": "kjsgen:shaped",
+      "recipeId": "immersiveengineering:crafting/dynamo",
+      "group": "Machine inventory / immersiveengineering",
+      "comment": "Existing registered recipe, unchanged baseline for machine review. Source: immersiveengineering:crafting/dynamo.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:dynamo"
+        },
+        "in0": {
+          "kind": "ITEM_TAG",
+          "id": "c:dusts/redstone"
+        },
+        "in1": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:component_iron"
+        },
+        "in2": {
+          "kind": "ITEM_TAG",
+          "id": "c:dusts/redstone"
+        },
+        "in3": {
+          "kind": "ITEM_TAG",
+          "id": "c:ingots/iron"
+        },
+        "in4": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:coil_lv"
+        },
+        "in5": {
+          "kind": "ITEM_TAG",
+          "id": "c:ingots/iron"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "a25d67d9-e1d4-5397-abda-7c3443f95119",
+      "type": "kjsgen:shaped",
+      "recipeId": "immersiveengineering:crafting/electric_lantern",
+      "group": "Machine inventory / immersiveengineering",
+      "comment": "Existing registered recipe, unchanged baseline for machine review. Source: immersiveengineering:crafting/electric_lantern.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:electric_lantern"
+        },
+        "in1": {
+          "kind": "ITEM_TAG",
+          "id": "c:plates/iron"
+        },
+        "in3": {
+          "kind": "ITEM_TAG",
+          "id": "c:glass_panes"
+        },
+        "in4": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:light_bulb"
+        },
+        "in5": {
+          "kind": "ITEM_TAG",
+          "id": "c:glass_panes"
+        },
+        "in7": {
+          "kind": "ITEM",
+          "id": "tfmg:copper_wire"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "b71c8092-0835-5d2c-b762-5628b1eca6d4",
+      "type": "kjsgen:shaped",
+      "recipeId": "immersiveengineering:crafting/electromagnet",
+      "group": "Machine inventory / immersiveengineering",
+      "comment": "Existing registered recipe, unchanged baseline for machine review. Source: immersiveengineering:crafting/electromagnet.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:electromagnet"
+        },
+        "in0": {
+          "kind": "ITEM_TAG",
+          "id": "c:rods/steel"
+        },
+        "in1": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:component_electronic"
+        },
+        "in2": {
+          "kind": "ITEM_TAG",
+          "id": "c:rods/steel"
+        },
+        "in3": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:wirecoil_copper"
+        },
+        "in4": {
+          "kind": "ITEM_TAG",
+          "id": "c:ingots/iron"
+        },
+        "in5": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:wirecoil_copper"
+        },
+        "in6": {
+          "kind": "ITEM_TAG",
+          "id": "c:rods/steel"
+        },
+        "in7": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:wirecoil_copper"
+        },
+        "in8": {
+          "kind": "ITEM_TAG",
+          "id": "c:rods/steel"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "09100249-9526-5f7c-bf0e-6009962782cc",
+      "type": "kjsgen:shaped",
+      "recipeId": "immersiveengineering:crafting/floodlight",
+      "group": "Machine inventory / immersiveengineering",
+      "comment": "Existing registered recipe, unchanged baseline for machine review. Source: immersiveengineering:crafting/floodlight.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:floodlight"
+        },
+        "in0": {
+          "kind": "ITEM_TAG",
+          "id": "c:plates/silver"
+        },
+        "in1": {
+          "kind": "ITEM_TAG",
+          "id": "c:ingots/iron"
+        },
+        "in2": {
+          "kind": "ITEM_TAG",
+          "id": "c:ingots/iron"
+        },
+        "in3": {
+          "kind": "ITEM_TAG",
+          "id": "c:glass_panes"
+        },
+        "in4": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:light_bulb"
+        },
+        "in5": {
+          "kind": "ITEM_TAG",
+          "id": "c:plates/silver"
+        },
+        "in6": {
+          "kind": "ITEM_TAG",
+          "id": "c:plates/silver"
+        },
+        "in7": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:component_iron"
+        },
+        "in8": {
+          "kind": "ITEM_TAG",
+          "id": "c:ingots/iron"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "87189866-4c15-58ba-8258-df1722c31386",
+      "type": "kjsgen:shaped",
+      "recipeId": "immersiveengineering:crafting/fluid_pipe",
+      "group": "Machine inventory / immersiveengineering",
+      "comment": "Existing registered recipe, unchanged baseline for machine review. Source: immersiveengineering:crafting/fluid_pipe.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:fluid_pipe",
+          "count": 8
+        },
+        "in0": {
+          "kind": "ITEM_TAG",
+          "id": "c:plates/iron"
+        },
+        "in1": {
+          "kind": "ITEM_TAG",
+          "id": "c:plates/iron"
+        },
+        "in2": {
+          "kind": "ITEM_TAG",
+          "id": "c:plates/iron"
+        },
+        "in6": {
+          "kind": "ITEM_TAG",
+          "id": "c:plates/iron"
+        },
+        "in7": {
+          "kind": "ITEM_TAG",
+          "id": "c:plates/iron"
+        },
+        "in8": {
+          "kind": "ITEM_TAG",
+          "id": "c:plates/iron"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "2b56b7cf-e609-59d0-a71e-5cd77343f260",
+      "type": "kjsgen:shaped",
+      "recipeId": "immersiveengineering:crafting/fluid_placer",
+      "group": "Machine inventory / immersiveengineering",
+      "comment": "Existing registered recipe, unchanged baseline for machine review. Source: immersiveengineering:crafting/fluid_placer.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:fluid_placer"
+        },
+        "in0": {
+          "kind": "ITEM_TAG",
+          "id": "c:plates/iron"
+        },
+        "in1": {
+          "kind": "ITEM",
+          "id": "minecraft:iron_bars"
+        },
+        "in2": {
+          "kind": "ITEM_TAG",
+          "id": "c:plates/iron"
+        },
+        "in3": {
+          "kind": "ITEM",
+          "id": "minecraft:iron_bars"
+        },
+        "in5": {
+          "kind": "ITEM",
+          "id": "minecraft:iron_bars"
+        },
+        "in6": {
+          "kind": "ITEM_TAG",
+          "id": "c:plates/iron"
+        },
+        "in7": {
+          "kind": "ITEM",
+          "id": "minecraft:iron_bars"
+        },
+        "in8": {
+          "kind": "ITEM_TAG",
+          "id": "c:plates/iron"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "6dea698f-7c46-5c95-96fd-21fb3de88d3c",
+      "type": "kjsgen:shaped",
+      "recipeId": "immersiveengineering:crafting/fluid_pump",
+      "group": "Machine inventory / immersiveengineering",
+      "comment": "Existing registered recipe, unchanged baseline for machine review. Source: immersiveengineering:crafting/fluid_pump.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:fluid_pump"
+        },
+        "in1": {
+          "kind": "ITEM_TAG",
+          "id": "c:plates/iron"
+        },
+        "in3": {
+          "kind": "ITEM_TAG",
+          "id": "c:plates/iron"
+        },
+        "in4": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:component_iron"
+        },
+        "in5": {
+          "kind": "ITEM_TAG",
+          "id": "c:plates/iron"
+        },
+        "in6": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:fluid_pipe"
+        },
+        "in7": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:fluid_pipe"
+        },
+        "in8": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:fluid_pipe"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "68452c47-9025-5617-bce5-ebc9ca80ee58",
+      "type": "kjsgen:shaped",
+      "recipeId": "immersiveengineering:crafting/fluid_sorter",
+      "group": "Machine inventory / immersiveengineering",
+      "comment": "Existing registered recipe, unchanged baseline for machine review. Source: immersiveengineering:crafting/fluid_sorter.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:fluid_sorter"
+        },
+        "in0": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:component_iron"
+        },
+        "in3": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:basic_engineering"
+        },
+        "in6": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:fluid_pipe"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "133c8a20-ad88-5b55-8182-d30ff360286a",
+      "type": "kjsgen:shaped",
+      "recipeId": "immersiveengineering:crafting/furnace_heater",
+      "group": "Machine inventory / immersiveengineering",
+      "comment": "Existing registered recipe, unchanged baseline for machine review. Source: immersiveengineering:crafting/furnace_heater.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:furnace_heater"
+        },
+        "in0": {
+          "kind": "ITEM_TAG",
+          "id": "c:plates/copper"
+        },
+        "in1": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:wirecoil_copper"
+        },
+        "in2": {
+          "kind": "ITEM_TAG",
+          "id": "c:plates/copper"
+        },
+        "in3": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:wirecoil_copper"
+        },
+        "in4": {
+          "kind": "ITEM_TAG",
+          "id": "c:sheetmetals/iron"
+        },
+        "in5": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:wirecoil_copper"
+        },
+        "in6": {
+          "kind": "ITEM_TAG",
+          "id": "c:plates/copper"
+        },
+        "in7": {
+          "kind": "ITEM_TAG",
+          "id": "c:dusts/redstone"
+        },
+        "in8": {
+          "kind": "ITEM_TAG",
+          "id": "c:plates/copper"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "31e90066-e503-56b3-b626-4d08964ea783",
+      "type": "kjsgen:shaped",
+      "recipeId": "immersiveengineering:crafting/generator",
+      "group": "Machine inventory / immersiveengineering",
+      "comment": "Existing registered recipe, unchanged baseline for machine review. Source: immersiveengineering:crafting/generator.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:generator",
+          "count": 4
+        },
+        "in0": {
+          "kind": "ITEM_TAG",
+          "id": "c:sheetmetals/steel"
+        },
+        "in1": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:coil_mv"
+        },
+        "in2": {
+          "kind": "ITEM_TAG",
+          "id": "c:sheetmetals/steel"
+        },
+        "in3": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:coil_mv"
+        },
+        "in4": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:component_iron"
+        },
+        "in5": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:coil_mv"
+        },
+        "in6": {
+          "kind": "ITEM_TAG",
+          "id": "c:sheetmetals/steel"
+        },
+        "in7": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:coil_mv"
+        },
+        "in8": {
+          "kind": "ITEM_TAG",
+          "id": "c:sheetmetals/steel"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "bb526a02-39d4-5b30-8f1f-9606904bed4c",
+      "type": "kjsgen:shaped",
+      "recipeId": "immersiveengineering:crafting/hatch",
+      "group": "Machine inventory / immersiveengineering",
+      "comment": "Existing registered recipe, unchanged baseline for machine review. Source: immersiveengineering:crafting/hatch.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:hatch"
+        },
+        "in0": {
+          "kind": "ITEM_TAG",
+          "id": "c:rods/iron"
+        },
+        "in1": {
+          "kind": "ITEM_TAG",
+          "id": "c:rods/iron"
+        },
+        "in3": {
+          "kind": "ITEM_TAG",
+          "id": "c:plates/iron"
+        },
+        "in4": {
+          "kind": "ITEM_TAG",
+          "id": "c:plates/iron"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "49bf8889-558f-5246-9f64-e6850b5a5c8d",
+      "type": "kjsgen:shaped",
+      "recipeId": "immersiveengineering:crafting/machine_interface",
+      "group": "Machine inventory / immersiveengineering",
+      "comment": "Existing registered recipe, unchanged baseline for machine review. Source: immersiveengineering:crafting/machine_interface.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:machine_interface"
+        },
+        "in1": {
+          "kind": "ITEM_TAG",
+          "id": "c:dusts/redstone"
+        },
+        "in3": {
+          "kind": "ITEM_TAG",
+          "id": "c:wires/aluminum"
+        },
+        "in4": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:basic_engineering"
+        },
+        "in5": {
+          "kind": "ITEM_TAG",
+          "id": "c:wires/aluminum"
+        },
+        "in7": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:component_electronic_adv"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "0e7b910b-1323-5813-8ff6-d2684e9ed072",
+      "type": "kjsgen:shaped",
+      "recipeId": "immersiveengineering:crafting/pipe_valve",
+      "group": "Machine inventory / immersiveengineering",
+      "comment": "Existing registered recipe, unchanged baseline for machine review. Source: immersiveengineering:crafting/pipe_valve.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:pipe_valve"
+        },
+        "in0": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:fluid_pipe"
+        },
+        "in1": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:component_iron"
+        },
+        "in3": {
+          "kind": "ITEM_TAG",
+          "id": "c:rods/iron"
+        },
+        "in4": {
+          "kind": "ITEM_TAG",
+          "id": "c:dusts/redstone"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "9522f423-9510-5feb-9739-98874f6d4219",
+      "type": "kjsgen:shaped",
+      "recipeId": "immersiveengineering:crafting/razor_wire",
+      "group": "Machine inventory / immersiveengineering",
+      "comment": "Existing registered recipe, unchanged baseline for machine review. Source: immersiveengineering:crafting/razor_wire.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:razor_wire",
+          "count": 3
+        },
+        "in0": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:wire_steel"
+        },
+        "in1": {
+          "kind": "ITEM_TAG",
+          "id": "c:plates/steel"
+        },
+        "in2": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:wire_steel"
+        },
+        "in3": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:treated_fence"
+        },
+        "in4": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:wire_steel"
+        },
+        "in5": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:treated_fence"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "f9440ef4-483e-5d71-9f47-7c6a5440e2a4",
+      "type": "kjsgen:shaped",
+      "recipeId": "immersiveengineering:crafting/redstone_breaker",
+      "group": "Machine inventory / immersiveengineering",
+      "comment": "Existing registered recipe, unchanged baseline for machine review. Source: immersiveengineering:crafting/redstone_breaker.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:redstone_breaker"
+        },
+        "in0": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:connector_hv"
+        },
+        "in1": {
+          "kind": "ITEM",
+          "id": "minecraft:repeater"
+        },
+        "in2": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:connector_hv"
+        },
+        "in3": {
+          "kind": "ITEM_TAG",
+          "id": "c:plates/iron"
+        },
+        "in4": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:component_electronic"
+        },
+        "in5": {
+          "kind": "ITEM_TAG",
+          "id": "c:plates/iron"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "3dcf6d57-0d37-5d33-a4c7-c5ce00678750",
+      "type": "kjsgen:shaped",
+      "recipeId": "immersiveengineering:crafting/redstone_state_cell",
+      "group": "Machine inventory / immersiveengineering",
+      "comment": "Existing registered recipe, unchanged baseline for machine review. Source: immersiveengineering:crafting/redstone_state_cell.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:redstone_state_cell"
+        },
+        "in0": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:connector_redstone"
+        },
+        "in3": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:electron_tube"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "ca5387de-bce1-5683-8853-96b7e4557ca5",
+      "type": "kjsgen:shaped",
+      "recipeId": "immersiveengineering:crafting/redstone_switchboard",
+      "group": "Machine inventory / immersiveengineering",
+      "comment": "Existing registered recipe, unchanged baseline for machine review. Source: immersiveengineering:crafting/redstone_switchboard.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:redstone_switchboard"
+        },
+        "in0": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:connector_redstone"
+        },
+        "in2": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:connector_redstone"
+        },
+        "in3": {
+          "kind": "ITEM_TAG",
+          "id": "c:plates/steel"
+        },
+        "in4": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:wirecoil_redstone"
+        },
+        "in5": {
+          "kind": "ITEM_TAG",
+          "id": "c:plates/steel"
+        },
+        "in6": {
+          "kind": "ITEM_TAG",
+          "id": "c:plates/steel"
+        },
+        "in7": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:component_electronic"
+        },
+        "in8": {
+          "kind": "ITEM_TAG",
+          "id": "c:plates/steel"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "8c45b685-41f3-582a-be28-0caf71f532ff",
+      "type": "kjsgen:shaped",
+      "recipeId": "immersiveengineering:crafting/redstone_timer",
+      "group": "Machine inventory / immersiveengineering",
+      "comment": "Existing registered recipe, unchanged baseline for machine review. Source: immersiveengineering:crafting/redstone_timer.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:redstone_timer"
+        },
+        "in1": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:electron_tube"
+        },
+        "in3": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:electron_tube"
+        },
+        "in4": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:component_electronic"
+        },
+        "in8": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:connector_redstone"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "6562cdb0-2abe-571c-9be8-05602e61c493",
+      "type": "kjsgen:shaped",
+      "recipeId": "immersiveengineering:crafting/sample_drill",
+      "group": "Machine inventory / immersiveengineering",
+      "comment": "Existing registered recipe, unchanged baseline for machine review. Source: immersiveengineering:crafting/sample_drill.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:sample_drill"
+        },
+        "in0": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:steel_scaffolding_standard"
+        },
+        "in1": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:steel_fence"
+        },
+        "in2": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:steel_scaffolding_standard"
+        },
+        "in3": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:steel_scaffolding_standard"
+        },
+        "in4": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:steel_fence"
+        },
+        "in5": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:steel_scaffolding_standard"
+        },
+        "in6": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:light_engineering"
+        },
+        "in7": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:steel_fence"
+        },
+        "in8": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:light_engineering"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "a435c4d0-ba21-5ec8-8b80-5e51a3c9f527",
+      "type": "kjsgen:shaped",
+      "recipeId": "immersiveengineering:crafting/siren",
+      "group": "Machine inventory / immersiveengineering",
+      "comment": "Existing registered recipe, unchanged baseline for machine review. Source: immersiveengineering:crafting/siren.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:siren"
+        },
+        "in1": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:connector_redstone"
+        },
+        "in3": {
+          "kind": "ITEM_TAG",
+          "id": "c:plates/iron"
+        },
+        "in4": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:component_iron"
+        },
+        "in5": {
+          "kind": "ITEM_TAG",
+          "id": "c:plates/iron"
+        },
+        "in7": {
+          "kind": "ITEM_TAG",
+          "id": "c:plates/iron"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "c06727ae-7e60-5682-88aa-01b25c34bdc3",
+      "type": "kjsgen:shaped",
+      "recipeId": "immersiveengineering:crafting/sorter",
+      "group": "Machine inventory / immersiveengineering",
+      "comment": "Existing registered recipe, unchanged baseline for machine review. Source: immersiveengineering:crafting/sorter.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:sorter"
+        },
+        "in0": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:component_iron"
+        },
+        "in3": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:basic_engineering"
+        },
+        "in6": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:conveyor_basic"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "58ecf05d-5b1d-58a8-bd4e-de6addc0dc71",
+      "type": "kjsgen:shaped",
+      "recipeId": "immersiveengineering:crafting/thermoelectric_generator",
+      "group": "Machine inventory / immersiveengineering",
+      "comment": "Existing registered recipe, unchanged baseline for machine review. Source: immersiveengineering:crafting/thermoelectric_generator.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:thermoelectric_generator"
+        },
+        "in0": {
+          "kind": "ITEM_TAG",
+          "id": "c:ingots/steel"
+        },
+        "in1": {
+          "kind": "ITEM_TAG",
+          "id": "c:ingots/steel"
+        },
+        "in2": {
+          "kind": "ITEM_TAG",
+          "id": "c:ingots/steel"
+        },
+        "in3": {
+          "kind": "ITEM_TAG",
+          "id": "c:plates/constantan"
+        },
+        "in4": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:coil_lv"
+        },
+        "in5": {
+          "kind": "ITEM_TAG",
+          "id": "c:plates/constantan"
+        },
+        "in6": {
+          "kind": "ITEM_TAG",
+          "id": "c:plates/constantan"
+        },
+        "in7": {
+          "kind": "ITEM_TAG",
+          "id": "c:plates/constantan"
+        },
+        "in8": {
+          "kind": "ITEM_TAG",
+          "id": "c:plates/constantan"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "02d48ffc-66e0-5877-8544-942006055661",
+      "type": "kjsgen:shaped",
+      "recipeId": "immersiveengineering:crafting/transformer",
+      "group": "Machine inventory / immersiveengineering",
+      "comment": "Existing registered recipe, unchanged baseline for machine review. Source: immersiveengineering:crafting/transformer.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:transformer"
+        },
+        "in0": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:connector_lv"
+        },
+        "in1": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:connector_mv"
+        },
+        "in3": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:component_electronic"
+        },
+        "in4": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:coil_mv"
+        },
+        "in6": {
+          "kind": "ITEM_TAG",
+          "id": "c:ingots/iron"
+        },
+        "in7": {
+          "kind": "ITEM_TAG",
+          "id": "c:ingots/iron"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "0d0b9472-cfae-5841-954b-b171b1649f1e",
+      "type": "kjsgen:shaped",
+      "recipeId": "immersiveengineering:crafting/transformer_hv",
+      "group": "Machine inventory / immersiveengineering",
+      "comment": "Existing registered recipe, unchanged baseline for machine review. Source: immersiveengineering:crafting/transformer_hv.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:transformer_hv"
+        },
+        "in0": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:connector_mv"
+        },
+        "in1": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:connector_hv"
+        },
+        "in3": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:component_electronic"
+        },
+        "in4": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:coil_hv"
+        },
+        "in6": {
+          "kind": "ITEM_TAG",
+          "id": "c:ingots/iron"
+        },
+        "in7": {
+          "kind": "ITEM_TAG",
+          "id": "c:ingots/iron"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "e1992c13-77e6-5bd9-af93-a147b380932e",
+      "type": "kjsgen:shaped",
+      "recipeId": "immersiveengineering:crafting/turntable",
+      "group": "Machine inventory / immersiveengineering",
+      "comment": "Existing registered recipe, unchanged baseline for machine review. Source: immersiveengineering:crafting/turntable.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:turntable"
+        },
+        "in1": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:component_iron"
+        },
+        "in3": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:wirecoil_copper"
+        },
+        "in4": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:basic_engineering"
+        },
+        "in5": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:wirecoil_copper"
+        },
+        "in7": {
+          "kind": "ITEM_TAG",
+          "id": "c:dusts/redstone"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "a64b93fd-e3ec-5d85-a8f5-73867917cf08",
+      "type": "kjsgen:shaped",
+      "recipeId": "immersiveengineering:crafting/windmill",
+      "group": "Machine inventory / immersiveengineering",
+      "comment": "Existing registered recipe, unchanged baseline for machine review. Source: immersiveengineering:crafting/windmill.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:windmill"
+        },
+        "in0": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:windmill_blade"
+        },
+        "in1": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:windmill_blade"
+        },
+        "in2": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:windmill_blade"
+        },
+        "in3": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:windmill_blade"
+        },
+        "in4": {
+          "kind": "ITEM_TAG",
+          "id": "c:ingots/iron"
+        },
+        "in5": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:windmill_blade"
+        },
+        "in6": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:windmill_blade"
+        },
+        "in7": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:windmill_blade"
+        },
+        "in8": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:windmill_blade"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "ea0b178e-9d3a-5449-b8ed-6254f57f6ca9",
+      "type": "kjsgen:shaped",
+      "recipeId": "immersiveengineering:crafting/workbench",
+      "group": "Machine inventory / immersiveengineering",
+      "comment": "Existing registered recipe, unchanged baseline for machine review. Source: immersiveengineering:crafting/workbench.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:workbench"
+        },
+        "in0": {
+          "kind": "ITEM_TAG",
+          "id": "c:ingots/iron"
+        },
+        "in1": {
+          "kind": "ITEM_TAG",
+          "id": "immersiveengineering:treated_wood_slab"
+        },
+        "in2": {
+          "kind": "ITEM_TAG",
+          "id": "immersiveengineering:treated_wood_slab"
+        },
+        "in3": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:craftingtable"
+        },
+        "in5": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:treated_fence"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "35d4eea8-ab1a-586e-9181-9bf9ae7d0b4e",
+      "type": "kjsgen:shaped",
+      "recipeId": "mekanism:transmitter/mechanical_pipe/advanced",
+      "group": "Machine inventory / mekanism",
+      "comment": "Existing registered recipe, unchanged baseline for machine review. Source: mekanism:transmitter/mechanical_pipe/advanced.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "mekanism:advanced_mechanical_pipe",
+          "count": 8
+        },
+        "in0": {
+          "kind": "ITEM",
+          "id": "mekanism:basic_mechanical_pipe"
+        },
+        "in1": {
+          "kind": "ITEM",
+          "id": "mekanism:basic_mechanical_pipe"
+        },
+        "in2": {
+          "kind": "ITEM",
+          "id": "mekanism:basic_mechanical_pipe"
+        },
+        "in3": {
+          "kind": "ITEM",
+          "id": "mekanism:basic_mechanical_pipe"
+        },
+        "in4": {
+          "kind": "ITEM_TAG",
+          "id": "mekanism:alloys/infused"
+        },
+        "in5": {
+          "kind": "ITEM",
+          "id": "mekanism:basic_mechanical_pipe"
+        },
+        "in6": {
+          "kind": "ITEM",
+          "id": "mekanism:basic_mechanical_pipe"
+        },
+        "in7": {
+          "kind": "ITEM",
+          "id": "mekanism:basic_mechanical_pipe"
+        },
+        "in8": {
+          "kind": "ITEM",
+          "id": "mekanism:basic_mechanical_pipe"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "d9fa29b5-aa68-5700-8242-c505a9a0ab1b",
+      "type": "kjsgen:shaped",
+      "recipeId": "mekanism:transmitter/universal_cable/advanced",
+      "group": "Machine inventory / mekanism",
+      "comment": "Existing registered recipe, unchanged baseline for machine review. Source: mekanism:transmitter/universal_cable/advanced.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "mekanism:advanced_universal_cable",
+          "count": 8
+        },
+        "in0": {
+          "kind": "ITEM",
+          "id": "mekanism:basic_universal_cable"
+        },
+        "in1": {
+          "kind": "ITEM",
+          "id": "mekanism:basic_universal_cable"
+        },
+        "in2": {
+          "kind": "ITEM",
+          "id": "mekanism:basic_universal_cable"
+        },
+        "in3": {
+          "kind": "ITEM",
+          "id": "mekanism:basic_universal_cable"
+        },
+        "in4": {
+          "kind": "ITEM_TAG",
+          "id": "mekanism:alloys/infused"
+        },
+        "in5": {
+          "kind": "ITEM",
+          "id": "mekanism:basic_universal_cable"
+        },
+        "in6": {
+          "kind": "ITEM",
+          "id": "mekanism:basic_universal_cable"
+        },
+        "in7": {
+          "kind": "ITEM",
+          "id": "mekanism:basic_universal_cable"
+        },
+        "in8": {
+          "kind": "ITEM",
+          "id": "mekanism:basic_universal_cable"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "5267780c-5470-5a9c-a3dc-9d0ac587da8b",
+      "type": "kjsgen:shaped",
+      "recipeId": "mekanism:transmitter/mechanical_pipe/basic",
+      "group": "Machine inventory / mekanism",
+      "comment": "Existing registered recipe, unchanged baseline for machine review. Source: mekanism:transmitter/mechanical_pipe/basic.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "mekanism:basic_mechanical_pipe",
+          "count": 8
+        },
+        "in0": {
+          "kind": "ITEM_TAG",
+          "id": "c:ingots/steel"
+        },
+        "in1": {
+          "kind": "ITEM",
+          "id": "minecraft:bucket"
+        },
+        "in2": {
+          "kind": "ITEM_TAG",
+          "id": "c:ingots/steel"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "56592abe-a7f1-5d3a-9c5b-603f309ea198",
+      "type": "kjsgen:shaped",
+      "recipeId": "mekanism:chargepad",
+      "group": "Machine inventory / mekanism",
+      "comment": "Existing registered recipe, unchanged baseline for machine review. Source: mekanism:chargepad.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "mekanism:chargepad"
+        },
+        "in0": {
+          "kind": "ITEM",
+          "id": "minecraft:polished_blackstone_pressure_plate"
+        },
+        "in1": {
+          "kind": "ITEM",
+          "id": "minecraft:polished_blackstone_pressure_plate"
+        },
+        "in2": {
+          "kind": "ITEM",
+          "id": "minecraft:polished_blackstone_pressure_plate"
+        },
+        "in3": {
+          "kind": "ITEM_TAG",
+          "id": "c:ingots/steel"
+        },
+        "in4": {
+          "kind": "ITEM",
+          "id": "mekanism:energy_tablet"
+        },
+        "in5": {
+          "kind": "ITEM_TAG",
+          "id": "c:ingots/steel"
+        }
+      },
+      "params": {
+        "__nativeCraftingType": "mekanism:mek_data"
+      }
+    },
+    {
+      "uid": "3e50f172-1009-5fd9-8efe-241dde98db22",
+      "type": "kjsgen:shaped",
+      "recipeId": "mekanism:industrial_alarm",
+      "group": "Machine inventory / mekanism",
+      "comment": "Existing registered recipe, unchanged baseline for machine review. Source: mekanism:industrial_alarm.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "mekanism:industrial_alarm"
+        },
+        "in0": {
+          "kind": "ITEM_TAG",
+          "id": "c:ingots/lead"
+        },
+        "in1": {
+          "kind": "ITEM_TAG",
+          "id": "c:ingots/lead"
+        },
+        "in2": {
+          "kind": "ITEM_TAG",
+          "id": "c:ingots/lead"
+        },
+        "in3": {
+          "kind": "ITEM_TAG",
+          "id": "c:circuits/basic"
+        },
+        "in4": {
+          "kind": "ITEM",
+          "id": "minecraft:redstone_lamp"
+        },
+        "in5": {
+          "kind": "ITEM_TAG",
+          "id": "c:circuits/basic"
+        },
+        "in6": {
+          "kind": "ITEM_TAG",
+          "id": "c:ingots/lead"
+        },
+        "in7": {
+          "kind": "ITEM_TAG",
+          "id": "c:ingots/lead"
+        },
+        "in8": {
+          "kind": "ITEM_TAG",
+          "id": "c:ingots/lead"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "577e09fc-d904-5912-ba68-4d3e17c3bab0",
+      "type": "kjsgen:shaped",
+      "recipeId": "mekanism:logistical_sorter",
+      "group": "Machine inventory / mekanism",
+      "comment": "Existing registered recipe, unchanged baseline for machine review. Source: mekanism:logistical_sorter.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "mekanism:logistical_sorter"
+        },
+        "in0": {
+          "kind": "ITEM_TAG",
+          "id": "c:ingots/iron"
+        },
+        "in1": {
+          "kind": "ITEM",
+          "id": "minecraft:piston"
+        },
+        "in2": {
+          "kind": "ITEM_TAG",
+          "id": "c:ingots/iron"
+        },
+        "in3": {
+          "kind": "ITEM_TAG",
+          "id": "c:ingots/iron"
+        },
+        "in4": {
+          "kind": "ITEM_TAG",
+          "id": "c:circuits/basic"
+        },
+        "in5": {
+          "kind": "ITEM_TAG",
+          "id": "c:ingots/iron"
+        },
+        "in6": {
+          "kind": "ITEM_TAG",
+          "id": "c:ingots/iron"
+        },
+        "in7": {
+          "kind": "ITEM_TAG",
+          "id": "c:ingots/iron"
+        },
+        "in8": {
+          "kind": "ITEM_TAG",
+          "id": "c:ingots/iron"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "081b1465-efc9-5fc6-a00e-413c32d4b686",
+      "type": "kjsgen:shaped",
+      "recipeId": "mekanism:qio_dashboard",
+      "group": "Machine inventory / mekanism",
+      "comment": "Existing registered recipe, unchanged baseline for machine review. Source: mekanism:qio_dashboard.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "mekanism:qio_dashboard"
+        },
+        "in0": {
+          "kind": "ITEM_TAG",
+          "id": "c:ingots/lead"
+        },
+        "in1": {
+          "kind": "ITEM_TAG",
+          "id": "c:ender_pearls"
+        },
+        "in2": {
+          "kind": "ITEM_TAG",
+          "id": "c:ingots/lead"
+        },
+        "in3": {
+          "kind": "ITEM_TAG",
+          "id": "c:ender_pearls"
+        },
+        "in4": {
+          "kind": "ITEM_TAG",
+          "id": "c:glass_panes"
+        },
+        "in5": {
+          "kind": "ITEM_TAG",
+          "id": "c:ender_pearls"
+        },
+        "in6": {
+          "kind": "ITEM_TAG",
+          "id": "c:ingots/lead"
+        },
+        "in7": {
+          "kind": "ITEM",
+          "id": "mekanism:teleportation_core"
+        },
+        "in8": {
+          "kind": "ITEM_TAG",
+          "id": "c:ingots/lead"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "50370279-0fd4-512d-a617-3d86c06da0f6",
+      "type": "kjsgen:shaped",
+      "recipeId": "mekanism:security_desk",
+      "group": "Machine inventory / mekanism",
+      "comment": "Existing registered recipe, unchanged baseline for machine review. Source: mekanism:security_desk.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "mekanism:security_desk"
+        },
+        "in0": {
+          "kind": "ITEM_TAG",
+          "id": "c:ingots/steel"
+        },
+        "in1": {
+          "kind": "ITEM_TAG",
+          "id": "c:glass_blocks/cheap"
+        },
+        "in2": {
+          "kind": "ITEM_TAG",
+          "id": "c:ingots/steel"
+        },
+        "in3": {
+          "kind": "ITEM_TAG",
+          "id": "c:circuits/elite"
+        },
+        "in4": {
+          "kind": "ITEM",
+          "id": "mekanism:steel_casing"
+        },
+        "in5": {
+          "kind": "ITEM_TAG",
+          "id": "c:circuits/elite"
+        },
+        "in6": {
+          "kind": "ITEM_TAG",
+          "id": "c:ingots/steel"
+        },
+        "in7": {
+          "kind": "ITEM",
+          "id": "mekanism:network_reader"
+        },
+        "in8": {
+          "kind": "ITEM_TAG",
+          "id": "c:ingots/steel"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "1190c4cb-1158-5582-ae19-59677e8cca4b",
+      "type": "kjsgen:shaped",
+      "recipeId": "minecraft:beacon",
+      "group": "Machine inventory / minecraft",
+      "comment": "Existing registered recipe, unchanged baseline for machine review. Source: minecraft:beacon.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "minecraft:beacon"
+        },
+        "in0": {
+          "kind": "ITEM",
+          "id": "minecraft:glass"
+        },
+        "in1": {
+          "kind": "ITEM",
+          "id": "minecraft:glass"
+        },
+        "in2": {
+          "kind": "ITEM",
+          "id": "minecraft:glass"
+        },
+        "in3": {
+          "kind": "ITEM",
+          "id": "minecraft:glass"
+        },
+        "in4": {
+          "kind": "ITEM",
+          "id": "minecraft:nether_star"
+        },
+        "in5": {
+          "kind": "ITEM",
+          "id": "minecraft:glass"
+        },
+        "in6": {
+          "kind": "ITEM",
+          "id": "minecraft:obsidian"
+        },
+        "in7": {
+          "kind": "ITEM",
+          "id": "minecraft:obsidian"
+        },
+        "in8": {
+          "kind": "ITEM",
+          "id": "minecraft:obsidian"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "658445c3-ea52-59a0-be85-c69306ea5986",
+      "type": "kjsgen:shapeless",
+      "recipeId": "rechiseledcreate:mechanical_chisel",
+      "group": "Machine inventory / rechiseledcreate",
+      "comment": "Existing registered recipe, unchanged baseline for machine review. Source: rechiseledcreate:mechanical_chisel.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "rechiseledcreate:mechanical_chisel"
+        },
+        "in0": {
+          "kind": "ITEM",
+          "id": "create:andesite_casing"
+        },
+        "in1": {
+          "kind": "ITEM",
+          "id": "rechiseled:chisel"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "38cda9d5-1554-5485-b6f4-298d039afb6d",
+      "type": "kjsgen:shapeless",
+      "recipeId": "refurbished_furniture:dark_electricity_generator",
+      "group": "Machine inventory / refurbished_furniture",
+      "comment": "Existing registered recipe, unchanged baseline for machine review. Source: refurbished_furniture:dark_electricity_generator.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "refurbished_furniture:dark_electricity_generator"
+        },
+        "in0": {
+          "kind": "ITEM",
+          "id": "refurbished_furniture:light_electricity_generator"
+        },
+        "in1": {
+          "kind": "ITEM",
+          "id": "minecraft:black_dye"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "ca60ab4b-73b9-5e78-8337-7dd40b85e5eb",
+      "type": "kjsgen:shaped",
+      "recipeId": "refurbished_furniture:light_electricity_generator",
+      "group": "Machine inventory / refurbished_furniture",
+      "comment": "Existing registered recipe, unchanged baseline for machine review. Source: refurbished_furniture:light_electricity_generator.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "refurbished_furniture:light_electricity_generator"
+        },
+        "in0": {
+          "kind": "ITEM",
+          "id": "minecraft:iron_ingot"
+        },
+        "in1": {
+          "kind": "ITEM",
+          "id": "minecraft:iron_ingot"
+        },
+        "in2": {
+          "kind": "ITEM",
+          "id": "minecraft:iron_ingot"
+        },
+        "in3": {
+          "kind": "ITEM",
+          "id": "minecraft:iron_ingot"
+        },
+        "in4": {
+          "kind": "ITEM",
+          "id": "minecraft:redstone_block"
+        },
+        "in5": {
+          "kind": "ITEM",
+          "id": "minecraft:iron_ingot"
+        },
+        "in6": {
+          "kind": "ITEM",
+          "id": "minecraft:iron_ingot"
+        },
+        "in7": {
+          "kind": "ITEM",
+          "id": "minecraft:blast_furnace"
+        },
+        "in8": {
+          "kind": "ITEM",
+          "id": "minecraft:iron_ingot"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "7e1efb02-0857-5c1f-836b-77459c70a6f6",
+      "type": "kjsgen:shaped",
+      "recipeId": "sereneseasons:season_sensor",
+      "group": "Machine inventory / sereneseasons",
+      "comment": "Existing registered recipe, unchanged baseline for machine review. Source: sereneseasons:season_sensor.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "sereneseasons:season_sensor"
+        },
+        "in0": {
+          "kind": "ITEM",
+          "id": "minecraft:glass"
+        },
+        "in1": {
+          "kind": "ITEM",
+          "id": "minecraft:glass"
+        },
+        "in2": {
+          "kind": "ITEM",
+          "id": "minecraft:glass"
+        },
+        "in3": {
+          "kind": "ITEM",
+          "id": "minecraft:quartz"
+        },
+        "in4": {
+          "kind": "ITEM",
+          "id": "sereneseasons:calendar"
+        },
+        "in5": {
+          "kind": "ITEM",
+          "id": "minecraft:quartz"
+        },
+        "in6": {
+          "kind": "ITEM",
+          "id": "minecraft:cobblestone_slab"
+        },
+        "in7": {
+          "kind": "ITEM",
+          "id": "minecraft:cobblestone_slab"
+        },
+        "in8": {
+          "kind": "ITEM",
+          "id": "minecraft:cobblestone_slab"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "243caf44-1d98-57b7-967d-5106eb46b0d8",
+      "type": "kjsgen:shapeless",
+      "recipeId": "simulated:directional_gearshift",
+      "group": "Machine inventory / simulated",
+      "comment": "Existing registered recipe, unchanged baseline for machine review. Source: simulated:directional_gearshift.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "simulated:directional_gearshift"
+        },
+        "in0": {
+          "kind": "ITEM",
+          "id": "create:andesite_casing"
+        },
+        "in1": {
+          "kind": "ITEM",
+          "id": "create:cogwheel"
+        },
+        "in2": {
+          "kind": "ITEM",
+          "id": "minecraft:redstone_torch"
+        },
+        "in3": {
+          "kind": "ITEM",
+          "id": "create:shaft"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "a9c9a07d-38de-53c5-a67e-db2dd027c5f7",
+      "type": "kjsgen:shaped",
+      "recipeId": "simulated:laser_pointer",
+      "group": "Machine inventory / simulated",
+      "comment": "Existing registered recipe, unchanged baseline for machine review. Source: simulated:laser_pointer.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "simulated:laser_pointer"
+        },
+        "in0": {
+          "kind": "ITEM_TAG",
+          "id": "simulated:laser_point_lens"
+        },
+        "in3": {
+          "kind": "ITEM",
+          "id": "minecraft:redstone_torch"
+        },
+        "in6": {
+          "kind": "ITEM",
+          "id": "create:andesite_casing"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "a1444d69-4fac-5538-9d0e-95a85b646503",
+      "type": "kjsgen:shaped",
+      "recipeId": "simulated:laser_sensor",
+      "group": "Machine inventory / simulated",
+      "comment": "Existing registered recipe, unchanged baseline for machine review. Source: simulated:laser_sensor.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "simulated:laser_sensor"
+        },
+        "in0": {
+          "kind": "ITEM",
+          "id": "minecraft:tinted_glass"
+        },
+        "in3": {
+          "kind": "ITEM_TAG",
+          "id": "simulated:laser_point_lens"
+        },
+        "in6": {
+          "kind": "ITEM",
+          "id": "create:andesite_casing"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "75322f6c-91b6-5e04-8792-b9fe019c36a8",
+      "type": "kjsgen:create_mechanical_crafting",
+      "recipeId": "simulated:mechanical_crafting/linked_typewriter",
+      "group": "Machine inventory / simulated",
+      "comment": "Existing registered recipe, unchanged baseline for machine review. Source: simulated:mechanical_crafting/linked_typewriter.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "simulated:linked_typewriter"
+        },
+        "cell_0_0": {
+          "kind": "ITEM_TAG",
+          "id": "minecraft:buttons"
+        },
+        "cell_0_1": {
+          "kind": "ITEM_TAG",
+          "id": "minecraft:buttons"
+        },
+        "cell_0_2": {
+          "kind": "ITEM_TAG",
+          "id": "minecraft:buttons"
+        },
+        "cell_0_3": {
+          "kind": "ITEM_TAG",
+          "id": "minecraft:buttons"
+        },
+        "cell_0_4": {
+          "kind": "ITEM",
+          "id": "create:transmitter"
+        },
+        "cell_1_0": {
+          "kind": "ITEM_TAG",
+          "id": "minecraft:buttons"
+        },
+        "cell_1_1": {
+          "kind": "ITEM_TAG",
+          "id": "minecraft:buttons"
+        },
+        "cell_1_2": {
+          "kind": "ITEM_TAG",
+          "id": "minecraft:buttons"
+        },
+        "cell_1_3": {
+          "kind": "ITEM_TAG",
+          "id": "minecraft:buttons"
+        },
+        "cell_1_4": {
+          "kind": "ITEM_TAG",
+          "id": "minecraft:buttons"
+        },
+        "cell_2_1": {
+          "kind": "ITEM_TAG",
+          "id": "c:plates/gold"
+        },
+        "cell_2_2": {
+          "kind": "ITEM",
+          "id": "create:precision_mechanism"
+        },
+        "cell_2_3": {
+          "kind": "ITEM_TAG",
+          "id": "c:plates/gold"
+        }
+      },
+      "params": {
+        "gridW": "5",
+        "gridH": "3",
+        "__nativeCraftingType": "create:mechanical_crafting",
+        "__acceptMirrored": "true"
+      }
+    },
+    {
+      "uid": "3184c0cd-8409-5ab3-87ce-02b99b1edb01",
+      "type": "kjsgen:shaped",
+      "recipeId": "simulated:steering_wheel",
+      "group": "Machine inventory / simulated",
+      "comment": "Existing registered recipe, unchanged baseline for machine review. Source: simulated:steering_wheel.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "simulated:steering_wheel"
+        },
+        "in0": {
+          "kind": "ITEM",
+          "id": "create:large_cogwheel"
+        },
+        "in3": {
+          "kind": "ITEM",
+          "id": "create:andesite_casing"
+        },
+        "in6": {
+          "kind": "ITEM",
+          "id": "create:shaft"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "f0dcc2fe-eac1-5927-ac0f-34bbc3a4f8fc",
+      "type": "kjsgen:shaped",
+      "recipeId": "simulated:swivel_bearing",
+      "group": "Machine inventory / simulated",
+      "comment": "Existing registered recipe, unchanged baseline for machine review. Source: simulated:swivel_bearing.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "simulated:swivel_bearing"
+        },
+        "in1": {
+          "kind": "ITEM_TAG",
+          "id": "minecraft:wooden_slabs"
+        },
+        "in4": {
+          "kind": "ITEM",
+          "id": "create:industrial_iron_block"
+        },
+        "in7": {
+          "kind": "ITEM",
+          "id": "create:cogwheel"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "fb2ae538-e1ca-5914-805d-e40cfcfd6312",
+      "type": "kjsgen:shaped",
+      "recipeId": "simulated:torsion_spring",
+      "group": "Machine inventory / simulated",
+      "comment": "Existing registered recipe, unchanged baseline for machine review. Source: simulated:torsion_spring.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "simulated:torsion_spring"
+        },
+        "in0": {
+          "kind": "ITEM",
+          "id": "create:shaft"
+        },
+        "in3": {
+          "kind": "ITEM",
+          "id": "simulated:spring"
+        },
+        "in6": {
+          "kind": "ITEM",
+          "id": "create:andesite_casing"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "abf8807b-150d-5242-9bea-f61b5076d78b",
+      "type": "kjsgen:shaped",
+      "recipeId": "stellaris:misc/antenna",
+      "group": "Machine inventory / stellaris",
+      "comment": "Existing registered recipe, unchanged baseline for machine review. Source: stellaris:misc/antenna.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "stellaris:antenna"
+        },
+        "in0": {
+          "kind": "ITEM",
+          "id": "minecraft:redstone"
+        },
+        "in1": {
+          "kind": "ITEM",
+          "id": "minecraft:lightning_rod"
+        },
+        "in2": {
+          "kind": "ITEM",
+          "id": "minecraft:redstone"
+        },
+        "in3": {
+          "kind": "ITEM_TAG",
+          "id": "c:ingots/steel"
+        },
+        "in4": {
+          "kind": "ITEM",
+          "id": "minecraft:redstone"
+        },
+        "in5": {
+          "kind": "ITEM_TAG",
+          "id": "c:ingots/steel"
+        },
+        "in6": {
+          "kind": "ITEM_TAG",
+          "id": "c:ingots/steel"
+        },
+        "in7": {
+          "kind": "ITEM_TAG",
+          "id": "c:ingots/steel"
+        },
+        "in8": {
+          "kind": "ITEM_TAG",
+          "id": "c:ingots/steel"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "7b36ebd6-6688-54a6-aac7-2994d7176921",
+      "type": "kjsgen:shaped",
+      "recipeId": "stellaris:misc/oxygen_distributor",
+      "group": "Machine inventory / stellaris",
+      "comment": "Existing registered recipe, unchanged baseline for machine review. Source: stellaris:misc/oxygen_distributor.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "stellaris:oxygen_distributor"
+        },
+        "in0": {
+          "kind": "ITEM_TAG",
+          "id": "c:ingots/heavy_metal"
+        },
+        "in1": {
+          "kind": "ITEM",
+          "id": "stellaris:engine_fan"
+        },
+        "in2": {
+          "kind": "ITEM_TAG",
+          "id": "c:ingots/heavy_metal"
+        },
+        "in3": {
+          "kind": "ITEM_TAG",
+          "id": "c:ingots/heavy_metal"
+        },
+        "in4": {
+          "kind": "ITEM",
+          "id": "stellaris:big_oxygen_tank"
+        },
+        "in5": {
+          "kind": "ITEM_TAG",
+          "id": "c:ingots/heavy_metal"
+        },
+        "in6": {
+          "kind": "ITEM_TAG",
+          "id": "c:ingots/heavy_metal"
+        },
+        "in7": {
+          "kind": "ITEM",
+          "id": "minecraft:lapis_lazuli"
+        },
+        "in8": {
+          "kind": "ITEM_TAG",
+          "id": "c:ingots/heavy_metal"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "f73ef4c6-abb6-5dba-a682-e8369c9aa2aa",
+      "type": "kjsgen:shaped",
+      "recipeId": "tfmg:crafting/materials/glass_cable_insulator",
+      "group": "Machine inventory / tfmg",
+      "comment": "Existing registered recipe, unchanged baseline for machine review. Source: tfmg:crafting/materials/glass_cable_insulator.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "tfmg:glass_cable_insulator"
+        },
+        "in0": {
+          "kind": "ITEM_TAG",
+          "id": "c:nuggets/copper"
+        },
+        "in1": {
+          "kind": "ITEM",
+          "id": "tfmg:glass_insulator_segment"
+        },
+        "in2": {
+          "kind": "ITEM_TAG",
+          "id": "c:nuggets/copper"
+        },
+        "in3": {
+          "kind": "ITEM_TAG",
+          "id": "c:nuggets/steel"
+        },
+        "in4": {
+          "kind": "ITEM",
+          "id": "tfmg:glass_insulator_segment"
+        },
+        "in5": {
+          "kind": "ITEM_TAG",
+          "id": "c:nuggets/steel"
+        },
+        "in6": {
+          "kind": "ITEM_TAG",
+          "id": "c:nuggets/copper"
+        },
+        "in7": {
+          "kind": "ITEM",
+          "id": "tfmg:glass_insulator_segment"
+        },
+        "in8": {
+          "kind": "ITEM_TAG",
+          "id": "c:nuggets/copper"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "d09025e0-d362-563e-9eb5-e719d44f9a33",
+      "type": "kjsgen:shaped",
+      "recipeId": "tfmg:crafting/materials/steel_flywheel",
+      "group": "Machine inventory / tfmg",
+      "comment": "Existing registered recipe, unchanged baseline for machine review. Source: tfmg:crafting/materials/steel_flywheel.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "tfmg:steel_flywheel"
+        },
+        "in0": {
+          "kind": "ITEM",
+          "id": "mekanism:ingot_steel"
+        },
+        "in1": {
+          "kind": "ITEM",
+          "id": "mekanism:ingot_steel"
+        },
+        "in2": {
+          "kind": "ITEM",
+          "id": "mekanism:ingot_steel"
+        },
+        "in3": {
+          "kind": "ITEM",
+          "id": "mekanism:ingot_steel"
+        },
+        "in4": {
+          "kind": "ITEM",
+          "id": "create:shaft"
+        },
+        "in5": {
+          "kind": "ITEM",
+          "id": "mekanism:ingot_steel"
+        },
+        "in6": {
+          "kind": "ITEM",
+          "id": "mekanism:ingot_steel"
+        },
+        "in7": {
+          "kind": "ITEM",
+          "id": "mekanism:ingot_steel"
+        },
+        "in8": {
+          "kind": "ITEM",
+          "id": "mekanism:ingot_steel"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "317da10d-7e56-57be-ad74-a25d6e37131a",
+      "type": "kjsgen:create_mechanical_crafting",
+      "recipeId": "industrial_colonies:balanced_review/ad_astra/fuel_refinery",
+      "group": "11 Space",
+      "comment": "Balanced custom draft for Fuel Refinery. Sheet age: Space. Two lined process vessels, metered valves and one steel-casing base form the fuel-processing skid. Plastic surrounds the cool control/exterior, not the fireproof hot-zone lining. Preserve specialized function, existing output yield unless explicitly stated, and upstream completed recipes. This replaces only the listed native construction route when separately exported; no gameplay change now. Source: ad_astra:fuel_refinery.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "ad_astra:fuel_refinery"
+        },
+        "cell_0_1": {
+          "kind": "ITEM",
+          "id": "minecraft:glass_pane"
+        },
+        "cell_0_2": {
+          "kind": "ITEM",
+          "id": "mekanism:advanced_control_circuit"
+        },
+        "cell_0_3": {
+          "kind": "ITEM",
+          "id": "minecraft:glass_pane"
+        },
+        "cell_1_0": {
+          "kind": "ITEM",
+          "id": "tfmg:plastic_sheet"
+        },
+        "cell_1_2": {
+          "kind": "ITEM",
+          "id": "tfmg:steel_fluid_tank"
+        },
+        "cell_1_4": {
+          "kind": "ITEM",
+          "id": "tfmg:plastic_sheet"
+        },
+        "cell_2_0": {
+          "kind": "ITEM",
+          "id": "tfmg:brass_fluid_valve"
+        },
+        "cell_2_1": {
+          "kind": "ITEM",
+          "id": "tfmg:fireproof_bricks"
+        },
+        "cell_2_2": {
+          "kind": "ITEM",
+          "id": "tfmg:brass_fluid_valve"
+        },
+        "cell_2_3": {
+          "kind": "ITEM",
+          "id": "tfmg:fireproof_bricks"
+        },
+        "cell_2_4": {
+          "kind": "ITEM",
+          "id": "tfmg:brass_fluid_valve"
+        },
+        "cell_3_0": {
+          "kind": "ITEM",
+          "id": "tfmg:plastic_sheet"
+        },
+        "cell_3_2": {
+          "kind": "ITEM",
+          "id": "tfmg:steel_fluid_tank"
+        },
+        "cell_3_4": {
+          "kind": "ITEM",
+          "id": "tfmg:plastic_sheet"
+        },
+        "cell_4_1": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:stick_steel"
+        },
+        "cell_4_2": {
+          "kind": "ITEM",
           "id": "tfmg:steel_casing"
+        },
+        "cell_4_3": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:stick_steel"
         }
       },
       "params": {
         "gridW": "5",
         "gridH": "5"
       }
+    },
+    {
+      "uid": "24418cf1-1e1e-5603-a55d-0834fadbd2cf",
+      "type": "kjsgen:create_mechanical_crafting",
+      "recipeId": "industrial_colonies:manufacturing/shadow_steel/deployer",
+      "comment": "User requested Advanced Precision Mechanism be removed from all Shadow Steel machine construction as too low-tier. Replace only its existing positions with Computing Mechanisms for coordinated control. The existing lower-tier actuator machine provides mechanical motion; existing sensors, controllers, structural parts and working head stay in the exact latest user positions. No extra ingredients or shape changes; no new runtime accuracy/energy mechanic. This is a new control-component revision, not blanket approval of other designs.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "createcasing:shadow_steel_deployer"
+        },
+        "cell_3_1": {
+          "kind": "ITEM",
+          "id": "tfmg:potentiometer"
+        },
+        "cell_3_2": {
+          "kind": "ITEM",
+          "id": "createmechanisms:computing_mechanism"
+        },
+        "cell_3_4": {
+          "kind": "ITEM",
+          "id": "createmechanisms:computing_mechanism"
+        },
+        "cell_3_5": {
+          "kind": "ITEM",
+          "id": "tfmg:potentiometer"
+        },
+        "cell_2_3": {
+          "kind": "ITEM",
+          "id": "create:shadow_steel_casing"
+        },
+        "cell_1_1": {
+          "kind": "ITEM",
+          "id": "tfmg:resistor"
+        },
+        "cell_1_2": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:wire_electrum"
+        },
+        "cell_1_3": {
+          "kind": "ITEM",
+          "id": "tfmg:heavy_machinery_casing"
+        },
+        "cell_1_4": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:wire_electrum"
+        },
+        "cell_1_5": {
+          "kind": "ITEM",
+          "id": "tfmg:resistor"
+        },
+        "cell_0_3": {
+          "kind": "ITEM",
+          "id": "tfmg:transformer"
+        },
+        "cell_0_4": {
+          "kind": "ITEM",
+          "id": "mekanism:ingot_osmium"
+        },
+        "cell_0_2": {
+          "kind": "ITEM",
+          "id": "mekanism:ingot_osmium"
+        },
+        "cell_4_2": {
+          "kind": "ITEM",
+          "id": "mekanism:laser"
+        },
+        "cell_4_4": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:toolupgrade_chemthrower_focus"
+        },
+        "cell_0_1": {
+          "kind": "ITEM",
+          "id": "tfmg:plastic_sheet"
+        },
+        "cell_0_5": {
+          "kind": "ITEM",
+          "id": "tfmg:plastic_sheet"
+        },
+        "cell_5_3": {
+          "kind": "ITEM",
+          "id": "simulated:optical_sensor"
+        },
+        "cell_2_4": {
+          "kind": "ITEM",
+          "id": "extendedae:concurrent_processor"
+        },
+        "cell_2_0": {
+          "kind": "ITEM",
+          "id": "tfmg:transistor_item"
+        },
+        "cell_2_6": {
+          "kind": "ITEM",
+          "id": "tfmg:transistor_item"
+        },
+        "cell_4_5": {
+          "kind": "ITEM",
+          "id": "allthemodium:allthemodium_plate"
+        },
+        "cell_4_1": {
+          "kind": "ITEM",
+          "id": "allthemodium:allthemodium_plate"
+        },
+        "cell_1_6": {
+          "kind": "ITEM",
+          "id": "tfmg:plastic_sheet"
+        },
+        "cell_1_0": {
+          "kind": "ITEM",
+          "id": "tfmg:plastic_sheet"
+        },
+        "cell_2_5": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:wire_electrum"
+        },
+        "cell_2_1": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:wire_electrum"
+        },
+        "cell_2_2": {
+          "kind": "ITEM",
+          "id": "extendedae:concurrent_processor"
+        },
+        "cell_3_0": {
+          "kind": "ITEM",
+          "id": "tfmg:rubber_sheet"
+        },
+        "cell_5_2": {
+          "kind": "ITEM",
+          "id": "allthemodium:allthemodium_rod"
+        },
+        "cell_6_4": {
+          "kind": "ITEM",
+          "id": "allthemodium:vibranium_plate"
+        },
+        "cell_6_2": {
+          "kind": "ITEM",
+          "id": "allthemodium:vibranium_plate"
+        },
+        "cell_5_4": {
+          "kind": "ITEM",
+          "id": "allthemodium:allthemodium_rod"
+        },
+        "cell_5_5": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:wire_electrum"
+        },
+        "cell_5_1": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:wire_electrum"
+        },
+        "cell_3_6": {
+          "kind": "ITEM",
+          "id": "tfmg:rubber_sheet"
+        },
+        "cell_4_3": {
+          "kind": "ITEM",
+          "id": "createcasing:refined_radiance_deployer"
+        },
+        "cell_3_3": {
+          "kind": "ITEM",
+          "id": "modernfoundry:cobalt_block"
+        },
+        "cell_6_3": {
+          "kind": "ITEM",
+          "id": "create:brass_hand"
+        }
+      },
+      "params": {
+        "gridW": "7",
+        "gridH": "7"
+      }
+    },
+    {
+      "uid": "14fdc9de-295a-57c9-baef-41ee1882fd2f",
+      "type": "kjsgen:create_mechanical_crafting",
+      "recipeId": "industrial_colonies:space/orbital_flight_computer",
+      "comment": "User-requested early post-Refined-Radiance orbital computer rebalance. Preserve four advanced computers, four engineering processors, four circuit boards and the 5x5 layout. Plastic corner covers surround advanced control circuits; four ordinary TFMG capacitors condition the electronics power around one Refined Radiance casing. Remove all ATM alloys, Ultimate circuits, Ultimate energy cubes and Industrial Star. Navigation electronics, not endgame manufacturing. Pending review; no gameplay export.",
+      "replaceRecipe": false,
+      "slots": {
+        "cell_0_0": {
+          "kind": "ITEM",
+          "id": "tfmg:plastic_sheet"
+        },
+        "cell_0_1": {
+          "kind": "ITEM",
+          "id": "mekanism:advanced_control_circuit"
+        },
+        "cell_0_2": {
+          "kind": "ITEM",
+          "id": "tfmg:circuit_board"
+        },
+        "cell_0_3": {
+          "kind": "ITEM",
+          "id": "mekanism:advanced_control_circuit"
+        },
+        "cell_0_4": {
+          "kind": "ITEM",
+          "id": "tfmg:plastic_sheet"
+        },
+        "cell_1_0": {
+          "kind": "ITEM",
+          "id": "tfmg:capacitor_item"
+        },
+        "cell_1_1": {
+          "kind": "ITEM",
+          "id": "ae2:engineering_processor"
+        },
+        "cell_1_2": {
+          "kind": "ITEM",
+          "id": "computercraft:computer_advanced"
+        },
+        "cell_1_3": {
+          "kind": "ITEM",
+          "id": "ae2:engineering_processor"
+        },
+        "cell_1_4": {
+          "kind": "ITEM",
+          "id": "tfmg:capacitor_item"
+        },
+        "cell_2_0": {
+          "kind": "ITEM",
+          "id": "tfmg:circuit_board"
+        },
+        "cell_2_1": {
+          "kind": "ITEM",
+          "id": "computercraft:computer_advanced"
+        },
+        "cell_2_2": {
+          "kind": "ITEM",
+          "id": "create:refined_radiance_casing"
+        },
+        "cell_2_3": {
+          "kind": "ITEM",
+          "id": "computercraft:computer_advanced"
+        },
+        "cell_2_4": {
+          "kind": "ITEM",
+          "id": "tfmg:circuit_board"
+        },
+        "cell_3_0": {
+          "kind": "ITEM",
+          "id": "tfmg:capacitor_item"
+        },
+        "cell_3_1": {
+          "kind": "ITEM",
+          "id": "ae2:engineering_processor"
+        },
+        "cell_3_2": {
+          "kind": "ITEM",
+          "id": "computercraft:computer_advanced"
+        },
+        "cell_3_3": {
+          "kind": "ITEM",
+          "id": "ae2:engineering_processor"
+        },
+        "cell_3_4": {
+          "kind": "ITEM",
+          "id": "tfmg:capacitor_item"
+        },
+        "cell_4_0": {
+          "kind": "ITEM",
+          "id": "tfmg:plastic_sheet"
+        },
+        "cell_4_1": {
+          "kind": "ITEM",
+          "id": "mekanism:advanced_control_circuit"
+        },
+        "cell_4_2": {
+          "kind": "ITEM",
+          "id": "tfmg:circuit_board"
+        },
+        "cell_4_3": {
+          "kind": "ITEM",
+          "id": "mekanism:advanced_control_circuit"
+        },
+        "cell_4_4": {
+          "kind": "ITEM",
+          "id": "tfmg:plastic_sheet"
+        },
+        "output": {
+          "kind": "ITEM",
+          "id": "industrial_colonies:orbital_flight_computer"
+        }
+      },
+      "params": {
+        "gridW": "5",
+        "gridH": "5"
+      }
+    },
+    {
+      "uid": "49341809-ac2b-5ece-968e-0879b60fd102",
+      "type": "kjsgen:shaped",
+      "recipeId": "industrial_colonies:authoring_review/tfmg/crafting/materials/steel_casing_cable_hub",
+      "group": "00 To author / tfmg",
+      "comment": "SELECTED FOR RECIPE AUTHORING: the machine/item is approved to keep; this baseline is NOT a finished custom design. Moved from the recent Approved selection pass into Progression Review by explicit user request. Source recipe: tfmg:crafting/materials/steel_casing_cable_hub. Preserve its function/output while designing a balanced progression recipe.\nExisting registered recipe, unchanged baseline for machine review. Source: tfmg:crafting/materials/steel_casing_cable_hub.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "tfmg:steel_casing_cable_hub",
+          "count": 2
+        },
+        "in0": {
+          "kind": "ITEM",
+          "id": "tfmg:copper_wire"
+        },
+        "in1": {
+          "kind": "ITEM",
+          "id": "tfmg:copper_wire"
+        },
+        "in2": {
+          "kind": "ITEM",
+          "id": "tfmg:copper_wire"
+        },
+        "in4": {
+          "kind": "ITEM",
+          "id": "tfmg:steel_casing"
+        },
+        "in6": {
+          "kind": "ITEM",
+          "id": "tfmg:copper_wire"
+        },
+        "in7": {
+          "kind": "ITEM",
+          "id": "tfmg:copper_wire"
+        },
+        "in8": {
+          "kind": "ITEM",
+          "id": "tfmg:copper_wire"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "633acd13-2fb4-57e3-960a-ae5879fbd987",
+      "type": "kjsgen:shaped",
+      "recipeId": "industrial_colonies:balanced_review/merequester/requester",
+      "group": "03 Weathered Iron",
+      "comment": "Balanced custom draft for ME Requester. Sheet age: Weathered Iron. Formed copper sheet represents the actual housing/conductor mounting rather than an unworked ingot. Preserve specialized function, existing output yield unless explicitly stated, and upstream completed recipes. This replaces only the listed native construction route when separately exported; no gameplay change now. Source: merequester:requester.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "merequester:requester"
+        },
+        "in0": {
+          "kind": "ITEM_TAG",
+          "id": "c:ingots/iron"
+        },
+        "in1": {
+          "kind": "ITEM_TAG",
+          "id": "ae2:interface"
+        },
+        "in2": {
+          "kind": "ITEM_TAG",
+          "id": "c:ingots/iron"
+        },
+        "in3": {
+          "kind": "ITEM",
+          "id": "ae2:crafting_accelerator"
+        },
+        "in4": {
+          "kind": "ITEM",
+          "id": "createmechanisms:storage_mechanism"
+        },
+        "in5": {
+          "kind": "ITEM",
+          "id": "ae2:crafting_accelerator"
+        },
+        "in6": {
+          "kind": "ITEM",
+          "id": "create:copper_sheet"
+        },
+        "in7": {
+          "kind": "ITEM",
+          "id": "minecraft:amethyst_shard"
+        },
+        "in8": {
+          "kind": "ITEM",
+          "id": "create:copper_sheet"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "04742cfa-be98-5ee6-b245-a181ba10307d",
+      "type": "kjsgen:shapeless",
+      "recipeId": "nuclearcraft:basic_electromagnet_slope",
+      "group": "12 Fusion / magnet geometry",
+      "comment": "One complete matching electromagnet becomes one slope. Its confinement material cost is already paid in the parent magnet; do not charge another coil/core or double the output. Native reverse slope-to-block conversion remains 1:1. Included unchanged for the explicitly requested complete fusion-block review; no gameplay export.",
+      "replaceRecipe": false,
+      "slots": {
+        "in0": {
+          "kind": "ITEM",
+          "id": "nuclearcraft:basic_electromagnet"
+        },
+        "output": {
+          "kind": "ITEM",
+          "id": "nuclearcraft:basic_electromagnet_slope"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "e154f353-f9bf-5682-9ddf-6a2b070a045e",
+      "type": "kjsgen:shapeless",
+      "recipeId": "nuclearcraft:magnesium_diboride_electromagnet_slope",
+      "group": "12 Fusion / magnet geometry",
+      "comment": "One complete matching electromagnet becomes one slope. Its confinement material cost is already paid in the parent magnet; do not charge another coil/core or double the output. Native reverse slope-to-block conversion remains 1:1. Included unchanged for the explicitly requested complete fusion-block review; no gameplay export.",
+      "replaceRecipe": false,
+      "slots": {
+        "in0": {
+          "kind": "ITEM",
+          "id": "nuclearcraft:magnesium_diboride_electromagnet"
+        },
+        "output": {
+          "kind": "ITEM",
+          "id": "nuclearcraft:magnesium_diboride_electromagnet_slope"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "86f24820-eba2-5c21-b098-8bf4f3034d63",
+      "type": "kjsgen:shapeless",
+      "recipeId": "nuclearcraft:niobium_tin_electromagnet_slope",
+      "group": "12 Fusion / magnet geometry",
+      "comment": "One complete matching electromagnet becomes one slope. Its confinement material cost is already paid in the parent magnet; do not charge another coil/core or double the output. Native reverse slope-to-block conversion remains 1:1. Included unchanged for the explicitly requested complete fusion-block review; no gameplay export.",
+      "replaceRecipe": false,
+      "slots": {
+        "in0": {
+          "kind": "ITEM",
+          "id": "nuclearcraft:niobium_tin_electromagnet"
+        },
+        "output": {
+          "kind": "ITEM",
+          "id": "nuclearcraft:niobium_tin_electromagnet_slope"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "367e973e-190a-581c-ad1f-0e7e3f370a8e",
+      "type": "kjsgen:shapeless",
+      "recipeId": "nuclearcraft:niobium_titanium_electromagnet_slope",
+      "group": "12 Fusion / magnet geometry",
+      "comment": "One complete matching electromagnet becomes one slope. Its confinement material cost is already paid in the parent magnet; do not charge another coil/core or double the output. Native reverse slope-to-block conversion remains 1:1. Included unchanged for the explicitly requested complete fusion-block review; no gameplay export.",
+      "replaceRecipe": false,
+      "slots": {
+        "in0": {
+          "kind": "ITEM",
+          "id": "nuclearcraft:niobium_titanium_electromagnet"
+        },
+        "output": {
+          "kind": "ITEM",
+          "id": "nuclearcraft:niobium_titanium_electromagnet_slope"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "ed08e483-429b-50ba-9390-3105fc196892",
+      "type": "kjsgen:shapeless",
+      "recipeId": "nuclearcraft:bscco_electromagnet_slope",
+      "group": "12 Fusion / magnet geometry",
+      "comment": "One complete matching electromagnet becomes one slope. Its confinement material cost is already paid in the parent magnet; do not charge another coil/core or double the output. Native reverse slope-to-block conversion remains 1:1. Included unchanged for the explicitly requested complete fusion-block review; no gameplay export.",
+      "replaceRecipe": false,
+      "slots": {
+        "in0": {
+          "kind": "ITEM",
+          "id": "nuclearcraft:bscco_electromagnet"
+        },
+        "output": {
+          "kind": "ITEM",
+          "id": "nuclearcraft:bscco_electromagnet_slope"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "0775f16a-4af7-5671-8acc-8dc469751f38",
+      "type": "kjsgen:shaped",
+      "recipeId": "industrial_colonies:authoring_review/advanced_ae/quantumstorage128",
+      "group": "00 To author / advanced_ae",
+      "comment": "SELECTED FOR RECIPE AUTHORING: the machine/item is approved to keep; this baseline is NOT a finished custom design. Moved from the recent Approved selection pass into Progression Review by explicit user request. Source recipe: advanced_ae:quantumstorage128. Preserve its function/output while designing a balanced progression recipe.\nExisting registered recipe, unchanged baseline for machine review. Source: advanced_ae:quantumstorage128.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "advanced_ae:quantum_storage_128"
+        },
+        "in0": {
+          "kind": "ITEM",
+          "id": "advanced_ae:shattered_singularity"
+        },
+        "in1": {
+          "kind": "ITEM",
+          "id": "advanced_ae:quantum_storage_component"
+        },
+        "in2": {
+          "kind": "ITEM",
+          "id": "advanced_ae:shattered_singularity"
+        },
+        "in3": {
+          "kind": "ITEM",
+          "id": "advanced_ae:quantum_storage_component"
+        },
+        "in4": {
+          "kind": "ITEM",
+          "id": "advanced_ae:quantum_unit"
+        },
+        "in5": {
+          "kind": "ITEM",
+          "id": "advanced_ae:quantum_storage_component"
+        },
+        "in6": {
+          "kind": "ITEM",
+          "id": "advanced_ae:shattered_singularity"
+        },
+        "in7": {
+          "kind": "ITEM",
+          "id": "advanced_ae:quantum_storage_component"
+        },
+        "in8": {
+          "kind": "ITEM",
+          "id": "advanced_ae:shattered_singularity"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "a8bfe1a1-ebfa-5745-ba97-7bd7954ecde7",
+      "type": "kjsgen:shapeless",
+      "recipeId": "industrial_colonies:authoring_review/advanced_ae/quantumstorage256",
+      "group": "00 To author / advanced_ae",
+      "comment": "SELECTED FOR RECIPE AUTHORING: the machine/item is approved to keep; this baseline is NOT a finished custom design. Moved from the recent Approved selection pass into Progression Review by explicit user request. Source recipe: advanced_ae:quantumstorage256. Preserve its function/output while designing a balanced progression recipe.\nExisting registered recipe, unchanged baseline for machine review. Source: advanced_ae:quantumstorage256.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "advanced_ae:quantum_storage_256"
+        },
+        "in0": {
+          "kind": "ITEM",
+          "id": "advanced_ae:shattered_singularity"
+        },
+        "in1": {
+          "kind": "ITEM",
+          "id": "advanced_ae:quantum_storage_128"
+        },
+        "in2": {
+          "kind": "ITEM",
+          "id": "advanced_ae:quantum_storage_128"
+        },
+        "in3": {
+          "kind": "ITEM",
+          "id": "advanced_ae:quantum_unit"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "07e227f2-6c18-5e50-93c5-acf231f24838",
+      "type": "kjsgen:shaped",
+      "recipeId": "industrial_colonies:authoring_review/aeronautics/andesite_propeller",
+      "group": "00 To author / aeronautics",
+      "comment": "SELECTED FOR RECIPE AUTHORING: the machine/item is approved to keep; this baseline is NOT a finished custom design. Moved from the recent Approved selection pass into Progression Review by explicit user request. Source recipe: aeronautics:andesite_propeller. Preserve its function/output while designing a balanced progression recipe.\nExisting registered recipe, unchanged baseline for machine review. Source: aeronautics:andesite_propeller.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "aeronautics:andesite_propeller"
+        },
+        "in7": {
+          "kind": "ITEM",
+          "id": "create:shaft"
+        },
+        "in4": {
+          "kind": "ITEM_TAG",
+          "id": "minecraft:wooden_slabs"
+        },
+        "in1": {
+          "kind": "ITEM",
+          "id": "create:propeller"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "412d00de-d7fc-53d8-8443-93d207c8a95e",
+      "type": "kjsgen:shaped",
+      "recipeId": "industrial_colonies:authoring_review/nuclearcraft/advanced_barrel",
+      "group": "00 To author / nuclearcraft",
+      "comment": "SELECTED FOR RECIPE AUTHORING: the machine/item is approved to keep; this baseline is NOT a finished custom design. Moved from the recent Approved selection pass into Progression Review by explicit user request. Source recipe: nuclearcraft:advanced_barrel. Preserve its function/output while designing a balanced progression recipe.\nExisting registered recipe, unchanged baseline for machine review. Source: nuclearcraft:advanced_barrel.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "nuclearcraft:advanced_barrel"
+        },
+        "in0": {
+          "kind": "ITEM_TAG",
+          "id": "c:plates/tough_alloy"
+        },
+        "in1": {
+          "kind": "ITEM",
+          "id": "nuclearcraft:plate_advanced"
+        },
+        "in2": {
+          "kind": "ITEM_TAG",
+          "id": "c:plates/tough_alloy"
+        },
+        "in3": {
+          "kind": "ITEM_TAG",
+          "id": "c:plates/tough_alloy"
+        },
+        "in4": {
+          "kind": "ITEM",
+          "id": "nuclearcraft:basic_barrel"
+        },
+        "in5": {
+          "kind": "ITEM_TAG",
+          "id": "c:plates/tough_alloy"
+        },
+        "in6": {
+          "kind": "ITEM_TAG",
+          "id": "c:plates/tough_alloy"
+        },
+        "in7": {
+          "kind": "ITEM",
+          "id": "nuclearcraft:plate_advanced"
+        },
+        "in8": {
+          "kind": "ITEM_TAG",
+          "id": "c:plates/tough_alloy"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "e420ea55-2e2e-5e4e-a67e-7c9eb35be430",
+      "type": "kjsgen:shaped",
+      "recipeId": "industrial_colonies:authoring_review/nuclearcraft/advanced_voltaic_pile",
+      "group": "00 To author / nuclearcraft",
+      "comment": "SELECTED FOR RECIPE AUTHORING: the machine/item is approved to keep; this baseline is NOT a finished custom design. Moved from the recent Approved selection pass into Progression Review by explicit user request. Source recipe: nuclearcraft:advanced_voltaic_pile. Preserve its function/output while designing a balanced progression recipe.\nExisting registered recipe, unchanged baseline for machine review. Source: nuclearcraft:advanced_voltaic_pile.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "nuclearcraft:advanced_voltaic_pile"
+        },
+        "in0": {
+          "kind": "ITEM",
+          "id": "nuclearcraft:plate_advanced"
+        },
+        "in1": {
+          "kind": "ITEM_TAG",
+          "id": "c:ingots/magnesium"
+        },
+        "in2": {
+          "kind": "ITEM",
+          "id": "nuclearcraft:plate_advanced"
+        },
+        "in3": {
+          "kind": "ITEM",
+          "id": "nuclearcraft:basic_voltaic_pile"
+        },
+        "in4": {
+          "kind": "ITEM",
+          "id": "nuclearcraft:basic_voltaic_pile"
+        },
+        "in5": {
+          "kind": "ITEM",
+          "id": "nuclearcraft:basic_voltaic_pile"
+        },
+        "in6": {
+          "kind": "ITEM",
+          "id": "nuclearcraft:plate_advanced"
+        },
+        "in7": {
+          "kind": "ITEM_TAG",
+          "id": "c:ingots/zinc"
+        },
+        "in8": {
+          "kind": "ITEM",
+          "id": "nuclearcraft:plate_advanced"
+        }
+      },
+      "params": {}
     }
   ],
   "removals": []

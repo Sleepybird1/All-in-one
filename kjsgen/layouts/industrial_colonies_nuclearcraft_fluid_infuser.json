@@ -1,0 +1,63 @@
+{
+  "id": "industrial_colonies:nuclearcraft_fluid_infuser",
+  "mod": "nuclearcraft",
+  "icon": "nuclearcraft:fluid_infuser",
+  "width": 156,
+  "height": 62,
+  "slots": [
+    {
+      "key": "in0",
+      "role": "INPUT",
+      "x": 8,
+      "y": 8,
+      "required": true,
+      "item": true,
+      "count": false
+    },
+    {
+      "key": "fluid",
+      "role": "INPUT",
+      "x": 8,
+      "y": 34,
+      "required": true,
+      "item": false,
+      "fluid": true,
+      "count": true
+    },
+    {
+      "key": "output",
+      "role": "OUTPUT",
+      "x": 130,
+      "y": 20,
+      "required": true,
+      "item": true,
+      "count": true
+    }
+  ],
+  "decorations": [
+    {
+      "type": "ARROW",
+      "x": 94,
+      "y": 20
+    }
+  ],
+  "parameters": [
+    {
+      "key": "energyPerTick",
+      "type": "INT",
+      "default": "50"
+    },
+    {
+      "key": "processTime",
+      "type": "INT",
+      "default": "200"
+    },
+    {
+      "key": "__template",
+      "type": "STRING",
+      "default": "event.custom({type:'nuclearcraft:fluid_infuser',item_inputs:[{item:Item.of({slot:in0}).id,count:Item.of({slot:in0}).count}],fluid_inputs:[{fluid:({slot:fluid}).id,amount:({slot:fluid}).amount}],item_outputs:[{item:Item.of({slot:output}).id,count:Item.of({slot:output}).count}],energy_per_tick:{param:energyPerTick},process_time:{param:processTime}})"
+    }
+  ],
+  "codegen": "kjsgen:template",
+  "requiresMod": "nuclearcraft"
+}

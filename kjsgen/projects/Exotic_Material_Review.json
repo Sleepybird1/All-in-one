@@ -1,0 +1,865 @@
+{
+  "format": 1,
+  "name": "Exotic Material Review",
+  "defaultTargetFile": "exotic_material_review",
+  "exportComments": true,
+  "reloadOnExport": false,
+  "recipes": [
+    {
+      "uid": "42873fce-c236-5f7b-a657-5c018a899168",
+      "type": "industrial_colonies:tfmg_chemical_vat",
+      "recipeId": "industrial_colonies:alloy_materials/silicon_carbide",
+      "group": "Shared precursor workshop / Carbothermal ceramic powder",
+      "comment": "Electrically react existing silicon and carbon into silicon carbide. Borax is flux. Three electrodes occupy all attachment positions; there is no impossible fourth Mixer. Existing pack items only; no gameplay export. Shared precursors are made once for all three alloy paths.",
+      "replaceRecipe": false,
+      "slots": {
+        "input1": {
+          "kind": "ITEM",
+          "id": "ae2:silicon",
+          "count": 2
+        },
+        "input2": {
+          "kind": "ITEM",
+          "id": "nuclearcraft:graphite_dust",
+          "count": 2
+        },
+        "input3": {
+          "kind": "ITEM",
+          "id": "nuclearcraft:borax_dust"
+        },
+        "output1": {
+          "kind": "ITEM",
+          "id": "nuclearcraft:silicon_carbide_dust",
+          "count": 2
+        }
+      },
+      "params": {
+        "allowedVatTypes": "\u0027tfmg:firebrick_lined_vat\u0027",
+        "attachmentDrive": "None",
+        "electrodeType": "Graphite",
+        "electrodeCount": "3",
+        "processingTime": "6000",
+        "heat": "superheated",
+        "heatLevel": "4",
+        "minSize": "27"
+      }
+    },
+    {
+      "uid": "55d874b0-e964-51d0-89db-c5746efa01c6",
+      "type": "kjsgen:create_cutting",
+      "recipeId": "industrial_colonies:alloy_materials/sic_fibers",
+      "group": "Shared precursor workshop / Precision ceramic reinforcement strips",
+      "comment": "Slice one dense ceramic preform into four fine reinforcement strips represented by the existing SiC Fiber item. This is a pack machining abstraction for short reinforcement, not a claim to simulate continuous CVD fiber production. Existing pack items only; no gameplay export. Shared precursors are made once for all three alloy paths.",
+      "replaceRecipe": false,
+      "slots": {
+        "__machine_process_cutting": {
+          "kind": "ITEM",
+          "id": "createcasing:industrial_iron_mechanical_saw"
+        },
+        "input": {
+          "kind": "ITEM",
+          "id": "nuclearcraft:silicon_carbide_ingot"
+        },
+        "output0": {
+          "kind": "ITEM",
+          "id": "nuclearcraft:sic_fiber",
+          "count": 4
+        }
+      },
+      "params": {
+        "processingTime": "1200"
+      }
+    },
+    {
+      "uid": "744e3458-fdd6-5377-8402-0bd0b1aaf99d",
+      "type": "industrial_colonies:tfmg_chemical_vat",
+      "recipeId": "industrial_colonies:alloy_materials/ceramic_matrix",
+      "group": "Shared precursor workshop / Fiber-reinforced ceramic matrix",
+      "comment": "Prepared SiC fibers reinforce a silicon-carbide matrix. This corrects the bundled titanium/carbon-manganese shortcut instead of copying it. Four fibers represent one preform; a second powder unit supplies the matrix. Existing pack items only; no gameplay export. Shared precursors are made once for all three alloy paths. User October23 single-ingot correction: one main ingot-equivalent output per operation. Existing full input bill, time, energy, tools, origin predicate and byproducts remain unchanged; the yield loss is deliberate. This does not claim stoichiometric material conservation.",
+      "replaceRecipe": false,
+      "slots": {
+        "input1": {
+          "kind": "ITEM",
+          "id": "nuclearcraft:sic_fiber",
+          "count": 4
+        },
+        "input2": {
+          "kind": "ITEM",
+          "id": "nuclearcraft:silicon_carbide_dust"
+        },
+        "input3": {
+          "kind": "ITEM",
+          "id": "nuclearcraft:crystal_binder_dust"
+        },
+        "input4": {
+          "kind": "ITEM",
+          "id": "nuclearcraft:borax_dust"
+        },
+        "output1": {
+          "kind": "ITEM",
+          "id": "nuclearcraft:sic_sic_cmc_ingot"
+        }
+      },
+      "params": {
+        "allowedVatTypes": "\u0027tfmg:firebrick_lined_vat\u0027",
+        "attachmentDrive": "Mixer",
+        "electrodeType": "Graphite",
+        "electrodeCount": "2",
+        "processingTime": "6000",
+        "heat": "superheated",
+        "heatLevel": "4",
+        "minSize": "27"
+      }
+    },
+    {
+      "uid": "09b39d62-a2ce-553f-bbe2-2a2ee89238ff",
+      "type": "kjsgen:create_pressing",
+      "recipeId": "industrial_colonies:alloy_materials/ceramic_plate",
+      "group": "Shared precursor workshop / Press ceramic reinforcement plates",
+      "comment": "A real plate comes from an Industrial Iron press. It becomes the reinforcing phase for the later alloy, rather than a deployer pretending to press a plate. Existing pack items only; no gameplay export. Shared precursors are made once for all three alloy paths.",
+      "replaceRecipe": false,
+      "slots": {
+        "__machine_process_pressing": {
+          "kind": "ITEM",
+          "id": "createcasing:industrial_iron_press"
+        },
+        "input": {
+          "kind": "ITEM",
+          "id": "nuclearcraft:sic_sic_cmc_ingot"
+        },
+        "output": {
+          "kind": "ITEM",
+          "id": "nuclearcraft:sic_sic_cmc_plate"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "744bdef7-3f41-5e20-be3d-9263723e9216",
+      "type": "industrial_colonies:nuclearcraft_pressurizer",
+      "recipeId": "industrial_colonies:alloy_materials/boron_nitride_crystal",
+      "group": "Shared precursor workshop / High-pressure nitride crystals",
+      "comment": "The specialized nuclear Pressurizer grows/densifies nitride crystals from nitride powder. Explicit64,000FE/t for2,400ticks is153.6millionFE, not Mekanism J; no numeric pressure parameter is invented. Existing pack items only; no gameplay export. Shared precursors are made once for all three alloy paths.",
+      "replaceRecipe": false,
+      "slots": {
+        "item_input0": {
+          "kind": "ITEM",
+          "id": "nuclearcraft:boron_nitride_dust"
+        },
+        "item_output0": {
+          "kind": "ITEM",
+          "id": "nuclearcraft:boron_nitride_gem"
+        }
+      },
+      "params": {
+        "energyPerTick": "64000",
+        "processTime": "2400"
+      }
+    },
+    {
+      "uid": "d3d863a4-8dd9-574e-8c16-c5dabefa1bda",
+      "type": "industrial_colonies:tfmg_chemical_vat",
+      "recipeId": "industrial_colonies:alloy_review/vibranium_allthemodium",
+      "group": "vibranium_allthemodium / 3 Electrical batch alloy smelting",
+      "comment": "Whole-batch alloy formation: 21composition-specific bound dust -\u003e1actual finished alloy ingot +1800mB molten slag. M\u003d21, earlier-loss X\u003d0 in this version, final slag units\u003dM-X-1\u003d20. No invented earlier loss stages or useful byproduct recovery. Strict powder components and full repeated ingredient count prevent partial1dust-\u003e1ingot conversion. Three graphite electrodes, Fireproof Vat, superheated/heat-level4, minimum27blocks and24000eligible processing ticks make the alloy-forming operation the costly final stage. Native TFMG electrical load/work-rate and heating apply; the former Polarizer powerRequired values do not transfer and no fixed FE/J or conserved electrical cost is claimed. Finite liquid-helium quench produces hot helium using the existing pack10:1volume convention; fluid accounting is separate from solid M-X units. Slag uses90mB per conceptual solid unit. Shadow Steel/binder production remains upstream. No unrelated ingot carrier, custom item or gameplay export.",
+      "replaceRecipe": false,
+      "slots": {
+        "input1": {
+          "kind": "ITEM",
+          "id": "allthemodium:vibranium_allthemodium_alloy_dust",
+          "count": 21,
+          "components": "{\"minecraft:custom_data\":{\"industrial_colonies_alloy_role\":\"vibranium_allthemodium/bound_powder\",\"industrial_colonies_binding_source\":\"vibranium_allthemodium/binding_compound\"}}"
+        },
+        "input2": {
+          "kind": "FLUID",
+          "id": "nuclearcraft:liquid_helium",
+          "amount": 20
+        },
+        "output1": {
+          "kind": "ITEM",
+          "id": "allthemodium:vibranium_allthemodium_alloy_ingot"
+        },
+        "output2": {
+          "kind": "FLUID",
+          "id": "tfmg:molten_slag",
+          "amount": 1800
+        },
+        "output3": {
+          "kind": "FLUID",
+          "id": "nuclearcraft:hot_helium",
+          "amount": 200
+        }
+      },
+      "params": {
+        "allowedVatTypes": "\u0027tfmg:firebrick_lined_vat\u0027",
+        "attachmentDrive": "None",
+        "electrodeType": "Graphite",
+        "electrodeCount": "3",
+        "processingTime": "24000",
+        "heat": "superheated",
+        "heatLevel": "4",
+        "minSize": "27"
+      }
+    },
+    {
+      "uid": "191d49bf-cbf6-54d3-8f2c-5d43df01af5f",
+      "type": "kjsgen:create_mixing",
+      "recipeId": "industrial_colonies:review/alloy_charge/unobtainium_allthemodium",
+      "group": "unobtainium_allthemodium / 2 Shadow Steel alloy powder",
+      "comment": "Use the one shared Crystal Binder preparation in quantities2/4/6across the three pair-alloy charges, not three hidden binder variants. Existing actual parent metals, elemental osmium/iridium and carbide/ceramic/nitride inputs remain. Atomic/Radiance and platinum are paid through the shared binder manufacturing bill; the highest mixer separately pays Shadow Steel and quantum fluid. Strict shared-binder ingredient is enforced in the generated template. Output retains this composition-specific bound-powder marker, so the existing finishing card need not be requeued. No unrelated alloy-ingot carrier, repeated dust phase or imaginary FE requirement. No gameplay export. User M-X correction: 38actual solid input units produce exactly38bound powder units. Fluids and upstream binder manufacturing are separate ledgers. This is a conceptual item-unit balance, not kg/chemical stoichiometry. Never process each powder unit into a separate ingot: the final vat consumes this whole batch for exactly1finished ingot.",
+      "replaceRecipe": false,
+      "slots": {
+        "__machine_process_mixing": {
+          "kind": "ITEM",
+          "id": "createcasing:shadow_steel_mixer"
+        },
+        "output": {
+          "kind": "ITEM",
+          "id": "allthemodium:unobtainium_allthemodium_alloy_dust",
+          "count": 38
+        },
+        "in0": {
+          "kind": "ITEM",
+          "id": "allthemodium:unobtainium_ingot",
+          "count": 4
+        },
+        "in1": {
+          "kind": "ITEM",
+          "id": "allthemodium:allthemodium_ingot",
+          "count": 4
+        },
+        "in2": {
+          "kind": "ITEM",
+          "id": "nuclearcraft:tungsten_carbide_ingot",
+          "count": 4
+        },
+        "in3": {
+          "kind": "ITEM",
+          "id": "nuclearcraft:sic_sic_cmc_plate",
+          "count": 4
+        },
+        "in4": {
+          "kind": "ITEM",
+          "id": "nuclearcraft:boron_nitride_gem",
+          "count": 2
+        },
+        "in5": {
+          "kind": "ITEM",
+          "id": "nuclearcraft:crystal_binder_dust",
+          "count": 4
+        },
+        "in6": {
+          "kind": "ITEM",
+          "id": "mekanism:ingot_osmium",
+          "count": 12
+        },
+        "in7": {
+          "kind": "ITEM",
+          "id": "nuclearcraft:iridium_dust",
+          "count": 4
+        }
+      },
+      "params": {
+        "heat": "superheated",
+        "processingTime": "2400",
+        "preparedComponents": "{\"minecraft:custom_data\":{\"industrial_colonies_alloy_role\":\"unobtainium_allthemodium/bound_powder\",\"industrial_colonies_binding_source\":\"unobtainium_allthemodium/binding_compound\"}}",
+        "__template": "event.recipes.create.mixing([Item.of({outputs}, {param:preparedComponents})], [{inputs}].map(function(x) { return x \u003d\u003d\u003d \u0027nuclearcraft:crystal_binder_dust\u0027 ? Ingredient.of({type: \u0027neoforge:components\u0027, items: [\u0027nuclearcraft:crystal_binder_dust\u0027], components: {param:bindingComponents}, strict: true}) : x; })).processingTime({param:processingTime}){opt_call:heat}",
+        "bindingComponents": "{\"minecraft:custom_data\":{\"industrial_colonies_alloy_role\":\"shared/crystal_binder\"}}"
+      }
+    },
+    {
+      "uid": "d7953cc6-a0d4-56bc-924f-b3ae51ea033c",
+      "type": "industrial_colonies:tfmg_chemical_vat",
+      "recipeId": "industrial_colonies:alloy_review/unobtainium_allthemodium",
+      "group": "unobtainium_allthemodium / 3 Electrical batch alloy smelting",
+      "comment": "Whole-batch alloy formation: 38composition-specific bound dust -\u003e1actual finished alloy ingot +3330mB molten slag. M\u003d38, earlier-loss X\u003d0 in this version, final slag units\u003dM-X-1\u003d37. No invented earlier loss stages or useful byproduct recovery. Strict powder components and full repeated ingredient count prevent partial1dust-\u003e1ingot conversion. Three graphite electrodes, Fireproof Vat, superheated/heat-level4, minimum27blocks and48000eligible processing ticks make the alloy-forming operation the costly final stage. Native TFMG electrical load/work-rate and heating apply; the former Polarizer powerRequired values do not transfer and no fixed FE/J or conserved electrical cost is claimed. Finite liquid-helium quench produces hot helium using the existing pack10:1volume convention; fluid accounting is separate from solid M-X units. Slag uses90mB per conceptual solid unit. Shadow Steel/binder production remains upstream. No unrelated ingot carrier, custom item or gameplay export.",
+      "replaceRecipe": false,
+      "slots": {
+        "input1": {
+          "kind": "ITEM",
+          "id": "allthemodium:unobtainium_allthemodium_alloy_dust",
+          "count": 38,
+          "components": "{\"minecraft:custom_data\":{\"industrial_colonies_alloy_role\":\"unobtainium_allthemodium/bound_powder\",\"industrial_colonies_binding_source\":\"unobtainium_allthemodium/binding_compound\"}}"
+        },
+        "input2": {
+          "kind": "FLUID",
+          "id": "nuclearcraft:liquid_helium",
+          "amount": 40
+        },
+        "output1": {
+          "kind": "ITEM",
+          "id": "allthemodium:unobtainium_allthemodium_alloy_ingot"
+        },
+        "output2": {
+          "kind": "FLUID",
+          "id": "tfmg:molten_slag",
+          "amount": 3330
+        },
+        "output3": {
+          "kind": "FLUID",
+          "id": "nuclearcraft:hot_helium",
+          "amount": 400
+        }
+      },
+      "params": {
+        "allowedVatTypes": "\u0027tfmg:firebrick_lined_vat\u0027",
+        "attachmentDrive": "None",
+        "electrodeType": "Graphite",
+        "electrodeCount": "3",
+        "processingTime": "48000",
+        "heat": "superheated",
+        "heatLevel": "4",
+        "minSize": "27"
+      }
+    },
+    {
+      "uid": "538d60d1-94e2-50f5-a49c-c356445f7627",
+      "type": "kjsgen:create_mixing",
+      "recipeId": "industrial_colonies:review/alloy_charge/unobtainium_vibranium",
+      "group": "unobtainium_vibranium / 2 Shadow Steel alloy powder",
+      "comment": "Use the one shared Crystal Binder preparation in quantities2/4/6across the three pair-alloy charges, not three hidden binder variants. Existing actual parent metals, elemental osmium/iridium and carbide/ceramic/nitride inputs remain. Atomic/Radiance and platinum are paid through the shared binder manufacturing bill; the highest mixer separately pays Shadow Steel and quantum fluid. Strict shared-binder ingredient is enforced in the generated template. Output retains this composition-specific bound-powder marker, so the existing finishing card need not be requeued. No unrelated alloy-ingot carrier, repeated dust phase or imaginary FE requirement. No gameplay export. User M-X correction: 49actual solid input units produce exactly49bound powder units. Fluids and upstream binder manufacturing are separate ledgers. This is a conceptual item-unit balance, not kg/chemical stoichiometry. Never process each powder unit into a separate ingot: the final vat consumes this whole batch for exactly1finished ingot.",
+      "replaceRecipe": false,
+      "slots": {
+        "__machine_process_mixing": {
+          "kind": "ITEM",
+          "id": "createcasing:shadow_steel_mixer"
+        },
+        "output": {
+          "kind": "ITEM",
+          "id": "allthemodium:unobtainium_vibranium_alloy_dust",
+          "count": 49
+        },
+        "in0": {
+          "kind": "ITEM",
+          "id": "allthemodium:unobtainium_ingot",
+          "count": 4
+        },
+        "in1": {
+          "kind": "ITEM",
+          "id": "allthemodium:vibranium_ingot",
+          "count": 4
+        },
+        "in2": {
+          "kind": "ITEM",
+          "id": "nuclearcraft:tungsten_carbide_ingot",
+          "count": 4
+        },
+        "in3": {
+          "kind": "ITEM",
+          "id": "nuclearcraft:sic_sic_cmc_plate",
+          "count": 8
+        },
+        "in4": {
+          "kind": "ITEM",
+          "id": "nuclearcraft:boron_nitride_gem",
+          "count": 3
+        },
+        "in5": {
+          "kind": "ITEM",
+          "id": "nuclearcraft:crystal_binder_dust",
+          "count": 6
+        },
+        "in6": {
+          "kind": "ITEM",
+          "id": "mekanism:ingot_osmium",
+          "count": 12
+        },
+        "in7": {
+          "kind": "ITEM",
+          "id": "nuclearcraft:iridium_dust",
+          "count": 4
+        },
+        "in8": {
+          "kind": "ITEM",
+          "id": "create:shadow_steel",
+          "count": 4
+        },
+        "in9": {
+          "kind": "FLUID",
+          "id": "advanced_ae:quantum_infusion_source",
+          "amount": 4000
+        }
+      },
+      "params": {
+        "heat": "superheated",
+        "processingTime": "3600",
+        "preparedComponents": "{\"minecraft:custom_data\":{\"industrial_colonies_alloy_role\":\"unobtainium_vibranium/bound_powder\",\"industrial_colonies_binding_source\":\"unobtainium_vibranium/binding_compound\"}}",
+        "__template": "event.recipes.create.mixing([Item.of({outputs}, {param:preparedComponents})], [{inputs}].map(function(x) { return x \u003d\u003d\u003d \u0027nuclearcraft:crystal_binder_dust\u0027 ? Ingredient.of({type: \u0027neoforge:components\u0027, items: [\u0027nuclearcraft:crystal_binder_dust\u0027], components: {param:bindingComponents}, strict: true}) : x; })).processingTime({param:processingTime}){opt_call:heat}",
+        "bindingComponents": "{\"minecraft:custom_data\":{\"industrial_colonies_alloy_role\":\"shared/crystal_binder\"}}"
+      }
+    },
+    {
+      "uid": "d9da7b89-e246-52e0-ae6f-22c56e717fb4",
+      "type": "industrial_colonies:tfmg_chemical_vat",
+      "recipeId": "industrial_colonies:alloy_review/unobtainium_vibranium",
+      "group": "unobtainium_vibranium / 3 Electrical batch alloy smelting",
+      "comment": "Whole-batch alloy formation: 49composition-specific bound dust -\u003e1actual finished alloy ingot +4320mB molten slag. M\u003d49, earlier-loss X\u003d0 in this version, final slag units\u003dM-X-1\u003d48. No invented earlier loss stages or useful byproduct recovery. Strict powder components and full repeated ingredient count prevent partial1dust-\u003e1ingot conversion. Three graphite electrodes, Fireproof Vat, superheated/heat-level4, minimum27blocks and72000eligible processing ticks make the alloy-forming operation the costly final stage. Native TFMG electrical load/work-rate and heating apply; the former Polarizer powerRequired values do not transfer and no fixed FE/J or conserved electrical cost is claimed. Finite liquid-helium quench produces hot helium using the existing pack10:1volume convention; fluid accounting is separate from solid M-X units. Slag uses90mB per conceptual solid unit. Shadow Steel/binder production remains upstream. No unrelated ingot carrier, custom item or gameplay export.",
+      "replaceRecipe": false,
+      "slots": {
+        "input1": {
+          "kind": "ITEM",
+          "id": "allthemodium:unobtainium_vibranium_alloy_dust",
+          "count": 49,
+          "components": "{\"minecraft:custom_data\":{\"industrial_colonies_alloy_role\":\"unobtainium_vibranium/bound_powder\",\"industrial_colonies_binding_source\":\"unobtainium_vibranium/binding_compound\"}}"
+        },
+        "input2": {
+          "kind": "FLUID",
+          "id": "nuclearcraft:liquid_helium",
+          "amount": 100
+        },
+        "output1": {
+          "kind": "ITEM",
+          "id": "allthemodium:unobtainium_vibranium_alloy_ingot"
+        },
+        "output2": {
+          "kind": "FLUID",
+          "id": "tfmg:molten_slag",
+          "amount": 4320
+        },
+        "output3": {
+          "kind": "FLUID",
+          "id": "nuclearcraft:hot_helium"
+        }
+      },
+      "params": {
+        "allowedVatTypes": "\u0027tfmg:firebrick_lined_vat\u0027",
+        "attachmentDrive": "None",
+        "electrodeType": "Graphite",
+        "electrodeCount": "3",
+        "processingTime": "72000",
+        "heat": "superheated",
+        "heatLevel": "4",
+        "minSize": "27"
+      }
+    },
+    {
+      "uid": "3a43b4ee-c947-5528-a7cc-cdf230819236",
+      "type": "industrial_colonies:tfmg_chemical_vat",
+      "recipeId": "industrial_colonies:alloy_materials/crystal_binder",
+      "group": "Shared precursor workshop / One endgame crystal binder",
+      "comment": "One canonical shared endgame Crystal Binder recipe, replacing three per-alloy variants. Preserve the original four mineral constituents; Atomic/Radiance supply the requested expensive binding phase, zirconium/molybdenum the active interface/refractory filler, boron arsenide thermal filler and platinum the stable metallic joining phase. Acid/fluorite and finite helium support preparation, with spent hot helium output. Fictional pack composite chemistry; no real stoichiometry claim. Two units per batch; the three alloy mixers consume2/4/6units. Quantum fluid and Shadow Steel addition stay out of the shared binder so its first batch cannot require the highest alloy branch. The shared preparation marker prevents ordinary shortcut stock satisfying the late mixer requirement; other generic binder consumers still use the same actual item. Existing original Personal/Material Processing references untouched. No gameplay export.",
+      "replaceRecipe": false,
+      "slots": {
+        "input1": {
+          "kind": "ITEM",
+          "id": "nuclearcraft:rhodochrosite_dust"
+        },
+        "input2": {
+          "kind": "ITEM",
+          "id": "nuclearcraft:calcium_sulfate_dust"
+        },
+        "input3": {
+          "kind": "ITEM",
+          "id": "nuclearcraft:magnesium_dust"
+        },
+        "input4": {
+          "kind": "ITEM",
+          "id": "mekanism:dust_refined_obsidian"
+        },
+        "additionalIngredients0": {
+          "kind": "ITEM",
+          "id": "mekanism:alloy_atomic"
+        },
+        "additionalIngredients1": {
+          "kind": "ITEM",
+          "id": "create:refined_radiance",
+          "count": 4
+        },
+        "additionalIngredients2": {
+          "kind": "ITEM",
+          "id": "nuclearcraft:zirconium_dust"
+        },
+        "additionalIngredients3": {
+          "kind": "ITEM",
+          "id": "nuclearcraft:molybdenum_dust",
+          "count": 3
+        },
+        "additionalIngredients4": {
+          "kind": "ITEM",
+          "id": "nuclearcraft:boron_arsenide_gem"
+        },
+        "additionalIngredients5": {
+          "kind": "ITEM",
+          "id": "nuclearcraft:platinum_dust"
+        },
+        "additionalIngredients6": {
+          "kind": "ITEM",
+          "id": "nuclearcraft:fluorite_dust",
+          "count": 2
+        },
+        "additionalIngredients7": {
+          "kind": "FLUID",
+          "id": "nuclearcraft:aqua_regia_acid",
+          "amount": 100
+        },
+        "additionalIngredients8": {
+          "kind": "FLUID",
+          "id": "nuclearcraft:liquid_helium",
+          "amount": 20
+        },
+        "output1": {
+          "kind": "ITEM",
+          "id": "nuclearcraft:crystal_binder_dust",
+          "count": 2,
+          "components": "{\"minecraft:custom_data\":{\"industrial_colonies_alloy_role\":\"shared/crystal_binder\"}}"
+        },
+        "output2": {
+          "kind": "FLUID",
+          "id": "nuclearcraft:hot_helium",
+          "amount": 200
+        }
+      },
+      "params": {
+        "allowedVatTypes": "\u0027tfmg:firebrick_lined_vat\u0027",
+        "attachmentDrive": "Mixer",
+        "electrodeType": "Graphite",
+        "electrodeCount": "2",
+        "processingTime": "3600",
+        "heat": "heated",
+        "heatLevel": "1",
+        "minSize": "27"
+      }
+    },
+    {
+      "uid": "2c9f05cf-9a51-5624-87df-c0858c657920",
+      "type": "kjsgen:create_compacting",
+      "recipeId": "industrial_colonies:alloy_materials/sic_preforms",
+      "group": "Shared precursor workshop / Hot-pressed silicon carbide preforms",
+      "comment": "Industrial Iron pressure forming turns ceramic powder and prepared binder into one solid preform. An ingot-shaped ceramic stock is an existing item, not another renamed powder. Existing pack items only; no gameplay export. Shared precursors are made once for all three alloy paths. User October23 single-ingot correction: one main ingot-equivalent output per operation. Existing full input bill, time, energy, tools, origin predicate and byproducts remain unchanged; the yield loss is deliberate. This does not claim stoichiometric material conservation.",
+      "replaceRecipe": false,
+      "slots": {
+        "__machine_process_compacting": {
+          "kind": "ITEM",
+          "id": "createcasing:industrial_iron_press"
+        },
+        "in0": {
+          "kind": "ITEM",
+          "id": "nuclearcraft:silicon_carbide_dust"
+        },
+        "in1": {
+          "kind": "ITEM",
+          "id": "nuclearcraft:silicon_carbide_dust"
+        },
+        "in2": {
+          "kind": "ITEM",
+          "id": "nuclearcraft:crystal_binder_dust"
+        },
+        "output": {
+          "kind": "ITEM",
+          "id": "nuclearcraft:silicon_carbide_ingot"
+        }
+      },
+      "params": {
+        "heat": "superheated"
+      }
+    },
+    {
+      "uid": "23a97280-b388-5661-a972-faa5414fbd6b",
+      "type": "industrial_colonies:mekanism_reaction",
+      "recipeId": "industrial_colonies:alloy_materials/boron_nitride",
+      "group": "Shared precursor workshop / Nitride powder synthesis",
+      "comment": "Pressure-assisted nitride synthesis: two boron dust, existing NuclearCraft nitrogen fluid and a finite reducing hydrogen feed become two boron-nitride powder units. The PRC is not restricted to Mekanism fluids. Hydrogen protects/reduces the reaction charge; no new gas or material ID. Duration4800ticks,32000additional Mekanism J/t (153.6million extraJ plus native base); no fictitious numerical pressure sensor. Existing nitride crystal pressing remains downstream. Proposed authoring only; no gameplay export.",
+      "replaceRecipe": false,
+      "slots": {
+        "item_input": {
+          "kind": "ITEM",
+          "id": "nuclearcraft:boron_dust",
+          "count": 2
+        },
+        "fluid_input": {
+          "kind": "FLUID",
+          "id": "nuclearcraft:nitrogen"
+        },
+        "chemical_input": {
+          "kind": "CHEMICAL",
+          "id": "mekanism:hydrogen"
+        },
+        "item_output": {
+          "kind": "ITEM",
+          "id": "nuclearcraft:boron_nitride_dust",
+          "count": 2
+        }
+      },
+      "params": {
+        "duration": "4800",
+        "energyRequired": "32000"
+      }
+    },
+    {
+      "uid": "c949b362-7eca-5e8a-b555-e4e285e3d6b3",
+      "type": "industrial_colonies:mekanism_reaction",
+      "recipeId": "industrial_colonies:alloy_materials/zirconium_molybdenum",
+      "group": "Shared precursor workshop / Refractory zirconium-molybdenum stock",
+      "comment": "Cross-mod molten-metal PRC reaction: zirconium powder infiltrates1500mB NuclearCraft molten molybdenum, representing15ingots under the100mB unit policy. HCl provides finite oxide-conditioning chemistry. One usable Zr-Mo ingot comes from the retained1:15 metal input batch; excess material is deliberately unrecovered. Feed HCl through the existing Chemical Infuser/reference recovery route, not a duplicate chemical-mixing card.7200ticks at64000additional Mekanism J/t gives460.8million extraJ plus native base. This is authored pack reactive consolidation, not literal measured alloy chemistry. No new fluid or numeric pressure parameter; no gameplay export. User October23 single-ingot correction: one main ingot-equivalent output per operation. Existing full input bill, time, energy, tools, origin predicate and byproducts remain unchanged; the yield loss is deliberate. This does not claim stoichiometric material conservation.",
+      "replaceRecipe": false,
+      "slots": {
+        "item_input": {
+          "kind": "ITEM",
+          "id": "nuclearcraft:zirconium_dust"
+        },
+        "fluid_input": {
+          "kind": "FLUID",
+          "id": "nuclearcraft:molten_molybdenum",
+          "amount": 1500
+        },
+        "chemical_input": {
+          "kind": "CHEMICAL",
+          "id": "mekanism:hydrogen_chloride"
+        },
+        "item_output": {
+          "kind": "ITEM",
+          "id": "nuclearcraft:zirconium_molybdenum_ingot"
+        }
+      },
+      "params": {
+        "duration": "7200",
+        "energyRequired": "64000"
+      }
+    },
+    {
+      "uid": "6e904aa2-310c-5eeb-8268-a66e099e8452",
+      "type": "kjsgen:mekanism_injecting",
+      "recipeId": "industrial_colonies:alloy_materials/tungsten_carbide",
+      "group": "Shared precursor workshop / Carburized tungsten reinforcement",
+      "comment": "Hydrocarbon carburization in the Chemical Injection Chamber turns a tungsten ingot into existing tungsten carbide. The finite1000-unit ethene feed supplies reactive carbon; ethene comes from the existing Mekanism PRC chemical chain. Chemical consumption is once per operation, not every tick. Native configured Injection Chamber energy and cycle apply; no invented per-recipe FE/time fields. Real material change, not dust-to-identical-dust. No gameplay export.",
+      "replaceRecipe": false,
+      "slots": {
+        "input": {
+          "kind": "ITEM",
+          "id": "nuclearcraft:tungsten_ingot"
+        },
+        "gas": {
+          "kind": "CHEMICAL",
+          "id": "mekanism:ethene"
+        },
+        "output": {
+          "kind": "ITEM",
+          "id": "nuclearcraft:tungsten_carbide_ingot"
+        }
+      },
+      "params": {
+        "perTickUsage": "false"
+      }
+    },
+    {
+      "uid": "ab28e740-d1fc-5e93-bd1c-b9f1faa5cb06",
+      "type": "industrial_colonies:mekanism_reaction",
+      "recipeId": "industrial_colonies:chemical_workshop/rhodochrosite",
+      "group": "Binder reagents / two branches converge on existing Crystal Binder / Manganese carbonation",
+      "comment": "Manganese, a real carbon-dioxide fluid feed and oxygen form manganese carbonate (Rhodochrosite), an actual mineral ingredient of the liked Crystal Binder. One new chemical compound, not identical dust with another label. Carbonation uses the existing NuclearCraft CO2 identity; direct capture/normalization of TFMG flowing heater exhaust is not qualified here.2400ticks at16000additional MekanismJ/t gives38.4million extraJ plus configured base. Volumes are authored game doses, not measured molar stoichiometry. Natural mineral and legitimate chemical byproduct acquisition are not removed. Existing pack identities only; proposed authoring, no gameplay export.",
+      "replaceRecipe": false,
+      "slots": {
+        "item_input": {
+          "kind": "ITEM",
+          "id": "nuclearcraft:manganese_dust"
+        },
+        "fluid_input": {
+          "kind": "FLUID",
+          "id": "nuclearcraft:carbon_dioxide"
+        },
+        "chemical_input": {
+          "kind": "CHEMICAL",
+          "id": "mekanism:oxygen",
+          "amount": 500
+        },
+        "item_output": {
+          "kind": "ITEM",
+          "id": "nuclearcraft:rhodochrosite_dust"
+        }
+      },
+      "params": {
+        "duration": "2400",
+        "energyRequired": "16000"
+      }
+    },
+    {
+      "uid": "3877b62c-f069-5c67-923e-18745deb1a05",
+      "type": "industrial_colonies:mekanism_reaction",
+      "recipeId": "industrial_colonies:chemical_workshop/calcium_sulfate",
+      "group": "Binder reagents / two branches converge on existing Crystal Binder / Sulfate formation and hydrogen recovery",
+      "comment": "Calcium +SO3 +water -\u003ecalcium sulfate +hydrogen is the reaction basis. Feed SO3 from the existing Chemical Infuser oxygen/sulfur-dioxide chain; do not add an unchanged duplicate Infuser card. Recover hydrogen into the existing chemical network. Calcium Sulfate feeds the liked Crystal Binder recipe, which remains unchanged.1200ticks at8000additional MekanismJ/t gives9.6million extraJ plus native base. A finite reagent-consuming reaction, not a self-sustaining free gas loop. Existing pack identities only; proposed authoring, no gameplay export.",
+      "replaceRecipe": false,
+      "slots": {
+        "item_input": {
+          "kind": "ITEM",
+          "id": "nuclearcraft:calcium_dust"
+        },
+        "fluid_input": {
+          "kind": "FLUID",
+          "id": "minecraft:water"
+        },
+        "chemical_input": {
+          "kind": "CHEMICAL",
+          "id": "mekanism:sulfur_trioxide"
+        },
+        "item_output": {
+          "kind": "ITEM",
+          "id": "nuclearcraft:calcium_sulfate_dust"
+        },
+        "chemical_output": {
+          "kind": "CHEMICAL",
+          "id": "mekanism:hydrogen"
+        }
+      },
+      "params": {
+        "duration": "1200",
+        "energyRequired": "8000"
+      }
+    },
+    {
+      "uid": "e9d5a625-db2e-57f4-9380-7c32390d12e7",
+      "type": "industrial_colonies:mekanism_reaction",
+      "recipeId": "industrial_colonies:chemical_workshop/boron_arsenide_powder",
+      "group": "Thermal ceramics / boron arsenide / Reactive arsenide synthesis",
+      "comment": "Use molten arsenic from another mod with boron powder in the PRC under a finite reducing-hydrogen feed.100mB is one nominal ingot under the current unit policy; one boron plus one arsenic input unit produce two compound-stock units. This is pack material accounting, not a real molar mass claim.4800ticks at64000additional MekanismJ/t adds307.2millionJ plus base. Powder then grows into an existing thermal ceramic crystal. No invented arsenide gas/slurry. Existing pack identities only; proposed authoring, no gameplay export.",
+      "replaceRecipe": false,
+      "slots": {
+        "item_input": {
+          "kind": "ITEM",
+          "id": "nuclearcraft:boron_dust"
+        },
+        "fluid_input": {
+          "kind": "FLUID",
+          "id": "nuclearcraft:molten_arsenic",
+          "amount": 100
+        },
+        "chemical_input": {
+          "kind": "CHEMICAL",
+          "id": "mekanism:hydrogen"
+        },
+        "item_output": {
+          "kind": "ITEM",
+          "id": "nuclearcraft:boron_arsenide_dust",
+          "count": 2
+        }
+      },
+      "params": {
+        "duration": "4800",
+        "energyRequired": "64000"
+      }
+    },
+    {
+      "uid": "1f19e89f-4dce-583a-9838-47ead54ec649",
+      "type": "industrial_colonies:nuclearcraft_pressurizer",
+      "recipeId": "industrial_colonies:chemical_workshop/boron_arsenide_crystal",
+      "group": "Thermal ceramics / boron arsenide / High-pressure thermal crystals",
+      "comment": "Specialized dust-to-gem pressing follows the latest Pressurizer role. One arsenide powder becomes one boron-arsenide crystal at64000FE/t for2400ticks (153.6millionFE). This feeds the existing protected thermoconducting-alloy Vat reference; that reference and its parked casting endpoint are not rewritten or requeued. Staged dust-only policy explicitly admits this new pair; diamonds remain excluded. Existing pack identities only; proposed authoring, no gameplay export.",
+      "replaceRecipe": false,
+      "slots": {
+        "item_input0": {
+          "kind": "ITEM",
+          "id": "nuclearcraft:boron_arsenide_dust"
+        },
+        "item_output0": {
+          "kind": "ITEM",
+          "id": "nuclearcraft:boron_arsenide_gem"
+        }
+      },
+      "params": {
+        "energyPerTick": "64000",
+        "processTime": "2400"
+      }
+    },
+    {
+      "uid": "c70a5a9d-c12e-583c-af44-7e9533edaa32",
+      "type": "industrial_colonies:tfmg_chemical_vat",
+      "recipeId": "industrial_colonies:alloy_purification/vibranium_allthemodium",
+      "group": "ATM–Vibranium / 2 Acid-assisted gangue separation",
+      "comment": "Linked batch correction:59unrefined temporary dust +500mB sulfuric acid -\u003e57purified temporary dust +2solidSlag.59\u003d57+2; combined first-stage allocation63\u003d57+2slag+4glowstone-equivalent units. Preserve strict stage components, machine settings and proposed acid/slagrate. Upstream glowstone source and ShadowSteel binding/finalactivation remain unresolved; review proposal only, no gameplay export.",
+      "replaceRecipe": false,
+      "slots": {
+        "input1": {
+          "kind": "ITEM",
+          "id": "allthemodium:vibranium_allthemodium_alloy_dust",
+          "count": 59,
+          "components": "{\"minecraft:custom_data\":{\"industrial_colonies_alloy_role\":\"vibranium_allthemodium/unrefined_preview\"}}"
+        },
+        "input2": {
+          "kind": "FLUID",
+          "id": "nuclearcraft:sulfuric_acid",
+          "amount": 500
+        },
+        "output1": {
+          "kind": "ITEM",
+          "id": "allthemodium:vibranium_allthemodium_alloy_dust",
+          "count": 57,
+          "components": "{\"minecraft:custom_data\":{\"industrial_colonies_alloy_role\":\"vibranium_allthemodium/purified_preview\"}}"
+        },
+        "output2": {
+          "kind": "ITEM",
+          "id": "tfmg:slag",
+          "count": 2
+        }
+      },
+      "params": {
+        "allowedVatTypes": "\u0027tfmg:firebrick_lined_vat\u0027",
+        "attachmentDrive": "Centrifuge",
+        "electrodeType": "Graphite",
+        "electrodeCount": "2",
+        "processingTime": "3600",
+        "heat": "none",
+        "heatLevel": "0",
+        "minSize": "27"
+      }
+    },
+    {
+      "uid": "b10417d2-ea54-5a32-ac05-82274b5825a1",
+      "type": "kjsgen:create_mixing",
+      "recipeId": "industrial_colonies:review/alloy_charge/vibranium_allthemodium",
+      "group": "ATM–Vibranium / 1 Bulk powder preparation",
+      "comment": "User-requested Shadow Steel Mixer progression gate: same 63 input units become 63 unrefined alloy dust. No first-step byproducts; impurities are removed in later processing. Existing clean alloy dust icon with strict stage marker is the temporary dirty-dust preview. Kinetic processing, not a fixed electrical charge.",
+      "replaceRecipe": false,
+      "slots": {
+        "in0": {
+          "kind": "ITEM",
+          "id": "allthemodium:allthemodium_dust",
+          "count": 48
+        },
+        "in1": {
+          "kind": "ITEM",
+          "id": "allthemodium:vibranium_dust",
+          "count": 4
+        },
+        "in2": {
+          "kind": "ITEM",
+          "id": "nuclearcraft:tungsten_carbide_ingot",
+          "count": 4
+        },
+        "in3": {
+          "kind": "ITEM",
+          "id": "nuclearcraft:silicon_carbide_dust",
+          "count": 2
+        },
+        "in4": {
+          "kind": "ITEM",
+          "id": "nuclearcraft:boron_nitride_dust"
+        },
+        "in5": {
+          "kind": "ITEM",
+          "id": "mekanism:dust_osmium",
+          "count": 3
+        },
+        "in6": {
+          "kind": "ITEM",
+          "id": "nuclearcraft:iridium_dust"
+        },
+        "output": {
+          "kind": "ITEM",
+          "id": "allthemodium:vibranium_allthemodium_alloy_dust",
+          "count": 63,
+          "components": "{\"minecraft:custom_data\":{\"industrial_colonies_alloy_role\":\"vibranium_allthemodium/unrefined_preview\"}}"
+        },
+        "__machine_process_mixing": {
+          "kind": "ITEM",
+          "id": "createcasing:shadow_steel_mixer"
+        }
+      },
+      "params": {
+        "heat": "none",
+        "processingTime": "2400",
+        "__template": "event.recipes.create.mixing([{outputs}], [{inputs}]).processingTime({param:processingTime}){opt_call:heat}"
+      }
+    }
+  ],
+  "removals": []
+}

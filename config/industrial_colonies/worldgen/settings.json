@@ -3,9 +3,24 @@
   "enabled": true,
   "suppressDefaultOres": true,
   "hardTerrainExclusions": [],
-  "terrainThresholds": {"mountainSurfaceY": 120, "extremeSurfaceY": 190},
-  "geometry": {"regionSearchRadius": 1, "maxIntendedBlocks": 50000, "caveSearchRange": 24, "richClusterMin": 3, "richClusterMax": 8, "exteriorCover": 3},
-  "indicators": {"enabled": true, "chancePerDepositChunk": 0.025, "maxVerticalDistance": 28, "maxBlocksPerDepositChunk": 2},
+  "terrainThresholds": {
+    "mountainSurfaceY": 120,
+    "extremeSurfaceY": 190
+  },
+  "geometry": {
+    "regionSearchRadius": 1,
+    "maxIntendedBlocks": 100000,
+    "caveSearchRange": 24,
+    "richClusterMin": 3,
+    "richClusterMax": 8,
+    "exteriorCover": 3
+  },
+  "indicators": {
+    "enabled": true,
+    "chancePerDepositChunk": 0.025,
+    "maxVerticalDistance": 28,
+    "maxBlocksPerDepositChunk": 2
+  },
   "regionSize": 512,
   "majorAttemptChance": 0.65,
   "globalMinSpacing": 800,
@@ -146,11 +161,62 @@
     "ingotMb": 1000,
     "storageBlockMb": 9000,
     "lifetimeOutputTargetsIngots": {
-      "iron": [3000, 10000], "copper": [2000, 8000], "aluminum": [3000, 10000],
-      "magnesium": [2000, 6000], "zinc": [1000, 4000], "lead": [1000, 4000],
-      "nickel": [1000, 3000], "tin": [500, 2000], "titanium": [500, 2000],
-      "chromium": [500, 1500], "tungsten": [250, 1000], "silver": [250, 1000],
-      "gold": [100, 500], "platinum": [50, 250]
+      "iron": [
+        3000,
+        10000
+      ],
+      "copper": [
+        2000,
+        8000
+      ],
+      "aluminum": [
+        3000,
+        10000
+      ],
+      "magnesium": [
+        2000,
+        6000
+      ],
+      "zinc": [
+        1000,
+        4000
+      ],
+      "lead": [
+        1000,
+        4000
+      ],
+      "nickel": [
+        1000,
+        3000
+      ],
+      "tin": [
+        500,
+        2000
+      ],
+      "titanium": [
+        500,
+        2000
+      ],
+      "chromium": [
+        500,
+        1500
+      ],
+      "tungsten": [
+        250,
+        1000
+      ],
+      "silver": [
+        250,
+        1000
+      ],
+      "gold": [
+        100,
+        500
+      ],
+      "platinum": [
+        50,
+        250
+      ]
     },
     "unfinalizedYieldNote": "Targets are planning metadata, not block drops or recipes. Iron may exceed 10000. Osmium must support Mekanism; iridium may yield only tens over very large-scale processing. Low-yield/rich-rock recoverable mB and recovery efficiencies remain unassigned.",
     "provisional": {
@@ -173,5 +239,43 @@
     "placer": "All numeric placer occurrence rates, bank distance and counts are provisional.",
     "economy": "Only 1000 mB per ingot and 9000 mB per storage block are final; all other mB values are approximate approved concepts, not recipes.",
     "associated": "Cobalt poor/normal occurrence chances, Thorium's Uranium quantity, ordinary associated cluster sizes and diamond jackpot chance are provisional."
+  },
+  "worldStartStructures": {
+    "enabled": true
+  },
+  "worldStartAccurateTerrain": {
+    "enabled": true
+  },
+  "worldStartDragons": {
+    "enabled": true
+  },
+  "worldStartVeridium": {
+    "enabled": true
+  },
+  "worldStartResources": {
+    "enabled": true
+  },
+  "worldStartMineSelection": {
+    "enabled": true,
+    "chancePerVein": 0.1
+  },
+  "useNativeTerrainClassification": true,
+  "worldStartCaveLocations": {
+    "enabled": true
+  },
+  "worldStartCinnabar": {
+    "enabled": true,
+    "concentrationsPerRange": 1,
+    "minimumY": 200,
+    "coverage": 0.7,
+    "maximumThickness": 3,
+    "maximumWidth": 128,
+    "maximumAnchors": 1048576,
+    "maximumObservations": 1048576,
+    "terrainArtifactSHA256": "691d922125703fc652f5ee4b3369bc06ab935e4fb42f14cad7e0e52d79da47d4",
+    "mode": "local-biome-v1",
+    "maximumY": 300,
+    "localSpacing": 512,
+    "localChance": 0.25
   }
 }

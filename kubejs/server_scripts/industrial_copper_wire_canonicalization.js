@@ -1,13 +1,15 @@
+// Original recipe review: registrations retained below, temporarily inactive.
+function IC_originalRecipeReview_skip() {}
 // Industrial Colonies - canonical loose copper wire
 // TFMG owns the shared loose-wire material. Mod-specific spools, cables,
 // connectors, motors, and grid hardware remain separate progression systems.
 
-ServerEvents.tags('item', event => {
+IC_originalRecipeReview_skip('item', event => {
   event.removeAll('c:wires/copper')
   event.add('c:wires/copper', 'tfmg:copper_wire')
 })
 
-ServerEvents.recipes(event => {
+IC_originalRecipeReview_skip(event => {
   const removedCopperWireDuplicates = [
     'createaddition:rolling/copper_plate',
     'createdieselgenerators:compat/createaddition/copper_wire',

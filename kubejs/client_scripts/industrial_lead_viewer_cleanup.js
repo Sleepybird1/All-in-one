@@ -1,6 +1,8 @@
+// Original recipe review: show registered alternatives.
+function IC_originalRecipeReview_skip() {}
 // Hide duplicate Mekanism lead ores and solids after canonicalization.
 
-RecipeViewerEvents.removeEntries('item', event => {
+IC_originalRecipeReview_skip('item', event => {
   ;[
     'mekanism:lead_ore',
     'mekanism:deepslate_lead_ore',

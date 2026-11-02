@@ -1,0 +1,26 @@
+{
+  "branch": "industrial_colonies:tech_tree",
+  "costs": [
+    {
+      "item": "create:brass_ingot",
+      "count": 8
+    },
+    {
+      "item": "create:precision_mechanism",
+      "count": 2
+    }
+  ],
+  "icon": "create:fluid_pipe",
+  "name": "com.industrial_colonies.research.mechanical_foundations.cr01_liquid_tech.name",
+  "no-reset": true,
+  "researchLevel": 4,
+  "sortOrder": 9746,
+  "subtitle": "com.industrial_colonies.research.mechanical_foundations.cr01_liquid_tech.subtitle",
+  "parentResearch": "industrial_colonies:mechanical_foundations/the_brass_age",
+  "requirements": [
+    {
+      "type": "minecolonies:research",
+      "research": "industrial_colonies:mechanical_foundations/the_brass_age"
+    }
+  ]
+}

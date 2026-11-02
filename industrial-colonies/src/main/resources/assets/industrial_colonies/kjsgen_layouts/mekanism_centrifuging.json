@@ -1,0 +1,44 @@
+{
+  "id": "industrial_colonies:mekanism_centrifuging",
+  "mod": "mekanism",
+  "icon": "mekanism:isotopic_centrifuge",
+  "jei": "mekanism:centrifuging",
+  "width": 142,
+  "height": 64,
+  "slots": [
+    {
+      "key": "input",
+      "role": "INPUT",
+      "x": 10,
+      "y": 12,
+      "required": true,
+      "item": false,
+      "fluid": false,
+      "chemical": true,
+      "tag": true,
+      "count": true
+    },
+    {
+      "key": "output",
+      "role": "OUTPUT",
+      "x": 110,
+      "y": 12,
+      "required": true,
+      "item": false,
+      "fluid": false,
+      "chemical": true,
+      "tag": false,
+      "count": true
+    }
+  ],
+  "decorations": [
+    {
+      "type": "ARROW",
+      "x": 63,
+      "y": 27
+    }
+  ],
+  "parameters": [],
+  "codegen": "industrial_colonies:mekanism_machine",
+  "requiresMod": "mekanism"
+}

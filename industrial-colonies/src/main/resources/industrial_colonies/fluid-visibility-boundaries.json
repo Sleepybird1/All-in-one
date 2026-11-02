@@ -1,0 +1,368 @@
+[
+  {
+    "alias": "immersiveengineering:creosote",
+    "preferred": "tfmg:creosote",
+    "references": [
+      {
+        "id": "create:filling/compat/immersiveengineering/treated_wood_in_spout",
+        "class": "com.simibubi.create.content.fluids.transfer.FillingRecipe",
+        "sha256": "b96ba6799425ce6dd6860ebe17a361cbca3038951fb2b752dcece978beedf5fc",
+        "serializer": "create:filling",
+        "serverPacketSHA256": "8eef1199309b8754aa33118a30646f572e8e0841e08bb57313aaf3e76f93b848",
+        "packetSHA256": "8eef1199309b8754aa33118a30646f572e8e0841e08bb57313aaf3e76f93b848"
+      },
+      {
+        "id": "createaddition:liquid_burning/creosote",
+        "class": "com.mrh0.createaddition.recipe.liquid_burning.LiquidBurningRecipe",
+        "sha256": "d39037a937968826b7d6b96697bc45907f50e1de0c748a625cf943b68d17a28d",
+        "serializer": "createaddition:liquid_burning",
+        "serverPacketSHA256": "c6c5c86cca7b6b89e156c261df65aebfbce557695bcc037f6837ac6d5aff22a8",
+        "packetSHA256": "c6c5c86cca7b6b89e156c261df65aebfbce557695bcc037f6837ac6d5aff22a8"
+      },
+      {
+        "id": "immersiveengineering:bottling/graphite_electrode",
+        "class": "blusunrize.immersiveengineering.api.crafting.BottlingMachineRecipe",
+        "sha256": "8432b5ce59bcfd10fe2e0a5f9a7fda0f7f0a5955e9abbcc540e8401c56d41a63",
+        "serializer": "immersiveengineering:bottling_machine",
+        "serverPacketSHA256": "c61135de34baf155802f2c1d23a121103c999b6c710029e04fe893afb715d874",
+        "packetSHA256": "c61135de34baf155802f2c1d23a121103c999b6c710029e04fe893afb715d874"
+      },
+      {
+        "id": "immersiveengineering:bottling/plate_hop_graphite",
+        "class": "blusunrize.immersiveengineering.api.crafting.BottlingMachineRecipe",
+        "sha256": "d1c19762c8b1324c8474a849cdd0a05751da3c65a4d60c750a0f2aca7e084e18",
+        "serializer": "immersiveengineering:bottling_machine",
+        "serverPacketSHA256": "d588071df9bed118ab23859c31eceb53a5c4dc9e0004a595ad280236a861932c",
+        "packetSHA256": "d588071df9bed118ab23859c31eceb53a5c4dc9e0004a595ad280236a861932c"
+      },
+      {
+        "id": "immersiveengineering:crafting/torch",
+        "class": "blusunrize.immersiveengineering.common.crafting.fluidaware.BasicShapedRecipe",
+        "sha256": "b1293bbbd95affa52d2016250ee3b0e40ddd019cbfa03837c375a62be13fddca",
+        "serializer": "immersiveengineering:shaped_fluid",
+        "serverPacketSHA256": "b30e09f55342081049f3e1c5cf2535c94b3e475e00193424482b1e83d5b142fb",
+        "packetSHA256": "b30e09f55342081049f3e1c5cf2535c94b3e475e00193424482b1e83d5b142fb"
+      },
+      {
+        "id": "immersiveengineering:crafting/treated_wood_horizontal",
+        "class": "blusunrize.immersiveengineering.common.crafting.fluidaware.BasicShapedRecipe",
+        "sha256": "a7208340504aefe387b9e6c5a7856e7479af3f62037b159658c586029605b45e",
+        "serializer": "immersiveengineering:shaped_fluid",
+        "serverPacketSHA256": "40e4d967865442e541f90afb98933373e006b29c65c027e3a1b458ebbfc6c7d9",
+        "packetSHA256": "40e4d967865442e541f90afb98933373e006b29c65c027e3a1b458ebbfc6c7d9"
+      },
+      {
+        "id": "immersiveengineering:generator_fuel/creosote",
+        "class": "blusunrize.immersiveengineering.api.energy.GeneratorFuel",
+        "sha256": "cb5d963d0eb54d1570cb8390b477238385e4adc365b2c3845ba385924cd76076",
+        "serializer": "immersiveengineering:generator_fuel",
+        "serverPacketSHA256": "b1896231488ebd39943095ef577cfed4f07cd6b42c7a70cd6392f1381b4bda0d",
+        "packetSHA256": "b1896231488ebd39943095ef577cfed4f07cd6b42c7a70cd6392f1381b4bda0d"
+      },
+      {
+        "id": "immersiveengineering:refinery/resin",
+        "class": "blusunrize.immersiveengineering.api.crafting.RefineryRecipe",
+        "sha256": "73aa28268cac55ee542c1a942a917168e8d1c8a151f0da4428f5ec50ce7a8d2d",
+        "serializer": "immersiveengineering:refinery",
+        "serverPacketSHA256": "21ab3ed704b30255e506e5394c9c3414403b220539791547171f44cddd5c1a93",
+        "packetSHA256": "21ab3ed704b30255e506e5394c9c3414403b220539791547171f44cddd5c1a93"
+      },
+      {
+        "id": "modernfoundry:tools/materials/composite/treated_wood",
+        "class": "modernmods.modernfoundry.library.recipe.casting.material.MaterialFluidRecipe",
+        "sha256": "b20a19cea7aab236d5e46214560121bf83f6cfd2a68c610ad412ed7901c8c15f",
+        "serializer": "modernfoundry:material_fluid",
+        "serverPacketSHA256": "cf92a120f6da95b8c79ed2a6692d3651e18a4b71dd4a75ac23e7f9083631a667",
+        "packetSHA256": "378a5345a5abf872a0372a2bf97c717714be694db6d4ed1c97ab5a5687295f31"
+      },
+      {
+        "id": "tfmg:coking/charcoal",
+        "class": "com.drmangotea.tfmg.recipes.CokingRecipe",
+        "sha256": "0ed0695c3d83d115258af572f0eb1da62f17d89e8a500a110044334462bf7743",
+        "serializer": "tfmg:coking",
+        "serverPacketSHA256": "5ead7d136b81d05d799f33048fe709d55671bcee99b17aaa5b0a493fb6c5c6d8",
+        "packetSHA256": "5ead7d136b81d05d799f33048fe709d55671bcee99b17aaa5b0a493fb6c5c6d8"
+      },
+      {
+        "id": "tfmg:coking/coal",
+        "class": "com.drmangotea.tfmg.recipes.CokingRecipe",
+        "sha256": "24223b29c2dffe556196a59ecd88b1d32b9ef2fb07902545f1c6b1e3f1c4949c",
+        "serializer": "tfmg:coking",
+        "serverPacketSHA256": "8964faf321f39a2f4e282402b81667aceb56cb1dd2f1e3de81547f299a55882f",
+        "packetSHA256": "8964faf321f39a2f4e282402b81667aceb56cb1dd2f1e3de81547f299a55882f"
+      },
+      {
+        "id": "tfmg:engine_cylinder_cheap",
+        "class": "net.minecraft.world.item.crafting.ShapedRecipe",
+        "sha256": "77b72ddb8a6ae0b8a9f68ad172ceaecc45a4b099ed0adbc494b056a6032f9af9",
+        "serializer": "minecraft:crafting_shaped",
+        "serverPacketSHA256": "938c169d613fe25254d70a6ac9d9731e33a0c70e9026fedc8098ffcae40ffb2d",
+        "packetSHA256": "938c169d613fe25254d70a6ac9d9731e33a0c70e9026fedc8098ffcae40ffb2d"
+      },
+      {
+        "id": "tfmg:filling/hardened_planks",
+        "class": "com.simibubi.create.content.fluids.transfer.FillingRecipe",
+        "sha256": "a88b68a744f9d07f10780f9ee103a9af2217865171cb7818b63036060de06a9b",
+        "serializer": "create:filling",
+        "serverPacketSHA256": "d9f45daff3158ad3db6e9cff3e74f277df8204d20c73c73c041ca1bbf3489470",
+        "packetSHA256": "d9f45daff3158ad3db6e9cff3e74f277df8204d20c73c73c041ca1bbf3489470"
+      },
+      {
+        "id": "tfmg:hot_blast/hot_air",
+        "class": "com.drmangotea.tfmg.recipes.HotBlastRecipe",
+        "sha256": "1ed134224f3daee17ffe7aaff1bca7826733c9e8504381b421b68b566c80d3ab",
+        "serializer": "tfmg:hot_blast",
+        "serverPacketSHA256": "b9f74fc2f36a4a8fe99aadd18fca9f219ce2f9f1fdf684bd0fb40d262cccbbce",
+        "packetSHA256": "b9f74fc2f36a4a8fe99aadd18fca9f219ce2f9f1fdf684bd0fb40d262cccbbce"
+      }
+    ]
+  },
+  {
+    "alias": "modernfoundry:honey",
+    "preferred": "create:honey",
+    "references": [
+      {
+        "id": "create:compacting/honey",
+        "class": "com.simibubi.create.content.kinetics.mixer.CompactingRecipe",
+        "sha256": "59baa72fff3a017c39145e3f12358f3b2c54e038f9e0efb6ab28d34dba79018a",
+        "serializer": "create:compacting",
+        "serverPacketSHA256": "9bd72d61a6d680d9bcb095de90a2b9df42016d774a8d5bf5c4c48f46f60e2cf8",
+        "packetSHA256": "9bd72d61a6d680d9bcb095de90a2b9df42016d774a8d5bf5c4c48f46f60e2cf8"
+      },
+      {
+        "id": "create:emptying/honey_bottle",
+        "class": "com.simibubi.create.content.fluids.transfer.EmptyingRecipe",
+        "sha256": "0796efee4fdca4b3386d6f714bcde95c0957cf51bcffffd0f0b8f138a24c0623",
+        "serializer": "create:emptying",
+        "serverPacketSHA256": "4a2378ee83682662eab1a623e16f43acbe2903521f171a4ee2c3b463679df0b1",
+        "packetSHA256": "4a2378ee83682662eab1a623e16f43acbe2903521f171a4ee2c3b463679df0b1"
+      },
+      {
+        "id": "create:filling/honey_bottle",
+        "class": "com.simibubi.create.content.fluids.transfer.FillingRecipe",
+        "sha256": "324052e0c2eff59e44fa1c401bcb98a702ae4ac5885dff61ef8af8fb4db4fee6",
+        "serializer": "create:filling",
+        "serverPacketSHA256": "735d1e1a3706545a9b0078f9cfb6ceace5996ae86f4a3e8a3b95ac5979062448",
+        "packetSHA256": "735d1e1a3706545a9b0078f9cfb6ceace5996ae86f4a3e8a3b95ac5979062448"
+      },
+      {
+        "id": "create:filling/honeyed_apple",
+        "class": "com.simibubi.create.content.fluids.transfer.FillingRecipe",
+        "sha256": "e345bdb5f4b9fd79e589311e1cfce8b3032482abd808e2141724f8b5ed1983b5",
+        "serializer": "create:filling",
+        "serverPacketSHA256": "fd8166a9f1c66e6cc2999214085e84ce283c5d0d1efb23f9b0d62f235dba7b38",
+        "packetSHA256": "fd8166a9f1c66e6cc2999214085e84ce283c5d0d1efb23f9b0d62f235dba7b38"
+      },
+      {
+        "id": "create:mixing/honey",
+        "class": "com.simibubi.create.content.kinetics.mixer.MixingRecipe",
+        "sha256": "7c3670d25f8177f7ee362d63d1f9764ddb568e80e223b5249a4d2b141edbeb84",
+        "serializer": "create:mixing",
+        "serverPacketSHA256": "5b19a98d927bbe332d525347822ecd0b4be5cd89ec9c531163dfab11abdff0b4",
+        "packetSHA256": "5b19a98d927bbe332d525347822ecd0b4be5cd89ec9c531163dfab11abdff0b4"
+      },
+      {
+        "id": "create_factory:honey_glazed_berries",
+        "class": "com.simibubi.create.content.fluids.transfer.FillingRecipe",
+        "sha256": "2bcb7a8acb85e06038ada13ebecabb4a6cbf0e50b126df84f061da808af541a3",
+        "serializer": "create:filling",
+        "serverPacketSHA256": "100154d2e7f4f94406da60d8cd07ca26188205d7ba4710a35885a2d9fd8d3cbd",
+        "packetSHA256": "100154d2e7f4f94406da60d8cd07ca26188205d7ba4710a35885a2d9fd8d3cbd"
+      },
+      {
+        "id": "create_factory:honey_roll",
+        "class": "com.simibubi.create.content.fluids.transfer.FillingRecipe",
+        "sha256": "cb5c6daa7e0b8e358a8673e504b687eeaf32d913f259831e4d45c47fdd854d77",
+        "serializer": "create:filling",
+        "serverPacketSHA256": "d95a31c601011df09ec64112e9fc87602dc784f8baa4a67b2ec6ee80f9b6e9e9",
+        "packetSHA256": "d95a31c601011df09ec64112e9fc87602dc784f8baa4a67b2ec6ee80f9b6e9e9"
+      },
+      {
+        "id": "create_factory:honey_waffle",
+        "class": "com.simibubi.create.content.fluids.transfer.FillingRecipe",
+        "sha256": "5f732d531c9c93636b017ff69fa623c1f79f12989ba09c6e89ba85d44090338e",
+        "serializer": "create:filling",
+        "serverPacketSHA256": "6b10a0c1b79a3dc9c7099df79b34cd8c63894417c62be540e597bff00f52ddfe",
+        "packetSHA256": "6b10a0c1b79a3dc9c7099df79b34cd8c63894417c62be540e597bff00f52ddfe"
+      },
+      {
+        "id": "createaddition:filling/honey_cake",
+        "class": "com.simibubi.create.content.fluids.transfer.FillingRecipe",
+        "sha256": "d92fc5527017b77ec1473f0f89c3c75e8b9f0973a84b2724f793f72db17fb729",
+        "serializer": "create:filling",
+        "serverPacketSHA256": "b1efb630b7c906eca2108e6acc76f54f8353fdde43c5d704ca3d53ab506a3f8a",
+        "packetSHA256": "b1efb630b7c906eca2108e6acc76f54f8353fdde43c5d704ca3d53ab506a3f8a"
+      },
+      {
+        "id": "createlowheated:mixing/farmersdelight/honey_cookie",
+        "class": "com.simibubi.create.content.kinetics.mixer.MixingRecipe",
+        "sha256": "7598707450a24a9cc5462aa8a4441e82ab16e0693c1a8c504724efdbae4729d8",
+        "serializer": "create:mixing",
+        "serverPacketSHA256": "23d8ed310485068eb613e596c93187f991eb82a958249efe50f517528d0655eb",
+        "packetSHA256": "23d8ed310485068eb613e596c93187f991eb82a958249efe50f517528d0655eb"
+      },
+      {
+        "id": "createlowheated:mixing/honey",
+        "class": "com.simibubi.create.content.kinetics.mixer.MixingRecipe",
+        "sha256": "e3ba9c92ce17efe30ff9e17b51cbb62e12d2b4ac6a4f66e5f8303e4b63c58ff4",
+        "serializer": "create:mixing",
+        "serverPacketSHA256": "56391ba95b7c9bb1a1b501e875c8de80934ebe53e7bce4da6792c23fa1786a61",
+        "packetSHA256": "56391ba95b7c9bb1a1b501e875c8de80934ebe53e7bce4da6792c23fa1786a61"
+      },
+      {
+        "id": "modernfoundry:smeltery/alloys/molten_pig_iron",
+        "class": "modernmods.modernfoundry.library.recipe.alloying.AlloyRecipe",
+        "sha256": "ecde4e9f3faa16a8f96f91ac6bd31053f4efa960ea90d9ee365fb4479b3b75d8",
+        "serializer": "modernfoundry:alloy",
+        "serverPacketSHA256": "bac74ad45257c71c5ace706d0efaccee0d61d16f2fe08ebad694edbc871ded40",
+        "packetSHA256": "9ca1f8bfc1524271af422b4c72cee70be483c75864459816747f5d96487c3102"
+      },
+      {
+        "id": "modernfoundry:smeltery/casting/honey/block",
+        "class": "modernmods.modernfoundry.library.recipe.casting.ItemCastingRecipe",
+        "sha256": "496296579b2f88f22fb2b4f2ae0f4926691393dc8c94b6c0d687477b3a57298e",
+        "serializer": "modernfoundry:casting_basin",
+        "serverPacketSHA256": "05a564a7985048bfd181257d978748a86e21f8af252a6cc38b458d8f787aceab",
+        "packetSHA256": "e84a121a9e6e29832b33a6432c9711664fd0939ce059867fca5577ba6d347cff"
+      },
+      {
+        "id": "modernfoundry:smeltery/casting/honey/bottle",
+        "class": "modernmods.modernfoundry.library.recipe.casting.ItemCastingRecipe",
+        "sha256": "7b6750fe8dd4dd41e56037da86820d6de75e0a93075cf475ee61fb879fd116d3",
+        "serializer": "modernfoundry:casting_table",
+        "serverPacketSHA256": "efbcbc83d9481e093b67453d91bc8f3fa531ce80ddea8477653da5bb98a35926",
+        "packetSHA256": "56199b9cf1dbc1ef3da033247f2f75bd33d1ab5faafd6c12e4040a4fe9f4b1e3"
+      },
+      {
+        "id": "modernfoundry:smeltery/entity_melting/bee",
+        "class": "modernmods.modernfoundry.library.recipe.entitymelting.EntityMeltingRecipe",
+        "sha256": "7ba5169b7fa241f94cdb58f95ff72de767fb6cd9ccd3d38485029c4401158e3e",
+        "serializer": "modernfoundry:entity_melting",
+        "serverPacketSHA256": "a56f15a0103fb61010e2e15b421cd09f49b5b6698aa4f6c6f7ff90f5f244dd17",
+        "packetSHA256": "a56f15a0103fb61010e2e15b421cd09f49b5b6698aa4f6c6f7ff90f5f244dd17"
+      },
+      {
+        "id": "modernfoundry:smeltery/melting/slime/honey_block",
+        "class": "modernmods.modernfoundry.library.recipe.melting.MeltingRecipe",
+        "sha256": "c4e3ae774e84d530e80f41c179229dda1534ca8061beb49fdbd7abc55796d9f0",
+        "serializer": "modernfoundry:melting",
+        "serverPacketSHA256": "7532af9665e50ff183306f3b8603469d41de5441033194b2fc935756ddb27234",
+        "packetSHA256": "7532af9665e50ff183306f3b8603469d41de5441033194b2fc935756ddb27234"
+      },
+      {
+        "id": "simulated:filling/honey_glue",
+        "class": "com.simibubi.create.content.fluids.transfer.FillingRecipe",
+        "sha256": "004fd5be9f5fdefee237a4ccffc63fc197d6b1a507bf49ce19d50914835d32f7",
+        "serializer": "create:filling",
+        "serverPacketSHA256": "02c9e63506ed73581bdbc2e157986d8c9e77df919688d11dd972481ecad16652",
+        "packetSHA256": "02c9e63506ed73581bdbc2e157986d8c9e77df919688d11dd972481ecad16652"
+      },
+      {
+        "id": "vsie:mixing/electro_magnet_rail",
+        "class": "com.simibubi.create.content.kinetics.mixer.MixingRecipe",
+        "sha256": "7d96248ea7a8d0368bab55ea1e337d5d13d9db3d3cc9f785bdc842e74eea6d1b",
+        "serializer": "create:mixing",
+        "serverPacketSHA256": "d4ce6766b4276b81350d585edc2fc2ad0fa090996dab63bd441b4d35cb5b53a4",
+        "packetSHA256": "d4ce6766b4276b81350d585edc2fc2ad0fa090996dab63bd441b4d35cb5b53a4"
+      }
+    ]
+  },
+  {
+    "alias": "nuclearcraft:neon",
+    "preferred": "tfmg:neon",
+    "references": [
+      {
+        "id": "tfmg:crafting/materials/neon_tube",
+        "class": "net.minecraft.world.item.crafting.ShapedRecipe",
+        "sha256": "1ad3bbd442a0a7d5423c0c9d6ccc06f029cca2e5267a869912cfd4f46b69be89",
+        "serializer": "minecraft:crafting_shaped",
+        "serverPacketSHA256": "62434710e1bf071af5404364e592f267ba90e0f6e7a6be8493b90a32bf797840",
+        "packetSHA256": "62434710e1bf071af5404364e592f267ba90e0f6e7a6be8493b90a32bf797840"
+      },
+      {
+        "id": "tfmg:filling/neon_tank",
+        "class": "com.simibubi.create.content.fluids.transfer.FillingRecipe",
+        "sha256": "7d30f56af46cf0660ef6f13ad781d43bf74d3ed70efb33bc2b07e68ddc00e915",
+        "serializer": "create:filling",
+        "serverPacketSHA256": "cf8e788e4b5f41477e6200531b71b91dbc7b9574f4f96474790fbabc36599613",
+        "packetSHA256": "cf8e788e4b5f41477e6200531b71b91dbc7b9574f4f96474790fbabc36599613"
+      },
+      {
+        "id": "tfmg:vat_machine_recipe/neon",
+        "class": "com.drmangotea.tfmg.recipes.VatMachineRecipe",
+        "sha256": "aa04f6d9fe9fd5ad418829f4add2c571339ff7fcf928e646a32ae0288c325274",
+        "serializer": "tfmg:vat_machine_recipe",
+        "serverPacketSHA256": "14168b22f7034313403675b24e51e0b24518385bf97e74cd5b0355e08e719265",
+        "packetSHA256": "14168b22f7034313403675b24e51e0b24518385bf97e74cd5b0355e08e719265"
+      }
+    ]
+  },
+  {
+    "alias": "nuclearcraft:chlorine",
+    "preferred": "mekanism:chlorine",
+    "references": [
+      {
+        "id": "mekanism:chemical_infusing/hydrogen_chloride",
+        "class": "mekanism.api.recipes.basic.BasicChemicalInfuserRecipe",
+        "sha256": "54334c43ee28ba3ab0e50cec6165f5e3de19aa4b4b37a6d3342b3d888ae3dff7",
+        "serializer": "mekanism:chemical_infusing",
+        "serverPacketSHA256": "171b41c80b46e6b0f9fccab333e46e841333b2d0cb03c479fb8d2c38b5d0fd0d",
+        "packetSHA256": "171b41c80b46e6b0f9fccab333e46e841333b2d0cb03c479fb8d2c38b5d0fd0d"
+      },
+      {
+        "id": "mekanism:rotary/chlorine",
+        "class": "mekanism.api.recipes.basic.BasicRotaryRecipe",
+        "sha256": "997d94391e556d40ca98ead9d7e7c0f97e90aa09e6ed0c121dd91e0ecbb4fa20",
+        "serializer": "mekanism:rotary",
+        "serverPacketSHA256": "c44cbf46905e4e420d2d91eeba99dce8de52736a6700cc17764403418ebf332e",
+        "packetSHA256": "c44cbf46905e4e420d2d91eeba99dce8de52736a6700cc17764403418ebf332e"
+      },
+      {
+        "id": "mekanism:separator/brine",
+        "class": "mekanism.api.recipes.basic.BasicElectrolysisRecipe",
+        "sha256": "29cc40761e95d6b507725e985666cd44f61e8a9743c65c90616755cf39e596d2",
+        "serializer": "mekanism:separating",
+        "serverPacketSHA256": "fa4799f27c5e90736fd06a61229c18e8007e29d16e2a160ea0d930595cb8ef6d",
+        "packetSHA256": "fa4799f27c5e90736fd06a61229c18e8007e29d16e2a160ea0d930595cb8ef6d"
+      }
+    ]
+  },
+  {
+    "alias": "nuclearcraft:ethene",
+    "preferred": "mekanism:ethene",
+    "references": [
+      {
+        "id": "mekanism:reaction/substrate/ethene_oxygen",
+        "class": "mekanism.api.recipes.basic.BasicPressurizedReactionRecipe",
+        "sha256": "4b6022cf49a1b79cad094ec54affd16f5e2c59e38712595437d1ec96cc27ee99",
+        "serializer": "mekanism:reaction",
+        "serverPacketSHA256": "dd8d09a9d8970b5f58637fbc447569e426ee225072700f0c1729d0140626cc1a",
+        "packetSHA256": "dd8d09a9d8970b5f58637fbc447569e426ee225072700f0c1729d0140626cc1a"
+      },
+      {
+        "id": "mekanism:reaction/substrate/water_ethene",
+        "class": "mekanism.api.recipes.basic.BasicPressurizedReactionRecipe",
+        "sha256": "f95fa8b66b9ede6043b4bfdf8c596217bb39b2c3c8887f5d1d41cd0d0f2a19d9",
+        "serializer": "mekanism:reaction",
+        "serverPacketSHA256": "a4377150290576d23ba94b8e1abe1bee48110940d67bded962b9c26d6822ea42",
+        "packetSHA256": "a4377150290576d23ba94b8e1abe1bee48110940d67bded962b9c26d6822ea42"
+      },
+      {
+        "id": "mekanism:reaction/substrate/water_hydrogen",
+        "class": "mekanism.api.recipes.basic.BasicPressurizedReactionRecipe",
+        "sha256": "d13034ce80c6cd052f2491800e2924df0134920a6b5ddadb1706c1c4824c1edd",
+        "serializer": "mekanism:reaction",
+        "serverPacketSHA256": "5be6f3f0208e42c55214ad494345b8e8e5c87ef0dd834e44afc779f195feaf79",
+        "packetSHA256": "5be6f3f0208e42c55214ad494345b8e8e5c87ef0dd834e44afc779f195feaf79"
+      },
+      {
+        "id": "mekanism:rotary/ethene",
+        "class": "mekanism.api.recipes.basic.BasicRotaryRecipe",
+        "sha256": "22f5b954a2d6ecea3163a4963a7b0a1bf51d5155aa8cba7b7fb28a6c61d2b98d",
+        "serializer": "mekanism:rotary",
+        "serverPacketSHA256": "7593a5ef32cf2826db6046c0ec542e9a52396a4ea5e5aa69776b7cb4d46641f6",
+        "packetSHA256": "7593a5ef32cf2826db6046c0ec542e9a52396a4ea5e5aa69776b7cb4d46641f6"
+      }
+    ]
+  }
+]

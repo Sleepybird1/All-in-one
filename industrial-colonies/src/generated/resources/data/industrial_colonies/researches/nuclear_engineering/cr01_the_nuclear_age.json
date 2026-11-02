@@ -1,0 +1,38 @@
+{
+  "branch": "industrial_colonies:tech_tree",
+  "costs": [
+    {
+      "item": "createdieselgenerators:huge_diesel_engine",
+      "count": 1
+    },
+    {
+      "item": "allthemodium:vibranium_plate",
+      "count": 4
+    },
+    {
+      "item": "mekanism:ultimate_control_circuit",
+      "count": 4
+    }
+  ],
+  "icon": "create:chromatic_compound",
+  "name": "com.industrial_colonies.research.nuclear_engineering.cr01_the_nuclear_age.name",
+  "no-reset": true,
+  "researchLevel": 2,
+  "sortOrder": 10002,
+  "subtitle": "com.industrial_colonies.research.nuclear_engineering.cr01_the_nuclear_age.subtitle",
+  "parentResearch": "industrial_colonies:nuclear_engineering/cr01_yellorium_refinement",
+  "requirements": [
+    {
+      "type": "minecolonies:research",
+      "research": "industrial_colonies:petroleum_and_engines/cr01_heavy_diesel_engines"
+    },
+    {
+      "type": "minecolonies:research",
+      "research": "industrial_colonies:factory_engineering/cr01_high_energy_distribution"
+    },
+    {
+      "type": "minecolonies:research",
+      "research": "industrial_colonies:nuclear_engineering/cr01_yellorium_refinement"
+    }
+  ]
+}

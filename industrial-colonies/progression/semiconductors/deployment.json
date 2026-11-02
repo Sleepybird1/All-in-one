@@ -1,0 +1,27 @@
+{
+  "status": "APPLIED",
+  "revision": "r2",
+  "files": {
+    "kjsgen/projects/default.json": {
+      "before": "ee9bb6d93f514acc3e344bf93bf1049f58e5bea03e6e6fbdb65dad4a6002e77a",
+      "after": "f65f4534c4a8fe34a602547bcd1a9a02ac0b06fa02c130faa7c9f04017e34038"
+    },
+    "kubejs/server_scripts/kjsgen_recipes.js": {
+      "before": "d237918276b5e093b81c2b68ecd26f5e7fd3db87d1ffedb577b9f218d51178eb",
+      "after": "d5755646573f188fe0d6a53a8ba02fd275896a85850204364fe18c34610ff50c"
+    },
+    "kubejs/server_scripts/zzzz_industrial_semiconductors.js": {
+      "before": null,
+      "after": "8e78ad35ef094916a56ac5fdffbb9a92b01f604c7580ccd0b248b55cd7432bf6"
+    }
+  },
+  "jarUnchanged": "d1a60ce6f8869b7c1197eae9d0d2879b8599a38bc34c064d878475e8594efa2e",
+  "savesTouched": false,
+  "backup": "C:\\Users\\GodPC\\curseforge\\minecraft\\Instances\\All in one\\_industrial_colonies_backups\\semiconductors-20260910-220952",
+  "written": [
+    "kjsgen/projects/default.json",
+    "kubejs/server_scripts/kjsgen_recipes.js",
+    "kubejs/server_scripts/zzzz_industrial_semiconductors.js"
+  ],
+  "appliedAt": "2026-09-10T22:09:52.962533-04:00"
+}

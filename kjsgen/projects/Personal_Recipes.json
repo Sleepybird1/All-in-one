@@ -1,0 +1,2440 @@
+{
+  "format": 1,
+  "name": "Personal Recipes",
+  "defaultTargetFile": "kjsgen_recipes",
+  "exportComments": true,
+  "reloadOnExport": false,
+  "recipes": [
+    {
+      "uid": "a11c982f-a80f-41f6-8a95-fc1686e45b8c",
+      "type": "kjsgen:shaped",
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "create:whisk"
+        },
+        "in1": {
+          "kind": "ITEM",
+          "id": "create:zinc_ingot"
+        },
+        "in4": {
+          "kind": "ITEM",
+          "id": "create:zinc_ingot"
+        },
+        "in3": {
+          "kind": "ITEM",
+          "id": "createcasing:andesite_sheet"
+        },
+        "in5": {
+          "kind": "ITEM",
+          "id": "createcasing:andesite_sheet"
+        },
+        "in6": {
+          "kind": "ITEM",
+          "id": "createcasing:andesite_sheet"
+        },
+        "in7": {
+          "kind": "ITEM",
+          "id": "createcasing:andesite_sheet"
+        },
+        "in8": {
+          "kind": "ITEM",
+          "id": "createcasing:andesite_sheet"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "f9b5f021-c117-4301-81b5-bfe40e397167",
+      "type": "kjsgen:shaped",
+      "slots": {
+        "in0": {
+          "kind": "ITEM",
+          "id": "create:zinc_nugget"
+        },
+        "in1": {
+          "kind": "ITEM",
+          "id": "minecraft:andesite"
+        },
+        "in3": {
+          "kind": "ITEM",
+          "id": "minecraft:andesite"
+        },
+        "in4": {
+          "kind": "ITEM",
+          "id": "create:zinc_nugget"
+        },
+        "output": {
+          "kind": "ITEM",
+          "id": "create:andesite_alloy"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "9cae5c3e-65de-4598-9d14-b3743df86a48",
+      "type": "kjsgen:create_sequenced_assembly",
+      "slots": {
+        "output0": {
+          "kind": "ITEM",
+          "id": "tfmg:cast_iron_frame"
+        },
+        "input": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:sheetmetal_iron"
+        },
+        "transitional": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:sheetmetal_iron"
+        },
+        "seqItem1": {
+          "kind": "ITEM",
+          "id": "tfmg:cast_iron_sheet"
+        },
+        "seqItem2": {
+          "kind": "ITEM",
+          "id": "createbigcannons:cast_iron_ingot"
+        },
+        "seqItem4": {
+          "kind": "ITEM",
+          "id": "createaddition:iron_rod"
+        },
+        "seqItem6": {
+          "kind": "ITEM",
+          "id": "createaddition:iron_rod"
+        }
+      },
+      "params": {
+        "__seqLen": "9",
+        "seq0": "cutting",
+        "seq1": "deploying",
+        "seq2": "deploying",
+        "seq3": "pressing",
+        "seq4": "deploying",
+        "seq5": "cutting",
+        "seq6": "deploying",
+        "seq7": "pressing",
+        "seq8": "blasting",
+        "icSeq0Ticks": "20",
+        "icSeq0Heat": "none",
+        "icSeq5Ticks": "20",
+        "icSeq5Heat": "none"
+      }
+    },
+    {
+      "uid": "ef05a8f3-fad2-4e0f-81a8-1c9b93ddde7c",
+      "type": "kjsgen:create_sequenced_assembly",
+      "recipeId": "industrial_colonies:drafts/cast_iron/coal_batch_20260926",
+      "comment": "DRAFT coal_batch: 2 iron ingots -\u003e 1 cast-iron ingot, mined coal and longer mixing but better recovery. Low Heated mixing with carbon, then unheated compacting with 250 mB water. Game abstraction, not a metallurgical simulation. Foundry iron first, then basic Create mixer/press and Low Heated basic burner (3 andesite alloy; flint and steel ignition). No Weathered machinery or Blaze required by this draft. Ordinary iron carrier retains appearance; native progress identifies it. TFMG output does not replace the Personal frame literal CBC ingot. Visual review only, no gameplay export. Full survival bootstrap and client acceptance remain unverified.",
+      "replaceRecipe": false,
+      "slots": {
+        "input": {
+          "kind": "ITEM",
+          "id": "minecraft:iron_ingot"
+        },
+        "transitional": {
+          "kind": "ITEM",
+          "id": "minecraft:iron_ingot"
+        },
+        "output0": {
+          "kind": "ITEM",
+          "id": "tfmg:cast_iron_ingot"
+        },
+        "__machine_step_0_mixing": {
+          "kind": "ITEM",
+          "id": "create:mechanical_mixer"
+        },
+        "__machine_step_1_compacting": {
+          "kind": "ITEM",
+          "id": "create:mechanical_press"
+        },
+        "icSeq0Extra0": {
+          "kind": "ITEM",
+          "id": "minecraft:coal"
+        },
+        "icSeq1Extra0": {
+          "kind": "FLUID",
+          "id": "minecraft:water",
+          "amount": 250
+        },
+        "icSeq0Extra1": {
+          "kind": "ITEM",
+          "id": "minecraft:iron_ingot"
+        },
+        "icSeq0Extra2": {
+          "kind": "ITEM",
+          "id": "minecraft:fire_charge"
+        }
+      },
+      "params": {
+        "__seqLen": "2",
+        "seq0": "mixing",
+        "seq1": "compacting",
+        "loops": "1",
+        "icSeq0Heat": "lowheated",
+        "icSeq0Ticks": "1000",
+        "icSeq1Heat": "none",
+        "icSeq1Ticks": "200"
+      }
+    },
+    {
+      "uid": "4db13837-154b-59f5-b9d4-b82c46b8832b",
+      "type": "kjsgen:create_mechanical_crafting",
+      "recipeId": "industrial_colonies:manufacturing/weathered_iron/deployer",
+      "comment": "[Pre-semiconductor ownership] Mechanical components precede final factory assembly.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "createcasing:weathered_iron_deployer"
+        },
+        "cell_0_0": {
+          "kind": "ITEM",
+          "id": "create:electron_tube"
+        },
+        "cell_4_1": {
+          "kind": "ITEM",
+          "id": "create:brass_hand"
+        },
+        "cell_3_1": {
+          "kind": "ITEM",
+          "id": "createaddition:iron_rod"
+        },
+        "cell_2_1": {
+          "kind": "ITEM",
+          "id": "tfmg:cast_iron_frame"
+        },
+        "cell_1_1": {
+          "kind": "ITEM",
+          "id": "create:deployer"
+        },
+        "cell_4_2": {
+          "kind": "ITEM",
+          "id": "tfmg:cast_iron_sheet"
+        },
+        "cell_4_0": {
+          "kind": "ITEM",
+          "id": "tfmg:cast_iron_sheet"
+        },
+        "cell_3_0": {
+          "kind": "ITEM",
+          "id": "minecraft:redstone"
+        },
+        "cell_3_2": {
+          "kind": "ITEM",
+          "id": "minecraft:redstone"
+        },
+        "cell_2_2": {
+          "kind": "ITEM",
+          "id": "tfmg:copper_wire"
+        },
+        "cell_2_0": {
+          "kind": "ITEM",
+          "id": "tfmg:copper_wire"
+        },
+        "cell_0_2": {
+          "kind": "ITEM",
+          "id": "create:electron_tube"
+        },
+        "cell_1_0": {
+          "kind": "ITEM",
+          "id": "create:precision_mechanism"
+        },
+        "cell_1_2": {
+          "kind": "ITEM",
+          "id": "createmechanisms:zinc_mechanism"
+        }
+      },
+      "params": {
+        "gridW": "3",
+        "gridH": "5"
+      }
+    },
+    {
+      "uid": "6aa81d1a-b387-45cc-aa40-8192fb8efe25",
+      "type": "kjsgen:shaped",
+      "slots": {
+        "in1": {
+          "kind": "ITEM",
+          "id": "create:shaft"
+        },
+        "in6": {
+          "kind": "ITEM",
+          "id": "create:andesite_alloy"
+        },
+        "in7": {
+          "kind": "ITEM",
+          "id": "create:andesite_casing"
+        },
+        "in8": {
+          "kind": "ITEM",
+          "id": "create:andesite_alloy"
+        },
+        "output": {
+          "kind": "ITEM",
+          "id": "createaddition:rolling_mill"
+        },
+        "in2": {
+          "kind": "ITEM",
+          "id": "create:iron_sheet"
+        },
+        "in0": {
+          "kind": "ITEM",
+          "id": "create:iron_sheet"
+        },
+        "in4": {
+          "kind": "ITEM",
+          "id": "create:shaft"
+        },
+        "in3": {
+          "kind": "ITEM",
+          "id": "create:cogwheel"
+        },
+        "in5": {
+          "kind": "ITEM",
+          "id": "create:cogwheel"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "35042bf4-d573-4391-8091-4b15e9c6725a",
+      "type": "kjsgen:shaped",
+      "slots": {
+        "in1": {
+          "kind": "ITEM",
+          "id": "create:shaft"
+        },
+        "in4": {
+          "kind": "ITEM",
+          "id": "create:andesite_casing"
+        },
+        "output": {
+          "kind": "ITEM",
+          "id": "create:mechanical_press"
+        },
+        "in7": {
+          "kind": "ITEM",
+          "id": "create:andesite_alloy_block"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "d2e95693-e6f2-4380-8a3b-5b5c0ba06b88",
+      "type": "kjsgen:create_mechanical_crafting",
+      "recipeId": "industrial_colonies:drafts/weathered_iron/fan_spacious_5x5_20260926",
+      "comment": "DRAFT fan comparison: spacious_5x5. Cast frame at exact center; paired shaft drive, mirrored rod supports and cast-sheet housing, basic fan above and propeller below. Same bill as other comparison; intentional air gaps. No circuit/wire filler. Visual review only; shared frame/bootstrap remains to verify.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "createcasing:weathered_iron_encased_fan"
+        },
+        "cell_0_0": {
+          "kind": "ITEM",
+          "id": "tfmg:cast_iron_sheet"
+        },
+        "cell_0_4": {
+          "kind": "ITEM",
+          "id": "tfmg:cast_iron_sheet"
+        },
+        "cell_2_2": {
+          "kind": "ITEM",
+          "id": "tfmg:cast_iron_frame"
+        },
+        "cell_4_0": {
+          "kind": "ITEM",
+          "id": "tfmg:cast_iron_sheet"
+        },
+        "cell_4_4": {
+          "kind": "ITEM",
+          "id": "tfmg:cast_iron_sheet"
+        },
+        "cell_1_2": {
+          "kind": "ITEM",
+          "id": "create:encased_fan"
+        },
+        "cell_2_1": {
+          "kind": "ITEM",
+          "id": "create:propeller"
+        },
+        "cell_2_3": {
+          "kind": "ITEM",
+          "id": "create:propeller"
+        },
+        "cell_3_2": {
+          "kind": "ITEM",
+          "id": "createaddition:electric_motor"
+        },
+        "cell_3_3": {
+          "kind": "ITEM",
+          "id": "createaddition:iron_rod"
+        },
+        "cell_1_3": {
+          "kind": "ITEM",
+          "id": "createaddition:iron_rod"
+        },
+        "cell_1_1": {
+          "kind": "ITEM",
+          "id": "createaddition:iron_rod"
+        },
+        "cell_3_1": {
+          "kind": "ITEM",
+          "id": "createaddition:iron_rod"
+        },
+        "cell_2_0": {
+          "kind": "ITEM",
+          "id": "create:shaft"
+        },
+        "cell_2_4": {
+          "kind": "ITEM",
+          "id": "create:shaft"
+        },
+        "cell_4_2": {
+          "kind": "ITEM",
+          "id": "create:precision_mechanism"
+        },
+        "cell_1_0": {
+          "kind": "ITEM",
+          "id": "create:electron_tube"
+        },
+        "cell_0_2": {
+          "kind": "ITEM",
+          "id": "createmechanisms:zinc_mechanism"
+        },
+        "cell_1_4": {
+          "kind": "ITEM",
+          "id": "create:electron_tube"
+        },
+        "cell_4_1": {
+          "kind": "ITEM",
+          "id": "tfmg:copper_wire"
+        },
+        "cell_4_3": {
+          "kind": "ITEM",
+          "id": "tfmg:copper_wire"
+        },
+        "cell_0_3": {
+          "kind": "ITEM",
+          "id": "tfmg:copper_wire"
+        },
+        "cell_0_1": {
+          "kind": "ITEM",
+          "id": "tfmg:copper_wire"
+        }
+      },
+      "params": {
+        "gridW": "5",
+        "gridH": "5"
+      }
+    },
+    {
+      "uid": "f8354d44-4ad8-434f-b916-8179cafcc412",
+      "type": "kjsgen:create_mechanical_crafting",
+      "recipeId": "industrial_colonies:drafts/weathered_iron/press_review_20260926",
+      "comment": "DRAFT - visual review only. 3x4 supported ram: geared upper bridge, guided basic press, heavy iron head between cast frames, broad plate base. Uses existing cast-frame/basic-machine chain; first cast-sheet and crafter access still require progression review. No stress multiplier assigned.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "createcasing:weathered_iron_press"
+        },
+        "cell_0_2": {
+          "kind": "ITEM",
+          "id": "create:electron_tube"
+        },
+        "cell_0_0": {
+          "kind": "ITEM",
+          "id": "create:electron_tube"
+        },
+        "cell_1_1": {
+          "kind": "ITEM",
+          "id": "create:mechanical_press"
+        },
+        "cell_0_1": {
+          "kind": "ITEM",
+          "id": "create:precision_mechanism"
+        },
+        "cell_3_0": {
+          "kind": "ITEM",
+          "id": "tfmg:cast_iron_sheet"
+        },
+        "cell_3_2": {
+          "kind": "ITEM",
+          "id": "tfmg:cast_iron_sheet"
+        },
+        "cell_4_1": {
+          "kind": "ITEM",
+          "id": "minecraft:iron_block"
+        },
+        "cell_2_1": {
+          "kind": "ITEM",
+          "id": "tfmg:cast_iron_frame"
+        },
+        "cell_3_1": {
+          "kind": "ITEM",
+          "id": "createaddition:iron_rod"
+        },
+        "cell_4_2": {
+          "kind": "ITEM",
+          "id": "tfmg:cast_iron_sheet"
+        },
+        "cell_4_0": {
+          "kind": "ITEM",
+          "id": "tfmg:cast_iron_sheet"
+        },
+        "cell_1_2": {
+          "kind": "ITEM",
+          "id": "minecraft:iron_ingot"
+        },
+        "cell_1_0": {
+          "kind": "ITEM",
+          "id": "minecraft:iron_ingot"
+        },
+        "cell_2_0": {
+          "kind": "ITEM",
+          "id": "tfmg:copper_wire"
+        },
+        "cell_2_2": {
+          "kind": "ITEM",
+          "id": "tfmg:copper_wire"
+        }
+      },
+      "params": {
+        "gridW": "3",
+        "gridH": "5"
+      }
+    },
+    {
+      "uid": "294ac263-6663-4c7a-8a0b-613bc20f010e",
+      "type": "kjsgen:create_mechanical_crafting",
+      "recipeId": "industrial_colonies:drafts/weathered_iron/saw_review_20260926",
+      "comment": "DRAFT - visual review only. Wide 5x3 cutting bed: sheet guard above basic saw, lateral rods/gears, cast frame and control parts below. Uses existing cast-frame/basic-machine chain; first cast-sheet and crafter access still require progression review. No stress multiplier assigned.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "createcasing:weathered_iron_mechanical_saw"
+        },
+        "cell_0_1": {
+          "kind": "ITEM",
+          "id": "tfmg:cast_iron_sheet"
+        },
+        "cell_0_2": {
+          "kind": "ITEM",
+          "id": "create:iron_sheet"
+        },
+        "cell_0_3": {
+          "kind": "ITEM",
+          "id": "tfmg:cast_iron_sheet"
+        },
+        "cell_1_1": {
+          "kind": "ITEM",
+          "id": "createaddition:iron_rod"
+        },
+        "cell_1_2": {
+          "kind": "ITEM",
+          "id": "create:mechanical_saw"
+        },
+        "cell_2_0": {
+          "kind": "ITEM",
+          "id": "tfmg:cast_iron_sheet"
+        },
+        "cell_2_2": {
+          "kind": "ITEM",
+          "id": "tfmg:cast_iron_frame"
+        },
+        "cell_2_4": {
+          "kind": "ITEM",
+          "id": "tfmg:cast_iron_sheet"
+        },
+        "cell_0_0": {
+          "kind": "ITEM",
+          "id": "tfmg:copper_wire"
+        },
+        "cell_2_3": {
+          "kind": "ITEM",
+          "id": "create:electron_tube"
+        },
+        "cell_2_1": {
+          "kind": "ITEM",
+          "id": "create:electron_tube"
+        },
+        "cell_0_4": {
+          "kind": "ITEM",
+          "id": "tfmg:copper_wire"
+        },
+        "cell_1_3": {
+          "kind": "ITEM",
+          "id": "createaddition:electric_motor"
+        },
+        "cell_1_0": {
+          "kind": "ITEM",
+          "id": "create:precision_mechanism"
+        },
+        "cell_1_4": {
+          "kind": "ITEM",
+          "id": "createmechanisms:zinc_mechanism"
+        }
+      },
+      "params": {
+        "gridW": "5",
+        "gridH": "3"
+      }
+    },
+    {
+      "uid": "28dc5686-b2e1-4547-92f5-a7e15c0432f7",
+      "type": "kjsgen:create_mechanical_crafting",
+      "slots": {
+        "cell_2_2": {
+          "kind": "ITEM",
+          "id": "tfmg:cast_iron_frame"
+        },
+        "cell_2_3": {
+          "kind": "ITEM",
+          "id": "tfmg:copper_electrode"
+        },
+        "cell_2_1": {
+          "kind": "ITEM",
+          "id": "tfmg:graphite_electrode"
+        },
+        "cell_3_1": {
+          "kind": "ITEM",
+          "id": "minecraft:redstone"
+        },
+        "cell_3_3": {
+          "kind": "ITEM",
+          "id": "minecraft:redstone"
+        },
+        "cell_1_2": {
+          "kind": "ITEM",
+          "id": "create:precision_mechanism"
+        },
+        "cell_1_1": {
+          "kind": "ITEM",
+          "id": "tfmg:copper_wire"
+        },
+        "cell_1_3": {
+          "kind": "ITEM",
+          "id": "tfmg:copper_wire"
+        },
+        "cell_3_2": {
+          "kind": "ITEM",
+          "id": "create:precision_mechanism"
+        },
+        "cell_2_0": {
+          "kind": "ITEM",
+          "id": "minecraft:redstone"
+        },
+        "cell_2_4": {
+          "kind": "ITEM",
+          "id": "minecraft:redstone"
+        },
+        "cell_4_2": {
+          "kind": "ITEM",
+          "id": "tfmg:coated_circuit_board"
+        },
+        "cell_0_3": {
+          "kind": "ITEM",
+          "id": "create:electron_tube"
+        },
+        "cell_0_2": {
+          "kind": "ITEM",
+          "id": "tfmg:zinc_electrode"
+        },
+        "cell_0_1": {
+          "kind": "ITEM",
+          "id": "create:electron_tube"
+        },
+        "cell_3_0": {
+          "kind": "ITEM",
+          "id": "tfmg:cast_iron_ingot"
+        },
+        "cell_3_4": {
+          "kind": "ITEM",
+          "id": "tfmg:cast_iron_ingot"
+        },
+        "output": {
+          "kind": "ITEM",
+          "id": "mekanism:metallurgic_infuser"
+        },
+        "cell_4_1": {
+          "kind": "ITEM",
+          "id": "createmechanisms:zinc_mechanism"
+        },
+        "cell_4_3": {
+          "kind": "ITEM",
+          "id": "createmechanisms:zinc_mechanism"
+        },
+        "cell_1_0": {
+          "kind": "ITEM",
+          "id": "minecraft:gold_nugget"
+        },
+        "cell_1_4": {
+          "kind": "ITEM",
+          "id": "minecraft:gold_nugget"
+        }
+      },
+      "params": {
+        "gridW": "5",
+        "gridH": "5"
+      }
+    },
+    {
+      "uid": "2ed81181-9724-47b9-ad72-ea78887507b1",
+      "type": "kjsgen:create_mechanical_crafting",
+      "recipeId": "industrial_colonies:drafts/weathered_iron_mixer_review_20260927",
+      "comment": "DRAFT: Weathered Iron mixer. Compact geared motor head, zinc mechanism and paired wiring, central cast frame and side casing sheets, narrow iron spindle and whisk below. 3x5 functional layout, not perimeter ring. No steel tier parts. No gameplay export; machine/crafter and motor dependencies require progression review.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "createcasing:weathered_iron_mixer"
+        },
+        "cell_0_0": {
+          "kind": "ITEM",
+          "id": "create:cogwheel"
+        },
+        "cell_0_1": {
+          "kind": "ITEM",
+          "id": "createaddition:electric_motor"
+        },
+        "cell_0_2": {
+          "kind": "ITEM",
+          "id": "create:cogwheel"
+        },
+        "cell_1_0": {
+          "kind": "ITEM",
+          "id": "tfmg:copper_wire"
+        },
+        "cell_1_2": {
+          "kind": "ITEM",
+          "id": "tfmg:copper_wire"
+        },
+        "cell_2_1": {
+          "kind": "ITEM",
+          "id": "tfmg:cast_iron_frame"
+        },
+        "cell_3_1": {
+          "kind": "ITEM",
+          "id": "createaddition:iron_rod"
+        },
+        "cell_4_1": {
+          "kind": "ITEM",
+          "id": "create:whisk"
+        },
+        "cell_3_2": {
+          "kind": "ITEM",
+          "id": "tfmg:cast_iron_sheet"
+        },
+        "cell_3_0": {
+          "kind": "ITEM",
+          "id": "tfmg:cast_iron_sheet"
+        },
+        "cell_2_0": {
+          "kind": "ITEM",
+          "id": "createmechanisms:zinc_mechanism"
+        },
+        "cell_1_1": {
+          "kind": "ITEM",
+          "id": "create:mechanical_mixer"
+        },
+        "cell_2_2": {
+          "kind": "ITEM",
+          "id": "create:precision_mechanism"
+        },
+        "cell_4_0": {
+          "kind": "ITEM",
+          "id": "tfmg:cast_iron_sheet"
+        },
+        "cell_4_2": {
+          "kind": "ITEM",
+          "id": "tfmg:cast_iron_sheet"
+        }
+      },
+      "params": {
+        "gridW": "3",
+        "gridH": "5"
+      }
+    },
+    {
+      "uid": "d3472ae5-70ba-449e-93d6-f4f00eb637f8",
+      "type": "kjsgen:create_mechanical_crafting",
+      "recipeId": "industrial_colonies:drafts/enrichment_chamber_review_20260926",
+      "comment": "DRAFT: Enrichment Chamber review. Square 5x5 footprint for a full-block machine; centered frame, paired iron sifter meshes and side shafts, wiring and controls above, zinc drives below. Two millstones replaced with two iron sifter meshes for impurity separation; all other ingredients unchanged. No gameplay export; progression still requires review.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "mekanism:enrichment_chamber"
+        },
+        "cell_0_1": {
+          "kind": "ITEM",
+          "id": "createaddition:capacitor"
+        },
+        "cell_0_2": {
+          "kind": "ITEM",
+          "id": "tfmg:coated_circuit_board"
+        },
+        "cell_0_3": {
+          "kind": "ITEM",
+          "id": "createaddition:capacitor"
+        },
+        "cell_1_1": {
+          "kind": "ITEM",
+          "id": "createaddition:iron_rod"
+        },
+        "cell_1_2": {
+          "kind": "ITEM",
+          "id": "create:electron_tube"
+        },
+        "cell_2_2": {
+          "kind": "ITEM",
+          "id": "tfmg:cast_iron_frame"
+        },
+        "cell_4_2": {
+          "kind": "ITEM",
+          "id": "tfmg:cast_iron_sheet"
+        },
+        "cell_2_3": {
+          "kind": "ITEM",
+          "id": "tfmg:centrifuge"
+        },
+        "cell_2_1": {
+          "kind": "ITEM",
+          "id": "tfmg:centrifuge"
+        },
+        "cell_3_3": {
+          "kind": "ITEM",
+          "id": "create:shaft"
+        },
+        "cell_3_1": {
+          "kind": "ITEM",
+          "id": "create:shaft"
+        },
+        "cell_4_3": {
+          "kind": "ITEM",
+          "id": "create:precision_mechanism"
+        },
+        "cell_4_1": {
+          "kind": "ITEM",
+          "id": "create:precision_mechanism"
+        },
+        "cell_1_3": {
+          "kind": "ITEM",
+          "id": "createaddition:iron_rod"
+        },
+        "cell_2_0": {
+          "kind": "ITEM",
+          "id": "tfmg:cast_iron_sheet"
+        },
+        "cell_2_4": {
+          "kind": "ITEM",
+          "id": "tfmg:cast_iron_sheet"
+        },
+        "cell_3_4": {
+          "kind": "ITEM",
+          "id": "tfmg:copper_wire"
+        },
+        "cell_3_0": {
+          "kind": "ITEM",
+          "id": "tfmg:copper_wire"
+        },
+        "cell_1_4": {
+          "kind": "ITEM",
+          "id": "minecraft:redstone"
+        },
+        "cell_3_2": {
+          "kind": "ITEM",
+          "id": "tfmg:steel_mechanism"
+        },
+        "cell_1_0": {
+          "kind": "ITEM",
+          "id": "minecraft:redstone"
+        }
+      },
+      "params": {
+        "gridW": "5",
+        "gridH": "5"
+      }
+    },
+    {
+      "uid": "c6ec40da-bfd2-4fff-8d66-ea7f097e47c9",
+      "type": "kjsgen:create_sequenced_assembly",
+      "recipeId": "industrial_colonies:drafts/centrifuge_weathered_review_20260927",
+      "comment": "DRAFT v2: all-aluminum centrifuge basket. Aluminum sheet base; deploy aluminum spindle, press hub, cut rotor seat, then finish by pressing. Weathered Iron machines throughout. One loop. One aluminum sheet and one aluminum rod only. No extra sheet, ingot or drive parts. Draft only, no gameplay export; dependency/runtime verification pending.",
+      "replaceRecipe": false,
+      "slots": {
+        "input": {
+          "kind": "ITEM",
+          "id": "tfmg:aluminum_sheet"
+        },
+        "transitional": {
+          "kind": "ITEM",
+          "id": "tfmg:aluminum_sheet"
+        },
+        "__machine_step_0_deploying": {
+          "kind": "ITEM",
+          "id": "createcasing:weathered_iron_deployer"
+        },
+        "__machine_step_1_pressing": {
+          "kind": "ITEM",
+          "id": "createcasing:weathered_iron_press"
+        },
+        "__machine_step_2_cutting": {
+          "kind": "ITEM",
+          "id": "createcasing:weathered_iron_mechanical_saw"
+        },
+        "__machine_step_3_deploying": {
+          "kind": "ITEM",
+          "id": "createcasing:weathered_iron_deployer"
+        },
+        "__machine_step_4_pressing": {
+          "kind": "ITEM",
+          "id": "createcasing:weathered_iron_press"
+        },
+        "seqItem0": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:stick_aluminum"
+        },
+        "seqItem3": {
+          "kind": "ITEM",
+          "id": "create:iron_sheet"
+        },
+        "output0": {
+          "kind": "ITEM",
+          "id": "tfmg:centrifuge",
+          "chance": 0.75
+        },
+        "output1": {
+          "kind": "ITEM",
+          "id": "minecraft:iron_nugget",
+          "chance": 0.25
+        }
+      },
+      "params": {
+        "__seqLen": "6",
+        "seq0": "deploying",
+        "seq1": "pressing",
+        "seq2": "cutting",
+        "seq3": "deploying",
+        "seq4": "pressing",
+        "seq5": "cutting",
+        "loops": "4"
+      }
+    },
+    {
+      "uid": "1be2e3c0-7694-4649-b3af-ed0fe38084d1",
+      "type": "kjsgen:shaped",
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "tfmg:coke_oven",
+          "count": 2
+        },
+        "in4": {
+          "kind": "ITEM",
+          "id": "tfmg:cast_iron_block"
+        },
+        "in7": {
+          "kind": "ITEM",
+          "id": "tfmg:cast_iron_sheet"
+        },
+        "in3": {
+          "kind": "ITEM",
+          "id": "tfmg:cast_iron_sheet"
+        },
+        "in5": {
+          "kind": "ITEM",
+          "id": "tfmg:cast_iron_sheet"
+        },
+        "in1": {
+          "kind": "ITEM",
+          "id": "tfmg:cast_iron_sheet"
+        },
+        "in8": {
+          "kind": "ITEM",
+          "id": "createaddition:copper_rod"
+        },
+        "in6": {
+          "kind": "ITEM",
+          "id": "createaddition:copper_rod"
+        },
+        "in0": {
+          "kind": "ITEM",
+          "id": "tfmg:copper_wire"
+        },
+        "in2": {
+          "kind": "ITEM",
+          "id": "tfmg:copper_wire"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "7d831dfc-67b0-4668-aefa-3ad2ade2873d",
+      "type": "kjsgen:create_mechanical_crafting",
+      "recipeId": "industrial_colonies:drafts/air_intake_review_20260927",
+      "comment": "DRAFT: Air Intake. Cast sheet housing (andesite bars replaced with cast sheet), centered propeller, gear drive and cast pipe outlet, shaft below. Pre-steel ingredients; original output of three preserved. Mechanical crafting 3x3. No gameplay export; bootstrap availability requires review.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "tfmg:air_intake",
+          "count": 3
+        },
+        "cell_0_0": {
+          "kind": "ITEM",
+          "id": "tfmg:cast_iron_sheet"
+        },
+        "cell_0_1": {
+          "kind": "ITEM",
+          "id": "tfmg:cast_iron_sheet"
+        },
+        "cell_0_2": {
+          "kind": "ITEM",
+          "id": "tfmg:cast_iron_sheet"
+        },
+        "cell_1_1": {
+          "kind": "ITEM",
+          "id": "create:propeller"
+        },
+        "cell_1_2": {
+          "kind": "ITEM",
+          "id": "tfmg:cast_iron_pipe"
+        },
+        "cell_2_1": {
+          "kind": "ITEM",
+          "id": "create:shaft"
+        },
+        "cell_2_0": {
+          "kind": "ITEM",
+          "id": "tfmg:cast_iron_sheet"
+        },
+        "cell_2_2": {
+          "kind": "ITEM",
+          "id": "tfmg:cast_iron_sheet"
+        },
+        "cell_1_0": {
+          "kind": "ITEM",
+          "id": "tfmg:cast_iron_pipe"
+        }
+      },
+      "params": {
+        "gridW": "3",
+        "gridH": "3"
+      }
+    },
+    {
+      "uid": "3ac7eb96-af04-4cd2-b864-515211cb8c91",
+      "type": "kjsgen:create_mechanical_crafting",
+      "recipeId": "industrial_colonies:drafts/sturdy_whisk_review_20260927",
+      "comment": "DRAFT: Small metal whisk component: two iron rods form the mounting spindle, five sturdy sheets form the surrounding blades. Retains original sturdy-sheet material; its production dependency must be reviewed. No gameplay export; costs and progression pending review.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "createmetallurgy:sturdy_whisk"
+        },
+        "cell_1_0": {
+          "kind": "ITEM",
+          "id": "create:sturdy_sheet"
+        },
+        "cell_1_2": {
+          "kind": "ITEM",
+          "id": "create:sturdy_sheet"
+        },
+        "cell_2_0": {
+          "kind": "ITEM",
+          "id": "create:sturdy_sheet"
+        },
+        "cell_2_1": {
+          "kind": "ITEM",
+          "id": "create:sturdy_sheet"
+        },
+        "cell_2_2": {
+          "kind": "ITEM",
+          "id": "create:sturdy_sheet"
+        },
+        "cell_0_1": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:stick_steel"
+        },
+        "cell_1_1": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:stick_steel"
+        }
+      },
+      "params": {
+        "gridW": "3",
+        "gridH": "3"
+      }
+    },
+    {
+      "uid": "12a9d8ff-582a-4b30-ad16-b0ab574cf497",
+      "type": "kjsgen:create_mechanical_crafting",
+      "recipeId": "industrial_colonies:drafts/foundry_mixer_review_20260927",
+      "comment": "DRAFT revision: industrial-iron mixer support and lower mounting shoulders, paired gear drive with steel mechanism, lateral shafts around retained central copper casing, sturdy whisk below. Six Industrial Architecture industrial iron ingots. User requested industrial iron; no gameplay export. Dependencies and costs pending review.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "createmetallurgy:foundry_mixer"
+        },
+        "cell_0_0": {
+          "kind": "ITEM",
+          "id": "i_architecture:industrial_iron_ingot"
+        },
+        "cell_0_1": {
+          "kind": "ITEM",
+          "id": "tfmg:steel_cogwheel"
+        },
+        "cell_0_2": {
+          "kind": "ITEM",
+          "id": "create:copper_casing"
+        },
+        "cell_0_3": {
+          "kind": "ITEM",
+          "id": "tfmg:steel_cogwheel"
+        },
+        "cell_0_4": {
+          "kind": "ITEM",
+          "id": "i_architecture:industrial_iron_ingot"
+        },
+        "cell_1_0": {
+          "kind": "ITEM",
+          "id": "i_architecture:industrial_iron_ingot"
+        },
+        "cell_1_4": {
+          "kind": "ITEM",
+          "id": "i_architecture:industrial_iron_ingot"
+        },
+        "cell_3_2": {
+          "kind": "ITEM",
+          "id": "createmetallurgy:sturdy_whisk"
+        },
+        "cell_2_1": {
+          "kind": "ITEM",
+          "id": "i_architecture:industrial_iron_ingot"
+        },
+        "cell_2_3": {
+          "kind": "ITEM",
+          "id": "i_architecture:industrial_iron_ingot"
+        },
+        "cell_1_2": {
+          "kind": "ITEM",
+          "id": "tfmg:steel_frame"
+        },
+        "cell_1_3": {
+          "kind": "ITEM",
+          "id": "createcasing:brass_shaft"
+        },
+        "cell_1_1": {
+          "kind": "ITEM",
+          "id": "createcasing:brass_shaft"
+        },
+        "cell_2_2": {
+          "kind": "ITEM",
+          "id": "tfmg:steel_mechanism"
+        }
+      },
+      "params": {
+        "gridW": "5",
+        "gridH": "4"
+      }
+    },
+    {
+      "uid": "1b1a604f-1fd6-45ba-8d1d-3c861864d857",
+      "type": "kjsgen:create_mixing",
+      "recipeId": "industrial_colonies:drafts/resin_rubber_review_20260927",
+      "comment": "DRAFT: Early natural rubber. Proposed 4 resin clumps to 1 TFMG rubber sheet using heated Weathered Iron mixing. Ratio is provisional for review; not approved production balance. Existing resin item is a placeholder for the planned finite-tree extraction output; fluid resin/latex identity and conversion remain undecided. No gameplay export.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "createmechanisms:rubber"
+        },
+        "__machine_process_mixing": {
+          "kind": "ITEM",
+          "id": "create:mechanical_mixer"
+        },
+        "in0": {
+          "kind": "ITEM",
+          "id": "minecraft:resin_clump",
+          "count": 4
+        },
+        "in1": {
+          "kind": "ITEM",
+          "id": "minecraft:water_bucket"
+        },
+        "in2": {
+          "kind": "ITEM",
+          "id": "tfmg:sulfur_dust"
+        }
+      },
+      "params": {
+        "heat": "lowheated"
+      }
+    },
+    {
+      "uid": "377a876d-cd14-404f-95dc-a5e82186daa0",
+      "type": "kjsgen:create_sequenced_assembly",
+      "recipeId": "industrial_colonies:drafts/tfmg_original_steel_mechanism_review",
+      "comment": "Original installed TFMG steel mechanism copied for editing. Heavy plate base, six deploying steps, two loops. Native result weights120:4:4 (steel mechanism/compass/steel ingot). Original incomplete steel mechanism carrier. No gameplay export or replacement.",
+      "replaceRecipe": false,
+      "slots": {
+        "input": {
+          "kind": "ITEM",
+          "id": "tfmg:heavy_plate"
+        },
+        "transitional": {
+          "kind": "ITEM",
+          "id": "tfmg:unfinished_steel_mechanism"
+        },
+        "seqItem0": {
+          "kind": "ITEM",
+          "id": "tfmg:steel_cogwheel"
+        },
+        "seqItem1": {
+          "kind": "ITEM",
+          "id": "tfmg:cast_iron_sheet"
+        },
+        "seqItem2": {
+          "kind": "ITEM",
+          "id": "tfmg:large_steel_cogwheel"
+        },
+        "seqItem3": {
+          "kind": "ITEM",
+          "id": "tfmg:lead_sheet"
+        },
+        "seqItem4": {
+          "kind": "ITEM",
+          "id": "tfmg:screw"
+        },
+        "seqItem5": {
+          "kind": "ITEM",
+          "id": "tfmg:screwdriver"
+        },
+        "output0": {
+          "kind": "ITEM",
+          "id": "tfmg:steel_mechanism",
+          "chance": 0.9375
+        },
+        "output1": {
+          "kind": "ITEM",
+          "id": "minecraft:compass",
+          "chance": 0.03125
+        },
+        "output2": {
+          "kind": "ITEM",
+          "id": "tfmg:steel_ingot",
+          "chance": 0.03125
+        },
+        "__machine_step_0_deploying": {
+          "kind": "ITEM",
+          "id": "createcasing:weathered_iron_deployer"
+        },
+        "__machine_step_1_deploying": {
+          "kind": "ITEM",
+          "id": "createcasing:weathered_iron_deployer"
+        },
+        "__machine_step_2_deploying": {
+          "kind": "ITEM",
+          "id": "createcasing:weathered_iron_deployer"
+        },
+        "__machine_step_3_deploying": {
+          "kind": "ITEM",
+          "id": "createcasing:weathered_iron_deployer"
+        },
+        "__machine_step_4_deploying": {
+          "kind": "ITEM",
+          "id": "createcasing:weathered_iron_deployer"
+        },
+        "__machine_step_5_deploying": {
+          "kind": "ITEM",
+          "id": "createcasing:weathered_iron_deployer"
+        },
+        "__machine_step_6_pressing": {
+          "kind": "ITEM",
+          "id": "createcasing:weathered_iron_press"
+        },
+        "__machine_step_7_cutting": {
+          "kind": "ITEM",
+          "id": "createcasing:weathered_iron_mechanical_saw"
+        }
+      },
+      "params": {
+        "loops": "2",
+        "__seqLen": "8",
+        "seq0": "deploying",
+        "seq1": "deploying",
+        "seq2": "deploying",
+        "seq3": "deploying",
+        "seq4": "deploying",
+        "seq5": "deploying",
+        "icSeq5ToolUse": "damage_1",
+        "seq6": "pressing",
+        "seq7": "cutting"
+      }
+    },
+    {
+      "uid": "15aa7acc-81b9-4a10-9842-3fb0706232d3",
+      "type": "kjsgen:create_cutting",
+      "slots": {
+        "__machine_process_cutting": {
+          "kind": "ITEM",
+          "id": "createcasing:weathered_iron_mechanical_saw"
+        },
+        "input": {
+          "kind": "ITEM",
+          "id": "nuclearcraft:graphite_block"
+        },
+        "output0": {
+          "kind": "ITEM",
+          "id": "tfmg:graphite_electrode"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "406eea54-9e46-42ee-bb58-5caf13c4a2f2",
+      "type": "kjsgen:create_cutting",
+      "slots": {
+        "input": {
+          "kind": "ITEM",
+          "id": "minecraft:copper_block"
+        },
+        "output0": {
+          "kind": "ITEM",
+          "id": "tfmg:copper_electrode",
+          "count": 4
+        },
+        "__machine_process_cutting": {
+          "kind": "ITEM",
+          "id": "create:mechanical_saw"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "7383cbd3-e4fd-4ae1-8b79-45336ee2c95e",
+      "type": "kjsgen:create_sequenced_assembly",
+      "slots": {
+        "input": {
+          "kind": "ITEM",
+          "id": "tfmg:steel_casing"
+        },
+        "transitional": {
+          "kind": "ITEM",
+          "id": "tfmg:heavy_plate"
+        },
+        "output0": {
+          "kind": "ITEM",
+          "id": "tfmg:heavy_machinery_casing"
+        },
+        "seqItem0": {
+          "kind": "ITEM",
+          "id": "tfmg:screw"
+        },
+        "seqItem2": {
+          "kind": "ITEM",
+          "id": "tfmg:screw"
+        },
+        "seqItem4": {
+          "kind": "ITEM",
+          "id": "tfmg:screw"
+        },
+        "seqItem6": {
+          "kind": "ITEM",
+          "id": "tfmg:screw"
+        },
+        "seqItem8": {
+          "kind": "ITEM",
+          "id": "tfmg:heavy_plate"
+        }
+      },
+      "params": {
+        "seq0": "deploying",
+        "__seqLen": "9",
+        "seq1": "pressing",
+        "seq2": "deploying",
+        "seq3": "pressing",
+        "seq4": "deploying",
+        "seq5": "pressing",
+        "seq6": "deploying",
+        "seq7": "pressing",
+        "seq8": "deploying",
+        "loops": "3"
+      }
+    },
+    {
+      "uid": "9b8e0d34-125a-46ad-8af8-8ebd1c83d7db",
+      "type": "kjsgen:shaped",
+      "recipeId": "industrial_colonies:drafts/electrode_holder_review_20260927",
+      "comment": "DRAFT: Steel frame with lead mounting plates, paired steel electrode support rods and copper electrical connections. Seven ingredients; one electrode holder. No gameplay export.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "tfmg:electrode_holder"
+        },
+        "in3": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:plate_lead"
+        },
+        "in4": {
+          "kind": "ITEM",
+          "id": "tfmg:steel_frame"
+        },
+        "in5": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:plate_lead"
+        },
+        "in6": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:stick_steel"
+        },
+        "in0": {
+          "kind": "ITEM",
+          "id": "tfmg:copper_wire"
+        },
+        "in2": {
+          "kind": "ITEM",
+          "id": "tfmg:copper_wire"
+        },
+        "in8": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:stick_steel"
+        },
+        "in7": {
+          "kind": "ITEM",
+          "id": "create:precision_mechanism"
+        },
+        "in1": {
+          "kind": "ITEM",
+          "id": "minecraft:gold_nugget"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "1f5ee7d5-67f9-46ca-beb2-a56be17eb398",
+      "type": "kjsgen:create_mechanical_crafting",
+      "recipeId": "industrial_colonies:drafts/steel_chemical_vat_review_20260927",
+      "comment": "DRAFT: Steel-tier equipment review. Explicit plates kept separate from sheets; no nickel or electronic circuit prerequisite. No gameplay export.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "tfmg:steel_chemical_vat",
+          "count": 2
+        },
+        "cell_0_0": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:plate_steel"
+        },
+        "cell_0_1": {
+          "kind": "ITEM",
+          "id": "tfmg:rubber_sheet"
+        },
+        "cell_0_2": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:plate_steel"
+        },
+        "cell_1_0": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:plate_lead"
+        },
+        "cell_1_1": {
+          "kind": "ITEM",
+          "id": "tfmg:steel_frame"
+        },
+        "cell_1_2": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:plate_lead"
+        },
+        "cell_2_0": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:plate_steel"
+        },
+        "cell_2_2": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:plate_steel"
+        },
+        "cell_2_1": {
+          "kind": "ITEM",
+          "id": "tfmg:steel_fluid_tank"
+        }
+      },
+      "params": {
+        "gridW": "3",
+        "gridH": "3"
+      }
+    },
+    {
+      "uid": "e8112d91-17f5-4a98-a272-63e5dd097278",
+      "type": "kjsgen:create_mechanical_crafting",
+      "recipeId": "industrial_colonies:drafts/fireproof_chemical_vat_review_20260927",
+      "comment": "DRAFT: Steel-tier equipment review. Explicit plates kept separate from sheets; no nickel or electronic circuit prerequisite. No gameplay export.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "tfmg:fireproof_chemical_vat"
+        },
+        "cell_0_2": {
+          "kind": "ITEM",
+          "id": "tfmg:heavy_plate"
+        },
+        "cell_1_0": {
+          "kind": "ITEM",
+          "id": "tfmg:fireproof_bricks"
+        },
+        "cell_1_1": {
+          "kind": "ITEM",
+          "id": "tfmg:steel_chemical_vat"
+        },
+        "cell_1_2": {
+          "kind": "ITEM",
+          "id": "tfmg:fireproof_bricks"
+        },
+        "cell_2_2": {
+          "kind": "ITEM",
+          "id": "tfmg:fireproof_bricks"
+        },
+        "cell_2_1": {
+          "kind": "ITEM",
+          "id": "tfmg:fireproof_bricks"
+        },
+        "cell_2_0": {
+          "kind": "ITEM",
+          "id": "tfmg:fireproof_bricks"
+        },
+        "cell_0_0": {
+          "kind": "ITEM",
+          "id": "tfmg:heavy_plate"
+        },
+        "cell_0_1": {
+          "kind": "ITEM",
+          "id": "tfmg:heavy_plate"
+        }
+      },
+      "params": {
+        "gridW": "3",
+        "gridH": "3"
+      }
+    },
+    {
+      "uid": "aafe1c53-3f2a-41f9-917b-9c89ca8b9b1e",
+      "type": "kjsgen:create_mechanical_crafting",
+      "recipeId": "industrial_colonies:drafts/industrial_mixer_review_20260927",
+      "comment": "DRAFT: Five-by-five industrial mixer. Central heavy casing, rubber mounts, paired steel gear drive, steel mechanism above and frame supporting lower mixing assembly. Review only; no gameplay export.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "tfmg:industrial_mixer"
+        },
+        "cell_1_2": {
+          "kind": "ITEM",
+          "id": "tfmg:steel_mechanism"
+        },
+        "cell_2_0": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:stick_steel"
+        },
+        "cell_2_2": {
+          "kind": "ITEM",
+          "id": "tfmg:heavy_machinery_casing"
+        },
+        "cell_2_4": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:stick_steel"
+        },
+        "cell_4_2": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:stick_steel"
+        },
+        "cell_3_3": {
+          "kind": "ITEM",
+          "id": "tfmg:rubber_sheet"
+        },
+        "cell_3_4": {
+          "kind": "ITEM",
+          "id": "tfmg:screw"
+        },
+        "cell_0_2": {
+          "kind": "ITEM",
+          "id": "create:precision_mechanism"
+        },
+        "cell_3_2": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:stick_steel"
+        },
+        "cell_3_1": {
+          "kind": "ITEM",
+          "id": "tfmg:rubber_sheet"
+        },
+        "cell_4_1": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:plate_steel"
+        },
+        "cell_4_3": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:plate_steel"
+        },
+        "cell_3_0": {
+          "kind": "ITEM",
+          "id": "tfmg:screw"
+        },
+        "cell_1_0": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:plate_steel"
+        },
+        "cell_2_3": {
+          "kind": "ITEM",
+          "id": "tfmg:large_steel_cogwheel"
+        },
+        "cell_2_1": {
+          "kind": "ITEM",
+          "id": "tfmg:large_steel_cogwheel"
+        },
+        "cell_1_3": {
+          "kind": "ITEM",
+          "id": "tfmg:circuit_board"
+        },
+        "cell_1_1": {
+          "kind": "ITEM",
+          "id": "tfmg:circuit_board"
+        },
+        "cell_1_4": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:plate_steel"
+        },
+        "cell_0_4": {
+          "kind": "ITEM",
+          "id": "tfmg:screw"
+        },
+        "cell_0_0": {
+          "kind": "ITEM",
+          "id": "tfmg:screw"
+        },
+        "cell_0_1": {
+          "kind": "ITEM",
+          "id": "tfmg:copper_wire"
+        },
+        "cell_0_3": {
+          "kind": "ITEM",
+          "id": "tfmg:copper_wire"
+        }
+      },
+      "params": {
+        "gridW": "5",
+        "gridH": "5"
+      }
+    },
+    {
+      "uid": "8ed3f389-d0ea-4020-9733-62ebb11483f0",
+      "type": "kjsgen:create_sequenced_assembly",
+      "slots": {
+        "input": {
+          "kind": "ITEM",
+          "id": "mekanism:ingot_steel"
+        },
+        "transitional": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:plate_steel"
+        },
+        "output0": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:plate_steel"
+        },
+        "seqItem2": {
+          "kind": "ITEM",
+          "id": "tfmg:screw"
+        },
+        "seqItem4": {
+          "kind": "ITEM",
+          "id": "tfmg:screw"
+        }
+      },
+      "params": {
+        "__seqLen": "6",
+        "seq0": "cutting",
+        "seq1": "pressing",
+        "seq2": "deploying",
+        "seq3": "pressing",
+        "seq4": "deploying",
+        "seq5": "pressing",
+        "loops": "2"
+      }
+    },
+    {
+      "uid": "19a7e8b6-b3d9-4989-a1b3-e4f9327d4e1f",
+      "type": "kjsgen:create_mechanical_crafting",
+      "recipeId": "industrial_colonies:drafts/copper_fan_review_20260927",
+      "comment": "DRAFT: Copper fan with central propeller, paired copper axle rods, precision drive above, copper support frame below and single copper casing. Electrical controls above with insulated wiring. No speed controller. No gameplay export.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "createcasing:copper_encased_fan"
+        },
+        "cell_4_1": {
+          "kind": "ITEM",
+          "id": "tfmg:copper_wire"
+        },
+        "cell_4_3": {
+          "kind": "ITEM",
+          "id": "tfmg:copper_wire"
+        },
+        "cell_2_2": {
+          "kind": "ITEM",
+          "id": "create:precision_mechanism"
+        },
+        "cell_0_0": {
+          "kind": "ITEM",
+          "id": "create:electron_tube"
+        },
+        "cell_0_4": {
+          "kind": "ITEM",
+          "id": "create:electron_tube"
+        },
+        "cell_0_2": {
+          "kind": "ITEM",
+          "id": "create:propeller"
+        },
+        "cell_0_1": {
+          "kind": "ITEM",
+          "id": "tfmg:rubber_sheet"
+        },
+        "cell_0_3": {
+          "kind": "ITEM",
+          "id": "tfmg:rubber_sheet"
+        },
+        "cell_1_2": {
+          "kind": "ITEM",
+          "id": "createaddition:copper_rod"
+        },
+        "cell_3_2": {
+          "kind": "ITEM",
+          "id": "tfmg:copper_frame"
+        },
+        "cell_3_3": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:plate_copper"
+        },
+        "cell_3_1": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:plate_copper"
+        },
+        "cell_4_2": {
+          "kind": "ITEM",
+          "id": "create:rotation_speed_controller"
+        },
+        "cell_2_3": {
+          "kind": "ITEM",
+          "id": "tfmg:rubber_sheet"
+        },
+        "cell_2_1": {
+          "kind": "ITEM",
+          "id": "tfmg:rubber_sheet"
+        },
+        "cell_4_4": {
+          "kind": "ITEM",
+          "id": "createaddition:capacitor"
+        },
+        "cell_4_0": {
+          "kind": "ITEM",
+          "id": "createaddition:capacitor"
+        },
+        "cell_1_3": {
+          "kind": "ITEM",
+          "id": "tfmg:copper_wire"
+        },
+        "cell_1_1": {
+          "kind": "ITEM",
+          "id": "tfmg:copper_wire"
+        }
+      },
+      "params": {
+        "gridW": "5",
+        "gridH": "5"
+      }
+    },
+    {
+      "uid": "6dcf1418-f419-4342-8980-c4d29acb4f56",
+      "type": "kjsgen:create_mechanical_crafting",
+      "recipeId": "industrial_colonies:drafts/copper_mixer_review_20260927",
+      "comment": "DRAFT: Dense precision-electrical copper machine: functional vertical movement chain from precision mechanism through copper rod into working head. Expensive controls/support surround chain. No whole predecessor machine or circuit board. User saw preserved. No gameplay export.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "createcasing:copper_mixer"
+        },
+        "cell_0_0": {
+          "kind": "ITEM",
+          "id": "create:electron_tube"
+        },
+        "cell_0_1": {
+          "kind": "ITEM",
+          "id": "createaddition:capacitor"
+        },
+        "cell_0_2": {
+          "kind": "ITEM",
+          "id": "create:rotation_speed_controller"
+        },
+        "cell_0_3": {
+          "kind": "ITEM",
+          "id": "createaddition:capacitor"
+        },
+        "cell_0_4": {
+          "kind": "ITEM",
+          "id": "create:electron_tube"
+        },
+        "cell_1_0": {
+          "kind": "ITEM",
+          "id": "tfmg:copper_wire"
+        },
+        "cell_1_1": {
+          "kind": "ITEM",
+          "id": "create:large_cogwheel"
+        },
+        "cell_1_2": {
+          "kind": "ITEM",
+          "id": "create:copper_casing"
+        },
+        "cell_1_3": {
+          "kind": "ITEM",
+          "id": "create:cogwheel"
+        },
+        "cell_1_4": {
+          "kind": "ITEM",
+          "id": "tfmg:copper_wire"
+        },
+        "cell_2_0": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:plate_copper"
+        },
+        "cell_2_1": {
+          "kind": "ITEM",
+          "id": "create:precision_mechanism"
+        },
+        "cell_2_2": {
+          "kind": "ITEM",
+          "id": "create:precision_mechanism"
+        },
+        "cell_2_3": {
+          "kind": "ITEM",
+          "id": "create:precision_mechanism"
+        },
+        "cell_2_4": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:plate_copper"
+        },
+        "cell_3_0": {
+          "kind": "ITEM",
+          "id": "tfmg:rubber_sheet"
+        },
+        "cell_3_1": {
+          "kind": "ITEM",
+          "id": "createaddition:capacitor"
+        },
+        "cell_3_2": {
+          "kind": "ITEM",
+          "id": "createaddition:copper_rod"
+        },
+        "cell_3_3": {
+          "kind": "ITEM",
+          "id": "createaddition:capacitor"
+        },
+        "cell_3_4": {
+          "kind": "ITEM",
+          "id": "tfmg:rubber_sheet"
+        },
+        "cell_4_1": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:plate_copper"
+        },
+        "cell_4_2": {
+          "kind": "ITEM",
+          "id": "create:whisk"
+        },
+        "cell_4_3": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:plate_copper"
+        }
+      },
+      "params": {
+        "gridW": "5",
+        "gridH": "5"
+      }
+    },
+    {
+      "uid": "94275602-1e9c-4701-b2ae-efc6d0334f0b",
+      "type": "kjsgen:create_mechanical_crafting",
+      "recipeId": "industrial_colonies:drafts/copper_press_review_20260927",
+      "comment": "DRAFT: Dense precision-electrical copper machine: functional vertical movement chain from precision mechanism through copper rod into working head. Expensive controls/support surround chain. No whole predecessor machine or circuit board. User saw preserved. No gameplay export.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "createcasing:copper_press"
+        },
+        "cell_0_0": {
+          "kind": "ITEM",
+          "id": "create:electron_tube"
+        },
+        "cell_0_1": {
+          "kind": "ITEM",
+          "id": "createaddition:capacitor"
+        },
+        "cell_0_2": {
+          "kind": "ITEM",
+          "id": "create:electron_tube"
+        },
+        "cell_1_0": {
+          "kind": "ITEM",
+          "id": "tfmg:copper_wire"
+        },
+        "cell_1_1": {
+          "kind": "ITEM",
+          "id": "create:copper_casing"
+        },
+        "cell_1_2": {
+          "kind": "ITEM",
+          "id": "tfmg:copper_wire"
+        },
+        "cell_2_0": {
+          "kind": "ITEM",
+          "id": "create:precision_mechanism"
+        },
+        "cell_2_1": {
+          "kind": "ITEM",
+          "id": "create:rotation_speed_controller"
+        },
+        "cell_2_2": {
+          "kind": "ITEM",
+          "id": "create:precision_mechanism"
+        },
+        "cell_3_0": {
+          "kind": "ITEM",
+          "id": "tfmg:rubber_sheet"
+        },
+        "cell_3_1": {
+          "kind": "ITEM",
+          "id": "create:precision_mechanism"
+        },
+        "cell_3_2": {
+          "kind": "ITEM",
+          "id": "tfmg:rubber_sheet"
+        },
+        "cell_4_0": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:plate_copper"
+        },
+        "cell_4_1": {
+          "kind": "ITEM",
+          "id": "createaddition:copper_rod"
+        },
+        "cell_4_2": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:plate_copper"
+        },
+        "cell_5_0": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:plate_copper"
+        },
+        "cell_5_1": {
+          "kind": "ITEM",
+          "id": "minecraft:iron_block"
+        },
+        "cell_5_2": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:plate_copper"
+        }
+      },
+      "params": {
+        "gridW": "3",
+        "gridH": "6"
+      }
+    },
+    {
+      "uid": "bb7cba58-35d1-46bc-ae4b-3b7418bf1c85",
+      "type": "kjsgen:create_mechanical_crafting",
+      "recipeId": "industrial_colonies:drafts/copper_saw_review_20260927",
+      "comment": "DRAFT: Early electrical manufacturing tier alongside Weathered Iron. Capacitor, copper wiring and electron-tube or redstone controls; no whole predecessor machine or circuit board required. Plates remain distinct from sheets. No gameplay export.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "createcasing:copper_mechanical_saw"
+        },
+        "cell_1_2": {
+          "kind": "ITEM",
+          "id": "create:precision_mechanism"
+        },
+        "cell_2_0": {
+          "kind": "ITEM",
+          "id": "tfmg:rubber_sheet"
+        },
+        "cell_3_2": {
+          "kind": "ITEM",
+          "id": "create:copper_casing"
+        },
+        "cell_2_4": {
+          "kind": "ITEM",
+          "id": "tfmg:rubber_sheet"
+        },
+        "cell_2_2": {
+          "kind": "ITEM",
+          "id": "create:rotation_speed_controller"
+        },
+        "cell_1_3": {
+          "kind": "ITEM",
+          "id": "create:iron_sheet"
+        },
+        "cell_1_1": {
+          "kind": "ITEM",
+          "id": "create:iron_sheet"
+        },
+        "cell_0_2": {
+          "kind": "ITEM",
+          "id": "create:iron_sheet"
+        },
+        "cell_2_1": {
+          "kind": "ITEM",
+          "id": "createaddition:capacitor"
+        },
+        "cell_2_3": {
+          "kind": "ITEM",
+          "id": "createaddition:capacitor"
+        },
+        "cell_0_0": {
+          "kind": "ITEM",
+          "id": "createaddition:copper_rod"
+        },
+        "cell_0_4": {
+          "kind": "ITEM",
+          "id": "createaddition:copper_rod"
+        },
+        "cell_1_4": {
+          "kind": "ITEM",
+          "id": "create:precision_mechanism"
+        },
+        "cell_1_0": {
+          "kind": "ITEM",
+          "id": "create:precision_mechanism"
+        },
+        "cell_3_4": {
+          "kind": "ITEM",
+          "id": "create:electron_tube"
+        },
+        "cell_3_0": {
+          "kind": "ITEM",
+          "id": "create:electron_tube"
+        },
+        "cell_3_3": {
+          "kind": "ITEM",
+          "id": "tfmg:copper_wire"
+        },
+        "cell_3_1": {
+          "kind": "ITEM",
+          "id": "tfmg:copper_wire"
+        }
+      },
+      "params": {
+        "gridW": "5",
+        "gridH": "4"
+      }
+    },
+    {
+      "uid": "59392cb9-087b-4eaf-918f-0f32d31b4517",
+      "type": "kjsgen:create_mechanical_crafting",
+      "recipeId": "industrial_colonies:drafts/copper_deployer_review_20260927",
+      "comment": "DRAFT: Dense precision-electrical copper machine: functional vertical movement chain from precision mechanism through copper rod into working head. Expensive controls/support surround chain. No whole predecessor machine or circuit board. User saw preserved. No gameplay export.",
+      "replaceRecipe": false,
+      "slots": {
+        "output": {
+          "kind": "ITEM",
+          "id": "createcasing:copper_deployer"
+        },
+        "cell_0_0": {
+          "kind": "ITEM",
+          "id": "create:electron_tube"
+        },
+        "cell_0_1": {
+          "kind": "ITEM",
+          "id": "createaddition:capacitor"
+        },
+        "cell_0_2": {
+          "kind": "ITEM",
+          "id": "create:electron_tube"
+        },
+        "cell_1_0": {
+          "kind": "ITEM",
+          "id": "create:precision_mechanism"
+        },
+        "cell_1_1": {
+          "kind": "ITEM",
+          "id": "create:copper_casing"
+        },
+        "cell_1_2": {
+          "kind": "ITEM",
+          "id": "create:precision_mechanism"
+        },
+        "cell_2_0": {
+          "kind": "ITEM",
+          "id": "createaddition:capacitor"
+        },
+        "cell_2_2": {
+          "kind": "ITEM",
+          "id": "createaddition:capacitor"
+        },
+        "cell_3_0": {
+          "kind": "ITEM",
+          "id": "tfmg:rubber_sheet"
+        },
+        "cell_3_1": {
+          "kind": "ITEM",
+          "id": "create:precision_mechanism"
+        },
+        "cell_3_2": {
+          "kind": "ITEM",
+          "id": "tfmg:rubber_sheet"
+        },
+        "cell_4_1": {
+          "kind": "ITEM",
+          "id": "createaddition:copper_rod"
+        },
+        "cell_5_0": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:plate_copper"
+        },
+        "cell_5_1": {
+          "kind": "ITEM",
+          "id": "create:brass_hand"
+        },
+        "cell_5_2": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:plate_copper"
+        },
+        "cell_4_2": {
+          "kind": "ITEM",
+          "id": "tfmg:copper_wire"
+        },
+        "cell_4_0": {
+          "kind": "ITEM",
+          "id": "tfmg:copper_wire"
+        },
+        "cell_2_1": {
+          "kind": "ITEM",
+          "id": "create:rotation_speed_controller"
+        }
+      },
+      "params": {
+        "gridW": "3",
+        "gridH": "6"
+      }
+    },
+    {
+      "uid": "c810c4d0-485b-4e25-9083-1e2f70b12103",
+      "type": "kjsgen:create_sequenced_assembly",
+      "recipeId": "industrial_colonies:drafts/cast_iron/charcoal_trial_20260926",
+      "comment": "DRAFT charcoal_trial: 1 iron ingot -\u003e 3 cast-iron nuggets, renewable charcoal but poor recovery. Low Heated mixing with carbon, then unheated compacting with 250 mB water. Game abstraction, not a metallurgical simulation. Foundry iron first, then basic Create mixer/press and Low Heated basic burner (3 andesite alloy; flint and steel ignition). No Weathered machinery or Blaze required by this draft. Ordinary iron carrier retains appearance; native progress identifies it. TFMG output does not replace the Personal frame literal CBC ingot. Visual review only, no gameplay export. Full survival bootstrap and client acceptance remain unverified.",
+      "replaceRecipe": false,
+      "slots": {
+        "input": {
+          "kind": "ITEM",
+          "id": "minecraft:iron_nugget"
+        },
+        "transitional": {
+          "kind": "ITEM",
+          "id": "minecraft:iron_nugget"
+        },
+        "__machine_step_1_compacting": {
+          "kind": "ITEM",
+          "id": "create:mechanical_press"
+        },
+        "icSeq1Extra0": {
+          "kind": "FLUID",
+          "id": "minecraft:water",
+          "amount": 250
+        },
+        "icSeq0Extra0": {
+          "kind": "ITEM",
+          "id": "minecraft:charcoal"
+        },
+        "icSeq0Extra1": {
+          "kind": "ITEM",
+          "id": "minecraft:fire_charge"
+        },
+        "icSeq0Extra2": {
+          "kind": "ITEM",
+          "id": "minecraft:iron_nugget"
+        },
+        "output0": {
+          "kind": "ITEM",
+          "id": "tfmg:cast_iron_nugget"
+        }
+      },
+      "params": {
+        "__seqLen": "2",
+        "seq0": "mixing",
+        "seq1": "compacting",
+        "loops": "1",
+        "icSeq1Heat": "none",
+        "icSeq1Ticks": "200",
+        "icSeq0Ticks": "100",
+        "icSeq0Heat": "heated"
+      }
+    },
+    {
+      "uid": "7c33c78b-1eb8-4c78-9d91-897868ef4a43",
+      "type": "kjsgen:create_compacting",
+      "slots": {
+        "__machine_process_compacting": {
+          "kind": "ITEM",
+          "id": "create:mechanical_press"
+        },
+        "in0": {
+          "kind": "ITEM",
+          "id": "createmechanisms:rubber"
+        },
+        "output": {
+          "kind": "ITEM",
+          "id": "tfmg:rubber_sheet"
+        }
+      },
+      "params": {
+        "heat": "lowheated"
+      }
+    },
+    {
+      "uid": "4cddb1f7-0ee7-4e57-8560-b9043d2eaace",
+      "type": "kjsgen:shaped",
+      "slots": {
+        "in1": {
+          "kind": "ITEM",
+          "id": "create:copper_sheet"
+        },
+        "in4": {
+          "kind": "ITEM",
+          "id": "createaddition:zinc_sheet"
+        },
+        "in7": {
+          "kind": "ITEM",
+          "id": "minecraft:redstone_torch"
+        },
+        "output": {
+          "kind": "ITEM",
+          "id": "createaddition:capacitor"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "a23b9338-bd2d-4dfe-b47c-c0436288cbc6",
+      "type": "kjsgen:shaped",
+      "slots": {
+        "in1": {
+          "kind": "ITEM",
+          "id": "create:polished_rose_quartz"
+        },
+        "in4": {
+          "kind": "ITEM",
+          "id": "immersiveengineering:plate_iron"
+        },
+        "output": {
+          "kind": "ITEM",
+          "id": "create:electron_tube"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "074a2c95-1157-4568-ade8-fcdc7853b68b",
+      "type": "kjsgen:shaped",
+      "slots": {
+        "in1": {
+          "kind": "ITEM",
+          "id": "create:precision_mechanism"
+        },
+        "output": {
+          "kind": "ITEM",
+          "id": "create:rotation_speed_controller"
+        },
+        "in4": {
+          "kind": "ITEM",
+          "id": "create:brass_casing"
+        },
+        "in7": {
+          "kind": "ITEM",
+          "id": "tfmg:empty_circuit_board"
+        },
+        "in8": {
+          "kind": "ITEM",
+          "id": "createaddition:capacitor"
+        },
+        "in6": {
+          "kind": "ITEM",
+          "id": "createaddition:capacitor"
+        },
+        "in3": {
+          "kind": "ITEM",
+          "id": "tfmg:copper_wire"
+        },
+        "in5": {
+          "kind": "ITEM",
+          "id": "tfmg:copper_wire"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "2035c63b-8c9d-4407-9f77-45ae5f683157",
+      "type": "kjsgen:create_cutting",
+      "slots": {
+        "__machine_process_cutting": {
+          "kind": "ITEM",
+          "id": "create:mechanical_saw"
+        },
+        "input": {
+          "kind": "ITEM",
+          "id": "create:zinc_block"
+        },
+        "output0": {
+          "kind": "ITEM",
+          "id": "tfmg:zinc_electrode"
+        }
+      },
+      "params": {}
+    },
+    {
+      "uid": "4cfd06a2-0733-4e32-adac-424eeb6bc789",
+      "type": "kjsgen:create_sequenced_assembly",
+      "recipeId": "industrial_colonies:drafts/precision_mechanism_brass_review_20260927",
+      "comment": "DRAFT: regular precision mechanism. Cut a brass-sheet mounting plate, install an iron linkage rod, small cogwheel and electron-tube control, then press closed. Proposed single pass, guaranteed one mechanism; no scrap outputs. Advanced mechanism deferred. No gameplay export. Machine access/circular dependencies require review.",
+      "replaceRecipe": false,
+      "slots": {
+        "input": {
+          "kind": "ITEM",
+          "id": "create:brass_sheet"
+        },
+        "transitional": {
+          "kind": "ITEM",
+          "id": "create:incomplete_precision_mechanism"
+        },
+        "seqItem0": {
+          "kind": "ITEM",
+          "id": "create:iron_sheet"
+        },
+        "seqItem2": {
+          "kind": "ITEM",
+          "id": "tfmg:copper_wire"
+        },
+        "seqItem3": {
+          "kind": "ITEM",
+          "id": "createaddition:copper_rod"
+        },
+        "seqItem5": {
+          "kind": "ITEM",
+          "id": "create:cogwheel"
+        },
+        "output0": {
+          "kind": "ITEM",
+          "id": "create:precision_mechanism",
+          "chance": 0.8
+        },
+        "output1": {
+          "kind": "ITEM",
+          "id": "create:brass_ingot",
+          "chance": 0.2
+        }
+      },
+      "params": {
+        "__seqLen": "6",
+        "seq0": "deploying",
+        "seq1": "pressing",
+        "seq2": "deploying",
+        "seq3": "deploying",
+        "seq4": "pressing",
+        "seq5": "deploying",
+        "loops": "2"
+      }
+    },
+    {
+      "uid": "31b11e0a-4757-4536-89da-3d27ed9ca3d9",
+      "type": "kjsgen:create_sequenced_assembly",
+      "slots": {
+        "input": {
+          "kind": "ITEM",
+          "id": "minecraft:iron_block"
+        },
+        "transitional": {
+          "kind": "ITEM",
+          "id": "minecraft:iron_block"
+        },
+        "output0": {
+          "kind": "ITEM",
+          "id": "createaddition:iron_rod",
+          "count": 9,
+          "chance": 0.6
+        },
+        "output1": {
+          "kind": "ITEM",
+          "id": "createaddition:iron_rod",
+          "count": 6,
+          "chance": 0.4
+        }
+      },
+      "params": {
+        "seq0": "cutting",
+        "__seqLen": "3",
+        "seq1": "pressing",
+        "seq2": "cutting",
+        "icSeq0Ticks": "200",
+        "icSeq0Heat": "none",
+        "icSeq2Ticks": "200",
+        "icSeq2Heat": "none"
+      }
+    },
+    {
+      "uid": "709473cd-f3c2-485b-833b-af45146cf615",
+      "type": "kjsgen:create_sequenced_assembly",
+      "recipeId": "industrial_colonies:drafts/copper_rods_review_20260927",
+      "comment": "DRAFT: exact current Personal iron-rod sequence adapted to copper. Copper block, cut/press/cut;9 rods weight60%,6 rods weight40%. No export.",
+      "slots": {
+        "input": {
+          "kind": "ITEM",
+          "id": "minecraft:copper_block"
+        },
+        "transitional": {
+          "kind": "ITEM",
+          "id": "minecraft:copper_block"
+        },
+        "output0": {
+          "kind": "ITEM",
+          "id": "createaddition:copper_rod",
+          "count": 9,
+          "chance": 0.6
+        },
+        "output1": {
+          "kind": "ITEM",
+          "id": "createaddition:copper_rod",
+          "count": 6,
+          "chance": 0.4
+        }
+      },
+      "params": {
+        "seq0": "cutting",
+        "__seqLen": "3",
+        "seq1": "pressing",
+        "seq2": "cutting"
+      }
+    }
+  ],
+  "removals": []
+}

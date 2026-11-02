@@ -1,0 +1,30 @@
+{
+  "branch": "industrial_colonies:tech_tree",
+  "costs": [
+    {
+      "item": "advancedperipherals:me_bridge",
+      "count": 1
+    },
+    {
+      "item": "ae2:controller",
+      "count": 1
+    },
+    {
+      "item": "ae2:engineering_processor",
+      "count": 8
+    }
+  ],
+  "icon": "ae2:fluix_smart_dense_cable",
+  "name": "com.industrial_colonies.research.digital_logistics.cr01_enhanced_me_system_upgrade.name",
+  "no-reset": true,
+  "researchLevel": 2,
+  "sortOrder": 10720,
+  "subtitle": "com.industrial_colonies.research.digital_logistics.cr01_enhanced_me_system_upgrade.subtitle",
+  "parentResearch": "industrial_colonies:digital_logistics/cr01_advanced_perhipherals",
+  "requirements": [
+    {
+      "type": "minecolonies:research",
+      "research": "industrial_colonies:digital_logistics/cr01_advanced_perhipherals"
+    }
+  ]
+}

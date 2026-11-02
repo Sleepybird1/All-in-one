@@ -1,0 +1,1092 @@
+{
+  "runtime_mode": "stock_recipe_baseline",
+  "groups": [
+    {
+      "name": "uranium and Yellorium separation",
+      "script": "industrial_uranium_yellorium_separation.js",
+      "canonical_tags": {
+        "c:ores/uranium": ["mekanism:uranium_ore", "mekanism:deepslate_uranium_ore"],
+        "c:raw_materials/uranium": ["mekanism:raw_uranium"],
+        "c:storage_blocks/raw_uranium": ["mekanism:block_raw_uranium"],
+        "c:ingots/uranium": [],
+        "c:nuggets/uranium": ["mekanism:nugget_uranium"],
+        "c:dusts/uranium": ["mekanism:dust_uranium"],
+        "c:dirty_dusts/uranium": ["mekanism:dirty_dust_uranium"],
+        "c:clumps/uranium": ["mekanism:clump_uranium"],
+        "c:shards/uranium": ["mekanism:shard_uranium"],
+        "c:crystals/uranium": ["mekanism:crystal_uranium"],
+        "c:storage_blocks/uranium": [],
+        "forge:storage_blocks/uranium": []
+      },
+      "canonical_fluid_tags": {
+        "c:yellorium": []
+      },
+      "deprecated_outputs": []
+    },
+    {
+      "name": "petroleum",
+      "script": "industrial_petroleum_canonicalization.js",
+      "canonical_tags": {
+        "c:crude_oil": ["tfmg:crude_oil", "tfmg:flowing_crude_oil"],
+        "c:diesel": ["tfmg:diesel", "tfmg:flowing_diesel"],
+        "c:gasoline": ["tfmg:gasoline", "tfmg:flowing_gasoline"]
+      },
+      "cdg_engine_fuel_policy": {
+        "empty_fluid_tag": "industrial_colonies:disabled_cdg_engine_fuels",
+        "allowed": {
+          "createdieselgenerators:diesel": "c:diesel",
+          "createdieselgenerators:gasoline": "c:gasoline"
+        },
+        "disabled": [
+          "createdieselgenerators:biodiesel",
+          "createdieselgenerators:ethanol",
+          "createdieselgenerators:plantoil"
+        ]
+      },
+      "deprecated_outputs": [
+        "createdieselgenerators:crude_oil",
+        "createdieselgenerators:flowing_crude_oil",
+        "createdieselgenerators:diesel",
+        "createdieselgenerators:flowing_diesel",
+        "createdieselgenerators:gasoline",
+        "createdieselgenerators:flowing_gasoline",
+        "createdieselgenerators:biodiesel",
+        "createdieselgenerators:flowing_biodiesel"
+      ]
+    },
+    {
+      "name": "steel solids",
+      "script": "industrial_steel_canonicalization.js",
+      "canonical_tags": {
+        "c:ingots/steel": ["tfmg:steel_ingot"],
+        "c:nuggets/steel": ["tfmg:steel_nugget"],
+        "c:storage_blocks/steel": ["tfmg:steel_block"]
+      },
+      "deprecated_outputs": [
+        "createbigcannons:steel_ingot",
+        "createbigcannons:steel_scrap",
+        "createbigcannons:steel_block",
+        "createmetallurgy:steel_ingot",
+        "createmetallurgy:steel_block",
+        "mekanism:ingot_steel",
+        "mekanism:nugget_steel",
+        "mekanism:block_steel",
+        "modernfoundry:steel_ingot",
+        "modernfoundry:steel_nugget",
+        "modernfoundry:steel_block"
+      ]
+    },
+    {
+      "name": "lead solids",
+      "script": "industrial_lead_canonicalization.js",
+      "canonical_tags": {
+        "c:ores/lead": ["tfmg:lead_ore", "tfmg:deepslate_lead_ore"],
+        "c:raw_materials/lead": ["tfmg:raw_lead"],
+        "c:storage_blocks/raw_lead": ["tfmg:raw_lead_block"],
+        "c:ingots/lead": ["tfmg:lead_ingot"],
+        "c:nuggets/lead": ["tfmg:lead_nugget"],
+        "c:plates/lead": ["tfmg:lead_sheet"],
+        "c:storage_blocks/lead": ["tfmg:lead_block"]
+      },
+      "deprecated_outputs": [
+        "mekanism:lead_ore",
+        "mekanism:deepslate_lead_ore",
+        "mekanism:raw_lead",
+        "mekanism:block_raw_lead",
+        "mekanism:ingot_lead",
+        "mekanism:nugget_lead",
+        "mekanism:block_lead"
+      ]
+    },
+    {
+      "name": "sulfur chemistry",
+      "script": "industrial_sulfur_canonicalization.js",
+      "canonical_tags": {
+        "c:dusts/sulfur": ["tfmg:sulfur_dust"],
+        "c:buckets/sulfuric_acid": ["tfmg:sulfuric_acid_bucket"],
+        "c:sulfuric_acid": ["tfmg:sulfuric_acid"]
+      },
+      "deprecated_outputs": [
+        "mekanism:dust_sulfur",
+        "mekanism:sulfuric_acid",
+        "mekanism:sulfuric_acid_bucket"
+      ]
+    },
+    {
+      "name": "loose copper wire",
+      "script": "industrial_copper_wire_canonicalization.js",
+      "canonical_tags": {
+        "c:wires/copper": ["tfmg:copper_wire"]
+      },
+      "deprecated_outputs": [
+        "createaddition:copper_wire",
+        "electroenergetics:copper_wire",
+        "immersiveengineering:wire_copper"
+      ]
+    },
+    {
+      "name": "cast iron solids",
+      "script": "industrial_cast_iron_canonicalization.js",
+      "canonical_tags": {
+        "c:ingots/cast_iron": ["tfmg:cast_iron_ingot"],
+        "c:nuggets/cast_iron": ["tfmg:cast_iron_nugget"],
+        "c:plates/cast_iron": ["tfmg:cast_iron_sheet"],
+        "c:storage_blocks/cast_iron": ["tfmg:cast_iron_block"]
+      },
+      "deprecated_outputs": [
+        "createbigcannons:cast_iron_ingot",
+        "createbigcannons:cast_iron_nugget",
+        "createbigcannons:cast_iron_block"
+      ]
+    }
+  ],
+  "electronics_component_overhauls": [
+    {
+      "output": "tfmg:empty_spool",
+      "node": "CR01 — Electronics Manufacturing",
+      "script": "industrial_electronics_progression.js",
+      "source_recipes": ["tfmg:empty_spool_from_hardened_planks_stonecutting"],
+      "replacement_recipe": "industrial_colonies:electronics_manufacturing/empty_spool",
+      "replacement_type": "create:cutting"
+    },
+    {
+      "output": "tfmg:unfinished_resistor",
+      "node": "CR01 — Early Circuitry",
+      "script": "industrial_electronics_progression.js",
+      "source_recipes": ["tfmg:crafting/materials/unfinished_resistor", "tfmg:crafting/materials/unfinished_resistorfrom_slime"],
+      "replacement_recipe": "industrial_colonies:early_circuitry/unfinished_resistor",
+      "replacement_type": "create:deploying"
+    },
+    {
+      "output": "tfmg:resistor",
+      "node": "CR01 — Early Circuitry",
+      "script": "industrial_electronics_progression.js",
+      "source_recipes": ["tfmg:winding/resistor"],
+      "replacement_recipe": "industrial_colonies:early_circuitry/resistor",
+      "replacement_type": "tfmg:winding"
+    },
+    {
+      "output": "tfmg:capacitor_item",
+      "node": "CR01 — Early Circuitry",
+      "script": "industrial_electronics_progression.js",
+      "source_recipes": ["tfmg:sequenced_assembly/capacitor"],
+      "replacement_recipe": "industrial_colonies:early_circuitry/capacitor",
+      "replacement_type": "create:sequenced_assembly"
+    },
+    {
+      "output": "tfmg:transistor_item",
+      "node": "CR01 — Early Circuitry",
+      "script": "industrial_electronics_progression.js",
+      "source_recipes": ["tfmg:sequenced_assembly/transistor"],
+      "replacement_recipe": "industrial_colonies:early_circuitry/transistor",
+      "replacement_type": "create:sequenced_assembly"
+    },
+    {
+      "output": "tfmg:empty_circuit_board",
+      "node": "CR01 — Early Circuitry",
+      "script": "industrial_electronics_progression.js",
+      "source_recipes": ["tfmg:crafting/materials/empty_circuit_board"],
+      "replacement_recipe": "industrial_colonies:early_circuitry/empty_circuit_board",
+      "replacement_type": "create:sequenced_assembly"
+    },
+    {
+      "output": "tfmg:circuit_board",
+      "node": "CR01 — Early Circuitry",
+      "script": "industrial_electronics_progression.js",
+      "source_recipes": ["tfmg:sequenced_assembly/unfinished_circuit_board"],
+      "replacement_recipe": "industrial_colonies:early_circuitry/circuit_board",
+      "replacement_type": "create:sequenced_assembly"
+    },
+    {
+      "output": "tfmg:etched_circuit_board",
+      "node": "CR01 — Advanced Electronics Manufacturing",
+      "script": "industrial_electronics_progression.js",
+      "source_recipes": ["tfmg:vat_machine_recipe/etched_circuit_board"],
+      "replacement_recipe": "industrial_colonies:advanced_electronics/electrically_etched_circuit_board",
+      "replacement_type": "tfmg:polarizing"
+    }
+  ],
+  "machine_overhauls": [
+    {
+      "machine": "tfmg:winding_machine",
+      "node": "CR01 — Electronics Manufacturing",
+      "script": "industrial_electronics_progression.js",
+      "replacement_recipe": "industrial_colonies:electronics_manufacturing/winding_machine",
+      "replacement_type": "create:mechanical_crafting"
+    },
+    {
+      "machine": "tfmg:voltmeter",
+      "node": "CR01 — Electronics Manufacturing",
+      "script": "industrial_electronics_progression.js",
+      "replacement_recipe": "industrial_colonies:electronics_manufacturing/voltmeter",
+      "replacement_type": "minecraft:crafting_shaped"
+    },
+    {
+      "machine": "tfmg:polarizer",
+      "node": "CR01 — Electronics Manufacturing",
+      "script": "industrial_electronics_progression.js",
+      "replacement_recipe": "industrial_colonies:electronics_manufacturing/polarizer",
+      "replacement_type": "create:mechanical_crafting"
+    },
+    {
+      "machine": "tfmg:electrode_holder",
+      "node": "CR01 — Electronics Manufacturing",
+      "script": "industrial_electronics_progression.js",
+      "replacement_recipe": "industrial_colonies:electronics_manufacturing/electrode_holder",
+      "replacement_type": "minecraft:crafting_shaped"
+    },
+    {
+      "machine": "tfmg:industrial_mixer",
+      "node": "CR01 — Advanced Electronics Manufacturing",
+      "script": "industrial_electronics_progression.js",
+      "replacement_recipe": "industrial_colonies:advanced_electronics/industrial_mixer",
+      "replacement_type": "create:mechanical_crafting"
+    },
+    {
+      "machine": "ae2:drive",
+      "node": "CR01 — ME System Basics",
+      "script": "industrial_ae2_me_basics.js",
+      "replacement_recipe": "industrial_colonies:ae2/me_system_basics/drive",
+      "replacement_type": "minecraft:crafting_shaped"
+    },
+    {
+      "machine": "ae2:item_storage_cell_4k",
+      "node": "CR01 — ME System Basics",
+      "script": "industrial_ae2_me_basics.js",
+      "replacement_recipe": "industrial_colonies:ae2/me_system_basics/item_storage_cell_4k",
+      "replacement_type": "minecraft:crafting_shaped"
+    },
+    {
+      "machine": "mekanism:metallurgic_infuser",
+      "node": "CR01 — Infusion Technology",
+      "script": "industrial_machine_construction_01.js",
+      "replacement_recipe": "industrial_colonies:machine/metallurgic_infuser",
+      "replacement_type": "create:mechanical_crafting"
+    },
+    {
+      "machine": "mekanism:basic_tier_installer",
+      "node": "CR01 — Modular Machinery",
+      "script": "industrial_machine_construction_02.js",
+      "replacement_recipe": "industrial_colonies:machine/modular/basic_tier_installer",
+      "replacement_type": "create:sequenced_assembly"
+    },
+    {
+      "machine": "mekanism:enrichment_chamber",
+      "node": "CR01 — Modular Machinery",
+      "script": "industrial_machine_construction_02.js",
+      "replacement_recipe": "industrial_colonies:machine/modular/enrichment_chamber",
+      "replacement_type": "create:sequenced_assembly"
+    },
+    {
+      "machine": "mekanism:combiner",
+      "node": "CR01 — Modular Machinery",
+      "script": "industrial_machine_construction_02.js",
+      "replacement_recipe": "industrial_colonies:machine/modular/combiner",
+      "replacement_type": "create:sequenced_assembly"
+    },
+    {
+      "machine": "mekanism:osmium_compressor",
+      "node": "CR01 — Modular Machinery",
+      "script": "industrial_machine_construction_02.js",
+      "replacement_recipe": "industrial_colonies:machine/modular/osmium_compressor",
+      "replacement_type": "create:sequenced_assembly"
+    },
+    {
+      "machine": "mekanism:electrolytic_separator",
+      "node": "CR01 — Electrochemical Engineering",
+      "script": "industrial_machine_construction_03.js",
+      "replacement_recipe": "industrial_colonies:machine/electrochemical/electrolytic_separator",
+      "replacement_type": "create:mechanical_crafting"
+    },
+    {
+      "machine": "mekanism:chemical_oxidizer",
+      "node": "CR01 — Electrochemical Engineering",
+      "script": "industrial_machine_construction_03.js",
+      "replacement_recipe": "industrial_colonies:machine/electrochemical/chemical_oxidizer",
+      "replacement_type": "create:sequenced_assembly"
+    },
+    {
+      "machine": "mekanism:chemical_infuser",
+      "node": "CR01 — Electrochemical Engineering",
+      "script": "industrial_machine_construction_03.js",
+      "replacement_recipe": "industrial_colonies:machine/electrochemical/chemical_infuser",
+      "replacement_type": "create:mechanical_crafting"
+    },
+    {
+      "machine": "mekanism:rotary_condensentrator",
+      "node": "CR01 — Electrochemical Engineering",
+      "script": "industrial_machine_construction_03.js",
+      "replacement_recipe": "industrial_colonies:machine/electrochemical/rotary_condensentrator",
+      "replacement_type": "create:sequenced_assembly"
+    },
+    {
+      "machine": "mekanism:purification_chamber",
+      "node": "CR01 — Chemical Separation",
+      "script": "industrial_machine_construction_04.js",
+      "replacement_recipe": "industrial_colonies:machine/chemical_separation/purification_chamber",
+      "replacement_type": "create:sequenced_assembly"
+    },
+    {
+      "machine": "mekanism:chemical_injection_chamber",
+      "node": "CR01 — Chemical Separation",
+      "script": "industrial_machine_construction_04.js",
+      "replacement_recipe": "industrial_colonies:machine/chemical_separation/chemical_injection_chamber",
+      "replacement_type": "create:sequenced_assembly"
+    },
+    {
+      "machine": "mekanism:chemical_dissolution_chamber",
+      "node": "CR01 — Chemical Separation",
+      "script": "industrial_machine_construction_04.js",
+      "replacement_recipe": "industrial_colonies:machine/chemical_separation/chemical_dissolution_chamber",
+      "replacement_type": "create:mechanical_crafting"
+    },
+    {
+      "machine": "mekanism:chemical_washer",
+      "node": "CR01 — Chemical Separation",
+      "script": "industrial_machine_construction_04.js",
+      "replacement_recipe": "industrial_colonies:machine/chemical_separation/chemical_washer",
+      "replacement_type": "create:mechanical_crafting"
+    },
+    {
+      "machine": "mekanism:chemical_crystallizer",
+      "node": "CR01 — Chemical Separation",
+      "script": "industrial_machine_construction_04.js",
+      "replacement_recipe": "industrial_colonies:machine/chemical_separation/chemical_crystallizer",
+      "replacement_type": "create:mechanical_crafting"
+    },
+    {
+      "machine": "mekanism:isotopic_centrifuge",
+      "node": "CR01 — Uranium Processing",
+      "script": "industrial_machine_construction_05.js",
+      "replacement_recipe": "industrial_colonies:machine/uranium_processing/isotopic_centrifuge",
+      "replacement_type": "create:mechanical_crafting"
+    },
+    {
+      "machine": "mekanism:advanced_tier_installer",
+      "node": "CR01 — Reinforced Systems",
+      "script": "industrial_tier_installer_construction.js",
+      "replacement_recipe": "industrial_colonies:machine/installer/advanced",
+      "replacement_type": "create:sequenced_assembly"
+    },
+    {
+      "machine": "mekanism:elite_tier_installer",
+      "node": "CR01 — Precision Engineering",
+      "script": "industrial_tier_installer_construction.js",
+      "replacement_recipe": "industrial_colonies:machine/installer/elite",
+      "replacement_type": "create:sequenced_assembly"
+    },
+    {
+      "machine": "mekanism:ultimate_tier_installer",
+      "node": "CR01 — High-Energy Distribution",
+      "script": "industrial_tier_installer_construction.js",
+      "replacement_recipe": "industrial_colonies:machine/installer/ultimate",
+      "replacement_type": "create:mechanical_crafting"
+    },
+    {
+      "machine": "create:refined_radiance_casing",
+      "node": "CR01 — The Nuclear Age",
+      "script": "industrial_nuclear_construction_01.js",
+      "replacement_recipe": "industrial_colonies:machine/nuclear_age/refined_radiance_casing",
+      "replacement_type": "create:sequenced_assembly",
+      "allow_missing_source_recipe": true
+    },
+    {
+      "machine": "createcasing:refined_radiance_deployer",
+      "node": "CR01 — The Nuclear Age",
+      "script": "industrial_nuclear_construction_01.js",
+      "replacement_recipe": "industrial_colonies:machine/nuclear_age/refined_radiance_deployer",
+      "replacement_type": "create:sequenced_assembly"
+    },
+    {
+      "machine": "createcasing:refined_radiance_press",
+      "node": "CR01 — The Nuclear Age",
+      "script": "industrial_nuclear_construction_01.js",
+      "replacement_recipe": "industrial_colonies:machine/nuclear_age/refined_radiance_press",
+      "replacement_type": "create:sequenced_assembly"
+    },
+    {
+      "machine": "createcasing:refined_radiance_mixer",
+      "node": "CR01 — The Nuclear Age",
+      "script": "industrial_nuclear_construction_01.js",
+      "replacement_recipe": "industrial_colonies:machine/nuclear_age/refined_radiance_mixer",
+      "replacement_type": "create:sequenced_assembly"
+    },
+    {
+      "machine": "createcasing:refined_radiance_mechanical_roller",
+      "node": "CR01 — The Nuclear Age",
+      "script": "industrial_nuclear_construction_01.js",
+      "replacement_recipe": "industrial_colonies:machine/nuclear_age/refined_radiance_mechanical_roller",
+      "replacement_type": "create:sequenced_assembly"
+    },
+    {
+      "machine": "createcasing:refined_radiance_encased_fan",
+      "node": "CR01 — The Nuclear Age",
+      "script": "industrial_nuclear_construction_01.js",
+      "replacement_recipe": "industrial_colonies:machine/nuclear_age/refined_radiance_encased_fan",
+      "replacement_type": "create:sequenced_assembly"
+    },
+    {
+      "machine": "bigreactors:basic_reactorcasing",
+      "node": "CR01 — Containment Engineering",
+      "script": "industrial_nuclear_construction_02.js",
+      "replacement_recipe": "industrial_colonies:machine/containment/basic_reactor_casing",
+      "replacement_type": "create:sequenced_assembly",
+      "allowed_surviving_source_recipes": [
+        "bigreactors:reactor/basic/casing_recycle",
+        "bigreactors:reactor/basic/casing_recycle_glass"
+      ]
+    },
+    {
+      "machine": "bigreactors:basic_reactorglass",
+      "node": "CR01 — Containment Engineering",
+      "script": "industrial_nuclear_construction_02.js",
+      "replacement_recipe": "industrial_colonies:machine/containment/basic_reactor_glass",
+      "replacement_type": "create:item_application"
+    },
+    {
+      "machine": "bigreactors:basic_reactorsolidaccessport",
+      "node": "CR01 — Containment Engineering",
+      "script": "industrial_nuclear_construction_02.js",
+      "replacement_recipe": "industrial_colonies:machine/containment/basic_solid_access_port",
+      "replacement_type": "create:sequenced_assembly"
+    },
+    {
+      "machine": "bigreactors:basic_reactorfuelrod",
+      "node": "CR01 — Core Engineering",
+      "script": "industrial_nuclear_construction_03.js",
+      "replacement_recipe": "industrial_colonies:machine/core/basic_reactor_fuel_rod",
+      "replacement_type": "create:sequenced_assembly"
+    },
+    {
+      "machine": "bigreactors:basic_reactorcontrolrod",
+      "node": "CR01 — Core Engineering",
+      "script": "industrial_nuclear_construction_03.js",
+      "replacement_recipe": "industrial_colonies:machine/core/basic_reactor_control_rod",
+      "replacement_type": "create:mechanical_crafting"
+    },
+    {
+      "machine": "bigreactors:basic_reactorcontroller",
+      "node": "CR01 — Reactor Instrumentation",
+      "script": "industrial_nuclear_construction_04.js",
+      "replacement_recipe": "industrial_colonies:machine/instrumentation/basic_reactor_controller",
+      "replacement_type": "industrial_colonies:refined_radiance_mechanical_crafting"
+    },
+    {
+      "machine": "bigreactors:basic_reactorredstoneport",
+      "node": "CR01 — Reactor Instrumentation",
+      "script": "industrial_nuclear_construction_04.js",
+      "replacement_recipe": "industrial_colonies:machine/instrumentation/basic_reactor_redstone_port",
+      "replacement_type": "industrial_colonies:refined_radiance_sequenced_assembly"
+    },
+    {
+      "machine": "bigreactors:basic_reactorpowertapfe_passive",
+      "node": "CR01 — Reactor Instrumentation",
+      "script": "industrial_nuclear_construction_04.js",
+      "replacement_recipe": "industrial_colonies:machine/instrumentation/basic_reactor_power_tap",
+      "replacement_type": "industrial_colonies:refined_radiance_sequenced_assembly"
+    },
+    {
+      "machine": "bigreactors:yellorium",
+      "node": "CR01 — Advanced Alloy Mixing",
+      "script": "industrial_yellorium_refinement.js",
+      "replacement_recipe": "industrial_colonies:materials/yellorium/molten_alloy",
+      "replacement_type": "createmetallurgy:alloying",
+      "allow_missing_source_recipe": true
+    },
+    {
+      "machine": "bigreactors:yellorium_ingot",
+      "node": "CR01 — Advanced Metallurgy",
+      "script": "industrial_yellorium_refinement.js",
+      "replacement_recipe": "industrial_colonies:materials/yellorium/ingot_casting",
+      "replacement_type": "createmetallurgy:casting_in_table",
+      "allowed_surviving_source_recipes": [
+        "bigreactors:crafting/yellorium_storage_to_component"
+      ]
+    },
+    {
+      "machine": "industrial_colonies:yellorium_compound",
+      "node": "CR01 — Yellorium Refinement",
+      "script": "industrial_yellorium_refinement.js",
+      "replacement_recipe": "industrial_colonies:materials/yellorium_compound",
+      "replacement_type": "create:crushing",
+      "allow_missing_source_recipe": true
+    },
+    {
+      "machine": "mekanism:raw_uranium",
+      "node": "CR01 — Isotope Materials",
+      "script": "industrial_uranium_yellorium_separation.js",
+      "replacement_recipe": "industrial_colonies:materials/uranium/raw_from_yellorium_compound",
+      "replacement_type": "mekanism:enriching",
+      "allow_missing_source_recipe": true,
+      "allowed_surviving_source_recipes": [
+        "mekanism:processing/uranium/raw/from_raw_block"
+      ]
+    },
+    {
+      "machine": "mekanism:ingot_uranium",
+      "node": "CR01 — Isotope Materials",
+      "script": "industrial_uranium_yellorium_separation.js",
+      "replacement_recipe": "industrial_colonies:materials/uranium/osmium_compressed_ingot",
+      "replacement_type": "mekanism:compressing",
+      "allowed_surviving_source_recipes": [
+        "mekanism:processing/uranium/ingot/from_block",
+        "mekanism:processing/uranium/ingot/from_nuggets"
+      ]
+    },
+    {
+      "machine": "industrial_colonies:enriched_uranium_fuel_pellet",
+      "node": "CR01 — Early Nuclear Fuel",
+      "script": "industrial_nuclear_fuel_01.js",
+      "replacement_recipe": "industrial_colonies:fuel/early_nuclear/enriched_uranium_fuel_pellet",
+      "replacement_type": "mekanism:crystallizing",
+      "allow_missing_source_recipe": true
+    },
+    {
+      "machine": "bigreactors:reprocessorcasing",
+      "node": "CR01 — Fuel Reprocessing",
+      "script": "industrial_nuclear_reprocessing_01.js",
+      "replacement_recipe": "industrial_colonies:machine/fuel_reprocessing/reprocessor_casing",
+      "replacement_type": "create:sequenced_assembly"
+    },
+    {
+      "machine": "bigreactors:reprocessorglass",
+      "node": "CR01 — Fuel Reprocessing",
+      "script": "industrial_nuclear_reprocessing_01.js",
+      "replacement_recipe": "industrial_colonies:machine/fuel_reprocessing/reprocessor_glass",
+      "replacement_type": "create:item_application"
+    },
+    {
+      "machine": "bigreactors:reprocessorcontroller",
+      "node": "CR01 — Fuel Reprocessing",
+      "script": "industrial_nuclear_reprocessing_01.js",
+      "replacement_recipe": "industrial_colonies:machine/fuel_reprocessing/reprocessor_controller",
+      "replacement_type": "industrial_colonies:refined_radiance_mechanical_crafting"
+    },
+    {
+      "machine": "bigreactors:reprocessorwasteinjector",
+      "node": "CR01 — Fuel Reprocessing",
+      "script": "industrial_nuclear_reprocessing_01.js",
+      "replacement_recipe": "industrial_colonies:machine/fuel_reprocessing/reprocessor_waste_injector",
+      "replacement_type": "create:sequenced_assembly"
+    },
+    {
+      "machine": "bigreactors:reprocessorfluidinjector",
+      "node": "CR01 — Fuel Reprocessing",
+      "script": "industrial_nuclear_reprocessing_01.js",
+      "replacement_recipe": "industrial_colonies:machine/fuel_reprocessing/reprocessor_fluid_injector",
+      "replacement_type": "create:sequenced_assembly"
+    },
+    {
+      "machine": "bigreactors:reprocessorcollector",
+      "node": "CR01 — Fuel Reprocessing",
+      "script": "industrial_nuclear_reprocessing_01.js",
+      "replacement_recipe": "industrial_colonies:machine/fuel_reprocessing/reprocessor_collector",
+      "replacement_type": "create:sequenced_assembly"
+    },
+    {
+      "machine": "bigreactors:reprocessoroutputport",
+      "node": "CR01 — Fuel Reprocessing",
+      "script": "industrial_nuclear_reprocessing_01.js",
+      "replacement_recipe": "industrial_colonies:machine/fuel_reprocessing/reprocessor_output_port",
+      "replacement_type": "create:sequenced_assembly"
+    },
+    {
+      "machine": "bigreactors:reprocessorpowerport",
+      "node": "CR01 — Fuel Reprocessing",
+      "script": "industrial_nuclear_reprocessing_01.js",
+      "replacement_recipe": "industrial_colonies:machine/fuel_reprocessing/reprocessor_power_port",
+      "replacement_type": "create:sequenced_assembly"
+    },
+    {
+      "machine": "mekanism:pressurized_reaction_chamber",
+      "node": "CR01 — Electrochemical Engineering",
+      "script": "industrial_machine_construction_06.js",
+      "replacement_recipe": "industrial_colonies:machine/electrochemical/pressurized_reaction_chamber",
+      "replacement_type": "create:sequenced_assembly"
+    },
+    {
+      "machine": "mekanism:radioactive_waste_barrel",
+      "node": "CR01 — Actinide Chemistry",
+      "script": "industrial_nuclear_actinides_01.js",
+      "replacement_recipe": "industrial_colonies:machine/actinide_chemistry/radioactive_waste_barrel",
+      "replacement_type": "create:sequenced_assembly"
+    },
+    {
+      "machine": "mekanism:solar_neutron_activator",
+      "node": "CR01 — Actinide Chemistry",
+      "script": "industrial_nuclear_actinides_01.js",
+      "replacement_recipe": "industrial_colonies:machine/actinide_chemistry/solar_neutron_activator",
+      "replacement_type": "create:mechanical_crafting"
+    },
+    {
+      "machine": "mekanism:nuclear_waste",
+      "node": "CR01 — Actinide Chemistry",
+      "script": "industrial_nuclear_actinides_01.js",
+      "replacement_recipe": "industrial_colonies:chemistry/actinide/nuclear_waste_from_blutonium",
+      "replacement_type": "mekanism:dissolution",
+      "allow_missing_source_recipe": true
+    },
+    {
+      "machine": "mekanism:plutonium",
+      "node": "CR01 — Plutonium Production",
+      "script": "industrial_nuclear_plutonium_01.js",
+      "replacement_recipe": "industrial_colonies:chemistry/plutonium/from_nuclear_waste",
+      "replacement_type": "mekanism:activating"
+    },
+    {
+      "machine": "mekanism:pellet_plutonium",
+      "node": "CR01 — Plutonium Production",
+      "script": "industrial_nuclear_plutonium_01.js",
+      "replacement_recipe": "industrial_colonies:chemistry/plutonium/pellet_from_reaction",
+      "replacement_type": "mekanism:reaction"
+    },
+    {
+      "machine": "mekanism:spent_nuclear_waste",
+      "node": "CR01 — Plutonium Production",
+      "script": "industrial_nuclear_plutonium_01.js",
+      "replacement_recipe": "industrial_colonies:chemistry/plutonium/pellet_from_reaction",
+      "replacement_type": "mekanism:reaction"
+    },
+    {
+      "machine": "bigreactors:reinforced_reactorcasing",
+      "node": "CR01 — Advanced Nuclear Fuel",
+      "script": "industrial_nuclear_advanced_fuel_01.js",
+      "replacement_recipe": "industrial_colonies:machine/advanced_nuclear/reinforced_reactor_casing",
+      "replacement_type": "create:sequenced_assembly",
+      "allowed_surviving_source_recipes": ["bigreactors:reactor/reinforced/casing_recycle", "bigreactors:reactor/reinforced/casing_recycle_glass"]
+    },
+    {
+      "machine": "bigreactors:reinforced_reactorglass",
+      "node": "CR01 — Advanced Nuclear Fuel",
+      "script": "industrial_nuclear_advanced_fuel_01.js",
+      "replacement_recipe": "industrial_colonies:machine/advanced_nuclear/reinforced_reactor_glass",
+      "replacement_type": "create:sequenced_assembly"
+    },
+    {
+      "machine": "bigreactors:reinforced_reactorfuelrod",
+      "node": "CR01 — Advanced Nuclear Fuel",
+      "script": "industrial_nuclear_advanced_fuel_01.js",
+      "replacement_recipe": "industrial_colonies:machine/advanced_nuclear/reinforced_reactor_fuel_rod",
+      "replacement_type": "create:sequenced_assembly"
+    },
+    {
+      "machine": "bigreactors:reinforced_reactorcontrolrod",
+      "node": "CR01 — Advanced Nuclear Fuel",
+      "script": "industrial_nuclear_advanced_fuel_01.js",
+      "replacement_recipe": "industrial_colonies:machine/advanced_nuclear/reinforced_reactor_control_rod",
+      "replacement_type": "industrial_colonies:refined_radiance_mechanical_crafting"
+    },
+    {
+      "machine": "bigreactors:reinforced_reactorcontroller",
+      "node": "CR01 — Advanced Nuclear Fuel",
+      "script": "industrial_nuclear_advanced_fuel_01.js",
+      "replacement_recipe": "industrial_colonies:machine/advanced_nuclear/reinforced_reactor_controller",
+      "replacement_type": "industrial_colonies:refined_radiance_mechanical_crafting"
+    },
+    {
+      "machine": "bigreactors:reinforced_reactorsolidaccessport",
+      "node": "CR01 — Advanced Nuclear Fuel",
+      "script": "industrial_nuclear_advanced_fuel_01.js",
+      "replacement_recipe": "industrial_colonies:machine/advanced_nuclear/reinforced_solid_access_port",
+      "replacement_type": "create:sequenced_assembly"
+    },
+    {
+      "machine": "bigreactors:reinforced_reactorfluidaccessport",
+      "node": "CR01 — Advanced Nuclear Fuel",
+      "script": "industrial_nuclear_advanced_fuel_01.js",
+      "replacement_recipe": "industrial_colonies:machine/advanced_nuclear/reinforced_fluid_access_port",
+      "replacement_type": "create:sequenced_assembly"
+    },
+    {
+      "machine": "bigreactors:reinforced_reactorpowertapfe_passive",
+      "node": "CR01 — Advanced Nuclear Fuel",
+      "script": "industrial_nuclear_advanced_fuel_01.js",
+      "replacement_recipe": "industrial_colonies:machine/advanced_nuclear/reinforced_power_tap_passive",
+      "replacement_type": "create:sequenced_assembly"
+    },
+    {
+      "machine": "bigreactors:reinforced_reactorpowertapfe_active",
+      "node": "CR01 — Advanced Nuclear Fuel",
+      "script": "industrial_nuclear_advanced_fuel_01.js",
+      "replacement_recipe": "industrial_colonies:machine/advanced_nuclear/reinforced_power_tap_active",
+      "replacement_type": "create:sequenced_assembly"
+    },
+    {
+      "machine": "bigreactors:reinforced_reactorchargingportfe",
+      "node": "CR01 — Advanced Nuclear Fuel",
+      "script": "industrial_nuclear_advanced_fuel_01.js",
+      "replacement_recipe": "industrial_colonies:machine/advanced_nuclear/reinforced_charging_port",
+      "replacement_type": "create:sequenced_assembly"
+    },
+    {
+      "machine": "bigreactors:reinforced_reactorredstoneport",
+      "node": "CR01 — Advanced Nuclear Fuel",
+      "script": "industrial_nuclear_advanced_fuel_01.js",
+      "replacement_recipe": "industrial_colonies:machine/advanced_nuclear/reinforced_redstone_port",
+      "replacement_type": "create:sequenced_assembly"
+    },
+    {
+      "machine": "bigreactors:reinforced_reactorcomputerport",
+      "node": "CR01 — Advanced Nuclear Fuel",
+      "script": "industrial_nuclear_advanced_fuel_01.js",
+      "replacement_recipe": "industrial_colonies:machine/advanced_nuclear/reinforced_computer_port",
+      "replacement_type": "industrial_colonies:refined_radiance_sequenced_assembly"
+    },
+    {
+      "machine": "er2create:reinforced_reactordisplaysource",
+      "node": "CR01 — Advanced Nuclear Fuel",
+      "script": "industrial_nuclear_advanced_fuel_01.js",
+      "replacement_recipe": "industrial_colonies:machine/advanced_nuclear/reinforced_display_source",
+      "replacement_type": "industrial_colonies:refined_radiance_sequenced_assembly"
+    },
+    {
+      "machine": "bigreactors:reinforced_reactorfluidport_forge_passive",
+      "node": "CR01 — Advanced Nuclear Fuel",
+      "script": "industrial_nuclear_advanced_fuel_01.js",
+      "replacement_recipe": "industrial_colonies:machine/advanced_nuclear/reinforced_fluid_port_forge_passive",
+      "replacement_type": "create:sequenced_assembly"
+    },
+    {
+      "machine": "bigreactors:reinforced_reactorfluidport_forge_active",
+      "node": "CR01 — Advanced Nuclear Fuel",
+      "script": "industrial_nuclear_advanced_fuel_01.js",
+      "replacement_recipe": "industrial_colonies:machine/advanced_nuclear/reinforced_fluid_port_forge_active",
+      "replacement_type": "create:sequenced_assembly"
+    },
+    {
+      "machine": "bigreactors:reinforced_reactorfluidport_mekanism_passive",
+      "node": "CR01 — Advanced Nuclear Fuel",
+      "script": "industrial_nuclear_advanced_fuel_01.js",
+      "replacement_recipe": "industrial_colonies:machine/advanced_nuclear/reinforced_fluid_port_mekanism_passive",
+      "replacement_type": "create:sequenced_assembly"
+    },
+    {
+      "machine": "tfmg:surface_scanner",
+      "node": "CR01 — Oil processing",
+      "script": "industrial_oil_field_construction.js",
+      "replacement_recipe": "industrial_colonies:machine/oil_processing/surface_scanner",
+      "replacement_type": "minecraft:crafting_shaped"
+    },
+    {
+      "machine": "tfmg:pumpjack_base",
+      "node": "CR01 — Oil processing",
+      "script": "industrial_oil_field_construction.js",
+      "replacement_recipe": "industrial_colonies:machine/oil_processing/pumpjack_base",
+      "replacement_type": "minecraft:crafting_shaped"
+    },
+    {
+      "machine": "tfmg:pumpjack_crank",
+      "node": "CR01 — Oil processing",
+      "script": "industrial_oil_field_construction.js",
+      "replacement_recipe": "industrial_colonies:machine/oil_processing/pumpjack_crank",
+      "replacement_type": "minecraft:crafting_shaped"
+    },
+    {
+      "machine": "tfmg:pumpjack_hammer",
+      "node": "CR01 — Oil processing",
+      "script": "industrial_oil_field_construction.js",
+      "replacement_recipe": "industrial_colonies:machine/oil_processing/pumpjack_hammer",
+      "replacement_type": "minecraft:crafting_shaped"
+    },
+    {
+      "machine": "tfmg:pumpjack_hammer_part",
+      "node": "CR01 — Oil processing",
+      "script": "industrial_oil_field_construction.js",
+      "replacement_recipe": "industrial_colonies:machine/oil_processing/pumpjack_hammer_part",
+      "replacement_type": "minecraft:crafting_shaped"
+    },
+    {
+      "machine": "tfmg:large_pumpjack_hammer_part",
+      "node": "CR01 — Oil processing",
+      "script": "industrial_oil_field_construction.js",
+      "replacement_recipe": "industrial_colonies:machine/oil_processing/large_pumpjack_hammer_part",
+      "replacement_type": "minecraft:crafting_shaped"
+    },
+    {
+      "machine": "tfmg:pumpjack_hammer_connector",
+      "node": "CR01 — Oil processing",
+      "script": "industrial_oil_field_construction.js",
+      "replacement_recipe": "industrial_colonies:machine/oil_processing/pumpjack_hammer_connector",
+      "replacement_type": "minecraft:crafting_shaped"
+    },
+    {
+      "machine": "tfmg:large_pumpjack_hammer_connector",
+      "node": "CR01 — Oil processing",
+      "script": "industrial_oil_field_construction.js",
+      "replacement_recipe": "industrial_colonies:machine/oil_processing/large_pumpjack_hammer_connector",
+      "replacement_type": "minecraft:crafting_shaped"
+    },
+    {
+      "machine": "tfmg:pumpjack_hammer_head",
+      "node": "CR01 — Oil processing",
+      "script": "industrial_oil_field_construction.js",
+      "replacement_recipe": "industrial_colonies:machine/oil_processing/pumpjack_hammer_head",
+      "replacement_type": "minecraft:crafting_shaped"
+    },
+    {
+      "machine": "tfmg:large_pumpjack_hammer_head",
+      "node": "CR01 — Oil processing",
+      "script": "industrial_oil_field_construction.js",
+      "replacement_recipe": "industrial_colonies:machine/oil_processing/large_pumpjack_hammer_head",
+      "replacement_type": "minecraft:crafting_shaped"
+    },
+    {
+      "machine": "tfmg:oil_hammer",
+      "node": "CR01 — Oil processing",
+      "script": "industrial_oil_field_construction.js",
+      "replacement_recipe": "industrial_colonies:machine/oil_processing/oil_hammer",
+      "replacement_type": "minecraft:crafting_shaped"
+    },
+    {
+      "machine": "tfmg:oil_can",
+      "node": "CR01 — Oil processing",
+      "script": "industrial_oil_field_construction.js",
+      "replacement_recipe": "industrial_colonies:machine/oil_processing/oil_can",
+      "replacement_type": "minecraft:crafting_shaped"
+    },
+    {
+      "machine": "tfmg:engine_controller",
+      "node": "CR01 — Early Combusion Engines",
+      "script": "industrial_oil_field_construction.js",
+      "replacement_recipe": "industrial_colonies:machine/early_combustion/engine_controller",
+      "replacement_type": "create:mechanical_crafting"
+    },
+    {
+      "machine": "electroenergetics:empty_spool",
+      "node": "CR01 — Grid Engineering",
+      "script": "industrial_grid_engineering_construction.js",
+      "replacement_recipe": "industrial_colonies:grid/empty_spool",
+      "replacement_type": "minecraft:crafting_shaped"
+    },
+    {
+      "machine": "electroenergetics:connector",
+      "node": "CR01 — Grid Engineering",
+      "script": "industrial_grid_engineering_construction.js",
+      "replacement_recipe": "industrial_colonies:grid/connector",
+      "replacement_type": "minecraft:crafting_shaped",
+      "allowed_surviving_source_recipes": [
+        "electroenergetics:crafting/connector_from_double",
+        "electroenergetics:crafting/connector_from_triple",
+        "electroenergetics:crafting/connector_from_quad"
+      ]
+    },
+    {
+      "machine": "electroenergetics:copper_wire_spool",
+      "node": "CR01 — Grid Engineering",
+      "script": "industrial_grid_engineering_construction.js",
+      "replacement_recipe": "industrial_colonies:grid/copper_wire_spool",
+      "replacement_type": "minecraft:crafting_shaped"
+    },
+    {
+      "machine": "electroenergetics:accumulator",
+      "node": "CR01 — Grid Engineering",
+      "script": "industrial_grid_engineering_construction.js",
+      "replacement_recipe": "industrial_colonies:grid/accumulator",
+      "replacement_type": "create:mechanical_crafting"
+    },
+    {
+      "machine": "electroenergetics:alternator_rotor",
+      "node": "CR01 — Grid Engineering",
+      "script": "industrial_grid_engineering_construction.js",
+      "replacement_recipe": "industrial_colonies:grid/alternator_rotor",
+      "replacement_type": "create:mechanical_crafting"
+    },
+    {
+      "machine": "electroenergetics:alternator_brushes",
+      "node": "CR01 — Grid Engineering",
+      "script": "industrial_grid_engineering_construction.js",
+      "replacement_recipe": "industrial_colonies:grid/alternator_brushes",
+      "replacement_type": "create:sequenced_assembly"
+    },
+    {
+      "machine": "electroenergetics:resistor",
+      "node": "CR01 — Grid Engineering",
+      "script": "industrial_grid_engineering_construction.js",
+      "replacement_recipe": "industrial_colonies:grid/resistor",
+      "replacement_type": "minecraft:crafting_shaped"
+    },
+    {
+      "machine": "tfmg:generator",
+      "node": "CR01 — Early Electricity Technology",
+      "script": "industrial_early_electricity_construction.js",
+      "replacement_recipe": "industrial_colonies:early_electricity/generator",
+      "replacement_type": "create:mechanical_crafting"
+    },
+    {
+      "machine": "tfmg:electric_motor",
+      "node": "CR01 — Early Electricity Technology",
+      "script": "industrial_early_electricity_construction.js",
+      "replacement_recipe": "industrial_colonies:early_electricity/electric_motor",
+      "replacement_type": "create:mechanical_crafting"
+    },
+    {
+      "machine": "tfmg:accumulator",
+      "node": "CR01 — Chemical Processing",
+      "script": "industrial_early_electricity_construction.js",
+      "replacement_recipe": "industrial_colonies:chemical_processing/accumulator",
+      "replacement_type": "minecraft:crafting_shaped"
+    },
+    {
+      "machine": "tfmg:cable_connector",
+      "node": "CR01 — Early Power Cables",
+      "script": "industrial_early_electricity_construction.js",
+      "replacement_recipe": "industrial_colonies:early_power_cables/cable_connector",
+      "replacement_type": "minecraft:crafting_shaped"
+    },
+    {
+      "machine": "tfmg:cable_tube",
+      "node": "CR01 — Chemical Processing",
+      "script": "industrial_early_electricity_construction.js",
+      "replacement_recipe": "industrial_colonies:chemical_processing/cable_tube",
+      "replacement_type": "minecraft:crafting_shaped"
+    },
+    {
+      "machine": "tfmg:copper_cable_hub",
+      "node": "CR01 — Early Power Cables",
+      "script": "industrial_early_electricity_construction.js",
+      "replacement_recipe": "industrial_colonies:early_power_cables/copper_cable_hub",
+      "replacement_type": "minecraft:crafting_shaped"
+    },
+    {
+      "machine": "createaddition:redstone_relay",
+      "node": "CR01 — Early Power Cables",
+      "script": "industrial_early_electricity_construction.js",
+      "replacement_recipe": "industrial_colonies:early_power_cables/redstone_relay",
+      "replacement_type": "minecraft:crafting_shaped"
+    },
+    {
+      "machine": "createaddition:small_light_connector",
+      "node": "CR01 — Early Power Cables",
+      "script": "industrial_early_electricity_construction.js",
+      "replacement_recipe": "industrial_colonies:early_power_cables/small_light_connector",
+      "replacement_type": "minecraft:crafting_shapeless"
+    }
+  ],
+  "machine_retirements": [
+    {
+      "machine": "mekanism:crusher",
+      "script": "industrial_machine_retirement_01.js",
+      "source_recipe": "mekanism:crusher",
+      "processing_type": "mekanism:crushing",
+      "replacement_type": "create:crushing",
+      "ported_recipe_count": 32,
+      "factories": [
+        "mekanism:basic_crushing_factory",
+        "mekanism:advanced_crushing_factory",
+        "mekanism:elite_crushing_factory",
+        "mekanism:ultimate_crushing_factory"
+      ]
+    },
+    {
+      "machine": "mekanism:precision_sawmill",
+      "script": "industrial_machine_retirement_01.js",
+      "source_recipe": "mekanism:precision_sawmill",
+      "processing_type": "mekanism:sawing",
+      "replacement_type": "create:cutting",
+      "ported_recipe_count": 0,
+      "factories": [
+        "mekanism:basic_sawing_factory",
+        "mekanism:advanced_sawing_factory",
+        "mekanism:elite_sawing_factory",
+        "mekanism:ultimate_sawing_factory"
+      ]
+    },
+    {
+      "machine": "mekanism:energized_smelter",
+      "script": "industrial_machine_retirement_01.js",
+      "source_recipe": "mekanism:energized_smelter",
+      "processing_type": "minecraft:smelting",
+      "replacement_type": "Create fan processing and vanilla furnaces",
+      "ported_recipe_count": 0,
+      "factories": [
+        "mekanism:basic_smelting_factory",
+        "mekanism:advanced_smelting_factory",
+        "mekanism:elite_smelting_factory",
+        "mekanism:ultimate_smelting_factory"
+      ]
+    },
+    {
+      "machine": "mekanism:formulaic_assemblicator",
+      "script": "industrial_machine_retirement_01.js",
+      "source_recipe": "mekanism:formulaic_assemblicator",
+      "processing_type": "minecraft:crafting",
+      "replacement_type": "Create assembly and AE2 autocrafting",
+      "ported_recipe_count": 0,
+      "factories": []
+    },
+    {
+      "machine": "createaddition:alternator",
+      "script": "industrial_early_electricity_construction.js",
+      "source_recipe": "createaddition:mechanical_crafting/alternator",
+      "processing_type": "create:mechanical_crafting",
+      "replacement_type": "tfmg:generator",
+      "ported_recipe_count": 0,
+      "factories": []
+    },
+    {
+      "machine": "createaddition:electric_motor",
+      "script": "industrial_early_electricity_construction.js",
+      "source_recipe": "createaddition:mechanical_crafting/electric_motor",
+      "processing_type": "create:mechanical_crafting",
+      "replacement_type": "tfmg:electric_motor",
+      "ported_recipe_count": 0,
+      "factories": []
+    },
+    {
+      "machine": "createaddition:modular_accumulator",
+      "script": "industrial_early_electricity_construction.js",
+      "source_recipe": "createaddition:crafting/modular_accumulator",
+      "processing_type": "minecraft:crafting_shaped",
+      "replacement_type": "tfmg:accumulator",
+      "ported_recipe_count": 0,
+      "factories": []
+    },
+    {
+      "machine": "createaddition:connector",
+      "script": "industrial_early_electricity_construction.js",
+      "source_recipe": "createaddition:crafting/connector",
+      "processing_type": "minecraft:crafting_shapeless",
+      "replacement_type": "tfmg:cable_connector",
+      "ported_recipe_count": 2,
+      "factories": []
+    },
+    {
+      "machine": "createaddition:large_connector",
+      "script": "industrial_early_electricity_construction.js",
+      "source_recipe": "createaddition:crafting/large_connector",
+      "processing_type": "minecraft:crafting_shapeless",
+      "replacement_type": "tfmg:copper_cable_hub",
+      "ported_recipe_count": 0,
+      "factories": []
+    }
+  ],
+  "installer_only_factories": {
+    "script": "industrial_factory_installer_progression.js",
+    "recipes": [
+      "mekanism:factory/basic/combining",
+      "mekanism:factory/advanced/combining",
+      "mekanism:factory/elite/combining",
+      "mekanism:factory/ultimate/combining",
+      "mekanism:factory/basic/compressing",
+      "mekanism:factory/advanced/compressing",
+      "mekanism:factory/elite/compressing",
+      "mekanism:factory/ultimate/compressing",
+      "mekanism:factory/basic/enriching",
+      "mekanism:factory/advanced/enriching",
+      "mekanism:factory/elite/enriching",
+      "mekanism:factory/ultimate/enriching",
+      "mekanism:factory/basic/infusing",
+      "mekanism:factory/advanced/infusing",
+      "mekanism:factory/elite/infusing",
+      "mekanism:factory/ultimate/infusing",
+      "mekanism:factory/basic/purifying",
+      "mekanism:factory/advanced/purifying",
+      "mekanism:factory/elite/purifying",
+      "mekanism:factory/ultimate/purifying",
+      "mekanism:factory/basic/injecting",
+      "mekanism:factory/advanced/injecting",
+      "mekanism:factory/elite/injecting",
+      "mekanism:factory/ultimate/injecting"
+    ]
+  }
+}

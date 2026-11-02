@@ -2136,6 +2136,10 @@
 		"action": "normalize"
 	},
 	{
+		"id": "iceandfire:silver_ingot_to_silver_block",
+		"action": "ten-ingot-block"
+	},
+	{
 		"id": "modernfoundry:smeltery/melting/metal/knightslime/ingot",
 		"action": "normalize"
 	},

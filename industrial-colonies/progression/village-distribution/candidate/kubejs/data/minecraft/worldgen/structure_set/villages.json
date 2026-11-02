@@ -1,0 +1,118 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 10387312,
+    "separation": 8,
+    "spacing": 34
+  },
+  "structures": [
+    {
+      "structure": "minecraft:village_plains",
+      "weight": 1000
+    },
+    {
+      "structure": "minecraft:village_desert",
+      "weight": 1000
+    },
+    {
+      "structure": "minecraft:village_savanna",
+      "weight": 1000
+    },
+    {
+      "structure": "minecraft:village_snowy",
+      "weight": 1000
+    },
+    {
+      "structure": "minecraft:village_taiga",
+      "weight": 1000
+    },
+    {
+      "structure": "cataclysm:abandoned_village",
+      "weight": 1
+    },
+    {
+      "structure": "cataclysm:desert_occupied_village",
+      "weight": 1
+    },
+    {
+      "structure": "minecolonies:medieval_spruce_colony",
+      "weight": 1
+    },
+    {
+      "structure": "minecolonies:medieval_dark_oak_colony",
+      "weight": 1
+    },
+    {
+      "structure": "minecolonies:barbarian_camp",
+      "weight": 1
+    },
+    {
+      "structure": "minecolonies:medieval_birch_colony",
+      "weight": 1
+    },
+    {
+      "structure": "minecolonies:medieval_oak_colony",
+      "weight": 1
+    },
+    {
+      "structure": "minecolonies:shire_colony",
+      "weight": 1
+    },
+    {
+      "structure": "minecolonies:incan_colony",
+      "weight": 1
+    },
+    {
+      "structure": "minecolonies:desert_camp",
+      "weight": 1
+    },
+    {
+      "structure": "minecolonies:asian_colony",
+      "weight": 1
+    },
+    {
+      "structure": "minecolonies:colonial_colony",
+      "weight": 1
+    },
+    {
+      "structure": "minecolonies:desertoasis_colony",
+      "weight": 1
+    },
+    {
+      "structure": "minecolonies:caledonia_colony",
+      "weight": 1
+    },
+    {
+      "structure": "minecolonies:amazon_camp",
+      "weight": 1
+    },
+    {
+      "structure": "minecolonies:lostmesacity_colony",
+      "weight": 1
+    },
+    {
+      "structure": "nuclearcraft:wasteland_village",
+      "weight": 1
+    },
+    {
+      "structure": "ctov:small/village_plains",
+      "weight": 20
+    },
+    {
+      "structure": "ctov:small/village_desert",
+      "weight": 20
+    },
+    {
+      "structure": "ctov:small/village_savanna",
+      "weight": 20
+    },
+    {
+      "structure": "ctov:small/village_snowy_igloo",
+      "weight": 20
+    },
+    {
+      "structure": "ctov:small/village_taiga",
+      "weight": 20
+    }
+  ]
+}

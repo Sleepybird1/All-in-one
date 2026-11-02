@@ -1,0 +1,55 @@
+{
+  "id": "industrial_colonies:metallurgy_casting_in_basin",
+  "jei": "createmetallurgy:casting_in_basin",
+  "mod": "createmetallurgy",
+  "icon": "createmetallurgy:casting_basin",
+  "width": 176,
+  "height": 64,
+  "slots": [
+    {
+      "key": "ingredients",
+      "role": "INPUT",
+      "x": 0,
+      "y": 4,
+      "required": true,
+      "item": true,
+      "tag": true,
+      "fluid": true,
+      "count": true,
+      "list": true
+    },
+    {
+      "key": "results",
+      "role": "OUTPUT",
+      "x": 116,
+      "y": 4,
+      "required": true,
+      "item": true,
+      "fluid": false,
+      "count": true,
+      "chance": false,
+      "list": true
+    }
+  ],
+  "decorations": [
+    {
+      "type": "ARROW",
+      "x": 78,
+      "y": 20
+    }
+  ],
+  "parameters": [
+    {
+      "key": "processingTime",
+      "type": "INT",
+      "default": "100"
+    },
+    {
+      "key": "moldConsumed",
+      "type": "BOOL",
+      "default": "false"
+    }
+  ],
+  "codegen": "industrial_colonies:metallurgy",
+  "requiresMod": "createmetallurgy"
+}

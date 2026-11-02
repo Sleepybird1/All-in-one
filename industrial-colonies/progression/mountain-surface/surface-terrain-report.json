@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "nativeLandTypes": 3,
+  "fullFootprintAndLedgeChecks": true,
+  "summitRejectsShouldersAndHighPlains": true,
+  "highPeatRemovedLowPeatPreserved": true,
+  "snowGroundCoveredOrePreserved": true
+}

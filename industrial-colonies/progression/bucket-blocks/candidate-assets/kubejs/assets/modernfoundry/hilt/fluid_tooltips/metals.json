@@ -1,0 +1,17 @@
+{
+  "tag": "modernfoundry:tooltips/metal",
+  "units": [
+    {
+      "key": "gui.modernfoundry.fluid.block",
+      "needed": 1000
+    },
+    {
+      "key": "gui.modernfoundry.fluid.ingot",
+      "needed": 100
+    },
+    {
+      "key": "gui.modernfoundry.fluid.nugget",
+      "needed": 10
+    }
+  ]
+}

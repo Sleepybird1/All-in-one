@@ -1,0 +1,804 @@
+{
+  "file.0000000000000001.title": "Industrial Colonies Guide",
+  "chapter.755CA7A80FA55558.title": "Factory Foundations",
+  "chapter.755CA7A80FA55558.chapter_subtitle": [
+    "Build a physical production chain from scavenged flint to the first TFMG diesel engine.",
+    "Quest lines are guidance only: recipes and machines remain usable whenever their real inputs are available."
+  ],
+  "quest.7B267A9BDA18FB08.title": "A Shard and a Stick",
+  "quest.7B267A9BDA18FB08.quest_subtitle": "Assemble the crude tool that starts the pack.",
+  "quest.7B267A9BDA18FB08.quest_desc": [
+    "Break leaves for sticks and search gravel or the ground for flint, then assemble a Crude Flint Pickaxe.",
+    "It is deliberately poor. Its job is to get the first stone and copper without restoring vanilla wooden-tool shortcuts."
+  ],
+  "quest.25564D0B6D54A977.title": "Copper Tool Workshop",
+  "quest.25564D0B6D54A977.quest_subtitle": "Build the stations for repairable modular tools.",
+  "quest.25564D0B6D54A977.quest_desc": [
+    "Craft a Part Builder and Tinker Station, then use copper parts to replace the crude emergency pickaxe.",
+    "These stations are a permanent repair and upgrade foundation, not a disposable tutorial step."
+  ],
+  "quest.3764A497D2E15A90.title": "Andesite Stock",
+  "quest.3764A497D2E15A90.quest_subtitle": "Prepare the first standardized machine material.",
+  "quest.3764A497D2E15A90.quest_desc": [
+    "Produce a working batch of Andesite Alloy for shafts, casings, and early Create machinery.",
+    "Sixteen ingots are a small production lot, not a toll: the task never consumes them."
+  ],
+  "quest.7D8F9757107D900E.title": "Rotational Power",
+  "quest.7D8F9757107D900E.quest_subtitle": "Turn flowing water into a reusable kinetic bus.",
+  "quest.7D8F9757107D900E.quest_desc": [
+    "Place a Water Wheel in flowing water and carry its rotation with shafts.",
+    "Leave space for gearing and future parallel lines instead of building a single-machine dead end."
+  ],
+  "quest.4690588A445A568A.title": "Material Handling",
+  "quest.4690588A445A568A.quest_subtitle": "Give the factory controlled transfer points.",
+  "quest.4690588A445A568A.quest_desc": [
+    "Use a Depot as a process position and a Chute for compact vertical transfer.",
+    "These two blocks become the handoff points between belts, presses, deployers, and bulk storage."
+  ],
+  "quest.42774C522DB6D308.title": "Mechanical Processing Line",
+  "quest.42774C522DB6D308.quest_subtitle": "Press, mix, wash, smoke, and blast materials in motion.",
+  "quest.42774C522DB6D308.quest_desc": [
+    "Build the Mechanical Press, Mechanical Mixer, and Encased Fan.",
+    "Together they turn rotation into the first repeatable processing line and prepare the operations used by later component recipes."
+  ],
+  "quest.644174D8D1981A6B.title": "Liquid Handling",
+  "quest.644174D8D1981A6B.quest_subtitle": "Store, route, and apply process fluids.",
+  "quest.644174D8D1981A6B.quest_desc": [
+    "Build a Mechanical Pump, Fluid Tank, and Spout and connect them with Create pipes.",
+    "This plumbing foundation remains useful for steam, oil, refined fuel, and chemical support lines."
+  ],
+  "quest.29D2F5846190436E.title": "Bulk Storage",
+  "quest.29D2F5846190436E.quest_subtitle": "Buffer a production line instead of carrying every batch.",
+  "quest.29D2F5846190436E.quest_desc": [
+    "Build an Item Vault and connect it to the material-handling line.",
+    "Buffers keep upstream machines productive while downstream operations stop, change recipes, or expand."
+  ],
+  "quest.3084D2C62CB77DF2.title": "Controlled Blaze Heat",
+  "quest.3084D2C62CB77DF2.quest_subtitle": "Add regulated high-temperature processing.",
+  "quest.3084D2C62CB77DF2.quest_desc": [
+    "Capture a Blaze in a Blaze Burner and install it beneath a Basin or boiler tank.",
+    "This heat source opens brass alloying and powered steam generation without acting as a quest-side lock."
+  ],
+  "quest.7CD0AB35E320C066.title": "Steam Power Plant",
+  "quest.7CD0AB35E320C066.quest_subtitle": "Convert a heated water system into scalable rotation.",
+  "quest.7CD0AB35E320C066.quest_desc": [
+    "Expand the Fluid Tank into a boiler, supply water and heat, then fit two Steam Engines to the structure.",
+    "Verify the boiler is actually producing rotation before treating the plant as complete; the quest only audits the tangible engine hardware."
+  ],
+  "quest.613FA403F315154B.title": "Brass Production",
+  "quest.613FA403F315154B.quest_subtitle": "Establish a heated copper-zinc alloy line.",
+  "quest.613FA403F315154B.quest_desc": [
+    "Use controlled Blaze heat and mechanical mixing to produce Brass Ingots, then prepare Brass Casings.",
+    "Keep this as a repeatable alloy line because precision mechanisms and smart logistics consume brass continuously."
+  ],
+  "quest.7E6341184F840A14.title": "Deployer Assembly",
+  "quest.7E6341184F840A14.quest_subtitle": "Place components onto moving workpieces without a player hand.",
+  "quest.7E6341184F840A14.quest_desc": [
+    "Use the new brass supply to build a Deployer, then give it a filtered input and a controlled work position.",
+    "Deployers are the core actors for sequenced assembly; the more capable Mechanical Arm follows after Precision Mechanisms exist."
+  ],
+  "quest.61A6D3F19EEB34C7.title": "Precision Assembly",
+  "quest.61A6D3F19EEB34C7.quest_subtitle": "Run the pack's first recognizable sequenced component line.",
+  "quest.61A6D3F19EEB34C7.quest_desc": [
+    "Automate Precision Mechanisms with a controlled sequence of component placement and pressing.",
+    "Produce a batch rather than hand-feeding one mechanism; later machine construction treats this as factory stock."
+  ],
+  "quest.58A7A51DA92A33AA.title": "Smart Brass Logistics",
+  "quest.58A7A51DA92A33AA.quest_subtitle": "Filter and distribute items by purpose.",
+  "quest.58A7A51DA92A33AA.quest_desc": [
+    "Build Brass Funnels, a Brass Tunnel, a Smart Chute, and a Mechanical Arm, then use filters to separate at least two products.",
+    "The arm requires a Precision Mechanism, so this branch improves the working assembly factory instead of pretending brass alone can build it."
+  ],
+  "quest.13389943D0FAD5DA.title": "Large-Grid Fabrication",
+  "quest.13389943D0FAD5DA.quest_subtitle": "Build the reusable 3x3 core of a Mechanical Crafter wall.",
+  "quest.13389943D0FAD5DA.quest_desc": [
+    "Manufacture nine Mechanical Crafters and power them as one connected grid.",
+    "The wall can expand beyond 3x3; large industrial machines later require deliberate 5x5 layouts."
+  ],
+  "quest.29D90F99EFEE1161.title": "Crushing Line",
+  "quest.29D90F99EFEE1161.quest_subtitle": "Increase ore and bulk-material processing capacity.",
+  "quest.29D90F99EFEE1161.quest_desc": [
+    "Manufacture a matched pair of Crushing Wheels and build a safe powered crusher.",
+    "Route outputs into a buffer so this high-throughput step can feed washing, mixing, and metallurgy."
+  ],
+  "quest.47A3EC06D2E649DE.title": "Rail Freight",
+  "quest.47A3EC06D2E649DE.quest_subtitle": "Prepare terrestrial bulk transport for separated factory districts.",
+  "quest.47A3EC06D2E649DE.quest_desc": [
+    "Build a Track Station and enough Track for a useful test segment.",
+    "Trains are a long-lived logistics layer for mines, oil fields, colonies, and remote processing sites."
+  ],
+  "quest.52C70E33F82424F3.title": "Cast-Iron Works",
+  "quest.52C70E33F82424F3.quest_subtitle": "Prepare structural metal for TFMG heavy industry.",
+  "quest.52C70E33F82424F3.quest_desc": [
+    "Produce a batch of TFMG Cast Iron and form several Cast Iron Frames.",
+    "This is the construction stock for coke processing and the first heavy industrial assemblies."
+  ],
+  "quest.68015D83ABB6978E.title": "Coke Oven Bank",
+  "quest.68015D83ABB6978E.quest_subtitle": "Turn coal into metallurgical fuel and useful byproducts.",
+  "quest.68015D83ABB6978E.quest_desc": [
+    "Build at least one TFMG Coke Oven and automate coal input, Coal Coke output, and fluid handling for Creosote and Carbon Dioxide.",
+    "TFMG's oven is intentionally slow, so reserve room for a parallel bank instead of treating one oven as permanent capacity."
+  ],
+  "quest.1CCCC465FEA474E1.title": "Metallurgical Fuel Stock",
+  "quest.1CCCC465FEA474E1.quest_subtitle": "Prove the coke line can supply sustained steelmaking.",
+  "quest.1CCCC465FEA474E1.quest_desc": [
+    "Run the Coke Oven line until it produces a working batch of TFMG Coal Coke.",
+    "The quest observes the output without consuming it, so the same batch can charge the blast furnace."
+  ],
+  "quest.6D678C942CF65C0F.title": "Blast Furnace",
+  "quest.6D678C942CF65C0F.quest_subtitle": "Assemble TFMG's hot-air steelmaking structure.",
+  "quest.6D678C942CF65C0F.quest_desc": [
+    "Center the furnace on a Blast Furnace Output, surround it with a fireproof-brick cylinder, and fit a Blast Furnace Hatch for hot air.",
+    "Use regular fireproof-brick reinforcement for the first working structure and install a Blast Stove; finished-steel reinforcement is an optional upgrade only after the first steel campaign."
+  ],
+  "quest.0E5BD2CFD14A633A.title": "First Steel Campaign",
+  "quest.0E5BD2CFD14A633A.quest_subtitle": "Run the blast furnace as a production machine, not a display piece.",
+  "quest.0E5BD2CFD14A633A.quest_desc": [
+    "Supply hot air, iron feed, and Coal Coke until the furnace produces a batch of TFMG Steel Ingots.",
+    "Keep steelmaking online: petroleum machinery, engines, electrical equipment, and later tiers all draw from this line."
+  ],
+  "quest.4FC2BE1934396EF9.title": "Steel Mechanisms",
+  "quest.4FC2BE1934396EF9.quest_subtitle": "Combine precision assembly with heavy metallurgy.",
+  "quest.4FC2BE1934396EF9.quest_desc": [
+    "Automate TFMG Steel Mechanisms from the new steel supply using the established assembly line.",
+    "This component is the bridge from brass-era automation into engines, prospecting, and heavy process equipment."
+  ],
+  "quest.5B31CD0E49FE0072.title": "Oil Prospecting",
+  "quest.5B31CD0E49FE0072.quest_subtitle": "Locate a TFMG reservoir before building extraction infrastructure.",
+  "quest.5B31CD0E49FE0072.quest_desc": [
+    "Craft a Surface Scanner and use it to find a viable oil deposit away from the main production floor.",
+    "Plan a rail or bulk-fluid route back to the refinery instead of moving the entire factory to the well."
+  ],
+  "quest.3A3FE22AFFDC2AA6.title": "Pumpjack Assembly",
+  "quest.3A3FE22AFFDC2AA6.quest_subtitle": "Build a powered extraction machine over the reservoir.",
+  "quest.3A3FE22AFFDC2AA6.quest_desc": [
+    "Run Industrial Pipes from the deposit to the surface, place the Pumpjack Base, then assemble the holder, crank, connector, head, and glued hammer parts.",
+    "Drive the Pumpjack Crank through a machine input and route the extracted crude into a tank or freight terminal."
+  ],
+  "quest.2DF5B6E3DB301322.title": "First Crude Oil",
+  "quest.2DF5B6E3DB301322.quest_subtitle": "Prove that the extraction line reaches storage.",
+  "quest.2DF5B6E3DB301322.quest_desc": [
+    "Operate the pumpjack until TFMG Crude Oil reaches a tank, then draw one bucket as a tangible line sample.",
+    "The bucket is not consumed and does not replace the bulk-fluid network required by the refinery."
+  ],
+  "quest.40921767ED845051.title": "Steel Distillation Column",
+  "quest.40921767ED845051.quest_subtitle": "Separate crude oil into useful TFMG fractions.",
+  "quest.40921767ED845051.quest_desc": [
+    "Build the base from Steel Tanks, attach the Steel Distillation Controller, and stack Industrial Pipes with the required Distillation Outputs.",
+    "Place a heat source beneath the tanks, feed crude into the controller, and route every output so a full buffer cannot stall the column."
+  ],
+  "quest.7345CDBE48B1E78E.title": "TFMG Diesel Supply",
+  "quest.7345CDBE48B1E78E.quest_subtitle": "Commission the pack's canonical diesel production line.",
+  "quest.7345CDBE48B1E78E.quest_desc": [
+    "Run the distillation column until it produces TFMG Diesel and draw a bucket as a line sample.",
+    "TFMG Diesel is the canonical fuel used by the pack; keep it in bulk storage and route it to engine consumers."
+  ],
+  "quest.09B6F1F98DB6C64D.title": "Engine Fabrication",
+  "quest.09B6F1F98DB6C64D.quest_subtitle": "Manufacture the modular hardware for controlled combustion power.",
+  "quest.09B6F1F98DB6C64D.quest_desc": [
+    "Build a Regular Engine block, Diesel Engine Cylinder, Engine Controller, Engine Gearbox, and Steel Flywheel.",
+    "The controller links to an engine with a transmission item; the gearbox and flywheel make the first installation useful as factory infrastructure."
+  ],
+  "quest.0DBF619FB292F51B.title": "First Working Diesel Engine",
+  "quest.0DBF619FB292F51B.quest_subtitle": "Join the fuel and engine branches into a running power source.",
+  "quest.0DBF619FB292F51B.quest_desc": [
+    "Place the Regular Engine, insert the Diesel Engine Cylinder and a shaft, connect TFMG Diesel input, and leave a valid exhaust path.",
+    "Start it with redstone, verify that the shaft turns under load, then link the Engine Controller if you want direct speed and direction control.",
+    "FTB Quests cannot detect multiblock runtime state, so the non-consuming tasks audit the complete commissioning kit while the running-shaft check remains an explicit build instruction."
+  ],
+  "chapter.66B4C51A8A428007.title": "Electrical Manufacturing",
+  "chapter.66B4C51A8A428007.chapter_subtitle": [
+    "Continue the physical factory campaign through Electrical Manufacturing.",
+    "Quests observe installed hardware without consuming it or granting progression."
+  ],
+  "quest.4B2C38F6A6067EFC.title": "Electromechanical Conversion",
+  "quest.4B2C38F6A6067EFC.quest_subtitle": "Build the canonical TFMG generator and motor and connect rotation to the first local FE bus.",
+  "quest.4B2C38F6A6067EFC.quest_desc": [
+    "Build the canonical TFMG generator and motor and connect rotation to the first local FE bus.",
+    "This is a non-consuming observation task: keep the hardware in your factory; the recipe and machine chain remain the only progression authority."
+  ],
+  "quest.63A0F1E445367DFF.title": "Electronics Workshop",
+  "quest.63A0F1E445367DFF.quest_subtitle": "Establish winding, measurement, and polarization as reusable factory services.",
+  "quest.63A0F1E445367DFF.quest_desc": [
+    "Establish winding, measurement, and polarization as reusable factory services.",
+    "This is a non-consuming observation task: keep the hardware in your factory; the recipe and machine chain remain the only progression authority."
+  ],
+  "quest.5B5F230617D7F2F6.title": "Local Power Network",
+  "quest.5B5F230617D7F2F6.quest_subtitle": "Distribute power through canonical TFMG endpoints before building a long-span grid.",
+  "quest.5B5F230617D7F2F6.quest_desc": [
+    "Distribute power through canonical TFMG endpoints before building a long-span grid.",
+    "This is a non-consuming observation task: keep the hardware in your factory; the recipe and machine chain remain the only progression authority."
+  ],
+  "quest.72079119200F4E33.title": "Industrial Circuit Line",
+  "quest.72079119200F4E33.quest_subtitle": "Mass-produce passive electronics and assemble the TFMG circuit board used by later machines.",
+  "quest.72079119200F4E33.quest_desc": [
+    "Mass-produce passive electronics and assemble the TFMG circuit board used by later machines.",
+    "This is a non-consuming observation task: keep the hardware in your factory; the recipe and machine chain remain the only progression authority."
+  ],
+  "quest.45E416C00E24B6A6.title": "Chemical Power Services",
+  "quest.45E416C00E24B6A6.quest_subtitle": "Add a TFMG Chemical Vat and lead-acid accumulator to the electrical district.",
+  "quest.45E416C00E24B6A6.quest_desc": [
+    "Add a TFMG Chemical Vat and lead-acid accumulator to the electrical district.",
+    "This is a non-consuming observation task: keep the hardware in your factory; the recipe and machine chain remain the only progression authority."
+  ],
+  "quest.5AB1E00E8E1C2241.title": "Utility Grid Plant",
+  "quest.5AB1E00E8E1C2241.quest_subtitle": "Manufacture the first Electro Energetics alternator and wire-spool hardware from the TFMG power foundation.",
+  "quest.5AB1E00E8E1C2241.quest_desc": [
+    "Manufacture the first Electro Energetics alternator and wire-spool hardware from the TFMG power foundation.",
+    "This is a non-consuming observation task: keep the hardware in your factory; the recipe and machine chain remain the only progression authority."
+  ],
+  "quest.5CE1866C695CC2E0.title": "Grid Storage and Control",
+  "quest.5CE1866C695CC2E0.quest_subtitle": "Buffer and condition the first working utility grid before high-voltage expansion.",
+  "quest.5CE1866C695CC2E0.quest_desc": [
+    "Buffer and condition the first working utility grid before high-voltage expansion.",
+    "This is a non-consuming observation task: keep the hardware in your factory; the recipe and machine chain remain the only progression authority."
+  ],
+  "chapter.4577312E188BD84D.title": "Digital Logistics and AE2",
+  "chapter.4577312E188BD84D.chapter_subtitle": [
+    "Continue the physical factory campaign through Digital Logistics.",
+    "Quests observe installed hardware without consuming it or granting progression."
+  ],
+  "quest.4C92188778A511FE.title": "Inscription Hardware",
+  "quest.4C92188778A511FE.quest_subtitle": "Charge crystals and prepare the dedicated AE2 inscription equipment.",
+  "quest.4C92188778A511FE.quest_desc": [
+    "Charge crystals and prepare the dedicated AE2 inscription equipment.",
+    "This is a non-consuming observation task: keep the hardware in your factory; the recipe and machine chain remain the only progression authority."
+  ],
+  "quest.61A18A651CB4E6B3.title": "Logic and Stress Processors",
+  "quest.61A18A651CB4E6B3.quest_subtitle": "Run both the AE2 logic line and the Applied Create stress-processor line as factory stock.",
+  "quest.61A18A651CB4E6B3.quest_desc": [
+    "Run both the AE2 logic line and the Applied Create stress-processor line as factory stock.",
+    "This is a non-consuming observation task: keep the hardware in your factory; the recipe and machine chain remain the only progression authority."
+  ],
+  "quest.37C1696E32511946.title": "Starter ME Network",
+  "quest.37C1696E32511946.quest_subtitle": "Power a small channel network and expose its contents through a terminal.",
+  "quest.37C1696E32511946.quest_desc": [
+    "Power a small channel network and expose its contents through a terminal.",
+    "This is a non-consuming observation task: keep the hardware in your factory; the recipe and machine chain remain the only progression authority."
+  ],
+  "quest.226A04656BFB827E.title": "Starter ME Storage",
+  "quest.226A04656BFB827E.quest_subtitle": "Install a drive and a useful first cell without pretending it replaces bulk buffers.",
+  "quest.226A04656BFB827E.quest_desc": [
+    "Install a drive and a useful first cell without pretending it replaces bulk buffers.",
+    "This is a non-consuming observation task: keep the hardware in your factory; the recipe and machine chain remain the only progression authority."
+  ],
+  "quest.4A5F56050103C954.title": "Computer Control Station",
+  "quest.4A5F56050103C954.quest_subtitle": "Build a normal ComputerCraft control desk for machines and local networking.",
+  "quest.4A5F56050103C954.quest_desc": [
+    "Build a normal ComputerCraft control desk for machines and local networking.",
+    "This is a non-consuming observation task: keep the hardware in your factory; the recipe and machine chain remain the only progression authority."
+  ],
+  "quest.6D8FEEBB98B4136F.title": "First Autocrafting Cell",
+  "quest.6D8FEEBB98B4136F.quest_subtitle": "Assemble a minimal crafting CPU, molecular processing, and a physical import path.",
+  "quest.6D8FEEBB98B4136F.quest_desc": [
+    "Assemble a minimal crafting CPU, molecular processing, and a physical import path.",
+    "This is a non-consuming observation task: keep the hardware in your factory; the recipe and machine chain remain the only progression authority."
+  ],
+  "chapter.76B4195A87E371E1.title": "Mekanized Industry",
+  "chapter.76B4195A87E371E1.chapter_subtitle": [
+    "Continue the physical factory campaign through Mekanized Industry.",
+    "Quests observe installed hardware without consuming it or granting progression."
+  ],
+  "quest.3113B64B7B30EA66.title": "Infusion Gateway",
+  "quest.3113B64B7B30EA66.quest_subtitle": "Build the user-owned Metallurgic Infuser construction recipe and make the first Basic Control Circuits.",
+  "quest.3113B64B7B30EA66.quest_desc": [
+    "Build the user-owned Metallurgic Infuser construction recipe and make the first Basic Control Circuits.",
+    "This is a non-consuming observation task: keep the hardware in your factory; the recipe and machine chain remain the only progression authority."
+  ],
+  "quest.3885F77B7EE24658.title": "Modular Chassis",
+  "quest.3885F77B7EE24658.quest_subtitle": "Standardize Mekanism construction around canonical TFMG Steel Frames and tier installers manufactured as physical crafting components.",
+  "quest.3885F77B7EE24658.quest_desc": [
+    "Standardize Mekanism construction around canonical TFMG Steel Frames and tier installers manufactured as physical crafting components.",
+    "This is a non-consuming observation task: keep the hardware in your factory; the recipe and machine chain remain the only progression authority."
+  ],
+  "quest.30A64C03E787CFC4.title": "Base Processing Cluster",
+  "quest.30A64C03E787CFC4.quest_subtitle": "Install enrichment and osmium-compression capacity for controlled materials work.",
+  "quest.30A64C03E787CFC4.quest_desc": [
+    "Install enrichment and osmium-compression capacity for controlled materials work.",
+    "This is a non-consuming observation task: keep the hardware in your factory; the recipe and machine chain remain the only progression authority."
+  ],
+  "quest.23C1566E5ACD3D87.title": "First Basic Factory",
+  "quest.23C1566E5ACD3D87.quest_subtitle": "Right-click the Enrichment Chamber with a Basic Tier Installer to create the Basic Enriching Factory. The installer is consumed while Mekanism preserves the machine inventory, energy, upgrades, side configuration, ownership, and security data. Direct Factory recipes are disabled; Energy Cube upgrades remain on their separate managed ladder.",
+  "quest.23C1566E5ACD3D87.quest_desc": [
+    "Right-click the Enrichment Chamber with a Basic Tier Installer to create the Basic Enriching Factory. The installer is consumed while Mekanism preserves the machine inventory, energy, upgrades, side configuration, ownership, and security data. Direct Factory recipes are disabled; Energy Cube upgrades remain on their separate managed ladder.",
+    "This is a non-consuming observation task: keep the hardware in your factory; the recipe and machine chain remain the only progression authority."
+  ],
+  "quest.0D141D97AAAB427E.title": "Basic Transmitter Suite",
+  "quest.0D141D97AAAB427E.quest_subtitle": "Build one deliberate eight-segment batch for each retained local Mekanism transport family. Create and TFMG plumbing replace Mekanism mechanical pipes.",
+  "quest.0D141D97AAAB427E.quest_desc": [
+    "Build one deliberate eight-segment batch for each retained local Mekanism transport family. Create and TFMG plumbing replace Mekanism mechanical pipes.",
+    "This is a non-consuming observation task: keep the hardware in your factory; the recipe and machine chain remain the only progression authority."
+  ],
+  "quest.5887BC446874E157.title": "Reinforced Controls",
+  "quest.5887BC446874E157.quest_subtitle": "Combine the first digital branch with Mekanism reinforcement and calculation logic.",
+  "quest.5887BC446874E157.quest_desc": [
+    "Combine the first digital branch with Mekanism reinforcement and calculation logic.",
+    "This is a non-consuming observation task: keep the hardware in your factory; the recipe and machine chain remain the only progression authority."
+  ],
+  "quest.031A13099A48BFAF.title": "Electrochemical Services",
+  "quest.031A13099A48BFAF.quest_subtitle": "Build the electrolysis/reaction line and demonstrate a reusable HDPE production lot.",
+  "quest.031A13099A48BFAF.quest_desc": [
+    "Build the electrolysis/reaction line and demonstrate a reusable HDPE production lot.",
+    "This is a non-consuming observation task: keep the hardware in your factory; the recipe and machine chain remain the only progression authority."
+  ],
+  "quest.0A35292A559B2318.title": "Pattern Automation",
+  "quest.0A35292A559B2318.quest_subtitle": "Encode patterns and expand the first AE2 crafting CPU without bypassing the physical machine line.",
+  "quest.0A35292A559B2318.quest_desc": [
+    "Encode patterns and expand the first AE2 crafting CPU without bypassing the physical machine line.",
+    "This is a non-consuming observation task: keep the hardware in your factory; the recipe and machine chain remain the only progression authority."
+  ],
+  "chapter.3000276E891E618B.title": "High-Energy Grid",
+  "chapter.3000276E891E618B.chapter_subtitle": [
+    "Continue the physical factory campaign through High-Energy Grid.",
+    "Quests observe installed hardware without consuming it or granting progression."
+  ],
+  "quest.64A4A4BE10B71DD2.title": "Precision Control Stack",
+  "quest.64A4A4BE10B71DD2.quest_subtitle": "Manufacture elite, engineering, and ultimate control logic on the Weathered Iron line.",
+  "quest.64A4A4BE10B71DD2.quest_desc": [
+    "Manufacture elite, engineering, and ultimate control logic on the Weathered Iron line.",
+    "This is a non-consuming observation task: keep the hardware in your factory; the recipe and machine chain remain the only progression authority."
+  ],
+  "quest.491B1001F9341B90.title": "Controller-Class ME Network",
+  "quest.491B1001F9341B90.quest_subtitle": "Scale from a starter network into controller channels, dense cabling, and larger storage.",
+  "quest.491B1001F9341B90.quest_desc": [
+    "Scale from a starter network into controller channels, dense cabling, and larger storage.",
+    "This is a non-consuming observation task: keep the hardware in your factory; the recipe and machine chain remain the only progression authority."
+  ],
+  "quest.219EEA0B4817C32A.title": "Remote Kinetic P2P",
+  "quest.219EEA0B4817C32A.quest_subtitle": "Build the manufactured Applied Create gateway that alone attunes ME P2P to rotational stress.",
+  "quest.219EEA0B4817C32A.quest_desc": [
+    "Build the manufactured Applied Create gateway that alone attunes ME P2P to rotational stress.",
+    "This is a non-consuming observation task: keep the hardware in your factory; the recipe and machine chain remain the only progression authority."
+  ],
+  "quest.054D724C340A94CA.title": "Extended Digital Manufacturing",
+  "quest.054D724C340A94CA.quest_subtitle": "Add ExtendedAE batch assembly, advanced reactions, and the first MEGA-scale cell component.",
+  "quest.054D724C340A94CA.quest_desc": [
+    "Add ExtendedAE batch assembly, advanced reactions, and the first MEGA-scale cell component.",
+    "This is a non-consuming observation task: keep the hardware in your factory; the recipe and machine chain remain the only progression authority."
+  ],
+  "quest.3B11A60D688779E6.title": "High-Voltage Substation",
+  "quest.3B11A60D688779E6.quest_subtitle": "Build analog transformation, switching, and insulated transmission before extreme distribution.",
+  "quest.3B11A60D688779E6.quest_desc": [
+    "Build analog transformation, switching, and insulated transmission before extreme distribution.",
+    "This is a non-consuming observation task: keep the hardware in your factory; the recipe and machine chain remain the only progression authority."
+  ],
+  "quest.2713862CE1DBDFA7.title": "Extreme Transmission Yard",
+  "quest.2713862CE1DBDFA7.quest_subtitle": "Commission the protected long-distance grid with heavy insulation and SF6 interruption hardware.",
+  "quest.2713862CE1DBDFA7.quest_desc": [
+    "Commission the protected long-distance grid with heavy insulation and SF6 interruption hardware.",
+    "This is a non-consuming observation task: keep the hardware in your factory; the recipe and machine chain remain the only progression authority."
+  ],
+  "quest.18055D536AD07A5F.title": "Energy Cube Ladder",
+  "quest.18055D536AD07A5F.quest_subtitle": "Upgrade one identity-bearing local buffer through all four physically manufactured tiers.",
+  "quest.18055D536AD07A5F.quest_desc": [
+    "Upgrade one identity-bearing local buffer through all four physically manufactured tiers.",
+    "This is a non-consuming observation task: keep the hardware in your factory; the recipe and machine chain remain the only progression authority."
+  ],
+  "quest.573938DA3F1F3095.title": "Physical Network Upgrade",
+  "quest.573938DA3F1F3095.quest_subtitle": "Carry one local logistics family from its Basic batch through the installed physical upgrade ladder.",
+  "quest.573938DA3F1F3095.quest_desc": [
+    "Carry one local logistics family from its Basic batch through the installed physical upgrade ladder.",
+    "This is a non-consuming observation task: keep the hardware in your factory; the recipe and machine chain remain the only progression authority."
+  ],
+  "quest.205F1E5DF1C94912.title": "Induction Matrix Hardware",
+  "quest.205F1E5DF1C94912.quest_subtitle": "Assemble and actually connect an induction matrix; tasks observe its tangible shell and ultimate internal hardware.",
+  "quest.205F1E5DF1C94912.quest_desc": [
+    "Assemble and actually connect an induction matrix; tasks observe its tangible shell and ultimate internal hardware.",
+    "This is a non-consuming observation task: keep the hardware in your factory; the recipe and machine chain remain the only progression authority."
+  ],
+  "quest.2BD4AB3795C7A1CA.title": "Persistent Remote Factory",
+  "quest.2BD4AB3795C7A1CA.quest_subtitle": "Keep remote oil, chemistry, and digital districts loaded with deliberate high-energy infrastructure.",
+  "quest.2BD4AB3795C7A1CA.quest_desc": [
+    "Keep remote oil, chemistry, and digital districts loaded with deliberate high-energy infrastructure.",
+    "This is a non-consuming observation task: keep the hardware in your factory; the recipe and machine chain remain the only progression authority."
+  ],
+  "chapter.5DC8D0E2A78157AD.title": "Nuclear Engineering",
+  "chapter.5DC8D0E2A78157AD.chapter_subtitle": [
+    "Continue the physical factory campaign through Nuclear Engineering.",
+    "Quests observe installed hardware without consuming it or granting progression."
+  ],
+  "quest.4A28B688EF7200CE.title": "Yellorium Refinement",
+  "quest.4A28B688EF7200CE.quest_subtitle": "Cast manufactured Yellorium alloy and turn it into the controlled isotope precursor.",
+  "quest.4A28B688EF7200CE.quest_desc": [
+    "Cast manufactured Yellorium alloy and turn it into the controlled isotope precursor.",
+    "This is a non-consuming observation task: keep the hardware in your factory; the recipe and machine chain remain the only progression authority."
+  ],
+  "quest.6E09F970F09B572C.title": "Uranium Feedstock",
+  "quest.6E09F970F09B572C.quest_subtitle": "Run Yellorium compound forward through enrichment and osmium compression; never reverse uranium into Yellorium.",
+  "quest.6E09F970F09B572C.quest_desc": [
+    "Run Yellorium compound forward through enrichment and osmium compression; never reverse uranium into Yellorium.",
+    "This is a non-consuming observation task: keep the hardware in your factory; the recipe and machine chain remain the only progression authority."
+  ],
+  "quest.7D4642CE108040CE.title": "Refined Radiance Line",
+  "quest.7D4642CE108040CE.quest_subtitle": "Manufacture the casing environment used by nuclear-age assembly without introducing a mined shortcut.",
+  "quest.7D4642CE108040CE.quest_desc": [
+    "Manufacture the casing environment used by nuclear-age assembly without introducing a mined shortcut.",
+    "This is a non-consuming observation task: keep the hardware in your factory; the recipe and machine chain remain the only progression authority."
+  ],
+  "quest.359A724E01323967.title": "Isotope Fuel Campaign",
+  "quest.359A724E01323967.quest_subtitle": "Build isotope separation and produce the first batch of enriched reactor fuel pellets.",
+  "quest.359A724E01323967.quest_desc": [
+    "Build isotope separation and produce the first batch of enriched reactor fuel pellets.",
+    "This is a non-consuming observation task: keep the hardware in your factory; the recipe and machine chain remain the only progression authority."
+  ],
+  "quest.517B4705E4DB0689.title": "Reactor Core Construction",
+  "quest.517B4705E4DB0689.quest_subtitle": "Prepare a real basic reactor shell and a controlled fuel-channel assembly.",
+  "quest.517B4705E4DB0689.quest_desc": [
+    "Prepare a real basic reactor shell and a controlled fuel-channel assembly.",
+    "This is a non-consuming observation task: keep the hardware in your factory; the recipe and machine chain remain the only progression authority."
+  ],
+  "quest.56B1899F9AA38E31.title": "Reactor Instrumentation",
+  "quest.56B1899F9AA38E31.quest_subtitle": "Build the computer-backed controller, redstone interlock, and FE power tap.",
+  "quest.56B1899F9AA38E31.quest_desc": [
+    "Build the computer-backed controller, redstone interlock, and FE power tap.",
+    "This is a non-consuming observation task: keep the hardware in your factory; the recipe and machine chain remain the only progression authority."
+  ],
+  "quest.0D04C77F2B95DB5F.title": "First Criticality",
+  "quest.0D04C77F2B95DB5F.quest_subtitle": "Run the assembled reactor; Cyanite is the audited tangible byproduct, while the quest never claims to detect multiblock state.",
+  "quest.0D04C77F2B95DB5F.quest_desc": [
+    "Run the assembled reactor; Cyanite is the audited tangible byproduct, while the quest never claims to detect multiblock state.",
+    "This is a non-consuming observation task: keep the hardware in your factory; the recipe and machine chain remain the only progression authority."
+  ],
+  "quest.5F36F87CA3676532.title": "Actinide Recovery",
+  "quest.5F36F87CA3676532.quest_subtitle": "Handle radioactive waste and produce the Plutonium Pellets required by the Industrial Reserve Core.",
+  "quest.5F36F87CA3676532.quest_desc": [
+    "Handle radioactive waste and produce the Plutonium Pellets required by the Industrial Reserve Core.",
+    "This is a non-consuming observation task: keep the hardware in your factory; the recipe and machine chain remain the only progression authority."
+  ],
+  "quest.51566C9CE720D8CB.title": "Reinforced Nuclear Platform",
+  "quest.51566C9CE720D8CB.quest_subtitle": "Close the base nuclear campaign with reprocessing and computer-controlled reinforced reactor hardware, then point to the unchanged Industrial Endgame chapter.",
+  "quest.51566C9CE720D8CB.quest_desc": [
+    "Close the base nuclear campaign with reprocessing and computer-controlled reinforced reactor hardware, then point to the unchanged Industrial Endgame chapter.",
+    "This is a non-consuming observation task: keep the hardware in your factory; the recipe and machine chain remain the only progression authority."
+  ],
+  "chapter.3F3E354DC1DC44D2.title": "Dungeon Expeditions",
+  "chapter.3F3E354DC1DC44D2.chapter_subtitle": [
+    "Survey installed dungeons as an optional break from factory construction.",
+    "Structure visits carry the main route; random salvage never blocks another expedition."
+  ],
+  "quest.5A0421E6B792A4AC.title": "Light for the Return Trip",
+  "quest.5A0421E6B792A4AC.quest_subtitle": "Carry enough markers to retreat through an underground structure.",
+  "quest.5A0421E6B792A4AC.quest_desc": [
+    "Bring at least sixteen torches before committing to an underground route.",
+    "This is preparation guidance only; the task observes the stack and consumes nothing."
+  ],
+  "quest.7E127D48840BC572.title": "Upgraded Monster Room",
+  "quest.7E127D48840BC572.quest_subtitle": "Survey the most common Better Dungeons structure.",
+  "quest.7E127D48840BC572.quest_desc": [
+    "Enter a YUNG's Better Dungeons Monster Room and learn to clear, light, and retreat from a compact structure.",
+    "Its placement is much denser than the major dungeons, making it the natural first survey."
+  ],
+  "quest.05DC3726C24A4A89.title": "Fortress of the Undead",
+  "quest.05DC3726C24A4A89.quest_subtitle": "Enter the skeleton fortress and mark a safe exit.",
+  "quest.05DC3726C24A4A89.quest_desc": [
+    "This objective verifies entry only. Clear as much as your equipment and supplies allow, then return later if needed."
+  ],
+  "quest.4BCB71CCDCF233E1.title": "Spider Cave",
+  "quest.4BCB71CCDCF233E1.quest_subtitle": "Survey the webbed cave as a separate expedition route.",
+  "quest.4BCB71CCDCF233E1.quest_desc": [
+    "Bring cutting tools, food, and a marked retreat path. The task completes from entering the actual structure."
+  ],
+  "quest.79B14136836E0DE4.title": "Zombie Catacomb",
+  "quest.79B14136836E0DE4.quest_subtitle": "Enter the catacomb whose tool tables are covered by the pack's wear rules.",
+  "quest.79B14136836E0DE4.quest_desc": [
+    "The pack preserves structure tools as salvage but removes common diamond-tool shortcuts from this dungeon's chests."
+  ],
+  "quest.12E86BD2EF1AADF8.title": "Overworld Dungeon Survey",
+  "quest.12E86BD2EF1AADF8.quest_subtitle": "Confirm all four Better Dungeons overworld discoveries.",
+  "quest.12E86BD2EF1AADF8.quest_desc": [
+    "YUNG's installed all_dungeons advancement records the same four overworld structures represented by the incoming branches."
+  ],
+  "quest.18E067DE9F1BD75F.title": "A Dungeon with Depth",
+  "quest.18E067DE9F1BD75F.quest_subtitle": "Enter a Dungeon Crawl complex and treat each floor as a separate commitment.",
+  "quest.18E067DE9F1BD75F.quest_desc": [
+    "Dungeon Crawl has five staged equipment lists. The pack keeps that depth curve while returning generated tools heavily worn.",
+    "This task verifies only the structure visit, so random chest luck never blocks the main line."
+  ],
+  "quest.58D55A5352E07D9F.title": "Tool from the Rubble",
+  "quest.58D55A5352E07D9F.quest_subtitle": "Optional proof that exploration can replace the crude opening tool.",
+  "quest.58D55A5352E07D9F.quest_desc": [
+    "Dungeon Crawl's first staged list can produce a stone pickaxe, and the pack removes its ordinary crafting recipe.",
+    "This random-loot observation is optional and unlocks no later expedition."
+  ],
+  "quest.7D84155B5DB7500F.title": "Recovery Equipment",
+  "quest.7D84155B5DB7500F.quest_subtitle": "Prepare defense and an emergency route before seeking the rare structures.",
+  "quest.7D84155B5DB7500F.quest_desc": [
+    "Carry a shield and water bucket before reconnoitering the Labyrinth or Temple of Duality.",
+    "The tasks observe reusable equipment and consume nothing."
+  ],
+  "quest.2772ECEBB83F9B21.title": "Labyrinth Reconnaissance",
+  "quest.2772ECEBB83F9B21.quest_subtitle": "Find and enter the rare Labyrinth, then decide how far to proceed.",
+  "quest.2772ECEBB83F9B21.quest_desc": [
+    "The native structure task completes at entry. No final-room encounter, trophy, or special drop is required."
+  ],
+  "quest.3C69C2345C7ECA6F.title": "Temple of Duality Reconnaissance",
+  "quest.3C69C2345C7ECA6F.quest_subtitle": "Locate and enter the puzzle-and-combat temple without requiring its final encounter.",
+  "quest.3C69C2345C7ECA6F.quest_desc": [
+    "The structure visit is the entire objective. The chapter does not require awakening encounters or obtaining their unique materials."
+  ],
+  "quest.64F5BC69BE8892C4.title": "Nether Field Survey",
+  "quest.64F5BC69BE8892C4.quest_subtitle": "Carry the same mapping discipline into a Small Nether Dungeon.",
+  "quest.64F5BC69BE8892C4.quest_desc": [
+    "This follow-up remains optional exploration guidance and does not gate any factory recipe."
+  ],
+  "chapter.5EAE8C019077D7EF.title": "Industrial Endgame",
+  "chapter.5EAE8C019077D7EF.chapter_subtitle": [
+    "Three non-gating factory objectives for the physical recipe progression.",
+    "Build mass, prove sustained chemical throughput, then combine both achievements into the Industrial Star."
+  ],
+  "quest.4B66DE417E679AE6.title": "Black Hole",
+  "quest.4B66DE417E679AE6.quest_subtitle": "Collapse nine maximum-density renewable material streams.",
+  "quest.4B66DE417E679AE6.quest_desc": [
+    "Produce the nine 9x-compressed renewable materials and craft the Black Hole.",
+    "The recipe represents 3,486,784,401 base blocks across cobblestone, stone, gravel, dirt, basalt, blackstone, oak logs, sand, and oak planks.",
+    "This quest only observes the finished item; it does not unlock or grant anything."
+  ],
+  "quest.3373AEB6F841A026.title": "Industrial Reserve Core",
+  "quest.3373AEB6F841A026.quest_subtitle": "Prove sustained fuel, acid, polymer, and actinide throughput.",
+  "quest.3373AEB6F841A026.quest_desc": [
+    "Run the 512-loop Sequenced Assembly that manufactures one Industrial Reserve Core.",
+    "The completed core consumes 4,096 HDPE Pellets, 512 Plutonium Pellets, 1,024,000 mB TFMG Sulfuric Acid, and 5,120,000 mB TFMG Diesel.",
+    "This quest is guidance only; the physical recipe and its inputs are the progression gate."
+  ],
+  "quest.00C5B9DFDCC5F502.title": "Industrial Star",
+  "quest.00C5B9DFDCC5F502.quest_subtitle": "Complete the base pack's ultimate factory artifact.",
+  "quest.00C5B9DFDCC5F502.quest_desc": [
+    "Mechanically craft the Black Hole, Industrial Reserve Core, Ultimate control circuits, and all three manufactured Allthemodium alloy families in a 5x5 grid.",
+    "The Industrial Star is the base-pack capstone and the future handoff into orbital and space-travel expansions.",
+    "No quest reward or stage is emitted; possession of the crafted Star completes the objective."
+  ],
+  "chapter.0098A4630EB1B68C.title": "Orbital Engineering",
+  "chapter.0098A4630EB1B68C.chapter_subtitle": [
+    "Carry the Industrial Star into an authorized block-built spacecraft.",
+    "Commission propulsion and habitat hardware, certify a reusable construction plan, then expand the dockyard with navigation, four-channel docking, and factory-made station materials."
+  ],
+  "quest.7BF772462B764442.title": "Orbital Flight Computer",
+  "quest.7BF772462B764442.quest_subtitle": "Turn the Industrial Star into physical authorization for a block-built ship.",
+  "quest.7BF772462B764442.quest_desc": [
+    "After completing the Industrial Star, mechanically craft the Orbital Flight Computer and install it aboard the Sable vessel you intend to fly.",
+    "The installed block is the physical authorization check for orbital transfer; completing this quest does not grant permission by itself.",
+    "This quest only observes the finished hardware; it consumes nothing and unlocks no recipe, research, stage, or destination."
+  ],
+  "quest.3A73061D881D59D7.title": "Thruster Mount",
+  "quest.3A73061D881D59D7.quest_subtitle": "Establish a structural mounting point for modular thrust hardware.",
+  "quest.3A73061D881D59D7.quest_desc": [
+    "After fabricating the hose coupling, engine-cycle plumbing, and nozzle, integrate them into a Thruster Mount.",
+    "The mount is the final structural interface between this modular propulsion assembly and the vessel.",
+    "This quest only observes the finished hardware; it consumes nothing and unlocks no recipe, research, stage, or destination."
+  ],
+  "quest.46B99062C183CE00.title": "Engine Cycle Pipes",
+  "quest.46B99062C183CE00.quest_subtitle": "Route the propulsion assembly's working fluids through a dedicated interface.",
+  "quest.46B99062C183CE00.quest_desc": [
+    "Obtain Engine Cycle Pipes and plan a serviceable route between the vessel's fluid infrastructure and its propulsion hardware.",
+    "Keep the line accessible so later engine layouts can be inspected and rebuilt without dismantling the whole hull.",
+    "This quest only observes the finished hardware; it consumes nothing and unlocks no recipe, research, stage, or destination."
+  ],
+  "quest.369662C60696204E.title": "Engine Nozzle",
+  "quest.369662C60696204E.quest_subtitle": "Define the thrust outlet and protect its clearance envelope.",
+  "quest.369662C60696204E.quest_desc": [
+    "Obtain an Engine Nozzle and reserve unobstructed hull space behind the propulsion assembly.",
+    "Use the nozzle as a visible reminder that engine placement, exhaust clearance, and vessel structure must be designed together.",
+    "This quest only observes the finished hardware; it consumes nothing and unlocks no recipe, research, stage, or destination."
+  ],
+  "quest.18548A7BBD3A6471.title": "Hose Anchor",
+  "quest.18548A7BBD3A6471.quest_subtitle": "Give external servicing lines a deliberate connection point.",
+  "quest.18548A7BBD3A6471.quest_desc": [
+    "Obtain a Hose Anchor and plan where ground-side or station-side servicing equipment will connect to the vessel.",
+    "A dedicated anchor keeps fueling and maintenance infrastructure legible as the ship grows more complex.",
+    "This quest only observes the finished hardware; it consumes nothing and unlocks no recipe, research, stage, or destination."
+  ],
+  "quest.1AA3FBF030B8937D.title": "Habitat Life-Support Readiness",
+  "quest.1AA3FBF030B8937D.quest_subtitle": "Prove that the vessel can distribute, sense, vent, and isolate a breathable atmosphere.",
+  "quest.1AA3FBF030B8937D.quest_desc": [
+    "Install an Oxygen Distributor, Oxygen Sensor, Vent, and Airlock as one inspectable habitat-support system after completing the Thruster Mount.",
+    "These four observations document the pressure-control branch that will be retained when the construction plan is certified.",
+    "This quest only observes the finished hardware; it consumes nothing and unlocks no recipe, research, stage, or destination."
+  ],
+  "quest.7A2579770208EA42.title": "Physics Assembler",
+  "quest.7A2579770208EA42.quest_subtitle": "Commission the ground-side machine that turns the certified design into a physical Sable vessel.",
+  "quest.7A2579770208EA42.quest_desc": [
+    "Use the Orbital Flight Computer, Thruster Mount, and Airlock as retained certification fixtures while producing the Contraption Diagram, then mechanically craft the Physics Assembler.",
+    "Keep the Physics Assembler at the construction yard: the flight computer, propulsion mount, and pressure hardware belong aboard the ship and are not consumed by certification.",
+    "This quest only observes the finished hardware; it consumes nothing and unlocks no recipe, research, stage, or destination."
+  ],
+  "quest.73F7C4FE65529875.title": "Navigation and Telemetry Suite",
+  "quest.73F7C4FE65529875.quest_subtitle": "Instrument the first craft for measured motion, attitude, optical reference, and orbital telemetry.",
+  "quest.73F7C4FE65529875.quest_desc": [
+    "After commissioning the Physics Assembler, fabricate the Velocity, Gimbal, and Optical Sensors and integrate them into a Navigation Table.",
+    "Complete the suite with a Sputnik Probe whose ComputerCraft telemetry can report position, velocity, attitude, mass, and orbital state to the dockyard.",
+    "This quest only observes the finished hardware; it consumes nothing and unlocks no recipe, research, stage, or destination."
+  ],
+  "quest.3C05FACF5195295E.title": "Four-Channel Docking Interface",
+  "quest.3C05FACF5195295E.quest_subtitle": "Join a vessel and station through one deliberate item, fluid, power, and data service point.",
+  "quest.3C05FACF5195295E.quest_desc": [
+    "Fabricate the matched pair of Docking Connectors and reserve one for each side of the service boundary.",
+    "The connector bridges a limited item slot, a fluid tank, FE transfer, and a ComputerCraft wired network; design the surrounding dockyard so every channel is visible and maintainable.",
+    "This quest only observes the finished hardware; it consumes nothing and unlocks no recipe, research, stage, or destination."
+  ],
+  "quest.0A7C17FCC821EE93.title": "Station Fabrication Batches",
+  "quest.0A7C17FCC821EE93.quest_subtitle": "Turn the terrestrial factory into a repeatable source of shell and service-corridor materials.",
+  "quest.0A7C17FCC821EE93.quest_desc": [
+    "Batch-produce Steel Plating and Steel Panels, then manufacture both Cable Ducts and Fluid Pipe Ducts for a serviceable orbital construction kit.",
+    "These materials document production readiness only. Any sealed habitat still requires deliberate enclosure and life-support testing; this objective does not claim that a particular hull block is pressure-rated.",
+    "This quest only observes the finished hardware; it consumes nothing and unlocks no recipe, research, stage, or destination."
+  ],
+  "chapter.39D9D81E433A3293.title": "Planetary Industry",
+  "chapter.39D9D81E433A3293.chapter_subtitle": [
+    "Turn planetary, asteroid, and gas-giant operations into remote extraction sites for the terrestrial industrial base.",
+    "Freight raw ore and condensate home, then process every material through its dedicated physical factory line."
+  ],
+  "quest.63DFC03E22C8E3E1.title": "Lunar Landfall",
+  "quest.63DFC03E22C8E3E1.quest_subtitle": "Reach the Moon after commissioning the first station-material batches.",
+  "quest.63DFC03E22C8E3E1.quest_desc": [
+    "Complete an actual dimension transfer to the Ad Astra Moon and establish a safe extraction foothold.",
+    "The advancement records arrival only; this quest consumes nothing and grants no destination, recipe, research, reward, or stage."
+  ],
+  "quest.16B2D5BF72CEE3CB.title": "Desh Freight Lot",
+  "quest.16B2D5BF72CEE3CB.quest_subtitle": "Return a full stack of raw Desh for sustained factory processing.",
+  "quest.16B2D5BF72CEE3CB.quest_desc": [
+    "Accumulate sixty-four Raw Desh as one meaningful freight lot rather than treating lunar mining as a one-off souvenir trip.",
+    "Keep the material: this observation consumes nothing and grants no recipe, research, reward, or stage."
+  ],
+  "quest.1DC41A9F3C30669F.title": "Desh Metallurgy Line",
+  "quest.1DC41A9F3C30669F.quest_subtitle": "Commission every physical stage from grit through Refined Radiance-stamped plate.",
+  "quest.1DC41A9F3C30669F.quest_desc": [
+    "Crush Desh into grit, enrich it in Mekanism, leach it with TFMG sulfuric acid and water, then reduce the compound between two heated-vat electrodes.",
+    "Stamp the recovered ingot on the Refined Radiance press. These observations consume nothing and grant no recipe, research, reward, or stage."
+  ],
+  "quest.7F72273BF968B727.title": "Mars Navigation Computer",
+  "quest.7F72273BF968B727.quest_subtitle": "Turn lunar Desh and the existing orbital avionics into physical Mars-descent authorization.",
+  "quest.7F72273BF968B727.quest_desc": [
+    "Mechanically craft the Mars Navigation Computer from Desh structure, layered TFMG electronics, AE engineering logic, ComputerCraft controls, the Navigation Table, and the existing Orbital Flight Computer.",
+    "Install it aboard every occupied ship that will descend to Mars. This observation consumes nothing and grants no destination, recipe, research, reward, or stage."
+  ],
+  "quest.6ED5A40D809C1E0D.title": "Martian Landfall",
+  "quest.6ED5A40D809C1E0D.quest_subtitle": "Extend the extraction network from the Moon to Mars.",
+  "quest.6ED5A40D809C1E0D.quest_desc": [
+    "Complete an actual dimension transfer to Ad Astra's Mars after proving the lunar metallurgy line.",
+    "The advancement records arrival only; this quest consumes nothing and grants no destination, recipe, research, reward, or stage."
+  ],
+  "quest.38C0491A3A911430.title": "Ostrum Freight Lot",
+  "quest.38C0491A3A911430.quest_subtitle": "Return a full stack of raw Ostrum for the heavier Martian process line.",
+  "quest.38C0491A3A911430.quest_desc": [
+    "Accumulate sixty-four Raw Ostrum to prove that Mars can feed a repeatable remote-freight operation.",
+    "Keep the material: this observation consumes nothing and grants no recipe, research, reward, or stage."
+  ],
+  "quest.05DC8B54EF0AC892.title": "Ostrum Metallurgy Line",
+  "quest.05DC8B54EF0AC892.quest_subtitle": "Commission the firebrick-vat Ostrum line from grit through plate.",
+  "quest.05DC8B54EF0AC892.quest_desc": [
+    "Crush and enrich Ostrum, then use the larger acid charge and longer firebrick-vat cycles demanded by the Martian metal.",
+    "Complete heated two-electrode reduction and Refined Radiance plate stamping. These observations consume nothing and grant no recipe, research, reward, or stage."
+  ],
+  "quest.77EF8AA721BADCB4.title": "Lunar Utility Array",
+  "quest.77EF8AA721BADCB4.quest_subtitle": "Turn refined Desh into renewable power, water handling, and controlled habitat gravity.",
+  "quest.77EF8AA721BADCB4.quest_desc": [
+    "Commission a four-panel solar array, a powered Water Pump, and a Gravity Normalizer as the reusable utility kit for a sustained lunar outpost.",
+    "Connect the pump to the established industrial oxygen chain rather than the retired direct-water shortcut. These observations consume nothing and grant no destination, recipe, research, reward, or stage."
+  ],
+  "quest.6DA3B532C3647383.title": "Martian Service Reserve",
+  "quest.6DA3B532C3647383.quest_subtitle": "Join the lunar utility branch to an Ostrum-hardened local and backup power reserve.",
+  "quest.6DA3B532C3647383.quest_desc": [
+    "Build the portable-charge Energizer, ship one Ultimate Energy Cube, and stage sixteen Ultimate Universal Cables for redundant outpost service.",
+    "This observation requires both utility branches but consumes nothing and grants no destination, recipe, research, reward, or stage."
+  ],
+  "quest.752A4197B8FBEFBC.title": "Closed-Loop Ration Reserve",
+  "quest.752A4197B8FBEFBC.quest_subtitle": "Convert the pack's agricultural output into a measurable emergency food reserve.",
+  "quest.752A4197B8FBEFBC.quest_desc": [
+    "Run edible agricultural output through the Nutritional Liquifier and fill at least one Mekanism Canteen with nutritional paste; keep four canteens ready for the crew.",
+    "The full-canteen advancement proves real throughput. These observations consume nothing and grant no destination, recipe, research, reward, or stage."
+  ],
+  "quest.1D767C5DB37CC1E6.title": "Venus Expedition Package",
+  "quest.1D767C5DB37CC1E6.quest_subtitle": "Pair physical Venus route authority with a complete heat-resistant pressure suit.",
+  "quest.1D767C5DB37CC1E6.quest_desc": [
+    "Mechanically craft the Venus Navigation Computer from the commissioned Moon/Mars utility network, then fabricate all four Netherite Space Suit pieces on automated 5x5 lines.",
+    "Install the computer aboard every occupied ship and correctly equip the full tagged suit before descent. These observations consume nothing and grant no destination, recipe, research, reward, or stage."
+  ],
+  "quest.626E594E7C77FEEA.title": "Venusian Landfall",
+  "quest.626E594E7C77FEEA.quest_subtitle": "Extend the protected extraction network from Mars to Venus.",
+  "quest.626E594E7C77FEEA.quest_desc": [
+    "Complete an actual dimension transfer to Ad Astra's Venus with the ship computer installed and every associated player wearing a complete correctly slotted heat-resistant suit.",
+    "The advancement records arrival only; this quest consumes nothing and grants no destination, recipe, research, reward, or stage."
+  ],
+  "quest.5890A05275D1FD2F.title": "Calorite Freight Lot",
+  "quest.5890A05275D1FD2F.quest_subtitle": "Return a full stack of raw Calorite for the first Venus-fed factory campaign.",
+  "quest.5890A05275D1FD2F.quest_desc": [
+    "Accumulate sixty-four Raw Calorite to prove the Venus route can support repeatable extraction and return freight rather than a single survey landing.",
+    "Keep the material: this observation consumes nothing and grants no recipe, research, reward, or stage."
+  ],
+  "quest.65156EB38AEC4E49.title": "Calorite Metallurgy Line",
+  "quest.65156EB38AEC4E49.quest_subtitle": "Commission the most demanding offworld metallurgy line yet, from grit through plate.",
+  "quest.65156EB38AEC4E49.quest_desc": [
+    "Crush and enrich Calorite, leach a four-concentrate batch with the larger acid-and-water charge, then use a superheated two-electrode firebrick vat for reduction.",
+    "Finish on the Refined Radiance press. These observations consume nothing and grant no recipe, research, reward, or stage."
+  ],
+  "quest.302693BACE769303.title": "Mercurian Landfall",
+  "quest.302693BACE769303.quest_subtitle": "Carry the Calorite-built route computer from deep space to the canonical Mercury surface.",
+  "quest.302693BACE769303.quest_desc": [
+    "Mechanically craft and install the Mercury Navigation Computer aboard every occupied ship, then complete an actual dimension transfer to Ad Astra's Mercury surface.",
+    "The advancement records arrival only; this quest consumes nothing and grants no destination, recipe, research, reward, or stage."
+  ],
+  "quest.32172048B4DE8DF6.title": "Returned Mercury Iron Sample",
+  "quest.32172048B4DE8DF6.quest_subtitle": "Bring a physical Mercury ore sample back into the freight network.",
+  "quest.32172048B4DE8DF6.quest_desc": [
+    "Return at least one Mercury Iron Ore from the surface. It remains ordinary iron feed rather than a fabricated new metallurgy tier.",
+    "Keep the sample: this observation consumes nothing and grants no recipe, research, reward, or stage."
+  ],
+  "quest.570B3031CA2A7709.title": "Asteroid Titanium Contact",
+  "quest.570B3031CA2A7709.quest_subtitle": "Recover the first titanium-bearing ore from a naturally spawned deep-space asteroid.",
+  "quest.570B3031CA2A7709.quest_desc": [
+    "Operate from Rocketnautics deep space until a moving Sable asteroid is discovered, rendezvous physically, and recover its distinctive Titanium Ore.",
+    "This observation consumes nothing, does not claim, locate, or summon an asteroid, and grants no recipe, research, reward, or stage."
+  ],
+  "quest.771666A5CB129292.title": "Bulk Asteroid Freight Reserve",
+  "quest.771666A5CB129292.quest_subtitle": "Turn repeated moving-asteroid rendezvous into a meaningful multi-ore freight reserve.",
+  "quest.771666A5CB129292.quest_desc": [
+    "Stage sixty-four Coal, Iron, and Copper Ore plus thirty-two Gold and Titanium Ore as a retained deep-space freight reserve for the Earth manufacturing base.",
+    "These observations consume nothing and grant no recipe, research, reward, stage, locator, or claim mechanic."
+  ],
+  "quest.415187ACFE68FD42.title": "Outer-System Services Authority",
+  "quest.415187ACFE68FD42.quest_subtitle": "Fabricate the sustained-power, coolant, and life-support controller required to commission one Sable ship or station.",
+  "quest.415187ACFE68FD42.quest_desc": [
+    "Mechanically craft a Station Services Controller from Calorite, asteroid titanium, heavy machinery, ultimate electrical hardware, oxygen distribution, gravity control, ComputerCraft supervision, and the Mercury route computer.",
+    "This item observation consumes nothing, grants no recipe and no destination, and does not commission a structure, grant a role, or replace the controller's continuous runtime checks."
+  ],
+  "quest.1FAD7FA149EAE3ED.title": "Atmospheric Scoop Array",
+  "quest.1FAD7FA149EAE3ED.quest_subtitle": "Build the station-only extractor whose production requires a live commissioned station in the verified gas-giant shell.",
+  "quest.1FAD7FA149EAE3ED.quest_desc": [
+    "Mechanically craft an Atmospheric Scoop from titanium mass, Calorite plates, pressure storage, TFMG pumping and pipework, life-support fans, flight hardware, and ultimate control electronics.",
+    "This item observation consumes nothing, grants no recipe and no destination, and cannot commission a station, supply FE or coolant, establish oxygen coverage, move the station, or generate condensate outside the runtime extraction contract."
+  ],
+  "quest.2DCAE859D80F0710.title": "Returned Condensate Batch",
+  "quest.2DCAE859D80F0710.quest_subtitle": "Extract and physically freight eight full condensate canisters back to Earth's manufacturing base.",
+  "quest.2DCAE859D80F0710.quest_desc": [
+    "Keep a commissioned station continuously powered, cooled, oxygenated, and inside the verified gas-giant extraction band until eight Gas Giant Condensate Buckets are filled, then carry them physically back to Earth.",
+    "This inventory observation consumes nothing, grants no recipe and no destination, teleports no fluid, and does not replace the station, scoop, transport, or return journey."
+  ],
+  "quest.3296118F54F6D14D.title": "Warp-Charge Precursor",
+  "quest.3296118F54F6D14D.quest_subtitle": "Commit the returned gas-giant batch and the complete industrial ancestry to a single interstellar precursor.",
+  "quest.3296118F54F6D14D.quest_desc": [
+    "Mechanically integrate all eight returned condensate canisters with asteroid titanium, Mercury iron, Calorite containment, advanced processors, the Industrial Star, and a Moon Crystal.",
+    "This item observation consumes nothing, grants no recipe and no destination, and grants no warp, route, charge, reward, research, or stage; the physical precursor remains only an ingredient for the later signed interstellar system."
+  ],
+  "quest.5A20D956586D084C.title": "Moon-Crystal Optics",
+  "quest.5A20D956586D084C.quest_subtitle": "Polish a retained batch of lunar crystals for route memory, navigation, and warp-field hardware.",
+  "quest.5A20D956586D084C.quest_desc": [
+    "Recover the source-owned Moon Crystal Ore added to the lunar crust and polish at least eight crystals through the dedicated sandpaper line.",
+    "This inventory observation consumes nothing and grants no recipe, destination, route signature, warp, reward, research, or stage."
+  ],
+  "quest.7F343A19CA0F7D0F.title": "Interstellar Navigation Computer",
+  "quest.7F343A19CA0F7D0F.quest_subtitle": "Build the physical ship-local authority that signs and continuously authorizes the exact Sol–Glacio route.",
+  "quest.7F343A19CA0F7D0F.quest_desc": [
+    "Mechanically integrate the complete planetary, station, digital, and high-energy ancestry into an Interstellar Navigation Computer, then install one aboard the commissioned ship.",
+    "This observation consumes nothing and grants no recipe or destination. It does not install the hardware, sign a crystal, authorize the ship, or replace the runtime checks."
+  ],
+  "quest.22EED3587C45B99C.title": "Signed Sol–Glacio Route Crystal",
+  "quest.22EED3587C45B99C.quest_subtitle": "Manufacture the route medium, then sign its exact two-point record at the physical navigation computer.",
+  "quest.22EED3587C45B99C.quest_desc": [
+    "Mechanically craft a Warp Crystal and use it on the Interstellar Navigation Computer at Sol. The computer overwrites its mutable route data with the exact source-authored Sol and Glacio endpoints.",
+    "FTB Quests can observe only the item identity, not its data components. This observation consumes nothing and grants no recipe, destination, or authority; the Warp Drive independently rejects every unsigned, altered, reordered, stale, or incorrectly selected crystal."
+  ],
+  "quest.58E1E15C513AB5E2.title": "Industrial Warp Drive",
+  "quest.58E1E15C513AB5E2.quest_subtitle": "Commit the complete terrestrial and outer-system factory ancestry to the ship's final drive.",
+  "quest.58E1E15C513AB5E2.quest_desc": [
+    "Mechanically craft the canonical Cosmowarp Warp Drive through the source-owned late-game recipe and install exactly one on the commissioned ship.",
+    "This item observation consumes nothing, places nothing, starts no charge, and grants no recipe or destination. It cannot replace the physical computer, crystal, station services, crew, or runtime inspection."
+  ],
+  "quest.0D19C8883588B8E3.title": "Single-Use Interstellar Charge",
+  "quest.0D19C8883588B8E3.quest_subtitle": "Finish one charge from the returned condensate precursor and the most advanced offworld materials.",
+  "quest.0D19C8883588B8E3.quest_desc": [
+    "Complete the dedicated sequenced assembly that converts one Warp-Charge Precursor into one Interstellar Warp Charge. A successful signed departure consumes exactly one charge after the stock drive accepts the start.",
+    "This observation consumes nothing and grants no recipe or destination. It cannot refund a failed attempt, grant a warp, bypass live services, select a target, or replace begin-time and execute-time validation."
+  ],
+  "quest.0FABE65FFACB1AD8.title": "Glacio Landfall",
+  "quest.0FABE65FFACB1AD8.quest_subtitle": "Execute the signed ship transaction and arrive on canonical Ad Astra Glacio without an orbit or prefab shortcut.",
+  "quest.0FABE65FFACB1AD8.quest_desc": [
+    "Depart Sol aboard one commissioned, continuously serviced Sable ship with exactly one Warp Drive, the installed Interstellar Navigation Computer, an exact signed crystal, an unmounted authorized crew, and one physical charge.",
+    "The advancement records the actual dimension transfer only. It consumes nothing and grants no destination, recipe, route, reward, research, stage, or return journey."
+  ],
+  "quest.7B0B71BC10C43F7A.title": "Escaped Sol",
+  "quest.7B0B71BC10C43F7A.quest_subtitle": "Recover unmistakable Glacio material and establish the current end of the designed interstellar campaign.",
+  "quest.7B0B71BC10C43F7A.quest_desc": [
+    "Mine and retain one Glacio Ice Shard Ore after landfall. This physical sample proves the ship reached and operated in the Proxima Centauri system rather than merely assembling hardware at home.",
+    "This final observation consumes nothing and grants no recipe or destination, reward, stage, teleport, return route, or future interstellar system. It is the current expansion boundary, not a claim that the factory is finished."
+  ]
+}

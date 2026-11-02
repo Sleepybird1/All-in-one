@@ -1,0 +1,5773 @@
+{
+  "removeIds": {
+    "industrial_colonies:nuclear/refined_radiance": true,
+    "industrial_colonies:sulfur/coal_gasification_blocks_coals": true,
+    "industrial_colonies:sulfur/coal_gasification_coals": true,
+    "industrial_colonies:sulfur/coal_gasification_dusts_coals": true,
+    "industrial_colonies:sulfur/gunpowder_recovery": true,
+    "mekanism:chemical_conversion/sulfur_to_sulfuric_acid": true,
+    "mekanism:chemical_infusing/sulfuric_acid": true,
+    "mekanism:injecting/gunpowder_to_sulfur": true,
+    "mekanism:reaction/coal_gasification/blocks_coals": true,
+    "mekanism:reaction/coal_gasification/coals": true,
+    "mekanism:reaction/coal_gasification/dusts_coals": true,
+    "mekanism:rotary/hydrogen": true,
+    "nuclearcraft:chemical_reactor/sulfuric_acid": true,
+    "nuclearcraft:leacher/thorium_slurry": true,
+    "nuclearcraft:leacher/uranium_slurry": true,
+    "tfmg:vat_machine_recipe/aluminum": true
+  },
+  "feedstocks": {
+    "#c:clumps/aluminum": true,
+    "#c:clumps/beryllium": true,
+    "#c:clumps/boron": true,
+    "#c:clumps/brass": true,
+    "#c:clumps/bronze": true,
+    "#c:clumps/chromium": true,
+    "#c:clumps/cobalt": true,
+    "#c:clumps/copper": true,
+    "#c:clumps/gold": true,
+    "#c:clumps/iridium": true,
+    "#c:clumps/iron": true,
+    "#c:clumps/lead": true,
+    "#c:clumps/lithium": true,
+    "#c:clumps/magnesium": true,
+    "#c:clumps/nickel": true,
+    "#c:clumps/osmium": true,
+    "#c:clumps/platinum": true,
+    "#c:clumps/silver": true,
+    "#c:clumps/steel": true,
+    "#c:clumps/tin": true,
+    "#c:clumps/titanium": true,
+    "#c:clumps/tungsten": true,
+    "#c:clumps/zinc": true,
+    "#c:crushed_raw_materials/aluminum": true,
+    "#c:crushed_raw_materials/beryllium": true,
+    "#c:crushed_raw_materials/boron": true,
+    "#c:crushed_raw_materials/brass": true,
+    "#c:crushed_raw_materials/bronze": true,
+    "#c:crushed_raw_materials/chromium": true,
+    "#c:crushed_raw_materials/cobalt": true,
+    "#c:crushed_raw_materials/copper": true,
+    "#c:crushed_raw_materials/gold": true,
+    "#c:crushed_raw_materials/iridium": true,
+    "#c:crushed_raw_materials/iron": true,
+    "#c:crushed_raw_materials/lead": true,
+    "#c:crushed_raw_materials/lithium": true,
+    "#c:crushed_raw_materials/magnesium": true,
+    "#c:crushed_raw_materials/nickel": true,
+    "#c:crushed_raw_materials/osmium": true,
+    "#c:crushed_raw_materials/platinum": true,
+    "#c:crushed_raw_materials/silver": true,
+    "#c:crushed_raw_materials/steel": true,
+    "#c:crushed_raw_materials/tin": true,
+    "#c:crushed_raw_materials/titanium": true,
+    "#c:crushed_raw_materials/tungsten": true,
+    "#c:crushed_raw_materials/zinc": true,
+    "#c:crystals/aluminum": true,
+    "#c:crystals/beryllium": true,
+    "#c:crystals/boron": true,
+    "#c:crystals/brass": true,
+    "#c:crystals/bronze": true,
+    "#c:crystals/chromium": true,
+    "#c:crystals/cobalt": true,
+    "#c:crystals/copper": true,
+    "#c:crystals/gold": true,
+    "#c:crystals/iridium": true,
+    "#c:crystals/iron": true,
+    "#c:crystals/lead": true,
+    "#c:crystals/lithium": true,
+    "#c:crystals/magnesium": true,
+    "#c:crystals/nickel": true,
+    "#c:crystals/osmium": true,
+    "#c:crystals/platinum": true,
+    "#c:crystals/silver": true,
+    "#c:crystals/steel": true,
+    "#c:crystals/tin": true,
+    "#c:crystals/titanium": true,
+    "#c:crystals/tungsten": true,
+    "#c:crystals/zinc": true,
+    "#c:dirty_dusts/aluminum": true,
+    "#c:dirty_dusts/beryllium": true,
+    "#c:dirty_dusts/boron": true,
+    "#c:dirty_dusts/brass": true,
+    "#c:dirty_dusts/bronze": true,
+    "#c:dirty_dusts/chromium": true,
+    "#c:dirty_dusts/cobalt": true,
+    "#c:dirty_dusts/copper": true,
+    "#c:dirty_dusts/gold": true,
+    "#c:dirty_dusts/iridium": true,
+    "#c:dirty_dusts/iron": true,
+    "#c:dirty_dusts/lead": true,
+    "#c:dirty_dusts/lithium": true,
+    "#c:dirty_dusts/magnesium": true,
+    "#c:dirty_dusts/nickel": true,
+    "#c:dirty_dusts/osmium": true,
+    "#c:dirty_dusts/platinum": true,
+    "#c:dirty_dusts/silver": true,
+    "#c:dirty_dusts/steel": true,
+    "#c:dirty_dusts/tin": true,
+    "#c:dirty_dusts/titanium": true,
+    "#c:dirty_dusts/tungsten": true,
+    "#c:dirty_dusts/zinc": true,
+    "#c:dusts/aluminum": true,
+    "#c:dusts/beryllium": true,
+    "#c:dusts/boron": true,
+    "#c:dusts/brass": true,
+    "#c:dusts/bronze": true,
+    "#c:dusts/chromium": true,
+    "#c:dusts/cobalt": true,
+    "#c:dusts/copper": true,
+    "#c:dusts/gold": true,
+    "#c:dusts/iridium": true,
+    "#c:dusts/iron": true,
+    "#c:dusts/lead": true,
+    "#c:dusts/lithium": true,
+    "#c:dusts/magnesium": true,
+    "#c:dusts/nickel": true,
+    "#c:dusts/osmium": true,
+    "#c:dusts/platinum": true,
+    "#c:dusts/silver": true,
+    "#c:dusts/steel": true,
+    "#c:dusts/tin": true,
+    "#c:dusts/titanium": true,
+    "#c:dusts/tungsten": true,
+    "#c:dusts/zinc": true,
+    "#c:ores/aluminum": true,
+    "#c:ores/beryllium": true,
+    "#c:ores/boron": true,
+    "#c:ores/brass": true,
+    "#c:ores/bronze": true,
+    "#c:ores/chromium": true,
+    "#c:ores/cobalt": true,
+    "#c:ores/copper": true,
+    "#c:ores/gold": true,
+    "#c:ores/iridium": true,
+    "#c:ores/iron": true,
+    "#c:ores/lead": true,
+    "#c:ores/lithium": true,
+    "#c:ores/magnesium": true,
+    "#c:ores/nickel": true,
+    "#c:ores/osmium": true,
+    "#c:ores/platinum": true,
+    "#c:ores/silver": true,
+    "#c:ores/steel": true,
+    "#c:ores/tin": true,
+    "#c:ores/titanium": true,
+    "#c:ores/tungsten": true,
+    "#c:ores/zinc": true,
+    "#c:raw_blocks/aluminum": true,
+    "#c:raw_blocks/beryllium": true,
+    "#c:raw_blocks/boron": true,
+    "#c:raw_blocks/brass": true,
+    "#c:raw_blocks/bronze": true,
+    "#c:raw_blocks/chromium": true,
+    "#c:raw_blocks/cobalt": true,
+    "#c:raw_blocks/copper": true,
+    "#c:raw_blocks/gold": true,
+    "#c:raw_blocks/iridium": true,
+    "#c:raw_blocks/iron": true,
+    "#c:raw_blocks/lead": true,
+    "#c:raw_blocks/lithium": true,
+    "#c:raw_blocks/magnesium": true,
+    "#c:raw_blocks/nickel": true,
+    "#c:raw_blocks/osmium": true,
+    "#c:raw_blocks/platinum": true,
+    "#c:raw_blocks/silver": true,
+    "#c:raw_blocks/steel": true,
+    "#c:raw_blocks/tin": true,
+    "#c:raw_blocks/titanium": true,
+    "#c:raw_blocks/tungsten": true,
+    "#c:raw_blocks/zinc": true,
+    "#c:raw_materials/aluminum": true,
+    "#c:raw_materials/beryllium": true,
+    "#c:raw_materials/boron": true,
+    "#c:raw_materials/brass": true,
+    "#c:raw_materials/bronze": true,
+    "#c:raw_materials/chromium": true,
+    "#c:raw_materials/cobalt": true,
+    "#c:raw_materials/copper": true,
+    "#c:raw_materials/gold": true,
+    "#c:raw_materials/iridium": true,
+    "#c:raw_materials/iron": true,
+    "#c:raw_materials/lead": true,
+    "#c:raw_materials/lithium": true,
+    "#c:raw_materials/magnesium": true,
+    "#c:raw_materials/nickel": true,
+    "#c:raw_materials/osmium": true,
+    "#c:raw_materials/platinum": true,
+    "#c:raw_materials/silver": true,
+    "#c:raw_materials/steel": true,
+    "#c:raw_materials/tin": true,
+    "#c:raw_materials/titanium": true,
+    "#c:raw_materials/tungsten": true,
+    "#c:raw_materials/zinc": true,
+    "#c:shards/aluminum": true,
+    "#c:shards/beryllium": true,
+    "#c:shards/boron": true,
+    "#c:shards/brass": true,
+    "#c:shards/bronze": true,
+    "#c:shards/chromium": true,
+    "#c:shards/cobalt": true,
+    "#c:shards/copper": true,
+    "#c:shards/gold": true,
+    "#c:shards/iridium": true,
+    "#c:shards/iron": true,
+    "#c:shards/lead": true,
+    "#c:shards/lithium": true,
+    "#c:shards/magnesium": true,
+    "#c:shards/nickel": true,
+    "#c:shards/osmium": true,
+    "#c:shards/platinum": true,
+    "#c:shards/silver": true,
+    "#c:shards/steel": true,
+    "#c:shards/tin": true,
+    "#c:shards/titanium": true,
+    "#c:shards/tungsten": true,
+    "#c:shards/zinc": true,
+    "#c:storage_blocks/raw_aluminum": true,
+    "#c:storage_blocks/raw_beryllium": true,
+    "#c:storage_blocks/raw_boron": true,
+    "#c:storage_blocks/raw_brass": true,
+    "#c:storage_blocks/raw_bronze": true,
+    "#c:storage_blocks/raw_chromium": true,
+    "#c:storage_blocks/raw_cobalt": true,
+    "#c:storage_blocks/raw_copper": true,
+    "#c:storage_blocks/raw_gold": true,
+    "#c:storage_blocks/raw_iridium": true,
+    "#c:storage_blocks/raw_iron": true,
+    "#c:storage_blocks/raw_lead": true,
+    "#c:storage_blocks/raw_lithium": true,
+    "#c:storage_blocks/raw_magnesium": true,
+    "#c:storage_blocks/raw_nickel": true,
+    "#c:storage_blocks/raw_osmium": true,
+    "#c:storage_blocks/raw_platinum": true,
+    "#c:storage_blocks/raw_silver": true,
+    "#c:storage_blocks/raw_steel": true,
+    "#c:storage_blocks/raw_tin": true,
+    "#c:storage_blocks/raw_titanium": true,
+    "#c:storage_blocks/raw_tungsten": true,
+    "#c:storage_blocks/raw_zinc": true,
+    "create:crushed_raw_aluminum": true,
+    "create:crushed_raw_copper": true,
+    "create:crushed_raw_gold": true,
+    "create:crushed_raw_iron": true,
+    "create:crushed_raw_lead": true,
+    "create:crushed_raw_nickel": true,
+    "create:crushed_raw_osmium": true,
+    "create:crushed_raw_platinum": true,
+    "create:crushed_raw_silver": true,
+    "create:crushed_raw_tin": true,
+    "create:crushed_raw_zinc": true,
+    "create:deepslate_zinc_ore": true,
+    "create:raw_zinc": true,
+    "create:raw_zinc_block": true,
+    "create:zinc_ore": true,
+    "createmetallurgy:copper_dust": true,
+    "createmetallurgy:crushed_raw_tungsten": true,
+    "createmetallurgy:dirty_copper_dust": true,
+    "createmetallurgy:dirty_gold_dust": true,
+    "createmetallurgy:dirty_iron_dust": true,
+    "createmetallurgy:dirty_tungsten_dust": true,
+    "createmetallurgy:dirty_zinc_dust": true,
+    "createmetallurgy:gold_dust": true,
+    "createmetallurgy:iron_dust": true,
+    "createmetallurgy:raw_tungsten": true,
+    "createmetallurgy:raw_wolframite_block": true,
+    "createmetallurgy:tungsten_dust": true,
+    "createmetallurgy:wolframite_ore": true,
+    "createmetallurgy:zinc_dust": true,
+    "deeperdarker:gloomslate_copper_ore": true,
+    "deeperdarker:gloomslate_gold_ore": true,
+    "deeperdarker:gloomslate_iron_ore": true,
+    "deeperdarker:sculk_stone_copper_ore": true,
+    "deeperdarker:sculk_stone_gold_ore": true,
+    "deeperdarker:sculk_stone_iron_ore": true,
+    "immersiveengineering:deepslate_ore_aluminum": true,
+    "immersiveengineering:deepslate_ore_lead": true,
+    "immersiveengineering:deepslate_ore_nickel": true,
+    "immersiveengineering:deepslate_ore_silver": true,
+    "immersiveengineering:dust_aluminum": true,
+    "immersiveengineering:dust_copper": true,
+    "immersiveengineering:dust_gold": true,
+    "immersiveengineering:dust_iron": true,
+    "immersiveengineering:dust_lead": true,
+    "immersiveengineering:dust_nickel": true,
+    "immersiveengineering:dust_silver": true,
+    "immersiveengineering:dust_steel": true,
+    "immersiveengineering:ore_aluminum": true,
+    "immersiveengineering:ore_lead": true,
+    "immersiveengineering:ore_nickel": true,
+    "immersiveengineering:ore_silver": true,
+    "immersiveengineering:raw_aluminum": true,
+    "immersiveengineering:raw_block_aluminum": true,
+    "immersiveengineering:raw_block_lead": true,
+    "immersiveengineering:raw_block_nickel": true,
+    "immersiveengineering:raw_block_silver": true,
+    "immersiveengineering:raw_lead": true,
+    "immersiveengineering:raw_nickel": true,
+    "immersiveengineering:raw_silver": true,
+    "industrial_colonies:argentite": true,
+    "industrial_colonies:bauxite": true,
+    "industrial_colonies:bertrandite": true,
+    "industrial_colonies:borax_rock": true,
+    "industrial_colonies:cassiterite": true,
+    "industrial_colonies:chalcopyrite": true,
+    "industrial_colonies:chromite": true,
+    "industrial_colonies:cobalt_ore": true,
+    "industrial_colonies:dolomite": true,
+    "industrial_colonies:galena": true,
+    "industrial_colonies:graphite_rock": true,
+    "industrial_colonies:hematite": true,
+    "industrial_colonies:ilmenite": true,
+    "industrial_colonies:magnetite": true,
+    "industrial_colonies:pentlandite": true,
+    "industrial_colonies:phosphate_rock": true,
+    "industrial_colonies:rich_bauxite": true,
+    "industrial_colonies:rich_chromium_ore": true,
+    "industrial_colonies:rich_copper_ore": true,
+    "industrial_colonies:rich_galena_ore": true,
+    "industrial_colonies:rich_hematite": true,
+    "industrial_colonies:rich_ilmenite_ore": true,
+    "industrial_colonies:rich_iridium_ore": true,
+    "industrial_colonies:rich_magnetite": true,
+    "industrial_colonies:rich_nickel_ore": true,
+    "industrial_colonies:rich_osmium_ore": true,
+    "industrial_colonies:rich_platinum_ore": true,
+    "industrial_colonies:rich_silver_ore": true,
+    "industrial_colonies:rich_sphalerite": true,
+    "industrial_colonies:rich_tin_ore": true,
+    "industrial_colonies:rich_wolframite_ore": true,
+    "industrial_colonies:sphalerite": true,
+    "industrial_colonies:spodumene_ore": true,
+    "industrial_colonies:spodumene_rock": true,
+    "industrial_colonies:thorium_ore": true,
+    "industrial_colonies:ultramafic_rock": true,
+    "industrial_colonies:uraninite": true,
+    "industrial_colonies:wolframite_rock": true,
+    "mekanism:block_raw_lead": true,
+    "mekanism:block_raw_osmium": true,
+    "mekanism:block_raw_tin": true,
+    "mekanism:clump_copper": true,
+    "mekanism:clump_gold": true,
+    "mekanism:clump_iron": true,
+    "mekanism:clump_lead": true,
+    "mekanism:clump_osmium": true,
+    "mekanism:clump_tin": true,
+    "mekanism:crystal_copper": true,
+    "mekanism:crystal_gold": true,
+    "mekanism:crystal_iron": true,
+    "mekanism:crystal_lead": true,
+    "mekanism:crystal_osmium": true,
+    "mekanism:crystal_tin": true,
+    "mekanism:deepslate_lead_ore": true,
+    "mekanism:deepslate_osmium_ore": true,
+    "mekanism:deepslate_tin_ore": true,
+    "mekanism:dirty_dust_copper": true,
+    "mekanism:dirty_dust_gold": true,
+    "mekanism:dirty_dust_iron": true,
+    "mekanism:dirty_dust_lead": true,
+    "mekanism:dirty_dust_osmium": true,
+    "mekanism:dirty_dust_tin": true,
+    "mekanism:dust_bronze": true,
+    "mekanism:dust_copper": true,
+    "mekanism:dust_gold": true,
+    "mekanism:dust_iron": true,
+    "mekanism:dust_lead": true,
+    "mekanism:dust_lithium": true,
+    "mekanism:dust_osmium": true,
+    "mekanism:dust_steel": true,
+    "mekanism:dust_tin": true,
+    "mekanism:lead_ore": true,
+    "mekanism:osmium_ore": true,
+    "mekanism:raw_lead": true,
+    "mekanism:raw_osmium": true,
+    "mekanism:raw_tin": true,
+    "mekanism:shard_copper": true,
+    "mekanism:shard_gold": true,
+    "mekanism:shard_iron": true,
+    "mekanism:shard_lead": true,
+    "mekanism:shard_osmium": true,
+    "mekanism:shard_tin": true,
+    "mekanism:tin_ore": true,
+    "minecraft:copper_ore": true,
+    "minecraft:deepslate_copper_ore": true,
+    "minecraft:deepslate_gold_ore": true,
+    "minecraft:deepslate_iron_ore": true,
+    "minecraft:gold_ore": true,
+    "minecraft:iron_ore": true,
+    "minecraft:nether_gold_ore": true,
+    "minecraft:raw_copper": true,
+    "minecraft:raw_copper_block": true,
+    "minecraft:raw_gold": true,
+    "minecraft:raw_gold_block": true,
+    "minecraft:raw_iron": true,
+    "minecraft:raw_iron_block": true,
+    "modernfoundry:cobalt_ore": true,
+    "modernfoundry:raw_cobalt": true,
+    "modernfoundry:raw_cobalt_block": true,
+    "nuclearcraft:aluminum_dust": true,
+    "nuclearcraft:beryllium_dust": true,
+    "nuclearcraft:boron_deepslate_ore": true,
+    "nuclearcraft:boron_dust": true,
+    "nuclearcraft:boron_ore": true,
+    "nuclearcraft:bronze_dust": true,
+    "nuclearcraft:chromium_dust": true,
+    "nuclearcraft:cobalt_deepslate_ore": true,
+    "nuclearcraft:cobalt_dust": true,
+    "nuclearcraft:cobalt_ore": true,
+    "nuclearcraft:copper_dust": true,
+    "nuclearcraft:gold_dust": true,
+    "nuclearcraft:iridium_dust": true,
+    "nuclearcraft:iron_dust": true,
+    "nuclearcraft:lead_dust": true,
+    "nuclearcraft:lead_ore": true,
+    "nuclearcraft:lithium_dust": true,
+    "nuclearcraft:lithium_ore": true,
+    "nuclearcraft:magnesium_deepslate_ore": true,
+    "nuclearcraft:magnesium_dust": true,
+    "nuclearcraft:magnesium_ore": true,
+    "nuclearcraft:osmium_dust": true,
+    "nuclearcraft:platinum_deepslate_ore": true,
+    "nuclearcraft:platinum_dust": true,
+    "nuclearcraft:raw_boron": true,
+    "nuclearcraft:raw_cobalt": true,
+    "nuclearcraft:raw_lead": true,
+    "nuclearcraft:raw_lithium": true,
+    "nuclearcraft:raw_magnesium": true,
+    "nuclearcraft:raw_platinum": true,
+    "nuclearcraft:raw_silver": true,
+    "nuclearcraft:raw_tin": true,
+    "nuclearcraft:raw_zinc": true,
+    "nuclearcraft:silver_deepslate_ore": true,
+    "nuclearcraft:silver_dust": true,
+    "nuclearcraft:silver_ore": true,
+    "nuclearcraft:steel_dust": true,
+    "nuclearcraft:tin_dust": true,
+    "nuclearcraft:tin_ore": true,
+    "nuclearcraft:titanium_dust": true,
+    "nuclearcraft:tungsten_dust": true,
+    "nuclearcraft:zinc_dust": true,
+    "nuclearcraft:zinc_ore": true,
+    "rocketnautics:crushed_raw_titanium": true,
+    "rocketnautics:deepslate_titanium_ore": true,
+    "rocketnautics:raw_titanium": true,
+    "rocketnautics:raw_titanium_block": true,
+    "rocketnautics:titanium_ore": true,
+    "stellaris:deepslate_steel_ore": true,
+    "stellaris:mars_iron_ore": true,
+    "stellaris:mercury_iron_ore": true,
+    "stellaris:moon_iron_ore": true,
+    "stellaris:moon_steel_ore": true,
+    "stellaris:raw_steel_block": true,
+    "stellaris:raw_steel_ingot": true,
+    "stellaris:steel_ore": true,
+    "stellaris:venus_gold_ore": true,
+    "tfmg:crushed_raw_lithium": true,
+    "tfmg:deepslate_lead_ore": true,
+    "tfmg:deepslate_lithium_ore": true,
+    "tfmg:deepslate_nickel_ore": true,
+    "tfmg:lead_ore": true,
+    "tfmg:lithium_ore": true,
+    "tfmg:nickel_ore": true,
+    "tfmg:raw_lead": true,
+    "tfmg:raw_lead_block": true,
+    "tfmg:raw_lithium": true,
+    "tfmg:raw_lithium_block": true,
+    "tfmg:raw_nickel": true,
+    "tfmg:raw_nickel_block": true
+  },
+  "steelFeedValues": {
+    "minecraft:raw_iron": 20,
+    "create:crushed_raw_iron": 20,
+    "#c:dusts/iron": 8
+  },
+  "alloyProducts": {
+    "#c:ingots/brass": true,
+    "#c:ingots/bronze": true,
+    "create:brass_ingot": true,
+    "createbigcannons:bronze_ingot": true,
+    "mekanism:ingot_bronze": true,
+    "nuclearcraft:bronze_ingot": true
+  },
+  "claimedOutputs": {
+    "create:refined_radiance": true,
+    "immersiveengineering:dust_nickel": true,
+    "mekanism:dust_copper": true,
+    "mekanism:dust_osmium": true,
+    "nuclearcraft:beryllium_dust": true,
+    "nuclearcraft:borax_dust": true,
+    "nuclearcraft:boron_dust": true,
+    "nuclearcraft:chromium_dust": true,
+    "nuclearcraft:cobalt_dust": true,
+    "nuclearcraft:graphite_dust": true,
+    "nuclearcraft:graphite_ingot": true,
+    "nuclearcraft:iridium_dust": true,
+    "nuclearcraft:lithium_dust": true,
+    "nuclearcraft:magnesium_dust": true,
+    "nuclearcraft:platinum_dust": true,
+    "nuclearcraft:silver_dust": true,
+    "nuclearcraft:thorium_dust": true,
+    "nuclearcraft:thorium_slurry": true,
+    "nuclearcraft:tungsten_dust": true,
+    "nuclearcraft:uranium_dust": true,
+    "nuclearcraft:uranium_slurry": true,
+    "nuclearcraft:zinc_dust": true,
+    "tfmg:bauxite_powder": true,
+    "tfmg:silicon_ingot": true
+  },
+  "nuggets": {
+    "#c:nuggets/aluminum": true,
+    "#c:nuggets/beryllium": true,
+    "#c:nuggets/boron": true,
+    "#c:nuggets/brass": true,
+    "#c:nuggets/bronze": true,
+    "#c:nuggets/chromium": true,
+    "#c:nuggets/cobalt": true,
+    "#c:nuggets/copper": true,
+    "#c:nuggets/gold": true,
+    "#c:nuggets/iridium": true,
+    "#c:nuggets/iron": true,
+    "#c:nuggets/lead": true,
+    "#c:nuggets/lithium": true,
+    "#c:nuggets/magnesium": true,
+    "#c:nuggets/nickel": true,
+    "#c:nuggets/osmium": true,
+    "#c:nuggets/platinum": true,
+    "#c:nuggets/silver": true,
+    "#c:nuggets/steel": true,
+    "#c:nuggets/tin": true,
+    "#c:nuggets/titanium": true,
+    "#c:nuggets/tungsten": true,
+    "#c:nuggets/zinc": true,
+    "ad_astra:steel_nugget": true,
+    "create:brass_nugget": true,
+    "create:copper_nugget": true,
+    "create:zinc_nugget": true,
+    "createbigcannons:bronze_scrap": true,
+    "createbigcannons:steel_scrap": true,
+    "createmetallurgy:tungsten_nugget": true,
+    "immersiveengineering:nugget_aluminum": true,
+    "immersiveengineering:nugget_copper": true,
+    "immersiveengineering:nugget_lead": true,
+    "immersiveengineering:nugget_nickel": true,
+    "immersiveengineering:nugget_silver": true,
+    "immersiveengineering:nugget_steel": true,
+    "mekanism:nugget_bronze": true,
+    "mekanism:nugget_lead": true,
+    "mekanism:nugget_osmium": true,
+    "mekanism:nugget_steel": true,
+    "mekanism:nugget_tin": true,
+    "minecraft:gold_nugget": true,
+    "minecraft:iron_nugget": true,
+    "modernfoundry:cobalt_nugget": true,
+    "modernfoundry:copper_nugget": true,
+    "modernfoundry:steel_nugget": true,
+    "nuclearcraft:aluminum_nugget": true,
+    "nuclearcraft:beryllium_nugget": true,
+    "nuclearcraft:boron_nugget": true,
+    "nuclearcraft:bronze_nugget": true,
+    "nuclearcraft:cobalt_nugget": true,
+    "nuclearcraft:lead_nugget": true,
+    "nuclearcraft:lithium_nugget": true,
+    "nuclearcraft:magnesium_nugget": true,
+    "nuclearcraft:platinum_nugget": true,
+    "nuclearcraft:silver_nugget": true,
+    "nuclearcraft:steel_nugget": true,
+    "nuclearcraft:tin_nugget": true,
+    "nuclearcraft:zinc_nugget": true,
+    "rocketnautics:titanium_nugget": true,
+    "stellaris:steel_nugget": true,
+    "tfmg:aluminum_nugget": true,
+    "tfmg:lead_nugget": true,
+    "tfmg:lithium_nugget": true,
+    "tfmg:nickel_nugget": true,
+    "tfmg:steel_nugget": true,
+    "ad_astra:calorite_nugget": true,
+    "#c:nuggets/calorite": true,
+    "#c:nuggets/desh": true,
+    "ad_astra:desh_nugget": true,
+    "#c:nuggets/ostrum": true,
+    "ad_astra:ostrum_nugget": true,
+    "#c:nuggets/allthemodium": true,
+    "allthemodium:allthemodium_nugget": true,
+    "#c:nuggets/unobtainium": true,
+    "allthemodium:unobtainium_nugget": true,
+    "#c:nuggets/unobtainium_allthemodium_alloy": true,
+    "#c:nuggets/unobtainium_vibranium_alloy": true,
+    "#c:nuggets/vibranium": true,
+    "allthemodium:vibranium_nugget": true,
+    "#c:nuggets/vibranium_allthemodium_alloy": true,
+    "#c:nuggets/neptunium": true,
+    "aquaculture:neptunium_nugget": true,
+    "#c:nuggets/titanium_alloy": true,
+    "rocketnautics:titanium_alloy_nugget": true,
+    "#c:nuggets/andesite_alloy": true,
+    "#c:nuggets/electrum": true,
+    "createaddition:electrum_nugget": true,
+    "nuclearcraft:electrum_nugget": true,
+    "immersiveengineering:nugget_electrum": true,
+    "#c:nuggets/cast_iron": true,
+    "createbigcannons:cast_iron_nugget": true,
+    "tfmg:cast_iron_nugget": true,
+    "createbigcannons:nethersteel_nugget": true,
+    "#c:nuggets/nethersteel": true,
+    "#c:nuggets/obdurium": true,
+    "#c:nuggets/infused_entro": true,
+    "#c:nuggets/blutonium": true,
+    "#c:nuggets/cyanite": true,
+    "#c:nuggets/graphite": true,
+    "#c:nuggets/inanite": true,
+    "#c:nuggets/insanite": true,
+    "#c:nuggets/ludicrite": true,
+    "#c:nuggets/magentite": true,
+    "stellaris:plutonium_nugget": true,
+    "#c:nuggets/plutonium": true,
+    "#c:nuggets/ridiculite": true,
+    "immersiveengineering:nugget_uranium": true,
+    "nuclearcraft:uranium_nugget": true,
+    "#c:nuggets/uranium": true,
+    "mekanism:nugget_uranium": true,
+    "#c:nuggets/yellorium": true,
+    "#c:nuggets/industrial_iron": true,
+    "immersiveengineering:nugget_constantan": true,
+    "tfmg:constantan_nugget": true,
+    "#c:nuggets/constantan": true,
+    "#c:nuggets/hop_graphite": true,
+    "#c:nuggets/mithril": true,
+    "#c:nuggets/pyrium": true,
+    "#c:nuggets/sky_steel": true,
+    "#c:nuggets/sky_osmium": true,
+    "#c:nuggets/sky_bronze": true,
+    "#c:nuggets/refined_glowstone": true,
+    "mekanism:nugget_refined_glowstone": true,
+    "mekanism:nugget_refined_obsidian": true,
+    "#c:nuggets/refined_obsidian": true,
+    "modernfoundry:amethyst_bronze_nugget": true,
+    "#c:nuggets/amethyst_bronze": true,
+    "#c:nuggets/cinderslime": true,
+    "modernfoundry:cinderslime_nugget": true,
+    "#c:nuggets/hepatizon": true,
+    "modernfoundry:hepatizon_nugget": true,
+    "modernfoundry:knightmetal_nugget": true,
+    "#c:nuggets/knightmetal": true,
+    "#c:nuggets/knightslime": true,
+    "modernfoundry:knightslime_nugget": true,
+    "modernfoundry:manyullyn_nugget": true,
+    "#c:nuggets/manyullyn": true,
+    "modernfoundry:netherite_nugget": true,
+    "immersiveengineering:nugget_netherite": true,
+    "#c:nuggets/netherite": true,
+    "modernfoundry:debris_nugget": true,
+    "#c:nuggets/netherite_scrap": true,
+    "#c:nuggets/pig_iron": true,
+    "modernfoundry:pig_iron_nugget": true,
+    "modernfoundry:queens_slime_nugget": true,
+    "#c:nuggets/queens_slime": true,
+    "modernfoundry:rose_gold_nugget": true,
+    "#c:nuggets/rose_gold": true,
+    "modernfoundry:slimesteel_nugget": true,
+    "#c:nuggets/slimesteel": true,
+    "#c:nuggets/soulsteel": true,
+    "modernfoundry:soulsteel_nugget": true,
+    "#c:nuggets/baratol": true,
+    "#c:nuggets/calcium": true,
+    "#c:nuggets/carbon_manganese": true,
+    "#c:nuggets/extreme": true,
+    "#c:nuggets/ferroboron": true,
+    "#c:nuggets/hafnium": true,
+    "#c:nuggets/hard_carbon": true,
+    "#c:nuggets/hsla_steel": true,
+    "#c:nuggets/lead_platinum": true,
+    "#c:nuggets/lithium_manganese_dioxide": true,
+    "#c:nuggets/magnesium_diboride": true,
+    "#c:nuggets/manganese": true,
+    "#c:nuggets/manganese_dioxide": true,
+    "#c:nuggets/manganese_oxide": true,
+    "#c:nuggets/neutronium": true,
+    "#c:nuggets/nichrome": true,
+    "#c:nuggets/niobium": true,
+    "#c:nuggets/niobium_tin": true,
+    "#c:nuggets/niobium_titanium": true,
+    "#c:nuggets/osmiridium": true,
+    "#c:nuggets/palladium": true,
+    "#c:nuggets/potassium": true,
+    "#c:nuggets/pyrolitic_carbon": true,
+    "#c:nuggets/shibuichi": true,
+    "#c:nuggets/sic_sic_cmc": true,
+    "#c:nuggets/silicon_carbide": true,
+    "#c:nuggets/sodium": true,
+    "#c:nuggets/stainless_steel": true,
+    "#c:nuggets/strontium": true,
+    "#c:nuggets/super_alloy": true,
+    "#c:nuggets/thermoconducting": true,
+    "#c:nuggets/thorium": true,
+    "nuclearcraft:thorium_nugget": true,
+    "#c:nuggets/tin_silver": true,
+    "#c:nuggets/tough_alloy": true,
+    "#c:nuggets/tungsten_carbide": true,
+    "#c:nuggets/yttrium": true,
+    "#c:nuggets/zircaloy": true,
+    "nuclearcraft:zirconium_nugget": true,
+    "#c:nuggets/zirconium": true,
+    "#c:nuggets/zirconium_molybdenum": true,
+    "stellaris:heavy_metal_nugget": true,
+    "#c:nuggets/heavy_metal": true,
+    "#c:nuggets/plastic": true,
+    "#c:nuggets/rubber": true,
+    "#c:nuggets/silicon": true
+  },
+  "ingots": {
+    "#c:ingots/aluminum": true,
+    "#c:ingots/beryllium": true,
+    "#c:ingots/boron": true,
+    "#c:ingots/brass": true,
+    "#c:ingots/bronze": true,
+    "#c:ingots/chromium": true,
+    "#c:ingots/cobalt": true,
+    "#c:ingots/copper": true,
+    "#c:ingots/gold": true,
+    "#c:ingots/iridium": true,
+    "#c:ingots/iron": true,
+    "#c:ingots/lead": true,
+    "#c:ingots/lithium": true,
+    "#c:ingots/magnesium": true,
+    "#c:ingots/nickel": true,
+    "#c:ingots/osmium": true,
+    "#c:ingots/platinum": true,
+    "#c:ingots/silver": true,
+    "#c:ingots/steel": true,
+    "#c:ingots/tin": true,
+    "#c:ingots/titanium": true,
+    "#c:ingots/tungsten": true,
+    "#c:ingots/zinc": true,
+    "ad_astra:steel_ingot": true,
+    "create:brass_ingot": true,
+    "create:zinc_ingot": true,
+    "createbigcannons:bronze_ingot": true,
+    "createbigcannons:steel_ingot": true,
+    "createmetallurgy:steel_ingot": true,
+    "createmetallurgy:tungsten_ingot": true,
+    "immersiveengineering:ingot_aluminum": true,
+    "immersiveengineering:ingot_lead": true,
+    "immersiveengineering:ingot_nickel": true,
+    "immersiveengineering:ingot_silver": true,
+    "immersiveengineering:ingot_steel": true,
+    "mekanism:ingot_bronze": true,
+    "mekanism:ingot_lead": true,
+    "mekanism:ingot_osmium": true,
+    "mekanism:ingot_steel": true,
+    "mekanism:ingot_tin": true,
+    "minecraft:copper_ingot": true,
+    "minecraft:gold_ingot": true,
+    "minecraft:iron_ingot": true,
+    "modernfoundry:cobalt_ingot": true,
+    "modernfoundry:steel_ingot": true,
+    "nuclearcraft:aluminum_ingot": true,
+    "nuclearcraft:beryllium_ingot": true,
+    "nuclearcraft:boron_ingot": true,
+    "nuclearcraft:bronze_ingot": true,
+    "nuclearcraft:chromium_ingot": true,
+    "nuclearcraft:cobalt_ingot": true,
+    "nuclearcraft:iridium_ingot": true,
+    "nuclearcraft:lead_ingot": true,
+    "nuclearcraft:lithium_ingot": true,
+    "nuclearcraft:magnesium_ingot": true,
+    "nuclearcraft:osmium_ingot": true,
+    "nuclearcraft:platinum_ingot": true,
+    "nuclearcraft:silver_ingot": true,
+    "nuclearcraft:steel_ingot": true,
+    "nuclearcraft:tin_ingot": true,
+    "nuclearcraft:titanium_ingot": true,
+    "nuclearcraft:tungsten_ingot": true,
+    "nuclearcraft:zinc_ingot": true,
+    "rocketnautics:titanium_ingot": true,
+    "stellaris:steel_ingot": true,
+    "tfmg:aluminum_ingot": true,
+    "tfmg:lead_ingot": true,
+    "tfmg:lithium_ingot": true,
+    "tfmg:nickel_ingot": true,
+    "tfmg:steel_ingot": true,
+    "#c:ingots/calorite": true,
+    "ad_astra:calorite_ingot": true,
+    "stellaris:desh_ingot": true,
+    "ad_astra:desh_ingot": true,
+    "#c:ingots/desh": true,
+    "#c:ingots/ostrum": true,
+    "ad_astra:ostrum_ingot": true,
+    "#c:ingots/allthemodium": true,
+    "allthemodium:allthemodium_ingot": true,
+    "allthemodium:unobtainium_ingot": true,
+    "#c:ingots/unobtainium": true,
+    "allthemodium:unobtainium_allthemodium_alloy_ingot": true,
+    "#c:ingots/unobtainium_allthemodium_alloy": true,
+    "allthemodium:unobtainium_vibranium_alloy_ingot": true,
+    "#c:ingots/unobtainium_vibranium_alloy": true,
+    "#c:ingots/vibranium": true,
+    "allthemodium:vibranium_ingot": true,
+    "allthemodium:vibranium_allthemodium_alloy_ingot": true,
+    "#c:ingots/vibranium_allthemodium_alloy": true,
+    "aquaculture:neptunium_ingot": true,
+    "#c:ingots/neptunium": true,
+    "stellaris:neptunium_ingot": true,
+    "#c:ingots/titanium_alloy": true,
+    "rocketnautics:titanium_alloy": true,
+    "create:andesite_alloy": true,
+    "#c:ingots/andesite_alloy": true,
+    "createaddition:electrum_ingot": true,
+    "#c:ingots/electrum": true,
+    "immersiveengineering:ingot_electrum": true,
+    "nuclearcraft:electrum_ingot": true,
+    "#c:ingots/cast_iron": true,
+    "tfmg:cast_iron_ingot": true,
+    "createbigcannons:cast_iron_ingot": true,
+    "#c:ingots/nethersteel": true,
+    "createbigcannons:nethersteel_ingot": true,
+    "#c:ingots/obdurium": true,
+    "createmetallurgy:obdurium_ingot": true,
+    "extendedae:entro_ingot": true,
+    "#c:ingots/infused_entro": true,
+    "bigreactors:blutonium_ingot": true,
+    "#c:ingots/blutonium": true,
+    "bigreactors:cyanite_ingot": true,
+    "#c:ingots/cyanite": true,
+    "nuclearcraft:graphite_ingot": true,
+    "bigreactors:graphite_ingot": true,
+    "#c:ingots/graphite": true,
+    "bigreactors:inanite_ingot": true,
+    "#c:ingots/inanite": true,
+    "#c:ingots/insanite": true,
+    "bigreactors:insanite_ingot": true,
+    "bigreactors:ludicrite_ingot": true,
+    "#c:ingots/ludicrite": true,
+    "#c:ingots/magentite": true,
+    "bigreactors:magentite_ingot": true,
+    "#c:ingots/plutonium": true,
+    "stellaris:plutonium_ingot": true,
+    "#c:ingots/ridiculite": true,
+    "bigreactors:ridiculite_ingot": true,
+    "#c:ingots/uranium": true,
+    "nuclearcraft:uranium_ingot": true,
+    "mekanism:ingot_uranium": true,
+    "stellaris:uranium_ingot": true,
+    "bigreactors:yellorium_ingot": true,
+    "immersiveengineering:ingot_uranium": true,
+    "#c:ingots/yellorium": true,
+    "i_architecture:industrial_iron_ingot": true,
+    "#c:ingots/industrial_iron": true,
+    "tfmg:constantan_ingot": true,
+    "#c:ingots/constantan": true,
+    "immersiveengineering:ingot_constantan": true,
+    "immersiveengineering:ingot_hop_graphite": true,
+    "#c:ingots/hop_graphite": true,
+    "#c:ingots/mithril": true,
+    "irons_spellbooks:mithril_ingot": true,
+    "irons_spellbooks:pyrium_ingot": true,
+    "#c:ingots/pyrium": true,
+    "#c:ingots/sky_steel": true,
+    "megacells:sky_steel_ingot": true,
+    "megacells:sky_osmium_ingot": true,
+    "#c:ingots/sky_osmium": true,
+    "megacells:sky_bronze_ingot": true,
+    "#c:ingots/sky_bronze": true,
+    "#c:ingots/refined_glowstone": true,
+    "mekanism:ingot_refined_glowstone": true,
+    "#c:ingots/refined_obsidian": true,
+    "mekanism:ingot_refined_obsidian": true,
+    "#c:ingots/amethyst_bronze": true,
+    "modernfoundry:amethyst_bronze_ingot": true,
+    "modernfoundry:cinderslime_ingot": true,
+    "#c:ingots/cinderslime": true,
+    "modernfoundry:hepatizon_ingot": true,
+    "#c:ingots/hepatizon": true,
+    "modernfoundry:knightmetal_ingot": true,
+    "#c:ingots/knightmetal": true,
+    "modernfoundry:knightslime_ingot": true,
+    "#c:ingots/knightslime": true,
+    "#c:ingots/manyullyn": true,
+    "modernfoundry:manyullyn_ingot": true,
+    "#c:ingots/netherite": true,
+    "minecraft:netherite_ingot": true,
+    "minecraft:netherite_scrap": true,
+    "#c:ingots/netherite_scrap": true,
+    "#c:ingots/pig_iron": true,
+    "modernfoundry:pig_iron_ingot": true,
+    "#c:ingots/queens_slime": true,
+    "modernfoundry:queens_slime_ingot": true,
+    "#c:ingots/rose_gold": true,
+    "modernfoundry:rose_gold_ingot": true,
+    "#c:ingots/slimesteel": true,
+    "modernfoundry:slimesteel_ingot": true,
+    "#c:ingots/soulsteel": true,
+    "modernfoundry:soulsteel_ingot": true,
+    "nuclearcraft:baratol_ingot": true,
+    "#c:ingots/baratol": true,
+    "#c:ingots/calcium": true,
+    "nuclearcraft:calcium_ingot": true,
+    "nuclearcraft:carbon_manganese_ingot": true,
+    "#c:ingots/carbon_manganese": true,
+    "#c:ingots/extreme": true,
+    "nuclearcraft:extreme_ingot": true,
+    "#c:ingots/ferroboron": true,
+    "nuclearcraft:ferroboron_ingot": true,
+    "#c:ingots/hafnium": true,
+    "nuclearcraft:hafnium_ingot": true,
+    "nuclearcraft:hard_carbon_ingot": true,
+    "#c:ingots/hard_carbon": true,
+    "#c:ingots/hsla_steel": true,
+    "nuclearcraft:hsla_steel_ingot": true,
+    "nuclearcraft:lead_platinum_ingot": true,
+    "#c:ingots/lead_platinum": true,
+    "#c:ingots/lithium_manganese_dioxide": true,
+    "nuclearcraft:lithium_manganese_dioxide_ingot": true,
+    "nuclearcraft:magnesium_diboride_ingot": true,
+    "#c:ingots/magnesium_diboride": true,
+    "nuclearcraft:manganese_ingot": true,
+    "#c:ingots/manganese": true,
+    "#c:ingots/manganese_dioxide": true,
+    "nuclearcraft:manganese_dioxide_ingot": true,
+    "#c:ingots/manganese_oxide": true,
+    "nuclearcraft:manganese_oxide_ingot": true,
+    "#c:ingots/neutronium": true,
+    "nuclearcraft:neutronium_ingot": true,
+    "nuclearcraft:nichrome_ingot": true,
+    "#c:ingots/nichrome": true,
+    "nuclearcraft:niobium_ingot": true,
+    "#c:ingots/niobium": true,
+    "#c:ingots/niobium_tin": true,
+    "nuclearcraft:niobium_tin_ingot": true,
+    "nuclearcraft:niobium_titanium_ingot": true,
+    "#c:ingots/niobium_titanium": true,
+    "nuclearcraft:osmiridium_ingot": true,
+    "#c:ingots/osmiridium": true,
+    "nuclearcraft:palladium_ingot": true,
+    "#c:ingots/palladium": true,
+    "#c:ingots/potassium": true,
+    "nuclearcraft:potassium_ingot": true,
+    "nuclearcraft:pyrolitic_carbon_ingot": true,
+    "#c:ingots/pyrolitic_carbon": true,
+    "nuclearcraft:shibuichi_ingot": true,
+    "#c:ingots/shibuichi": true,
+    "nuclearcraft:sic_sic_cmc_ingot": true,
+    "#c:ingots/sic_sic_cmc": true,
+    "#c:ingots/silicon_carbide": true,
+    "nuclearcraft:silicon_carbide_ingot": true,
+    "#c:ingots/sodium": true,
+    "nuclearcraft:sodium_ingot": true,
+    "#c:ingots/stainless_steel": true,
+    "nuclearcraft:stainless_steel_ingot": true,
+    "nuclearcraft:strontium_ingot": true,
+    "#c:ingots/strontium": true,
+    "#c:ingots/super_alloy": true,
+    "nuclearcraft:super_alloy_ingot": true,
+    "nuclearcraft:thermoconducting_ingot": true,
+    "#c:ingots/thermoconducting": true,
+    "#c:ingots/thorium": true,
+    "nuclearcraft:thorium_ingot": true,
+    "#c:ingots/tin_silver": true,
+    "nuclearcraft:tin_silver_ingot": true,
+    "#c:ingots/tough_alloy": true,
+    "nuclearcraft:tough_alloy_ingot": true,
+    "#c:ingots/tungsten_carbide": true,
+    "nuclearcraft:tungsten_carbide_ingot": true,
+    "#c:ingots/yttrium": true,
+    "nuclearcraft:yttrium_ingot": true,
+    "#c:ingots/zircaloy": true,
+    "nuclearcraft:zircaloy_ingot": true,
+    "nuclearcraft:zirconium_ingot": true,
+    "#c:ingots/zirconium": true,
+    "nuclearcraft:zirconium_molybdenum_ingot": true,
+    "#c:ingots/zirconium_molybdenum": true,
+    "stellaris:heavy_metal_ingot": true,
+    "#c:ingots/heavy_metal": true,
+    "tfmg:plastic_sheet": true,
+    "#c:ingots/plastic": true,
+    "#c:ingots/rubber": true,
+    "tfmg:rubber_sheet": true,
+    "#c:ingots/silicon": true,
+    "tfmg:silicon_ingot": true
+  },
+  "finishedForms": {
+    "#c:ingots/aluminum": true,
+    "#c:ingots/beryllium": true,
+    "#c:ingots/boron": true,
+    "#c:ingots/brass": true,
+    "#c:ingots/bronze": true,
+    "#c:ingots/chromium": true,
+    "#c:ingots/cobalt": true,
+    "#c:ingots/copper": true,
+    "#c:ingots/gold": true,
+    "#c:ingots/iridium": true,
+    "#c:ingots/iron": true,
+    "#c:ingots/lead": true,
+    "#c:ingots/lithium": true,
+    "#c:ingots/magnesium": true,
+    "#c:ingots/nickel": true,
+    "#c:ingots/osmium": true,
+    "#c:ingots/platinum": true,
+    "#c:ingots/silver": true,
+    "#c:ingots/steel": true,
+    "#c:ingots/tin": true,
+    "#c:ingots/titanium": true,
+    "#c:ingots/tungsten": true,
+    "#c:ingots/zinc": true,
+    "#c:nuggets/aluminum": true,
+    "#c:nuggets/beryllium": true,
+    "#c:nuggets/boron": true,
+    "#c:nuggets/brass": true,
+    "#c:nuggets/bronze": true,
+    "#c:nuggets/chromium": true,
+    "#c:nuggets/cobalt": true,
+    "#c:nuggets/copper": true,
+    "#c:nuggets/gold": true,
+    "#c:nuggets/iridium": true,
+    "#c:nuggets/iron": true,
+    "#c:nuggets/lead": true,
+    "#c:nuggets/lithium": true,
+    "#c:nuggets/magnesium": true,
+    "#c:nuggets/nickel": true,
+    "#c:nuggets/osmium": true,
+    "#c:nuggets/platinum": true,
+    "#c:nuggets/silver": true,
+    "#c:nuggets/steel": true,
+    "#c:nuggets/tin": true,
+    "#c:nuggets/titanium": true,
+    "#c:nuggets/tungsten": true,
+    "#c:nuggets/zinc": true,
+    "#c:storage_blocks/aluminum": true,
+    "#c:storage_blocks/beryllium": true,
+    "#c:storage_blocks/boron": true,
+    "#c:storage_blocks/brass": true,
+    "#c:storage_blocks/bronze": true,
+    "#c:storage_blocks/chromium": true,
+    "#c:storage_blocks/cobalt": true,
+    "#c:storage_blocks/copper": true,
+    "#c:storage_blocks/gold": true,
+    "#c:storage_blocks/iridium": true,
+    "#c:storage_blocks/iron": true,
+    "#c:storage_blocks/lead": true,
+    "#c:storage_blocks/lithium": true,
+    "#c:storage_blocks/magnesium": true,
+    "#c:storage_blocks/nickel": true,
+    "#c:storage_blocks/osmium": true,
+    "#c:storage_blocks/platinum": true,
+    "#c:storage_blocks/silver": true,
+    "#c:storage_blocks/steel": true,
+    "#c:storage_blocks/tin": true,
+    "#c:storage_blocks/titanium": true,
+    "#c:storage_blocks/tungsten": true,
+    "#c:storage_blocks/zinc": true,
+    "ad_astra:steel_block": true,
+    "ad_astra:steel_ingot": true,
+    "ad_astra:steel_nugget": true,
+    "create:brass_block": true,
+    "create:brass_ingot": true,
+    "create:brass_nugget": true,
+    "create:copper_nugget": true,
+    "create:zinc_block": true,
+    "create:zinc_ingot": true,
+    "create:zinc_nugget": true,
+    "createbigcannons:bronze_block": true,
+    "createbigcannons:bronze_ingot": true,
+    "createbigcannons:bronze_scrap": true,
+    "createbigcannons:steel_block": true,
+    "createbigcannons:steel_ingot": true,
+    "createbigcannons:steel_scrap": true,
+    "createmetallurgy:steel_block": true,
+    "createmetallurgy:steel_ingot": true,
+    "createmetallurgy:tungsten_block": true,
+    "createmetallurgy:tungsten_ingot": true,
+    "createmetallurgy:tungsten_nugget": true,
+    "immersiveengineering:ingot_aluminum": true,
+    "immersiveengineering:ingot_lead": true,
+    "immersiveengineering:ingot_nickel": true,
+    "immersiveengineering:ingot_silver": true,
+    "immersiveengineering:ingot_steel": true,
+    "immersiveengineering:nugget_aluminum": true,
+    "immersiveengineering:nugget_copper": true,
+    "immersiveengineering:nugget_lead": true,
+    "immersiveengineering:nugget_nickel": true,
+    "immersiveengineering:nugget_silver": true,
+    "immersiveengineering:nugget_steel": true,
+    "immersiveengineering:storage_aluminum": true,
+    "immersiveengineering:storage_lead": true,
+    "immersiveengineering:storage_nickel": true,
+    "immersiveengineering:storage_silver": true,
+    "immersiveengineering:storage_steel": true,
+    "mekanism:block_bronze": true,
+    "mekanism:block_lead": true,
+    "mekanism:block_osmium": true,
+    "mekanism:block_steel": true,
+    "mekanism:block_tin": true,
+    "mekanism:ingot_bronze": true,
+    "mekanism:ingot_lead": true,
+    "mekanism:ingot_osmium": true,
+    "mekanism:ingot_steel": true,
+    "mekanism:ingot_tin": true,
+    "mekanism:nugget_bronze": true,
+    "mekanism:nugget_lead": true,
+    "mekanism:nugget_osmium": true,
+    "mekanism:nugget_steel": true,
+    "mekanism:nugget_tin": true,
+    "minecraft:copper_block": true,
+    "minecraft:copper_ingot": true,
+    "minecraft:gold_block": true,
+    "minecraft:gold_ingot": true,
+    "minecraft:gold_nugget": true,
+    "minecraft:iron_block": true,
+    "minecraft:iron_ingot": true,
+    "minecraft:iron_nugget": true,
+    "modernfoundry:cobalt_block": true,
+    "modernfoundry:cobalt_ingot": true,
+    "modernfoundry:cobalt_nugget": true,
+    "modernfoundry:copper_nugget": true,
+    "modernfoundry:steel_block": true,
+    "modernfoundry:steel_ingot": true,
+    "modernfoundry:steel_nugget": true,
+    "nuclearcraft:aluminum_block": true,
+    "nuclearcraft:aluminum_ingot": true,
+    "nuclearcraft:aluminum_nugget": true,
+    "nuclearcraft:beryllium_block": true,
+    "nuclearcraft:beryllium_ingot": true,
+    "nuclearcraft:beryllium_nugget": true,
+    "nuclearcraft:boron_block": true,
+    "nuclearcraft:boron_ingot": true,
+    "nuclearcraft:boron_nugget": true,
+    "nuclearcraft:bronze_block": true,
+    "nuclearcraft:bronze_ingot": true,
+    "nuclearcraft:bronze_nugget": true,
+    "nuclearcraft:chromium_ingot": true,
+    "nuclearcraft:cobalt_block": true,
+    "nuclearcraft:cobalt_ingot": true,
+    "nuclearcraft:cobalt_nugget": true,
+    "nuclearcraft:iridium_ingot": true,
+    "nuclearcraft:lead_block": true,
+    "nuclearcraft:lead_ingot": true,
+    "nuclearcraft:lead_nugget": true,
+    "nuclearcraft:lithium_block": true,
+    "nuclearcraft:lithium_ingot": true,
+    "nuclearcraft:lithium_nugget": true,
+    "nuclearcraft:magnesium_block": true,
+    "nuclearcraft:magnesium_ingot": true,
+    "nuclearcraft:magnesium_nugget": true,
+    "nuclearcraft:osmium_ingot": true,
+    "nuclearcraft:platinum_block": true,
+    "nuclearcraft:platinum_ingot": true,
+    "nuclearcraft:platinum_nugget": true,
+    "nuclearcraft:silver_block": true,
+    "nuclearcraft:silver_ingot": true,
+    "nuclearcraft:silver_nugget": true,
+    "nuclearcraft:steel_block": true,
+    "nuclearcraft:steel_ingot": true,
+    "nuclearcraft:steel_nugget": true,
+    "nuclearcraft:tin_block": true,
+    "nuclearcraft:tin_ingot": true,
+    "nuclearcraft:tin_nugget": true,
+    "nuclearcraft:titanium_ingot": true,
+    "nuclearcraft:tungsten_ingot": true,
+    "nuclearcraft:zinc_block": true,
+    "nuclearcraft:zinc_ingot": true,
+    "nuclearcraft:zinc_nugget": true,
+    "rocketnautics:titanium_block": true,
+    "rocketnautics:titanium_ingot": true,
+    "rocketnautics:titanium_nugget": true,
+    "stellaris:steel_block": true,
+    "stellaris:steel_ingot": true,
+    "stellaris:steel_nugget": true,
+    "tfmg:aluminum_block": true,
+    "tfmg:aluminum_ingot": true,
+    "tfmg:aluminum_nugget": true,
+    "tfmg:lead_block": true,
+    "tfmg:lead_ingot": true,
+    "tfmg:lead_nugget": true,
+    "tfmg:lithium_block": true,
+    "tfmg:lithium_ingot": true,
+    "tfmg:lithium_nugget": true,
+    "tfmg:nickel_block": true,
+    "tfmg:nickel_ingot": true,
+    "tfmg:nickel_nugget": true,
+    "tfmg:steel_block": true,
+    "tfmg:steel_ingot": true,
+    "tfmg:steel_nugget": true
+  },
+  "metalInputs": {
+    "#c:clumps/aluminum": true,
+    "#c:clumps/beryllium": true,
+    "#c:clumps/boron": true,
+    "#c:clumps/brass": true,
+    "#c:clumps/bronze": true,
+    "#c:clumps/chromium": true,
+    "#c:clumps/cobalt": true,
+    "#c:clumps/copper": true,
+    "#c:clumps/gold": true,
+    "#c:clumps/iridium": true,
+    "#c:clumps/iron": true,
+    "#c:clumps/lead": true,
+    "#c:clumps/lithium": true,
+    "#c:clumps/magnesium": true,
+    "#c:clumps/nickel": true,
+    "#c:clumps/osmium": true,
+    "#c:clumps/platinum": true,
+    "#c:clumps/silver": true,
+    "#c:clumps/steel": true,
+    "#c:clumps/tin": true,
+    "#c:clumps/titanium": true,
+    "#c:clumps/tungsten": true,
+    "#c:clumps/zinc": true,
+    "#c:crushed_raw_materials/aluminum": true,
+    "#c:crushed_raw_materials/beryllium": true,
+    "#c:crushed_raw_materials/boron": true,
+    "#c:crushed_raw_materials/brass": true,
+    "#c:crushed_raw_materials/bronze": true,
+    "#c:crushed_raw_materials/chromium": true,
+    "#c:crushed_raw_materials/cobalt": true,
+    "#c:crushed_raw_materials/copper": true,
+    "#c:crushed_raw_materials/gold": true,
+    "#c:crushed_raw_materials/iridium": true,
+    "#c:crushed_raw_materials/iron": true,
+    "#c:crushed_raw_materials/lead": true,
+    "#c:crushed_raw_materials/lithium": true,
+    "#c:crushed_raw_materials/magnesium": true,
+    "#c:crushed_raw_materials/nickel": true,
+    "#c:crushed_raw_materials/osmium": true,
+    "#c:crushed_raw_materials/platinum": true,
+    "#c:crushed_raw_materials/silver": true,
+    "#c:crushed_raw_materials/steel": true,
+    "#c:crushed_raw_materials/tin": true,
+    "#c:crushed_raw_materials/titanium": true,
+    "#c:crushed_raw_materials/tungsten": true,
+    "#c:crushed_raw_materials/zinc": true,
+    "#c:crystals/aluminum": true,
+    "#c:crystals/beryllium": true,
+    "#c:crystals/boron": true,
+    "#c:crystals/brass": true,
+    "#c:crystals/bronze": true,
+    "#c:crystals/chromium": true,
+    "#c:crystals/cobalt": true,
+    "#c:crystals/copper": true,
+    "#c:crystals/gold": true,
+    "#c:crystals/iridium": true,
+    "#c:crystals/iron": true,
+    "#c:crystals/lead": true,
+    "#c:crystals/lithium": true,
+    "#c:crystals/magnesium": true,
+    "#c:crystals/nickel": true,
+    "#c:crystals/osmium": true,
+    "#c:crystals/platinum": true,
+    "#c:crystals/silver": true,
+    "#c:crystals/steel": true,
+    "#c:crystals/tin": true,
+    "#c:crystals/titanium": true,
+    "#c:crystals/tungsten": true,
+    "#c:crystals/zinc": true,
+    "#c:dirty_dusts/aluminum": true,
+    "#c:dirty_dusts/beryllium": true,
+    "#c:dirty_dusts/boron": true,
+    "#c:dirty_dusts/brass": true,
+    "#c:dirty_dusts/bronze": true,
+    "#c:dirty_dusts/chromium": true,
+    "#c:dirty_dusts/cobalt": true,
+    "#c:dirty_dusts/copper": true,
+    "#c:dirty_dusts/gold": true,
+    "#c:dirty_dusts/iridium": true,
+    "#c:dirty_dusts/iron": true,
+    "#c:dirty_dusts/lead": true,
+    "#c:dirty_dusts/lithium": true,
+    "#c:dirty_dusts/magnesium": true,
+    "#c:dirty_dusts/nickel": true,
+    "#c:dirty_dusts/osmium": true,
+    "#c:dirty_dusts/platinum": true,
+    "#c:dirty_dusts/silver": true,
+    "#c:dirty_dusts/steel": true,
+    "#c:dirty_dusts/tin": true,
+    "#c:dirty_dusts/titanium": true,
+    "#c:dirty_dusts/tungsten": true,
+    "#c:dirty_dusts/zinc": true,
+    "#c:dusts/aluminum": true,
+    "#c:dusts/beryllium": true,
+    "#c:dusts/boron": true,
+    "#c:dusts/brass": true,
+    "#c:dusts/bronze": true,
+    "#c:dusts/chromium": true,
+    "#c:dusts/cobalt": true,
+    "#c:dusts/copper": true,
+    "#c:dusts/gold": true,
+    "#c:dusts/iridium": true,
+    "#c:dusts/iron": true,
+    "#c:dusts/lead": true,
+    "#c:dusts/lithium": true,
+    "#c:dusts/magnesium": true,
+    "#c:dusts/nickel": true,
+    "#c:dusts/osmium": true,
+    "#c:dusts/platinum": true,
+    "#c:dusts/silver": true,
+    "#c:dusts/steel": true,
+    "#c:dusts/tin": true,
+    "#c:dusts/titanium": true,
+    "#c:dusts/tungsten": true,
+    "#c:dusts/zinc": true,
+    "#c:ingots/aluminum": true,
+    "#c:ingots/beryllium": true,
+    "#c:ingots/boron": true,
+    "#c:ingots/brass": true,
+    "#c:ingots/bronze": true,
+    "#c:ingots/chromium": true,
+    "#c:ingots/cobalt": true,
+    "#c:ingots/copper": true,
+    "#c:ingots/gold": true,
+    "#c:ingots/iridium": true,
+    "#c:ingots/iron": true,
+    "#c:ingots/lead": true,
+    "#c:ingots/lithium": true,
+    "#c:ingots/magnesium": true,
+    "#c:ingots/nickel": true,
+    "#c:ingots/osmium": true,
+    "#c:ingots/platinum": true,
+    "#c:ingots/silver": true,
+    "#c:ingots/steel": true,
+    "#c:ingots/tin": true,
+    "#c:ingots/titanium": true,
+    "#c:ingots/tungsten": true,
+    "#c:ingots/zinc": true,
+    "#c:nuggets/aluminum": true,
+    "#c:nuggets/beryllium": true,
+    "#c:nuggets/boron": true,
+    "#c:nuggets/brass": true,
+    "#c:nuggets/bronze": true,
+    "#c:nuggets/chromium": true,
+    "#c:nuggets/cobalt": true,
+    "#c:nuggets/copper": true,
+    "#c:nuggets/gold": true,
+    "#c:nuggets/iridium": true,
+    "#c:nuggets/iron": true,
+    "#c:nuggets/lead": true,
+    "#c:nuggets/lithium": true,
+    "#c:nuggets/magnesium": true,
+    "#c:nuggets/nickel": true,
+    "#c:nuggets/osmium": true,
+    "#c:nuggets/platinum": true,
+    "#c:nuggets/silver": true,
+    "#c:nuggets/steel": true,
+    "#c:nuggets/tin": true,
+    "#c:nuggets/titanium": true,
+    "#c:nuggets/tungsten": true,
+    "#c:nuggets/zinc": true,
+    "#c:ores/aluminum": true,
+    "#c:ores/beryllium": true,
+    "#c:ores/boron": true,
+    "#c:ores/brass": true,
+    "#c:ores/bronze": true,
+    "#c:ores/chromium": true,
+    "#c:ores/cobalt": true,
+    "#c:ores/copper": true,
+    "#c:ores/gold": true,
+    "#c:ores/iridium": true,
+    "#c:ores/iron": true,
+    "#c:ores/lead": true,
+    "#c:ores/lithium": true,
+    "#c:ores/magnesium": true,
+    "#c:ores/nickel": true,
+    "#c:ores/osmium": true,
+    "#c:ores/platinum": true,
+    "#c:ores/silver": true,
+    "#c:ores/steel": true,
+    "#c:ores/tin": true,
+    "#c:ores/titanium": true,
+    "#c:ores/tungsten": true,
+    "#c:ores/zinc": true,
+    "#c:raw_blocks/aluminum": true,
+    "#c:raw_blocks/beryllium": true,
+    "#c:raw_blocks/boron": true,
+    "#c:raw_blocks/brass": true,
+    "#c:raw_blocks/bronze": true,
+    "#c:raw_blocks/chromium": true,
+    "#c:raw_blocks/cobalt": true,
+    "#c:raw_blocks/copper": true,
+    "#c:raw_blocks/gold": true,
+    "#c:raw_blocks/iridium": true,
+    "#c:raw_blocks/iron": true,
+    "#c:raw_blocks/lead": true,
+    "#c:raw_blocks/lithium": true,
+    "#c:raw_blocks/magnesium": true,
+    "#c:raw_blocks/nickel": true,
+    "#c:raw_blocks/osmium": true,
+    "#c:raw_blocks/platinum": true,
+    "#c:raw_blocks/silver": true,
+    "#c:raw_blocks/steel": true,
+    "#c:raw_blocks/tin": true,
+    "#c:raw_blocks/titanium": true,
+    "#c:raw_blocks/tungsten": true,
+    "#c:raw_blocks/zinc": true,
+    "#c:raw_materials/aluminum": true,
+    "#c:raw_materials/beryllium": true,
+    "#c:raw_materials/boron": true,
+    "#c:raw_materials/brass": true,
+    "#c:raw_materials/bronze": true,
+    "#c:raw_materials/chromium": true,
+    "#c:raw_materials/cobalt": true,
+    "#c:raw_materials/copper": true,
+    "#c:raw_materials/gold": true,
+    "#c:raw_materials/iridium": true,
+    "#c:raw_materials/iron": true,
+    "#c:raw_materials/lead": true,
+    "#c:raw_materials/lithium": true,
+    "#c:raw_materials/magnesium": true,
+    "#c:raw_materials/nickel": true,
+    "#c:raw_materials/osmium": true,
+    "#c:raw_materials/platinum": true,
+    "#c:raw_materials/silver": true,
+    "#c:raw_materials/steel": true,
+    "#c:raw_materials/tin": true,
+    "#c:raw_materials/titanium": true,
+    "#c:raw_materials/tungsten": true,
+    "#c:raw_materials/zinc": true,
+    "#c:shards/aluminum": true,
+    "#c:shards/beryllium": true,
+    "#c:shards/boron": true,
+    "#c:shards/brass": true,
+    "#c:shards/bronze": true,
+    "#c:shards/chromium": true,
+    "#c:shards/cobalt": true,
+    "#c:shards/copper": true,
+    "#c:shards/gold": true,
+    "#c:shards/iridium": true,
+    "#c:shards/iron": true,
+    "#c:shards/lead": true,
+    "#c:shards/lithium": true,
+    "#c:shards/magnesium": true,
+    "#c:shards/nickel": true,
+    "#c:shards/osmium": true,
+    "#c:shards/platinum": true,
+    "#c:shards/silver": true,
+    "#c:shards/steel": true,
+    "#c:shards/tin": true,
+    "#c:shards/titanium": true,
+    "#c:shards/tungsten": true,
+    "#c:shards/zinc": true,
+    "#c:storage_blocks/aluminum": true,
+    "#c:storage_blocks/beryllium": true,
+    "#c:storage_blocks/boron": true,
+    "#c:storage_blocks/brass": true,
+    "#c:storage_blocks/bronze": true,
+    "#c:storage_blocks/chromium": true,
+    "#c:storage_blocks/cobalt": true,
+    "#c:storage_blocks/copper": true,
+    "#c:storage_blocks/gold": true,
+    "#c:storage_blocks/iridium": true,
+    "#c:storage_blocks/iron": true,
+    "#c:storage_blocks/lead": true,
+    "#c:storage_blocks/lithium": true,
+    "#c:storage_blocks/magnesium": true,
+    "#c:storage_blocks/nickel": true,
+    "#c:storage_blocks/osmium": true,
+    "#c:storage_blocks/platinum": true,
+    "#c:storage_blocks/raw_aluminum": true,
+    "#c:storage_blocks/raw_beryllium": true,
+    "#c:storage_blocks/raw_boron": true,
+    "#c:storage_blocks/raw_brass": true,
+    "#c:storage_blocks/raw_bronze": true,
+    "#c:storage_blocks/raw_chromium": true,
+    "#c:storage_blocks/raw_cobalt": true,
+    "#c:storage_blocks/raw_copper": true,
+    "#c:storage_blocks/raw_gold": true,
+    "#c:storage_blocks/raw_iridium": true,
+    "#c:storage_blocks/raw_iron": true,
+    "#c:storage_blocks/raw_lead": true,
+    "#c:storage_blocks/raw_lithium": true,
+    "#c:storage_blocks/raw_magnesium": true,
+    "#c:storage_blocks/raw_nickel": true,
+    "#c:storage_blocks/raw_osmium": true,
+    "#c:storage_blocks/raw_platinum": true,
+    "#c:storage_blocks/raw_silver": true,
+    "#c:storage_blocks/raw_steel": true,
+    "#c:storage_blocks/raw_tin": true,
+    "#c:storage_blocks/raw_titanium": true,
+    "#c:storage_blocks/raw_tungsten": true,
+    "#c:storage_blocks/raw_zinc": true,
+    "#c:storage_blocks/silver": true,
+    "#c:storage_blocks/steel": true,
+    "#c:storage_blocks/tin": true,
+    "#c:storage_blocks/titanium": true,
+    "#c:storage_blocks/tungsten": true,
+    "#c:storage_blocks/zinc": true,
+    "ad_astra:steel_block": true,
+    "ad_astra:steel_ingot": true,
+    "ad_astra:steel_nugget": true,
+    "create:brass_block": true,
+    "create:brass_ingot": true,
+    "create:brass_nugget": true,
+    "create:copper_nugget": true,
+    "create:crushed_raw_aluminum": true,
+    "create:crushed_raw_copper": true,
+    "create:crushed_raw_gold": true,
+    "create:crushed_raw_iron": true,
+    "create:crushed_raw_lead": true,
+    "create:crushed_raw_nickel": true,
+    "create:crushed_raw_osmium": true,
+    "create:crushed_raw_platinum": true,
+    "create:crushed_raw_silver": true,
+    "create:crushed_raw_tin": true,
+    "create:crushed_raw_zinc": true,
+    "create:deepslate_zinc_ore": true,
+    "create:raw_zinc": true,
+    "create:raw_zinc_block": true,
+    "create:zinc_block": true,
+    "create:zinc_ingot": true,
+    "create:zinc_nugget": true,
+    "create:zinc_ore": true,
+    "createbigcannons:bronze_block": true,
+    "createbigcannons:bronze_ingot": true,
+    "createbigcannons:bronze_scrap": true,
+    "createbigcannons:steel_block": true,
+    "createbigcannons:steel_ingot": true,
+    "createbigcannons:steel_scrap": true,
+    "createmetallurgy:copper_dust": true,
+    "createmetallurgy:crushed_raw_tungsten": true,
+    "createmetallurgy:dirty_copper_dust": true,
+    "createmetallurgy:dirty_gold_dust": true,
+    "createmetallurgy:dirty_iron_dust": true,
+    "createmetallurgy:dirty_tungsten_dust": true,
+    "createmetallurgy:dirty_zinc_dust": true,
+    "createmetallurgy:gold_dust": true,
+    "createmetallurgy:iron_dust": true,
+    "createmetallurgy:raw_tungsten": true,
+    "createmetallurgy:raw_wolframite_block": true,
+    "createmetallurgy:steel_block": true,
+    "createmetallurgy:steel_ingot": true,
+    "createmetallurgy:tungsten_block": true,
+    "createmetallurgy:tungsten_dust": true,
+    "createmetallurgy:tungsten_ingot": true,
+    "createmetallurgy:tungsten_nugget": true,
+    "createmetallurgy:wolframite_ore": true,
+    "createmetallurgy:zinc_dust": true,
+    "deeperdarker:gloomslate_copper_ore": true,
+    "deeperdarker:gloomslate_gold_ore": true,
+    "deeperdarker:gloomslate_iron_ore": true,
+    "deeperdarker:sculk_stone_copper_ore": true,
+    "deeperdarker:sculk_stone_gold_ore": true,
+    "deeperdarker:sculk_stone_iron_ore": true,
+    "immersiveengineering:deepslate_ore_aluminum": true,
+    "immersiveengineering:deepslate_ore_lead": true,
+    "immersiveengineering:deepslate_ore_nickel": true,
+    "immersiveengineering:deepslate_ore_silver": true,
+    "immersiveengineering:dust_aluminum": true,
+    "immersiveengineering:dust_copper": true,
+    "immersiveengineering:dust_gold": true,
+    "immersiveengineering:dust_iron": true,
+    "immersiveengineering:dust_lead": true,
+    "immersiveengineering:dust_nickel": true,
+    "immersiveengineering:dust_silver": true,
+    "immersiveengineering:dust_steel": true,
+    "immersiveengineering:ingot_aluminum": true,
+    "immersiveengineering:ingot_lead": true,
+    "immersiveengineering:ingot_nickel": true,
+    "immersiveengineering:ingot_silver": true,
+    "immersiveengineering:ingot_steel": true,
+    "immersiveengineering:nugget_aluminum": true,
+    "immersiveengineering:nugget_copper": true,
+    "immersiveengineering:nugget_lead": true,
+    "immersiveengineering:nugget_nickel": true,
+    "immersiveengineering:nugget_silver": true,
+    "immersiveengineering:nugget_steel": true,
+    "immersiveengineering:ore_aluminum": true,
+    "immersiveengineering:ore_lead": true,
+    "immersiveengineering:ore_nickel": true,
+    "immersiveengineering:ore_silver": true,
+    "immersiveengineering:raw_aluminum": true,
+    "immersiveengineering:raw_block_aluminum": true,
+    "immersiveengineering:raw_block_lead": true,
+    "immersiveengineering:raw_block_nickel": true,
+    "immersiveengineering:raw_block_silver": true,
+    "immersiveengineering:raw_lead": true,
+    "immersiveengineering:raw_nickel": true,
+    "immersiveengineering:raw_silver": true,
+    "immersiveengineering:storage_aluminum": true,
+    "immersiveengineering:storage_lead": true,
+    "immersiveengineering:storage_nickel": true,
+    "immersiveengineering:storage_silver": true,
+    "immersiveengineering:storage_steel": true,
+    "industrial_colonies:argentite": true,
+    "industrial_colonies:bauxite": true,
+    "industrial_colonies:bertrandite": true,
+    "industrial_colonies:borax_rock": true,
+    "industrial_colonies:cassiterite": true,
+    "industrial_colonies:chalcopyrite": true,
+    "industrial_colonies:chromite": true,
+    "industrial_colonies:cobalt_ore": true,
+    "industrial_colonies:dolomite": true,
+    "industrial_colonies:galena": true,
+    "industrial_colonies:graphite_rock": true,
+    "industrial_colonies:hematite": true,
+    "industrial_colonies:ilmenite": true,
+    "industrial_colonies:magnetite": true,
+    "industrial_colonies:pentlandite": true,
+    "industrial_colonies:phosphate_rock": true,
+    "industrial_colonies:rich_bauxite": true,
+    "industrial_colonies:rich_chromium_ore": true,
+    "industrial_colonies:rich_copper_ore": true,
+    "industrial_colonies:rich_galena_ore": true,
+    "industrial_colonies:rich_hematite": true,
+    "industrial_colonies:rich_ilmenite_ore": true,
+    "industrial_colonies:rich_iridium_ore": true,
+    "industrial_colonies:rich_magnetite": true,
+    "industrial_colonies:rich_nickel_ore": true,
+    "industrial_colonies:rich_osmium_ore": true,
+    "industrial_colonies:rich_platinum_ore": true,
+    "industrial_colonies:rich_silver_ore": true,
+    "industrial_colonies:rich_sphalerite": true,
+    "industrial_colonies:rich_tin_ore": true,
+    "industrial_colonies:rich_wolframite_ore": true,
+    "industrial_colonies:sphalerite": true,
+    "industrial_colonies:spodumene_ore": true,
+    "industrial_colonies:spodumene_rock": true,
+    "industrial_colonies:thorium_ore": true,
+    "industrial_colonies:ultramafic_rock": true,
+    "industrial_colonies:uraninite": true,
+    "industrial_colonies:wolframite_rock": true,
+    "mekanism:block_bronze": true,
+    "mekanism:block_lead": true,
+    "mekanism:block_osmium": true,
+    "mekanism:block_raw_lead": true,
+    "mekanism:block_raw_osmium": true,
+    "mekanism:block_raw_tin": true,
+    "mekanism:block_steel": true,
+    "mekanism:block_tin": true,
+    "mekanism:clump_copper": true,
+    "mekanism:clump_gold": true,
+    "mekanism:clump_iron": true,
+    "mekanism:clump_lead": true,
+    "mekanism:clump_osmium": true,
+    "mekanism:clump_tin": true,
+    "mekanism:crystal_copper": true,
+    "mekanism:crystal_gold": true,
+    "mekanism:crystal_iron": true,
+    "mekanism:crystal_lead": true,
+    "mekanism:crystal_osmium": true,
+    "mekanism:crystal_tin": true,
+    "mekanism:deepslate_lead_ore": true,
+    "mekanism:deepslate_osmium_ore": true,
+    "mekanism:deepslate_tin_ore": true,
+    "mekanism:dirty_dust_copper": true,
+    "mekanism:dirty_dust_gold": true,
+    "mekanism:dirty_dust_iron": true,
+    "mekanism:dirty_dust_lead": true,
+    "mekanism:dirty_dust_osmium": true,
+    "mekanism:dirty_dust_tin": true,
+    "mekanism:dust_bronze": true,
+    "mekanism:dust_copper": true,
+    "mekanism:dust_gold": true,
+    "mekanism:dust_iron": true,
+    "mekanism:dust_lead": true,
+    "mekanism:dust_lithium": true,
+    "mekanism:dust_osmium": true,
+    "mekanism:dust_steel": true,
+    "mekanism:dust_tin": true,
+    "mekanism:ingot_bronze": true,
+    "mekanism:ingot_lead": true,
+    "mekanism:ingot_osmium": true,
+    "mekanism:ingot_steel": true,
+    "mekanism:ingot_tin": true,
+    "mekanism:lead_ore": true,
+    "mekanism:nugget_bronze": true,
+    "mekanism:nugget_lead": true,
+    "mekanism:nugget_osmium": true,
+    "mekanism:nugget_steel": true,
+    "mekanism:nugget_tin": true,
+    "mekanism:osmium_ore": true,
+    "mekanism:raw_lead": true,
+    "mekanism:raw_osmium": true,
+    "mekanism:raw_tin": true,
+    "mekanism:shard_copper": true,
+    "mekanism:shard_gold": true,
+    "mekanism:shard_iron": true,
+    "mekanism:shard_lead": true,
+    "mekanism:shard_osmium": true,
+    "mekanism:shard_tin": true,
+    "mekanism:tin_ore": true,
+    "minecraft:copper_block": true,
+    "minecraft:copper_ingot": true,
+    "minecraft:copper_ore": true,
+    "minecraft:deepslate_copper_ore": true,
+    "minecraft:deepslate_gold_ore": true,
+    "minecraft:deepslate_iron_ore": true,
+    "minecraft:gold_block": true,
+    "minecraft:gold_ingot": true,
+    "minecraft:gold_nugget": true,
+    "minecraft:gold_ore": true,
+    "minecraft:iron_block": true,
+    "minecraft:iron_ingot": true,
+    "minecraft:iron_nugget": true,
+    "minecraft:iron_ore": true,
+    "minecraft:nether_gold_ore": true,
+    "minecraft:raw_copper": true,
+    "minecraft:raw_copper_block": true,
+    "minecraft:raw_gold": true,
+    "minecraft:raw_gold_block": true,
+    "minecraft:raw_iron": true,
+    "minecraft:raw_iron_block": true,
+    "modernfoundry:cobalt_block": true,
+    "modernfoundry:cobalt_ingot": true,
+    "modernfoundry:cobalt_nugget": true,
+    "modernfoundry:cobalt_ore": true,
+    "modernfoundry:copper_nugget": true,
+    "modernfoundry:raw_cobalt": true,
+    "modernfoundry:raw_cobalt_block": true,
+    "modernfoundry:steel_block": true,
+    "modernfoundry:steel_ingot": true,
+    "modernfoundry:steel_nugget": true,
+    "nuclearcraft:aluminum_block": true,
+    "nuclearcraft:aluminum_dust": true,
+    "nuclearcraft:aluminum_ingot": true,
+    "nuclearcraft:aluminum_nugget": true,
+    "nuclearcraft:beryllium_block": true,
+    "nuclearcraft:beryllium_dust": true,
+    "nuclearcraft:beryllium_ingot": true,
+    "nuclearcraft:beryllium_nugget": true,
+    "nuclearcraft:boron_block": true,
+    "nuclearcraft:boron_deepslate_ore": true,
+    "nuclearcraft:boron_dust": true,
+    "nuclearcraft:boron_ingot": true,
+    "nuclearcraft:boron_nugget": true,
+    "nuclearcraft:boron_ore": true,
+    "nuclearcraft:bronze_block": true,
+    "nuclearcraft:bronze_dust": true,
+    "nuclearcraft:bronze_ingot": true,
+    "nuclearcraft:bronze_nugget": true,
+    "nuclearcraft:chromium_dust": true,
+    "nuclearcraft:chromium_ingot": true,
+    "nuclearcraft:cobalt_block": true,
+    "nuclearcraft:cobalt_deepslate_ore": true,
+    "nuclearcraft:cobalt_dust": true,
+    "nuclearcraft:cobalt_ingot": true,
+    "nuclearcraft:cobalt_nugget": true,
+    "nuclearcraft:cobalt_ore": true,
+    "nuclearcraft:copper_dust": true,
+    "nuclearcraft:gold_dust": true,
+    "nuclearcraft:iridium_dust": true,
+    "nuclearcraft:iridium_ingot": true,
+    "nuclearcraft:iron_dust": true,
+    "nuclearcraft:lead_block": true,
+    "nuclearcraft:lead_dust": true,
+    "nuclearcraft:lead_ingot": true,
+    "nuclearcraft:lead_nugget": true,
+    "nuclearcraft:lead_ore": true,
+    "nuclearcraft:lithium_block": true,
+    "nuclearcraft:lithium_dust": true,
+    "nuclearcraft:lithium_ingot": true,
+    "nuclearcraft:lithium_nugget": true,
+    "nuclearcraft:lithium_ore": true,
+    "nuclearcraft:magnesium_block": true,
+    "nuclearcraft:magnesium_deepslate_ore": true,
+    "nuclearcraft:magnesium_dust": true,
+    "nuclearcraft:magnesium_ingot": true,
+    "nuclearcraft:magnesium_nugget": true,
+    "nuclearcraft:magnesium_ore": true,
+    "nuclearcraft:osmium_dust": true,
+    "nuclearcraft:osmium_ingot": true,
+    "nuclearcraft:platinum_block": true,
+    "nuclearcraft:platinum_deepslate_ore": true,
+    "nuclearcraft:platinum_dust": true,
+    "nuclearcraft:platinum_ingot": true,
+    "nuclearcraft:platinum_nugget": true,
+    "nuclearcraft:raw_boron": true,
+    "nuclearcraft:raw_cobalt": true,
+    "nuclearcraft:raw_lead": true,
+    "nuclearcraft:raw_lithium": true,
+    "nuclearcraft:raw_magnesium": true,
+    "nuclearcraft:raw_platinum": true,
+    "nuclearcraft:raw_silver": true,
+    "nuclearcraft:raw_tin": true,
+    "nuclearcraft:raw_zinc": true,
+    "nuclearcraft:silver_block": true,
+    "nuclearcraft:silver_deepslate_ore": true,
+    "nuclearcraft:silver_dust": true,
+    "nuclearcraft:silver_ingot": true,
+    "nuclearcraft:silver_nugget": true,
+    "nuclearcraft:silver_ore": true,
+    "nuclearcraft:steel_block": true,
+    "nuclearcraft:steel_dust": true,
+    "nuclearcraft:steel_ingot": true,
+    "nuclearcraft:steel_nugget": true,
+    "nuclearcraft:tin_block": true,
+    "nuclearcraft:tin_dust": true,
+    "nuclearcraft:tin_ingot": true,
+    "nuclearcraft:tin_nugget": true,
+    "nuclearcraft:tin_ore": true,
+    "nuclearcraft:titanium_dust": true,
+    "nuclearcraft:titanium_ingot": true,
+    "nuclearcraft:tungsten_dust": true,
+    "nuclearcraft:tungsten_ingot": true,
+    "nuclearcraft:zinc_block": true,
+    "nuclearcraft:zinc_dust": true,
+    "nuclearcraft:zinc_ingot": true,
+    "nuclearcraft:zinc_nugget": true,
+    "nuclearcraft:zinc_ore": true,
+    "rocketnautics:crushed_raw_titanium": true,
+    "rocketnautics:deepslate_titanium_ore": true,
+    "rocketnautics:raw_titanium": true,
+    "rocketnautics:raw_titanium_block": true,
+    "rocketnautics:titanium_block": true,
+    "rocketnautics:titanium_ingot": true,
+    "rocketnautics:titanium_nugget": true,
+    "rocketnautics:titanium_ore": true,
+    "stellaris:deepslate_steel_ore": true,
+    "stellaris:mars_iron_ore": true,
+    "stellaris:mercury_iron_ore": true,
+    "stellaris:moon_iron_ore": true,
+    "stellaris:moon_steel_ore": true,
+    "stellaris:raw_steel_block": true,
+    "stellaris:raw_steel_ingot": true,
+    "stellaris:steel_block": true,
+    "stellaris:steel_ingot": true,
+    "stellaris:steel_nugget": true,
+    "stellaris:steel_ore": true,
+    "stellaris:venus_gold_ore": true,
+    "tfmg:aluminum_block": true,
+    "tfmg:aluminum_ingot": true,
+    "tfmg:aluminum_nugget": true,
+    "tfmg:crushed_raw_lithium": true,
+    "tfmg:deepslate_lead_ore": true,
+    "tfmg:deepslate_lithium_ore": true,
+    "tfmg:deepslate_nickel_ore": true,
+    "tfmg:lead_block": true,
+    "tfmg:lead_ingot": true,
+    "tfmg:lead_nugget": true,
+    "tfmg:lead_ore": true,
+    "tfmg:lithium_block": true,
+    "tfmg:lithium_ingot": true,
+    "tfmg:lithium_nugget": true,
+    "tfmg:lithium_ore": true,
+    "tfmg:nickel_block": true,
+    "tfmg:nickel_ingot": true,
+    "tfmg:nickel_nugget": true,
+    "tfmg:nickel_ore": true,
+    "tfmg:raw_lead": true,
+    "tfmg:raw_lead_block": true,
+    "tfmg:raw_lithium": true,
+    "tfmg:raw_lithium_block": true,
+    "tfmg:raw_nickel": true,
+    "tfmg:raw_nickel_block": true,
+    "tfmg:steel_block": true,
+    "tfmg:steel_ingot": true,
+    "tfmg:steel_nugget": true
+  },
+  "finishedValues": {
+    "#c:ingots/iron": {
+      "metal": "iron",
+      "amount": 100
+    },
+    "minecraft:iron_ingot": {
+      "metal": "iron",
+      "amount": 100
+    },
+    "#c:storage_blocks/iron": {
+      "metal": "iron",
+      "amount": 900
+    },
+    "minecraft:iron_block": {
+      "metal": "iron",
+      "amount": 900
+    },
+    "#c:nuggets/iron": {
+      "metal": "iron",
+      "amount": 10
+    },
+    "minecraft:iron_nugget": {
+      "metal": "iron",
+      "amount": 10
+    },
+    "#c:ingots/copper": {
+      "metal": "copper",
+      "amount": 100
+    },
+    "minecraft:copper_ingot": {
+      "metal": "copper",
+      "amount": 100
+    },
+    "#c:storage_blocks/copper": {
+      "metal": "copper",
+      "amount": 900
+    },
+    "minecraft:copper_block": {
+      "metal": "copper",
+      "amount": 900
+    },
+    "#c:nuggets/copper": {
+      "metal": "copper",
+      "amount": 10
+    },
+    "create:copper_nugget": {
+      "metal": "copper",
+      "amount": 10
+    },
+    "immersiveengineering:nugget_copper": {
+      "metal": "copper",
+      "amount": 10
+    },
+    "modernfoundry:copper_nugget": {
+      "metal": "copper",
+      "amount": 10
+    },
+    "#c:ingots/gold": {
+      "metal": "gold",
+      "amount": 100
+    },
+    "minecraft:gold_ingot": {
+      "metal": "gold",
+      "amount": 100
+    },
+    "#c:storage_blocks/gold": {
+      "metal": "gold",
+      "amount": 900
+    },
+    "minecraft:gold_block": {
+      "metal": "gold",
+      "amount": 900
+    },
+    "#c:nuggets/gold": {
+      "metal": "gold",
+      "amount": 10
+    },
+    "minecraft:gold_nugget": {
+      "metal": "gold",
+      "amount": 10
+    },
+    "#c:ingots/zinc": {
+      "metal": "zinc",
+      "amount": 100
+    },
+    "create:zinc_ingot": {
+      "metal": "zinc",
+      "amount": 100
+    },
+    "nuclearcraft:zinc_ingot": {
+      "metal": "zinc",
+      "amount": 100
+    },
+    "#c:storage_blocks/zinc": {
+      "metal": "zinc",
+      "amount": 900
+    },
+    "create:zinc_block": {
+      "metal": "zinc",
+      "amount": 900
+    },
+    "nuclearcraft:zinc_block": {
+      "metal": "zinc",
+      "amount": 900
+    },
+    "#c:nuggets/zinc": {
+      "metal": "zinc",
+      "amount": 10
+    },
+    "create:zinc_nugget": {
+      "metal": "zinc",
+      "amount": 10
+    },
+    "nuclearcraft:zinc_nugget": {
+      "metal": "zinc",
+      "amount": 10
+    },
+    "#c:ingots/tin": {
+      "metal": "tin",
+      "amount": 100
+    },
+    "mekanism:ingot_tin": {
+      "metal": "tin",
+      "amount": 100
+    },
+    "nuclearcraft:tin_ingot": {
+      "metal": "tin",
+      "amount": 100
+    },
+    "#c:storage_blocks/tin": {
+      "metal": "tin",
+      "amount": 900
+    },
+    "mekanism:block_tin": {
+      "metal": "tin",
+      "amount": 900
+    },
+    "nuclearcraft:tin_block": {
+      "metal": "tin",
+      "amount": 900
+    },
+    "#c:nuggets/tin": {
+      "metal": "tin",
+      "amount": 10
+    },
+    "mekanism:nugget_tin": {
+      "metal": "tin",
+      "amount": 10
+    },
+    "nuclearcraft:tin_nugget": {
+      "metal": "tin",
+      "amount": 10
+    },
+    "#c:ingots/lead": {
+      "metal": "lead",
+      "amount": 100
+    },
+    "immersiveengineering:ingot_lead": {
+      "metal": "lead",
+      "amount": 100
+    },
+    "mekanism:ingot_lead": {
+      "metal": "lead",
+      "amount": 100
+    },
+    "nuclearcraft:lead_ingot": {
+      "metal": "lead",
+      "amount": 100
+    },
+    "tfmg:lead_ingot": {
+      "metal": "lead",
+      "amount": 100
+    },
+    "#c:storage_blocks/lead": {
+      "metal": "lead",
+      "amount": 900
+    },
+    "immersiveengineering:storage_lead": {
+      "metal": "lead",
+      "amount": 900
+    },
+    "mekanism:block_lead": {
+      "metal": "lead",
+      "amount": 900
+    },
+    "nuclearcraft:lead_block": {
+      "metal": "lead",
+      "amount": 900
+    },
+    "tfmg:lead_block": {
+      "metal": "lead",
+      "amount": 900
+    },
+    "#c:nuggets/lead": {
+      "metal": "lead",
+      "amount": 10
+    },
+    "immersiveengineering:nugget_lead": {
+      "metal": "lead",
+      "amount": 10
+    },
+    "mekanism:nugget_lead": {
+      "metal": "lead",
+      "amount": 10
+    },
+    "nuclearcraft:lead_nugget": {
+      "metal": "lead",
+      "amount": 10
+    },
+    "tfmg:lead_nugget": {
+      "metal": "lead",
+      "amount": 10
+    },
+    "#c:ingots/nickel": {
+      "metal": "nickel",
+      "amount": 100
+    },
+    "immersiveengineering:ingot_nickel": {
+      "metal": "nickel",
+      "amount": 100
+    },
+    "tfmg:nickel_ingot": {
+      "metal": "nickel",
+      "amount": 100
+    },
+    "#c:storage_blocks/nickel": {
+      "metal": "nickel",
+      "amount": 900
+    },
+    "immersiveengineering:storage_nickel": {
+      "metal": "nickel",
+      "amount": 900
+    },
+    "tfmg:nickel_block": {
+      "metal": "nickel",
+      "amount": 900
+    },
+    "#c:nuggets/nickel": {
+      "metal": "nickel",
+      "amount": 10
+    },
+    "immersiveengineering:nugget_nickel": {
+      "metal": "nickel",
+      "amount": 10
+    },
+    "tfmg:nickel_nugget": {
+      "metal": "nickel",
+      "amount": 10
+    },
+    "#c:ingots/aluminum": {
+      "metal": "aluminum",
+      "amount": 100
+    },
+    "immersiveengineering:ingot_aluminum": {
+      "metal": "aluminum",
+      "amount": 100
+    },
+    "nuclearcraft:aluminum_ingot": {
+      "metal": "aluminum",
+      "amount": 100
+    },
+    "tfmg:aluminum_ingot": {
+      "metal": "aluminum",
+      "amount": 100
+    },
+    "#c:storage_blocks/aluminum": {
+      "metal": "aluminum",
+      "amount": 900
+    },
+    "immersiveengineering:storage_aluminum": {
+      "metal": "aluminum",
+      "amount": 900
+    },
+    "nuclearcraft:aluminum_block": {
+      "metal": "aluminum",
+      "amount": 900
+    },
+    "tfmg:aluminum_block": {
+      "metal": "aluminum",
+      "amount": 900
+    },
+    "#c:nuggets/aluminum": {
+      "metal": "aluminum",
+      "amount": 10
+    },
+    "immersiveengineering:nugget_aluminum": {
+      "metal": "aluminum",
+      "amount": 10
+    },
+    "nuclearcraft:aluminum_nugget": {
+      "metal": "aluminum",
+      "amount": 10
+    },
+    "tfmg:aluminum_nugget": {
+      "metal": "aluminum",
+      "amount": 10
+    },
+    "#c:ingots/lithium": {
+      "metal": "lithium",
+      "amount": 100
+    },
+    "nuclearcraft:lithium_ingot": {
+      "metal": "lithium",
+      "amount": 100
+    },
+    "tfmg:lithium_ingot": {
+      "metal": "lithium",
+      "amount": 100
+    },
+    "#c:storage_blocks/lithium": {
+      "metal": "lithium",
+      "amount": 900
+    },
+    "nuclearcraft:lithium_block": {
+      "metal": "lithium",
+      "amount": 900
+    },
+    "tfmg:lithium_block": {
+      "metal": "lithium",
+      "amount": 900
+    },
+    "#c:nuggets/lithium": {
+      "metal": "lithium",
+      "amount": 10
+    },
+    "nuclearcraft:lithium_nugget": {
+      "metal": "lithium",
+      "amount": 10
+    },
+    "tfmg:lithium_nugget": {
+      "metal": "lithium",
+      "amount": 10
+    },
+    "#c:ingots/osmium": {
+      "metal": "osmium",
+      "amount": 100
+    },
+    "mekanism:ingot_osmium": {
+      "metal": "osmium",
+      "amount": 100
+    },
+    "nuclearcraft:osmium_ingot": {
+      "metal": "osmium",
+      "amount": 100
+    },
+    "#c:storage_blocks/osmium": {
+      "metal": "osmium",
+      "amount": 900
+    },
+    "mekanism:block_osmium": {
+      "metal": "osmium",
+      "amount": 900
+    },
+    "#c:nuggets/osmium": {
+      "metal": "osmium",
+      "amount": 10
+    },
+    "mekanism:nugget_osmium": {
+      "metal": "osmium",
+      "amount": 10
+    },
+    "#c:ingots/silver": {
+      "metal": "silver",
+      "amount": 100
+    },
+    "immersiveengineering:ingot_silver": {
+      "metal": "silver",
+      "amount": 100
+    },
+    "nuclearcraft:silver_ingot": {
+      "metal": "silver",
+      "amount": 100
+    },
+    "#c:storage_blocks/silver": {
+      "metal": "silver",
+      "amount": 900
+    },
+    "immersiveengineering:storage_silver": {
+      "metal": "silver",
+      "amount": 900
+    },
+    "nuclearcraft:silver_block": {
+      "metal": "silver",
+      "amount": 900
+    },
+    "#c:nuggets/silver": {
+      "metal": "silver",
+      "amount": 10
+    },
+    "immersiveengineering:nugget_silver": {
+      "metal": "silver",
+      "amount": 10
+    },
+    "nuclearcraft:silver_nugget": {
+      "metal": "silver",
+      "amount": 10
+    },
+    "#c:ingots/magnesium": {
+      "metal": "magnesium",
+      "amount": 100
+    },
+    "nuclearcraft:magnesium_ingot": {
+      "metal": "magnesium",
+      "amount": 100
+    },
+    "#c:storage_blocks/magnesium": {
+      "metal": "magnesium",
+      "amount": 900
+    },
+    "nuclearcraft:magnesium_block": {
+      "metal": "magnesium",
+      "amount": 900
+    },
+    "#c:nuggets/magnesium": {
+      "metal": "magnesium",
+      "amount": 10
+    },
+    "nuclearcraft:magnesium_nugget": {
+      "metal": "magnesium",
+      "amount": 10
+    },
+    "#c:ingots/cobalt": {
+      "metal": "cobalt",
+      "amount": 100
+    },
+    "modernfoundry:cobalt_ingot": {
+      "metal": "cobalt",
+      "amount": 100
+    },
+    "nuclearcraft:cobalt_ingot": {
+      "metal": "cobalt",
+      "amount": 100
+    },
+    "#c:storage_blocks/cobalt": {
+      "metal": "cobalt",
+      "amount": 900
+    },
+    "modernfoundry:cobalt_block": {
+      "metal": "cobalt",
+      "amount": 900
+    },
+    "nuclearcraft:cobalt_block": {
+      "metal": "cobalt",
+      "amount": 900
+    },
+    "#c:nuggets/cobalt": {
+      "metal": "cobalt",
+      "amount": 10
+    },
+    "modernfoundry:cobalt_nugget": {
+      "metal": "cobalt",
+      "amount": 10
+    },
+    "nuclearcraft:cobalt_nugget": {
+      "metal": "cobalt",
+      "amount": 10
+    },
+    "#c:ingots/chromium": {
+      "metal": "chromium",
+      "amount": 100
+    },
+    "nuclearcraft:chromium_ingot": {
+      "metal": "chromium",
+      "amount": 100
+    },
+    "#c:storage_blocks/chromium": {
+      "metal": "chromium",
+      "amount": 900
+    },
+    "#c:nuggets/chromium": {
+      "metal": "chromium",
+      "amount": 10
+    },
+    "#c:ingots/titanium": {
+      "metal": "titanium",
+      "amount": 100
+    },
+    "nuclearcraft:titanium_ingot": {
+      "metal": "titanium",
+      "amount": 100
+    },
+    "rocketnautics:titanium_ingot": {
+      "metal": "titanium",
+      "amount": 100
+    },
+    "#c:storage_blocks/titanium": {
+      "metal": "titanium",
+      "amount": 900
+    },
+    "rocketnautics:titanium_block": {
+      "metal": "titanium",
+      "amount": 900
+    },
+    "#c:nuggets/titanium": {
+      "metal": "titanium",
+      "amount": 10
+    },
+    "rocketnautics:titanium_nugget": {
+      "metal": "titanium",
+      "amount": 10
+    },
+    "#c:ingots/tungsten": {
+      "metal": "tungsten",
+      "amount": 100
+    },
+    "createmetallurgy:tungsten_ingot": {
+      "metal": "tungsten",
+      "amount": 100
+    },
+    "nuclearcraft:tungsten_ingot": {
+      "metal": "tungsten",
+      "amount": 100
+    },
+    "#c:storage_blocks/tungsten": {
+      "metal": "tungsten",
+      "amount": 900
+    },
+    "createmetallurgy:tungsten_block": {
+      "metal": "tungsten",
+      "amount": 900
+    },
+    "#c:nuggets/tungsten": {
+      "metal": "tungsten",
+      "amount": 10
+    },
+    "createmetallurgy:tungsten_nugget": {
+      "metal": "tungsten",
+      "amount": 10
+    },
+    "#c:ingots/beryllium": {
+      "metal": "beryllium",
+      "amount": 100
+    },
+    "nuclearcraft:beryllium_ingot": {
+      "metal": "beryllium",
+      "amount": 100
+    },
+    "#c:storage_blocks/beryllium": {
+      "metal": "beryllium",
+      "amount": 900
+    },
+    "nuclearcraft:beryllium_block": {
+      "metal": "beryllium",
+      "amount": 900
+    },
+    "#c:nuggets/beryllium": {
+      "metal": "beryllium",
+      "amount": 10
+    },
+    "nuclearcraft:beryllium_nugget": {
+      "metal": "beryllium",
+      "amount": 10
+    },
+    "#c:ingots/boron": {
+      "metal": "boron",
+      "amount": 100
+    },
+    "nuclearcraft:boron_ingot": {
+      "metal": "boron",
+      "amount": 100
+    },
+    "#c:storage_blocks/boron": {
+      "metal": "boron",
+      "amount": 900
+    },
+    "nuclearcraft:boron_block": {
+      "metal": "boron",
+      "amount": 900
+    },
+    "#c:nuggets/boron": {
+      "metal": "boron",
+      "amount": 10
+    },
+    "nuclearcraft:boron_nugget": {
+      "metal": "boron",
+      "amount": 10
+    },
+    "#c:ingots/platinum": {
+      "metal": "platinum",
+      "amount": 100
+    },
+    "nuclearcraft:platinum_ingot": {
+      "metal": "platinum",
+      "amount": 100
+    },
+    "#c:storage_blocks/platinum": {
+      "metal": "platinum",
+      "amount": 900
+    },
+    "nuclearcraft:platinum_block": {
+      "metal": "platinum",
+      "amount": 900
+    },
+    "#c:nuggets/platinum": {
+      "metal": "platinum",
+      "amount": 10
+    },
+    "nuclearcraft:platinum_nugget": {
+      "metal": "platinum",
+      "amount": 10
+    },
+    "#c:ingots/iridium": {
+      "metal": "iridium",
+      "amount": 100
+    },
+    "nuclearcraft:iridium_ingot": {
+      "metal": "iridium",
+      "amount": 100
+    },
+    "#c:storage_blocks/iridium": {
+      "metal": "iridium",
+      "amount": 900
+    },
+    "#c:nuggets/iridium": {
+      "metal": "iridium",
+      "amount": 10
+    },
+    "#c:ingots/steel": {
+      "metal": "steel",
+      "amount": 100
+    },
+    "ad_astra:steel_ingot": {
+      "metal": "steel",
+      "amount": 100
+    },
+    "createbigcannons:steel_ingot": {
+      "metal": "steel",
+      "amount": 100
+    },
+    "createmetallurgy:steel_ingot": {
+      "metal": "steel",
+      "amount": 100
+    },
+    "immersiveengineering:ingot_steel": {
+      "metal": "steel",
+      "amount": 100
+    },
+    "mekanism:ingot_steel": {
+      "metal": "steel",
+      "amount": 100
+    },
+    "modernfoundry:steel_ingot": {
+      "metal": "steel",
+      "amount": 100
+    },
+    "nuclearcraft:steel_ingot": {
+      "metal": "steel",
+      "amount": 100
+    },
+    "stellaris:steel_ingot": {
+      "metal": "steel",
+      "amount": 100
+    },
+    "tfmg:steel_ingot": {
+      "metal": "steel",
+      "amount": 100
+    },
+    "#c:storage_blocks/steel": {
+      "metal": "steel",
+      "amount": 900
+    },
+    "ad_astra:steel_block": {
+      "metal": "steel",
+      "amount": 900
+    },
+    "createbigcannons:steel_block": {
+      "metal": "steel",
+      "amount": 900
+    },
+    "createmetallurgy:steel_block": {
+      "metal": "steel",
+      "amount": 900
+    },
+    "immersiveengineering:storage_steel": {
+      "metal": "steel",
+      "amount": 900
+    },
+    "mekanism:block_steel": {
+      "metal": "steel",
+      "amount": 900
+    },
+    "modernfoundry:steel_block": {
+      "metal": "steel",
+      "amount": 900
+    },
+    "nuclearcraft:steel_block": {
+      "metal": "steel",
+      "amount": 900
+    },
+    "stellaris:steel_block": {
+      "metal": "steel",
+      "amount": 900
+    },
+    "tfmg:steel_block": {
+      "metal": "steel",
+      "amount": 900
+    },
+    "#c:nuggets/steel": {
+      "metal": "steel",
+      "amount": 10
+    },
+    "ad_astra:steel_nugget": {
+      "metal": "steel",
+      "amount": 10
+    },
+    "createbigcannons:steel_scrap": {
+      "metal": "steel",
+      "amount": 10
+    },
+    "immersiveengineering:nugget_steel": {
+      "metal": "steel",
+      "amount": 10
+    },
+    "mekanism:nugget_steel": {
+      "metal": "steel",
+      "amount": 10
+    },
+    "modernfoundry:steel_nugget": {
+      "metal": "steel",
+      "amount": 10
+    },
+    "nuclearcraft:steel_nugget": {
+      "metal": "steel",
+      "amount": 10
+    },
+    "stellaris:steel_nugget": {
+      "metal": "steel",
+      "amount": 10
+    },
+    "tfmg:steel_nugget": {
+      "metal": "steel",
+      "amount": 10
+    },
+    "#c:ingots/brass": {
+      "metal": "brass",
+      "amount": 100
+    },
+    "create:brass_ingot": {
+      "metal": "brass",
+      "amount": 100
+    },
+    "#c:storage_blocks/brass": {
+      "metal": "brass",
+      "amount": 900
+    },
+    "create:brass_block": {
+      "metal": "brass",
+      "amount": 900
+    },
+    "#c:nuggets/brass": {
+      "metal": "brass",
+      "amount": 10
+    },
+    "create:brass_nugget": {
+      "metal": "brass",
+      "amount": 10
+    },
+    "#c:ingots/bronze": {
+      "metal": "bronze",
+      "amount": 100
+    },
+    "createbigcannons:bronze_ingot": {
+      "metal": "bronze",
+      "amount": 100
+    },
+    "mekanism:ingot_bronze": {
+      "metal": "bronze",
+      "amount": 100
+    },
+    "nuclearcraft:bronze_ingot": {
+      "metal": "bronze",
+      "amount": 100
+    },
+    "#c:storage_blocks/bronze": {
+      "metal": "bronze",
+      "amount": 900
+    },
+    "createbigcannons:bronze_block": {
+      "metal": "bronze",
+      "amount": 900
+    },
+    "mekanism:block_bronze": {
+      "metal": "bronze",
+      "amount": 900
+    },
+    "nuclearcraft:bronze_block": {
+      "metal": "bronze",
+      "amount": 900
+    },
+    "#c:nuggets/bronze": {
+      "metal": "bronze",
+      "amount": 10
+    },
+    "createbigcannons:bronze_scrap": {
+      "metal": "bronze",
+      "amount": 10
+    },
+    "mekanism:nugget_bronze": {
+      "metal": "bronze",
+      "amount": 10
+    },
+    "nuclearcraft:bronze_nugget": {
+      "metal": "bronze",
+      "amount": 10
+    },
+    "#c:ingots/calorite": {
+      "metal": "calorite",
+      "amount": 100
+    },
+    "ad_astra:calorite_ingot": {
+      "metal": "calorite",
+      "amount": 100
+    },
+    "ad_astra:calorite_nugget": {
+      "metal": "calorite",
+      "amount": 10
+    },
+    "#c:nuggets/calorite": {
+      "metal": "calorite",
+      "amount": 10
+    },
+    "#c:storage_blocks/calorite": {
+      "metal": "calorite",
+      "amount": 900
+    },
+    "ad_astra:calorite_block": {
+      "metal": "calorite",
+      "amount": 900
+    },
+    "ad_astra:calorite_plate": {
+      "metal": "calorite",
+      "amount": 100
+    },
+    "#c:plates/calorite": {
+      "metal": "calorite",
+      "amount": 100
+    },
+    "stellaris:desh_ingot": {
+      "metal": "desh",
+      "amount": 100
+    },
+    "ad_astra:desh_ingot": {
+      "metal": "desh",
+      "amount": 100
+    },
+    "#c:ingots/desh": {
+      "metal": "desh",
+      "amount": 100
+    },
+    "#c:nuggets/desh": {
+      "metal": "desh",
+      "amount": 10
+    },
+    "ad_astra:desh_nugget": {
+      "metal": "desh",
+      "amount": 10
+    },
+    "stellaris:desh_block": {
+      "metal": "desh",
+      "amount": 900
+    },
+    "#c:storage_blocks/desh": {
+      "metal": "desh",
+      "amount": 900
+    },
+    "ad_astra:desh_block": {
+      "metal": "desh",
+      "amount": 900
+    },
+    "ad_astra:desh_plate": {
+      "metal": "desh",
+      "amount": 100
+    },
+    "#c:plates/desh": {
+      "metal": "desh",
+      "amount": 100
+    },
+    "#c:ingots/ostrum": {
+      "metal": "ostrum",
+      "amount": 100
+    },
+    "ad_astra:ostrum_ingot": {
+      "metal": "ostrum",
+      "amount": 100
+    },
+    "#c:nuggets/ostrum": {
+      "metal": "ostrum",
+      "amount": 10
+    },
+    "ad_astra:ostrum_nugget": {
+      "metal": "ostrum",
+      "amount": 10
+    },
+    "ad_astra:ostrum_block": {
+      "metal": "ostrum",
+      "amount": 900
+    },
+    "#c:storage_blocks/ostrum": {
+      "metal": "ostrum",
+      "amount": 900
+    },
+    "ad_astra:ostrum_plate": {
+      "metal": "ostrum",
+      "amount": 100
+    },
+    "#c:plates/ostrum": {
+      "metal": "ostrum",
+      "amount": 100
+    },
+    "tfmg:heavy_plate": {
+      "metal": "steel",
+      "amount": 100
+    },
+    "#c:plates/steel": {
+      "metal": "steel",
+      "amount": 100
+    },
+    "immersiveengineering:plate_steel": {
+      "metal": "steel",
+      "amount": 100
+    },
+    "nuclearcraft:steel_plate": {
+      "metal": "steel",
+      "amount": 100
+    },
+    "ad_astra:steel_plate": {
+      "metal": "steel",
+      "amount": 100
+    },
+    "#c:ingots/allthemodium": {
+      "metal": "allthemodium",
+      "amount": 100
+    },
+    "allthemodium:allthemodium_ingot": {
+      "metal": "allthemodium",
+      "amount": 100
+    },
+    "#c:nuggets/allthemodium": {
+      "metal": "allthemodium",
+      "amount": 10
+    },
+    "allthemodium:allthemodium_nugget": {
+      "metal": "allthemodium",
+      "amount": 10
+    },
+    "#c:storage_blocks/allthemodium": {
+      "metal": "allthemodium",
+      "amount": 900
+    },
+    "allthemodium:allthemodium_block": {
+      "metal": "allthemodium",
+      "amount": 900
+    },
+    "#c:plates/allthemodium": {
+      "metal": "allthemodium",
+      "amount": 100
+    },
+    "allthemodium:allthemodium_plate": {
+      "metal": "allthemodium",
+      "amount": 100
+    },
+    "allthemodium:unobtainium_ingot": {
+      "metal": "unobtainium",
+      "amount": 100
+    },
+    "#c:ingots/unobtainium": {
+      "metal": "unobtainium",
+      "amount": 100
+    },
+    "#c:nuggets/unobtainium": {
+      "metal": "unobtainium",
+      "amount": 10
+    },
+    "allthemodium:unobtainium_nugget": {
+      "metal": "unobtainium",
+      "amount": 10
+    },
+    "allthemodium:unobtainium_block": {
+      "metal": "unobtainium",
+      "amount": 900
+    },
+    "#c:storage_blocks/unobtainium": {
+      "metal": "unobtainium",
+      "amount": 900
+    },
+    "allthemodium:unobtainium_plate": {
+      "metal": "unobtainium",
+      "amount": 100
+    },
+    "#c:plates/unobtainium": {
+      "metal": "unobtainium",
+      "amount": 100
+    },
+    "allthemodium:unobtainium_allthemodium_alloy_ingot": {
+      "metal": "unobtainium_allthemodium_alloy",
+      "amount": 100
+    },
+    "#c:ingots/unobtainium_allthemodium_alloy": {
+      "metal": "unobtainium_allthemodium_alloy",
+      "amount": 100
+    },
+    "#c:nuggets/unobtainium_allthemodium_alloy": {
+      "metal": "unobtainium_allthemodium_alloy",
+      "amount": 10
+    },
+    "#c:storage_blocks/unobtainium_allthemodium_alloy": {
+      "metal": "unobtainium_allthemodium_alloy",
+      "amount": 900
+    },
+    "allthemodium:unobtainium_allthemodium_alloy_block": {
+      "metal": "unobtainium_allthemodium_alloy",
+      "amount": 900
+    },
+    "#c:plates/unobtainium_allthemodium_alloy": {
+      "metal": "unobtainium_allthemodium_alloy",
+      "amount": 100
+    },
+    "allthemodium:unobtainium_vibranium_alloy_ingot": {
+      "metal": "unobtainium_vibranium_alloy",
+      "amount": 100
+    },
+    "#c:ingots/unobtainium_vibranium_alloy": {
+      "metal": "unobtainium_vibranium_alloy",
+      "amount": 100
+    },
+    "#c:nuggets/unobtainium_vibranium_alloy": {
+      "metal": "unobtainium_vibranium_alloy",
+      "amount": 10
+    },
+    "allthemodium:unobtainium_vibranium_alloy_block": {
+      "metal": "unobtainium_vibranium_alloy",
+      "amount": 900
+    },
+    "#c:storage_blocks/unobtainium_vibranium_alloy": {
+      "metal": "unobtainium_vibranium_alloy",
+      "amount": 900
+    },
+    "#c:plates/unobtainium_vibranium_alloy": {
+      "metal": "unobtainium_vibranium_alloy",
+      "amount": 100
+    },
+    "#c:ingots/vibranium": {
+      "metal": "vibranium",
+      "amount": 100
+    },
+    "allthemodium:vibranium_ingot": {
+      "metal": "vibranium",
+      "amount": 100
+    },
+    "#c:nuggets/vibranium": {
+      "metal": "vibranium",
+      "amount": 10
+    },
+    "allthemodium:vibranium_nugget": {
+      "metal": "vibranium",
+      "amount": 10
+    },
+    "#c:storage_blocks/vibranium": {
+      "metal": "vibranium",
+      "amount": 900
+    },
+    "allthemodium:vibranium_block": {
+      "metal": "vibranium",
+      "amount": 900
+    },
+    "#c:plates/vibranium": {
+      "metal": "vibranium",
+      "amount": 100
+    },
+    "allthemodium:vibranium_plate": {
+      "metal": "vibranium",
+      "amount": 100
+    },
+    "allthemodium:vibranium_allthemodium_alloy_ingot": {
+      "metal": "vibranium_allthemodium_alloy",
+      "amount": 100
+    },
+    "#c:ingots/vibranium_allthemodium_alloy": {
+      "metal": "vibranium_allthemodium_alloy",
+      "amount": 100
+    },
+    "#c:nuggets/vibranium_allthemodium_alloy": {
+      "metal": "vibranium_allthemodium_alloy",
+      "amount": 10
+    },
+    "#c:storage_blocks/vibranium_allthemodium_alloy": {
+      "metal": "vibranium_allthemodium_alloy",
+      "amount": 900
+    },
+    "allthemodium:vibranium_allthemodium_alloy_block": {
+      "metal": "vibranium_allthemodium_alloy",
+      "amount": 900
+    },
+    "#c:plates/vibranium_allthemodium_alloy": {
+      "metal": "vibranium_allthemodium_alloy",
+      "amount": 100
+    },
+    "aquaculture:neptunium_ingot": {
+      "metal": "neptunium",
+      "amount": 100
+    },
+    "#c:ingots/neptunium": {
+      "metal": "neptunium",
+      "amount": 100
+    },
+    "stellaris:neptunium_ingot": {
+      "metal": "neptunium",
+      "amount": 100
+    },
+    "#c:nuggets/neptunium": {
+      "metal": "neptunium",
+      "amount": 10
+    },
+    "aquaculture:neptunium_nugget": {
+      "metal": "neptunium",
+      "amount": 10
+    },
+    "#c:storage_blocks/neptunium": {
+      "metal": "neptunium",
+      "amount": 900
+    },
+    "aquaculture:neptunium_block": {
+      "metal": "neptunium",
+      "amount": 900
+    },
+    "#c:plates/neptunium": {
+      "metal": "neptunium",
+      "amount": 100
+    },
+    "#c:plates/titanium": {
+      "metal": "titanium",
+      "amount": 100
+    },
+    "rocketnautics:titanium_sheet": {
+      "metal": "titanium",
+      "amount": 100
+    },
+    "#c:ingots/titanium_alloy": {
+      "metal": "titanium_alloy",
+      "amount": 100
+    },
+    "rocketnautics:titanium_alloy": {
+      "metal": "titanium_alloy",
+      "amount": 100
+    },
+    "#c:nuggets/titanium_alloy": {
+      "metal": "titanium_alloy",
+      "amount": 10
+    },
+    "rocketnautics:titanium_alloy_nugget": {
+      "metal": "titanium_alloy",
+      "amount": 10
+    },
+    "#c:storage_blocks/titanium_alloy": {
+      "metal": "titanium_alloy",
+      "amount": 900
+    },
+    "rocketnautics:titanium_alloy_block": {
+      "metal": "titanium_alloy",
+      "amount": 900
+    },
+    "rocketnautics:titanium_alloy_sheet": {
+      "metal": "titanium_alloy",
+      "amount": 100
+    },
+    "#c:plates/titanium_alloy": {
+      "metal": "titanium_alloy",
+      "amount": 100
+    },
+    "create:andesite_alloy": {
+      "metal": "andesite_alloy",
+      "amount": 100
+    },
+    "#c:ingots/andesite_alloy": {
+      "metal": "andesite_alloy",
+      "amount": 100
+    },
+    "#c:nuggets/andesite_alloy": {
+      "metal": "andesite_alloy",
+      "amount": 10
+    },
+    "#c:storage_blocks/andesite_alloy": {
+      "metal": "andesite_alloy",
+      "amount": 900
+    },
+    "create:andesite_alloy_block": {
+      "metal": "andesite_alloy",
+      "amount": 900
+    },
+    "#c:plates/andesite_alloy": {
+      "metal": "andesite_alloy",
+      "amount": 100
+    },
+    "createcasing:andesite_sheet": {
+      "metal": "andesite_alloy",
+      "amount": 100
+    },
+    "#c:plates/brass": {
+      "metal": "brass",
+      "amount": 100
+    },
+    "create:brass_sheet": {
+      "metal": "brass",
+      "amount": 100
+    },
+    "createcasing:zinc_sheet": {
+      "metal": "zinc",
+      "amount": 100
+    },
+    "nuclearcraft:zinc_plate": {
+      "metal": "zinc",
+      "amount": 100
+    },
+    "#c:plates/zinc": {
+      "metal": "zinc",
+      "amount": 100
+    },
+    "createaddition:zinc_sheet": {
+      "metal": "zinc",
+      "amount": 100
+    },
+    "createaddition:electrum_ingot": {
+      "metal": "electrum",
+      "amount": 100
+    },
+    "#c:ingots/electrum": {
+      "metal": "electrum",
+      "amount": 100
+    },
+    "immersiveengineering:ingot_electrum": {
+      "metal": "electrum",
+      "amount": 100
+    },
+    "nuclearcraft:electrum_ingot": {
+      "metal": "electrum",
+      "amount": 100
+    },
+    "#c:nuggets/electrum": {
+      "metal": "electrum",
+      "amount": 10
+    },
+    "createaddition:electrum_nugget": {
+      "metal": "electrum",
+      "amount": 10
+    },
+    "nuclearcraft:electrum_nugget": {
+      "metal": "electrum",
+      "amount": 10
+    },
+    "immersiveengineering:nugget_electrum": {
+      "metal": "electrum",
+      "amount": 10
+    },
+    "nuclearcraft:electrum_block": {
+      "metal": "electrum",
+      "amount": 900
+    },
+    "#c:storage_blocks/electrum": {
+      "metal": "electrum",
+      "amount": 900
+    },
+    "createaddition:electrum_block": {
+      "metal": "electrum",
+      "amount": 900
+    },
+    "immersiveengineering:storage_electrum": {
+      "metal": "electrum",
+      "amount": 900
+    },
+    "immersiveengineering:plate_electrum": {
+      "metal": "electrum",
+      "amount": 100
+    },
+    "nuclearcraft:electrum_plate": {
+      "metal": "electrum",
+      "amount": 100
+    },
+    "createaddition:electrum_sheet": {
+      "metal": "electrum",
+      "amount": 100
+    },
+    "#c:plates/electrum": {
+      "metal": "electrum",
+      "amount": 100
+    },
+    "nuclearcraft:bronze_plate": {
+      "metal": "bronze",
+      "amount": 100
+    },
+    "#c:plates/bronze": {
+      "metal": "bronze",
+      "amount": 100
+    },
+    "#c:ingots/cast_iron": {
+      "metal": "cast_iron",
+      "amount": 100
+    },
+    "tfmg:cast_iron_ingot": {
+      "metal": "cast_iron",
+      "amount": 100
+    },
+    "createbigcannons:cast_iron_ingot": {
+      "metal": "cast_iron",
+      "amount": 100
+    },
+    "#c:nuggets/cast_iron": {
+      "metal": "cast_iron",
+      "amount": 10
+    },
+    "createbigcannons:cast_iron_nugget": {
+      "metal": "cast_iron",
+      "amount": 10
+    },
+    "tfmg:cast_iron_nugget": {
+      "metal": "cast_iron",
+      "amount": 10
+    },
+    "tfmg:cast_iron_block": {
+      "metal": "cast_iron",
+      "amount": 900
+    },
+    "#c:storage_blocks/cast_iron": {
+      "metal": "cast_iron",
+      "amount": 900
+    },
+    "createbigcannons:cast_iron_block": {
+      "metal": "cast_iron",
+      "amount": 900
+    },
+    "#c:plates/cast_iron": {
+      "metal": "cast_iron",
+      "amount": 100
+    },
+    "tfmg:cast_iron_sheet": {
+      "metal": "cast_iron",
+      "amount": 100
+    },
+    "#c:ingots/nethersteel": {
+      "metal": "nethersteel",
+      "amount": 100
+    },
+    "createbigcannons:nethersteel_ingot": {
+      "metal": "nethersteel",
+      "amount": 100
+    },
+    "createbigcannons:nethersteel_nugget": {
+      "metal": "nethersteel",
+      "amount": 10
+    },
+    "#c:nuggets/nethersteel": {
+      "metal": "nethersteel",
+      "amount": 10
+    },
+    "#c:storage_blocks/nethersteel": {
+      "metal": "nethersteel",
+      "amount": 900
+    },
+    "createbigcannons:nethersteel_block": {
+      "metal": "nethersteel",
+      "amount": 900
+    },
+    "#c:plates/nethersteel": {
+      "metal": "nethersteel",
+      "amount": 100
+    },
+    "#c:ingots/obdurium": {
+      "metal": "obdurium",
+      "amount": 100
+    },
+    "createmetallurgy:obdurium_ingot": {
+      "metal": "obdurium",
+      "amount": 100
+    },
+    "#c:nuggets/obdurium": {
+      "metal": "obdurium",
+      "amount": 10
+    },
+    "#c:storage_blocks/obdurium": {
+      "metal": "obdurium",
+      "amount": 900
+    },
+    "createmetallurgy:obdurium_block": {
+      "metal": "obdurium",
+      "amount": 900
+    },
+    "#c:plates/obdurium": {
+      "metal": "obdurium",
+      "amount": 100
+    },
+    "createmetallurgy:obdurium_sheet": {
+      "metal": "obdurium",
+      "amount": 100
+    },
+    "#c:plates/tungsten": {
+      "metal": "tungsten",
+      "amount": 100
+    },
+    "createmetallurgy:tungsten_sheet": {
+      "metal": "tungsten",
+      "amount": 100
+    },
+    "extendedae:entro_ingot": {
+      "metal": "infused_entro",
+      "amount": 100
+    },
+    "#c:ingots/infused_entro": {
+      "metal": "infused_entro",
+      "amount": 100
+    },
+    "#c:nuggets/infused_entro": {
+      "metal": "infused_entro",
+      "amount": 10
+    },
+    "#c:storage_blocks/infused_entro": {
+      "metal": "infused_entro",
+      "amount": 900
+    },
+    "#c:plates/infused_entro": {
+      "metal": "infused_entro",
+      "amount": 100
+    },
+    "bigreactors:blutonium_ingot": {
+      "metal": "plutonium",
+      "amount": 100
+    },
+    "#c:ingots/blutonium": {
+      "metal": "blutonium",
+      "amount": 100
+    },
+    "#c:nuggets/blutonium": {
+      "metal": "blutonium",
+      "amount": 10
+    },
+    "#c:storage_blocks/blutonium": {
+      "metal": "blutonium",
+      "amount": 900
+    },
+    "bigreactors:blutonium_block": {
+      "metal": "blutonium",
+      "amount": 900
+    },
+    "#c:plates/blutonium": {
+      "metal": "blutonium",
+      "amount": 100
+    },
+    "bigreactors:cyanite_ingot": {
+      "metal": "cyanite",
+      "amount": 100
+    },
+    "#c:ingots/cyanite": {
+      "metal": "cyanite",
+      "amount": 100
+    },
+    "#c:nuggets/cyanite": {
+      "metal": "cyanite",
+      "amount": 10
+    },
+    "#c:storage_blocks/cyanite": {
+      "metal": "cyanite",
+      "amount": 900
+    },
+    "bigreactors:cyanite_block": {
+      "metal": "cyanite",
+      "amount": 900
+    },
+    "#c:plates/cyanite": {
+      "metal": "cyanite",
+      "amount": 100
+    },
+    "nuclearcraft:graphite_ingot": {
+      "metal": "graphite",
+      "amount": 100
+    },
+    "bigreactors:graphite_ingot": {
+      "metal": "graphite",
+      "amount": 100
+    },
+    "#c:ingots/graphite": {
+      "metal": "graphite",
+      "amount": 100
+    },
+    "#c:nuggets/graphite": {
+      "metal": "graphite",
+      "amount": 10
+    },
+    "nuclearcraft:graphite_block": {
+      "metal": "graphite",
+      "amount": 900
+    },
+    "bigreactors:graphite_block": {
+      "metal": "graphite",
+      "amount": 900
+    },
+    "#c:storage_blocks/graphite": {
+      "metal": "graphite",
+      "amount": 900
+    },
+    "#c:plates/graphite": {
+      "metal": "graphite",
+      "amount": 100
+    },
+    "nuclearcraft:graphite_plate": {
+      "metal": "graphite",
+      "amount": 100
+    },
+    "bigreactors:inanite_ingot": {
+      "metal": "inanite",
+      "amount": 100
+    },
+    "#c:ingots/inanite": {
+      "metal": "inanite",
+      "amount": 100
+    },
+    "#c:nuggets/inanite": {
+      "metal": "inanite",
+      "amount": 10
+    },
+    "#c:storage_blocks/inanite": {
+      "metal": "inanite",
+      "amount": 900
+    },
+    "bigreactors:inanite_block": {
+      "metal": "inanite",
+      "amount": 900
+    },
+    "#c:plates/inanite": {
+      "metal": "inanite",
+      "amount": 100
+    },
+    "#c:ingots/insanite": {
+      "metal": "insanite",
+      "amount": 100
+    },
+    "bigreactors:insanite_ingot": {
+      "metal": "insanite",
+      "amount": 100
+    },
+    "#c:nuggets/insanite": {
+      "metal": "insanite",
+      "amount": 10
+    },
+    "#c:storage_blocks/insanite": {
+      "metal": "insanite",
+      "amount": 900
+    },
+    "bigreactors:insanite_block": {
+      "metal": "insanite",
+      "amount": 900
+    },
+    "#c:plates/insanite": {
+      "metal": "insanite",
+      "amount": 100
+    },
+    "bigreactors:ludicrite_ingot": {
+      "metal": "ludicrite",
+      "amount": 100
+    },
+    "#c:ingots/ludicrite": {
+      "metal": "ludicrite",
+      "amount": 100
+    },
+    "#c:nuggets/ludicrite": {
+      "metal": "ludicrite",
+      "amount": 10
+    },
+    "bigreactors:ludicrite_block": {
+      "metal": "ludicrite",
+      "amount": 900
+    },
+    "#c:storage_blocks/ludicrite": {
+      "metal": "ludicrite",
+      "amount": 900
+    },
+    "#c:plates/ludicrite": {
+      "metal": "ludicrite",
+      "amount": 100
+    },
+    "#c:ingots/magentite": {
+      "metal": "magentite",
+      "amount": 100
+    },
+    "bigreactors:magentite_ingot": {
+      "metal": "magentite",
+      "amount": 100
+    },
+    "#c:nuggets/magentite": {
+      "metal": "magentite",
+      "amount": 10
+    },
+    "#c:storage_blocks/magentite": {
+      "metal": "magentite",
+      "amount": 900
+    },
+    "bigreactors:magentite_block": {
+      "metal": "magentite",
+      "amount": 900
+    },
+    "#c:plates/magentite": {
+      "metal": "magentite",
+      "amount": 100
+    },
+    "#c:ingots/plutonium": {
+      "metal": "plutonium",
+      "amount": 100
+    },
+    "stellaris:plutonium_ingot": {
+      "metal": "plutonium",
+      "amount": 100
+    },
+    "stellaris:plutonium_nugget": {
+      "metal": "plutonium",
+      "amount": 10
+    },
+    "#c:nuggets/plutonium": {
+      "metal": "plutonium",
+      "amount": 10
+    },
+    "stellaris:plutonium_block": {
+      "metal": "plutonium",
+      "amount": 900
+    },
+    "#c:storage_blocks/plutonium": {
+      "metal": "plutonium",
+      "amount": 900
+    },
+    "#c:plates/plutonium": {
+      "metal": "plutonium",
+      "amount": 100
+    },
+    "#c:ingots/ridiculite": {
+      "metal": "ridiculite",
+      "amount": 100
+    },
+    "bigreactors:ridiculite_ingot": {
+      "metal": "ridiculite",
+      "amount": 100
+    },
+    "#c:nuggets/ridiculite": {
+      "metal": "ridiculite",
+      "amount": 10
+    },
+    "#c:storage_blocks/ridiculite": {
+      "metal": "ridiculite",
+      "amount": 900
+    },
+    "bigreactors:ridiculite_block": {
+      "metal": "ridiculite",
+      "amount": 900
+    },
+    "#c:plates/ridiculite": {
+      "metal": "ridiculite",
+      "amount": 100
+    },
+    "#c:ingots/uranium": {
+      "metal": "uranium",
+      "amount": 100
+    },
+    "nuclearcraft:uranium_ingot": {
+      "metal": "uranium",
+      "amount": 100
+    },
+    "mekanism:ingot_uranium": {
+      "metal": "uranium",
+      "amount": 100
+    },
+    "stellaris:uranium_ingot": {
+      "metal": "uranium",
+      "amount": 100
+    },
+    "bigreactors:yellorium_ingot": {
+      "metal": "yellorium",
+      "amount": 100
+    },
+    "immersiveengineering:ingot_uranium": {
+      "metal": "uranium",
+      "amount": 100
+    },
+    "immersiveengineering:nugget_uranium": {
+      "metal": "uranium",
+      "amount": 10
+    },
+    "nuclearcraft:uranium_nugget": {
+      "metal": "uranium",
+      "amount": 10
+    },
+    "#c:nuggets/uranium": {
+      "metal": "uranium",
+      "amount": 10
+    },
+    "mekanism:nugget_uranium": {
+      "metal": "uranium",
+      "amount": 10
+    },
+    "#c:storage_blocks/uranium": {
+      "metal": "uranium",
+      "amount": 900
+    },
+    "nuclearcraft:uranium_block": {
+      "metal": "uranium",
+      "amount": 900
+    },
+    "mekanism:block_uranium": {
+      "metal": "uranium",
+      "amount": 900
+    },
+    "immersiveengineering:storage_uranium": {
+      "metal": "uranium",
+      "amount": 900
+    },
+    "stellaris:uranium_block": {
+      "metal": "uranium",
+      "amount": 900
+    },
+    "#c:plates/uranium": {
+      "metal": "uranium",
+      "amount": 100
+    },
+    "immersiveengineering:plate_uranium": {
+      "metal": "uranium",
+      "amount": 100
+    },
+    "nuclearcraft:uranium_plate": {
+      "metal": "uranium",
+      "amount": 100
+    },
+    "#c:ingots/yellorium": {
+      "metal": "yellorium",
+      "amount": 100
+    },
+    "#c:nuggets/yellorium": {
+      "metal": "yellorium",
+      "amount": 10
+    },
+    "#c:storage_blocks/yellorium": {
+      "metal": "yellorium",
+      "amount": 900
+    },
+    "bigreactors:yellorium_block": {
+      "metal": "yellorium",
+      "amount": 900
+    },
+    "#c:plates/yellorium": {
+      "metal": "yellorium",
+      "amount": 100
+    },
+    "i_architecture:industrial_iron_ingot": {
+      "metal": "industrial_iron",
+      "amount": 100
+    },
+    "#c:ingots/industrial_iron": {
+      "metal": "industrial_iron",
+      "amount": 100
+    },
+    "#c:nuggets/industrial_iron": {
+      "metal": "industrial_iron",
+      "amount": 10
+    },
+    "#c:storage_blocks/industrial_iron": {
+      "metal": "industrial_iron",
+      "amount": 900
+    },
+    "#c:plates/industrial_iron": {
+      "metal": "industrial_iron",
+      "amount": 100
+    },
+    "immersiveengineering:plate_aluminum": {
+      "metal": "aluminum",
+      "amount": 100
+    },
+    "nuclearcraft:aluminum_plate": {
+      "metal": "aluminum",
+      "amount": 100
+    },
+    "tfmg:aluminum_sheet": {
+      "metal": "aluminum",
+      "amount": 100
+    },
+    "#c:plates/aluminum": {
+      "metal": "aluminum",
+      "amount": 100
+    },
+    "tfmg:constantan_ingot": {
+      "metal": "constantan",
+      "amount": 100
+    },
+    "#c:ingots/constantan": {
+      "metal": "constantan",
+      "amount": 100
+    },
+    "immersiveengineering:ingot_constantan": {
+      "metal": "constantan",
+      "amount": 100
+    },
+    "immersiveengineering:nugget_constantan": {
+      "metal": "constantan",
+      "amount": 10
+    },
+    "tfmg:constantan_nugget": {
+      "metal": "constantan",
+      "amount": 10
+    },
+    "#c:nuggets/constantan": {
+      "metal": "constantan",
+      "amount": 10
+    },
+    "immersiveengineering:storage_constantan": {
+      "metal": "constantan",
+      "amount": 900
+    },
+    "tfmg:constantan_block": {
+      "metal": "constantan",
+      "amount": 900
+    },
+    "#c:storage_blocks/constantan": {
+      "metal": "constantan",
+      "amount": 900
+    },
+    "immersiveengineering:plate_constantan": {
+      "metal": "constantan",
+      "amount": 100
+    },
+    "#c:plates/constantan": {
+      "metal": "constantan",
+      "amount": 100
+    },
+    "immersiveengineering:ingot_hop_graphite": {
+      "metal": "hop_graphite",
+      "amount": 100
+    },
+    "#c:ingots/hop_graphite": {
+      "metal": "hop_graphite",
+      "amount": 100
+    },
+    "#c:nuggets/hop_graphite": {
+      "metal": "hop_graphite",
+      "amount": 10
+    },
+    "#c:storage_blocks/hop_graphite": {
+      "metal": "hop_graphite",
+      "amount": 900
+    },
+    "#c:plates/hop_graphite": {
+      "metal": "hop_graphite",
+      "amount": 100
+    },
+    "immersiveengineering:plate_hop_graphite": {
+      "metal": "hop_graphite",
+      "amount": 100
+    },
+    "immersiveengineering:plate_lead": {
+      "metal": "lead",
+      "amount": 100
+    },
+    "tfmg:lead_sheet": {
+      "metal": "lead",
+      "amount": 100
+    },
+    "nuclearcraft:lead_plate": {
+      "metal": "lead",
+      "amount": 100
+    },
+    "#c:plates/lead": {
+      "metal": "lead",
+      "amount": 100
+    },
+    "immersiveengineering:plate_nickel": {
+      "metal": "nickel",
+      "amount": 100
+    },
+    "#c:plates/nickel": {
+      "metal": "nickel",
+      "amount": 100
+    },
+    "tfmg:nickel_sheet": {
+      "metal": "nickel",
+      "amount": 100
+    },
+    "nuclearcraft:silver_plate": {
+      "metal": "silver",
+      "amount": 100
+    },
+    "#c:plates/silver": {
+      "metal": "silver",
+      "amount": 100
+    },
+    "immersiveengineering:plate_silver": {
+      "metal": "silver",
+      "amount": 100
+    },
+    "#c:ingots/mithril": {
+      "metal": "mithril",
+      "amount": 100
+    },
+    "irons_spellbooks:mithril_ingot": {
+      "metal": "mithril",
+      "amount": 100
+    },
+    "#c:nuggets/mithril": {
+      "metal": "mithril",
+      "amount": 10
+    },
+    "#c:storage_blocks/mithril": {
+      "metal": "mithril",
+      "amount": 900
+    },
+    "#c:plates/mithril": {
+      "metal": "mithril",
+      "amount": 100
+    },
+    "irons_spellbooks:pyrium_ingot": {
+      "metal": "pyrium",
+      "amount": 100
+    },
+    "#c:ingots/pyrium": {
+      "metal": "pyrium",
+      "amount": 100
+    },
+    "#c:nuggets/pyrium": {
+      "metal": "pyrium",
+      "amount": 10
+    },
+    "#c:storage_blocks/pyrium": {
+      "metal": "pyrium",
+      "amount": 900
+    },
+    "#c:plates/pyrium": {
+      "metal": "pyrium",
+      "amount": 100
+    },
+    "#c:ingots/sky_steel": {
+      "metal": "sky_steel",
+      "amount": 100
+    },
+    "megacells:sky_steel_ingot": {
+      "metal": "sky_steel",
+      "amount": 100
+    },
+    "#c:nuggets/sky_steel": {
+      "metal": "sky_steel",
+      "amount": 10
+    },
+    "megacells:sky_steel_block": {
+      "metal": "sky_steel",
+      "amount": 900
+    },
+    "#c:storage_blocks/sky_steel": {
+      "metal": "sky_steel",
+      "amount": 900
+    },
+    "#c:plates/sky_steel": {
+      "metal": "sky_steel",
+      "amount": 100
+    },
+    "megacells:sky_osmium_ingot": {
+      "metal": "sky_osmium",
+      "amount": 100
+    },
+    "#c:ingots/sky_osmium": {
+      "metal": "sky_osmium",
+      "amount": 100
+    },
+    "#c:nuggets/sky_osmium": {
+      "metal": "sky_osmium",
+      "amount": 10
+    },
+    "megacells:sky_osmium_block": {
+      "metal": "sky_osmium",
+      "amount": 900
+    },
+    "#c:storage_blocks/sky_osmium": {
+      "metal": "sky_osmium",
+      "amount": 900
+    },
+    "#c:plates/sky_osmium": {
+      "metal": "sky_osmium",
+      "amount": 100
+    },
+    "megacells:sky_bronze_ingot": {
+      "metal": "sky_bronze",
+      "amount": 100
+    },
+    "#c:ingots/sky_bronze": {
+      "metal": "sky_bronze",
+      "amount": 100
+    },
+    "#c:nuggets/sky_bronze": {
+      "metal": "sky_bronze",
+      "amount": 10
+    },
+    "megacells:sky_bronze_block": {
+      "metal": "sky_bronze",
+      "amount": 900
+    },
+    "#c:storage_blocks/sky_bronze": {
+      "metal": "sky_bronze",
+      "amount": 900
+    },
+    "#c:plates/sky_bronze": {
+      "metal": "sky_bronze",
+      "amount": 100
+    },
+    "#c:plates/osmium": {
+      "metal": "osmium",
+      "amount": 100
+    },
+    "#c:ingots/refined_glowstone": {
+      "metal": "refined_glowstone",
+      "amount": 100
+    },
+    "mekanism:ingot_refined_glowstone": {
+      "metal": "refined_glowstone",
+      "amount": 100
+    },
+    "#c:nuggets/refined_glowstone": {
+      "metal": "refined_glowstone",
+      "amount": 10
+    },
+    "mekanism:nugget_refined_glowstone": {
+      "metal": "refined_glowstone",
+      "amount": 10
+    },
+    "mekanism:block_refined_glowstone": {
+      "metal": "refined_glowstone",
+      "amount": 900
+    },
+    "#c:storage_blocks/refined_glowstone": {
+      "metal": "refined_glowstone",
+      "amount": 900
+    },
+    "#c:plates/refined_glowstone": {
+      "metal": "refined_glowstone",
+      "amount": 100
+    },
+    "#c:ingots/refined_obsidian": {
+      "metal": "refined_obsidian",
+      "amount": 100
+    },
+    "mekanism:ingot_refined_obsidian": {
+      "metal": "refined_obsidian",
+      "amount": 100
+    },
+    "mekanism:nugget_refined_obsidian": {
+      "metal": "refined_obsidian",
+      "amount": 10
+    },
+    "#c:nuggets/refined_obsidian": {
+      "metal": "refined_obsidian",
+      "amount": 10
+    },
+    "#c:storage_blocks/refined_obsidian": {
+      "metal": "refined_obsidian",
+      "amount": 900
+    },
+    "mekanism:block_refined_obsidian": {
+      "metal": "refined_obsidian",
+      "amount": 900
+    },
+    "#c:plates/refined_obsidian": {
+      "metal": "refined_obsidian",
+      "amount": 100
+    },
+    "#c:plates/tin": {
+      "metal": "tin",
+      "amount": 100
+    },
+    "nuclearcraft:tin_plate": {
+      "metal": "tin",
+      "amount": 100
+    },
+    "#c:ingots/amethyst_bronze": {
+      "metal": "amethyst_bronze",
+      "amount": 100
+    },
+    "modernfoundry:amethyst_bronze_ingot": {
+      "metal": "amethyst_bronze",
+      "amount": 100
+    },
+    "modernfoundry:amethyst_bronze_nugget": {
+      "metal": "amethyst_bronze",
+      "amount": 10
+    },
+    "#c:nuggets/amethyst_bronze": {
+      "metal": "amethyst_bronze",
+      "amount": 10
+    },
+    "#c:storage_blocks/amethyst_bronze": {
+      "metal": "amethyst_bronze",
+      "amount": 900
+    },
+    "modernfoundry:amethyst_bronze_block": {
+      "metal": "amethyst_bronze",
+      "amount": 900
+    },
+    "#c:plates/amethyst_bronze": {
+      "metal": "amethyst_bronze",
+      "amount": 100
+    },
+    "modernfoundry:cinderslime_ingot": {
+      "metal": "cinderslime",
+      "amount": 100
+    },
+    "#c:ingots/cinderslime": {
+      "metal": "cinderslime",
+      "amount": 100
+    },
+    "#c:nuggets/cinderslime": {
+      "metal": "cinderslime",
+      "amount": 10
+    },
+    "modernfoundry:cinderslime_nugget": {
+      "metal": "cinderslime",
+      "amount": 10
+    },
+    "#c:storage_blocks/cinderslime": {
+      "metal": "cinderslime",
+      "amount": 900
+    },
+    "modernfoundry:cinderslime_block": {
+      "metal": "cinderslime",
+      "amount": 900
+    },
+    "#c:plates/cinderslime": {
+      "metal": "cinderslime",
+      "amount": 100
+    },
+    "#c:plates/cobalt": {
+      "metal": "cobalt",
+      "amount": 100
+    },
+    "nuclearcraft:cobalt_plate": {
+      "metal": "cobalt",
+      "amount": 100
+    },
+    "create:copper_sheet": {
+      "metal": "copper",
+      "amount": 100
+    },
+    "#c:plates/copper": {
+      "metal": "copper",
+      "amount": 100
+    },
+    "nuclearcraft:copper_plate": {
+      "metal": "copper",
+      "amount": 100
+    },
+    "immersiveengineering:plate_copper": {
+      "metal": "copper",
+      "amount": 100
+    },
+    "#c:plates/gold": {
+      "metal": "gold",
+      "amount": 100
+    },
+    "immersiveengineering:plate_gold": {
+      "metal": "gold",
+      "amount": 100
+    },
+    "create:golden_sheet": {
+      "metal": "gold",
+      "amount": 100
+    },
+    "modernfoundry:hepatizon_ingot": {
+      "metal": "hepatizon",
+      "amount": 100
+    },
+    "#c:ingots/hepatizon": {
+      "metal": "hepatizon",
+      "amount": 100
+    },
+    "#c:nuggets/hepatizon": {
+      "metal": "hepatizon",
+      "amount": 10
+    },
+    "modernfoundry:hepatizon_nugget": {
+      "metal": "hepatizon",
+      "amount": 10
+    },
+    "#c:storage_blocks/hepatizon": {
+      "metal": "hepatizon",
+      "amount": 900
+    },
+    "modernfoundry:hepatizon_block": {
+      "metal": "hepatizon",
+      "amount": 900
+    },
+    "#c:plates/hepatizon": {
+      "metal": "hepatizon",
+      "amount": 100
+    },
+    "nuclearcraft:iron_plate": {
+      "metal": "iron",
+      "amount": 100
+    },
+    "create:iron_sheet": {
+      "metal": "iron",
+      "amount": 100
+    },
+    "#c:plates/iron": {
+      "metal": "iron",
+      "amount": 100
+    },
+    "ad_astra:iron_plate": {
+      "metal": "iron",
+      "amount": 100
+    },
+    "immersiveengineering:plate_iron": {
+      "metal": "iron",
+      "amount": 100
+    },
+    "modernfoundry:knightmetal_ingot": {
+      "metal": "knightmetal",
+      "amount": 100
+    },
+    "#c:ingots/knightmetal": {
+      "metal": "knightmetal",
+      "amount": 100
+    },
+    "modernfoundry:knightmetal_nugget": {
+      "metal": "knightmetal",
+      "amount": 10
+    },
+    "#c:nuggets/knightmetal": {
+      "metal": "knightmetal",
+      "amount": 10
+    },
+    "#c:storage_blocks/knightmetal": {
+      "metal": "knightmetal",
+      "amount": 900
+    },
+    "modernfoundry:knightmetal_block": {
+      "metal": "knightmetal",
+      "amount": 900
+    },
+    "#c:plates/knightmetal": {
+      "metal": "knightmetal",
+      "amount": 100
+    },
+    "modernfoundry:knightslime_ingot": {
+      "metal": "knightslime",
+      "amount": 100
+    },
+    "#c:ingots/knightslime": {
+      "metal": "knightslime",
+      "amount": 100
+    },
+    "#c:nuggets/knightslime": {
+      "metal": "knightslime",
+      "amount": 10
+    },
+    "modernfoundry:knightslime_nugget": {
+      "metal": "knightslime",
+      "amount": 10
+    },
+    "modernfoundry:knightslime_block": {
+      "metal": "knightslime",
+      "amount": 900
+    },
+    "#c:storage_blocks/knightslime": {
+      "metal": "knightslime",
+      "amount": 900
+    },
+    "#c:plates/knightslime": {
+      "metal": "knightslime",
+      "amount": 100
+    },
+    "#c:ingots/manyullyn": {
+      "metal": "manyullyn",
+      "amount": 100
+    },
+    "modernfoundry:manyullyn_ingot": {
+      "metal": "manyullyn",
+      "amount": 100
+    },
+    "modernfoundry:manyullyn_nugget": {
+      "metal": "manyullyn",
+      "amount": 10
+    },
+    "#c:nuggets/manyullyn": {
+      "metal": "manyullyn",
+      "amount": 10
+    },
+    "modernfoundry:manyullyn_block": {
+      "metal": "manyullyn",
+      "amount": 900
+    },
+    "#c:storage_blocks/manyullyn": {
+      "metal": "manyullyn",
+      "amount": 900
+    },
+    "#c:plates/manyullyn": {
+      "metal": "manyullyn",
+      "amount": 100
+    },
+    "#c:ingots/netherite": {
+      "metal": "netherite",
+      "amount": 100
+    },
+    "minecraft:netherite_ingot": {
+      "metal": "netherite",
+      "amount": 100
+    },
+    "modernfoundry:netherite_nugget": {
+      "metal": "netherite",
+      "amount": 10
+    },
+    "immersiveengineering:nugget_netherite": {
+      "metal": "netherite",
+      "amount": 10
+    },
+    "#c:nuggets/netherite": {
+      "metal": "netherite",
+      "amount": 10
+    },
+    "minecraft:netherite_block": {
+      "metal": "netherite",
+      "amount": 900
+    },
+    "#c:storage_blocks/netherite": {
+      "metal": "netherite",
+      "amount": 900
+    },
+    "#c:plates/netherite": {
+      "metal": "netherite",
+      "amount": 100
+    },
+    "nuclearcraft:netherite_plate": {
+      "metal": "netherite",
+      "amount": 100
+    },
+    "minecraft:netherite_scrap": {
+      "metal": "netherite_scrap",
+      "amount": 100
+    },
+    "#c:ingots/netherite_scrap": {
+      "metal": "netherite_scrap",
+      "amount": 100
+    },
+    "modernfoundry:debris_nugget": {
+      "metal": "netherite_scrap",
+      "amount": 10
+    },
+    "#c:nuggets/netherite_scrap": {
+      "metal": "netherite_scrap",
+      "amount": 10
+    },
+    "#c:storage_blocks/netherite_scrap": {
+      "metal": "netherite_scrap",
+      "amount": 900
+    },
+    "#c:plates/netherite_scrap": {
+      "metal": "netherite_scrap",
+      "amount": 100
+    },
+    "#c:ingots/pig_iron": {
+      "metal": "pig_iron",
+      "amount": 100
+    },
+    "modernfoundry:pig_iron_ingot": {
+      "metal": "pig_iron",
+      "amount": 100
+    },
+    "#c:nuggets/pig_iron": {
+      "metal": "pig_iron",
+      "amount": 10
+    },
+    "modernfoundry:pig_iron_nugget": {
+      "metal": "pig_iron",
+      "amount": 10
+    },
+    "#c:storage_blocks/pig_iron": {
+      "metal": "pig_iron",
+      "amount": 900
+    },
+    "modernfoundry:pig_iron_block": {
+      "metal": "pig_iron",
+      "amount": 900
+    },
+    "#c:plates/pig_iron": {
+      "metal": "pig_iron",
+      "amount": 100
+    },
+    "#c:ingots/queens_slime": {
+      "metal": "queens_slime",
+      "amount": 100
+    },
+    "modernfoundry:queens_slime_ingot": {
+      "metal": "queens_slime",
+      "amount": 100
+    },
+    "modernfoundry:queens_slime_nugget": {
+      "metal": "queens_slime",
+      "amount": 10
+    },
+    "#c:nuggets/queens_slime": {
+      "metal": "queens_slime",
+      "amount": 10
+    },
+    "modernfoundry:queens_slime_block": {
+      "metal": "queens_slime",
+      "amount": 900
+    },
+    "#c:storage_blocks/queens_slime": {
+      "metal": "queens_slime",
+      "amount": 900
+    },
+    "#c:plates/queens_slime": {
+      "metal": "queens_slime",
+      "amount": 100
+    },
+    "#c:ingots/rose_gold": {
+      "metal": "rose_gold",
+      "amount": 100
+    },
+    "modernfoundry:rose_gold_ingot": {
+      "metal": "rose_gold",
+      "amount": 100
+    },
+    "modernfoundry:rose_gold_nugget": {
+      "metal": "rose_gold",
+      "amount": 10
+    },
+    "#c:nuggets/rose_gold": {
+      "metal": "rose_gold",
+      "amount": 10
+    },
+    "modernfoundry:rose_gold_block": {
+      "metal": "rose_gold",
+      "amount": 900
+    },
+    "#c:storage_blocks/rose_gold": {
+      "metal": "rose_gold",
+      "amount": 900
+    },
+    "#c:plates/rose_gold": {
+      "metal": "rose_gold",
+      "amount": 100
+    },
+    "#c:ingots/slimesteel": {
+      "metal": "slimesteel",
+      "amount": 100
+    },
+    "modernfoundry:slimesteel_ingot": {
+      "metal": "slimesteel",
+      "amount": 100
+    },
+    "modernfoundry:slimesteel_nugget": {
+      "metal": "slimesteel",
+      "amount": 10
+    },
+    "#c:nuggets/slimesteel": {
+      "metal": "slimesteel",
+      "amount": 10
+    },
+    "#c:storage_blocks/slimesteel": {
+      "metal": "slimesteel",
+      "amount": 900
+    },
+    "modernfoundry:slimesteel_block": {
+      "metal": "slimesteel",
+      "amount": 900
+    },
+    "#c:plates/slimesteel": {
+      "metal": "slimesteel",
+      "amount": 100
+    },
+    "#c:ingots/soulsteel": {
+      "metal": "soulsteel",
+      "amount": 100
+    },
+    "modernfoundry:soulsteel_ingot": {
+      "metal": "soulsteel",
+      "amount": 100
+    },
+    "#c:nuggets/soulsteel": {
+      "metal": "soulsteel",
+      "amount": 10
+    },
+    "modernfoundry:soulsteel_nugget": {
+      "metal": "soulsteel",
+      "amount": 10
+    },
+    "modernfoundry:soulsteel_block": {
+      "metal": "soulsteel",
+      "amount": 900
+    },
+    "#c:storage_blocks/soulsteel": {
+      "metal": "soulsteel",
+      "amount": 900
+    },
+    "#c:plates/soulsteel": {
+      "metal": "soulsteel",
+      "amount": 100
+    },
+    "nuclearcraft:baratol_ingot": {
+      "metal": "baratol",
+      "amount": 100
+    },
+    "#c:ingots/baratol": {
+      "metal": "baratol",
+      "amount": 100
+    },
+    "#c:nuggets/baratol": {
+      "metal": "baratol",
+      "amount": 10
+    },
+    "#c:storage_blocks/baratol": {
+      "metal": "baratol",
+      "amount": 900
+    },
+    "#c:plates/baratol": {
+      "metal": "baratol",
+      "amount": 100
+    },
+    "#c:plates/beryllium": {
+      "metal": "beryllium",
+      "amount": 100
+    },
+    "nuclearcraft:beryllium_plate": {
+      "metal": "beryllium",
+      "amount": 100
+    },
+    "nuclearcraft:boron_plate": {
+      "metal": "boron",
+      "amount": 100
+    },
+    "#c:plates/boron": {
+      "metal": "boron",
+      "amount": 100
+    },
+    "#c:ingots/calcium": {
+      "metal": "calcium",
+      "amount": 100
+    },
+    "nuclearcraft:calcium_ingot": {
+      "metal": "calcium",
+      "amount": 100
+    },
+    "#c:nuggets/calcium": {
+      "metal": "calcium",
+      "amount": 10
+    },
+    "#c:storage_blocks/calcium": {
+      "metal": "calcium",
+      "amount": 900
+    },
+    "#c:plates/calcium": {
+      "metal": "calcium",
+      "amount": 100
+    },
+    "nuclearcraft:carbon_manganese_ingot": {
+      "metal": "carbon_manganese",
+      "amount": 100
+    },
+    "#c:ingots/carbon_manganese": {
+      "metal": "carbon_manganese",
+      "amount": 100
+    },
+    "#c:nuggets/carbon_manganese": {
+      "metal": "carbon_manganese",
+      "amount": 10
+    },
+    "#c:storage_blocks/carbon_manganese": {
+      "metal": "carbon_manganese",
+      "amount": 900
+    },
+    "#c:plates/carbon_manganese": {
+      "metal": "carbon_manganese",
+      "amount": 100
+    },
+    "#c:plates/chromium": {
+      "metal": "chromium",
+      "amount": 100
+    },
+    "#c:ingots/extreme": {
+      "metal": "extreme",
+      "amount": 100
+    },
+    "nuclearcraft:extreme_ingot": {
+      "metal": "extreme",
+      "amount": 100
+    },
+    "#c:nuggets/extreme": {
+      "metal": "extreme",
+      "amount": 10
+    },
+    "#c:storage_blocks/extreme": {
+      "metal": "extreme",
+      "amount": 900
+    },
+    "nuclearcraft:extreme_plate": {
+      "metal": "extreme",
+      "amount": 100
+    },
+    "#c:plates/extreme": {
+      "metal": "extreme",
+      "amount": 100
+    },
+    "#c:ingots/ferroboron": {
+      "metal": "ferroboron",
+      "amount": 100
+    },
+    "nuclearcraft:ferroboron_ingot": {
+      "metal": "ferroboron",
+      "amount": 100
+    },
+    "#c:nuggets/ferroboron": {
+      "metal": "ferroboron",
+      "amount": 10
+    },
+    "#c:storage_blocks/ferroboron": {
+      "metal": "ferroboron",
+      "amount": 900
+    },
+    "#c:plates/ferroboron": {
+      "metal": "ferroboron",
+      "amount": 100
+    },
+    "nuclearcraft:ferroboron_plate": {
+      "metal": "ferroboron",
+      "amount": 100
+    },
+    "#c:ingots/hafnium": {
+      "metal": "hafnium",
+      "amount": 100
+    },
+    "nuclearcraft:hafnium_ingot": {
+      "metal": "hafnium",
+      "amount": 100
+    },
+    "#c:nuggets/hafnium": {
+      "metal": "hafnium",
+      "amount": 10
+    },
+    "#c:storage_blocks/hafnium": {
+      "metal": "hafnium",
+      "amount": 900
+    },
+    "#c:plates/hafnium": {
+      "metal": "hafnium",
+      "amount": 100
+    },
+    "nuclearcraft:hard_carbon_ingot": {
+      "metal": "hard_carbon",
+      "amount": 100
+    },
+    "#c:ingots/hard_carbon": {
+      "metal": "hard_carbon",
+      "amount": 100
+    },
+    "#c:nuggets/hard_carbon": {
+      "metal": "hard_carbon",
+      "amount": 10
+    },
+    "#c:storage_blocks/hard_carbon": {
+      "metal": "hard_carbon",
+      "amount": 900
+    },
+    "nuclearcraft:hard_carbon_plate": {
+      "metal": "hard_carbon",
+      "amount": 100
+    },
+    "#c:plates/hard_carbon": {
+      "metal": "hard_carbon",
+      "amount": 100
+    },
+    "#c:ingots/hsla_steel": {
+      "metal": "hsla_steel",
+      "amount": 100
+    },
+    "nuclearcraft:hsla_steel_ingot": {
+      "metal": "hsla_steel",
+      "amount": 100
+    },
+    "#c:nuggets/hsla_steel": {
+      "metal": "hsla_steel",
+      "amount": 10
+    },
+    "#c:storage_blocks/hsla_steel": {
+      "metal": "hsla_steel",
+      "amount": 900
+    },
+    "#c:plates/hsla_steel": {
+      "metal": "hsla_steel",
+      "amount": 100
+    },
+    "nuclearcraft:hsla_steel_plate": {
+      "metal": "hsla_steel",
+      "amount": 100
+    },
+    "#c:plates/iridium": {
+      "metal": "iridium",
+      "amount": 100
+    },
+    "nuclearcraft:lead_platinum_ingot": {
+      "metal": "lead_platinum",
+      "amount": 100
+    },
+    "#c:ingots/lead_platinum": {
+      "metal": "lead_platinum",
+      "amount": 100
+    },
+    "#c:nuggets/lead_platinum": {
+      "metal": "lead_platinum",
+      "amount": 10
+    },
+    "#c:storage_blocks/lead_platinum": {
+      "metal": "lead_platinum",
+      "amount": 900
+    },
+    "#c:plates/lead_platinum": {
+      "metal": "lead_platinum",
+      "amount": 100
+    },
+    "nuclearcraft:lithium_plate": {
+      "metal": "lithium",
+      "amount": 100
+    },
+    "#c:plates/lithium": {
+      "metal": "lithium",
+      "amount": 100
+    },
+    "#c:ingots/lithium_manganese_dioxide": {
+      "metal": "lithium_manganese_dioxide",
+      "amount": 100
+    },
+    "nuclearcraft:lithium_manganese_dioxide_ingot": {
+      "metal": "lithium_manganese_dioxide",
+      "amount": 100
+    },
+    "#c:nuggets/lithium_manganese_dioxide": {
+      "metal": "lithium_manganese_dioxide",
+      "amount": 10
+    },
+    "#c:storage_blocks/lithium_manganese_dioxide": {
+      "metal": "lithium_manganese_dioxide",
+      "amount": 900
+    },
+    "nuclearcraft:lithium_manganese_dioxide_plate": {
+      "metal": "lithium_manganese_dioxide",
+      "amount": 100
+    },
+    "#c:plates/lithium_manganese_dioxide": {
+      "metal": "lithium_manganese_dioxide",
+      "amount": 100
+    },
+    "nuclearcraft:magnesium_plate": {
+      "metal": "magnesium",
+      "amount": 100
+    },
+    "#c:plates/magnesium": {
+      "metal": "magnesium",
+      "amount": 100
+    },
+    "nuclearcraft:magnesium_diboride_ingot": {
+      "metal": "magnesium_diboride",
+      "amount": 100
+    },
+    "#c:ingots/magnesium_diboride": {
+      "metal": "magnesium_diboride",
+      "amount": 100
+    },
+    "#c:nuggets/magnesium_diboride": {
+      "metal": "magnesium_diboride",
+      "amount": 10
+    },
+    "#c:storage_blocks/magnesium_diboride": {
+      "metal": "magnesium_diboride",
+      "amount": 900
+    },
+    "#c:plates/magnesium_diboride": {
+      "metal": "magnesium_diboride",
+      "amount": 100
+    },
+    "nuclearcraft:manganese_ingot": {
+      "metal": "manganese",
+      "amount": 100
+    },
+    "#c:ingots/manganese": {
+      "metal": "manganese",
+      "amount": 100
+    },
+    "#c:nuggets/manganese": {
+      "metal": "manganese",
+      "amount": 10
+    },
+    "#c:storage_blocks/manganese": {
+      "metal": "manganese",
+      "amount": 900
+    },
+    "nuclearcraft:manganese_plate": {
+      "metal": "manganese",
+      "amount": 100
+    },
+    "#c:plates/manganese": {
+      "metal": "manganese",
+      "amount": 100
+    },
+    "#c:ingots/manganese_dioxide": {
+      "metal": "manganese_dioxide",
+      "amount": 100
+    },
+    "nuclearcraft:manganese_dioxide_ingot": {
+      "metal": "manganese_dioxide",
+      "amount": 100
+    },
+    "#c:nuggets/manganese_dioxide": {
+      "metal": "manganese_dioxide",
+      "amount": 10
+    },
+    "#c:storage_blocks/manganese_dioxide": {
+      "metal": "manganese_dioxide",
+      "amount": 900
+    },
+    "#c:plates/manganese_dioxide": {
+      "metal": "manganese_dioxide",
+      "amount": 100
+    },
+    "#c:ingots/manganese_oxide": {
+      "metal": "manganese_oxide",
+      "amount": 100
+    },
+    "nuclearcraft:manganese_oxide_ingot": {
+      "metal": "manganese_oxide",
+      "amount": 100
+    },
+    "#c:nuggets/manganese_oxide": {
+      "metal": "manganese_oxide",
+      "amount": 10
+    },
+    "#c:storage_blocks/manganese_oxide": {
+      "metal": "manganese_oxide",
+      "amount": 900
+    },
+    "#c:plates/manganese_oxide": {
+      "metal": "manganese_oxide",
+      "amount": 100
+    },
+    "#c:ingots/neutronium": {
+      "metal": "neutronium",
+      "amount": 100
+    },
+    "nuclearcraft:neutronium_ingot": {
+      "metal": "neutronium",
+      "amount": 100
+    },
+    "#c:nuggets/neutronium": {
+      "metal": "neutronium",
+      "amount": 10
+    },
+    "#c:storage_blocks/neutronium": {
+      "metal": "neutronium",
+      "amount": 900
+    },
+    "#c:plates/neutronium": {
+      "metal": "neutronium",
+      "amount": 100
+    },
+    "nuclearcraft:nichrome_ingot": {
+      "metal": "nichrome",
+      "amount": 100
+    },
+    "#c:ingots/nichrome": {
+      "metal": "nichrome",
+      "amount": 100
+    },
+    "#c:nuggets/nichrome": {
+      "metal": "nichrome",
+      "amount": 10
+    },
+    "#c:storage_blocks/nichrome": {
+      "metal": "nichrome",
+      "amount": 900
+    },
+    "#c:plates/nichrome": {
+      "metal": "nichrome",
+      "amount": 100
+    },
+    "nuclearcraft:niobium_ingot": {
+      "metal": "niobium",
+      "amount": 100
+    },
+    "#c:ingots/niobium": {
+      "metal": "niobium",
+      "amount": 100
+    },
+    "#c:nuggets/niobium": {
+      "metal": "niobium",
+      "amount": 10
+    },
+    "#c:storage_blocks/niobium": {
+      "metal": "niobium",
+      "amount": 900
+    },
+    "#c:plates/niobium": {
+      "metal": "niobium",
+      "amount": 100
+    },
+    "#c:ingots/niobium_tin": {
+      "metal": "niobium_tin",
+      "amount": 100
+    },
+    "nuclearcraft:niobium_tin_ingot": {
+      "metal": "niobium_tin",
+      "amount": 100
+    },
+    "#c:nuggets/niobium_tin": {
+      "metal": "niobium_tin",
+      "amount": 10
+    },
+    "#c:storage_blocks/niobium_tin": {
+      "metal": "niobium_tin",
+      "amount": 900
+    },
+    "#c:plates/niobium_tin": {
+      "metal": "niobium_tin",
+      "amount": 100
+    },
+    "nuclearcraft:niobium_titanium_ingot": {
+      "metal": "niobium_titanium",
+      "amount": 100
+    },
+    "#c:ingots/niobium_titanium": {
+      "metal": "niobium_titanium",
+      "amount": 100
+    },
+    "#c:nuggets/niobium_titanium": {
+      "metal": "niobium_titanium",
+      "amount": 10
+    },
+    "#c:storage_blocks/niobium_titanium": {
+      "metal": "niobium_titanium",
+      "amount": 900
+    },
+    "#c:plates/niobium_titanium": {
+      "metal": "niobium_titanium",
+      "amount": 100
+    },
+    "nuclearcraft:osmiridium_ingot": {
+      "metal": "osmiridium",
+      "amount": 100
+    },
+    "#c:ingots/osmiridium": {
+      "metal": "osmiridium",
+      "amount": 100
+    },
+    "#c:nuggets/osmiridium": {
+      "metal": "osmiridium",
+      "amount": 10
+    },
+    "#c:storage_blocks/osmiridium": {
+      "metal": "osmiridium",
+      "amount": 900
+    },
+    "#c:plates/osmiridium": {
+      "metal": "osmiridium",
+      "amount": 100
+    },
+    "nuclearcraft:palladium_ingot": {
+      "metal": "palladium",
+      "amount": 100
+    },
+    "#c:ingots/palladium": {
+      "metal": "palladium",
+      "amount": 100
+    },
+    "#c:nuggets/palladium": {
+      "metal": "palladium",
+      "amount": 10
+    },
+    "#c:storage_blocks/palladium": {
+      "metal": "palladium",
+      "amount": 900
+    },
+    "nuclearcraft:palladium_plate": {
+      "metal": "palladium",
+      "amount": 100
+    },
+    "#c:plates/palladium": {
+      "metal": "palladium",
+      "amount": 100
+    },
+    "nuclearcraft:platinum_plate": {
+      "metal": "platinum",
+      "amount": 100
+    },
+    "#c:plates/platinum": {
+      "metal": "platinum",
+      "amount": 100
+    },
+    "#c:ingots/potassium": {
+      "metal": "potassium",
+      "amount": 100
+    },
+    "nuclearcraft:potassium_ingot": {
+      "metal": "potassium",
+      "amount": 100
+    },
+    "#c:nuggets/potassium": {
+      "metal": "potassium",
+      "amount": 10
+    },
+    "#c:storage_blocks/potassium": {
+      "metal": "potassium",
+      "amount": 900
+    },
+    "#c:plates/potassium": {
+      "metal": "potassium",
+      "amount": 100
+    },
+    "nuclearcraft:pyrolitic_carbon_ingot": {
+      "metal": "pyrolitic_carbon",
+      "amount": 100
+    },
+    "#c:ingots/pyrolitic_carbon": {
+      "metal": "pyrolitic_carbon",
+      "amount": 100
+    },
+    "#c:nuggets/pyrolitic_carbon": {
+      "metal": "pyrolitic_carbon",
+      "amount": 10
+    },
+    "#c:storage_blocks/pyrolitic_carbon": {
+      "metal": "pyrolitic_carbon",
+      "amount": 900
+    },
+    "#c:plates/pyrolitic_carbon": {
+      "metal": "pyrolitic_carbon",
+      "amount": 100
+    },
+    "nuclearcraft:shibuichi_ingot": {
+      "metal": "shibuichi",
+      "amount": 100
+    },
+    "#c:ingots/shibuichi": {
+      "metal": "shibuichi",
+      "amount": 100
+    },
+    "#c:nuggets/shibuichi": {
+      "metal": "shibuichi",
+      "amount": 10
+    },
+    "#c:storage_blocks/shibuichi": {
+      "metal": "shibuichi",
+      "amount": 900
+    },
+    "#c:plates/shibuichi": {
+      "metal": "shibuichi",
+      "amount": 100
+    },
+    "nuclearcraft:sic_sic_cmc_ingot": {
+      "metal": "sic_sic_cmc",
+      "amount": 100
+    },
+    "#c:ingots/sic_sic_cmc": {
+      "metal": "sic_sic_cmc",
+      "amount": 100
+    },
+    "#c:nuggets/sic_sic_cmc": {
+      "metal": "sic_sic_cmc",
+      "amount": 10
+    },
+    "#c:storage_blocks/sic_sic_cmc": {
+      "metal": "sic_sic_cmc",
+      "amount": 900
+    },
+    "#c:plates/sic_sic_cmc": {
+      "metal": "sic_sic_cmc",
+      "amount": 100
+    },
+    "nuclearcraft:sic_sic_cmc_plate": {
+      "metal": "sic_sic_cmc",
+      "amount": 100
+    },
+    "#c:ingots/silicon_carbide": {
+      "metal": "silicon_carbide",
+      "amount": 100
+    },
+    "nuclearcraft:silicon_carbide_ingot": {
+      "metal": "silicon_carbide",
+      "amount": 100
+    },
+    "#c:nuggets/silicon_carbide": {
+      "metal": "silicon_carbide",
+      "amount": 10
+    },
+    "#c:storage_blocks/silicon_carbide": {
+      "metal": "silicon_carbide",
+      "amount": 900
+    },
+    "#c:plates/silicon_carbide": {
+      "metal": "silicon_carbide",
+      "amount": 100
+    },
+    "#c:ingots/sodium": {
+      "metal": "sodium",
+      "amount": 100
+    },
+    "nuclearcraft:sodium_ingot": {
+      "metal": "sodium",
+      "amount": 100
+    },
+    "#c:nuggets/sodium": {
+      "metal": "sodium",
+      "amount": 10
+    },
+    "#c:storage_blocks/sodium": {
+      "metal": "sodium",
+      "amount": 900
+    },
+    "#c:plates/sodium": {
+      "metal": "sodium",
+      "amount": 100
+    },
+    "#c:ingots/stainless_steel": {
+      "metal": "stainless_steel",
+      "amount": 100
+    },
+    "nuclearcraft:stainless_steel_ingot": {
+      "metal": "stainless_steel",
+      "amount": 100
+    },
+    "#c:nuggets/stainless_steel": {
+      "metal": "stainless_steel",
+      "amount": 10
+    },
+    "#c:storage_blocks/stainless_steel": {
+      "metal": "stainless_steel",
+      "amount": 900
+    },
+    "#c:plates/stainless_steel": {
+      "metal": "stainless_steel",
+      "amount": 100
+    },
+    "nuclearcraft:strontium_ingot": {
+      "metal": "strontium",
+      "amount": 100
+    },
+    "#c:ingots/strontium": {
+      "metal": "strontium",
+      "amount": 100
+    },
+    "#c:nuggets/strontium": {
+      "metal": "strontium",
+      "amount": 10
+    },
+    "#c:storage_blocks/strontium": {
+      "metal": "strontium",
+      "amount": 900
+    },
+    "#c:plates/strontium": {
+      "metal": "strontium",
+      "amount": 100
+    },
+    "#c:ingots/super_alloy": {
+      "metal": "super_alloy",
+      "amount": 100
+    },
+    "nuclearcraft:super_alloy_ingot": {
+      "metal": "super_alloy",
+      "amount": 100
+    },
+    "#c:nuggets/super_alloy": {
+      "metal": "super_alloy",
+      "amount": 10
+    },
+    "#c:storage_blocks/super_alloy": {
+      "metal": "super_alloy",
+      "amount": 900
+    },
+    "#c:plates/super_alloy": {
+      "metal": "super_alloy",
+      "amount": 100
+    },
+    "nuclearcraft:thermoconducting_ingot": {
+      "metal": "thermoconducting",
+      "amount": 100
+    },
+    "#c:ingots/thermoconducting": {
+      "metal": "thermoconducting",
+      "amount": 100
+    },
+    "#c:nuggets/thermoconducting": {
+      "metal": "thermoconducting",
+      "amount": 10
+    },
+    "#c:storage_blocks/thermoconducting": {
+      "metal": "thermoconducting",
+      "amount": 900
+    },
+    "nuclearcraft:thermoconducting_plate": {
+      "metal": "thermoconducting",
+      "amount": 100
+    },
+    "#c:plates/thermoconducting": {
+      "metal": "thermoconducting",
+      "amount": 100
+    },
+    "#c:ingots/thorium": {
+      "metal": "thorium",
+      "amount": 100
+    },
+    "nuclearcraft:thorium_ingot": {
+      "metal": "thorium",
+      "amount": 100
+    },
+    "#c:nuggets/thorium": {
+      "metal": "thorium",
+      "amount": 10
+    },
+    "nuclearcraft:thorium_nugget": {
+      "metal": "thorium",
+      "amount": 10
+    },
+    "#c:storage_blocks/thorium": {
+      "metal": "thorium",
+      "amount": 900
+    },
+    "nuclearcraft:thorium_block": {
+      "metal": "thorium",
+      "amount": 900
+    },
+    "#c:plates/thorium": {
+      "metal": "thorium",
+      "amount": 100
+    },
+    "nuclearcraft:thorium_plate": {
+      "metal": "thorium",
+      "amount": 100
+    },
+    "#c:ingots/tin_silver": {
+      "metal": "tin_silver",
+      "amount": 100
+    },
+    "nuclearcraft:tin_silver_ingot": {
+      "metal": "tin_silver",
+      "amount": 100
+    },
+    "#c:nuggets/tin_silver": {
+      "metal": "tin_silver",
+      "amount": 10
+    },
+    "#c:storage_blocks/tin_silver": {
+      "metal": "tin_silver",
+      "amount": 900
+    },
+    "#c:plates/tin_silver": {
+      "metal": "tin_silver",
+      "amount": 100
+    },
+    "#c:ingots/tough_alloy": {
+      "metal": "tough_alloy",
+      "amount": 100
+    },
+    "nuclearcraft:tough_alloy_ingot": {
+      "metal": "tough_alloy",
+      "amount": 100
+    },
+    "#c:nuggets/tough_alloy": {
+      "metal": "tough_alloy",
+      "amount": 10
+    },
+    "#c:storage_blocks/tough_alloy": {
+      "metal": "tough_alloy",
+      "amount": 900
+    },
+    "#c:plates/tough_alloy": {
+      "metal": "tough_alloy",
+      "amount": 100
+    },
+    "nuclearcraft:tough_alloy_plate": {
+      "metal": "tough_alloy",
+      "amount": 100
+    },
+    "#c:ingots/tungsten_carbide": {
+      "metal": "tungsten_carbide",
+      "amount": 100
+    },
+    "nuclearcraft:tungsten_carbide_ingot": {
+      "metal": "tungsten_carbide",
+      "amount": 100
+    },
+    "#c:nuggets/tungsten_carbide": {
+      "metal": "tungsten_carbide",
+      "amount": 10
+    },
+    "#c:storage_blocks/tungsten_carbide": {
+      "metal": "tungsten_carbide",
+      "amount": 900
+    },
+    "#c:plates/tungsten_carbide": {
+      "metal": "tungsten_carbide",
+      "amount": 100
+    },
+    "#c:ingots/yttrium": {
+      "metal": "yttrium",
+      "amount": 100
+    },
+    "nuclearcraft:yttrium_ingot": {
+      "metal": "yttrium",
+      "amount": 100
+    },
+    "#c:nuggets/yttrium": {
+      "metal": "yttrium",
+      "amount": 10
+    },
+    "#c:storage_blocks/yttrium": {
+      "metal": "yttrium",
+      "amount": 900
+    },
+    "#c:plates/yttrium": {
+      "metal": "yttrium",
+      "amount": 100
+    },
+    "#c:ingots/zircaloy": {
+      "metal": "zircaloy",
+      "amount": 100
+    },
+    "nuclearcraft:zircaloy_ingot": {
+      "metal": "zircaloy",
+      "amount": 100
+    },
+    "#c:nuggets/zircaloy": {
+      "metal": "zircaloy",
+      "amount": 10
+    },
+    "#c:storage_blocks/zircaloy": {
+      "metal": "zircaloy",
+      "amount": 900
+    },
+    "#c:plates/zircaloy": {
+      "metal": "zircaloy",
+      "amount": 100
+    },
+    "nuclearcraft:zirconium_ingot": {
+      "metal": "zirconium",
+      "amount": 100
+    },
+    "#c:ingots/zirconium": {
+      "metal": "zirconium",
+      "amount": 100
+    },
+    "nuclearcraft:zirconium_nugget": {
+      "metal": "zirconium",
+      "amount": 10
+    },
+    "#c:nuggets/zirconium": {
+      "metal": "zirconium",
+      "amount": 10
+    },
+    "nuclearcraft:zirconium_block": {
+      "metal": "zirconium",
+      "amount": 900
+    },
+    "#c:storage_blocks/zirconium": {
+      "metal": "zirconium",
+      "amount": 900
+    },
+    "nuclearcraft:zirconium_plate": {
+      "metal": "zirconium",
+      "amount": 100
+    },
+    "#c:plates/zirconium": {
+      "metal": "zirconium",
+      "amount": 100
+    },
+    "nuclearcraft:zirconium_molybdenum_ingot": {
+      "metal": "zirconium_molybdenum",
+      "amount": 100
+    },
+    "#c:ingots/zirconium_molybdenum": {
+      "metal": "zirconium_molybdenum",
+      "amount": 100
+    },
+    "#c:nuggets/zirconium_molybdenum": {
+      "metal": "zirconium_molybdenum",
+      "amount": 10
+    },
+    "#c:storage_blocks/zirconium_molybdenum": {
+      "metal": "zirconium_molybdenum",
+      "amount": 900
+    },
+    "#c:plates/zirconium_molybdenum": {
+      "metal": "zirconium_molybdenum",
+      "amount": 100
+    },
+    "stellaris:heavy_metal_ingot": {
+      "metal": "heavy_metal",
+      "amount": 100
+    },
+    "#c:ingots/heavy_metal": {
+      "metal": "heavy_metal",
+      "amount": 100
+    },
+    "stellaris:heavy_metal_nugget": {
+      "metal": "heavy_metal",
+      "amount": 10
+    },
+    "#c:nuggets/heavy_metal": {
+      "metal": "heavy_metal",
+      "amount": 10
+    },
+    "stellaris:heavy_metal_plate": {
+      "metal": "heavy_metal",
+      "amount": 900
+    },
+    "#c:storage_blocks/heavy_metal": {
+      "metal": "heavy_metal",
+      "amount": 900
+    },
+    "#c:plates/heavy_metal": {
+      "metal": "heavy_metal",
+      "amount": 100
+    },
+    "tfmg:plastic_sheet": {
+      "metal": "plastic",
+      "amount": 100
+    },
+    "#c:ingots/plastic": {
+      "metal": "plastic",
+      "amount": 100
+    },
+    "#c:nuggets/plastic": {
+      "metal": "plastic",
+      "amount": 10
+    },
+    "tfmg:plastic_block": {
+      "metal": "plastic",
+      "amount": 900
+    },
+    "#c:storage_blocks/plastic": {
+      "metal": "plastic",
+      "amount": 900
+    },
+    "#c:plates/plastic": {
+      "metal": "plastic",
+      "amount": 100
+    },
+    "immersiveengineering:plate_duroplast": {
+      "metal": "plastic",
+      "amount": 100
+    },
+    "#c:ingots/rubber": {
+      "metal": "rubber",
+      "amount": 100
+    },
+    "tfmg:rubber_sheet": {
+      "metal": "rubber",
+      "amount": 100
+    },
+    "#c:nuggets/rubber": {
+      "metal": "rubber",
+      "amount": 10
+    },
+    "#c:storage_blocks/rubber": {
+      "metal": "rubber",
+      "amount": 900
+    },
+    "#c:plates/rubber": {
+      "metal": "rubber",
+      "amount": 100
+    },
+    "#c:ingots/silicon": {
+      "metal": "silicon",
+      "amount": 100
+    },
+    "tfmg:silicon_ingot": {
+      "metal": "silicon",
+      "amount": 100
+    },
+    "#c:nuggets/silicon": {
+      "metal": "silicon",
+      "amount": 10
+    },
+    "#c:storage_blocks/silicon": {
+      "metal": "silicon",
+      "amount": 900
+    },
+    "extendedae:silicon_block": {
+      "metal": "silicon",
+      "amount": 900
+    },
+    "#c:plates/silicon": {
+      "metal": "silicon",
+      "amount": 100
+    }
+  },
+  "fluidMetals": {
+    "modernfoundry:molten_iron": "iron",
+    "#c:molten_iron": "iron",
+    "#modernfoundry:molten_iron": "iron",
+    "nuclearcraft:molten_iron": "iron",
+    "nuclearcraft:flowing_molten_iron": "iron",
+    "modernfoundry:flowing_molten_iron": "iron",
+    "#nuclearcraft:molten_iron": "iron",
+    "createmetallurgy:molten_iron": "iron",
+    "modernfoundry:molten_copper": "copper",
+    "#c:molten_copper": "copper",
+    "#modernfoundry:molten_copper": "copper",
+    "nuclearcraft:molten_copper": "copper",
+    "nuclearcraft:flowing_molten_copper": "copper",
+    "modernfoundry:flowing_molten_copper": "copper",
+    "#nuclearcraft:molten_copper": "copper",
+    "createmetallurgy:molten_copper": "copper",
+    "modernfoundry:molten_gold": "gold",
+    "#c:molten_gold": "gold",
+    "#modernfoundry:molten_gold": "gold",
+    "nuclearcraft:molten_gold": "gold",
+    "nuclearcraft:flowing_molten_gold": "gold",
+    "modernfoundry:flowing_molten_gold": "gold",
+    "#nuclearcraft:molten_gold": "gold",
+    "createmetallurgy:molten_gold": "gold",
+    "modernfoundry:molten_zinc": "zinc",
+    "#c:molten_zinc": "zinc",
+    "#modernfoundry:molten_zinc": "zinc",
+    "nuclearcraft:molten_zinc": "zinc",
+    "nuclearcraft:flowing_molten_zinc": "zinc",
+    "modernfoundry:flowing_molten_zinc": "zinc",
+    "#nuclearcraft:molten_zinc": "zinc",
+    "createmetallurgy:molten_zinc": "zinc",
+    "modernfoundry:molten_tin": "tin",
+    "#c:molten_tin": "tin",
+    "#modernfoundry:molten_tin": "tin",
+    "nuclearcraft:molten_tin": "tin",
+    "nuclearcraft:flowing_molten_tin": "tin",
+    "modernfoundry:flowing_molten_tin": "tin",
+    "#nuclearcraft:molten_tin": "tin",
+    "createmetallurgy:molten_tin": "tin",
+    "modernfoundry:molten_lead": "lead",
+    "#c:molten_lead": "lead",
+    "#modernfoundry:molten_lead": "lead",
+    "nuclearcraft:molten_lead": "lead",
+    "nuclearcraft:flowing_molten_lead": "lead",
+    "modernfoundry:flowing_molten_lead": "lead",
+    "#nuclearcraft:molten_lead": "lead",
+    "createmetallurgy:molten_lead": "lead",
+    "modernfoundry:molten_nickel": "nickel",
+    "#c:molten_nickel": "nickel",
+    "#modernfoundry:molten_nickel": "nickel",
+    "modernfoundry:flowing_molten_nickel": "nickel",
+    "createmetallurgy:molten_nickel": "nickel",
+    "modernfoundry:molten_aluminum": "aluminum",
+    "#c:molten_aluminum": "aluminum",
+    "#modernfoundry:molten_aluminum": "aluminum",
+    "nuclearcraft:molten_aluminum": "aluminum",
+    "nuclearcraft:flowing_molten_aluminum": "aluminum",
+    "modernfoundry:flowing_molten_aluminum": "aluminum",
+    "#nuclearcraft:molten_aluminum": "aluminum",
+    "createmetallurgy:molten_aluminum": "aluminum",
+    "nuclearcraft:molten_lithium": "lithium",
+    "#c:molten_lithium": "lithium",
+    "nuclearcraft:flowing_molten_lithium": "lithium",
+    "#nuclearcraft:molten_lithium": "lithium",
+    "createmetallurgy:molten_lithium": "lithium",
+    "modernfoundry:molten_osmium": "osmium",
+    "#c:molten_osmium": "osmium",
+    "#modernfoundry:molten_osmium": "osmium",
+    "modernfoundry:flowing_molten_osmium": "osmium",
+    "createmetallurgy:molten_osmium": "osmium",
+    "modernfoundry:molten_silver": "silver",
+    "#c:molten_silver": "silver",
+    "#modernfoundry:molten_silver": "silver",
+    "nuclearcraft:molten_silver": "silver",
+    "nuclearcraft:flowing_molten_silver": "silver",
+    "modernfoundry:flowing_molten_silver": "silver",
+    "#nuclearcraft:molten_silver": "silver",
+    "createmetallurgy:molten_silver": "silver",
+    "nuclearcraft:molten_magnesium": "magnesium",
+    "#c:molten_magnesium": "magnesium",
+    "nuclearcraft:flowing_molten_magnesium": "magnesium",
+    "#nuclearcraft:molten_magnesium": "magnesium",
+    "modernfoundry:molten_cobalt": "cobalt",
+    "#c:molten_cobalt": "cobalt",
+    "#modernfoundry:molten_cobalt": "cobalt",
+    "nuclearcraft:molten_cobalt": "cobalt",
+    "nuclearcraft:flowing_molten_cobalt": "cobalt",
+    "modernfoundry:flowing_molten_cobalt": "cobalt",
+    "#nuclearcraft:molten_cobalt": "cobalt",
+    "modernfoundry:molten_chromium": "chromium",
+    "#c:molten_chromium": "chromium",
+    "#modernfoundry:molten_chromium": "chromium",
+    "modernfoundry:flowing_molten_chromium": "chromium",
+    "industrial_colonies:molten_titanium": "titanium",
+    "modernfoundry:molten_tungsten": "tungsten",
+    "#c:molten_tungsten": "tungsten",
+    "#modernfoundry:molten_tungsten": "tungsten",
+    "modernfoundry:flowing_molten_tungsten": "tungsten",
+    "createmetallurgy:molten_tungsten": "tungsten",
+    "nuclearcraft:molten_beryllium": "beryllium",
+    "#c:molten_beryllium": "beryllium",
+    "nuclearcraft:flowing_molten_beryllium": "beryllium",
+    "#nuclearcraft:molten_beryllium": "beryllium",
+    "nuclearcraft:molten_boron": "boron",
+    "#c:molten_boron": "boron",
+    "nuclearcraft:flowing_molten_boron": "boron",
+    "#nuclearcraft:molten_boron": "boron",
+    "modernfoundry:molten_platinum": "platinum",
+    "#c:molten_platinum": "platinum",
+    "#modernfoundry:molten_platinum": "platinum",
+    "nuclearcraft:molten_platinum": "platinum",
+    "nuclearcraft:flowing_molten_platinum": "platinum",
+    "modernfoundry:flowing_molten_platinum": "platinum",
+    "#nuclearcraft:molten_platinum": "platinum",
+    "industrial_colonies:molten_iridium": "iridium",
+    "modernfoundry:molten_steel": "steel",
+    "#c:molten_steel": "steel",
+    "createbigcannons:flowing_molten_steel": "steel",
+    "createbigcannons:molten_steel": "steel",
+    "#modernfoundry:molten_steel": "steel",
+    "nuclearcraft:molten_steel": "steel",
+    "nuclearcraft:flowing_molten_steel": "steel",
+    "tfmg:flowing_molten_steel": "steel",
+    "tfmg:molten_steel": "steel",
+    "modernfoundry:flowing_molten_steel": "steel",
+    "#nuclearcraft:molten_steel": "steel",
+    "createmetallurgy:molten_steel": "steel",
+    "modernfoundry:molten_brass": "brass",
+    "#c:molten_brass": "brass",
+    "#modernfoundry:molten_brass": "brass",
+    "modernfoundry:flowing_molten_brass": "brass",
+    "createmetallurgy:molten_brass": "brass",
+    "modernfoundry:molten_bronze": "bronze",
+    "#c:molten_bronze": "bronze",
+    "createbigcannons:flowing_molten_bronze": "bronze",
+    "createbigcannons:molten_bronze": "bronze",
+    "#modernfoundry:molten_bronze": "bronze",
+    "nuclearcraft:molten_bronze": "bronze",
+    "nuclearcraft:flowing_molten_bronze": "bronze",
+    "modernfoundry:flowing_molten_bronze": "bronze",
+    "#nuclearcraft:molten_bronze": "bronze",
+    "createmetallurgy:molten_bronze": "bronze",
+    "#c:molten_calorite": "calorite",
+    "#modernfoundry:molten_calorite": "calorite",
+    "#c:molten_desh": "desh",
+    "#modernfoundry:molten_desh": "desh",
+    "#c:molten_ostrum": "ostrum",
+    "#modernfoundry:molten_ostrum": "ostrum",
+    "#c:molten_allthemodium": "allthemodium",
+    "#modernfoundry:molten_allthemodium": "allthemodium",
+    "#c:molten_unobtainium": "unobtainium",
+    "#modernfoundry:molten_unobtainium": "unobtainium",
+    "#c:molten_unobtainium_allthemodium_alloy": "unobtainium_allthemodium_alloy",
+    "#modernfoundry:molten_unobtainium_allthemodium_alloy": "unobtainium_allthemodium_alloy",
+    "#c:molten_unobtainium_vibranium_alloy": "unobtainium_vibranium_alloy",
+    "#modernfoundry:molten_unobtainium_vibranium_alloy": "unobtainium_vibranium_alloy",
+    "#c:molten_vibranium": "vibranium",
+    "#modernfoundry:molten_vibranium": "vibranium",
+    "#c:molten_vibranium_allthemodium_alloy": "vibranium_allthemodium_alloy",
+    "#modernfoundry:molten_vibranium_allthemodium_alloy": "vibranium_allthemodium_alloy",
+    "#c:molten_neptunium": "neptunium",
+    "#modernfoundry:molten_neptunium": "neptunium",
+    "#c:molten_titanium": "titanium",
+    "#modernfoundry:molten_titanium": "titanium",
+    "#c:molten_titanium_alloy": "titanium_alloy",
+    "#modernfoundry:molten_titanium_alloy": "titanium_alloy",
+    "#c:molten_andesite_alloy": "andesite_alloy",
+    "#modernfoundry:molten_andesite_alloy": "andesite_alloy",
+    "nuclearcraft:molten_electrum": "electrum",
+    "#modernfoundry:molten_electrum": "electrum",
+    "#c:molten_electrum": "electrum",
+    "modernfoundry:molten_electrum": "electrum",
+    "modernfoundry:flowing_molten_electrum": "electrum",
+    "nuclearcraft:flowing_molten_electrum": "electrum",
+    "createbigcannons:molten_cast_iron": "cast_iron",
+    "#c:molten_cast_iron": "cast_iron",
+    "createbigcannons:flowing_molten_cast_iron": "cast_iron",
+    "#modernfoundry:molten_cast_iron": "cast_iron",
+    "createbigcannons:flowing_molten_nethersteel": "nethersteel",
+    "createbigcannons:molten_nethersteel": "nethersteel",
+    "#c:molten_nethersteel": "nethersteel",
+    "#modernfoundry:molten_nethersteel": "nethersteel",
+    "#c:molten_obdurium": "obdurium",
+    "#modernfoundry:molten_obdurium": "obdurium",
+    "#c:molten_infused_entro": "infused_entro",
+    "#modernfoundry:molten_infused_entro": "infused_entro",
+    "#c:molten_blutonium": "blutonium",
+    "#modernfoundry:molten_blutonium": "blutonium",
+    "#c:molten_cyanite": "cyanite",
+    "#modernfoundry:molten_cyanite": "cyanite",
+    "#c:molten_graphite": "graphite",
+    "#modernfoundry:molten_graphite": "graphite",
+    "#c:molten_inanite": "inanite",
+    "#modernfoundry:molten_inanite": "inanite",
+    "#c:molten_insanite": "insanite",
+    "#modernfoundry:molten_insanite": "insanite",
+    "#c:molten_ludicrite": "ludicrite",
+    "#modernfoundry:molten_ludicrite": "ludicrite",
+    "#c:molten_magentite": "magentite",
+    "#modernfoundry:molten_magentite": "magentite",
+    "#c:molten_plutonium": "plutonium",
+    "#modernfoundry:molten_plutonium": "plutonium",
+    "#c:molten_ridiculite": "ridiculite",
+    "#modernfoundry:molten_ridiculite": "ridiculite",
+    "modernfoundry:flowing_molten_uranium": "uranium",
+    "#c:molten_uranium": "uranium",
+    "nuclearcraft:molten_uranium": "uranium",
+    "modernfoundry:molten_uranium": "uranium",
+    "nuclearcraft:flowing_molten_uranium": "uranium",
+    "#modernfoundry:molten_uranium": "uranium",
+    "#c:molten_yellorium": "yellorium",
+    "#modernfoundry:molten_yellorium": "yellorium",
+    "#c:molten_industrial_iron": "industrial_iron",
+    "#modernfoundry:molten_industrial_iron": "industrial_iron",
+    "#c:molten_constantan": "constantan",
+    "#modernfoundry:molten_constantan": "constantan",
+    "modernfoundry:molten_constantan": "constantan",
+    "modernfoundry:flowing_molten_constantan": "constantan",
+    "#c:molten_hop_graphite": "hop_graphite",
+    "#modernfoundry:molten_hop_graphite": "hop_graphite",
+    "#c:molten_mithril": "mithril",
+    "#modernfoundry:molten_mithril": "mithril",
+    "#c:molten_pyrium": "pyrium",
+    "#modernfoundry:molten_pyrium": "pyrium",
+    "#c:molten_sky_steel": "sky_steel",
+    "#modernfoundry:molten_sky_steel": "sky_steel",
+    "#c:molten_sky_osmium": "sky_osmium",
+    "#modernfoundry:molten_sky_osmium": "sky_osmium",
+    "#c:molten_sky_bronze": "sky_bronze",
+    "#modernfoundry:molten_sky_bronze": "sky_bronze",
+    "#c:molten_refined_glowstone": "refined_glowstone",
+    "#modernfoundry:molten_refined_glowstone": "refined_glowstone",
+    "modernfoundry:molten_refined_glowstone": "refined_glowstone",
+    "modernfoundry:flowing_molten_refined_glowstone": "refined_glowstone",
+    "#c:molten_refined_obsidian": "refined_obsidian",
+    "#modernfoundry:molten_refined_obsidian": "refined_obsidian",
+    "modernfoundry:molten_refined_obsidian": "refined_obsidian",
+    "modernfoundry:flowing_molten_refined_obsidian": "refined_obsidian",
+    "#modernfoundry:molten_amethyst_bronze": "amethyst_bronze",
+    "modernfoundry:molten_amethyst_bronze": "amethyst_bronze",
+    "modernfoundry:flowing_molten_amethyst_bronze": "amethyst_bronze",
+    "#c:molten_amethyst_bronze": "amethyst_bronze",
+    "#c:molten_cinderslime": "cinderslime",
+    "#modernfoundry:molten_cinderslime": "cinderslime",
+    "modernfoundry:flowing_molten_cinderslime": "cinderslime",
+    "modernfoundry:molten_cinderslime": "cinderslime",
+    "#c:molten_hepatizon": "hepatizon",
+    "modernfoundry:molten_hepatizon": "hepatizon",
+    "modernfoundry:flowing_molten_hepatizon": "hepatizon",
+    "#modernfoundry:molten_hepatizon": "hepatizon",
+    "#c:molten_knightmetal": "knightmetal",
+    "#modernfoundry:molten_knightmetal": "knightmetal",
+    "modernfoundry:flowing_molten_knightmetal": "knightmetal",
+    "modernfoundry:molten_knightmetal": "knightmetal",
+    "#c:molten_knightslime": "knightslime",
+    "#modernfoundry:molten_knightslime": "knightslime",
+    "modernfoundry:molten_knightslime": "knightslime",
+    "modernfoundry:flowing_molten_knightslime": "knightslime",
+    "modernfoundry:flowing_molten_manyullyn": "manyullyn",
+    "#c:molten_manyullyn": "manyullyn",
+    "modernfoundry:molten_manyullyn": "manyullyn",
+    "#modernfoundry:molten_manyullyn": "manyullyn",
+    "#modernfoundry:molten_netherite": "netherite",
+    "modernfoundry:flowing_molten_netherite": "netherite",
+    "modernfoundry:molten_netherite": "netherite",
+    "#c:molten_netherite": "netherite",
+    "#c:molten_netherite_scrap": "netherite_scrap",
+    "#modernfoundry:molten_netherite_scrap": "netherite_scrap",
+    "#c:molten_pig_iron": "pig_iron",
+    "modernfoundry:molten_pig_iron": "pig_iron",
+    "modernfoundry:flowing_molten_pig_iron": "pig_iron",
+    "#modernfoundry:molten_pig_iron": "pig_iron",
+    "#c:molten_queens_slime": "queens_slime",
+    "#modernfoundry:molten_queens_slime": "queens_slime",
+    "modernfoundry:flowing_molten_queens_slime": "queens_slime",
+    "modernfoundry:molten_queens_slime": "queens_slime",
+    "modernfoundry:flowing_molten_rose_gold": "rose_gold",
+    "modernfoundry:molten_rose_gold": "rose_gold",
+    "#modernfoundry:molten_rose_gold": "rose_gold",
+    "#c:molten_rose_gold": "rose_gold",
+    "#c:molten_slimesteel": "slimesteel",
+    "modernfoundry:flowing_molten_slimesteel": "slimesteel",
+    "#modernfoundry:molten_slimesteel": "slimesteel",
+    "modernfoundry:molten_slimesteel": "slimesteel",
+    "#c:molten_soulsteel": "soulsteel",
+    "modernfoundry:molten_soulsteel": "soulsteel",
+    "modernfoundry:flowing_molten_soulsteel": "soulsteel",
+    "#modernfoundry:molten_soulsteel": "soulsteel",
+    "nuclearcraft:flowing_molten_baratol": "baratol",
+    "#c:molten_baratol": "baratol",
+    "nuclearcraft:molten_baratol": "baratol",
+    "#modernfoundry:molten_baratol": "baratol",
+    "#modernfoundry:molten_beryllium": "beryllium",
+    "#modernfoundry:molten_boron": "boron",
+    "#c:molten_calcium": "calcium",
+    "#modernfoundry:molten_calcium": "calcium",
+    "#c:molten_carbon_manganese": "carbon_manganese",
+    "nuclearcraft:flowing_molten_carbon_manganese": "carbon_manganese",
+    "nuclearcraft:molten_carbon_manganese": "carbon_manganese",
+    "#modernfoundry:molten_carbon_manganese": "carbon_manganese",
+    "nuclearcraft:molten_extreme": "extreme",
+    "#c:molten_extreme": "extreme",
+    "nuclearcraft:flowing_molten_extreme": "extreme",
+    "#modernfoundry:molten_extreme": "extreme",
+    "#c:molten_ferroboron": "ferroboron",
+    "nuclearcraft:molten_ferroboron": "ferroboron",
+    "nuclearcraft:flowing_molten_ferroboron": "ferroboron",
+    "#modernfoundry:molten_ferroboron": "ferroboron",
+    "#c:molten_hafnium": "hafnium",
+    "#modernfoundry:molten_hafnium": "hafnium",
+    "nuclearcraft:flowing_molten_hard_carbon": "hard_carbon",
+    "nuclearcraft:molten_hard_carbon": "hard_carbon",
+    "#c:molten_hard_carbon": "hard_carbon",
+    "#modernfoundry:molten_hard_carbon": "hard_carbon",
+    "#c:molten_hsla_steel": "hsla_steel",
+    "nuclearcraft:molten_hsla_steel": "hsla_steel",
+    "nuclearcraft:flowing_molten_hsla_steel": "hsla_steel",
+    "#modernfoundry:molten_hsla_steel": "hsla_steel",
+    "#c:molten_iridium": "iridium",
+    "#modernfoundry:molten_iridium": "iridium",
+    "nuclearcraft:flowing_molten_lead_platinum": "lead_platinum",
+    "nuclearcraft:molten_lead_platinum": "lead_platinum",
+    "#c:molten_lead_platinum": "lead_platinum",
+    "#modernfoundry:molten_lead_platinum": "lead_platinum",
+    "#modernfoundry:molten_lithium": "lithium",
+    "nuclearcraft:flowing_molten_lithium_manganese_dioxide": "lithium_manganese_dioxide",
+    "nuclearcraft:molten_lithium_manganese_dioxide": "lithium_manganese_dioxide",
+    "#c:molten_lithium_manganese_dioxide": "lithium_manganese_dioxide",
+    "#modernfoundry:molten_lithium_manganese_dioxide": "lithium_manganese_dioxide",
+    "#modernfoundry:molten_magnesium": "magnesium",
+    "nuclearcraft:molten_magnesium_diboride": "magnesium_diboride",
+    "nuclearcraft:flowing_molten_magnesium_diboride": "magnesium_diboride",
+    "#c:molten_magnesium_diboride": "magnesium_diboride",
+    "#modernfoundry:molten_magnesium_diboride": "magnesium_diboride",
+    "#c:molten_manganese": "manganese",
+    "nuclearcraft:flowing_molten_manganese": "manganese",
+    "nuclearcraft:molten_manganese": "manganese",
+    "#modernfoundry:molten_manganese": "manganese",
+    "nuclearcraft:flowing_molten_manganese_dioxide": "manganese_dioxide",
+    "#c:molten_manganese_dioxide": "manganese_dioxide",
+    "nuclearcraft:molten_manganese_dioxide": "manganese_dioxide",
+    "#modernfoundry:molten_manganese_dioxide": "manganese_dioxide",
+    "nuclearcraft:molten_manganese_oxide": "manganese_oxide",
+    "nuclearcraft:flowing_molten_manganese_oxide": "manganese_oxide",
+    "#c:molten_manganese_oxide": "manganese_oxide",
+    "#modernfoundry:molten_manganese_oxide": "manganese_oxide",
+    "#c:molten_neutronium": "neutronium",
+    "#modernfoundry:molten_neutronium": "neutronium",
+    "#c:molten_nichrome": "nichrome",
+    "#modernfoundry:molten_nichrome": "nichrome",
+    "#c:molten_niobium": "niobium",
+    "#modernfoundry:molten_niobium": "niobium",
+    "#c:molten_niobium_tin": "niobium_tin",
+    "#modernfoundry:molten_niobium_tin": "niobium_tin",
+    "#c:molten_niobium_titanium": "niobium_titanium",
+    "#modernfoundry:molten_niobium_titanium": "niobium_titanium",
+    "#c:molten_osmiridium": "osmiridium",
+    "#modernfoundry:molten_osmiridium": "osmiridium",
+    "nuclearcraft:molten_palladium": "palladium",
+    "#c:molten_palladium": "palladium",
+    "nuclearcraft:flowing_molten_palladium": "palladium",
+    "#modernfoundry:molten_palladium": "palladium",
+    "#c:molten_potassium": "potassium",
+    "#modernfoundry:molten_potassium": "potassium",
+    "#c:molten_pyrolitic_carbon": "pyrolitic_carbon",
+    "#modernfoundry:molten_pyrolitic_carbon": "pyrolitic_carbon",
+    "nuclearcraft:flowing_molten_shibuichi": "shibuichi",
+    "#c:molten_shibuichi": "shibuichi",
+    "nuclearcraft:molten_shibuichi": "shibuichi",
+    "#modernfoundry:molten_shibuichi": "shibuichi",
+    "#c:molten_sic_sic_cmc": "sic_sic_cmc",
+    "nuclearcraft:flowing_molten_sic_sic_cmc": "sic_sic_cmc",
+    "nuclearcraft:molten_sic_sic_cmc": "sic_sic_cmc",
+    "#modernfoundry:molten_sic_sic_cmc": "sic_sic_cmc",
+    "nuclearcraft:molten_silicon_carbide": "silicon_carbide",
+    "#c:molten_silicon_carbide": "silicon_carbide",
+    "nuclearcraft:flowing_molten_silicon_carbide": "silicon_carbide",
+    "#modernfoundry:molten_silicon_carbide": "silicon_carbide",
+    "#c:molten_sodium": "sodium",
+    "#modernfoundry:molten_sodium": "sodium",
+    "#c:molten_stainless_steel": "stainless_steel",
+    "#modernfoundry:molten_stainless_steel": "stainless_steel",
+    "#c:molten_strontium": "strontium",
+    "#modernfoundry:molten_strontium": "strontium",
+    "#c:molten_super_alloy": "super_alloy",
+    "#modernfoundry:molten_super_alloy": "super_alloy",
+    "nuclearcraft:molten_thermoconducting": "thermoconducting",
+    "nuclearcraft:flowing_molten_thermoconducting": "thermoconducting",
+    "#c:molten_thermoconducting": "thermoconducting",
+    "#modernfoundry:molten_thermoconducting": "thermoconducting",
+    "nuclearcraft:flowing_molten_thorium": "thorium",
+    "#c:molten_thorium": "thorium",
+    "nuclearcraft:molten_thorium": "thorium",
+    "#modernfoundry:molten_thorium": "thorium",
+    "nuclearcraft:molten_tin_silver": "tin_silver",
+    "#c:molten_tin_silver": "tin_silver",
+    "nuclearcraft:flowing_molten_tin_silver": "tin_silver",
+    "#modernfoundry:molten_tin_silver": "tin_silver",
+    "nuclearcraft:flowing_molten_tough_alloy": "tough_alloy",
+    "nuclearcraft:molten_tough_alloy": "tough_alloy",
+    "#c:molten_tough_alloy": "tough_alloy",
+    "#modernfoundry:molten_tough_alloy": "tough_alloy",
+    "#c:molten_tungsten_carbide": "tungsten_carbide",
+    "#modernfoundry:molten_tungsten_carbide": "tungsten_carbide",
+    "#c:molten_yttrium": "yttrium",
+    "#modernfoundry:molten_yttrium": "yttrium",
+    "#c:molten_zircaloy": "zircaloy",
+    "nuclearcraft:flowing_molten_zircaloy": "zircaloy",
+    "nuclearcraft:molten_zircaloy": "zircaloy",
+    "#modernfoundry:molten_zircaloy": "zircaloy",
+    "#c:molten_zirconium": "zirconium",
+    "nuclearcraft:molten_zirconium": "zirconium",
+    "nuclearcraft:flowing_molten_zirconium": "zirconium",
+    "#modernfoundry:molten_zirconium": "zirconium",
+    "nuclearcraft:molten_zirconium_molybdenum": "zirconium_molybdenum",
+    "#c:molten_zirconium_molybdenum": "zirconium_molybdenum",
+    "nuclearcraft:flowing_molten_zirconium_molybdenum": "zirconium_molybdenum",
+    "#modernfoundry:molten_zirconium_molybdenum": "zirconium_molybdenum",
+    "#c:molten_heavy_metal": "heavy_metal",
+    "#modernfoundry:molten_heavy_metal": "heavy_metal",
+    "#c:molten_plastic": "plastic",
+    "#modernfoundry:molten_plastic": "plastic",
+    "#c:molten_rubber": "rubber",
+    "#modernfoundry:molten_rubber": "rubber",
+    "#c:molten_silicon": "silicon",
+    "#modernfoundry:molten_silicon": "silicon",
+    "bigreactors:yellorium": "yellorium",
+    "modernfoundry:flowing_molten_debris": "netherite_scrap",
+    "modernfoundry:molten_debris": "netherite_scrap",
+    "#modernfoundry:molten_debris": "netherite_scrap"
+  }
+}

@@ -1,0 +1,62 @@
+// Layer after the staged geology-smoke.init.gradle. Does not modify production source sets.
+gradle.projectsEvaluated {
+    def p = gradle.rootProject
+    def stage = p.file('isolated-runtime/geology-gametest-20260909-001051-895')
+    def world = new File(stage, 'oil-worlds/oil-native')
+    def report = new File(stage, 'oil-native-report.json')
+    def ensureFresh = {
+        if (new File(world, 'level.dat').exists() || new File(world, 'region').exists() || report.exists())
+            throw new GradleException('Refusing to reuse the generated oil-native test world/report')
+    }
+    def fixture = p.tasks.register('prepareOilNativeFixture') {
+        doLast {
+            ensureFresh()
+            p.copy {
+                from p.file('tools/terrain-smoke/world-template')
+                into new File(world, 'datapacks/ic_normal_terrain')
+            }
+        }
+    }
+    def ss = p.sourceSets.create('oilSmoke')
+    ss.java.setSrcDirs([p.file('tools/oil-smoke/src')])
+    ss.resources.setSrcDirs([p.file('tools/oil-smoke/resources')])
+    // NeoForge filters explicit templateNamespace, not merely @GameTestHolder.
+    // Alias the existing exact NBT only in generated addon resources; do not widen test selection.
+    p.tasks.named(ss.processResourcesTaskName) {
+        from(p.file('src/main/resources/data/industrial_colonies/structure/geology_smoke_empty.nbt')) {
+            into 'data/ic_oil_smoke/structure'
+        }
+    }
+    p.extensions.getByName('neoForge').addModdingDependenciesTo(ss)
+    p.dependencies.add(ss.compileOnlyConfigurationName, p.files(
+        new File(stage, 'mods/industrial_colonies-0.4.0.jar'),
+        new File(stage, 'mods/tfmg-1.2.0.jar'),
+        p.file('libs/create-1.21.1-6.0.10.jar'),
+        p.file('build/generated/compile-jars/ponder-neoforge-1.0.82+mc1.21.1.jar')
+    ))
+    p.dependencies.add(ss.runtimeOnlyConfigurationName, 'net.neoforged:DevLaunch:1.0.2')
+    p.tasks.named(ss.compileJavaTaskName) {
+        options.encoding = 'UTF-8'
+        // Same Windows ZipFS-close workaround as the production compile task.
+        options.fork = true
+        options.forkOptions.executable = p.javaToolchains.compilerFor {
+            languageVersion = org.gradle.jvm.toolchain.JavaLanguageVersion.of(21)
+        }.get().executablePath.asFile.absolutePath
+    }
+    def addon = p.extensions.getByName('neoForge').mods.create('ic_oil_smoke')
+    addon.sourceSet(ss)
+    def run = p.extensions.getByName('neoForge').runs.getByName('gameTestServer')
+    run.sourceSet.set(ss)
+    run.loadedMods.set([addon])
+    run.systemProperty('neoforge.enabledGameTestNamespaces', 'ic_oil_smoke')
+    run.systemProperty('ic.oil.report', new File(stage, 'oil-native-report.json').absolutePath)
+    run.programArguments.set([
+        '--nogui', '--allowUpdates', 'false',
+        '--universe', new File(stage, 'oil-worlds').absolutePath,
+        '--world', 'oil-native'
+    ])
+    p.tasks.named('runGameTestServer') {
+        dependsOn fixture
+        doFirst { ensureFresh() }
+    }
+}

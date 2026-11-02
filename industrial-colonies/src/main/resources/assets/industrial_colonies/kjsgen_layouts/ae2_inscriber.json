@@ -1,0 +1,74 @@
+{
+  "id": "industrial_colonies:ae2_inscriber",
+  "mod": "ae2",
+  "icon": "ae2:inscriber",
+  "jei": "ae2:inscriber",
+  "width": 142,
+  "height": 88,
+  "slots": [
+    {
+      "key": "top",
+      "role": "INPUT",
+      "x": 20,
+      "y": 8,
+      "required": false,
+      "item": true,
+      "tag": true,
+      "fluid": false,
+      "count": false
+    },
+    {
+      "key": "middle",
+      "role": "INPUT",
+      "x": 20,
+      "y": 34,
+      "required": true,
+      "item": true,
+      "tag": true,
+      "fluid": false,
+      "count": false
+    },
+    {
+      "key": "bottom",
+      "role": "INPUT",
+      "x": 20,
+      "y": 60,
+      "required": false,
+      "item": true,
+      "tag": true,
+      "fluid": false,
+      "count": false
+    },
+    {
+      "key": "output",
+      "role": "OUTPUT",
+      "x": 110,
+      "y": 34,
+      "required": true,
+      "item": true,
+      "tag": false,
+      "fluid": false,
+      "count": true
+    }
+  ],
+  "decorations": [
+    {
+      "type": "ARROW",
+      "x": 66,
+      "y": 34
+    }
+  ],
+  "parameters": [
+    {
+      "key": "mode",
+      "type": "ENUM",
+      "default": "inscribe",
+      "options": [
+        "inscribe",
+        "press"
+      ]
+    }
+  ],
+  "codegen": "industrial_colonies:ae2_inscriber",
+  "requiresMod": "ae2"
+}

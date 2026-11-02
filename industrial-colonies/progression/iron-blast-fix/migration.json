@@ -1,0 +1,39 @@
+{
+  "status": "PREPARED",
+  "id": "industrial_colonies:processing/iron/blast_reduction",
+  "before": {
+    "type": "immersiveengineering:blast_furnace",
+    "input": {
+      "item": "industrial_colonies:iron_bearing_dust"
+    },
+    "result": {
+      "item": "industrial_colonies:reduced_iron_fraction"
+    },
+    "slag": {
+      "item": "tfmg:slag"
+    },
+    "time": 600
+  },
+  "after": {
+    "type": "tfmg:industrial_blasting",
+    "ingredients": [
+      {
+        "item": "industrial_colonies:iron_bearing_dust"
+      }
+    ],
+    "results": [
+      {
+        "id": "modernfoundry:molten_iron",
+        "amount": 8
+      },
+      {
+        "id": "tfmg:molten_slag",
+        "amount": 10
+      }
+    ],
+    "processing_time": 30,
+    "hot_air_usage": 20
+  },
+  "yieldMb": 8,
+  "note": "Direct molten iron replaces reduced fraction followed by melting. Legacy fraction melting remains for existing inventory. Slag becomes native molten slag; 10 mB is half the native 20 mB slag-block cast."
+}

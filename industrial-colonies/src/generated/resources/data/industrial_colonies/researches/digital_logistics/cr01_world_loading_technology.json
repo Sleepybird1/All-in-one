@@ -1,0 +1,30 @@
+{
+  "branch": "industrial_colonies:tech_tree",
+  "costs": [
+    {
+      "item": "ae2:spatial_pylon",
+      "count": 8
+    },
+    {
+      "item": "ae2:spatial_storage_cell_16",
+      "count": 1
+    },
+    {
+      "item": "ae2:dense_energy_cell",
+      "count": 2
+    }
+  ],
+  "icon": "ae2:spatial_anchor",
+  "name": "com.industrial_colonies.research.digital_logistics.cr01_world_loading_technology.name",
+  "no-reset": true,
+  "researchLevel": 5,
+  "sortOrder": 10854,
+  "subtitle": "com.industrial_colonies.research.digital_logistics.cr01_world_loading_technology.subtitle",
+  "parentResearch": "industrial_colonies:digital_logistics/cr01_spacial_storage_tech",
+  "requirements": [
+    {
+      "type": "minecolonies:research",
+      "research": "industrial_colonies:digital_logistics/cr01_spacial_storage_tech"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "particle": "industrial_colonies:block/geology/spodumene_rock_side",
+    "north": "industrial_colonies:block/geology/spodumene_rock_side",
+    "east": "industrial_colonies:block/geology/spodumene_rock_side",
+    "south": "industrial_colonies:block/geology/spodumene_rock_side",
+    "west": "industrial_colonies:block/geology/spodumene_rock_side",
+    "up": "industrial_colonies:block/geology/spodumene_rock_top",
+    "down": "industrial_colonies:block/geology/spodumene_rock_bottom"
+  }
+}
