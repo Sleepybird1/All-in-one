@@ -4,7 +4,7 @@ Selected design target; **not implemented or verified in gameplay**. The standar
 
 This does not automatically halve total network consumption: occupied-byte/cell stabilization power remains a separate charge. No blanket 50% discount on cell storage power, exact FE/t value or additional 10–20% discount was selected. Final accounting must preserve the intended cell-tier power tradeoffs. Price the Extended Drive recipe for the selected efficiency advantage; exact materials and numeric power rates remain pending.
 
-The latest capacity comparison uses **4 bytes/item for 1K only**, then 8 for 4K, 16 for 16K/64K, 32 for 256K/1M, 64 for 4M/16M, and 128 for 64M/256M. This remains a comparison candidate, not a replacement of the earlier baseline table without further selection. With that candidate, twenty 4K cells hold **10,240 items before type overhead**. The 48-slot-per-block Vault target remains unchanged.
+The selected capacity balance uses **4 bytes/item for 1K only**, then 8 for 4K, 16 for 16K/64K, 32 for 256K/1M, 64 for 4M/16M, and 128 for 64M/256M. The user selected this curve to replace the earlier baseline table; implementation remains pending. With that candidate, twenty 4K cells hold **10,240 items before type overhead**. The 48-slot-per-block Vault target remains unchanged.
 
 ## November 1 — selected storage capacity balance
 
@@ -17,17 +17,17 @@ Physical silos/Vaults retain the economical bulk-storage and freight role. Digit
 | Cell tier | Bytes/item | One cell | 1 full drive | 2 full drives | 4 full drives | 8 full drives |
 |---|---:|---:|---:|---:|---:|---:|
 | 1K | 4 | 256 | 2,560 | 5,120 | 10,240 | 20,480 |
-| 4K | 4 | 1,024 | 10,240 | 20,480 | 40,960 | 81,920 |
-| 16K | 8 | 2,048 | 20,480 | 40,960 | 81,920 | 163,840 |
-| 64K | 8 | 8,192 | 81,920 | 163,840 | 327,680 | 655,360 |
-| 256K | 16 | 16,384 | 163,840 | 327,680 | 655,360 | 1,310,720 |
-| 1M | 16 | 65,536 | 655,360 | 1,310,720 | 2,621,440 | 5,242,880 |
-| 4M | 32 | 131,072 | 1,310,720 | 2,621,440 | 5,242,880 | 10,485,760 |
-| 16M | 32 | 524,288 | 5,242,880 | 10,485,760 | 20,971,520 | 41,943,040 |
-| 64M | 64 | 1,048,576 | 10,485,760 | 20,971,520 | 41,943,040 | 83,886,080 |
-| 256M | 64 | 4,194,304 | 41,943,040 | 83,886,080 | 167,772,160 | 335,544,320 |
+| 4K | 8 | 512 | 5,120 | 10,240 | 20,480 | 40,960 |
+| 16K | 16 | 1,024 | 10,240 | 20,480 | 40,960 | 81,920 |
+| 64K | 16 | 4,096 | 40,960 | 81,920 | 163,840 | 327,680 |
+| 256K | 32 | 8,192 | 81,920 | 163,840 | 327,680 | 655,360 |
+| 1M | 32 | 32,768 | 327,680 | 655,360 | 1,310,720 | 2,621,440 |
+| 4M | 64 | 65,536 | 655,360 | 1,310,720 | 2,621,440 | 5,242,880 |
+| 16M | 64 | 262,144 | 2,621,440 | 5,242,880 | 10,485,760 | 20,971,520 |
+| 64M | 128 | 524,288 | 5,242,880 | 10,485,760 | 20,971,520 | 41,943,040 |
+| 256M | 128 | 2,097,152 | 20,971,520 | 41,943,040 | 83,886,080 | 167,772,160 |
 
-All counts are item budgets **before item-type overhead**, with 10 cells per standard ME Drive, binary K = 1,024 bytes and M = 1,048,576 bytes. Effective capacity = nominal bytes / bytes per item. The paired byte weights alternate 4× and 2× effective capacity gains. Actual type limits/overhead and technical implementation still require verification.
+All counts are item budgets **before item-type overhead**, with 10 cells per standard ME Drive, binary K = 1,024 bytes and M = 1,048,576 bytes. Effective capacity = nominal bytes / bytes per item. The first two upgrades each double effective capacity (256 → 512 → 1,024 items/cell); subsequent upgrades alternate 4× and 2× gains. Actual type limits/overhead and technical implementation still require verification.
 
 ### Item Vault capacity target
 
@@ -44,9 +44,9 @@ Maximum 3 × 3 × 9 Vault: **248,832 items**, close to the requested 250,000. Re
 
 ### Capacity crossovers and power decisions
 
-- First full standard Drive tier exceeding the maximum Vault: **1M**, 655,360 items across ten cells; ten 256K cells hold 163,840.
-- First single-cell tier exceeding the maximum Vault: **16M**, 524,288 items; one 4M cell holds 131,072.
-- Twelve full Drives of 16K cells hold 245,760 items, slightly below one maximum Vault.
+- First full standard Drive tier exceeding the maximum Vault: **1M**, 327,680 items across ten cells; ten 256K cells hold 81,920.
+- First single-cell tier exceeding the maximum Vault: **16M**, 262,144 items; one 4M cell holds 65,536.
+- Twenty-four full Drives of 16K cells hold 245,760 items, slightly below one maximum Vault.
 - These are capacity comparisons, not verified construction-cost equivalence. A full transitive recipe-cost audit remains pending.
 - Higher-density cells should cost more to construct and more power per stored item. Paired byte weights already increase occupied bytes/item at every other upgrade; even a constant occupied-byte power rate therefore increases power/item. Extra rate increases multiply this penalty and must be tested against adding smaller cells.
 - Exact base/idle rates, tier power multipliers, efficiency cards and transport stabilization costs remain **undecided/unimplemented**. The earlier 3.5× idle-power table is illustrative and is not the approved operating curve. Power loss must not destroy contents.
