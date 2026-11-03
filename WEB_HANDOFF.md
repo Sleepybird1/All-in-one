@@ -1,3 +1,7 @@
+## November 2 — workbook reference and recipe refresh in progress
+
+README links to the workbook, retaining only the to-do list and compact ME/Vault capacity references. Spawn and spacing contains 21 transferred rules, verified by connector readback. Recipe source audit found 2,099 distinct saved candidates; the updated formula model is prepared locally but publication remains in progress. Preserve editable settings and distinguish approved/personal selections from other alternatives. Vein balance values are unchanged. Next: apply the scoped Recipe index formula/cost refresh and verify native recalculation; update this checkpoint on completion.
+
 ## November 2 — production reference synchronized
 
 README Processing yields now mirrors all 116 populated Production rows and 12 columns from the connected Vein Balance workbook, with its planned/uncertain status intact. docs/reference holds the complete CSV and read-only source snapshot. Spreadsheet unchanged; no recipe/config changes or implementation credit. Next: use the sheet as the source for future production-table updates and preserve newer in-game verification separately. The README/Design Ideas split is published; this follow-up continues that documentation update.
