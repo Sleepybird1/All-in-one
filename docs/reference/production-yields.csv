@@ -1,0 +1,377 @@
+Resource / Input form,Input amount,Output / input,Inputs per ingot,"Recipes using this input
+Examples + indexed count",Processing route,"Industrial uses
+(examples)",Supply / value role,Evidence / assumptions,Resource group,"Total estimated use*
+Material + rock mined","Machines / parts
+For this input form"
+Iron / Magnetite,1 block,3–10 mB,9–30 blocks,"3 mB Molten Iron
+1 indexed recipes",Basic melting where allowed; crushing + best processing,"Steel, tools, machine frames, structural parts",Foundational bulk metal,Sheet draft; recipe/loot reconciliation pending,Iron,"183,500–807,300 iron ingots*
+Magnetite only: 1,214,600–5,342,100 blocks
+Hematite only: 296,200–1,303,000 blocks",Processor: Foundry Melting
+Rich magnetite ore,1 rich ore block,21–30 mB,3–5 blocks,No manufacturing recipe in retained index,Crushing → saved recovery route,,,Saved design cards; rich drop identity still matters,,,No direct machine-part match in retained index
+Iron ingot,1 ingot,90 mB,1 ingot,"Weathered Iron Press
+Cast Iron Ingot
+338 indexed recipes",Foundry melting,,,Bundled recipe; active override not verified,,,"Processor: Mechanical Crafters
+Processor: Sequenced Assembly
+Makes: Weathered Iron Press"
+Iron nugget,1 nugget,10 mB,9 nuggets,"Cable Insulator
+4 × Spring
+98 indexed recipes",,,,,,,"Processor: Sequenced Assembly
+Processor: Mechanical Mixer
+Makes: Cable Insulator"
+Iron dust,1 dust,90 mB,1 dust,"Iron Heat Sink
+144 mB Molten Steel + 144 mB Molten Slag ...
+7 indexed recipes",,,,Bundled conditional tag recipe; active override not verified,,,"Processor: Industrial Blast Furnace
+Processor: Alloy Smelter
+Makes: Iron Heat Sink"
+Iron / Hematite,1 block,3–50 mB,2–30 blocks,"3 mB Molten Iron
+1 indexed recipes",Basic melting where allowed; crushing + best processing,,,Sheet draft; recipe/loot reconciliation pending,,,Processor: Foundry Melting
+Rich hematite ore,1 rich ore block,63–90 mB,1–2 blocks,No manufacturing recipe in retained index,Crushing → saved recovery route,,,Saved design cards; rich drop identity still matters,,,No direct machine-part match in retained index
+Aluminum / Bauxite,1 block,60–60 mB,2 blocks,"4 × Bauxite Powder
+1 indexed recipes",Basic melting where allowed; crushing + best processing,"Lightweight aircraft frames, machinery, electrical parts",Bulk lightweight construction,Sheet draft; recipe/loot reconciliation pending,Aluminum,"55,000–256,100 ingots*
+75,700–352,500 vein blocks*",Processor: Crushing Wheels
+Rich bauxite,1 rich ore block,120–120 mB,1 blocks,"8 × Bauxite Powder
+1 indexed recipes",Crushing → saved recovery route,,,Saved design cards; rich drop identity still matters,,,Processor: Crushing Wheels
+Aluminum ingot,1 ingot,90 mB,1 ingot,"2 × Large Aluminum Cogwheel
+4 × Aluminum Cogwheel
+60 indexed recipes",Foundry melting,,,Bundled conditional tag recipe; active override not verified,,,"Processor: Stonecutting
+Processor: Mechanical Crafters
+Makes: 2 × Large Aluminum Cogwheel"
+Aluminum nugget,1 nugget,10 mB,9 nuggets,"4 × Aluminum Frame
+4 × Aluminum Truss
+3 indexed recipes",,,,,,,Makes: 4 × Aluminum Frame
+Aluminum dust,1 dust,90 mB,1 dust,"Aluminum Heat Sink
+4 × Flare Cartridge
+5 indexed recipes",,,,,,,"Processor: Engineer's Blueprint
+Processor: Subatomic Liquifier
+Makes: Aluminum Heat Sink"
+Copper / Chalcopyrite,1 block,4–60 mB,2–23 blocks,"4 mB Molten Copper
+1 indexed recipes",Basic melting where allowed; crushing + best processing,"Wiring, motors, coils, brass",Foundational electrical metal,Sheet draft; recipe/loot reconciliation pending,Copper,"394,600–1,776,400 ingots*
+546,000–2,458,100 vein blocks*",Processor: Foundry Melting
+Rich copper ore,1 rich ore block,70–100 mB,1–2 blocks,No manufacturing recipe in retained index,Crushing → saved recovery route,,,Saved design cards; rich drop identity still matters,,,No direct machine-part match in retained index
+Copper ingot,1 ingot,90 mB,1 ingot,"4 × Fluid Pipe
+4 × LV Wire Connector
+131 indexed recipes",Foundry melting,,,Bundled recipe; active override not verified,,,"Processor: Crafting Shaped Retextured
+Processor: Metal Press
+Makes: 4 × Fluid Pipe"
+Copper nugget,1 nugget,10 mB,9 nuggets,"4 × Copper Frame
+4 × Neon Tube
+20 indexed recipes",,,,,,,"Processor: Sequenced Assembly
+Processor: Mechanical Press / Basin
+Makes: 4 × Copper Frame"
+Copper dust,1 dust,90 mB,1 dust,"Copper Heat Sink
+2 × Constantan Grit
+8 indexed recipes",,,,Bundled conditional tag recipe; active override not verified,,,"Processor: Assembler
+Processor: Metallurgic Infuser
+Makes: Copper Heat Sink"
+Zinc / Sphalerite,1 block,2–60 mB,2–45 blocks,"2 mB Molten Zinc
+1 indexed recipes",Basic melting where allowed; crushing + best processing,"Brass, alloy feed, starter Create industry",Progression alloy metal,Sheet draft; recipe/loot reconciliation pending,Zinc,"7,560–26,400 ingots*
+10,200–35,700 vein blocks*",Processor: Foundry Melting
+Rich sphalerite,1 rich ore block,84–120 mB,1–2 blocks,No manufacturing recipe in retained index,Crushing → saved recovery route,,,Saved design cards; rich drop identity still matters,,,No direct machine-part match in retained index
+Zinc ingot,1 ingot,90 mB,1 ingot,"Zinc Mechanism
+Electric Gauge
+80 indexed recipes",Foundry melting,,,Bundled conditional tag recipe; active override not verified,,,"Processor: Stonecutting
+Processor: Mechanical Saw
+Makes: Zinc Mechanism"
+Zinc nugget,1 nugget,10 mB,9 nuggets,"Andesite Alloy
+Zinc Mechanism
+13 indexed recipes",,,,,,,"Processor: Sequenced Assembly
+Processor: Mechanical Mixer
+Makes: Andesite Alloy"
+Zinc dust,1 dust,90 mB,1 dust,No manufacturing recipe in retained index,,,,,,,No direct machine-part match in retained index
+Magnesium / Dolomite,1 block,20–20 mB,5 blocks,No manufacturing recipe in retained index,Basic melting where allowed; crushing + best processing,"Titanium reduction, lightweight and nuclear alloys",Chemical and alloy feed,Sheet draft; recipe/loot reconciliation pending,Magnesium,"61–132 ingots*
+273–594 vein blocks*",No direct machine-part match in retained index
+Magnesium ingot (design unit),90 mB molten metal,1 ingot,1 casting unit,"Drive Upgrade
+Import/Export Bus Upgrade
+13 indexed recipes",Sheet unit basis; exact casting recipe unverified,,,90 mB design basis; not verified native remelting,,,"Processor: Alloy Smelter
+Processor: Subatomic Liquifier
+Makes: Drive Upgrade"
+Magnesium recovery dust,1 dust,10 mB,9 dust,Saved recovery dust; exact input identity...,Saved vat recovery design,,,"Saved recipe card, not loaded-recipe acceptance",,,Exact recovery-dust item identity unverified
+Lead / Galena,1 block,3–30 mB,3–30 blocks,"2 × Cut Galena Brick Slab
+2 × Cut Galena Slab
+22 indexed recipes",Basic melting where allowed; crushing + best processing,"Radiation shielding, nuclear machinery, specialty alloys",Shielding and nuclear industry,Sheet draft; recipe/loot reconciliation pending,Lead,"2,130–5,580 ingots*
+5,780–15,100 vein blocks*","Processor: Stonecutting
+Processor: Foundry Melting"
+Rich galena ore,1 rich ore block,42–60 mB,2–3 blocks,No manufacturing recipe in retained index,Crushing → saved recovery route,,,Saved design cards; rich drop identity still matters,,,No direct machine-part match in retained index
+Lead ingot,1 ingot,90 mB,1 ingot,"2 × Radioactive Waste Barrel
+Drive Upgrade
+36 indexed recipes",Foundry melting,,,Bundled conditional tag recipe; active override not verified,,,"Processor: Industrial Iron Compacting
+Processor: Stonecutting
+Makes: 2 × Radioactive Waste Barrel"
+Lead nugget,1 nugget,10 mB,9 nuggets,"4 × Lead Frame
+4 × Casull Cartridge
+7 indexed recipes",,,,,,,"Processor: Engineer's Blueprint
+Processor: Smelting
+Makes: 4 × Lead Frame"
+Lead dust,1 dust,90 mB,1 dust,"Lead Heat Sink
+16 × White Dye
+5 indexed recipes",,,,,,,"Processor: Alloy Smelter
+Processor: Subatomic Liquifier
+Makes: Lead Heat Sink"
+Lead + uranium / Galena,1 block,"Lead: ≈2.94–29.4 mB
+Uranium: ≈0.2–0.2 mB",N/A,No manufacturing recipe in retained index,Basic melting where allowed; crushing + best processing,Nuclear fuel and nuclear processing,Specialist energy feed,Sheet draft; recipe/loot reconciliation pending,Uranium,"17,900–595,700 ingot-equivalents*
+8,076,800–268,065,000 host blocks*
+If this fuel supplies the ordinary grid",No direct machine-part match in retained index
+Uranium ingot,1 ingot,90 mB,1 ingot,"Drive Upgrade
+Import/Export Bus Upgrade
+20 indexed recipes",Foundry melting,,,Bundled conditional tag recipe; active override not verified,,,"Processor: Fluidizersolid
+Processor: Enrichment Chamber
+Makes: Drive Upgrade"
+Uranium nugget,1 nugget,10 mB,9 nuggets,"Only generic mold-making matches
+1 indexed recipes",,,,,,,Processor: Casting Table
+Uranium dust,1 dust,90 mB,1 dust,"Atomic Alloy
+450 mB Subliquid Matter
+4 indexed recipes",,,,,,,"Processor: Refined Radiance Mixing
+Processor: Subatomic Liquifier
+Makes: Atomic Alloy"
+Lead + thorium / Galena,1 block,"Lead: ≈2.94–29.4 mB
+Thorium: ≈0.2–0.2 mB",N/A,No manufacturing recipe in retained index,Basic melting where allowed; crushing + best processing,Nuclear fuel chains and nuclear alloys,Specialist nuclear feed,Sheet draft; recipe/loot reconciliation pending,Thorium,"12,600–395,300 ingot-equivalents*
+5,671,000–177,902,000 host blocks*
+If this fuel supplies the ordinary grid",No direct machine-part match in retained index
+Thorium ingot (design unit),90 mB molten metal,1 ingot,1 casting unit,"Drive Upgrade
+Import/Export Bus Upgrade
+10 indexed recipes",Sheet unit basis; exact casting recipe unverified,,,90 mB design basis; not verified native remelting,,,"Processor: Subatomic Liquifier
+Makes: Drive Upgrade
+Makes: Import/Export Bus Upgrade"
+Thorium recovery dust,1 dust,10 mB,9 dust,Saved recovery dust; exact input identity...,Saved vat recovery design,,,"Saved recipe card, not loaded-recipe acceptance",,,Exact recovery-dust item identity unverified
+Tin / Cassiterite,1 block,3–20 mB,5–30 blocks,"3 mB Molten Tin
+1 indexed recipes",Basic melting where allowed; crushing + best processing,"Bronze and other alloys, electronics components",General alloy feed,Sheet draft; recipe/loot reconciliation pending,Tin,"1–3 ingots*
+4.2–13 vein blocks*",Processor: Foundry Melting
+Rich tin ore,1 rich ore block,28–40 mB,3–4 blocks,No manufacturing recipe in retained index,Crushing → saved recovery route,,,Saved design cards; rich drop identity still matters,,,No direct machine-part match in retained index
+Tin ingot,1 ingot,90 mB,1 ingot,"4 × Cable Anchor
+Drive Upgrade
+20 indexed recipes",Foundry melting,,,Bundled conditional tag recipe; active override not verified,,,"Processor: Quartz Cutting
+Processor: Alloy Smelter
+Makes: 4 × Cable Anchor"
+Tin nugget,1 nugget,10 mB,9 nuggets,"Only generic mold-making matches
+1 indexed recipes",,,,,,,Processor: Casting Table
+Tin dust,1 dust,90 mB,1 dust,"Tin Heat Sink
+10 chemical units Tin
+9 indexed recipes",,,,,,,"Processor: Alloy Smelter
+Processor: Chemical Oxidizer
+Makes: Tin Heat Sink"
+Nickel / Pentlandite,1 block,14–20 mB,5–7 blocks,No manufacturing recipe in retained index,Basic melting where allowed; crushing + best processing,"Steel alloys, invar, magnetic alloys",Broad industrial alloy metal,Sheet draft; recipe/loot reconciliation pending,Nickel,"201,100–919,600 ingots*
+830,100–3,796,400 vein blocks*",No direct machine-part match in retained index
+Rich nickel ore,1 rich ore block,28–40 mB,3–4 blocks,No manufacturing recipe in retained index,Crushing → saved recovery route,,,Saved design cards; rich drop identity still matters,,,No direct machine-part match in retained index
+Nickel ingot,1 ingot,90 mB,1 ingot,"Nickel Plate
+2 × Magnetic Alloy Ingot
+15 indexed recipes",Foundry melting,,,Bundled conditional tag recipe; active override not verified,,,"Processor: Sequenced Assembly
+Processor: Mechanical Mixer
+Makes: 2 × Magnetic Alloy Ingot"
+Nickel nugget,1 nugget,10 mB,9 nuggets,"4 × Nickel Frame
+4 × Nickel Truss
+3 indexed recipes",,,,,,,Makes: 4 × Nickel Frame
+Nickel dust,1 dust,90 mB,1 dust,"2 × Constantan Grit
+1 indexed recipes",,,,,,,Processor: Crafting
+Cobalt / Pentlandite,1 block,≈0.07–0.1 mB,900–1286 blocks,No manufacturing recipe in retained index,Basic melting where allowed; crushing + best processing,Specialty alloys and nuclear materials,Pentlandite-associated specialist,Sheet draft; recipe/loot reconciliation pending,Cobalt,"6,550–25,700 ingots*
+5,893,600–23,171,400 vein blocks*",No direct machine-part match in retained index
+Cobalt ingot,1 ingot,90 mB,1 ingot,"Elite Induction Cell
+Industrial Iron Mixer
+20 indexed recipes",Foundry melting,,,Bundled recipe; active override not verified,,,"Processor: Mechanical Crafters
+Processor: Sequenced Assembly
+Makes: Elite Induction Cell"
+Cobalt nugget,1 nugget,10 mB,9 nuggets,"4 × Cobalt Platform
+2 indexed recipes",,,,,,,"Processor: Casting Table
+Processor: Crafting"
+Cobalt dust,1 dust,90 mB,1 dust,"Cobalt Heat Sink
+450 mB Subliquid Matter
+2 indexed recipes",,,,Bundled conditional tag recipe; active override not verified,,,"Processor: Subatomic Liquifier
+Makes: Cobalt Heat Sink"
+Titanium / Ilmenite,1 block,14–20 mB,5–7 blocks,No manufacturing recipe in retained index,Basic melting where allowed; crushing + best processing,"Aircraft, spacecraft, advanced structural alloys",Advanced structural metal,Sheet draft; recipe/loot reconciliation pending,Titanium,"1,370–4,110 ingots*
+5,770–17,300 vein blocks*",No direct machine-part match in retained index
+Rich ilmenite ore,1 rich ore block,28–40 mB,3–4 blocks,No manufacturing recipe in retained index,Crushing → saved recovery route,,,Saved design cards; rich drop identity still matters,,,No direct machine-part match in retained index
+Titanium ingot (design unit),90 mB molten metal,1 ingot,1 casting unit,"Industrial Iron Deployer
+Industrial Iron Encased Fan
+13 indexed recipes",Sheet unit basis; exact casting recipe unverified,,,90 mB design basis; not verified native remelting,,,"Processor: Sequenced Assembly
+Processor: Mechanical Mixer
+Makes: Industrial Iron Deployer"
+Titanium recovery dust,1 dust,10 mB,9 dust,Saved recovery dust; exact input identity...,Saved vat recovery design,,,"Saved recipe card, not loaded-recipe acceptance",,,Exact recovery-dust item identity unverified
+Chromium / Chromite,1 block,17.5–22.5 mB,4–6 blocks,No manufacturing recipe in retained index,Basic melting where allowed; crushing + best processing,Steel and specialty alloy production,Industrial alloy additive,Sheet draft; recipe/loot reconciliation pending,Chromium,"2,370–7,730 ingots*
+7,810–25,400 vein blocks*",No direct machine-part match in retained index
+Rich chromium ore,1 rich ore block,70–90 mB,1–2 blocks,No manufacturing recipe in retained index,Crushing → saved recovery route,,,Saved design cards; rich drop identity still matters,,,No direct machine-part match in retained index
+Chromium ingot,1 ingot,90 mB,1 ingot,"Drive Upgrade
+Import/Export Bus Upgrade
+10 indexed recipes",Foundry melting,,,Bundled conditional tag recipe; active override not verified,,,"Processor: Alloy Smelter
+Makes: Drive Upgrade
+Makes: Import/Export Bus Upgrade"
+Chromium nugget,1 nugget,10 mB,9 nuggets,No manufacturing recipe in retained index,,,,,,,No direct machine-part match in retained index
+Chromium dust,1 dust,90 mB,1 dust,"2 × Chromatic Compound
+90 mB Molten Chromium + 10 mB Molten Slag
+4 indexed recipes",,,,,,,"Processor: Industrial Iron Mixing
+Processor: Vat Machine Recipe"
+Lithium / Spodumene,1 block,10–10 mB,9 blocks,No manufacturing recipe in retained index,Basic melting where allowed; crushing + best processing,"Batteries, nuclear/fusion and chemical chains",Energy and chemical specialist,Sheet draft; recipe/loot reconciliation pending,Lithium,"6,370–102,500 ingots*
+50,100–806,500 vein blocks*",No direct machine-part match in retained index
+Spodumene ore,1 rich ore block,30–30 mB,3 blocks,No manufacturing recipe in retained index,Crushing → saved recovery route,,,Saved design cards; rich drop identity still matters,,,No direct machine-part match in retained index
+Lithium ingot (design unit),90 mB molten metal,1 ingot,1 casting unit,"2 × Tough Alloy Ingot
+Drive Upgrade
+14 indexed recipes",Sheet unit basis; exact casting recipe unverified,,,90 mB design basis; not verified native remelting,,,"Processor: Alloy Smelter
+Processor: Subatomic Liquifier
+Makes: 2 × Tough Alloy Ingot"
+Lithium recovery dust,1 dust,10 mB,9 dust,Saved recovery dust; exact input identity...,Saved vat recovery design,,,"Saved recipe card, not loaded-recipe acceptance",,,Exact recovery-dust item identity unverified
+Silver / Argentite,1 block,2–10 mB,9–45 blocks,"2 mB Molten Silver
+1 indexed recipes",Basic melting where allowed; crushing + best processing,"Conductors, electrum and specialty electronics",Precious electrical metal,Sheet draft; recipe/loot reconciliation pending,Silver,"16–80 ingots*
+137–683 vein blocks*",Processor: Foundry Melting
+Rich silver ore,1 rich ore block,14–20 mB,5–7 blocks,No manufacturing recipe in retained index,Crushing → saved recovery route,,,Saved design cards; rich drop identity still matters,,,No direct machine-part match in retained index
+Silver ingot,1 ingot,90 mB,1 ingot,"3 × Coil Bscco
+Basic Processor
+26 indexed recipes",Foundry melting,,,Bundled conditional tag recipe; active override not verified,,,"Processor: Assembler
+Processor: Alloy Smelter
+Makes: 3 × Coil Bscco"
+Silver nugget,1 nugget,10 mB,9 nuggets,"4 × Silver Cartridge
+Pile of Silver
+3 indexed recipes",,,,,,,Processor: Engineer's Blueprint
+Silver dust,1 dust,90 mB,1 dust,"Silver Heat Sink
+2 × Electrum Grit
+7 indexed recipes",,,,,,,"Processor: Alloy Smelter
+Processor: Subatomic Liquifier
+Makes: Silver Heat Sink"
+Gold / Gold ore,1 block,7–10 mB,9–13 blocks,"1 mB Gold Slurry
+1000 chemical units Dirty Gold Slurry
+9 indexed recipes",Basic melting where allowed; crushing + best processing,"Electronics, electrum and advanced components",Precious electronics metal,Sheet draft; recipe/loot reconciliation pending,Gold,"6,530–26,600 ingots*
+58,800–239,800 vein blocks*","Processor: Leacher
+Processor: Chemical Dissolution Chamber"
+Gold ingot,1 ingot,90 mB,1 ingot,"2 × Heat Exchanger Hot Coolant Port
+2 × Turbine Bearing
+110 indexed recipes",Foundry melting,,,Bundled recipe; active override not verified,,,"Processor: Quartz Cutting
+Processor: Assembler
+Makes: 2 × Heat Exchanger Hot Coolant Port"
+Gold nugget,1 nugget,10 mB,9 nuggets,"Electrode Holder
+Metallurgic Infuser
+25 indexed recipes",,,,,,,"Processor: Mechanical Crafters
+Processor: Mechanical Press / Basin
+Makes: Electrode Holder"
+Gold dust,1 dust,90 mB,1 dust,"Gold Heat Sink
+10 chemical units Gold
+8 indexed recipes",,,,Bundled conditional tag recipe; active override not verified,,,"Processor: Alloy Smelter
+Processor: Subatomic Liquifier
+Makes: Gold Heat Sink"
+Tungsten / Wolframite,1 block,7–10 mB,9–13 blocks,No manufacturing recipe in retained index,Basic melting where allowed; crushing + best processing,High-temperature parts and specialty alloys,Refractory specialist,Sheet draft; recipe/loot reconciliation pending,Tungsten,"205–615 ingots*
+1,750–5,250 vein blocks*",No direct machine-part match in retained index
+Rich wolframite ore,1 rich ore block,14–20 mB,5–7 blocks,No manufacturing recipe in retained index,Crushing → saved recovery route,,,Saved design cards; rich drop identity still matters,,,No direct machine-part match in retained index
+Tungsten ingot,1 ingot,90 mB,1 ingot,"Industrial Iron Deployer
+Industrial Iron Encased Fan
+11 indexed recipes",Foundry melting,,,Bundled conditional tag recipe; active override not verified,,,"Processor: Sequenced Assembly
+Makes: Industrial Iron Deployer
+Makes: Industrial Iron Encased Fan"
+Tungsten nugget,1 nugget,10 mB,9 nuggets,"Only generic mold-making matches
+1 indexed recipes",,,,,,,Processor: Casting Table
+Tungsten dust,1 dust,90 mB,1 dust,No manufacturing recipe in retained index,,,,,,,No direct machine-part match in retained index
+Boron / Borax rock,1 block,10–10 mB,9 blocks,"Borax DUst
+1 indexed recipes",Basic melting where allowed; crushing + best processing,"Nuclear materials, chemistry and semiconductor feed",Nuclear / chemical additive,Sheet draft; recipe/loot reconciliation pending,Boron,"500–1,250 ingots*
+4,500–11,200 vein blocks*",Processor: Crushing Wheels
+Boron ingot (design unit),90 mB molten metal,1 ingot,1 casting unit,"Fission Reactor Controller
+Fission Reactor Irradiation Chamber
+14 indexed recipes",Sheet unit basis; exact casting recipe unverified,,,90 mB design basis; not verified native remelting,,,"Processor: Mechanical Crafters
+Processor: Alloy Smelter
+Makes: Fission Reactor Controller"
+Boron recovery dust,1 dust,10 mB,9 dust,Saved recovery dust; exact input identity...,Saved vat recovery design,,,"Saved recipe card, not loaded-recipe acceptance",,,Exact recovery-dust item identity unverified
+Beryllium / Bertrandite,1 block,10–10 mB,9 blocks,No manufacturing recipe in retained index,Basic melting where allowed; crushing + best processing,Nuclear and aerospace material chains,Specialist material; demand not measured,Sheet draft; recipe/loot reconciliation pending,Beryllium,"No quantified consumption in the costed scenario*
+Unresolved endgame inputs remain",No direct machine-part match in retained index
+Beryllium ingot (design unit),90 mB molten metal,1 ingot,1 casting unit,"Drive Upgrade
+Import/Export Bus Upgrade
+10 indexed recipes",Sheet unit basis; exact casting recipe unverified,,,90 mB design basis; not verified native remelting,,,"Makes: Drive Upgrade
+Makes: Import/Export Bus Upgrade
+Makes: Turbine Beryllium Coil"
+Beryllium recovery dust,1 dust,10 mB,9 dust,Saved recovery dust; exact input identity...,Saved vat recovery design,,,"Saved recipe card, not loaded-recipe acceptance",,,Exact recovery-dust item identity unverified
+Coal / Coal ore,1 block,1 coal,N/A,"Coal
+Coal Ore Mine
+9 indexed recipes",Mining,"Fuel, coke, steelmaking and carbon chemistry",Bulk fuel / carbon,User-selected one coal per ore,Coal,"71,300–304,800 coal*
+71,300–304,800 ore blocks*","Processor: Blasting
+Processor: Nuclear Blast"
+Graphite / Graphite rock,1 block,1–1 dust,N/A,No manufacturing recipe in retained index,Crushing,"Electrodes, nuclear components and carbon processing",Industrial carbon,Sheet draft; recipe/loot reconciliation pending,Graphite,"1,630–4,470 graphite dust*
+17,200–60,000 diamonds*
+17,217,000–60,001,000 shared host blocks*",No direct machine-part match in retained index
+Diamond / Graphite rock,1 block,≈0.001–0.001 diamond,,No manufacturing recipe in retained index,Associated diamond recovery,,,Draft host average; not yield of a diamond ore block,,,No direct machine-part match in retained index
+Phosphorus / Phosphate rock,1 block,1–1 dust,N/A,No manufacturing recipe in retained index,Saved processing design,"Fertilizers, chemistry and semiconductor doping",Agricultural / chemical feed,Sheet draft; recipe/loot reconciliation pending,Phosphorus,"No quantified consumption in the costed scenario*
+Unresolved semiconductor inputs remain",No direct machine-part match in retained index
+"Redstone, sulfur / Cinnabar",1 block,"Redstone: ≈1
+Sulfur: ≈0.2 dust",N/A,No manufacturing recipe in retained index,Crushing → washing,Redstone control circuits; sulfur for chemistry,Controls plus chemical coproduct,Saved design; expected chance-based outputs,Cinnabar,"241,200–1,173,600 redstone dust*
+53,000–241,200 sulfur dust*
+264,900–1,206,200 shared cinnabar blocks*",No direct machine-part match in retained index
+Ultramafic rock,1 block,"Osmium: ≈0.63%
+Platinum: ≈0.225%
+Iridium: ≈0.045%","≈1,429 Os / 4,000 Pt / 20,000 Ir blocks",No manufacturing recipe in retained index,Trace nugget recovery,"Trace osmium, platinum and iridium recovery",Low-yield host feed,Draft chance per host block,Ultramafic rock,"3,652,500–16,225,600 ordinary host blocks*
+Meets all three PGM demands jointly",No direct machine-part match in retained index
+Osmium-rich / Ultramafic rock,1 rich ore block,31.5–45 mB,2–3 blocks,No manufacturing recipe in retained index,Crush → blast / vat,Mekanism machinery and advanced alloys,Most accessible enriched PGM variant,Saved rich-ore design; main product guaranteed by crushing. Vein mixture differs.,Osmium,"1,490–11,400 ingots*
+213,100–1,622,600 vein blocks*",No direct machine-part match in retained index
+Osmium ingot,1 ingot,90 mB,1 ingot,"Advanced Energy Cube
+4 × Dynamic Tank
+31 indexed recipes",Foundry melting,,,Bundled conditional tag recipe; active override not verified,,,"Processor: Mechanical Crafters
+Processor: Weathered Iron Press
+Makes: Advanced Energy Cube"
+Osmium nugget,1 nugget,10 mB,9 nuggets,"Concurrent Processor
+Elite Control Circuit
+3 indexed recipes",,,,,,,"Processor: Sequenced Assembly
+Makes: Concurrent Processor
+Makes: Elite Control Circuit"
+Osmium dust,1 dust,90 mB,1 dust,"4 × Osmiridium Ingot
+1 indexed recipes",,,,,,,Processor: Alloy Smelter
+Platinum-rich / Ultramafic rock,1 rich ore block,31.5–45 mB,2–3 blocks,No manufacturing recipe in retained index,Crush → blast / vat,"Specialty processing, electronics and alloys",Rare PGM specialist,Saved rich-ore design; main product guaranteed by crushing. Vein mixture differs.,Platinum,"475–1,390 ingots*
+67,900–198,700 vein blocks*",No direct machine-part match in retained index
+Platinum ingot,1 ingot,90 mB,1 ingot,"Drive Upgrade
+Elite Processor
+11 indexed recipes",Foundry melting,,,Bundled conditional tag recipe; active override not verified,,,"Processor: Assembler
+Processor: Alloy Smelter
+Makes: Drive Upgrade"
+Platinum nugget,1 nugget,10 mB,9 nuggets,"Accumulation Processor
+Concurrent Processor
+5 indexed recipes",,,,,,,"Processor: Sequenced Assembly
+Processor: Industrial Iron Compacting
+Makes: Accumulation Processor"
+Platinum dust,1 dust,90 mB,1 dust,"Refined Radiance
+Platinum Heat Sink
+3 indexed recipes",,,,,,,"Processor: Industrial Iron Mixing
+Processor: Alloy Smelter
+Makes: Platinum Heat Sink"
+Iridium-rich / Ultramafic rock,1 rich ore block,7–10 mB,9–13 blocks,No manufacturing recipe in retained index,Crush → blast / vat,High-tier alloys and advanced components,Rarest enriched PGM variant,Saved rich-ore design; main product guaranteed by crushing. Vein mixture differs.,Iridium,"183–570 ingots*
+26,100–81,500 vein blocks*",No direct machine-part match in retained index
+Iridium ingot (design unit),90 mB molten metal,1 ingot,1 casting unit,"Warp Crystal
+2 × Fusion Reactor Casing
+20 indexed recipes",Sheet unit basis; exact casting recipe unverified,,,90 mB design basis; not verified native remelting,,,"Processor: Sequenced Assembly
+Processor: Mechanical Crafters
+Makes: Warp Crystal"
+Vibranium / Veridium,1 block,≈0.09–0.09 mB,1000 blocks,"2 × Cut Veridium Brick Slab
+2 × Cut Veridium Slab
+22 indexed recipes",Basic melting where allowed; crushing + best processing,Late-game Allthemodium progression and specialty components,Very rare endgame material,Sheet draft; recipe/loot reconciliation pending,Vibranium,"40–88 ingots*
+39,500–88,000 vein blocks*","Processor: Stonecutting
+Processor: Crafting Shaped Retextured"
+Vibranium ingot (design unit),90 mB molten metal,1 ingot,1 casting unit,"Vibranium Plate
+Drive Upgrade
+21 indexed recipes",Sheet unit basis; exact casting recipe unverified,,,90 mB design basis; not verified native remelting,,,"Processor: Sequenced Assembly
+Processor: Smithing Transform
+Makes: Drive Upgrade"
+Salt / Salt block,1 block,4 salt,N/A,No manufacturing recipe in retained index,Mining,Brine and chlorine/caustic chemistry,Common reagent feed,Bundled Mekanism loot; no Silk Touch,Salt,"Consumption not quantified*
+Remaining chemical routes are unresolved",No direct machine-part match in retained index
+Fluorite / Normal ore,1 block,2–4 gems,N/A,No manufacturing recipe in retained index,Mining,Fluorine-based chemistry and nuclear processing,Specialist chemical feed,Bundled Mekanism loot; no Fortune,Fluorite,"Consumption not quantified*
+Exact chemical feed routes remain unresolved",No direct machine-part match in retained index
+Fluorite / Buried ore,1 block,2–4 gems,,No manufacturing recipe in retained index,,,,,,,No direct machine-part match in retained index
+Crude oil / Onshore field,"1,000 mB crude","1,000 mB crude",N/A,"120 mB Heavy Oil + 60 mB Diesel + 30 mB K...
+120 mB Heavy Oil + 60 mB Diesel + 30 mB K...
+3 indexed recipes",Finite field extraction,"Fuels, lubricants, petrochemicals and plastics",Bulk petroleum supply,Current field-size draft,Crude oil,"1,834,200–8,401,400 buckets crude*
+Petrochemicals + covered operating fuel
+Single full distillation + heavy-oil pass",Processor: Distillation Tower
+Crude oil / Offshore field,"1,000 mB crude","1,000 mB crude",,"120 mB Heavy Oil + 60 mB Diesel + 30 mB K...
+120 mB Heavy Oil + 60 mB Diesel + 30 mB K...
+3 indexed recipes",,,,,,,Processor: Distillation Tower
+Heavy oil,"1,000 mB crude",≈176.47 mB,,"100 mB Heavy Oil + 25 mB Lubrication Oil ...
+100 mB Heavy Oil + 30 mB Lubrication Oil ...
+4 indexed recipes",Crude distillation + one heavy-oil pass,,,Normalized per bucket; full crude distillation + one heavy-oil pass. Native batches apply; rounded output.,,,"Processor: Distillation Tower
+Processor: Mechanical Press / Basin"
+Diesel,"1,000 mB crude",≈264.71 mB,,Fuel use defined by machine code; no manu...,,,,,,,"TFMG Firebox
+TFMG regular inline Diesel Engine"
+Kerosene,"1,000 mB crude",≈123.53 mB,,Fuel use defined by machine code; no manu...,,,,,,,"TFMG Firebox
+Fueled space-craft departure scenario"
+Naphtha,"1,000 mB crude",≈38.24 mB,,"250 mB Ethylene + 250 mB Propylene
+1 indexed recipes",,,,,,,TFMG Firebox
+Gasoline,"1,000 mB crude",≈176.47 mB,,"250 mB Napalm
+1 indexed recipes",,,,,,,Processor: Mechanical Mixer
+LPG,"1,000 mB crude",≈176.47 mB,,"Lpg Tank
+1 indexed recipes",,,,,,,TFMG Firebox
+Lubrication oil,"1,000 mB crude",≈44.12 mB,,No manufacturing recipe in retained index,,,,,,,No direct machine-part match in retained index
+Quartz → silicon,1 quartz,40 mB liquid silicon,3.6 quartz (average),"2 × Annihilation Core
+Redstone Link Wildcard
+39 indexed recipes",TFMG industrial blasting,Semiconductors and electronics,Electronics feed,Confirmed bundled TFMG recipe; live override not checked,Silicon,"278,500–1,146,300 quartz items*
+Includes silicon, glass and circuit inputs","Processor: Sequenced Assembly
+Processor: Foundry Melting
+Makes: Scorched Fuel Tank"
+Silicon ingot casting,144 mB liquid silicon,1 silicon ingot,144 mB,"Silicon Ingot
+1 indexed recipes",TFMG casting,"Semiconductors, magnetic alloy and electronics",,Confirmed TFMG native casting unit; differs from 90 mB sheet metal basis,,,Processor: TFMG Casting

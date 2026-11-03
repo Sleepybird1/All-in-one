@@ -195,64 +195,629 @@ k = 1,000 ore blocks; oil quantities are mB. Size odds are conditional on occurr
 
 ## Processing yields
 
-### Latest basic rock melting and Vibranium targets
+Snapshot of the **Production** tab in [Industrial Colonies — Vein Balance](https://docs.google.com/spreadsheets/d/1eB8tn9jFumsnquxsZ1CsZR8GkLkyEhkbVO3lvMMpMzc/edit), read November 2, 2026. All **116 populated input rows** and all 12 source columns are represented below. Resource group is the section heading; the remaining columns are split into yield/route and use/demand tables for readability. Blank source cells remain blank, without implying inherited values or verified routes.
 
-October 26–27 records take precedence over the older processing table below. Installation records do not establish a subsequent gameplay reload. Rich/raw and chemical-only routes were not changed by the basic-rock correction.
+**Planning reference, not an installed recipe guarantee.** Recipe/loot reconciliation, active overrides and exact recovery-dust identities remain unresolved where indicated. The sheet uses a **90 mB design basis** for most metals and a separate **144 mB silicon casting unit**; these are copied as recorded, not silently reconciled with older 100 mB accounting notes.
 
-| Input / route | Recorded yield | Status |
-|---|---:|---|
-| Ordinary hematite, basic melting | 3 mB/item | Installed October 26; reload/play verification separate |
-| Ordinary magnetite, basic melting | 3 mB/item | Same |
-| Chalcopyrite, basic melting | 4 mB/item | Same |
-| Cassiterite, basic melting | 3 mB/item | Same |
-| Galena, both supported identities, basic melting | 3 mB/item | Same |
-| Argentite, basic melting | 2 mB/item | Same |
-| Ordinary sphalerite, basic melting | 2 mB/block | Installed fixed output; no ore multiplier or copper byproduct; 45 blocks per recorded 90 mB zinc ingot |
-| Ordinary magnetite, proposed revised recovery | About 1 mB/item | Design target; basic/improved mapping unreviewed, not the installed 3 mB basic route |
-| Ordinary hematite, proposed revised recovery | 25 mB/item | Same unresolved route distinction |
-| Vibranium, best full-deposit processing | Small 10 / medium 35 / large 100 ingots | October 27 selected tiers; ore-count conversion and shared formation accounting pending; supersedes older 20–30-ingot total |
-| P / N semiconductor assembly | 5 semiconductors | October 29 design direction; empty circuit-board workpiece; green P uses gold/copper, pink N also electrum; actual saved/runtime state must be checked |
+Estimated total use is a lean-to-expanded colony scenario: **costed subtotals, not a complete spawn-to-warp bill**. Rock counts assume planned rich-vein averages. Unknown routes and blocked antimatter are excluded; uranium and thorium are alternatives. Recipe examples containing ellipses are retained exactly as displayed in the sheet, not expanded into inferred recipes.
 
-### Recorded full production-yield table
+[Complete 12-column CSV](docs/reference/production-yields.csv) · [Source values and provenance](docs/reference/production-sheet-snapshot.json). This replaces the older October 19 README production table; that historical table remains in [Design Ideas](DESIGN_IDEAS.md).
 
-Retained from the October 19 design table. Entries marked draft/pending remain proposals. It preserves historical arithmetic and mixed metal-unit assumptions; **do not use it as a verified installed recipe catalog**. Use the latest correction table above for basic rock melting and Vibranium. Full reconciliation against current recipes remains open.
+### Iron
 
-| Ore input | Crushing / collection | Amount per input | Seared Smelter output | Blast Furnace output | Fireproof Vat / final recovery |
+Yield and processing
+
+| Resource / Input form | Input amount | Output / input | Inputs per ingot | Processing route | Evidence / assumptions |
 |---|---|---|---|---|---|
-| Magnetite / Rich Magnetite | Crushed Raw Iron | 1 / 3 | 3 / 9 mB iron | Separate steel recipe, later | Fireproof Vat: 10 mB iron/output; 10 / 30 mB per ore |
-| Hematite / Rich Hematite | Crushed Raw Iron | 5 / 9 | 15 / 30 mB iron | Separate steel recipe, later | Fireproof Vat: 10 mB iron/output; 50 / 90 mB per ore |
-| Sphalerite / Rich Zinc | Crushed Raw Zinc | 6 / 12 (draft) | Not assigned | Not assigned | Heated Steel Chemical Vat: 10 mB zinc/output target; 60 / 120 per ore |
-| Chalcopyrite / Rich Copper | Crushed Raw Copper | 6 (draft) / 10 | Not assigned | Not assigned | 10 mB copper/output target; 60 / 100 per ore; machine pending |
-| Bauxite / Rich Bauxite | TFMG Bauxite Powder | 6 / 12 | No direct ore melting | Not assigned | Heated Steel Chemical Vat, centrifuge + side electrodes; 10 mB aluminum/powder target; CO2 byproduct amount pending |
-| Galena / Rich Galena | Crushed Galena | 3 / 6 (draft) | Not assigned | Not assigned | 10 mB lead/output target; 30 / 60 per ore |
-| Cassiterite / Rich Tin | Crushed Raw Tin | 2 / 4 (draft) | Not assigned | Not assigned | 10 mB tin/output target; 20 / 40 per ore |
-| Pentlandite / Rich Nickel | Crushed Raw Nickel | 2 / 4 (draft) | No direct ore melting selected | Not assigned | 10 mB nickel/output target; 20 / 40 per ore; machine pending |
-| Argentite / Rich Silver | Crushed Raw Silver | 1 / 2 (draft) | Not assigned | Not assigned | 10 mB silver/output target; 10 / 20 per ore |
-| Gold ore / Deepslate Gold ore | Crushed Raw Gold | 1 (draft) | Not assigned | Not assigned | 10 mB gold/output target |
-| Ilmenite / Rich Titanium | Crushed Raw Titanium | 2 / 4 (draft) | No direct ore melting selected | Not assigned | 10 mB titanium/output target; 20 / 40 per ore; machine pending |
-| Chromite / Rich Chromium | Chromium Dust | 1 / 4 | Not assigned | Earlier batch proposal: 4 dust -> 70 mB; machine pending | Fireproof Vat: 4 dust -> 90 mB chromium; 22.5 mB/dust equivalent; normal 22.5 / rich 90 |
-| Wolframite / Rich Tungsten | Crushed Raw Tungsten | 1 / 2 (draft) | No direct ore melting selected | Not assigned | 10 mB tungsten/output target; 10 / 20 per ore; machine pending |
-| Spodumene rock / Spodumene ore | Crushed Raw Lithium | 1 / 3 (draft) | No direct ore melting selected | Not assigned | 10 mB lithium/output target; 10 / 30 per input; machine pending |
-| Dolomite | Magnesium Dust | 2 (draft) | Not assigned | Not assigned | 10 mB magnesium/dust target; 20 per ore |
-| Bertrandite | Beryllium Dust | 1 (draft) | Not assigned | Not assigned | 10 mB beryllium/dust target |
-| Borax rock | Boron Dust | 1 (draft) | Not assigned | Not assigned | 10 mB boron/dust target |
-| Cobalt ore | Cobalt Dust | 1 (draft) | Not assigned | Not assigned | 10 mB cobalt/dust target |
-| Uraninite | Crushed Raw Uranium | 1 (draft) | Not assigned | Not assigned | Mekanism processing retained; 10 mB/output balance target, exact recipe pending |
-| Thorium ore | Thorium Dust | 1 (draft) | Not assigned | Not assigned | 10 mB/dust balance target; nuclear recipe pending |
-| Ultramafic rock | Osmium Dust / Platinum Dust / Iridium Dust / Lime Sand | 14% 1 / 5% 1 / 1% 1 / 80% 1 | Not assigned | Not assigned | Metal-dust targets 10 mB/output (draft); independent rolls |
-| Rich Osmium ore | Crushed Raw Osmium + Lime Sand | 80% 1 crushed + 20% 1 sand | Not assigned | Not assigned | 45 mB/successful crushed item; 36 mB expected per ore |
-| Rich Platinum ore | Crushed Raw Platinum + Lime Sand | 80% 1 crushed + 20% 1 sand | Not assigned | Not assigned | 45 mB/successful crushed item; 36 mB expected per ore |
-| Rich Iridium ore | Iridium Dust + Lime Sand | 80% 1 dust + 20% 1 sand | Not assigned | Not assigned | 10 mB/dust target (draft); 8 mB expected per ore |
-| Coal ore | Mining -> Coal; no crushing | 1 | Not a metal | Not a metal | 1 Coal |
-| Graphite rock | Graphite Dust | 1 | Not a metal | Not a metal | 1 Graphite Dust; electrodes are separate |
-| Cinnabar | Cinder Flour | 2 | Not a metal | Not a metal | 2 Cinder Flour; replace old netherrack crushing on export |
-| Calcite | Calcium Dust + Potassium Dust | 40% 1 calcium + 20% 1 potassium | Not assigned | Not assigned | Independent output rolls; downstream chemicals separate |
-| Phosphate rock | Industrial Colonies Phosphate Dust | 1 | Not a metal | Not a metal | 1 Phosphate Dust; white texture requested |
-| Diamond-bearing ore | Intact Diamond | 75% 1 (draft) | Not a metal | Not a metal | Expected 0.75 Diamond per ore |
-| River gold-flake deposit | Collect Gold Flakes | 1-3 | Batch recipe pending | Not assigned | 2 flakes -> 1 mB gold; lone flake waits; 0.5 mB/flake |
-| Finished Gold Dust | Grind finished Gold Ingot -> dust | 1 | 90 mB gold/dust target | Same full-ingot value | 90 mB gold/dust = 1 ingot |
-| Crude oil | Finite field extraction | No crushing | Not a metal | Not a metal | Onshore 5M / 25M / 100M mB; offshore always 100M, very rare |
-| Gas-giant gases | Late-game bulk extraction | Rates pending | Not a metal | Not a metal | Scale extraction/storage/shipping to high late-game chemical demand |
+| Iron / Magnetite | 1 block | 3–10 mB | 9–30 blocks | Basic melting where allowed; crushing + best processing | Sheet draft; recipe/loot reconciliation pending |
+| Rich magnetite ore | 1 rich ore block | 21–30 mB | 3–5 blocks | Crushing → saved recovery route | Saved design cards; rich drop identity still matters |
+| Iron ingot | 1 ingot | 90 mB | 1 ingot | Foundry melting | Bundled recipe; active override not verified |
+| Iron nugget | 1 nugget | 10 mB | 9 nuggets |  |  |
+| Iron dust | 1 dust | 90 mB | 1 dust |  | Bundled conditional tag recipe; active override not verified |
+| Iron / Hematite | 1 block | 3–50 mB | 2–30 blocks | Basic melting where allowed; crushing + best processing | Sheet draft; recipe/loot reconciliation pending |
+| Rich hematite ore | 1 rich ore block | 63–90 mB | 1–2 blocks | Crushing → saved recovery route | Saved design cards; rich drop identity still matters |
+
+Uses and estimated demand
+
+| Resource / Input form | Recipes using this input<br>Examples + indexed count | Industrial uses<br>(examples) | Supply / value role | Total estimated use*<br>Material + rock mined | Machines / parts<br>For this input form |
+|---|---|---|---|---|---|
+| Iron / Magnetite | 3 mB Molten Iron<br>1 indexed recipes | Steel, tools, machine frames, structural parts | Foundational bulk metal | 183,500–807,300 iron ingots*<br>Magnetite only: 1,214,600–5,342,100 blocks<br>Hematite only: 296,200–1,303,000 blocks | Processor: Foundry Melting |
+| Rich magnetite ore | No manufacturing recipe in retained index |  |  |  | No direct machine-part match in retained index |
+| Iron ingot | Weathered Iron Press<br>Cast Iron Ingot<br>338 indexed recipes |  |  |  | Processor: Mechanical Crafters<br>Processor: Sequenced Assembly<br>Makes: Weathered Iron Press |
+| Iron nugget | Cable Insulator<br>4 × Spring<br>98 indexed recipes |  |  |  | Processor: Sequenced Assembly<br>Processor: Mechanical Mixer<br>Makes: Cable Insulator |
+| Iron dust | Iron Heat Sink<br>144 mB Molten Steel + 144 mB Molten Slag ...<br>7 indexed recipes |  |  |  | Processor: Industrial Blast Furnace<br>Processor: Alloy Smelter<br>Makes: Iron Heat Sink |
+| Iron / Hematite | 3 mB Molten Iron<br>1 indexed recipes |  |  |  | Processor: Foundry Melting |
+| Rich hematite ore | No manufacturing recipe in retained index |  |  |  | No direct machine-part match in retained index |
+
+### Aluminum
+
+Yield and processing
+
+| Resource / Input form | Input amount | Output / input | Inputs per ingot | Processing route | Evidence / assumptions |
+|---|---|---|---|---|---|
+| Aluminum / Bauxite | 1 block | 60–60 mB | 2 blocks | Basic melting where allowed; crushing + best processing | Sheet draft; recipe/loot reconciliation pending |
+| Rich bauxite | 1 rich ore block | 120–120 mB | 1 blocks | Crushing → saved recovery route | Saved design cards; rich drop identity still matters |
+| Aluminum ingot | 1 ingot | 90 mB | 1 ingot | Foundry melting | Bundled conditional tag recipe; active override not verified |
+| Aluminum nugget | 1 nugget | 10 mB | 9 nuggets |  |  |
+| Aluminum dust | 1 dust | 90 mB | 1 dust |  |  |
+
+Uses and estimated demand
+
+| Resource / Input form | Recipes using this input<br>Examples + indexed count | Industrial uses<br>(examples) | Supply / value role | Total estimated use*<br>Material + rock mined | Machines / parts<br>For this input form |
+|---|---|---|---|---|---|
+| Aluminum / Bauxite | 4 × Bauxite Powder<br>1 indexed recipes | Lightweight aircraft frames, machinery, electrical parts | Bulk lightweight construction | 55,000–256,100 ingots*<br>75,700–352,500 vein blocks* | Processor: Crushing Wheels |
+| Rich bauxite | 8 × Bauxite Powder<br>1 indexed recipes |  |  |  | Processor: Crushing Wheels |
+| Aluminum ingot | 2 × Large Aluminum Cogwheel<br>4 × Aluminum Cogwheel<br>60 indexed recipes |  |  |  | Processor: Stonecutting<br>Processor: Mechanical Crafters<br>Makes: 2 × Large Aluminum Cogwheel |
+| Aluminum nugget | 4 × Aluminum Frame<br>4 × Aluminum Truss<br>3 indexed recipes |  |  |  | Makes: 4 × Aluminum Frame |
+| Aluminum dust | Aluminum Heat Sink<br>4 × Flare Cartridge<br>5 indexed recipes |  |  |  | Processor: Engineer's Blueprint<br>Processor: Subatomic Liquifier<br>Makes: Aluminum Heat Sink |
+
+### Copper
+
+Yield and processing
+
+| Resource / Input form | Input amount | Output / input | Inputs per ingot | Processing route | Evidence / assumptions |
+|---|---|---|---|---|---|
+| Copper / Chalcopyrite | 1 block | 4–60 mB | 2–23 blocks | Basic melting where allowed; crushing + best processing | Sheet draft; recipe/loot reconciliation pending |
+| Rich copper ore | 1 rich ore block | 70–100 mB | 1–2 blocks | Crushing → saved recovery route | Saved design cards; rich drop identity still matters |
+| Copper ingot | 1 ingot | 90 mB | 1 ingot | Foundry melting | Bundled recipe; active override not verified |
+| Copper nugget | 1 nugget | 10 mB | 9 nuggets |  |  |
+| Copper dust | 1 dust | 90 mB | 1 dust |  | Bundled conditional tag recipe; active override not verified |
+
+Uses and estimated demand
+
+| Resource / Input form | Recipes using this input<br>Examples + indexed count | Industrial uses<br>(examples) | Supply / value role | Total estimated use*<br>Material + rock mined | Machines / parts<br>For this input form |
+|---|---|---|---|---|---|
+| Copper / Chalcopyrite | 4 mB Molten Copper<br>1 indexed recipes | Wiring, motors, coils, brass | Foundational electrical metal | 394,600–1,776,400 ingots*<br>546,000–2,458,100 vein blocks* | Processor: Foundry Melting |
+| Rich copper ore | No manufacturing recipe in retained index |  |  |  | No direct machine-part match in retained index |
+| Copper ingot | 4 × Fluid Pipe<br>4 × LV Wire Connector<br>131 indexed recipes |  |  |  | Processor: Crafting Shaped Retextured<br>Processor: Metal Press<br>Makes: 4 × Fluid Pipe |
+| Copper nugget | 4 × Copper Frame<br>4 × Neon Tube<br>20 indexed recipes |  |  |  | Processor: Sequenced Assembly<br>Processor: Mechanical Press / Basin<br>Makes: 4 × Copper Frame |
+| Copper dust | Copper Heat Sink<br>2 × Constantan Grit<br>8 indexed recipes |  |  |  | Processor: Assembler<br>Processor: Metallurgic Infuser<br>Makes: Copper Heat Sink |
+
+### Zinc
+
+Yield and processing
+
+| Resource / Input form | Input amount | Output / input | Inputs per ingot | Processing route | Evidence / assumptions |
+|---|---|---|---|---|---|
+| Zinc / Sphalerite | 1 block | 2–60 mB | 2–45 blocks | Basic melting where allowed; crushing + best processing | Sheet draft; recipe/loot reconciliation pending |
+| Rich sphalerite | 1 rich ore block | 84–120 mB | 1–2 blocks | Crushing → saved recovery route | Saved design cards; rich drop identity still matters |
+| Zinc ingot | 1 ingot | 90 mB | 1 ingot | Foundry melting | Bundled conditional tag recipe; active override not verified |
+| Zinc nugget | 1 nugget | 10 mB | 9 nuggets |  |  |
+| Zinc dust | 1 dust | 90 mB | 1 dust |  |  |
+
+Uses and estimated demand
+
+| Resource / Input form | Recipes using this input<br>Examples + indexed count | Industrial uses<br>(examples) | Supply / value role | Total estimated use*<br>Material + rock mined | Machines / parts<br>For this input form |
+|---|---|---|---|---|---|
+| Zinc / Sphalerite | 2 mB Molten Zinc<br>1 indexed recipes | Brass, alloy feed, starter Create industry | Progression alloy metal | 7,560–26,400 ingots*<br>10,200–35,700 vein blocks* | Processor: Foundry Melting |
+| Rich sphalerite | No manufacturing recipe in retained index |  |  |  | No direct machine-part match in retained index |
+| Zinc ingot | Zinc Mechanism<br>Electric Gauge<br>80 indexed recipes |  |  |  | Processor: Stonecutting<br>Processor: Mechanical Saw<br>Makes: Zinc Mechanism |
+| Zinc nugget | Andesite Alloy<br>Zinc Mechanism<br>13 indexed recipes |  |  |  | Processor: Sequenced Assembly<br>Processor: Mechanical Mixer<br>Makes: Andesite Alloy |
+| Zinc dust | No manufacturing recipe in retained index |  |  |  | No direct machine-part match in retained index |
+
+### Magnesium
+
+Yield and processing
+
+| Resource / Input form | Input amount | Output / input | Inputs per ingot | Processing route | Evidence / assumptions |
+|---|---|---|---|---|---|
+| Magnesium / Dolomite | 1 block | 20–20 mB | 5 blocks | Basic melting where allowed; crushing + best processing | Sheet draft; recipe/loot reconciliation pending |
+| Magnesium ingot (design unit) | 90 mB molten metal | 1 ingot | 1 casting unit | Sheet unit basis; exact casting recipe unverified | 90 mB design basis; not verified native remelting |
+| Magnesium recovery dust | 1 dust | 10 mB | 9 dust | Saved vat recovery design | Saved recipe card, not loaded-recipe acceptance |
+
+Uses and estimated demand
+
+| Resource / Input form | Recipes using this input<br>Examples + indexed count | Industrial uses<br>(examples) | Supply / value role | Total estimated use*<br>Material + rock mined | Machines / parts<br>For this input form |
+|---|---|---|---|---|---|
+| Magnesium / Dolomite | No manufacturing recipe in retained index | Titanium reduction, lightweight and nuclear alloys | Chemical and alloy feed | 61–132 ingots*<br>273–594 vein blocks* | No direct machine-part match in retained index |
+| Magnesium ingot (design unit) | Drive Upgrade<br>Import/Export Bus Upgrade<br>13 indexed recipes |  |  |  | Processor: Alloy Smelter<br>Processor: Subatomic Liquifier<br>Makes: Drive Upgrade |
+| Magnesium recovery dust | Saved recovery dust; exact input identity... |  |  |  | Exact recovery-dust item identity unverified |
+
+### Lead
+
+Yield and processing
+
+| Resource / Input form | Input amount | Output / input | Inputs per ingot | Processing route | Evidence / assumptions |
+|---|---|---|---|---|---|
+| Lead / Galena | 1 block | 3–30 mB | 3–30 blocks | Basic melting where allowed; crushing + best processing | Sheet draft; recipe/loot reconciliation pending |
+| Rich galena ore | 1 rich ore block | 42–60 mB | 2–3 blocks | Crushing → saved recovery route | Saved design cards; rich drop identity still matters |
+| Lead ingot | 1 ingot | 90 mB | 1 ingot | Foundry melting | Bundled conditional tag recipe; active override not verified |
+| Lead nugget | 1 nugget | 10 mB | 9 nuggets |  |  |
+| Lead dust | 1 dust | 90 mB | 1 dust |  |  |
+
+Uses and estimated demand
+
+| Resource / Input form | Recipes using this input<br>Examples + indexed count | Industrial uses<br>(examples) | Supply / value role | Total estimated use*<br>Material + rock mined | Machines / parts<br>For this input form |
+|---|---|---|---|---|---|
+| Lead / Galena | 2 × Cut Galena Brick Slab<br>2 × Cut Galena Slab<br>22 indexed recipes | Radiation shielding, nuclear machinery, specialty alloys | Shielding and nuclear industry | 2,130–5,580 ingots*<br>5,780–15,100 vein blocks* | Processor: Stonecutting<br>Processor: Foundry Melting |
+| Rich galena ore | No manufacturing recipe in retained index |  |  |  | No direct machine-part match in retained index |
+| Lead ingot | 2 × Radioactive Waste Barrel<br>Drive Upgrade<br>36 indexed recipes |  |  |  | Processor: Industrial Iron Compacting<br>Processor: Stonecutting<br>Makes: 2 × Radioactive Waste Barrel |
+| Lead nugget | 4 × Lead Frame<br>4 × Casull Cartridge<br>7 indexed recipes |  |  |  | Processor: Engineer's Blueprint<br>Processor: Smelting<br>Makes: 4 × Lead Frame |
+| Lead dust | Lead Heat Sink<br>16 × White Dye<br>5 indexed recipes |  |  |  | Processor: Alloy Smelter<br>Processor: Subatomic Liquifier<br>Makes: Lead Heat Sink |
+
+### Uranium
+
+Yield and processing
+
+| Resource / Input form | Input amount | Output / input | Inputs per ingot | Processing route | Evidence / assumptions |
+|---|---|---|---|---|---|
+| Lead + uranium / Galena | 1 block | Lead: ≈2.94–29.4 mB<br>Uranium: ≈0.2–0.2 mB | N/A | Basic melting where allowed; crushing + best processing | Sheet draft; recipe/loot reconciliation pending |
+| Uranium ingot | 1 ingot | 90 mB | 1 ingot | Foundry melting | Bundled conditional tag recipe; active override not verified |
+| Uranium nugget | 1 nugget | 10 mB | 9 nuggets |  |  |
+| Uranium dust | 1 dust | 90 mB | 1 dust |  |  |
+
+Uses and estimated demand
+
+| Resource / Input form | Recipes using this input<br>Examples + indexed count | Industrial uses<br>(examples) | Supply / value role | Total estimated use*<br>Material + rock mined | Machines / parts<br>For this input form |
+|---|---|---|---|---|---|
+| Lead + uranium / Galena | No manufacturing recipe in retained index | Nuclear fuel and nuclear processing | Specialist energy feed | 17,900–595,700 ingot-equivalents*<br>8,076,800–268,065,000 host blocks*<br>If this fuel supplies the ordinary grid | No direct machine-part match in retained index |
+| Uranium ingot | Drive Upgrade<br>Import/Export Bus Upgrade<br>20 indexed recipes |  |  |  | Processor: Fluidizersolid<br>Processor: Enrichment Chamber<br>Makes: Drive Upgrade |
+| Uranium nugget | Only generic mold-making matches<br>1 indexed recipes |  |  |  | Processor: Casting Table |
+| Uranium dust | Atomic Alloy<br>450 mB Subliquid Matter<br>4 indexed recipes |  |  |  | Processor: Refined Radiance Mixing<br>Processor: Subatomic Liquifier<br>Makes: Atomic Alloy |
+
+### Thorium
+
+Yield and processing
+
+| Resource / Input form | Input amount | Output / input | Inputs per ingot | Processing route | Evidence / assumptions |
+|---|---|---|---|---|---|
+| Lead + thorium / Galena | 1 block | Lead: ≈2.94–29.4 mB<br>Thorium: ≈0.2–0.2 mB | N/A | Basic melting where allowed; crushing + best processing | Sheet draft; recipe/loot reconciliation pending |
+| Thorium ingot (design unit) | 90 mB molten metal | 1 ingot | 1 casting unit | Sheet unit basis; exact casting recipe unverified | 90 mB design basis; not verified native remelting |
+| Thorium recovery dust | 1 dust | 10 mB | 9 dust | Saved vat recovery design | Saved recipe card, not loaded-recipe acceptance |
+
+Uses and estimated demand
+
+| Resource / Input form | Recipes using this input<br>Examples + indexed count | Industrial uses<br>(examples) | Supply / value role | Total estimated use*<br>Material + rock mined | Machines / parts<br>For this input form |
+|---|---|---|---|---|---|
+| Lead + thorium / Galena | No manufacturing recipe in retained index | Nuclear fuel chains and nuclear alloys | Specialist nuclear feed | 12,600–395,300 ingot-equivalents*<br>5,671,000–177,902,000 host blocks*<br>If this fuel supplies the ordinary grid | No direct machine-part match in retained index |
+| Thorium ingot (design unit) | Drive Upgrade<br>Import/Export Bus Upgrade<br>10 indexed recipes |  |  |  | Processor: Subatomic Liquifier<br>Makes: Drive Upgrade<br>Makes: Import/Export Bus Upgrade |
+| Thorium recovery dust | Saved recovery dust; exact input identity... |  |  |  | Exact recovery-dust item identity unverified |
+
+### Tin
+
+Yield and processing
+
+| Resource / Input form | Input amount | Output / input | Inputs per ingot | Processing route | Evidence / assumptions |
+|---|---|---|---|---|---|
+| Tin / Cassiterite | 1 block | 3–20 mB | 5–30 blocks | Basic melting where allowed; crushing + best processing | Sheet draft; recipe/loot reconciliation pending |
+| Rich tin ore | 1 rich ore block | 28–40 mB | 3–4 blocks | Crushing → saved recovery route | Saved design cards; rich drop identity still matters |
+| Tin ingot | 1 ingot | 90 mB | 1 ingot | Foundry melting | Bundled conditional tag recipe; active override not verified |
+| Tin nugget | 1 nugget | 10 mB | 9 nuggets |  |  |
+| Tin dust | 1 dust | 90 mB | 1 dust |  |  |
+
+Uses and estimated demand
+
+| Resource / Input form | Recipes using this input<br>Examples + indexed count | Industrial uses<br>(examples) | Supply / value role | Total estimated use*<br>Material + rock mined | Machines / parts<br>For this input form |
+|---|---|---|---|---|---|
+| Tin / Cassiterite | 3 mB Molten Tin<br>1 indexed recipes | Bronze and other alloys, electronics components | General alloy feed | 1–3 ingots*<br>4.2–13 vein blocks* | Processor: Foundry Melting |
+| Rich tin ore | No manufacturing recipe in retained index |  |  |  | No direct machine-part match in retained index |
+| Tin ingot | 4 × Cable Anchor<br>Drive Upgrade<br>20 indexed recipes |  |  |  | Processor: Quartz Cutting<br>Processor: Alloy Smelter<br>Makes: 4 × Cable Anchor |
+| Tin nugget | Only generic mold-making matches<br>1 indexed recipes |  |  |  | Processor: Casting Table |
+| Tin dust | Tin Heat Sink<br>10 chemical units Tin<br>9 indexed recipes |  |  |  | Processor: Alloy Smelter<br>Processor: Chemical Oxidizer<br>Makes: Tin Heat Sink |
+
+### Nickel
+
+Yield and processing
+
+| Resource / Input form | Input amount | Output / input | Inputs per ingot | Processing route | Evidence / assumptions |
+|---|---|---|---|---|---|
+| Nickel / Pentlandite | 1 block | 14–20 mB | 5–7 blocks | Basic melting where allowed; crushing + best processing | Sheet draft; recipe/loot reconciliation pending |
+| Rich nickel ore | 1 rich ore block | 28–40 mB | 3–4 blocks | Crushing → saved recovery route | Saved design cards; rich drop identity still matters |
+| Nickel ingot | 1 ingot | 90 mB | 1 ingot | Foundry melting | Bundled conditional tag recipe; active override not verified |
+| Nickel nugget | 1 nugget | 10 mB | 9 nuggets |  |  |
+| Nickel dust | 1 dust | 90 mB | 1 dust |  |  |
+
+Uses and estimated demand
+
+| Resource / Input form | Recipes using this input<br>Examples + indexed count | Industrial uses<br>(examples) | Supply / value role | Total estimated use*<br>Material + rock mined | Machines / parts<br>For this input form |
+|---|---|---|---|---|---|
+| Nickel / Pentlandite | No manufacturing recipe in retained index | Steel alloys, invar, magnetic alloys | Broad industrial alloy metal | 201,100–919,600 ingots*<br>830,100–3,796,400 vein blocks* | No direct machine-part match in retained index |
+| Rich nickel ore | No manufacturing recipe in retained index |  |  |  | No direct machine-part match in retained index |
+| Nickel ingot | Nickel Plate<br>2 × Magnetic Alloy Ingot<br>15 indexed recipes |  |  |  | Processor: Sequenced Assembly<br>Processor: Mechanical Mixer<br>Makes: 2 × Magnetic Alloy Ingot |
+| Nickel nugget | 4 × Nickel Frame<br>4 × Nickel Truss<br>3 indexed recipes |  |  |  | Makes: 4 × Nickel Frame |
+| Nickel dust | 2 × Constantan Grit<br>1 indexed recipes |  |  |  | Processor: Crafting |
+
+### Cobalt
+
+Yield and processing
+
+| Resource / Input form | Input amount | Output / input | Inputs per ingot | Processing route | Evidence / assumptions |
+|---|---|---|---|---|---|
+| Cobalt / Pentlandite | 1 block | ≈0.07–0.1 mB | 900–1286 blocks | Basic melting where allowed; crushing + best processing | Sheet draft; recipe/loot reconciliation pending |
+| Cobalt ingot | 1 ingot | 90 mB | 1 ingot | Foundry melting | Bundled recipe; active override not verified |
+| Cobalt nugget | 1 nugget | 10 mB | 9 nuggets |  |  |
+| Cobalt dust | 1 dust | 90 mB | 1 dust |  | Bundled conditional tag recipe; active override not verified |
+
+Uses and estimated demand
+
+| Resource / Input form | Recipes using this input<br>Examples + indexed count | Industrial uses<br>(examples) | Supply / value role | Total estimated use*<br>Material + rock mined | Machines / parts<br>For this input form |
+|---|---|---|---|---|---|
+| Cobalt / Pentlandite | No manufacturing recipe in retained index | Specialty alloys and nuclear materials | Pentlandite-associated specialist | 6,550–25,700 ingots*<br>5,893,600–23,171,400 vein blocks* | No direct machine-part match in retained index |
+| Cobalt ingot | Elite Induction Cell<br>Industrial Iron Mixer<br>20 indexed recipes |  |  |  | Processor: Mechanical Crafters<br>Processor: Sequenced Assembly<br>Makes: Elite Induction Cell |
+| Cobalt nugget | 4 × Cobalt Platform<br>2 indexed recipes |  |  |  | Processor: Casting Table<br>Processor: Crafting |
+| Cobalt dust | Cobalt Heat Sink<br>450 mB Subliquid Matter<br>2 indexed recipes |  |  |  | Processor: Subatomic Liquifier<br>Makes: Cobalt Heat Sink |
+
+### Titanium
+
+Yield and processing
+
+| Resource / Input form | Input amount | Output / input | Inputs per ingot | Processing route | Evidence / assumptions |
+|---|---|---|---|---|---|
+| Titanium / Ilmenite | 1 block | 14–20 mB | 5–7 blocks | Basic melting where allowed; crushing + best processing | Sheet draft; recipe/loot reconciliation pending |
+| Rich ilmenite ore | 1 rich ore block | 28–40 mB | 3–4 blocks | Crushing → saved recovery route | Saved design cards; rich drop identity still matters |
+| Titanium ingot (design unit) | 90 mB molten metal | 1 ingot | 1 casting unit | Sheet unit basis; exact casting recipe unverified | 90 mB design basis; not verified native remelting |
+| Titanium recovery dust | 1 dust | 10 mB | 9 dust | Saved vat recovery design | Saved recipe card, not loaded-recipe acceptance |
+
+Uses and estimated demand
+
+| Resource / Input form | Recipes using this input<br>Examples + indexed count | Industrial uses<br>(examples) | Supply / value role | Total estimated use*<br>Material + rock mined | Machines / parts<br>For this input form |
+|---|---|---|---|---|---|
+| Titanium / Ilmenite | No manufacturing recipe in retained index | Aircraft, spacecraft, advanced structural alloys | Advanced structural metal | 1,370–4,110 ingots*<br>5,770–17,300 vein blocks* | No direct machine-part match in retained index |
+| Rich ilmenite ore | No manufacturing recipe in retained index |  |  |  | No direct machine-part match in retained index |
+| Titanium ingot (design unit) | Industrial Iron Deployer<br>Industrial Iron Encased Fan<br>13 indexed recipes |  |  |  | Processor: Sequenced Assembly<br>Processor: Mechanical Mixer<br>Makes: Industrial Iron Deployer |
+| Titanium recovery dust | Saved recovery dust; exact input identity... |  |  |  | Exact recovery-dust item identity unverified |
+
+### Chromium
+
+Yield and processing
+
+| Resource / Input form | Input amount | Output / input | Inputs per ingot | Processing route | Evidence / assumptions |
+|---|---|---|---|---|---|
+| Chromium / Chromite | 1 block | 17.5–22.5 mB | 4–6 blocks | Basic melting where allowed; crushing + best processing | Sheet draft; recipe/loot reconciliation pending |
+| Rich chromium ore | 1 rich ore block | 70–90 mB | 1–2 blocks | Crushing → saved recovery route | Saved design cards; rich drop identity still matters |
+| Chromium ingot | 1 ingot | 90 mB | 1 ingot | Foundry melting | Bundled conditional tag recipe; active override not verified |
+| Chromium nugget | 1 nugget | 10 mB | 9 nuggets |  |  |
+| Chromium dust | 1 dust | 90 mB | 1 dust |  |  |
+
+Uses and estimated demand
+
+| Resource / Input form | Recipes using this input<br>Examples + indexed count | Industrial uses<br>(examples) | Supply / value role | Total estimated use*<br>Material + rock mined | Machines / parts<br>For this input form |
+|---|---|---|---|---|---|
+| Chromium / Chromite | No manufacturing recipe in retained index | Steel and specialty alloy production | Industrial alloy additive | 2,370–7,730 ingots*<br>7,810–25,400 vein blocks* | No direct machine-part match in retained index |
+| Rich chromium ore | No manufacturing recipe in retained index |  |  |  | No direct machine-part match in retained index |
+| Chromium ingot | Drive Upgrade<br>Import/Export Bus Upgrade<br>10 indexed recipes |  |  |  | Processor: Alloy Smelter<br>Makes: Drive Upgrade<br>Makes: Import/Export Bus Upgrade |
+| Chromium nugget | No manufacturing recipe in retained index |  |  |  | No direct machine-part match in retained index |
+| Chromium dust | 2 × Chromatic Compound<br>90 mB Molten Chromium + 10 mB Molten Slag<br>4 indexed recipes |  |  |  | Processor: Industrial Iron Mixing<br>Processor: Vat Machine Recipe |
+
+### Lithium
+
+Yield and processing
+
+| Resource / Input form | Input amount | Output / input | Inputs per ingot | Processing route | Evidence / assumptions |
+|---|---|---|---|---|---|
+| Lithium / Spodumene | 1 block | 10–10 mB | 9 blocks | Basic melting where allowed; crushing + best processing | Sheet draft; recipe/loot reconciliation pending |
+| Spodumene ore | 1 rich ore block | 30–30 mB | 3 blocks | Crushing → saved recovery route | Saved design cards; rich drop identity still matters |
+| Lithium ingot (design unit) | 90 mB molten metal | 1 ingot | 1 casting unit | Sheet unit basis; exact casting recipe unverified | 90 mB design basis; not verified native remelting |
+| Lithium recovery dust | 1 dust | 10 mB | 9 dust | Saved vat recovery design | Saved recipe card, not loaded-recipe acceptance |
+
+Uses and estimated demand
+
+| Resource / Input form | Recipes using this input<br>Examples + indexed count | Industrial uses<br>(examples) | Supply / value role | Total estimated use*<br>Material + rock mined | Machines / parts<br>For this input form |
+|---|---|---|---|---|---|
+| Lithium / Spodumene | No manufacturing recipe in retained index | Batteries, nuclear/fusion and chemical chains | Energy and chemical specialist | 6,370–102,500 ingots*<br>50,100–806,500 vein blocks* | No direct machine-part match in retained index |
+| Spodumene ore | No manufacturing recipe in retained index |  |  |  | No direct machine-part match in retained index |
+| Lithium ingot (design unit) | 2 × Tough Alloy Ingot<br>Drive Upgrade<br>14 indexed recipes |  |  |  | Processor: Alloy Smelter<br>Processor: Subatomic Liquifier<br>Makes: 2 × Tough Alloy Ingot |
+| Lithium recovery dust | Saved recovery dust; exact input identity... |  |  |  | Exact recovery-dust item identity unverified |
+
+### Silver
+
+Yield and processing
+
+| Resource / Input form | Input amount | Output / input | Inputs per ingot | Processing route | Evidence / assumptions |
+|---|---|---|---|---|---|
+| Silver / Argentite | 1 block | 2–10 mB | 9–45 blocks | Basic melting where allowed; crushing + best processing | Sheet draft; recipe/loot reconciliation pending |
+| Rich silver ore | 1 rich ore block | 14–20 mB | 5–7 blocks | Crushing → saved recovery route | Saved design cards; rich drop identity still matters |
+| Silver ingot | 1 ingot | 90 mB | 1 ingot | Foundry melting | Bundled conditional tag recipe; active override not verified |
+| Silver nugget | 1 nugget | 10 mB | 9 nuggets |  |  |
+| Silver dust | 1 dust | 90 mB | 1 dust |  |  |
+
+Uses and estimated demand
+
+| Resource / Input form | Recipes using this input<br>Examples + indexed count | Industrial uses<br>(examples) | Supply / value role | Total estimated use*<br>Material + rock mined | Machines / parts<br>For this input form |
+|---|---|---|---|---|---|
+| Silver / Argentite | 2 mB Molten Silver<br>1 indexed recipes | Conductors, electrum and specialty electronics | Precious electrical metal | 16–80 ingots*<br>137–683 vein blocks* | Processor: Foundry Melting |
+| Rich silver ore | No manufacturing recipe in retained index |  |  |  | No direct machine-part match in retained index |
+| Silver ingot | 3 × Coil Bscco<br>Basic Processor<br>26 indexed recipes |  |  |  | Processor: Assembler<br>Processor: Alloy Smelter<br>Makes: 3 × Coil Bscco |
+| Silver nugget | 4 × Silver Cartridge<br>Pile of Silver<br>3 indexed recipes |  |  |  | Processor: Engineer's Blueprint |
+| Silver dust | Silver Heat Sink<br>2 × Electrum Grit<br>7 indexed recipes |  |  |  | Processor: Alloy Smelter<br>Processor: Subatomic Liquifier<br>Makes: Silver Heat Sink |
+
+### Gold
+
+Yield and processing
+
+| Resource / Input form | Input amount | Output / input | Inputs per ingot | Processing route | Evidence / assumptions |
+|---|---|---|---|---|---|
+| Gold / Gold ore | 1 block | 7–10 mB | 9–13 blocks | Basic melting where allowed; crushing + best processing | Sheet draft; recipe/loot reconciliation pending |
+| Gold ingot | 1 ingot | 90 mB | 1 ingot | Foundry melting | Bundled recipe; active override not verified |
+| Gold nugget | 1 nugget | 10 mB | 9 nuggets |  |  |
+| Gold dust | 1 dust | 90 mB | 1 dust |  | Bundled conditional tag recipe; active override not verified |
+
+Uses and estimated demand
+
+| Resource / Input form | Recipes using this input<br>Examples + indexed count | Industrial uses<br>(examples) | Supply / value role | Total estimated use*<br>Material + rock mined | Machines / parts<br>For this input form |
+|---|---|---|---|---|---|
+| Gold / Gold ore | 1 mB Gold Slurry<br>1000 chemical units Dirty Gold Slurry<br>9 indexed recipes | Electronics, electrum and advanced components | Precious electronics metal | 6,530–26,600 ingots*<br>58,800–239,800 vein blocks* | Processor: Leacher<br>Processor: Chemical Dissolution Chamber |
+| Gold ingot | 2 × Heat Exchanger Hot Coolant Port<br>2 × Turbine Bearing<br>110 indexed recipes |  |  |  | Processor: Quartz Cutting<br>Processor: Assembler<br>Makes: 2 × Heat Exchanger Hot Coolant Port |
+| Gold nugget | Electrode Holder<br>Metallurgic Infuser<br>25 indexed recipes |  |  |  | Processor: Mechanical Crafters<br>Processor: Mechanical Press / Basin<br>Makes: Electrode Holder |
+| Gold dust | Gold Heat Sink<br>10 chemical units Gold<br>8 indexed recipes |  |  |  | Processor: Alloy Smelter<br>Processor: Subatomic Liquifier<br>Makes: Gold Heat Sink |
+
+### Tungsten
+
+Yield and processing
+
+| Resource / Input form | Input amount | Output / input | Inputs per ingot | Processing route | Evidence / assumptions |
+|---|---|---|---|---|---|
+| Tungsten / Wolframite | 1 block | 7–10 mB | 9–13 blocks | Basic melting where allowed; crushing + best processing | Sheet draft; recipe/loot reconciliation pending |
+| Rich wolframite ore | 1 rich ore block | 14–20 mB | 5–7 blocks | Crushing → saved recovery route | Saved design cards; rich drop identity still matters |
+| Tungsten ingot | 1 ingot | 90 mB | 1 ingot | Foundry melting | Bundled conditional tag recipe; active override not verified |
+| Tungsten nugget | 1 nugget | 10 mB | 9 nuggets |  |  |
+| Tungsten dust | 1 dust | 90 mB | 1 dust |  |  |
+
+Uses and estimated demand
+
+| Resource / Input form | Recipes using this input<br>Examples + indexed count | Industrial uses<br>(examples) | Supply / value role | Total estimated use*<br>Material + rock mined | Machines / parts<br>For this input form |
+|---|---|---|---|---|---|
+| Tungsten / Wolframite | No manufacturing recipe in retained index | High-temperature parts and specialty alloys | Refractory specialist | 205–615 ingots*<br>1,750–5,250 vein blocks* | No direct machine-part match in retained index |
+| Rich wolframite ore | No manufacturing recipe in retained index |  |  |  | No direct machine-part match in retained index |
+| Tungsten ingot | Industrial Iron Deployer<br>Industrial Iron Encased Fan<br>11 indexed recipes |  |  |  | Processor: Sequenced Assembly<br>Makes: Industrial Iron Deployer<br>Makes: Industrial Iron Encased Fan |
+| Tungsten nugget | Only generic mold-making matches<br>1 indexed recipes |  |  |  | Processor: Casting Table |
+| Tungsten dust | No manufacturing recipe in retained index |  |  |  | No direct machine-part match in retained index |
+
+### Boron
+
+Yield and processing
+
+| Resource / Input form | Input amount | Output / input | Inputs per ingot | Processing route | Evidence / assumptions |
+|---|---|---|---|---|---|
+| Boron / Borax rock | 1 block | 10–10 mB | 9 blocks | Basic melting where allowed; crushing + best processing | Sheet draft; recipe/loot reconciliation pending |
+| Boron ingot (design unit) | 90 mB molten metal | 1 ingot | 1 casting unit | Sheet unit basis; exact casting recipe unverified | 90 mB design basis; not verified native remelting |
+| Boron recovery dust | 1 dust | 10 mB | 9 dust | Saved vat recovery design | Saved recipe card, not loaded-recipe acceptance |
+
+Uses and estimated demand
+
+| Resource / Input form | Recipes using this input<br>Examples + indexed count | Industrial uses<br>(examples) | Supply / value role | Total estimated use*<br>Material + rock mined | Machines / parts<br>For this input form |
+|---|---|---|---|---|---|
+| Boron / Borax rock | Borax DUst<br>1 indexed recipes | Nuclear materials, chemistry and semiconductor feed | Nuclear / chemical additive | 500–1,250 ingots*<br>4,500–11,200 vein blocks* | Processor: Crushing Wheels |
+| Boron ingot (design unit) | Fission Reactor Controller<br>Fission Reactor Irradiation Chamber<br>14 indexed recipes |  |  |  | Processor: Mechanical Crafters<br>Processor: Alloy Smelter<br>Makes: Fission Reactor Controller |
+| Boron recovery dust | Saved recovery dust; exact input identity... |  |  |  | Exact recovery-dust item identity unverified |
+
+### Beryllium
+
+Yield and processing
+
+| Resource / Input form | Input amount | Output / input | Inputs per ingot | Processing route | Evidence / assumptions |
+|---|---|---|---|---|---|
+| Beryllium / Bertrandite | 1 block | 10–10 mB | 9 blocks | Basic melting where allowed; crushing + best processing | Sheet draft; recipe/loot reconciliation pending |
+| Beryllium ingot (design unit) | 90 mB molten metal | 1 ingot | 1 casting unit | Sheet unit basis; exact casting recipe unverified | 90 mB design basis; not verified native remelting |
+| Beryllium recovery dust | 1 dust | 10 mB | 9 dust | Saved vat recovery design | Saved recipe card, not loaded-recipe acceptance |
+
+Uses and estimated demand
+
+| Resource / Input form | Recipes using this input<br>Examples + indexed count | Industrial uses<br>(examples) | Supply / value role | Total estimated use*<br>Material + rock mined | Machines / parts<br>For this input form |
+|---|---|---|---|---|---|
+| Beryllium / Bertrandite | No manufacturing recipe in retained index | Nuclear and aerospace material chains | Specialist material; demand not measured | No quantified consumption in the costed scenario*<br>Unresolved endgame inputs remain | No direct machine-part match in retained index |
+| Beryllium ingot (design unit) | Drive Upgrade<br>Import/Export Bus Upgrade<br>10 indexed recipes |  |  |  | Makes: Drive Upgrade<br>Makes: Import/Export Bus Upgrade<br>Makes: Turbine Beryllium Coil |
+| Beryllium recovery dust | Saved recovery dust; exact input identity... |  |  |  | Exact recovery-dust item identity unverified |
+
+### Coal
+
+Yield and processing
+
+| Resource / Input form | Input amount | Output / input | Inputs per ingot | Processing route | Evidence / assumptions |
+|---|---|---|---|---|---|
+| Coal / Coal ore | 1 block | 1 coal | N/A | Mining | Selected one coal per ore |
+
+Uses and estimated demand
+
+| Resource / Input form | Recipes using this input<br>Examples + indexed count | Industrial uses<br>(examples) | Supply / value role | Total estimated use*<br>Material + rock mined | Machines / parts<br>For this input form |
+|---|---|---|---|---|---|
+| Coal / Coal ore | Coal<br>Coal Ore Mine<br>9 indexed recipes | Fuel, coke, steelmaking and carbon chemistry | Bulk fuel / carbon | 71,300–304,800 coal*<br>71,300–304,800 ore blocks* | Processor: Blasting<br>Processor: Nuclear Blast |
+
+### Graphite
+
+Yield and processing
+
+| Resource / Input form | Input amount | Output / input | Inputs per ingot | Processing route | Evidence / assumptions |
+|---|---|---|---|---|---|
+| Graphite / Graphite rock | 1 block | 1–1 dust | N/A | Crushing | Sheet draft; recipe/loot reconciliation pending |
+| Diamond / Graphite rock | 1 block | ≈0.001–0.001 diamond |  | Associated diamond recovery | Draft host average; not yield of a diamond ore block |
+
+Uses and estimated demand
+
+| Resource / Input form | Recipes using this input<br>Examples + indexed count | Industrial uses<br>(examples) | Supply / value role | Total estimated use*<br>Material + rock mined | Machines / parts<br>For this input form |
+|---|---|---|---|---|---|
+| Graphite / Graphite rock | No manufacturing recipe in retained index | Electrodes, nuclear components and carbon processing | Industrial carbon | 1,630–4,470 graphite dust*<br>17,200–60,000 diamonds*<br>17,217,000–60,001,000 shared host blocks* | No direct machine-part match in retained index |
+| Diamond / Graphite rock | No manufacturing recipe in retained index |  |  |  | No direct machine-part match in retained index |
+
+### Phosphorus
+
+Yield and processing
+
+| Resource / Input form | Input amount | Output / input | Inputs per ingot | Processing route | Evidence / assumptions |
+|---|---|---|---|---|---|
+| Phosphorus / Phosphate rock | 1 block | 1–1 dust | N/A | Saved processing design | Sheet draft; recipe/loot reconciliation pending |
+
+Uses and estimated demand
+
+| Resource / Input form | Recipes using this input<br>Examples + indexed count | Industrial uses<br>(examples) | Supply / value role | Total estimated use*<br>Material + rock mined | Machines / parts<br>For this input form |
+|---|---|---|---|---|---|
+| Phosphorus / Phosphate rock | No manufacturing recipe in retained index | Fertilizers, chemistry and semiconductor doping | Agricultural / chemical feed | No quantified consumption in the costed scenario*<br>Unresolved semiconductor inputs remain | No direct machine-part match in retained index |
+
+### Cinnabar
+
+Yield and processing
+
+| Resource / Input form | Input amount | Output / input | Inputs per ingot | Processing route | Evidence / assumptions |
+|---|---|---|---|---|---|
+| Redstone, sulfur / Cinnabar | 1 block | Redstone: ≈1<br>Sulfur: ≈0.2 dust | N/A | Crushing → washing | Saved design; expected chance-based outputs |
+
+Uses and estimated demand
+
+| Resource / Input form | Recipes using this input<br>Examples + indexed count | Industrial uses<br>(examples) | Supply / value role | Total estimated use*<br>Material + rock mined | Machines / parts<br>For this input form |
+|---|---|---|---|---|---|
+| Redstone, sulfur / Cinnabar | No manufacturing recipe in retained index | Redstone control circuits; sulfur for chemistry | Controls plus chemical coproduct | 241,200–1,173,600 redstone dust*<br>53,000–241,200 sulfur dust*<br>264,900–1,206,200 shared cinnabar blocks* | No direct machine-part match in retained index |
+
+### Ultramafic rock
+
+Yield and processing
+
+| Resource / Input form | Input amount | Output / input | Inputs per ingot | Processing route | Evidence / assumptions |
+|---|---|---|---|---|---|
+| Ultramafic rock | 1 block | Osmium: ≈0.63%<br>Platinum: ≈0.225%<br>Iridium: ≈0.045% | ≈1,429 Os / 4,000 Pt / 20,000 Ir blocks | Trace nugget recovery | Draft chance per host block |
+
+Uses and estimated demand
+
+| Resource / Input form | Recipes using this input<br>Examples + indexed count | Industrial uses<br>(examples) | Supply / value role | Total estimated use*<br>Material + rock mined | Machines / parts<br>For this input form |
+|---|---|---|---|---|---|
+| Ultramafic rock | No manufacturing recipe in retained index | Trace osmium, platinum and iridium recovery | Low-yield host feed | 3,652,500–16,225,600 ordinary host blocks*<br>Meets all three PGM demands jointly | No direct machine-part match in retained index |
+
+### Osmium
+
+Yield and processing
+
+| Resource / Input form | Input amount | Output / input | Inputs per ingot | Processing route | Evidence / assumptions |
+|---|---|---|---|---|---|
+| Osmium-rich / Ultramafic rock | 1 rich ore block | 31.5–45 mB | 2–3 blocks | Crush → blast / vat | Saved rich-ore design; main product guaranteed by crushing. Vein mixture differs. |
+| Osmium ingot | 1 ingot | 90 mB | 1 ingot | Foundry melting | Bundled conditional tag recipe; active override not verified |
+| Osmium nugget | 1 nugget | 10 mB | 9 nuggets |  |  |
+| Osmium dust | 1 dust | 90 mB | 1 dust |  |  |
+
+Uses and estimated demand
+
+| Resource / Input form | Recipes using this input<br>Examples + indexed count | Industrial uses<br>(examples) | Supply / value role | Total estimated use*<br>Material + rock mined | Machines / parts<br>For this input form |
+|---|---|---|---|---|---|
+| Osmium-rich / Ultramafic rock | No manufacturing recipe in retained index | Mekanism machinery and advanced alloys | Most accessible enriched PGM variant | 1,490–11,400 ingots*<br>213,100–1,622,600 vein blocks* | No direct machine-part match in retained index |
+| Osmium ingot | Advanced Energy Cube<br>4 × Dynamic Tank<br>31 indexed recipes |  |  |  | Processor: Mechanical Crafters<br>Processor: Weathered Iron Press<br>Makes: Advanced Energy Cube |
+| Osmium nugget | Concurrent Processor<br>Elite Control Circuit<br>3 indexed recipes |  |  |  | Processor: Sequenced Assembly<br>Makes: Concurrent Processor<br>Makes: Elite Control Circuit |
+| Osmium dust | 4 × Osmiridium Ingot<br>1 indexed recipes |  |  |  | Processor: Alloy Smelter |
+
+### Platinum
+
+Yield and processing
+
+| Resource / Input form | Input amount | Output / input | Inputs per ingot | Processing route | Evidence / assumptions |
+|---|---|---|---|---|---|
+| Platinum-rich / Ultramafic rock | 1 rich ore block | 31.5–45 mB | 2–3 blocks | Crush → blast / vat | Saved rich-ore design; main product guaranteed by crushing. Vein mixture differs. |
+| Platinum ingot | 1 ingot | 90 mB | 1 ingot | Foundry melting | Bundled conditional tag recipe; active override not verified |
+| Platinum nugget | 1 nugget | 10 mB | 9 nuggets |  |  |
+| Platinum dust | 1 dust | 90 mB | 1 dust |  |  |
+
+Uses and estimated demand
+
+| Resource / Input form | Recipes using this input<br>Examples + indexed count | Industrial uses<br>(examples) | Supply / value role | Total estimated use*<br>Material + rock mined | Machines / parts<br>For this input form |
+|---|---|---|---|---|---|
+| Platinum-rich / Ultramafic rock | No manufacturing recipe in retained index | Specialty processing, electronics and alloys | Rare PGM specialist | 475–1,390 ingots*<br>67,900–198,700 vein blocks* | No direct machine-part match in retained index |
+| Platinum ingot | Drive Upgrade<br>Elite Processor<br>11 indexed recipes |  |  |  | Processor: Assembler<br>Processor: Alloy Smelter<br>Makes: Drive Upgrade |
+| Platinum nugget | Accumulation Processor<br>Concurrent Processor<br>5 indexed recipes |  |  |  | Processor: Sequenced Assembly<br>Processor: Industrial Iron Compacting<br>Makes: Accumulation Processor |
+| Platinum dust | Refined Radiance<br>Platinum Heat Sink<br>3 indexed recipes |  |  |  | Processor: Industrial Iron Mixing<br>Processor: Alloy Smelter<br>Makes: Platinum Heat Sink |
+
+### Iridium
+
+Yield and processing
+
+| Resource / Input form | Input amount | Output / input | Inputs per ingot | Processing route | Evidence / assumptions |
+|---|---|---|---|---|---|
+| Iridium-rich / Ultramafic rock | 1 rich ore block | 7–10 mB | 9–13 blocks | Crush → blast / vat | Saved rich-ore design; main product guaranteed by crushing. Vein mixture differs. |
+| Iridium ingot (design unit) | 90 mB molten metal | 1 ingot | 1 casting unit | Sheet unit basis; exact casting recipe unverified | 90 mB design basis; not verified native remelting |
+
+Uses and estimated demand
+
+| Resource / Input form | Recipes using this input<br>Examples + indexed count | Industrial uses<br>(examples) | Supply / value role | Total estimated use*<br>Material + rock mined | Machines / parts<br>For this input form |
+|---|---|---|---|---|---|
+| Iridium-rich / Ultramafic rock | No manufacturing recipe in retained index | High-tier alloys and advanced components | Rarest enriched PGM variant | 183–570 ingots*<br>26,100–81,500 vein blocks* | No direct machine-part match in retained index |
+| Iridium ingot (design unit) | Warp Crystal<br>2 × Fusion Reactor Casing<br>20 indexed recipes |  |  |  | Processor: Sequenced Assembly<br>Processor: Mechanical Crafters<br>Makes: Warp Crystal |
+
+### Vibranium
+
+Yield and processing
+
+| Resource / Input form | Input amount | Output / input | Inputs per ingot | Processing route | Evidence / assumptions |
+|---|---|---|---|---|---|
+| Vibranium / Veridium | 1 block | ≈0.09–0.09 mB | 1000 blocks | Basic melting where allowed; crushing + best processing | Sheet draft; recipe/loot reconciliation pending |
+| Vibranium ingot (design unit) | 90 mB molten metal | 1 ingot | 1 casting unit | Sheet unit basis; exact casting recipe unverified | 90 mB design basis; not verified native remelting |
+
+Uses and estimated demand
+
+| Resource / Input form | Recipes using this input<br>Examples + indexed count | Industrial uses<br>(examples) | Supply / value role | Total estimated use*<br>Material + rock mined | Machines / parts<br>For this input form |
+|---|---|---|---|---|---|
+| Vibranium / Veridium | 2 × Cut Veridium Brick Slab<br>2 × Cut Veridium Slab<br>22 indexed recipes | Late-game Allthemodium progression and specialty components | Very rare endgame material | 40–88 ingots*<br>39,500–88,000 vein blocks* | Processor: Stonecutting<br>Processor: Crafting Shaped Retextured |
+| Vibranium ingot (design unit) | Vibranium Plate<br>Drive Upgrade<br>21 indexed recipes |  |  |  | Processor: Sequenced Assembly<br>Processor: Smithing Transform<br>Makes: Drive Upgrade |
+
+### Salt
+
+Yield and processing
+
+| Resource / Input form | Input amount | Output / input | Inputs per ingot | Processing route | Evidence / assumptions |
+|---|---|---|---|---|---|
+| Salt / Salt block | 1 block | 4 salt | N/A | Mining | Bundled Mekanism loot; no Silk Touch |
+
+Uses and estimated demand
+
+| Resource / Input form | Recipes using this input<br>Examples + indexed count | Industrial uses<br>(examples) | Supply / value role | Total estimated use*<br>Material + rock mined | Machines / parts<br>For this input form |
+|---|---|---|---|---|---|
+| Salt / Salt block | No manufacturing recipe in retained index | Brine and chlorine/caustic chemistry | Common reagent feed | Consumption not quantified*<br>Remaining chemical routes are unresolved | No direct machine-part match in retained index |
+
+### Fluorite
+
+Yield and processing
+
+| Resource / Input form | Input amount | Output / input | Inputs per ingot | Processing route | Evidence / assumptions |
+|---|---|---|---|---|---|
+| Fluorite / Normal ore | 1 block | 2–4 gems | N/A | Mining | Bundled Mekanism loot; no Fortune |
+| Fluorite / Buried ore | 1 block | 2–4 gems |  |  |  |
+
+Uses and estimated demand
+
+| Resource / Input form | Recipes using this input<br>Examples + indexed count | Industrial uses<br>(examples) | Supply / value role | Total estimated use*<br>Material + rock mined | Machines / parts<br>For this input form |
+|---|---|---|---|---|---|
+| Fluorite / Normal ore | No manufacturing recipe in retained index | Fluorine-based chemistry and nuclear processing | Specialist chemical feed | Consumption not quantified*<br>Exact chemical feed routes remain unresolved | No direct machine-part match in retained index |
+| Fluorite / Buried ore | No manufacturing recipe in retained index |  |  |  | No direct machine-part match in retained index |
+
+### Crude oil
+
+Yield and processing
+
+| Resource / Input form | Input amount | Output / input | Inputs per ingot | Processing route | Evidence / assumptions |
+|---|---|---|---|---|---|
+| Crude oil / Onshore field | 1,000 mB crude | 1,000 mB crude | N/A | Finite field extraction | Current field-size draft |
+| Crude oil / Offshore field | 1,000 mB crude | 1,000 mB crude |  |  |  |
+| Heavy oil | 1,000 mB crude | ≈176.47 mB |  | Crude distillation + one heavy-oil pass | Normalized per bucket; full crude distillation + one heavy-oil pass. Native batches apply; rounded output. |
+| Diesel | 1,000 mB crude | ≈264.71 mB |  |  |  |
+| Kerosene | 1,000 mB crude | ≈123.53 mB |  |  |  |
+| Naphtha | 1,000 mB crude | ≈38.24 mB |  |  |  |
+| Gasoline | 1,000 mB crude | ≈176.47 mB |  |  |  |
+| LPG | 1,000 mB crude | ≈176.47 mB |  |  |  |
+| Lubrication oil | 1,000 mB crude | ≈44.12 mB |  |  |  |
+
+Uses and estimated demand
+
+| Resource / Input form | Recipes using this input<br>Examples + indexed count | Industrial uses<br>(examples) | Supply / value role | Total estimated use*<br>Material + rock mined | Machines / parts<br>For this input form |
+|---|---|---|---|---|---|
+| Crude oil / Onshore field | 120 mB Heavy Oil + 60 mB Diesel + 30 mB K...<br>120 mB Heavy Oil + 60 mB Diesel + 30 mB K...<br>3 indexed recipes | Fuels, lubricants, petrochemicals and plastics | Bulk petroleum supply | 1,834,200–8,401,400 buckets crude*<br>Petrochemicals + covered operating fuel<br>Single full distillation + heavy-oil pass | Processor: Distillation Tower |
+| Crude oil / Offshore field | 120 mB Heavy Oil + 60 mB Diesel + 30 mB K...<br>120 mB Heavy Oil + 60 mB Diesel + 30 mB K...<br>3 indexed recipes |  |  |  | Processor: Distillation Tower |
+| Heavy oil | 100 mB Heavy Oil + 25 mB Lubrication Oil ...<br>100 mB Heavy Oil + 30 mB Lubrication Oil ...<br>4 indexed recipes |  |  |  | Processor: Distillation Tower<br>Processor: Mechanical Press / Basin |
+| Diesel | Fuel use defined by machine code; no manu... |  |  |  | TFMG Firebox<br>TFMG regular inline Diesel Engine |
+| Kerosene | Fuel use defined by machine code; no manu... |  |  |  | TFMG Firebox<br>Fueled space-craft departure scenario |
+| Naphtha | 250 mB Ethylene + 250 mB Propylene<br>1 indexed recipes |  |  |  | TFMG Firebox |
+| Gasoline | 250 mB Napalm<br>1 indexed recipes |  |  |  | Processor: Mechanical Mixer |
+| LPG | Lpg Tank<br>1 indexed recipes |  |  |  | TFMG Firebox |
+| Lubrication oil | No manufacturing recipe in retained index |  |  |  | No direct machine-part match in retained index |
+
+### Silicon
+
+Yield and processing
+
+| Resource / Input form | Input amount | Output / input | Inputs per ingot | Processing route | Evidence / assumptions |
+|---|---|---|---|---|---|
+| Quartz → silicon | 1 quartz | 40 mB liquid silicon | 3.6 quartz (average) | TFMG industrial blasting | Confirmed bundled TFMG recipe; live override not checked |
+| Silicon ingot casting | 144 mB liquid silicon | 1 silicon ingot | 144 mB | TFMG casting | Confirmed TFMG native casting unit; differs from 90 mB sheet metal basis |
+
+Uses and estimated demand
+
+| Resource / Input form | Recipes using this input<br>Examples + indexed count | Industrial uses<br>(examples) | Supply / value role | Total estimated use*<br>Material + rock mined | Machines / parts<br>For this input form |
+|---|---|---|---|---|---|
+| Quartz → silicon | 2 × Annihilation Core<br>Redstone Link Wildcard<br>39 indexed recipes | Semiconductors and electronics | Electronics feed | 278,500–1,146,300 quartz items*<br>Includes silicon, glass and circuit inputs | Processor: Sequenced Assembly<br>Processor: Foundry Melting<br>Makes: Scorched Fuel Tank |
+| Silicon ingot casting | Silicon Ingot<br>1 indexed recipes | Semiconductors, magnetic alloy and electronics |  |  | Processor: TFMG Casting |
 
 ## Other balance tables
 

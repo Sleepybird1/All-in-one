@@ -1,3 +1,7 @@
+## November 2 — production reference synchronized with Google Sheets
+
+Replaced the older production table with all 116 populated Production rows and all 12 columns from Industrial Colonies — Vein Balance. Group headings plus paired yield/route and use/demand tables preserve the sheet contents. Included a complete CSV and source-value snapshot with provenance. Retained uncertainty labels, cost-scenario exclusions, metal-unit distinctions and source ellipses; no recipe or game changes. Validation compares every source cell with the generated tables and CSV.
+
 ## November 2 — README reference tables and separate design notes
 
 Reorganized the latest All-in-one online README into storage, spawn/spacing, resource, processing-yield and other balance tables. Preserved the entire previous README in `DESIGN_IDEAS.md`; the detailed non-recipe index remains its existing separate file. Current corrections are distinguished from earlier proposals and installed snapshots. No gameplay, recipe, configuration or master task-status changes.
