@@ -1,0 +1,45 @@
+{
+  "date": "2026-11-02",
+  "workbookUrl": "https://docs.google.com/spreadsheets/d/1eB8tn9jFumsnquxsZ1CsZR8GkLkyEhkbVO3lvMMpMzc/edit",
+  "status": "complete",
+  "readme": "Detailed balance reference replaced with workbook link; to-do list and compact ME/Vault capacity tables retained.",
+  "spawnAndSpacing": {
+    "rules": 21,
+    "nativeTable": true
+  },
+  "recipeIndex": {
+    "savedCandidates": 2099,
+    "indexedItems": 31167,
+    "sourceRecords": 30206,
+    "affectedEntries": 5433,
+    "runtimeSnapshotDate": "2026-10-28",
+    "savedSnapshotDate": "2026-11-02",
+    "selectionPolicy": "Approved/personal selections take precedence; other saved states remain labeled alternatives.",
+    "tests": {
+      "independentBomCases": 44,
+      "independentBomValues": 233,
+      "bomMismatches": 0,
+      "formulaErrorScanRanges": 15,
+      "formulaErrors": 0,
+      "liveOutputChangeHalvedUnitCosts": true,
+      "originalQuantityAndCostsRestored": true
+    }
+  },
+  "unchangedTabs": [
+    {
+      "name": "Vein balance",
+      "unchanged": true
+    },
+    {
+      "name": "Production",
+      "unchanged": true
+    },
+    {
+      "name": "Biome habitats",
+      "unchanged": true
+    }
+  ],
+  "verificationLimits": "Native values, formulas, validation, formatting and table metadata verified through the connector. Browser rendering was not available; no visual screenshot verification claimed.",
+  "gameplayChanged": false,
+  "masterTaskCompletionChanged": false
+}

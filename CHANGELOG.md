@@ -1,3 +1,9 @@
+## November 2 — recipe index refresh complete
+
+The balance workbook now includes a native Spawn and spacing table with 21 transferred rules. Recipe index was refreshed from 2,099 distinct saved candidates: 31,167 indexed items, 30,206 source records and 5,433 affected entries including downstream costs. Approved/personal selections take precedence; review, Maybe, rejected and deferred alternatives remain labeled. Runtime evidence remains dated October 28; newer saved authoring is not a gameplay-installation claim.
+
+Validation passed: 44 independently evaluated bills / 233 material values matched native calculations; 15 bounded error-scan ranges covering the item view and full cost ledger contained zero spreadsheet errors. A live batch-output change halved per-item costs, and original quantities/results were restored and verified. Editable settings, validation and formatting were checked through connector readback. Browser rendering was unavailable; no screenshot verification is claimed. Vein balance, Production and Biome habitats values are unchanged. No gameplay or master-register changes. Details: docs/checkpoints/2026-11-02/RECIPE_INDEX_SYNC.json.
+
 ## November 2 — detailed reference moved to the workbook
 
 README now links to the balance workbook instead of duplicating its production/resource tables. Retained the to-do list, master progress, ME cell capacities and Vault capacity table. Added 21 recorded rules to the workbook’s Spawn and spacing tab; existing Vein balance values are unchanged. Removed redundant production CSV/source-value copies. Recipe index refresh is in progress; no gameplay changes.
