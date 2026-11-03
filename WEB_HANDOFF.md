@@ -1,3 +1,7 @@
+## November 2 — documentation organization
+
+Use README.md for the current to-do list and balance/reference tables; use DESIGN_IDEAS.md for design decisions and chronological history. The non-recipe task index remains workflow/early-survival/nonrecipe-review/ALL_TASKS.md (historical totals); MASTER_TASKS.json remains authoritative. Previous README preserved in full. Documentation-only; no implementation credit, game changes or push. Validation: original README preserved after line-ending normalization; all new README file links resolve; table column counts checked. README retains the to-do list and Extended ME Drive efficiency task. Prior missing workflow links remain only in historical evidence. Next: review the local documentation commit before explicit publication; no gameplay testing needed for this documentation-only change.
+
 
 ## README-only AE2 per-cell power and efficiency-card direction — October30
 

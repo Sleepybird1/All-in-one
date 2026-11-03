@@ -1,3 +1,7 @@
+## November 2 — README reference tables and separate design notes
+
+Reorganized the latest All-in-one online README into storage, spawn/spacing, resource, processing-yield and other balance tables. Preserved the entire previous README in `DESIGN_IDEAS.md`; the detailed non-recipe index remains its existing separate file. Current corrections are distinguished from earlier proposals and installed snapshots. No gameplay, recipe, configuration or master task-status changes.
+
 # Changelog
 
 ## 2026-11-01 — accumulated Industrial Colonies / All-in-one checkpoint
