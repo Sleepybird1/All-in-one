@@ -340,13 +340,23 @@ Other Mechanism and Atuned Mechanism are awaiting verified equipment assignments
 
 ## To do — current work and open design decisions
 
-Updated November 1. This is the entry point for work we still want done. An unchecked item may be a design decision, pending recipe review, implementation, or an in-game verification; it does not mean nothing has been prepared. Completed work and earlier proposals remain in the design notes and chronological evidence below. Later user corrections take precedence.
+Reviewed November 9, 2026. This is the entry point for work we still want done. An unchecked item may be a design decision, pending recipe review, implementation, or an in-game verification; it does not mean nothing has been prepared. Completed work and earlier proposals remain in the design notes and chronological evidence below. Later user corrections take precedence.
 
 ### Mechanism progression and recipe overhaul
 
 - [ ] Verify reachable recipes for all listed mechanisms against installed recipes and review cards, then resolve the equipment roles and tiers for Other and Atuned.
 - [ ] Stage the Tier 6 Advanced Storage change using Logic Mechanism and validate the route without Tier 7 Computing Mechanism.
 - [ ] Use the documented mechanism tiers and frame roles during the overhaul, checking material access, actual power demand, and progression bypasses before proposing recipes.
+
+### Recent recipe and design follow-up
+
+- [ ] Audit Sequenced Assembly cards for appropriate tools and existing unfinished workpieces, then verify the workpiece and final output icons in JEI.
+- [ ] Verify the installed rod recipes after a recipe reload and review the staged sheet and plate drafts before exporting them.
+- [ ] Verify the staged JEI timing and material appearance update after installation, keeping native plate textures and the canonical item IDs.
+- [ ] Check the effective recipes for upgrade-only Extended AE devices and verify that the upgrades preserve the intended device behavior.
+- [ ] Review pending Quantum Alloy, Quantum Storage, Quantum Crafter, and wireless equipment balance against actual function, cost, and unlock order.
+- [ ] Research ElectroEnergetics devices and tier them by the improvements they bring to the shared TFMG and ElectroEnergetics power grid.
+- [ ] Keep the remaining exotic alloy routes above standalone Unobtainium and finish their designs only when reopened for review.
 
 ### Reactor progression and power — current priority
 
@@ -408,6 +418,120 @@ Updated November 1. This is the entry point for work we still want done. An unch
 ### Full registers and maintenance
 
 The [master task register](industrial-colonies/MASTER_TASKS.json) is the complete implementation inventory: **204 of 289 complete (70.6%); 85 remaining** at this update. This checklist also captures recent session-level design/review work that is not a new master-count increment. The [detailed acquisition/nonrecipe task index](workflow/early-survival/nonrecipe-review/ALL_TASKS.md), central Design Notes below, and its complete design-document index retain supporting scope and history.
+
+<details>
+<summary>All 85 open master tasks by stage</summary>
+
+**World (2)**
+
+- WORLD-13 · Visual mountain-surface and structure-siting acceptance (in progress)
+- WORLD-15 · Natural-world resource distribution and lifetime acceptance (blocked)
+
+**Processing (2)**
+
+- P07 · Resolve the green starter semiconductor Boric Acid requirement conflict (blocked)
+- P08 · Repair the Gas Tank batch output without silently changing its design (blocked)
+
+**Progression (46)**
+
+- mm.advanced-factory-cost · Complete a costed advanced-factory reference build (not verified)
+- mm.advanced-final-assembly · Review and complete remaining Brass/Train final-machine Crafter assemblies (not verified)
+- mm.ae-digital · Reconcile current AE/addon digital assemblers and existing processors (not verified)
+- mm.arcpress-migration · Resolve retained uncertain Arc/Press outputs and migration policy (blocked)
+- mm.brass-electronics · Complete Brass advanced electronics and precision-control assignment review (not verified)
+- mm.brass-train-electrical · Complete Brass/Train heavy electrical and power-conversion coverage (in progress)
+- mm.cannon-loot · Resolve missing CBC addon scrap/break loot coherently (blocked)
+- mm.chemical-policy · Resolve narrow NC HF/Hydrogen/Chlorine compatibility endpoints (blocked)
+- mm.cold-river-placer · Select and validate origin-qualified existing Cold River sediment route (blocked)
+- mm.coolant-policy · Resolve incompatible NC coolant/Steam/Enderium routes (blocked)
+- mm.cryotheum-source · Resolve absent NC Cryotheum cold-chain bootstrap (blocked)
+- mm.dynamo-owner · Resolve starter Dynamo ownership exception (blocked)
+- mm.electrum-policy · Resolve NC Electrum migration preserving exact consumers (blocked)
+- mm.extreme-transmission · Reconcile actual high-power transmission and heavy switching (in progress)
+- mm.first-foundry-acquisition · Close first furnace/Foundry, fuel, mold and material acquisition (in progress)
+- mm.function-ownership · Close remaining cross-mod processing-family overlap inventory (in progress)
+- mm.fusion-policy · Resolve Fusion cooling, venting and blocked-output consumption (in progress)
+- mm.gold-feed · Resolve Gold-chemical feed without restoring conditional gain (blocked)
+- mm.hafnium-source · Resolve removed Amethyst-to-Yttrium/Hafnium batch (blocked)
+- mm.hcl-absorption · Resolve Hydrogen Chloride absorption into Hydrochloric Acid (blocked)
+- mm.high-voltage-controls · Reconcile actual analog high-voltage/control-family progression (blocked)
+- mm.industrial-depot-gate · Resolve Industrial Iron Depot Ti/W prerequisite coverage (blocked)
+- mm.industrial-six-crafters · Convert six Industrial Iron final sequences to approved Crafter assemblies (blocked)
+- mm.log-free-axe · Resolve the requested log-free first-axe opening (blocked)
+- mm.low-heater-seed · Resolve Low Heater and Andesite Alloy first-seed cycle (blocked)
+- mm.mek-ore-policy · Resolve nine non-Uranium Enrichment ore alternatives (in progress)
+- mm.mek-transmitters · Reconcile current Mek transmitters, upgrades and cable tails (in progress)
+- mm.nuclear-owner · Resolve overlapping reactor/isotope/reprocessing/Polonium roles (blocked)
+- mm.ordinary-grid-cost · Complete a costed ordinary-grid reference build (in progress)
+- mm.p-doped-source · Choose an existing-material late NC P-doped Silicon source (blocked)
+- mm.power-storage · Reconcile current power/storage/Induction Matrix ladders (in progress)
+- mm.pressurizer-policy · Resolve ordinary NC Pressurizer ownership (blocked)
+- mm.quantum-endpoint · Verify existing Quantum-before-black-hole price and Quantum Core endpoint (not verified)
+- mm.reactor-construction · Reconcile inherited ER bulk reactor construction and controllers (in progress)
+- mm.refined-radiance-gate · Resolve existing Refined Radiance-before-Allthemodium gate (blocked)
+- mm.sic-owner · Resolve SiC synthesis/melting/forming ownership (blocked)
+- mm.sic-source · Resolve NC Silicon Gem source removed with Rock Crusher (blocked)
+- mm.small-factory-cost · Complete a costed small-factory reference build (not verified)
+- mm.starter-metal-acquisition · Verify actual first Copper/Iron survival acquisition (not verified)
+- mm.supply-scaling · Complete resource/deposit-to-industrial-demand scaling analysis (in progress)
+- mm.ti-w-bootstrap · Close pre-Industrial-Iron Ti/Mg/W reagent and machine acquisition (not verified)
+- mm.uranium-dead-branches · Resolve Uranium clump and dirty-slurry dead branches (blocked)
+- mm.warp-endpoint · Resolve existing Industrial Star/Black Hole final Warp dependency interpretation (blocked)
+- mm.weathered-structural-coverage · Verify remaining Weathered structural/TFMG hardware coverage (in progress)
+- mm.wood-owner · Resolve full IE/Mek woodworking ownership migration (blocked)
+- mm.zinc-first-supply · Resolve first usable Zinc/Brass source and absent raw-Zinc recipe tag (blocked)
+
+**Native (3)**
+
+- mm.coal-tar-route · Coal grinding/coking and tar distillation feed chain (blocked)
+- mm.pgm-route · Ultramafic crude seed and proper wet PGM separation (blocked)
+- mm.silicon-route · Existing silica-to-TFMG/high-grade Silicon purification (blocked)
+
+**Assets (1)**
+
+- ASSET-06 · Render existing dust comparison contact sheet (blocked)
+
+**Delivery (6)**
+
+- A02 · Review the current staged recipe cards and fluids in the actual client UI (not verified)
+- A04 · Run the remaining real-player early-progression integration playthrough (not verified)
+- A05 · Run a final integrated regression on the selected release candidate (not verified)
+- A06 · Obtain review of the concrete staged changes before production installation (blocked)
+- A07 · Merge intervening live edits and deploy only the approved manifest targets (blocked)
+- A08 · Verify the approved installed candidate and deliver the final handoff (blocked)
+
+**Enemy Ships (5)**
+
+- ENEMY-17 · Encounter progression and difficulty (in progress)
+- ENEMY-18 · First enemy boss ship (in progress)
+- ENEMY-19 · Encounter rewards and anti-duplication (in progress)
+- ENEMY-20 · Salvage, capture and boarding ownership (in progress)
+- ENEMY-24 · Integrated enemy encounter acceptance (not verified)
+
+**Priority Batch (20)**
+
+- PRIORITY-01 · Basic construction cards (in progress)
+- PRIORITY-02 · Starter support cards (in progress)
+- PRIORITY-03 · Weathered Iron cards (in progress)
+- PRIORITY-04 · Copper and Brass cards (in progress)
+- PRIORITY-05 · Steel and Railway cards (in progress)
+- PRIORITY-06 · Advanced chemistry and Industrial Iron cards (in progress)
+- PRIORITY-07 · Nuclear and Refined Radiance cards (in progress)
+- PRIORITY-08 · Space and navigation cards (in progress)
+- PRIORITY-09 · Remaining manufactured-item cards (in progress)
+- PRIORITY-10 · Pack-wide canonical manufactured items and wires (in progress)
+- PRIORITY-11 · Pack-wide canonical molten fluids (in progress)
+- PRIORITY-12 · Pack-wide acids and ordinary liquids (in progress)
+- PRIORITY-13 · Pack-wide gases and chemical visibility (in progress)
+- PRIORITY-14 · Migrate canonical-material consumers (not verified)
+- PRIORITY-15 · Suppress competing acquisition routes and duplicate presentation (in progress)
+- PRIORITY-16 · Apply reviewed redundant-machine retirements (not verified)
+- PRIORITY-17 · Balance base cables and short-range transport (in progress)
+- PRIORITY-18 · Balance portable tanks and late digital storage (in progress)
+- PRIORITY-20 · Validate complete recipe and balance candidate (not verified)
+- PRIORITY-25 · Reconcile and stage chosen ore world generation (in progress)
+
+</details>
 
 Add new agreed work here, mark it complete only with the appropriate saved/reviewed/installed/native evidence, and update superseded decisions rather than accumulating contradictory active instructions. Do not reopen Maybe/Deferred or export unapproved recipes merely because they appear in this list.
 
