@@ -233,31 +233,43 @@ User explicitly reopens all unresolved Progression Review/rejected-feedback cons
 A mechanism can appear in multiple categories when it performs a distinct job in each, such as delivering power to a drive or regulating power inside a computer.
 
 ```text
-Energy and power               Computing and digital storage   Mechanical and motion
+Energy and power               Computing                  Digital Storage
 
-- Basic Energy Mechanism       - Computing Mechanism           - Wooden Mechanism
-- Iron Energy Mechanism        - Logic Mechanism               - Zinc Mechanism
-- Golden Energy Mechanism      - Storage Mechanism             - Steel Mechanism
-- Diamond Energy Mechanism     - Advanced Storage Mechanism    - Precision Mechanism
-- Enderiam Energy Mechanism    - Enderiam Storage Mechanism    - Advanced Precision Mechanism
-- Netherite Energy Mechanism   - Redstone Mechanism            - Rubber Mechanism
-- Hardened Energy Mechanism    - Menril Mechanism              - Physics Mechanism
-- Blazing Energy Mechanism     - Basic Energy Mechanism        - Gyroscopic Mechanism
-- Niotic Energy Mechanism                                      - Iron Energy Mechanism
+- Basic Energy Mechanism       - Computing Mechanism      - Storage Mechanism
+- Iron Energy Mechanism        - Logic Mechanism          - Advanced Storage Mechanism
+- Golden Energy Mechanism      - Redstone Mechanism       - Enderiam Storage Mechanism
+- Diamond Energy Mechanism     - Menril Mechanism         - Computing Mechanism
+- Enderiam Energy Mechanism    - Basic Energy Mechanism   - Logic Mechanism
+- Netherite Energy Mechanism
+- Hardened Energy Mechanism
+- Blazing Energy Mechanism
+- Niotic Energy Mechanism
 - Spirited Energy Mechanism
 - Nitro Energy Mechanism
 ```
 
 ```text
-Fluid and chemical handling      Thermal and nuclear         Control, sensing, and logistics
+Mechanical and motion            Fluids                           Chemical Processing
 
-- Fluid Mechanism                - Low Heat Mechanism        - Redstone Mechanism
-- Advanced Fluid Mechanism       - Heat Mechanism            - Logic Mechanism
-- Enderiam Fluid Mechanism       - Advanced Heat Mechanism   - Light Mechanism
-- Rubber Mechanism               - Enderiam Heat Mechanism   - Sculk Mechanism
-- Advanced Precision Mechanism   - Nuclear Mechanism         - Gyroscopic Mechanism
-- Uranium Mechanism              - Uranium Mechanism         - Storage Mechanism
-                                 - Blazegold Mechanism       - Advanced Storage Mechanism
+- Wooden Mechanism               - Fluid Mechanism                - Advanced Fluid Mechanism
+- Zinc Mechanism                 - Advanced Fluid Mechanism       - Enderiam Fluid Mechanism
+- Steel Mechanism                - Enderiam Fluid Mechanism       - Advanced Heat Mechanism
+- Precision Mechanism            - Rubber Mechanism               - Rubber Mechanism
+- Advanced Precision Mechanism   - Advanced Precision Mechanism
+- Rubber Mechanism
+- Physics Mechanism
+- Gyroscopic Mechanism
+- Iron Energy Mechanism
+```
+
+```text
+Thermal                     Nuclear                      Control and sensing
+
+- Low Heat Mechanism        - Nuclear Mechanism          - Redstone Mechanism
+- Heat Mechanism            - Uranium Mechanism          - Logic Mechanism
+- Advanced Heat Mechanism   - Advanced Heat Mechanism    - Light Mechanism
+- Enderiam Heat Mechanism   - Advanced Fluid Mechanism   - Sculk Mechanism
+- Blazegold Mechanism                                    - Gyroscopic Mechanism
 ```
 
 ```text
