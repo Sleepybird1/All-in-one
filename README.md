@@ -342,6 +342,12 @@ Other Mechanism and Atuned Mechanism are awaiting verified equipment assignments
 
 Updated November 1. This is the entry point for work we still want done. An unchecked item may be a design decision, pending recipe review, implementation, or an in-game verification; it does not mean nothing has been prepared. Completed work and earlier proposals remain in the design notes and chronological evidence below. Later user corrections take precedence.
 
+### Mechanism progression and recipe overhaul
+
+- [ ] Verify reachable recipes for all listed mechanisms against installed recipes and review cards, then resolve the equipment roles and tiers for Other and Atuned.
+- [ ] Stage the Tier 6 Advanced Storage change using Logic Mechanism and validate the route without Tier 7 Computing Mechanism.
+- [ ] Use the documented mechanism tiers and frame roles during the overhaul, checking material access, actual power demand, and progression bypasses before proposing recipes.
+
 ### Reactor progression and power — current priority
 
 - [ ] **Balance Fission → Molten Salt → Fusion through energy demand.** Earlier reactors should make manufacturing the next tier practical, but skipping a tier should remain possible. Building the fusion controller and core should demand immense energy/material production. Choose actual fabrication energy, throughput and startup/operating costs together; do not substitute mandatory earlier-reactor items for this economic progression. Numeric power balancing is not implemented.
