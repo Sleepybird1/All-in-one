@@ -207,6 +207,14 @@ User explicitly reopens all unresolved Progression Review/rejected-feedback cons
 - Base progression on power consumption and make more complex tiers draw substantially more actual power through supported machine operations.
 - Build meaningful multi-step manufacturing chains wherever a tier or machine family warrants them, including beyond exotic metals.
 
+### Recipe push feedback
+
+- For every recipe push, record the date and a per-item list of recipe changes with a short before-and-after summary and the reason for each change.
+- Record the pack owner's actual feedback and review decision for each changed item, mark unreviewed items as pending, and fill those entries in as feedback arrives.
+- Tag feedback consistently with themes such as ring of items, misplaced components, tier mismatch, or cost, and keep the original feedback beside the tags.
+- After each review, report the count and percentage of reviewed items affected by each theme for that push and across pushes, counting each theme once per item per push and allowing multiple themes per item.
+- Use the most frequent themes to focus future recipe design and review, and keep any illustrative percentages separate from measured results.
+
 ### Create and Create: Casing machines
 
 - Choose the actual machine for each operation in KubeJS Gen, including the specific Create: Casing variant when a recipe requires one.
