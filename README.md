@@ -233,17 +233,17 @@ User explicitly reopens all unresolved Progression Review/rejected-feedback cons
 A mechanism can appear in multiple categories when it performs a distinct job in each, such as delivering power to a drive or regulating power inside a computer.
 
 ```text
-Energy and power               Computing                  Digital Storage
+Energy and power               Computing                     Digital Storage
 
-- Basic Energy Mechanism       - Computing Mechanism      - Storage Mechanism
-- Iron Energy Mechanism        - Logic Mechanism          - Advanced Storage Mechanism
-- Golden Energy Mechanism      - Redstone Mechanism       - Enderiam Storage Mechanism
-- Diamond Energy Mechanism     - Menril Mechanism         - Computing Mechanism
-- Enderiam Energy Mechanism    - Basic Energy Mechanism   - Logic Mechanism
-- Netherite Energy Mechanism
-- Hardened Energy Mechanism
-- Blazing Energy Mechanism
-- Niotic Energy Mechanism
+- Basic Energy Mechanism       - Computing Mechanism         - Storage Mechanism
+- Iron Energy Mechanism        - Logic Mechanism             - Advanced Storage Mechanism
+- Golden Energy Mechanism      - Redstone Mechanism          - Enderiam Storage Mechanism
+- Diamond Energy Mechanism     - Menril Mechanism            - Computing Mechanism
+- Enderiam Energy Mechanism    - Hardened Energy Mechanism   - Logic Mechanism
+- Netherite Energy Mechanism   - Niotic Energy Mechanism     - Hardened Energy Mechanism
+- Hardened Energy Mechanism    - Spirited Energy Mechanism   - Niotic Energy Mechanism
+- Blazing Energy Mechanism     - Nitro Energy Mechanism      - Spirited Energy Mechanism
+- Niotic Energy Mechanism                                    - Nitro Energy Mechanism
 - Spirited Energy Mechanism
 - Nitro Energy Mechanism
 ```
@@ -255,11 +255,21 @@ Mechanical and motion            Fluids                           Chemical Proce
 - Zinc Mechanism                 - Advanced Fluid Mechanism       - Enderiam Fluid Mechanism
 - Steel Mechanism                - Enderiam Fluid Mechanism       - Advanced Heat Mechanism
 - Precision Mechanism            - Rubber Mechanism               - Rubber Mechanism
-- Advanced Precision Mechanism   - Advanced Precision Mechanism
-- Rubber Mechanism
-- Physics Mechanism
-- Gyroscopic Mechanism
-- Iron Energy Mechanism
+- Advanced Precision Mechanism   - Advanced Precision Mechanism   - Basic Energy Mechanism
+- Rubber Mechanism                                                - Iron Energy Mechanism
+- Physics Mechanism                                               - Golden Energy Mechanism
+- Gyroscopic Mechanism                                            - Diamond Energy Mechanism
+- Basic Energy Mechanism                                          - Enderiam Energy Mechanism
+- Iron Energy Mechanism                                           - Netherite Energy Mechanism
+- Golden Energy Mechanism                                         - Blazing Energy Mechanism
+- Diamond Energy Mechanism
+- Enderiam Energy Mechanism
+- Netherite Energy Mechanism
+- Blazing Energy Mechanism
+- Hardened Energy Mechanism
+- Niotic Energy Mechanism
+- Spirited Energy Mechanism
+- Nitro Energy Mechanism
 ```
 
 ```text
@@ -283,9 +293,22 @@ Experience and resources          Material-specific equipment   Specialized syst
 - Dark Mechanism
 ```
 
-The energy examples under Computing and Mechanical show where any suitable energy tier can fit.
+Use Basic through Netherite Energy for powered chemical equipment, with Blazing Energy suited to heated stages.
+
+Those same tiers are candidates for nuclear support equipment when a specific power role justifies them.
 
 Other Mechanism and Atuned Mechanism are awaiting verified equipment assignments.
+
+### Mechanism progression tiers
+
+Read tiers 1 through 10 from left to right as a draft of the earliest intended access and recipe complexity for each mechanism. Set the final tier using reachable materials, machine prerequisites, and actual power demand. A mechanism may serve several categories, and early parts can feed late systems such as reactors once those systems unlock. Within a tier, make the prerequisites reachable before the recipes that consume them.
+
+| Tier 1 | Tier 2 | Tier 3 | Tier 4 | Tier 5 | Tier 6 | Tier 7 | Tier 8 | Tier 9 | Tier 10 |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Starter crafting and kinetic assembly | Seals, signals, and basic powered equipment | Early industrial drives and utility machinery | Calibrated tooling and improved utility equipment | Powered process control and early computing | Refined Radiance tooling and advanced automation | Specialized industrial systems and fuel handling | Reactor systems and specialized high-power equipment | Late-game Enderiam equipment and advanced power systems | Endgame equipment with specialized material requirements |
+| Wooden Mechanism<br>Zinc Mechanism | Rubber Mechanism<br>Redstone Mechanism<br>Basic Energy Mechanism<br>Low Heat Mechanism | Steel Mechanism<br>Iron Energy Mechanism<br>Fluid Mechanism<br>Heat Mechanism<br>Storage Mechanism<br>Light Mechanism | Precision Mechanism<br>Golden Energy Mechanism<br>Hardened Energy Mechanism<br>Logic Mechanism<br>Experience Mechanism | Computing Mechanism<br>Diamond Energy Mechanism<br>Advanced Fluid Mechanism<br>Advanced Heat Mechanism<br>Menril Mechanism<br>Sculk Mechanism | Advanced Precision Mechanism<br>Advanced Storage Mechanism<br>Blazing Energy Mechanism<br>Advanced Experience Mechanism<br>Physics Mechanism<br>Gyroscopic Mechanism<br>Ferricore Mechanism | Uranium Mechanism<br>Niotic Energy Mechanism<br>Blazegold Mechanism<br>Source Mechanism<br>Blood Mechanism | Nuclear Mechanism<br>Netherite Energy Mechanism<br>Spirited Energy Mechanism<br>Soul Mechanism<br>Dark Mechanism<br>Void Mechanism | Enderiam Mechanism<br>Enderiam Energy Mechanism<br>Enderiam Fluid Mechanism<br>Enderiam Heat Mechanism<br>Enderiam Storage Mechanism<br>Nitro Energy Mechanism | Celestigem Mechanism<br>Eclipse Alloy Mechanism<br>Equivalence Mechanism |
+
+Other Mechanism and Atuned Mechanism are awaiting verified equipment assignments before tier placement.
 
 ### TFMG frame roles
 
