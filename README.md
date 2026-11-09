@@ -157,6 +157,7 @@ User explicitly reopens all unresolved Progression Review/rejected-feedback cons
 - Use approved and pending layouts as references, and design an original arrangement for each item even when recipes share ingredients.
 - Related plate and rod recipes may share a manufacturing pattern, with material costs and processing requirements scaled to the material.
 - Arrange shaped recipes as recognizable assemblies and avoid jumbled ingredients or generic rings of parts.
+- Check the finished layout for lopsided placement, centering the main assembly and balancing supports unless the item's function calls for asymmetry.
 - Use at most three Steel Frames per recipe, prefer two or fewer, and give each frame a distinct structural position instead of clustering them.
 - Place Steel Frames in the structural center or base of the layout, with the components they support visibly built onto or above them.
 - Use comparable approved recipes to calibrate cost and tier, then design a bill of materials for the new item's own function.
@@ -533,7 +534,7 @@ The [master task register](industrial-colonies/MASTER_TASKS.json) is the complet
 
 </details>
 
-Add new agreed work here, mark it complete only with the appropriate saved/reviewed/installed/native evidence, and update superseded decisions rather than accumulating contradictory active instructions. Do not reopen Maybe/Deferred or export unapproved recipes merely because they appear in this list.
+Add new agreed work here, mark it complete only with the appropriate saved/reviewed/installed/native evidence, and update superseded decisions rather than accumulating contradictory active instructions. Follow the review queue rules in the design notes when revisiting cards, and export only approved recipes.
 
 
 ## Design note: optional energy-driven reactor ladder — October30
@@ -876,7 +877,12 @@ Updated October 29. This section gathers the design decisions recoverable from t
 - **NuclearCraft material appearance:** prefer matching TFMG or Immersive Engineering material/form and retire the NuclearCraft variant through the existing input/output normalization and viewer-hide mechanism. Preserve previously selected material ownership and distinguish sheets from plates. Eight common plates already have mappings;16additional matching dust/nugget variants are configured. Bronze plate and unique alloys have no exact preferred-mod replacement and remain unresolved, not substituted with another metal. Config save is not proof of reload/runtime activation.
 
 - **Approval means balanced, not automatically expensive:** an approved inventory selection can need a cheaper, simpler, equivalent, or more complex recipe according to its utility. Existing final custom designs must be reused rather than duplicated. The anvil example is a 23-iron draft instead of 31, without new machinery or electronics.
-- **Review meanings:** blank/general rejection means restore or retain default and remove the custom review card, unless explicitly Disabled. Maybe and Deferred retain their judgments until explicitly revisited. Recent machine-selection approvals needing authoring belong in the authoring worklist; completed designs retain their final approvals. Do not silently reset user decisions or repeatedly submit unchanged designs.
+- **Review queue.** Put new or revised recipe cards in Progression Review unless the pack owner directs otherwise, and check Rejected before Maybe when choosing what to revise.
+- **Rejected.** Address the stated reason with a substantive redesign, and treat a blank rejection as a request for a fresh design based on the item's function and progression.
+- **Maybe.** Treat the decision as uncertainty or dissatisfaction without a firm diagnosis, and try a modest, purposeful change.
+- **Deferred.** Pull a card only when the note says the owner does not know what the machine does, and verify and explain its function before proposing a recipe.
+- **Explicit decisions.** Preserve approved, disabled, and restore-default decisions, and keep a single canonical card when moving a revision into review.
+- **Layout check.** Before submitting a shaped recipe, check that the overall layout and its supports look balanced and that any asymmetry has a functional reason.
 - **Machine recipes should depict the machine:** recognizable structure, working head, drive, controls, supports, and meaningful wiring. No random pile of expensive parts, empty outer columns, or repeated steel frames solely as cost. Use suitable existing TFMG frame/casing materials and plastic for electronics housings/insulation.
 - **Heavy Machinery Casing:** steel-heavy structural reinforcement, not arbitrary rare electronics. Steel frame can underpin steel casing; steel casing can underpin heavy casing. Avoid charging for that full heavy structure again inside small digital parts or cell housings.
 - **ME Item Cell Housing:** no Heavy Machinery Casing. Needs a plausible plastic outer shell; removing it from the housing does not authorize changes to every storage-cell recipe. Keep drive bays distinct from the cells placed into them.
