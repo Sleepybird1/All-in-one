@@ -130,142 +130,78 @@ User corrects erroneous voice transcription of a90recipe requirement; use the es
 
 User explicitly reopens all unresolved Progression Review/rejected-feedback construction cards for shape, quantity and cost.23drafts revised; seven superseded rejected mirrors removed. More expensive Isotope Separator adds process pumps, Advanced shielding, boards and Heavy Plate feet. Providers become compact real-provider upgrade sequences; ME Chest uses ordinary chest shell without cell housing/component; Smart Propeller starts from an actual andesite propeller. Stronger controlled MSR channels/ports/controller, restored missing observer stage, fuller supported turbine shaft, simpler passive depot/fan and distinct service benches. Exact registered items, no retired Basic Plating/chassis. Native codegen/validator and review gate PASS; proposal-only dependency cycles NONE. Full transitive survival audit/native reload NOT_RUN. No gameplay export or new approval; Approved, Deferred, Maybe, Disabled and Personal files byte-identical. Rejected contains93deferred/one disabled/three unjudged legacy tank rows that remain parked rather than treated as new redesign authority. Master counts unchanged. Evidence: workflow/recipe-pass-20261102.
 
+<a name="recipe-notes"></a>
+
 ## Recipe rules
 
-- End the Part One recipe order with the Interstellar Navigation Computer immediately before the Warp Drive, with the Industrial Star and Black Hole in the Warp Drive prerequisite chain.
-- End Part One at departure from the solar system and reserve interstellar travel and progression for a separate Part Two to be designed later.
-- Base all tool acquisition in the pack on Modern Foundry materials (leave the existing tool recipes alone for now).
-- Treat TFMG and ElectroEnergetics as complementary parts of one electrical system, with TFMG serving local loads and ElectroEnergetics scaling to long-distance transmission.
-- Use TFMG electricity primarily to supply its own machinery and local installations.
-- Use ElectroEnergetics for long-distance power transmission, with the goal of carrying electricity across an entire continent.
-- Before designing or revising an ElectroEnergetics recipe, verify what the part does in the installed pack, how it connects to the grid, and what limits it has.
-- Gate ElectroEnergetics parts by the grid improvements they unlock, such as longer runs, greater capacity, voltage conversion, or better control and protection.
-- Draw ElectroEnergetics ingredients from the pack's materials and alloys where their properties fit the part's electrical or structural role.
-- Make each ElectroEnergetics tier help players expand a working grid toward continent-wide power distribution.
-- Before designing or revising any recipe, consult Material Processing and Personal Recipes for existing ingredient and component routes, Approved Recipes for comparable costs and tiers, and the pack's documented balance decisions for the intended progression.
-- Consult the [Industrial Colonies — Vein Balance](https://docs.google.com/spreadsheets/d/1eB8tn9jFumsnquxsZ1CsZR8GkLkyEhkbVO3lvMMpMzc/edit) workbook for source rarity, recovery and search distance before pricing ingredients.
-- Price ingredients by their full upstream production costs, including batch yields, byproducts, machine requirements, and energy where applicable.
-- If an ingredient or component already has a recipe, use the item as an input and leave its production recipe in place.
-- Use items already available in the pack, including approved custom items, and create a custom item only when the pack owner explicitly requests or authorizes that specific item.
-- Ask the pack owner before adding a prerequisite recipe, creating a new material, or adding or changing any material-processing step needed by a proposed recipe.
-- After every recipe review, check the reviewed cards against existing recipes by recipe ID and output, including recipes already approved or installed in the pack.
-- Keep one working card per recipe design and remove duplicate drafts, checking alternate routes for a distinct purpose before retaining them.
-- Treat Approved Recipes as final and use their costs and progression as references unless the pack owner reopens a specific approval.
-- Report any potentially unused custom item to the pack owner for removal review, with any references or acquisition routes you find.
-- Use an exact item ID for every item ingredient, and choose the intended sheet or plate explicitly.
-- Audit review cards against the installed vanilla and mod defaults before treating them as custom designs.
-- Use the pack's chosen variant of each material so recipes share one production chain.
-- Keep purely decorative items out of custom recipes, including as filler ingredients.
-- Give each ingredient a job that fits the finished item's function, such as sealing a fluid path, carrying a load, or controlling a signal.
-- Look for existing items whose name and function fit a component, such as capacity cards in storage hardware, filters in fluid equipment, or stressometers in load-control assemblies.
-- Use existing dense blocks as functional subassemblies, with tier-appropriate Induction Providers for machine power delivery and Induction Cells reserved for actual energy storage.
-- Use mechanisms, complete machines, complex components, and energy-storage cells as subassemblies where they perform a distinct job.
-- Use complete computers and chips sparingly, and use a Basic Card or an appropriate upgrade card where the machine needs a plug-in control or expansion part.
-- Give computerized subassemblies an appropriate CPU or processor, counting the processors already built into their Computing Mechanism.
-- Arrange ingredients in shaped recipes to reflect where their parts belong in the finished item, using its texture, model, and function as references.
-- Use a square crafting grid for a machine that looks like a full block, and fill every slot with parts that represent its enclosure and subsystems.
-- Read each recipe card and its design notes individually before revising it, even during a bulk overhaul.
-- Use approved and pending layouts as references, and design an original arrangement for each item even when recipes share ingredients.
-- Related plate and rod recipes may share a manufacturing pattern, with material costs and processing requirements scaled to the material.
-- Arrange shaped recipes as recognizable assemblies and avoid jumbled ingredients or generic rings of parts.
-- Check the finished layout for lopsided placement, centering the main assembly and balancing supports unless the item's function calls for asymmetry.
-- Build a single-block machine around at most one frame, and reserve several separate structural frames for large assemblies such as the Fusion Core.
-- Give each frame a specific structural position and arrange the supported components around or above it, avoiding rows of frames of any material.
-- Build electronic equipment on boards, chassis, or a suitable non-steel frame and reserve Steel Frames for heavy structural equipment.
-- Use comparable approved recipes to calibrate cost and tier, then design a bill of materials for the new item's own function.
-- Set the recipe's tier by what the item does, how powerful it is, and when its inputs are available.
-- Before pricing a recipe, research what the installed item does and verify the pack settings that affect its capabilities and operating costs.
-- Evaluate when the item should unlock based on how it helps the player progress, what existing equipment it improves or replaces, and what it can automate.
-- Check the item's throughput, capacity, range, energy use, and other relevant limits against the pack's balance before choosing its recipe cost.
-- Check how the item could bypass progression, duplicate resources, or replace a costlier route when combined with other equipment in the pack.
-- When a recipe is meant to be much more expensive, raise its total production cost through meaningful materials, quantities, energy, or processing steps.
-- Account for ingredient scarcity and downstream demand before setting how much a recipe consumes or yields.
-- For every recipe, assess actual material rarity using the pack's configured spawn rates across all sources, where and when players can reach those sources, and their usable yields.
-- Treat deposit frequency and vein size as separate balance factors, since a very large vein can still be rare and difficult to find.
-- In every bulk recipe overhaul, audit demand for each base material and alloy, including tin, gold, osmium, and bronze, and give underused materials meaningful roles where their properties fit.
-- Measure material coverage by the underlying metals and alloys across the pack, counting plates, sheets, rods, and other forms toward their source materials.
-- Scale cumulative raw-resource demand up through progression so selected endgame chains can require millions of blocks mined after accounting for ore yields, processing losses, and byproducts.
-- Keep simple parts, tools, and conversions simple when their functions call for it.
-- Reserve Create Mechanical Crafting for machines and use a larger grid only when the machine has enough distinct subsystems to justify the space.
-- Use Sequenced Assembly primarily for parts and make exceptions for unusually complex machines whose assembly genuinely benefits from ordered stages, such as layered electronics.
-- Aim to keep Sequenced Assembly below 15 steps by removing redundant operations and using existing subassemblies.
-- Use compacting for physical parts that can be formed or pressed together, and manufacture processors, cards, and other electronics with operations suited to their assembly.
-- Let a progression chain span Create, TFMG, and Mekanism when each provides an operation that suits its stage.
-- Set recipe cost by the total inputs and manufacturing work, since a larger crafting grid can still hold an inexpensive recipe.
-- Increase a recipe's total size through functional subassemblies with their own recipes, such as several 5×5 assemblies feeding one final build without enlarging its grid.
-- Gate each major machine-family upgrade with a functional subassembly made on the previous tier's equipment, and check every acquisition route and the first machine's prerequisites.
-- Use a manufacturing operation that fits the work, such as sawing to cut, pressing to form, or mixing to condition.
-- Use component-processing machines for the stages they perform and assemble finished machines through an appropriate crafting or assembly process.
-- Give each step in a recipe chain a distinct purpose, such as forming, bonding, cooling, machining, or fastening.
-- Use approved tools in Sequenced Assembly where they fit the operation, including the AE2 Network Tool for network calibration, the TFMG Screwdriver for fastening, the Engineer's Hammer for forming, and the Create Wrench for fitting and adjustment.
-- Retain reusable tools in the deployer, apply wear only to damageable tools where supported, and consume the actual fasteners or work materials separately.
-- Use multiple recipe cards when the item needs distinct manufacturing stages, and keep a simple operation on one card.
-- Use the appropriate machine tier at each step so the difficulty follows the process and the material being worked.
-- Use an in-place upgrade as the sole acquisition route when a machine family is designed around upgrade items.
-- Make upgrade items from inputs that are available before the upgrade is applied.
-- Branch off established processing chains without replacing or bypassing their existing steps.
-- Check upstream ingredients and machine requirements for loops and unintended progression bypasses.
-- Check stock recipes and alternate routes so they cannot undercut an intended progression gate.
-- Preserve a reachable route to the first machine in each manufacturing tier.
-- Treat sheets, plates, and rods as distinct manufactured forms with their own appropriate operations.
-- When an established material has an underused plate, sheet, or rod, look for meaningful uses where that form suits the part being made.
-- Treat unused material forms as candidates for review and keep deliberately retired forms out of new designs unless their return is approved.
-- Account for what leaves the batch as slag, scrap, or another byproduct when setting the main output yield.
-- Follow the pack's established casting volumes of 10 mB per nugget, 90 mB per ingot, and 810 mB per block where that metal standard applies (get the pack owner's explicit approval before changing any ingot, material, or processing recipe, and ask before adding a recipe for a material that has none).
-- Scale cutting yields to the amount of stock each shape uses.
-- Balance batch sizes against how many copies downstream recipes need.
-- Price upgrades and logistics equipment in proportion to their practical capacity, speed, range, or other functional gains.
-- Distinguish a reusable setup tool from the equipment it configures when deciding where the main cost belongs.
-- Check a machine's supported ingredients, batch size, and energy limits before choosing a recipe format.
+- Read each card and its feedback, then check Material Processing, Personal Recipes, Approved Recipes, and the installed recipes before editing.
+- For bulk edits, read the full README, progression and update logs, and prior recipe notes.
+- Review Rejected first and Maybe second, and reopen Deferred only when the owner asks what an item does.
+- Address rejection feedback directly, redesign blank rejections, and make a focused change to Maybe cards.
+- Move new or revised cards to Progression Review, remove source copies, apply disable and restore-default decisions, and reopen Approved only when asked.
+- After each review, check IDs and outputs across queues and installed recipes, and keep one working card per design.
+- Log dated recipe changes, reasons, feedback, and decisions, mark unreviewed cards pending, and report feedback counts and percentages by theme per push and overall.
+- Use exact IDs for canonical pack items and keep approved production routes for inputs.
+- Get approval before creating custom items, adding missing prerequisites, or changing material processing, and flag unused custom items for review.
+- Keep decorative parts and filler out, and choose materials and components that suit the finished item's function.
+- Use Immersive Engineering components only where necessary, and reserve Create Crafts & Additions capacitors for earlier uses such as the TFMG Capacitor.
+- Verify actual function, throughput, capacity, range, power draw, and unlocks before setting a recipe's tier and cost.
+- Price the full upstream chain by scarcity, usable yield, batch size, machine requirements, energy, and downstream demand.
+- Use the [Vein Balance workbook](https://docs.google.com/spreadsheets/d/1eB8tn9jFumsnquxsZ1CsZR8GkLkyEhkbVO3lvMMpMzc/edit) and check spawn frequency, recovery, and travel separately from vein size.
+- During overhauls, check demand for base materials and alloys, and use underused forms where they fit while keeping retired forms out.
+- Scale selected endgame chains to millions of mined blocks and substantially higher manufacturing power.
+- Keep simple conversions simple, and scale cutting yields and byproducts to the stock used.
+- Cast applicable metals at 10 mB per nugget, 90 mB per ingot, and 810 mB per block.
+- Give each shaped recipe an original, balanced layout based on appearance and function, avoid filler rings, and allow shared patterns for related plates and rods.
+- Fill a square grid for full-block machines, and place functional parts where they belong in the finished assembly.
+- Use one structural frame at most in a single-block machine, with separate load-bearing frames for large builds and non-steel supports for electronics.
+- Use aluminum for Copycats and lightweight builds, brass for precision, cast iron for rigid beds, constantan for heat and sensing, and copper for electrical mounts.
+- Use lead for shielding, nickel for heat and corrosion, steel for heavy loads, and zinc for light-duty supports.
+- Build subassemblies from mechanisms, machines, and complex components, using the Fusion Core's subsystems as a model.
+- Use finished displays such as ME Terminals in monitors and computers, cards for plug-in functions, and count CPUs already inside Computing Mechanisms.
+- Use complete computers and extra chips sparingly, and choose the Basic Card or a suitable upgrade for each control function.
+- Use Induction Providers for power delivery and Induction Cells for storage, with late-game designs using higher tiers.
+- Reserve Mechanical Crafting for machines, including Quantum Storage blocks, and size the grid to the functional subsystems.
+- Use Sequenced Assembly for parts and exceptionally complex machines, aiming for fewer than 15 purposeful operations.
+- Compact physical parts and use suitable electronics processes for processors and cards.
+- Use the Advanced AE Reaction Chamber for components and material processing.
+- Use the AE2 Network Tool to calibrate, TFMG Screwdriver to fasten, Engineer's Hammer to form, and Create Wrench to fit Sequenced Assembly parts.
+- Retain reusable deployer tools, apply supported wear to damageable tools, and consume fasteners separately.
+- Mix Create, TFMG, and Mekanism as needed, and select the exact supported machine and casing tier for each operation.
+- Gate each machine-family upgrade with a previous-tier subassembly, and keep each tier's first machine reachable without its own equipment.
+- Check stock and alternate routes for cheaper bypasses, dependency cycles, and duplication, and use reachable in-place upgrades as the sole route for upgrade-only families.
+- Price upgrades by their actual gains and put the main cost on equipment that uses a reusable setup tool.
+- Keep progression order and group encased Create families where prerequisites allow.
+- Keep stock Create redstone, fluid and storage interfaces, regular and smart pipes, harvesters, and ploughs, and adjust starter machines that need zinc or copper before iron.
+- Gate mechanical pumps by resin yield and Engineering Processors at Industrial Iron or later.
+- Base new tools on Modern Foundry materials and leave existing tool recipes in place for now.
+- Use TFMG for local loads and ElectroEnergetics for continent-scale transmission in one grid, and gate each part by the capability it unlocks.
+- Give each retained mechanism a reachable recipe and a functional use based on the [role and tier tables](#recipe-reference-tables), and use Logic Mechanism for Tier 6 Advanced Storage.
+- Use Basic through Netherite Energy for chemical and nuclear support where appropriate, with Blazing Energy for heated stages.
+- Use nuclear fuel components in Nuclear and Uranium Mechanisms, with DU Plating counting for Uranium.
+- Use Industrial Colonies plating, verify fission heat sink and moderator recipes, and give RTGs 5×5 recipes with isotope, shielding, heat-conversion, and output stages.
+- Gate reactors through energy demand and allow tier skipping.
+- Use the Shadow Steel Press and Deployer as complexity references for the Shadow Steel Mixer.
+- Use the tank balance notes for Mekanism Chemical and Dynamic Tank recipes, and match costs to capacity and throughput.
+- Keep Manufactory processing focused on dust and crushed material, and disable raw-ore shortcuts and reagent conversions.
+- Keep one canonical Advanced Computer and provide Advanced Peripherals Casing using existing parts.
+- Start jet parts from costly existing subassemblies and scale Sequenced Assembly framing by size and performance, with mostly aluminum and steel at load points.
+- Consider the Quantum Entangloporter for endgame remote transport, and keep both chunk loaders with the Spatial Anchor preferred for AE2 networks.
+- Use the ME cell balancing tables and the approved 4k component, and require four previous-tier components and four finished predecessor cells in their respective recipes from 16k up.
+- Scale storage-component costs exponentially with distinct higher-tier subassemblies, and raise finished item and fluid cell costs through functional parts and processing.
+- Use a plastic ME Item Cell Housing without Heavy Machinery Casing, reserve it for 16k-and-up item cells, and check disassembly returns.
+- Use one capacity component per crafting-storage block, with tier-appropriate Induction Providers from 1M up.
+- Use Allthemodium from Refined Radiance where it fits, reserve Unobtainium for storage above 256k, and use exotic plates and composites where their properties justify the cost.
+- Make quantum blocks and Infused Quantum Alloy expensive, and price 5×5 Extended AE buses by their capabilities.
+- Make Entro seed, crystal, and ingot processing substantial enough to gate Concurrent Processors.
+- Use Vibranium as the hardest standalone material, Allthemodium as a superconductor, and Unobtainium as a costly, versatile endgame material.
+- Place all three pair alloys above Unobtainium, with Allthemodium–Vibranium for hardness and Allthemodium–Unobtainium costing more.
+- Use Unobtainium–Vibranium as the hardest material and as feedstock for the specialized Quantum Infused Alloy.
+- End Part One with the Interstellar Navigation Computer immediately before the Warp Drive, with Industrial Star and Black Hole as prerequisites, and reserve interstellar progression for Part Two.
 
-- Before a large recipe edit or overhaul, read every entry in the README, the progression or changelog, and the update log, then apply the relevant decisions to each affected card.
-- Use one electrical system with TFMG serving local machinery and ElectroEnergetics scaling distribution across the world.
-- Base progression on power consumption and make more complex tiers draw substantially more actual power through supported machine operations.
-- Build meaningful multi-step manufacturing chains wherever a tier or machine family warrants them, including beyond exotic metals.
-
-### AE2 storage and computing balance
-
-1. Start with the ME cell balancing tables, the Vein Balance workbook, the approved 4k component and the installed routes for the capacity and media type.
-2. Use four previous-tier components for each 16k-and-up memory component, and require four finished cells of that previous capacity when assembling the matching higher-capacity item or fluid cell.
-3. Scale cumulative storage-component costs exponentially through the four-to-one predecessor chain, add distinct functional subassemblies at higher tiers, and verify the full bill of materials against the balance tables.
-4. Increase finished item and fluid cell costs through media, power conditioning, enclosures, and processing, with distinct production chains at the upper tiers.
-5. Use Allthemodium from the Refined Radiance tier where its conductive properties fit, and reserve Unobtainium for later storage without making it a 256k prerequisite.
-6. Use at most one storage component in each crafting-storage block, and use tier-appropriate Induction Providers for power delivery at the 1M tier and above.
-7. Use the Computing Mechanism as the CPU assembly where its unlock fits, and count its upstream processors toward the total before adding processors it does not already contain.
-8. Check every finished design for duplicate cards, alternate crafting, disassembly returns, and cycles involving its earlier cells and machine prerequisites.
-
-### Additional recipe rules
-
-- Consult all previous recipe notes, the design notes, and the progression and update logs before changing a recipe.
-- Use the Industrial Colonies intermediates for NuclearCraft plating ingredients, including the intended composite or shielding grade.
-- Keep recipe cards in progression order and group Create: Casing machines by family within their tier wherever prerequisites allow.
-- Use the ME cell balancing tables for storage costs and the mechanism role and tier tables for selecting and pricing mechanisms.
-- Check the current saved cards against earlier versions and keep the latest intended design as the single working card.
-
-### Recipe push feedback
-
-- For every recipe push, record the date and a per-item list of recipe changes with a short before-and-after summary and the reason for each change.
-- Record the pack owner's actual feedback and review decision for each changed item, mark unreviewed items as pending, and fill those entries in as feedback arrives.
-- Tag feedback consistently with themes such as ring of items, misplaced components, tier mismatch, or cost, and keep the original feedback beside the tags.
-- After each review, report the count and percentage of reviewed items affected by each theme for that push and across pushes, counting each theme once per item per push and allowing multiple themes per item.
-- Use the most frequent themes to focus future recipe design and review, and keep any illustrative percentages separate from measured results.
-
-### Create and Create: Casing machines
-
-- Choose the actual machine for each operation in KubeJS Gen, including the specific Create: Casing variant when a recipe requires one.
-- Check the installed machine catalog before using a casing and operation together, since a casing tier does not provide every machine.
-- Use ordinary Create machines and earlier casing variants for operations they can perform, even inside a later-tier assembly.
-- Mix machine tiers within one sequence when different stages call for different tooling.
-- Use the selected machine as an exact requirement when a recipe is intentionally gated, and check that a stock or lower-tier route cannot bypass it.
-- Preserve universal behavior for stock Create recipes unless an explicit progression decision calls for changing that recipe.
-- Keep the first machine of each casing tier craftable using equipment and materials available before that tier.
-- Use presses, saws, deployers, mixers, spouts, and other machines according to the forming, cutting, fitting, mixing, or filling work they actually perform.
+## Recipe reference tables
 
 ### Create mechanism roles
-
-- Give each mechanism a reachable recipe whose materials and operations reflect its name and purpose, and check existing cards and installed scripts before proposing a missing route.
-- Treat the families below as proposed uses for existing mechanisms and check that each selected machine performs the corresponding job and can be reached without a circular dependency.
-A mechanism can appear in multiple categories when it performs a distinct job in each, such as delivering power to a drive or regulating power inside a computer.
 
 ```text
 Energy and power               Computing                     Digital Storage
@@ -328,50 +264,14 @@ Experience and resources          Material-specific equipment   Specialized syst
 - Dark Mechanism
 ```
 
-Use Basic through Netherite Energy for powered chemical equipment, with Blazing Energy suited to heated stages.
-
-Those same tiers are candidates for nuclear support equipment when a specific power role justifies them.
-
-Other Mechanism and Atuned Mechanism are awaiting verified equipment assignments.
-
 ### Mechanism progression tiers
 
-Read tiers 1 through 10 from left to right as a draft of the earliest intended access and recipe complexity for each mechanism. Set the final tier using reachable materials, machine prerequisites, and actual power demand. A mechanism may serve several categories, and early parts can feed late systems such as reactors once those systems unlock. Within a tier, make the prerequisites reachable before the recipes that consume them.
+Tiers mark earliest intended access. Mechanisms can serve several families.
 
 | Tier 1 | Tier 2 | Tier 3 | Tier 4 | Tier 5 | Tier 6 | Tier 7 | Tier 8 | Tier 9 | Tier 10 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | Starter crafting and kinetic assembly | Seals, signals, and basic powered equipment | Early industrial drives and utility machinery | Calibrated tooling and early computerized control | Powered process control | Refined Radiance tooling and advanced automation | Advanced computing, specialized systems, and fuel handling | Reactor systems and specialized high-power equipment | Late-game Enderiam equipment and advanced power systems | Endgame equipment with specialized material requirements |
 | Wooden Mechanism<br>Zinc Mechanism | Rubber Mechanism<br>Redstone Mechanism<br>Basic Energy Mechanism<br>Low Heat Mechanism | Steel Mechanism<br>Iron Energy Mechanism<br>Fluid Mechanism<br>Heat Mechanism<br>Storage Mechanism<br>Light Mechanism | Precision Mechanism<br>Golden Energy Mechanism<br>Hardened Energy Mechanism<br>Logic Mechanism<br>Experience Mechanism | Diamond Energy Mechanism<br>Advanced Fluid Mechanism<br>Advanced Heat Mechanism<br>Menril Mechanism<br>Sculk Mechanism | Advanced Precision Mechanism<br>Advanced Storage Mechanism<br>Blazing Energy Mechanism<br>Advanced Experience Mechanism<br>Physics Mechanism<br>Gyroscopic Mechanism<br>Ferricore Mechanism | Computing Mechanism<br>Uranium Mechanism<br>Niotic Energy Mechanism<br>Blazegold Mechanism<br>Source Mechanism<br>Blood Mechanism | Nuclear Mechanism<br>Netherite Energy Mechanism<br>Spirited Energy Mechanism<br>Soul Mechanism<br>Dark Mechanism<br>Void Mechanism | Enderiam Mechanism<br>Enderiam Energy Mechanism<br>Enderiam Fluid Mechanism<br>Enderiam Heat Mechanism<br>Enderiam Storage Mechanism<br>Nitro Energy Mechanism | Celestigem Mechanism<br>Eclipse Alloy Mechanism<br>Equivalence Mechanism |
-
-Logic Mechanism covers early computerized control in Tier 4, while Computing Mechanism supports advanced programmable equipment in Tier 7.
-
-For Tier 6 Advanced Storage, use Logic Mechanism for the storage controller so the recipe can unlock before Tier 7 Computing Mechanism.
-
-Other Mechanism and Atuned Mechanism are awaiting verified equipment assignments before tier placement.
-
-### TFMG frame roles
-
-- During a recipe overhaul, find a meaningful use for every existing TFMG frame, choosing the material for the load and conditions at its position in the finished machine.
-- Use Aluminum Frames for Copycats, lightweight moving assemblies, and weight-sensitive equipment such as the Physics Assembler.
-- Use Brass Frames for precision tooling, instrument mounts, and mechanical control assemblies.
-- Use Cast Iron Frames for rigid machine beds, motor mounts, and stationary equipment that benefits from vibration damping.
-- Use Constantan Frames for insulated supports in resistive heating assemblies and temperature-measurement equipment.
-- Use Copper Frames for electrical junctions, power-distribution hardware, and conductive mounting structures.
-- Use Lead Frames for shielded reactor instruments, radiation-handling equipment, and heavy shielding assemblies.
-- Use Nickel Frames for corrosion-resistant process equipment, hot instrumentation, and chemical machinery supports.
-- Use Steel Frames for heavy structural loads and give each frame a distinct central or base position.
-- Use Zinc Frames for light-duty hardware and assemblies where corrosion resistance matters.
-
-### Exotic material balance
-
-- Choose materials based on their properties in the pack and the job they perform, such as using conductive materials like cobalt in batteries or electronics where appropriate.
-- Treat Vibranium as the hardest standalone material in the pack.
-- Use Allthemodium as a high-hardness material and a superconductor for demanding electrical applications.
-- Treat Unobtainium as a very expensive, versatile endgame material.
-- Place the three exotic pair alloys above standalone Unobtainium in manufacturing difficulty.
-- Use Allthemodium–Vibranium for high-hardness applications and make Allthemodium–Unobtainium more expensive to manufacture.
-- Treat Unobtainium–Vibranium as the hardest material in the entire pack and the most versatile of the pair alloys.
-- Use Unobtainium–Vibranium as a feedstock for Quantum Infused Alloy, whose value comes from its specialized properties while Unobtainium–Vibranium retains the highest hardness.
 
 ## To do — current work and open design decisions
 
@@ -392,46 +292,6 @@ Reviewed November 9, 2026. This is the entry point for work we still want done. 
 - [ ] Review pending Quantum Alloy, Quantum Storage, Quantum Crafter, and wireless equipment balance against actual function, cost, and unlock order.
 - [ ] Research ElectroEnergetics devices and tier them by the improvements they bring to the shared TFMG and ElectroEnergetics power grid.
 - [ ] Keep the remaining exotic alloy routes above standalone Unobtainium and finish their designs only when reopened for review.
-
-### Recipe notes
-
-#### November 12, 2026 — component preferences
-
-- Use Immersive Engineering components only where they are necessary for the recipe's function or progression.
-- Keep Create Crafts & Additions capacitors out of endgame recipes and consider them as an upstream ingredient for the TFMG Capacitor.
-
-#### November 12, 2026
-
-- Start Aeronautics jet-engine parts from costly, reachable subassemblies and build up mostly aluminum framing with steel where it bears load, scaling the cost with engine size and actual turbofan or turbojet performance.
-- Consider the Mekanism Quantum Entangloporter as a subassembly for endgame machines that move resources remotely, and verify its recipe is reachable before any machine that uses it.
-- Revise the discussed Approved Mekanism, TFMG and NuclearCraft machines around functional subassemblies using the Fusion Core's separate subsystems as a reference.
-- Use a finished display such as an ME Terminal in computers and monitors, and use appropriate AE2 cards as plug-in electronics.
-- Use more Unobtainium Plates and exotic alloy composites where their cost, properties and unlock fit the machine.
-- Rebuild crafting-storage blocks around one capacity component with separate functional parts for processing, throughput and power.
-- Raise item and fluid cell costs substantially and plan distinct higher-capacity chains around the approved 4k component.
-- Keep both chunk loaders and favor the AE2 Spatial Anchor for its network role when balancing it against the Mekanism Dimensional Stabilizer.
-- Use Induction Providers in machine builds that need power delivery, including MEGA crafting storage, and keep Basic Induction Cells out of late-game equipment.
-- Give full-block machines, such as the ComputerCraft Computer, a filled square grid sized for the recipe.
-
-#### Earlier recipe notes
-
-- Redesign RTGs as substantial 5×5 assemblies with isotope, shielding, heat-conversion, and power-output parts.
-- Keep stock recipes for ordinary Create redstone items, fluid and storage interfaces, regular and smart fluid pipes, harvesters, and ploughs.
-- Keep ordinary Create machines on their stock routes where they fit progression, and revise starter routes that require iron before zinc or copper are appropriate.
-- Gate mechanical pumps by their resin extraction utility and verify that alternate acquisition routes respect the gate.
-- Put Engineering Processors and their manufacturing chain at Industrial Iron or later, keeping the first Industrial Iron machines independent of them.
-- Give quantum blocks and Infused Quantum Alloy substantial endgame costs, and price 5×5 Extended AE buses in proportion to their capabilities.
-- Build an expensive Entro seed, crystal, and ingot chain that also raises the upstream cost of Concurrent Processors.
-- Provide Advanced Peripherals Casing and recipes for the installed Aeronautics jet-engine parts using existing registered items.
-- Give each retained mechanism a reachable recipe and a functional consumer using the mechanism tables, with nuclear fuel components for Nuclear and Uranium mechanisms and DU Plating counting for Uranium.
-- Verify NuclearCraft fission heat sinks and moderators have usable recipes.
-- Keep the fusion core with its controller and subassemblies, and retain one canonical Advanced Computer design.
-- Use the Shadow Steel Press and Deployer as complexity references for the Mixer and price it through functional subassemblies.
-- Rebalance all Mekanism Chemical Tank tiers and design the Dynamic Tank components from the tank balance notes.
-- Put the Industrial Star and Black Hole ahead of the Interstellar Navigation Computer and final Warp Drive in the endgame chain.
-- Check Steel Frame counts and placement in working recipes, and use existing material-specific frames or functional subassemblies where they suit the load.
-- Reserve ME Item Cell Housing for item cells of 16k and above, and check low-tier disassembly yields against what their recipes consume.
-- Disable Manufactory raw-ore shortcuts, reagent conversions, and routes outside its dust and crushed-material role, including equivalent routes transferred to Create.
 
 ### Reactor progression and power — current priority
 
@@ -946,24 +806,14 @@ Updated October 29. This section gathers the design decisions recoverable from t
 
 - **Custom material parts replaces More Plates — current request:** user rejects generated/missing textures and wants IE-style plates plus consistent rods/gears for all real generated materials, including Tough Alloy. Prepared141sets/423forms:381custom and42reused, excluding5falseingots. Immersive Engineering base plate/rod sprites use runtime material tints; original gear sprite. Retire More Plates shortcut recipes and duplicates, preserving existing stacks with hidden legacy IDs and1:1migration. Full restart required; replacement installed only after user closed Minecraft. Next user launch/startup/rendering remains unverified. Texture preview and package in current chat outputs; detailed build/migration evidence in workflow/recipe-pass-20261029/custom-material-parts. No recipe-authoring shortcut/cost progression is invented.
 
-- **Custom material parts replaces More Plates — current request:** user rejects generated/missing textures and wants IE-style plates plus consistent rods/gears for all real generated materials, including Tough Alloy. Prepared141sets/423forms:381custom and42reused, excluding5falseingots. Immersive Engineering base plate/rod sprites use runtime material tints; original gear sprite. Retire More Plates shortcut recipes and duplicates, preserving existing stacks with hidden legacy IDs and1:1migration. Full restart required; replacement installed only after user closed Minecraft. Next user launch/startup/rendering remains unverified. Texture preview and package in current chat outputs; detailed build/migration evidence in workflow/recipe-pass-20261029/custom-material-parts. No recipe-authoring shortcut/cost progression is invented.
-
 - **NuclearCraft material appearance:** prefer matching TFMG or Immersive Engineering material/form and retire the NuclearCraft variant through the existing input/output normalization and viewer-hide mechanism. Preserve previously selected material ownership and distinguish sheets from plates. Eight common plates already have mappings;16additional matching dust/nugget variants are configured. Bronze plate and unique alloys have no exact preferred-mod replacement and remain unresolved, not substituted with another metal. Config save is not proof of reload/runtime activation.
 
-- **Approval means balanced, not automatically expensive:** an approved inventory selection can need a cheaper, simpler, equivalent, or more complex recipe according to its utility. Existing final custom designs must be reused rather than duplicated. The anvil example is a 23-iron draft instead of 31, without new machinery or electronics.
-- **Review queue.** Put new or revised recipe cards in Progression Review unless the pack owner directs otherwise, and check Rejected before Maybe when choosing what to revise.
-- **Rejected.** Address the stated reason with a substantive redesign, and treat a blank rejection as a request for a fresh design based on the item's function and progression.
-- **Maybe.** Treat the decision as uncertainty or dissatisfaction without a firm diagnosis, and try a modest, purposeful change.
-- **Deferred.** Pull a card only when the note says the owner does not know what the machine does, and verify and explain its function before proposing a recipe.
-- **Explicit decisions.** Preserve approved, disabled, and restore-default decisions, and keep a single canonical card when moving a revision into review.
-- **Layout check.** Before submitting a shaped recipe, check that the overall layout and its supports look balanced and that any asymmetry has a functional reason.
-- **Machine recipes should depict the machine:** recognizable structure, working head, drive, controls, supports, and meaningful wiring. No random pile of expensive parts, empty outer columns, or repeated steel frames solely as cost. Use suitable existing TFMG frame/casing materials and plastic for electronics housings/insulation.
+- **Anvil draft:** 23 iron in place of 31, using ordinary crafting.
 - **Heavy Machinery Casing:** steel-heavy structural reinforcement, not arbitrary rare electronics. Steel frame can underpin steel casing; steel casing can underpin heavy casing. Avoid charging for that full heavy structure again inside small digital parts or cell housings.
-- **ME Item Cell Housing:** no Heavy Machinery Casing. Needs a plausible plastic outer shell; removing it from the housing does not authorize changes to every storage-cell recipe. Keep drive bays distinct from the cells placed into them.
 - **Extended Machine Frame:** user requests 5x5 with a heavy machinery frame/base in the middle. Preserve the distinction between the user's named frame and a registered casing; verify identity before substituting.
 - **Mekanism factories:** direct Basic/Advanced/Elite/Ultimate factory crafting recipes are Disabled; machines remain retained and upgrades use Tier Installers. Do not disable the factory blocks or installer functionality merely because direct recipes are disabled.
 - **Semiconductors — latest user direction supersedes older named/yield generations:** retain standard TFMG P and N names, green P and pink N. Avoid invented custom wafer items: use an empty circuit board to represent wafer construction, yielding five semiconductors. Use molten gold and copper; N/pink additionally uses electrum. Precise staged assembly with cleaning/masking/doping/thermal and finishing roles; brass handles green, railway handles pink. Avoid machine/chip bootstrap loops. Actual saved/runtime state must be checked separately from this requirement.
-- **MEGA component assembly:** one Accumulation Processor as the initial input, not one per loop. Four loops with sixteen steps per loop, consuming one 256k bank per loop / four total. Add circuit base and plastics/HDPE before cutting; retain titanium alloy. Refined Radiance and Shadow Steel serve meaningful finishing stages. Preserve the user's latest molten-gold filling amount rather than reconstructing uncertain spoken arithmetic.
+- **Earlier MEGA component assembly:** one Accumulation Processor as the initial input, not one per loop. Four loops with sixteen steps per loop, consuming one 256k bank per loop / four total. Add circuit base and plastics/HDPE before cutting; retain titanium alloy. Refined Radiance and Shadow Steel serve meaningful finishing stages. Preserve the user's latest molten-gold filling amount rather than reconstructing uncertain spoken arithmetic.
 - **Presses and deployers:** preserve the user's completed Industrial Iron and Shadow Steel layouts. A press concentrates mechanical force; a deployer emphasizes controlled precision. Shadow Steel deployer tool concepts include a brass hand, laser, Focused Nozzle, and optical alignment sensor, with computing and concurrent processors serving specific roles. Do not clone the press and swap two ingredients. Railway deployer uses Logic Mechanism, avoiding a dependency on the Advanced Precision Mechanism it produces.
 - **Extended Molecular Assembler:** target the extended machine, not the ordinary assembler. Digital crafting chamber, sensible computing/wiring/insulation and enclosure; avoid arbitrary mortars/mechanisms. Assembler Matrix Glass was liked, but its own cost needs review.
 - **Andesite Cogwheel:** custom draft uses an andesite sheet instead of its incorrect iron sheet, retaining the normal cogwheel and layout.
@@ -1058,10 +908,6 @@ An Item Vault on a Create Aeronautics craft should become heavier as more cargo 
 
 This records the user's requested design direction. Exact item-mass mappings and physics integration remain implementation work; no current runtime behavior is asserted or changed. Task-register completion counts remain unchanged.
 
-
-## Manufactory retained; dust coverage audit - October 29
-
-User retains Manufactory for broad dust/crushed processing below the late-game cutoff, provisionally beyond Refined Radiance and explicitly excluding Allthemodium and above. Audit cached91native recipes andregistered dust/crushed outputs. Do not treat all dust names as mechanically grindable: chemical products and special reagents need original processes. Material aliases avoid classifying ordinary steel/aluminum as late solely from a NuclearCraft sheet row. Coverage and exceptions saved in workflow/recipe-pass-20261029/manufactory-audit. Seven native outputs are not dust/crushed, including wafer/leather/bioplastic; flag for review, do not disable blindly. No gameplay/card recipes changed; fresh runtime coverage NOT_VERIFIED. Next: choose canonical material outputs, preserve yields, and stage only missing physically valid early-material grinding routes; exclude explicit exotic tier.
 
 ## Manufactory retained; dust coverage audit - October 29
 
