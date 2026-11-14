@@ -50,7 +50,7 @@ An isolated Java benchmark at 20 depots measured 3.9 µs p95 and 7.2 µs p99 for
 
 ### Session status
 
-18 of 18 workstreams have passed their pilot acceptance checks (100%). The certified local fleet and crewed interplanetary freight each completed an isolated native delivery through depot payment. Full-pack validation remains open.
+The 18 workstreams below record completed pilot checks. The certified local fleet and crewed interplanetary freight each completed an isolated native delivery through depot payment. Live progression and large-scale validation remain open.
 
 | Task | Status |
 | --- | --- |
@@ -61,7 +61,7 @@ An isolated Java benchmark at 20 depots measured 3.9 µs p95 and 7.2 µs p99 for
 | 5. Resource accounting | Complete for verified ore, biome potential and paid depot stock |
 | 6. Production and maintenance | Complete for commissioned furnace output and exact spare-parts service. The scoop maintenance counter passed in isolation. A live scoop extraction run and reactor adapters remain open. |
 | 7. Contract ledger | Complete for standing orders and durable physical receipts |
-| 8. Dashboard and automation | Complete for the text board, recurring acceptance, and addressed native package intake. Dedicated dashboard UI and transport dispatch integration remain open. |
+| 8. Dashboard and automation | The graphical dashboard, route inspection, recurring orders and addressed package intake passed native checks. Command-free station commissioning and automated dispatch remain open. |
 | 9. Power metering | Complete for verified native consumer debits. Grid attribution and payouts are later integrations. |
 | 10. Rail fuel and freight | Complete for opt-in native fuel and exact package proof through the installed train worker and disk reload. Player-built return trips still need a full-pack test. |
 | 11. Certified fleets and passengers | Complete for native rail passengers and a certified local airship freight pilot. An uncrewed Sable ship used 25 mB of metered kerosene, traveled between two physical docks, and delivered 37 iron for 111 credits once. The fixture seeded the route qualification records. |
