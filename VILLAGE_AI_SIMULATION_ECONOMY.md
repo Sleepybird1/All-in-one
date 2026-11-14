@@ -394,3 +394,7 @@ The following details were explicitly stated in the current conversation transcr
 ### Gradual credit-score penalties for overdue payments — confirmed
 - A missed payment causes a **gradually increasing credit-score penalty** over the period it remains overdue, up to a defined maximum for that missed payment, rather than the full penalty immediately on day one.
 - Illustrative example only: a maximum **10-point** penalty accumulating **1 point per overdue day** reaches 10 points after 10 days. The actual point values, time scale, penalty cap, and behavior after late payment is cured are **not yet finalized**.
+
+### Credit-score recovery after curing a late payment — confirmed
+- When a nation pays an overdue obligation, the credit-score points already lost **do not immediately return**. The late-payment penalty stops growing once the overdue amount is settled, and the score **recovers slowly over time** through subsequent reliable payment behavior.
+- Example: if a payment incurred a five-point penalty by day five, paying on day five does not instantly restore those five points. Exact recovery rates remain undecided.
