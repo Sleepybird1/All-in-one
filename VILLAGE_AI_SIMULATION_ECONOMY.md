@@ -362,3 +362,7 @@ The following details were explicitly stated in the current conversation transcr
 ### Treaty obligations during renegotiation — confirmed
 - Nations may **pause performance of an existing treaty while renegotiating**. Pausing does not cancel or forgive the obligations: missed payments and deliveries accumulate and must be made good once negotiations end.
 - Whether the pause requires mutual approval, how long repayment may take, and whether interest or penalties accrue during an authorized pause are still undecided.
+
+### Negotiated forgiveness of paused obligations — confirmed clarification
+- Obligations missed during a treaty renegotiation pause normally remain due, **unless the nations explicitly negotiate to waive, reduce, or forgive those accumulated obligations**. A pause by itself is not forgiveness.
+- Repayment timing and schedules remain open for further decision.
