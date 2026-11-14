@@ -484,3 +484,10 @@ The following details were explicitly stated in the current conversation transcr
 ### Disposition of confiscated company assets — confirmed
 - After confiscating assets of a collapsed company, the host nation **dynamically chooses what to do based on its own economic needs**. For a factory, available options include operating it, selling it to another company, or dismantling it for recoverable resources.
 - The choice should account for actual national needs and circumstances; exact valuation, operating costs, salvage yields, and AI decision weights remain undecided.
+
+### Confiscated factory operations, closure effects, and needs-driven valuation — confirmed
+- A host nation operating a confiscated factory must cover real operating costs, including workers, maintenance, energy, and materials.
+- The nation may sell a seized factory at a loss when that is preferable to keeping or dismantling it. Scrapping a factory immediately eliminates its jobs but yields recoverable materials in the short term.
+- Factory closure has **economic**, not automatically diplomatic, spillovers to neighboring settlements. Trade-price effects occur **after a delay**, not instantaneously. The delay's numerical duration is deferred and varies with how crucial the factory is.
+- Factory importance accounts for output, employment, and military supply together. These factors are evaluated using a **fixed, predefined weighting/formula whose effective priorities change dynamically with the nation's actual needs**. For example, labor shortages increase the importance of jobs; military shortages increase the importance of military output. The AI does not arbitrarily choose or rewrite the weights; it supplies/experiences the changing national conditions used by the rule.
+- Exact weights, response functions, thresholds, and timing remain unfinalized.
