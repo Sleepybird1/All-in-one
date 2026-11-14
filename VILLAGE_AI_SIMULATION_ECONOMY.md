@@ -151,6 +151,18 @@ This section records decisions explicitly approved during the design review. It 
 - Formal military alliances have a **designated leader nation**, rather than operating entirely without centralized leadership.
 - The leader's selection process, term, succession, coordination authority, and limits on compelling other members to act remain **undecided**. This decision does not override the confirmed principle that member nations independently decide whether to participate in wars.
 
+### Alliance leadership by strength — confirmed
+- The designated leader of a military alliance is selected **automatically based on relative national strength**, rather than through member elections.
+- The exact combined measure of military/economic strength and how leadership changes when rankings change remain undecided.
+
+### Wartime alliance coordination, sovereign production, and procurement — confirmed
+- The alliance leader's authority is **primarily wartime military coordination**. The leader can propose strategic objectives and request that member nations attack or defend particular locations, and can communicate the coalition's overall wartime requirements (troops, equipment, weapons, supplies, etc.).
+- These requests **do not grant command over other members' domestic economies**. The leader cannot force another nation to abandon food production, redirect factories to steel, or otherwise dictate its internal production priorities.
+- Each participating nation independently determines what contribution it can make and how to meet the alliance's wartime needs, based on its own capacity and priorities. Not every nation can supply every requested item or troop contribution.
+- If a nation needs additional swords, weapons, equipment, or other military supplies, it can issue **procurement contracts**. Player producers may fulfill these contracts when the nation cannot or chooses not to supply everything domestically.
+- The leader's battlefield requests are coordination rather than unconditional orders; this preserves prior rules that allied nations retain independent decisions about war participation and national budgets.
+- Precise leader authority, wartime resource allocation, contract pricing, troop command execution, and how alliance needs are aggregated remain open.
+
 ### Still open for design
 - Exact accession scoring, political-difference representation, growth resistance curves, thresholds, administrative effects, negotiating terms, and when a nation counts as mature or sovereign.
 - How conditional offers are displayed to players and whether counteroffers or deadlines exist.
