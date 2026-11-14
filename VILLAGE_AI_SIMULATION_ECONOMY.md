@@ -753,3 +753,9 @@ The following details were explicitly stated in the current conversation transcr
 - The earlier proposal of a fixed economic-impact delay was superseded in the specific case of **jobs left unfilled immediately**. Keep any separate delayed adjustment effects explicitly undecided rather than imposing them.
 - The previous discussion of all seven manpower tiers and the 1.5/2.5/5/10/15/20/25% values is provisional. The user explicitly delegated **all remaining numeric balancing** to the coding AI, not just one delay.
 - The relations list was accepted **for now**, without a claim that all previously discussed relation modifiers had been exhaustively recovered.
+
+
+### Historical conversation cross-check: performance and tactical impact (2026-11-14)
+- **Large-world performance requirement:** the economy and national simulation must remain viable on worlds with approximately **ten million chunks**, with **very low CPU usage**. Simulate unloaded villages/nations abstractly, without requiring chunks to be loaded or individual citizens to be spawned. This is a scalability design target, not a claim of benchmarked performance.
+- **Player absence and natural change:** no online player/AFK presence is required for the simulation to advance while the **server is running**. Player absence must not itself trigger artificial world termination or immediate collapse. Nations may nevertheless naturally change, starve, collapse, or recover over realistic simulated timescales under the ordinary economic rules. The server-off pause rule remains intact.
+- **Limits of player battlefield influence:** most warfare is simulated at the nation/army level. A player's tactical skirmishes can influence battle outcomes and diplomatic negotiations, but an individual player's victories must not automatically conquer continents or bypass the larger military/logistical simulation.
