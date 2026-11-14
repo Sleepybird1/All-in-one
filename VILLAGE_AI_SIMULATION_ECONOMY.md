@@ -436,3 +436,7 @@ The following details were explicitly stated in the current conversation transcr
 - **Sovereign/national default** does not automatically authorize seizure of a nation's pledged collateral. Instead, the default imposes **severe damage to diplomatic relations and the nation's credit score**, including a **persistent negative modifier that is difficult to remove**. The creditor may still seek negotiated resolution; do not assume unilateral confiscation of sovereign assets.
 - A defaulting company can likewise suffer a severe, persistent creditworthiness/reputation modifier. Company and nation consequences should be tracked at their respective levels; the nation's score is not automatically identical to a company's.
 - Exact penalty values, duration, removal conditions, and company seizure process remain undecided.
+
+### Persistent default modifier removal — confirmed
+- The severe, persistent default-related credit/reputation debuff for a company or nation **does not simply fade with elapsed time**. Removing it requires **specific corrective actions** to restore financial reputation.
+- Which actions qualify, whether repayment is mandatory, and how much each action reduces the modifier remain undecided. Ordinary late-payment score recovery is a separate mechanic.
