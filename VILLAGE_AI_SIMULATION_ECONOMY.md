@@ -358,3 +358,7 @@ The following details were explicitly stated in the current conversation transcr
 ### Treaty counteroffers — confirmed
 - A counteroffer is a **rejection of the current proposal followed by a new proposal** with different terms. Nations can reject a treaty offer or renegotiation demand and submit a counteroffer rather than being limited to acceptance or outright rejection.
 - The original proposing nation can then evaluate the new terms. No automatic acceptance, fixed number of negotiation rounds, or specific deadline has been approved.
+
+### Treaty obligations during renegotiation — confirmed
+- Nations may **pause performance of an existing treaty while renegotiating**. Pausing does not cancel or forgive the obligations: missed payments and deliveries accumulate and must be made good once negotiations end.
+- Whether the pause requires mutual approval, how long repayment may take, and whether interest or penalties accrue during an authorized pause are still undecided.
