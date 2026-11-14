@@ -421,3 +421,7 @@ The following details were explicitly stated in the current conversation transcr
 
 ### Changed lending cutoffs apply only to new loans — confirmed
 - When a lender raises or lowers its minimum credit-score threshold, the new cutoff applies **only to new loan applications**. Previously approved loans remain governed by their agreed terms and are not retroactively affected by the new eligibility threshold.
+
+### Secured intergovernmental loans — confirmed
+- Nations may offer **secured loans** backed by pledged collateral, including factories, railroads, resources, or other eligible assets, in exchange for potentially more favorable borrowing terms.
+- Collateral valuation, ownership restrictions, default seizure procedures, and exact interest-rate or borrowing-limit benefits are not yet finalized. Pledging collateral does not itself transfer ownership.
