@@ -101,6 +101,11 @@ This section records decisions explicitly approved during the design review. It 
 - Renegotiation is possible, not guaranteed; the lender has agency and need not approve changes.
 - **Not yet determined:** the precise initial pricing/term-setting method, interest calculations, collateral, grace periods, and which concessions may be negotiated. Do not interpret “fixed at the beginning” as a universal fixed interest rate across all loans.
 
+### Sovereign debt default: creditor responses — confirmed direction
+- When a nation defaults on intergovernmental debt, the creditor may pursue **asset seizure**, **cutting diplomatic or economic ties**, and **attempts to influence the debtor nation's government**.
+- These are potential responses, not an automatic mandatory sequence or guaranteed outcomes. Their availability and success should depend on circumstances and political/economic constraints, with exact mechanics still to be designed.
+- The user has **not yet approved** automatic territorial seizure, war as debt collection, or any specific method of government influence. The legal/diplomatic prerequisites and limits for asset seizure remain open.
+
 ### Still open for design
 - Exact accession scoring, political-difference representation, growth resistance curves, thresholds, administrative effects, negotiating terms, and when a nation counts as mature or sovereign.
 - How conditional offers are displayed to players and whether counteroffers or deadlines exist.
