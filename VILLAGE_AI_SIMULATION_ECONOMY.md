@@ -515,3 +515,9 @@ The following details were explicitly stated in the current conversation transcr
 - Subjective simulation metrics such as happiness, stability, and diplomatic relations use a **0–100% scale**, and **fractional/decimal values are allowed**. Physical quantities (population, inventory, money, etc.) retain actual units.
 - **Happiness is an input/modifier to stability**, not a synonym for stability. The user initially said 'combined score' but clarified that happiness affects stability; therefore preserve happiness as a distinct underlying metric and derive stability using happiness plus other factors. Do not collapse both into one undifferentiated stored value.
 - Exact stability formula, other contributing modifiers, and update cadence remain to be designed.
+
+### Separate village and national needs with combined dashboard views — confirmed
+- **Village needs and national-government needs are separately calculated and stored**, not defined as a single national number equal to the sum of village requirements plus extras.
+- National needs are **dynamic and may be influenced by the aggregate needs of villages**, alongside independent national priorities and obligations. The two values can inform one another without losing their distinct identities.
+- The Village Dashboard may show **individual village needs, aggregate village needs, national-government needs, and a combined overall view**. The combined display is a presentation/aggregation, not the canonical stored national-needs variable; avoid double-counting shared obligations.
+- Exact formulas, categories, aggregation semantics, and dashboard layout remain open.
