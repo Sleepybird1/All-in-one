@@ -687,3 +687,8 @@ The following details were explicitly stated in the current conversation transcr
 - National taxes on village wealth are **collected periodically**, not continuously on each transaction. The exact collection interval remains **deferred** for later balancing.
 - The **national tax rate is dynamically determined by the nation's changing needs**, rather than being a permanently fixed universal percentage. National priorities, obligations, and fiscal needs inform the rate under consistent simulation rules.
 - The precise rate-setting formula, limits, change frequency, and political/economic consequences are not yet finalized. Distinguish the periodically collected tax from the potentially more frequently updated wealth indicator.
+
+### Tax-rate inputs and happiness impact — clarified
+- National tax rates respond dynamically to **both country-wide needs and village needs**, not national needs alone.
+- **Raising national taxes directly reduces village happiness**, **not stability as a separate direct tax penalty**. Because happiness is already a modifier of stability, tax increases may **indirectly** affect stability through the established happiness-to-stability calculation; do not double-apply an independent tax-to-stability penalty.
+- Exact tax-response and happiness penalty curves remain deferred to playtesting.
