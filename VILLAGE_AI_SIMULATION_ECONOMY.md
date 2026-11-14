@@ -821,3 +821,10 @@ These points were recovered from earlier conversation context and compared again
 - **Interactive menus serve a different purpose:** taking actions and making decisions, such as selecting contracts, managing diplomatic relations, and other available governance/economic actions.
 - Both physical in-world displays and interactive menus are part of the intended experience; this is **not** an either/or choice. Preserve the technology-tiered display progression (signs, segmented displays, computer-like displays).
 - The exact means of opening menus, permissions, which actions exist at each technology tier, and whether menus can be accessed remotely are **not yet decided**.
+
+### Player-configured automated rail logistics and contracts — confirmed direction (2026-11-14)
+- The goal is **automation of repetitive logistics**, not merely unlocking remote village menus with a technology tier.
+- Players should be able to **preconfigure train routes, destinations, and operating instructions** so that trains can move goods between locations automatically, including to fulfill accepted/eligible contracts, without the player manually plotting each train path or dispatching each shipment.
+- The player defines the presets/rules and retains control of the logistics network; actual routing and dispatch operate dynamically under those presets and existing physical track, access, capacity, and delivery-verification constraints.
+- **Still to design:** whether contracts are automatically accepted versus only automatically fulfilled; matching goods/quantities to contracts; train scheduling, routing priorities, loading/unloading, exceptions, permissions, and the configuration interface. Do not treat these details as already approved.
+- The user explicitly corrected the framing: this is **not necessarily a technology-gated central national computer or remote access requirement**. Do not impose that requirement without a separate decision.
