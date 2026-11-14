@@ -936,3 +936,29 @@ Status: reconciled from the subsequent spoken conversation after the prior GitHu
 ### Explicitly unresolved / implementation details
 - Exact contract deadlines and penalties, financial formulas, public service subsidies, vehicle specifications, custom block integration, demand forecast parameters, market rates and other balance numbers remain implementation/design work. Do not infer approval for numeric examples.
 - No GitHub code implementation is implied by these design notes.
+
+
+### Contract mechanics matrix — explicit triggers, parties, and constraints (clarifying addendum)
+
+**Scope and actor model:** An issuing **village** uses its own economic needs/budget within national policy; an issuing **AI nation** follows its own diplomacy and procurement decisions; the **player-controlled nation** can issue policy-directed procurement; the **player-owned company** is a separate potential supplier with its own funds, inventory and real production obligations. AI-to-AI fulfillment is simulated trade, not an automatic physical player-company contract. The special village -> player company -> foreign supplier order is **ONLY for procurement issued by the player's own nation**, as clarified above.
+
+**Common generation pipeline (every two-minute decision evaluation, not necessarily one new contract per tick):**
+1. Determine current and forecast need from population, consumption, industrial throughput, infrastructure/asset condition, healthcare, military threat/war, policy and development plans.
+2. Subtract usable local inventory, already committed incoming deliveries, active contracted supply and feasible domestic production; do not issue overlapping orders for the same units.
+3. Evaluate the remaining requirement against available funds, existing obligations, debt/reserves, stability, prices, diplomatic/trade access, supplier capability and delivery timing.
+4. Select an appropriate contract **category** and **structure** (one-time, recurring, urgent, fixed-price upkeep, construction plus maintenance, etc.). A forecast can lead to a binding order now with future delivery; acceptance creates a real obligation.
+5. Post/offer the contract under the **issuing actor's** applicable procurement rules. Other eligible AI parties may fulfill it if the player does not. Completed player deliveries can gradually win a larger *share* of demand but do not magically increase the buyer's underlying consumption.
+6. Upon acceptance, track payer, supplier, quantity, pricing terms, funding, deadlines, delivery evidence, upkeep and penalties; reconcile physical goods and payment **once**, avoiding duplicate fulfillment or money creation.
+
+**Category-specific contract causes and forms:**
+- **Goods and materials:** Consumption and stock thresholds; shortage of concrete, metals, fuel, food, medical supplies, factory inputs, machines or replacement parts; existing production/incoming shipments reduce the order. Can be one-off or recurring at agreed fixed prices.
+- **Construction / factories / infrastructure:** Population/housing needs, industrial capacity bottlenecks, planned expansion, roads/rail/power and facility replacement. May require delivery of materials **or actual player construction**. Can be lump-sum or staged and optionally include fixed-price future upkeep.
+- **Vehicle / ship / rail equipment:** Demand for transport or industrial capacity, replacement/upkeep, new infrastructure, government/military requirements and war losses. Buyer may order existing player designs or request a custom design; one-time quantities or scheduled recurring batches, with optional maintenance. Exact performance checks and fleet modeling remain deferred.
+- **Military weapons and ammunition:** War, mobilization, defense readiness, consumption, attrition, depleted reserves and forecast requirements. Orders must correspond to real military needs, funding and equipment production; they may be urgent or future-dated.
+- **Logistics / transportation:** Need to move existing goods between producers and destinations where available logistics capacity/routes are insufficient. A logistics contract purchases **transport service**, not newly created goods.
+- **Services / public needs:** Actual service demand and available capacity (e.g. healthcare); distinguish buying a defined service from the government's **separate operating budget** for staffing and facilities. No spending-created medical items or abstract free output.
+- **Financial / loan:** A borrower requests an amount and purpose because of investment or financing need. Lenders bid calculated terms; offer expiration is lender-set, request duration can be finite/indefinite, accepted loans transfer lump sum, and partial acceptance produces a **fresh request** for the balance.
+
+**Pricing and selection:** Local markets are distinct and price depends on actual supply/demand and trade conditions. Negotiated discounted fixed-price supply to a financially struggling buyer can improve relations; standard price is neutral. Long-term fixed unit prices do not float with subsequent market changes. Active contracts remain binding and are not canceled simply because a new supplier is preferred. For the player's **own nation's** all-or-nothing procurement, skip any candidate unable to fulfill the full order; this rule is not automatically imposed on every AI nation's trade.
+
+**Still not decided:** exact contract-generation thresholds, forecast horizon, capacity verification, contract expiration for non-loan categories, penalty magnitudes, vehicle testing, maintenance wear formulas, and precise pricing/AI bidding formulas. These require explicit design or implementation balancing; no numeric values in examples are approved.
