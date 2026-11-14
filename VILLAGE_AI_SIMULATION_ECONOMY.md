@@ -188,6 +188,15 @@ This section records decisions explicitly approved during the design review. It 
 - Nations can develop and procure ships and related naval equipment through their own industrial capacity or contracts, including opportunities for player-owned shipyards and suppliers.
 - Naval procurement and upkeep should respect national affordability, real industrial capacity, and the broader distinction between peacetime readiness and wartime demand. Exact vessel classes, naval warfare mechanics, ship maintenance, production rates, and integration with specific ship mods remain undecided.
 
+### Player-built warships: physical construction, abstract delivery — confirmed
+- Player-owned shipyards can fulfill contracts for **complete warships as well as individual naval components**.
+- For a complete ship contract, the player must **actually construct the vessel from blocks**. Once construction is validated and accepted, the built blocks are removed and converted into a **ship receipt/token item** representing that completed vessel. The nation receives the abstracted ship on successful delivery; the vessel is not expected to remain as a continuously simulated block-built ship.
+- The player delivers the receipt/token to the purchasing nation's **naval port/dock delivery interface**. Ship sales require a **valid navigable naval trade route** between the origin and destination, rather than instant delivery or purely nominal trade access.
+- **Landlocked nations/shipyards without viable maritime access cannot construct and export ships through this system.** A naval port/dock interface may only be placed within a restricted maximum block distance of an **ocean biome**. The exact distance and port validation rules remain undecided.
+- Naval delivery incurs real economic costs reflecting **crew/personnel, fuel, maintenance, and voyage/transport expenses**, varying with the route and circumstances. Exact pricing formulas, route checks, and travel-time simulation remain open.
+- The player is paid upon fulfilled contract in the **agreed compensation**, which can be **money or resources**. Ship construction costs and transport costs must be considered when evaluating profitability.
+- Exact vessel validation criteria, allowed designs/mod integrations, token safeguards, ocean connectivity, receipt redemption, and failure/refund handling remain to be designed. The receipt should represent one validated ship and should not allow duplicate delivery.
+
 ### Still open for design
 - Exact accession scoring, political-difference representation, growth resistance curves, thresholds, administrative effects, negotiating terms, and when a nation counts as mature or sovereign.
 - How conditional offers are displayed to players and whether counteroffers or deadlines exist.
