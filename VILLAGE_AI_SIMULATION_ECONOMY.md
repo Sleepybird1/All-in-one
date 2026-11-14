@@ -461,3 +461,8 @@ The following details were explicitly stated in the current conversation transcr
 ### Default history rehabilitation after sustained good behavior — confirmed
 - Prior serious defaults do **not count against a nation or company forever**. After a sufficiently long period of consistently reliable financial behavior, the historical repeat-default record can cease to increase the severity of future default penalties.
 - This is separate from removing an *active* persistent default modifier, which still requires full repayment and reaching the effective credit-score threshold. The required good-behavior duration and reset rules remain undecided; 'years' was conversational, not a finalized game-time requirement.
+
+### Rehabilitation reset trigger — confirmed
+- The good-behavior period for clearing historical repeat-default escalation **restarts only after another serious default**, such as an unresolved secured-loan default involving pledged collateral and failure to honor repayment demands.
+- An ordinary late or missed payment still causes its normal credit-score/trust consequences, but does **not** restart the historical serious-default rehabilitation period by itself.
+- Exact classification thresholds for a serious default remain open.
