@@ -287,3 +287,27 @@ This section records decisions explicitly approved during the design review. It 
 ### Review discipline
 
 Only label a decision **user-approved** after explicit confirmation. Keep suggestions, examples, implementation claims, and deferred questions separate. Add subsequent confirmed decisions here as the review continues; do not silently convert proposals into rules.
+
+
+## Continued design decisions — food crises, secession, and treaties (2026-11-14)
+
+### Food shortages and rationing
+- Food shortages escalate from rationing (unhappiness and reduced productivity, with survival possible) to prolonged starvation (higher mortality, emigration, greater dissatisfaction and instability). Population losses reduce workers and output, but also reduce food demand, so collapse is not inevitable.
+- Rationing starts automatically at low food reserves; precise thresholds are not yet defined. Villages can ration locally; the national government can impose nationwide rationing during a national crisis.
+- The national government can direct food surpluses from one village to another; physical transportation is required. It should normally purchase food at market price using treasury funds or debt, preferring borrowing over uncompensated seizure. Emergency uncompensated requisition is a last resort, causing greater local dissatisfaction and political damage.
+- Compensation for seized food is a priority when affordable, but not guaranteed. Unpaid compensation is recorded as a financial liability and damages relations. It may eventually be written off if impossible to repay, with lingering political effects. Recipient aid can be a grant, sale, or repayable loan depending on circumstances.
+
+### Internal dissent, secession, and asset control
+- Villages may refuse voluntary sales to the capital. Refusal alone does not automatically mean rebellion. Negotiation, compensation, national demands, and military enforcement can escalate a dispute. Troop deployments cost resources and can increase instability. A village can submit or resist and attempt secession.
+- Other villages can join a rebellion only when their own stability is poor AND relations with the rebel village are good; participation is still a strategic decision. Breakaway villages may unite or form separate nations depending on relations and stability.
+- Seceding villages retain assets they physically control (factories, stockpiles, local funds, equipment), with contested federal installations/assets resolved through negotiations or conflict. The original nation weighs military/economic costs before choosing to fight or permit independence. Federal troops leave when peaceful secession is agreed, subject to negotiated asset withdrawal.
+- Independence settlements may demand immediate or ongoing payments, resources, surplus deliveries, and military equipment. Terms can be mixed and negotiated based on need and bargaining power. Noncompliance can lead dynamically to renegotiation, sanctions/penalties, or war, considering both nations' financial and military situations.
+
+### Debt, diplomacy, and treaty visibility
+- During emergencies such as war, debtor nations may request negotiated payment deferrals; if forced to miss payments without approval, the default remains a breach. Debt persists. Deferrals may carry interest, with modest diplomatic penalties that scale with terms. Debt can be forgiven partly or fully for diplomacy, stability, or concessions such as rail access. Domestic stability can react to costs and benefits.
+- Rail agreements can separately permit civilian freight or military transit. Public and secret agreements are separate treaties, not public/secret sections of one treaty; they can be negotiated together. Secret agreements cannot be discovered under the current design (espionage deferred), but their economic effects remain observable. AI should consider obligations across both types.
+- Nations may take strategically risky deals despite foreseeable strain. Treaties can be permanent or time-limited, as specified; payments can be upfront or in installments. Missed payments always reduce trust somewhat even if other penalties are waived; reliable subsequent payments and diplomatic actions can restore trust gradually. Late-payment enforcement is contextual, depending on causes, duration, relations, and circumstances.
+- Nations cannot deliberately lie about their treaty commitments, but can openly withdraw or refuse to comply. Early cancellation is possible, with diplomatic and potentially financial or military consequences; changes in relative power can influence enforcement. Nations may demand renegotiation without first breaking an existing treaty (latest confirmed decision).
+
+### Details still to determine
+- Rationing thresholds, exact penalty curves, compensation valuation and debt accounting, rules for contested federal assets, treaty breach costs, secrecy UI, and numerical AI decision weights remain open. Do not assume the above are implemented in gameplay; these are design decisions.
