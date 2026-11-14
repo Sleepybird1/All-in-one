@@ -143,6 +143,10 @@ This section records decisions explicitly approved during the design review. It 
 - Withdrawal and expulsion are distinct mechanisms; neither is an automatic outcome of one refusal to fight.
 - Voting rules (majority/unanimity), notice periods, treaty penalties, and diplomatic effects remain undecided.
 
+### Alliance expulsion voting threshold — confirmed
+- Expelling a nation from a military alliance requires a **two-thirds majority vote** of the other eligible alliance members.
+- The nation facing expulsion does not vote on its own expulsion. Exact handling of abstentions, rounding, and special cases with very small alliances remains to be decided.
+
 ### Still open for design
 - Exact accession scoring, political-difference representation, growth resistance curves, thresholds, administrative effects, negotiating terms, and when a nation counts as mature or sovereign.
 - How conditional offers are displayed to players and whether counteroffers or deadlines exist.
