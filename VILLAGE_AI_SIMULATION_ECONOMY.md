@@ -176,6 +176,13 @@ This section records decisions explicitly approved during the design review. It 
 - Peacetime stockpiles provide a **bridge to wartime mobilization**, when nations may deliberately increase or mass-produce military supplies and shift a greater share of productive capacity to the war effort.
 - Mobilization still operates under real resource, workforce, infrastructure, and economic constraints. The exact reserve target formulas, affordability assessments, mobilization rates, and limits on civilian-production reductions remain undecided.
 
+### Cannon industry, ammunition stockpiles, and recurring demand — confirmed
+- The modpack's **Create Big Cannons and related cannon systems** are significant parts of national military industry. Nations require cannons and compatible ammunition as actual military supplies, not merely abstract combat statistics.
+- Nations build and maintain **ammunition reserves during peacetime** and can issue player-fillable procurement contracts for ammunition and cannon-related equipment. Peacetime demand is lower than wartime demand, but never necessarily zero.
+- Peacetime replenishment demand comes from **training**, **minor engagements** (including pirates, hostile mobs, undead, and dungeon security operations), and **replacement of aging/expiring stockpiles** where applicable. The exact expiration/degradation rules are not yet specified.
+- **Wartime consumption and procurement increase sharply**, driving much greater production of cannon ammunition and related equipment. This supports a substantial player-built cannon and ammunition manufacturing industry.
+- Supply remains limited by real national budgets, industrial capacity, and stockpile policy. Specific ammunition types, consumption rates, cannon production recipes, and detailed integration with combat simulation remain open.
+
 ### Still open for design
 - Exact accession scoring, political-difference representation, growth resistance curves, thresholds, administrative effects, negotiating terms, and when a nation counts as mature or sovereign.
 - How conditional offers are displayed to players and whether counteroffers or deadlines exist.
