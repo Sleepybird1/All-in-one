@@ -258,6 +258,13 @@ This section records decisions explicitly approved during the design review. It 
 - **Cultural similarity may eventually influence integration**, but this mechanic is explicitly **deferred**. The pack currently has no defined cultures or political ideology/party systems (e.g., communism, democracy, capitalism as political/economic frameworks). Do **not** implement or assume cultural compatibility scores, political parties, ideologies, or penalties now. Revisit only if the user later chooses to develop these systems.
 - Exact integration rates, support requirements, employment matching, and housing thresholds remain undecided.
 
+### Population growth constrained by real surpluses — confirmed
+- Population growth is influenced by **housing availability, food, jobs, healthcare, living conditions, and available resource surpluses**; it must not simply increase unconditionally by a fixed percentage.
+- **Adequate housing is a hard prerequisite for population increase**. A village without capacity to house additional residents cannot grow its population through the normal growth mechanic.
+- **Surplus food is also a hard prerequisite**. Merely meeting current food consumption is insufficient: if there is no food surplus available to support additional people, population does not increase.
+- The user mentioned a **fixed/base growth rate** alongside these conditions, but did not finalize a percentage or its exact interaction with the constraints. A baseline growth rate may be considered only when prerequisites are satisfied; its formula is still open.
+- Exact surplus definitions, population decline triggers, healthcare/employment modifiers, and time scale remain undecided.
+
 ### Still open for design
 - Exact accession scoring, political-difference representation, growth resistance curves, thresholds, administrative effects, negotiating terms, and when a nation counts as mature or sovereign.
 - How conditional offers are displayed to players and whether counteroffers or deadlines exist.
