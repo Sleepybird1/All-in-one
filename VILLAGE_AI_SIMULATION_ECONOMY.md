@@ -803,3 +803,8 @@ These points were recovered from earlier conversation context and compared again
 - **Decision:** Player-controlled nations receive some form of protection while their players are offline, rather than necessarily facing all risks without mitigation.
 - **Deferred again at the user's request:** protection against invasion versus economic collapse, activation and duration, degree of protection, exceptions, fairness to AI nations, and anti-exploit safeguards. No immunity, invulnerability, or specific protection mechanism is approved yet.
 - The simulation continues while the server runs; offline protection does not imply pausing national economic simulation.
+
+### Territorial resource knowledge and yield — confirmed (2026-11-14)
+- Villages automatically know **both the types and quantities of underground resource deposits** within their territory, without requiring a prospecting step.
+- Deposit quantity is an input to **potential extraction yield**. Knowledge of deposits does not itself generate output: realized production still depends on extraction facilities, workers, power, technology, logistics, and other existing economic constraints.
+- The exact yield formula and how quantities are represented are implementation/balancing details, not newly approved numerical values.
