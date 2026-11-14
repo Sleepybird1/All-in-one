@@ -6,6 +6,15 @@ The pack needs recurring work for large factories, logistics networks, and late-
 The separately reviewed [approved village economy design](VILLAGE_AI_SIMULATION_ECONOMY.md) records the confirmed policy, labor, debt, sovereignty, and diplomacy decisions. The draft values below are working examples for discussion.
 
 
+### Loan contracts and renegotiation — confirmed November 14, 2026
+
+- **Loan offers and counteroffers:** A lender, including the player when acting as lender, may offer a **smaller principal amount** than the borrowing nation requests (for example, $2 million instead of $5 million). The lender cannot manually set the interest rate; the simulation recalculates the offered rate and associated terms from principal, reserves/exposure, credit, purpose, relations and risk. A reduced principal may change the rate, but not by a player-chosen amount.
+- **Borrower choice:** The borrower may reject a smaller offer and continue looking for the entire original amount elsewhere. If it accepts partial funding, that loan is finalized and a **new request** is issued for the remaining principal with fresh offers. The AI's willingness to accept depends on its actual financial need, urgency and available alternatives.
+- **Renegotiation eligibility — latest correction controls:** **Only a borrower that cannot pay its loan obligation may initiate renegotiation.** A lender cannot initiate. Earlier ideas permitting renegotiation whenever convenient or solely because the borrower's finances improved are **superseded**; improvement alone is not a valid trigger.
+- **Renegotiation process:** The borrowing AI evaluates whether it needs relief, asks the simulation to calculate revised repayment duration, interest and other relevant terms, and **does not send a proposal if the resulting terms do not work for it**. If it sends a proposal, the lender may accept or reject. Signed terms remain binding unless both parties agree to changes.
+- **Repayments:** Contractually scheduled payments run automatically by default. The player may disable auto-pay, with no advance reminders; the contract dashboard shows overdue status and applicable penalties. **Early-repayment penalties were not decided**: the user began answering but did not complete the choice, so do not assume free or penalized prepayment.
+- **Scope:** These are **loan/financial-contract** rules, not automatic negotiation permissions for goods, construction, logistics, military or vehicle contracts. Full lending, secured-default and accounting mechanics are in [the detailed economy specification](VILLAGE_AI_SIMULATION_ECONOMY.md).
+
 ### Confirmed presidential authority and national policy — November 14, 2026
 
 The player acts as **president of their own player-controlled nation**, setting national policies and strategic priorities, **not** manually operating each village or ruling unrelated AI nations. Village governments retain their own finances and make routine trade, procurement, and economic decisions within applicable national rules. The player's separately owned company is a distinct financial and contracting entity; it is not the national treasury.
