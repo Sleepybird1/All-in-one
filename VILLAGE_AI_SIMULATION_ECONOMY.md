@@ -521,3 +521,7 @@ The following details were explicitly stated in the current conversation transcr
 - National needs are **dynamic and may be influenced by the aggregate needs of villages**, alongside independent national priorities and obligations. The two values can inform one another without losing their distinct identities.
 - The Village Dashboard may show **individual village needs, aggregate village needs, national-government needs, and a combined overall view**. The combined display is a presentation/aggregation, not the canonical stored national-needs variable; avoid double-counting shared obligations.
 - Exact formulas, categories, aggregation semantics, and dashboard layout remain open.
+
+### National strategic demand and fulfillment timing — confirmed
+- National needs include strategic objectives such as military expansion, infrastructure projects, and emergency stockpiling even without immediate village shortages.
+- Strategic resource requirements may be fulfilled **all at once or incrementally over time**, depending on the particular objective and circumstances. The timing, procurement schedule, and allocation priority versus village necessities remain to be designed; do not assume national strategic projects always take priority over village needs.
