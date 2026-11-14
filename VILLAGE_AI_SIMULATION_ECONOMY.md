@@ -510,3 +510,8 @@ The following details were explicitly stated in the current conversation transcr
 
 ### Open next step
 - Decide the canonical distinction between **raw measured state** (e.g. food stockpile), **derived indicators** (e.g. days of food coverage), and **AI decision outputs** (e.g. rationing order), then define the first core fields and their update cadence. Avoid treating provisional examples as finalized numeric scales.
+
+### Base subjective metric scales and happiness/stability distinction — confirmed
+- Subjective simulation metrics such as happiness, stability, and diplomatic relations use a **0–100% scale**, and **fractional/decimal values are allowed**. Physical quantities (population, inventory, money, etc.) retain actual units.
+- **Happiness is an input/modifier to stability**, not a synonym for stability. The user initially said 'combined score' but clarified that happiness affects stability; therefore preserve happiness as a distinct underlying metric and derive stability using happiness plus other factors. Do not collapse both into one undifferentiated stored value.
+- Exact stability formula, other contributing modifiers, and update cadence remain to be designed.
