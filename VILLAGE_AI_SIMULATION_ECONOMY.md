@@ -648,3 +648,8 @@ The following details were explicitly stated in the current conversation transcr
 - Disease conditions are tracked **village by village**, not solely as a national average. The nation can see differences across villages.
 - **National disease response is conditional** on the breadth of affected villages, whether a village is managing the outbreak itself, and the resulting stability decline. A single village coping successfully may manage locally; when disease is not controlled and village stability begins falling, the national government may intervene. Widespread outbreaks also affect the national priority assessment.
 - This does not create a mandatory automatic intervention threshold or imply the national government must always step in for one local outbreak. Exact decision weights, response timing, and resource requirements remain to be designed.
+
+### National disease intervention: needs-based and affordability-constrained — confirmed
+- When a nation intervenes in a village disease outbreak, it may provide **whatever combination of assistance the situation requires**, including medical supplies, funding, medical personnel, and healthcare facilities.
+- Assistance is **not unlimited or automatically free**: the government must be able to afford and resource the response under the already established national budget, inventory, workforce, logistics, borrowing, stability, and competing-priority rules.
+- The response should address the village's actual unmet needs rather than selecting one fixed intervention type. No guaranteed aid quantity, free construction, or automatic resource creation is implied.
