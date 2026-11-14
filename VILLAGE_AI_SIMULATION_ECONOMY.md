@@ -815,3 +815,9 @@ These points were recovered from earlier conversation context and compared again
 - **Intermediate stage:** a more capable **segmented display**.
 - **Advanced stage:** a **ComputerCraft-like computer display/interface**, unlocked through the nation's computer/technology progression.
 - This is a **visual and progression direction**, not yet a finalized UI specification. Exact blocks, screen layouts, statistics, interactions, installation requirements, and progression unlocks are still to be designed. Do not assume the user approved a specific hardware mod dependency merely by saying 'ComputerCraft-like'.
+
+### Village dashboard versus action menus — confirmed separation (2026-11-14)
+- The village **dashboard is an information display** that comprehensively reports that village's statistics and relevant conditions: resources, needs, relations, modifiers, and other information needed to understand the village. Do not arbitrarily restrict the dashboard to a small fixed subset of stats; exact layout and presentation remain to be designed.
+- **Interactive menus serve a different purpose:** taking actions and making decisions, such as selecting contracts, managing diplomatic relations, and other available governance/economic actions.
+- Both physical in-world displays and interactive menus are part of the intended experience; this is **not** an either/or choice. Preserve the technology-tiered display progression (signs, segmented displays, computer-like displays).
+- The exact means of opening menus, permissions, which actions exist at each technology tier, and whether menus can be accessed remotely are **not yet decided**.
