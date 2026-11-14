@@ -137,6 +137,12 @@ This section records decisions explicitly approved during the design review. It 
 - Refusal without a comparably compelling constraint incurs a **greater** relationship penalty. The system should weigh the nation's actual circumstances rather than apply one flat penalty to all refusals.
 - Exact numerical modifiers, whether repeated refusals lead to expulsion, and how much each factor matters remain open.
 
+### Voluntary alliance withdrawal and member expulsion — confirmed
+- A nation may **voluntarily withdraw** from a military alliance.
+- Existing alliance members may **vote to expel** another member, including for repeated failure to fulfill alliance obligations.
+- Withdrawal and expulsion are distinct mechanisms; neither is an automatic outcome of one refusal to fight.
+- Voting rules (majority/unanimity), notice periods, treaty penalties, and diplomatic effects remain undecided.
+
 ### Still open for design
 - Exact accession scoring, political-difference representation, growth resistance curves, thresholds, administrative effects, negotiating terms, and when a nation counts as mature or sovereign.
 - How conditional offers are displayed to players and whether counteroffers or deadlines exist.
