@@ -406,3 +406,7 @@ The following details were explicitly stated in the current conversation transcr
 ### Multiple overdue loans — confirmed
 - **Each separate overdue loan incurs its own credit-score penalty**, accumulating according to that loan's lateness. Penalties from multiple simultaneously overdue loans stack; do not apply only the single longest-overdue loan's penalty.
 - Individual penalties remain based on lateness, not loan principal. The total score floor, caps, and aggregation formula are still open for balancing.
+
+### Numeric credit-score borrowing threshold — confirmed direction
+- A nation's credit score is an **actual numerical value** used as a **threshold for borrowing eligibility**. A minimum score threshold can restrict borrowing rather than treating creditworthiness only as an informal qualitative judgment.
+- The exact numerical score scale, minimum threshold, whether individual lenders may make exceptions, and how bilateral adjustments interact with eligibility have **not yet been determined**. Do not invent a cutoff.
