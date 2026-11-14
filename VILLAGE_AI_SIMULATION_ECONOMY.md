@@ -1002,3 +1002,22 @@ Status: reconciled from the subsequent spoken conversation after the prior GitHu
 - **War and peace leverage:** A recovered clarification specified that **individual battlefield victories change negotiating leverage and the cost/terms of peace, rather than alone determining the entire simulated war's outcome**. A smaller nation might lose militarily yet negotiate relatively favorable terms. Preserve the larger abstract war and diplomatic evaluation; tactical player actions are influential but not decisive by themselves.
 - **Territorial transfer:** Confirm earlier rule that combat-damaged conquered territory can require actual reconstruction, whereas peacefully ceded territory generally remains intact but may experience instability, population movement and economic decline.
 - **Historical evidence limit:** These points were recovered from summaries, not a verified complete verbatim archive. Do not upgrade any contradictory summary to a final approved implementation rule without resolving the conflict.
+
+
+## Cross-system verification index — contracts, economics, government and policy (2026-11-14)
+
+This is a **cross-reference audit**, not a replacement for the detailed rules above. Every implementation must consult both the earlier domain sections and the later amendments. Do not interpret a short summary as permission to drop exceptions.
+
+**Contracts:** See the earlier shipbuilding, ship-class, ship-validation and separate ammunition sections; the automated contract acceptance/factory logistics sections; and the later contract generation, category, ownership, and authority appendices. Required dimensions are issuing actor, supplier, real need, available supply, timing, funding, editable request terms, calculated market terms, accepted obligations, delivery validation, upkeep, penalties and dashboard status. The player nation's village -> company -> foreign all-or-nothing priority is *not* an AI-world default.
+
+**Economy and taxation:** See village wealth versus treasury, positive net gains and loss treatment, national tax-rate inputs and happiness/stability conditions, plus the newer two-account operating/reserve model and end-of-cycle taxation. **Reconciliation required:** Older sections discuss taxation based on a separate village-wealth indicator; newer sections tax eligible positive period operating surplus. Do not assume these are identical without defining the relationship and avoiding double taxation. Both explicitly reject taxation of gross turnover or internal reserve transfers.
+
+**Government authority and policy:** See autonomous village trade, treaties/embargoes, national versus village authority, national budgeting, nationwide procurement defaults, policy timing, and contract amendment limits. Player acts as president of the player nation, not sovereign ruler of all AI nations or manager of their village accounts. Budget allocations already committed are locked until the next tax cycle; a future policy change does not retroactively rewrite signed contracts.
+
+**Fiscal stress and borrowing:** See intergovernmental lending, secured-loan default and sovereignty limits, credit history, overdue penalties, lender pricing, multi-offer loan requests, partial-funding reissue, immediate lump-sum disbursement and automatic repayment. Creditworthiness and lender capacity are calculated; the player can specify loan amount/purpose and choose offers, not invent rates or fees.
+
+**Public services and stability:** See health and disease supplies, healthcare budgets, food shortage/rationing, national emergency intervention, population/migration, happiness and stability, military stationing and tax effects. Money spent is not physical supply. Government service spending and procurement contracts are separate budget categories.
+
+**Physical automation:** See Create/Numismatics/Extra Gauges candidate integrations, factory decision logic, actual production, rail route capacity and territorial transit rights. A menu or contract acceptance alone cannot conjure goods, infrastructure, transport or currency.
+
+**Audit status:** These systems are **documented but not fully reconciled**. In particular the wealth-based versus operating-surplus tax base needs a precise agreed mapping; the starting era has now been explicitly clarified as preindustrial with some machinery. Do not claim implementation or invent a reconciliation. The user's directive is to record every confirmed clarification promptly in the relevant section and preserve scope, rejected alternatives and unresolved questions.
