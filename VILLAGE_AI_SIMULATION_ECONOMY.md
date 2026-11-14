@@ -740,3 +740,16 @@ The following details were explicitly stated in the current conversation transcr
 - The AI **writing the simulation code** should choose reasonable initial numerical values for any unspecified rates, delays, thresholds, penalties, and formulas, then make them adjustable for playtesting. This does **not** mean an AI agent within the running simulation dynamically chooses those values.
 - Do **not** repeatedly request numerical balancing decisions from the designer during mechanics specification. Preserve explicitly discussed provisional percentages above until deliberately revised.
 - Outstanding mechanics for later design include training/combat readiness, military upkeep, casualty/replacement flows, and detailed demobilization behavior; do not mark these as finalized.
+
+
+### Explicit scope and rejected-stat decisions — audit correction (2026-11-14)
+- The five main statistics discussed in this review were **population, happiness, stability, wealth, and relations**. The suggestion to add **Security** as a sixth top-level statistic was **rejected**. Crime and external threats were suggested as possible inputs, but no replacement rule was approved; do not silently add a Security statistic.
+- **Military Strength, Political Influence, Infrastructure, and Public Health** were floated as possible major statistics, **not approved** as new top-level statistics. Military strength may be derived from actual units and equipment; infrastructure from buildings; disease/public health remains an underlying modifier as specified elsewhere. These were suggestions, not binding additions.
+- The user chose **policy alone** as the initial determinant of recruitable-population percentage; do not silently make demographic, economic, or other conditions change the *policy percentage*. Economic and logistical constraints still limit the number of troops that can be sustained, and worker availability determines real impacts.
+- The user confirmed that **mobilization phase-in speed is set by each recruitment policy**, rather than a universal fixed speed.
+- Under mass mobilization, essential-worker recruitment is **last resort in the priority order**, not a separately adjustable trigger policy.
+- In the transcript, the assistant asked whether emergency mobilization should have its own phase-in speed, but **no answer was given**. Do not treat a distinct emergency speed as approved.
+- The user approved demobilizing essential workers first when manpower requirements decrease, **but only after a policy change**; declining demand alone does not automatically initiate demobilization.
+- The earlier proposal of a fixed economic-impact delay was superseded in the specific case of **jobs left unfilled immediately**. Keep any separate delayed adjustment effects explicitly undecided rather than imposing them.
+- The previous discussion of all seven manpower tiers and the 1.5/2.5/5/10/15/20/25% values is provisional. The user explicitly delegated **all remaining numeric balancing** to the coding AI, not just one delay.
+- The relations list was accepted **for now**, without a claim that all previously discussed relation modifiers had been exhaustively recovered.
