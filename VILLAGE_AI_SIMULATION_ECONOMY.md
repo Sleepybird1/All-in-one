@@ -659,3 +659,9 @@ The following details were explicitly stated in the current conversation transcr
 - **General rule beyond disease:** whenever a nation cannot afford a desired or necessary expenditure, it may **seek a loan** rather than treating a cash shortfall as an absolute prohibition. Ordinary borrowing is conditioned on **economic feasibility**, including repayment capacity and the willingness of an eligible lender under existing credit rules.
 - **Desperation exception:** if borrowing is the nation's only viable way to address an extreme emergency, it may attempt to borrow **even when normal economic-feasibility checks would discourage it**. This does **not** guarantee that a lender agrees, that credit limits disappear, or that money materializes. Existing credit, collateral, diplomatic, and default consequences still apply.
 - Exact definitions of 'economically feasible', 'desperate', and emergency prioritization remain deferred.
+
+### Desperation loan terms — confirmed and cross-referenced
+- In an extreme financial emergency, a borrowing nation **may accept substantially higher interest rates and otherwise unfavorable loan terms** when necessary to obtain funding.
+- Lenders **may demand collateral** for such high-risk loans; the borrower can consider pledging eligible assets under the existing secured-sovereign-loan rules.
+- **Do not reopen collateral default enforcement as a new decision:** a sovereign lender first demands repayment; a creditor cannot automatically seize assets inside the debtor nation's territory, and serious unresolved defaults incur major credit and diplomatic consequences. Company assets and host-country territorial confiscation follow their separately documented rules.
+- These choices do not force lenders to offer a loan or override previously established sovereignty and credit constraints.
