@@ -402,3 +402,7 @@ The following details were explicitly stated in the current conversation transcr
 ### Credit penalties depend on lateness, not loan size — confirmed
 - The credit-score penalty for a missed payment depends on **how long the payment remains overdue**, not on the principal size of the loan. A larger loan does not automatically incur a larger credit-score deduction for the same number of days late.
 - This does not imply that loan size is irrelevant to financial exposure, debt burden, or lending decisions. Exact lateness-to-points formula remains undecided.
+
+### Multiple overdue loans — confirmed
+- **Each separate overdue loan incurs its own credit-score penalty**, accumulating according to that loan's lateness. Penalties from multiple simultaneously overdue loans stack; do not apply only the single longest-overdue loan's penalty.
+- Individual penalties remain based on lateness, not loan principal. The total score floor, caps, and aggregation formula are still open for balancing.
