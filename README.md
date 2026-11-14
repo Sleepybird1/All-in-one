@@ -90,6 +90,8 @@ The national treasury now has a source-level transaction that moves earned suppl
 
 Isolated native suites passed 39 economy and rail tests and seven road tests. Coverage includes a dashboard generated without nearby players, Survival contract and route screens, public data for independent village markers, exact rail identity and permission checks, and a furnace sale whose payout funded its maintenance depot once. The road suite verified that a dry detour bypassed a blocked corridor and that editing the detour revoked its proof. The fixtures used a NeoForge 21.1.248 development runner with candidate integration classes also compiled against 21.1.259. Live workshop payment and automatic trade still need verification.
 
+A hidden JourneyMap 6.0.5 client rendered Village information from an independent village's physical dashboard. The screen showed the population, affiliation, shortages and surplus. Nation borders remain tied to established nations in MapFrontiers.
+
 The household health prototype tracks verified food and healthcare shortages separately. A configurable delay and gradual ramp estimate possible decline after continued shortages. Reserve orders use actual credits, storage room and confirmed incoming stock. The prototype is tested in isolation and awaits policy values, healthcare production receipts, and population-ledger integration.
 
 A source-only trade access rule blocks new direct civilian and military trade during verified hostilities. New trade otherwise requires the actual exporting and receiving nations' approved terms. Existing signed shipments retain their terms pending a decision on settlement during hostilities.
