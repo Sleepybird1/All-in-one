@@ -444,3 +444,8 @@ The following details were explicitly stated in the current conversation transcr
 ### Full repayment prerequisite for removing persistent default modifier — confirmed
 - A defaulting nation or company **must repay the defaulted debt in full** before its persistent default-related credit/reputation penalty can be cleared. Alternative partial settlements do not satisfy this prerequisite under the current rule.
 - Full repayment is a necessary condition, **not necessarily immediate automatic removal**: any additional corrective actions and reputation-rebuilding requirements remain to be decided.
+
+### Credit-score threshold for clearing persistent default penalty — confirmed clarification
+- Full repayment alone is insufficient to clear a serious-default debuff. The debtor must also **raise its worldwide/national credit score to a required recovery threshold**.
+- The persistent debuff **reduces the national credit score while active**, so the debtor must improve its underlying creditworthiness enough to reach the required score **despite the debuff**; do not ignore or remove the debuff when testing eligibility.
+- The actual threshold, numerical modifier, and additional corrective actions are not yet specified. For companies, analogous company credit/reputation recovery applies, with precise scoring mechanics open.
