@@ -682,3 +682,8 @@ The following details were explicitly stated in the current conversation transcr
 - The **reported village wealth indicator has a floor of zero**; it cannot become negative. This floor does not erase actual financial losses, debts, or negative cash flow, which should remain tracked in their appropriate accounts.
 - **National tax revenue is percentage-based on village wealth**, so lower wealth produces lower tax revenue at a given tax rate. A zero wealth tax base yields zero tax under this rule, without implying that other separately defined taxes exist.
 - The exact wealth measurement period, tax rate, timing, and whether taxable wealth uses a period's net gain versus an accumulated wealth indicator remain unresolved. Avoid claiming a specific percentage or automatically taxing the same profits repeatedly.
+
+### National tax rate selection and collection cadence — confirmed
+- National taxes on village wealth are **collected periodically**, not continuously on each transaction. The exact collection interval remains **deferred** for later balancing.
+- The **national tax rate is dynamically determined by the nation's changing needs**, rather than being a permanently fixed universal percentage. National priorities, obligations, and fiscal needs inform the rate under consistent simulation rules.
+- The precise rate-setting formula, limits, change frequency, and political/economic consequences are not yet finalized. Distinguish the periodically collected tax from the potentially more frequently updated wealth indicator.
