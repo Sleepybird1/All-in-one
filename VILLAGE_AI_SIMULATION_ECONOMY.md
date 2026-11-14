@@ -425,3 +425,8 @@ The following details were explicitly stated in the current conversation transcr
 ### Secured intergovernmental loans — confirmed
 - Nations may offer **secured loans** backed by pledged collateral, including factories, railroads, resources, or other eligible assets, in exchange for potentially more favorable borrowing terms.
 - Collateral valuation, ownership restrictions, default seizure procedures, and exact interest-rate or borrowing-limit benefits are not yet finalized. Pledging collateral does not itself transfer ownership.
+
+### Secured-loan default: repayment demand before collateral action — confirmed
+- A lender must **demand repayment first** when a nation defaults on a secured loan; collateral ownership does **not** transfer automatically at the first default.
+- If the borrower still fails to pay following the demand, it suffers a **substantial credit-score penalty and significant diplomatic-relations damage** with the creditor. Exact magnitudes and how this interacts with gradual lateness penalties remain open.
+- Whether, when, and by what procedure the creditor may ultimately seize pledged collateral is **not yet decided**; do not assume automatic seizure.
