@@ -170,6 +170,12 @@ This section records decisions explicitly approved during the design review. It 
 - The one-day, seven-day, and month-long examples are **illustrative progression, not finalized hard thresholds**. The precise simulation curve, reserve buffers, equipment categories, recovery after resupply, and meaning of an in-game month remain to be specified.
 - This explicitly supersedes any earlier phrasing suggesting that supply penalties begin immediately at full effect or scale from the very first missed quota without an initial buffer.
 
+### Affordable peacetime military stockpiles and wartime mobilization — confirmed
+- Nations maintain military stockpiles of weapons, food, equipment, and other supplies so forces can continue operating during interruptions to production or delivery.
+- **Stockpile targets must be economically sustainable**, determined by what the nation can reasonably afford and maintain alongside civilian production and public needs. AI nations must not blindly produce unlimited weapons or bankrupt/starve their economies by pursuing arbitrarily huge inventories.
+- Peacetime stockpiles provide a **bridge to wartime mobilization**, when nations may deliberately increase or mass-produce military supplies and shift a greater share of productive capacity to the war effort.
+- Mobilization still operates under real resource, workforce, infrastructure, and economic constraints. The exact reserve target formulas, affordability assessments, mobilization rates, and limits on civilian-production reductions remain undecided.
+
 ### Still open for design
 - Exact accession scoring, political-difference representation, growth resistance curves, thresholds, administrative effects, negotiating terms, and when a nation counts as mature or sovereign.
 - How conditional offers are displayed to players and whether counteroffers or deadlines exist.
