@@ -759,3 +759,29 @@ The following details were explicitly stated in the current conversation transcr
 - **Large-world performance requirement:** the economy and national simulation must remain viable on worlds with approximately **ten million chunks**, with **very low CPU usage**. Simulate unloaded villages/nations abstractly, without requiring chunks to be loaded or individual citizens to be spawned. This is a scalability design target, not a claim of benchmarked performance.
 - **Player absence and natural change:** no online player/AFK presence is required for the simulation to advance while the **server is running**. Player absence must not itself trigger artificial world termination or immediate collapse. Nations may nevertheless naturally change, starve, collapse, or recover over realistic simulated timescales under the ordinary economic rules. The server-off pause rule remains intact.
 - **Limits of player battlefield influence:** most warfare is simulated at the nation/army level. A player's tactical skirmishes can influence battle outcomes and diplomatic negotiations, but an individual player's victories must not automatically conquer continents or bypass the larger military/logistical simulation.
+
+
+## Additional historical conversation reconciliation — 2026-11-14
+
+These points were recovered from earlier conversation context and compared against the existing specification. They are design decisions, not evidence of implemented code.
+
+### Territory, trade, and resource knowledge
+- Village/nation borders **expand gradually** into available territory until they meet coastlines or neighboring borders; actual geographic constraints govern expansion. Do not treat border growth as an instantaneous land claim. Exact expansion rates and political rules are deferred.
+- Trade routes may cross national territory and **territorial waters**, subject to border restrictions, embargoes, permissions, and applicable trade arrangements. Border/territorial control affects movement of goods and people.
+- Villages **already know which mineral/resource deposits lie inside their controlled territory**. Do not introduce an additional village prospecting/scouting calculation as a mandatory discovery gate; the user rejected that as over-engineering. Knowing deposits does not mean they can extract them without development. The underlying resource-awareness rule was flagged for later review, not silently replaced.
+- Manufacturing may use **imported raw materials** where economically/logistically available; not every village must possess every input deposit locally.
+- Local village development/spending responds to **demand, available supply, and production bottlenecks**, rather than arbitrary industrial growth.
+
+### Player industry and delivery accounting
+- **Do not restrict the player's ability to construct factories** merely to enforce the simulation's industrial progression or economy. Production, inputs, operating costs, delivery, and actual fulfillment still matter.
+- Delivered goods can count toward economic demand even when a registration mechanism is bypassed; registration is **not the sole valid proof of fulfillment**. Track deliveries robustly and ensure **each physical item/unit satisfies demand at most once**, preventing double-counting or repeated credit for the same goods. Exact delivery verification and anti-duplication implementation remain to be designed.
+- Player-nation essential goods must be **actually produced or supplied**. Conquest grants access to territory, deposits, and infrastructure but does not create free output; annexed residents also add consumption needs. Foreign imports have the previously documented reduced fulfillment efficiency, while domestic transfers count fully. The 0.2 ratio remains illustrative, not fixed.
+
+### Military, war, and policy clarifications
+- Militia and standing-army commitments consume real **tax funding, food, equipment, and ongoing resources**, with personnel drawn from the simulated population. Military capacity is constrained by both manpower and support.
+- Wartime industrial conversion and postwar reconversion are gradual and resource-constrained; **taxation changes are optional policy tools**, not a universally required step of conversion.
+- The **offline protection** mechanic was discussed but explicitly **deferred**; do not silently mark it approved or implemented.
+
+### Audit boundaries
+- This reconciliation draws on retrievable historical conversation summaries and the supplied transcript. It is **not a claim that every historical message was individually available or checked**.
+- Maintain the distinction between user-approved mechanics, proposals awaiting decisions, illustrative numerical examples, and verified implementation.
