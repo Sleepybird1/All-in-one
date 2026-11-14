@@ -606,3 +606,10 @@ The following details were explicitly stated in the current conversation transcr
 - National professional soldiers **stationed in a village count toward that village's total population**, rather than being excluded as a separate nonpopulation garrison.
 - Their professional military role and national employment remain distinct from civilian worker roles. The national and village totals must reconcile without counting a stationed soldier twice.
 - Specific housing, ration, and troop transfer accounting remain to be defined.
+
+### Employment, demographic effects, and housing representation — confirmed (2026-11-14)
+- **Job seeking/allocation responds automatically to village needs**, rather than requiring employers to manually recruit each worker. Detailed matching rules remain open.
+- **Unemployment lowers village stability** and **increases emigration**.
+- Unemployment can also **reduce birth rates after a threshold**. That trigger depends on **both unemployment and overall village stability**, and may vary between villages according to local conditions. The actual threshold values and formulas are deferred.
+- **Housing is tracked by housing-unit counts**, with an associated **capacity for people** derived from the housing available. Housing capacity can change dynamically when the housing stock or its characteristics change; do not treat one unit as a permanently fixed universal number of residents.
+- The user began by saying capacity, then clarified 'unit counts ... but it is capacity ... dynamically changed'; preserve both unit count and derived capacity rather than choosing only one.
