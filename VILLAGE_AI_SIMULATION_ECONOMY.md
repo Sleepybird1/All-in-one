@@ -671,3 +671,8 @@ The following details were explicitly stated in the current conversation transcr
 - **Village wealth is not the village treasury balance.** It is a separate calculated economic indicator reflecting **how much money circulates/flows through the village economy**. The user explicitly distinguished village wealth from money held by the village government.
 - The user selected **village wealth** as the basis for national taxation, rather than directly taxing individual residents or simply taking a fixed amount from the village budget. The precise tax base and how taxes are collected/transferred remain to be defined.
 - Do not equate village wealth with cash reserves, government revenue, or total assets. Exact measurement window, included transactions, treatment of repeated circulation, and tax-rate mechanics are unresolved.
+
+### Village wealth is based on positive net economic gains — confirmed clarification
+- Village wealth is **not gross transaction volume**. Count the **positive net gain/profit** from economic activity after its associated costs, rather than counting the full face value of wages, revenue, or trade turnover as newly created wealth.
+- For trade specifically, **only the profit from a trade contributes positively to village wealth**, not the entire sale price. Loss-making trades do not create positive wealth merely because money changed hands.
+- Exact treatment of losses, wages as expenses versus household income, reinvestment, cross-village transfers, and whether 'wealth' is a flow per period or accumulated stock remains to be specified. Avoid double-counting the same value across a transaction chain.
