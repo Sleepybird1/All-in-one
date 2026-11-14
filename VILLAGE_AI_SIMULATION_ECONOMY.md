@@ -147,6 +147,10 @@ This section records decisions explicitly approved during the design review. It 
 - Expelling a nation from a military alliance requires a **two-thirds majority vote** of the other eligible alliance members.
 - The nation facing expulsion does not vote on its own expulsion. Exact handling of abstentions, rounding, and special cases with very small alliances remains to be decided.
 
+### Alliance leadership — confirmed direction
+- Formal military alliances have a **designated leader nation**, rather than operating entirely without centralized leadership.
+- The leader's selection process, term, succession, coordination authority, and limits on compelling other members to act remain **undecided**. This decision does not override the confirmed principle that member nations independently decide whether to participate in wars.
+
 ### Still open for design
 - Exact accession scoring, political-difference representation, growth resistance curves, thresholds, administrative effects, negotiating terms, and when a nation counts as mature or sovereign.
 - How conditional offers are displayed to players and whether counteroffers or deadlines exist.
