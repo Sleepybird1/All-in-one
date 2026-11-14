@@ -629,3 +629,9 @@ The following details were explicitly stated in the current conversation transcr
 - As the population-to-housing-capacity ratio worsens, penalties intensify across **health outcomes and healthcare costs**, **infrastructure demand**, **infrastructure maintenance costs**, and other economic/productivity effects already specified. At severe overcrowding, healthcare, infrastructure requirements, and maintenance expenses rise **dramatically**.
 - Housing pressure therefore feeds back into village and national budgets, services, productivity, stability, and the sustainability of continued population growth. No exact numerical thresholds or curves are approved yet.
 - The user's explanation favors an increasingly unsustainable practical limit; whether a separate literal hard-coded maximum population is also required remains unresolved pending direct confirmation.
+
+### Gradual overcrowding emigration and birth-rate prerequisites — confirmed
+- Overcrowding **gradually increases emigration pressure** as housing becomes more strained, rather than only triggering migration at a final hard-cap threshold. The first penalty threshold and numerical curve are deferred until playtesting.
+- **Food availability is an absolute prerequisite for births/population growth from births** in the intended simulation model: without sufficient food, new population cannot be sustained through births. The exact food adequacy test and update rules remain undefined.
+- **Healthcare/medical items modify birth rates**, but their absence **does not automatically reduce births to zero** when food is available. Medical supply should influence the rate by a percentage or other tunable modifier.
+- Prior confirmed factors such as unemployment, stability, and housing constraints remain relevant; the relative weighting and interactions are not yet specified.
