@@ -808,3 +808,10 @@ These points were recovered from earlier conversation context and compared again
 - Villages automatically know **both the types and quantities of underground resource deposits** within their territory, without requiring a prospecting step.
 - Deposit quantity is an input to **potential extraction yield**. Knowledge of deposits does not itself generate output: realized production still depends on extraction facilities, workers, power, technology, logistics, and other existing economic constraints.
 - The exact yield formula and how quantities are represented are implementation/balancing details, not newly approved numerical values.
+
+### Village information displays progress with national technology — confirmed direction (2026-11-14)
+- The in-world village information interface should **evolve with the nation's technological progression**, rather than presenting a ComputerCraft-style computer display from the start.
+- **Early stage:** simple physical **signs** conveying village information.
+- **Intermediate stage:** a more capable **segmented display**.
+- **Advanced stage:** a **ComputerCraft-like computer display/interface**, unlocked through the nation's computer/technology progression.
+- This is a **visual and progression direction**, not yet a finalized UI specification. Exact blocks, screen layouts, statistics, interactions, installation requirements, and progression unlocks are still to be designed. Do not assume the user approved a specific hardware mod dependency merely by saying 'ComputerCraft-like'.
