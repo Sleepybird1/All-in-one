@@ -1120,3 +1120,28 @@ This audit compares the accessible conversation summaries and current specificat
 
 ### Audit disposition
 - Major gameplay categories are represented, but the specification is **not yet certified implementation-complete** because the unresolved edge-case and integration rules above remain. Numerical balancing may be delegated to the coding AI, but decisions changing actors' rights, ownership, authority, triggers or permitted outcomes must be surfaced for approval.
+
+## Contract, research and offline-governance decisions — confirmed 2026-11-14
+
+These decisions supersede earlier deferred questions where applicable. Numerical balancing remains delegated to the coding AI; the behaviors below are binding.
+
+### Contract fulfillment, risk and renegotiation
+- **Full delivery before completion payment:** Partial shipments may count toward an outstanding order, but the buyer pays on completion only after 100% of contracted goods have been delivered. Do not invent proportional milestone payments for pay-on-completion contracts. If the contract expressly requires money upfront, that upfront payment is made according to its terms.
+- **Deadline and breach rules are contract-specific:** Missed deadlines, extensions, late penalties and cancellation depend on agreed contract terms, not a universal automatic cancellation rule. If negotiations fail and a party breaches, the original contractual penalties apply.
+- **Loss in transit follows agreed payment and risk terms:** Upfront payments stay with the seller unless the contract provides a refund; where payment is due only after fulfillment, an unfulfilled shipment does not trigger payment. Responsibility for lost goods and refund rights are separate contractual questions, not automatically decided by shipment departure. War is a major plausible disruption, but not the only possible cause.
+- **War risk is evaluated at contract creation:** The issuing country/company considers war likelihood, active conflicts, relations, transit routes and disruption risk when deciding whether to issue a contract and what initial terms to offer. Optional war-risk clauses can be included as a deliberate contract factor; they are not mandatory and the AI does not automatically add one during negotiations. The clause's effects are governed by the actual agreement.
+- **Renegotiation is a request, never an automatic amendment:** Either party may ask to renegotiate an active contract, including a mutually agreed termination. The other party may refuse or counteroffer. Until both agree, the original terms and obligations remain in force. If negotiations fail and the original contract is breached, apply its penalties. The same principle applies to war-related requests.
+
+### Item-specific research accounting
+- **Additive progress:** Research progress earned through qualifying contracts and progress purchased from another nation add together toward the same specific item. Example: 40% earned plus 50% purchased yields 90% total.
+- **Multiple purchases permitted:** A nation may buy research progress for an item in multiple transactions, but the **cumulative purchased component for that item may never exceed 75%**. Total research progress is capped at 100%. Purchases cannot be repeatedly applied as fresh progress beyond the cap.
+- **100% research completion grants manufacturing knowledge immediately** for that particular item. Actual manufacturing still requires real factories, machinery, power, materials and other necessary capabilities. Research completion does not spawn any equipment.
+
+### Offline player nation: survival-first AI caretaker
+- **No blanket invulnerability or frozen economy:** While the player is offline, an AI temporarily governs the player's nation. Economic and military threats continue; the caretaker manages national affairs instead of pausing them.
+- **Highest priority is national survival, not aggression:** The caretaker favors diplomacy, defense, economic stability, sustaining supply and negotiating peace. It may retreat, cut spending, concede territory, accept unfavorable peace terms or surrender when necessary to preserve the nation's survival. It must not pursue wars of conquest on the absent player's behalf.
+- **Immediate handback and report:** When the player logs back in, the caretaker relinquishes national decision-making authority immediately. Present a report of significant actions and changes during the absence, including diplomacy/war, territorial concessions, treasury/debt, economic conditions, contracts and other material developments. The player resumes control without requiring AI approval.
+- **Implementation safeguards remain to design:** Define precise handover timing, safe interruption of in-flight AI decisions, report event retention, multiplayer authority and anti-exploit controls. These are implementation details; do not replace the approved survival-first behavior with invulnerability.
+
+### Factory recognition deferred
+- Factory recognition should be based on functional criteria, potentially requiring multiple blocks, rather than arbitrary manual building boundaries. The user explicitly deferred whether recognition is automatic or requires a registration block. Do not lock either approach without later approval.
