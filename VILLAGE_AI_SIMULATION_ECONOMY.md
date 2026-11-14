@@ -418,3 +418,6 @@ The following details were explicitly stated in the current conversation transcr
 ### Dynamic lender credit-score thresholds — confirmed
 - Each lending nation may **dynamically adjust its own minimum credit-score cutoff** in response to changing conditions, including wars and economic crises, rather than keeping that threshold fixed indefinitely.
 - Changes affect the lender's willingness to issue new loans; exact adjustment factors, cadence, and whether existing loans are affected remain undecided.
+
+### Changed lending cutoffs apply only to new loans — confirmed
+- When a lender raises or lowers its minimum credit-score threshold, the new cutoff applies **only to new loan applications**. Previously approved loans remain governed by their agreed terms and are not retroactively affected by the new eligibility threshold.
