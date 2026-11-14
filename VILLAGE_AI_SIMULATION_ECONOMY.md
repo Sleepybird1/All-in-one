@@ -476,3 +476,7 @@ The following details were explicitly stated in the current conversation transcr
 - When a company collapses and can no longer maintain or pay for property located inside a nation's territory, **that host nation immediately confiscates the stranded company property/assets**. This applies even when the company had pledged the assets as collateral to a creditor in another country.
 - The foreign creditor **does not independently seize assets inside a third nation's territory**; the host nation takes possession itself under its territorial authority. The disposition of those confiscated assets and whether a foreign creditor has any subsequent claim remain undecided.
 - This is specifically a company-collapse rule, not a blanket rule that any missed company loan payment instantly causes confiscation.
+
+### Third-country host ownership after collapse — explicit reaffirmation
+- If a collapsed company's asset is physically located in a **third country**, that **third/host country confiscates the asset because it is within its territory**, regardless of where the company is based or where its creditor is located. The creditor country does not automatically acquire the asset.
+- This reiterates the host-territorial-jurisdiction rule; asset disposition after seizure remains an open design question.
