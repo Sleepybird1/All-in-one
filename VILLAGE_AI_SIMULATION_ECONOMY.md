@@ -535,3 +535,7 @@ The following details were explicitly stated in the current conversation transcr
 - The national government must consider **severity** of a village's hardship, not merely whether a shortage exists or how many villages are affected. Actual starvation is substantially more urgent than a minor food shortfall.
 - Severity modifies the village's influence on national priorities, but **does not automatically override the overall national assessment**; severity, population affected, wider national needs, and strategic priorities must be weighed together using the shared data model.
 - Exact severity thresholds, weighting curves, and response timing are deferred until gameplay testing.
+
+### Village emergency assistance and stability — confirmed
+- The national government's response to an individual village's food shortage or starvation **depends on stability**, rather than automatically prioritizing starvation solely by its severity.
+- Stability is a key input to national intervention and resource-priority decisions. The direction and magnitude of the relationship (e.g., whether lower stability increases intervention urgency, or political considerations can override it) remain to be specified; do not assume a fixed threshold or guaranteed aid.
