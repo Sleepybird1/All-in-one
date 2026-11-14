@@ -169,6 +169,8 @@ An export agreement should fund multiple lots over several periods and publish i
 
 [Approved village finance and taxation rules](../../VILLAGE_AI_SIMULATION_ECONOMY.md#village-budget-versus-village-wealth--clarified-foundational-distinction) · [Approved military presence rule](../../VILLAGE_AI_SIMULATION_ECONOMY.md#military-presence-affects-both-happiness-and-stability--confirmed)
 
+The [confirmed contract and transit rules](../../VILLAGE_AI_SIMULATION_ECONOMY.md#contract-categories-foreign-assets-transit-taxation-and-treaty-enforcement--confirmed-november-14-2026) define four top-level contract categories, retain host jurisdiction over foreign-owned assets, and apply one standard transit rate with treaty exceptions. The demand and finance examples below do not implement those policies.
+
 ### Lending and fiscal terms
 
 Villages and nations can seek loans from domestic government banks, other villages, foreign nations, or other eligible lenders. Prefer competitive domestic offers and compare feasible effective rates based on eligibility and lender relations. Start with the lender's posted rate for that loan, then account for purpose, credit, existing debt, loan size relative to reserves, and lender exposure. Large loans may cost more or be declined. Feasible funding follows actual reserves and risk instead of a universal borrowing cap. Existing rules govern overdue loans, repayment, credit recovery, and collateral. Exact pricing, repayment schedules, and banking interfaces remain open.
