@@ -785,3 +785,9 @@ These points were recovered from earlier conversation context and compared again
 ### Audit boundaries
 - This reconciliation draws on retrievable historical conversation summaries and the supplied transcript. It is **not a claim that every historical message was individually available or checked**.
 - Maintain the distinction between user-approved mechanics, proposals awaiting decisions, illustrative numerical examples, and verified implementation.
+
+
+### Historical pricing and market-boundary clarification — confirmed
+- **Local village markets remain distinct** rather than collapsing into one uniform national price. A nation may calculate aggregated indicators, but these must not overwrite location-specific prices, shortages, or transport constraints.
+- **Do not set prices by arbitrary random rolls.** Prices emerge from actual supply, demand, local resource endowments, terrain, infrastructure, trade access, tariffs, and transportation costs. Numerical formulas and adjustment speeds are implementation/balancing decisions, but the causal inputs must remain grounded in simulated conditions.
+- These statements refine the existing dynamic-pricing rule and do not authorize a fixed price table or a universal national market-clearing price.
