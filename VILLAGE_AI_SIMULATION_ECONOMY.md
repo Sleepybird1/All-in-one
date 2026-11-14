@@ -623,3 +623,9 @@ The following details were explicitly stated in the current conversation transcr
 - Overcrowding penalties **continue increasing with the population-to-housing-capacity ratio**. At severe levels they must affect wider economic systems, potentially including **food production, other production, and income**, not merely happiness or stability. The purpose is to prevent unchecked population expansion from remaining economically harmless.
 - The user pushed back on the binary 'births/immigration stop versus forced migration' framing. **Do not finalize either mechanism** from that exchange. The earlier proposed hard cap remains in the discussion, but whether it is a literal population ceiling or a practical ceiling enforced through increasingly severe penalties needs explicit clarification.
 - Exact escalation curves and thresholds are deferred to playtesting.
+
+### Overcrowding must create escalating health and infrastructure costs — confirmed clarification
+- Adequate food alone **must not neutralize a severe housing shortage**. A settlement cannot support arbitrarily large numbers of unhoused or overcrowded residents just because food is available.
+- As the population-to-housing-capacity ratio worsens, penalties intensify across **health outcomes and healthcare costs**, **infrastructure demand**, **infrastructure maintenance costs**, and other economic/productivity effects already specified. At severe overcrowding, healthcare, infrastructure requirements, and maintenance expenses rise **dramatically**.
+- Housing pressure therefore feeds back into village and national budgets, services, productivity, stability, and the sustainability of continued population growth. No exact numerical thresholds or curves are approved yet.
+- The user's explanation favors an increasingly unsustainable practical limit; whether a separate literal hard-coded maximum population is also required remains unresolved pending direct confirmation.
