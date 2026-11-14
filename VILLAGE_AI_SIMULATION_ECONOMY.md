@@ -676,3 +676,9 @@ The following details were explicitly stated in the current conversation transcr
 - Village wealth is **not gross transaction volume**. Count the **positive net gain/profit** from economic activity after its associated costs, rather than counting the full face value of wages, revenue, or trade turnover as newly created wealth.
 - For trade specifically, **only the profit from a trade contributes positively to village wealth**, not the entire sale price. Loss-making trades do not create positive wealth merely because money changed hands.
 - Exact treatment of losses, wages as expenses versus household income, reinvestment, cross-village transfers, and whether 'wealth' is a flow per period or accumulated stock remains to be specified. Avoid double-counting the same value across a transaction chain.
+
+### Village wealth losses, zero floor, and percentage-based taxation — confirmed
+- Unprofitable trades **subtract their net losses from village wealth**; they do not merely contribute zero. Profits add to wealth and losses reduce it.
+- The **reported village wealth indicator has a floor of zero**; it cannot become negative. This floor does not erase actual financial losses, debts, or negative cash flow, which should remain tracked in their appropriate accounts.
+- **National tax revenue is percentage-based on village wealth**, so lower wealth produces lower tax revenue at a given tax rate. A zero wealth tax base yields zero tax under this rule, without implying that other separately defined taxes exist.
+- The exact wealth measurement period, tax rate, timing, and whether taxable wealth uses a period's net gain versus an accumulated wealth indicator remain unresolved. Avoid claiming a specific percentage or automatically taxing the same profits repeatedly.
