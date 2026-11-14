@@ -377,3 +377,7 @@ The following details were explicitly stated in the current conversation transcr
 ### Creditworthiness and borrowing capacity — confirmed
 - A nation's borrowing capacity depends on its **actual economic strength and ability to repay**, including tax revenue, assets, existing debt, and cash-flow capacity, **as well as both recent repayment performance and historical loan repayment record**. Do not use one universal fixed borrowing cap.
 - Exact scoring, weighting of recent versus historical behavior, loan size limits, and interest-rate formulas remain to be designed. Better repayment records may inform lending terms, but no numerical rule is approved yet.
+
+### National credit-score recovery — confirmed
+- A nation's creditworthiness/credit score **gradually recovers after defaults** when it consistently makes on-time payments and improves its finances. Past defaults do not permanently prevent recovery.
+- Recovery pace, lookback window, numerical score range, and exact effects on loan limits and interest rates remain undecided.
