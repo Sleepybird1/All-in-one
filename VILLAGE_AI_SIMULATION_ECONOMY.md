@@ -703,3 +703,40 @@ The following details were explicitly stated in the current conversation transcr
 - **National military occupation or troop stationing can affect both village happiness and village stability**, not just happiness.
 - These are distinct effects and should not be collapsed into a single generic dissatisfaction score. The impact can depend on local conditions, including village–national relations and existing stability; the exact direction, magnitude, troop-to-population ratios, and conditions distinguishing ordinary stationing from occupation remain to be designed.
 - This extends the earlier rule that a village may resent a national garrison and can escalate refusal into insurrection. Do not assume every additional soldier always produces the same penalty.
+
+
+## Stability, relations, wealth, and military manpower — confirmed conversation decisions (2026-11-14)
+
+### Stability and happiness
+- Happiness affects stability **gradually over time**, not through instantaneous conversion or a one-to-one mapping. Low happiness pulls stability downward over time; high happiness lifts it over time.
+- The farther happiness is from its neutral level, the faster the corresponding stability change. Exact neutral threshold, rates, and curve are implementation/balancing values.
+- Other identified stability influences: excessive taxation, uncontrolled disease, severe economic hardship, national-government interference, and military occupation. Preserve the earlier distinction that ordinary taxation is not itself an automatic direct stability penalty; excessive taxation is a special condition.
+
+### Village wealth
+- Wealth increases with net economic profit from production and trade, decreases with net losses, and has a zero floor. Gross sales and transfers do not count as newly created wealth. Preserve earlier budget-versus-wealth and tax-base distinctions.
+
+### Relations
+- International relations can respond to war, military aggression, alliances, treaties, trade agreements, economic cooperation, diplomatic disputes, national intervention, territorial conflicts, debt defaults, repayment behavior, and policies affecting other nations.
+- Internal village–national-government relations are a distinct relationship system, particularly where national policy or intervention causes tension.
+- This is an accepted working list, **not asserted to be exhaustive**.
+
+### Military manpower pool and recruitment
+- Military manpower is **not** an additional top-level map statistic. Track an eligible/recruitable manpower pool separately from the number of people actually serving, and separately from the number of troops the nation can sustainably equip, pay, feed, and supply.
+- A nation's recruitment **policy** determines its maximum recruitable share of population and its gradual mobilization/phase-in speed. Policy changes do not instantly turn all eligible citizens into soldiers.
+- Seven accepted recruitment policies, in ascending order: **Volunteer Only**, **Limited Conscription**, **Extensive Conscription**, **Service by Requirement**, **Mass Mobilization**, **All Adults Serve**, **Scraping the Barrel**.
+- Provisional Hearts of Iron IV-inspired recruitable-population limits agreed during discussion: Volunteer Only **1.5%**; Limited Conscription **2.5%**; Extensive Conscription **5%**; Service by Requirement **10%**; custom Mass Mobilization **15%**; All Adults Serve **20%**; Scraping the Barrel **25%**. These are *starting placeholders*, not locked balancing requirements.
+- **Mass Mobilization** can draw from the entire eligible population in priority order: general population/nonessential workers first, essential workers only after those sources are insufficient. Removing essential workers can impair essential services and production. Mass Mobilization is itself a policy, not an independent emergency exception.
+- Demobilization requires a **policy change**, rather than automatically occurring just because military needs decline. When demobilizing, return essential workers to civilian employment first. Rates and implementation details are left to coding/balancing.
+
+### Military recruitment and economic productivity
+- Merely becoming eligible for, or being added to, the manpower pool **does not remove a civilian from employment** and does not itself reduce productivity.
+- Economic effects are based on **workers actually mobilized**, their prior employment, and their economic functions; do not apply arbitrary fixed productivity penalties just for choosing a higher recruitment tier.
+- The conversation discussed a delay before productivity effects, but later explicitly decided that **unfilled positions reduce production right away** if they cannot be filled. Implement the latter as the operative rule for vacancies; do not silently impose a universal delay that contradicts it. Any remaining transition timing is an implementation detail.
+- Worker replacement is **automatic and aggregate**, not simulated as decisions by individually modeled businesses. Available unemployed civilians can progressively fill jobs vacated by mobilized workers.
+- **Higher unemployment permits faster replacement**; if there are no available unemployed workers, vacancies remain unfilled and their associated production is lost. Replacement occurs **over time**, not instantaneously.
+- Military sustainability must separately consider the nation's economy, workforce needs, equipment, pay, food, and logistics; a large manpower pool does not imply an equally large maintainable army.
+
+### Numerical implementation instruction
+- The AI **writing the simulation code** should choose reasonable initial numerical values for any unspecified rates, delays, thresholds, penalties, and formulas, then make them adjustable for playtesting. This does **not** mean an AI agent within the running simulation dynamically chooses those values.
+- Do **not** repeatedly request numerical balancing decisions from the designer during mechanics specification. Preserve explicitly discussed provisional percentages above until deliberately revised.
+- Outstanding mechanics for later design include training/combat readiness, military upkeep, casualty/replacement flows, and detailed demobilization behavior; do not mark these as finalized.
