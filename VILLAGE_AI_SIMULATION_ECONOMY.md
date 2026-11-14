@@ -453,3 +453,7 @@ The following details were explicitly stated in the current conversation transcr
 ### Immediate removal of persistent default debuff after qualification — confirmed
 - Once the debtor has **fully repaid the defaulted debt** and raised its **effective credit score (including the active debuff)** to the required recovery threshold, the persistent default debuff is **removed completely at once**, not gradually faded out.
 - The underlying score and any other independent credit penalties remain governed by their own rules. Numerical thresholds remain undecided.
+
+### Repeat defaults after rehabilitation — confirmed
+- A nation or company that defaults again after recovering from a previous serious default receives a **harsher persistent default penalty than for its first default**.
+- The increased penalty affects creditworthiness and associated reputation/relations under the existing default rules. Exact escalation amounts, how many past defaults count, and whether severity ever resets remain undecided.
