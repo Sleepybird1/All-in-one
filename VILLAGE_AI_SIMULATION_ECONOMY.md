@@ -544,3 +544,8 @@ The following details were explicitly stated in the current conversation transcr
 - A nation **may borrow to fund emergency assistance shipments to a village**, with the decision to borrow driven by the relevant stability situation rather than borrowing automatically for every shortage.
 - If sufficient food is available, the nation can provide the required shipment in one lump sum; if insufficient, it delivers aid over time as food becomes available. Actual resources and financing are required; aid is not conjured into existence.
 - The exact stability thresholds, borrowing amounts, lender selection, and repayment terms remain to be defined.
+
+### Both village and national stability govern emergency borrowing — confirmed clarification
+- When deciding whether to borrow to finance emergency aid to a village, the national government evaluates **both the affected village's stability and the nation's overall stability**.
+- Village stability indicates local risk and urgency; national stability reflects the wider consequences and capacity to absorb borrowing or diversion of resources. Neither metric alone dictates borrowing.
+- Exact formulas, thresholds, and how the two indicators trade off remain open for later gameplay balancing.
