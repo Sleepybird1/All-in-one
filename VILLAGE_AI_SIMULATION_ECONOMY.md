@@ -366,3 +366,6 @@ The following details were explicitly stated in the current conversation transcr
 ### Negotiated forgiveness of paused obligations — confirmed clarification
 - Obligations missed during a treaty renegotiation pause normally remain due, **unless the nations explicitly negotiate to waive, reduce, or forgive those accumulated obligations**. A pause by itself is not forgiveness.
 - Repayment timing and schedules remain open for further decision.
+
+### Installment repayment after treaty renegotiation — confirmed
+- When accrued treaty obligations remain payable after renegotiation, the nations **may negotiate installment payments or staged resource deliveries** instead of requiring immediate settlement in full. The schedule must be agreed between the parties; exact terms are case-dependent.
