@@ -324,7 +324,7 @@ The following previously discussed user decisions were missing or insufficiently
 - Trade routes through controlled territory or coastal waters can be restricted or embargoed; physical routes, capacity, and transit rights matter. Militaries require actual taxation/funding, food, and equipment.
 
 ### Player nation supply obligations — recovered
-- Accepted design target: the player must **physically produce and deliver approximately 60% of every essential category** needed by villages in a player-controlled nation, with the remaining approximately 40% handled by locally simulated production. This covers food, tools, construction materials, fuel, military supplies, and medical supplies, rather than only one selected category. The 60/40 split is a tunable design target, not a hard-coded final balance.
+- **SUPERSEDED (historical only):** The earlier approximately 60% player / 40% AI production target was expressly rejected in the final audit. Supply is dynamically sourced from actual inventories, production and trade without quotas. See authoritative final gameplay audit decisions.
 - A player supply shortfall causes shortages, slower growth, unrest, and other proportional economic consequences; it does **not** instantly destroy a village or nation.
 - Foreign imports to a player nation count toward its needs at **reduced fulfillment efficiency**, while domestic transfers between villages of that player nation receive full credit. A 0.2 multiplier / five imported units per one effective unit was discussed as an **illustrative** value only; exact balance remains open.
 - Players physically build national power generation, rail networks, and major infrastructure. Local village industry may expand only where supported by resources or reliable imports.
@@ -616,12 +616,12 @@ The following details were explicitly stated in the current conversation transcr
 
 ### Housing overcrowding penalties and eventual hard cap — corrected decision
 - Housing does **not** impose an immediate hard population cap at nominal capacity. As the **population-to-housing-capacity ratio** rises, overcrowding produces penalties (including adverse happiness/stability effects).
-- At a **higher, as-yet-undetermined occupancy percentage**, a **hard population cap** applies. Thus both progressive overcrowding penalties and an eventual hard cap coexist.
+- **SUPERSEDED:** A later explicit user decision rejects any hard population cap. Overcrowding can continue indefinitely with escalating, nonlinear consequences and gradually increasing mortality.
 - Exact occupancy ratios, penalty curves, and cap percentage are deferred to gameplay balancing. This supersedes the initial 'hard cap only' answer, which the user explicitly revised.
 
 ### Housing overcrowding escalation — latest clarification
 - Overcrowding penalties **continue increasing with the population-to-housing-capacity ratio**. At severe levels they must affect wider economic systems, potentially including **food production, other production, and income**, not merely happiness or stability. The purpose is to prevent unchecked population expansion from remaining economically harmless.
-- The user pushed back on the binary 'births/immigration stop versus forced migration' framing. **Do not finalize either mechanism** from that exchange. The earlier proposed hard cap remains in the discussion, but whether it is a literal population ceiling or a practical ceiling enforced through increasingly severe penalties needs explicit clarification.
+- **RESOLVED by final audit:** There is no literal population ceiling. Progressive overcrowding penalties can eventually reverse growth through disease, deaths, emigration and economic decline, without a scripted sudden mass-death trigger.
 - Exact escalation curves and thresholds are deferred to playtesting.
 
 ### Overcrowding must create escalating health and infrastructure costs — confirmed clarification
@@ -1096,3 +1096,27 @@ These decisions supersede contradictory earlier provisional language. Numerical 
 - The user delegates numeric values, costs, rates, curves, thresholds, contract counts, and balancing progression to the coding AI to choose, simulate, test and tune. Keep those values configurable and distinguish provisional balance values from approved constants. **The universal 75% purchased-technology progress cap is an explicitly approved constant.**
 - Major system behavior, causal relationships, constraints and approved policy choices are fixed design requirements. Flag any genuine mechanical contradiction or missing major mechanic for user review rather than silently choosing one.
 - The audit found major systems substantially covered: nation formation, war outcomes, finances, diplomacy, military logistics, population/migration, economic production, and technology progression. A final integration/consistency review and shared-state, persistence, unloaded-village and performance engineering are implementation work, not a license to invent gameplay rules.
+
+## Final cross-conversation integration audit — 2026-11-14
+
+This audit compares the accessible conversation summaries and current specification. It is **not** a claim of exhaustive access to every historical chat message, nor evidence of runtime implementation. Earlier superseded statements are historical only; the final gameplay audit decisions above control.
+
+### Confirmed constraints to retain across implementation
+- The simulation should scale toward a very large world (historically discussed as roughly 10 million chunks) with low CPU cost. Loaded/unloaded village continuity, server-running simulation, deterministic aggregate state, save/load recovery and bounded per-tick work need explicit engineering verification; the number is a scalability goal, not a proven benchmark.
+- National and village food reserves can trigger automatic rationing. Village authorities may respond locally; national authorities can set rationing policy during nationwide shortages. Rationing causes discontent/productivity/stability effects but can delay starvation; sustained shortages increase mortality, emigration and workforce/economic decline. Births, housing, food and healthcare effects must not be double-counted.
+- A capital/national government may direct immigrant placement into villages; support is not automatically free or guaranteed. Unfunded placement can worsen local discontent, with slow recovery. Immigration/cultural policy beyond the approved mechanics remains deferred.
+- Commissioned infrastructure belongs to the commissioning nation; independently financed company infrastructure remains company-owned, subject to territorial jurisdiction, fees and taxes. Foreign operations require applicable access rights. Railway construction/operation draws real labor, wages and maintenance from the economy; home/host workforce allocation is simulated rather than player-assigned.
+- Imported goods and domestic transfers must remain distinct: intra-nation village transfers satisfy needs at full credit, while foreign imports into a player-controlled nation were assigned reduced need-fulfillment credit (the earlier 0.2 example is not binding). This is a separate rule from the rejected 60/40 sourcing quota; review the economic implications of both before implementation.
+- Treaty violations affect direct parties and potentially third-party trust/reputation. Ordinary contract nonpayment uses applicable debt enforcement, without inventing unsecured collateral seizure rights. Existing signed contracts, territorial transit rights, treaty exceptions, and national policy must be reconciled with procurement decisions.
+- Contract fulfillment must reconcile real goods, inventories, transport, delivery confirmation, payment, liabilities, and any damage/shortfall; neither player factory placement nor AI procurement creates resources. Player skirmishes do not independently conquer vast territory; military readiness requires actual funding, manpower, equipment and logistics.
+
+### Remaining gaps requiring explicit implementation design or a user decision
+- **Contract edge cases:** Partial deliveries, damaged goods, missed deadlines, acceptance/dispute process, cancellations, non-loan expiry and exact enforcement triggers are not fully specified. Penalty magnitudes are balancing; who may cancel, reject or enforce is a mechanic and cannot be invented silently.
+- **Research accounting:** Item-specific contract milestones and purchased progress up to 75% are approved. The precise treatment of repeated purchases, resale/licensing rights, research progress already earned, and any prerequisites for the unpurchased remainder must be consistent and made explicit before implementation.
+- **Shared state and performance:** Define canonical ownership of population, inventory, treasury, liabilities, contracts, territorial rights, research progress, military supply and shipment state; reconcile unloaded simulation, restart/persistence, idempotent transactions and performance budgets. These are engineering deliverables, not proof of implementation.
+- **Offline player-nation protection:** Approved in principle, but activation, scope, duration and anti-exploit rules remain deferred. Do not silently implement invulnerability or pause the world economy.
+- **Automation interfaces:** Physical factory/decision-block controls and train fulfillment are approved in direction, but exact wiring, filters, permissions, failure handling and UI are not fully defined. Do not invent a mandatory central-computer prerequisite.
+- **Historic proposal status:** Do not promote proposed top-level statistics (Security, Development, etc.), unapproved 30% domestic minimum, rigid tech tree, 60/40 quota, or housing hard cap into gameplay rules.
+
+### Audit disposition
+- Major gameplay categories are represented, but the specification is **not yet certified implementation-complete** because the unresolved edge-case and integration rules above remain. Numerical balancing may be delegated to the coding AI, but decisions changing actors' rights, ownership, authority, triggers or permitted outcomes must be surfaced for approval.
