@@ -381,3 +381,8 @@ The following details were explicitly stated in the current conversation transcr
 ### National credit-score recovery — confirmed
 - A nation's creditworthiness/credit score **gradually recovers after defaults** when it consistently makes on-time payments and improves its finances. Past defaults do not permanently prevent recovery.
 - Recovery pace, lookback window, numerical score range, and exact effects on loan limits and interest rates remain undecided.
+
+### Global credit score and lender-specific adjustments — confirmed
+- Each nation has a **worldwide/base creditworthiness score** reflecting its economic fundamentals and repayment history.
+- Individual lending nations can adjust their assessment and loan terms based on their **bilateral diplomatic relations and experience with the borrower**. A lender with good relations may be more lenient than the global baseline suggests.
+- The global score and lender-specific assessment are distinct; exact scoring scales, weights, and effects on interest rates and limits remain undecided.
