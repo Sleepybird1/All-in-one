@@ -635,3 +635,9 @@ The following details were explicitly stated in the current conversation transcr
 - **Food availability is an absolute prerequisite for births/population growth from births** in the intended simulation model: without sufficient food, new population cannot be sustained through births. The exact food adequacy test and update rules remain undefined.
 - **Healthcare/medical items modify birth rates**, but their absence **does not automatically reduce births to zero** when food is available. Medical supply should influence the rate by a percentage or other tunable modifier.
 - Prior confirmed factors such as unemployment, stability, and housing constraints remain relevant; the relative weighting and interactions are not yet specified.
+
+### Birth surplus threshold and medical mitigation of deaths — clarified
+- Birth-driven population growth depends on having a **sufficient food surplus above existing consumption**, not merely any food in inventory. The required surplus threshold and rate curve remain deferred.
+- Track a **baseline/expected death count or death rate** first. Then apply a **medical-supply availability ratio or threshold as a mortality-reduction modifier**: medical supplies prevent a portion of otherwise expected deaths rather than being represented solely as an extra death penalty when absent.
+- Conceptual calculation: **actual deaths = baseline expected deaths − deaths prevented by medical availability**, subject to sensible bounds. The exact interpretation of the medical ratio, other mortality drivers (including food shortages), and formulas are not finalized.
+- This clarification supersedes any simplistic claim that zero medical supplies must independently add deaths above an already-defined unmitigated baseline.
