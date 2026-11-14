@@ -430,3 +430,9 @@ The following details were explicitly stated in the current conversation transcr
 - A lender must **demand repayment first** when a nation defaults on a secured loan; collateral ownership does **not** transfer automatically at the first default.
 - If the borrower still fails to pay following the demand, it suffers a **substantial credit-score penalty and significant diplomatic-relations damage** with the creditor. Exact magnitudes and how this interacts with gradual lateness penalties remain open.
 - Whether, when, and by what procedure the creditor may ultimately seize pledged collateral is **not yet decided**; do not assume automatic seizure.
+
+### Company versus sovereign secured-loan enforcement — confirmed clarification
+- **Company collateral** may be subject to seizure after an unresolved secured-loan default, consistent with company asset-liability rules. Exact enforcement procedure and timing remain open.
+- **Sovereign/national default** does not automatically authorize seizure of a nation's pledged collateral. Instead, the default imposes **severe damage to diplomatic relations and the nation's credit score**, including a **persistent negative modifier that is difficult to remove**. The creditor may still seek negotiated resolution; do not assume unilateral confiscation of sovereign assets.
+- A defaulting company can likewise suffer a severe, persistent creditworthiness/reputation modifier. Company and nation consequences should be tracked at their respective levels; the nation's score is not automatically identical to a company's.
+- Exact penalty values, duration, removal conditions, and company seizure process remain undecided.
