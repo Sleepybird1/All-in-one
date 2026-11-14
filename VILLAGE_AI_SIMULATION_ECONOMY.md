@@ -265,6 +265,13 @@ This section records decisions explicitly approved during the design review. It 
 - The user mentioned a **fixed/base growth rate** alongside these conditions, but did not finalize a percentage or its exact interaction with the constraints. A baseline growth rate may be considered only when prerequisites are satisfied; its formula is still open.
 - Exact surplus definitions, population decline triggers, healthcare/employment modifiers, and time scale remain undecided.
 
+### Healthcare supplies, population decline, and emergency food reserves — confirmed
+- Village healthcare capacity includes access to **health-related supplies such as healing potions**, alongside other healthcare resources. Exact potion consumption, production, and service effects remain undecided.
+- **Prolonged food shortages and inadequate healthcare can reduce population**, both through increased mortality and through emigration. They do not merely halt population growth.
+- **Mortality and population decline develop gradually** as shortages persist and resilience/reserves run down, rather than causing immediate mass deaths on the first day of a shortage. Exact delay and severity curves remain undecided.
+- Villages should **always try to maintain emergency food reserves** as a planning priority, but actual reserves are limited by their resources and affordability. A village unable to afford or acquire enough food cannot magically create a reserve.
+- Reserve targets, procurement priority relative to immediate consumption, storage limits, and emergency release triggers remain open.
+
 ### Still open for design
 - Exact accession scoring, political-difference representation, growth resistance curves, thresholds, administrative effects, negotiating terms, and when a nation counts as mature or sovereign.
 - How conditional offers are displayed to players and whether counteroffers or deadlines exist.
