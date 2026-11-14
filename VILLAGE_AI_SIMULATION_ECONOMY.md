@@ -354,3 +354,7 @@ The following details were explicitly stated in the current conversation transcr
 - **Treaty renegotiation:** a nation can request changes to an existing treaty without immediately breaking it. Whether the other side can make **counteroffers** was the next open question and has not been answered.
 
 **Audit scope:** This is a second pass over the conversation transcript provided in this chat and the current GitHub specification, not a claim of access to unrelated or unavailable chats. No numerical values or implementation behavior beyond explicitly approved decisions should be inferred.
+
+### Treaty counteroffers — confirmed
+- A counteroffer is a **rejection of the current proposal followed by a new proposal** with different terms. Nations can reject a treaty offer or renegotiation demand and submit a counteroffer rather than being limited to acceptance or outright rejection.
+- The original proposing nation can then evaluate the new terms. No automatic acceptance, fixed number of negotiation rounds, or specific deadline has been approved.
