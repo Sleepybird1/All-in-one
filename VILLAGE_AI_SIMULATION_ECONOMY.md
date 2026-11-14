@@ -219,6 +219,12 @@ This section records decisions explicitly approved during the design review. It 
 - Converting an existing factory is **less resource-intensive than constructing a brand-new factory**, but still has meaningful costs and a transition period.
 - Conversion decisions must reflect national finances, available materials, industrial capabilities, workforce, and competing civilian needs. Exact conversion recipes, duration, tax behavior, and production ramp curves remain undecided.
 
+### Postwar industrial reconversion and priority setting — confirmed
+- After a war, nations **gradually reconvert military industry to civilian production**. Reconversion requires time, labor, resources, and real economic costs, rather than instantly restoring prewar civilian output.
+- Each nation **chooses its own order of reconversion** rather than following a universal rule that civilian goods must always be restored first.
+- Those priorities are determined by **multiple factors**, explicitly including the nation's strategic goals, public happiness, and the population's actual needs. The AI weighs these together, not strategy alone or happiness alone.
+- Exact weights, conversion recipes, timing, and interactions with lingering defense requirements remain undecided.
+
 ### Still open for design
 - Exact accession scoring, political-difference representation, growth resistance curves, thresholds, administrative effects, negotiating terms, and when a nation counts as mature or sovereign.
 - How conditional offers are displayed to players and whether counteroffers or deadlines exist.
