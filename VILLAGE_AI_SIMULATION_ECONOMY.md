@@ -440,3 +440,7 @@ The following details were explicitly stated in the current conversation transcr
 ### Persistent default modifier removal — confirmed
 - The severe, persistent default-related credit/reputation debuff for a company or nation **does not simply fade with elapsed time**. Removing it requires **specific corrective actions** to restore financial reputation.
 - Which actions qualify, whether repayment is mandatory, and how much each action reduces the modifier remain undecided. Ordinary late-payment score recovery is a separate mechanic.
+
+### Full repayment prerequisite for removing persistent default modifier — confirmed
+- A defaulting nation or company **must repay the defaulted debt in full** before its persistent default-related credit/reputation penalty can be cleared. Alternative partial settlements do not satisfy this prerequisite under the current rule.
+- Full repayment is a necessary condition, **not necessarily immediate automatic removal**: any additional corrective actions and reputation-rebuilding requirements remain to be decided.
