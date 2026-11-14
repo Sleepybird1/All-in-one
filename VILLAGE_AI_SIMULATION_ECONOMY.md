@@ -398,3 +398,7 @@ The following details were explicitly stated in the current conversation transcr
 ### Credit-score recovery after curing a late payment — confirmed
 - When a nation pays an overdue obligation, the credit-score points already lost **do not immediately return**. The late-payment penalty stops growing once the overdue amount is settled, and the score **recovers slowly over time** through subsequent reliable payment behavior.
 - Example: if a payment incurred a five-point penalty by day five, paying on day five does not instantly restore those five points. Exact recovery rates remain undecided.
+
+### Credit penalties depend on lateness, not loan size — confirmed
+- The credit-score penalty for a missed payment depends on **how long the payment remains overdue**, not on the principal size of the loan. A larger loan does not automatically incur a larger credit-score deduction for the same number of days late.
+- This does not imply that loan size is irrelevant to financial exposure, debt burden, or lending decisions. Exact lateness-to-points formula remains undecided.
