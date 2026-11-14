@@ -245,6 +245,13 @@ This section records decisions explicitly approved during the design review. It 
 - **Existing discontent matters**: a village already strongly hostile toward its capital or nation may be pushed past an existing broader loyalty/secession threshold by the additional penalty. This is an interaction with the general accumulated-discontent system, **not** a special automatic immigration-triggered civil war.
 - Exact penalty magnitude, duration, mitigation by national support, and thresholds remain undecided.
 
+### Capital aid for forced immigrant placement and slow trust effects — confirmed
+- When the capital orders a village to receive immigrants, it **may provide financial aid, food, housing/construction materials, or temporary shelter support** to help absorb the cost and reduce dissatisfaction.
+- Such assistance is **optional, not mandatory**. The capital cannot provide resources it does not have and may impose placement without funding it.
+- **Unfunded forced placements cause greater local unhappiness** than comparable placements supported with adequate assistance, particularly where local capacity is strained.
+- Repeated unfunded placements do **not** impose an immediate permanent trust penalty. Instead, their political effects are **temporary and change/recover very, very slowly and gradually**; sustained repetition can accumulate discontent over time, while recovery should not be instantaneous.
+- Exact penalty duration, recovery rate, stacking, and whether partial aid mitigates proportionally remain undecided.
+
 ### Still open for design
 - Exact accession scoring, political-difference representation, growth resistance curves, thresholds, administrative effects, negotiating terms, and when a nation counts as mature or sovereign.
 - How conditional offers are displayed to players and whether counteroffers or deadlines exist.
