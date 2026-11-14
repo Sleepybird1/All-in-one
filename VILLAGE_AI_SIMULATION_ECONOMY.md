@@ -390,3 +390,7 @@ The following details were explicitly stated in the current conversation transcr
 ### Credit score and economic deterioration — confirmed correction
 - A nation's **global credit score does not automatically decrease merely because its economy deteriorates**, so long as it continues meeting its repayment obligations. Economic weakness may still inform a lender's separate assessment of affordability and loan terms; do not silently translate it into a global score penalty.
 - Missed payments/defaults and repayment history remain relevant to global credit-score changes. Exact score mechanics remain open.
+
+### Gradual credit-score penalties for overdue payments — confirmed
+- A missed payment causes a **gradually increasing credit-score penalty** over the period it remains overdue, up to a defined maximum for that missed payment, rather than the full penalty immediately on day one.
+- Illustrative example only: a maximum **10-point** penalty accumulating **1 point per overdue day** reaches 10 points after 10 days. The actual point values, time scale, penalty cap, and behavior after late payment is cured are **not yet finalized**.
