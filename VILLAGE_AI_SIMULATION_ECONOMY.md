@@ -653,3 +653,9 @@ The following details were explicitly stated in the current conversation transcr
 - When a nation intervenes in a village disease outbreak, it may provide **whatever combination of assistance the situation requires**, including medical supplies, funding, medical personnel, and healthcare facilities.
 - Assistance is **not unlimited or automatically free**: the government must be able to afford and resource the response under the already established national budget, inventory, workforce, logistics, borrowing, stability, and competing-priority rules.
 - The response should address the village's actual unmet needs rather than selecting one fixed intervention type. No guaranteed aid quantity, free construction, or automatic resource creation is implied.
+
+### Urgent intervention triage and general sovereign borrowing rule — confirmed
+- When the nation cannot fund every measure needed to control a disease outbreak, it **prioritizes the most urgent effective interventions first**, then funds additional measures as resources become available. Actual spending, supply, and delivery constraints still apply.
+- **General rule beyond disease:** whenever a nation cannot afford a desired or necessary expenditure, it may **seek a loan** rather than treating a cash shortfall as an absolute prohibition. Ordinary borrowing is conditioned on **economic feasibility**, including repayment capacity and the willingness of an eligible lender under existing credit rules.
+- **Desperation exception:** if borrowing is the nation's only viable way to address an extreme emergency, it may attempt to borrow **even when normal economic-feasibility checks would discourage it**. This does **not** guarantee that a lender agrees, that credit limits disappear, or that money materializes. Existing credit, collateral, diplomatic, and default consequences still apply.
+- Exact definitions of 'economically feasible', 'desperate', and emergency prioritization remain deferred.
