@@ -75,6 +75,16 @@ This section records decisions explicitly approved during the design review. It 
 - If peaceful release is denied, the subordinate nation may seek independence through a **new war of independence** against its controlling nation.
 - These are alternative, situation-dependent routes, not a fixed timer or automatic release trigger. The specific political evaluations, military success requirements, and treaty terms remain to be designed.
 
+### Third-party support for puppet independence — confirmed
+- Puppet/subordinate nations can petition other independent countries to pressure their controlling nation to restore sovereignty, including explicit threats or diplomatic intervention.
+- Third-party states may support independence movements through financial aid, military equipment, diplomatic pressure, or direct military intervention. Whether they help depends on their own interests and calculations; support is not automatic.
+- Specific diplomatic demands, escalation rules, alliance behavior, and intervention thresholds remain open.
+
+### National public finances and services — confirmed direction
+- Nations maintain a **central public budget/treasury**, funded at least in part by taxes collected from their villages/economies.
+- The national budget funds military commitments, public infrastructure, diplomatic obligations, **healthcare**, and other government services and responsibilities. Healthcare is an explicit core expenditure, not an optional omission.
+- The precise division of funding and authority between village and national budgets, tax rates, healthcare model, and additional spending categories remains to be designed.
+
 ### Still open for design
 - Exact accession scoring, political-difference representation, growth resistance curves, thresholds, administrative effects, negotiating terms, and when a nation counts as mature or sovereign.
 - How conditional offers are displayed to players and whether counteroffers or deadlines exist.
