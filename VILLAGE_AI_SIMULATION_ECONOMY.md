@@ -373,3 +373,7 @@ The following details were explicitly stated in the current conversation transcr
 ### Repeated missed repayment installments — confirmed
 - If a debtor repeatedly misses payments under a renegotiated repayment schedule, the creditor becomes **progressively less willing to grant further extensions or lenient terms**, even when overall diplomatic relations remain good.
 - This is gradual and contextual, not an automatic declaration of war or immediate termination of negotiations. Exact escalation thresholds and penalties remain open.
+
+### Creditworthiness and borrowing capacity — confirmed
+- A nation's borrowing capacity depends on its **actual economic strength and ability to repay**, including tax revenue, assets, existing debt, and cash-flow capacity, **as well as both recent repayment performance and historical loan repayment record**. Do not use one universal fixed borrowing cap.
+- Exact scoring, weighting of recent versus historical behavior, loan size limits, and interest-rate formulas remain to be designed. Better repayment records may inform lending terms, but no numerical rule is approved yet.
