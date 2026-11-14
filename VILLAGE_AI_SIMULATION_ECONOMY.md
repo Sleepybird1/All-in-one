@@ -369,3 +369,7 @@ The following details were explicitly stated in the current conversation transcr
 
 ### Installment repayment after treaty renegotiation — confirmed
 - When accrued treaty obligations remain payable after renegotiation, the nations **may negotiate installment payments or staged resource deliveries** instead of requiring immediate settlement in full. The schedule must be agreed between the parties; exact terms are case-dependent.
+
+### Repeated missed repayment installments — confirmed
+- If a debtor repeatedly misses payments under a renegotiated repayment schedule, the creditor becomes **progressively less willing to grant further extensions or lenient terms**, even when overall diplomatic relations remain good.
+- This is gradual and contextual, not an automatic declaration of war or immediate termination of negotiations. Exact escalation thresholds and penalties remain open.
