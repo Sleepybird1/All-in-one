@@ -231,6 +231,15 @@ This section records decisions explicitly approved during the design review. It 
 - **Attacks on a village** are an explicit example of an event that can drive people to flee much more quickly than ordinary economic migration.
 - Migration should change the actual simulated population distribution and thereby affect the labor pool and economic needs of origin and destination settlements. Exact migration rates, destination choice, border controls, transportation constraints, and refugee-handling rules remain undecided.
 
+### Immigration policy, settlement capacity, and local versus capital authority — confirmed
+- Nations control border policies affecting **both immigration and trade**. Open/restricted/closed policy choices have economic tradeoffs; exact policy categories and how immigration rules interact with trade restrictions remain to be designed.
+- Immigrants and refugees can add to the **workforce and tax base**, but also require **food, housing, and other support**, increasing local demand and potentially burdening public services. Nations should not automatically maximize immigration when they have no workforce need or capacity.
+- Immigration and refugee reception have **real costs**. Receiving communities must provide or construct additional housing or, where appropriate, **refugee camps**; new residents increase demand for local goods and services.
+- **Individual cities/villages may refuse to accept immigrants** when they cannot afford or support them. Local capacity and willingness therefore matter, not merely national policy.
+- **Only the nation's capital village / central national authority can compel another village to receive immigrants** despite that village's refusal. Ordinary villages cannot force immigration quotas on one another. The exact central-authority decision logic, costs, and effects of forced placement remain open.
+- Border closure can reduce incoming pressure on housing/food but also forego labor and taxes; border openness can help labor supply but is not free. Avoid assuming that closed borders directly improve total food or housing supply—effects depend on actual population and capacity.
+- Still undecided: allocation of arrivals among villages, camp operating costs, how long camps persist, refugee versus ordinary immigrant policy, infrastructure timelines, consequences of forced placements, and border enforcement.
+
 ### Still open for design
 - Exact accession scoring, political-difference representation, growth resistance curves, thresholds, administrative effects, negotiating terms, and when a nation counts as mature or sovereign.
 - How conditional offers are displayed to players and whether counteroffers or deadlines exist.
