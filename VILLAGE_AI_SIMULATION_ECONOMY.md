@@ -480,3 +480,7 @@ The following details were explicitly stated in the current conversation transcr
 ### Third-country host ownership after collapse — explicit reaffirmation
 - If a collapsed company's asset is physically located in a **third country**, that **third/host country confiscates the asset because it is within its territory**, regardless of where the company is based or where its creditor is located. The creditor country does not automatically acquire the asset.
 - This reiterates the host-territorial-jurisdiction rule; asset disposition after seizure remains an open design question.
+
+### Disposition of confiscated company assets — confirmed
+- After confiscating assets of a collapsed company, the host nation **dynamically chooses what to do based on its own economic needs**. For a factory, available options include operating it, selling it to another company, or dismantling it for recoverable resources.
+- The choice should account for actual national needs and circumstances; exact valuation, operating costs, salvage yields, and AI decision weights remain undecided.
