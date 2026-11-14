@@ -131,6 +131,12 @@ This section records decisions explicitly approved during the design review. It 
 - When a member is attacked, another member's refusal to provide assistance **has consequences** for alliance relations. The precise severity, possible expulsion, and treatment of justified refusals remain undecided.
 - The previously documented rule that alliances are not automatic economic guarantees remains intact: economic harm does not itself compel allied military participation.
 
+### Context-sensitive consequences for refusing allied defense — confirmed
+- Refusing to defend an attacked alliance member **still damages diplomatic relations**, even when the refusing nation has a legitimate practical reason.
+- The diplomatic penalty is **reduced** when the refusing ally is exhausted from a recent war, is already fighting other wars, or otherwise lacks the realistic capacity to join another conflict.
+- Refusal without a comparably compelling constraint incurs a **greater** relationship penalty. The system should weigh the nation's actual circumstances rather than apply one flat penalty to all refusals.
+- Exact numerical modifiers, whether repeated refusals lead to expulsion, and how much each factor matters remain open.
+
 ### Still open for design
 - Exact accession scoring, political-difference representation, growth resistance curves, thresholds, administrative effects, negotiating terms, and when a nation counts as mature or sovereign.
 - How conditional offers are displayed to players and whether counteroffers or deadlines exist.
