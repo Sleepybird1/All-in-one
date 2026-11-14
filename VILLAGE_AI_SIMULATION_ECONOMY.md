@@ -386,3 +386,7 @@ The following details were explicitly stated in the current conversation transcr
 - Each nation has a **worldwide/base creditworthiness score** reflecting its economic fundamentals and repayment history.
 - Individual lending nations can adjust their assessment and loan terms based on their **bilateral diplomatic relations and experience with the borrower**. A lender with good relations may be more lenient than the global baseline suggests.
 - The global score and lender-specific assessment are distinct; exact scoring scales, weights, and effects on interest rates and limits remain undecided.
+
+### Credit score and economic deterioration — confirmed correction
+- A nation's **global credit score does not automatically decrease merely because its economy deteriorates**, so long as it continues meeting its repayment obligations. Economic weakness may still inform a lender's separate assessment of affordability and loan terms; do not silently translate it into a global score penalty.
+- Missed payments/defaults and repayment history remain relevant to global credit-score changes. Exact score mechanics remain open.
