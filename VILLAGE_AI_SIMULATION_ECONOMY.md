@@ -692,3 +692,9 @@ The following details were explicitly stated in the current conversation transcr
 - National tax rates respond dynamically to **both country-wide needs and village needs**, not national needs alone.
 - **Raising national taxes directly reduces village happiness**, **not stability as a separate direct tax penalty**. Because happiness is already a modifier of stability, tax increases may **indirectly** affect stability through the established happiness-to-stability calculation; do not double-apply an independent tax-to-stability penalty.
 - Exact tax-response and happiness penalty curves remain deferred to playtesting.
+
+### Taxation, happiness, and stability — corrected causal relationship
+- **Village happiness is a composite indicator** determined by many different living-condition and economic factors; taxation is only one contributor.
+- **Ordinary tax increases may reduce happiness but do not automatically reduce stability merely because happiness falls.** The earlier shorthand 'happiness always feeds into stability, therefore every tax-related happiness drop lowers stability' was too absolute for this tax rule.
+- **Only excessive taxation can cause a tax-related stability decline**, with excessiveness determined under a future contextual threshold/decision rule. This can be represented as a separate excessive-taxation condition in the stability calculation, without double-counting the same penalty.
+- Preserve the general earlier rule that happiness is relevant to stability, while making clear that the tax effect is conditional and not a one-to-one automatic transfer. The full happiness composition, stability interactions, and excessive-tax thresholds remain deferred.
