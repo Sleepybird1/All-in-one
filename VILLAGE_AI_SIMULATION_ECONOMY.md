@@ -613,3 +613,8 @@ The following details were explicitly stated in the current conversation transcr
 - Unemployment can also **reduce birth rates after a threshold**. That trigger depends on **both unemployment and overall village stability**, and may vary between villages according to local conditions. The actual threshold values and formulas are deferred.
 - **Housing is tracked by housing-unit counts**, with an associated **capacity for people** derived from the housing available. Housing capacity can change dynamically when the housing stock or its characteristics change; do not treat one unit as a permanently fixed universal number of residents.
 - The user began by saying capacity, then clarified 'unit counts ... but it is capacity ... dynamically changed'; preserve both unit count and derived capacity rather than choosing only one.
+
+### Housing overcrowding penalties and eventual hard cap — corrected decision
+- Housing does **not** impose an immediate hard population cap at nominal capacity. As the **population-to-housing-capacity ratio** rises, overcrowding produces penalties (including adverse happiness/stability effects).
+- At a **higher, as-yet-undetermined occupancy percentage**, a **hard population cap** applies. Thus both progressive overcrowding penalties and an eventual hard cap coexist.
+- Exact occupancy ratios, penalty curves, and cap percentage are deferred to gameplay balancing. This supersedes the initial 'hard cap only' answer, which the user explicitly revised.
