@@ -601,3 +601,8 @@ The following details were explicitly stated in the current conversation transcr
 - **Population dashboard detail matters:** summary shows current population and net change; detailed views break out births, deaths, immigration, and emigration separately, even though those values feed one net population change. 'Single calculation' must not be misread as 'discard component data.'
 - **No time-slicing for militia:** militia members can simultaneously hold civilian jobs, and the user rejected tracking fractional working versus militia hours as excessive calculation. The roles are flags/categories, not separate people.
 - **Remaining ambiguities, not silently decided:** whether stationed troops count as permanent residents or a separate present-population line; whether national population totals include deployed troops abroad; what constitutes formal insurrection; what village conditions besides stability/relations influence troop resistance; and how national military orders interact with existing secession mechanics.
+
+### Stationed soldiers in village population — confirmed
+- National professional soldiers **stationed in a village count toward that village's total population**, rather than being excluded as a separate nonpopulation garrison.
+- Their professional military role and national employment remain distinct from civilian worker roles. The national and village totals must reconcile without counting a stationed soldier twice.
+- Specific housing, ration, and troop transfer accounting remain to be defined.
