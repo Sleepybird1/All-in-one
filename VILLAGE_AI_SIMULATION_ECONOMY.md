@@ -252,6 +252,12 @@ This section records decisions explicitly approved during the design review. It 
 - Repeated unfunded placements do **not** impose an immediate permanent trust penalty. Instead, their political effects are **temporary and change/recover very, very slowly and gradually**; sustained repetition can accumulate discontent over time, while recovery should not be instantaneous.
 - Exact penalty duration, recovery rate, stacking, and whether partial aid mitigates proportionally remain undecided.
 
+### Immigrant economic integration and deferred culture/politics — confirmed
+- New immigrants **integrate gradually** into the destination village economy. Initially they may require additional settlement support, but as they obtain housing and employment they can become increasingly productive and self-sufficient.
+- **Integration speed varies with actual conditions**, especially the availability of jobs and housing; it is not a fixed universal timer.
+- **Cultural similarity may eventually influence integration**, but this mechanic is explicitly **deferred**. The pack currently has no defined cultures or political ideology/party systems (e.g., communism, democracy, capitalism as political/economic frameworks). Do **not** implement or assume cultural compatibility scores, political parties, ideologies, or penalties now. Revisit only if the user later chooses to develop these systems.
+- Exact integration rates, support requirements, employment matching, and housing thresholds remain undecided.
+
 ### Still open for design
 - Exact accession scoring, political-difference representation, growth resistance curves, thresholds, administrative effects, negotiating terms, and when a nation counts as mature or sovereign.
 - How conditional offers are displayed to players and whether counteroffers or deadlines exist.
