@@ -410,3 +410,7 @@ The following details were explicitly stated in the current conversation transcr
 ### Numeric credit-score borrowing threshold — confirmed direction
 - A nation's credit score is an **actual numerical value** used as a **threshold for borrowing eligibility**. A minimum score threshold can restrict borrowing rather than treating creditworthiness only as an informal qualitative judgment.
 - The exact numerical score scale, minimum threshold, whether individual lenders may make exceptions, and how bilateral adjustments interact with eligibility have **not yet been determined**. Do not invent a cutoff.
+
+### Lender-specific credit-score cutoffs — confirmed
+- **Each lending nation sets its own minimum numerical credit-score threshold** for loan eligibility. There is no universal minimum cutoff shared by all lenders.
+- This works alongside the global baseline score and lender-specific bilateral assessment. Exact thresholds, adjustment rules, and exceptions remain undecided.
