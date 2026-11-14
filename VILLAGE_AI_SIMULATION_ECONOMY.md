@@ -665,3 +665,9 @@ The following details were explicitly stated in the current conversation transcr
 - Lenders **may demand collateral** for such high-risk loans; the borrower can consider pledging eligible assets under the existing secured-sovereign-loan rules.
 - **Do not reopen collateral default enforcement as a new decision:** a sovereign lender first demands repayment; a creditor cannot automatically seize assets inside the debtor nation's territory, and serious unresolved defaults incur major credit and diplomatic consequences. Company assets and host-country territorial confiscation follow their separately documented rules.
 - These choices do not force lenders to offer a loan or override previously established sovereignty and credit constraints.
+
+### Village budget versus village wealth — clarified foundational distinction
+- Villages maintain **their own financial budgets/treasuries**, distinct from the national government's treasury.
+- **Village wealth is not the village treasury balance.** It is a separate calculated economic indicator reflecting **how much money circulates/flows through the village economy**. The user explicitly distinguished village wealth from money held by the village government.
+- The user selected **village wealth** as the basis for national taxation, rather than directly taxing individual residents or simply taking a fixed amount from the village budget. The precise tax base and how taxes are collected/transferred remain to be defined.
+- Do not equate village wealth with cash reserves, government revenue, or total assets. Exact measurement window, included transactions, treatment of repeated circulation, and tax-rate mechanics are unresolved.
