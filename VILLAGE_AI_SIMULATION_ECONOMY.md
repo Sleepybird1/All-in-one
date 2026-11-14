@@ -163,6 +163,13 @@ This section records decisions explicitly approved during the design review. It 
 - The leader's battlefield requests are coordination rather than unconditional orders; this preserves prior rules that allied nations retain independent decisions about war participation and national budgets.
 - Precise leader authority, wartime resource allocation, contract pricing, troop command execution, and how alliance needs are aggregated remain open.
 
+### Military supply shortages: delayed, escalating degradation — confirmed correction
+- An army that cannot meet its weapons, food, ammunition, or other military supply requirements **gradually loses combat effectiveness as shortages persist**.
+- **Do not apply a full or immediately meaningful penalty on the first missed daily quota.** Troops can continue operating initially using remaining stocks and resilience. A missed day is not equivalent to a sustained shortage.
+- As unmet supply accumulates over multiple in-game days, the effect becomes increasingly serious: roughly a week of persistent shortfalls begins to hurt, while a prolonged shortage on the order of an in-game month can leave the force severely degraded and at risk of falling apart.
+- The one-day, seven-day, and month-long examples are **illustrative progression, not finalized hard thresholds**. The precise simulation curve, reserve buffers, equipment categories, recovery after resupply, and meaning of an in-game month remain to be specified.
+- This explicitly supersedes any earlier phrasing suggesting that supply penalties begin immediately at full effect or scale from the very first missed quota without an initial buffer.
+
 ### Still open for design
 - Exact accession scoring, political-difference representation, growth resistance curves, thresholds, administrative effects, negotiating terms, and when a nation counts as mature or sovereign.
 - How conditional offers are displayed to players and whether counteroffers or deadlines exist.
