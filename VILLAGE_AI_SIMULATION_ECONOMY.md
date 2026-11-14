@@ -828,3 +828,9 @@ These points were recovered from earlier conversation context and compared again
 - The player defines the presets/rules and retains control of the logistics network; actual routing and dispatch operate dynamically under those presets and existing physical track, access, capacity, and delivery-verification constraints.
 - **Still to design:** whether contracts are automatically accepted versus only automatically fulfilled; matching goods/quantities to contracts; train scheduling, routing priorities, loading/unloading, exceptions, permissions, and the configuration interface. Do not treat these details as already approved.
 - The user explicitly corrected the framing: this is **not necessarily a technology-gated central national computer or remote access requirement**. Do not impose that requirement without a separate decision.
+
+### Rule-based automated contract acceptance via factory/decision blocks — confirmed (2026-11-14)
+- Players can configure **automatic acceptance of contracts** when a contract satisfies a player-defined set of conditions; manual acceptance is not required for every qualifying contract.
+- **Factory blocks or decision blocks** are intended as the physical/configuration mechanism for specifying and evaluating these rules. Their exact block types, recipes, interface, connectivity, and logic are still to be designed.
+- Once an eligible contract is accepted, the existing player-configured train logistics system can handle its delivery automatically, subject to available goods, valid routes, capacity, and other established economic constraints.
+- Do not assume every contract is accepted indiscriminately. Acceptance is conditional on player rules. Exact filters (e.g. item, quantity, profitability, destination, inventory, risk) are examples to discuss, not yet approved.
