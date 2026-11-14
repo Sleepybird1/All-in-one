@@ -798,3 +798,8 @@ These points were recovered from earlier conversation context and compared again
 - **Development** was suggested as a possible headline statistic, **not approved**. Do not add it as a confirmed sixth statistic.
 - **Player essential-supply split requires reconciliation:** An earlier summary characterized the roughly **60% player-produced / 40% locally simulated** essential-goods split as an *unfinalized target*, while an existing section labels it an *accepted tunable design target*. Treat it as a **provisional target for balancing, not a mandatory hard-coded ratio**, pending explicit confirmation; do not silently implement it as a fixed universal requirement.
 - This note distinguishes directly confirmed decisions from summary-only qualifications; it does not revise other established trade, logistics, or supply obligations.
+
+### Offline player-nation protection — principle confirmed; details deferred (2026-11-14)
+- **Decision:** Player-controlled nations receive some form of protection while their players are offline, rather than necessarily facing all risks without mitigation.
+- **Deferred again at the user's request:** protection against invasion versus economic collapse, activation and duration, degree of protection, exceptions, fairness to AI nations, and anti-exploit safeguards. No immunity, invulnerability, or specific protection mechanism is approved yet.
+- The simulation continues while the server runs; offline protection does not imply pausing national economic simulation.
