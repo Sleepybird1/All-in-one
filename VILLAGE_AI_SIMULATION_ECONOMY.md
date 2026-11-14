@@ -240,6 +240,11 @@ This section records decisions explicitly approved during the design review. It 
 - Border closure can reduce incoming pressure on housing/food but also forego labor and taxes; border openness can help labor supply but is not free. Avoid assuming that closed borders directly improve total food or housing supply—effects depend on actual population and capacity.
 - Still undecided: allocation of arrivals among villages, camp operating costs, how long camps persist, refugee versus ordinary immigrant policy, infrastructure timelines, consequences of forced placements, and border enforcement.
 
+### Local backlash from centrally imposed immigrant placement — confirmed
+- When the capital forces a village to accept immigrants against its wishes, apply **local unhappiness and political-relations/stability penalties**. The village dislikes the imposed policy; do not automatically create riots, strikes, armed revolt, or civil war as a direct scripted consequence.
+- **Existing discontent matters**: a village already strongly hostile toward its capital or nation may be pushed past an existing broader loyalty/secession threshold by the additional penalty. This is an interaction with the general accumulated-discontent system, **not** a special automatic immigration-triggered civil war.
+- Exact penalty magnitude, duration, mitigation by national support, and thresholds remain undecided.
+
 ### Still open for design
 - Exact accession scoring, political-difference representation, growth resistance curves, thresholds, administrative effects, negotiating terms, and when a nation counts as mature or sovereign.
 - How conditional offers are displayed to players and whether counteroffers or deadlines exist.
