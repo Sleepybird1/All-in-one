@@ -491,3 +491,22 @@ The following details were explicitly stated in the current conversation transcr
 - Factory closure has **economic**, not automatically diplomatic, spillovers to neighboring settlements. Trade-price effects occur **after a delay**, not instantaneously. The delay's numerical duration is deferred and varies with how crucial the factory is.
 - Factory importance accounts for output, employment, and military supply together. These factors are evaluated using a **fixed, predefined weighting/formula whose effective priorities change dynamically with the nation's actual needs**. For example, labor shortages increase the importance of jobs; military shortages increase the importance of military output. The AI does not arbitrarily choose or rewrite the weights; it supplies/experiences the changing national conditions used by the rule.
 - Exact weights, response functions, thresholds, and timing remain unfinalized.
+
+## Foundational simulation state model — newly required design task (2026-11-14)
+
+### User-confirmed architecture requirement
+- Before continuing to design many isolated AI decision rules, define a **shared base set of state variables and data** that all village, national, company, economic, and diplomatic mechanics reference.
+- Examples explicitly named by the user: **village needs, national needs, reputation, and stability**. Other base values must be identified and defined systematically, including their units, ownership/scope, update triggers, persistence, and which mechanics read or modify them.
+- Use consistent **fixed decision formulas fed by dynamically changing state**, rather than allowing independent AI decisions to invent unrelated weights or duplicate incompatible representations of the same quantity.
+- The actual field list, scales, equations, thresholds, and storage design are **not yet approved**; the following is a candidate taxonomy for review, not a finalized schema.
+
+### Candidate shared state categories — proposed, awaiting review
+1. Village: population, available workers, employment, housing capacity, food and medicine stockpiles, production and consumption, resource needs/surpluses, happiness, local stability, and loyalty to the capital.
+2. Nation: member villages, territorial control, national aggregated needs, treasury, tax income, public expenditures, debt, global credit score, military forces and supplies, national stability, and infrastructure capacities.
+3. Bilateral relations: nation-to-nation reputation/trust, treaty obligations, trade access, sanctions, alliances, and creditor-specific lending assessments.
+4. Companies and assets: ownership, location/host jurisdiction, operating costs, employment, production capacity, inventory, liabilities, collateral, and insolvency status.
+5. Logistics and markets: route connectivity, rail/port capacity, transport costs, local market prices, contracts, verified deliveries, and shortages.
+6. Time and events: simulation tick/date, shortages and rationing durations, loan delinquency clocks, migration events, wartime status, and deferred obligations.
+
+### Open next step
+- Decide the canonical distinction between **raw measured state** (e.g. food stockpile), **derived indicators** (e.g. days of food coverage), and **AI decision outputs** (e.g. rationing order), then define the first core fields and their update cadence. Avoid treating provisional examples as finalized numeric scales.
