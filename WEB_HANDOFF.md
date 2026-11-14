@@ -1,3 +1,7 @@
+## November 14 — village simulation and world economy
+
+The [live economy status](README.md#village-simulation-and-world-economy), [implementation and mod handoff](workflow/settlement-economy-20261113/README.md), [balance calculations](workflow/settlement-economy-20261113/CONTRACT_ECONOMY.md), and [approved design](VILLAGE_AI_SIMULATION_ECONOMY.md) are the current entry points. The Survival save reopened with walking and straight-rail verification, and the original 100,000-block Chunky circle is running past 95,000 positions. The next evidence is the first saved walking shipment, followed by five consecutive service days and a naturally formed public nation. Isolated checks passed 41 economy and rail tests and nine road tests. Workshop receipt compaction, walking history UI, construction claim checks, and the narrower NuclearRadiation scan are staged in source.
+
 ## November 2 — recipe index refresh complete
 
 The balance workbook now includes a native Spawn and spacing table with 21 transferred rules. Recipe index was refreshed from 2,099 distinct saved candidates: 31,167 indexed items, 30,206 source records and 5,433 affected entries including downstream costs. Approved/personal selections take precedence; review, Maybe, rejected and deferred alternatives remain labeled. Runtime evidence remains dated October 28; newer saved authoring is not a gameplay-installation claim.
