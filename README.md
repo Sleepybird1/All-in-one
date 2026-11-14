@@ -3294,3 +3294,16 @@ Use [WEB_HANDOFF.md](WEB_HANDOFF.md) for the exact continuation/evidence map, [C
 ## October25 — recorded-stutter fix draft staged, not installed
 
 Recording attributes49.89%server CPU samples to Nuclear Radiation and25.46%render samples to Rocketnautics sky, with GC pauses1.99/1.57/4.36seconds. New dose-first mutation guard compiles with256MiB/2CPU and skips entity serialization only when native dose gate fails. Native equivalence/mixin/performance NOT_RUN; existing sky and tag snapshot fixes remain staged. No live game/settings/save changes. Full draft: workflow/reported-stutters-20261025/FIX_DRAFT.md. Next isolated native qualification at safe runtime opportunity. Overall204/289(70.6%), progression33/79(41.8%), world-start3/9(33.3%).
+
+
+### Contract categories, foreign assets, transit taxation, and treaty enforcement — confirmed November 14, 2026
+
+**Contract categories (four top-level):** (1) Goods and Services (including freight, maintenance, and logistics), (2) Construction (including housing, infrastructure, and buying/selling existing buildings such as factories), (3) Vehicles, and (4) Loans. Employment is a labor requirement inside relevant contracts, not a separate top-level contract type. Do not create separate Services, Employment, or Real Estate top-level categories. Vehicle contracts remain separate; do not merge vehicles into construction without further approval.
+
+**Foreign-owned assets:** A company may buy, own, operate, or sell a factory or transportation network within another nation's territory. Buying a factory transfers the factory, **not the land** or territorial sovereignty. The host nation retains jurisdiction and may impose applicable business taxes and regulations. Foreign ownership of railway or transportation infrastructure does not exempt its owner or shipments from host-nation taxes.
+
+**Transit taxation:** The host nation may tax shipments across its territory, including shipments of its own domestic companies. The standard transit-tax rate is **uniform for domestic and foreign companies** unless an applicable treaty provides different terms. Treaties may lower the rate, including to **0%** for covered parties. Upon expiration or termination of a treaty, its reductions and exemptions end and the standard rate resumes immediately. Ownership of infrastructure alone does not confer exemption.
+
+**Treaty termination and breach:** Nations may terminate a treaty early in accordance with its termination terms, including payment, goods/resources, required actions, or reputation consequences. Terminating contrary to treaty terms constitutes breach and can lead to severe diplomatic penalties and potentially war; war is a possible outcome, **not automatic**. AI nations must evaluate the benefits of termination or breach against financial/resource costs, reputation damage, diplomatic repercussions, and risk of war before acting. This evaluation must also include **third-party nations' reactions**: other nations may regard a treaty breaker as unreliable, harming relationships and future treaty prospects. The severity and response depend on the circumstances and terms, not a fixed universal penalty.
+
+These rules supersede earlier conflicting category splits or claims that ownership of foreign assets conveys land ownership or tax immunity.
