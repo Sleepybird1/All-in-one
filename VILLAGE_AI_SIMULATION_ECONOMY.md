@@ -197,6 +197,12 @@ This section records decisions explicitly approved during the design review. It 
 - The player is paid upon fulfilled contract in the **agreed compensation**, which can be **money or resources**. Ship construction costs and transport costs must be considered when evaluating profitability.
 - Exact vessel validation criteria, allowed designs/mod integrations, token safeguards, ocean connectivity, receipt redemption, and failure/refund handling remain to be designed. The receipt should represent one validated ship and should not allow duplicate delivery.
 
+### Ship contract validation and separate ammunition contracts — confirmed
+- Before converting a physically built ship into its one-use receipt/token, the game **validates that the ship meets its specific contract requirements**. A generic hull or hollow box cannot be submitted as a fully equipped warship.
+- Ship contracts are **generated according to the purchasing nation's needs** and specify required ship components and quantities. This includes **Create Big Cannons multiblock components**, such as breeches and autoloading breeches, with the requested configuration and count validated as part of the completed ship.
+- **Ammunition is always procured under separate contracts**, not bundled into the shipbuilding contract. This is the user's explicit final correction, superseding the earlier suggestion that a ship contract might include ammunition or explosive shells.
+- The exact blueprint/specification format, accepted cannon configurations, hull/propulsion validation rules, and treatment of optional equipment remain undecided.
+
 ### Still open for design
 - Exact accession scoring, political-difference representation, growth resistance curves, thresholds, administrative effects, negotiating terms, and when a nation counts as mature or sovereign.
 - How conditional offers are displayed to players and whether counteroffers or deadlines exist.
