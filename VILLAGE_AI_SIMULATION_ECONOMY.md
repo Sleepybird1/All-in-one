@@ -183,6 +183,11 @@ This section records decisions explicitly approved during the design review. It 
 - **Wartime consumption and procurement increase sharply**, driving much greater production of cannon ammunition and related equipment. This supports a substantial player-built cannon and ammunition manufacturing industry.
 - Supply remains limited by real national budgets, industrial capacity, and stockpile policy. Specific ammunition types, consumption rates, cannon production recipes, and detailed integration with combat simulation remain open.
 
+### Shipbuilding and naval supply industry — confirmed direction
+- **Ships and shipbuilding industries** are part of the national military-industrial economy, alongside cannon and ammunition industries.
+- Nations can develop and procure ships and related naval equipment through their own industrial capacity or contracts, including opportunities for player-owned shipyards and suppliers.
+- Naval procurement and upkeep should respect national affordability, real industrial capacity, and the broader distinction between peacetime readiness and wartime demand. Exact vessel classes, naval warfare mechanics, ship maintenance, production rates, and integration with specific ship mods remain undecided.
+
 ### Still open for design
 - Exact accession scoring, political-difference representation, growth resistance curves, thresholds, administrative effects, negotiating terms, and when a nation counts as mature or sovereign.
 - How conditional offers are displayed to players and whether counteroffers or deadlines exist.
