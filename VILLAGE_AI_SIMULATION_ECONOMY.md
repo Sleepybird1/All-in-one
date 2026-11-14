@@ -311,3 +311,31 @@ Only label a decision **user-approved** after explicit confirmation. Keep sugges
 
 ### Details still to determine
 - Rationing thresholds, exact penalty curves, compensation valuation and debt accounting, rules for contested federal assets, treaty breach costs, secrecy UI, and numerical AI decision weights remain open. Do not assume the above are implemented in gameplay; these are design decisions.
+
+
+## Historical conversation audit — recovered baseline decisions (2026-11-14)
+
+The following previously discussed user decisions were missing or insufficiently explicit in this specification. This is a retrospective backfill from available conversation history, not a claim that every historical message is accessible. Earlier illustrative numbers remain provisional unless identified as accepted targets.
+
+### Economic model and world baseline — recovered
+- Village and national prices are **dynamic**, driven by actual generated resources, local supply and demand, geography, infrastructure, transportation cost, and tariffs. Resource-rich locations can specialize; transport bottlenecks and trade policy change local market conditions.
+- Village and national treasuries must earn revenue through **exports, services, and taxation**. They cannot spend or create unlimited currency. Shortfalls and debt have real consequences.
+- The simulation begins at a **fixed mid-20th-century technology baseline**. Further technology is acquired through expensive research, purchase, or conquest; nations do not automatically unlock technology simply as time passes. Specific technology trees and prices are not yet designed.
+- Trade routes through controlled territory or coastal waters can be restricted or embargoed; physical routes, capacity, and transit rights matter. Militaries require actual taxation/funding, food, and equipment.
+
+### Player nation supply obligations — recovered
+- Accepted design target: the player must **physically produce and deliver approximately 60% of every essential category** needed by villages in a player-controlled nation, with the remaining approximately 40% handled by locally simulated production. This covers food, tools, construction materials, fuel, military supplies, and medical supplies, rather than only one selected category. The 60/40 split is a tunable design target, not a hard-coded final balance.
+- A player supply shortfall causes shortages, slower growth, unrest, and other proportional economic consequences; it does **not** instantly destroy a village or nation.
+- Foreign imports to a player nation count toward its needs at **reduced fulfillment efficiency**, while domestic transfers between villages of that player nation receive full credit. A 0.2 multiplier / five imported units per one effective unit was discussed as an **illustrative** value only; exact balance remains open.
+- Players physically build national power generation, rail networks, and major infrastructure. Local village industry may expand only where supported by resources or reliable imports.
+- Player-built factories should affect local village output only through **verified production and actual deliveries**. Simply placing Create machines must not magically increase the abstract economy. Players are not prohibited from constructing factories; recognition of their output is the gated step.
+
+### Conquest, reconstruction, and medical demand — recovered
+- War-captured territory can have damaged infrastructure, disrupted services, and extra reconstruction demand. Peacefully ceded territory generally remains physically intact but may suffer political instability and population decline.
+- Reconstruction requirements represent **actual outstanding material needs**; they decline when the required goods are delivered, **not merely with elapsed time**. Repair labor and capacity must still be accounted for.
+- Healthcare consumes real supplies, including potions. Disease outbreaks can increase demand for **specific medicines** rather than only applying an abstract health penalty. Exact disease simulation and item requirements are not yet finalized.
+
+### Consistency and implementation safeguards
+- Preserve the distinction between **confirmed user decisions**, accepted but tunable baselines, illustrative examples, open questions, and implemented/tested behavior.
+- Later explicit user corrections override earlier suggestions. In particular, the 60/40 player-supply target and the example 0.2 import efficiency are different mechanics, and neither should silently become a fixed implementation constant.
+- Treaty renegotiation is confirmed as permitted, but **counteroffers during renegotiation have not yet been answered** and remain open.
