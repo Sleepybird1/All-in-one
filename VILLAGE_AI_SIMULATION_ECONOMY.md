@@ -618,3 +618,8 @@ The following details were explicitly stated in the current conversation transcr
 - Housing does **not** impose an immediate hard population cap at nominal capacity. As the **population-to-housing-capacity ratio** rises, overcrowding produces penalties (including adverse happiness/stability effects).
 - At a **higher, as-yet-undetermined occupancy percentage**, a **hard population cap** applies. Thus both progressive overcrowding penalties and an eventual hard cap coexist.
 - Exact occupancy ratios, penalty curves, and cap percentage are deferred to gameplay balancing. This supersedes the initial 'hard cap only' answer, which the user explicitly revised.
+
+### Housing overcrowding escalation — latest clarification
+- Overcrowding penalties **continue increasing with the population-to-housing-capacity ratio**. At severe levels they must affect wider economic systems, potentially including **food production, other production, and income**, not merely happiness or stability. The purpose is to prevent unchecked population expansion from remaining economically harmless.
+- The user pushed back on the binary 'births/immigration stop versus forced migration' framing. **Do not finalize either mechanism** from that exchange. The earlier proposed hard cap remains in the discussion, but whether it is a literal population ceiling or a practical ceiling enforced through increasingly severe penalties needs explicit clarification.
+- Exact escalation curves and thresholds are deferred to playtesting.
