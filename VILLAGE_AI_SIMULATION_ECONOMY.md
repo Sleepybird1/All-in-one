@@ -549,3 +549,21 @@ The following details were explicitly stated in the current conversation transcr
 - When deciding whether to borrow to finance emergency aid to a village, the national government evaluates **both the affected village's stability and the nation's overall stability**.
 - Village stability indicates local risk and urgency; national stability reflects the wider consequences and capacity to absorb borrowing or diversion of resources. Neither metric alone dictates borrowing.
 - Exact formulas, thresholds, and how the two indicators trade off remain open for later gameplay balancing.
+
+## Conversation audit and reconciliation — 2026-11-14
+
+### Emergency aid, strategic priorities, and balancing — confirmed additions
+- **Economic importance of the affected village is an explicit factor** in national emergency-aid decisions, alongside village stability, national stability, severity of need, nationwide strategic priorities, and available resources/borrowing capacity.
+- A village that is **economically critical may receive substantial assistance even when its stability is high**. Stability is not the sole determinant of aid.
+- Use a **weighted decision model with dynamically changing inputs/needs** rather than a universal yes/no rule. **Do not finalize numerical weights, thresholds, or multipliers until playtesting**; preliminary numbers may be generated for prototyping and then tuned through gameplay.
+- Village and national needs remain separately tracked, with shared views and dynamic influence. Emergency intervention has real costs: if the nation has sufficient food, aid can be shipped in one delivery; otherwise it is delivered in installments as resources become available. Borrowing may be used based on both local and national stability.
+
+### Audit notes: clarified versus deferred
+- Earlier wording suggesting that starvation **must** be substantially more urgent than a minor shortage is **not a fixed priority override**. The later explicit clarification is that the national response depends on stability and other national conditions; shortage severity is one input, not an automatic ranking.
+- National strategic priorities take account of the whole country; an isolated village's difficulty does not automatically displace them. However, critical economic importance and stability risks can increase its aid priority.
+- Existing provisional candidate data fields and formulas remain proposals unless separately confirmed. No numerical balance values are locked.
+
+### Cross-check of decisions captured from the available conversation
+- Confirmed present in document: territorial seizure of collapsed company assets; need-based operation/sale/scrapping; real factory costs; closure impacts on jobs, salvage, and delayed economic prices; fixed rules driven by dynamic national needs; foundational shared state; decimal 0–100% subjective metrics; happiness modifies stability; separate village/national needs and combined dashboard; strategic needs and phased acquisition; nation-wide priorities; stability-sensitive emergency aid and borrowing.
+- Added in this audit: village economic importance as a separate aid factor; high-stability but economically critical villages can still receive high aid; weighted model with numerical tuning explicitly deferred to playtesting; clarification preventing severity from becoming an unconditional override.
+- This cross-check covers the conversation excerpts available here and the existing document, **not an independently verified exhaustive transcript of all prior sessions**.
