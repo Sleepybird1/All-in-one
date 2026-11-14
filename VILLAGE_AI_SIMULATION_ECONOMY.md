@@ -203,6 +203,15 @@ This section records decisions explicitly approved during the design review. It 
 - **Ammunition is always procured under separate contracts**, not bundled into the shipbuilding contract. This is the user's explicit final correction, superseding the earlier suggestion that a ship contract might include ammunition or explosive shells.
 - The exact blueprint/specification format, accepted cannon configurations, hull/propulsion validation rules, and treatment of optional equipment remain undecided.
 
+### National ship classes, custom orders, and trade access — confirmed
+- Nations can order **both standardized ship classes and custom ship specifications**.
+- Custom ship designs **cost more** than comparable standard-class orders; the premium and cost formula remain undecided.
+- **Each nation defines its own standard ship classes**, rather than all nations sharing one universal catalog.
+- Player access to a nation's ship standards and design information **depends on diplomatic relations**. Exact visibility thresholds and treatment of existing knowledge remain open.
+- **Poor diplomatic relations reduce the likelihood of receiving contracts**, because nations tend to shift their business to alternative trade partners. This is reduced demand/access, not random contract unpredictability.
+- **Hostile relations block all direct trade**, including military and civilian contracts. No intermediary bypass was approved; any exception would require a separate decision.
+- These rules apply alongside existing ship-validation, receipt, naval-route, and separate-ammunition-contract requirements.
+
 ### Still open for design
 - Exact accession scoring, political-difference representation, growth resistance curves, thresholds, administrative effects, negotiating terms, and when a nation counts as mature or sovereign.
 - How conditional offers are displayed to players and whether counteroffers or deadlines exist.
