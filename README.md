@@ -19,11 +19,29 @@ The pack needs recurring work for large factories, logistics networks, and late-
 - Treat the Warp Drive as the Part One finale. The intended cinematic leaves the solar system, shows an unknown-species warp moment, then fades to credits. Continue interstellar progression separately.
 - Keep physical placement and simulation separate. A loaded chunk should read whether the village has an approved upgrade, and only a prepared placement job should do additional block work. Persist elapsed time, batch the due work, avoid forced chunks for routine economy, and measure TPS, MSPT, heap, and loaded entities before scaling.
 
+### Contract and production accounting
+
+Villages publish repeatable tenders for food and industrial inputs, production, maintenance, freight and passengers, sustained power, bulk energy, construction, and regional exports. A shortage is the stock target minus usable stock, firm inbound shipments, earlier accepted quantities, and confirmed available local output. Lots are limited by the shortage, the depot's unreserved capacity, and the buyer's available budget. Signatures reserve that space and lock the unit price. Payment requires a matching delivery or service receipt. Repeat offers open as users consume stock and funded demand returns.
+
+Production batches are limited by inputs at normal pack recipe costs, workers, machines, energy, and output space. Scheduled transfers can use existing hubs, with household reserves and already signed commitments first, then treaty allocations and the open market. Village and league accounts retain separate stock and treasuries. A capped regional or offworld buyer can fund recurring exports, with verifiable payments and delivery keeping local trade from paying for the same goods twice.
+
+For the first maintenance example, a commissioned Atmospheric Scoop already needs four Steel Mechanisms and one Advanced Precision Mechanism after 32 completed extractions. With current machine settings those runs produce 32,000 mB of condensate and consume 104,857,600 FE and 51,200 mB of coolant before service. Automatically posting its missing parts, collecting the correct delivery, and applying them to that scoop remains a proposed depot integration.
+
 ### Installed in the live pack
 
 - The All in one profile uses NeoForge 21.1.259 with Hirelings enabled. A full cloned pack joined a world on that loader, and the earlier dashboard revision was installed in the live profile.
 - The installed revision includes a visible market stand, a Settlement Dashboard, a receiving barrel, starter bread, charcoal and plank orders, Create package intake, FTB village claim protection and team-average prices, and seasonal reserve targets. Fresh village placement uses a 64-chunk spacing grid. Water, terrain and biome restrictions can result in gaps beyond 2,000 blocks.
 - The village economy revision and both targeted world-generation fixes were installed on November 14. The incompatible Forge build of Alex's Caves was moved aside so NeoForge can start. The previous, cancelled Chunky task was archived. Industrial Colonies Survival Test opened in command-disabled Survival with the exact The Pack preset, the tested terrain seed, and a snowy continental spawn. The one-line Chunky circle started at the continent center, `-134044, -93130`, with radius 100,000 blocks and a 100 GiB disk floor for a resumable pause.
+
+### Mods and their roles
+
+| Status | Mod and role |
+| --- | --- |
+| Installed and used | RoadArchitect generates and proves starter roads. JourneyMap shows dashboard markers and MapFrontiers shows national territory and stats. Serene Seasons adjusts starter reserves. Create handles physical packages, and FTB Teams shares village reputation across members. |
+| Installed with scoped controls | Kingdom keeps explicit diplomacy and troops while automatic village admission, construction, road work, and siege block damage are suppressed. Villager Commerce keeps ordinary stalls and its local ledger with premium contracts disabled. Industrial Colonies owns the village contracts and national accounting. |
+| Installed, available for pilots | MineColonies and Colony Logistics for builders and depots, Hirelings and Villager Industries for staffed player facilities, Easy NPC for authored dialogue, and Recruits and Caravans & Convoys for bounded encounters and routes. Create Aeronautics and Automated Logistics provide the existing ship and route mechanics. |
+| Installed, separate systems | Farmer's Delight provides food. Contracts & Feasts injects its own boards with separate rewards. The Villager Industries recipe overlay targets eight ore refill routes. Player companies, Builders, and these add-on contracts still need their own settlement handoff if adopted. |
+| Parked or absent | Aeronautic Crew is parked pending compatible Sable, Villager Life remains disabled, and Villager Apprentice and Pax road generation are absent from the live profile. The pack's current road provider is RoadArchitect. |
 
 ### Implemented in source and tested
 
@@ -39,7 +57,7 @@ The pack needs recurring work for large factories, logistics networks, and late-
 - Calibrate large-volume contracts against actual production, power, costs, and logistics. Automated production jobs across many facilities, cross-nation trade, bulk offworld demand and factory-scale throughput remain open.
 - Validate reliable route damage and repair evidence, per-chunk sovereignty and structure blockades, autonomous secession and defense, MineColonies or Hirelings workflows, and the cinematic. Preserve player builds and saved national identities as these behaviors are added.
 - The 100,000-block circle has about 30,000 possible village placement slots before terrain filtering. The current 65,536-cell ledger can reach its cap around 1,337 dry villages with full starting territories. Before testing tens of thousands of active settlements, benchmark queue delay and save writes, then validate regional storage, compact land records, shared starter offer templates, receipt journaling and a larger persistent flag catalog.
-- Initial Chunky throughput is limited by Giant Trees capture spill writes contending with the server tick. The circle contains about 122.7 million chunks and a prior save's average terrain allocation projects to roughly 1.25 TiB at that scale. That estimate exceeds current free space on the save drive, so generation can be active while full completion remains a storage and performance problem.
+- Initial Chunky throughput is limited by Giant Trees capture spill writes contending with the server tick. A second fix passed a concurrent file test and is staged for native performance testing. The circle contains about 122.7 million chunks and a prior save's average terrain allocation projects to roughly 1.25 TiB at that scale. That estimate exceeds current free space on the save drive, so generation can be active while full completion remains a storage and performance problem.
 
 ## Preserve original native plate textures — November 6, 2026 correction
 
