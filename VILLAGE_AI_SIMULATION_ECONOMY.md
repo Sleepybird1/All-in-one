@@ -457,3 +457,7 @@ The following details were explicitly stated in the current conversation transcr
 ### Repeat defaults after rehabilitation — confirmed
 - A nation or company that defaults again after recovering from a previous serious default receives a **harsher persistent default penalty than for its first default**.
 - The increased penalty affects creditworthiness and associated reputation/relations under the existing default rules. Exact escalation amounts, how many past defaults count, and whether severity ever resets remain undecided.
+
+### Default history rehabilitation after sustained good behavior — confirmed
+- Prior serious defaults do **not count against a nation or company forever**. After a sufficiently long period of consistently reliable financial behavior, the historical repeat-default record can cease to increase the severity of future default penalties.
+- This is separate from removing an *active* persistent default modifier, which still requires full repayment and reaching the effective credit-score threshold. The required good-behavior duration and reset rules remain undecided; 'years' was conversational, not a finalized game-time requirement.
