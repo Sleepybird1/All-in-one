@@ -471,3 +471,8 @@ The following details were explicitly stated in the current conversation transcr
 - **Companies do not have sovereign authority over nations.** When a company pledges assets located inside a nation's borders and then defaults, the host nation can seize those assets under applicable debt-enforcement rules; the company cannot invoke sovereignty to prevent seizure.
 - **National collateral inside the borrowing nation's own territory is different**: a foreign creditor does not automatically gain physical control or unilateral seizure power merely because it holds a security interest. The borrowing nation controls its territory; enforcement instead involves financial, diplomatic, and potentially negotiated consequences under the previously approved sovereign-default rules.
 - This jurisdiction distinction does not finalize whether other countries may seize company assets outside their own territory or the detailed legal/process requirements for host-nation confiscation.
+
+### Host-nation confiscation after company collapse — confirmed
+- When a company collapses and can no longer maintain or pay for property located inside a nation's territory, **that host nation immediately confiscates the stranded company property/assets**. This applies even when the company had pledged the assets as collateral to a creditor in another country.
+- The foreign creditor **does not independently seize assets inside a third nation's territory**; the host nation takes possession itself under its territorial authority. The disposition of those confiscated assets and whether a foreign creditor has any subsequent claim remain undecided.
+- This is specifically a company-collapse rule, not a blanket rule that any missed company loan payment instantly causes confiscation.
