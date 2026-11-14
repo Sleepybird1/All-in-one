@@ -449,3 +449,7 @@ The following details were explicitly stated in the current conversation transcr
 - Full repayment alone is insufficient to clear a serious-default debuff. The debtor must also **raise its worldwide/national credit score to a required recovery threshold**.
 - The persistent debuff **reduces the national credit score while active**, so the debtor must improve its underlying creditworthiness enough to reach the required score **despite the debuff**; do not ignore or remove the debuff when testing eligibility.
 - The actual threshold, numerical modifier, and additional corrective actions are not yet specified. For companies, analogous company credit/reputation recovery applies, with precise scoring mechanics open.
+
+### Immediate removal of persistent default debuff after qualification — confirmed
+- Once the debtor has **fully repaid the defaulted debt** and raised its **effective credit score (including the active debuff)** to the required recovery threshold, the persistent default debuff is **removed completely at once**, not gradually faded out.
+- The underlying score and any other independent credit penalties remain governed by their own rules. Numerical thresholds remain undecided.
