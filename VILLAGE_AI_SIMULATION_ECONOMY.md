@@ -225,6 +225,12 @@ This section records decisions explicitly approved during the design review. It 
 - Those priorities are determined by **multiple factors**, explicitly including the nation's strategic goals, public happiness, and the population's actual needs. The AI weighs these together, not strategy alone or happiness alone.
 - Exact weights, conversion recipes, timing, and interactions with lingering defense requirements remain undecided.
 
+### Population migration: ongoing movement and event-driven waves — confirmed
+- Simulated populations may migrate **between villages and between nations** in response to employment opportunities, safety, and living conditions.
+- Migration has **both a gradual ongoing component and occasional rapid waves** triggered by major events; it is not restricted to one mode.
+- **Attacks on a village** are an explicit example of an event that can drive people to flee much more quickly than ordinary economic migration.
+- Migration should change the actual simulated population distribution and thereby affect the labor pool and economic needs of origin and destination settlements. Exact migration rates, destination choice, border controls, transportation constraints, and refugee-handling rules remain undecided.
+
 ### Still open for design
 - Exact accession scoring, political-difference representation, growth resistance curves, thresholds, administrative effects, negotiating terms, and when a nation counts as mature or sovereign.
 - How conditional offers are displayed to players and whether counteroffers or deadlines exist.
