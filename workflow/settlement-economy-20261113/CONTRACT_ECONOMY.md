@@ -32,6 +32,8 @@ Population growth depends on food surplus, housing, employment, healthcare, and 
 
 An independent village can join a trade league. A mature league can become a nation with shared trade policy, infrastructure tenders, and a national treasury separate from every village treasury. Villages remain the local depots, work sites and places players visit. Each anchor represents its settlement and a surrounding district. A mature nation representing **40 million simulated residents** across its districts is a scale target for balancing.
 
+Nations start preindustrial with some basic machinery. Their exact starting machines and technology tiers remain open. Research, purchases, or conquest can advance technology.
+
 ### Residents the player sees
 
 - Give each loaded village a provisional ceiling of **30–40 live villagers**. Show workers, traders, station crews, officials and residents at locations players use. Preserve the identities of named characters and leave player-managed villagers alone. Count existing villagers against the local display budget before adding any representatives.
@@ -101,6 +103,11 @@ Population change is births minus deaths plus immigration minus emigration. Grow
 | Bulk energy | Deliver a quantity of energy to a reserve before a deadline | Metered net import accumulates over the window. Separate intervals can contribute. |
 | Construction and commissioning | Supply, build and start a refinery or export terminal | Finite bill of materials and a separate startup milestone. The operating facility can create recurring jobs afterward. |
 | Regional or external export | Ship standardized bulk steel or finished mechanisms under a supply agreement | Funded purchase lots renew on a schedule within the buyer's capacity, order quota and budget. |
+| Vehicles | Buy, build, or replace ships and rail equipment | Agreements may cover recurring batches or fixed-price upkeep for the agreed term. Exact vehicle performance checks remain open. |
+
+Fund genuine unmet needs after accounting for stock, internal production, incoming shipments, and signed orders. A forecast can justify a binding contract today for delivery later. Reliable service can earn a larger share of demand as other contracts expire. Growth in population and industry drives the overall need.
+
+The president sets policies, national budget priorities, procurement defaults, and specific national requests. Villages keep their own accounts and handle routine procurement. The player's company owns its own finances and signs its own contracts. On goods or equipment procurement issued by the player's own nation, offer the full order first to eligible domestic villages, then to the player's company, then to eligible foreign suppliers. Move to the next candidate if the current one cannot fill the whole order. AI nations use their own market and diplomacy rules. Market conditions set legitimate prices. Existing commitments remain binding. Commissioned assets belong to the purchasing nation unless the contract says otherwise. [Approved procurement and government authority](../../VILLAGE_AI_SIMULATION_ECONOMY.md#contract-authority-and-editable-versus-calculated-fields--scope-specific-audit-clarification)
 
 ## The calculations
 
@@ -155,7 +162,7 @@ An export agreement should fund multiple lots over several periods and publish i
 ### Village wealth and national taxation
 
 - Each village and the national government own an operating account and a separate reserve treasury. Operating accounts receive revenue and pay trade, wages, services, and interest. A combined national report creates no additional spendable funds. Nations normally receive village funds through taxes or authorized transfers. Confiscation for unpaid obligations remains open.
-- The village wealth indicator records net economic gains and losses, with a reporting floor of zero. At the end of each tax/pay cycle, tax the eligible positive operating surplus at the applicable percentage. Transfer the tax to the national operating account and the village's after-tax surplus to village reserves. The nation's remaining operating surplus moves to its own reserves after its obligations. Record reserve transfers and loan principal as financing. Track interest separately and exclude internal transfers, savings, and loan proceeds from taxable revenue.
+- The village wealth indicator reports net economic gains and losses with a floor of zero. In the Numismatics two-account design, tax applies to eligible positive net operating surplus after actual expenses. Transfer the tax to the national operating account and remaining village surplus to village reserves. The nation's remaining operating surplus moves to its own reserves after its obligations. Record reserve transfers and loan principal as financing and track interest separately. [Approved tax base](../../VILLAGE_AI_SIMULATION_ECONOMY.md#tax-base-reconciliation--direct-user-decision-2026-11-14)
 - If national policy permits, deduct an eligible loss automatically in the immediately following tax cycle. Any unused deduction expires at that cycle's end. Policy changes apply from the next cycle. Rates respond to village and national needs, with collection intervals and rate limits still open.
 - While the server runs, review purchases, sales, health spending, and financing about every two minutes. Debt relative to savings drives spending cuts before accounts empty. Reserves can cover operating shortfalls, and eligible borrowers may still borrow for worthwhile investments. Use new forecasts to set the next cycle's budget targets and honor current commitments.
 - Happiness combines economic and living conditions. Happiness pulls stability gradually toward better or worse conditions, with faster change farther from neutral. Raising ordinary taxes can lower happiness. A tax-related decline in stability requires contextually excessive taxation. Count that effect once. Military stationing or occupation can affect happiness and stability independently depending on local conditions and relations with the national government. The thresholds and rates remain tunable.
@@ -165,6 +172,8 @@ An export agreement should fund multiple lots over several periods and publish i
 ### Lending and fiscal terms
 
 Villages and nations can seek loans from domestic government banks, other villages, foreign nations, or other eligible lenders. Prefer competitive domestic offers and compare feasible effective rates based on eligibility and lender relations. Start with the lender's posted rate for that loan, then account for purpose, credit, existing debt, loan size relative to reserves, and lender exposure. Large loans may cost more or be declined. Feasible funding follows actual reserves and risk instead of a universal borrowing cap. Existing rules govern overdue loans, repayment, credit recovery, and collateral. Exact pricing, repayment schedules, and banking interfaces remain open.
+
+The borrower can specify principal and purpose, compare offers, and reject a smaller offer while seeking the original sum elsewhere. If the borrower accepts partial funding, record a separate loan, disburse the funded principal, and open a new request for the remainder. A player acting as lender can counter with a different principal. The simulation recalculates interest and other terms from the latest conditions. [Approved principal counteroffers](../../VILLAGE_AI_SIMULATION_ECONOMY.md#loan-offer-counteroffers--principal-only-direct-user-clarification-2026-11-14)
 
 [Approved accounts and cash flows](../../VILLAGE_AI_SIMULATION_ECONOMY.md#village-and-national-accounts-flow-of-money) · [Approved lending terms](../../VILLAGE_AI_SIMULATION_ECONOMY.md#lending-sources-lender-selection-pricing-and-limits)
 
