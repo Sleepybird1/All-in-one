@@ -466,3 +466,8 @@ The following details were explicitly stated in the current conversation transcr
 - The good-behavior period for clearing historical repeat-default escalation **restarts only after another serious default**, such as an unresolved secured-loan default involving pledged collateral and failure to honor repayment demands.
 - An ordinary late or missed payment still causes its normal credit-score/trust consequences, but does **not** restart the historical serious-default rehabilitation period by itself.
 - Exact classification thresholds for a serious default remain open.
+
+### Territorial jurisdiction and collateral enforcement — confirmed clarification
+- **Companies do not have sovereign authority over nations.** When a company pledges assets located inside a nation's borders and then defaults, the host nation can seize those assets under applicable debt-enforcement rules; the company cannot invoke sovereignty to prevent seizure.
+- **National collateral inside the borrowing nation's own territory is different**: a foreign creditor does not automatically gain physical control or unilateral seizure power merely because it holds a security interest. The borrowing nation controls its territory; enforcement instead involves financial, diplomatic, and potentially negotiated consequences under the previously approved sovereign-default rules.
+- This jurisdiction distinction does not finalize whether other countries may seize company assets outside their own territory or the detailed legal/process requirements for host-nation confiscation.
