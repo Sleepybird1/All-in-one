@@ -530,3 +530,8 @@ The following details were explicitly stated in the current conversation transcr
 - The **national government sets priorities based on the nation-wide strategic picture**, not an automatic rule that any single struggling village outranks national objectives or the needs of all other villages.
 - When one village faces a shortage but the rest of the nation has other priorities, that village **does not automatically become the top national priority**. Its hardship still contributes to the information used in national decisions.
 - This does **not** mean the government must always ignore local emergencies or that military projects always win; the relative severity and breadth of needs, national goals, and available resources still matter. Exact allocation formula remains open.
+
+### Severity-sensitive village needs in national prioritization — confirmed
+- The national government must consider **severity** of a village's hardship, not merely whether a shortage exists or how many villages are affected. Actual starvation is substantially more urgent than a minor food shortfall.
+- Severity modifies the village's influence on national priorities, but **does not automatically override the overall national assessment**; severity, population affected, wider national needs, and strategic priorities must be weighed together using the shared data model.
+- Exact severity thresholds, weighting curves, and response timing are deferred until gameplay testing.
