@@ -414,3 +414,7 @@ The following details were explicitly stated in the current conversation transcr
 ### Lender-specific credit-score cutoffs — confirmed
 - **Each lending nation sets its own minimum numerical credit-score threshold** for loan eligibility. There is no universal minimum cutoff shared by all lenders.
 - This works alongside the global baseline score and lender-specific bilateral assessment. Exact thresholds, adjustment rules, and exceptions remain undecided.
+
+### Dynamic lender credit-score thresholds — confirmed
+- Each lending nation may **dynamically adjust its own minimum credit-score cutoff** in response to changing conditions, including wars and economic crises, rather than keeping that threshold fixed indefinitely.
+- Changes affect the lender's willingness to issue new loans; exact adjustment factors, cadence, and whether existing loans are affected remain undecided.
