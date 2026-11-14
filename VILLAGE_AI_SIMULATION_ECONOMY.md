@@ -567,3 +567,27 @@ The following details were explicitly stated in the current conversation transcr
 - Confirmed present in document: territorial seizure of collapsed company assets; need-based operation/sale/scrapping; real factory costs; closure impacts on jobs, salvage, and delayed economic prices; fixed rules driven by dynamic national needs; foundational shared state; decimal 0–100% subjective metrics; happiness modifies stability; separate village/national needs and combined dashboard; strategic needs and phased acquisition; nation-wide priorities; stability-sensitive emergency aid and borrowing.
 - Added in this audit: village economic importance as a separate aid factor; high-stability but economically critical villages can still receive high aid; weighted model with numerical tuning explicitly deferred to playtesting; clarification preventing severity from becoming an unconditional override.
 - This cross-check covers the conversation excerpts available here and the existing document, **not an independently verified exhaustive transcript of all prior sessions**.
+
+## Population structure, military stationing, and insurrection — confirmed design decisions (2026-11-14)
+
+### Population accounting and dashboard
+- Every village tracks a **total population** and a **breakdown by population roles/groups**. Children and elderly are combined into a single **dependents** group rather than separately modeled age groups.
+- Population change is calculated from **births minus deaths plus immigration minus emigration** (including movement between villages and across national borders). Movement between villages must reduce the origin village and increase the destination village without changing the nation's total population.
+- The dashboard's **summary view** displays current total population and **net population change**. The **detailed view** can show births, deaths, immigration, and emigration as separate lines, alongside the net change. These are components of one population-change calculation, not independent extra population additions.
+- Roles can overlap: the total population counts each individual **once**, while role totals are **not necessarily additive**. A person can simultaneously be a worker and a militiaman. No time-allocation fractions between these two roles are required; role flags suffice.
+
+### Workers, militia, and professional soldiers
+- **Militia** is its own identifiable role/group but militia members can also be regular village workers. Count their militia status separately without subtracting them from the worker population solely for being militia.
+- **Professional soldiers** are a separate category, employed by the **national government as soldiers**; they are not counted as ordinary village workers even while not deployed.
+- Villages record the **number of professional soldiers physically stationed there**, but the **nation decides deployment and garrison size** (for example, it can station 8,000 troops in a village). National soldier counts and village stationing counts must reconcile without counting the same troops as additional people.
+- A village's willingness to host a garrison can vary with its **stability** and potentially its relations with the national government. Low stability may contribute to hostility toward troop presence; the precise relationship is not yet numerically defined.
+
+### Garrison refusal and insurrection
+- Villages **cannot ordinarily veto** national troop stationing. An outright refusal is an **act of insurrection**, not a routine administrative option.
+- An insurrection over troop stationing **may begin with negotiation**, but the government may instead proceed **directly to military action**, depending on the simulation's circumstances and variables.
+- **Stability and village–national relations** are confirmed inputs to deciding between negotiation and immediate military action. No automatic response, fixed threshold, or guaranteed peaceful stage has been approved.
+
+### Implementation cautions and deferred values
+- Keep physical population headcounts distinct from overlapping employment/militia role memberships and troop stationing assignments. Do not sum overlapping role counts to calculate population.
+- Exact update intervals, role definitions beyond those named, troop-placement consequences, and formulas/weights for unrest and response are deferred for playtesting.
+- These sections reconcile the confirmed decisions in the supplied continuation transcript; they do not imply that every prior session has been independently re-audited.
