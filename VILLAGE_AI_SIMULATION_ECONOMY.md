@@ -212,6 +212,13 @@ This section records decisions explicitly approved during the design review. It 
 - **Hostile relations block all direct trade**, including military and civilian contracts. No intermediary bypass was approved; any exception would require a separate decision.
 - These rules apply alongside existing ship-validation, receipt, naval-route, and separate-ammunition-contract requirements.
 
+### Gradual, resource-costed wartime industrial conversion — confirmed
+- Nations transition from civilian to military production **gradually**, rather than instantly obtaining maximum wartime output.
+- Wartime mobilization can **reallocate workers** from civilian production to military production and can involve **higher taxes**, but tax policy is a **dynamic national decision**, not an automatic fixed tax increase for every war or conversion.
+- Repurposing an existing civilian factory requires **actual conversion work and material/resource expenditures** in addition to shifting labor. The nation cannot merely relabel civilian output as military output at no cost.
+- Converting an existing factory is **less resource-intensive than constructing a brand-new factory**, but still has meaningful costs and a transition period.
+- Conversion decisions must reflect national finances, available materials, industrial capabilities, workforce, and competing civilian needs. Exact conversion recipes, duration, tax behavior, and production ramp curves remain undecided.
+
 ### Still open for design
 - Exact accession scoring, political-difference representation, growth resistance curves, thresholds, administrative effects, negotiating terms, and when a nation counts as mature or sovereign.
 - How conditional offers are displayed to players and whether counteroffers or deadlines exist.
