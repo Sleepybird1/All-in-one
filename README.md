@@ -3,6 +3,8 @@
 
 The pack needs recurring work for large factories, logistics networks, and late-game power plants. A village spends its treasury on food, equipment, maintenance, freight, and services it can actually use. Funded orders reserve money and receiving space. Verified deliveries settle orders and become usable stock. Industry then consumes that stock, sells its output, and creates the next round of demand. Long-lived customers and replacement programs should give players reasons to produce millions of ordinary materials after finishing the main progression.
 
+The separately reviewed [approved village economy design](VILLAGE_AI_SIMULATION_ECONOMY.md) records newer policy, labor, debt, sovereignty and diplomacy decisions. The draft values below are working examples for discussion.
+
 ### Decisions for the next design pass
 
 - Use one Minecraft day for daily accounting, with forecasts and routes reviewed every 1–3 real minutes as a tuning target. Stage price, demand, population, and border changes so a single recalculation cannot swing an entire economy. Slow freight should see conditions evolve during the trip while its signed price and destination stay reserved.
@@ -34,6 +36,19 @@ The contract design covers repeatable tenders for food and industrial inputs, pr
 Production batches are limited by inputs at normal pack recipe costs, workers, machines, energy, and output space. Scheduled transfers can use existing hubs, with household reserves and already signed commitments first, then treaty allocations and the open market. Village and league accounts retain separate stock and treasuries. A capped regional or offworld buyer can fund recurring exports, with verifiable payments and delivery keeping local trade from paying for the same goods twice.
 
 For the first maintenance example, a commissioned Atmospheric Scoop already needs four Steel Mechanisms and one Advanced Precision Mechanism after 32 completed extractions. With current machine settings those runs produce 32,000 mB of condensate and consume 104,857,600 FE and 51,200 mB of coolant before service. Automatically posting its missing parts, collecting the correct delivery, and applying them to that scoop remains a proposed depot integration.
+
+### Balance examples for brainstorming
+
+| System | Calculation or working figure |
+| --- | --- |
+| Population | One Minecraft day per accounting period. Each simulated resident needs four food per day, so 1 million residents require 4 million food and 40 million require 160 million. Four residents per home is the initial planning assumption. |
+| Growth | Surplus food and vacant housing, utilities, and staffed capacity must coincide for three completed days. The current district model then caps growth at about 0.5% per day, also bounded by surplus food and the smallest remaining capacity. |
+| Visible residents | Add one representative at 300,000, 600,000, 1.2 million, 2.4 million, 4.8 million, 9.6 million, 19.2 million and 38.4 million district residents. Available beds, verified jobs, and loaded-entity budgets also cap representation. |
+| Orders | Subtract usable stock, signed incoming lots, and separately confirmed supply from the target. Round the result down to whole lots constrained by receiving space and available funds. Accepted quantities and carried freight keep their reserved price. |
+| Factories | Bound output per period by equipment, labor, power, materials, terrain potential where relevant, and output capacity. Keep the full pack bill of materials for national production. |
+| Industrial scale | Illustrative quotas of 33,600 steel, 1,920 Steel Mechanisms and 320 Nitro Energy Mechanisms per service day yield 1,008,000 steel, 57,600 mechanisms and 9,600 Nitro mechanisms in 30 days. Convert them to actual ore, machine, power and freight requirements before setting live quotas. |
+| Territory | Track unsurveyed estimates, confirmed native ore, and current production as separate quantities. Regional capacity uses recovered yield, infrastructure, and connected terrain. Simulated output leaves players' physical veins intact. |
+| Maintenance and power | Verified operating time determines spare-part demand. An eligible outage breaks a sustained-power window while preserving prior confirmed bulk energy. Measured receipt and transmission loss determine the generation requirement. |
 
 ### Installed in the live pack
 
